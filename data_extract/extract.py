@@ -1,10 +1,10 @@
+from Bio import Entrez, Medline  # Importing necessary modules for PubMed access and parsing.
+
 """
 This script interacts with the PubMed database to retrieve and process scientific articles based on a specified search query. 
 It uses the Biopython library to perform the search, fetch detailed article information in MEDLINE format, 
 and extract key details such as the title, abstract, DOI, and authors. The results are stored in a dictionary for further analysis.
 """
-
-from Bio import Entrez, Medline  # Importing necessary modules for PubMed access and parsing.
 
 def fetch_pubmed_articles(query, email, retmax=10):
     """
@@ -48,15 +48,3 @@ def fetch_pubmed_articles(query, email, retmax=10):
 
     return articles_dict
 
-# Query parameters
-query = "artificial intelligence AND Health technology Assessment"
-retmax = 10000  # Maximum number of articles to retrieve.
-email = "bjboverhof@gmail.com"
-
-# Fetch articles and process results
-articles = fetch_pubmed_articles(query=query, email=email, retmax=retmax)
-articles_keys = list(articles.keys())  # Extract PMIDs from the results.
-len(articles_keys)  # Count the number of retrieved articles.
-
-# Print the abstract of the second article (index 1).
-articles[articles_keys[1]]["Abstract"]
