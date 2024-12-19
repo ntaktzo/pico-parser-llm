@@ -1,0 +1,5 @@
+{
+  "python.pythonPath": "/opt/homebrew/opt/python",
+  "python.defaultInterpreterPath": "/opt/anaconda3/envs/llms/bin/python"
+  
+}
