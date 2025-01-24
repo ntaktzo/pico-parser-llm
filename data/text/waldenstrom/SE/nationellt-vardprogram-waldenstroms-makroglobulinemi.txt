@@ -1,0 +1,2164 @@
+Waldenströms 
+makroglobulinemi  
+Nationellt vårdprogram  
+2021 -09-15Version: 2.0 
+ 
+ Innehållsförteckning   
+Kapitel 1  ................................ ................................ ................................ ...............................  4 
+ Sammanfattning  ................................ ................................ ................................ ..................  4 
+Kapitel 2  ................................ ................................ ................................ ...............................  5 
+ Inledning  ................................ ................................ ................................ ..............................  5 
+2.1 Vårdprogrammets giltighetsområde  ................................ ................................ ...........  5 
+2.2 Förändringar jämfört med tidigare version  ................................ ................................ .. 5 
+2.3 Standard iserat vårdförlopp  ................................ ................................ .........................  6 
+2.4 Lagstöd  ................................ ................................ ................................ ......................  6 
+2.5 Evidensgradering  ................................ ................................ ................................ ....... 6 
+Kapitel 3  ................................ ................................ ................................ ...............................  8 
+ Mål med vårdprogrammet  ................................ ................................ ................................ ... 8 
+Kapitel 4  ................................ ................................ ................................ ...............................  9 
+ Bakgrund och orsaker  ................................ ................................ ................................ ........  9 
+4.1 Incidens  ................................ ................................ ................................ .....................  9 
+4.2 Orsaker  ................................ ................................ ................................ ......................  9 
+4.3 Överlevnad  ................................ ................................ ................................ ................  9 
+Kapitel 5  ................................ ................................ ................................ .............................  10 
+ Primär prevention  ................................ ................................ ................................ ..............  10 
+5.1 Levnadsvanor  ................................ ................................ ................................ ..........  10 
+5.2 Riskfaktorer  ................................ ................................ ................................ .............  10 
+Kapitel 6  ................................ ................................ ................................ .............................  11 
+ Screening  ................................ ................................ ................................ ...........................  11 
+Kapitel 7  ................................ ................................ ................................ .............................  12 
+ Ärftlighet  ................................ ................................ ................................ ............................  12 
+Kapitel 8  ................................ ................................ ................................ .............................  13 
+ Symtom och tidig utredning  ................................ ................................ .............................  13 
+8.1 Symtom och kliniska fynd ................................ ................................ .........................  13 
+8.1.1 Symtom orsakade av benmärgsinfiltration  ................................ ................................ ..............................  13 
+8.1.2 Symtom orsakade av IgM M -komponenten  ................................ ................................ .............................  13 
+8.1.3 Andra symtom och fynd  ................................ ................................ ................................ ...........................  14 
+8.2 Speciella problem vid WM  ................................ ................................ ........................  15 
+8.2.1 Hyperviskositet  ................................ ................................ ................................ ................................ ........  15 
+8.2.2 Amyloidos  ................................ ................................ ................................ ................................ ................  15 
+8.2.3 Bing–Neels syndrom (BNS)  ................................ ................................ ................................ ....................  15 
+8.2.4 Kryoglobulinemi  ................................ ................................ ................................ ................................ ....... 16 
+8.2.5 Köldhemolys (Chronic Cold Agglutinin Disease eller CAD)  ................................ ................................ ..... 16 
+8.2.6 Neuropati  ................................ ................................ ................................ ................................ .................  16 
+8.3 Ingång till st andardiserat vårdförlopp  ................................ ................................ ....... 16 
+8.4 Utredning av patienter som inte uppfyller kriterierna för välgrundad misstanke  ........  17 
+Kapitel 9  ................................ ................................ ................................ .............................  18 
+ Diagnostik  ................................ ................................ ................................ ..........................  18 
+9.1 Utredning enligt standardiserat vårdförlopp  ................................ ..............................  18 
+9.2 Utredning  ................................ ................................ ................................ .................  18 
+9.2.1 Utredning av M -komponent av IgM -typ ................................ ................................ ................................ ... 18 
+9.2.2 Röntgenologisk utredning  ................................ ................................ ................................ ........................  18 
+9.2.3 Övrig utredning  ................................ ................................ ................................ ................................ ........  19 
+9.2.4 Performance status (WHO/ECOG)  ................................ ................................ ................................ ..........  20 
+9.3 Diagnoskriterier  ................................ ................................ ................................ ........  20 
+ 
+ 1 9.4 Prognosfaktorer  ................................ ................................ ................................ ....... 21 
+9.4.1 International Prognostic Scoring System for WM (IPSSWM)  ................................ ................................ .. 21 
+9.4.2 Andra prognosfaktorer  ................................ ................................ ................................ .............................  21 
+9.5 Diagnosbesked  ................................ ................................ ................................ ........  21 
+9.6 Registrering  ................................ ................................ ................................ .............  22 
+9.7 Biobank  ................................ ................................ ................................ ....................  22 
+Kapitel 10  ................................ ................................ ................................ ...........................  23 
+ Kategorisering av tumören  ................................ ................................ ...............................  23 
+10.1 Patologins roll i den diagnostiska processen  ................................ ............................  23 
+10.2 Anvisningar för provtagarens hantering av provet  ................................ ....................  23 
+10.3 Anamnestisk remissinformation  ................................ ................................ ...............  23 
+10.4 Klassificering av tumören  ................................ ................................ .........................  23 
+10.5 Nya diagnostiska markörer och differentialdiagnostik ................................ ...............  23 
+Kapitel 11  ................................ ................................ ................................ ...........................  25 
+ Multidisciplinär konferens  ................................ ................................ ................................  25 
+Kapitel 12  ................................ ................................ ................................ ...........................  26 
+ Primär behandling  ................................ ................................ ................................ .............  26 
+12.1 Behandlingsindikation  ................................ ................................ ..............................  26 
+12.2 Val av behandling – översikt  ................................ ................................ ....................  27 
+12.3 Plasmaferes  ................................ ................................ ................................ .............  27 
+12.4 Systemisk b ehandling  ................................ ................................ ..............................  28 
+12.4.1  Rituximab som singelbehandling  ................................ ................................ ................................ .............  28 
+12.4.2  Rituximab i kombination med cytostatika  ................................ ................................ ................................  28 
+12.4.3  Bendamustin  ................................ ................................ ................................ ................................ ...........  29 
+12.4.4  DRC  ................................ ................................ ................................ ................................ ........................  29 
+12.4.5  Bortezomib  ................................ ................................ ................................ ................................ ..............  30 
+12.4.6  Ibrutinib  ................................ ................................ ................................ ................................ ...................  30 
+12.5 Mutationsst atus inverkan på behandlingssvar  ................................ ..........................  31 
+12.6 Behandling av sköra patienter  ................................ ................................ ..................  32 
+12.6.1  Klorambucil  ................................ ................................ ................................ ................................ .............  32 
+12.6.2  Rituximab som singelbehandling  ................................ ................................ ................................ .............  32 
+12.6.3  Ibrutinib  ................................ ................................ ................................ ................................ ...................  32 
+12.7 Underhållsbehandling  ................................ ................................ ..............................  32 
+12.8 Speciella behandlingsproblem  ................................ ................................ .................  33 
+12.8.1  Neuropati  ................................ ................................ ................................ ................................ .................  33 
+12.8.2  Amyloidos  ................................ ................................ ................................ ................................ ................  33 
+12.8.3  Bing–Neels syndrom (BNS)  ................................ ................................ ................................ ....................  33 
+12.8.4  Transformation till aggressivt lymfom  ................................ ................................ ................................ ...... 34 
+12.8.5  Köldhemolys (Chronic Cold Agglutinin Disease eller CAS)  ................................ ................................ ..... 34 
+12.8.6  Kryoglobulinemi  ................................ ................................ ................................ ................................ ....... 34 
+12.8.7  Bedömning av behandlingssvar  ................................ ................................ ................................ ..............  34 
+Kapitel 13  ................................ ................................ ................................ ...........................  35 
+ Behandling av återfall  ................................ ................................ ................................ ....... 35 
+13.1 Behandling av icke -symtomgivande återfall  ................................ .............................  35 
+13.2 Behandling av tidigt symtomgivande återfall (<2 år efter avslutad primärbehandling)
+ 35 
+13.3 Behandling av sent symtomgivande återfall (>2 år efter avslutad primärbehandling)  35 
+13.4 Etablerad regim som används allt mindre idag  ................................ .........................  36 
+13.4.1  Fludarabin  ................................ ................................ ................................ ................................ ...............  36 
+13.5 Kommande behandlingar som inte är godkända  ................................ ......................  36 
+13.5.1  Behandlingar som finns tillgängliga i Sverige för annan diagnos än WM  ................................ ................  36 
+13.5.2  Behandlingar som inte finns tillgängliga.  ................................ ................................ ................................ . 37 
+13.6 Autolog stamcellstransplantation ................................ ................................ ..............  37 
+13.7 Allogen stamcellstransplantation  ................................ ................................ ..............  37 
+Kapitel 14  ................................ ................................ ................................ ...........................  38 
+ Understödjande vård ................................ ................................ ................................ .........  38 
+14.1 Blodpro dukter  ................................ ................................ ................................ ..........  38 
+2 14.2 Infektionsprofylax ................................ ................................ ................................ ..... 38 
+14.2.1  Infektionsprofylax efter högdosbehandling  ................................ ................................ ..............................  38 
+14.2.2  Hepatit B ................................ ................................ ................................ ................................ .................  38 
+14.2.3  Herpesvirus ................................ ................................ ................................ ................................ .............  38 
+14.2.4  Pneumocystis jiroveci  ................................ ................................ ................................ ..............................  38 
+14.2.5  Allmän svampprofylax (candida etc.) ................................ ................................ ................................ ....... 39 
+14.2.6  Infektionsbehandling  ................................ ................................ ................................ ...............................  39 
+14.2.7  Vaccinationer ................................ ................................ ................................ ................................ ...........  39 
+14.3 Handl äggning av biverkningar relaterade till Rituximab  ................................ ............  40 
+14.3.1  Sen neutropeni (LON) ................................ ................................ ................................ .............................  40 
+14.3.2  Rituximabinducerade interstitiella lungförändringar (R -ILD) ................................ ................................ .... 40 
+14.3.3  Akuta infusionsreaktioner  ................................ ................................ ................................ ........................  40 
+14.3.4  ”Rituximab flare”  ................................ ................................ ................................ ................................ ...... 40 
+Kapitel 15  ................................ ................................ ................................ ........................... 41 
+Palliativ vård och in satser ................................ ................................ ................................ 41 
+Kapitel 16  ................................ ................................ ................................ ........................... 42 
+Omvårdnad och rehabilitering  ................................ ................................ .......................... 42 
+16.1 Kontaktsjuksköterska ................................ ................................ ............................... 42 
+16.2 Min vårdplan  ................................ ................................ ................................ ............  42 
+16.3 Aktiva över lämningar ................................ ................................ ............................... 42 
+16.4 Löpande cancerrehabilitering  ................................ ................................ ...................  42 
+16.4.1  Regelbunden behovsbedömning för patienter och närstående ................................ ...............................  43 
+16.4.2  Grundläggande och specialiserad rehabilitering  ................................ ................................ .....................  43 
+16.5 Sexualitet  ................................ ................................ ................................ .................  43 
+16.6 Fertilitetsbesparande åtgärder ................................ ................................ .................  43 
+16.7 Fysisk aktivitet  ................................ ................................ ................................ .........  43 
+16.8 Hygien och isolering ................................ ................................ ................................ . 44 
+16.9 Munvård ................................ ................................ ................................ ...................  44 
+16.10  Nutrition ................................ ................................ ................................ ...................  44 
+16.11  Skötsel av central infart till blodkärl  ................................ ................................ ..........  44 
+16.12  Psykosocialt stöd  ................................ ................................ ................................ ..... 44 
+16.13  Information om biverkningar  ................................ ................................ .....................  45 
+16.13.1 Fatigue eller trötthet  ................................ ................................ ................................ ................................  45 
+16.13.2 Benmärgspåverkan ................................ ................................ ................................ ................................ . 45 
+16.13.3 Neuropati  ................................ ................................ ................................ ................................ .................  45 
+16.13.4 Illamående  ................................ ................................ ................................ ................................ ...............  45 
+Kapitel 17  ................................ ................................ ................................ ........................... 46 
+Egenvård ................................ ................................ ................................ ............................ 46 
+17.1 Inledning ................................ ................................ ................................ ..................  46 
+17.1.1  Rökning och alkohol  ................................ ................................ ................................ ................................  46 
+17.1.2  Infektionskänslighet  ................................ ................................ ................................ ................................ . 46 
+17.1.3  Munhygien  ................................ ................................ ................................ ................................ ...............  46 
+17.1.4  Fysisk aktivitet  ................................ ................................ ................................ ................................ .........  46 
+17.1.5  Hud ................................ ................................ ................................ ................................ ..........................  46 
+17.1.6  Mage och tarm ................................ ................................ ................................ ................................ ........  47 
+17.1.7  Vacci nationer ................................ ................................ ................................ ................................ ...........  47 
+17.1.8  Feber  ................................ ................................ ................................ ................................ .......................  47 
+17.1.9  Köldhemolys ................................ ................................ ................................ ................................ ............  47 
+17.1.10 Neuropati  ................................ ................................ ................................ ................................ .................  47 
+17.2 Nationella riktlinjer  ................................ ................................ ................................ ... 47 
+17.3 Rökning ................................ ................................ ................................ ...................  47 
+17.4 Komplementär och alternativ medicin ................................ ................................ ...... 48 
+17.5 Alkohol ................................ ................................ ................................ .....................  48 
+17.6 Fysisk aktivitet  ................................ ................................ ................................ .........  48 
+17.7 Matvanor ................................ ................................ ................................ ..................  48 
+Kapitel 18  ................................ ................................ ................................ ........................... 49 
+Uppföljning  ................................ ................................ ................................ ........................  49 
+18.1 Inledning ................................ ................................ ................................ ..................  49 
+18.2 Mål med uppföljningen  ................................ ................................ ............................. 49 
+3 18.3 Förnyad behovsbedömning för rehabilitering ................................ ........................... 49 
+18.4 Självrapportering av symtom  ................................ ................................ ....................  50 
+18.5 Uppföljning för patienter utan behandlingskrävande sjukdom  ................................ .. 50 
+18.6 Uppföljning av patienter som fått behandling ................................ ........................... 50 
+18.7 Uppföljning av MGUS med M -komponent av IgM -typ ................................ ...............  51 
+18.8 Ansvar  ................................ ................................ ................................ .....................  51 
+18.9 Avslut av uppföljning ................................ ................................ ................................ 51 
+Kapitel 19  ................................ ................................ ................................ ........................... 52 
+Underlag för nivåstrukturering  ................................ ................................ .........................  52 
+Kapitel 20  ................................ ................................ ................................ ........................... 53 
+Kvalitetsregister  ................................ ................................ ................................ ................  53 
+20.1 Svenska lymfomregistret  ................................ ................................ .......................... 53 
+20.1.1  Syfte och mål ................................ ................................ ................................ ................................ ...........  53 
+20.1.2  Innehåll  ................................ ................................ ................................ ................................ ....................  53 
+20.1.3  Inklusionskriterier  ................................ ................................ ................................ ................................ .... 53 
+20.1.4  Exklusionskriterier  ................................ ................................ ................................ ................................ ... 53 
+20.2 Cancerregistret  ................................ ................................ ................................ ........  54 
+Kapitel 21  ................................ ................................ ................................ ........................... 55 
+Kvalitetsindikatorer och målnivåer  ................................ ................................ ..................  55 
+Kapitel 22  ................................ ................................ ................................ ........................... 56 
+Referenser  ................................ ................................ ................................ .........................  56 
+Kapitel 23  ................................ ................................ ................................ ........................... 63 
+Förslag på fördjupning  ................................ ................................ ................................ ..... 63 
+Kapitel 24  ................................ ................................ ................................ ........................... 64 
+Vårdprogramgruppen ................................ ................................ ................................ ........  64 
+24.1 Vårdprogramgruppens sammansättning ................................ ................................ .. 64 
+24.2 Vårdprogramgruppens medlemmar  ................................ ................................ .........  64 
+24.3 Tidigare medlemmar i vårdprogramgruppen  ................................ ............................ 64 
+24.4 Jäv och andra bindningar  ................................ ................................ .........................  65 
+24.5 Vårdprogrammets förankring ................................ ................................ ...................  65 
+Bilaga 1 ................................ ................................ ................................ .............................. 66 
+Patientinformation  ................................ ................................ ................................ .............  66 
+Bilaga 2 ................................ ................................ ................................ .............................. 67 
+IgM MGUS (Monoklonal gammopati av oklar signifikans)  ................................ ..............  67 
+REGIONALA CANCERCENTRUM  
+4 KAPITEL  1 
+Sammanfattning  
+I Sverige insjuknar ca 100 personer årligen i Waldenströms makroglobulinemi (WM). Sjukdomen 
+har ofta ett stillsamt förlopp och behandlas endast när den ger symtom. Behandlingen måste 
+anpassas individuellt och i dagsläget finns många effektiva, men inga bot ande, behandlingar.  
+Nya läkemedel kan förbättra behandlingsresultaten ytterligare, och målet med vårdprogrammet är 
+att alla patienter i Sverige ska ha tillgång till likvärdiga behandlingsmöjligheter oavsett bostadsort.  
+Tillgång till rehabilitering och go d livskvalitet under och efter behandling är andra viktiga mål 
+med detta vårdprogram.  
+REGIONALA CANCERCENTRUM   
+5 KAPITEL 2  
+Inledning  
+2.1 Vårdprogrammets giltighetsområde  
+Vårdprogrammet gäller för patienter ≥ 18 år med Waldenströms makroglobulinemi (WM) 
+(C88.0) eller lymfoplasmacytiskt l ymfom (LPL) (C83.0B). I vårdprogrammet jämställs WM med 
+LPL med undantag av de specifika problem som uppkommer på grund av IgM M -komponenten.  
+Vårdprogrammet är utarbetat av den nationella arbetsgruppen och fastställt av Regionala 
+cancercentrum i samverkan ÅÅÅÅ -MM-DD. Beslut om implementering tas i respektive region i 
+enlighet med överenskomna rutiner. Stödjande Regionalt cancercentrum är Regionalt 
+cancercentrum Syd. 
+Tidigare versioner:  
+Datum  Beskrivning av förändring  
+2017 -12-07  Version 1.0. Fastställd av RCC i samverkan  
+2018 -03-29 Version 1.1. Tabell inlagd i kap 11.8  
+Tidigare vårdprogram publiceras inte men kan begäras ut från Regionala cancercentrum, 
+info@cancercentrum.se .  
+2.2 Förändringar jämfört med tidigare version  
+I denna version av det nationella vårdprogrammet för Waldenströms makroglobulinemi har inga 
+större förändringar i behandlingsprinciper genomförts men ett antal justeringar har gjorts, 
+inklusive uppdatering av referenslistan. Dessa är de vi ktigaste:  
+• Vid val av behandling bör fortfarande  behandlingen individualiseras beroende på t .ex. 
+ålder , samsjuklighet och typ av symtom eller sjukdomspresentation. Rekommendationerna 
+är uppdaterade med de senaste studierna med tydligare rekommendationer  när de olika 
+regimerna bör användas . 
+• Ibrutinib är godkänt för behandling av återfall av WM, eller som primärbehandling hos 
+patienter som är olämpliga för immunokemoterapi. 2021 gjorde NT-rådet bedömningen att 
+det inte behövs någon kostnadseffektivitets -beräkning då Ibrutinib numera är en 
+väletablerad behandling till denna förhållandevis begränsade patientgrupp. Preparatet har 
+visat god klinisk effekt och kan därför rekommenderas av vårdprogramgruppen, men kan 
+inte generellt rekommenderas då läkemedelssubvent ion saknas för dessa indikationer.  
+• Utredning och behandling av Bing Neels syndrom är uppdaterad . Vårdprogramgruppen 
+föreslår Ibrutinib som ett av förstahandsvalen vid behandlingen . 
+• Ett kapitel om nuvarande kunskapsläge om ev. kommande behandlingar är tilla gt. 
+• Vaccinationsrekommendationer . 
+• Plasmaferes som behandlingsalternativ vid svårbehandlad hemolys och kryoglobulinemi . 
+REGIONALA CANCERCENTRUM  
+6 • Fludarabin är nedprioritera t som behandlingsalternativ och ska bara användas i speciella 
+situationer . 
+2.3 Standardiserat vårdförlopp  
+För maligna lymfom och kronisk lymfatisk leukemi finns ett standardiserat vårdförlopp 
+framtaget, gällande från och med 2019 -11-21.  
+Det finns ingen konflik t mellan innehållet i vårdprogrammet och det standardiserade 
+vårdförloppet. Vårdförloppet beskriver vad som ska göras medan vårdprogrammet utvecklar hur, 
+samt vilken evidensgrund som finns för åtgärderna i det standardiserade vårdförloppet.  
+Det standardise rade vårdförloppet finns delvis integrerat med texten i vårdprogrammet men kan 
+också läsas i sin helhet i Kunskapsbanken .  
+2.4 Lagstöd  
+Vårdens skyldigh eter regleras bland annat i hälso - och sjukvårdslagen ( 2017:30 ). Den anger att 
+målet med hälso - och sjukvården är en god häls a och en vård på lika villkor för hela befolkningen 
+samt att hälso - och sjukvårdsverksamhet ska bedrivas så att kraven på en god vård uppfylls. God 
+vård definieras enligt Socialstyrelsen som kunskapsbaserad, ändamålsenlig, säker, 
+patientfokuserad, effektiv  och jämlik. Vårdprogrammet ger rekommendationer för hur vården 
+ska utföras för att uppfylla dessa kriterier. Dessa rekommendationer bör därför i väsentliga delar 
+följas för att man ska kunna anse att sjukvården lever upp till hälso - och sjukvårdslagen.  
+Patientlagen ( 2014:821 ) anger att vårdgivaren ska erbjuda patienten anpassad information om 
+bl.a. diagnosen, möjliga alternativ fö r vård, risk för biverkningar och förväntade väntetider samt 
+information om möjligheten att själv välja mellan likvärdiga behandlingar ( 3 kap 1 –2 § 
+patientlagen ). Vårdgivaren ska enligt samma lag erbjuda fast vårdkontakt samt information om 
+möjlighet till ny medicinsk bedömning, även inom annan region. Vårdgivaren ska också 
+informera om möjligheten att välja vårdgivare i hela landet  inom allmän och specialiserad 
+öppenvård. Enligt det s.k. patientrörlighetsdirektivet ska vårdgivaren också informera om 
+patientens rättighet att inom hela EU/EES välja och få ersättning för sådan vård som motsvarar 
+vad som skulle kunna erbjudas i Sverige.  Praktisk information om detta, t.ex. hur och när 
+ersättning betalas ut, finns hos Försäkringskassan .  
+Enligt vårdgarantin (2010:349 ) har vårdgivaren en skyldighet att erbjud a patienter  kontakt samt 
+åtgärder inom vissa tider . De standardiserade vårdförlopp  som RCC har tagit fram och som 
+regio nerna har beslutat att följa anger kortare väntetider som dock inte är en del av vårdgarantin.  
+I hälso - och sjukvårdslagen anges också att hälso - och sjukvården har särskilda skyldigheter att 
+beakta barn som anhöriga och ge dem information, råd och stöd (5  kap 7 §).  
+2.5 Evidensgradering  
+Vårdprogrammet använder evidensgraderingssystemet GRADE. För en komplett gradering ska 
+alla ingående studier tabelleras och värderas. Detta har endast gjorts för ett urval av 
+rekommendationerna, men principerna för GRADE -graderi ng har tillämpats i hela 
+vårdprogrammet.  
+GRADE innebär att styrkan i rekommendationerna graderas enligt följande:   
+REGIONALA CANCERCENTRUM   
+7 Starkt vetenskapligt underlag (++++)   
+Bygger på studier med hög eller medelhög kvalitet utan försvagande faktorer vid en samlad 
+bedömning.  
+Måttligt starkt vetenskapligt underlag (+++)   
+Bygger på studier med hög eller medelhög kvalitet med förekomst av enstaka försvagande 
+faktorer vid en samlad bedömning.  
+Begränsat vetenskapligt underlag (++)   
+Bygger på studier med hög eller medelhög kvalitet m ed försvagande faktorer vid en samlad 
+bedömning.  
+Otillräckligt vetenskapligt underlag  (+) 
+När vetenskapligt underlag saknas, tillgängliga studie har låg kvalitet eller där studier av likartad 
+kvalitet är motsägande anges det vetenskapliga underlaget som ot illräckligt.  Läs mer om systemet  
+i SBU:s metodbok : www.sbu.se/sv/metod/sbus -metodbok/  
+ 
+REGIONALA CANCERCENTRUM  
+8 KAPITEL 3  
+Mål med vårdprogrammet  
+Målet med detta dokument är att definiera standardbehandling och  övrigt omhändertagande av 
+patienter med Waldenströms makroglobulinemi.  
+Syftet är att bidra till en nationellt likvärdig handläggning av dessa patienter, en god vård, samt att 
+successivt förbättra behandlingsresultat och livskvalitet.  
+Svenska lymfomregis tret ger oss en möjlighet att utvärdera såväl behandlingsresultat som 
+följsamhet till detta vårdprogram.  
+Vårdprogrammet riktar sig i första hand till vårdpersonal som handlägger patienter med dessa 
+sjukdomar, men kapitlet Egenvård  och bilaga 1 Patientinformation en riktar sig främst till 
+patienter  och är avsett att kunna skrivas ut som information till patienten i samband med 
+diagnosbeskedet.  
+REGIONALA CANCERCENTRUM   
+9 KAPITEL 4  
+Bakgrund och orsaker  
+4.1 Incidens  
+Waldenströms makroglobulinemi (WM) är en kronisk lymfo proliferativ sjukdom som fått sitt 
+namn efter en svensk läkare, Jan Gösta Waldenström.  
+WM är en ovanlig sjukdom med en incidens på 3 –4 fall per miljon invånare och år, och utgör 
+mindre än 5 % av alla non -Hodgkins lymfom (1). I Sverige är incidensen av okänd anledning 
+högre, ca 10 per miljon invånare och år, och ca 100 individer per år drabb as. Det finns även 
+lokala variationer, t.ex. är sjukdomen vanligare i norra Sverige (2).  
+Ca 2/3 av patienterna med WM är män och i Sverige är medelåld ern vid diagnos 73 år. Endast 
+3 % är diagnostiserade före 50 års ålder  (2). 
+4.2 Orsaker  
+Orsakerna till utveckling av WM är hos det stora flertalet p atienter okända. Diagnosen är 
+vanligare hos män och i den vita befolkningen samt ökar med åldern.  WM är också vanligare hos 
+patienter med autoimmuna sjukdomar såsom olika reumatiska sjukdomar samt vid infekti oner 
+som hepatit och HIV  (3, 4). Risken för WM ökar om en förstagradssläkting har WM eller a nnan 
+hematologisk cancer (5, 6). Patienter med WM har en viss ökad risk att  utveckla andra 
+tumörformer (7).  
+4.3 Överlevnad  
+WM bör endast behandlas när sjukdomen ger symtom. I Svenska lymfomregistret har ca en 
+fjärdedel av patienterna en symtomgivande sjukdom vid diagnos.  WM anses idag vara en kronisk 
+sjukdom som inte går att bota, men patienter kan leva många år med sin sjukd om. Behandlingen 
+har förbättrats och vi har idag flera nya behandlingsalternativ och effektivare läkemedel att tillgå. 
+Överlevnaden har förbättrats och antalet patienter som lever med sjukdomen har ökat. Många 
+patienter får sjukdomen i hög ålder och det är  vanligt att patienten avlider av andra orsaker än 
+WM.  
+REGIONALA CANCERCENTRUM  
+10 KAPITEL 5  
+Primär prevention  
+5.1 Levnadsvanor  
+Det finns inga starka samband mellan levnadsvanor och insjuknande i WM. En studie tyder på 
+ökad risk för WM hos personer s om röker eller har högt BMI (6).  
+5.2 Riskfaktorer  
+Den viktigaste enskilda riskfaktorn f ör utveckling av WM ä r IgM MGUS. MGUS finns hos ca 
+3 % av befolkningen över 50 år (8). Av dessa är ca 15 –20 % IgM MGUS. Ca 1 –1,5 % av 
+patienterna med IgM MGUS utvecklar WM eller en annan närb esläktad sjukdom varje år . De 
+flesta patienter med IgM MGUS diagnostiseras vid hög ålder vilket medför att få patienter 
+kommer att utveckla behandlingskrävande sjukdom . 
+REGIONALA CANCERCENTRUM   
+11 KAPITEL 6  
+Screening  
+Eftersom WM är en ovanlig sjukdom är risken för den enskilda individen mycket låg. Därför 
+bedöms att riktad screening inte behöver göras.  
+REGIONALA CANCERCENTRUM  
+12 KAPITEL 7  
+Ärftlighet  
+Individer med förstagradssläktingar (biologisk förälder, syskon eller barn) med  WM har 20 gånger 
+ökad risk att själv utveckla WM men även andra lymfomtyper so m kronisk lymfatisk leukemi (5). 
+Även om det finns en familjär överrisk, måste risken för den enskilda individen bedömas som 
+mycket liten. Dä rför bedöms att riktad screening inte bör göras för nära släktingar till patienter 
+med WM.  
+REGIONALA CANCERCENTRUM   
+13 KAPITEL 8  
+Symtom och tidig utredning  
+8.1 Symtom och kliniska fynd  
+Ca 25 % av WM -patienterna i Svenska lymfomregistret har en symtomgivande 
+behandlingskrävande sjukdom vi d diagnos. Symtomen kan vara orsakade av benmärgsinfiltration, 
+lymfkörtel - och/eller organinfiltration eller hög M -komponent eller dess antikroppsaktivitet. 
+Trötthet och allmänsymtom som viktnedgång, feber och nattliga svettningar (B -symtom) 
+förekommer, li ksom sänkt hemoglobinvärde sekundärt till benmärgsinfiltration, ökad 
+plasmavolym p.g.a. hög M -komponent (utspädningsanemi) eller hemolys p.g.a. autoantikroppar. 
+Trombocytopeni kan förklaras av benmärgsinfiltration och/eller splenomegali. Lymfadenopati 
+ses hos endast 20 –30% av nydiagnostiserade patienter. Perifer neuropati, oftast sensorisk och 
+symmetrisk, kan vara ett tidigt sjukdomssymtom och orsakas av M -komponent med 
+antikroppsaktivitet exempelvis mot myelinassocierat glykoprotein (anti -MAG) (för detalje r om 
+neuropati, se Kapitel 8.2.6 Neuropati ). 
+8.1.1  Symtom orsakade av benmärgsinfiltrati on 
+• Trötthet, yrsel och andnöd p.g.a. anemi  
+• Näsblod, hudblödningar m.m. p.g.a. trombocytopeni  
+• Ökad infektionskänslighet p.g.a. leukopeni och/eller hypogammaglobulinemi  
+8.1.2  Symtom orsakade av IgM M -komponenten  
+• Huvudvärk, synrubbningar, blödningar, dyspné m.m. p. g.a. hyperviskositet  
+• Njursvikt, Raynauds fenomen, hudutslag, vaskulit, led - och muskelsmärta  
+• Perifer neuropati p.g.a. autoantikroppar mot t.ex. MAG eller GM1  
+• Hemolytisk anemi, livedo reticularis  p.g.a. autoantikroppar, köld -agglutininer riktade mot 
+antigener på röda blodkroppar  
+• Immunmedierad trombocytopeni p.g.a. autoantikroppar mot trombocyter  
+ 
+  
+REGIONALA CANCERCENTRUM  
+14 Tabell 1: Sjuklighet som kan ses till följd av M -komponent av IgM -typ hos 
+Waldenströmpatienter  
+IgM-proteinets egenskaper  Sjukdoms -symtom  Kliniska manifestationer  
+Pentamerstruktur  Hyperviskositet  Huvudvärk, suddig syn, 
+näsblödning, retinala blödningar, 
+benkramper, kognitiv påverkan, 
+intrakranial blödning.  
+Utfällning vid lägre temperatur  Kryoglobulinemi (typ I)  Raynauds fenomen, akrocyanos, 
+sår, purpura, köldurticaria.  
+Auto-antikroppsaktivitet mot 
+myelinassocierat glykoprotein 
+(MAG), gangliosid  M1 (GM1), 
+sulfatidgrupper på perifera 
+nervskidor  Perifer neuropati  Sensorimotorisk neuropati, 
+smärtsam neuropati, ataktisk gång, 
+bilateral peroneus pares.  
+Auto-antikroppsaktivitet mot IgG  Kryoglobulinemi (typ II)  Purpura, ledsmärtor, njurpåverkan, 
+senso rimotorisk neuropati.  
+Auto-antikroppsaktivitet mot antigen 
+på röda blodkroppar  Köldagglutininer  Hemolytisk anemi, Raynauds 
+fenomen, akrocyanos, livedo 
+reticularis.  
+Deposition i vävnad av amorfa 
+aggregat  Organpåverkan  Hud: bullös hudreaktion, papler, 
+Schn itzlers syndrom.  
+GI: diarré, malabsorption, blödning.  
+Njurar: proteinuri, njursvikt (lätta 
+kedjor).  
+Deposition i vävnad av amyloid 
+(vanligen lätta kedjor av lambdatyp)  Organpåverkan  Kroniskt trötthetssyndrom, 
+viktförlust, ödem, hepatomegali, 
+makroglossi, dysfunktion av 
+involverat organ: hjärta, njurar, 
+lever, sensorisk och autonom 
+nervpåverkan.  
+8.1.3  Andra symtom och fynd  
+• Lymfkörtelförstoring  
+• Hepatosplenomegali  
+• Hudutslag (bullae, papler), vaskulit p.g.a. kryoglobuliner, Schnitzlers syndrom  
+• Mag-tarmkanal (diarré, malabsorption)  
+• Njurpåverkan (proteinuri, njursvikt)  
+• CNS -påverkan (Bing –Neels syndrom)  
+• Trötthet, viktnedgång, makroglossi och organdysfunktion p.g.a. amyloidos  
+REGIONALA CANCERCENTRUM   
+15 8.2 Speciella problem vid WM 
+Nedan följer en närmare beskrivning av några symtombilder hos Waldenströmpatienter.  
+8.2.1  Hyperviskositet  
+Det stora IgM -proteinet gör att blodet blir mer trögflytande när nivån av M -komponent stiger. 
+Vid M -komponent > 30 g/l ökar hyperviskositeten exponentiel lt men det är ovanligt med 
+symtomgivande hyperviskositet vid M -komponenter < 40 g/l.  I första hand används 
+ögonbottenundersökning  för att bedöma eventuell hyperviskositet (korsningsfenomen, retinala 
+blödningar o ch förekomst av ödem i makula) och förändring ar kan ses innan hyperviskositeten 
+blir symtomgivande .  Notera att plasmavolymen ökar vid stigande M -komponent. Detta innebär 
+att patienter med hög M -komponent och lågt Hb -värde kan ha normal totalmängd hemoglobin, 
+och blodtransfusion är relativt kontraindicerad p.g.a. ökad risk för förstärkt hyperviskositet . 
+Huvudvärk, synrubbning eller dyspné kan vara direkt relaterad till försämrat blodflöde på grund 
+av hyperviskositet. Små vener kan påverkas och ge slemhinneblödningar, t.ex. näsblödning. 
+Allvarligare blödningar kan förekomma t.ex. i ögonbotten eller t.o.m . hjärnblödning. 
+Trombosrisken ökar genom att påverkan på kärl kan starta en koagulationskaskad. 
+Symtomgivande hyperviskositet är således mycket viktig att behandla.  
+8.2.2  Amyloidos  
+Ca 4–7 % av AL -amyloidos tros kunna bero på IgM -paraprotein. Enligt data från MA YO-
+kliniken, utvecklar 7 % av IgM -MGUS,  som övergår i WM, amyloidos . Förutom sedvanliga 
+riskorgan, som hjärta och njurar, förekommer amyloid i lunga, lymfkörtlar och perifera eller 
+autonoma nerver i något högre utsträckning hos WM -patienter jämfört med mye lompatienter. 
+Många diagnostiseras efter att WM -diagnosen varit känd i några år. Även om organpåverkan efter 
+behandling kvarstår kan man se partiella behandlingssvar och klinisk förbättring. Fria lätta kedjor 
+är mer sällan klonalt engagerade vid IgM - jämfö rt med IgG - eller IgA -associerad amyloidos men 
+om fria lätta kedjor förekommer vid primärutredning (oftast lambda -klonal sjukdom) föreslås 
+NT-proBNP vid fortsatt uppföljning, då testet har hög sensitivitet för hjärtpåverkan. Likaså kan 
+u-albumin ge tidig u pptäckt av njurpåverkan (9, 10).  
+Vid perifer neuropati är det svårt att skilja amyloidos från IgM -antikroppsrelatead polyneuropati.  
+Vid misstanke om att neuropatin skulle kunna vara amyloidinlagring ska bukfettsbiopsi utföras.  
+För utförande se Riktlinjer för amyloidos som finns på SFH hemsida.  
+8.2.3  Bing–Neels syndrom (BNS)  
+Bing–Neels  syndrom (BNS) är en sällsynt komplikation av WM och förekommer hos ca 1 % av 
+WM patienterna men incidensen kan vara underskattad och BNS ska övervägas vid neurologiska 
+symtom där man misstänker centralnervös genes. BNS är associerad med betydande morbidit et 
+och mortalitet.  
+Tillståndet definieras av infiltration av lymfoplasmacytoida celler i CNS, antingen solida 
+förändringar eller vanligare med lepto meningeal infiltration  (11). Vid larmsymtom från CNS bör 
+patienten utredas med MRT hjärna och ryggmärg där vanligaste fyndet är leptomeningial 
+infiltration. Därefter rekommenderas  likvoranalys för morfologisk och flödescytometrisk 
+undersökning samt proteinelektrofores med immunfixation för detektion och klassifikation av ev. 
+M-komponent. Definitiv diagnos fås genom biopsi av hjärna eller meningier eller fynd i likvor av 
+REGIONALA CANCERCENTRUM  
+16 klonala lymfopl asmacytiska celler. Analys av MYD88 L256P -mutation i likvor är ett viktigt 
+komplement till diagnostiken. I de fåtal serier som finns publicerade kan BNS uppträda när som 
+helst under sjukdomsförloppet, både som primära symtom eller senare i sjukdomsförloppe t 
+(vanligare)  (12). 
+8.2.4  Kryoglobulinemi  
+Hos ca 10 % av WM -patienterna förekommer monoklonala autoreaktiva antikroppar av IgM -typ 
+som precipiterar i kyla. De kan ge symtom i form av bl.a. vaskulär purpura, hudsår, Raynauds 
+fenomen, art ralgi, neuropati och glomerulonefrit. Vid misstanke om kryoglobulinemi ska prov på 
+kryoglobuliner tas. Vid provtagningen bör patienten helst vara fastande 2 –3 timmar före, och 
+provet ska tas och förvaras i 37 °C (obruten värmekedja) fram till analys.  
+8.2.5  Köldh emolys (Chronic Cold Agglutinin Disease eller CAD)  
+Köldhemolys är köldreagerande autoantikroppar som binder sig till erytrocyternas membran. 
+Symtomen är försämrad mikrocirkulation och en, via komplementaktivering, extravaskulär 
+hemolys. Köldhemolys påvisas  genom positivt utfall på anti -C3d och ev. anti -IgG/IgM. Provet 
+bör tas och förvaras i obruten värmekedja enligt ovan  (13).  
+8.2.6  Neuropati  
+Neuropati kan ibland vara det första symtomet på WM/MGUS. Den perifera neuropatin är 
+oftast distal, symmetrisk och sensorisk med smygande de but och symtom som distal svaghet 
+samt balansproblem. Symtomen är oftast milda, men kan i vissa fall progrediera snabbt.  
+Perifer sensorisk polyneuropati är vanligast och kan fastställas genom neurofysiologisk utredning 
+med EMG och neurografi.  
+Andra typer a v neuropati är påverkan på kranialnerver, mononeuritis multiplex och neuropati  
+sekundärt till kryoblobulininducerad vaskulit.  
+Det är ovanligt med polyneuropati av andra Ig -subklasser än IgM och därför är neuropati mycket 
+vanligare vid IgM -MGUS och WM än vi d övriga MGUS eller myltipelt myelom.  
+Vanligaste antigenet (upp till 50%) som Ig M reagerar mot är myelinassocierat glykoprotein 
+(MAG), som orsakar en demyelinisering. Patienter med WM -associerad perifer neuropati bör 
+därför utredas med analys av S -anti-MAG ag. Om detta prov är negativt kan analys av IgM -
+antikroppar mot andra myelinantigen som tex gangliosider och sulfatid övervägas.  
+Kontakta gärna neurolog för att diskutera utredning/provtagning.  Detta för att utesluta att inte 
+annan neurologisk sjukdom, som ej är kopplad till WM, har uppstått  (14). 
+8.3 Ingång till standardiserat vårdförlopp  
+Följande alarmsymtom kan föranleda misstanke:   
+• en eller flera förstorade lymfkörtlar, minst 1,5 cm i största diameter vid klinisk 
+undersökning (lymfkörtelförstoring inom huvud -halsområdet utan lymfocytos ska 
+handläggas inom standardiserat vårdförlopp för huvud -halscancer)   
+• palpabel mjälte  
+• feber mer än 38 grader utan annan förklaring såsom infektion  
+REGIONALA CANCERCENTRUM   
+17 • oavsiktlig viktnedgång   
+• nattsvettningar  
+• M-komponent av IgM -typ > 10g/L  
+ 
+Vid misstanke om lymfom ska patienten i ett första steg utredas med blodstatus och fysikalisk 
+undersökning. Om undersökningarna leder till välgrundad misstanke om lymfom ska patienten 
+remitteras till utredning enligt standardiserat vårdförlopp enligt lokal a rutiner. För aktuell 
+information om inledande undersökningar och definition av välgrundad misstanke, se Regionala 
+cancercentrums webbplats.  
+8.4 Utredning av patienter som inte uppfyller kriterierna 
+för välgrundad misstanke  
+Utöver detta kan följande symtom v äcka misstanke om WM:   
+• Perifer sensorisk neuropati och samtidig förekomst av M -komponent av IgM -typ  
+• Näsblod och samtidig förekomst av M -komponent av IgM -typ  
+• Anemi och förhöjd SR  
+REGIONALA CANCERCENTRUM  
+18 KAPITEL 9  
+Diagnostik  
+9.1 Utredning enligt standardiserat vårdförlopp  
+Det standa rdiserade vårdförloppet för lymfom anger vilka undersökningar som ska inleda 
+utredningen och hur utredningen ska fortsätta om lymfommisstanke n kvarstår. Respektive region  
+har i uppgift att skapa rutiner för att implementera vårdförloppet i verksamheten. Fö r patienter 
+som ingår i standardiserat vårdförlopp ska dessa rutiner följas. Det finns ingen konflikt mellan 
+det standardiserade vårdförloppet och den utredning som beskrivs nedan, men WM kan ha 
+specifika symtom som man inte ser hos andra lymfomsubtyper oc h som man behöver ta hänsyn 
+till i utredningen. För aktuell information om utredningen enligt det standardiserade 
+vårdförloppet, se Kunskapsbanken . 
+9.2 Utredning  
+Rekommenderad utredning  
+• Serum -elfores med immunfixation  
+• Benmärgsundersökning med biopsi, utstryk/imprints samt immunfenotypning  
+• I de flesta fall datortomografi hals, thorax och buk  
+• Vid klinisk indikation lymfkörtelbiopsi  
+9.2.1  Utredning av M -komponent av IgM -typ 
+Vid M -komponent av IgM -typ < 10 g/l och avsaknad av WM -relaterade symtom ( tabell 3) 
+behöver inte diagnostiken drivas vidare och diagnosen IgM MGUS kan ställas. För 
+rekommendationer om uppföljning och kontroll av dessa patienter,  se kapite l 18 Uppföljning . 
+Vid utredning av patienter med M -komponent av IgM -typ > 10 g/l eller symtom som inger 
+misstanke om WM/LPL bör utredningen innefatta  serum -elfores med immunfixation , 
+benmärgsbiopsi med immunhistoke mi samt benmärgsaspiration för flödescytometri  och 
+lymfkörtelbiopsi på klinisk indikation vid lymfadenopati . 
+M-komponentens storlek är dock inte alltid relaterad till tumörbörda eller sjukdomssymtom.  
+9.2.2  Röntgenologisk utredning  
+• Datortomografi hals, thorax och buk bör ingå i primärutredning för att kartlägga eventuella 
+lymfadenopatier och/eller organomegali hos patienter som uppfyller kriterierna för WM   
+• Vid låg M -komponent och asymtomatisk patient kan man avvakta med sådan 
+unders ökning  
+• Utredning med DT-myelomskelett kan övervägas hos patienter med skelettsmärta eller 
+oklar hyperkalcemi på misstanke om IgM -myelom  
+REGIONALA CANCERCENTRUM  
+19 •PET/ CT kan övervägas vid misstanke om transformation  och ge vägledning om bästa
+plats för ev. biopsi
+9.2.3  Övrig utredning  
+Rekommendation övriga prover  
+•Hb, LPK med differentialräkning, TPK, retikulocyter
+•ASAT, ALAT, ALP, GT, bilirubin
+•LD, Beta-2-mikroglobulin, CRP, SR
+•Na, K, albumin, kalcium, kreatinin , urat
+•Serum- eller plasmaelfores , U-elfores eller S-FLK
+•Serologi för hepatit B, hepatit C och HIV
+•Ev. DAT och kryoglobuliner
+•Kroppslig undersökning inklusive lymfkörtel - och bukpalpation samt
+ögonbottenundersökning
+•Elektrolytstatus (albumin, kalcium, kreatinin, na trium, kalium)
+•Urat
+•Leverstatus (ALAT, ASAT, LD, GT, ALP, bilirubin)
+•Beta-2-mikroglobulin  både vid primärutredning och inför start av behandling. Ingår  i
+prognostiskt index
+•Serumprotein -elektrofores med immunfixation (prov i obruten värmekedja om
+kryoglo buliner eller köldagglutininer) . U-elfores eller S-FLK
+•Hepatit C - och HIV -serologi, hepatit B -serologi före behandling
+•Direkt antiglobulin -test vid misstänkt autoimmun hemolys, prov i obruten värmekedja vid
+misstanke om köldagglutininer då erytrocyterna aggregerar om temperaturen på blodet
+sjunker
+•Kryoglobuliner vid misstanke om kryoglobulinemi, prov i obruten 37 -gradig värmekedja
+eftersom kryoglobuliner fäller ut i temperaturer under 37 grader och kan ge falskt negativa
+resultat
+•Ev. prover för bedömning  av järnstatus
+•Ev. proBNP
+REGIONALA CANCERCENTRUM  
+20 9.2.4  Performance status (WHO/ECOG)  
+Tabell 2 Performance status (WHO/ECOG)  
+0  Klarar all normal aktivitet utan begränsning.  
+1 Klarar inte fysiskt krävande aktivitet men är uppegående och i stånd till lättare arbete.  
+2 Är uppegående och kan sköta sig själv men klarar inte att arbeta; är uppegående mer 
+än 50 procent av dygnets vakna timmar.  
+3 Kan endast delvis sköta sig själv; är bunden till säng eller stol mer än 50 procent av 
+dygnets vakna timmar.  
+4 Klarar inte någonting; kan inte sköta sig själv; är helt bunden till säng eller stol.  
+9.3 Diagnoskriterier  
+Diagnoskriterierna enligt WHO innefattar engagemang av lymfoplasmacytiskt lymfom (LPL) i 
+benmärgen och ibland i lymfvävnad såsom lymfknutor och mjälte, samt förekom st av 
+monoklonalt immunglobulin (M -komponent) av IgM -typ, oberoende av nivå, i serum  (15). 
+Denna definition används också av ”interna tional workshop on WM” (16). Punktmutationen 
+MYD88L265P finns hos > 90 % av patienterna med WM och är infört som en diagnostisk 
+markör i den s enaste WHO -klassifikationen  från 2017 (15). En liten and el av patienterna med 
+LPL (< 5%) uppfyller inte WHO:s kriterier för WM. I många fall förekommer en M -komponent 
+av IgG - eller IgA -typ och det förefaller vara vanligare med nodalt eller extranodalt engagemang 
+av LPL. Kunskapen om dessa patienter är bristfäll ig, men de behandlas efter samma principer 
+som WM. Sjukdomen föregås i de flesta fall av ett förstadium med M -komponent av IgM -typ 
+utan andra tecken till WM, s.k. monoklonal gammopati av oklar signifikans (MGUS). 1 –1,5 % av 
+patienterna med IgM MGUS utveckl ar årligen WM, någon annan lymfomtyp eller amyloidos . 
+Gränsdragningen mellan IgM MGUS, icke -symtomgivande WM och slutligen symtomgivande 
+WM är inte tydlig utan det sker en gradvis utveckling. (17, 18). 
+ 
+Tabell 3 Diagnoskriterier för IgM monoklonal gammopati av oklar signifikans (MGUS), 
+asymtom atisk Waldenströms makroglobulinemi (WM) och symtomatisk WMIgM  
+IgM MGUS  Asymtomatisk WM eller 
+”smouldering WM”  Symtomatisk WM  
+Inget engagemang av LPL  Morfologiskt benmärgs -
+engagemang av LPL  Morfologiskt benmärgs -
+engagemang av LPL  
+Inga WM -relaterade symtom  Inga WM -relaterade symtom  WM-relaterade symtom eller 
+tecken till ”end -organ failure”*  
+LPL = lymfoplasmacytiskt lymfom  
+*”end -organ failure” = t.ex.  anemi, hyperviskositet, symtomatisk lymfkörtelförstoring eller hepatosplenomegali  
+REGIONALA CANCERCENTRUM   
+21 9.4 Prognosfaktorer  
+9.4.1  International Prognostic Scoring System for WM (IPSSWM)  
+IPSSWM är utvärderat inför primär behandling, före införande av behandling med Rituximab 
+och bör enda st användas hos patienter med symtomatisk WM inför behandling och särskilt för 
+att jämföra b ehandlingsresultat i studie (19).  
+Faktorer som predikterar sämre prognos   
+• Ålder > 65 år   
+• Hb ≤ 115 g/l   
+• TPK ≤ 100 x 109/l  
+• Beta-2-mikroglobulin >3 mg/l   
+• M-komponent > 70 g/l   
+ 
+5-årsöverlevnad (från start av primär behandling)   
+• Låg risk: ≤ 1 riskfaktor och ≤65 år (27 % av alla) 87 %   
+• Intermediär risk: 2 riskfaktorer och/eller >65 år (38 % av alla) 68 %   
+• Hög risk: >2 riskfaktorer (35 % av alla) 36 %  
+9.4.2  Andra prognosfaktorer  
+Andra faktorer som kan vara kopplade till sämre prognos är förhöjt LD, sämre 
+performancestatus och lågt albumin . 
+9.5 Diagnosbesked  
+Patienter bör få saklig information om sjukdomen, dess behandling och förväntat resultat, så att 
+de kan göra ett grundat ställnin gstagande till den behandling som erbjuds. Vid diagnosbeskedet 
+bör kontaktsköterska närvara.  
+Patienter bör få ett eller flera uppföljande samtal som upprepar och kompletterar informationen 
+från diagnosbeskedet.  WM anses  i dag vara en kronisk  sjukdom, varf ör det är speciellt viktigt 
+med information och återkommande stödsamtal. Till pa tienter som  inte är behandlingskrävande 
+är det viktigt att förklara varför man avvaktar med behandling.  
+Vid diagnosbeskedet bör patienterna få individuellt anpassad saklig info rmation. Studier av andra 
+cancerdiagnoser visar att f ramgångsrik patientinformation kan mätas i kortare vårdtid och 
+sjukfrånvaro, postoperativt bättre fysisk aktivitet och rörlighet, mindre smärtupplevelse och 
+analgetik akonsumtion samt mindre oro  (20, 21). 
+Hållpunkter för diagnosbeskedet och uppföljande samtal:  
+• Uppmana patienten att ha en närstående med sig. Den närstående har då möjlighet att efter 
+besöket komplettera med information som patienten inte har uppfattat eller kunnat ta till 
+sig.  
+• Upprätta  ”Min vårdplan” i samband med diagnosbeskedet eller säkerställ på annat sätt att 
+patienten får såväl skriftlig som muntlig information.  
+• Ge information om sjukdomen och behandlingen: förväntat sjukdomsförlopp .  
+REGIONALA CANCERCENTRUM  
+22 • Ge information om rätten till ny medicinsk bedömning .  
+• Ge information om patientföreningar.  
+• Ge praktisk information, t.ex. vårdavdelning och rutiner kring undersökningar och 
+behandling.  
+• Ta upp påverkan på arbetsförmågan. Berätta om de sjukskrivningsregler som gäller enligt 
+rekommendationer från Socialstyre lsen samt om olika högkostnadsskydd.  
+• Identifiera patientens sociala nätverk och sociala stöd. Har patienten kommit ensam, ta 
+reda på om det finns någon som patienten kan kontakta direkt eller vid hemkomst. Erbjud 
+kontakt med kurator vid behov.  
+• Bekräfta kä nslor. Känslor som att ”detta är inte sant” och ”det händer inte mig” bör 
+bekräftas under samtalet.  
+• Vid krisreaktion: Hjälp patienten att uttrycka sina känslor, oavsett vilka de är, ge nom att 
+finnas till hands och lyssna. Kontakta kurator vid behov.  
+• Var uppmärksam på självmordstankar. Inom en vecka från diagnosbeskedet löper 
+cancerpatienter en högre risk för självmord än normalbefolkningen. Sjukvårdspersonal kan 
+felaktigt tro att det är riskabelt att ta upp tankar om självmord, medan patienterna ofta 
+uppfattar det som en lättnad att få prata om det.  
+ 
+Vid uppföljande samtal: Komplettera informationen från diagnosbeskedet. Be patienten att själv 
+berätta vad han eller hon vet om diagnos och planerad behandling. Komplettera därefter med 
+ytterligare informati on.  
+9.6 Registrering  
+ När utredningen slutförts ska patienten registreras i Svenska lymfomregistret, vilket också 
+innefattar klinisk canceranmälan. Detta ska göras så snart som möjligt för att möjliggöra 
+kontinuerlig utvärdering av ledtider och behandling. S e kapitel 2 0 Kvalitetsregister . 
+9.7 Biobank  
+ Det rekommenderas att för framtida forskningsändamål spara plasma, serum, helblod och 
+tumörvävnad systematiskt i biobank från pa tienter med WM  vid diagnos , men även om möjligt  
+vid återfall eller vid behandlingsrefraktär sjukdom. Detta arrangeras regionalt.  
+REGIONALA CANCERCENTRUM   
+23 KAPITEL 10  
+Kategorisering av tumören  
+10.1 Patologins roll i den diagnostiska processen  
+Benmärgsundersökning med biopsi, utstryk/imprints samt immunfenotypning med 
+flödescytometri eller immunhistokemi kr ävs för att ställa diagnosen (15).  
+10.2 Anvisningar för provtagarens hantering av provet  
+För provtagning sanvisningar , se KVAST -gruppens  dokument  Provtagningsanvisning för 
+benmärg och blod  och Provtagningsanvisning för biopsier med lymfomfrågeställning . 
+10.3 Anamnestisk remissinformation  
+Förekomst el ler avsaknad av förstorade lymfknutor, mjälte, lever, skelettförändringar och kliniska 
+symtom som kryoglobulinemi, hyperviskositet och autoantikroppar bör anges. M -komponentens 
+storlek och typ, Hb, LPK och TPK bör anges.  
+10.4  Klassificering av tumören  
+Enligt W HO-klassifikationen kräver diagnosen Waldenströms makroglobulinemi påvisat 
+benmärgsengagemang av lymfoplasmacytiskt lymfom och förekomst av en IgM M -komponent 
+oavsett storlek (15). En liten andel MGUS av IgM -typ kan så småningom övergå till 
+Waldenströms makroglobulinemi (15). Benmärgen kan v isa nodulärt, interstitiellt (vanligast) eller 
+diffust engagemang, eller en kombination av dessa. Viss fibros föreligger alltid i 
+lymfomkomponenten. Andelen mastceller är ökad. B -lymfocyter dominerar oftast varav en del 
+visar utmognad mot lymfoplasmocytoid a celler och också plasmaceller. Intranukleära 
+immunglobulininklusioner (”Dutcher bodies”) kan ses. Ibland föreligger leukemisk blodbild. 
+Immunfenotypning med flödescytometri eller immunhistokemi krävs för att fastställa diagnosen 
+och differentiera mot and ra B-cellslymfom med benmärgsengagemang. Analys av p53 och EBV 
+på tumörvävnad bör utföras v id transformationsmisstanke (22). Färgning för amyloid  bör utföras 
+vid misstanke om amyloidos.  
+10.5 Nya diagnostiska markörer och differentialdiagnostik  
+MYD88L265P -mutation föreligger i >90% av lymfoplasmacytiskt lymfom och i betydligt lägre 
+frekvens i andra B -cellslymfom som spleniska och nodala marginalzonslymfo m, KLL och 
+mantelcellslymfom (15). Hög förekomst av plasmaceller i lymfoplasmacytiska lymfom kan 
+medföra differentialdiagnostiska svårigheter gentemot myelom av IgM -typ (vilka är sällsynta och 
+endast u tgör < 0,5 % av alla myelom). Myelom av IgM -typ saknar MYD88L265P -mutatio n (23). 
+Analys av MYD88L265P  på benmärg bör därför utföras vid differentialdiagnostiska 
+överväganden gentemot andra B -cellslymfom m ed benmärgsengagemang och plasmacellsmyelom 
+av IgM -typ. CXCR4WHIM -mutationer föreligger i ca 20 –30% av lymfoplasmacytiskt lymfom, är 
+REGIONALA CANCERCENTRUM  
+24 associerat med högre IgM -nivåer och kraftigare benmärgsengagemang vid Waldenströms 
+makroglobulinemi och kan påverka svaret på nya läkemedel som ibrutinib  (24). Analys av 
+MYD88 - och CXCR4 -mutationer kan därför ge underlag för individualiserad behandling.  
+REGIONALA CANCERCENTRUM   
+25 KAPITEL 11  
+Multidisciplinär konferens  
+Eftersom utredning och behandling av WM i allmänhet sker inom en och samma enhet saknas 
+behovet av multidisciplinär konferens, till skillnad från vad som är fallet vid solida 
+tumörsjukdomar. Om möjligt bör dock samtliga patienter diskuteras vid en intern 
+behandlingskonferens vid kliniken, där också patientens kontaktsju ksköterska bör närvara. 
+Konferens med hematopatolog är också av stort kliniskt värde och bedöms höja kvaliteten i den 
+samlade diagnostiken avsevärt . 
+REGIONALA CANCERCENTRUM  
+26 KAPITEL 12  
+Primär behandling  
+12.1 Behandlingsindikation  
+Rekommendationer   
+Endast patienter med symtomgivande sjukdom bör behandlas.  
+Indikationer till behandling  
+• B-symptom (återkommande feber, nattliga svettningar och viktnedgång samt trötthet)  
+• Hyperviskositet  
+• Förstorade lymfknutor, antingen symptomatiska eller ”bulky ” (>5 cm i diameter)  
+• Symptomgivande förstoring av lever och/eller mjälte  
+• Symptomgivande förstoring eller infiltration av andra organ eller vävnader  
+• Perifer neuropati orsakat av WM  
+• Anemi (Hb ≤ 100 g/l)  
+• Trombocyter ≤ 100 x 109/l 
+• Symptomatisk kryoglobulinemi  
+• Autoimmun hemolytisk anemi eller trombocytopeni  
+• Symptomatisk köldhemolys  
+• Njursjukdom relaterad till WM  
+• Amyloidos relaterad till WM  
+• IgM M -komponent > 60 g/l  
+ 
+I första hand bör patienter behandlas inom ramen för klinisk prövning  
+REGIONALA CANCERCENTRUM   
+27 12.2 Val av behandling  – översikt  
+ 
+12.3 Plasmaferes  
+Rekommendationer   
+För patienter med hyperviskositetssymtom bör behandlingen inledas med plasmaferes.  
+ 
+Hyperviskositet uppträder framförallt hos patienter med  IgM M -komponent > 40 g/l.   
+För patienter med hyperviskositetssymtom bör behand lingen inledas med plasmaferes (25). 
+Plasmaferes kan även användas för att minska risken för ”flare” i samband med 
+rituximabbehandling (se kapitel  14.3.4.  Rituximab flare ). Kan också ges som enda behandlingen 
+till patienter med hyperviskositet som huvudsymtom och som inte bedöms tolerera någon annan 
+behandling. Plasmaferes sänker M -komponenten snabbt (plasmabyte om 3 –4 l sänker M -
+komponenten med 60 –75 %) och förbättrar sjukdomssymtomen, men har kort duration (ofta 
+dagar/veckor) och ingen effekt på själva sjukdomen.  
+
+REGIONALA CANCERCENTRUM  
+28 12.4 Systemisk behandling  
+Rekommendationer  
+•Vid val av behandling bör behandlingen individualiseras beroende på ålder, samsjuklighet,
+typ av symtom eller sjukdomspresentation, tecken till hyperviskositet eller om patienten är
+kandidat för senare stamcellstransplantation.
+•Rituximab är i dag inkluder ad i nästan alla behandlingsregimer på grund av god
+behandlingseffekt utan allvarliga biverkningar. (++++)
+•Rituximab som singelbehandling är ett alternativ vid låg tumörbörda och till äldre och
+skörare patienter. (++)
+•R-bendamustin rekommenderas till pat ienter med låg samsjuklighet och till patienter med
+hög tumörbörda. (++ +)
+•DRC kan rekommenderas till de flesta patienter men framförallt patienter med låg/måttlig
+tumörbörda, viss samsjuklighet eller cytopenier (++)
+•Bortezomibbaserade behandlingar kan an vändas i då man önskar snabb sjukdomskontroll,
+tex vid hyperviskositetssymptom. (++)
+• Ibutinib kan övervägas som primärbehandling till sköra patienter som inte bedöms tåla
+immunokemoterapi och där Rituximab som singelbehandling inte väntas ge tillräcklig
+sjukdomskontroll (++). Kombinationsterapi Ibrutinib och Rituximab rekommenderas inte
+(+++)
+12.4.1  Rituximab som singelbehandling 
+Rituximab som singelbehandling kan vara ett behandlingsalternativ till patienter med en stillsam 
+sjukdom med milda till måttliga symt om, vanligen cytopeni såsom anemi (26, 27). Det kan också 
+vara ett alternativ till äldre skörare patienter som inte anses tåla mer intensiv 
+cytostatikabehandling. Om patienten har ett behandlingssvar efter fyra veckovisa infusioner, kan 
+man förlänga behandlingen med ytterligare fyra ve ckovisa infusioner för att förbättra 
+behand lingssvaret ytterligare (28, 29). Patienter med hemolytisk anemi som inte svar ar på 
+behandling med steroider kan behandlas med Rituximab som singelbehandling. Vid köldhemolys 
+med köldagglutininer och vid neuropati med MAG -antikroppar kan Rituximab som 
+singelb ehandling vara effektiv (30). I sällsynta fall kan akut försämring av neuro pati förekomma 
+efter rituximab. Försämringen är dock reversibel inom någr a veckor till flera månader (31).  
+Vid M -komponent >  40 g/l finns risk för ”flare” (se kapitel 14.3.4 ”Rituximab flare ”). I dessa fall 
+bör singelbehandling med Rituximab undvikas.  
+12.4.2  Rituximab i kom bination med cytostatika  
+Rituximab är i dag inkluderad i nästan alla behandlingsregimer för WM på grund av god 
+behandlingseffekt utan allvarliga biverkningar och kan ges i kombination med bl.a. cyklofosfamid, 
+bendamustin samt purinanaloger såsom fludarabin . I en liten randomiserad studie gav tillägg av 
+Rituximab till CHOP högre andel tumörsvar och längre tid t ill återfall än CHOP enbart (32). 
+Valet av cytostatikabehandling styrs av patientens samsjuklighet, hur snabbt man behöver få 
+sjukdomskontroll oc h sjukdomens presentation . 
+REGIONALA CANCERCENTRUM   
+29 12.4.3  Bendamustin  
+Bendamustin i kombination med Rituximab är ett bra behandlingsalternativ, speciellt hos 
+patienter med stor tumörbörda. I en subgruppsanalys av 44 patienter med WM, i en studie där 
+patienter med indolenta lymfom random iserades till behandling med  R-CHOP eller R -
+bendamustin (33), visades högre behandlingssvar, längre sjukdomsfri överlevnad och mindre 
+biverkningar vid behandling med R -bendamustin. Resultat av StiL NHL7 -2008 maintain trial 
+presenterades vid ASH 2019 och uppvisade behandlingssvar hos 92 % av patienterna och en 
+sjukdomsfri överlevnad på 65 månader  (34). Det finns inga prospektiva randomiserade studi er 
+som jämfört bendamustine med DRC men två retrospektiva studier visar bättre behandling ssvar 
+med bendamustin men också en högre toxicitet (35, 36). 
+R-bendamustin, kurintervall 28 dagar, 4 -6 kurer beroende på behandlingssvar och tolerans mot 
+behandlingen  
+1) Rituximab 375 mg/m2 iv dag 1   
+2) Bendamustin 90 mg/m2 iv dag 1 –2  
+ 
+Vid återfall efter tidigare cytostatika eller hos äldre, kan dosen bendamustin reduceras till 70 
+mg/m2.  
+Profylax mot herpesvirus rekommenderas, i övrigt profylax enligt lokala riktlinjer.  
+12.4.4  DRC  
+Dexametason, Rituximab och cyklofosfamid (DRC) kan ges som pr imärbehandling till de flesta 
+patienter förutom de med uttalad samsjuklighet. Regimen ger ett bra behandlingssvar (83 %) (37) 
+med en sjukdomsfri överlevnad (PFS) på 35 månader och  en 8-årsöverlevnad på 47 % (38) och 
+har acceptabla biverkningar . Mediantiden till svar var 4,1 månader, vilket gör den till ett sämre 
+behandlingsval om snabb sjukdomskontroll krävs.  
+DRC, kurintervall 21 dagar, 6 –8 kurer   
+1) Dexametason 20 mg iv eller per os dag 1   
+2) Rituximab 375 mg/m2 iv dag 1   
+3) T Cyklofosfamid 100 mg/m2 x 2 dag 1 –5 (total dos 1 000 mg/m2)  
+ 
+Hos äldre kan man börja med 3 dagar cyklofosfamid för att öka till 5 dagar, om patienten 
+tolererar behandlingen.   
+En variant av DRC är CDR, med lägre steroiddosering:   
+CDR, kurintervall 21 dagar   
+1) T Cyklofosfamid 100 mg/m2 x 2 dag 2 –6  
+2) T Prednison 100 mg x 1 dag 1   
+3) Rituximab 375 mg/m2 iv dag 1  
+ 
+Cyklofosfamid kan också övervägas att ges intravenöst i dosering 750 –1 000 mg/m2 dag 1 om 
+patienten får biverkningar (t.ex. gastrointestinala ) av peroralt  cyklofosfamid (39).  
+ 
+REGIONALA CANCERCENTRUM  
+30 12.4.5  Bortezomib  
+Bortezomib har använts både i singelbehandling och i kombination med steroider och/eller 
+Rituximab. Höga svarssiffror (81 –96 %) har setts hos patienter med singel Bortezomib eller i 
+kombination m ed lågdos Dexametason och Rituximab (BDR) både i primär - och 
+återfallsbehandling (40-42). Dexametason, Rituximab, Cyklofosfamid (DRC) i kombination med 
+Bortezomib, har också visat goda behandlingsresultat. Bortezomib ger ett snab bt behandlingssvar 
+och kan användas till patienter där man önskar snabb sjukdomskontroll eller vid nedsatt 
+njurfunktion.  
+P.g.a. den neurotoxiska effekten bör Bortezomib användas med försiktighet till patienter med
+neuropati. Risken att utveckla neurotoxic itet är mindre då Bortezomib ges en gång, i stället för
+två gånger i veckan, o ch vid subkutan administration  (41).
+Om Bortezomib ges i kombination med DRC ges Bortezomib 1,6 mg/m2 dag 1, 8 och 15 i kuren 
+och kurintervallet  förlängs till 28 dagar.  
+Profylax mot herpesvirus rekommenderas och ges enligt lokala riktlinjer. 
+En stor randomiserad europeisk fas III -studie (ECWM -1) är precis avslutad. Man jämför DRC 
+med eller utan tillägg av subkutant Bortezomib. Ett abstrakt prese nterat på ASH 2020 visar att B -
+DRC ger höga behandlingssvar (minst partiellt svar) hos 79 % av patienterna (DRC 69 %) och en 
+2-års sjukdomsfri överlevnad på 80 % och med en acceptabel biverkningsprofil, oavsett
+mutationsstatus på MYD88 och CXCR4 (43). Det är för tidigt för att kunna se någon skillnad
+mellan sjukdomsfri och total överlevnad mellan behandlingsarmarna.
+12.4.6  Ibrutinib 
+Ibrutinib i monoterapi är godkänt för behandling av återfall av WM (+++), eller som 
+primärbehandling hos patienter so m är olämpliga för immunokemoterapi. Ibrutinib ingår vid 
+denna indikation inte i läkemedelsförmånen men baserat på god dokumentation och 
+erfarenhet samt en begränsad patientgrupp bedöms behandlingen i detta fall ändå kunna 
+rekommenderas.   
+Ibrutinib är god känt både som primärbehandling och behandling av återfall av WM och 
+preparatet godkändes av den europeiska läkemedelsmyndigheten EMA redan 2014. 2021 gjorde 
+NT-rådet bedömningen att det inte behövs någon kostnadseffektivitets -beräkning då Ibrutinib 
+numera är en väletablerad behandling till denna förhållandevis begränsade patientgrupp.  
+Preparatet kan därför rekommenderas av vårdprogramgruppen men den ekonomiska hanteringen 
+varierar mellan olika regioner.  
+I registreringsstudien för behandling av patienter med återfall av WM (63 patienter med median 
+två tidigare behandlingslinjer) visade Ibrutinib på höga svarsfrekvenser (ca 90 %). Uppföljande 
+data efter fem år visar att median PFS ännu inte är nådd . (44, 45) Ibrutinib är således en effektiv 
+behandling vid återfall av WM.  
+Ibrutinib  som primärbehandling är undersökt i en studie på 30 patienter med svarsfrekvens på 
+100 % och PFS efter 18 månaders uppföljning på 92%. Långtidsdata saknas  (46). Ibrutinib är 
+även godkänt i kombination med Rituximab . I registreringsstudien på 150 patienter (varav 90 
+tidigare obehandlade) randomiserade till kombinationen Ibrutinib+Rituximab jämfört med 
+REGIONALA CANCERCENTRUM  
+31 Rituximab ensamt, sågs höga svarsfrekvenser för kombinationsbehandlingen. Huruvida 
+Rituximab tillför något till behan dlingen med Ibrutinib är oklart  och rekommenderas därför inte 
+för närvarande . Långtidsuppföljning saknas (47). Flera studier som undersöker Ibrutinib i 
+kombination med andra läkemedel pågår (se avsnitt 12.5)  
+Dosering: 420 mg dagligen peroralt (för utförlig information, se FASS). 
+Det föreligger en ökad risk för blödning under behandling med ibrutinib. Preparatet s ka därför 
+sättas ut 3 –7 dagar före och sättas in 3 –7 dagar efter ett kirurgiskt ingrepp, beroende på 
+ingreppets storlek  (49). Ökad förekomst av förmaksflimmer och förmaksfladder har också 
+rapporterats, speciellt hos patienter med känd hjärt -kärlsjukdom  (49). Behandling med Waran 
+eller andra K -vitaminantagonister tillsammans med Ibrutinib bör undvikas. Eventuell 
+antikoagulationsbehandling vid förmaksflimmer måste värderas individuellt med hänsyn till bl.a. 
+CHAD -VASc -score, blödningsrisk och WM sjukdomen. Läkemedel som kraftigt eller måttligt 
+hämmar CYP3A4 kan öka exponeringen för Ibrutinib och bör noga övervägas i varje enskilt fall 
+Vid tillfällig utsättning av Ibrutinib kan symptom såsom trötthet, feber eller nattliga svettningar 
+uppkomma hos ca 20 % av patienterna. Symptomen kan lindras med steroider tex Prednisolon 
+10 -20 mg po eller motsvarande. M -komponenten kan också tillfälligt stiga men sjunker igen när 
+Ibrutinib återinsätts. Vid permanent utsättning av Ibrutinib pga sjukdomsprogress eller toxicitet 
+kan man få en snabb stegring av IgM M -komponenten (rebound). Man bör därför inte vänta för 
+länge med att starta nästa (50) behandlingslinje.  
+12.5 Mutationsstatus inverkan på behandlingssvar 
+Analys av MYD88 rekommenderas ur differentialdiagnostiskt hänseende på alla patienter vid 
+diagnos. Analys av CXCR4 används idag framförallt i kliniska studier men kan övervägas in för 
+behandling med Ibrutinib (49). 
+WM-patienter med ”wild type” av MYD88 har en lägre svarsfrekvens och sämre behandlingsdjup 
+vid behandling med Ibrutinib. Spar samma data talar för att denna skillnad är mindre uttalad vid 
+behandling med kemoimmunoterapi.  (44, 45)  
+Förekomst av CXCR4 -mutationer ger också sämre behandlingssvar och behandlingsdjup vid 
+behandling med Ibrutinib, om än mindre uttalat. (51) Det finns data talande för att CXCR4 -
+mutationsstatus i lägre utsträckning påverkar behandlingssvar på proteasomhämmarna 
+Carfilzombib och Ixazomib. CXCR4 -muattaionsstatus påverkan på behandlingssvar av 
+kemoimmunoterapi är inte känt.  (51, 52)  
+Vid progress under pågående Ibrutinibbehandling bör förekomst av mutation som leder till 
+Ibrutinibresistens misstänkas. Mekansim vid Ibrutinibresistens förefaller att vara densamma som 
+vid KLL där detta är betydligt mer utförligt studerat. Analys av BTK -mutation och PLcCgamma2 
+kan vara av värde. (53)  
+REGIONALA CANCERCENTRUM  
+32 12.6 Behandling av sköra patienter  
+Rekommendationer  
+• Klorambucil, (med fördel i kombination med rituximab), kan användas som 
+symtomlindrande behandling hos äldre sköra patienter. (++)  
+• Rituxim ab som singelbehandling är ett annat alternativ (++)  
+• Ibrutinib som singelbehandling är ett tredje alternativ (++)  
+12.6.1  Klorambucil   
+Klorambucil kan vara ett bra behandlingsalternativ hos vissa äldre patienter eller patienter med 
+samsjuklighet och används med fö rdel i kombination med Rituximab  (54-56). 
+Förslag på olika klorambucilinnehållande regimer:  
+Klorambucil, kurintervall 14 dagar                                                                                                          
+T. Klorambucil 0,4 mg/kg dag 1  
+Klorambucil, kurintervall 28 dagar   
+T. Klorambucil 10 mg/m2 dag 1 –7  
+Klorambucil kontinuerligt (enl. Lister)  
+T. Klorambucil 10 mg dagligen i 6 veckor, vid svar ges ytterligare 2 –3 2-veckorskurer med 2  
+veckors uppehåll mellan.  
+12.6.2  Rituximab som singelbehandling   
+Se kapitel 12.4.1  
+12.6.3  Ibrutinib  
+Se kapitel 12.4.6  
+12.7 Underhållsbehandling  
+Rekommendationer  
+• Underhållsbehandling med Rituximab  (+++)   eller andra läkemedel (+) rekommenderas 
+för närvarande inte.  
+ 
+Underhållsbehandling med Rituximab rekommenderas inte. I en tysk studie med 
+induktionsbehandling Rituximab och Bendamustin randomiserades patienter med 
+behandlingssvar till underhåll me d Rituximab i två år eller exspektans (MAINTAIN study, 
+NCT00877214). Efter medianuppföljning 5,9 år sågs ingen skillnad i progressionsfri överlevnad 
+eller total överlevnad mellan grupperna (57). För underhållsbehandling med andra läkemedel 
+saknas randomiserade studier . 
+REGIONALA CANCERCENTRUM  
+33 12.8 Speciella behandlingsproblem  
+Rekommendationer 
+•Vid progredierande neuropati rekommenderas i första hand behandling med Rituximab
+som singelbehandling. (++) Om det även finns annan behandlingsindikation
+rekommenderas kombinationsbehan dling med t.ex. DRC. (++)
+•Vid symtomgivande Bing –Neels syndrom rekommenderas i första hand behandling med
+Ibrutinib, Bendamustin och i utvalda fall Fludarabin. (+) Diskutera gärna med regionalt
+centrum.
+•Vid köldhemolys rekommenderas i första hand behandl ing med Rituximab. (++)
+•Vid kryoglobulinemi rekommenderas i första hand Rituximab och steroider (++)
+12.8.1  Neuropati  
+Singelbehandling med Rituximab rekommenderas till patienter med milda neuropatibesvär och 
+avsaknad av a nnan behandlingsindikation (59). I andra fall rekommenderas 
+kombinationsb ehandling, till exempel DRC (30). Använd läkemedel som kan försämra neuropati , 
+t.ex. Bortezomib, med försiktighet. Manifest neuropati förbättras sällan av behandling.
+12.8.2  Amyloidos 
+För utredning och behandling av AL -amyloidos hänvisas till gällande riktlinjer fastställda av  
+Diagnosgruppen för plasmacellssjukdomar .  
+12.8.3  Bing–Neels syndrom (BNS)  
+BNS är en ovanlig manifestation av en  redan ovanlig sjukdom där standardiserad behandling 
+saknas och är begränsad till läkemedel som penetrerar CNS.  
+Behandling rekommenderas till patienter med symptomgivande BNS  med målsättning klinisk 
+förbättring eller symptomlindring . Vid behandling av symt omatisk BNS finns data för 
+behandlingseffekt av Ibrutinib  och rekommenderas i första hand  (för 
+behandlingsrekom mendation Ibrutinib se avsnitt 12.4). Fludarabin, Cladribin och Bendamustin 
+(sistnämnda med begränsade data på penetration till CNS) är andra öve r tid mer beprövade 
+alternativ. Behandlingseffekten av intratekal behandling är i regel kort, men kan vara ett 
+behandlingsalternativ vid enbart meningeal infiltration, som tillägg till systemisk behandling eller 
+som palliation. HD -metotrexatbaserade eller HD-AraC är effektiva behandlingar, men med hög 
+toxicitet och bör därför reserveras till yngre patienter med upprepade relaps och bibehållet gott 
+allmäntillstånd. Rituximab har dålig penetrans till CNS, men kan ges i kombination med 
+ovanstående om systemisk  behandlingseffekt önskas. Strålning kan avvändas vid lokaliserad 
+CNS -sjukdom med korrelerande fokalneurologiska symtom. Steroider har kortvarig effekt, men 
+bör användas som på samma indikatione r som vid övriga CNS -lymfom  (11, 12).  
+REGIONALA CANCERCENTRUM  
+34 12.8.4  Transformation till aggressivt lymfom  
+Histologisk transformation, v anligast till diffust storcelligt B -cellslymfom, är rapporterat för ca 5 – 
+10 % av WM -patienterna. För utredning och behandling hänvisas till  Nationellt vårdprogram 
+Indolenta B -cellslymfom och hårcellsleukemi, kapitel 9 Follikulärt lymfom .  
+12.8.5  Köldhemolys (Chronic Cold Agglutinin Disease eller CAS)  
+I akuta situationer då man behöver snabb kontroll på hemolysen bör plasmaferes övervägas.  
+Rituximab i singelbehandling är förstahandsval. Ca hälften av patienterna har ett behandlingssvar 
+med en duration på knappt ett år.  
+Rituximab -bendamustin i 4 cykler k an också övervägas. I Berendsens et al studie svarade 71 % av 
+patienterna varav 40 % gick i komplett remission .  
+Behandling med Rituximab -fludarabin kan övervägas hos yngre patienter med svår hemolys och 
+utan samsjuklighet.  (13, 60).  
+12.8.6  Kryoglobulinemi  
+Rituximab och steroider är förstahandsval. Standardbehandling för WM kan ock så övervägas. Vid 
+svår sjukdo m kan plasmaferes övervägas (61).  
+12.8.7  Bedömning av be handlingssvar  
+ Målet med behandlingen beror bland annat på patientens ålder och samsjuklighet. Hos yngre 
+patienter är målet att uppnå ett maximalt kliniskt svar. Detta kan definieras som komplett eller 
+partiell remission. Hos äldre patienter kan målet vara  mer inriktat på att lindra symtom och 
+minska risken för organskada. Det kan dröja lång tid (6 –12 månader) innan patienten svarar på 
+given behandling, varför tidpunkten för remissionsbedömning är viktig. Vid en ”flare” reaktion 
+kan M -komponenten kvarstå lä nge och ibland måste då tumörsvaret värderas genom 
+benmärgsprov. Efter Rituximabinnehållande behandling kan M -komponenten ibland fortsätta att 
+sjunka flera år efter avslutad behandling.  
+Kriterier för behandlingssvar vid W aldenströms makroglobulinemi (62) 
+Se kapitel 18.5. 
+REGIONALA CANCERCENTRUM  
+35 KAPITEL 13  
+Behandling av återfall  
+13.1 Behandling av icke -symtomgivande återfall 
+ Vid icke -symtomgivande återfall av sjukdomen bör patienten endast följas med tätare kontroller 
+och behandling avvaktas.  
+13.2 Behandling av tidigt symtomgivande åte rfall (<2 år 
+efter avslutad primärbehandling)  
+Rekommendationer  
+Vid behandling av tidigt symtomgivande återfall (< 2 år) efter avslutad behandling bör ny typ 
+av individualiserad behandling erbjudas. Om > 6 månader förflutit sedan senaste dosen 
+Rituximab, b ör Rituximab ingå i behandlingen.   
+Rekommenderade regimer vid återfall annat än den givna primära behandlingen:  
+•Bendamustin  (58, 63) (++)
+•DRC (++)
+•Ibrutinib (+++). Kombinationsbehandling med Rituximab rekommenderas inte (+++).
+•Bortezomib ensamt eller i kombination med steroider och Rituximab (BDR), i
+kombination med steroider och Cyklofosf amid eller i kombination med DRC  (64) (++)
+•Fludarabin ensamt eller i kombination med Rituximab och Cyklofosfamid (F, FR, FCR)
+(+++)
+•Klorambucil  – hos äldre patienter med samsjuklighet samt som symtomlindrande
+behandling (++)
+•R-CHOP vid aggressiv sjukdo msbild eller hög tumörbörda (32) (++)
+Om patienten inte svarar på given behandling eller får tidigt återfall med symtomgivande 
+sjukdom, bör ny typ av behandling erbjudas. Valet styrs av ålder, samsjuklighet och dominerande 
+symtom samt typ av tidigare behandling. De preparat och kombinationer som rekommenderas till 
+tidigare obehandlade patienter används även vid återfall.  
+13.3 Behandling av sent sy mtomgivande återfall (>2 år 
+efter avslutad primärbehandling)  
+ Rekommendationer  
+•Vid behandling av sent symtomgivande återfall (> 2 år) upprepas den primärt givna
+behandlingen. Hänsyn tas även till ålder, samsjuklighet och symtom.
+REGIONALA CANCERCENTRUM  
+36 13.4 Etablerad regim som använd s allt mindre idag  
+13.4.1  Fludarabin  
+Fludarabin kan i utvalda enstaka fall ges vid behandling som singelbehandling eller i kombination 
+med Cyklofosfamid (FC) oc h/eller Rituximab (FCR) (65, 66). Fludarabin ger en hög 
+svarsfrekvens och har i en stor randomiserad studie visat bättre behandlingseffekt (både andel 
+remissioner, progressionsfri överlevnad (PFS) och  överl evnad) än Klorambucil  (55). Fludarabin 
+är dock benmärgstoxiskt och kan ge långvarig benmärgshämning med sekundä ra 
+infektionskomplikationer (67). Även en ökad risk för myelodysplasi, akut myeloisk leukemi 
+(AML) och transformation till agg ressivt lymfom är beskrivet (68). Rekommenderas därför inte 
+rutinmässigt som behandling då det i de flesta fall finns bättre behandlingsalternativ.   
+Fludarabin rekommenderas inte till patienter som senare kan bli kandidater för autolog 
+stamcellstransplantation p.g.a. dess stamcellsskadande effekt.   
+FCR, kurintervall 28 dagar   
+1. Rituximab 375 mg/m2 iv dag 1   
+2. Fludarabin 25 mg/m2 iv infusion 30 min dag 1 –3, alt. 40 mg/m2 po dag 1 –3  
+3. Cyklofosfamid 250 mg/m2 iv infusion 30 min dag 1 –3, alt. 250 mg/m2 po dag 1 –3  
+  
+Dosreducering av Fludarabin krävs ofta hos WM -patienter, t.ex. ”FC lite” där ett exempel på 
+dosreduktion är Fludarabin 20 mg/m2 iv och Cyklofosfamid 150  mg/m2 iv (69).  
+Profylax mot herpesvirus, Pneumocystis jiroveci och i utvalda fall mot svamp rekommenderas 
+och ges enligt lo kala riktlinjer.  
+13.5  Komma nde behandlingar som inte är godkända  
+Många läkemedel har med varierande framgång undersökts vid WM. Ett problem vid WM är att 
+data i regel kommer från mindre fas II studier, få randomiserade studier finns. I regel saknas 
+ännu långt idsdata . Ökad förståelse för orsakerna till utveckling av WM har lett till studier av 
+läkemedel som påverkar tumörcellerna via sp ecifika verkningsmekanismer . Flera studier med nya 
+läkemedel och läkemedelskombinationer pågår och kan komma att ändra behandli ngen av WM 
+de närmaste åren  (70, 71). Inget av nedanstående läkemedel har indikation WM och kan därför 
+inte rekommenderas av vårdprogram gruppen annat än inom ramen av studie.  
+13.5.1  Behandlingar som finns tillgängliga i Sverige för annan diagnos än 
+WM 
+Den nya BTK hämmaren Acalabrutinib visar på hög responsgrad vid behandling av WM. 
+Långtidsdata saknas liksom än så länge jämförande data mot Ibrutinib  (72) 
+Proteasomhämmarna karfilz omib (++) (73)och ixazomib (++) (74) har i studier (ensamt eller i 
+kombination med Rituximab och eller dexametason) visat a ktivitet mot WM med acceptabla 
+biverkningsprofiler. Då IgM -M-komponent kan leda till neuropati är proteazomhämmare med 
+med mindre uttalad neuropati som biverkan teoretiskt attraktiva alternativ  (73).  
+BCL2-hämmaren Venetoclax (WM uttrycker i regel BCL2) har i en fas II studie på 30 patienter 
+med återfall WM (varav hälften behandlade med Ibrutinib) en svarsfrekvens på nära 90%. (75)  
+REGIONALA CANCERCENTRUM  
+37 Immun modulerare såsom lenalidomid (++) (76) och talidomid (+)  (77) har i mindre studier visat 
+behandlingseffekt men i många fall med sämre biverkningsprofil . Detsamma gäller 
+mTORhämmaren everolimus (78) (+++).   
+PI3Kδ -hämmaren Idelalisib har effekt mot WM, men med uttalad  toxicitet  (79). 
+(81)En nyligen  publicerad studie på 13 patienter med relapserad/refraktär WM som behandlades
+med CD38 monoklonala antikroppen Daratumumab visade på något oväntat blygsam effekt
+(WM uttrycker i hög grad CD38). (71)
+13.5.2  Behandlingar som inte finns tillgängliga . 
+Den nya BTK -hämmaren Zanubrutinib har hög responsgrad vid behandling av WM och data 
+från en ambitiös jämförande studie med Ibrutinib finns nu tillgängliga. I denna såg man likvärdig 
+behandlingseffekt och toxicitet  för de båda läkemedlen. I studien fanns en särskild 
+behandlingsarm för MYD88 -wt (som svarar sämre på Ibrutinib), vilka erhöll en högre dos 
+Zanubrutinib. Behandlingseffekten var klart begränsad jämfört med MYD88 -muterade  patienter 
+(82). Ytterligare en ny BTK -hämmare, Tirabrutinib ger hög responsgra d vid behandling av WM. 
+För båda läkemedlen saknas långtidsdata liksom för Tirabrutinib än så länge jämförande data mot 
+Ibrutinib (83). 
+Studier på riktade behandlingar mot CXCR4 (monoklonal antikropp Ulucuplumab såväl som små 
+molekyler) pågår. (71) 
+Flera studier med kombinationsbehandling pågår. I huvudsak är det Ibrutinibbaserade 
+kombinationer som undersöks. Bland de studier som pågår eller planeras kan nämnas Ibrutinib i 
+kombination med Venetoclax (tidsbegränsad), Carfilzomi b, Ixazomib, Bortezomib+Rituximab, 
+Daratumumab samt Ulucuplumab (CXCR4 -muterade patienter). Data från dessa studier är ännu 
+inte tillgängliga. (71)  
+13.6 Autolog stamcellstransplantation  
+Autolog stamcellst ransplantation (ASCT) kan övervägas som alternativ för ett fåtal yngre 
+patienter som inte svarar på första linjens behandling, får återfall inom 2 år (+) eller fått 2 
+behandlingsregimer  eller fler,  inkluderande behandling med BTK - hämmare. Av denna anledni ng 
+är det viktigt att undvika stamcellskadande (ffa Fludarabin) behandling till denna begränsade 
+patientgrupp. En förutsättning för ASCT är cytostatikakänslig sjukdom. Det finns inga strikta 
+riktlinjer, men grundregeln är att ASCT är ett behandlingsalterna tiv för patienter yngre än 70 år 
+utan större samsjuklighet efter att ha uppnått en god remission på  given sviktande behandling 
+(84). I de fall auto -SCT övervägs bör kontakt tas med WM -expertis och transplantationscentrum.  
+Högdosbehandling med BEAM är den regim som är mest använd, men högdosme lfalan är ett 
+annat alternativ (85).  
+13.7 Allogen stamcellstransplantation  
+Allogen stamcellstransplantation kan övervägas som alternativ för yngre patienter som får tidigt 
+återfall efter ASCT eller då ASCT inte är ett alternativ p. g.a. t.ex . stamcellsskada (+). Värdet av 
+allogen stamcellstransplantation är dock inte säkert definierat vid WM  (85, 86). Innan beslut om 
+autolog eller allogen stamcellstransplantation tas bör patienten diskuteras för ev. inklusion i 
+läkemedelsstudie med modern läkemedelsbehandling.  
+REGIONALA CANCERCENTRUM  
+38 KAPITEL 14  
+Understödjande vård  
+14.1 Blodprodukter  
+Filtrerade (leukocytreducerade) blodprodukter ger lägre risk för feberreaktioner och HLA -
+immunisering och bör användas som rutin hos patienter med lymfom. Bestrålade blodprodukter 
+rekommenderas endast inför och efter autolog eller allogen stamcellstranspla ntation eller vid 
+behandling med fludarabinbaserad regim; se riktlinjer från respektive transplantationscentrum i 
+denna situation. Trombocyttransfusion ges profylaktiskt om TPK < 10 x 10 E9/l, eller vid 
+blödning. Gränsen för profylaktisk trombocyttransfusi on bör vara högre vid feber och vid 
+koagulationsstörning. Erytrocyter ges i enlighet med lokala riktlinjer. Vid köldhemolys eller 
+kryoglobulinemi bör blodvärmare användas.  
+14.2 Infektionsprofylax 
+Hypogammaglobulinemi är vanligt hos WM och korrigeras inte av ly mfombehandling. Vid 
+återkommande infektioner och samtidig IgG -hypogammaglobulinemi ska substitution med 
+gammaglobulin övervägas (sc). Tänk på att först sänka en hög IgM -komponent . 
+14.2.1  Infektionsprofylax efter högdosbehandling  
+Transplanterade patienter handlägg s enligt lokala transplantationsriktlinjer . 
+14.2.2  Hepatit B  
+Alla patie nter som planeras för immunsupp ressiv behandling bör screenas  avseende på gående 
+eller tidigare genomgången HBV -infektion (anti -HBc positiv med eller utan anti -HBs).  Om 
+screeningen utfaller positivt kontakta infektionsspecialist för bedömning av eventuell profylax. Se 
+riktlinjer från Referensgruppen för Antiviral Terapi (RAV) : 
+https://www.sls.se/rav/rekommendationer/hepatit -b-virus/    
+14.2.3  Herpesvirus  
+En ökad risk för herpes zoster (reaktivering av varicella -zostervirus, VZV) har påvisats vi d 
+behandling med proteasominhibitorer men även vid  behandling med bendamustin s amt efter 
+högdosbehandling/ASCT  (80). Aciklovir 400 mg x 2 alternativt valaciklovir 500 mg x 2 är 
+fullgoda profylaxalternativ. Om patienten genomgått behandling för klinisk herpesinf ektion 
+under lymfombehandlingen rekommenderas profylax t.o.m. 3 –4 veckor efter avslutad 
+cytostatikabehandling . 
+14.2.4  Pneumocystis jiroveci  
+Vid behandling av WM med fludarabin, CHOP eller behandlingsregim innehållande en 
+kortisondos motsvarande Prednison 20 mg el ler mer under minst 4 veckor (87), efter 
+REGIONALA CANCERCENTRUM  
+39 högdosbehandling/ASCT  (80) eller enligt lokala riktlinjer rekommenderas profylax med trim -
+sulfa (t.ex. Bactrim forte med dosen 1 x 1 mån., ons., fre., alt. 1 x 2 mån., tors., alt. Bactrim 1 x 1 
+eller enligt lokala riktli njer). Behandlingen bör fortgå minst 1 –3 månader efter avslutad 
+behandling. Vid överkänslighet för trimetoprim eller sulfa kan inhalation med Pentacarinat 1 
+gg/månad övervägas. Wellvone har inte samma dokumentation för profylaxindikation men bör, 
+om det än då ges, ordineras i behandlingsdos.  
+14.2.5  Allmän svampprofylax (candida etc.)  
+Allmän svampprofylax rekommenderas endast i utvalda fall vid behandling med fludarabin samt 
+vid högdosbehandling/ASCT.  
+14.2.6  Infektionsbehandling  
+Vid feber under neutropen fas ska man, efter  att odlingar säkrats (blododlingar tagna perifert och 
+från central infart), snabbt inleda behandling med bredspektrumantibiotika. Vid utebliven 
+behandlingseffekt bör fortsatt behandling ske i nära samarbete med infektionsspecialist samt 
+mikrobiolog.  
+14.2.7  Vacci nationer  
+Kunskap om det immunologiska svaret på vaccinationer för patienter med Waldenströms 
+makroglobulin emi är mycket bristfälligt studerat. Liksom för andra klonala B -cellssjukdomar kan 
+svaret dock förväntas vara sämre än för normalbefolkningen. Vetensk apligt underlag för optimal 
+vaccinationsförfarande saknas. Studier på patienter med KLL indikerar att det är troligt att effekt 
+av vaccinationer påverkas av sjukdomsduration och given behandling och därför bör ges så tidigt 
+som möjligt i sjukdomsförloppet,  helst före insatt behandling.  
+Vaccinationer med levande, försvagade vaccin bör ges endast i undantagsfall till dessa patienter 
+(epidemiologiskt läge). Vaccination bör undvikas under, och ≤ 3 månader efter avslut av 
+kemoterapi eller högdos steroider då sky ddseffekten sannolikt är låg. Skyddseffekt av vaccination 
+under pågående behandling med BTK -hämmare (Ibrutinib) är relativt okänt. Patienter som 
+erhållit Rituximab eller annan CD20 -ak får ett försämrat vaccinnationssvar upp till 6 ( -12) 
+månader efter sena ste Rituximab dosen.  
+Vaccination mot pneumokocker (enligt nedan) liksom säsongsinfluensa bör rekommenderas 
+rutinmässigt till patienter med Waldenströms makroglobulinemi. Vaccin mot TBE och hepatit A 
+och B rekommenderas till riskgrupper. Mot Herpes Zoster e ndast avdödat vaccin som t.ex. 
+Shingrix®  (OBS! Ersätter inte läkemedelsprofylax mot bältros med t.ex. Aciklovir vid behandling 
+med Bortezomoíb).  
+Pneumokockvaccination rekommenderas enligt följande schema:  
+Till tidigare ovaccinerad : En dos (0,5 ml) konjugat vaccin PCV13 (t.ex  Prevenar13®)  och efter 
+tidigast 8 veckor följt av en dos  polysackaridvaccin PPV23 (t.ex.  Pneumovax). PPV23 kan 
+upprepas var 5e år.  
+Till person tidigare vaccinerad med PPV23 : En dos PCV13 ges tidigast ett år efter senaste dosen 
+av PPV23. PPV23 kan upprepas var 5e år.  
+REGIONALA CANCERCENTRUM  
+40 Till person tidigare vaccinerad med konjugatvaccin (Prevenar, Prevenar13 eller Synflorix) : En dos av 
+polysackaridvaccinet PPV23 ges tidigast  åtta veckor efter den senaste dosen av konjugatvaccinet. 
+PPV23 kan upprepas var 5e år . 
+Vaccination mot Covid -19: Rekommenderas generellt, Folkhälsomyndighetens och regionala 
+riktlinjer bör följas. Under pågående Covid19 -pandemi bör risk för immunsuppression tas i 
+beaktande vid val av behandling. Tillgängliga läkemedel med lägre grad av imm unsuppression är 
+BTK -hämmare t.ex. Ibrutinib.  
+14.3 Handläggning av biverkningar relaterade till 
+Rituximab  
+14.3.1  Sen neutropeni (LON)  
+Sena neutropenier ”late onset neutropenia” (LON) har blivit ett alltmer uppmärksammat 
+problem efter kombinationsbehandling med Rituxim ab och cytostatika. LON (neutrofiler < 1,0 x 
+109/l) har diagnostiserats hos 10 –20 % av behandlade patienter. Mediantiden för debut av LON 
+är 3 månader (1 –6 månader) efter avslutad behandling. LON är oftast ofarligt och spontant 
+övergående (88, 89). Om grav neutropeni uppträder (< 0,2 x 109/l) rekom menderas enstaka 
+doser med G -CSF (+).  
+14.3.2  Rituximabinducerade interstitiella lungförändringar (R -ILD) 
+Enstaka fall av interstitiella lungförändringar har rapporterats i samband med Rituximab. Om 
+progredierande andfåddhet uppstår utan infektion/lungembolism bör  behandlingen med 
+Rituximab avbry tas och högdossteroider ges (90). 
+14.3.3  Akuta infusionsreaktioner  
+Akuta infusionsreaktioner förekommer främst under den för sta behandlingen och handläggs 
+enligt lokala riktlinjer.  
+14.3.4  ”Rituximab flare”  
+Nästan hälften av de patienter som får rituximab som singelbehandling får ” Rituximab flare”, 
+dvs. en paradoxal mätbar ökning av IgM, som dock i nte alltid är symtomgivande (91). Reaktionen 
+kan kvarstå upp till 4 månader efter avslutad Rituximabbehandling, men behöver inte tyda på 
+dålig behandlingseffekt på sikt. På grund av risken för flare ska Rituximab undvikas som 
+singelbehandling till patienter med symtomatisk hyperviskositet och samtidigt höga IgM -värden 
+(IgM > 40 g/l), då symtomen kan förvärras kraftigt på grund av flare. Plasmaferes kan reducera 
+storleken på M -komponenten före Rituximabbehandli ng. För att minska risken för flare kan 
+också Rituximab uteslutas från de första 1 –2 cytostatikakurerna. Om Rituximab ges som 
+kombinationsbehandling minskar risken för flare och behandlingseffekten blir i regel snabbare.  
+REGIONALA CANCERCENTRUM  
+41 KAPITEL 15  
+Palliativ vård och insat ser 
+En stor del av insatserna inom palliativ vård är gemensamma för olika cancersjukdomar. Vi 
+hänvisar därför till Nationellt vårdprogram för palliativ vård , Nationellt kunskapsstöd för god 
+palliativ vård i livets slutskede , och SOSFS 2011:7 Livsuppehållande behandling . När den 
+diagnosspecifika behandlingen sviktar och ingen ytterligare sådan behandling finns att erbjuda, 
+ska patienten ges möjlighet att få information om sin situation och möjligheter för att kunna 
+påverka och planera för den sista tiden i livet. Patienten ska för säkras tillgång till psykologiskt och 
+existentiellt stöd, tillgång till adekvat medicinsk symtomlindrande vård t.ex. via hemsjukvård eller 
+hospice, tillgång till omvårdnad, hemtjänst, hjälpmedel, hjälpmedel och att få läkemedel utifrån 
+behov, vilket också innebär att läkemedel regelbundet omprövas och sätts ut när de inte längre 
+gagnar patienten. Specialiserad palliativ vård kan om så behövs konsulteras. Lokala rutiner får 
+gälla. 
+REGIONALA CANCERCENTRUM  
+42 KAPITEL 16  
+Omvårdnad och rehabilitering  
+16.1 Kontaktsjuksköterska  
+Den nationella cancerstrategin styrker att varje patient ska erbjudas en kontaktperson på den 
+cancervårdande kliniken med syfte att förbättra informationen och kommunikationen mellan 
+patienten och vårdenheten och stärka patientens möjligheter till delaktighet i vården (S OU 
+2009:11). Sedan 2010 finns en lagstadgad rätt till fast vårdkontakt i patientlagen (2014:821).  
+Staten och Sveriges Kommuner och Regioner har enats om en gemensam generell beskrivning av 
+kontaktsjuksköterskans roll och funktion. Den finns att läsa på 
+https://cancercentrum.se/samverkan/patient -och-narstaende/kontaktsjukskoterska/  
+Att patienten har erbjudits en namngiven kontaktsjuksköterska ska dokumenteras i p atientens 
+journal och om möjligt registreras i kvalitetsregister.  
+16.2 Min vårdplan  
+En individuell skriftlig vårdplan, kallad Min vårdplan , ska tas fram för varje patient m ed cancer. 
+Det framgår i den nationella cancerstrategin för framtiden (SOU 2009:11) och i de 
+patientcentrerade kriterierna som ska utmärka ett regionalt cancercentrum (Socialdepartementet: 
+2011). Läs mer på https://cancercentrum.se/samverkan/patient -och-narstaende/min -vardplan/  
+16.3 Aktiva överlämningar  
+Under patientens tid i cancervården förekommer ofta överlämningar mellan olika vårdgivare. För 
+att skapa en sammanhållen vår dkedja för patienten och de närstående ska alla överlämningar vara 
+”aktiva”.  
+Aktiv överlämning innebär att den som har ansvaret för patienten tar kontakt, muntligt och 
+skriftligt, med nästa instans. Den som aktivt överlämnat har fortsatt ansvar till dess a tt 
+mottagande instans bekräftat att de tagit kontakt med patienten. Uppstartade åtgärder och 
+insatser inom omvårdnad, palliation och cancerrehabilitering ska följas upp, utvärderas och 
+dokumenteras i Min vårdplan.  
+16.4 Löpande cancerrehabilitering  
+Cancerrehabi litering syftar till att förebygga och minska de fysiska, psykiska, sociala och 
+existentiella följderna av en cancersjukdom och dess behandling. Insatserna ska ge patienten och 
+de närstående stöd och förutsättningar att leva ett så bra liv som möjligt. Se det nationella 
+vårdprogrammet för rehabilitering . 
+REGIONALA CANCERCENTRUM  
+43 16.4.1 Regelbun den behovsbedömning för patient er och närstående 
+Cancerrehabilitering är aktuellt under hela proce ssen från misstanke om cancersjukdom och 
+framåt. Behovet av rehabilitering ska därför bedömas regelbundet. Patienten och de närstående 
+ska återkommande få information om vilka rehabiliteringsbehov som är vanliga och vilka insatser 
+som erbjuds. I patientens skriftliga vårdplan, Min Vårdplan, ska cancerrehabilitering ingå. Vissa 
+rehabiliteringsbehov, till exempel lymfödem, kan kräva behandling livet ut. 
+Såväl patienter som närstående kan omfattas av rehabiliteringsinsatser. Närstående kan vara 
+exempelvis partner, ba rn, förälder, sys kon eller annan person som patienten anser sig ha nära 
+relation till. Barn som anhöriga har en särställning då hälso- och sjukvården har skyldighet att ge 
+dem information, råd och stöd, enligt Hälso- och sjukvårdslag (2017:30) 5 kap 7 §.  
+16.4.2 Grundläggand e och specialise rad rehabilitering 
+All personal inom hälso- och sjukvården ska göra g rundläggande behovsbedömningar och ge 
+grundlägga nde insatser inom cancerrehabilitering . Vid mer avancerade behov ska patienten alltid 
+erbjudas insatser från professioner med specialkompetens inom rehabilitering, exempelvis 
+kurator, fysioterapeut, psykolog, arbetsterapeut oc h dietist. Även andra professioner som 
+sjuksköterska, läkare och tandläkare kan a rbeta specialiserat med cancerrehabilitering. 
+16.5 Sexualitet 
+Cytostatikabehandling påverkar cellnybildningen och kan hos kvinnor ge sköra slemhinnor och 
+torrhet. Sekundärt till detta kan det uppstå svampinfektioner och äve n sammanväxningar. 
+Cytostatikabehandling leder ofta till att kvinnor som inte har kommit i menopaus slutar att 
+menstruera och kommer in i klimakteriet, vilket ofta innebär besvär i form av värmevallningar 
+och svettningar. Cytostatikabehandling ökar riske n för erektil dysfunktion hos män, vilket bör tas 
+upp till diskuss ion. Behandling med potenshöja nde läkemedel kan här ofta ha god effekt. Män 
+bör också informeras om att använda kondom eftersom cytostatika kan finnas kvar i sperma upp 
+till 72 timmar efter behandling. Patienten bör informeras om ovanstående, och vid behov 
+remitteras till gynekolog, androlog eller sexolog. 
+16.6 Fertilitetsbesparande åtgärder 
+Majoriteten av alla patienter med WM är äldre, men det finns också en grupp yngre patienter där 
+fertilitetsaspekter är centrala. I de fall då fertilitetsbesparande åtgärder bör diskuteras kan man 
+utgå från rekommendationerna i det nationella vårdprogrammet för aggressiva B-cellslymf om, se 
+Aggressiva B-cellslymfom - RCC Kunskapsbanken (cancercentrum.se)   
+16.7 Fysisk aktivitet 
+Vid behandling av WM får patienten upprepade cykler med cytostatika. Illamående, infektioner 
+och fatigue bidrar till nedsatt livskvalitet (QoL). Fysisk aktivitet under och efter 
+cytostatikabehandlingen har visats vara viktig för att förbättra livskvaliteten, med positiva effekter 
+både på fatigu e och illamående, varför detta ska uppmuntras. Fysisk aktivitet är också viktig för 
+att mins ka risken för inaktivitetsrelaterade komplikationer, såsom förlust av muskels tyrka (92). 
+REGIONALA CANCERCENTRUM  
+44 16.8 Hygien och isolering  
+Patienter med WM löper risk att drabbas av allvarliga infektioner, främst bakteriella, under fasen 
+med cytostatik ainducerad neutropeni. Infektionen härrör då i de flesta fall från patientens egen 
+bakterieflora. Den viktigaste åtgärden för att förebygga smittspridning i vårdarbetet är basala 
+hygienrutiner. De ska därför tillämpas av alla som deltar i patientnära vårda rbete, se 
+Vårdhandboken och lokala rutiner. Vid inneliggande vård bör patienten ”skyddsisoleras” under 
+fasen med grav neutropeni. Det innebär att patienten vårdas i enkelrum med förrum eller 
+ventilerad sluss och med särskilt noggranna hygienrutiner. Värdet  av sådan skyddsisolering har 
+inte klart visats, men vårdformen underlättar tillämpningen av basala hygienrutiner samt minskar 
+patientens exposition för mikrobiologiska agens i sjukhusmiljön – inte minst infekterade 
+medpatienter. Så få personer som möjligt  bör delta i vården av den skyddsisolerade patienten. 
+Besökare (närstående) bör vara få och friska.  
+16.9 Munvård  
+ Patienter med WM kan drabbas av infektioner och sår i munhålan. Infektionerna orsakas ofta av 
+mikroorganismer (bakterier, virus och svamp) som norm alt finns i munhålan. En god munhygien 
+kan i viss mån förebygga dessa infektioner samt reducera svårighetsgraden och längden av dem. 
+Patienter med dålig tandstatus bör bedömas av tandläkare innan cytostatikabehandlingen startar. 
+Under perioderna med cytost atikainducerad neutropeni bör patienten använda en mjuk 
+tandborste och mild tandkräm. För att lindra muntorrhet bör patienten skölja munhålan ofta med 
+vanligt vatten eller koksaltlösning, eller använda hjälpmedel i form av oljespray eller fuktgel . 
+16.10  Nutritio n 
+Patienter med WM har ofta gått ner i vikt redan innan diagnosen är ställd, och när 
+cytostatikabehandlingen sätts in blir födointaget ännu viktigare. Undernäring och ofrivillig 
+viktnedgång orsakas av nedsatt aptit, illamående, smakförändringar och problem  i munhåla och 
+svalg. Undernäring och viktförlust påverkar muskelstyrkan, den fysiska aktiviteten och de 
+kognitiva funktionerna. Ett gott nutritionsstatus, å andra sidan, minskar fatigue. Vikten bör också 
+följas under behandlingsperioden. Energiintaget bed öms utifrån aktuellt energibehov. Om 
+undernäring förekommer bör man erbjuda mat som är lättare att äta och som är energiberikad. 
+Detta kompletteras med flera mellanmål och kosttillägg.  
+16.11  Skötsel av central infart till blodkärl  
+Cytostatikabehandling av WM krä ver i vissa fall en central infart (CVK, PICC -line, subkutan 
+venport, SVP). En central infart kan vara ingångsport för infektioner. En vårdhygieniskt korrekt 
+skötsel av patientens centrala infart är därför en mycket viktig infektionsförebyggande åtgärd. Fö r 
+en utförlig beskrivning av principer och tekniker vid handhavande av CVK/SVP, se 
+Vårdhandboken , Handhavande - Vårdhandboken (vardhandboken.se)  
+16.12  Psykosoci alt stöd  
+Att få en cancersjukdom kan innebära en stor psykisk belastning för den som blir sjuk och för de 
+närstående. Känslor av oro, nedstämdhet och sorg är vanligt. I vissa fall utvecklar patienten eller 
+de närstående symtom på psykisk ohälsa, såsom depr ession, oro eller ångest. Det är viktigt att 
+REGIONALA CANCERCENTRUM   
+45 tidigt upptäcka detta och initiera psykosocialt stöd, psykologisk behandling och/eller 
+farmakologisk behandling. I övrigt hänvisas till vårdprogrammet för cancerrehabilitering , 
+Cancerrehabilitering - RCC Kunskapsbanken (cancercentrum.se)  
+16.13  Information om biverkningar  
+Patienten bör få muntlig och skriftlig information om biverkningar innan behandlingsstarten. 
+Biverkningar bör eft erfrågas regelbundet under pågående behandling. Även närstående bör få 
+denna information  
+16.13.1  Fatigue eller trötthet  
+Fatigue är ett vanligt symtom vid tumörsjukdom inkluderade WM. Det är en trötthet som beror 
+både på sjukdom och behandlingen, och som inte försv inner av vila. Man kan sova hela natten 
+och vara precis lika trött när man vaknar som vid sängdags (93). 
+16.13.2  Benmärgspåverkan  
+Waldenströms makroglobulinemi  i sig, men även cytostatikabehandling, påverkar bildandet av 
+blodkroppar i benmärgen. Detta kan leda till lågt blodvärde, lågt antal vita blodkroppar och även 
+låga trombocyter. Vid lågt blodvärde kan det i vissa fall bli aktuellt med blodtransfusion. Vid hög 
+M-komponent får patienten ökad plasmavolym, vilket kan ge en falsk anemi, då är 
+blodtransfusion kontraindicerat (94). Hemolys och köldagglutininsyndrom förekommer också 
+hos patienter med Waldenströms makroglobulinemi, vilket är att särskilt beakta vid eventuell 
+blodtransfusion. Steroider elle r förvärmt blod kan behövas .  
+16.13.3  Neuropati  
+Neuropati kan vara ett sjukdo mssymtom vid Waldenströms makroglobulinemi och symtomen 
+kan minska i och med behandling. Dock kan vissa cytostatika som ingår vid behandling av WM, i 
+synnerhet Bortezomib, påverka nerverna. Detta kan ge bl.a. stickningar och känselb ortfall i 
+händer och föt ter.  
+16.13.4  Illamående  
+Illamående kan förekomma vid cytostatikabehandling. Det viktigaste är att förebygga detta med 
+antiemetika. Förutom farmakologisk behandling kan även akupunktur och akupressur förebygga, 
+behandla och mildra cyto statikainducerat illamående (95) 
+REGIONALA CANCERCENTRUM  
+46 KAPITEL 1 7 
+Egenvård  
+17.1 Inledning  
+ Nedanstående patientråd gäller främst under och närmast efter perioder med kraftigare 
+cytostatikabehandling, men kan även tillämpas vid antikroppsbehandling. Informationen till 
+patienten bör givetvis individualiseras.  
+17.1.1  Rökning och alkohol  
+Avstå från röknin g och att vara uppmärksam på dina alkoholvanor . 
+17.1.2  Infektionskänslighet  
+Allmänna råd till patienten för att undvika infektion:  
+• Var noggrann med handhygienen. Det gäller både dig själv och dina närstående.   
+• Träffa gärna folk – men undvik infekterade personer (speciellt luftvägssmitta).   
+• Undvik gärna folksamlingar och köer om det går, speciellt under influensatider.   
+• Om du kommer i kontakt med någon som är smittad med vattkoppor – ta snarast kontakt 
+med din läkare för diskutera eventuella åtgärder. Vattkoppor kan vara farligt för dig. Risken 
+att du blir sjuk är dock liten om du har haft vattkoppor tidigare eller om du har 
+förebyggande virusprofylax (valaciklovir).  
+17.1.3  Munhygien  
+God munvård är viktig, speciellt tiden närmast efter cytostatikabehandlingen. Använd då en mjuk 
+tandborste med mild tandkräm. Rengör också försiktigt mellan tänderna varje dag  
+17.1.4  Fysisk aktivitet  
+Fortsä tt gärna med de motionsaktiviteter eller annan fysisk aktivitet som du annars ägnar dig åt, i 
+den utsträckning som du kan och orkar. Fysisk aktivitet har positiva effekter på muskelstyrka och 
+kondition, men även på livskvalitet som helhet och trötthet. Se även det nationella 
+vårdprogrammet för cancerrehabilitering , Cancerrehabilitering - RCC Kunskapsbanken 
+(cancercentrum.se)  
+17.1.5   Hud 
+Var försiktig med solen eftersom huden är  känsligare än vanligt efter cytostatikabehandlingen. 
+Detta gäller även solarium. WM kan ge nedsatt känsel i fingrar och fötter, och vissa cytostatika 
+kan också ge dessa symtom  och därför är det lätt att få sår där. Undvik sådant som kan skada 
+huden, t.ex.  att gå barfota.  
+REGIONALA CANCERCENTRUM   
+47 17.1.6  Mage och tarm  
+Förstoppning är en vanlig biverkning under cytostatikabehandling. Den kan orsakas av läkemedel 
+som ges mot illamående (exempelvis Ondansetron), av morfinpreparat, av vissa cytostatika eller 
+av nedsatt fysisk aktivitet. Försö k att vara fysiskt aktiv i den utsträckning du kan och orkar. Det 
+finns också flera olika läkemedel mot förstoppning, som din läkare kan förskriva.  
+17.1.7  Vaccinationer  
+Vaccinera dig mot säsongsinfluensan. Socialstyrelsen och Läkemedelsverket rekommenderar att 
+alla som har gravt nedsatt immunförsvar gör detta. Uppmana närstående att också vaccinera sig 
+mot säsongsinfluensa. Även små barn kan vaccineras.  Vaccinera dig också mot pneumokocker. 
+Om du fått eller får behandling inkluderande Rituximab, minskar skyddseffe kt under 6 månader 
+efter avslutad Rituximabbehandling.  Om du har genomgått en allogen eller autolog 
+stamcellstransplantation ska du få ett särskilt vaccinationsschema.  
+Vaccinera dig även mot covid -19, följ Folkhälsomyndighetens och de regionala riktlinjern a. 
+17.1.8  Feber  
+Det är VIKTIGT att du omedelbart hör av dig till ditt hemsjukhus om du får feber >38,5°C, 
+hosta, andfåddhet, blödning, blåsor i huden (bältros) eller andra nya sjukdomssymtom. 
+Kontaktuppgifter finns i din vårdplan.  
+17.1.9  Köldhemolys  
+Vid köldhemolys blir nästipp, kinder, öron, fingrar och tår blåfärgade (akrocyanos) och urinen 
+rödfärgad p.g.a. att de röda blodkropparna bryts ner vid nedkylning. Det är därför viktigt att hålla 
+sig varm. Skydda ansiktet från kyla och vind, bär varma handskar  och sockor/skor.  
+17.1.10  Neuropati  
+Känseln i händer och fötter kan bli nedsatt till följd av sjukdomen i sig själv men även av 
+behandlingen. Det är därför viktigt att ha bekväma skor som inte klämmer för att undvika 
+sårbildningar. Balansen kan också försämras vil ket ökar risk för fallolyckor. Neuropati kan också 
+upplevas som domningar eller smärta i händer och fötter.  
+17.2 Nationella riktlinjer  
+Socialstyrelsens nationella riktlinjer för prevention och behandling vid ohälsosamma 
+levnadsvanor  är användbara även under cancerbehandlingen. De innehåller kunskaps - och 
+beslutsstöd i mötet med patienten och rekommenderar olika typer av rådgivning . 
+17.3 Rökning  
+Om patienten är rökare bör kontaktsjuksköterskan informera om rökningens negativa effekter 
+vid operation och strålbehandling, och hänvisa patienten till rökavvänjning via primärvården eller 
+den specialiserade vården som k an ge hjälp med rökstopp [1 -7]. Patienterna kan också ringa den 
+nationella sluta rökalinjen 020 -84 00 00 (http://slutarokalinjen.org/).  
+REGIONALA CANCERCENTRUM  
+48 17.4 Komplementär och alternativ medicin  
+Kontaktsjuksköterskan bör informera patienten om att komplementär och alternativ me dicin kan 
+påverka effe kterna av cancerläkemedel (17, 18). 
+17.5 Alkohol  
+Kontaktsjuksköterskan bör rekommendera patienten att vara uppmärksam på sina alkoholvanor 
+under alla typer av cancerbehandling. Alkohol kan öka risken för komplika tioner och 
+biverkningar. (3-5)  
+Patienter som vill ha stöd för att förändra sina alkoholvanor kan ringa den nationella 
+Alkohollinjen 020 -84 44 48 ( www.alkohollinjen.se ) 
+17.6 Fysisk aktivitet  
+Det är viktigt att patienten är så fysiskt aktiv som de egna förutsättningarna tillåter. Patienter bör 
+stimuleras till att fortsätta med sina dagliga fysiska göromål under d en onkologiska behandlingen  
+(6) (FYSS ). Fysisk aktivitet och träning är en av de viktigaste interventionerna för att minska 
+komplikationer i samband med den onkologiska behandlingen, såsom fatigue, nedsatt k ondition 
+och minskad styrka (7) 
+Alla patienter med cancer bör i samband med diagnos och inledande behandling informeras 
+muntligt och skriftligt om betydelsen av fysisk aktivitet samt om hur de vid behov får kontakt 
+med fysioterapeut och arbetsterapeut.  
+17.7 Matvanor  
+ Vid nutrition sproblem bör patienten erbjudas att träffa en dietist. Tidig bedömning och 
+intervention är angelägen. Om patienten har svårt att tugga eller svälja bör en logoped 
+konsulteras.  
+Om patienten inte har några nutritionsproblem rekommenderas kost enligt de nordi ska 
+näringsrekommendationerna, dvs. de rekommendationer som gäller hela befolkningen 
+(Livsmedelsverket/ matvanor ).  
+ 
+  
+REGIONALA CANCERCENTRUM   
+49 KAPITEL 1 8 
+Uppföljning  
+18.1 Inledning  
+Uppföljningen  av en patient med WM sker på samma sätt som med övriga indolenta lymfom. 
+Hos ett indolent lymfom ökar risken för sjukdomsprogress eller transformation över tid.  
+18.2 Mål med uppföljningen  
+Hos obehandlad patient är målet med besöket att avgöra om behandlingsin dikation uppkommit 
+och om inte planera när nästa kontroll bör ske.  
+Vid uppföljning efter avslutad behandling finns olika målsättningar med besöken:  
+1) Kontroll av eventuell progress/ny behandlingsindikation  
+2) Hitta tecken till transformation  
+3) Kontroll av behandlingsbiverkningar och hjälp att reducera dessa  
+4) Psykosocialt stöd och värdering av rehabiliteringsbehov  
+5) Sjukskrivning och andra administrativa åtgärder  
+6) Uppföljning av sena effekter av behandling  
+ 
+Utöver detta kan uppföljningen användas för att samla u nderlag för forskning och 
+förbättringsarbete.  
+Övergången från aktiv behandling till uppföljning ska vara väl definierad och markeras med ett 
+eller flera samtal där patienten får en individuellt anpassad uppföljningsplan. Uppföljningsplanen 
+ska dokumenteras  i Min vårdplan och består av flera delar:  
+• en uppdaterad behovsbedömning för rehabilitering  
+• en översikt över de kommande årens återfallskontroller inkl. datum för den första 
+kontrollen alternativt ett tydliggörande av när och hur patienten kommer att få t id till den  
+• en tydlig ansvarfördelning som tydliggör vem som ansvarar för t.ex. sjukskrivning, 
+förskrivning av hjälpmedel och liknande och där även patientens eget ansvar framgår.   
+18.3 Förnyad behovsbedömning för rehabilitering  
+En förnyad behovsbedömning för r ehabilitering ska göras vid övergången från behandling till 
+uppföljning. Bedömningen ska göras  enligt det nationella vårdprogrammet för 
+cancerrehabilitering , Cancerreha bilitering - RCC Kunskapsbanken (cancercentrum.se)  vilket 
+bland annat innebär användning av validerade bedömningsinstrument.  
+Vid bedömningen ska följande klargöras:  
+• Målet med rehabiliteringen  
+• Patientens eget ansvar för rehabiliteringen inklusive egenvårds råd  
+• Vart patienten kan vända sig vid frågor eller nya behov  
+• Nästa avstämning  
+REGIONALA CANCERCENTRUM  
+50 18.4 Självrapportering av symtom  
+Patienten bör uppmanas att vara uppmärksam på följande symtom och höra av sig till 
+kontaktsjuksköterskan om de inträffar:  
+• Oförklarlig feber som hålle r i sig mer än 2 veckor  
+• Ofrivillig viktnedgång mer än 10 % av kroppsvikten på 6 månader  
+• Nattliga genomdränkande svettningar   
+• Nytillkomna körtlar/knölar  
+• Dom ningar och smärta i händer och fötter  
+18.5 Uppföljning för patienter utan behandlingskrävande 
+sjukdom  
+• Första året var (3 -)6:e månad.  
+• Följande år var 3 -6-12 månad beroende på patientens situation, Återbesöksfrekvensen får 
+styras av risken för sjukdomsprogress. Återbesöken kan vara fysiska men kan skötas per 
+telefon vid stabil sj ukdom och tidigt i sjukdomsförloppet.   
+ 
+I samband med uppföljning rekommenderas blodprover för:   
+• Blodstatus, M -komponent, krea. (minimum)   
+• Vid upprepade infektioner: uteslut sekundär hypogammaglobulinemi.   
+ 
+Anamnestiskt bör symtom på hyperviskositet och ne uropati och nytillkomna neurologiska 
+symtom särskilt penetreras.  Radiologisk undersökning utförs enbart vid misstanke om 
+symtomgivande sjukdom med lymfadenopati  
+Patienten ska alltid ha tillgång till snabbt besök vid behov, t.ex. vid nya symtom eller andra 
+lymfommanifestationer  
+18.6 Uppföljning av patienter som fått behandling  
+För remissionsbedömning enligt kriterier fastställda av International Working Group on 
+Waldenstrom macroglobulinemia krävs utvärdering med DT, benmärgsundersökning och serum -
+elfores med imm unfixation vid två tillfällen med 6 veckors mellanrum. Om bra behandlingssvar  
+sker därefter uppföljningen som för pat utan behandlingskrävande sjukdom.  
+Tabell 4 Kriterier för behandlingssvar  
+Komplett remission (CR)  Ingen M -komponent av IgM -typ normal benmärg  
+Regress av lymfadenopati och organförstoring  
+Inga WM -relaterade symtom  
+Mycket god partiell remission (VGPR)  Som CR men påvisbar M -komponent som dock 
+minskat > 90 %  
+Partiell remission (PR)  > 50 % minskning av M -komponent av IgM -typ  
+REGIONALA CANCERCENTRUM   
+51 > 50 % minskning av lymfadenopati och 
+organförstoring  
+Inga nytillkomna WM -relaterade symtom  
+Begränsad remission (MD)  > 25 % minskning av M -komponent av IgM -typ  
+Inga nytillkomna WM -relaterade symtom  
+Stabil sju kdom (SD)  < 25 % minskning men < 25 % ökning av M -
+komponent av IgM -typ  
+Ingen progress av lymfadenopati, organförstoring eller 
+cytopenier  
+Inga nytillkomna WM -relaterade symtom  
+Progressiv sjukdom (PD)  > 25 % ökning av M -komponent av IgM -typ  
+Med total ökning med minst 5 g/l där ökningen ska 
+vara bestående vid två provtagningstillfällen om inga 
+andra tecken till progress.  
+18.7 Uppföljning av MGUS med M -komponent av IgM -typ  
+Patienter med MGUS med M -komponent  av IgM -typ har en årlig risk på ca 1,5 % att utveckla 
+WM och bör följas upp regelbundet. Patienter med M -komponent av IgM -ty p < 10 g/l utan 
+andra symtom som kan relateras till WM kan följas årligen i primärvården med M -komponent, 
+blodstatus och utvärderi ng av ev. WM -relaterade symtom. Patienter med M -komponent av IgM -
+typ > 10 g/l eller symtom som kan vara förenliga med WM bör remitteras till 
+hematolog/lymfomonkolog för bedömning. Vid nytillkomna WM -relaterade symtom hos 
+patienter med M -komponent av IgM -typ bör alltid hematolog/lymfomonkolog konsulteras. 
+Patienter med MGUS med M -komponent av IgM -typ som ska följas i primärvården bör 
+uppmärksammas på vilka symtom som kan vara relaterade till ev. utveckling av WM. En 
+patientinformation för denna patientpopula tion finns som bilaga 1. För mer utförlig information 
+om utredning av M -komponenter och uppföljning av MGUS – se Nationellt vårdprogram för 
+myelom, kapitel 7 MGUS . (52) 
+18.8 Ansvar  
+Den behandlande kliniken (hematologisk, medicinsk eller onkologisk klinik) ansvarar för att 
+korrekt uppföljning planeras och genomförs. Kliniken bör ansvara för sjukskrivning och 
+receptförskrivning åtminstone första året efter avslutad behandling. Om det därefter föreligger ett 
+fortsatt behov av sjukskrivning, kan detta ske i primärvården.  Patienten ska informeras om vem 
+som har ansvaret för sjukskrivning och receptförskrivning  
+18.9 Avslut av uppföljning  
+Eftersom WM inte är en botbar sjukdom är uppföljningen i regel livslångt. Dock kan patienter 
+som inte återfallit tio till femton år efter autolog SCT betraktas som troligt botade och avskrivas 
+med möjlighet till ny kontakt vid symtom.  
+REGIONALA CANCERCENTRUM  
+52 KAPITEL 19 
+Underlag för nivåstrukturering  
+Patienter med WM bör utredas, behandlas och följas vid hematologisk klinik eller 
+invärtesmedicinsk klinik. I det senare falle t av hematolog eller hematologiskt inriktad 
+invärtesmedicinsk specialist/blivande specialist. Vid behov måste andra specialister konsulteras 
+för t ex  ÖNH -undersökning, ögonundersökning.  
+Enheten ska ha:  
+• minst en specialist i hematologi eller lymfomonkologi  
+• möjlighet att ge transfusioner av erytrocyter och trombocyter även under helger  
+• organisation för omhändertagande av patienter med neutropen feber på vårdavdelning utan 
+dröjsmål, dygnet runt, veckans alla dagar; dessa patienter ska kunna vårdas i isolerings rum 
+• tillgång till intensivvård  
+• etablerad samverkan med infektionsspecialist och tandläkare med erfarenhet av patienter 
+som genomgår cytostatikabehandling  
+• resurser för rapportering till kvalitetsregister och uppföljning av den egna vårdkvaliteten  
+• hög andel sjuksköterskor med längre erfarenhet av cytostatikabehandling  
+• tillgång till rehabiliteringsteam  
+• möjlighet till diagnostisk konferens med hematopatolog  
+• resurser för att kunna delta i, eller remittera till, kliniska läkemedelsprövnin gar, patientnära 
+vårdforskning samt nationell biobank.  
+ 
+I undantagsfall kan uppföljning ske i primärvården, gäller särskilt äldre patienter eller dem med 
+samsjuklighet.  
+Stamcellstransplantationer görs i regel på universitetssjukhus.  
+ 
+REGIONALA CANCERCENTRUM   
+53 KAPITEL 2 0 
+Kvalitetsre gister  
+20.1 Svenska lymfomregistret  
+20.1.1  Syfte och mål  
+På uppdrag av Svenska Lymfomgruppen introducerades år 2000 ett nationellt kvalitetsregister för 
+lymfom, Svenska Lymfomregistret. Sedan år 2007 sker registreringen inom INCA -plattformen.  
+Registrering till Svenska  Lymfomregistret förutsätter att patienten har gett sitt samtycke, efter att 
+ha fått muntlig information och efter att ha haft möjlighet att ta del av skriftlig information, se 
+https://www.cancercentrum.se/globalassets/cancerdiagnoser/blod -lymfom -
+myelom/information -fran-vardgivare -registrering -i-kvalitetsreg -blodcancer.docx  
+• Att komplettera sedvanlig cancerregistrering med specifika data om typ, lokalisation, 
+nodal/extranodal sjukdom, stadium samt övriga relevanta tumör - och patientrelaterade 
+data. Detta för att möjliggöra analyser av eventuella förändringar över tid av incide ns och 
+prevalens av olika subgrupper.  
+• Att ha en nationell databas som underlag vid planering av kliniska studier gällande 
+undergrupper av lymfom, för att bedöma selektion av patienter i studier samt för 
+specialstudier av sällsynta lymfomtyper.  
+• Att följa gl obalt behandlingsresultat i form av överlevnad i de olika subgrupperna med 
+hänsyn tagen till etablerade prognostiska faktorer.  
+• Att ge enskilda kliniker/regioner möjlighet att jämföra data med nationella data vad gäller 
+diagnostik, utredning, överlevnad.  
+20.1.2  Innehåll  
+I Svenska Lymfomregistret har sedan år 2000 registrerats data avseende diagnos, 
+sjukdomsutbredning och prognostiska faktorer för patienter >18 år  med maligna lymfom. Sedan 
+år 2007 registreras också detaljer avseende primärbehandling samt svar på den na, och sedan år 
+2010 även recidiv. Styrgrupp för registret är Svenska Lymfomgruppen (SLG).   
+20.1.3  Inklusionskriterier  
+• Alla nydiagnostiserade fall av lymfom  
+• Patienten ska vara mantalsskriven i Sverige vid diagnos   
+20.1.4  Exklusionskriterier  
+• B-KLL  
+• Barn under 16 år och 16 –19-åringar som handläggs vid pediatriska kliniker  
+• Obduktionsfynd  
+REGIONALA CANCERCENTRUM  
+54 20.2 Cancerregistret  
+Cancerregistret har funnits sedan 1958 och är ett av landets äldsta hälsodataregister. Registret ger 
+underlag för såväl planering och utvärdering av sjukvård och föreb yggande insatser som 
+epidemiologisk och tumörbiologisk forskning.  
+Cancerregistret är inrättat enligt lag och i Socialstyrelsens föreskrifter och allmänna råd om 
+uppgiftsskyldighet till cancerregistret (HSLF -FS 2016:7) beskrivs hur samtliga vårdgivare (vilk et 
+innefattar regioner, kommuner  och privata vårdgivare) är skyldiga att rapportera till 
+cancerregistret. I föreskriften beskrivs också detaljerat vilka tumörtillstånd som ska rapporteras. 
+Trots registrets namn omfattas inte bara elakartade tumörsjukdomar utan även vissa tillstånd som 
+är godartade, premaligna, eller har oklar malignitetspotential ingår i registret.  
+För ytterligare information: https://cancercentrum.se/samverkan/vara -
+uppdrag/kunskapsstyrning/cancerregistret/   
+För de diagnoser som beskrivs i  detta vårdprogram så inkluderas samtliga i kvalitetsregistret och 
+någon separat canceranmälan till RCC behövs alltså inte.  
+ 
+REGIONALA CANCERCENTRUM   
+55 KAPITEL 2 1 
+Kvalitetsindikatorer och 
+målnivåer  
+ 
+Kvalitetsindikator  Målnivå  
+Täckningsgrad i Svenska lymfomregistret.  ≥ 95 % 
+Anmälningsblanketter inrapporterade i registret 3 månader efter 
+diagnosdatum.  ≥ 80 % 
+Tid från remiss skickats till specialistklinik till behandlingsstart  Se Standardiserat vårdförlopp för 
+lymfom*  
+Andel patienter i kliniska studier avseende primärbehandli ng. ≥ 5 % 
+Andel med benmärg (biopsi och aspirat) som diagnostiskt 
+metod för att ställa diagnos vid anmälan  ≥ 95 % 
+* Samma målnivåer avses som i SVF är angivna för tid från beslut välgrundad misstanke till start 
+av behandling.  
+Ovanstående indikatorer har beslutats av Svenska Lymfomgruppen.  
+REGIONALA CANCERCENTRUM  
+56 KAPITEL 2 2 
+Referenser   
+1. Wang H, Chen Y, Li F, Delasalle K, Wang J, Alexanian R, et al. Temporal and geographic 
+variations of Waldenstrom macroglobulinemia incidence: a large population -based study. 
+Cancer. 2012;118(15):3793 -800. 
+2. Brandefors L, Melin B, Lindh J, Lundqvist K, Kimby E. Prognostic factors and primary 
+treatment for Waldenström macroglobulinemia - a Swedish Lymphoma Registry study. Br 
+J Haematol. 2018;183(4):564 -77. 
+3. Koshiol J, Gridley G, Engels EA, McMaster ML, Landgren O. Chronic immune 
+stimulation and subsequent Waldenstrom macroglobulinemia. Arch Intern Med. 
+2008;168(17):1903 -9. 
+4. Kristinsson SY, Koshiol J, Bjorkholm M, Goldin LR, McMaster ML, Turesson I, et  al. 
+Immune -related and inflammatory conditions and risk of lymphoplasmacytic lymphoma 
+or Waldenstrom macroglobulinemia. J Natl Cancer Inst. 2010;102(8):557 -67. 
+5. Kristinsson SY, Bjorkholm M, Goldin LR, McMaster ML, Turesson I, Landgren O. Risk 
+of lymphop roliferative disorders among first -degree relatives of lymphoplasmacytic 
+lymphoma/Waldenstrom macroglobulinemia patients: a population -based study in 
+Sweden. Blood. 2008;112(8):3052 -6. 
+6. Vajdic CM, Landgren O, McMaster ML, Slager SL, Brooks -Wilson A, Smit h A, et al. 
+Medical history, lifestyle, family history, and occupational risk factors for 
+lymphoplasmacytic lymphoma/Waldenstrom's macroglobulinemia: the InterLymph Non -
+Hodgkin Lymphoma Subtypes Project. J Natl Cancer Inst Monogr. 2014;2014(48):87 -97. 
+7. Castillo JJ, Olszewski AJ, Hunter ZR, Kanan S, Meid K, Treon SP. Incidence of 
+secondary malignancies among patients with Waldenstrom macroglobulinemia: An 
+analysis of the SEER database. Cancer. 2015;121(13):2230 -6. 
+8. Kyle RA, Therneau TM, Rajkumar SV, Larson DR, Plevak MF, Offord JR, et al. 
+Prevalence of monoclonal gammopathy of undetermined significance. N Engl J Med. 
+2006;354(13):1362 -9. 
+9. Hasib Sidiqi M, Gertz MA. Immunoglobulin light chain amyloidosis diagnosis an d 
+treatment algorithm 2021. Blood Cancer J. 2021;11(5):90.  
+10. Wechalekar AD, Lachmann HJ, Goodman HJ, Bradwell A, Hawkins PN, Gillmore JD. 
+AL amyloidosis associated with IgM paraproteinemia: clinical profile and treatment 
+outcome. Blood. 2008;112(10):4009 -16. 
+11. Castillo JJ, Treon SP. How we manage Bing -Neel syndrome. Br J Haematol. 
+2019;187(3):277 -85. 
+12. Minnema MC, Kimby E, D'Sa S, Fornecker LM, Poulain S, Snijders TJ, et al. Guideline 
+for the diagnosis, treatment and response criteria for Bing -Neel sy ndrome. 
+Haematologica. 2017;102(1):43 -51. 
+13. Berentsen S, Randen U, Tjonnfjord GE. Cold agglutinin -mediated autoimmune 
+hemolytic anemia. Hematol Oncol Clin North Am. 2015;29(3):455 -71. 
+14. D'Sa S, Kersten MJ, Castillo JJ, Dimopoulos M, Kastritis E, Laane E, et al. Investigation 
+and management of IgM and Waldenström -associated peripheral neuropathies: 
+recommendations from the IWWM -8 consensus panel. Br J Haematol. 2017;176(5):728 -
+42. 
+REGIONALA CANCERCENTRUM   
+57 15. Swerdlow SH. WHO classification of tumours of haematopoietic and lymph oid tissues. 
+Lyon: International Agency for Research on Cancer; 2017.  
+16. Owen RG, Treon SP, Al -Katib A, Fonseca R, Greipp PR, McMaster ML, et al. 
+Clinicopathological definition of Waldenstrom's macroglobulinemia: consensus panel 
+recommendations from the S econd International Workshop on Waldenstrom's 
+Macroglobulinemia. Semin Oncol. 2003;30(2):110 -5. 
+17. Kyle RA, Benson JT, Larson DR, Therneau TM, Dispenzieri A, Kumar S, et al. 
+Progression in smoldering Waldenstrom macroglobulinemia: long -term results. Blood . 
+2012;119(19):4462 -6. 
+18. Kyle RA, Dispenzieri A, Kumar S, Larson D, Therneau T, Rajkumar SV. IgM 
+monoclonal gammopathy of undetermined significance (MGUS) and smoldering 
+Waldenstrom's macroglobulinemia (SWM). Clin Lymphoma Myeloma Leuk. 
+2011;11(1):74 -6. 
+19. Morel P, Duhamel A, Gobbi P, Dimopoulos MA, Dhodapkar MV, McCoy J, et al. 
+International prognostic scoring system for Waldenstrom macroglobulinemia. Blood. 
+2009;113(18):4163 -70. 
+20. Keulers BJ, Scheltinga MR, Houterman S, Van Der Wilt GJ, Spauwen PH. S urgeons 
+underestimate their patients' desire for preoperative information. World J Surg. 
+2008;32(6):964 -70. 
+21. Lithner MZ, T. Does preoperative information increase the wellbeing of the patient after 
+surgery? (in Swedish). Vård i Norden1998.  
+22. Owen RG, Pratt G, Auer RL, Flatley R, Kyriakou C, Lunn MP, et al. Guidelines on the 
+diagnosis and management of Waldenstrom macroglobulinaemia. Br J Haematol. 
+2014;165(3):316 -33. 
+23. Willenbacher W, Willenbacher E, Brunner A, Manzl C. Improved accuracy of 
+discrimin ation between IgM multiple myeloma and Waldenstrom macroglobulinaemia by 
+testing for MYD88 L265P mutations. Br J Haematol. 2013;161(6):902 -4. 
+24. Chakraborty R, Kapoor P, Ansell SM, Gertz MA. Ibrutinib for the treatment of 
+Waldenstrom macroglobulinemia. Ex pert Rev Hematol. 2015;8(5):569 -79. 
+25. Stone MJ, Bogen SA. Role of plasmapheresis in Waldenstrom's macroglobulinemia. Clin 
+Lymphoma Myeloma Leuk. 2013;13(2):238 -40. 
+26. Gertz MA, Rue M, Blood E, Kaminer LS, Vesole DH, Greipp PR. Multicenter phase 2 
+trial of rituximab for Waldenstrom macroglobulinemia (WM): an Eastern Cooperative 
+Oncology Group Study (E3A98). Leuk Lymphoma. 2004;45(10):2047 -55. 
+27. Treon SP, Agus TB, Link B, Rodrigues G, Molina A, Lacy MQ, et al. CD20 -directed 
+antibody -mediated immunotherap y induces responses and facilitates hematologic 
+recovery in patients with Waldenstrom's macroglobulinemia. J Immunother. 
+2001;24(3):272 -9. 
+28. Dimopoulos MA, Zervas C, Zomas A, Kiamouris C, Viniou NA, Grigoraki V, et al. 
+Treatment of Waldenstrom's macroglo bulinemia with rituximab. J Clin Oncol. 
+2002;20(9):2327 -33. 
+29. Treon SP, Emmanouilides C, Kimby E, Kelliher A, Preffer F, Branagan AR, et al. 
+Extended rituximab therapy in Waldenstrom's macroglobulinemia. Ann Oncol. 
+2005;16(1):132 -8. 
+30. D'Sa S, Kersten MJ, Castillo JJ, Dimopoulos M, Kastritis E, Laane E, et al. Investigation 
+and management of IgM and Waldenstrom -associated peripheral neuropathies: 
+recommendations from the IWWM -8 consensus panel. Br J Haematol. 2017;176(5):728 -
+42. 
+REGIONALA CANCERCENTRUM  
+58 31. Sala E, Robe rt-Varvat F, Paul S, Camdessanche JP, Antoine JC. Acute neurological 
+worsening after Rituximab treatment in patients with anti -MAG neuropathy. J Neurol 
+Sci. 2014;345(1 -2):224 -7. 
+32. Buske C, Hoster E, Dreyling M, Eimermacher H, Wandt H, Metzner B, et al. T he 
+addition of rituximab to front -line therapy with CHOP (R -CHOP) results in a higher 
+response rate and longer time to treatment failure in patients with lymphoplasmacytic 
+lymphoma: results of a randomized trial of the German Low -Grade Lymphoma Study 
+Group  (GLSG). Leukemia. 2009;23(1):153 -61. 
+33. Rummel MJ, Niederle N, Maschmeyer G, Banat GA, von Grunhagen U, Losem C, et al. 
+Bendamustine plus rituximab versus CHOP plus rituximab as first -line treatment for 
+patients with indolent and mantle -cell lymphomas: a n open -label, multicentre, 
+randomised, phase 3 non -inferiority trial. Lancet. 2013;381(9873):1203 -10. 
+34. Rummel MJ, Lerchenmüller C, Hensel M, Goerner M, Buske C, Schulz H, et al. Two 
+Years Rituximab Maintenance Vs. Observation after First Line Treatment with 
+Bendamustine Plus Rituximab (B -R) in Patients with Waldenström's Macroglobulinemia 
+(MW): Results of a Prospective, Randomized, Multicenter Phase 3 Study (the StiL NHL7 -
+2008 MAINTAIN trial). Blood. 2019;134(Supplement_1):343 -. 
+35. Paludo J, Abeykoon JP , Shreders A, Ansell SM, Kumar S, Ailawadhi S, et al. 
+Bendamustine and rituximab (BR) versus dexamethasone, rituximab, and 
+cyclophosphamide (DRC) in patients with Waldenström macroglobulinemia. Ann 
+Hematol. 2018;97(8):1417 -25. 
+36. Castillo JJ, Gustine JN, Meid K, Dubeau TE, Severns P, Xu L, et al. Response and 
+survival for primary therapy combination regimens and maintenance rituximab in 
+Waldenström macroglobulinaemia. Br J Haematol. 2018;181(1):77 -85. 
+37. Dimopoulos MA, Anagnostopoulos A, Kyrtsonis MC, Zer vas K, Tsatalas C, Kokkinis G, 
+et al. Primary treatment of Waldenstrom macroglobulinemia with dexamethasone, 
+rituximab, and cyclophosphamide. J Clin Oncol. 2007;25(22):3344 -9. 
+38. Kastritis E, Gavriatopoulou M, Kyrtsonis MC, Roussou M, Hadjiharissi E, Syme onidis A, 
+et al. Dexamethasone, rituximab, and cyclophosphamide as primary treatment of 
+Waldenstrom macroglobulinemia: final analysis of a phase 2 study. Blood. 
+2015;126(11):1392 -4. 
+39. Ioakimidis L, Patterson CJ, Hunter ZR, Soumerai JD, Manning RJ, Turnbu ll B, et al. 
+Comparative outcomes following CP -R, CVP -R, and CHOP -R in Waldenstrom's 
+macroglobulinemia. Clin Lymphoma Myeloma. 2009;9(1):62 -6. 
+40. Dimopoulos MA, Garcia -Sanz R, Gavriatopoulou M, Morel P, Kyrtsonis MC, Michalis 
+E, et al. Primary therapy of Waldenstrom macroglobulinemia (WM) with weekly 
+bortezomib, low -dose dexamethasone, and rituximab (BDR): long -term results of a phase 
+2 study of the European Myeloma Network (EMN). Blood. 2013;122(19):3276 -82. 
+41. Ghobrial IM, Xie W, Padmanabhan S, Badros A , Rourke M, Leduc R, et al. Phase II trial 
+of weekly bortezomib in combination with rituximab in untreated patients with 
+Waldenstrom Macroglobulinemia. Am J Hematol. 2010;85(9):670 -4. 
+42. Treon SP, Ioakimidis L, Soumerai JD, Patterson CJ, Sheehy P, Nelson M, et al. Primary 
+therapy of Waldenstrom macroglobulinemia with bortezomib, dexamethasone, and 
+rituximab: WMCTG clinical trial 05 -180. J Clin Oncol. 2009;27(23):3830 -5. 
+43. Christian Buske MAD, Alexander Grunenberg, Efstathios Kastritis. Bortezomib in 
+comb ination with Dexamethasone, Rituximab and Cyclophosphamide (B -DRC) As First 
+- Line Treatment of Waldenstroms Macroglobulinemia. 62nd ASH Annual Meeting and 
+Exposition December 5 -8, 2020. 2020.  
+REGIONALA CANCERCENTRUM   
+59 44. Treon SP, Meid K, Gustine J, Yang G, Xu L, Liu X, et al. Lo ng-Term Follow -Up of 
+Ibrutinib Monotherapy in Symptomatic, Previously Treated Patients With Waldenström 
+Macroglobulinemia. J Clin Oncol. 2021;39(6):565 -75. 
+45. Treon SP, Tripsas CK, Meid K, Warren D, Varma G, Green R, et al. Ibrutinib in 
+previously treated  Waldenstrom's macroglobulinemia. N Engl J Med. 2015;372(15):1430 -
+40. 
+46. Treon SP, Gustine J, Meid K, Yang G, Xu L, Liu X, et al. Ibrutinib Monotherapy in 
+Symptomatic, Treatment -Naïve Patients With Waldenström Macroglobulinemia. J Clin 
+Oncol. 2018;36(27): 2755-61. 
+47. Dimopoulos MA, Tedeschi A, Trotman J, García -Sanz R, Macdonald D, Leblond V, et 
+al. Phase 3 Trial of Ibrutinib plus Rituximab in Waldenström's Macroglobulinemia. N 
+Engl J Med. 2018;378(25):2399 -410. 
+48. Gustine JN, Meid K, Dubeau TE, Treon SP,  Castillo JJ. Atrial fibrillation associated with 
+ibrutinib in Waldenstrom macroglobulinemia. Am J Hematol. 2016;91(6):E312 -3. 
+49. Treon SP. How I treat Waldenstrom macroglobulinemia. Blood. 2015;126(6):721 -32. 
+50. Gustine JN, Meid K, Dubeau T, Severns P, Hunter ZR, Guang Y, et al. Ibrutinib 
+discontinuation in Waldenström macroglobulinemia: Etiologies, outcomes, and IgM 
+rebound. Am J Hematol. 2018;93(4):511 -7. 
+51. Treon SP, Xu L, Hunter Z. MYD88 Mutations and Response to Ibrutinib in 
+Waldenstrom' s Macroglobulinemia. N Engl J Med. 2015;373(6):584 -6. 
+52. Castillo JJ, Xu L, Gustine JN, Keezer A, Meid K, Dubeau TE, et al. CXCR4 mutation 
+subtypes impact response and survival outcomes in patients with Waldenström 
+macroglobulinaemia treated with ibrutini b. Br J Haematol. 2019;187(3):356 -63. 
+53. Xu L, Tsakmaklis N, Yang G, Chen JG, Liu X, Demos M, et al. Acquired mutations 
+associated with ibrutinib resistance in Waldenström macroglobulinemia. Blood. 
+2017;129(18):2519 -25. 
+54. Kyle RA, Greipp PR, Gertz MA, W itzig TE, Lust JA, Lacy MQ, et al. Waldenström's 
+macroglobulinaemia: a prospective study comparing daily with intermittent oral 
+chlorambucil. Br J Haematol. 2000;108(4):737 -42. 
+55. Leblond V, Johnson S, Chevret S, Copplestone A, Rule S, Tournilhac O, et al . Results of 
+a randomized trial of chlorambucil versus fludarabine for patients with untreated 
+Waldenström macroglobulinemia, marginal zone lymphoma, or lymphoplasmacytic 
+lymphoma. J Clin Oncol. 2013;31(3):301 -7. 
+56. Lepretre S, Dartigeas C, Feugier P, Mar ty M, Salles G. Systematic review of the recent 
+evidence for the efficacy and safety of chlorambucil in the treatment of B -cell 
+malignancies. Leuk Lymphoma. 2016;57(4):852 -65. 
+57. Mathias J Rummel CL, Manfred Hensel, Martin Goerner. Two Years Rituximab 
+Maintenance Vs. Observation after First Line Treatment with Bendamustine Plus 
+Rituximab (B -R) in Patients with Waldenström's Macroglobulinemia (MW): Results of a 
+Prospective, Randomiz ed, Multicenter Phase 3 Study (the StiL NHL7 -2008 MAINTAIN 
+trial) Blood. 2019.  
+58. Treon SP, Hanzis C, Tripsas C, Ioakimidis L, Patterson CJ, Manning RJ, et al. 
+Bendamustine therapy in patients with relapsed or refractory Waldenstrom's 
+macroglobulinemia. C lin Lymphoma Myeloma Leuk. 2011;11(1):133 -5. 
+59. Dalakas MC, Rakocevic G, Salajegheh M, Dambrosia JM, Hahn AF, Raju R, et al. 
+Placebo -controlled trial of rituximab in IgM anti -myelin -associated glycoprotein antibody 
+demyelinating neuropathy. Ann Neurol. 20 09;65(3):286 -93. 
+REGIONALA CANCERCENTRUM  
+60 60. Berentsen S. Cold agglutinin disease. Hematology Am Soc Hematol Educ Program. 
+2016;2016(1):226 -31. 
+61. Terrier B, Krastinova E, Marie I, Launay D, Lacraz A, Belenotti P, et al. Management of 
+noninfectious mixed cryoglobulinemia vasculi tis: data from 242 cases included in the 
+CryoVas survey. Blood. 2012;119(25):5996 -6004.  
+62. Owen RG, Kyle RA, Stone MJ, Rawstron AC, Leblond V, Merlini G, et al. Response 
+assessment in Waldenstrom macroglobulinaemia: update from the VIth International 
+Work shop. Br J Haematol. 2013;160(2):171 -6. 
+63. Tedeschi A, Picardi P, Ferrero S, Benevolo G, Margiotta Casaluci G, Varettoni M, et al. 
+Bendamustine and rituximab combination is safe and effective as salvage regimen in 
+Waldenstrom macroglobulinemia. Leuk Lymph oma. 2015;56(9):2637 -42. 
+64. Ghobrial IM, Hong F, Padmanabhan S, Badros A, Rourke M, Leduc R, et al. Phase II 
+trial of weekly bortezomib in combination with rituximab in relapsed or relapsed and 
+refractory Waldenstrom macroglobulinemia. J Clin Oncol. 2010; 28(8):1422 -8. 
+65. Souchet L, Levy V, Ouzegdouh M, Tamburini J, Delmer A, Dupuis J, et al. Efficacy and 
+long-term toxicity of the rituximab -fludarabine -cyclophosphamide combination therapy 
+in Waldenstrom's macroglobulinemia. Am J Hematol. 2016;91(8):782 -6. 
+66. Treon SP, Branagan AR, Ioakimidis L, Soumerai JD, Patterson CJ, Turnbull B, et al. 
+Long -term outcomes to fludarabine and rituximab in Waldenstrom macroglobulinemia. 
+Blood. 2009;113(16):3673 -8. 
+67. Tedeschi A, Benevolo G, Varettoni M, Battista ML, Zinza ni PL, Visco C, et al. 
+Fludarabine plus cyclophosphamide and rituximab in Waldenstrom macroglobulinemia: 
+an effective but myelosuppressive regimen to be offered to patients with advanced 
+disease. Cancer. 2012;118(2):434 -43. 
+68. Leleu X, Tamburini J, Roccar o A, Morel P, Soumerai J, Levy V, et al. Balancing risk 
+versus benefit in the treatment of Waldenstrom's Macroglobulinemia patients with 
+nucleoside analogue -based therapy. Clin Lymphoma Myeloma. 2009;9(1):71 -3. 
+69. Foon KA, Boyiadzis M, Land SR, Marks S, R aptis A, Pietragallo L, et al. 
+Chemoimmunotherapy with low -dose fludarabine and cyclophosphamide and high dose 
+rituximab in previously untreated patients with chronic lymphocytic leukemia. J Clin 
+Oncol. 2009;27(4):498 -503. 
+70. Castillo JJ, Hunter ZR, Yang G, Argyropoulos K, Palomba ML, Treon SP. Future 
+therapeutic options for patients with Waldenstrom macroglobulinemia. Best Pract Res 
+Clin Haematol. 2016;29(2):206 -15. 
+71. Castillo JJ, Treon SP. What is new in the treatment of Waldenstrom macroglobulinemia? 
+Leukemia. 2019;33(11):2555 -62. 
+72. Owen RG, McCarthy H, Rule S, D'Sa S, Thomas SK, Tournilhac O, et al. Acalabrutinib 
+monotherapy in patients with Waldenström macroglobulinemia: a single -arm, multicentre, 
+phase 2 study. Lancet Haematol. 2020;7(2):e112 -e21. 
+73. Treon SP, Tripsas CK, Meid K, Kanan S, Sheehy P, Chuma S, et al. Carfilzomib, 
+rituximab, and dexamethasone (CaRD) treatment offers a neuropathy -sparing approach 
+for treating Waldenstrom's macroglobulinemia. Blood. 2014;124(4):503 -10. 
+74. Castillo JJ, Meid K, Flynn CA, Chen J, Demos MG, Guerrera ML, et al. Ixazomib, 
+dexamethasone, and rituximab in treatment -naive patients with Waldenström 
+macroglobulinemia: long -term follow -up. Blood Adv. 2020;4(16):3952 -9. 
+75. Jorge J C, Joshua Gustine, Kirsten Meid, T oni Dubeau, Andrew Keezer. Multicenter 
+Prospective Phase II Study of Venetoclax in Patients with Previously Treated 
+Waldenstrom Macroglobulinemia Blood. 2018.  
+REGIONALA CANCERCENTRUM   
+61 76. Fouquet G, Guidez S, Petillon MO, Louni C, Ohyba B, Dib M, et al. Lenalidomide is safe 
+and ac tive in Waldenstrom macroglobulinemia. Am J Hematol. 2015;90(11):1055 -9. 
+77. Treon SP, Soumerai JD, Branagan AR, Hunter ZR, Patterson CJ, Ioakimidis L, et al. 
+Thalidomide and rituximab in Waldenstrom macroglobulinemia. Blood. 
+2008;112(12):4452 -7. 
+78. Treon  SP, Meid K, Tripsas C, Heffner LT, Eradat H, Badros AZ, et al. Prospective, 
+Multicenter Clinical Trial of Everolimus as Primary Therapy in Waldenstrom 
+Macroglobulinemia (WMCTG 09 -214). Clin Cancer Res. 2017;23(10):2400 -4. 
+79. Castillo JJ, Gustine JN, Meid  K, Dubeau T, Yang G, Xu L, et al. Idelalisib in 
+Waldenström macroglobulinemia: high incidence of hepatotoxicity. Leuk Lymphoma. 
+2017;58(4):1002 -4. 
+80. Tomblyn M, Chiller T, Einsele H, Gress R, Sepkowitz K, Storek J, et al. Guidelines for 
+preventing infect ious complications among hematopoietic cell transplant recipients: a 
+global perspective. Preface. Bone Marrow Transplant. 2009;44(8):453 -5. 
+81. Castillo JJ, Libby EN, Ansell SM, Palomba ML, Meid K, Flynn CA, et al. Multicenter 
+phase 2 study of daratumumab monotherapy in patients with previously treated 
+Waldenström macroglobulinemia. Blood Adv. 2020;4(20):5089 -92. 
+82. Tam CS, Opat S, D'Sa S, Jurczak W, Lee HP, Cull G, et al. A randomized phase 3 trial of 
+zanubrutinib vs ibrutinib in symptomatic Waldenström m acroglobulinemia: the ASPEN 
+study. Blood. 2020;136(18):2038 -50. 
+83. Sekiguchi N, Rai S, Munakata W, Suzuki K, Handa H, Shibayama H, et al. A multicenter, 
+open -label, phase II study of tirabrutinib (ONO/GS -4059) in patients with 
+Waldenström's macroglobuline mia. Cancer Sci. 2020;111(9):3327 -37. 
+84. Kyriakou C, Canals C, Sibon D, Cahn JY, Kazmi M, Arcese W, et al. High -dose therapy 
+and autologous stem -cell transplantation in Waldenstrom macroglobulinemia: the 
+Lymphoma Working Party of the European Group for Bl ood and Marrow 
+Transplantation. J Clin Oncol. 2010;28(13):2227 -32. 
+85. Chakraborty R, Muchtar E, Gertz MA. The role of stem cell transplantation in 
+Waldenstrom's macroglobulinemia. Best Pract Res Clin Haematol. 2016;29(2):229 -40. 
+86. Kyriakou C, Canals C, Cornelissen JJ, Socie G, Willemze R, Ifrah N, et al. Allogeneic 
+stem-cell transplantation in patients with Waldenstrom macroglobulinemia: report from 
+the Lymphoma Working Party of the European Group for Blood and Marrow 
+Transplantatio n. J Clin Oncol. 2010;28(33):4926 -34. 
+87. Baden LR, Bensinger W, Angarone M, Casper C, Dubberke ER, Freifeld AG, et al. 
+Prevention and treatment of cancer -related infections. J Natl Compr Canc Netw. 
+2012;10(11):1412 -45. 
+88. Lai GG, Lim ST, Tao M, Chan A, L i H, Quek R. Late -onset neutropenia following 
+RCHOP chemotherapy in diffuse large B -cell lymphoma. Am J Hematol. 2009;84(7):414 -
+7. 
+89. Wolach O, Shpilberg O, Lahav M. Neutropenia after rituximab treatment: new insights 
+on a late complication. Curr Opin Hem atol. 2012;19(1):32 -8. 
+90. Wagner SA, Mehta AC, Laber DA. Rituximab -induced interstitial lung disease. Am J 
+Hematol. 2007;82(10):916 -9. 
+91. Ghobrial IM, Fonseca R, Greipp PR, Blood E, Rue M, Vesole DH, et al. Initial 
+immunoglobulin M 'flare' after rituxima b therapy in patients diagnosed with Waldenstrom 
+macroglobulinemia: an Eastern Cooperative Oncology Group Study. Cancer. 
+2004;101(11):2593 -8. 
+REGIONALA CANCERCENTRUM  
+62 92. Vermaete N, Wolter P, Verhoef G, Gosselink R. Physical activity, physical fitness and the 
+effect of exercise training interventions in lymphoma patients: a systematic review. Ann 
+Hematol. 2013;92(8):1007 -21. 
+93. Ahlberg K, Ekman T, Gaston -Johansson F, Mock V. Assessment and management of 
+cancer -related fatigue in adults. Lancet. 2003;362(9384):640 -50. 
+94. Oza A, Rajkumar SV. Waldenstrom macroglobulinemia: prognosis and management. 
+Blood Cancer J. 2015;5:e394.  
+95. Sjövall K. Patienters perspektiv och upplevelser av cancersjukdom och cancervård. In: 
+Hellbom M, Thomé B, editors. Perspektiv på onkologisk vård . Lund: Studentlitteratur; 
+2011. p. 131 -48. 
+ 
+ 
+REGIONALA CANCERCENTRUM   
+63 KAPITEL 2 3 
+Förslag på fördjupning  
+Waldenström’s Macroglobulinemi. Ed V Leblond, A Treon, M Dimopoulos. Springer 2017.  
+REGIONALA CANCERCENTRUM  
+64 KAPITEL 2 4 
+Vårdprogramgruppen  
+24.1 Vårdprogramgruppens sammansättning  
+Den nationella arbetsgr uppen består av en representant per regionalt cancercentrum samt en 
+ordförande som utsetts av RCC i samverkan. Gruppen har eftersträvat multiprofessionalitet med 
+representanter för de olika vårdnivåer som är engagerade i patientens vårdflöde. Utöver detta har 
+patientföreträdare deltagit.   
+24.2 Vårdprogramgruppens medlemmar  
+Lena Brandefors, ordförande Överläkare, Medicinkliniken, Sunderby sjukhus, Luleå, RCC Norr  
+Elena Holm Överläkare, VO hematologi onkologi  och strålningsfysik, SUS, RCC Syd  
+Kourosh Lotfi, docent Överläkare, Hematologiska kliniken, Universitetssjukhuset Linköping, 
+RCC Sydöst  
+Magnus Svensson Överläkare, Medicinkliniken Mälarsjukhuset Eskilstuna, RCC Mellansverige  
+Tobias Tolf, specialistläkare , PhD, Blod - och tumörsjukdomar, Akademiska sjukhuset, Uppsala, 
+Sjukvårdsregion Mellansverige  
+Berit Johansson, överläkare, Hematologen, Borås Sjukhus , RCC Väst  
+Birgitta Sander, professor Överläkare, Patologikliniken, Karolinska universitetssjukhuset, 
+Stock holm, RCC Stockholm -Gotland  
+Maria Haapalahti , Leg. Sjuksköterska, kontaktsjuksköterska, Hematologisk mottagning, Sunderby 
+sjukhus, Luleå, RCC Norr  
+Olga Stromberg, Hematolog, överläkare, Södersjukhuset AB, Stockholm, RCC Stockholm 
+Gotland  
+Susanne Öhrn Pati entrepresentant, RCC Stockholm -Gotland  
+24.3 Tidigare medlemmar i vårdprogramgruppen  
+Följande personer har medverkat till tidigare versioner av vårdprogrammet:  
+Monica Sender Överläkare, Avd. för hematologi, Sahlgrenska universitetssjukhuset, Göteborg, 
+RCC Väst  
+Kristina Sonnevi  Överläkare, Hematologiskt Centrum, Karolinska universitetssjukhuset, 
+Stockholm, RCC Stockholm -Gotland  
+REGIONALA CANCERCENTRUM   
+65 24.4 Jäv och andra bindningar  
+Vårdprogramarbetet har skett utan stöd från läkemedelsindustrin eller andra externa parter. Alla 
+som ingår i arbe tsgruppen har lämnat jävsdeklarationer. Kopior av hela gruppens 
+jävsdeklarationer, inklusive föreläsaruppdrag, kan erhålla s från Regionalt cancercentrum  Syd. 
+24.5 Vårdprogrammets förankring  
+Vårdprogrammet har utarbetats på uppdrag av RCC:s samverkansgrupp, vilk en utsett [namn] till 
+vårdprogramgruppens ordförande.  
+Remissversionen av vårdprogrammet har publicerats öppet på cancercentrum.se. 
+Remissversionen har gått till regionernas linjeorganisationer för kommentarer om organisatoriska 
+och ekonomiska konsekvenser  av vårdprogrammet samt till specialist -, professions - och 
+patientföreningar för övriga synpunkter på innehållet. Under remissrundan har nedan listade 
+organisationer lämnat synpunkter på vårdprogrammets innehåll. Utöver dessa har svar inkommit 
+från enskild a kliniker och enskilda företrädare för patienter och profession.  
+• Dietister inom onkologi (DRF)  
+• Folktandvården Västra Götaland  
+• Nationella arbetsgruppen cancerläkemedel (NAC)  
+• NPO Levnadsvanor Norra sjukvårdsregionförbundet NRF  
+• Norra sjukvårdsregionen  
+• Region  Halland  
+• Region Jönköpings län  
+• Region Skåne  
+• Region Stockholm  
+• Region Uppsala  
+• Region Värmland  
+• Region Västmanland  
+• Region Örebro län  
+• Region Östergötland  
+• Sjuksköterskor i cancervård  
+• SKR:s kvinnofridssatsning  
+• Svensk sjuksköterskeförening  
+• Svensk förening för psykosocial onkologi och rehabilitering (SWEDPOS)  
+• Svenska benmärgstransplantationsgruppen (BMT)  
+• Sveriges arbetsterapeuter  
+• Tandvårds - och läkemedelsförmånsverket (TLV)  
+ 
+Efter sammanställning av de inkomna synpunkterna, och revidering som följd av den, har 
+vårdprogrammet bearbetats och godkänts av vårdprogramgruppen och fastställts av RCC i 
+samverkan.  
+REGIONALA CANCERCENTRUM  
+66 BILAGA 1 
+Patientinformation  
+Se patientinformation på Blodcancerförbundets hemsida:  
+Waldenströms makroglobulinemi, Patientinformation . 
+REGIONALA CANCERCENTRUM   
+67 BILAGA 2 
+IgM MGUS (Monoklonal 
+gammopati av oklar 
+signifikans)  
+IgM MGUS är i de allra flesta fall ett ofarligt tillstånd. De flesta människor med IgM MGUS 
+förblir friska. Ett fåtal människor med IgM MGUS kan utveckla en malign blodsjukdom vanligast 
+Waldenströms makroglobulinemi.  
+Vad är MGUS?  
+MGUS (på svenska kallad monok lonal gammopati av oklar signifikans) är ett tillstånd som 
+uppstår när plasmaceller i benmärgen förändras på ett onormalt sätt.  
+Plasmaceller är vita blodkroppar som ingår i immunförsvaret.  Deras funktion är att bekämpa 
+infektioner. Plasmacellerna producer ar antikroppar (även kallad immunglobuliner). Drabbas man 
+av en infektion förökar sig plasmacellerna och börjar producera stora mängder antikroppar.  
+Vid IgM MGUS bildas kloner av identiska plasmaceller och förstadier till plasmaceller. Dessa 
+celler produce rar exakt likadana antikroppar eller immunglobuliner, som man kan mäta i blodet 
+som en så kallad M -komponent av IgM typ.  
+Vad orsakar MGUS?  
+Trots mycket forskning så är orsaken till MGUS fortfarande okänd. Man vet att MGUS är 
+vanligare hos äldre människor. Män drabbas lite oftare än kvinnor. MGUS är också vanligare hos 
+människor med inflammatoriska sjukdomar som t ex reumatoid artrit. MGUS är inte smittsamt 
+eller ärftligt, men i sällsynta fall kan flera fall av MGUS förekomma i en familj.  
+Orsakar MGUS symtom ? 
+MGUS ger för det mesta inga symtom. Enstaka människor med MGUS kan känna viss fumlighet 
+samt domningar i händer och fötter. Ibland kan balanssvårigheter förekomma. Symtomen beror 
+på att M -komponenten kan skada nerverna.  
+Hur diagnostiserar man MGUS?  
+De flesta MGUS upptäckts vid rutinprovtagning av en slump, när du söker sjukvård av någon 
+annan anledning.  
+REGIONALA CANCERCENTRUM  
+68 Behöver man vidare utredning?  
+Upptäcks en M -komponent, så kompletterar man med ytterligare prover från blod och ibland 
+från urin. Syftet med provtagning en är att bl  a utesluta blodbrist eller nedsatt njurfunktion. Är 
+proverna normala, så behövs ingen vidare utredning, däremot behövs uppföljning (se nedan). Är 
+blodproverna avvikande så remitterar läkaren dig vidare till en internmedicinare med inriktning 
+mot hematologi eller specialist i hematologi (blodsjukdomar). Vidare utredning innefattar 
+ytterligare provtagning från blod och urin . Ibland kompletteras utredningen med en röntgen och 
+ett benmärgsprov. Dessa undersökningar görs för att utesluta en bakomlig gande malign sjukdom.  
+Behöver man behandling?  
+Patienter med MGUS behöver ingen behandling.  
+Hur ser uppföljningen ut?  
+Uppföljningen av MGUS är individuell och styrs av resultatet på den tidigare utredningen. Du får 
+lämna regelbundna blodprover och ibland ur inprover till din läkare på hälsocentralen eller till 
+specialist på sjukhusets medicinklinik.  
+Kontakta din läkare om du utvecklar symtom som ofrivillig viktnedgång, oklar feber, nattliga 
+svettningar, domningar i händer och fötter eller upptäcker en knuta på något ställe på kroppen.  
+Att leva med MGUS  
+De flesta människor med MGUS har inga symtom och behöver ingen behandling. Du kan 
+fortsätta leva som tidigare. Fysisk aktivitet och en normal balanserad kost rekommenderas.  
+  
+ 
+ 
+ 
+ 
+ 
+69  
+ 
+Regionala c ancercentrum – regionernas nationella samverkan inom cancervården.  
+Med patienter och närstående för hela människan, i dagens och framtidens cancervård.  
+www.cancercentrum.se   
+ 

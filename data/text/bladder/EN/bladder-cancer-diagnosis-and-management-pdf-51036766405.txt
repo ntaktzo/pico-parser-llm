@@ -1,0 +1,819 @@
+Bladder c ancer: diagnosis 
+and manag emen t 
+NICE guideline 
+Published: 25 F ebruar y 2015 
+www .nice.or g.uk/guidance/ng2 
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).
+Your r esponsi bility 
+The r ecommendations in t his guideline r epresent t he view of NICE, arriv ed at aft er car eful 
+consideration of t he evidence a vailable. When e xercising t heir judgement, pr ofessionals 
+and practitioners ar e expect ed to tak e this guideline fully int o account, alongside t he 
+individual needs, pr eferences and v alues of t heir patient s or t he people using t heir ser vice. 
+It is not mandat ory to apply t he recommendations, and t he guideline does not o verride t he 
+responsibility t o mak e decisions appr opriat e to the cir cumstances of t he individual, in 
+consultation wit h them and t heir f amilies and car ers or guar dian. 
+All pr oblems (adv erse e vents) related to a medicine or medical de vice used f or treatment 
+or in a pr ocedur e should be r epor ted to the Medicines and Healt hcare product s Regulat ory 
+Agency using t he Yellow Car d Scheme . 
+Local commissioners and pr oviders of healt hcare have a responsibility t o enable t he 
+guideline t o be applied when individual pr ofessionals and people using ser vices wish t o 
+use it. The y should do so in t he cont ext of local and national priorities f or funding and 
+developing ser vices, and in light of t heir duties t o have due r egar d to the need t o eliminat e 
+unlawful discrimination, t o adv ance equality of oppor tunity and t o reduce healt h 
+inequalities. Not hing in t his guideline should be int erpreted in a wa y that w ould be 
+inconsist ent wit h complying wit h those duties. 
+Commissioners and pr oviders ha ve a responsibility t o promot e an en vironmentally 
+sustainable healt h and car e syst em and should assess and r educe t he en vironmental 
+impact of implementing NICE r ecommendations  wher ever possible. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 of
+34
+Contents 
+Overview ..................................................................................................................................... 4 
+Who is it f or? .......................................................................................................................................... 4 
+Introduction ................................................................................................................................. 5 
+Key priorities f or implementation .............................................................................................. 7 
+Information and suppor t for people wit h bladder cancer ................................................................. 7 
+Diagnosing and staging bladder cancer ............................................................................................. 7 
+Treating non-muscle-in vasive bladder cancer ................................................................................... 8 
+Follow-up aft er treatment f or non-muscle-in vasive bladder cancer ............................................... 9 
+Treating muscle-in vasive bladder cancer ........................................................................................... 9 
+Recommendations ...................................................................................................................... 11 
+1.1 Information and suppor t for people wit h bladder cancer ............................................................ 11 
+1.2 Diagnosing and staging bladder cancer ....................................................................................... 13 
+1.3 Treating non-muscle-in vasive bladder cancer ............................................................................. 15 
+1.4 Follow-up aft er treatment f or non-muscle-in vasive bladder cancer ......................................... 19 
+1.5 Treating muscle-in vasive bladder cancer ..................................................................................... 20 
+1.6 Follow-up aft er treatment f or muscle-in vasive bladder cancer ................................................. 23 
+1.7 Managing locally adv anced or metastatic muscle-in vasive bladder cancer ............................. 24 
+1.8 Specialist palliativ e car e for people wit h incurable bladder cancer ........................................... 28 
+Recommendations f or resear ch ................................................................................................ 29 
+1 Patient satisf action ............................................................................................................................. 29 
+2 BCG or primar y cyst ectomy in high-risk non-muscle-in vasive bladder cancer .......................... 30 
+3 Follow-up of high-risk non-muscle-in vasive bladder cancer ........................................................ 30 
+4 Biomark ers for treatment selection .................................................................................................. 31 
+5 Follow-up aft er radical tr eatment f or or gan-confined muscle-in vasive bladder cancer ............ 31 
+Finding mor e information and committ ee details .................................................................... 33 
+Updat e information .................................................................................................................... 34 Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 3 of
+34
+This guideline is t he basis of QS106 . 
+Overview 
+This guideline co vers diagnosing and managing bladder cancer in people 18  and abo ve 
+referred fr om primar y car e wit h suspect ed bladder cancer , and t hose wit h newly 
+diagnosed or r ecurr ent bladder (ur othelial car cinoma, adenocar cinoma, squamous-cell 
+carcinoma or small-cell car cinoma) or ur ethral cancer . 
+Who is i t for? 
+• Healt hcare professionals 
+• Commissioners and pr oviders 
+• Adult s wit h bladder cancer and t heir f amilies and car ers Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 of
+34
+Introduc tion 
+Bladder cancer is t he se venth most common cancer in t he UK. It is 3  to 4 times mor e 
+common in men t han in w omen. In t he UK in 2011 , it was t he fourth most common cancer 
+in men and t he thirteent h most common in w omen. Ther e were 10,399 people diagnosed 
+with bladder cancer and 5081  deat hs fr om bladder cancer in 2011 . The majority of cases 
+occur in people aged o ver 60. The main risk f actor for bladder cancer is incr easing age, 
+but smoking and e xposur e to some industrial chemicals also incr ease risk. 
+Bladder cancer is usually identified on t he basis of visible blood in t he urine or blood f ound 
+on urine t esting, but emer gency admission is a common wa y for bladder cancer t o present, 
+and is oft en associat ed wit h a poor pr ognosis. 
+Most bladder cancers (7 5 to 80%) do not in volve the muscle wall of t he bladder and ar e 
+usually tr eated by telescopic r emoval of t he cancer (transur ethral r esection of bladder 
+tumour [TURBT]). This is oft en followed by instillation of chemot herap y or v accine-based 
+therap y into the bladder , with prolonged t elescopic checking of t he bladder ( cystoscop y) 
+as follow-up. Some people in t his gr oup who ar e at higher risk ar e treated wit h major 
+surgery to remove the bladder ( cystectomy). People wit h cancer in or t hrough t he bladder 
+muscle wall ma y be tr eated wit h intent t o cur e using chemot herap y, cyst ectomy or 
+radiot herap y, and t hose who ha ve cancer t oo adv anced t o cur e ma y have radiot herap y 
+and chemot herap y. 
+The in volvement of t he ur ogenital tract and t he natur e of t he tr eatment s giv e this cancer a 
+strong psy chological impact, in addition t o the ph ysical impact of t he disease and it s 
+treatment s, which is oft en pr ofound. The pr evalence of t he condition and t he natur e of it s 
+management mak e bladder cancer one of t he most e xpensiv e cancers f or the NHS. 
+Ther e is t hought t o be considerable v ariation acr oss t he NHS in t he diagnosis and 
+management of bladder cancer and t he pr ovision of car e to people who ha ve it. Ther e is 
+evidence t hat t he patient e xperience f or people wit h bladder cancer is w orse t han t hat f or 
+people wit h other cancers. 
+This guideline co vers adult s (18  years and older) r eferred fr om primar y car e wit h 
+suspect ed bladder cancer and t hose wit h newly diagnosed or r ecurr ent bladder (ur othelial 
+carcinoma, adenocar cinoma, squamous-cell car cinoma or small-cell car cinoma) or ur ethral 
+cancer . Ther e was insufficient high-quality e vidence on which t o mak e specific Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 5 of
+34
+recommendations f or non-ur othelial bladder cancer (adenocar cinoma, squamous-cell 
+carcinoma or small-cell car cinoma). 
+It does not co ver people aged under  18 or adult s wit h bladder sar coma, ur othelial cancer 
+of the upper urinar y tract, or secondar y bladder or ur ethral cancer (f or example, bo wel or 
+cervix cancer spr eading int o the bladder). Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 6 of
+34
+Key priori ties f or im plemen tation 
+The f ollowing r ecommendations ha ve been identified as priorities f or implementation. The 
+full list of r ecommendations is in section 1 . 
+Informa tion and suppor t for pe ople wi th bladder 
+cancer 
+• Use a holistic needs assessment t o identify an individualised package of inf ormation 
+and suppor t for people wit h bladder cancer and, if t hey wish, t heir par tners, f amilies or 
+carers, at k ey point s in t heir car e such as: 
+－ when t hey are first diagnosed 
+－ after they have had t heir first tr eatment 
+－ if their bladder cancer r ecurs or pr ogresses 
+－ if their tr eatment is changed 
+－ if palliativ e or end of lif e car e is being discussed. 
+Diagnosing and stag ing b ladder c ancer 
+Diagnosis 
+• Consider CT or MRI staging bef ore transur ethral r esection of bladder tumour (TURBT) 
+if muscle-in vasive bladder cancer is suspect ed at cyst oscop y. 
+• Offer whit e-light -guided TURBT wit h one of phot odynamic diagnosis, narr ow-band 
+imaging, cyt ology or a urinar y biomark er test (such as Ur oVysion using fluor escence 
+in-situ h ybridization [FISH], ImmunoCyt or a nuclear matrix pr otein 22 [NMP22] t est) t o 
+people wit h suspect ed bladder cancer . This should be carried out or super vised b y a 
+urologist e xperienced in TURBT . 
+• Offer people wit h suspect ed bladder cancer a single dose of intra vesical mit omycin C 
+given at t he same time as t he first TURBT . Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 of
+34
+Treating non -muscle-in vasive bladder c ancer 
+Prognostic mar kers and risk classific ation 
+• Ensur e that f or people wit h non-muscle-in vasive bladder cancer all of t he following ar e 
+recorded and used t o guide discussions, bot h wit hin multidisciplinar y team meetings 
+and wit h the person, about pr ognosis and tr eatment options: 
+－ recurr ence hist ory 
+－ size and number of cancers 
+－ histological type, grade, stage and pr esence ( or absence) of flat ur othelium, 
+detrusor muscle (muscularis pr opria), and car cinoma in situ 
+－ the risk cat egor y of t he person's cancer (see t he section on risk classification in 
+non-muscle-in vasive bladder cancer ) 
+－ predict ed risk of r ecurr ence and pr ogression, estimat ed using a risk pr ediction 
+tool. 
+High-risk non -muscle-in vasive bladder c ancer 
+• Offer the choice of intra vesical BCG (Bacille Calmett e-Guérin) or radical cyst ectomy to 
+people wit h high-risk non-muscle-in vasive bladder cancer  (see t he section on risk 
+classification in non-muscle-in vasive bladder cancer ), and base t he choice on a full 
+discussion wit h the person, t he clinical nurse specialist and a ur ologist who per forms 
+both intra vesical BCG and radical cyst ectomy. Include in y our discussion: 
+－ the type, stage and grade of t he cancer , the pr esence of car cinoma in situ, t he 
+presence of v ariant pat hology , prostatic ur ethral or bladder neck status and t he 
+number of tumours 
+－ risk of pr ogression t o muscle in vasion, metastases and deat h 
+－ risk of understaging 
+－ benefit s of bot h treatment s, including sur vival rat es and t he lik elihood of fur ther 
+treatment 
+－ risks of bot h treatment s Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 8 of
+34
+－ factors t hat aff ect out comes (f or example, comorbidities and lif e expectancy) 
+－ impact on quality of lif e, body image, and se xual and urinar y function. 
+Follow-up af ter tr eatmen t for non -muscle-in vasive 
+bladder c ancer 
+Low-risk non -muscle-in vasive bladder c ancer 
+• Dischar ge to primar y car e people who ha ve had lo w-risk non-muscle-in vasive bladder 
+cancer (see t he section on risk classification in non-muscle-in vasive bladder cancer ) 
+and who ha ve no r ecurr ence of t he bladder cancer wit hin 12  mont hs. 
+Interme diate-risk non -muscle-in vasive bladder c ancer 
+• Offer people wit h intermediat e-risk non-muscle-in vasive bladder cancer (see t he 
+section on risk classification in non-muscle-in vasive bladder cancer ) 
+non-muscle-in vasive bladder cancer cyst oscopic f ollow-up at 3 , 9 and 18  mont hs, and 
+once a y ear t hereafter. 
+Treating m uscle-in vasive bladder c ancer 
+Neoadjuvant chemother apy for ne wly diagnose d muscle-in vasive 
+urothelial b ladder c ancer 
+• Offer neoadjuv ant chemot herap y using a cisplatin combination r egimen bef ore radical 
+cystectomy or radical radiot herap y to people wit h newly diagnosed muscle-in vasive 
+urothelial bladder cancer f or whom cisplatin-based chemot herap y is suitable. Ensur e 
+that t hey have an oppor tunity t o discuss t he risks and benefit s wit h an oncologist who 
+treats bladder cancer . 
+Radic al ther apy for m uscle-in vasive urothelial b ladder c ancer 
+• Offer a choice of radical cyst ectomy or radiot herap y wit h a radiosensitiser t o people 
+with muscle-in vasive urothelial bladder cancer f or whom radical t herap y is suitable. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 9 of
+34
+Ensur e that t he choice is based on a full discussion betw een t he person and a 
+urologist who per forms radical cyst ectomy, a clinical oncologist and a clinical nurse 
+specialist. Include in t he discussion: 
+－ the pr ognosis wit h or wit hout tr eatment 
+－ the limit ed evidence about whet her sur gery or radiot herap y wit h a radiosensitiser 
+is the most eff ectiv e cancer tr eatment 
+－ the benefit s and risks of sur gery and radiot herap y wit h a radiosensitiser , including 
+the impact on se xual and bo wel function and t he risk of deat h as a r esult of t he 
+treatment. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 10 of
+34
+Recommenda tions 
+The f ollowing guidance is based on t he best a vailable e vidence. The full guideline  gives 
+details of t he met hods and t he evidence used t o develop t he guidance. 
+People ha ve the right t o be in volved in discussions and mak e informed decisions 
+about t heir car e, as described in NICE's inf ormation on making decisions about y our 
+care. 
+Making decisions using NICE guidelines  explains ho w we use w ords to sho w the 
+strengt h (or cer tainty) of our r ecommendations, and has inf ormation about 
+prescribing medicines (including off -label use), pr ofessional guidelines, standar ds 
+and laws (including on consent and mental capacity), and saf eguar ding. 
+1.1 Informa tion and suppor t for pe ople wi th bladder 
+cancer 
+1.1.1 Follow the recommendations on communication and patient -centr ed car e in 
+NICE's guideline on patient e xperience in adult NHS ser vices  and t he advice in 
+NICE's guidelines on impr oving out comes in ur ological cancers  and improving 
+suppor tive and palliativ e car e for adult s wit h cancer  throughout t he person's 
+care. 
+1.1.2 Offer clinical nurse specialist suppor t to people wit h bladder cancer and giv e 
+them t he clinical nurse specialist's contact details. 
+1.1.3 Ensur e that t he clinical nurse specialist: 
+• acts as t he key worker to addr ess t he person's inf ormation and car e needs 
+• has e xperience and training in bladder cancer car e. 
+1.1.4 Use a holistic needs assessment t o identify an individualised package of 
+information and suppor t for people wit h bladder cancer and, if t hey wish, t heir Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 11 of
+34
+partners, f amilies or car ers, at k ey point s in t heir car e such as: 
+• when t hey are first diagnosed 
+• after they have had t heir first tr eatment 
+• if their bladder cancer r ecurs or pr ogresses 
+• if their tr eatment is changed 
+• if palliativ e or end of lif e car e is being discussed. 
+1.1.5 When carr ying out a holistic needs assessment, r ecognise t hat man y of t he 
+sympt oms, in vestigations and tr eatment s for bladder cancer aff ect t he ur ogenital 
+organs and ma y be distr essing and intrusiv e. Discuss wit h the person: 
+• the type, stage and grade of t heir cancer and lik ely pr ognosis 
+• treatment and f ollow-up options 
+• the pot ential complications of intrusiv e procedur es, including urinar y 
+retention, urinar y infection, pain, bleeding or need f or a cat heter 
+• the impact of tr eatment on t heir se xual healt h and body image, including ho w 
+to find suppor t and inf ormation r elevant t o their gender 
+• diet and lif estyle, including ph ysical activity 
+• smoking cessation f or people who smok e 
+• how to find inf ormation about bladder cancer , for example t hrough 
+information pr escriptions, sour ces of writt en inf ormation, w ebsit es or D VDs 
+• how to find suppor t groups and sur vivorship pr ogrammes 
+• how to find inf ormation about r eturning t o work aft er treatment f or cancer 
+• how to find inf ormation about financial suppor t (such as fr ee pr escriptions 
+and industrial compensation schemes). 
+1.1.6 Offer smoking cessation suppor t to all people wit h bladder cancer who smok e, in 
+line wit h NICE's guideline on t obacco: pr eventing uptak e, pr omoting quitting and Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 12 of
+34
+treating dependence . 
+1.1.7 Offer people wit h bladder cancer and, if t hey wish, t heir par tners, f amilies or 
+carers, oppor tunities t o have discussions at an y stage during t heir tr eatment and 
+care wit h: 
+• a range of specialist healt hcare professionals, including t hose who can 
+provide psy chological suppor t 
+• other people wit h bladder cancer who ha ve had similar tr eatment s. 
+1.1.8 Clinicians caring f or people wit h bladder cancer should ensur e that t here is close 
+liaison betw een secondar y and primar y car e wit h respect t o ongoing and 
+community-based suppor t. 
+1.1.9 Trusts should consider conducting annual bladder cancer patient satisf action 
+surveys de veloped b y their ur ology multidisciplinar y team and people wit h 
+bladder cancer , and use t he result s to guide a pr ogramme of quality 
+improvement. 
+1.2 D iagnosing and stag ing b ladder c ancer 
+Diagnosis 
+1.2.1 Do not substitut e urinar y biomark ers for cyst oscop y to investigat e suspect ed 
+bladder cancer or f or follow-up aft er treatment f or bladder cancer , except in t he 
+context of a clinical r esear ch study . 
+1.2.2 Consider CT or MRI staging bef ore transur ethral r esection of bladder tumour 
+(TURBT) if muscle-in vasive bladder cancer is suspect ed at cyst oscop y. 
+1.2.3 Offer whit e-light -guided TURBT wit h one of phot odynamic diagnosis, 
+narrow-band imaging, cyt ology or a urinar y biomark er test (such as Ur oVysion 
+using fluor escence in-situ h ybridization [FISH], ImmunoCyt or a nuclear matrix 
+protein 22 [NMP22] t est) t o people wit h suspect ed bladder cancer . This should 
+be carried out or super vised b y a ur ologist e xperienced in TURBT . Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 13 of
+34
+1.2.4 Obtain detrusor muscle during TURBT . 
+1.2.5 Do not tak e random biopsies of normal-looking ur othelium during TURBT unless 
+there is a specific clinical indication (f or example, in vestigation of positiv e 
+cytology not ot herwise e xplained). 
+1.2.6 Record the siz e and number of tumours during TURBT . 
+1.2.7 Offer people wit h suspect ed bladder cancer a single dose of intra vesical 
+mitomycin C giv en at t he same time as t he first TURBT . 
+Staging 
+1.2.8 Consider fur ther TURBT wit hin 6  weeks if t he first specimen does not include 
+detrusor muscle. 
+1.2.9 Offer CT or MRI staging t o people diagnosed wit h muscle-in vasive bladder 
+cancer or high-risk non-muscle-in vasive bladder cancer (see t he section on risk 
+classification in non-muscle-in vasive bladder cancer ) that is being assessed f or 
+radical tr eatment. 
+1.2.10 Consider CT ur ograph y, carried out wit h other planned CT imaging if possible, t o 
+detect upper tract in volvement in people wit h new or r ecurr ent high-risk 
+non-muscle-in vasive or muscle-in vasive bladder cancer . 
+1.2.11 Consider CT of t he thorax, carried out wit h other planned CT imaging if possible, 
+to det ect t horacic malignancy in people wit h muscle-in vasive bladder cancer . 
+1.2.12 Consider fluor odeo xyglucose positr on emission t omograph y (FDG PET)-CT f or 
+people wit h muscle-in vasive bladder cancer or high-risk non-muscle-in vasive 
+bladder cancer bef ore radical tr eatment if t here are indet erminat e findings on CT 
+or MRI, or a high risk of metastatic disease (f or example, T3b  disease). Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 14 of
+34
+1.3 T reating non -muscle-in vasive bladder c ancer 
+Risk classific ation in non -muscle-in vasive bladder c ancer 
+Ther e is no widely accept ed classification of risk in non-muscle-in vasive bladder cancer . 
+To mak e clear r ecommendations f or management, t he Guideline De velopment Gr oup 
+developed t he consensus classification in table  1, based on t he evidence r eview ed and 
+clinical opinion. 
+Table 1 Risk cat egories in non-muscle-in vasiv e bladder cancer 
+Low risk Urothelial cancer wit h any of: 
+• solitar y pTaG1 wit h a diamet er of less t han 3  cm 
+• solitar y pTaG2 (lo w grade) wit h a diamet er of less t han 3  cm 
+• any papillar y urothelial neoplasm of lo w malignant pot ential 
+Intermediat e 
+risk Urothelial cancer t hat is not lo w risk or high risk, including: 
+• solitar y pTaG1 wit h a diamet er of mor e than 3  cm 
+• multif ocal p TaG1 
+• solitar y pTaG2 (lo w grade) wit h a diamet er of mor e than 3  cm 
+• multif ocal p TaG2 (lo w grade) 
+• pTaG2 (high grade) 
+• any pTaG2 ( grade not fur ther specified) 
+• any low-risk non-muscle-in vasive bladder cancer r ecurring wit hin 
+12 mont hs of last tumour occurr ence Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 15 of
+34
+High risk Urothelial cancer wit h any of: 
+• pTaG3 
+• pT1G2 
+• pT1G3 
+• pTis (Cis) 
+• aggr essiv e variant s of ur othelial car cinoma, f or example micr opapillar y or 
+nested variant s 
+Prognostic mar kers and risk classific ation 
+1.3.1 Ensur e that f or people wit h non-muscle-in vasive bladder cancer all of t he 
+following ar e recorded and used t o guide discussions, bot h wit hin 
+multidisciplinar y team meetings and wit h the person, about pr ognosis and 
+treatment options: 
+• recurr ence hist ory 
+• size and number of cancers 
+• histological type, grade, stage and pr esence ( or absence) of flat ur othelium, 
+detrusor muscle (muscularis pr opria), and car cinoma in situ 
+• the risk cat egor y of t he person's cancer 
+• predict ed risk of r ecurr ence and pr ogression, estimat ed using a risk 
+prediction t ool. 
+Low-risk non -muscle-in vasive bladder c ancer 
+1.3.2 For the tr eatment of lo w-risk non-muscle-in vasive bladder cancer , see 
+recommendations  1.2.3 to 1.2.8. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 16 of
+34
+Interme diate-risk non -muscle-in vasive bladder c ancer 
+1.3.3 Offer people wit h newly diagnosed int ermediat e-risk non-muscle-in vasive 
+bladder cancer a course of at least 6  doses of intra vesical mit omycin C. 
+1.3.4 If intermediat e-risk non-muscle-in vasive bladder cancer r ecurs aft er a course of 
+intravesical mit omycin C, refer the person's car e to a specialist ur ology 
+multidisciplinar y team. 
+High-risk non -muscle-in vasive bladder c ancer 
+1.3.5 If the first TURBT sho ws high-risk non-muscle-in vasive bladder cancer , offer 
+anot her TURBT as soon as possible and no lat er than 6  weeks aft er the first 
+resection. 
+1.3.6 Offer the choice of intra vesical BCG (Bacille Calmett e-Guérin) or radical 
+cystectomy to people wit h high-risk non-muscle-in vasive bladder cancer , and 
+base t he choice on a full discussion wit h the person, t he clinical nurse specialist 
+and a ur ologist who per forms bot h intra vesical BCG and radical cyst ectomy. 
+Include in y our discussion: 
+• the type, stage and grade of t he cancer , the pr esence of car cinoma in situ, 
+the pr esence of v ariant pat hology , prostatic ur ethral or bladder neck status 
+and t he number of tumours 
+• risk of pr ogression t o muscle in vasion, metastases and deat h 
+• risk of understaging 
+• benefit s of bot h treatment s, including sur vival rat es and t he lik elihood of 
+further tr eatment 
+• risks of bot h treatment s 
+• factors t hat aff ect out comes (f or example, comorbidities and lif e expectancy) 
+• impact on quality of lif e, body image, and se xual and urinar y function. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 17 of
+34
+Intravesical BCG 
+1.3.7 Offer induction and maint enance intra vesical BCG t o people ha ving tr eatment 
+with intra vesical BCG. 
+1.3.8 If induction BCG f ails (because it is not t olerat ed, or bladder cancer persist s or 
+recurs aft er treatment wit h BCG), r efer the person's car e to a specialist ur ology 
+multidisciplinar y team. 
+1.3.9 For people in whom induction BCG has f ailed, t he specialist ur ology 
+multidisciplinar y team should assess t he suitability of radical cyst ectomy, or 
+further intra vesical t herap y if radical cyst ectomy is unsuitable or declined b y the 
+person, or if t he bladder cancer t hat r ecurs is int ermediat e- or lo w-risk. 
+Radical cyst ectomy 
+1.3.10 See recommendations  1.5.4 to 1.5.7 for people who ha ve chosen radical 
+cystectomy. 
+Recurr ent non -muscle-in vasive bladder c ancer 
+1.3.11 Consider fulguration wit hout biopsy f or people wit h recurr ent 
+non-muscle-in vasive bladder cancer if t hey have all of t he following: 
+• no pr evious bladder cancer t hat was int ermediat e- or high-risk 
+• a disease-fr ee int erval of at least 6  mont hs 
+• solitar y papillar y recurr ence 
+• a tumour diamet er of 3  mm or less. 
+Manag ing side ef fects of treatmen t 
+1.3.12 Do not off er primar y prophylaxis t o prevent BCG-r elated bladder t oxicity e xcept Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 18 of
+34
+as par t of a clinical trial. 
+1.3.13 Seek advice fr om a specialist ur ology multidisciplinar y team if sympt oms of 
+bladder t oxicity aft er BCG cannot be contr olled wit h antispasmodics or 
+non-opiat e analgesia and ot her causes ha ve been e xcluded b y cyst oscop y. 
+1.4 Follow-up af ter tr eatmen t for non -muscle-
+invasive bladder c ancer 
+1.4.1 Refer people ur gent ly to urological ser vices if t hey have haematuria or ot her 
+urinar y sympt oms and a hist ory of non-muscle-in vasive bladder cancer . 
+1.4.2 See recommendation  1.2.1 on t he use of urinar y biomark ers for follow up aft er 
+treatment f or bladder cancer . 
+Low-risk non -muscle-in vasive bladder c ancer 
+1.4.3 Offer people wit h low-risk non-muscle-in vasive bladder cancer (see t he section 
+on risk classification in non-muscle-in vasive bladder cancer ) cyst oscopic 
+follow-up 3  mont hs and 12  mont hs aft er diagnosis. 
+1.4.4 Do not use urinar y biomark ers or cyt ology in addition t o cyst oscop y for follow-up 
+after treatment f or low-risk bladder cancer . 
+1.4.5 Dischar ge to primar y car e people who ha ve had lo w-risk non-muscle-in vasive 
+bladder cancer and who ha ve no r ecurr ence of t he bladder cancer wit hin 
+12 mont hs. 
+1.4.6 Do not off er routine urinar y cyt ology or pr olonged cyst oscopic f ollow-up aft er 
+12 mont hs for people wit h low-risk non-muscle-in vasive bladder cancer . Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 19 of
+34
+Interme diate-risk non -muscle-in vasive bladder c ancer 
+1.4.7 Offer people wit h intermediat e-risk non-muscle-in vasive bladder cancer (see t he 
+section on risk classification in non-muscle-in vasive bladder cancer ) cyst oscopic 
+follow-up at 3 , 9 and 18  mont hs, and once a y ear t hereafter. 
+1.4.8 Consider dischar ging people who ha ve had int ermediat e-risk 
+non-muscle-in vasive bladder cancer t o primar y car e aft er 5 years of disease-fr ee 
+follow-up. 
+High-risk non -muscle-in vasive bladder c ancer 
+1.4.9 Offer people wit h high-risk non-muscle-in vasive bladder cancer (see t he section 
+on risk classification in non-muscle-in vasive bladder cancer ) cyst oscopic 
+follow-up: 
+• every 3 mont hs for the first 2  years then 
+• every 6 mont hs for the ne xt 2 years then 
+• once a y ear t hereafter. 
+1.4.10 For people who ha ve had radical cyst ectomy for high-risk non-muscle-in vasive 
+bladder cancer , see recommendations  1.6.1 and 1 .6.2. 
+1.5 T reating m uscle-in vasive bladder c ancer 
+1.5.1 Ensur e that a specialist ur ology multidisciplinar y team r eviews all cases of 
+muscle-in vasive bladder cancer , including adenocar cinoma, squamous cell 
+carcinoma and neur oendocrine car cinoma, and t hat t he review includes 
+histopat hology , imaging and discussion of tr eatment options. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 20 of
+34
+Neoadjuvant chemother apy for ne wly diagnose d muscle-in vasive 
+urothelial b ladder c ancer 
+1.5.2 Offer neoadjuv ant chemot herap y using a cisplatin combination r egimen bef ore 
+radical cyst ectomy or radical radiot herap y to people wit h newly diagnosed 
+muscle-in vasive urothelial bladder cancer f or whom cisplatin-based 
+chemot herap y is suitable. Ensur e that t hey have an oppor tunity t o discuss t he 
+risks and benefit s wit h an oncologist who tr eats bladder cancer . 
+Radic al ther apy for m uscle-in vasive urothelial b ladder c ancer 
+1.5.3 Offer a choice of radical cyst ectomy or radiot herap y wit h a radiosensitiser t o 
+people wit h muscle-in vasive urothelial bladder cancer f or whom radical t herap y is 
+suitable. Ensur e that t he choice is based on a full discussion betw een t he person 
+and a ur ologist who per forms radical cyst ectomy, a clinical oncologist and a 
+clinical nurse specialist. Include in t he discussion: 
+• the pr ognosis wit h or wit hout tr eatment 
+• the limit ed evidence about whet her sur gery or radiot herap y wit h a 
+radiosensitiser is t he most eff ectiv e cancer tr eatment 
+• the benefit s and risks of sur gery and radiot herap y wit h a radiosensitiser , 
+including t he impact on se xual and bo wel function and t he risk of deat h as a 
+result of t he tr eatment. 
+Radical cyst ectomy 
+1.5.4 Offer people who ha ve chosen radical cyst ectomy a urinar y stoma, or a continent 
+urinar y div ersion (bladder substitution or a cat heterisable r eservoir) if t here are 
+no str ong contraindications t o continent urinar y div ersion such as cognitiv e 
+impairment, impair ed renal function or significant bo wel disease. 
+1.5.5 Members of t he specialist ur ology multidisciplinar y team (including t he bladder 
+cancer specialist ur ological sur geon, st oma car e nurse and clinical nurse 
+specialist) should discuss wit h the person whet her t o have a urinar y stoma or Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 21 of
+34
+continent urinar y div ersion, and pr ovide oppor tunities f or the person t o talk wit h 
+people who ha ve had t hese pr ocedur es. 
+1.5.6 Offer people wit h bladder cancer and, if t hey wish, t heir par tners, f amilies or 
+carers, oppor tunities t o have discussions wit h a st oma car e nurse bef ore and 
+after radical cyst ectomy as needed. 
+Adjuv ant chemot herapy aft er radical cyst ectomy for muscle-in vasiv e or 
+lymph-node-positiv e urothelial bladder cancer 
+1.5.7 Consider adjuv ant cisplatin combination chemot herap y aft er radical cyst ectomy 
+for people wit h a diagnosis of muscle-in vasive or lymph-node-positiv e urothelial 
+bladder cancer f or whom neoadjuv ant chemot herap y was not suitable (because 
+muscle in vasion was not sho wn on biopsies bef ore cyst ectomy). Ensur e that t he 
+person has an oppor tunity t o discuss t he risks and benefit s wit h an oncologist 
+who tr eats bladder cancer . 
+Radical r adiot herapy 
+1.5.8 Use a radiosensitiser (such as mit omycin in combination wit h fluor ouracil [5-FU] 
+or carbogen in combination wit h nicotinamide) when giving radical radiot herap y 
+(for example, 64  Gy in 32  fractions o ver 6.5 weeks or 55  Gy in 20  fractions o ver 
+4 weeks) f or muscle-in vasive urothelial bladder cancer . 
+In Februar y 2015 , this was an off -label use of mit omycin in combination wit h 
+fluor ouracil and carbogen in combination wit h nicotinamide. See NICE's 
+information on pr escribing medicines . 
+Manag ing side ef fects of treatmen t 
+1.5.9 Seek advice fr om a specialist ur ology multidisciplinar y team if sympt oms of 
+bladder t oxicity aft er radiot herap y cannot be contr olled wit h antispasmodics or 
+non-opiat e analgesia and ot her causes ha ve been e xcluded b y cyst oscop y. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 22 of
+34
+1.6 Follow-up af ter tr eatmen t for m uscle-in vasive 
+bladder c ancer 
+1.6.1 Offer follow-up aft er radical cyst ectomy or radical radiot herap y. 
+1.6.2 After radical cyst ectomy consider using a f ollow-up pr otocol t hat consist s of: 
+• monit oring of t he upper tract s for hydronephr osis, st ones and cancer using 
+imaging and glomerular filtration rat e (GFR) estimation at least annually and 
+• monit oring f or local and distant r ecurr ence using CT of t he abdomen, pelvis 
+and chest, carried out t oget her wit h other planned CT imaging if possible, 6 , 
+12 and 2 4 mont hs aft er radical cyst ectomy and 
+• monit oring f or metabolic acidosis and B12 and f olate deficiency at least 
+annually and 
+• for men wit h a defunctioned ur ethra, ur ethral washing f or cyt ology and/or 
+urethroscop y annually f or 5 years t o det ect ur ethral r ecurr ence. 
+1.6.3 After radical radiot herap y consider using a f ollow-up pr otocol t hat includes all of 
+the following: 
+• rigid cyst oscop y 3 mont hs aft er radiot herap y has been complet ed, followed 
+by either rigid or fle xible cyst oscop y: 
+－ every 3 mont hs for the first 2  years then 
+－ every 6 mont hs for the ne xt 2 years then 
+－ every year t hereafter, accor ding t o clinical judgement and t he person's 
+preference 
+• upper -tract imaging e very year f or 5 years 
+• monit oring f or local and distant r ecurr ence using CT of t he abdomen, pelvis 
+and chest, carried out wit h other planned CT imaging if possible, 6 , 12 and 
+24 mont hs aft er radical radiot herap y has finished. 
+1.6.4 See recommendation  1.2.1 on t he use of urinar y biomark ers for follow up aft er Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 23 of
+34
+treatment f or bladder cancer . 
+1.7 Manag ing loc ally advanced or me tasta tic 
+muscle-in vasive bladder c ancer 
+First-line chemother apy 
+1.7.1 Discuss t he role of first -line chemot herap y wit h people who ha ve locally 
+advanced or metastatic bladder cancer . Include in y our discussion: 
+• prognosis of t heir cancer and 
+• advantages and disadv antages of t he tr eatment options, including best 
+suppor tive car e. 
+1.7.2 Offer a cisplatin-based chemot herap y regimen (such as cisplatin in combination 
+with gemcitabine, or accelerat ed [high-dose] met hotrexate, vinblastine, 
+doxorubicin and cisplatin [MV AC] in combination wit h granulocyt e-colon y 
+stimulating f actor [G-CSF]) t o people wit h locally adv anced or metastatic 
+urothelial bladder cancer who ar e otherwise ph ysically fit (ha ve an Eastern 
+Cooperativ e Oncology Gr oup [ECOG] per formance status  of 0 or 1) and ha ve 
+adequat e renal function (typically defined as a glomerular filtration rat e [GFR] of 
+60 ml/min/1 .73 m2
+ or mor e). 
+1.7.3 Offer carboplatin in combination wit h gemcitabine t o people wit h locally 
+advanced or metastatic ur othelial bladder cancer wit h an ECOG per formance 
+status of 0  to 2 if a cisplatin-based chemot herap y regimen is unsuitable, f or 
+example, because of ECOG per formance status, inadequat e renal function 
+(typically defined as a GFR of less t han 60  ml/min/1 .73 m2
+) or comorbidity . Assess 
+and discuss t he risks and benefit s wit h the person. 
+In Februar y 2015 t his was an off -label use of carboplatin in combination wit h 
+gemcitabine. See NICE's inf ormation on pr escribing medicines . 
+1.7.4 For people ha ving first -line chemot herap y for locally adv anced or metastatic Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 4 of
+34
+bladder cancer: 
+• carry out r egular clinical and radiological monit oring and 
+• activ ely manage sympt oms of disease and tr eatment -related toxicity and 
+• stop first -line chemot herap y if there is e xcessiv e toxicity or disease 
+progression. 
+Second-line chemother apy 
+1.7.5 Discuss second-line chemot herap y wit h people who ha ve locally adv anced or 
+metastatic bladder cancer . Include in y our discussion: 
+• the pr ognosis of t heir cancer 
+• advantages and disadv antages of tr eatment options, including best 
+suppor tive car e. 
+1.7.6 Consider second-line chemot herap y wit h gemcitabine in combination wit h 
+cisplatin, or accelerat ed (high-dose) MV AC in combination wit h G-CSF f or people 
+with incurable locally adv anced or metastatic ur othelial bladder cancer whose 
+condition has pr ogressed aft er first -line chemot herap y if: 
+• their r enal function is adequat e (typically defined as a GFR of 60  ml/min/
+1.73 m2
+ or mor e) and 
+• they are otherwise ph ysically fit (ha ve an ECOG per formance status of 0 or 
+1). 
+1.7.7 Consider second-line chemot herap y wit h carboplatin in combination wit h 
+paclitax el or gemcitabine in combination wit h paclitax el for people wit h incurable 
+locally adv anced or metastatic ur othelial bladder cancer f or whom 
+cisplatin-based chemot herap y is not suitable, or who choose not t o have it. (Also 
+see t he NICE t opic page on bladder cancer f or all our t echnology appraisal 
+guidance on t his topic.) 
+In Februar y 2015 , this was an off -licence use of carboplatin in combination wit h Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 25 of
+34
+gemcitabine and gemcitabine in combination wit h paclitax el. See NICE's 
+information on pr escribing medicines . 
+1.7.8 For recommendations on vinflunine as second-line chemot herap y for people wit h 
+incurable locally adv anced or metastatic ur othelial bladder cancer , see NICE's 
+technology appraisal guidance on vinflunine f or the tr eatment of adv anced or 
+metastatic transitional cell car cinoma of t he ur othelial tract . 
+1.7.9 For people ha ving second-line chemot herap y for locally adv anced or metastatic 
+bladder cancer: 
+• carry out r egular clinical and radiological monit oring and 
+• activ ely manage sympt oms of disease and tr eatment -related toxicity and 
+• stop second-line chemot herap y if there is e xcessiv e toxicity or disease 
+progression. 
+Genomic biomar ker-base d treatmen t 
+The point at which t o use genomic biomark er-based t herap y in solid tumour tr eatment 
+pathways is uncer tain. See t he NICE t opic page on genomic biomark er-based cancer 
+treatment s. 
+Manag ing sym ptoms o f loc ally advanced or me tasta tic b ladder 
+cancer 
+Bladder sympt oms 
+1.7.10 Offer palliativ e hypofractionat ed radiot herap y to people wit h sympt oms of 
+haematuria, dysuria, urinar y frequency or nocturia caused b y adv anced bladder 
+cancer t hat is unsuitable f or pot entially curativ e treatment. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 26 of
+34
+Loin pain and sympt oms of r enal f ailur e 
+1.7.11 Discuss tr eatment options wit h people who ha ve locally adv anced or metastatic 
+bladder cancer wit h ureteric obstruction. Include in y our discussion: 
+• prognosis of t heir cancer and 
+• advantages and disadv antages of t he tr eatment options, including best 
+suppor tive car e. 
+1.7.12 Consider per cutaneous nephr ostomy or r etrograde st enting (if t echnically 
+feasible) f or people wit h locally adv anced or metastatic bladder cancer and 
+ureteric obstruction who need tr eatment t o relieve pain, tr eat acut e kidne y injur y 
+or impr ove renal function bef ore fur ther tr eatment. 
+1.7.13 If facilities f or per cutaneous nephr ostomy or r etrograde st enting ar e not a vailable 
+at the local hospital, or if t hese pr ocedur es ar e unsuccessful, discuss t he options 
+with a specialist ur ology multidisciplinar y team f or people wit h bladder cancer 
+and ur eteric obstruction. 
+Intractable bleeding 
+1.7.14 Evaluat e the cause of intractable bleeding wit h the local ur ology t eam. 
+1.7.15 Consider h ypofractionat ed radiot herap y or embolisation f or people wit h 
+intractable bleeding caused b y incurable bladder cancer . 
+1.7.16 If a person has intractable bleeding caused b y bladder cancer and radiot herap y 
+or embolisation ar e not suitable tr eatment s, discuss fur ther management wit h a 
+specialist ur ology multidisciplinar y team. 
+Pelvic pain 
+1.7.17 Evaluat e the cause of pelvic pain wit h the local ur ology t eam. 
+1.7.18 Consider , in addition t o best suppor tive car e, 1 or mor e of t he following t o treat Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 27 of
+34
+pelvic pain caused b y incurable bladder cancer: 
+• hypofractionat ed radiot herap y if the person has not had pelvic radiot herap y 
+• nerve block 
+• palliativ e chemot herap y. 
+1.8 S pecialist pallia tive care for pe ople wi th 
+incur able bladder c ancer 
+1.8.1 A member of t he tr eating t eam should off er people wit h incurable bladder cancer 
+a sensitiv e explanation t hat t heir disease cannot be cur ed and r efer them t o the 
+urology multidisciplinar y team. 
+1.8.2 Tell the primar y car e team t hat t he person has been giv en a diagnosis of 
+incurable bladder cancer wit hin 2 4 hours of t elling t he person. 
+1.8.3 A member of t he ur ology multidisciplinar y team should discuss t he pr ognosis and 
+management options wit h people wit h incurable bladder cancer . 
+1.8.4 Discuss palliativ e car e ser vices wit h people wit h incurable bladder cancer and, if 
+needed and t hey agr ee, refer them t o a specialist palliativ e car e team (f or mor e 
+information, see recommendation  1.1.4 on holistic needs assessment  and NICE's 
+guidelines on impr oving suppor tive and palliativ e car e for adult s wit h cancer  and 
+improving out comes in ur ological cancers ). 
+1.8.5 Offer people wit h sympt omatic incurable bladder cancer access t o a ur ological 
+team wit h the full range of options f or managing sympt oms. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 28 of
+34
+Recommenda tions f or research 
+The Guideline De velopment Gr oup has made t he following r ecommendations f or resear ch, 
+based on it s review of e vidence, t o impr ove NICE guidance and patient car e in t he futur e. 
+The Guideline De velopment Gr oup's full set of r ecommendations f or resear ch ar e detailed 
+in the full guideline . 
+1 Patient satisfaction 
+What ar e the causativ e and contribut ory factors underlying t he persist ently very low levels 
+of repor ted patient satisf action f or bladder cancer? 
+Why this is im portant 
+The ur ological cancers gr ouping (which includes bladder cancer but e xcludes pr ostat e 
+cancer) has consist ently appear ed near t he bott om of t he table of patient satisf action 
+comparisons of all cancer types in national patient e xperience sur veys. Pr ostat e cancer 
+(which is also managed in ur ological ser vices) is r ecorded separat ely and has continued t o 
+appear near t he top of t he tables. 
+It is uncer tain wh y this is t he case, e xcept t hat t here is no w an accept ed link betw een t he 
+level of clinical nurse specialist allocation, inf ormation and suppor t provision and patient 
+satisf action. The ur ological cancers gr ouping has t he lo west le vel of clinical nurse 
+specialist allocation in comparison wit h all ot her cancer types or gr oupings (including 
+prostat e cancer). The pr olonged patt ern of intrusiv e procedur es that dominat e 
+investigation, tr eatment and f ollow-up r egimens f or bladder cancer ma y also contribut e to 
+this position. Additionally , there is concern t hat people wit h bladder cancer at or near t he 
+end of lif e, who ar e by that stage oft en quit e frail and elderly , may not alwa ys ha ve access 
+to the full range of palliativ e and ur ological suppor t and ma y, at times, be tr eated in 
+general war ds in hospital and e xperience significant sympt oms of pain and bleeding 
+(haematuria). 
+To explor e this resear ch question bladder cancer patient s need t o be identified separat ely 
+from t he generic gr oup of ur ological cancer patient s in nationally collect ed data set s. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 29 of
+34
+2 BCG or primar y cystectomy in hig h-risk non -
+muscle-in vasive bladder c ancer 
+Is primar y radical cyst ectomy mor e eff ectiv e than primar y intra vesical BCG in high-risk 
+non-muscle-in vasive bladder cancer (see t he section on risk classification in non-muscle-
+invasive bladder cancer ), in t erms of quality of lif e and cancer -specific out comes? 
+Why this is im portant 
+Options f or people wit h high-risk non-muscle-in vasive bladder cancer include cyst oscop y 
+surveillance, BCG  immunot herap y or radical sur gery. To dat e, these ha ve not been dir ectly 
+compar ed acr oss t he same population t o understand t heir r elativ e benefit s. 
+Bladder -sparing appr oaches a void major sur gery, but ha ve a gr eater risk of cancer 
+progression. The pot ential adv antage of bladder -sparing appr oaches compar ed wit h 
+cystectomy in maintaining quality of lif e ma y be off set b y continuing concern about cancer 
+progression and morbidity fr om tr eatment. Primar y cyst ectomy ma y impr ove sur vival; 
+however, it has high shor t-term risks and lif e-changing consequences. It will be 
+overtreatment f or those people whose cancer w ould not ha ve progressed. 
+3 Follow-up o f hig h-risk non -muscle-in vasive 
+bladder c ancer 
+In people wit h high-risk non-muscle-in vasive bladder cancer , are these f ollow-up r egimens 
+equally eff ectiv e in t erms of identification of pr ogression, cost eff ectiv eness and 
+healt h-related quality of lif e? 
+• Cyst oscopic f ollow-up at 3 , 6, 12, 18 , 24, 36 and 48  mont hs, and t hen annually , 
+interspersed wit h non-in vasive urinar y tests. 
+• Cyst oscopic f ollow-up at 3 , 6, 9, 12, 15 , 18, 21, 24, 30, 36, 42 and 48  mont hs, and t hen 
+annually t hereafter. 
+Why this is im portant 
+Cyst oscop y is curr ently the standar d of car e for follow-up of people wit h high-risk 
+non-muscle-in vasive bladder cancer . Regular cyst oscop y ma y be associat ed wit h anxiety , Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 30 of
+34
+procedural discomf ort to the person and significant cost s to the NHS. 
+Urine t ests based on a v ariety of t echnologies (including cyt ology , fluor escence in-situ 
+hybridization [FISH] and pr oteomic platf orms) can det ect high-grade r ecurr ence, raising 
+the possibility t hat 1  or mor e of t hese t ests could be used t o reduce t he fr equency of 
+cystoscop y. This could impr ove acceptability t o patient s and r educe cost s to the NHS 
+without incr easing t he risk of disease pr ogression. 
+Ther e is a lack of e vidence on t he optimal fr equency of f ollow-up and whet her t he 
+frequency of cyst oscop y follow-up can saf ely be r educed b y substitution of urinar y tests. 
+4 Biomar kers for tr eatmen t sele ction 
+In patient s wit h muscle-in vasive bladder cancer suitable f or radical tr eatment, does t he 
+use of biomark ers enable patient s to select mor e eff ectiv e treatment, and impr ove their 
+outcomes, compar ed wit h treatment select ed wit hout biomark ers? 
+Why this is im portant 
+Response t o sur gery or radiot herap y is difficult t o predict f or individuals. Ther e is v ariation 
+not only in t he cur e rat es for patient s wit h muscle-in vasive bladder cancer tr eated wit h 
+either sur gery or radiot herap y, but also in t he side eff ects experienced during and aft er 
+treatment. The usefulness of curr ent biomark ers in pr edicting tr eatment out comes f or 
+individual patient s has not been clearly established. Curr ently treatment decisions ar e 
+based on patient -related factors, and patient and clinician pr eference. R esear ch int o 
+biomark ers t hat can pr edict t he response of t he patient's muscle-in vasive bladder cancer 
+to either radiot herap y or sur gery could help individual patient s and clinicians decide which 
+treatment is mor e suitable and is consider ed an impor tant st ep toward individualised 
+treatment. 
+5 Follow-up af ter r adical treatmen t for or gan-
+confine d muscle-in vasive bladder c ancer 
+Is sympt om-based r eview as eff ectiv e as scheduled f ollow-up f or people tr eated wit h 
+radical cyst ectomy or radical radiot herap y for or gan-confined, muscle-in vasive bladder 
+cancer? Out comes of int erest ar e overall sur vival, healt h-related quality of lif e, resour ce 
+use and cost. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 31 of
+34
+Why this is im portant 
+Standar d car e aft er treatment f or or gan-confined, muscle-in vasive bladder cancer is 
+scheduled f ollow-up at int ervals set out b y the tr eating t eam. Alt hough t his can be 
+reassuring f or bot h the patient and t he tr eating t eam, it is not kno wn whet her scheduled 
+follow-up off ers clinical benefit compar ed wit h sympt om-based r eview , which is 
+increasingly used f or people wit h other cancers. Mor eover, there are significant cost s 
+associat ed wit h follow-up. The curr ent e vidence about f ollow-up is confined t o 
+cystectomy. Ther e is no e vidence concerning f ollow-up aft er radiot herap y. In addition, t he 
+evidence on radiological f ollow-up uses mainly out dated imaging t echniques. Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 32 of
+34
+Finding mor e inf orma tion and c ommi ttee 
+details 
+To find NICE guidance on r elated topics, including guidance in de velopment, see t he NICE 
+topic page on bladder cancer . 
+For full details of t he evidence and t he guideline committ ee's discussions, see t he full 
+guideline and e vidence r eview . You can also find inf ormation about how the guideline was 
+developed , including details of t he committ ee. 
+NICE has pr oduced tools and r esour ces t o help y ou put t his guideline int o practice . For 
+general help and advice on putting our guidelines int o practice, see resour ces t o help y ou 
+put NICE guidance int o practice . Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 33 of
+34
+Update inf orma tion 
+Minor changes since publication 
+Januar y 2022: Minor changes t o redirect NICE Pat hways links. 
+ISBN: 9 78-1-47 31-0991-9 Bladder cancer: diagnosis and management (NG2)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 34 of
+34

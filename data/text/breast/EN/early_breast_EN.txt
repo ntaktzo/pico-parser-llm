@@ -1,0 +1,2567 @@
+Early and loc ally advanced 
+breast c ancer: diagnosis 
+and manag emen t 
+NICE guideline 
+Published: 18 July 2018 
+Last updat ed: 16 Januar y 202 4 
+www .nice.or g.uk/guidance/ng101 
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).
+Your r esponsi bility 
+The r ecommendations in t his guideline r epresent t he view of NICE, arriv ed at aft er car eful 
+consideration of t he evidence a vailable. When e xercising t heir judgement, pr ofessionals 
+and practitioners ar e expect ed to tak e this guideline fully int o account, alongside t he 
+individual needs, pr eferences and v alues of t heir patient s or t he people using t heir ser vice. 
+It is not mandat ory to apply t he recommendations, and t he guideline does not o verride t he 
+responsibility t o mak e decisions appr opriat e to the cir cumstances of t he individual, in 
+consultation wit h them and t heir f amilies and car ers or guar dian. 
+All pr oblems (adv erse e vents) related to a medicine or medical de vice used f or treatment 
+or in a pr ocedur e should be r epor ted to the Medicines and Healt hcare product s Regulat ory 
+Agency using t he Yellow Car d Scheme . 
+Local commissioners and pr oviders of healt hcare have a responsibility t o enable t he 
+guideline t o be applied when individual pr ofessionals and people using ser vices wish t o 
+use it. The y should do so in t he cont ext of local and national priorities f or funding and 
+developing ser vices, and in light of t heir duties t o have due r egar d to the need t o eliminat e 
+unlawful discrimination, t o adv ance equality of oppor tunity and t o reduce healt h 
+inequalities. Not hing in t his guideline should be int erpreted in a wa y that w ould be 
+inconsist ent wit h complying wit h those duties. 
+Commissioners and pr oviders ha ve a responsibility t o promot e an en vironmentally 
+sustainable healt h and car e syst em and should assess and r educe t he en vironmental 
+impact of implementing NICE r ecommendations  wher ever possible. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 of
+84
+Contents 
+Overview .................................................................................................................................... 5 
+Who is it f or? ......................................................................................................................................... 5 
+Recommendations ..................................................................................................................... 6 
+1.1 Preoperativ e assessment ............................................................................................................... 6 
+1.2 Pr oviding inf ormation and psy chological suppor t ....................................................................... 7 
+1.3 Sur gery to the br east ..................................................................................................................... 8 
+1.4 Sur gery to the axilla ....................................................................................................................... 10 
+1.5 Breast r econstruction ..................................................................................................................... 12 
+1.6 Diagnostic assessment and adjuv ant t herap y planning ............................................................. 16 
+1.7 Endocrine t herap y .......................................................................................................................... 18 
+1.8 Adjuv ant chemot herap y for invasive breast cancer ................................................................... 23 
+1.9 Bisphosphonat e therap y ................................................................................................................ 27 
+1.10 Radiot herap y ................................................................................................................................. 28 
+1.11 Primar y syst emic t herap y ............................................................................................................. 34 
+1.12 Complications of local tr eatment and menopausal sympt oms ................................................. 40 
+1.13 Follow-up ....................................................................................................................................... 45 
+1.14 Lif estyle .......................................................................................................................................... 46 
+Terms used in t his guideline ................................................................................................................ 46 
+Recommendations f or resear ch ............................................................................................... 47 
+Key recommendations f or resear ch ................................................................................................... 47 
+Other r ecommendations f or resear ch ................................................................................................ 48 
+Rationale and impact ................................................................................................................. 52 
+Providing inf ormation and psy chological suppor t ............................................................................. 52 
+Surgery to the br east ........................................................................................................................... 52 
+Further sur gery aft er br east-conser ving sur gery ............................................................................. 53 
+Evaluation and management of a positiv e axillar y lymph node ....................................................... 56 
+Breast r econstruction .......................................................................................................................... 57 Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 3 of
+84
+Predictiv e factors ................................................................................................................................. 58 
+Adjuv ant t herap y planning .................................................................................................................. 59 
+Ovarian function suppr ession ............................................................................................................. 59 
+Extended endocrine t herap y ............................................................................................................... 60 
+Endocrine t herap y for ductal car cinoma in situ ................................................................................. 61 
+Adjuv ant chemot herap y for invasive breast cancer ......................................................................... 62 
+Biological t herap y ................................................................................................................................. 62 
+Adjuv ant bisphosphonat e therap y ..................................................................................................... 63 
+Radiot herap y techniques ..................................................................................................................... 65 
+Radiot herap y aft er br east-conser ving sur gery ................................................................................. 66 
+Radiot herap y aft er mast ectomy ......................................................................................................... 67 
+Dose fractionation of e xternal beam radiot herap y ........................................................................... 68 
+Radiot herap y to nodal ar eas ............................................................................................................... 70 
+Neoadjuv ant chemot herap y ................................................................................................................ 71 
+Neoadjuv ant chemot herap y regimens ............................................................................................... 71 
+Neoadjuv ant endocrine t herap y ......................................................................................................... 72 
+Radiot herap y aft er neoadjuv ant chemot herap y ............................................................................... 73 
+Lymphoedema ...................................................................................................................................... 74 
+Arm and shoulder mobility .................................................................................................................. 74 
+Lifestyle ................................................................................................................................................. 78 
+Cont ext ....................................................................................................................................... 79 
+Groups t hat ar e covered ...................................................................................................................... 80 
+Groups t hat ar e not co vered ............................................................................................................... 80 
+Finding mor e information and committ ee details ................................................................... 81 
+Updat e information ................................................................................................................... 82 Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 of
+84
+This guideline r eplaces T A107, TA108, TA109, TA112, ES15 and CG80 . 
+This guideline is t he basis of QS12. 
+Overview 
+This guideline co vers diagnosing and managing early and locally adv anced br east cancer . 
+It aims t o help healt hcare professionals off er the right tr eatment s to people, taking int o 
+account t he person's individual pr eferences. 
+Who is i t for? 
+• Healt hcare professionals 
+• Commissioners and pr oviders of br east cancer ser vices 
+• People wit h early and locally adv anced br east cancer , their f amilies and car ers Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 5 of
+84
+Recommenda tions 
+People ha ve the right t o be in volved in discussions and mak e informed decisions 
+about t heir car e, as described in NICE's inf ormation on making decisions about y our 
+care. 
+This guideline uses specific, inclusiv e language t o describe t he population gr oups it 
+covers (f or example, w omen and pr egnant people, or trans and non-binar y people) 
+except when: 
+• the evidence f or the recommendation has not been r eview ed and it is not cer tain 
+from e xper t opinion whet her it can co ver mor e groups, or 
+• the evidence has been r eview ed, but t he inf ormation a vailable f or some gr oups at 
+the time of de velopment was t oo limit ed to mak e specific r ecommendations, or 
+• only a v ery limit ed number of r ecommendations ha ve been updat ed in dir ect 
+response t o new e vidence or t o reflect a change in practice. 
+Healt hcare professionals should use t heir clinical judgement when implementing 
+gender -specific r ecommendations, taking int o account t he individual's 
+circumstances, needs and pr eferences, and ensuring all people ar e treated wit h 
+dignity and r espect t hroughout t heir car e. 
+Making decisions using NICE guidelines  explains ho w we use w ords to sho w the 
+strengt h (or cer tainty) of our r ecommendations, and has inf ormation about 
+prescribing medicines (including off -label use), pr ofessional guidelines, standar ds 
+and laws (including on consent and mental capacity), and saf eguar ding. 
+1.1 Pr eoper ative assessmen t 
+1.1.1 For people ha ving in vestigations f or early and locally adv anced in vasive breast 
+cancer: 
+• perform pr etreatment ultrasound e valuation of t he axilla, and Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 6 of
+84
+• if abnormal lymph nodes ar e identified, per form ultrasound-guided needle 
+sampling. [2009] 
+1.1.2 Do not r outinely use MRI of t he br east as par t of t he pr eoperativ e assessment of 
+people wit h biopsy-pr oven in vasive breast cancer or ductal car cinoma in situ 
+(DCIS). [2009] 
+1.1.3 Offer MRI of t he br east as par t of pr eoperativ e assessment t o people wit h 
+invasive breast cancer: 
+• if the extent of disease is not clear fr om clinical e xamination, mammograph y 
+and ultrasound assessment f or planning tr eatment 
+• if accurat e mammographic assessment is difficult because of br east density 
+• to assess t he tumour siz e if br east-conser ving sur gery is being consider ed 
+for invasive lobular cancer . [2009] 
+Gene tic testing 
+1.1.4 Offer genetic t esting f or BRCA 1 and BRCA2 mutations t o women under 50 y ears 
+with triple-negativ e breast cancer , including t hose wit h no f amily hist ory of br east 
+or ovarian cancer (also see t he recommendations on genetic t esting in t he NICE 
+guideline on f amilial br east cancer ). [2017] 
+1.2 Pr oviding inf orma tion and psy chological 
+suppor t 
+1.2.1 Ensur e all people wit h breast cancer ha ve a named clinical nurse specialist, or 
+other specialist k ey worker wit h equiv alent skills, t o suppor t them t hroughout 
+diagnosis, tr eatment and f ollow-up. [2009 , amended 2018] 
+1.2.2 Offer all people wit h breast cancer pr ompt access t o specialist psy chological 
+suppor t and, wher e appr opriat e, psy chiatric ser vices. [2009] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 of
+84
+1.2.3 Discuss oppor tunities f or people wit h breast cancer t o be in volved in r esear ch, 
+and encourage entr y into clinical trials and ot her studies. [2018] 
+1.2.4 For guidance on f ertility pr eservation, see t he recommendations on people wit h 
+cancer who wish t o preserve fertility in t he NICE guideline on f ertility pr oblems . 
+[2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on pr oviding 
+information and psy chological suppor t. 
+1.3 S urgery to the br east 
+1.3.1 Offer fur ther sur gery (re-excision or mast ectomy, as appr opriat e) aft er br east-
+conser ving sur gery wher e invasive cancer or DCIS is pr esent at t he radial mar gins 
+('tumour on ink'; 0  mm). [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendation and 
+how it might aff ect practice, see t he rationale and impact section on sur gery to the 
+breast. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+surgery to the br east. 
+Further sur gery after br east-conser ving sur gery 
+1.3.2 Consider fur ther sur gery (re-excision or mast ectomy, as appr opriat e) aft er 
+breast-conser ving sur gery for invasive cancer wit h or wit hout DCIS if tumour 
+cells ar e present wit hin 1  mm of , but not at, t he radial mar gins ( greater than 0  mm 
+and less t han 1  mm). As par t of t he decision making: 
+• discuss t he benefit s and risks wit h the person 
+• take into account: Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 8 of
+84
+－ the person's cir cumstances, needs and pr eferences 
+－ any comorbidities 
+－ tumour charact eristics and pot ential tr eatment s, including t he use of 
+radiot herap y (also see radiot herap y aft er br east-conser ving sur gery) and 
+other adjuv ant t herapies.  [202 4] 
+1.3.3 Consider fur ther sur gery (re-excision or mast ectomy, as appr opriat e) aft er 
+breast-conser ving sur gery for DCIS wit hout in vasive cancer if tumour cells ar e 
+present wit hin 2  mm of , but not at, t he radial mar gins ( greater than 0  mm and less 
+than 2  mm). As par t of t he decision making: 
+• discuss t he benefit s and risks wit h the person 
+• take into account: 
+－ the person's cir cumstances, needs and pr eferences 
+－ any comorbidities 
+－ tumour charact eristics and pot ential tr eatment s, including t he use of 
+radiot herap y (also see radiot herap y aft er br east-conser ving sur gery) and 
+other adjuv ant t herapies.  [202 4] 
+1.3.4 When discussing t he benefit s and risks of fur ther sur gery, follow the 
+recommendations on: 
+• enabling patient s to activ ely par ticipat e in t heir car e in NICE's guideline on 
+patient e xperience in adult NHS ser vices , and 
+• communicating risks, benefit s and consequences in NICE's guideline on 
+shared decision making . [202 4] 
+1.3.5 All br east unit s should audit t heir local, r egional and distant r ecurr ence rat es aft er 
+treatment, including syst ematically collecting data on radial mar gins and 
+demographic inf ormation (such as socioeconomic status, age and et hnicity). 
+[2009 , amended 202 4] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 9 of
+84
+For a shor t explanation of wh y the committ ee made t he 202 4 recommendations and 
+how they might aff ect practice, see t he rationale and impact section on fur ther 
+surgery aft er br east-conser ving sur gery. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview N: 
+further sur gery aft er br east-conser ving sur gery based on tissue mar gins. 
+Paget's dise ase 
+1.3.6 Offer br east-conser ving sur gery wit h removal of t he nipple–ar eolar comple x as an 
+alternativ e to mast ectomy for people wit h Paget's disease of t he nipple t hat has 
+been assessed as localised. Off er oncoplastic r epair t echniques t o maximise 
+cosmesis. [2009] 
+1.4 S urgery to the axilla 
+Invasive breast c ancer 
+1.4.1 Perform sur gery using sentinel lymph node biopsy (SLNB) rat her t han axillar y 
+lymph node clearance t o stage t he axilla f or people wit h invasive breast cancer if 
+they have: 
+• no evidence of lymph node in volvement on ultrasound, or 
+• a negativ e ultrasound-guided needle biopsy . [2009 , amended 2023] 
+1.4.2 Perform SLNB using t he dual t echnique wit h isot ope and blue dy e. [2009] 
+1.4.3 Breast unit s should audit t heir axillar y recurr ence rat es. [2009] 
+Ductal c arcinoma in si tu 
+1.4.4 Do not r outinely per form SLNB f or women wit h a pr eoperativ e diagnosis of DCIS Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 10 of
+84
+who ar e having br east-conser ving sur gery, unless t hey are consider ed to be at 
+high risk of in vasive disease. P eople at high risk of in vasive disease include t hose 
+with a palpable mass or e xtensiv e micr ocalcifications. [2009] 
+1.4.5 Offer SLNB t o all people who ar e having a mast ectomy for DCIS. [2009] 
+Evaluation and manag emen t of a posi tive axillar y lymph node 
+iden tified by a pr eoper ative ultrasound -guide d ne edle biopsy 
+1.4.6 Offer axillar y node clearance t o people wit h invasive breast cancer who ha ve a 
+preoperativ e ultrasound-guided needle biopsy wit h pat hologically pr oven lymph 
+node metastases. [2009 , amended 2018] 
+Evaluation and manag emen t of a posi tive axillar y lymph node 
+iden tified by a sen tinel l ymph node biopsy ( in pe ople wi th a 
+normal pr eoper ative ultrasound -guide d ne edle biopsy ) 
+1.4.7 Offer fur ther axillar y treatment (axillar y node clearance or radiot herap y) aft er 
+SLNB t o people who ha ve 1 or mor e sentinel lymph node macr ometastasis. 
+[2018] 
+1.4.8 Discuss t he benefit s and risks of not ha ving fur ther axillar y treatment aft er 
+primar y breast-conser ving sur gery (wit hin clinical trials wher e available) wit h 
+women who: 
+• have 1 or 2 sentinel lymph node macr ometastases and 
+• have been advised t o have whole-br east radiot herap y wit h syst emic t herap y 
+(which ma y be endocrine t herap y). [2018] 
+1.4.9 Do not off er fur ther axillar y treatment t o people who only ha ve micr ometastases 
+in their sentinel lymph nodes aft er primar y sur gery for invasive breast cancer . 
+[2018] 
+1.4.10 Do not off er fur ther axillar y treatment t o people who ha ve isolat ed tumour cells in Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 11 of
+84
+their sentinel lymph nodes aft er primar y sur gery for invasive breast cancer . 
+Classify t his as lymph node-negativ e breast cancer . [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on e valuation 
+and management of a positiv e axillar y lymph node . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview B: 
+management of t he positiv e axilla . 
+1.5 B reast r econstruc tion 
+1.5.1 Offer br east r econstruction t o people aft er they have had mast ectomy for br east 
+cancer . [2023] 
+1.5.2 Be awar e that some people ma y prefer not t o have breast r econstruction sur gery. 
+[2018] 
+1.5.3 Offer bot h breast r econstruction options t o women (immediat e reconstruction 
+and dela yed reconstruction), whet her or not t hey are available locally . [2018] 
+1.5.4 Offer immediat e breast r econstruction t o women who ha ve been advised t o have 
+a mast ectomy, including t hose who ma y need radiot herap y, unless t hey have 
+comorbidities t hat rule out r econstructiv e sur gery. [2018 , amended 2023] 
+1.5.5 Discuss t he benefit s and risks of immediat e breast r econstruction and dela yed 
+breast r econstruction wit h women. T opics t o discuss include t hose in table  1 and: 
+• the timing of br east r econstruction sur gery (at t he same time as mast ectomy 
+or lat er) 
+• different br east r econstruction sur gery options and what t hey involve 
+• how the timing of br east r econstruction sur gery affects the options a vailable 
+• the uncer tainty o ver long-t erm out comes in w omen ha ving radiot herap y. 
+[2018] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 12 of
+84
+Table  1 Breast r econstruction options f or w omen who choose br east r econstruction 
+Categor y Immediat e breast r econstruction Dela yed br east r econstruction 
+Definition Reconstruction is star ted in t he 
+same operation as t he 
+mast ectomy After a mast ectomy, 
+reconstruction is done in a 
+separat e operation 
+Number and 
+timing of 
+operations More than 1 operation is usually 
+needed t o complet e the 
+reconstruction 
+The t otal number of operations will 
+vary. It ma y be aff ected by factors 
+such as: 
+• type of r econstruction (f or 
+example, some ar e planned in 
+stages; a pr osthesis ma y be 
+worn until r econstruction is 
+complet e) 
+• personal pr eferences (such as 
+whet her a nipple r econstruction 
+is request ed) 
+Fewer operations ma y be needed More than 1 operation is usually 
+needed t o complet e the 
+reconstruction 
+The t otal number of operations will 
+vary. It ma y be aff ected by factors 
+such as: 
+• type of r econstruction (f or 
+example, some ar e planned in 
+stages; a pr osthesis ma y be 
+worn until r econstruction is 
+complet e) 
+• personal pr eferences (such as 
+whet her a nipple r econstruction 
+is request ed) 
+More operations ma y be needed Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 13 of
+84
+Categor y Immediat e breast r econstruction Dela yed br east r econstruction 
+Breast 
+reconstruction 
+options 
+available These will v ary depending on 
+personal pr eferences (such as 
+breast siz e desir ed), curr ent body 
+shape, ot her healt h conditions, 
+previous operations and lif estyle 
+factors (such as hobbies) 
+Not all hospitals or sur geons can 
+offer all pr ocedur es. T ravel to a 
+different hospital ma y be needed 
+for a specific option 
+Options ma y be a vailable t hat 
+spare or pr eserve the br east skin 
+(which ma y mean less scarring 
+and a mor e natural look) 
+Limit ed time t o mak e a decision 
+about options (which ma y include 
+not ha ving a r econstruction) 
+before sur gery These will v ary depending on 
+personal pr eferences (such as 
+breast siz e desir ed), curr ent body 
+shape, ot her healt h conditions, 
+previous operations and lif estyle 
+factors (such as hobbies) 
+Not all hospitals or sur geons can 
+offer all pr ocedur es. T ravel to a 
+different hospital ma y be needed 
+for a specific option 
+Certain options t hat spar e or 
+preserve the br east skin ma y not 
+be available 
+More time t o mak e a decision 
+(which ma y include not ha ving a 
+reconstruction) and t o plan 
+reconstruction 
+Benefit s Breast shape r emains, which ma y 
+help maintain body image and 
+have subsequent psy chological 
+benefit s Lifestyle changes (such as losing 
+weight and taking r egular 
+exercise) ma y be possible, which 
+increase t he options and lo wer the 
+risks of r econstruction sur gery 
+Procedur es (and associat ed 
+recovery) can be planned ar ound 
+other commitment s Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 14 of
+84
+Categor y Immediat e breast r econstruction Dela yed br east r econstruction 
+Risks Surgical complications can occur 
+after an y breast r econstruction 
+and will v ary by type of pr ocedur e 
+and personal risk f actors 
+May be lo wer rat es of: 
+• tissue br eakdown 
+• surgery for flap r emoval if it 
+cannot be used because of a 
+complication (which ma y lead 
+to dela yed reconstruction and 
+flat appearance f or a period of 
+time) 
+• procedur es to impr ove 
+symmetr y 
+Complications fr om t he 
+mast ectomy or axillar y sur gery 
+can occur during t he recovery 
+period Surgical complications can occur 
+after an y breast r econstruction 
+and will v ary by type of pr ocedur e 
+and personal risk f actors 
+May be lo wer rat es of: 
+• mast ectomy site complications 
+• flap or implant f ailure (which 
+may lead t o dela yed 
+reconstruction and flat 
+appearance f or a period of 
+time) 
+• capsular contractur e (a scar 
+layer ar ound t he implant t hat 
+may lead t o pain if se vere) 
+May need t o interrupt hormone 
+therapies (tamo xifen) f or fur ther 
+surgery 
+Satisf action No clear diff erences in satisf action 
+with complet ed reconstructions No clear diff erences in satisf action 
+with complet ed reconstructions 
+Reconstruction 
+and adjuv ant 
+therap y 
+(including 
+radiot herap y 
+and 
+chemot herap y) Radiot herap y or chemot herap y 
+can be giv en but ma y be dela yed if 
+there are complications fr om t he 
+mast ectomy or r econstruction 
+Immediat e reconstructions using 
+implant s ma y be mor e aff ected by 
+radiot herap y than immediat e flap 
+reconstructions 
+May need adaptions t o scans if a 
+tissue e xpander is used. F or 
+example, ma y not be able t o have 
+MRI scans and ma y need modified 
+radiot herap y planning Complications can also occur aft er 
+mast ectomy alone, which ma y 
+delay chemot herap y or 
+radiot herap y Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 15 of
+84
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on br east 
+reconstruction . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview I: 
+postmast ectomy radiot herap y. 
+1.6 Diagnostic assessmen t and ad juvant ther apy 
+planning 
+Predictive factors 
+1.6.1 Assess t he oestr ogen r ecept or (ER), pr ogest erone r ecept or (PR) and human 
+epidermal gr owth factor recept or 2 (HER2) status of all in vasive breast cancers 
+simultaneously at t he time of initial hist opat hological diagnosis. [2018] 
+1.6.2 Assess t he ER status of all in vasive breast cancers using standar dised and 
+quality-assur ed immunohist ochemical t echniques, and r epor t the result s 
+quantitativ ely. [2009] 
+1.6.3 Assess t he PR status of all in vasive breast cancers using standar dised and 
+quality-assur ed immunohist ochemical t echniques, and r epor t the result s 
+quantitativ ely. [2018] 
+1.6.4 Assess t he HER2 status of all in vasive breast cancers using standar dised and 
+quality-assur ed techniques, and r epor t the result s quantitativ ely. [2009] 
+1.6.5 Ensur e that t he ER, PR and HER2 statuses ar e available and r ecorded at t he 
+preoperativ e and post operativ e multidisciplinar y team meetings when syst emic 
+treatment is discussed. [2018] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 16 of
+84
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on pr edictiv e 
+factors. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview C: 
+adjuv ant syst emic t herap y planning . 
+Adjuvant ther apy planning 
+1.6.6 Consider adjuv ant t herap y aft er sur gery for people wit h invasive breast cancer , 
+and ensur e that r ecommendations ar e document ed at t he multidisciplinar y team 
+meeting. [2009] 
+1.6.7 Base r ecommendations about adjuv ant t herap y on multidisciplinar y team 
+assessment of t he pr ognostic and pr edictiv e factors, and t he possible risks and 
+benefit s of t he tr eatment. Mak e decisions wit h the person aft er discussing t hese 
+factors. [2009 , amended 2018] 
+1.6.8 Use t he PREDICT t ool to estimat e prognosis and t he absolut e benefit s of 
+adjuv ant t herap y for women wit h invasive breast cancer . [2018] 
+1.6.9 When using t he PREDICT t ool, be awar e that: 
+• it is less accurat e for: 
+－ women under  30 wit h ER-positiv e breast cancer 
+－ women aged 7 0 and o ver 
+－ women wit h tumours lar ger t han 50  mm 
+• it has not been v alidat ed in men, and 
+• the validation ma y have under -represent ed some et hnic gr oups. 
+Take into account t hat t he pot ential limitations in v ersions of PREDICT aft er 
+2.0 ma y diff er from t hose list ed her e (also see t he PREDICT t ool fr equent ly 
+asked questions ). [2018 , amended 2023] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 17 of
+84
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on adjuv ant 
+therap y planning . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview C: 
+adjuv ant syst emic t herap y planning . 
+Tumour pr ofiling tests to guide ad juvant chemother apy decisions 
+The NICE diagnostics guidance on tumour pr ofiling t ests provides e vidence-based 
+recommendations on tumour pr ofiling t ests to guide adjuv ant chemot herap y decisions. 
+1.7 Endocrine ther apy 
+1.7.1 Treat all people wit h invasive breast cancer wit h sur gery and appr opriat e 
+systemic t herap y, rather t han endocrine t herap y alone, unless a significant 
+comorbidity means sur gery is not suitable f or them. [2009] 
+Adjuvant endocrine ther apy for in vasive breast c ancer 
+1.7.2 Offer tamo xifen as t he initial adjuv ant endocrine t herap y for men and 
+premenopausal w omen wit h ER-positiv e invasive breast cancer . [2009 , amended 
+2018] 
+1.7.3 Offer an ar omatase inhibit or as t he initial adjuv ant endocrine t herap y for 
+postmenopausal w omen wit h ER-positiv e invasive breast cancer who ar e at 
+medium or high risk of disease r ecurr ence. Off er tamo xifen to women who ar e at 
+low risk of disease r ecurr ence, or if ar omatase inhibit ors ar e not t olerat ed or ar e 
+contraindicat ed. [2009 , amended 2018] 
+Ovarian func tion suppr ession 
+1.7.4 Consider o varian function suppr ession in addition t o endocrine t herap y for Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 18 of
+84
+premenopausal w omen wit h ER-positiv e invasive breast cancer . [2018] 
+1.7.5 Discuss t he benefit s and risks of o varian function suppr ession in addition t o 
+endocrine t herap y wit h premenopausal w omen wit h ER-positiv e invasive breast 
+cancer . Explain t o women t hat o varian function suppr ession ma y be most 
+beneficial f or those w omen who ar e at sufficient risk of disease r ecurr ence t o 
+have been off ered chemot herap y. [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on o varian 
+function suppr ession . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview D: 
+endocrine t herap y for invasive disease . 
+Extende d endocrine ( hormone ) ther apy 
+In June 2023 , the use of ar omatase inhibit ors in r ecommendations 1 .7.6 and 1 .7.7 was 
+off-label. See NICE's inf ormation on pr escribing medicines . 
+1.7.6 Discuss t he benefit s and risks of e xtended endocrine t herap y wit h people who 
+this tr eatment ma y be suitable f or (see table  2). [2018 , amended 2023] 
+1.7.7 Offer extended endocrine t herap y (past t he 5-y ear point) wit h an ar omatase 
+inhibit or for postmenopausal w omen wit h ER-positiv e invasive breast cancer who 
+are at medium or high risk of disease r ecurr ence and who ha ve been taking 
+tamo xifen for 2 to 5 years. Medium or high risk ma y include people who ha ve 
+lymph node-positiv e breast cancer , with tumours t hat ar e T2 or gr eater and 
+higher grade. [2018] 
+1.7.8 Consider e xtended endocrine t herap y (past t he 5-y ear point) wit h an ar omatase 
+inhibit or for postmenopausal w omen wit h ER-positiv e invasive breast cancer who 
+are at lo w risk of disease r ecurr ence and who ha ve been taking tamo xifen for 2 to 
+5 years. Lo w risk ma y include people wit h lymph node-negativ e breast cancer , Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 19 of
+84
+with smaller or lo wer-grade tumours.  [2018] 
+1.7.9 Consider e xtending t he duration of tamo xifen therap y for longer t han 5  years f or 
+people wit h ER-positiv e invasive breast cancer . [2018] 
+Table  2 Eff ects of e xtended endocrine t herapy 
+Categor y Extended tamo xifen therapy (aft er an 
+initial 5  years of tamo xifen therapy) Extended endocrine 
+therapy wit h an 
+aromatase inhibit or (aft er 
+5 years of tamo xifen 
+therapy) 
+Definition Continuing t o tak e tamo xifen 
+after 5 years of tamo xifen 
+therap y Switching t o an 
+aromatase 
+inhibit or aft er 
+5 years of 
+tamo xifen therap y 
+Who can tak e this therap y People wit h ER-positiv e 
+invasive breast cancer Postmenopausal 
+women wit h ER-
+positiv e invasive 
+breast cancer 
+Effect on br east cancer 
+recurr ence: 
+The benefit f or an individual 
+person will depend on t he risk of 
+their cancer r eturning. F or people 
+with a lo w risk of r ecurr ence, t he 
+benefit s ma y not outw eigh t he 
+risks or side eff ects 
+Medium or high risk ma y include 
+people who ha ve lymph node-
+positiv e breast cancer , with 
+tumours t hat ar e T2 or gr eater 
+and higher grade. Lo w risk ma y 
+include people wit h lymph node-
+negativ e breast cancer , with 
+smaller or lo wer-grade tumours Evidence sho ws lo wer rat es of 
+breast cancer r ecurr ence 
+compar ed wit h 5 years of 
+tamo xifen therap y in w omen Lower rat es of 
+breast cancer 
+recurr ence 
+compar ed wit h 
+5 years of 
+tamo xifen therap y 
+In postmenopausal 
+women, swit ching 
+to an ar omatase 
+inhibit or ma y be 
+more eff ectiv e at 
+reducing 
+recurr ence t han 
+continuing wit h 
+tamo xifen Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 20 of
+84
+Categor y Extended tamo xifen therapy (aft er an 
+initial 5  years of tamo xifen therapy) Extended endocrine 
+therapy wit h an 
+aromatase inhibit or (aft er 
+5 years of tamo xifen 
+therapy) 
+Side eff ects: 
+These ar e common side eff ects 
+experienced during additional 
+years taking endocrine t herap y. 
+Most eff ects are reversible when 
+tablet s are stopped Side eff ects of endocrine 
+therap y will continue f or 
+additional y ears (f or example, 
+menopausal sympt oms such as 
+hot flushes) 
+Side eff ects ma y diff er in men 
+With extended use of 
+tamo xifen: incr eased risk of 
+thrombosis and endometrial 
+cancer , and possibly bone 
+density loss in pr emenopausal 
+women Side eff ects of 
+endocrine t herap y 
+will continue f or 
+additional y ears 
+(for example, 
+menopausal 
+sympt oms such as 
+hot flushes) 
+With extended use 
+of ar omatase 
+inhibit ors: bone 
+density loss, and 
+joint and muscle 
+pain 
+Fertility and f amily planning For women, eff ects on f ertility 
+and f amily planning will 
+continue f or additional y ears as 
+they should not become 
+pregnant while taking 
+tamo xifen, or wit hin 2  mont hs 
+of st opping, because it ma y 
+have adv erse eff ects on t he 
+baby Not applicable as 
+postmenopausal 
+women only 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on e xtended 
+endocrine t herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview D: 
+endocrine t herap y for invasive disease . Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 21 of
+84
+Endocrine ther apy for duc tal c arcinoma in si tu 
+1.7.10 Discuss t he benefit s and risks (see table  3) of endocrine t herap y aft er br east-
+conser ving sur gery for women wit h ER-positiv e DCIS. [2018] 
+1.7.11 Offer endocrine t herap y aft er br east-conser ving sur gery for women wit h ER-
+positiv e DCIS if radiot herap y is r ecommended but not r eceiv ed. [2018] 
+1.7.12 Consider endocrine t herap y aft er br east-conser ving sur gery for women wit h ER-
+positiv e DCIS if radiot herap y is not r ecommended. [2018] 
+Table  3 Eff ects of endocrine t herapy aft er br east -conser ving sur gery for w omen wit h 
+ER-positiv e DCIS 
+Categor y Endocrine t herapy aft er br east -conser ving sur gery for 
+women wit h ER-positiv e DCIS 
+Definition Tamoxifen or an ar omatase inhibit or for 
+5 years, tak en as a once-daily tablet 
+Effect on sur vival and disease r ecurr ence: 
+The benefit f or an individual person will 
+depend on t he risk of t heir cancer 
+returning. F or people wit h low risk of 
+recurr ence, t he benefit s ma y not outw eigh 
+the risks or side eff ects 
+Risk can be estimat ed using a range of 
+standar dised t ools and clinical e xper tise No eff ect on sur vival at 5 or 10  years aft er 
+diagnosis 
+Lower rat e of r ecurr ence of DCIS and lo wer 
+rate of in vasive breast cancer , compar ed 
+with women who did not r eceiv e endocrine 
+therap y or radiot herap y aft er sur gery 
+Side eff ects All endocrine t herapies: menopausal 
+sympt oms, such as hot flushes 
+For tamo xifen: incr eased risk of t hrombosis, 
+endometrial cancer and possibly bone 
+density loss in pr emenopausal w omen 
+For ar omatase inhibit ors: joint and muscle 
+pain, ur ogenital sympt oms and bone 
+density loss Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 22 of
+84
+Categor y Endocrine t herapy aft er br east -conser ving sur gery for 
+women wit h ER-positiv e DCIS 
+Fertility and f amily planning Effects on f ertility and f amily planning as 
+women should not become pr egnant while 
+taking tamo xifen, or wit hin 2  mont hs of 
+stopping, because it ma y have adv erse 
+effects on t he bab y 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on endocrine 
+therap y for DCIS . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview D: 
+endocrine t herap y for invasive disease . 
+1.8 A djuvant chemother apy for in vasive breast 
+cancer 
+1.8.1 For people wit h breast cancer wher e chemot herap y is indicat ed, off er a r egimen 
+that contains bot h a taxane and an ant hracy cline. R efer to the summaries of 
+product charact eristics f or individual taxanes and ant hracy clines t o check f or 
+differences in licensed indications.  [2018 , amended 2023] 
+1.8.2 Discuss wit h people t he benefit s and risks of adding a taxane t o ant hracy cline-
+containing r egimens. T opics t o discuss include t hose in table  4 and: 
+• the benefit s of r educed car diac t oxicity and r educed nausea 
+• the risks of additional side eff ects, including neur opat hy, neutr openia and 
+hypersensitivity 
+• the diff erent side eff ects and dosing fr equencies of diff erent docetax el and 
+paclitax el regimens, and t he additional clinic visit s that ma y be needed 
+• that absolut e benefit is pr opor tional t o absolut e risk of r ecurr ence 
+Refer to the summaries of pr oduct charact eristics f or individual taxanes and Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 23 of
+84
+anthracy clines t o check f or diff erences in licensed indications. [2018] 
+Table  4 Benefit s and risks of adding a tax ane t o ant hracycline-containing r egimens and 
+comparison of diff erent tax ane r egimens [2018 , amended 2023] 
+Effect of adding a tax ane t o an 
+anthracycline-containing r egimen 3-w eekly docetax el Weekly or f ortnight ly paclitax el 
+Effect on sur vival: 
+The benefit f or an individual 
+person will depend on t he risk 
+of their cancer r eturning. F or 
+people wit h low risk of 
+recurr ence, t he benefit s ma y 
+not outw eigh t he risks or side 
+effects Some e vidence f or 
+improved out comes, 
+including r educing t he 
+risk of br east cancer 
+returning and incr easing 
+the chance of sur viving Some e vidence f or 
+improved out comes, 
+including r educing t he risk 
+of br east cancer r eturning 
+and incr easing t he chance 
+of sur viving 
+Benefit s Smaller doses of 
+anthracy clines can be 
+used, which can r educe 
+the risk of side eff ects 
+such as nausea and 
+vomiting 
+Smaller cumulativ e doses 
+of individual drugs ma y 
+reduce long-t erm side 
+effects, for example, 
+cardiac t oxicity and risk 
+of second malignancies Smaller doses of 
+anthracy clines can be 
+used, which can r educe 
+the risk of side eff ects 
+such as nausea and 
+vomiting 
+Smaller cumulativ e doses 
+of individual drugs ma y 
+reduce long-t erm side 
+effects, for example, 
+cardiac t oxicity and risk of 
+second malignancies Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 4 of
+84
+Effect of adding a tax ane t o an 
+anthracycline-containing r egimen 3-w eekly docetax el Weekly or f ortnight ly paclitax el 
+Side eff ects Additional side eff ects 
+may include joint and 
+muscle pain, ner ve 
+damage, higher rat es of 
+febrile neutr openia and 
+hypersensitivity r eactions 
+Some people ha ve long-
+term hair loss (alopecia) 
+after treatment wit h 
+taxanes Additional side eff ects 
+may include ner ve 
+damage and 
+hypersensitivity r eactions, 
+but f ebrile neutr openia is 
+less lik ely than wit h 
+3-weekly docetax el 
+Some people ha ve long-
+term hair loss (alopecia) 
+after treatment wit h 
+taxanes 
+Weekly paclitax el is 
+tolerat ed best, but e ven 
+fortnight ly is bett er 
+tolerat ed than 3-w eekly 
+docetax el 
+Administration Visits to hospital e very 
+3 weeks Visits to hospital e very 
+week or e very 2 weeks 
+Lengt h of course 9 to 12 weeks (3 t o 
+4 cycles) 8 to 12 weeks 
+1.8.3 Ensur e weekly and f ortnight ly paclitax el is a vailable locally , as it is bett er 
+tolerat ed than 3-w eekly docetax el, par ticularly in people wit h comorbidities. 
+[2018 , amended 2023] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on adjuv ant 
+chemot herap y for invasive breast cancer . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview E: 
+adjuv ant chemot herap y. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 25 of
+84
+Biological ther apy 
+1.8.4 Offer adjuv ant trastuzumab f or people wit h T1c and abo ve HER2-positiv e invasive 
+breast cancer . Give this at 3-w eek int ervals for 1 year in combination wit h 
+surgery, chemot herap y, endocrine t herap y and radiot herap y, as appr opriat e. 
+[2009 , amended 2023] 
+1.8.5 Consider adjuv ant trastuzumab f or people wit h T1a/T1b HER2-positiv e invasive 
+breast cancer , taking int o account an y comorbidities, pr ognostic f eatur es, 
+possible t oxicity of chemot herap y and t he person's pr eferences. [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendation and 
+how it might aff ect practice, see t he rationale and impact section on biological 
+therap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview F: 
+adjuv ant biological t herap y. 
+1.8.6 Use trastuzumab wit h caution in people wit h HER2-positiv e invasive breast 
+cancer if t hey have any of t he following: 
+• a baseline left v entricular ejection fraction (L VEF) of 55% or less 
+• a hist ory of, or curr ent, congestiv e hear t failure 
+• a hist ory of m yocardial inf arction 
+• angina pect oris needing medication 
+• cardiom yopat hy 
+• cardiac arrh ythmias needing medical tr eatment 
+• clinically significant v alvular hear t disease 
+• haemodynamic-eff ectiv e pericar dial effusion 
+• poorly contr olled h yper tension. [2009 , amended 2018] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 26 of
+84
+1.9 B isphosp hona te ther apy 
+Adjuvant bisp hosp hona te ther apy 
+In June 2023 , the use of bisphosphonat es (z oledr onic acid or sodium clodr onate) in 
+recommendations  1.9.1 and 1 .9.2 was off -label. See NICE's inf ormation on pr escribing 
+medicines . 
+1.9.1 Offer bisphosphonat es (z oledr onic acid or sodium clodr onate) as adjuv ant 
+therap y to postmenopausal w omen wit h node-positiv e invasive breast cancer . 
+[2018] 
+1.9.2 Consider bisphosphonat es (z oledr onic acid or sodium clodr onate) as adjuv ant 
+therap y for postmenopausal w omen wit h node-negativ e invasive breast cancer 
+and a high risk of r ecurr ence. [2018] 
+1.9.3 Discuss t he benefit s and risks of bisphosphonat e treatment wit h women, 
+particularly t he risk of ost eonecr osis of t he jaw , atypical f emoral fractur es and 
+osteonecr osis of t he external audit ory canal. F ollow the Medicines and 
+Healt hcare product s Regulat ory Agency /Commission on Human Medicines 
+(MHRA/CHM) advice on bisphosphonat es. [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on adjuv ant 
+bisphosphonat e therap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview G: 
+adjuv ant bisphosphonat es. 
+Bone he alth 
+1.9.4 Offer a baseline dual-ener gy X-ray absorptiometr y (DEXA) scan t o assess bone 
+mineral density in w omen wit h invasive breast cancer who ar e not r eceiving 
+bisphosphonat es as adjuv ant t herap y and who: Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 27 of
+84
+• are star ting adjuv ant ar omatase inhibit or treatment, or 
+• have treatment -induced menopause, or 
+• are star ting o varian ablation/suppr ession t herap y. [2009 , amended 2018] 
+1.9.5 Do not off er a DEXA scan t o people wit h invasive breast cancer who ar e receiving 
+tamo xifen alone. [2009 , amended 2023] 
+1.9.6 Offer bisphosphonat es to women identified b y algorit hms 1 and 2 in t he guidance 
+for the management of br east cancer tr eatment -induced bone loss: a consensus 
+position stat ement fr om a UK e xper t group (2008; t his guidance is not NICE-
+accredited). [2009] 
+1.10 Radiother apy 
+1.10.1 Use a radiot herap y technique t hat minimises t he dose t o the lung and hear t. 
+[2018] 
+1.10.2 Use a deep inspirat ory breath-hold radiot herap y technique f or people wit h left -
+sided br east cancer t o reduce t he dose t o the hear t. [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on radiot herap y 
+techniques . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview H: 
+breast radiot herap y. 
+Radiother apy after br east-conser ving sur gery 
+1.10.3 Offer whole-br east radiot herap y to women wit h invasive breast cancer who ha ve 
+had br east-conser ving sur gery wit h clear mar gins. [2018] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 28 of
+84
+1.10.4 Consider par tial-br east radiot herap y as an alt ernativ e to whole-br east 
+radiot herap y for women who ha ve had br east-conser ving sur gery for invasive 
+cancer ( excluding lobular type) wit h clear mar gins and who: 
+• have a lo w absolut e risk of local r ecurr ence ( defined as w omen aged 50  and 
+over wit h tumours t hat ar e 3 cm or less, N0 , ER-positiv e, HER2-negativ e and 
+grade  1 to 2), and 
+• have been advised t o have adjuv ant endocrine t herap y for a minimum of 
+5 years.  [2018] 
+1.10.5 If par tial-br east radiot herap y (see r ecommendation  1.10.4) ma y be suitable f or a 
+woman, discuss t he benefit s and risks wit h them and r each a shar ed decision on 
+its use. T opics t o cover include t hat: 
+• local r ecurr ence wit h par tial-br east radiot herap y at 5  years is equiv alent t o 
+that wit h whole-br east radiot herap y 
+• the risk of local r ecurr ence be yond 5  years is not y et kno wn 
+• there is a pot ential r eduction in lat e adv erse eff ects. [2018 , amended 2023] 
+1.10.6 When giving par tial-br east radiot herap y, use e xternal beam radiot herap y. [2018] 
+1.10.7 Consider not using radiot herap y for women who: 
+• have had br east-conser ving sur gery for invasive breast cancer wit h clear 
+margins and 
+• have a v ery low absolut e risk of local r ecurr ence ( defined as w omen aged 
+65 and o ver wit h tumours t hat ar e T1N0 , ER-positiv e, HER2-negativ e and 
+grade  1 to 2) and 
+• are willing t o tak e adjuv ant endocrine t herap y for a minimum of 5  years. 
+[2018] 
+1.10.8 When considering not using radiot herap y (see r ecommendation  1.10.7), discuss 
+the benefit s and risks wit h the w oman (see table  5) and e xplain t hat: 
+• without radiot herap y, local r ecurr ence occurs in about 50 w omen per 1 ,000 at Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 29 of
+84
+5 years, and wit h radiot herap y, occurs in about 10 w omen per 1 ,000 at 
+5 years 
+• overall sur vival at 10  years is t he same wit h or wit hout radiot herap y 
+• there is no incr ease in serious lat e eff ects if radiot herap y is giv en (f or 
+example, congestiv e car diac f ailure, myocardial inf arction or secondar y 
+cancer). [2018] 
+Table  5 Benefit s and risks of r adiot herapy compar ed wit h no r adiot herapy in t he lo w-
+risk gr oup described in r ecommendation  1.10.7 
+Categor y Radiot herapy No r adiot herapy 
+Effect on local 
+recurr ence On a verage, in 1 ,000 women, o ver 5 years 
+local r ecurr ence occurs in about 10 
+women, and does not occur in about 990 
+women On a verage, in 1 ,000 
+women, o ver 5 years local 
+recurr ence occurs in about 
+50 w omen, and does not 
+occur in about 950 w omen 
+Effect on 
+survival No diff erence in o verall sur vival at 10  years No diff erence in o verall 
+survival at 10  years 
+Risks Possibility of shor t- and long-t erm adv erse 
+effects on t he br east, and r esulting 
+cosmetic changes (such as skin sor eness, 
+changes t o colour of skin, radiation fibr osis 
+or stiff ening of t he br east tissue) No shor t- or long-t erm 
+adverse eff ects on t he 
+breast, or cosmetic 
+changes 
+Side eff ects In this gr oup of w omen at lo w risk, t here is 
+no incr ease in serious lat e side eff ects of 
+radiot herap y (such as congestiv e car diac 
+failure, myocardial inf arction or secondar y 
+cancer) No side eff ects of 
+radiot herap y will occur 
+Administration Given at t he tr eatment centr e 5 days a 
+week f or 3 weeks aft er sur gery No need t o att end t he 
+treatment centr e for 
+radiot herap y sessions 
+1.10.9 Consider adjuv ant radiot herap y for women wit h DCIS f ollowing br east-conser ving 
+surgery wit h clear mar gins. Discuss t he possible benefit s and risks of Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 30 of
+84
+radiot herap y (also see t he section on sur gery to the br east) and mak e a shar ed 
+decision about it s use. [2009] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on radiot herap y 
+after br east-conser ving sur gery. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview H: 
+breast radiot herap y. 
+Radiother apy after maste ctomy 
+1.10.10 Offer adjuv ant postmast ectomy radiot herap y to people wit h node-positiv e 
+(macr ometastases) in vasive breast cancer or in volved resection mar gins. [2018] 
+1.10.11 Consider adjuv ant postmast ectomy radiot herap y for people wit h node-negativ e 
+T3 or T 4 invasive breast cancer . [2018] 
+1.10.12 Do not off er radiot herap y following mast ectomy to people wit h invasive breast 
+cancer who ar e at lo w risk of local r ecurr ence (f or example, most people who 
+have lymph node-negativ e breast cancer). [2018 , amended 2023] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on radiot herap y 
+after mast ectomy. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview I: 
+postmast ectomy radiot herap y. 
+Dose fr actiona tion f or external be am r adiother apy 
+1.10.13 Offer 26  Gy in 5 fractions o ver 1 week f or people wit h invasive breast cancer 
+having par tial-br east, whole-br east or chest -wall radiot herap y, without r egional 
+lymph node irradiation, aft er br east-conser ving sur gery or mast ectomy. [2023] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 31 of
+84
+1.10.14 Consider 40  Gy in 15 fractions o ver 3 weeks f or people wit h invasive breast 
+cancer ha ving par tial-br east, whole-br east or chest -wall radiot herap y, without 
+regional lymph node irradiation, aft er br east-conser ving sur gery or mast ectomy 
+when t hey: 
+• have a diagnosis t hat incr eases sensitivity t o radiot herap y, or 
+• have had implant -based r econstruction, or 
+• have any other f actor that could mean ha ving radiot herap y over 3 weeks is 
+more acceptable (such as high BMI or fibr omyalgia). [2023] 
+1.10.15 When discussing t he benefit s and risks of t he 2 r egimens, f ollow the 
+recommendations on: 
+• enabling patient s to activ ely par ticipat e in t heir car e in t he NICE guideline on 
+patient e xperience in adult NHS ser vices , and 
+• communicating risks, benefit s and consequences in t he NICE guideline on 
+shared decision making . [2023] 
+1.10.16 Offer 40  Gy in 15 fractions o ver 3 weeks f or people wit h invasive breast cancer 
+having r egional lymph node irradiation, wit h or wit hout whole-br east or chest -
+wall radiot herap y, after br east-conser ving tr eatment or mast ectomy. [2023] 
+For a shor t explanation of wh y the committ ee made t he 2023 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on dose 
+fractionation of e xternal beam radiot herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  M: 
+effectiv eness of diff erent e xternal beam h ypofractionation radiot herap y regimens in 
+people wit h early-stage or locally adv anced in vasive breast cancer . 
+Breast boost f ollowing br east-conser ving sur gery 
+1.10.17 Offer an e xternal beam boost t o the tumour bed f or women wit h invasive breast 
+cancer and a high risk of local r ecurr ence, f ollowing whole-br east radiot herap y. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 32 of
+84
+[2009 , amended 2018] 
+1.10.18 Inform w omen of t he risk of side eff ects associat ed wit h an e xternal beam boost 
+to the tumour bed f ollowing whole-br east radiot herap y. [2009 , amended 2018] 
+Radiother apy to nodal ar eas 
+1.10.19 Do not off er adjuv ant radiot herap y to regional lymph nodes t o people wit h 
+invasive breast cancer who ha ve hist ologically lymph node-negativ e breast 
+cancer . [2009 , amended 2018] 
+1.10.20 Do not off er people wit h invasive breast cancer adjuv ant radiot herap y to the 
+axilla aft er axillar y clearance. [2009 , amended 2023] 
+1.10.21 Offer adjuv ant radiot herap y to the supracla vicular f ossa t o people wit h invasive 
+breast cancer and 4  or mor e involved axillar y lymph nodes. [2009] 
+1.10.22 Offer adjuv ant radiot herap y to the supracla vicular f ossa t o people wit h invasive 
+breast cancer and 1 t o 3 positiv e lymph nodes if t hey have other poor pr ognostic 
+factors (f or example, T3 and/or hist ological grade  3 tumours) and good 
+performance status. [2009] 
+1.10.23 Consider including t he int ernal mammar y chain wit hin the nodal radiot herap y 
+target f or people wit h node-positiv e (macr ometastases) in vasive breast cancer . 
+[2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendation and 
+how it might aff ect practice, see t he rationale and impact section on radiot herap y to 
+nodal ar eas. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview H: 
+breast radiot herap y. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 33 of
+84
+Intraoper ative radiother apy 
+1.10.24 For guidance on intraoperativ e radiot herap y, see t he NICE t echnology appraisal 
+guidance on t he intrabeam radiot herap y syst em for adjuv ant tr eatment of early 
+breast cancer . [2018] 
+1.11 Primar y systemic ther apy 
+Neoadjuvant chemother apy 
+1.11.1 Offer neoadjuv ant chemot herap y to people wit h ER-negativ e invasive breast 
+cancer as an option t o reduce tumour siz e. [2018] 
+1.11.2 Offer neoadjuv ant chemot herap y to people wit h HER2-positiv e invasive breast 
+cancer in line wit h the NICE t echnology appraisal guidance on per tuzumab f or the 
+neoadjuv ant tr eatment of HER2-positiv e breast cancer . [2018] 
+1.11.3 Consider neoadjuv ant chemot herap y for people wit h ER-positiv e invasive breast 
+cancer as an option t o reduce tumour siz e if chemot herap y is indicat ed. [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on neoadjuv ant 
+chemot herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview J: 
+neoadjuv ant tr eatment of early and locally adv anced br east cancer . 
+Neoadjuvant chemother apy regimens 
+In June 2023 , the use of platinums in r ecommendations  1.11.4 and 1 .11.5 was off -label. 
+See NICE's inf ormation on pr escribing medicines . 
+1.11.4 For people wit h ER/PR/HER2-negativ e (triple-negativ e) invasive breast cancer , Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 34 of
+84
+consider a neoadjuv ant chemot herap y regimen t hat contains bot h a platinum and 
+an ant hracy cline. [2018] 
+1.11.5 Discuss t he benefit s and risks of adding a platinum t o an ant hracy cline-
+containing neoadjuv ant chemot herap y regimen (see table  6), and in par ticular t he 
+risk of incr eased t oxicity . [2018] 
+Table  6 Benefit s and risks of adding a platinum t o ant hracycline-containing 
+neoadjuv ant chemot herapy for triple-negativ e invasiv e breast cancer 
+Categor y Effect of adding a platinum t o ant hracycline-containing (wit h or wit hout tax ane) 
+neoadjuv ant chemot herapy 
+Effect on br east 
+conser vation rat e Adding a platinum impr oves response rat es compar ed wit h 
+anthracy cline-based (wit h or wit hout taxane) chemot herap y. 
+This ma y mean t hat some w omen who w ould ot herwise need a 
+mast ectomy can be off ered br east-conser ving sur gery 
+Effect on 
+pathological 
+complet e response 
+rate (no r esidual 
+cancer f ound at 
+surgery) Adding a platinum impr oves the chances of all signs of cancer 
+disappearing in bot h the br east and lymph nodes in t he axilla, 
+compar ed wit h ant hracy cline-based (wit h or wit hout taxane) 
+neoadjuv ant chemot herap y 
+Effect on sur vival No incr ease in o verall sur vival wit h platinum-based 
+chemot herap y 
+Side eff ects: 
+Platinum-based 
+therap y is only 
+suitable f or fit 
+patient s wit h no 
+significant 
+comorbidities Adding a platinum ma y mean t hat side eff ects are mor e severe. 
+Anaemia, t hrombocyt openia, neutr openia and f ebrile neutr openia 
+are seen mor e frequent ly wit h platinum-based chemot herap y 
+On a verage, if 1 ,000 w omen wit h triple-negativ e breast cancer 
+receiv e platinum-containing neoadjuv ant chemot herap y, about 
+70 additional w omen w ould e xperience se vere or lif e-threatening 
+side eff ects compar ed wit h non-platinum neoadjuv ant 
+chemot herap y 
+Bone marr ow suppr ession and r enal pr oblems ar e likely in older 
+people Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 35 of
+84
+For a shor t explanation wh y the committ ee made t he 2018 r ecommendations and ho w 
+they might aff ect practice, see t he rationale and impact section on neoadjuv ant 
+chemot herap y regimens . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview J: 
+neoadjuv ant tr eatment of early and locally adv anced br east cancer . 
+Neoadjuvant endocrine ther apy 
+1.11.6 Consider neoadjuv ant endocrine t herap y for postmenopausal w omen wit h ER-
+positiv e invasive breast cancer as an option t o reduce tumour siz e if t here is no 
+definit e indication f or chemot herap y. [2018] 
+1.11.7 Advise pr emenopausal w omen t hat neoadjuv ant chemot herap y ma y be mor e 
+likely to produce a clinical r esponse t han neoadjuv ant endocrine t herap y, but t hat 
+some tumours do r espond t o neoadjuv ant endocrine t herap y. [2018] 
+1.11.8 Discuss wit h women t he benefit s and risks of neoadjuv ant endocrine t herap y 
+compar ed wit h neoadjuv ant chemot herap y (see table  7). [2018] 
+Table  7 Benefit s and risks of neoadjuv ant endocrine t herapy compar ed wit h 
+neoadjuv ant chemot herapy for w omen wit h ER-positiv e/HER2-negativ e breast cancer 
+Categor y Neoadjuv ant endocrine t herapy Neoadjuv ant chemot herapy 
+Definition Tamoxifen or an 
+aromatase inhibit or 
+started bef ore sur gery 
+Only an option f or women 
+with ER-positiv e breast 
+cancer Chemot herap y giv en bef ore sur gery 
+Only an option f or people who w ould be 
+recommended adjuv ant (aft er sur gery) 
+chemot herap y 
+Administration Tablet tak en once a da y 
+at home Intra venous administration in hospital, as an 
+outpatient Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 36 of
+84
+Categor y Neoadjuv ant endocrine t herapy Neoadjuv ant chemot herapy 
+Effectiv eness For postmenopausal 
+women: ma y be as 
+effectiv e as neoadjuv ant 
+chemot herap y in t erms of 
+breast conser vation rat es 
+and shrinking t he tumour 
+For pr emenopausal 
+women: less eff ectiv e 
+than neoadjuv ant 
+chemot herap y at 
+shrinking t he tumour (but 
+some tumours ma y 
+respond so ma y be 
+effectiv e in some w omen) For postmenopausal w omen: eff ectiv e at 
+improving br east conser vation rat es and 
+shrinking t he tumour 
+For pr emenopausal w omen: mor e eff ectiv e 
+than endocrine t herap y at shrinking t he 
+tumour 
+Potential 
+disadv antages If neoadjuv ant endocrine 
+therap y is not eff ectiv e, 
+then w omen ma y proceed 
+to sur gery earlier or ma y 
+still need t o have 
+chemot herap y, either 
+before or aft er sur gery – Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 37 of
+84
+Categor y Neoadjuv ant endocrine t herapy Neoadjuv ant chemot herapy 
+Side eff ects All endocrine t herapies: 
+menopausal sympt oms 
+such as hot flushes 
+For tamo xifen: incr eased 
+risk of t hrombosis and 
+endometrial cancer 
+For ar omatase inhibit ors: 
+joint and muscle pain, 
+urogenital sympt oms, 
+bone density loss (ma y 
+also occur wit h tamo xifen 
+in premenopausal 
+women) 
+Side eff ects are usually 
+reversible 
+May allo w women t o 
+avoid t he additional side 
+effects of chemot herap y 
+(although w omen ma y 
+still need adjuv ant 
+chemot herap y aft er 
+surgery) Side eff ects ma y include nausea and 
+vomiting, risk of inf ections t hat ma y be lif e 
+threatening, f atigue, neur opat hy, cardiac 
+toxicity , diarrhoea, constipation, sor e 
+mout h, skin and nail changes, risk of blood 
+clots, risk of second malignancies, fluid 
+retention, aller gic reactions and hair loss 
+Side eff ects ma y persist long t erm 
+Fertility and 
+family 
+planning Women should not 
+become pr egnant while 
+taking tamo xifen, or 
+within 2  mont hs of 
+stopping, because it ma y 
+have adv erse eff ects on 
+the bab y Often causes t emporar y infertility 
+May cause permanent inf ertility 
+Lengt h of 
+course May tak e longer t han 
+chemot herap y to shrink 
+the tumour enough f or 
+breast-conser ving 
+surgery The duration of neoadjuv ant chemot herap y 
+is shor ter than neoadjuv ant endocrine 
+therap y Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 38 of
+84
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on neoadjuv ant 
+endocrine t herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview J: 
+neoadjuv ant tr eatment of early and locally adv anced br east cancer . 
+Radiother apy after ne oadjuvant chemother apy 
+1.11.9 Offer local tr eatment wit h mast ectomy (or, in e xceptional cases, br east-
+conser ving sur gery) followed by radiot herap y to people wit h locally adv anced or 
+inflammat ory breast cancer t hat has been tr eated wit h neoadjuv ant 
+chemot herap y. [2009] 
+1.11.10 Offer postmast ectomy radiot herap y aft er neoadjuv ant chemot herap y if post -
+treatment hist ology sho ws node-positiv e (macr ometastases) br east cancer or 
+involved resection mar gins. [2018] 
+1.11.11 Offer postmast ectomy radiot herap y aft er neoadjuv ant chemot herap y if 
+pretreatment in vestigations sho w node-positiv e (macr ometastases) br east 
+cancer . [2018] 
+1.11.12 Consider postmast ectomy radiot herap y aft er neoadjuv ant chemot herap y if post -
+treatment hist ology sho ws node-negativ e T3 br east cancer . [2018] 
+1.11.13 Consider postmast ectomy radiot herap y aft er neoadjuv ant chemot herap y if 
+pretreatment in vestigations sho w node-negativ e T3 br east cancer . [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on radiot herap y 
+after neoadjuv ant chemot herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview J: 
+neoadjuv ant tr eatment of early and locally adv anced br east cancer . Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 39 of
+84
+1.12 Com plications o f loc al treatmen t and 
+menopa usal sym ptoms 
+Lymphoedema 
+1.12.1 Inform people wit h breast cancer about lymphoedema and t heir risk of 
+developing it aft er treatment wit h sur gery and radiot herap y (see 
+recommendation  1.12.2). G ive them r elevant writt en inf ormation bef ore treatment 
+to tak e awa y and r efer back t o. [2009] 
+1.12.2 When inf orming people wit h breast cancer about t he risk of de veloping 
+lymphoedema, advise t hem t hat: 
+• lymphoedema can occur in t he arm, br east or chest wall 
+• they do not need t o restrict t heir ph ysical activity 
+• there is no consist ent e vidence of incr eased risk of lymphoedema associat ed 
+with air tra vel, tra vel to hot countries, manicur es, hot -tub use or spor ts 
+injuries 
+• there is no consist ent e vidence of incr eased risk of lymphoedema associat ed 
+with medical pr ocedur es (for example, blood t ests, injections, intra venous 
+medicines and blood pr essur e measur ement) on t he tr eated side, and t he 
+decision t o per form medical pr ocedur es using t he arm on t he tr eated side 
+should depend on clinical need and t he possibility of alt ernativ es. [2018 , 
+amended 2023] 
+1.12.3 Give people who ha ve had tr eatment f or br east cancer advice on ho w to reduce 
+the risk of inf ection t hat ma y cause or e xacerbat e lymphoedema. [2009] 
+1.12.4 Ensur e that people wit h breast cancer who de velop lymphoedema ha ve prompt 
+access t o a specialist lymphoedema ser vice. [2009] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 40 of
+84
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendation and 
+how it might aff ect practice, see t he rationale and impact section on lymphoedema . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview B: 
+management of t he positiv e axilla . 
+Arm and shoulder mobili ty 
+1.12.5 Ensur e breast car e unit s have document ed local guidelines in place f or 
+postoperativ e physiot herap y that ha ve been agr eed wit h the ph ysiot herap y 
+depar tment. Guidelines should co ver: 
+• details of t he upper limb e xercises  to be carried out aft er sur gical or 
+radiot herap y interventions 
+• situations wher e the exercises should be tailor ed for individual cir cumstances 
+and needs 
+• who should giv e information and instructions, and at what point s in t he 
+person's car e this should happen 
+• how healt hcare staff can best deliv er inf ormation about t he exercises. [2023] 
+1.12.6 Give people who ar e going t o have sur gery or radiot herap y for br east cancer 
+instructions and inf ormation on upper limb e xercises bef ore their tr eatment 
+begins: 
+• explain t he benefit s of doing t he exercises 
+• explain when t he exercises should be star ted 
+• ensur e the inf ormation is in a f ormat suitable f or the person t o tak e awa y to 
+refer to later 
+• answ er an y questions t he person ma y have on t he exercises, or ho w to 
+perform t hem 
+• give details about who t o contact if mor e information is needed. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 1 of
+84
+Also see t he section on communication in t he NICE guideline on patient 
+experience in adult NHS ser vices . [2023] 
+1.12.7 Preoperativ ely identify people who ar e having sur gery for br east cancer as being 
+at high risk of de veloping shoulder pr oblems if t hey have any of t he following 
+factors: 
+• any pre-existing shoulder conditions, such as: 
+－ history of shoulder sur gery 
+－ shoulder trauma injur y (fractur e or shoulder dislocation) 
+－ frozen shoulder 
+－ osteoar thritis or rheumat oid ar thritis aff ecting t he shoulder 
+－ non-specific shoulder pain 
+－ stiffness 
+－ decr eased function 
+• their BMI is o ver 30  kg/m2 
+• they have axillar y node clearance planned 
+• they have radiot herap y to the axilla or supracla vicular nodes planned. [2023] 
+1.12.8 After sur gery, if a person wit h breast cancer needs pr eviously unplanned axillar y 
+node clearance or radiot herap y to the axilla or supracla vicular nodes, identify 
+them as being at high risk. [2023] 
+1.12.9 Offer super vised suppor t when per forming upper limb e xercises t o people who 
+have been identified as being at high risk of de veloping shoulder pr oblems aft er 
+surgery for br east cancer (see r ecommendation  1.12.7 for assessment). [2023] 
+1.12.10 Consider super vised suppor t when per forming upper limb e xercises f or people 
+who: 
+• are having sur gery and ha ve not been identified as being at high risk of Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 42 of
+84
+developing shoulder pr oblems (as defined b y the crit eria in 
+recommendation  1.12.7), but who ma y still benefit fr om super vised suppor t or 
+• are having radiot herap y wit hout sur gery. [2023] 
+1.12.11 Ensur e super vised suppor t for upper limb e xercises: 
+• is available as eit her individual, gr oup or vir tual suppor t, depending on t he 
+person's cir cumstances, needs and pr eferences 
+• is tailor ed to the person's needs (f or example, modifying e xercises f or people 
+with mor e comple x needs) 
+• includes checking t hat t he person is per forming t he activity corr ectly 
+• is deliv ered by physiot herap y staff members or ot her appr opriat ely trained 
+allied healt h professionals. [2023] 
+1.12.12 Refer people t o the ph ysiot herap y depar tment f or individual assessment and 
+treatment if t hey repor t a persist ent r eduction in arm and shoulder mobility aft er 
+breast cancer sur gery or radiot herap y. [2023] 
+For a shor t explanation of wh y the committ ee made t he 2023 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on arm and 
+shoulder mobility . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  L: 
+strat egies f or reducing arm and shoulder pr oblems aft er br east cancer sur gery or 
+radiot herap y. 
+Menopa usal sym ptoms 
+1.12.13 Offer women inf ormation and counselling about t he possibility of early 
+menopause and menopausal sympt oms associat ed wit h breast cancer tr eatment. 
+[2009] 
+1.12.14 Stop syst emic hormone r eplacement t herap y (HRT) in w omen who ar e diagnosed Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 43 of
+84
+with breast cancer . [2009] 
+1.12.15 Do not r outinely off er HRT (including oestr ogen/pr ogest ogen combination) t o 
+women wit h menopausal sympt oms and a hist ory of br east cancer . [2009 , 
+amended 2023] 
+In June 2023 , this was an off -label use of HRT , and HRT is contraindicat ed in 
+women wit h a hist ory of br east cancer . See NICE's inf ormation on pr escribing 
+medicines . 
+1.12.16 In exceptional cir cumstances, off er HRT t o women wit h severe menopausal 
+sympt oms and a hist ory of br east cancer aft er a discussion of t he associat ed 
+risks. [2009 , amended 2023] 
+In June 2023 , this was an off -label use of HRT , and HRT is contraindicat ed in 
+women wit h a hist ory of br east cancer . See NICE's inf ormation on pr escribing 
+medicines . 
+1.12.17 Consider selectiv e ser otonin r euptak e inhibit or (SSRI) antidepr essant s for women 
+with breast cancer f or relieving menopausal sympt oms, par ticularly hot flushes, 
+but not f or those taking tamo xifen. F or guidance on saf e prescribing of 
+antidepr essant s (such as SSRIs) and managing wit hdrawal, see NICE's guideline 
+on medicines associat ed wit h dependence or wit hdrawal sympt oms. [2009 , 
+amended 2018] 
+In June 2023 , this was an off -label use of SSRIs. See NICE's inf ormation on 
+prescribing medicines . 
+1.12.18 Do not off er so y (isofla vone), r ed clo ver, black cohosh, vitamin  E or magnetic 
+devices t o treat v asomot or sympt oms in w omen wit h breast cancer . [2009 , 
+amended 2023] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 44 of
+84
+1.13 F ollow-up 
+Follow-up imag ing 
+1.13.1 Offer annual mammograph y for 5 years t o all people who ha ve had or ar e being 
+treated for br east cancer , including DCIS. F or women, continue annual 
+mammograph y past 5  years until t hey ent er the NHS Br east Scr eening 
+Programme (NHSBSP) in England or t he Br east T est W ales Scr eening Pr ogramme 
+(BTWSP) in W ales. [2009 , amended 2023] 
+1.13.2 Do not per form mammograph y of t he ipsilat eral soft tissues aft er mast ectomy. 
+[2009] 
+1.13.3 Do not r outinely use ultrasound or MRI f or post -treatment sur veillance in people 
+who ha ve had tr eatment f or invasive breast cancer or DCIS. [2009 , amended 
+2023] 
+Clinic al follow-up 
+1.13.4 Ensur e all people who ha ve had tr eatment f or br east cancer ha ve an agr eed, 
+writt en car e plan, r ecorded in t heir not es by a named healt hcare professional ( or 
+professionals) fr om t he multidisciplinar y team. G ive a cop y to the person and t o 
+their GP . The plan should include: 
+• designat ed named healt hcare professionals 
+• dates for review of an y adjuv ant t herap y 
+• details of sur veillance mammograph y 
+• signs and sympt oms t o look out f or and seek advice on 
+• contact details f or immediat e referral t o specialist car e 
+• contact details f or suppor t ser vices, f or example, suppor t for people wit h 
+lymphoedema. [2009 , amended 2023] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 45 of
+84
+1.14 Lif estyle 
+1.14.1 Advise people who ha ve had or ar e being tr eated for br east cancer t hat a healt hy 
+lifestyle is associat ed wit h a lo wer risk of r ecurr ence, and t hat t his should include: 
+• achie ving and maintaining a healt hy weight (see t he NICE guidelines on 
+preventing e xcess w eight gain  and obesity ) 
+• limiting alcohol intak e to belo w 5 units per w eek 
+• regular ph ysical activity (see t he NICE guideline on ph ysical activity f or 
+adult s). [2018] 
+1.14.2 For guidance on smoking cessation, see t he NICE guideline on t obacco: 
+preventing uptak e, pr omoting quitting and tr eating dependence . [2018] 
+For a shor t explanation of wh y the committ ee made t he 2018 r ecommendations and 
+how they might aff ect practice, see t he rationale and impact section on lif estyle . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview K: 
+lifestyle . 
+Terms use d in this guideline 
+Upper limb e xercises 
+Upper limb e xercises pr edominant ly focus on gent le shoulder range-of -movement 
+exercises and str etches aimed at r egaining full and pain-fr ee range of mo vement of t he 
+shoulder f ollowing br east cancer sur gery and/or radiot herap y. The t erm can also r efer to 
+exercises t hat pr ogress ont o str engt hening t he shoulder and arm. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 46 of
+84
+Recommenda tions f or research 
+The guideline committ ee has made t he following k ey recommendations f or resear ch. 
+Key recommenda tions f or research 
+1 Surgery to the br east 
+What is t he optimum tumour -free mar gin widt h aft er br east-conser ving sur gery for women 
+with ductal car cinoma in situ (DCIS) and in vasive breast cancer? [2018] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on sur gery to the br east. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+surgery to the br east. 
+2 Adjuvant bisp hosp hona te ther apy 
+Which gr oups of people wit h early and locally adv anced br east cancer w ould benefit fr om 
+the use of adjuv ant bisphosphonat es? [2018] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on adjuv ant bisphosphonat e therap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview G: 
+adjuv ant bisphosphonat es. 
+3 Breast r econstruc tion 
+What ar e the long-t erm out comes f or br east r econstruction in w omen ha ving radiot herap y 
+to the chest wall? [2018] Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 47 of
+84
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on br east r econstruction . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview I: 
+postmast ectomy radiot herap y. 
+4 Neoadjuvant endocrine ther apy in pr emenopa usal w omen 
+Is neoadjuv ant endocrine t herap y saf e in pr emenopausal w omen wit h early br east cancer? 
+[2018] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on neoadjuv ant endocrine t herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview J: 
+neoadjuv ant tr eatment of early and locally adv anced br east cancer . 
+5 Neoadjuvant endocrine ther apy in postmenopa usal w omen 
+Is there a benefit f or neoadjuv ant endocrine t herap y in postmenopausal w omen wit h early 
+breast cancer? [2018] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on neoadjuv ant endocrine t herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview J: 
+neoadjuv ant tr eatment of early and locally adv anced br east cancer . 
+Other r ecommenda tions f or research 
+6 Neoadjuvant treatmen t 
+What ar e the indications f or postmast ectomy radiot herap y aft er neoadjuv ant Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 48 of
+84
+chemot herap y? [2018] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on radiot herap y aft er neoadjuv ant chemot herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview J: 
+neoadjuv ant tr eatment of early and locally adv anced br east cancer . 
+7 Strategies to r educe arm and shoulder pr oblems 
+What is t he most eff ectiv e and cost -effectiv e wa y of deliv ering t he int ervention (f or 
+example, type of ph ysiot herap y or e xercise, mode of deliv ery, number of sessions) t o 
+reduce arm and shoulder pr oblems aft er br east cancer sur gery or radiot herap y, and what 
+is the acceptability of t he int ervention f or diff erent gr oups, such as: 
+• women, men, trans people and non-binar y people 
+• people fr om minority et hnic f amily back grounds 
+• people wit h learning disabilities or cognitiv e impairment, or ph ysical disabilities, or 
+both 
+• neurodiverse people? [2023] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on arm and shoulder mobility . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview L: 
+strat egies f or reducing arm and shoulder pr oblems aft er br east cancer sur gery or 
+radiot herap y. 
+8 Adher ence and sa tisfaction f or in terventions to r educe arm and 
+shoulder pr oblems 
+What is t he adher ence t o, and satisf action wit h, diff erent int ervention f ormat s (for 
+example, individual, gr oup, vir tual, and f ace t o face) t o reduce arm and shoulder pr oblems Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 49 of
+84
+after br east cancer sur gery or radiot herap y, and what is t he impact of gr eater adher ence 
+on eff ectiv eness f or diff erent gr oups, such as: 
+• women, men, trans people and non-binar y people 
+• people fr om minority et hnic f amily back grounds 
+• people wit h learning disabilities or cognitiv e impairment, or ph ysical disabilities, or 
+both 
+• neurodiverse people? [2023] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on arm and shoulder mobility . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview L: 
+strat egies f or reducing arm and shoulder pr oblems aft er br east cancer sur gery or 
+radiot herap y. 
+9 Effectiveness o f 26 Gy in 5 fr actions o ver 1 week regimen in 
+people receiving br east r econstruc tion 
+What is t he eff ectiv eness of radiot herap y giv en in 26  Gy in 5 fractions o ver 1 week 
+compar ed wit h 40  Gy in 15 fractions o ver 3 weeks in people wit h early or locally adv anced 
+invasive breast cancer who ar e off ered br east r econstruction? [2023] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on dose fractionation of e xternal beam radiot herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  M: 
+effectiv eness of diff erent e xternal beam h ypofractionation radiot herap y regimens in 
+people wit h early-stage or locally adv anced in vasive breast cancer . Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 50 of
+84
+10 Effectiveness o f 26 Gy in 5 fr actions o ver 1 week regimen in 
+people receiving nodal irr adiation 
+What is t he eff ectiv eness of radiot herap y giv en in 26  Gy in 5 fractions o ver 1 week 
+compar ed wit h 40  Gy in 15 fractions o ver 3 weeks in people wit h early or locally adv anced 
+invasive breast cancer who ar e also off ered nodal irradiation? [2023] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on dose fractionation of e xternal beam radiot herap y. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  M: 
+effectiv eness of diff erent e xternal beam h ypofractionation radiot herap y regimens in 
+people wit h early-stage or locally adv anced in vasive breast cancer . Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 51 of
+84
+Rationale and im pact 
+These sections briefly e xplain wh y the committ ee made t he recommendations and ho w 
+they might aff ect practice. The y link t o details of t he evidence and a full description of t he 
+committ ee's discussion. 
+Providing inf orma tion and psy chological suppor t 
+Recommendations  1.2.3 and 1 .2.4 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee agr eed, based on t heir clinical e xper tise, t hat continued impr ovement in 
+breast cancer sur vival as w ell as post -diagnosis quality of lif e needs ongoing r esear ch int o 
+new or r efined tr eatment options t o allo w fur ther optimisation of car e. 
+People ha ving tr eatment f or br east cancer should be advised about options f or pr eserving 
+their f ertility, so t he existing NICE guideline on t his topic was cr oss-r eferred to. 
+How the r ecommenda tions mig ht affect practice 
+Recruitment int o clinical trials wher ever possible is alr eady standar d practice, so t he 
+recommendation is unlik ely to result in a change in practice. 
+Discussion of f ertility options is alr eady standar d practice, so t he recommendation is 
+unlik ely to result in a change in practice. 
+Return t o recommendations 
+Surgery to the br east 
+Recommendation  1.3.1 Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 52 of
+84
+Why the c ommi ttee made the r ecommenda tion 
+Ther e was some e vidence t hat t here was a r educed risk of ductal car cinoma in situ (DCIS) 
+local r ecurr ence if tissue mar gins w ere greater than 0  mm, so t he committ ee 
+recommended fur ther sur gery (re-excision or mast ectomy) to extend t he mar gins if 
+needed. Alt hough t here was no consist ent e vidence about tissue mar gins f or invasive 
+breast cancer , the committ ee agr eed t hat fur ther sur gery should be off ered. 
+The committ ee agr eed t hat complet e excision of t he tumour wit h clear mar gins was 
+essential f or the high-quality car e of people wit h DCIS or in vasive breast cancer . 
+Ther e was not enough e vidence t o clearly define an optimum mar gin widt h betw een 0  mm 
+and 2  mm t o minimise local r ecurr ence rat es and minimise fur ther sur gery. So, t he 
+committ ee agr eed t hat t his was an impor tant t opic f or fur ther r esear ch and made a 
+recommendation f or resear ch on t he optimum tumour -free mar gin widt h aft er sur gery to 
+the br east. 
+How the r ecommenda tion mig ht affect practice 
+The rat es of fur ther sur gery curr ently vary acr oss t he countr y. Although t he committ ee 
+noted that t he recommendation will r einforce curr ent best practice, t here ma y be some 
+centr es that will need t o amend t heir practice in or der t o follow this recommendation. 
+Return t o recommendation 
+Further sur gery after br east-conser ving sur gery 
+Recommendations 1 .3.2 to 1.3.5 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee agr eed t hat t he best choice f or radial mar gin siz e would be a balance 
+betw een t he need f or fur ther sur gery (to reduce t he risk of local r ecurr ence and maximise 
+overall sur vival) and maintaining good le vels of patient satisf action. This balance also 
+needs t o tak e into account t he pot ential harms of fur ther sur gery, and possible need f or 
+other tr eatment s to tak e priority o ver fur ther sur gery. Because of t he wa y the evidence 
+was r epor ted in t he included studies, t he committ ee discussed t he evidence on radial 
+margins aft er br east-conser ving sur gery separat ely for people who had in vasive breast Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 53 of
+84
+cancer wit h or wit hout DCIS and f or people who had DCIS only . Most of t he data was f or 
+local r ecurr ence, wit h some f or distant r ecurr ence and v ery limit ed data f or overall sur vival 
+or br east-cancer -specific sur vival. Ther e was no e vidence on patient -repor ted out comes 
+or quality of lif e. Ther efore, the committ ee based most of t heir discussion on t he evidence 
+for local r ecurr ence, and used t heir personal and clinical e xperience t o consider t he 
+perspectiv es and pr eferences of people who ha ve breast cancer . 
+The committ ee discussions f ocused on whet her a radial mar gin of 1  mm or 2  mm should be 
+the cut -off f or fur ther sur gery. The committ ee agr eed t hat when t he tumour is at 0  mm, 
+this balance is str ongly in f avour of fur ther sur gery to try to ensur e the full tumour is 
+removed, so t he existing r ecommendation t o off er fur ther sur gery was r etained wit hout 
+reviewing t he evidence. F or people wit h invasive breast cancer wit h or wit hout DCIS, t he 
+evidence sho wed that t he risk of local r ecurr ence was higher wit h radial mar gins of gr eater 
+than 0  mm t o less t han 1  mm compar ed wit h greater than or equal t o 1 mm. This was also 
+the case f or local r ecurr ence when radial mar gins of gr eater than 0  mm t o 2 mm w ere 
+compar ed wit h greater than 2  mm. Ho wever, the evidence could not diff erentiat e betw een 
+greater than 1  mm t o 2 mm compar ed wit h greater than 2  mm. The committ ee also not ed 
+that t he incidence of local r ecurr ence has decr eased because of adv ances in br east 
+cancer car e. 
+Taking t his int o account wit h the evidence f or local r ecurr ence, t he committ ee did not 
+think t hat r ecommending a mar gin of 1  mm, rat her t han 2  mm, w ould lead t o a substantially 
+increased risk of local r ecurr ence. Additionally , they agr eed t hat f or man y people, a mar gin 
+of 1 mm is lik ely to be pr eferable o ver a mor e cautious appr oach wit h a mar gin of 2  mm 
+because t he smaller mar gin is lik ely to achie ve bett er br east pr eservation and r esult in 
+fewer additional sur geries. The y not ed that r epeat ed sur geries negativ ely aff ect br east 
+appearance, and t his can ha ve a negativ e eff ect on t he person's self -esteem and view of 
+themselv es. The y are also traumatic f or the person in volved and can lead t o str ess, 
+infections, pain, complications associat ed wit h recovery from t he anaest hetic and 
+operation, and negativ ely aff ect t heir e veryday life. As a r esult, t he committ ee agr eed t hat 
+further sur gery should be consider ed for people who had br east-conser ving sur gery for 
+invasive breast cancer wit h or wit hout DCIS if tumour cells ar e present wit hin 1  mm of t he 
+radial mar gins. 
+For DCIS only , the limit ed evidence was of moderat e to very low quality , and t he 
+committ ee was not confident of t he diff erences in eff ect betw een a mar gin of less t han, or 
+greater than, 2  mm on local r ecurr ence. As a r esult, t hey decided t o retain t he threshold of 
+2 mm fr om t he existing r ecommendation when considering fur ther sur gery for this Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 54 of
+84
+population. The committ ee did not mak e a recommendation f or resear ch for this gr oup 
+because t hey were awar e of new studies alr eady under way that could inf orm t his decision 
+in the futur e. 
+As w ell as t hinking about t he pot ential clinical benefit s of fur ther sur gery, the committ ee 
+ackno wledged t he impor tance of taking t he person's cir cumstances, needs and 
+preferences int o account as par t of t he decision-making pr ocess. This is int ended t o help 
+ensur e that an y barriers t o par ticular tr eatment options ar e consider ed and addr essed 
+wher e possible. The y recommended t hat t here should be a discussion wit h the person 
+about t he benefit s of sur gery, such as r educing t he risk of r ecurr ence, as w ell as risks, 
+such as inf ection and complications. The committ ee also agr eed ot her clinical f actors, 
+such as tumour charact eristics and pot ential tr eatment s, should be tak en int o account. 
+They referred to the NICE guidelines on shar ed decision making  and patient e xperience  to 
+help inf orm t hese discussions. 
+The committ ee not ed that, in t heir e xperience, t he existing r ecommendation about 
+auditing r ecurr ence is not unif ormly applied and t hat t he inf ormation r ecorded does not 
+necessarily include t he radial mar gin. The y therefore expanded t he recommendation t o 
+highlight f actors t hat t hey thought should be r ecorded in addition t o recurr ence. The 
+committ ee was also awar e of a new National Audit of Primar y Breast Cancer  that ma y 
+improve recording of t his inf ormation. 
+The committ ee not ed that t here was no e vidence f or people r eceiving neoadjuv ant 
+hormone t herap y or biological tr eatment s and v ery little evidence f or people r eceiving 
+neoadjuv ant chemot herap y, and t hat t he quality of t his e vidence was v ery low. Ther efore, 
+they could not mak e a specific r ecommendation f or this gr oup. Ho wever, they agr eed t hat 
+the evidence f or people who did not ha ve neoadjuv ant t herap y could be e xtrapolat ed to 
+this gr oup and t hat t he recommendation f or people wit h invasive breast cancer wit h or 
+without DCIS could apply t o them as w ell. 
+How the r ecommenda tions mig ht affect practice 
+It is not e xpect ed that t he recommendation f or people wit h invasive breast cancer will 
+increase r esour ce use since it is lik ely that f ewer people will ha ve fur ther sur gery giv en the 
+reduction in mar gin siz e. The r ecommendations should also encourage standar disation of 
+practice in r elation t o radial mar gins f or invasive breast cancer wit h or wit hout DCIS acr oss 
+the UK. The r ecommendations f or DCIS r etain t he existing radial mar gins and ar e therefore 
+not e xpect ed to change practice or r esour ce use. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 55 of
+84
+Return t o recommendations 
+Evaluation and manag emen t of a posi tive axillar y 
+lymph node 
+Recommendations  1.4.7 to 1.4.10 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was no new e vidence t hat led t he committ ee to change fr om t he existing 
+recommended practice (as r ecommended in t he pr evious NICE guideline CG80) of: 
+• offering axillar y clearance t o people wit h preoperativ ely pat hologically pr oven 
+involvement of t he axillar y lymph nodes 
+• not off ering axillar y treatment aft er primar y sur gery to people wit h isolat ed tumour 
+cells in t heir sentinel lymph nodes. 
+The committ ee agr eed t hat curr ent e vidence sho ws that fur ther axillar y treatment aft er 
+primar y sur gery does not impr ove sur vival for people wit h micr ometastases and t here are 
+risks such as lymphoedema, so fur ther tr eatment should not be off ered to this population. 
+Ther e were unclear benefit s and risks of fur ther axillar y treatment aft er primar y sur gery in 
+people wit h only 1 or 2 sentinel lymph node macr ometastases who ha ve had br east-
+conser ving sur gery and ha ve been advised t o have whole-br east radiot herap y and 
+systemic t herap y, so t he committ ee agr eed t hat t he risks and benefit s of fur ther tr eatment 
+should be discussed wit h this gr oup. 
+Studies of neoadjuv ant t herap y were excluded fr om t he evidence r eview . 
+How the r ecommenda tions mig ht affect practice 
+The committ ee agr eed t hat t he recommendations will r esult in a minor change in practice 
+because some centr es curr ently use mainly sur gery and ma y not use radiot herap y. In 
+addition, mor e time ma y need t o be f actored in t o plan and deliv er radiot herap y treatment. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 56 of
+84
+Breast r econstruc tion 
+Recommendations  1.5.2 to 1.5.5 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was not much good e vidence, but t he committ ee agr eed t hat t he main benefit s of 
+immediat e breast r econstruction compar ed wit h dela yed reconstruction ar e impr oved 
+aesthetic satisf action, impr oved symmetr y, impr oved healt h-related quality of lif e, lower 
+overall rat es of complications and a r educed need f or fur ther sur gery. The committ ee 
+agreed t hat in some cir cumstances, t here are adv antages t o dela yed reconstruction 
+compar ed wit h immediat e reconstruction (f or example, r educed mast ectomy flap loss and 
+capsular contractur e). Ther efore, dela yed reconstruction should also be an option f or 
+women who wish t o have a reconstruction aft er mast ectomy. The committ ee also agr eed 
+that t he option of no r econstruction should also be discussed, because t his ma y be t he 
+preferred option f or some w omen. 
+In addition, alt hough radiot herap y can impact on out comes aft er br east r econstruction, 
+there was no consist ent e vidence f or worse out comes betw een radiot herap y deliv ered 
+after immediat e reconstructions compar ed wit h radiot herap y bef ore dela yed 
+reconstructions. Ther efore, the committ ee agr eed t hat immediat e reconstruction should 
+be off ered regar dless of plans f or chest -wall radiot herap y. 
+Ther e is litt le evidence r egar ding longer -term out comes and diff erent types of 
+reconstruction. Because of t his, t he committ ee agr eed t hat mor e resear ch is needed t o 
+understand whet her immediat e breast r econstruction or dela yed br east r econstruction is 
+better in w omen who ma y need postmast ectomy radiot herap y. So, t hey made a 
+recommendation f or resear ch on long-t erm out comes f or br east r econstruction in w omen 
+having radiot herap y to the chest wall . 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ma y result in a substantial change in practice because man y 
+centr es do not r outinely off er immediat e breast r econstruction t o all w omen ( especially 
+those who ha ve been advised t o have radiot herap y). The impact will depend on ho w man y 
+immediat e reconstructions ar e already carried out. In addition, t he uptak e of immediat e 
+breast r econstruction will also depend on w omen's pr eferences. Ther e ma y be cost 
+savings associat ed wit h immediat e reconstructions because f ewer sur gical pr ocedur es ar e Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 57 of
+84
+needed (r econstruction is done at t he same time as mast ectomy and t here are lower rat es 
+of additional symmetrisation sur gery). 
+Return t o recommendations 
+Predictive factors 
+Recommendations  1.6.1, 1.6.3 and 1 .6.5 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was not enough good e vidence, so t he committ ee agr eed, using a f ormal consensus 
+scoring syst em and t heir kno wledge and e xperience, t hat pr ogest erone r ecept or (PR) 
+status should be assessed f or all in vasive breast cancers because: 
+• it will help when tailoring adjuv ant t herap y 
+• it will r educe dela ys in star ting tr eatment 
+• if people ar e already ha ving t esting at t his stage, t heir PR status can be assessed 
+without t hem ha ving t o wait f or additional t est result s. 
+The committ ee also agr eed t hat oestr ogen r ecept or (ER), PR and human epidermal gr owth 
+factor recept or 2 (HER2) status assessment s should be r equest ed simultaneously at t he 
+time of initial diagnosis t o ensur e that r esult s are available at t he initial pr eoperativ e 
+multidisciplinar y team meeting (as w ell as t he post operativ e meeting). This will a void 
+delays and t he need f or additional discussions. 
+How the r ecommenda tions mig ht affect practice 
+Most people wit h invasive breast cancer ha ve PR t esting in curr ent practice, alt hough it is 
+not alwa ys per formed at diagnosis. The r ecommendations should r educe v ariation in 
+practice and dela ys in star ting tr eatment, and t he need f or pat hology r esult s to be 
+discussed at mor e than 1 multidisciplinar y meeting, so ma y lead t o a small cost sa ving. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 58 of
+84
+Adjuvant ther apy planning 
+Recommendations  1.6.8 and 1 .6.9 
+Why the c ommi ttee made the r ecommenda tions 
+Good e vidence sho wed that t he pr ognostic t ool PREDICT is an accurat e tool to estimat e 
+prognosis and t he benefit s of tr eatment in most people. 
+How the r ecommenda tions mig ht affect practice 
+The committ ee agr eed t hat most healt hcare professionals alr eady use t he PREDICT t ool, 
+so this recommendation will not mean a big change in practice. 
+Return t o recommendations 
+Ovarian func tion suppr ession 
+Recommendations  1.7.4 and 1 .7.5 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was e vidence t hat o varian function suppr ession incr eased o verall sur vival when 
+combined wit h tamo xifen, and t hat w omen who ha ve had chemot herap y benefit ed mor e. 
+However, ovarian function suppr ession did not impr ove disease-fr ee sur vival. In addition, it 
+induces a t emporar y menopause and can w orsen t he menopausal sympt oms seen wit h 
+tamo xifen. 
+Given the limit ed evidence of benefit s and t he side eff ects of t he tr eatment, t he 
+committ ee agr eed t hat healt hcare professionals should discuss t he pot ential benefit s and 
+risks wit h women. This will help w omen decide which tr eatment is right f or them. 
+How the r ecommenda tions mig ht affect practice 
+Ther e is v ariation among centr es in t he use of o varian function suppr ession, so t he 
+recommendations should lead t o greater consist ency and impr ove access t o the 
+treatment, e ven though not all w omen will wish t o have it. Ther e will be an incr ease in Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 59 of
+84
+requir ed resour ces f or centr es that do not curr ently provide o varian function suppr ession 
+because additional appointment s will be needed t o administ er the medication and monit or 
+side eff ects. Ho wever, this was not anticipat ed to be a substantial cost incr ease because 
+of the number of centr es alr eady off ering o varian function suppr ession. F urther, incr eased 
+costs will be at least par tially off set b y impr ovement s in sur vival out comes. 
+Return t o recommendations 
+Extende d endocrine ther apy 
+Recommendations  1.7.6 to 1.7.9 
+Why the c ommi ttee made the r ecommenda tions 
+Good e vidence sho wed that swit ching t o an ar omatase inhibit or aft er 5 years of tamo xifen 
+improved disease-fr ee sur vival compar ed wit h postmenopausal w omen who had only 
+receiv ed tamo xifen for 5 years, wit h the benefit s being gr eater in t hose w omen who had a 
+greater risk of disease r ecurr ence. 
+The e vidence sho wed no benefit in t erms of disease-fr ee sur vival or o verall sur vival from 
+continuing tamo xifen be yond 5  years. Ho wever, some of t he studies on tamo xifen w ere 
+conduct ed in t he 1980s and ma y not be r elevant t o curr ent practice. In t he committ ee's 
+experience, continuing tamo xifen can be beneficial f or some w omen. 
+However, evidence sho wed that being on endocrine t herap y for mor e than 5  years can 
+increase t he risk of pr oblems such as endometrial cancer , osteopor osis, t oxicity and 
+phlebitis. The committ ee agr eed t hat people will oft en prioritise sur vival even if t his means 
+they will ha ve a reduced quality of lif e, but t hat people need t o be inf ormed about t he 
+possible benefit s and risks so t hey can mak e a choice. 
+Because of t he risk of pr oblems wit h taking endocrine t herap y for mor e than 5  years, t he 
+committ ee agr eed t hat healt hcare professionals should discuss t he pot ential benefit s and 
+risks wit h women t o help t hem mak e an inf ormed choice about tr eatment, based on t heir 
+own risk f actors. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 60 of
+84
+How the r ecommenda tions mig ht affect practice 
+Some centr es alr eady r eview tr eatment at 5  years and continue endocrine t herap y wit h 
+tamo xifen or an ar omatase inhibit or when it could benefit w omen. Because a lar ge number 
+of women will be aff ected by these r ecommendations, t he resour ce impact will be lar ge for 
+centr es that ar e not curr ently providing tr eatment aft er 5 years. 
+Return t o recommendations 
+Endocrine ther apy for duc tal c arcinoma in si tu 
+Recommendations  1.7.10 to 1.7.12 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was good e vidence t hat tamo xifen aft er br east-conser ving sur gery for ER-positiv e 
+DCIS impr oved disease-fr ee sur vival and r educed rat es of local r ecurr ence in w omen who 
+did not ha ve radiot herap y. Because of t heir concerns about o ver-treatment, t he committ ee 
+agreed t hat w omen who w ere at higher risk (t hose who should ha ve had radiot herap y, but 
+who did not r eceiv e it) w ould benefit mor e. Ther e was no e vidence a vailable f or ar omatase 
+inhibit ors; ho wever, the committ ee agr eed t hey would lik ely pr oduce similar impr ovement s 
+in disease-fr ee sur vival and r eductions in local r ecurr ence as tamo xifen. Ther efore, the 
+committ ee recommended endocrine t herap y, rather t han specifically tamo xifen. 
+The committ ee agr eed t hat t he benefit s and risks of endocrine t herap y should be 
+discussed wit h the w oman because of t he pot ential tr eatment -related complications, such 
+as menopausal sympt oms, and t he impact on f amily planning. 
+How the r ecommenda tions mig ht affect practice 
+Offering endocrine t herap y aft er initial tr eatment of DCIS will be a change of practice 
+because it is not curr ently routinely off ered to these w omen. Ho wever, because of t he 
+small number of people wit h DCIS who will not r eceiv e radiot herap y, and t he lo w cost of 
+the medicines, t he committ ee agr eed t hat t he impact will not be significant. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 61 of
+84
+Adjuvant chemother apy for in vasive breast c ancer 
+Recommendations  1.8.1 to 1.8.3 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was good e vidence of impr oved sur vival when taxanes ar e added t o ant hracy cline-
+based chemot herap y in people wit h node-positiv e and node-negativ e breast cancer . In 
+both groups, t he benefit s and risks of tr eatment should be discussed because of t he 
+potential side eff ects associat ed wit h taxanes. Thr ee-w eekly docetax el was identified as a 
+regimen wit h pot entially mor e toxicity t han w eekly or f ortnight ly paclitax el. 
+How the r ecommenda tions mig ht affect practice 
+These r ecommendations ma y result in a substantial change in practice because of 
+increased taxane use, par ticularly f or people wit h node-negativ e breast cancer and 
+comorbidities. 
+In addition, t here will be an incr ease in w eekly and f ortnight ly chemot herap y regimens 
+being off ered (f or people who cannot t olerat e 3-w eekly r egimens). These r egimens ha ve a 
+higher cost because t hey are mor e resour ce int ensiv e, and ma y affect capacity in 
+chemot herap y ser vices. 
+Return t o recommendations 
+Biological ther apy 
+Recommendation  1.8.5 
+Why the c ommi ttee made the r ecommenda tion 
+Ther e was e vidence t hat adjuv ant trastuzumab can impr ove disease-fr ee sur vival and 
+overall sur vival in some people wit h T1a and T1b HER2-positiv e invasive breast cancer who 
+were treated wit h adjuv ant trastuzumab and chemot herap y. However, only a small number 
+of people will benefit fr om t his tr eatment and, because trastuzumab can cause hear t 
+problems, it is impor tant t o avoid off ering it t o people who do not need it. Because of t his, 
+the committ ee agr eed t hat adjuv ant trastuzumab should be an option f or women wit h T1a Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 62 of
+84
+and T1b tumours rat her t han a standar d treatment. 
+Combined chemot herap y and trastuzumab was not f ound t o be cost eff ectiv e when 
+compar ed wit h chemot herap y alone. Ho wever, the committ ee agr eed t hat it was mor e 
+appr opriat e to compar e combined chemot herap y and trastuzumab wit h no tr eatment 
+because t hese ar e the strat egies t hat ar e likely to be used in clinical practice. Because it is 
+the HER2 positivity t hat incr eases risk of r ecurr ence f or people wit h small (T1a and T1b ) 
+tumours, it does not mak e sense fr om a clinical perspectiv e to not tr eat t he component 
+that is incr easing risk (t hat is, trastuzumab tr eatment f or HER2 positivity). F urther, the 
+effect of chemot herap y alone in t he economic model ma y be o verestimat ed because t he 
+data ma y not fully r eflect t he population under consideration. 
+How the r ecommenda tion mig ht affect practice 
+Currently, T1 tumours ar e not r outinely tr eated wit h adjuv ant trastuzumab, so t his 
+recommendation will lead t o a change in practice. Ho wever, the committ ee agr eed t hat t he 
+number of additional people ha ving tr eatment w ould be small, so t he impact on curr ent 
+practice w ould be minor and unlik ely to requir e a substantial incr ease in r esour ces. 
+Return t o recommendation 
+Adjuvant bisp hosp hona te ther apy 
+Recommendations  1.9.1 to 1.9.3 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was good e vidence t hat tr eatment wit h sodium clodr onate and z oledr onic acid 
+improved disease-fr ee and o verall sur vival in postmenopausal w omen wit h node-positiv e 
+invasive breast cancer . 
+Ther e was litt le evidence of benefit f or ot her bisphosphonat es. The committ ee 
+recommended considering z oledr onic acid or sodium clodr onate treatment f or ot her high-
+risk populations (such as postmenopausal w omen wit h node-negativ e invasive breast 
+cancer and a high risk of r ecurr ence), based on t he evidence t hat sodium clodr onate has 
+overall sur vival benefit s in mix ed populations. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 63 of
+84
+Although t here is e vidence t hat intra venous (IV) bisphosphonat es ha ve a higher risk of 
+osteonecr osis of t he jaw , oral bisphosphonat es ha ve a higher risk of gastr ointestinal 
+problems. Ther e is also a risk of atypical f emoral fractur es and ost eonecr osis of t he 
+external audit ory canal wit h bisphosphonat es. Because each drug and r egimen has 
+different risks, t he pot ential benefit s and risks should be discussed wit h women t o help 
+them mak e an inf ormed choice. 
+Ther e was litt le evidence on sur vival, par ticularly f or pr emenopausal w omen on o varian 
+suppr ession, t hose wit h node-positiv e or node-negativ e disease, and t hose wit h positiv e 
+or negativ e oestr ogen or pr ogest ogen statuses. Ther e was not enough e vidence t o mak e a 
+recommendation r elating t o the use of adjuv ant bisphosphonat es in pr emenopausal 
+women. The committ ee agr eed t hat fur ther r esear ch is needed t o det ermine t he long-t erm 
+survival benefit s and t he gr oups of people most lik ely to benefit fr om adjuv ant 
+bisphosphonat es. So, t hey made a recommendation f or resear ch on gr oups of people who 
+would benefit fr om t he use of adjuv ant bisphosphonat es. 
+The committ ee did not look at t he evidence r elating t o the use of bisphosphonat es for 
+bone healt h or f or the use of baseline dual-ener gy X-ray absorptiometr y (DEXA) scanning, 
+so did not mak e any new r ecommendations. 
+How the r ecommenda tions mig ht affect practice 
+Bisphosphonat es ar e not consist ently off ered as adjuv ant tr eatment, so t his 
+recommendation ma y lead t o an incr ease in pr escribing. 
+GPs ma y need t o monit or people taking oral bisphosphonat es, but t his is lik ely to be an 
+annual r eview so w ould not ha ve a lar ge w orkload impact. Ho wever, people ma y mak e 
+more GP visit s if they have side eff ects from bisphosphonat e treatment. 
+The committ ee agr eed t hat IV bisphosphonat es w ould usually be administ ered at t he same 
+time as chemot herap y drugs f or the first 6  mont hs of tr eatment, so t his w ould not r esult in 
+extra hospital visit s for this period. Aft er that, e xtra visit s for administration and monit oring 
+may be needed. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 64 of
+84
+Radiother apy techniques 
+Recommendations  1.10.1 and 1 .10.2 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was good e vidence t hat radiot herap y to the int ernal mammar y nodes r educed 
+locor egional r ecurr ence and impr oved sur vival. Ho wever, the committ ee took int o account 
+the pot ential f or lung and hear t toxicity , so r ecommended using a radiot herap y technique 
+that minimises t his risk. 
+Ther e was e vidence t hat deep inspirat ory breath-hold radiot herap y techniques r educe t he 
+mean radiot herap y hear t dose f or adult s wit h left -sided in vasive breast cancer r eceiving 
+whole-br east radiot herap y. The committ ee did not identify an y harms. Ther e was also 
+evidence t hat deep inspiration br eath-hold radiot herap y techniques did not r educe t he 
+target co verage of whole-br east radiot herap y. 
+Ther e was no e vidence about t he use of deep inspiration br eath-hold radiot herap y 
+techniques f or people wit h right -sided br east cancer , so t he committ ee did not mak e 
+separat e recommendations f or this subgr oup. 
+How the r ecommenda tions mig ht affect practice 
+Using a radiot herap y technique t hat minimises t he dose t o the lung and hear t is lik ely to 
+need a change in practice f or man y centr es. Ther e will be some impact on r esour ces in 
+order t o implement t his recommendation because additional training will be needed, and 
+local pr otocols will need de veloping. Ho wever, the long-t erm impact on r esour ces will be 
+minimal: some additional planning time will be needed but t here is no impact on t he lengt h 
+or number of radiot herap y sessions. 
+Currently, deep inspirat ory breath-hold radiot herap y techniques ar e not r outinely off ered 
+to people wit h invasive breast cancer ha ving whole-br east radiot herap y. However, the 
+committ ee not ed that t he Royal College of Radiologist s has pr oduced consensus 
+statement s that advise using t his technique, and t hat man y centr es alr eady off er it. The 
+recommendation will ensur e consist ent practice and ensur e that people can access t he 
+best car e. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 65 of
+84
+Radiother apy after br east-conser ving sur gery 
+Recommendations  1.10.3 to 1.10.8 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e is e vidence t hat whole-br east radiot herap y aft er br east-conser ving sur gery reduces 
+the risk of r ecurr ence and incr eases o verall sur vival. It also decr eases rat es of depr ession 
+and anxiety . 
+However, because t he risk of br east cancer r ecurring at 5  years is v ery low and t here are 
+harms associat ed wit h radiot herap y, the benefit s of radiot herap y for women wit h a v ery 
+low risk of r ecurr ence ar e less cer tain. F or these w omen, t he committ ee agr eed t hat 
+healt hcare professionals should fully discuss t he benefit s and risks wit h women bef ore a 
+decision is made. 
+Good e vidence sho wed that par tial-br east radiot herap y led t o similar r esult s to whole-
+breast radiot herap y aft er br east-conser ving sur gery in w omen wit h a lo w risk of local 
+recurr ence. In addition, it ma y have fewer treatment -related adv erse eff ects. Ther e was 
+evidence f or multicat heter int erstitial brach ytherap y, but t his was not r ecommended 
+because it is not curr ently available in England. 
+How the r ecommenda tions mig ht affect practice 
+Most w omen ar e already off ered radiot herap y aft er br east-conser ving sur gery so t his 
+reflect s curr ent practice, but mor e time ma y be needed t o discuss t he balance of benefit s 
+and risks wit h women. 
+The committ ee was awar e that curr ent practice f or external beam par tial-br east 
+radiot herap y aft er br east-conser ving sur gery is based on t he Royal College of 
+Radiologist s' 2016 consensus stat ement, so t here would be no change t o recommended 
+practice. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 66 of
+84
+Radiother apy after maste ctomy 
+Recommendations  1.10.10 to 1.10.12 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee agr eed t hat adjuv ant postmast ectomy radiot herap y should be off ered to 
+people who ha ve macr oscopically node-positiv e invasive breast cancer or ha ve involved 
+resection mar gins. This is because t he evidence sho wed a beneficial eff ect on sur vival and 
+local r ecurr ence. Alt hough t he evidence was limit ed and t he committ ee ackno wledged t hat 
+radiot herap y is associat ed wit h lung and car diac morbidity , they concluded t hat f or this 
+group of w omen, t he benefit s of radiot herap y outw eigh t he harms. 
+Ther e was e vidence of a beneficial eff ect of postmast ectomy radiot herap y on local 
+recurr ence and o verall sur vival for people wit h node-negativ e invasive breast cancer . 
+However, the committ ee agr eed t hat t here was a risk of o ver-treatment if all people wit h 
+node-negativ e invasive breast cancer r eceiv ed postmast ectomy radiot herap y. Ther efore, 
+the committ ee recommended t hat adjuv ant postmast ectomy radiot herap y should be 
+consider ed for people wit h node-negativ e T3 or T 4 invasive breast cancer . Ther e was no 
+evidence f or this specific subgr oup, but t hey would be consider ed at incr eased risk of 
+recurr ence and mor tality r elativ e to smaller , node-negativ e invasive breast cancers 
+because of t he siz e of t he tumour . 
+The committ ee agr eed t hat radiot herap y aft er mast ectomy should not be off ered to 
+women wit h early in vasive breast cancer who ar e at lo w risk of local r ecurr ence (f or 
+example, most w omen who ar e lymph node-negativ e) because t he evidence sho wed 
+limited benefit in sur vival and local r ecurr ence. 
+How the r ecommenda tions mig ht affect practice 
+The committ ee agr eed t hat t he recommendations will r einforce curr ent practice, so t here 
+would be litt le change in practice. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 67 of
+84
+Dose fr actiona tion o f external be am r adiother apy 
+Recommendations  1.10.13 to 1.10.16 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee not ed that most centr es use r egimens of eit her 40  Gy in 15 fractions or 
+26 Gy in 5 fractions. Ho wever, there was v ariation betw een centr es in which e xternal beam 
+hypofractionation r egimen t hey used. 
+The e vidence compar ed a number of diff erent e xternal beam h ypofractionation r egimens, 
+but t he committ ee focused on t he evidence fr om 2 randomised contr olled trials (RCT s) 
+that compar ed clinical eff ectiv eness and saf ety, and a cost -effectiv eness analysis, of t he 2 
+hypofractionation r egimens t hat ar e established in curr ent practice (40  Gy in 15 fractions 
+over 3 weeks and 26  Gy in 5 fractions o ver 1 week). High-quality t o very low-quality 
+evidence sho wed that t he eff ects of bot h external beam h ypofractionation r egimens w ere 
+comparable, wit h no clinically impor tant diff erences betw een tr eatment arms f or all-cause 
+mortality , breast cancer -related mor tality or disease r ecurr ence. Economic e vidence 
+showed the 26  Gy in 5 fractions as an eff ectiv e use of NHS r esour ces compar ed wit h 
+40 Gy in 15 fractions and suppor ted its use in curr ent practice. In addition, t he committ ee 
+noted that in t heir e xperience, most people pr eferred to att end radiot herap y appointment s 
+over the course of 1  week rat her t han o ver 3 weeks f or practical r easons r elated to fewer 
+trips t o the hospital (f or example, r educed tra velling time and cost s, less time off w ork or 
+from caring r esponsibilities). The committ ee recognised ho w the CO VID-19 pandemic had 
+also impact ed curr ent practice and had accelerat ed the change t o implement t he shor ter 
+26 Gy in 5 fractions r egimen. 
+The e vidence sho wed that t here was a higher incidence of out comes r elated to clinician-
+assessed adv erse e vents at 5  years and quality-of -life measur ement s (related to har der or 
+firmer br easts) for people who w ere giv en 26  Gy in 5 fractions compar ed wit h 40  Gy in 15 
+fractions. Ho wever, with the exception of a quality-of -life out come r elated to sw ollen 
+breasts, the diff erences in eff ect betw een t he 2 r egimens w ere not clinically significant. 
+The committ ee agr eed t hat in t heir e xperience, 26  Gy in 5 fractions is widely accept ed by 
+people, despit e the small risk of incr eased adv erse e vents. Aft er taking int o account t he 
+benefit s of a shor ter regimen and t he impact of t he adv erse e vents, the committ ee 
+recommended t he use of 26  Gy in 5 fractions f or people ha ving par tial-br east, whole-
+breast or chest -wall radiot herap y, without nodal irradiation, aft er br east-conser ving 
+surgery or mast ectomy. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 68 of
+84
+The committ ee not ed that t he evidence pr esent ed was fr om populations who w ere 
+receiving whole-br east radiot herap y. Ther e was no e vidence f or people who ar e at lo wer 
+risk of disease r ecurr ence t han t hose included in t he evidence base and who ar e off ered 
+partial-br east radiot herap y because of t heir r educed risk. Ho wever, the committ ee agr eed 
+that, considering t he alr eady lo wer risk f or this population, t he findings of 26  Gy in 5 
+fractions in t he higher -risk population could be e xtrapolat ed to also co ver the lo wer-risk 
+population. The committ ee also not ed that t he decision o ver whet her someone has par tial-
+breast or whole-br east radiot herap y can change based on clinical judgement and 
+assessment of t he tr eatment ar ea. As such, t he committ ee agr eed t hat if par tial-br east 
+radiot herap y were excluded, t he recommendations w ould not be in line wit h curr ent 
+practice and ma y disadv antage a lar ge gr oup of people. 
+The committ ee recognised t hat t here ma y be cir cumstances when 40  Gy in 15 fractions 
+would be mor e suitable t han 26  Gy in 5 fractions. F or example, t he committ ee not ed that, 
+in their clinical e xperience, some gr oups of people, such as t hose wit h a high BMI or 
+fibromyalgia, ma y experience a gr eater number of acut e adv erse e vents from t he 
+5-fraction r egimen (f or example, skin r eactions, br east oedema or pain). Ther efore, some 
+people ma y prefer the 15-fraction r egimen. The committ ee also not ed that t he number of 
+people in t he studies who had under gone br east r econstruction sur gery was small, and it 
+was difficult t o det ermine t he most eff ectiv e hypofractionation r egimen f or this gr oup. The 
+15-fraction r egimen ma y also be used f or those whose dosimetr y is out side t hat used in 
+the FAST-Forward trial . The committ ee highlight ed the impor tance of shar ed decision 
+making f or these gr oups and ensuring t hat people ar e awar e of t he benefit s and risks of 
+each tr eatment option. As such, t he committ ee made a r ecommendation t hat 40  Gy in 15 
+fractions o ver 3 weeks should be consider ed for some gr oups of people, and t hat it s use 
+should be agr eed betw een t he person and t heir car e team. 
+The committ ee discussed t he eligibility crit eria f or some of t he trials in t he evidence and 
+noted that people who r eceiv ed nodal radiot herap y were excluded fr om t he main study 
+populations. The y highlight ed that t here are par ticular concerns ar ound adv erse eff ects 
+such as lymphoedema f or people who r eceiv ed regional lymph node irradiation. The 
+committ ee ackno wledged t hat futur e trials and t he FAST-Forward nodal sub-study r esult s 
+may addr ess some of t hese concerns, but until fur ther e vidence is a vailable t he 40  Gy in 
+15 fractions r egimen should continue t o be used f or this gr oup. 
+Ther e was limit ed evidence comparing t he 2 h ypofractionation r egimens in people ha ving 
+breast r econstruction or ha ving r egional lymph node irradiation. As such, t he committ ee 
+developed recommendations f or resear ch on people ha ving br east r econstruction Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 69 of
+84
+(including aut ologous br east r econstruction, but par ticularly implant -based r econstruction) 
+and people ha ving r egional lymph node irradiation . These should pr ovide clinicians wit h an 
+increased understanding of ho w eff ectiv e the 26  Gy in 5 fractions r egimen is f or these 
+groups in futur e. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ma y reduce v ariation in practice, wit h most people being off ered 
+26 Gy in 5 fractions rat her t han 40  Gy in 15 fractions. This is alr eady curr ent practice in 
+many centr es and will not ha ve a major impact f or those centr es. In t hose centr es wher e 
+26 Gy in 5 fractions is not y et curr ent practice, t here will be significant cost sa vings and 
+capacity will be r eleased f or mor e appointment s. For places wher e 40  Gy in 15 fractions is 
+used mor e routinely , these r ecommendations ma y incr ease t he number of people who ar e 
+offered 26  Gy o ver 5 fractions. This will r educe t he tr eatment duration and t he cost s 
+associat ed wit h treatment. 
+Return t o recommendations 
+Radiother apy to nodal ar eas 
+Recommendation  1.10.23 
+Why the c ommi ttee made the r ecommenda tion 
+Ther e was good e vidence t hat radiot herap y to the int ernal mammar y nodes r educed 
+locor egional r ecurr ence and impr oved sur vival. Ho wever, the committ ee took int o account 
+the pot ential f or lung and hear t toxicity , and agr eed t he impor tance of using a 
+radiot herap y technique t hat minimises t his risk. 
+How the r ecommenda tion mig ht affect practice 
+This r ecommendation is lik ely to need a change in practice f or man y centr es. Ther e will be 
+some impact on r esour ces in or der t o implement t his recommendation because additional 
+training will be needed, and local pr otocols will need de veloping. Ho wever, the long-t erm 
+impact on r esour ces will be minimal: some additional planning time will be needed but 
+there is no impact on t he lengt h or number of radiot herap y sessions. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 0 of
+84
+Return t o recommendation 
+Neoadjuvant chemother apy 
+Recommendations  1.11.1 to 1.11.3 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was good e vidence t o say that ha ving chemot herap y bef ore sur gery (neoadjuv ant 
+chemot herap y) enables some w omen t o have breast-conser ving sur gery who w ould 
+otherwise ha ve had t otal r emoval of t heir br east. The committ ee agr eed t hat t he response 
+to neoadjuv ant t herap y could help guide t he choice of subsequent adjuv ant t herap y. 
+How the r ecommenda tions mig ht affect practice 
+The committ ee agr eed t hat t he recommendations w ould not r esult in a major change in 
+practice because neoadjuv ant chemot herap y is alr eady off ered in man y centr es. These 
+recommendations will help impr ove consist ency in practice. 
+Return t o recommendations 
+Neoadjuvant chemother apy regimens 
+Recommendations  1.11.4 and 1 .11.5 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was e vidence t hat platinum-containing neoadjuv ant chemot herap y regimens can 
+improve pat hological complet e response rat e and br east conser vation rat e in people wit h 
+triple-negativ e invasive breast cancer . However, the committ ee took int o account t hat 
+platinum-containing r egimens can cause anaemia, t hrombocyt openia, neutr openia and 
+febrile neutr openia, as w ell as bone marr ow problems and r enal pr oblems in older people. 
+The committ ee agr eed t hat healt hcare professionals should ha ve a full discussion wit h 
+people about t he benefit s and risks of t hese r egimens. 
+Ther e was no e vidence on people wit h the BRCA germline mutation, so t he committ ee did 
+not mak e separat e recommendations f or this subgr oup. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 71 of
+84
+How the r ecommenda tions mig ht affect practice 
+Currently, platinum-containing neoadjuv ant chemot herap y is not r outinely off ered to 
+people wit h triple-negativ e early and locally adv anced br east cancer , although t he 
+committ ee was awar e that some centr es ma y off er it. The r ecommendations will t herefore 
+bring a change in practice and will mak e practice mor e consist ent acr oss t he NHS. The 
+committ ee estimat ed that appr oximat ely 30% t o 40% of people r eceiving neoadjuv ant 
+chemot herap y ma y be aff ected by the recommendations. 
+Return t o recommendations 
+Neoadjuvant endocrine ther apy 
+Recommendations  1.11.6 to 1.11.8 
+Why the c ommi ttee made the r ecommenda tions 
+For postmenopausal w omen, t here was some e vidence t hat br east conser vation rat es, 
+changes in tumour siz e and o verall sur vival are the same wit h neoadjuv ant endocrine 
+therap y and neoadjuv ant chemot herap y. Endocrine t herap y is saf er and has f ewer side 
+effects than chemot herap y, but t here was not enough e vidence t o recommend endocrine 
+therap y over chemot herap y for every woman. The committ ee agr eed t hat healt hcare 
+professionals should discuss t he pot ential benefit s and risks wit h women t o help t hem 
+decide which tr eatment is right f or them and t hat mor e resear ch is needed t o say whet her 
+neoadjuv ant endocrine t herap y is as eff ectiv e as neoadjuv ant chemot herap y. 
+The e vidence f or pr emenopausal w omen sho wed that neoadjuv ant chemot herap y was 
+more eff ectiv e than endocrine t herap y, but t hat endocrine t herap y ma y be eff ectiv e in 
+some w omen. Ho wever, some w omen ma y prefer endocrine t herap y because it is saf er 
+and has f ewer side eff ects. Because of t his, t he committ ee agr eed t hat healt hcare 
+professionals should discuss t he pot ential benefit s and risks wit h women t o help t hem 
+decide which tr eatment is right f or them. The committ ee agr eed t hat mor e resear ch is 
+needed on t he long-t erm saf ety of neoadjuv ant endocrine t herap y, and t o identify which 
+premenopausal w omen will benefit fr om it. So, t hey made recommendations f or resear ch 
+on the saf ety of neoadjuv ant endocrine t herap y in pr emenopausal w omen  and 
+postmenopausal w omen wit h early br east cancer . Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 72 of
+84
+How the r ecommenda tions mig ht affect practice 
+Neoadjuv ant endocrine t herap y is alr eady being used, alt hough t here ma y be an incr ease 
+in the number of people being off ered it. 
+Return t o recommendations 
+Radiother apy after ne oadjuvant chemother apy 
+Recommendations  1.11.10 to 1.11.13 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was not enough e vidence t o recommend subgr oups of w omen in whom 
+postmast ectomy radiot herap y could be saf ely omitt ed aft er neoadjuv ant chemot herap y. 
+Ther efore, the committ ee agr eed t hat t he recommendations f or postmast ectomy 
+radiot herap y among people who ha ve not r eceiv ed neoadjuv ant chemot herap y applied t o 
+this population. 
+People wit h node-negativ e T4 cancer w ere not included in t his review because t hey are 
+covered by the recommendation fr om t he pr evious guideline which has been r etained. 
+Women who r espond w ell to neoadjuv ant chemot herap y ma y deriv e less benefit fr om 
+radiot herap y, but t he committ ee agr eed t hat fur ther r esear ch was r equir ed to det ermine if 
+the risks of radiot herap y outw eighed t he benefit s in some w omen. So, t hey made a 
+recommendation f or resear ch on t he indications f or postmast ectomy radiot herap y aft er 
+neoadjuv ant chemot herap y. 
+How the r ecommenda tions mig ht affect practice 
+The committ ee not ed that decisions about postmast ectomy radiot herap y aft er 
+neoadjuv ant chemot herap y are curr ently based on pr etreatment in vestigations, so t here 
+will be no change t o practice. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 3 of
+84
+Lymphoedema 
+Recommendation  1.12.2 
+Why the c ommi ttee made the r ecommenda tion 
+Good e vidence sho wed that t here is no incr eased risk of lymphoedema associat ed wit h 
+maintaining e xercise le vels aft er axillar y intervention, so t he committ ee agr eed t hat people 
+should not r estrict or a void ph ysical activity . 
+Although t he evidence was limit ed and mix ed, t he committ ee concluded t hat t here is no 
+consist ent e vidence of incr eased risk of lymphoedema associat ed wit h air tra vel, tra vel to 
+hot countries, manicur es, hot -tub use, spor ts injuries, or medical pr ocedur es on t he 
+treated side. 
+How the r ecommenda tion mig ht affect practice 
+Advice about pr eventing lymphoedema is alr eady being pr ovided as par t of r outine car e, 
+so there is unlik ely to be much change in practice. Ho wever, the recommendation will lead 
+to greater consist ency in t he advice off ered. It should also r educe inequality and impr ove 
+the quality of standar d car e if people who ha ve had axillar y treatment need immunisations 
+or electiv e procedur es. 
+Return t o recommendation 
+Arm and shoulder mobili ty 
+Recommendations  1.12.5 to 1.12.12 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee not ed there was v ery little high-quality e vidence f or an y of t he out comes, 
+and most of t he evidence was lo w to very low quality . The committ ee agr eed t hat t hey did 
+not f eel confident in making r ecommendations based on lo w-quality e vidence fr om mainly 
+single studies. Ther efore, they used t heir clinical kno wledge and e xperience alongside 
+high-quality e vidence fr om 1 UK -based RCT t o suppor t their decision making. This 
+evidence sho wed impr oved out comes wit h a ph ysiot herap y-led structur ed super vised Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 4 of
+84
+exercise pr ogramme in addition t o usual car e for reduction of pain, quality-of -life 
+improvement and adher ence t o arm and shoulder e xercises in people wit h a higher risk of 
+developing shoulder pr oblems. The trial pr ovided all par ticipant s wit h information leaflet s 
+about e xercises t o help wit h arm and shoulder mobility aft er br east cancer sur gery. This 
+reflect s standar d practice in t he UK, and t he committ ee agr eed it was impor tant t o reflect 
+this advice in t he recommendations. The r ecommendations also highlight t hat instructions 
+on upper limb e xercises and inf ormation should be discussed, e xplained and clarified wit h 
+the person bef ore radiot herap y begins, as t he exercises should ha ve been w ell established 
+before star ting tr eatment. The committ ee recommended t hat t his should also happen 
+before sur gery. 
+The committ ee w ere awar e that instructions on upper limb e xercises ar e not alwa ys giv en 
+out b y someone who is a specialist in ph ysiot herap y (for example, br east car e nurses), so 
+they also r ecommended t hat br east car e unit s have document ed local guidelines in place 
+that include details about who and ho w to deliv er this inf ormation eff ectiv ely. The y 
+thought it was impor tant t hat t he inf ormation included details on when t he exercises 
+should be star ted. F or most people, t his will be t he da y aft er sur gery, but it ma y be lat er 
+for ot hers, such as t hose who ha ve cer tain sur gical pr ocedur es (for example, fr ee flap 
+reconstruction or implant r econstruction) wher e exercising t he da y aft er sur gery could 
+interfere wit h their r ecovery. Exercises should be tailor ed to each person based on t heir 
+needs (f or example, comorbidities and side eff ects of cancer tr eatment), but f or the 
+majority of patient s, a standar d programme of upper limb e xercises will be suitable. The 
+committ ee also agr eed it was impor tant t hat instructions on upper limb e xercises should 
+be available in ot her f ormat s to be accessible t o people wit h diff erent needs (f or example, 
+video or lar ge print and v arious languages). Ther e are already recommendations on 
+communication in t he NICE guideline on patient e xperience in adult NHS ser vices , so a link 
+to this was included as par t of t he recommendation. 
+Based on t he eff ectiv eness of t he int ervention in t he UK -based trial, t he committ ee agr eed 
+that people who met t he same crit eria as t hose included in t he trial should be identified as 
+being at higher risk of de veloping shoulder pr oblems. These people should t hen be off ered 
+super vised suppor t to apply t he exercises. The baseline shoulder identification of 
+someone as high risk of de veloping shoulder pr oblems could be done b y a member of t he 
+clinical t eam (f or example, a clinical nurse specialist) and could be done b y looking at a 
+person's medical hist ory and asking t he person if t hey have experienced an y of t he issues 
+listed in t he recommendation (f or example, asking if t hey have stiffness of t heir shoulder 
+or if t he function of t heir shoulder is r educed). The e vidence did not specify t hat t hese risk 
+factors w ere only r elevant t o the aff ected side and t he committ ee not ed that people Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 5 of
+84
+should be consider ed at high risk if t hey have any of t he pr e-existing shoulder conditions 
+in the contralat eral side. It was also highlight ed that f or most people radiot herap y to the 
+axilla or supracla vicular nodes is decided bef ore sur gery. However, for some people t his 
+may be decided aft er post operativ e pat hology r eview . For this reason, t hey recommended 
+that people who ar e identified as needing radiot herap y to the axilla or supracla vicular 
+nodes aft er sur gery should also be consider ed as being at higher risk of de veloping 
+shoulder pr oblems. This ensur es that people w ould not miss out fr om super vised suppor t 
+if the need f or radiot herap y was not identified bef ore sur gery. 
+The committ ee also agr eed t hat, in t heir e xperience, ot her people ha ving sur gery for 
+breast cancer who did not meet t he high-risk crit eria in t he recommendations could 
+benefit fr om super vised suppor t. This includes, f or example, people wit h learning or 
+sensor y disabilities, which could adv ersely aff ect t heir ability t o carr y out e xercises 
+without super vision and mak e them mor e likely to develop shoulder pr oblems as a r esult. It 
+also includes people ha ving br east cancer sur gery who ha ve side eff ects from additional 
+cancer tr eatment s or who ha ve other commonly per formed adjunct sur geries in addition t o 
+breast cancer sur gery, as w ell as people who ar e having radiot herap y wit hout sur gery. 
+Based on t heir e xperience, t he committ ee recommended t hat super vised suppor t should 
+be deliv ered by a ph ysiot herap y staff member or ot her appr opriat ely trained allied healt h 
+professional (f or example, an occupational t herapist). This should include checking t he 
+performance of t he exercises and corr ecting t hem as needed. The committ ee agr eed t hat 
+people ma y not f eel confident in translating writt en exercise instructions int o physical 
+movement, so w ould benefit fr om ha ving advice on whet her t hey are doing t hem corr ectly. 
+This suppor t also allo ws people who might be e xperiencing difficulties wit h bot h the 
+exercises and wit h shoulder function t o be identified early aft er radiot herap y or sur gery. It 
+will also ensur e that people ar e able t o receiv e the full benefit fr om t he exercises, and ma y 
+increase adher ence if someone is confident t hey are doing t he exercises corr ectly. 
+The committ ee also agr eed super vised e xercises and ph ysiot herap y suppor t should be 
+available in diff erent f ormat s (for example, vir tual or gr oup sessions), and be tailor ed to 
+individual cir cumstances and needs (f or example, mental healt h and learning needs) t o 
+help wit h adher ence. Ther e was no e vidence about int erventions deliv ered vir tually , but 
+the committ ee agr eed t o recommend t his option as it ma y help t o reduce healt h 
+inequalities and addr ess access options f or people wher e other int erventions ar e not 
+locally a vailable. The committ ee w ere awar e that some people ma y not be able t o access 
+virtual ser vices f or a range of r easons, such as a lack of access t o suitable de vices, living 
+in areas of poor connectivity and difficulties wit h using t he technology . However, including Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 6 of
+84
+virtual ser vices in t he recommendations should not pr ovide barriers t o these people 
+accessing suppor t, as t hey can be giv en the option of f ace-t o-face sessions. The 
+committ ee also highlight ed that f ace-t o-face ph ysiot herap y ma y be mor e beneficial f or 
+people wit h comple x needs or t hose at higher risk (f or example, people fr om minority 
+ethnic f amily back grounds, people wit h disabilities, neur odiverse people, t hose who 
+experience ph ysical difficulties wit h recovery or r ehabilitation) because t hey might need 
+specific instructions and f eedback. 
+The committ ee w ere mindful t hat, while t heir e xperience sho ws that vir tual int erventions 
+are beneficial, t here is a lack of e vidence f or this and t hat t here was no e vidence on 
+whet her t he format of t he int ervention (individual, gr oup, vir tual, and f ace t o face) 
+impact ed adher ence or satisf action. Ther efore, the committ ee took t his int o account when 
+making r ecommendations f or resear ch to cover this gap in t he evidence. 
+Ther e was limit ed, lo w-quality e vidence on long-t erm out comes and no e vidence on 
+outcomes f or diff erent population subgr oups, such as people fr om minority et hnic f amily 
+back grounds, disabled people and neur odiverse people. The committ ee also not ed that 
+lower-quality e vidence comparing int erventions was not conclusiv e. The committ ee 
+discussed t he impor tance of understanding t he most eff ectiv e and cost -effectiv e wa y of 
+deliv ering t he int ervention (f or example, type of ph ysiot herap y or e xercise, mode of 
+deliv ery, number of sessions) and t he acceptability of such int ervention f or diff erent 
+populations, and made a recommendation f or resear ch on t he most eff ectiv e and cost -
+effectiv e wa y of deliv ering t he int ervention  to addr ess t his gap in t he evidence. 
+The committ ee also r ecommended t hat people should be r eferred to the ph ysiot herap y 
+depar tment if t hey repor t a persist ent r eduction in arm and shoulder mobility aft er br east 
+cancer tr eatment. This allo ws people t o continue t o seek suppor t if it is needed. The 
+committ ee not ed that t he recommendation f or resear ch int o adher ence t o, and 
+satisf action wit h, diff erent int ervention f ormat s will gat her e vidence about t he long-t erm 
+effects of strat egies t o reduce arm and shoulder pr oblems, and t his ma y reduce t he 
+number of people who ha ve to be r eferred to the ph ysiot herap y depar tment in futur e. 
+How the r ecommenda tions mig ht affect practice 
+Ther e ma y be an incr ease in t he number of people ha ving super vised e xercise or 
+physiot herap y suppor t after br east cancer sur gery or bef ore radiot herap y. However, if this 
+could be deliv ered vir tually (individual or gr oup), it is lik ely to have a lo wer impact on NHS 
+resour ces t han in-person 1-t o-1 sessions and could fr ee up r esour ces f or face-t o-face Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 7 of
+84
+interventions f or those f or whom vir tual ser vices ar e not appr opriat e or if t here are barriers 
+to them accessing vir tual ser vices. 
+Return t o recommendations 
+Lifestyle 
+Recommendations  1.14.1 and 1 .14.2 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was e vidence t hat bot h dietar y changes (r educing f at intak e and maintaining a 
+healt hy weight) and ph ysical activity incr ease sur vival in people wit h invasive breast 
+cancer . 
+Ther e was some e vidence t hat cancer r ecurr ence is mor e likely in people who drink mor e 
+than 3 or 4 alcoholic drinks per w eek or 6  g of alcohol per da y. This equat es to 
+appr oximat ely 5  units of alcohol per w eek. 
+Ther e was no e vidence t hat smoking cessation r educes r ecurr ence of br east cancer , 
+although t he view of t he committ ee was t hat smoking cessation should alwa ys be 
+recommended t o people wit h breast cancer . 
+How the r ecommenda tions mig ht affect practice 
+The committ ee discussed t hat man y NHS ser vices w ould alr eady be advising people wit h 
+breast cancer about t he impor tance of a healt hy lifestyle, and ho w they can mak e lifestyle 
+changes t o reduce t he risk of r ecurr ence. The committ ee agr eed t hat t hese 
+recommendations will help t o direct con versations t owards eff ectiv e lifestyle changes. 
+Ther e will be no impact on r esour ces because t hese discussions w ere already happening, 
+and most of t he lif estyle changes will be 'self -care' and implement ed by patient s 
+themselv es. 
+Return t o recommendations Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 8 of
+84
+Context 
+This guideline updat es and r eplaces t he NICE guideline on early and locally adv anced 
+breast cancer (CG80). This is because new e vidence was identified in sur veillance t hat 
+could aff ect r ecommendations, and has alr eady changed clinical practice in some 
+locations. 
+People wit h sympt oms t hat could be caused b y breast cancer ar e referred by their GP t o 
+designat ed br east clinics in local hospitals (see NICE's guideline on suspect ed cancer: 
+recognition and r eferral ). In addition, eligible w omen ar e invited for scr eening t hrough t he 
+NHS Br east Scr eening Pr ogramme (NHSBSP) in England or t he Br east T est W ales 
+Screening Pr ogramme (BTWSP) in W ales. F or most people, whet her t hey are referred 
+following br east scr eening or aft er pr esentation t o a GP , diagnosis in t he br east clinic is 
+made b y triple assessment ( clinical assessment, mammograph y and/or ultrasound 
+imaging, and cor e biopsy and/or fine-needle aspiration cyt ology). It is best practice t o 
+carry out t hese assessment s at t he same visit (see NICE's cancer ser vice guideline on 
+improving out comes in br east cancer ). 
+Breast cancer is t he most common cancer in t he UK, wit h appr oximat ely 54 ,000 new 
+cases of in vasive disease and ar ound 7 ,000 new cases of pr e-invasive (in situ) disease 
+diagnosed annually . Most of t he br east cancers occur in w omen, but just o ver 300 men in 
+the UK ar e also diagnosed wit h invasive breast cancer e very year. 
+Most br east cancers ar e diagnosed at an early stage and ar e therefore pot entially curable 
+with modern tr eatment s. Sur vival rat es ha ve impr oved over recent decades wit h almost 
+90% of w omen diagnosed wit h breast cancer sur viving t heir disease f or 5 or mor e years 
+after diagnosis. Sur vival is, ho wever, link ed to the stage of t he disease at diagnosis; only 
+15% of w omen diagnosed wit h stage  IV disease ar e aliv e at 5  years. Br east cancer r emains 
+the leading cause of deat h in w omen aged 35 t o 49  years and is second only t o lung 
+cancer as t he leading cause of cancer deat h in all w omen. 
+The main risk f actor for br east cancer is being f emale; t he disease is 100 times less 
+common in men. It is also a disease of ageing, wit h the risk of br east cancer incr easing 
+with incr easing age. Some br east cancers ar e link ed to lifestyle f actors t hat include 
+obesity , alcohol intak e and use of hormone r eplacement t herap y, wher eas ot her lif estyle 
+factors, including ph ysical activity and br eastf eeding, pr otect against br east cancer . About 
+5% of br east cancers ar e because of inherit ed mutations in high-risk genes such as Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 9 of
+84
+BRCA 1/2 and  p53. 
+Groups tha t are covered 
+Adult s (18 and o ver) wit h: 
+• newly diagnosed in vasive adenocar cinoma of t he br east of an y siz e (T1 t o T4), wit h or 
+without spr ead t o locor egional lymph nodes (N0 t o N3) and wit h no distant 
+metastases (M0) 
+• newly diagnosed ductal car cinoma in situ (DCIS) 
+• Paget's disease of t he br east. 
+Groups tha t are not c overed 
+Adult s (18 and o ver) wit h: 
+• invasive adenocar cinoma of t he br east and distant metastases ( clinical or pat hological 
+M1) 
+• rare breast tumours (f or example, angiosar coma or lymphoma) 
+• benign br east tumours (f or example, fibr oadenoma) 
+• phyllodes tumour 
+• locally r ecurr ent br east cancer or DCIS 
+• lobular car cinoma in situ (L CIS) 
+• no personal hist ory of br east cancer and an incr eased risk of br east cancer due t o 
+family hist ory. Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 80 of
+84
+Finding mor e inf orma tion and c ommi ttee 
+details 
+To find NICE guidance on r elated topics, including guidance in de velopment, see t he NICE 
+topic page on br east cancer . 
+For full details of t he evidence and t he guideline committ ee's discussions, see t he 
+evidence r eviews . You can also find inf ormation about how the guideline was de veloped , 
+including details of t he committ ee. 
+NICE has pr oduced tools and r esour ces t o help y ou put t his guideline int o practice . For 
+general help and advice on putting our guidelines int o practice, see resour ces t o help y ou 
+put guidance int o practice . Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 81 of
+84
+Update inf orma tion 
+Januar y 202 4: We have review ed the evidence and ha ve updat ed and made new 
+recommendations on further sur gery aft er br east-conser ving sur gery. These 
+recommendations ar e mark ed [202 4] or [2009 , amended 202 4]. 
+June 2023: We have review ed the evidence and made new r ecommendations and 
+recommendations f or resear ch on dose fractionation f or external beam radiot herap y. 
+These r ecommendations ar e mark ed [2023] . 
+We have also made some changes wit hout an e vidence r eview: 
+• We have updat ed some w ording t o bring t he language and style up t o dat e, wit hout 
+changing t he meaning. 
+• We have updat ed some r ecommendations t o bring t hem in line wit h curr ent 
+terminology and practice. 
+• We have combined, clarified or r eworded some r ecommendations t o mak e them 
+clear er and t o impr ove ease of r eading. 
+These r ecommendations ar e mark ed [2008 , amended 2023]  and [2018 , amended 2023] . 
+Recommendations mark ed [2009] , [2017] , [2018]  and [2009 , amended 2018]  last had an 
+evidence r eview in 2009 , 2017 and 2018 , respectiv ely. In some cases, minor changes ha ve 
+been made t o the w ording t o bring t he language and style up t o dat e, wit hout changing 
+the meaning. 
+April 2023: We have review ed the evidence and made new r ecommendations and 
+recommendations f or resear ch on arm and shoulder mobility . These r ecommendations ar e 
+mark ed [2023] . 
+July 2018:  We have review ed the evidence and made new r ecommendations on t he 
+diagnosis and tr eatment of people wit h early and locally adv anced br east cancer . These 
+recommendations ar e mark ed [2018] . 
+We have also made some changes wit hout an e vidence r eview: Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 82 of
+84
+• In recommendation  1.1.4, a link has been added t o NICE's guideline on f amilial br east 
+cancer , which co vers inf ormation on genetic t esting. 
+• Recommendation  1.3.5 has been amended because all r ecurr ence rat es should be 
+audit ed, not just f or ductal car cinoma in situ (DCIS). 
+• Recommendation  1.4.6 was par tly updat ed and r eplaced; t he remaining par t on biopsy 
+has been r etained. 
+• 'Multidisciplinar y team' was added t o recommendation  1.6.7 to mak e it clear t his is 
+wher e the result s should be discussed. 
+• Recommendation  1.7.2 was amended because t he original r ecommendations had not 
+made clear t hat pr emenopausal w omen (and men) should r eceiv e tamo xifen first line, 
+and t hat it should be used in lo w-risk postmenopausal w omen as w ell as if ar omatase 
+inhibit ors ar e not t olerat ed or contraindicat ed. 
+• Recommendation  1.8.4 was amended t o distinguish betw een t his recommendation and 
+the new r ecommendation f or T1a/T1b, so it was f elt necessar y to add 'T1c and abo ve' 
+to this recommendation. The w ording of t he trastuzumab r ecommendations ha ve been 
+amended in line wit h the curr ent summar y of pr oduct charact eristics and t he 
+population added t o mak e the recommendation clear er. 
+• Recommendation  1.9.4 was r eworded t o exclude t hose people who w ere receiving 
+bisphosphonat es as adjuv ant t herap y. 
+• In recommendation  1.10.7, the w ord 'adequat e' was changed t o 'wit h clear mar gins'. 
+• Recommendation  1.10.9 was changed fr om 'off er' to 'consider' because it contradict ed 
+the new r ecommendations on mar gins aft er sur gery for DCIS. 
+• In recommendation  1.10.17, the term 'sit e of local e xcision' has been amended t o 
+'tumour bed' , and br east-conser ving sur gery has been r emoved because t his is no w 
+covered by additional r ecommendations. 
+• In recommendation  1.10.19, the term 'axilla and supracla vicular f ossa' has been 
+changed t o 'regional lymph nodes' . 
+• In recommendation  1.10.20, the term ' ALND' has been changed t o 'axillar y clearance' . 
+• In recommendation  1.12.17, the guideline committ ee was awar e of new e vidence on 
+other selectiv e ser otonin r euptak e inhibit ors (SSRIs) and has amended t he w ording Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 83 of
+84
+accor dingly but could not be specific because t here was no new e vidence r eview in 
+this guideline updat e. 
+These r ecommendations ar e mark ed [2009 , amended 2018] . 
+Recommendations mark ed [2009]  last had an e vidence r eview in 2009 . In some cases, 
+minor changes ha ve been made t o the w ording t o bring t he language and style up t o dat e, 
+without changing t he meaning. 
+Minor changes since publication 
+March 202 4: Evidence r eview N was amended t o add a missing study . The rationales f or 
+DCIS in section 1 .3 were updat ed but t here were no changes t o the recommendations. 
+May 2022:  We added a link t o NICE's guideline on medicines associat ed wit h dependence 
+or wit hdrawal sympt oms in t he section on menopausal sympt oms. 
+ISBN: 9 78-1-47 31-5688- 3 Early and locally adv anced br east cancer: diagnosis and management (NG101)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 84 of
+84
