@@ -1,0 +1,518 @@
+Pancr eatic c ancer in adul ts: 
+diagnosis and manag emen t 
+NICE guideline 
+Published: 7 F ebruar y 2018 
+www .nice.or g.uk/guidance/ng85 
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).
+Your r esponsi bility 
+The r ecommendations in t his guideline r epresent t he view of NICE, arriv ed at aft er car eful 
+consideration of t he evidence a vailable. When e xercising t heir judgement, pr ofessionals 
+and practitioners ar e expect ed to tak e this guideline fully int o account, alongside t he 
+individual needs, pr eferences and v alues of t heir patient s or t he people using t heir ser vice. 
+It is not mandat ory to apply t he recommendations, and t he guideline does not o verride t he 
+responsibility t o mak e decisions appr opriat e to the cir cumstances of t he individual, in 
+consultation wit h them and t heir f amilies and car ers or guar dian. 
+All pr oblems (adv erse e vents) related to a medicine or medical de vice used f or treatment 
+or in a pr ocedur e should be r epor ted to the Medicines and Healt hcare product s Regulat ory 
+Agency using t he Yellow Car d Scheme . 
+Local commissioners and pr oviders of healt hcare have a responsibility t o enable t he 
+guideline t o be applied when individual pr ofessionals and people using ser vices wish t o 
+use it. The y should do so in t he cont ext of local and national priorities f or funding and 
+developing ser vices, and in light of t heir duties t o have due r egar d to the need t o eliminat e 
+unlawful discrimination, t o adv ance equality of oppor tunity and t o reduce healt h 
+inequalities. Not hing in t his guideline should be int erpreted in a wa y that w ould be 
+inconsist ent wit h complying wit h those duties. 
+Commissioners and pr oviders ha ve a responsibility t o promot e an en vironmentally 
+sustainable healt h and car e syst em and should assess and r educe t he en vironmental 
+impact of implementing NICE r ecommendations  wher ever possible. Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 of
+23
+Contents 
+Overview .................................................................................................................................... 4 
+Who is it f or? ......................................................................................................................................... 4 
+Recommendations ..................................................................................................................... 5 
+1.1 Diagnosis .......................................................................................................................................... 5 
+1.2 Specialist pancr eatic multidisciplinar y teams .............................................................................. 7 
+1.3 Staging ............................................................................................................................................ 8 
+1.4 Psy chological suppor t ................................................................................................................... 8 
+1.5 Pain management ........................................................................................................................... 9 
+1.6 Nutritional management ................................................................................................................ 9 
+1.7 Relieving biliar y and duodenal obstruction .................................................................................. 10 
+1.8 Managing r esectable and bor derline r esectable pancr eatic cancer ......................................... 11 
+1.9 Managing unr esectable pancr eatic cancer .................................................................................. 12 
+Terms used in t his guideline ................................................................................................................ 15 
+Cont ext ....................................................................................................................................... 16 
+Recommendations f or resear ch ............................................................................................... 17 
+1 Neoadjuv ant t herap y ......................................................................................................................... 17 
+2 Cache xia int erventions ..................................................................................................................... 18 
+3 Minimally in vasive pancr eatectomy ................................................................................................ 18 
+4 Pain management ............................................................................................................................. 19 
+5 Psy chological suppor t needs ........................................................................................................... 20 
+Finding mor e information and committ ee details ................................................................... 22 
+Updat e information ................................................................................................................... 23 Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 3 of
+23
+This guideline r eplaces T A25. 
+This guideline is t he basis of QS17 7. 
+This guideline should be r ead in conjunction wit h TA476. 
+Overview 
+This guideline co vers diagnosing and managing pancr eatic cancer in adult s aged 18 and 
+over. It aims t o impr ove car e by ensuring quick er and mor e accurat e diagnosis, and b y 
+specifying t he most eff ectiv e treatment s for people depending on ho w adv anced t heir 
+cancer is. 
+For recommendations on identifying pancr eatic cancer in primar y car e, or when t o refer 
+people t o a specialist, see t he NICE guideline on r ecognition and r eferral f or suspect ed 
+cancer . 
+Pancr eatic enzyme r eplacement t herapies:  In Sept ember 202 4, supplies of pancr eatic 
+enzyme r eplacement t herap y were disrupt ed, so a vailability v aries. Use t he Specialist 
+Pharmacy Ser vice's pr escribing and or dering a vailable pancr eatic enzyme r eplacement 
+therapies  resour ce and t ool to help identify equiv alent licensed pr oduct s. 
+Who is i t for? 
+• Healt hcare professionals 
+• Commissioners and pr oviders 
+• Adult s aged 18 and o ver wit h pancr eatic cancer , their f amilies and car ers Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 of
+23
+Recommenda tions 
+People ha ve the right t o be in volved in discussions and mak e informed decisions 
+about t heir car e, as described in NICE's inf ormation on making decisions about y our 
+care. 
+Making decisions using NICE guidelines  explains ho w we use w ords to sho w the 
+strengt h (or cer tainty) of our r ecommendations, and has inf ormation about 
+prescribing medicines (including off -label use), pr ofessional guidelines, standar ds 
+and laws (including on consent and mental capacity), and saf eguar ding. 
+1.1 D iagnosis 
+People wi th obstruc tive jaundic e 
+1.1.1 For people wit h obstructiv e jaundice and suspect ed pancr eatic cancer , offer a 
+pancr eatic pr otocol CT scan bef ore draining t he bile duct. 
+1.1.2 If the diagnosis is still unclear , offer fluor odeo xyglucose-positr on emission 
+tomograph y/CT (FDG-PET /CT) and/or endoscopic ultrasound (EUS) wit h 
+EUS-guided tissue sampling. 
+1.1.3 Take a biliar y brushing f or cyt ology if: 
+• endoscopic r etrograde cholangiopancr eatograph y (ERCP) is being used t o 
+relieve the biliar y obstruction and 
+• there is no tissue diagnosis. Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 5 of
+23
+People wi thou t jaundic e who ha ve pancr eatic abnormali ties on 
+imag ing 
+1.1.4 Offer a pancr eatic pr otocol CT scan t o people wit h pancr eatic abnormalities but 
+no jaundice. 
+1.1.5 If the diagnosis is still unclear , offer FDG-PET /CT and/or EUS wit h EUS-guided 
+tissue sampling. 
+1.1.6 If cyt ological or hist ological samples ar e needed, off er EUS wit h EUS-guided 
+tissue sampling. 
+People wi th pancr eatic c ysts 
+1.1.7 Offer a pancr eatic pr otocol CT scan or magnetic r esonance 
+cholangiopancr eatograph y (MRI/MRCP) t o people wit h pancr eatic cyst s. If mor e 
+information is needed aft er one of t hese t ests, off er the ot her one. 
+1.1.8 Refer people wit h any of t hese high-risk f eatur es for resection: 
+• obstructiv e jaundice wit h cystic lesions in t he head of t he pancr eas 
+• enhancing solid component in t he cyst 
+• a main pancr eatic duct t hat is 10  mm diamet er or lar ger. 
+1.1.9 Offer EUS aft er CT and MRI/MRCP if mor e information on t he lik elihood of 
+malignancy is needed, or if it is not clear whet her sur gery is needed. 
+1.1.10 Consider fine-needle aspiration during EUS if mor e information on t he lik elihood 
+of malignancy is needed. 
+1.1.11 When using fine-needle aspiration, per form car cinoembr yonic antigen (CEA) 
+assa y in addition t o cyt ology if t here is sufficient sample. 
+1.1.12 For people wit h cyst s that ar e thought t o be malignant, f ollow the 
+recommendations on staging . Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 6 of
+23
+People wi th inheri ted hig h risk o f pancr eatic c ancer 
+1.1.13 Ask people wit h pancr eatic cancer if an y of t heir first -degr ee relativ es has had it. 
+Addr ess an y concerns t he person has about inherit ed risk. 
+1.1.14 Offer sur veillance f or pancr eatic cancer t o people wit h: 
+• hereditar y pancr eatitis and a PRSS1 mutation 
+• BRCA 1, BRCA2, P ALB2 or CDKN2A (p16) mutations, and one or mor e first -
+degr ee relativ es wit h pancr eatic cancer 
+• Peutz–Jeghers syndr ome. 
+1.1.15 Consider sur veillance f or pancr eatic cancer f or people wit h: 
+• 2 or mor e first -degr ee relativ es wit h pancr eatic cancer , across 2  or mor e 
+generations 
+• Lynch syndr ome (mismat ch repair gene [MLH1 , MSH2, MSH6 or PMS2] 
+mutations) and an y first -degr ee relativ es wit h pancr eatic cancer . 
+1.1.16 Consider an MRI/MRCP or EUS f or pancr eatic cancer sur veillance in people 
+without her editar y pancr eatitis. 
+1.1.17 Consider a pancr eatic pr otocol CT scan f or pancr eatic cancer sur veillance in 
+people wit h her editar y pancr eatitis and a PRSS1 mutation. 
+1.1.18 Do not off er EUS t o det ect pancr eatic cancer in people wit h her editar y 
+pancr eatitis. 
+1.2 S pecialist pancr eatic m ultidiscip linar y teams 
+1.2.1 A specialist pancr eatic cancer multidisciplinar y team should decide what car e is 
+needed, and in volve the person wit h suspect ed or confirmed pancr eatic cancer in 
+the decision. Car e should be deliv ered in par tnership wit h local cancer unit s. Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 of
+23
+1.3 S taging 
+1.3.1 For people wit h newly diagnosed pancr eatic cancer who ha ve not had a 
+pancr eatic pr otocol CT scan, off er a pancr eatic pr otocol CT scan t hat includes 
+the chest, abdomen and pelvis. 
+1.3.2 Offer fluor odeo xyglucose-positr on emission t omograph y/CT (FDG-PET /CT) t o 
+people wit h localised disease on CT who will be ha ving cancer tr eatment 
+(surgery, radiot herap y or syst emic t herap y). 
+1.3.3 If mor e information is needed t o decide t he person's clinical management, 
+consider one or mor e of t he following: 
+• MRI, f or suspect ed liv er metastases 
+• endoscopic ultrasound, if mor e information is needed f or tumour and node 
+staging 
+• lapar oscop y wit h lapar oscopic ultrasound, f or suspect ed small-v olume 
+perit oneal and/or liv er metastases if r esectional sur gery is a possibility . 
+See r ecommendation  1.2.1 on ho w car e should be agr eed and deliv ered. 
+1.4 P sychological suppor t 
+1.4.1 Throughout t he person's pancr eatic cancer car e pat hway, specifically assess t he 
+psychological impact of: 
+• fatigue 
+• pain 
+• gastr ointestinal sympt oms (including changes t o appetit e) 
+• nutrition 
+• anxiety 
+• depr ession. Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 8 of
+23
+1.4.2 Provide people and t heir f amily members or car ers (as appr opriat e) wit h 
+information and suppor t to help t hem manage t he psy chological impact of 
+pancr eatic cancer on t heir liv es and daily activities. This should be: 
+• available on an ongoing basis 
+• relevant t o the stage of t he person's condition 
+• tailor ed to the person's needs. 
+1.4.3 For mor e guidance on pr oviding inf ormation and suppor t, see t he NICE guideline 
+on patient e xperience in adult NHS ser vices . 
+1.5 P ain manag emen t 
+1.5.1 Consider EUS-guided or image-guided per cutaneous neur olytic coeliac ple xus 
+block t o manage pain f or people wit h pancr eatic cancer who: 
+• have uncontr olled pancr eatic pain or 
+• are experiencing unacceptable opioid adv erse eff ects or 
+• are receiving escalating doses of analgesics. 
+1.5.2 Do not off er thoracic splanchnicect omy to people wit h pancr eatic cancer . 
+1.6 Nutritional manag emen t 
+In Sept ember 202 4, supplies of pancr eatic enzyme r eplacement t herap y were disrupt ed, 
+so availability v aries. Use t he Specialist Pharmacy Ser vice's pr escribing and or dering 
+available pancr eatic enzyme r eplacement t herapies  resour ce and t ool to help identify 
+equiv alent licensed pr oduct s. 
+1.6.1 Offer ent eric-coat ed pancr eatin f or people wit h unr esectable pancr eatic cancer . 
+1.6.2 Consider ent eric-coat ed pancr eatin bef ore and aft er pancr eatic cancer r esection. Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 9 of
+23
+1.6.3 Do not use fish oils as a nutritional int ervention t o manage w eight loss in people 
+with unr esectable pancr eatic cancer . 
+1.6.4 For people who ha ve had pancr eatoduodenect omy and who ha ve a functioning 
+gut, off er early ent eral nutrition (including oral and tube f eeding) rat her t han 
+parenteral nutrition. 
+1.6.5 For mor e guidance on nutrition suppor t, see t he NICE guideline on nutrition 
+suppor t in adult s. 
+1.7 Relieving biliar y and duodenal obstruc tion 
+Biliary obstruc tion 
+1.7.1 Offer resectional sur gery rat her t han pr eoperativ e biliar y drainage t o people who: 
+• have resectable pancr eatic cancer and obstructiv e jaundice and 
+• are well enough f or the pr ocedur e and 
+• are not enr olled in a clinical trial t hat r equir es pr eoperativ e biliar y drainage. 
+1.7.2 During att empt ed resection f or pancr eatic cancer , consider sur gical biliar y bypass 
+if the cancer is f ound t o be unr esectable. 
+1.7.3 If biliar y drainage is needed in a person who has r esectable pancr eatic cancer 
+and obstructiv e jaundice and is not y et fit enough f or resectional sur gery, offer 
+endoscopically placed self -expanding metal st ents. 
+1.7.4 For people wit h suspect ed pancr eatic cancer who ma y need t heir st ent r emoved 
+later on, consider endoscopically placed self -expanding fully co vered metal 
+stents. 
+1.7.5 Offer endoscopically placed self -expanding metal st ents rat her t han sur gical 
+biliar y bypass t o people wit h unr esectable pancr eatic cancer . Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 10 of
+23
+Duodenal obstruc tion 
+1.7.6 During att empt ed resection f or head of pancr eas cancer , consider pr ophylactic 
+gastr ojejunost omy if the cancer is f ound t o be unr esectable. 
+1.7.7 If possible, r elieve sympt omatic duodenal obstruction caused b y unr esectable 
+pancr eatic cancer . 
+1.7.8 When deciding betw een gastr ojejunost omy and duodenal st ent placement, 
+consider gastr ojejunost omy for people wit h a mor e favourable pr ognosis. 
+1.8 M anag ing r esectable and bor derline r esectable 
+pancr eatic c ancer 
+Neoadjuvant ther apy 
+1.8.1 Only consider neoadjuv ant t herap y for people wit h bor derline r esectable 
+pancr eatic cancer as par t of a clinical trial. 
+1.8.2 Only consider neoadjuv ant t herap y for people wit h resectable pancr eatic cancer 
+as par t of a clinical trial. 
+Surgery 
+1.8.3 For people ha ving sur gery for head of pancr eas cancer , consider p ylorus-
+preserving r esection if t he tumour can be adequat ely resect ed. 
+1.8.4 Consider standar d lymphadenect omy, rather t han e xtended lymphadenect omy 
+for people ha ving head of pancr eas r esection. 
+Adjuvant treatmen t 
+1.8.5 Give people time t o recover from sur gery bef ore star ting adjuv ant t herap y. Star t Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 11 of
+23
+adjuv ant t herap y as soon as t hey are well enough t o tolerat e all 6  cycles. 
+1.8.6 Offer adjuv ant gemcitabine plus capecitabine t o people who ha ve had sufficient 
+time t o recover aft er pancr eatic cancer r esection. 
+In Februar y 2018 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . 
+1.8.7 Consider adjuv ant gemcitabine f or people who ar e not w ell enough t o tolerat e 
+combination chemot herap y. 
+In Februar y 2018 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . 
+Follow-up f or resected pancr eatic c ancer 
+1.8.8 For people who ha ve had r esection, off er ongoing specialist assessment and car e 
+to identify and manage an y problems r esulting fr om sur gery. 
+1.8.9 For people who ha ve new , une xplained or unr esolv ed sympt oms aft er treatment, 
+provide access t o specialist in vestigation and suppor t ser vices. 
+1.9 M anag ing unr esectable pancr eatic c ancer 
+Locally advanced pancr eatic c ancer 
+1.9.1 Offer syst emic combination chemot herap y to people wit h locally adv anced 
+pancr eatic cancer who ar e well enough t o tolerat e it. 
+1.9.2 Consider gemcitabine f or people wit h locally adv anced pancr eatic cancer who 
+are not w ell enough t o tolerat e combination chemot herap y. 
+1.9.3 When using chemoradiot herap y, consider capecitabine as t he radiosensitiser . Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 12 of
+23
+Metasta tic pancr eatic c ancer 
+First -line tr eatment 
+1.9.4 Offer FOLFIRINO X to people wit h metastatic pancr eatic cancer and an East ern 
+Cooperativ e Oncology Gr oup (ECOG) per formance status of 0  to 1. 
+In Februar y 2018 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . 
+1.9.5 Consider gemcitabine combination t herap y for people who ar e not w ell enough t o 
+tolerat e FOLFIRINO X. See t he section on nab-paclitax el wit h gemcitabine 
+(TA476). 
+In Februar y 2018 , this was an off -label use of man y gemcitabine combination 
+therapies. See NICE's inf ormation on pr escribing medicines . 
+1.9.6 Offer gemcitabine t o people who ar e not w ell enough t o tolerat e combination 
+chemot herap y. 
+NICE guidance on a gemcitabine combination t herapy 
+Find out why these r ecommendations look a litt le diff erent fr om usual . Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 13 of
+23
+TA47 6: Nab-paclitax el wit h gemcitabine 
+Paclitax el as albumin-bound nanopar ticles (nab-paclitax el) wit h gemcitabine is 
+recommended as an option f or untr eated metastatic adenocar cinoma of t he pancr eas 
+in adult s, only if: 
+• other combination chemot herapies ar e unsuitable and t hey would ot herwise ha ve 
+gemcitabine monot herap y and 
+• the compan y provides nab-paclitax el wit h the discount agr eed in t he patient 
+access scheme. 
+This r ecommendation is not int ended t o aff ect tr eatment wit h nab-paclitax el that was 
+started in t he NHS bef ore this guidance was published. P eople ha ving tr eatment 
+outside t his recommendation ma y continue wit hout change t o the funding 
+arrangement s in place f or them bef ore this guidance was published, until t hey and 
+their NHS clinician consider it appr opriat e to stop. 
+To see wh y we made t hese r ecommendations, see t he full technology appraisal 
+guidance on paclitax el as albumin-bound nanopar ticles wit h gemcitabine f or 
+untreated metastatic pancr eatic cancer . 
+Second-line tr eatment 
+1.9.7 Consider o xaliplatin-based chemot herap y as second-line tr eatment f or people 
+who ha ve not had first -line o xaliplatin. 
+In Februar y 2018 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . 
+1.9.8 Consider gemcitabine-based chemot herap y as second-line tr eatment f or people 
+whose cancer has pr ogressed aft er first -line FOLFIRINO X. 
+In Februar y 2018 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 14 of
+23
+Venous t hromboembolism pr ophylaxis 
+For recommendations on v enous t hromboembolism pr ophylaxis f or people wit h pancr eatic 
+cancer , see t he NICE guideline on r educing t he risk of hospital-acquir ed deep v ein 
+thrombosis or pulmonar y embolism in o ver 16s . 
+Genomic biomar ker-base d treatmen t 
+The point at which t o use genomic biomark er-based t herap y in solid tumour tr eatment 
+pathways is uncer tain. See our t opic page on genomic biomark er-based cancer 
+treatment s. 
+Terms use d in this guideline 
+Standar d lymphadene ctomy 
+As defined b y Tol et al. (2014) Definition of a standar d lymphadenect omy in sur gery for 
+pancr eatic ductal adenocar cinoma: a consensus stat ement b y the Int ernational Study 
+Group on Pancr eatic Sur gery (ISGPS)T ol et al. (2014) Definition of a standar d 
+lymphadenect omy in sur gery for pancr eatic ductal adenocar cinoma: a consensus 
+statement b y the Int ernational Study Gr oup on Pancr eatic Sur gery (ISGPS) . Sur gery 
+156(3): 591–600 Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 15 of
+23
+Context 
+Pancr eatic cancer is t he fift h most common cause of cancer deat h in t he UK, wit h an 
+annual incidence of nearly  9,600. On a verage, 23  people die each da y from t he disease. 
+The UK has one of t he w orst sur vival rat es in Eur ope, wit h average lif e expectancy on 
+diagnosis just 4  to 6 mont hs and a r elativ e sur vival to 1 year of appr oximat ely 20%. 
+Only 3% of people sur vive for 5 years or longer . This figur e has not impr oved much in o ver 
+40 years, and it is not y et clear ho w the mor e recent tr end of incr eased sur gery and 
+adjuv ant chemot herap y will aff ect sur vival. 
+Because of lat e diagnosis, only appr oximat ely 8% of people wit h pancr eatic cancer ar e 
+eligible f or pot entially curativ e sur gery. However, people ha ve up t o a 30% chance of 
+surviving 5  years if t heir tumour can be sur gically r emoved and t hey have adjuv ant 
+chemot herap y. 
+The sympt oms of pancr eatic cancer ar e non-specific. One sur vey found t hat 40% of 
+people diagnosed wit h pancr eatic cancer in England had visit ed their GP 3  or mor e times 
+before the diagnosis was made. Fifty per cent of people ar e diagnosed as an emer gency in 
+A&E. Ev en aft er diagnosis, t here is e vidence fr om t he National Cancer Int elligence Netw ork 
+of wide v ariation in practice t hroughout England. 
+Ther e are oft en dela ys in access t o diagnosis and tr eatment (as highlight ed in t he NHS 
+England Fiv e Year F orward View ), and t his guideline will help t o impr ove this. Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 16 of
+23
+Recommenda tions f or research 
+The guideline committ ee has made t he following r ecommendations f or resear ch. The 
+committ ee's full set of r ecommendations f or resear ch ar e detailed in t he full guideline . 
+1 Neoadjuvant ther apy 
+Prospectiv e randomised trials should be under taken to compar e preoperativ e 
+(neoadjuv ant) t herap y wit h standar d post operativ e therap y in people wit h resectable 
+pancr eatic cancer . 
+Why this is im portant 
+The sur vival rat e of pancr eatic cancer aft er sur gical r esection is v ery low, which suggest s 
+that most patient s have metastatic disease at t he time of sur gery. In addition, 
+complications of sur gery ma y stop people fr om ha ving adjuv ant t herap y. This mak es 
+neoadjuv ant t herap y an attractiv e option. Ho wever, the evidence f or neoadjuv ant t herap y 
+is limit ed and lo w quality . Using neoadjuv ant t herap y means dela ying sur gery, and it is 
+possible t hat during t his dela y pancr eatic cancer will pr ogress and become unr esectable in 
+some people, negating an y benefit of neoadjuv ant t herap y. 
+Resear ch is needed t o compar e neoadjuv ant tr eatment s (which might be chemot herap y, 
+radiot herap y or bot h) wit h sur gery followed by adjuv ant chemot herap y. The out comes of 
+interest ar e: 
+• feasibility of deliv ering neoadjuv ant tr eatment 
+• feasibility of randomising patient s 
+• objectiv e response rat e of neoadjuv ant t herap y 
+• R0 resection rat e 
+• surgical complications, lengt h of hospital sta y, mor tality of sur gery 
+• deliv ery of planned tr eatment 
+• disease-fr ee sur vival and o verall sur vival aft er sur gery Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 17 of
+23
+• quality of lif e, patient e xperience and patient -repor ted out come measur es. 
+2 Cache xia in terventions 
+A cohor t study f ollowed by phase  2 and  3 studies should be under taken in people wit h 
+pancr eatic cancer and cache xia or pr e-cache xia, t o compar e cache xia assessment 
+methods and anti-cache xia int erventions wit h standar d car e. 
+Why this is im portant 
+Most people wit h adv anced and metastatic pancr eatic cancer also ha ve cache xia. This 
+causes se vere reductions in t heir quality of lif e and is associat ed wit h reduced o verall 
+survival. Cache xia has 3  phases: pr e-cache xia, cache xia and r efract ory cache xia. The 
+condition cannot be st opped b y con ventional nutritional suppor t and leads t o progressiv e 
+functional impairment. Complet e or par tial reversal of cache xia w ould cause major 
+improvement s in quality of lif e, and pot entially impr ove sur vival if people r ecover enough t o 
+have mor e eff ectiv e cancer tr eatment s. The out comes of int erest ar e: 
+• prevention or r eversal of cache xia 
+• overall sur vival 
+• quality of lif e 
+• pain r elief 
+• lean tissue mass 
+• tolerance t o treatment. 
+3 Minimall y invasive pancr eatectomy 
+Prospectiv e randomised trials should be under taken to compar e the eff ectiv eness of 
+minimally in vasive pancr eatectomy or pancr eatoduodenect omy (lapar oscopic or r obotic) 
+with open pancr eatectomy or pancr eatoduodenect omy in people wit h pancr eatic cancer . 
+Why this is im portant 
+Minimally in vasive sur gery is generally consider ed to be mor e acceptable t o patient s than Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 18 of
+23
+open sur gery. It has been intr oduced successfully f or se veral ot her types of cancer and 
+has been sho wn to impr ove quality of lif e. Ho wever, there is not enough e vidence t o 
+determine whet her minimally in vasive sur gery impr oves morbidity and mor tality f or people 
+with pancr eatic cancer , compar ed wit h open sur gery. Prospectiv e randomised trials ar e 
+therefore needed in t his ar ea. The out comes of int erest ar e: 
+• conversion rat e to open sur gery 
+• R0 resection rat e 
+• lymph node yield 
+• blood loss 
+• duration of sur gery 
+• complications 
+• need f or critical car e 
+• lengt h of hospital sta y 
+• time t o return t o normal activity 
+• mortality of sur gery 
+• long-t erm sur vival aft er sur gery 
+• quality of lif e, patient e xperience and patient -repor ted out come measur es. 
+4 Pain manag emen t 
+A randomised trial should be under taken comparing early endoscopic ultrasound-guided 
+neurolytic coeliac ple xus (EUS-guided NCP) int erventions wit h on-demand EUS-guided 
+NCP int erventions in people wit h unr esectable pancr eatic cancer . 
+Why this is im portant 
+Ther e is a limit ed number of randomised trials in t his ar ea, and t he met hods used t o 
+perform NCP int ervention ar e het erogeneous. It is not clear if early NCP int ervention is 
+superior t o on-demand NCP int ervention in t erms of t he impor tant out comes f or the Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 19 of
+23
+patient and duration of eff ect of t he pr ocedur e. On-demand NCP int ervention ma y benefit 
+people wit h uncontr olled pain, people r eceiving escalating doses of analgesia, people 
+experiencing unacceptable analgesic side eff ects, and ot hers. Ho wever, people who 
+receiv e early NCP int ervention ma y not need on-demand NCP int ervention lat er on. 
+Further r esear ch should clarify if t he timing of t he int ervention conf ers an y adv antage. The 
+outcomes of int erest ar e: 
+• reduction in pain 
+• patient e xperience (including nutritional status) 
+• healt h-related quality of lif e 
+• adverse e vents 
+• analgesic use 
+• survival. 
+5 Psychological suppor t needs 
+A qualitativ e study should be under taken to evaluat e information and suppor t 
+interventions t o addr ess psy chological needs at diff erent point s in t he car e pat hway for 
+people wit h pancr eatic cancer . 
+Why this is im portant 
+People wit h pancr eatic cancer oft en ha ve unmet psy chological suppor t needs t hat impact 
+on their quality of lif e. These can be r elated to anxiety and depr ession, and t o the 
+psychological impact of f atigue, pain, gastr ointestinal sympt oms (par ticularly changes t o 
+appetit e) and nutritional status. Ther e has been v ery little resear ch int o the inf ormation 
+and suppor t interventions t hat w ould meet t hese needs. R esear ch w ould help identify 
+effectiv e information and suppor t interventions t hat w ould impr ove quality of lif e for 
+people wit h pancr eatic cancer and t heir f amily members or car ers. Out comes of int erest 
+are: 
+• quality of lif e 
+• psychological w ellbeing Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 20 of
+23
+• ability t o carr y out normal activities 
+• patient e xperience and patient -repor ted out come measur es. Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 21 of
+23
+Finding mor e inf orma tion and c ommi ttee 
+details 
+To find NICE guidance on r elated topics, including guidance in de velopment, see t he NICE 
+topic page on pancr eatic cancer . 
+For full details of t he evidence and t he guideline committ ee's discussions, see t he full 
+guideline . You can also find inf ormation about how the guideline was de veloped , including 
+details of t he committ ee. 
+NICE has pr oduced tools and r esour ces t o help y ou put t his guideline int o practice . For 
+general help and advice on putting our guidelines int o practice, see resour ces t o help y ou 
+put NICE guidance int o practice . Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 22 of
+23
+Update inf orma tion 
+Minor changes since publication 
+December 202 4: In Sept ember 202 4, supplies of pancr eatic enzyme r eplacement t herap y 
+were disrupt ed, so a vailability v aries. The lat est inf ormation on pr escribing and or dering 
+was added t o the section on nutritional management . 
+August 2023: As par t of our w ork t o mak e our guidance mor e useful and usable, w e are 
+testing out some changes t o impr ove the wa y we present our guidance. 
+The r ecommendations fr om t he technology appraisal guidance on nab-paclitax el wit h 
+gemcitabine (T A476) ha ve been br ought int o this guideline. 
+This is so t hat healt hcare professionals can see our r ecommendations f or this medicine 
+quickly , at t he right point in t his guideline and wit hout ha ving t o click ont o anot her page. 
+This is somet hing w e are testing wit h our users at t he moment. It is not t he final 
+presentation. T ell us what y ou think using our survey, or if y ou ha ve any questions, contact 
+us at contenttransf ormation@nice.or g.uk. 
+Januar y 2022:  Minor change t o redirect NICE Pat hway link. 
+ISBN: 9 78-1-47 31-2794-4 Pancr eatic cancer in adult s: diagnosis and management (NG85)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 23 of
+23

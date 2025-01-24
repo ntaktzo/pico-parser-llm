@@ -1,0 +1,2016 @@
+Brain tumour s (primar y) 
+and br ain me tastases in 
+over 16s 
+NICE guideline 
+Published: 11 July 2018 
+Last updat ed: 29 Januar y 2021 
+www .nice.or g.uk/guidance/ng99 
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).
+Your r esponsi bility 
+The r ecommendations in t his guideline r epresent t he view of NICE, arriv ed at aft er car eful 
+consideration of t he evidence a vailable. When e xercising t heir judgement, pr ofessionals 
+and practitioners ar e expect ed to tak e this guideline fully int o account, alongside t he 
+individual needs, pr eferences and v alues of t heir patient s or t he people using t heir ser vice. 
+It is not mandat ory to apply t he recommendations, and t he guideline does not o verride t he 
+responsibility t o mak e decisions appr opriat e to the cir cumstances of t he individual, in 
+consultation wit h them and t heir f amilies and car ers or guar dian. 
+All pr oblems (adv erse e vents) related to a medicine or medical de vice used f or treatment 
+or in a pr ocedur e should be r epor ted to the Medicines and Healt hcare product s Regulat ory 
+Agency using t he Yellow Car d Scheme . 
+Local commissioners and pr oviders of healt hcare have a responsibility t o enable t he 
+guideline t o be applied when individual pr ofessionals and people using ser vices wish t o 
+use it. The y should do so in t he cont ext of local and national priorities f or funding and 
+developing ser vices, and in light of t heir duties t o have due r egar d to the need t o eliminat e 
+unlawful discrimination, t o adv ance equality of oppor tunity and t o reduce healt h 
+inequalities. Not hing in t his guideline should be int erpreted in a wa y that w ould be 
+inconsist ent wit h complying wit h those duties. 
+Commissioners and pr oviders ha ve a responsibility t o promot e an en vironmentally 
+sustainable healt h and car e syst em and should assess and r educe t he en vironmental 
+impact of implementing NICE r ecommendations  wher ever possible. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 of
+68
+Contents 
+Overview ...................................................................................................................................... 5 
+Who is it f or? .......................................................................................................................................... 5 
+Recommendations ....................................................................................................................... 6 
+1.1 Investigation of suspect ed glioma .................................................................................................. 6 
+1.2 Management of glioma ................................................................................................................... 7 
+1.3 Follow-up f or glioma ........................................................................................................................ 17 
+1.4 Investigation and management of meningioma ........................................................................... 20 
+1.5 Follow-up f or meningioma .............................................................................................................. 24 
+1.6 Investigation of suspect ed brain metastases ............................................................................... 27 
+1.7 Management of confirmed brain metastases ............................................................................... 28 
+1.8 Follow-up f or brain metastases ..................................................................................................... 32 
+1.9 Car e needs of people wit h brain tumours ..................................................................................... 34 
+1.10 Neur orehabilitation needs of people wit h brain tumours ........................................................... 36 
+1.11 Sur veillance f or the lat e-onset side eff ects of tr eatment .......................................................... 37 
+Terms used in t his guideline ................................................................................................................. 39 
+Recommendations f or resear ch ................................................................................................. 40 
+Key recommendations f or resear ch .................................................................................................... 40 
+Rationale and impact ................................................................................................................... 45 
+Investigations f or suspect ed glioma: imaging .................................................................................... 45 
+Investigations f or suspect ed glioma: molecular mark ers .................................................................. 46 
+Management of glioma: initial sur gery for low-grade glioma ........................................................... 47 
+Management of glioma: fur ther management of lo w-grade glioma ................................................ 48 
+Management of glioma: grade  III glioma f ollowing sur gery .............................................................. 49 
+Management of glioma: grade  IV glioma f ollowing sur gery .............................................................. 50 
+Management of glioma: r ecurr ent high-grade glioma ....................................................................... 51 
+Management of glioma: t echniques f or resection of glioma ............................................................. 52 
+Follow-up f or glioma ............................................................................................................................. 54 Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 3 of
+68
+Investigation of suspect ed meningioma ............................................................................................. 55 
+Management of confirmed meningioma f ollowing sur gery or if sur gery is not possible ( or has 
+been declined) ....................................................................................................................................... 56 
+Follow-up f or meningioma .................................................................................................................... 57 
+Investigation of suspect ed brain metastases .................................................................................... 59 
+Management of confirmed brain metastases .................................................................................... 59 
+Follow-up f or brain metastases ........................................................................................................... 61 
+Care needs of people wit h brain tumours .......................................................................................... 62 
+Neur orehabilitation needs of people wit h brain tumours .................................................................. 63 
+Surveillance f or the lat e-onset side eff ects of tr eatment ................................................................. 64 
+Cont ext ......................................................................................................................................... 65 
+Finding mor e information and committ ee details ..................................................................... 67 
+Updat e information ..................................................................................................................... 68 Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 of
+68
+This guideline is t he basis of QS203 . 
+Overview 
+This guideline co vers diagnosing, monit oring and managing an y type of primar y brain 
+tumour or brain metastases in people aged 16 or o ver. It aims t o impr ove diagnosis and 
+care, including standar dising t he car e people ha ve, ho w inf ormation and suppor t are 
+provided, and palliativ e car e. 
+In Januar y 2021 , we replaced our r ecommendation on sur gical ca vity radiosur gery and 
+radiot herap y wit h a link t o the NHS England commissioning policy on st ereotactic 
+radiosur gery and st ereotactic radiot herap y to the sur gical ca vity f ollowing r esection of 
+cerebral metastases . 
+Who is i t for? 
+• Healt hcare professionals in volved in t he multidisciplinar y car e of people wit h primar y 
+brain tumours or brain metastases 
+• Commissioners and pr oviders of brain tumour ser vices 
+• People using ser vices f or the diagnosis, management and car e of a primar y brain 
+tumour or brain metastases, and t heir f amilies and car ers Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 5 of
+68
+Recommenda tions 
+People ha ve the right t o be in volved in discussions and mak e informed decisions 
+about t heir car e, as described in NICE's inf ormation on making decisions about y our 
+care. 
+Making decisions using NICE guidelines  explains ho w we use w ords to sho w the 
+strengt h (or cer tainty) of our r ecommendations, and has inf ormation about 
+prescribing medicines (including off label use), pr ofessional guidelines, standar ds and 
+laws (including on consent and mental capacity), and saf eguar ding. 
+1.1 Investig ation o f suspe cted glioma 
+Imag ing f or suspe cted glioma 
+1.1.1 Offer standar d structural MRI ( defined as T2  weight ed, FL AIR, DWI series and 
+T1 pre- and post -contrast v olume) as t he initial diagnostic t est for suspect ed 
+glioma, unless MRI is contraindicat ed. 
+1.1.2 Refer people wit h a suspect ed glioma t o a specialist multidisciplinar y team at first 
+radiological diagnosis f or management of t heir tumour . 
+1.1.3 Consider adv anced MRI t echniques, such as MR per fusion and MR spectr oscop y, 
+to assess t he pot ential of a high-grade transf ormation in a tumour appearing t o 
+be lo w grade on standar d structural MRI. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on imaging f or 
+suspect ed glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 6 of
+68
+Use of mo lecular mar kers to de termine pr ognosis or guide 
+treatmen t for glioma 
+1.1.4 Repor t all glioma specimens accor ding t o the lat est v ersion of t he World Healt h 
+Organization (WHO) classification of tumors of t he central ner vous syst em. As 
+well as hist opat hological assessment, include molecular mark ers such as: 
+• IDH1 and IDH2 mutations 
+• ATRX mutations t o identify IDH mutant astr ocytomas and glioblast omas 
+• 1p/19q codeletion t o identify oligodendr ogliomas 
+• histone H3 .3 K27M mutations in midline gliomas 
+• BRAF fusion and gene mutation t o identify pilocytic astr ocytoma. 
+1.1.5 Test all high-grade glioma specimens f or MGMT pr omot er met hylation t o inform 
+prognosis and guide tr eatment. 
+1.1.6 Consider t esting IDH-wildtype glioma specimens f or TERT pr omot er mutations t o 
+inform pr ognosis. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on use of molecular 
+mark ers t o det ermine pr ognosis or guide tr eatment f or glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+1.2 M anag emen t of glioma 
+Initial sur gery for suspe cted low-grade g lioma 
+1.2.1 The sur gical e xper tise in t he multidisciplinar y team should include: 
+• access t o awak e craniot omy wit h language and ot her appr opriat e functional Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 of
+68
+monit oring and 
+• exper tise in intraoperativ e neur ophysiological monit oring and 
+• access t o neur oradiological suppor t and 
+• access t o intraoperativ e image guidance. 
+1.2.2 Consider sur gical r esection as par t of initial management (wit hin 6  mont hs of 
+radiological diagnosis) t o: 
+• obtain a hist ological and molecular diagnosis and 
+• remove as much of t he tumour as saf ely possible aft er discussion of t he 
+possible e xtent of r esection at multidisciplinar y meeting and wit h the person 
+with the brain tumour , and t heir r elativ es and car ers. 
+1.2.3 If sur gical r esection is not appr opriat e, consider biopsy t o obtain a hist ological 
+and molecular diagnosis. 
+1.2.4 Consider activ e monit oring  without a hist ological diagnosis, f or lesions wit h 
+radiological f eatur es typical of v ery low-grade tumours, f or example, DNET 
+(dysembr yoplastic neur oepit helial tumour) or optic pat hway glioma. 
+1.2.5 If people ha ving activ e monit oring sho w radiological or clinical disease 
+progression, discuss t his at a multidisciplinar y team meeting and consider: 
+• surgical r esection or 
+• biopsy if sur gical r esection is not possible. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on initial sur gery for 
+suspect ed lo w-grade glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 8 of
+68
+Further manag emen t of newly diagnose d low-grade g lioma 
+1.2.6 After sur gery, offer radiot herap y followed by up t o 6 cycles of PCV chemot herap y 
+(procarbazine, CCNU [lomustine] and vincristine) f or people who: 
+• have a 1p/19q codelet ed, IDH-mutat ed lo w-grade glioma ( oligodendr oglioma) 
+and 
+• are aged ar ound 40  or over, or ha ve residual tumour on post operativ e MRI. 
+1.2.7 After sur gery, consider radiot herap y followed by up t o 6 cycles of PCV 
+chemot herap y for people who: 
+• have a 1p/19q non-codelet ed, IDH-mutat ed lo w-grade glioma (astr ocytoma) 
+and 
+• are aged ar ound 40  or over, or ha ve residual tumour on post operativ e MRI. 
+1.2.8 Consider activ e monit oring  for people who ar e aged ar ound 40  or under wit h an 
+IDH-mutat ed lo w-grade glioma and ha ve no r esidual tumour on post operativ e 
+MRI. 
+1.2.9 Consider radiot herap y followed by up t o 6 cycles of PCV chemot herap y for 
+people wit h an IDH-mutat ed lo w-grade glioma who ha ve not had radiot herap y 
+before if t hey have: 
+• progressiv e disease on radiological f ollow-up or 
+• intractable seizur es. 
+1.2.10 When deliv ering radiot herap y for people wit h IDH-mutat ed lo w-grade glioma, do 
+not use a tr eatment dose of mor e than 54  Gy at 1 .8 Gy per fraction. 
+1.2.11 Be awar e that t he pr ognosis f or people wit h hist ologically confirmed IDH-
+wildtype grade  II glioma ma y be similar t o that of people wit h glioblast oma if 
+other molecular f eatur es ar e consist ent wit h glioblast oma. T ake this int o account 
+when t hinking about management options. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 9 of
+68
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on fur ther 
+management of newly diagnosed lo w-grade glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+Manag emen t of newly diagnose d grade III glioma f ollowing 
+surgery or if sur gery is not possi ble (or has be en de cline d) 
+1.2.12 For guidance on using t emoz olomide f or treating newly diagnosed grade  III 
+glioma, see t he NICE t echnology appraisal guidance on carmustine implant s and 
+temoz olomide f or the tr eatment of newly diagnosed high-grade glioma . 
+1.2.13 After sur gery, offer sequential radiot herap y and 4  to 6 cycles of PCV 
+chemot herap y to people who ha ve: 
+• a Karnof sky per formance status of 7 0 or mor e and 
+• a newly diagnosed grade  III glioma wit h 1p/19q codeletion (anaplastic 
+oligodendr oglioma). 
+1.2.14 Agree wit h the person wit h the anaplastic oligodendr oglioma t he or der of PCV 
+chemot herap y and radiot herap y aft er discussing t he pot ential adv antages and 
+disadv antages of each option wit h them (see table  1). 
+Table  1 Factors t o tak e int o account when deciding whet her t o ha ve PCV or 
+radiot herapy first f or management of anaplastic oligodendr oglioma 
+PCV first Radiot herapy first 
+Overall sur vival No clinically impor tant diff erence. No clinically impor tant diff erence. 
+Progression-
+free sur vival No clinically impor tant diff erence. No clinically impor tant diff erence. 
+Fertility 
+preser vation Trying t o preserve fertility ma y cause 
+a dela y in t he star t of tr eatment. Allows additional time f or fertility 
+preservation wit hout dela ying 
+treatment. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 10 of
+68
+PCV first Radiot herapy first 
+Planning 
+treatment 
+around 
+impor tant lif e 
+events Initially much less contact wit h the 
+healt h syst em, but pot entially mor e 
+fatigue. 
+Harder t o giv e a pr ecise dat e for when 
+radiot herap y will star t, as people's 
+tolerance of chemot herap y is less 
+predictable. Initially much mor e contact wit h the 
+healt h syst em: daily visit s to 
+radiot herap y depar tment lasting 
+several w eeks. 
+Timing of star t of chemot herap y 
+much mor e predictable. 
+1.2.15 After sur gery, offer radiot herap y followed by up t o 12 cycles of adjuv ant 
+temoz olomide t o people who ha ve: 
+• a Karnof sky per formance status of 7 0 or mor e and 
+• a newly diagnosed IDH-wildtype or mutat ed grade  III glioma wit hout 1p/19q 
+codeletion (anaplastic astr ocytoma). 
+1.2.16 Do not off er nitr osour eas (f or example, CCNU [lomustine]) concurr ently wit h 
+radiot herap y to people wit h newly diagnosed grade  III glioma. 
+1.2.17 If ask ed, advise people wit h an initial diagnosis of grade  III glioma (and t heir 
+relativ es and car ers, as appr opriat e) that t he available e vidence does not suppor t 
+the use of: 
+• cannabis oil 
+• immunot herap y 
+• ketogenic diet s 
+• metf ormin 
+• statins 
+• valganciclo vir. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 11 of
+68
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on management of 
+newly diagnosed grade III glioma aft er sur gery, or if sur gery is not possible or t he 
+person declines sur gery. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+Manag emen t of newly diagnose d grade IV glioma (g lioblastoma ) 
+following sur gery or if sur gery is not possi ble (or has be en 
+decline d) 
+The r ecommendations in t his section ar e also viewable as a visual summar y. 
+1.2.18 For guidance on using t emoz olomide f or treating newly diagnosed grade  IV 
+glioma ( glioblast oma), see t he NICE t echnology appraisal guidance on carmustine 
+implant s and t emoz olomide f or the tr eatment of newly diagnosed high-grade 
+glioma . 
+1.2.19 Offer radiot herap y using 60  Gy in 30  fractions wit h concomitant t emoz olomide, 
+followed by up t o 6 cycles of adjuv ant t emoz olomide, f or people aged ar ound 
+70 or under who ha ve: 
+• a Karnof sky per formance status of 7 0 or mor e and 
+• had maximal saf e resection, or biopsy when r esection is not possible, f or a 
+newly diagnosed grade  IV glioma ( glioblast oma). 
+1.2.20 Offer radiot herap y using 40  Gy in 15  fractions wit h concomitant and up t o 
+12 cycles of adjuv ant t emoz olomide f or people aged ar ound 7 0 or over who ha ve: 
+• a Karnof sky per formance status of 7 0 or mor e and 
+• a newly diagnosed grade  IV glioma ( glioblast oma) wit h MGMT met hylation. 
+1.2.21 Consider radiot herap y using 40  Gy in 15  fractions wit h concomitant and up t o 
+12 cycles of adjuv ant t emoz olomide f or people aged ar ound 7 0 or over who ha ve: Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 12 of
+68
+• a Karnof sky per formance status of 7 0 or mor e and 
+• a newly diagnosed grade  IV glioma ( glioblast oma) wit hout MGMT met hylation 
+or for which met hylation status is una vailable. 
+1.2.22 Consider best suppor tive car e alone f or people aged ar ound 7 0 or over who ha ve: 
+• a grade  IV glioma ( glioblast oma) and 
+• a Karnof sky per formance status of under  70. 
+1.2.23 For people wit h an initial diagnosis of grade  IV glioma ( glioblast oma) not co vered 
+in recommendations  1.2.19 to 1.2.22, consider t he tr eatment options of: 
+• radiot herap y using 60  Gy in 30  fractions wit h concurr ent and up t o 6 cycles 
+of adjuv ant t emoz olomide 
+• radiot herap y alone using 60  Gy in 30  fractions 
+• hypofractionat ed radiot herap y 
+• up to 6 cycles of t emoz olomide alone if t he tumour has MGMT met hylation 
+and t he person is aged ar ound 7 0 or over 
+• best suppor tive car e alone. 
+1.2.24 Assess t he person's per formance status t hroughout t he post operativ e period and 
+review tr eatment options f or grade  IV glioma ( glioblast oma) if t heir per formance 
+status changes. 
+1.2.25 Do not off er be vacizumab as par t of management of a newly diagnosed grade  IV 
+glioma ( glioblast oma). 
+1.2.26 Do not off er tumour -treating fields (TTF) as par t of management of a newly 
+diagnosed grade  IV glioma ( glioblast oma). 
+1.2.27 If ask ed, advise people wit h an initial diagnosis of grade  IV glioma (and t heir 
+relativ es and car ers, as appr opriat e) that t he available e vidence does not suppor t 
+the use of: Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 13 of
+68
+• cannabis oil 
+• immunot herap y 
+• ketogenic diet s 
+• metf ormin 
+• statins 
+• valganciclo vir. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on management of 
+newly diagnosed grade IV glioma ( glioblast oma) f ollowing sur gery, or if sur gery is not 
+possible or t he person declines sur gery. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+Manag emen t of recurr ent hig h-grade g lioma ( recurr ent grade III 
+and gr ade IV glioma ) 
+1.2.28 When deciding on tr eatment options f or people wit h recurr ent high-grade glioma, 
+take into account: 
+• Karnof sky per formance status 
+• the person's pr eferences 
+• time fr om last tr eatment 
+• tumour molecular mark ers 
+• what t heir last tr eatment was. 
+1.2.29 Consider PCV or single agent CCNU (lomustine) as an alt ernativ e to 
+temoz olomide f or people wit h recurr ent high-grade glioma. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 14 of
+68
+1.2.30 For guidance on using t emoz olomide as an option f or treating r ecurr ent high-
+grade glioma, see t he NICE t echnology appraisal guidance on t emoz olomide f or 
+the tr eatment of r ecurr ent malignant glioma (brain cancer) . 
+1.2.31 Consider best suppor tive car e alone f or high-grade glioma if ot her tr eatment s are 
+not lik ely to be of benefit, or if t he person w ould pr efer this. R efer to the NICE 
+cancer ser vice guidance on impr oving suppor tive and palliativ e car e for adult s 
+with cancer . 
+1.2.32 For people wit h focally r ecurr ent high-grade glioma, t he multidisciplinar y team 
+should also consider t he tr eatment options of: 
+• further sur gery 
+• further radiot herap y. 
+1.2.33 Do not off er be vacizumab, erlotinib or cediranib, eit her alone or in combination 
+with chemot herap y, as par t of management of r ecurr ent high-grade glioma. 
+1.2.34 Do not off er tumour tr eating fields (TTF) as par t of management of r ecurr ent 
+high-grade glioma. 
+1.2.35 If ask ed, advise people who ha ve recurr ent high-grade glioma (and t heir r elativ es 
+and car ers, as appr opriat e) that t he available e vidence does not suppor t the use 
+of: 
+• cannabis oil 
+• immunot herap y 
+• ketogenic diet s 
+• metf ormin 
+• statins 
+• valganciclo vir. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 15 of
+68
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on management of 
+recurr ent grade III and grade IV glioma (r ecurr ent high-grade glioma) . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+Genomic biomar ker-base d treatmen t for glioma 
+The point at which t o use genomic biomark er-based t herap y in solid tumour tr eatment 
+pathways is uncer tain. See t he NICE t opic page on genomic biomark er-based cancer 
+treatment s. 
+Techniques f or resection o f glioma 
+1.2.36 If a person has a radiologically enhancing suspect ed high-grade glioma and t he 
+multidisciplinar y team t hinks t hat sur gical r esection of all enhancing tumour is 
+possible, off er 5-aminole vulinic acid (5-AL A)-guided r esection as an adjunct t o 
+maximise r esection at initial sur gery. 
+1.2.37 Consider intraoperativ e MRI t o help achie ve sur gical r esection of bot h low-grade 
+and high-grade glioma while pr eserving neur ological function, unless MRI is 
+contraindicat ed. 
+1.2.38 Consider intraoperativ e ultrasound t o help achie ve sur gical r esection of bot h low-
+grade and high-grade glioma. 
+1.2.39 Consider diffusion t ensor imaging o verlays in addition t o standar d 
+neuronavigation t echniques t o minimise damage t o functionally impor tant fibr e 
+tract s during r esection of bot h low-grade and high-grade glioma. 
+1.2.40 Consider awak e craniot omy for people wit h low-grade or high-grade glioma t o 
+help pr eserve neur ological function. 
+1.2.41 Discuss awak e craniot omy and it s pot ential benefit s and risks wit h the person Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 16 of
+68
+and t heir r elativ es and car ers (as appr opriat e) so t hat t hey can mak e an inf ormed 
+choice about whet her t o have it. Only consider t he pr ocedur e if t he person is 
+likely not t o be significant ly distr essed b y it. 
+1.2.42 Involve other specialist s as appr opriat e, such as neur opsy chologist s and speech 
+and language t herapist s, bef ore, during and aft er awak e craniot omy. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on t echniques f or 
+resection of glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+1.3 F ollow-up f or glioma 
+1.3.1 Offer regular clinical r eview  for people wit h glioma t o assess changes in t heir 
+physical, psy chological and cognitiv e wellbeing. 
+1.3.2 Base decisions on t he timing of r egular clinical r eviews and f ollow-up imaging f or 
+people wit h glioma on: 
+• any residual tumour 
+• life expectancy 
+• the person's pr eferences (see table  2 for factors t o discuss wit h them) 
+• treatment s used bef ore 
+• treatment options a vailable 
+• tumour subtype. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 17 of
+68
+Table  2 Factors t o tak e int o account when deciding on fr equency of f ollow-up f or 
+people wit h glioma 
+Possible adv antages of mor e frequent f ollow-up Possible disadv antages of mor e frequent f ollow-up 
+May identify r ecurr ent disease earlier 
+which ma y incr ease tr eatment options or 
+enable tr eatment bef ore people become 
+sympt omatic. Ther e is no definitiv e evidence t hat 
+identifying r ecurr ent disease early impr oves 
+outcomes. 
+May help pr ovide inf ormation about t he 
+course of t he illness and pr ognosis. May incr ease anxiety if changes of uncer tain 
+significance ar e det ected on imaging. 
+Some people can find mor e frequent 
+imaging and hospital contact r eassuring. 
+Provides an oppor tunity t o identify 
+patient or car er needs (such as 
+psychosocial suppor t and lat e side 
+effects of tr eatment). Some people can find mor e frequent imaging 
+and hospital contact bur densome and 
+disruptiv e – they feel their lif e revolves 
+around t heir lat est scan. 
+Ther e ma y be a financial cost fr om taking 
+time off w ork and tra velling t o appointment s. 
+– More imaging and f ollow-up is r esour ce 
+intensiv e for the NHS. 
+1.3.3 Consider t he follow-up schedule giv en in table  3 for people wit h glioma. 
+1.3.4 Consider standar d structural MRI ( defined as T2  weight ed, FL AIR, DWI series and 
+T1 pre- and post -contrast v olume) as par t of r egular clinical r eview f or people 
+with glioma, t o assess f or pr ogression or r ecurr ence, unless MRI is 
+contraindicat ed. 
+1.3.5 Consider adv anced MRI t echniques, such as MR per fusion, diffusion t ensor 
+imaging and MR spectr oscop y, if findings fr om standar d imaging ar e unclear 
+about whet her t here is r ecurr ence and early identification is pot entially clinically 
+useful. 
+1.3.6 For people wit h glioma ha ving r outine imaging: 
+• explain t o them, and t heir r elativ es and car ers, t hat imaging can be difficult t o 
+interpret and r esult s can be of uncer tain significance and 
+• be awar e that ha ving r outine imaging and waiting f or the result s ma y cause Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 18 of
+68
+anxiety . 
+1.3.7 Consider a baseline MRI scan wit hin 72  hours of sur gical r esection f or all types of 
+glioma. 
+1.3.8 Consider a baseline MRI scan 3  mont hs aft er the completion of radiot herap y for 
+all types of glioma. 
+1.3.9 Arrange a clinical r eview , including appr opriat e imaging, f or people wit h glioma 
+who de velop new or changing neur ological sympt oms or signs at an y time. 
+Table  3 Possible r egular clinical r eview schedule f or people wit h glioma depending on 
+grade of tumour 
+Grade of tumour Clinical r eview schedule 
+Grade I Scan at 12  mont hs, then: 
+• consider dischar ge if no tumour visible on imaging unless 
+complet ely-r esect ed pilocytic astr ocytoma 
+• consider ongoing imaging at incr easing int ervals for 15  years f or 
+complet ely-r esect ed pilocytic astr ocytoma 
+• consider if ongoing imaging is needed at a rat e of once e very 1 to 
+3 years f or the rest of t he person's lif e if t he tumour is visible on 
+imaging. 
+Grade II 1p/19q non-
+codelet ed, IDH 
+mutat ed • From 0 t o 2 y ears, scan at 3  mont hs, then e very 6 mont hs 
+• From 2 t o 4 y ears, r eview annually 
+• From 5 t o 10 y ears, r eview e very 1 to 2 years 
+• For mor e than 10 y ears and f or the rest of lif e consider ongoing 
+imaging e very 1 to 2 years. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 19 of
+68
+Grade of tumour Clinical r eview schedule 
+Grade II IDH wildtype • From 0 t o 2 y ears, r eview e very 3 to 6 mont hs 
+• From 2 t o 4 y ears, r eview e very 6 to 12 mont hs 
+• From 5 t o 10 y ears, r eview annually 
+• For mor e than 10 y ears and f or the rest of lif e - consider ongoing 
+imaging e very 1 to 2 years. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on f ollow up f or 
+glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+1.4 Investig ation and manag emen t of mening ioma 
+Investig ation o f suspe cted mening ioma 
+1.4.1 Offer standar d structural MRI ( defined as T2  weight ed, FL AIR, DWI series and 
+T1 pre- and post -contrast v olume) as t he initial diagnostic t est for suspect ed 
+meningioma, unless MRI is contraindicat ed. 
+1.4.2 Consider CT imaging f or meningioma (if not alr eady per formed) t o assess bone 
+involvement if t his is suspect ed. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on in vestigation of 
+suspect ed meningioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview B: 
+investigation, management and f ollow-up of meningioma . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 20 of
+68
+Manag emen t of confirme d mening ioma f ollowing sur gery or if 
+surgery is not possi ble (or has be en de cline d) 
+1.4.3 Base management of meningioma aft er sur gery, or if sur gery is not possible or 
+the person declines sur gery, on t he extent of an y sur gery and grade of 
+meningioma, as described in table  4. 
+Table  4 Treatment choices aft er sur gery by extent, or no e xcision if sur gery was not 
+possible, f or diff erent kinds of meningioma 
+Grade Complet ely 
+excised (Simpson 
+1 to 3) Incomplet ely e xcised (Simpson 4  to 5) No e xcision 
+(radiological only 
+diagnosis) Recurr ent 
+I Offer activ e 
+monit oring . Consider fur ther sur gery (if 
+possible), radiot herap y or activ e 
+monit oring. Consider  activ e 
+monit oring or 
+radiot herap y. Consider  further 
+surgery or 
+radiot herap y (if 
+not pr eviously 
+used). 
+II Offer a 
+choice 
+betw een 
+activ e 
+monit oring 
+and 
+radiot herap y. Consider fur ther sur gery (if 
+possible). Off er radiot herap y if 
+surgery is not possible, including 
+if the person declines sur gery, or 
+if the tumour is incomplet ely 
+excised aft erwards. Consider  activ e 
+monit oring or 
+radiot herap y Consider fur ther 
+surgery and 
+offer 
+radiot herap y (if 
+not pr eviously 
+used). 
+III Offer 
+radiot herap y. Consider fur ther sur gery (if 
+possible) and off er radiot herap y. Consider  activ e 
+monit oring or 
+radiot herap y Consider fur ther 
+surgery and 
+offer 
+radiot herap y (if 
+not pr eviously 
+used). 
+1.4.4 Before a decision is made on radiot herap y for meningioma, tak e into account: 
+• comorbidities 
+• life expectancy Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 21 of
+68
+• neurological function 
+• oedema 
+• performance status 
+• rate of tumour pr ogression 
+• size and location of tumour 
+• surgical and radiot herap y morbidity 
+• the person's pr eferences (see table  5 for factors t o discuss wit h them) 
+• treatment s used bef ore. 
+Table  5 Factors t o tak e int o account when deciding on r adiot herapy as tr eatment f or a 
+surgically tr eated meningioma 
+Radiot herapy No r adiot herapy 
+Contr ol of 
+tumour Ther e is e vidence t hat radiot herap y is 
+effectiv e in t he local contr ol of a 
+tumour . Receiving no radiot herap y means 
+the tumour ma y continue t o grow. 
+Risk of 
+developing 
+subsequent 
+sympt oms Contr olling t he tumour will r educe t he 
+risk of de veloping sympt oms fr om t he 
+tumour in t he futur e. If the tumour gr ows, it can cause 
+irreversible sympt oms such as 
+loss of vision. 
+Risk of r e-
+treatment Less risk of needing second sur gery 
+compar ed wit h no radiot herap y. Higher risk of needing second 
+surgery compar ed wit h 
+radiot herap y. 
+If the tumour has pr ogressed, 
+then t he sur gery might be mor e 
+comple x. 
+If the tumour has pr ogressed, 
+then not all radiot herap y 
+techniques ma y be possible. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 22 of
+68
+Radiot herapy No r adiot herapy 
+Early side 
+effects of 
+treatment Early side eff ects from radiot herap y 
+can include: 
+• fatigue 
+• hair loss 
+• headache 
+• nausea 
+• seizur es 
+• skin irritation. No side eff ects from tr eatment. 
+Late side eff ects 
+of tr eatment Late side eff ects from radiot herap y 
+can include: 
+• effect on cognition 
+• risk of str oke 
+• risk of radionecr osis 
+• risk of second tumours 
+• cranial ner ve eff ects 
+• hypopituitarism 
+• cataract s. No side eff ects from tr eatment. 
+Management of 
+side eff ects Increased use of st eroids t o manage 
+side eff ects. No side eff ects from tr eatment. 
+1.4.5 When deciding on t he radiot herap y technique f or people wit h meningioma, tak e 
+into account: 
+• the pr eferences of t he person (f or example, t o minimise t he number of 
+appointment s or tra vel distance) Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 23 of
+68
+• tumour grade 
+• tumour location (pr oximity t o optic ner ves, optic chiasm and brainst em) 
+• tumour siz e. 
+From t he suitable radiot herap y techniques, choose t he one which maximises 
+the chances of local tumour contr ol while minimising t he radiation dose t o 
+normal brain tissue. 
+1.4.6 If the multidisciplinar y team t hinks t hat radiot herap y ma y be appr opriat e, off er 
+the person t he oppor tunity t o discuss t he pot ential benefit s and risks wit h an 
+oncologist. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on management of 
+confirmed meningioma f ollowing sur gery, or if sur gery is not possible or t he person 
+declines sur gery. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview B: 
+investigation, management and f ollow-up of meningioma . 
+Genomic biomar ker-base d treatmen t for mening ioma 
+The point at which t o use genomic biomark er-based t herap y in solid tumour tr eatment 
+pathways is uncer tain. See t he NICE t opic page on genomic biomark er-based cancer 
+treatment s. 
+1.5 Follow-up f or mening ioma 
+1.5.1 Offer regular clinical r eview  for people wit h meningioma t o assess changes in 
+their ph ysical, psy chological and cognitiv e wellbeing. 
+1.5.2 Base decisions on t he timing of r egular clinical r eviews and f ollow-up imaging f or 
+people wit h meningioma on: Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 4 of
+68
+• any residual tumour 
+• life expectancy 
+• the person's pr eferences (see table  6 for factors t o discuss wit h them) 
+• treatment s used bef ore 
+• treatment options a vailable 
+• tumour grade. 
+Table  6 Factors t o tak e int o account when deciding on fr equency of f ollow-up f or 
+people wit h meningioma 
+Possible adv antages of mor e frequent f ollow-up Possible disadv antages of mor e frequent f ollow-up 
+May identify r ecurr ent disease earlier 
+which ma y incr ease tr eatment options or 
+enable tr eatment bef ore people become 
+sympt omatic. Ther e is no definitiv e evidence t hat 
+identifying r ecurr ent disease early impr oves 
+outcomes. 
+May help pr ovide inf ormation about t he 
+course of t he illness and pr ognosis. May incr ease anxiety if changes of uncer tain 
+significance ar e det ected on imaging. 
+Some people can find mor e frequent 
+imaging and hospital contact r eassuring. 
+Provides an oppor tunity t o identify 
+patient or car er needs (such as 
+psychosocial suppor t and lat e side 
+effects of tr eatment). Some people can find mor e frequent imaging 
+and hospital contact bur densome and 
+disruptiv e – they feel their lif e revolves 
+around t heir lat est scan. 
+Ther e ma y be a financial cost fr om taking 
+time off w ork and tra velling t o appointment s. 
+– More imaging and f ollow-up is r esour ce 
+intensiv e for the NHS. 
+1.5.3 Consider t he follow-up schedule giv en in table  7 for people wit h meningioma. 
+1.5.4 Consider standar d structural MRI ( defined as T2  weight ed, FL AIR, DWI series and 
+T1 pre- and post -contrast v olume) as par t of r egular clinical r eview f or people 
+with meningioma, t o assess f or pr ogression or r ecurr ence, unless MRI is 
+contraindicat ed. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 25 of
+68
+1.5.5 For people wit h meningioma ha ving r outine imaging, be awar e that ha ving r outine 
+imaging and waiting f or the result s ma y cause anxiety . 
+1.5.6 Arrange a clinical r eview , including appr opriat e imaging, f or people wit h 
+meningioma (including incidental meningioma) who de velop new or changing 
+neurological sympt oms or signs at an y time. 
+Table  7 Possible r egular clinical r eview schedule b y years aft er end of tr eatment f or 
+people wit h meningioma depending on gr ade of tumour 
+Grade I: no 
+residual 
+tumour Grade I: 
+residual 
+tumour Grade I: aft er 
+radiot herapy Grade II Grade III 
+0 to 1 y ears Scan at 
+3 mont hs Scan at 
+3 mont hs Scan 6  mont hs 
+after 
+radiot herap y Scan at 3  mont hs, 
+then 6  to 12 mont hs 
+later Every 3 to 
+6 mont hs 
+1 to 2 y ears Annually Annually Annually Annually Every 3 to 
+6 mont hs 
+2 to 3 y ears Annually Annually Annually Annually Every 6 to 
+12 mont hs 
+3 to 4 y ears Once 
+every 
+2 years Annually Once e very 
+2 years Annually Every 6 to 
+12 mont hs 
+4 to 5 y ears Once 
+every 
+2 years Annually Once e very 
+2 years Annually Every 6 to 
+12 mont hs 
+5 to 6 y ears Once 
+every 
+2 years Once 
+every 
+2 years Once e very 
+2 years Once e very 2 years Annually 
+6 to 7 y ears Once 
+every 
+2 years Once 
+every 
+2 years Once e very 
+2 years Once e very 2 years Annually 
+7 to 8 y ears Once 
+every 
+2 years Once 
+every 
+2 years Once e very 
+2 years Once e very 2 years Annually Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 26 of
+68
+Grade I: no 
+residual 
+tumour Grade I: 
+residual 
+tumour Grade I: aft er 
+radiot herapy Grade II Grade III 
+8 to 9 y ears Once 
+every 
+2 years Once 
+every 
+2 years Once e very 
+2 years Once e very 2 years Annually 
+>9 y ears (f or 
+the rest of lif e) Consider 
+dischar ge Consider 
+dischar ge Consider 
+dischar ge Consider dischar ge Annually 
+For asympt omatic incidental meningioma: scan at 12 mont hs and if no change, consider 
+dischar ge or scan at 5 y ears. 
+Note: the pr esence of an y residual tumour can only be established aft er the first scan at 3 
+mont hs. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on f ollow up f or 
+meningioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview B: 
+investigation, management and f ollow-up of meningioma . 
+1.6 Investig ation o f suspe cted brain me tastases 
+1.6.1 Offer standar d structural MRI ( defined as T2  weight ed, FL AIR, DWI series and 
+T1 pre- and post -contrast v olume) as t he initial diagnostic t est for suspect ed 
+brain metastases, unless MRI is contraindicat ed. 
+1.6.2 To help establish curr ent disease status, off er extracranial imaging (appr opriat e 
+to the primar y tumour type) t o people wit h any radiologically suspect ed brain 
+metastases t hat ma y be suitable f or focal tr eatment. 
+1.6.3 Perform all intracranial and e xtracranial diagnostic imaging and, if appr opriat e, 
+biopsy of e xtracranial disease, bef ore referral t o the neur o-oncology 
+multidisciplinar y team. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 27 of
+68
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on in vestigation of 
+suspect ed brain metastases . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview C: 
+investigation, management and f ollow-up of brain metastases . 
+1.7 Manag emen t of confirme d brain me tastases 
+1.7.1 When choosing management options f or brain metastases, tak e into account: 
+• extracranial disease 
+• leptomeningeal disease 
+• location of metastases 
+• resection ca vity siz e 
+• the number and v olume of metastases 
+• the person's pr eference (based on a discussion of t he factors list ed in 
+tables  8 and 9) 
+• their age 
+• their per formance status 
+• the primar y tumour sit e, type, and molecular pr ofile. 
+1.7.2 Consider syst emic anti-cancer t herap y for people who ha ve brain metastases 
+likely to respond eff ectiv ely, for example, germ cell tumours or small-cell lung 
+cancer . 
+1.7.3 Consider maximal local t herap y wit h either sur gery, stereotactic radiosur gery or 
+stereotactic radiot herap y for people wit h a single brain metastasis. 
+1.7.4 Base t he choice of tr eatment f or people wit h a single brain metastasis on: Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 28 of
+68
+• comorbidities 
+• extent of oedema 
+• location of metastasis 
+• the person's pr eference (see table  8) 
+• tumour siz e. 
+Table  8 Factors t o tak e int o account when deciding betw een sur gery and st ereotactic 
+radiosur gery/radiot herapy as tr eatment f or a single br ain metastasis 
+Surgery Stereotactic r adiosur gery / radiot herapy 
+Overall sur vival No clinically impor tant 
+difference. No clinically impor tant diff erence. 
+Risk of needing 
+additional tr eatment Risk t hat st ereotactic 
+radiosur gery / radiot herap y 
+may be needed in an y case. Risk t hat sur gery ma y be needed in 
+any case. Ho wever, has higher local 
+contr ol rat e than sur gery (meaning 
+surgery is less lik ely aft er radiot herap y 
+than t he ot her wa y around). 
+Key benefit of 
+treatment Has mor e rapid contr ol of 
+sympt oms. 
+Additionally , surgery allo ws for 
+obtaining an up-t o-dat e 
+pathological diagnosis which 
+may guide futur e treatment, 
+making it mor e eff ectiv e. Has a higher local contr ol rat e than 
+surgery, meaning mor e treatment is 
+less lik ely to be needed. 
+Additionally , is an outpatient tr eatment 
+and does not need a general 
+anaest hetic. 
+Key risks of 
+treatment Surgical pr ocedur es carr y 
+known risks t hat v ary 
+depending on t he person and 
+the tumour . These include 
+infection, str oke, a pr olonged 
+hospital sta y and deat h. 
+Surgery is mor e painful t han 
+radiot herap y during r ecovery. Radiation carries t he risk of dela yed 
+effects such as radionecr osis, which 
+might need sur gical r esection. 
+Ther e is an incr eased risk of seizur es 
+with this technique, alt hough t his 
+appears t o most ly aff ect people who 
+have pre-existing epilepsy . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 29 of
+68
+Surgery Stereotactic r adiosur gery / radiot herapy 
+Steroid use Early r eduction in st eroid 
+dose. Likely to need st eroids f or longer , and 
+at a higher dose. St eroids ha ve 
+significant side eff ects when used 
+long-t erm, such as changes in mood, 
+hear t problems and changes in body 
+fat. 
+Planning 
+treatment 
+around 
+impor tant lif e 
+events The w ound fr om t he sur gery 
+may affect t he ability t o carr y 
+out cer tain activities in t he 
+shor t term, such as air tra vel 
+and spor t. 
+The cosmetic appearance of 
+the w ound fr om sur gery ma y 
+be impor tant t o some people, 
+and should be discussed. Some people find t he techniques used 
+in radiot herap y challenging or 
+upsetting, especially t he equipment 
+which immobilises t he head. This is 
+especially lik ely to be true f or people 
+with claustr ophobia. 
+Other 
+consider ations – Radiot herap y can r each some ar eas of 
+the brain t hat sur gery cannot, and 
+might be t he only appr opriat e 
+technique f or cer tain tumour types. 
+1.7.5 Do not off er adjuv ant whole-brain radiot herap y to people wit h a single brain 
+metastasis tr eated wit h stereotactic radiosur gery/radiot herap y or sur gery. 
+1.7.6 See NHS England's clinical commissioning policy on st ereotactic radiosur gery and 
+stereotactic radiot herap y to the sur gical ca vity f ollowing r esection of cer ebral 
+metastases . [amended 2021 ] 
+1.7.7 Consider st ereotactic radiosur gery/radiot herap y for people wit h multiple brain 
+metastases who ha ve contr olled or contr ollable e xtracranial disease and 
+Karnof sky per formance status of 7 0 or mor e. Take into account t he number and 
+total v olume of metastases. 
+1.7.8 Do not off er whole-brain radiot herap y to people wit h: 
+• non-small-cell lung cancer and Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 30 of
+68
+• brain metastases t hat ar e not suitable f or sur gery or st ereotactic 
+radiosur gery/radiot herap y and 
+• a Karnof sky per formance status of under  70. 
+1.7.9 For people wit h multiple brain metastases who ha ve not had st ereotactic 
+radiosur gery/radiot herap y or sur gery, decide wit h them whet her t o use whole-
+brain radiot herap y aft er a discussion wit h them and t heir r elativ es and car ers (as 
+appr opriat e) of t he pot ential benefit s and risks (see table  9). 
+Table  9 Potential benefit s and harms of whole-br ain r adiot herapy for multiple 
+metastases 
+- Whole-br ain r adiot herapy No whole-br ain r adiot herapy 
+Overall 
+survival No clinically impor tant diff erence. No clinically impor tant diff erence. 
+Quality of lif e Shor t-term det erioration in quality 
+of life because of tr eatment. No impact on quality of lif e 
+because of tr eatment, but 
+deterioration because of t he 
+disease pr ogression. 
+Potential 
+benefit s Can stabilise or r educe t he brain 
+metastases. Brain metastases ma y continue t o 
+grow. 
+Side eff ects Temporar y hair loss and f atigue. 
+Potential f or accelerat ed cognitiv e 
+loss because of radiot herap y. Potential f or cognitiv e loss 
+because of disease pr ogression. 
+Time 
+commitment Requir es 5 to 10 hospital visit s. No time commitment. 
+Other 
+consider ations People wit h non-small-cell lung 
+cancer will not benefit fr om 
+treatment if t heir o verall pr ognosis 
+is poor . – 
+1.7.10 Do not off er memantine in addition t o whole-brain radiot herap y to people wit h 
+multiple brain metastases, unless as par t of a clinical trial. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 31 of
+68
+1.7.11 Do not off er concurr ent syst emic t herap y to enhance t he efficacy of whole-brain 
+radiot herap y to people wit h multiple brain metastases, unless as par t of a clinical 
+trial. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on management of 
+confirmed brain metastases . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview C: 
+investigation, management and f ollow-up of brain metastases . 
+1.8 F ollow-up f or br ain me tastases 
+1.8.1 Offer regular clinical r eview  for people wit h brain metastases t o assess changes 
+in their ph ysical, psy chological and cognitiv e wellbeing. 
+1.8.2 Base decisions on t he timing of r egular clinical r eviews and f ollow-up imaging f or 
+people wit h brain metastases on: 
+• extracranial disease status 
+• life expectancy 
+• primar y cancer 
+• the person's pr eferences (see table  10 for factors t o discuss wit h them) 
+• treatment options a vailable. 
+Table  10 F actors t o tak e int o account when deciding on fr equency of f ollow-up f or 
+people wit h br ain metastases 
+Possible adv antages of mor e frequent f ollow-up Possible disadv antages of mor e frequent f ollow-up 
+May identify r ecurr ent disease earlier 
+which ma y incr ease tr eatment options or 
+enable tr eatment bef ore people become 
+sympt omatic. Ther e is no definitiv e evidence t hat 
+identifying r ecurr ent disease early impr oves 
+outcomes. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 32 of
+68
+Possible adv antages of mor e frequent f ollow-up Possible disadv antages of mor e frequent f ollow-up 
+May help pr ovide inf ormation about t he 
+course of t he illness and pr ognosis. May incr ease anxiety if changes of uncer tain 
+significance ar e det ected on imaging. 
+Some people can find mor e frequent 
+imaging and hospital contact r eassuring. 
+Provides an oppor tunity t o identify 
+patient or car er needs (such as 
+psychosocial suppor t and lat e side 
+effects of tr eatment). Some people can find mor e frequent imaging 
+and hospital contact bur densome and 
+disruptiv e – they feel their lif e revolves 
+around t heir lat est scan. 
+Ther e ma y be a financial cost fr om taking 
+time off w ork and tra velling t o appointment s. 
+– More imaging and f ollow-up is r esour ce 
+intensiv e for the NHS. 
+1.8.3 Consider t he follow-up schedule giv en in table  11 for people wit h brain 
+metastases. 
+1.8.4 Consider standar d structural MRI ( defined as T2  weight ed, FL AIR, DWI series and 
+T1 pre- and post -contrast v olume) as par t of r egular clinical r eview f or people 
+with brain metastases, t o assess f or pr ogression or r ecurr ence, unless MRI is 
+contraindicat ed. 
+1.8.5 Consider adv anced MRI t echniques, such as MR per fusion, diffusion t ensor 
+imaging and MR spectr oscop y, if findings fr om standar d imaging ar e unclear 
+about whet her t here is r ecurr ence and early identification is pot entially clinically 
+useful. 
+1.8.6 For people wit h brain metastases ha ving r outine imaging: 
+• explain t o them, and t heir r elativ es and car ers, t hat imaging can be difficult t o 
+interpret and r esult s can be of uncer tain significance and 
+• be awar e that ha ving r outine imaging and waiting f or the result s ma y cause 
+anxiety . 
+1.8.7 Arrange a clinical r eview , including appr opriat e imaging, f or people wit h brain 
+metastases who de velop new or changing neur ological sympt oms or signs at an y 
+time. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 33 of
+68
+Table  11 Possible r egular clinical r eview 
+schedule f or people wit h br ain metastases 
+Years aft er end of tr eatment Clinical r eview schedule 
+0 to 1 y ears Every 3 mont hs 
+1 to 2 y ears Every 4 to 6 mont hs 
+2 years and onwar ds Annually 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on f ollow up f or brain 
+metastases . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview C: 
+investigation, management and f ollow-up of brain metastases . 
+1.9 Car e needs of people wi th br ain tumour s 
+1.9.1 Be awar e that t he car e needs of people wit h brain tumours r epresent a unique 
+challenge, because (in addition t o physical disability) t he tumour and tr eatment 
+can ha ve eff ects on: 
+• beha viour 
+• cognition 
+• personality . 
+1.9.2 Discuss healt h and social car e suppor t needs wit h the person wit h a brain tumour 
+and t heir r elativ es and car ers (as appr opriat e). Take into account t he comple x 
+healt h and social car e suppor t needs people wit h any type of brain tumour and 
+their r elativ es and car ers ma y have (for example, psy chological, cognitiv e, 
+physical, spiritual, emotional). 
+1.9.3 Set aside enough time t o discuss t he impact of t he brain tumour on t he person 
+and t heir r elativ es and car ers (as appr opriat e), and t o elicit and discuss t heir 
+healt h and social car e suppor t needs. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 34 of
+68
+1.9.4 Healt h and social car e professionals in volved in t he car e of people wit h brain 
+tumours should addr ess additional comple x needs during or at t he end of 
+treatment and t hroughout f ollow-up. These include: 
+• changes t o cognitiv e functioning 
+• fatigue 
+• loss of personal identity 
+• loss of independence 
+• maintaining a sense of hope 
+• potential f or change in personal and se xual r elationships 
+• the challenges of living wit h uncer tainty 
+• the impact of brain tumour -associat ed epilepsy on w ellbeing (see t he NICE 
+guideline on epilepsies: diagnosis and management ). 
+1.9.5 Provide a named healt hcare professional wit h responsibility f or coor dinating 
+healt h and social car e suppor t for people wit h brain tumours and t heir r elativ es 
+and car ers, f or example, a k ey worker (often a clinical nurse specialist) as defined 
+in NICE cancer ser vice guidance on impr oving out comes f or people wit h brain 
+and ot her central ner vous syst em tumours . 
+1.9.6 Give information t o the person wit h a brain tumour and t heir r elativ es and car ers 
+(as appr opriat e): 
+• in a r ealistic and empat hetic manner 
+• in suitable f ormat s (writt en and spok en, wit h information a vailable t o tak e 
+away), following t he principles in t he NICE guideline on patient e xperience in 
+adult NHS ser vices  (also see NHS England's guidance on t he Accessible 
+Information Standar d). 
+• at appr opriat e times t hroughout t heir car e pat hway. 
+1.9.7 Explain t o the person t hat t hey have a legal obligation t o notify t he Driv er and 
+Vehicle Licensing Agency (D VLA) if t hey have a brain tumour , and t hat t his ma y Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 35 of
+68
+have implications f or their driving. 
+1.9.8 Provide and e xplain clinical r esult s, for example, imaging and pat hology r epor ts, 
+to the person wit h a brain tumour and t heir r elativ es and car ers (as appr opriat e) 
+as soon as possible. 
+1.9.9 Offer suppor tive car e to people wit h brain tumours and t heir r elativ es and car ers 
+(as appr opriat e) throughout t heir tr eatment and car e pat hway 
+1.9.10 In people aged betw een 16  and 2 4 years old, r efer to the NICE quality standar d 
+on cancer ser vices f or childr en and y oung people . 
+1.9.11 Discuss t he pot ential pr eservation of f ertility wit h people wit h brain tumours 
+wher e treatment ma y have an impact on t heir f ertility (see t he recommendations 
+on people wit h cancer who wish t o preserve fertility in NICE's guideline on f ertility 
+problems ). 
+1.9.12 If the person wit h a brain tumour is lik ely to be in t heir last y ear of lif e, refer to the 
+NICE quality standar ds on end of lif e car e for adult s and, when appr opriat e, care 
+of dying adult s in t he last da ys of lif e. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on car e needs of 
+people wit h brain tumours . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview D: 
+suppor ting people living wit h a brain tumour . 
+1.10 N eurorehabili tation ne eds of people wi th br ain 
+tumour s 
+1.10.1 Consider r eferring t he person wit h a brain tumour f or a neur ological r ehabilitation 
+assessment of ph ysical, cognitiv e and emotional function at diagnosis and e very 
+stage of f ollow-up. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 36 of
+68
+1.10.2 Offer people wit h brain tumours and t heir r elativ es and car ers (as appr opriat e) 
+information on accessing neur ological r ehabilitation, and on what needs it can 
+help addr ess. 
+1.10.3 Give people wit h brain tumours and t heir r elativ es and car ers (as appr opriat e) 
+information on: 
+• neurological r ehabilitation options in t he community , as an outpatient, or an 
+inpatient and 
+• how to get a neur ological r ehabilitation assessment. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on neur orehabilitation 
+needs of people wit h brain tumours . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview D: 
+suppor ting people living wit h a brain tumour . 
+1.11 S urveillanc e for the la te-onse t side ef fects of 
+treatmen t 
+1.11.1 Be awar e that people wit h brain tumours can de velop side eff ects of tr eatment 
+mont hs or y ears aft er treatment, which can include: 
+• cataract s 
+• cavernoma 
+• cognitiv e decline 
+• epilepsy 
+• hearing loss 
+• hypopituitarism 
+• infertility Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 37 of
+68
+• neuropat hy (for example, ner ve damage causing visual loss, numbness, pain 
+or weakness) 
+• radionecr osis 
+• secondar y tumours 
+• SMART (str oke-like migraine attacks aft er radiot herap y) 
+• stroke. 
+1.11.2 Assess t he person's individual risk of de veloping lat e eff ects when t hey finish 
+treatment. R ecord these in t heir writt en tr eatment summar y and e xplain t hem t o 
+the person (and t heir r elativ es and car ers, as appr opriat e). 
+1.11.3 Encourage people who ha ve had cranial radiot herap y to follow a healt hy lifestyle, 
+including e xercise, a healt hy diet and st opping smoking (if applicable), t o 
+decr ease t heir risk of str oke. See t he NICE guidelines on obesity pr evention , 
+physical activity  and tobacco: pr eventing uptak e, pr omoting quitting and tr eating 
+dependence . 
+1.11.4 For people who ar e at risk of str oke, consider checking t heir blood pr essur e, 
+HbA1c level and cholest erol profile r egularly . 
+1.11.5 Consider ongoing neur opsy chology assessment f or people at risk of cognitiv e 
+decline. 
+1.11.6 If a person has had a radiot herap y dose t hat might aff ect pituitar y function, 
+consider checking t heir endocrine function r egularly aft er the end of tr eatment. 
+1.11.7 Consider r eferring people who ar e at risk of visual impairment f or an 
+opht halmological assessment. 
+1.11.8 Consider r eferring people who ar e at risk of hearing loss t o audiology f or a 
+hearing t est. 
+1.11.9 Consider r eferring t he person t o str oke ser vices if an MRI during activ e 
+monit oring  identifies asympt omatic ischaemic str oke. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 38 of
+68
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice see t he rationale and impact section on sur veillance f or the 
+late-onset side eff ects of tr eatment . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview D: 
+suppor ting people living wit h a brain tumour . 
+Terms use d in this guideline 
+Active moni toring 
+This is r egular clinical and radiological r eview of a person wit h a brain tumour or brain 
+metastases who ar e not curr ently ha ving tr eatment f or their cancer . 
+Regular clinic al review 
+This is outpatient r eview of t he person wit h a brain tumour or brain metastases at a 
+planned int erval from t he pr evious visit in or der t o assess sympt oms and car e needs, t o 
+provide suppor t and tr eatment and t o per form imaging when appr opriat e. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 39 of
+68
+Recommenda tions f or research 
+The guideline committ ee has made t he following r ecommendations f or resear ch. 
+Key recommenda tions f or research 
+1 Manag ing g lioma: manag emen t of IDH wild type gr ade II glioma 
+Does t he addition of concurr ent and adjuv ant t emoz olomide t o radiot herap y impr ove 
+overall sur vival in patient s wit h IDH wildtype grade  II glioma? 
+Why this is impor tant 
+The W orld Healt h Organization (WHO) 2016 r eclassification of brain tumours r ecognised 
+that t he molecular charact eristics of glioma ar e extremely impor tant in helping 
+differentiat e betw een disease entities wit h very diff erent out comes. Alt hough e vidence 
+exists to guide management r ecommendations f or cer tain molecular gliomas, such as 
+codelet ed and non-codelet ed grade  III glioma, curr ently no studies ha ve investigat ed the 
+best appr oach f or the management of grade  II glioma wit h IDH wildtype. The biological 
+beha viour of t hese tumours is mor e like a high-grade glioma wit h a much shor ter 
+prognosis t han IDH-mutat ed grade  II glioma. 
+Because of t his, some clinicians ha ve adv ocated tr eating such tumours wit h concurr ent 
+chemoradiation r ecommended f or grade  IV glioma ( glioblast oma multif orme, GBM). 
+However, there is curr ently no r esear ch evidence t o suppor t this appr oach and t his 
+regimen is mor e intensiv e and people e xperience incr eased acut e and lat e side eff ects 
+compar ed to radiot herap y alone. 
+Resear ch is needed t o establish whet her or not t his appr oach is beneficial in t erms of 
+improved sur vival, and at what cost in t erms of t oxicity and, pot entially , reduced quality of 
+life. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 40 of
+68
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale and impact section on managing glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+2 Manag ing g lioma: suppor tive care clinics f or lo w-grade g lioma 
+Does a dedicat ed suppor tive car e clinic in addition t o standar d car e impr ove out comes f or 
+people wit h low-grade gliomas? 
+Why this is impor tant 
+People wit h low-grade gliomas ha ve significant sympt oms and comple x healt hcare needs 
+across multiple ph ysical, cognitiv e, emotional and social domains. This is oft en fr om t he 
+initial diagnosis onwar ds. Ther e are indications fr om resear ch lit eratur e and patient r epor ts 
+that t hese needs ar e curr ently unmet. Helping people wit h low-grade gliomas maintain 
+their quality of lif e and function is impor tant, especially as t here is curr ently no cur e, 
+because earlier suppor tive car e interventions and car e plans ma y help r educe unplanned 
+or emer gency contact wit h secondar y and t ertiary providers. 
+As no r esear ch lit eratur e exists which establishes t he eff ectiv eness of a specific 
+healt hcare intervention, uncer tainty e xists about t he most appr opriat e intervention t o 
+addr ess unmet needs and impr ove patient -repor ted out come measur es (or to establish 
+whet her curr ent healt hcare provision can meet t hese needs). Curr ent uncer tainty is lik ely 
+to have led t o variations in ser vice pr ovision acr oss t he UK. It is also possible t hat no 
+specific int ervention is a vailable in some ar eas. 
+Resear ch is needed t o identify whet her, in addition t o standar d car e, a specific suppor tive 
+care intervention can significant ly impr ove patient -repor ted out come measur es, and if so 
+to establish what t his int ervention should consist of . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 1 of
+68
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale and impact section on suppor tive car e clinics f or low-grade glioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+3 Manag ing g lioma: e arly referral to pallia tive care for 
+glioblastoma 
+Does early r eferral t o palliativ e car e impr ove out comes f or people wit h glioblast omas in 
+comparison wit h standar d oncology car e? 
+Why this is impor tant 
+People wit h grade  IV brain tumours ( glioblast omas) ha ve a poor pr ognosis which has not 
+improved in o ver a decade. Median o verall sur vival is 14–18  mont hs even wit h gold-
+standar d chemoradiation f ollowing sur gery. 
+From initial diagnosis people e xperience multiple comple x sympt oms r esulting fr om 
+neurological impairment. These can significant ly impact on t heir quality of lif e, function and 
+psychological w ellbeing. Their car egivers r epor t high le vels of distr ess and car er bur den. 
+The aim of palliativ e car e is t o relieve sympt oms and impr ove people's quality of lif e and 
+function – not just t owards the end of lif e but t hroughout t he duration of illness. Ther e is 
+some e vidence t hat early palliativ e car e referral significant ly impr oves overall sur vival, 
+quality of lif e and mood. 
+Resear ch in t his ar ea is impor tant because t his gr oup of people ha ve substantial healt h 
+needs, which use significant healt hcare resour ces. Suppor tive car e interventions such as 
+early palliativ e car e ma y impr ove quality of lif e and function t hroughout t he duration of 
+illness. It ma y also help people t o manage t he distr ess associat ed wit h a reduced lif e 
+expectancy and par ticipat e in adv anced car e planning. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 42 of
+68
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale and impact section on early r eferral t o palliativ e car e for 
+glioblast oma. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+4 Manag ing g lioma: e arly detection o f recurr ence after tr eatmen t 
+Does early det ection of r ecurr ence aft er treatment impr ove overall sur vival/out comes in 
+molecularly stratified glioma? 
+Why this is impor tant 
+Prognosis f or brain tumours is inher ently uncer tain, and r ecent adv ances in tr eatment 
+mean man y people wit h a brain tumour will liv e for a long time aft er the initial diagnosis. 
+For these individuals, f ollow-up is t he longest component of t heir tr eatment and it is bot h 
+expensiv e for the NHS and (sometimes) a bur den f or the person. Ther e is no high-quality 
+evidence t hat f ollow-up aft er treatment is beneficial, no high-quality e vidence on t he 
+optimal fr equency of imaging, and clinical uncer tainty about whet her such f ollow-up is 
+likely to alter out comes of impor tance t o people wit h tumours (such as o verall lif e 
+expectancy or quality of lif e). 
+Resear ch is needed t o establish at what point t he value of identifying r ecurr ence early is 
+outw eighed b y the harms of incr easing bur den t o patient s. 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale and impact section on t he early det ection of r ecurr ence aft er 
+treatment . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview A: 
+investigation, management and f ollow-up of glioma . 
+5 Manag ing mening ioma: imme diate versus def erred Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 43 of
+68
+radiother apy for inc ompletely excised grade I mening ioma 
+Is immediat e or def erred radiot herap y bett er for incomplet ely e xcised grade  I meningioma? 
+Why this is impor tant 
+Ther e are no randomised studies on t he use of radiot herap y/radiosur gery in t he tr eatment 
+of grade  I meningioma. Though case series ha ve sho wn that people wit h inoperable and 
+incomplet ely e xcised grade  I meningioma tr eated wit h radiot herap y have high rat es of 
+contr ol of t heir tumour , treatment risks significant side eff ects. The side eff ects include: 
+neuropat hy, radionecr osis, significant oedema, neur o-cognitiv e eff ects, incr eased risk of 
+stroke and secondar y tumours. Ther efore the timing of tr eatment is a balance betw een 
+contr ol of tumour and side eff ects. It is not kno wn if early tr eatment has a gr eater or lesser 
+chance of long-t erm tumour contr ol or risk of tumour complications, or if t his just risks 
+complications of tr eatment earlier . 
+People wit h grade  I meningioma ha ve traditionally been o verlook ed as a priority ar ea for 
+resear ch. This is lik ely because of t he slo w natur e of t he disease r esulting in need f or long-
+term f ollow-up and t he difficulty t o obtain funding f or radiot herap y-only studies. Ho wever, 
+this lack of r esear ch is inequitable, hence t he reason f or its prioritisation b y the committ ee. 
+A study on t his topic w ould pr ovide clear inf ormation t o guide clinicians and people wit h 
+meningiomas, hopefully leading t o overall impr ovement in quality of lif e. Because of t he 
+slow-gr owing charact eristics of grade  I meningioma, tr eatment decisions made early in t he 
+management pat hway will ha ve long-t erm eff ects on t he person wit h the meningioma's 
+overall quality of lif e out comes, and pot entially o verall sur vival. 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale and impact section on managing meningioma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview B: 
+investigation, management and f ollow-up of meningioma . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 44 of
+68
+Rationale and im pact 
+These sections briefly e xplain wh y the committ ee made t he recommendations and ho w 
+they might aff ect practice. The y link t o details of t he evidence and a full description of t he 
+committ ee's discussion. 
+Investig ations f or suspe cted glioma: imag ing 
+The discussion belo w explains ho w the committ ee made recommendations 1 .1.1–1.1.3. 
+Why the c ommi ttee made the r ecommenda tions 
+The e vidence indicat ed that standar d structural MRI is useful in distinguishing high-grade 
+from lo w-grade glioma. The committ ee not ed that t his kno wledge will inf orm management. 
+Based on t heir e xperience, t he committ ee recommended a pr otocol t hat t hey defined as a 
+minimum standar d for imaging acquisition. 
+No e vidence was f ound on mor e adv anced MRI t echniques. Ho wever, the committ ee 
+agreed t hat in t heir e xperience such t echniques can be useful f or assessing malignant 
+featur es of a tumour – in par ticular , for ensuring t hat high-grade tumours ar e not 
+misdiagnosed as lo w-grade tumours, which could ha ve serious consequences f or people 
+who r eceiv e suboptimal management as a r esult. Ho wever the committ ee explained t hat a 
+specialist multidisciplinar y team w ould be needed t o interpret featur es of t he scan and 
+decide management, e ven if adv anced t echniques w ere used. 
+How the r ecommenda tions mig ht affect practice 
+Currently, various imaging strat egies ar e used in diff erent centr es and depending on t he 
+person's cir cumstances. These r ecommendations aim t o reduce v ariation in practice, and 
+ensur e that images obtained at diff erent sit es and using diff erent equipment can be mor e 
+accurat ely compar ed. Some centr es ma y need t o change t heir imaging pr otocols. This 
+might incr ease or r educe cost s depending on t he imaging pr otocols which ar e curr ently in 
+place. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 45 of
+68
+Return t o recommendations 
+Investig ations f or suspe cted glioma: mo lecular 
+markers 
+The discussion belo w explains ho w the committ ee made recommendations 1 .1.4–1.1.6. 
+Why the c ommi ttee made the r ecommenda tions 
+Molecular mark ers ar e an emer ging and impor tant ar ea in t he tr eatment of brain tumours. 
+The committ ee look ed for evidence on t hese mark ers but did not find an y. However, they 
+noted that t here are some molecular mark ers for which t he evidence of benefit if t ested is 
+overwhelming, as r epor ted in studies identified in sear ches f or ot her r eview questions. 
+This applies in par ticular f or MGMT pr omot er met hylation and TERT pr omot er mutations in 
+IDH-wildtype glioma, alt hough t he committ ee agr eed t he evidence was of a higher quality 
+in the first case t han t he second. The committ ee agr eed t hat e ven these mark ers ar e not 
+being consist ently tested for and t hat t esting should be standar dised. Ther efore they 
+made r ecommendations based on t heir kno wledge and e xperience, highlighting t he W orld 
+Healt h Organization (WHO) classification, t o ensur e that all centr es follow a consist ent 
+process f or assessing and int erpreting inf ormation on molecular mark ers. This was 
+impor tant, since f ailure to consist ently repor t molecular mark ers can mislead clinicians or 
+limit tr eatment options. 
+How the r ecommenda tions mig ht affect practice 
+As testing f or molecular mark ers is r elativ ely new , practice can v ary widely and t his is t o be 
+expect ed. In principle t here should not be a major change, alt hough t he time tak en to 
+implement t he new molecular t ests will v ary significant ly betw een centr es. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 46 of
+68
+Manag emen t of glioma: ini tial sur gery for lo w-
+grade g lioma 
+The discussion belo w explains ho w the committ ee made recommendations 1 .2.1–1.2.5. 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was e vidence t hat optimal r esection of a lar ge per centage of t he tumour impr oved 
+survival for people wit h low-grade glioma. The committ ee not ed that it is sometimes not 
+appr opriat e to off er maximal saf e resection (f or example, if t he balance of risks and 
+benefit s favours not r esecting all ar eas) and t hat a specialist sur gical t eam should look at 
+the value of doing an operation giv en its saf e extent. The y agr eed t hat biopsy should be 
+consider ed in t hese cases, based on limit ed evidence sho wing impr oved overall sur vival 
+after biopsy compar ed wit h activ e monit oring. Ho wever, the committ ee also concluded 
+that some tumours w ere of such limit ed risk t hat t he risks of sur gery outw eighed t he 
+possible gain of biopsy or r esection. 
+The committ ee described ho w there was no e vidence f or immediat e intervention, but t hat 
+intervention should not be dela yed due t o the pr obability t hat sur gical r esection w ould 
+have benefit f or the person wit h the tumour . The y therefore recommended int ervention 
+within 6  mont hs, to allo w for time t o discuss tr eatment options wit h the person wit h the 
+tumour . This also allo ws for the possibility of a second imaging sequence t o be done lat er 
+to look f or pr ogression and t o assess f or sympt om change, as t he committ ee also 
+recognised t hat a pr opor tion of lo w-grade gliomas ha ve unf avourable gene pr ofiles (f or 
+example, IDH wildtype) t hat mak e them mor e like high-grade tumours fr om a pr ognostic 
+perspectiv e. 
+A small number of people might ha ve had initial tr eatment bef ore it was standar d practice 
+to save a tissue sample f or biopsy , and t hese people w ould curr ently be activ ely 
+monit ored. Based on t heir e xperience t he committ ee agr eed t hat t hese people ma y not 
+need fur ther sur gery as long as t heir condition is stable (t hat is, t hey are not sho wing 
+radiological or clinical disease pr ogression). 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ar e likely to change practice at some centr es, and r emove 
+unnecessar y variation. Ther e are curr ently diff erences betw een centr es in which molecular Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 47 of
+68
+diagnoses ar e per formed and in tr eatment of v ery low-risk, lo w-grade tumours. This is 
+partly because lo w-grade gliomas ma y be managed b y non-e xper t surgical t eams. 
+The r ecommendation about t he management of lo w-grade gliomas t hat ha ve been 
+managed but t hen pr ogress is unlik ely to substantially change practice, as management 
+would be lar gely unchanged. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations 
+Manag emen t of glioma: fur ther manag emen t of 
+low-grade g lioma 
+The discussion belo w explains ho w the committ ee made recommendations 1 .2.6–1.2.11. 
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was e vidence t hat PCV chemot herap y (pr ocarbazine, CCNU [lomustine] and 
+vincristine) aft er radiot herap y impr oved overall sur vival and pr ogression-fr ee sur vival 
+compar ed wit h radiot herap y alone. The committ ee discussed ho w the evidence f or the 
+exact r egime was comple x, and used t heir judgement t o recommend possible sequence 
+and dose. In addition, t he committ ee not ed that t here are some cir cumstances wher e 
+radiot herap y and PCV might not be appr opriat e (par ticularly f or the very lowest-concern 
+and highest -concern lo w-grade tumours) and made r ecommendations based on t heir 
+experience in t hese cases. 
+The committ ee included appr oximat e age cut -offs based on e vidence sho wing t hat 
+treatment impr oved sur vival in people aged ar ound 40  or over wit h or wit hout r esidual 
+tumour , and t heir clinical judgement t hat tr eatment w ould be unlik ely to be of benefit f or 
+people aged ar ound 40  or under wit hout r esidual tumour . 
+The committ ee found no e vidence on t he tr eatment of IDH wildtype grade  II glioma. The y 
+determined t hat management of t his type of glioma was lik ely to be diff erent fr om ot her 
+low-grade glioma, as IDH wildtype grade  II glioma beha ves mor e like a high-grade glioma. 
+The committ ee therefore made a resear ch recommendation on whet her tr eating t his Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 48 of
+68
+tumour type mor e like a grade  II glioma or grade  IV glioma was most beneficial . 
+How the r ecommenda tions mig ht affect practice 
+These r ecommendations aim t o standar dise practice. The y will pr obably r esult in t he same 
+amount s of chemot herap y and radiot herap y being giv en, but t hese tr eatment s will be 
+more precisely tar geted and it is possible t hat t hey will be giv en earlier . This w ould r esult 
+in mor e people r equiring long-t erm tr eatment f or the side eff ects of radiation and 
+chemot herap y. Mor e people ar e likely to have activ e monit oring alone, which is not lik ely to 
+create a resour ce impact. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations 
+Manag emen t of glioma: gr ade III glioma f ollowing 
+surgery 
+The discussion belo w explains ho w the committ ee made recommendations 1 .2.12–1.2.17. 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee consider ed evidence f or grade  III and grade  IV glioma separat ely. 
+Treatment s to be off ered 
+Based on randomised contr olled trial e vidence, t he committ ee recommended radiot herap y 
+and eit her PCV or t emoz olomide chemot herap y, depending on tumour subtype and 
+performance status, f or people wit h grade  III glioma. 
+Treatment s that should not be off ered 
+Based on t he available e vidence, t he committ ee recommended t hat some tr eatment s 
+should not be off ered because t hey were harmful. The y also agr eed, based on t heir 
+experience, t hat it w ould be useful f or healt hcare professionals t o tell people wit h glioma 
+that no e vidence had been f ound t o indicat e that cer tain tr eatment s are beneficial. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 49 of
+68
+How the r ecommenda tions mig ht affect practice 
+Adjuv ant PCV f or treating codelet ed grade  III glioma is standar d practice, but adjuv ant 
+temoz olomide f or non-codelet ed grade  III gliomas is a change in practice. Ho wever, some 
+centr es ma y already ha ve star ted to adopt t his as standar d car e, since t he result s of t he 
+study suppor ting t his tr eatment w ere made publicly a vailable in  2016 . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations 
+Manag emen t of glioma: gr ade IV glioma f ollowing 
+surgery 
+The discussion belo w explains ho w the committ ee made recommendations 1 .2.18–1.2.27 . 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee consider ed evidence f or grade  III and grade  IV glioma separat ely. 
+Treatment s to be used 
+The committ ee saw some e vidence demonstrating impr oved overall sur vival in some 
+groups of people wit h grade  IV glioma who had radiot herap y wit h concurr ent and adjuv ant 
+temoz olomide ( compar ed wit h radiot herap y alone). Ho wever, based on t heir clinical 
+experience t hey were unsur e that t hese r esult s could be generalised t o all people wit h 
+grade  IV glioma, so suggest ed a range of possible tr eatment s that can be consider ed for 
+other gr oups, depending on t he exact clinical charact eristics of t he tumour . 
+Appr oximat e age cut -offs for people wit h grade  IV glioma w ere specified b y the committ ee 
+based on e vidence t hat a radiot herap y dose of 40  Gy did not r esult in lo wer sur vival in 
+people aged ar ound 7 0 or over compar ed wit h a 60  Gy dose. Ther efore a lo wer 
+radiot herap y dose is lik ely to cause f ewer side eff ects wit hout compr omising clinical 
+effectiv eness f or this gr oup. 
+The committ ee w ere awar e that t he pr ognosis of people wit h a grade  IV glioma and a lo w Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 50 of
+68
+performance status was poor , and r ecommended palliativ e car e be consider ed. Ho wever 
+the committ ee did not find an y evidence on whet her earlier or lat er palliativ e car e was 
+most beneficial f or people who might need it. The y therefore made a resear ch 
+recommendation on t his topic, with the aim of finding out t he point in t he tr eatment 
+pathway when it w ould be most beneficial f or people wit h this type of glioma t o have 
+palliativ e car e. 
+Treatment s that should not be used 
+Based on t he available e vidence, t he committ ee recommended t hat cer tain tr eatment s 
+should not be off ered. This included tumour tr eating fields (TTF) based on published 
+healt h economic e vidence t hat t hey are not an efficient use of NHS r esour ces. The y also 
+agreed, based on t heir clinical e xperience, t hat it w ould be useful f or healt hcare 
+professionals t o tell people wit h glioma t hat no e vidence had been f ound t o suggest t hat 
+certain tr eatment s are beneficial. 
+How the r ecommenda tions mig ht affect practice 
+For younger people wit h a grade  IV glioma and a good per formance status, a course of 
+radiot herap y wit h concurr ent and adjuv ant t emoz olomide is standar d car e. Ho wever, for 
+people aged ar ound 7 0 and o ver, par ticularly t hose wit h a glioma wit h met hylated MGMT , 
+the use of concurr ent and adjuv ant t emoz olomide wit h 15 fractions of radiot herap y is a 
+change of practice t hat will pr obably r esult in mor e people being tr eated. This is a 
+relativ ely small gr oup of people, and so t he recommendation is unlik ely to have a 
+significant r esour ce impact. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations 
+Manag emen t of glioma: r ecurr ent hig h-grade 
+glioma 
+The discussion belo w explains ho w the committ ee made recommendations 1 .2.28–1 .2.35. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 51 of
+68
+Why the c ommi ttee made the r ecommenda tions 
+Treatment s to be off ered 
+Based on t he available e vidence, t he committ ee recommended t hat tr eatment options f or 
+people wit h recurr ent glioma should include t emoz olomide, PCV and single-agent CCNU 
+(lomustine). No e vidence was f ound t o indicat e which of t hese 3  options is lik ely to lead t o 
+the best out comes, and on t he basis of t heir clinical e xperience t he committ ee concluded 
+that t he choice of tr eatment should tak e several f actors int o account, including t he 
+individual f eatur es of t he tumour and t he pr eferences of t he person. The committ ee also 
+highlight ed the possibility of considering suppor tive car e alone. 
+Treatment s that should not be off ered 
+Based on t he available e vidence, t he committ ee recommended t hat cer tain tr eatment s 
+should not be off ered. This included tumour tr eating fields (TTF) on t he basis of e vidence 
+of some clinical benefit but indir ect published healt h economic e vidence, in people wit h 
+newly diagnosed high-grade glioma, t hat t hey are not cost eff ectiv e. The y also agr eed, 
+based on t heir clinical e xperience, t hat it w ould be useful f or healt hcare professionals t o 
+tell people wit h glioma t hat no e vidence had been f ound t o suggest t hat cer tain 
+treatment s are beneficial. 
+How the r ecommenda tions mig ht affect practice 
+These r ecommendations r eflect standar d treatment f or recurr ent high-grade glioma, and 
+therefore should not r epresent a substantial change in practice. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations 
+Manag emen t of glioma: te chniques f or resection o f 
+glioma 
+The discussion belo w explains ho w the committ ee made recommendations 1 .2.36–1 .2.42 . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 52 of
+68
+Why the c ommi ttee made the r ecommenda tions 
+Ther e was e vidence t hat 5-aminole vulinic acid (5-AL A), intraoperativ e MRI and diffusion 
+tensor imaging could impr ove either t he extent or saf ety of r esection (par ticularly t he 
+preservation of neur ological function). The committ ee not ed that a combination of 
+techniques might be needed t o optimise bot h the extent and saf ety of r esection f or a 
+particular sur gical plan. The committ ee concluded t hat t he evidence f or MRI could be 
+generalised t o intraoperativ e ultrasound on t he basis of t heir clinical e xperience, and 
+therefore that clinicians should be able t o choose eit her t echnique depending on 
+availability . 
+The e vidence f or awak e craniot omy was equiv ocal (non-significant diff erences compar ed 
+with sur gery under general anaest hesia), t herefore from t he evidence it was not possible 
+to conclude t hat awak e craniot omy would benefit all people wit h glioma. This is in line wit h 
+the committ ee's clinical e xperience t hat some people benefit fr om t he pr ocedur e (in t erms 
+of pr eserving language, mot or and visual function) but ot hers ar e harmed – par ticularly 
+from psy chological eff ects which act as a contraindication t o awak e craniot omy. The 
+committ ee described ho w bett er pr eoperativ e procedur es could r educe t he number of 
+people distr essed b y the pr ocedur e. 
+How the r ecommenda tions mig ht affect practice 
+Some t echniques r ecommended b y the committ ee requir e a v ery high le vel of 
+intraoperativ e skill, and t his might ha ve resour ce implications f or hospitals r ecruiting 
+people wit h these specialist skills. Ther e is significant v ariation in t he curr ent pr ovision of 
+psychological suppor t for people bef ore and during awak e craniot omy, and implementing 
+this could carr y a high cost t o an individual unit. 
+If a unit does not ha ve access t o intraoperativ e ultrasound or MRI, t he cost of acquiring 
+this equipment could be substantial (MRI is r elativ ely e xpensiv e, ultrasound is r elativ ely 
+cheap ). Ho wever the committ ee concluded t hat most unit s should ha ve access t o one or 
+the ot her alr eady . Ther efore the only r esour ce impact w ould be if a unit curr ently using 
+intraoperativ e ultrasound decided t hat t he additional e vidence f or pr eservation of 
+neurological function in intraoperativ e MRI justified t he cost of swit ching machines. 
+However, the committ ee thought t his was unlik ely to happen. 
+Using 5-AL A is associat ed wit h a high cost, and 5-AL A-guided sur gery needs a non-
+standar d fluor escence-det ecting micr oscope. Ther efore the resour ce impact of t his Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 53 of
+68
+recommendation is lik ely to be high in all settings, and v ery high in settings wit hout access 
+to a fluor escence-det ecting micr oscope. The anticipat ed resour ce impact of t his 
+recommendation is gr eater than £1  million per y ear. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations 
+Follow-up f or glioma 
+The discussion belo w explains ho w the committ ee made recommendations 1 .3.1–1.3.9. 
+Why the c ommi ttee made the r ecommenda tions 
+In the absence of e vidence, t he committ ee made r ecommendations based on t heir clinical 
+experience. The y recommended r egular clinical r eview as t he only plausible wa y of 
+identifying and pot entially managing r ecurr ence or changing sympt oms. The y also 
+recommended t he review schedule tak e into account all of t he person's r elevant 
+charact eristics, including grade of tumour . As t his is quit e difficult t o work out, t he 
+committ ee suggest ed a schedule of clinical r eviews t hat is lik ely to be beneficial f or a 
+'typical' person, which can be amended as needed t o tak e into account individual 
+variation. The committ ee did not unco ver evidence on who should do t he follow-up and so 
+did not mak e a recommendation on t his topic as it w ould v ary accor ding t o clinical need, 
+but discussed ho w it could be – f or example – t he local oncologist, neur o-oncologist, 
+neurologist, neur osurgeon, clinical nurse specialist or GP . 
+As regular clinical r eview should include imaging, based on t heir e xperience t he committ ee 
+suggest ed an MRI sequence which t hey belie ved w ould be suitable t o monit or for 
+recurr ence. The y discussed ho w adv anced MRI t echniques might be v aluable, but as t hese 
+techniques ar e time-consuming and difficult t o interpret the committ ee concluded t hey 
+should only be r ecommended under cer tain cir cumstances wher e extra inf ormation was 
+likely to substantially alt er treatment plans. The committ ee recommended t hat an y change 
+in neur ological signs or sympt oms (which w ould include changes in beha vioural, emotional 
+and psy chological signs and sympt oms) be tr eated as a sign of a pot ential change t o the 
+tumour , and t herefore recommended clinical r eview out side t he usual schedule in or der t o 
+investigat e this. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 54 of
+68
+The committ ee belie ved that a dedicat ed suppor tive car e clinic could impr ove out comes 
+for people wit h low-grade glioma, but did not find an y evidence on t his. Ther efore they 
+made a resear ch recommendation on impr oving t he long-t erm out comes of people wit h 
+low-grade glioma . 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ar e in line wit h curr ent best practice, and should standar dise 
+practice. The y are unlik ely to cause a significant incr ease in r esour ce use, but t here ma y 
+be some additional cost s or changes in ser vice configuration if practice diff ers in a 
+particular centr e. 
+The imaging sequences ar e recommended on t he basis of e vidence f or the appr opriat e 
+sequences f or initial diagnosis, and so might not be t he standar d sequence f or follow-up in 
+all centr es. As a r esult, adopting t he recommended sequences might cr eate some 
+additional w orkload f or some centr es. Ho wever the recommendations f or exact schedules 
+are examples based on consensus in t he committ ee, and t here is t herefore flexibility f or 
+centr es to adapt t hese t o their o wn models, limiting r esour ce impact. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+investigation, management and f ollow-up of glioma . 
+Return t o recommendations 
+Investig ation o f suspe cted mening ioma 
+The discussion belo w explains ho w the committ ee made recommendations 1 .4.1 and  1.4.2. 
+Why the c ommi ttee made the r ecommenda tions 
+Evidence indicat ed that standar d structural MRI is useful in distinguishing high-grade fr om 
+low-grade glioma, and t he committ ee agr eed t hat it is appr opriat e to extrapolat e from t his 
+evidence t o a belief t hat MRI can be used t o distinguish meningioma fr om healt hy brain 
+tissue. In t he committ ee's e xperience, CT scans can be mor e accurat e than MRI f or 
+assessing meningioma wit h bone in volvement. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 55 of
+68
+How the r ecommenda tions mig ht affect practice 
+Currently, various imaging strat egies ar e used depending on t he centr e and t he person's 
+circumstances. These r ecommendations aim t o reduce v ariation in practice, and ensur e 
+that images obtained at diff erent sit es and using diff erent equipment can be mor e 
+accurat ely compar ed. Some centr es ma y need t o change t heir imaging pr otocols as a 
+result, but t his should not r equir e the pur chase of additional equipment. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  B: 
+investigation, management and f ollow-up of meningioma . 
+Return t o recommendations 
+Manag emen t of confirme d mening ioma f ollowing 
+surgery or if sur gery is not possi ble (or has be en 
+decline d) 
+The discussion belo w explains ho w the committ ee made recommendations 1 .4.3–1.4.6. 
+Why the c ommi ttee made the r ecommenda tions 
+Based on limit ed evidence and t heir clinical e xperience, t he committ ee concluded t hat 
+management of t his gr oup of meningiomas will depend on t he type of meningioma. The y 
+noted that e vidence f or 1 grade of meningioma could not normally be used t o suggest best 
+management f or anot her grade. Ther efore the committ ee made r ecommendations f or each 
+grade of meningioma separat ely, using e vidence if t his was a vailable and t heir judgement 
+if it was not. The committ ee identified t hat management could be mor e conser vative if t he 
+tumour grade was lo wer and initial r esection mor e complet e, and should be mor e 
+aggr essiv e if t he tumour grade was higher or initial r esection mor e par tial. 
+The committ ee agr eed t hat t he 3 management options – fur ther radiot herap y, surgery and 
+activ e monit oring – had diff erent balances of benefit s and harms in diff erent situations. 
+However they also agr eed t hat serious harm could be done t o a person wit h a tumour if 
+they were over- or under -treated giv en the risk pr ofile of t heir tumour , and so made 
+recommendations accor ding t o this risk. F or example, f or a lo w-grade almost complet ely-
+resect ed tumour ( grade  I, Simpson  2 excision), radiot herap y or fur ther sur gery could 
+expose t he person t o risk of harm f or no e xpect ed clinical gain. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 56 of
+68
+Based on limit ed evidence, t he committ ee made r ecommendations on ho w to deliv er 
+radiot herap y or radiosur gery wher e this was appr opriat e. The y used t heir e xperience t o 
+highlight f eatur es of t he tumour or pr eferences of t he person t hat might help select t he 
+most appr opriat e radiot herap y or radiosur gery modality , and e xplained t hat t he best 
+result s would come t hrough minimising t he dose of radiation deliv ered to healt hy brain 
+tissue while maximising t he chance of local contr ol. 
+The committ ee w ere unable t o find e vidence comparing diff erent timings of radiot herap y 
+in incomplet ely e xcised grade  I meningioma. As t he disease is slo w growing it can be 
+difficult t o assess t he risks of immediat e side eff ects from tr eatment compar ed to the 
+longer -term benefit s of tumour contr ol. Ther efore the committ ee made a resear ch 
+recommendation t o investigat e this topic. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations r eflect standar d practice in man y centr es, and should mak e 
+treatment mor e consist ent. 
+An appointment wit h an oncologist f or all people who ma y have radiot herap y is not 
+currently standar d practice. Ho wever, for most people t his is lik ely to mean a change in t he 
+timing of t heir first appointment wit h an oncologist, rat her t han man y mor e people ha ving 
+oncologist appointment s. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  B: 
+investigation, management and f ollow-up of meningioma . 
+Return t o recommendations 
+Follow-up f or mening ioma 
+The discussion belo w explains ho w the committ ee made recommendations 1 .5.1–1.5.6. 
+Why the c ommi ttee made the r ecommenda tions 
+In the absence of e vidence, t he committ ee made r ecommendations based on t heir clinical 
+experience. The y recommended r egular clinical r eview as t he only plausible wa y of 
+identifying and pot entially managing r ecurr ence or changing sympt oms. The y also Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 57 of
+68
+recommended t he review schedule tak e into account all of t he person's r elevant 
+charact eristics, including grade of tumour . As t his is quit e difficult t o work out, t he 
+committ ee suggest ed a schedule of clinical r eviews t hat is lik ely to be beneficial f or a 
+'typical' person, which can be amended as needed t o tak e into account individual 
+variation. The committ ee did not unco ver evidence on who should do t he follow-up and so 
+did not mak e a recommendation on t his topic as it w ould v ary accor ding t o clinical need, 
+but discussed ho w it could be – f or example – t he local oncologist, neur o-oncologist, 
+neurologist, neur osurgeon, clinical nurse specialist or GP . 
+As regular clinical r eview should include imaging, based on t heir e xperience t he committ ee 
+suggest ed an MRI sequence which t hey belie ved w ould be suitable t o monit or for 
+recurr ence. The y discussed ho w adv anced MRI t echniques might be v aluable, but as t hese 
+techniques ar e time-consuming and difficult t o interpret the committ ee concluded t hey 
+should only be r ecommended under cer tain cir cumstances wher e extra inf ormation was 
+likely to substantially alt er treatment plans. The committ ee recommended t hat an y change 
+in neur ological signs or sympt oms (which w ould include changes in beha vioural, emotional 
+and psy chological signs and sympt oms) be tr eated as a sign of a pot ential change t o the 
+tumour , and t herefore recommended clinical r eview out side t he usual schedule in or der t o 
+investigat e this. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ar e in line wit h curr ent best practice, and should standar dise 
+practice. The y are unlik ely to cause a significant incr ease in r esour ce use, but t here ma y 
+be some additional cost s or changes in ser vice configuration if practice diff ers in a 
+particular centr e. 
+The imaging sequences ar e recommended on t he basis of e vidence f or the appr opriat e 
+sequences f or initial diagnosis, and so might not be t he standar d sequence f or follow-up in 
+all centr es. As a r esult, adopting t he recommended sequences might cr eate some 
+additional w orkload f or some centr es. Ho wever the recommendations f or exact schedules 
+are examples based on consensus in t he committ ee, and t here is t herefore flexibility f or 
+centr es to adapt t hese t o their o wn models, limiting r esour ce impact. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  B: 
+investigation, management and f ollow-up of meningioma . 
+Return t o recommendations Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 58 of
+68
+Investig ation o f suspe cted brain me tastases 
+The discussion belo w explains ho w the committ ee made recommendations 1 .6.1–1.6.3. 
+Why the c ommi ttee made the r ecommenda tions 
+In the absence of e vidence, t he committ ee recommended standar d structural MRI based 
+on their e xperience, because it is impor tant t o establish t he exact number of metastases in 
+the brain, which can guide fur ther tr eatment. The committ ee described ho w failing t o 
+establish t his could be danger ous. Extracranial imaging, biopsy of t he extracranial disease 
+(wher e indicat ed) and per forming all imaging bef ore multidisciplinar y team discussions 
+should ensur e that all necessar y information is a vailable so t hat appr opriat e decisions ar e 
+made and dela ys in tr eatment a voided. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations r einforce curr ent best practice and should r educe dela ys to local 
+intracranial tr eatment. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  C: 
+investigation, management and f ollow-up of brain metastases . 
+Return t o recommendations 
+Manag emen t of confirme d brain me tastases 
+The discussion belo w explains ho w the committ ee made recommendations 1 .7.1–1.7.11. 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee made r ecommendations based on t he available e vidence and t heir 
+judgement. The y described ho w featur es of brain metastases, including t he number and 
+volume (which is impor tant f or establishing pr ognosis), should be e valuat ed bef ore 
+starting tr eatment, and decisions about tr eatment made on t he basis of t hese f eatur es and 
+the person's pr eferences. 
+The committ ee described ho w syst ematic anti-cancer t herapies w ere widely used in t he Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 59 of
+68
+management of ot her types of metastases, and t herefore they might be e xpect ed to work 
+for brain tumours. In t he absence of e vidence, t he committ ee recommended considering 
+systematic anti-cancer t herapies on t he basis of t heir clinical e xperience. Whet her or not 
+these t herapies should be giv en depends on t he type of metastasis: if it is not lik ely to 
+respond t hen t he side eff ects would not justify giving t he therap y, wher eas if t he 
+metastasis was lik ely to respond t hen t he therap y was lik ely to be beneficial. 
+Evidence indicat ed that sur gery, stereotactic radiosur gery and st ereotactic radiot herap y 
+are eff ectiv e for treating a single brain metastasis, but t here was no e vidence t o 
+recommend 1  technique o ver the ot her. Ther e was some e vidence t hat irradiation of t he 
+cavity sit e impr oved local contr ol, so t he committ ee recommended it on t he basis t hat 
+improving local contr ol should impr ove quality of lif e. 
+Januar y 2021 : the recommendations on t his sur gical ca vity radiosur gery and radiot herap y 
+have been updat ed. F or details see t he updat e information . 
+For people wit h multiple brain metastases, t he committ ee described ho w treatment 
+options ar e mor e variable, and t hat r esection, st ereotactic radiosur gery, stereotactic 
+radiot herap y and whole-brain radiot herap y could all be consider ed in cer tain 
+circumstances. 
+The committ ee recommended t hat neit her memantine nor concurr ent syst emic t herap y 
+should be off ered to enhance t he efficacy of whole-brain radiot herap y, on t he basis of 
+evidence of no benefit and a pot ential risk of harm. Ho wever, there were biological r easons 
+to think t hese tr eatment s might be beneficial in some settings, so t he committ ee agr eed 
+these t herapies could be off ered in t he cont ext of a clinical trial t o investigat e this. 
+How the r ecommenda tions mig ht affect practice 
+Current practice v aries gr eatly betw een centr es. Some of t he variation r eflect s clinically 
+relevant f actors such as e xper tise in a par ticular t echnique or t he patient population. The 
+recommendations should help t o standar dise car e and pr event some harmful and wast eful 
+practices fr om continuing. Economic modelling identified t hat t he recommendations will 
+likely incr ease cost s, but t he committ ee belie ved that t his was still an efficient use of NHS 
+resour ces, as t he impr ovement t o quality of lif e was significant. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  C: 
+investigation, management and f ollow-up of brain metastases . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 60 of
+68
+Return t o recommendations 
+Follow-up f or br ain me tastases 
+The discussion belo w explains ho w the committ ee made recommendations 1 .8.1–1.8.7. 
+Why the c ommi ttee made the r ecommenda tions 
+In the absence of e vidence, t he committ ee made r ecommendations based on t heir clinical 
+experience. The y recommended r egular clinical r eview as t he only plausible wa y of 
+identifying and pot entially managing r ecurr ence or changing sympt oms. The y also 
+recommended t he review schedule tak e into account all of t he person's r elevant 
+charact eristics, including grade of tumour . As t his is quit e difficult t o work out, t he 
+committ ee suggest ed a schedule of clinical r eviews t hat is lik ely to be beneficial f or a 
+'typical' person, which can be amended as needed t o tak e into account individual 
+variation. The committ ee did not unco ver evidence on who should do t he follow-up and so 
+did not mak e a recommendation on t his topic as it w ould v ary accor ding t o clinical need, 
+but discussed ho w it could be – f or example – t he local oncologist, neur o-oncologist, 
+neurologist, neur osurgeon, clinical nurse specialist or GP . 
+As regular clinical r eview should include imaging, based on t heir e xperience t he committ ee 
+suggest ed an MRI sequence which t hey belie ved w ould be suitable t o monit or for 
+recurr ence. The y discussed ho w adv anced MRI t echniques might be v aluable, but as t hese 
+techniques ar e time-consuming and difficult t o interpret the committ ee concluded t hey 
+should only be r ecommended under cer tain cir cumstances wher e extra inf ormation was 
+likely to substantially alt er treatment plans. The committ ee recommended t hat an y change 
+in neur ological signs or sympt oms (which w ould include changes in beha vioural, emotional 
+and psy chological signs and sympt oms) be tr eated as a sign of a pot ential change t o the 
+tumour , and t herefore recommended clinical r eview out side t he usual schedule in or der t o 
+investigat e this. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ar e in line wit h curr ent best practice, and should standar dise 
+practice. The y are unlik ely to cause a significant incr ease in r esour ce use, but t here ma y 
+be some additional cost s or changes in ser vice configuration if practice diff ers in a 
+particular centr e. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 61 of
+68
+The imaging sequences ar e recommended on t he basis of e vidence f or the appr opriat e 
+sequences f or initial diagnosis, and so might not be t he standar d sequence f or follow-up in 
+all centr es. As a r esult, adopting t he recommended sequences might cr eate some 
+additional w orkload f or some centr es. Ho wever the recommendations f or exact schedules 
+are examples based on consensus in t he committ ee, and t here is t herefore flexibility f or 
+centr es to adapt t hese t o their o wn models, limiting r esour ce impact. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  C: 
+investigation, management and f ollow-up of brain metastases . 
+Return t o recommendations 
+Care needs of people wi th br ain tumour s 
+The discussion belo w explains ho w the committ ee made recommendations 1 .9.1–1.9.12. 
+Why the c ommi ttee made the r ecommenda tions 
+Based on t he evidence and t heir o wn e xperience, t he committ ee det ermined t hat people 
+with brain tumours ha ve very specific needs t hat ar e oft en not met. In par ticular , they 
+highlight ed wa ys in which t he car e needs of people wit h brain tumours diff er from t hose of 
+people wit h other types of cancer , such as t he impact on t he person's sense of identity 
+and legal r equir ement s related to driving. Losing t he ability or legal right t o driv e can ha ve 
+a profound eff ect on t he patient's independence, emplo yment status and self -esteem. The 
+committ ee's aim was t o impr ove the suppor t and inf ormation off ered to people wit h brain 
+tumours. 
+The committ ee described ho w the car e needs of people wit h brain tumours w ere oft en 
+more comple x than could be consider ed in a single guideline. In par ticular , young people, 
+people wishing t o preserve their f ertility, and people nearing t he end of t heir lif e have 
+especially comple x needs. In or der t o addr ess t hese needs, t he committ ee signpost ed to 
+existing NICE guidance in t he specific ar ea. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations should impr ove car e for bot h people living wit h brain tumours and 
+their r elativ es and car ers. It is lik ely that t here will be a shor t-term r esour ce impact in some Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 62 of
+68
+areas, as suppor tive car e for people wit h brain tumours is curr ently variable, wit h very little 
+suppor t available in some ar eas. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  D: 
+suppor ting people living wit h a brain tumour . 
+Return t o recommendations 
+Neurorehabili tation ne eds of people wi th br ain 
+tumour s 
+The discussion belo w explains ho w the committ ee made recommendations 1 .10.1–1.10.3. 
+Why the c ommi ttee made the r ecommenda tions 
+No e vidence was f ound f or this topic. Based on t heir e xperience, t he committ ee agr eed 
+that neur ological r ehabilitation is lik ely to be suitable f or man y people wit h brain tumours. 
+Given that neur ological r ehabilitation is time-consuming ( especially if t he person wit h a 
+tumour liv es a long wa y from t he rehabilitation centr e) and sometimes not appr opriat e, the 
+committ ee agr eed t hat assessment should be carried out at e very stage of diagnosis and 
+follow-up t o identify which, if an y, forms of r ehabilitation ar e suitable f or the person. The 
+aim of t he recommendations is t o ensur e that neur ological r ehabilitation is consider ed at 
+every stage of tr eatment and f ollow-up. 
+How the r ecommenda tions mig ht affect practice 
+Ther e is curr ently variation in practice in assessing whet her people wit h a brain tumour 
+need neur ological r ehabilitation. Some of t his reflect s the availability of neur ological 
+rehabilitation ser vices. The r ecommendations r einforce curr ent best practice, and will 
+mean a change in practice in some ar eas, including wher e assessment is 'ad hoc' rat her 
+than syst ematic. 
+People wit h a brain tumour mak e up a small per centage of people r eferred for neur ological 
+rehabilitation, so only a small incr ease in demand on r esour ces is e xpect ed. Ther e should 
+not be an y extra training needs because pr ofessionals alr eady ha ve the kno wledge and 
+skills t o provide t he ser vices. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 63 of
+68
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  D: 
+suppor ting people living wit h a brain tumour . 
+Return t o recommendations 
+Surveillanc e for the la te-onse t side ef fects of 
+treatmen t 
+The discussion belo w explains ho w the committ ee made recommendations 1 .11.1–1.11.9. 
+Why the c ommi ttee made the r ecommenda tions 
+No e vidence was f ound f or this topic. Some people e xperience lat e eff ects after treatment 
+for a brain tumour . Wit h the possible e xception of str oke risk it is unkno wn if t hese lat e 
+effects can be pr evented, but t he committ ee agr eed t hat an y negativ e impact can be 
+managed t hrough clinical vigilance and r eferral int o appr opriat e specialist monit oring 
+pathways. The committ ee explained t hat it was impor tant t o consider r eferral f or an yone 
+at risk of lat e eff ects – not just t hose at 'high' risk – but t hat t here ma y be no v alue in such 
+a referral o verall in lo wer risk gr oups. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations should not significant ly alt er practice, as t hey reflect common 
+clinical practice. 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  D: 
+suppor ting people living wit h a brain tumour . 
+Return t o recommendations Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 64 of
+68
+Context 
+It is estimat ed there are around 10 ,000 new cases of primar y brain tumours per y ear. 
+These tumours come fr om t he brain tissue or it s coverings – t he meninges. Malignant 
+high-grade gliomas (anaplastic gliomas and glioblast omas) and pr e-malignant lo w-grade 
+gliomas come fr om t he brain tissue glial cells, and mak e up o ver 60% of primar y brain 
+tumours. Meningiomas mak e up a fur ther 30%. Alt hough oft en thought benign, 
+meningiomas can ha ve an acut e presentation and ar e associat ed wit h significant long-
+term neur ological morbidity . Because of t his, t hey can beha ve in a malignant f ashion in 
+terms of r ecurr ence and impact. 
+Over 60% of people wit h primar y brain tumours pr esent at, and ar e diagnosed b y, accident 
+and emer gency ser vices rat her t han fr om con ventional GP or specialist r eferral. This 
+causes a significant demand on t hese ser vices. Alt hough primar y malignant brain tumours 
+represent only 3% of all cancers, t hey result in t he most lif e-years lost of an y cancer . Ther e 
+is concern t hat t he true incidence of t hese tumours is rising. 
+Cancers t hat ha ve spr ead t o the brain fr om somewher e else in t he body ar e called 
+secondar y brain tumours, or brain metastases. Man y diff erent cancer types can spr ead t o 
+the brain, wit h lung and br east cancers being t he most common. Mor e people wit h 
+systemic cancers ar e sur viving longer and ar e referred to neur oscience multidisciplinar y 
+teams f or management of t heir brain metastases. The number of people needing 
+assessment f or cranial tr eatment is no w over 10 ,000 per y ear in t he UK and rising. 
+The specialist natur e of neur o-imaging and t he need f or comple x diagnostic and r eductiv e 
+surgery emphasises t he impor tance of w ell-or ganised ser vice deliv ery by dedicat ed unit s. 
+The singular eff ects of brain tumours on mental per formance (bot h psy chological stat e 
+and cognitiv e decline) ar e a par ticular challenge t o car ers and pr ofessionals alik e, 
+especially in deliv ering suppor t to people at home. The peak age of pr esentation of brain 
+cancer is betw een 65  and 69, and t here are concerns t hat deliv ery of all ser vices t o these 
+older people is suboptimal. Ther e are also concerns t hat t he transition fr om paediatric t o 
+adult unit s could cr eate a car e gap. This w ould most specifically aff ects patient s who ar e 
+betw een 18  and 30  years old. 
+Survival wit h malignant brain tumours has r emained poor despit e some impr ovement s in 
+surgery, radiot herap y and chemot herap y, and a gr eater understanding of molecular 
+classification. The management of a lo w-grade glioma t hat is lik ely to transf orm t o high Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 65 of
+68
+grade r emains contr oversial, and pr esent s issues f or ongoing car e. Follow-up f or people 
+with meningiomas aft er primar y treatment is oft en long t erm, and t here is v ariation in bot h 
+follow-up and tr eatment s for recurr ence. 
+Conventional whole-brain irradiation as optimal t herap y for brain metastases is being 
+challenged b y concerns about it s effectiv eness and t oxicity , as w ell as t he availability and 
+immediacy of sur gery and st ereotactic radiot herap y. Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 66 of
+68
+Finding mor e inf orma tion and c ommi ttee 
+details 
+To find NICE guidance on r elated topics, including guidance in de velopment, see t he NICE 
+webpage on brain cancers . 
+For full details of t he evidence and t he guideline committ ee's discussions, see t he 
+evidence r eviews . You can also find inf ormation about how the guideline was de veloped , 
+including details of t he committ ee. 
+NICE has pr oduced tools and r esour ces t o help y ou put t his guideline int o practice . For 
+general help and advice on putting our guidelines int o practice, see resour ces t o help y ou 
+put NICE guidance int o practice . Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 67 of
+68
+Update inf orma tion 
+Januar y 2021 : We replaced r ecommendation 1 .7.6 wit h a link t o the NHS England 
+commissioning policy on st ereotatic radiosur gery and st ereotatic radiot herap y to the 
+surgical ca vity aft er resection of brain metastases . 
+Minor changes since publication 
+Januar y 2022: Minor changes t o redirect NICE Pat hways links. 
+ISBN: 9 78-1-47 31-3001- 2 Brain tumours (primar y) and brain metastases in o ver 16s (NG99)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 68 of
+68

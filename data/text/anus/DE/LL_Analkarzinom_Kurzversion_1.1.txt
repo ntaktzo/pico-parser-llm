@@ -1,0 +1,1618 @@
+1.1 Herausgeber   
+ 
+ 
+ 
+S3-Leitlinie Analkarzinom  
+(Diagnostik, Therapie und 
+Nachsorge  von Analkanal - 
+und Analrandkar zinomen)  
+Kurzversion 1 .1 – November  2020 
+AWMF -Registernummer: 081/004OL  
+ 
+ 
+ 
+ 
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 2 
+Inhaltsverzeichnis  
+ 
+1. Informationen zu dieser Kurzversion  ................................ ...........................  4 
+1.1. Herausgeber  ................................ ................................ ................................ .........................  4 
+1.2. Federführende Fachgesellschaft  ................................ ................................ .............................  4 
+1.3. Finanzierung der Leitlinie  ................................ ................................ ................................ ...... 4 
+1.4. Kontakt  ................................ ................................ ................................ ................................ . 4 
+1.5. Zitierweise  ................................ ................................ ................................ ............................  4 
+1.6. Bisherige Änderungen an der Version 1  ................................ ................................ .................  5 
+1.7. Besonderer Hinweis  ................................ ................................ ................................ ...............  5 
+1.8. Ziele des Leitlinienprogramms Onkologie  ................................ ................................ ..............  5 
+1.9. Weitere Dokumente zur Leitlinie  ................................ ................................ ............................  6 
+1.10.  Zusammensetzung der Leitliniengruppe  ................................ ................................ ................  7 
+1.11.  Verwendete Abkürzungen  ................................ ................................ ................................ ..... 7 
+2. Einführung  ................................ ................................ ................................ ...............  9 
+2.1. Geltungsbereich und Zweck  ................................ ................................ ................................ ... 9 
+2.1.1.  Zielsetzung  ................................ ................................ ................................ ...........................  9 
+2.1.2.  Adressat*innen und Versorgungsbereich  ................................ ................................ ...............  9 
+2.1.3.  Gültigkeitsdauer und Aktualisierungsverfahren  ................................ ................................ .... 10 
+2.2. Grundlagen der Methodik  ................................ ................................ ................................ .... 10 
+2.2.1.  Unabhängigkeit und Umgang mit Interessenkonflikten  ................................ ........................  10 
+3. Klinische Einleitung  ................................ ................................ ............................  11 
+4. Definitionen und Terminologie  ................................ ................................ ..... 11 
+5. Prävention und Screening  ................................ ................................ ................  12 
+6. Primäre Diagnostik bei Verdacht auf Analkarzinom  ............................  13 
+7. Prätherapeutische bildgebende Diagnostik und Stagin g bei 
+gesichertem Analkarzinom  ................................ ................................ ............  15 
+8. Sonstige Diagnostik und supportive Maßnahmen vor und während 
+der zielgerichteten Tumortherapie  ................................ ............................  16 
+9. Therapie des Analkarzinoms im Stadium I -III ................................ ......... 19 
+ 
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 3 
+10. Responsebeurteilung nach primärer Radiochemotherapie  ...............  21 
+11. Nachsorge  ................................ ................................ ................................ ...............  22 
+12. Therapie des residualen oder rezidivierenden Analkarzinoms  ...... 23 
+13. Therapie des metastasierten Analkarzinoms (Stadium IV)  ...............  24 
+14. Palliativversorgung  ................................ ................................ ............................  25 
+15. Rehabilitation  ................................ ................................ ................................ ........ 27 
+16. Anlagen  ................................ ................................ ................................ ....................  28 
+16.1.  Zusammensetzung der Leitliniengruppe  ................................ ................................ ..............  28 
+16.1.1.  Koordination  ................................ ................................ ................................ ...................  28 
+16.1.2.  Methodische Koordination und Redaktion  ................................ ................................ ....... 28 
+16.1.3.  Beteiligte Fachgesellschaften und Mandatsträger*innen  ................................ ...................  28 
+16.1.4.  Patientenbeteiligung  ................................ ................................ ................................ ....... 32 
+16.1.5.  Weitere Beteiligte  ................................ ................................ ................................ ............  32 
+16.2.  Methodische Erläuterungen  ................................ ................................ ................................ . 33 
+16.2.1.  Schema der Evidenzklassifikation  ................................ ................................ ....................  33 
+16.2.2.  Formulierung der Empfehlungen und Konsensusfindung  ................................ .................  34 
+16.2.3.  Statements  ................................ ................................ ................................ .....................  37 
+16.2.4.  Expertenkonsens (EK) ................................ ................................ ................................ ...... 37 
+17. Tabellenverzeichnis  ................................ ................................ ...........................  38 
+18. Litera tur ................................ ................................ ................................ ...................  39 
+ 
+  
+1.1 Herausgeber  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 4 
+1. Informationen zu dieser Kurzversion  
+Im Rahmen der Erstellung der Leitliniendokumente wurde auf die Verwendung einer ge -
+schlechtersensiblen und inklusiven Sprache geachtet (z.B. „Patient*innen“). In Einzelfäl -
+len wurde zur Verbesserung des Leseflusses auf die Verwendung einer geschlechter -
+neutralen Darstellung verzichtet; in diesen Fällen bezieht die generische Verwendung 
+des männlichen Geschlechts alle Geschlechter mit ein (z.B. „Patientenzielgruppe“, „Pati-
+entenvertreter“, „Patientenleitlinie“, „Expertenbewertung“). In Fällen geschlechterspez ifi-
+scher Aussagen findet sich eine entsprechende Kennzeichnung (z.B. „männliche Patien-
+ten“).  
+1.1. Herausgeber  
+Leitlinienprogramm Onkologie der Arbeitsgemeinschaft der Wissenschaftlichen Medizi-
+nischen Fachgesellschaften e.V. (AWMF) , Deutschen Krebsgesellschaft e .V. (DKG)  und 
+Deutschen Krebshilfe (DKH).  
+1.2. Federführende Fachgesellschaft  
+Deutsche Gesells chaft für  Koloproktologie e.V. (DGK)  
+ 
+1.3. Finanzierung der Leitlinie  
+Diese Leitlinie wurde von der Deutschen Krebshilfe im Rahmen des Leitlinienprogramms 
+Onkologie geförd ert. 
+1.4. Kontakt  
+Office Leitlinienprogramm Onkologie  
+c/o Deutsche Krebsgesellschaft e.V.  
+Kuno -Fischer -Straße 8  
+14057 Berlin  
+leitlinienprogramm@krebsgesellschaft.de  
+www.leitlinienprogramm -onkologie.de   
+1.5. Zitierweise  
+Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, Deutsche Krebshilfe, 
+AWMF): Analkarzinom (Diagnost ik, Therapie und Nachsorge von Analkanal - und Anal -
+randkarzinomen), Kurzversion  1.1, 2020, AWMF Registernummer: 081 /004OL, 
+https://www.leitlinienprogramm -onkologie.de/leitlinien/analkarzinom/ , (Zugriff am 
+TT.MM.JJJJ)  
+
+1.6 Bisherige Änderungen an der Version 1  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 5 
+1.6. Bisherige Änderungen an der Version 1  
+November 2020: Redaktionelle Änderung der  Empfehlung 14.6.– „…nicht heilbares Anal-
+karzinom…“ statt „… nicht -heilbares fortgeschrittenes Analkarzinom…“.   
+1.7. Besonderer Hinweis  
+Die Medizin unterliegt einem fortwährenden Entwicklungsprozess, sodass alle An-
+gaben, insbesondere zu diagnostischen und therapeutischen Verfahren, immer nur 
+dem Wissensstand zurzeit der Drucklegung der Leitlinie entsprechen können. Hin-
+sichtlich der angegebenen Empfehlungen zur Therapi e und der Auswahl sowie Do-
+sierung von Medikamenten wurde die größtmögliche Sorgfalt beachtet. Gleichwohl 
+werden die Benutzer aufgefordert, die Beipackzettel und Fachinformationen der 
+Hersteller zur Kontrolle heranzuziehen und im Zweifelsfall einen Speziali sten zu 
+konsultieren. Fragliche Unstimmigkeiten sollen bitte im allgemeinen Interesse der 
+Redaktion des Leitlinienprogramms Onkologie ( OL-Redaktion ) mitgeteilt werden.  
+Der Benutzer selbst bleibt verantwortlich für jede diagnostische und thera-
+peutische App likation, Medikation und Dosierung.  
+In dieser Leitlinie sind eingetragene Warenzeichen (geschützte Warennamen) nicht 
+besonders kenntlich gemacht. Es kann also aus dem Fehlen eines entsprechenden 
+Hinweises nicht geschlossen werden, dass es sich um einen fr eien Warennamen 
+handelt.  
+Das Werk ist in allen seinen Teilen urheberrechtlich geschützt. Jede Verwertung 
+außerhalb der Bestimmung des Urhebergesetzes ist ohne schriftliche Zustimmung 
+der OL -Redaktion unzulässig und strafbar. Kein Teil des Werkes darf in i rgendeiner 
+Form ohne schriftliche Genehmigung der OL -Redaktion reproduziert werden. Dies 
+gilt insbesondere für Vervielfältigungen, Übersetzungen, Mikroverfilmungen und 
+die Einspeicherung, Nutzung und Verwertung in elektronischen Systemen, Intra-
+nets und dem  Internet.  
+1.8. Ziele des Leitlinienprogramms Onkologie  
+Die Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e.V., 
+die Deutsche Krebsgesellschaft e.V. und die Deutsche Krebshilfe e.V. haben sich mit 
+dem Leitlinienprogramm Onkologie (OL) das Ziel gesetzt, gemeinsam die Entwicklung 
+und Fortschreibung und den Einsatz wissenschaftlich begründeter und praktikabler 
+Leitlinien in der Onkologie zu fördern und zu unterstützen. Die Basis dieses Pro-
+gramms beruht auf den medizinisch -wissenschaftlichen Erkenntnissen der Fachgesell-
+schaften und der D KG, dem Konsens der medizinischen Fachexperten, Anwender und 
+Patienten sowie auf dem Regelwerk für die Leitlinienerstellung der AWMF und der fach-
+lichen Unterstützung und Finanzierung durch die Deutsche Krebshilfe. Um den aktuel-
+len Stand des medizinischen W issens abzubilden und den medizinischen Fortschritt zu 
+berücksichtigen, müssen Leitlinien regelmäßig überprüft und fortgeschrieben werden. 
+Die Anwendung des AWMF -Regelwerks soll hierbei Grundlage zur Entwicklung qualita-
+tiv hochwertiger onkologischer Leitli nien sein. Da Leitlinien ein wichtiges Instrument 
+der Qualitätssicherung und des Qualitätsmanagements in der Onkologie darstellen, 
+sollten sie gezielt und nachhaltig in den Versorgungsalltag eingebracht werden. So 
+sind aktive Implementierungsmaßnahmen und auch Evaluationsprogramme ein wichti-
+ger Bestandteil der Förderung des Leitlinienprogramms Onkologie. Ziel des Programms 
+1.9 Weitere Dokumente zur Leit linie 
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 6 
+ist es, in Deutschland professionelle und mittelfristig finanziell gesicherte Vorausset-
+zungen für die Entwicklung und Bereitstellung hoc hwertiger Leitlinien zu schaffen. 
+Denn diese hochwertigen Leitlinien dienen nicht nur dem strukturierten Wissenstrans-
+fer, sondern können auch in der Gestaltung der Strukturen des Gesundheitssystems 
+ihren Platz finden. Zu erwähnen sind hier evidenzbasierte Leitlinien als Grundlage zum 
+Erstellen und Aktualisieren von Disease Management Programmen oder die Verwen-
+dung von aus Leitlinien extrahierten Qualitätsindikatoren im Rahmen der Zertifizierung 
+von Organtumorzentren.  
+1.9. Weitere Dokumente zur Leitlinie  
+Die Inhalte dieser Kurzversion beziehen sich auf die Langversion der evidenz - und kon-
+sensbasierten S3 -Leitlinie Analkarzinom (Diagnostik, Therapie und Nachsorge von Anal-
+kanal - und Analrandkarzinomen). Zusätzlich zu dieser Kurz version  der Leitlinie liegen 
+die folgenden Dokumente vor:  
+• Lang version  der Leitlinie  mit einer Übersicht über das methodische Vorge-
+hen der Leitlinienentwicklung sowie die Hintergrundtexte und Empfehlungen 
+zum Management des Analkarzinoms  
+• Leitlinienreport  mit einer detaillierten Darstellung  des methodische n Vorge-
+hens bei der Entwicklung  der Leitlinie  
+• Evidenzbericht  mit einer  detaillierte n Darstellung der Methodik und Ergeb-
+nisse der systematischen Evidenzrecherche und –auswertung  
+• Patientenleitlinie  (Laienversion der Leitlinie)  
+Diese Leitlinie  und alle Zusatzdokumente sind über die folgenden Seiten zugänglich.  
+• Leitlinienprogramm Onkologie ( https://www.leitlinienprogramm -onkolo-
+gie.de/leitlinien/analkarzinom/  )  
+• AWMF ( www.leitlinien.net )  
+• Guidelines International Network ( http://g -i-n.net )  
+ 
+Die Leitlinie wird außerdem  in der App des Leitlinienprogramms Onkologie abrufbar 
+sein. 
+Weitere Informationen unter: https://www.leitlinienprogramm -onkologie.de/app/   
+ 
+ 
+  
+
+1.10 Zusammensetzung der Leitliniengruppe  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 7 
+1.10.  Zusammensetzung der Leitliniengruppe  
+Im Kapit el 16.1 sind die Mitarbeitenden des Koordinations - und Redaktionsgremiums,  
+die Vertreter*innen der beteiligten medizinischen Fachgesellschaften und so nstigen Or-
+ganisationen  inklusive der Patientenvertretung sowie sonstige Personen aufgeführt, die 
+an der Erstellung dieser Leitlinie beteiligt waren.  
+1.11.  Verwendete Abkürzungen  
+Abkürzung  Erläuterung  
+5-FU 5-Fluorouracil  
+AIN Anale intraepitheliale Neoplasie  
+AJCC  American Joint Committee on Cancer  
+AWMF  Arbeitsgemeinschaft der Wissenschaftlichen Medizinischen Fachgesellschaften e. V.  
+CT Computertomographie  
+DKG Deutsche Krebsgesellschaft e. V.  
+DKH Deutsche Krebshilfe  
+ECOG  Eastern Cooperative Oncology Group  
+EG Empfehlungsgrad: A=starke Empfehlung, B=schwache Empfehlung, 0=offene Emp-
+fehlung  
+FDG-PET Fluordesoxyglukose -Positronen -Emissions -Tomographie  
+Gy Gray 
+IMRT  Intensitäts -modulierte Radiotherapie  
+LoE Level of Evidence  
+M M = Ausmaß der Fernmetastasierung im Rahmen der TNM -Klassifikation;  
+Definitionen für das Analkarzinom nach AJCC 2017 [1]: 
+M0: Keine Fernmetastasen  
+M1: Fernmetastasen vorliegend  
+MRT Magnetresonanztomographie  
+N N = Befall regionaler Lymphknoten im Rahmen der TNM -Klassi fikation;  
+Definitionen für das Analkarzinom nach AJCC 2017 [1]: 
+NX: Regional Lymphknoten nicht beurteilt / nicht beurteilbar  
+1.11 Verwendete Abkürzungen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 8 
+Abkürzung  Erläuterung  
+N0: Keine regionalen Lymphknotenmetastasen  
+N1: Metastasen in den inguinalen, mesorektalen oder iliakalen Lymphknoten  
+N1a: inguinale, mesorektale oder interne iliakale Lymphknoten betroffen  
+N1b: externe iliakalen Lymphknoten betroffen  
+N1c: externe iliakalen sowie jegliche N1a Lymphknoten betroffen  
+OL Leitlinienprogramm Onkologie  
+PET Positronen -Emissions -Tomographie  
+RCT Randomized controlled trial (randomisierte kontrollierte Studie)  
+T T = Ausmaß des Primärtumors im Rahmen der TNM -Klassifikation;  
+Definitionen für das Analkarzinom nach AJCC 2017 [1]: 
+Tx: Primärtumor nicht beurteilt / nicht beurteilbar  
+T0: Ke in Anhalt für Primärtumor  
+Tis: Hochgradige intraepitheliale Neoplasie (zuvor bezeichnet als Carcinoma in situ, 
+Morbus Bowen, anale intraepitheliale Neoplasie (AIN) II -III) 
+T1: Tumor ≤2 cm  
+T2: Tumor >2 cm aber ≤5 cm  
+T3: Tumor >5 cm  
+T4: Tumor jeder Größe mit Invasion benachbarter Organe, z.B. Vagina, Urethra, 
+Blase  
+TNM TNM-Klassifikation, siehe jeweils unter T, N, M  
+ 
+ 
+  
+2.1 Geltungsbereich und Zweck  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 9 
+2. Einführung  
+2.1. Geltungsbereich und Zweck  
+2.1.1.  Zielsetzung   
+Die Leitlinie soll mit den in ihr enthaltenen Handlungsempfehlungen für die Diag nostik, 
+Therapie und Nachsorge des Analkarzinoms zu einer Verbesserung der Versorgungs-
+qualität und interdisziplinären Kooperation in der Versorgung von Patient*innen mit 
+Analkarzinom beitragen . Vorrangige Ziele sind die Erstellung einheitliche r Empfehlun-
+gen für die Primärdiagnostik, die Therapieentscheidung (insbesondere die kurative ope-
+rative Resektion vs. kurative Radiochemotherapie), die Responsebeurteilung nach Radi-
+ochemotherapie und die Nachsorge nach kurativer Behandlung. Kriterien für eine ge-
+meinsame  Entscheidungshilfe („shared decision making“) insbesondere in Bezug auf die 
+Endpunkte  Überleben, Rezidivfreiheit, Stuhlkontinenz und Überl eben ohne Stoma sollen 
+durch die Leitlinie bereitgestellt werden. Diese Entscheidungshilfen sollen Eingang fin-
+den in die sich auf der S3 -Leitlinie aufbauenden, laienverständlich en Patientenleitlinie.  
+Die Entwicklung von Qualitätsindikatoren als Elemente und Erfolgs parameter soll dar-
+über hinaus zur Messung einer Ver besserung der Versorgung von Patient*innen mit 
+Analkarzin om beitragen.  
+2.1.2.  Adressat *innen und Versorgungsbereich  
+Als Patientenzielgruppe sind alle erwachsenen Patient *innen mit einem histologisch ge-
+sicherten analen Plattenepithelkarzinom, ausgehend vom Analkanal oder dem Analrand, 
+unabhängig von der Tumorausbreitung  und der Prognose definiert.  
+Die S3 -Leitlinie Analkarzinom soll Handlungsempfehlungen für folgende Versorgungs-
+bereiche formulieren: ambulante Versorgung, insbesondere in der Primärdiagnostik und 
+Nachsorge (u.a. Proktologie, Chirurgie, Dermatologie, Gastroe nterologie/Endoskopie) 
+sowie der stationäre Bereich  für das erweiterte Staging und die Therapie (Koloproktolo-
+gie/Viszeralchirurgie, Strahlentherapie, Radiologie, Nuklearmedizin, Onkologie und Pal-
+liativmedizin sowie onkologische Rehabilitation).  
+Die vorliegende Leitlinie richtet sich an folgende ärztliche und nicht -ärztliche Gesund-
+heitsversorger*innen, die Patient*innen mit einem Plattenepithelkarzinom des Analka-
+nals und/oder des Analrands (Analkarzinom) behandeln: Ärzt*innen der Fachrichtungen 
+Proktologie, Chirurgie, Dermatologie und Gastroenterologie, die im Erstkontakt bei V.a. 
+Analkarzinom die notwendigen diagnostischen Schritte veranlassen oder an einen Spe-
+zialisten überweisen. Weitere Adressat*innen sind Ärzt*innen der Fachri chtungen Prok-
+tologie, Chirurgie und Dermatologie, die zur Diagnostik und/oder Therapie Patient*in-
+nen mit einem Analkarzinom operieren sowie der Fachrichtungen Strahlentherapie und 
+Onkologie, die kurative oder palliative Therapiekonzepte durchführen. Darübe r hinaus 
+richtet sich diese Leitlinie an alle Professionen und Disziplinen, die in die Behandlung 
+von Patient*i nnen mit einem Analkarzinom ein gebunden sein sollten, v.a. in der Diag-
+nostik (Pathologie, Radiologie und Nuklearmedizin) sowie Therapie und Begle itung (u.a. 
+Stomatherapie, Psychoonkologie, Palliativmedizin). Des Weiteren dient die Leitlinie zur 
+Information für allgemeinmedizinisch Tätige und ka nn Kosten - und Entscheidungsträ-
+ger*innen als Orientierung im Themenfeld dienen.  
+2.2 Grundlagen der Methodik  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 10 
+2.1.3.  Gültigkeitsdauer und Aktualisierungsverfahren  
+Die S3 -Leitlinie ist bis zur nächsten Aktualisierung gültig, die Gültigkeits dauer wird auf 
+5 Jahre geschätzt. Vorgesehen sind regelmäßige Aktualisierungen,  bei dringendem Än-
+derungsbedarf  werden  diese zeitnah  publiziert. Kommentare und Hinweise für den Ak-
+tualisierungsprozess sind ausdrücklich erwünscht und können an die folgende Adresse 
+gesendet werden: analkarzinom@leitlinienprogramm -onkologie.d e. 
+2.2. Grundlagen der Methodik   
+Die detaillierte methodische Vorgehensweise bei der Erstellung der Leitlinie ist im Leitli-
+nienreport  und im Evidenzbericht dargelegt. Diese Dokumente sind  im Internet  z. B. auf 
+den Seiten des Leitlinienprogramms Onkologie ( https://www.leitlinienprogramm -onko-
+logie.de/leitlinien/analkarzinom/ ) und den Seiten der AWMF ( http://www.awmf.org/ ) 
+frei verfügbar.  
+Die in  den Empfehlungskästen aufgeführten Angaben zur Empfehlungsgraduierung 
+(Empfehlungsgrad) sowie weitere methodische Erläuterungen sind in Kapitel 16.2 darge-
+legt.  
+2.2.1.  Unabhängigkeit  und Umgang mit  Interessenkonflikte n 
+Die Deutsche Krebshilfe stellte über das Leitlinienprogramm Onkologie (OL) die finanzi-
+ellen Mittel zur Verfügung. Diese Mittel wu rden eingesetzt für Personalkosten, Büroma-
+terial, Literaturbeschaffung und die Konsensuskonferenzen (Raummieten, Technik, Ver-
+pflegung, Moderatorenhonorare, Reisekosten der Teilnehmer). Die Erarbeitung der Leit-
+linie erfolgte in redaktioneller Unabhängigkeit  von der finanzierenden Organisation. Alle 
+Mitglieder legten zu Beginn und während des Leitlinienprozesses eine schriftliche Erklä-
+rung zu eventuell bestehenden Interessenkonflikten vor . Die offengelegten Interessen-
+erklärungen einschließlich des Ergebnisses  der Bewertung sind im Leitlinienreport zu 
+dieser Leitlinie ( https://www.leitlinienprogramm -onkologie.de/leitlinien/analkarzinom/  
+) in tabellarisch standardisierter Form a ufgeführt.  
+Die Bewertung der Interessen der Koordinatoren und der Methodengruppe hinsichtlich 
+Befangenheit erfolgt e durch die federführende Fachgesellschaft (DGK). Die Bewertung 
+der Interessen der anderen an der Leitlinienentwicklung Beteiligten erfolgt e durch die 
+Koordinatoren und durch die Methodengruppe  (Dr. med. Ricardo N. Wer ner, PD Dr. Ro-
+bert Siegel) gemeinsam mit der AWMF (Dr. med. Monika Nothacker , Dr. Susanne Bloedt ) 
+und der DKG (Dipl. -Soz. Wiss. T homas Langer) . Im Rahmen der Bewertung der vorliege n-
+den Erklärungen nach den Vorgaben der AWMF wurde n Industriedrittmittel für Vor-
+tragstätigkeit en und Autorenschaften als „geringe“ Interessenkonflikte gewertet, Advi-
+sory Board- und Beratungstätigkeit sowie Indust riedrittmittel in verantwortlicher Position 
+als „moderat “ und Eigentümerinteresse als „hoch “. Es zeigten sich in der Bewertung der 
+Interessenerklärungen einzelne, ausschließlich als „gering“  oder „moderat“  bewertete In-
+teressenkonflikte. Diese führten  in den themenrelevanten Bereichen  jeweils zum Aus-
+schluss von Leitungs funktionen in den Arbeitsgruppen  („geringe“ Interessenkonflikte) 
+bzw. zusätzlich zu einer Stimmenthaltung bei der Konsentierung von Empfehlungen 
+(„moderate“ Interessenkonflikte) . Die Ang aben zu den Interessenerklärungen und der 
+Umgang mit Interessenk onflikten wu rden während des ersten Leitlinienkommissions-
+treffens sowie zu Beginn der Konsensuskonferenz diskutiert . 
+An dieser Stelle möchten wir allen beteiligten Mandatsträger*innen  für ihre  ausschließ-
+lich ehrenamtliche Mitarbeit an dem Projekt danken.  
+2.2 Grundlagen der Methodik  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 11 
+3. Klinische Einleitung  
+Dies ist  die erste deutsche Leitlinie f ür das Analkarzinom [S3 -Leitlinie Analkarzinom (Di-
+agnostik, Therapie und Nachsorge von Analkanal - und Analrandkarzinomen) (AWMF 
+Reg.-Nr. 081 -004OL)]. Die hierin enthaltenen evidenz - und konsensbasierten Empfehlun-
+gen umfassen die Bereiche der Diagnostik, des Stagings, der Therapie und der Nach-
+sorge des analen Plattenepithelkarzinoms. Es existieren europäische (ESMO -ESSO -ESTRO 
+clinical pr actice guidelines) und nationale Leitlinien aus verschiedenen Ländern [2-5].  
+Eine detaillierte klinische Einleitung mit einer Darstellung der Ätiologie, Pathogenese 
+und Epidemiologie des An alkarzinoms findet sich in der Lang version  der Leitlinie.  
+4. Definitionen und Terminologie  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+4.1. Die vorliegende Leitlinie befasst sich ausschließlich mit Plat-
+tenepithelkarzinomen des Analkanals und des Analrandes. 
+Diese werden im Folgenden als Analkanalkarzi nome bzw. Anal-
+randkarzinome oder – übergreif end – als Analkarzinome be-
+zeich net. EK 
+4.2. Zur Abgrenzung von Analkanal - und Analrandkarzinomen so-
+wie zur Abgrenzung zu anderen, in dieser Leitlinie nicht be-
+handelten plattenepithelialen Tumoren sollen  die folgenden 
+klinischen Kriterien angewandt werden:  
+1. Analrandkarzinome  
+- sind unter Spreizung der Nates makroskopisch voll-
+ständig sichtbar  
+- liegen mit ihrem überwiegenden Gewebeanteil inner-
+halb eines Radius von 5 cm um die Linea anocutanea  
+2. Analkanalkarzinome  
+- sind mindestens teilweise so weit im Analkanal gele-
+gen, dass eine Sichtbarkeit  des makroskopischen Tu-
+morbefundes unter Spreizung der Nates nicht oder 
+nicht vollständig gegeben ist  EK 
+4.3. Zur Klassifikation des Ausmaßes der an atomischen Ausbrei-
+tung des Analkarzinoms soll die aktuelle AJCC -Klassifikation 
+verwendet werden.  EK 
+ 
+2.2 Grundlagen der Methodik  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 12 
+5. Prävention und Screening  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+5.1. Bei allen HIV -positiven Patient *innen soll einmal jährlich eine 
+Screening -Untersuchung zur Detektion inzidenter Analkarzi-
+nome und ihrer Präkanzerosen  durchgeführt werden.  EK 
+5.2. HIV-negativen Personen mit erhöhtem Risiko für die Entwick-
+lung von Analkarzinomen  sollte  regelmäßig (mindestens alle 
+36 Monate) eine Screening -Untersuchung zur Detektion inzi-
+denter Analkarzinome und ihrer Präkanzerosen angeboten 
+werden.  EK 
+5.3. HIV-positiven Pati ent*innen soll eine Screening -Untersuchung 
+entsprechend den Empfehlungen der Deutsch -Österreichischen 
+Leitlinie Anale Dysplasien und Analkarzinome bei HIV -Infizier-
+ten [6, 7] angebote n werden.  EK 
+ 
+  
+6 Primäre Diagnostik bei Verdacht auf Analkarzinom  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 13 
+6. Primäre Diagnostik bei Verdacht auf 
+Analkarzinom  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+6.1. Bei Verdacht auf das Vorliegen eines Analkarzinoms soll eine 
+ausführliche Anamnese auch zur Abklärung von Risikofakto-
+ren (Immundefizienz einschließlich HIV -Infektion, rezeptiver 
+Analverkehr, Vorerkrankung mit HPV -assoziierten anogenita-
+len Läsionen, Nikotinabusus) erhoben werden.  EK 
+6.2. Bei Verdacht auf das Vorliegen eines Analkarzinoms soll eine 
+körperliche Untersuchung mit besonderem Fokus auf die 
+Leistenlymphknoten und die Analregion durchgeführt wer-
+den. EK 
+6.3. Bei Verdacht auf das Vorliegen eines Analkarzinoms soll eine 
+proktologische Untersuchung inkl. digital -rektaler Untersu-
+chung, Proktoskopie, ggf . Rektoskopie, ggf. ana ler Endoso-
+nographie und ggf. Kolposkopie durchgeführt werden.  EK 
+6.4. Es  soll der Tumor eingegrenzt werden in  Hinblick auf die 
+Lage (angegeben in Steinschnittlage (SSL)), den maximalen 
+Durchmesser, die Ausdehnung perianal und intraanal (in cm 
+und Lagebeziehung zur L. anocutanea und L. dentata), und 
+Beweglichkeit im Hi nblick auf eine Infiltration andere r Or-
+gane, i nsbesondere  des Sphinkter apparats  und bei Frauen 
+der Vagina.  EK 
+6.5. Bei Verdacht auf das Vorliegen eines Analkarzinoms soll eine 
+histo patho logische Sicherung angestrebt werde n. EK 
+6.6. Bei Verdacht auf das Vorliegen eines Anal randkarzinoms von 
+bis zu 2  cm Durchmesser ohne Infiltration des Sphinkter ap-
+parat s oder benachbarter Organe sollte  bereits zum Zeit-
+punkt der Diagnosesicherung eine therapeutische R0 -Exzi-
+sion mit Sicherheitsabstand von 0,5 cm angestrebt werden.  EK 
+6.7. Bei unklarer Histologie oder Nachweis einer HGAIN in einer 
+bereits erfolgten Probebiopsie  und Verdacht auf das Vorlie-
+gen eines Anal randkarzinoms von bis zu 2 cm Durchmesser , 
+ggf. auch bei einer größeren Läsion,  ohne Infiltration des 
+Sphinkter apparat s oder benach barter Organe , sollte  bereits 
+zum Zeitpunkt der Diagnosesicherung eine therapeutische 
+R0-Exzision mit Sicherheitsabstand von 0,5 cm angestrebt 
+werden.  
+ EK 
+6 Primäre Diagnos tik bei Verdacht auf Analkarzinom  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 14 
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+6.8. Bei Verdacht auf das Vorliegen eines Anal kanal karzinoms von 
+bis zu 2  cm Durchmesser, welches sehr gut mobil ist und 
+nicht den Sphinkter apparat  infiltriert, kann  bereits zum Zeit-
+punkt  der Diagnosesicherung eine therapeutische R0 -Exzi-
+sion mit Sicherheitsabstand von 0,5 cm erwogen werden . EK 
+6.9. Bei Verdacht auf das Vorliegen eines Analrand - oder Analka-
+nalkarzinoms  mit Infiltration des Sphinkter apparat s oder be-
+nachbarter Organe soll lediglich eine bioptische histopatho-
+logische Sicherung erfolgen und keine Exzision durchgeführt 
+werden . EK 
+6.10. Wird eine therapeutische R0 -Exzision angestrebt, ist die Do-
+kumentation der Schnittrandfreiheit durch die Pathologie all-
+seits (auch zur Tiefe) erforderlich , und das Präparat  soll zur 
+Beurteilbarkeit entsprechend vorbereitet sein, d.h. eine ein-
+deutige Präparatemarkierung enthalten . EK 
+ 
+  
+7 Prätherapeutische bildgebende Diagnostik und Staging bei gesichertem Analkarzinom  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 15 
+7. Prätherapeutische bildgebende Diagnos-
+tik und Staging bei gesichertem Anal-
+karzinom  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen 
+7.1. Bei Verdacht auf das  Vorliegen eines Analkarzinoms sollen  zur 
+Bestimmung der Tumorkategorie nach Möglichkeit noch vor 
+der histopathologischen Sicherung die unter Empfehlung 6.3. 
+empfohlenen klinisch -instrumentellen Untersuchungen erfol-
+gen und deren Ergebnisse entsprechend der Empfehlung 6.4. 
+dokumentiert werden . EK 
+7.2. Zur Bestimmung der Tumorkategorie soll eine MRT -Untersu-
+chung des Beckens erfolgen. Diese sollte  eine multiparametri-
+sche MRT, anguliert auf den Analkanal, umfassen.  EK 
+7.3. Zur Bestimmung der Tumorkategorie kann  eine anale Endoso-
+nographie  durchgeführt werden.  EK 
+7.4. Zur Detektion lokoregionärer Lymphknotenmetastasen  soll 
+eine MRT des Beckens durchgeführt werden. Ergänzend sollte  
+die Durchführung einer PET/CT* erfolgen. Eine CT des Becke ns 
+kann  durchgeführt werden.  
+*CAVE: Die PET -Untersuchung ist im Rahmen der Diagnostik bei Analkarzinomen 
+nicht Gegenstand des Leistungskatalogs der gesetzlichen Krankenversicherung 
+(Kostenübernahme nicht gesichert).  EK 
+7.5. Bei bildgebendem Verdacht auf eine lokoregionäre Lymphkno-
+tenmetastase und geplanter definitiver Radiochemotherapie  
+soll keine  histopathologische oder zytopathologische Siche-
+rung der suspekten Lymphknoten erf olgen.  EK 
+7.6. Zur Detektion von Fernmetastasen  soll eine CT des Thorax 
+und des Abdomens  durchgeführt werden. Alternativ kann  die 
+Durchführung einer  PET/CT* erwogen werden . 
+*CAVE: Die PET -Untersuchung ist im Rahmen der Diagnostik bei Analkarzinomen 
+nicht Gegenstand des Leistungskatalogs der gesetzlichen Krankenversicherung 
+(Kostenübernahme nicht gesichert).  EK 
+7.7. Zur Detektion von Fernmetastasen  kann  zusätzlich die Durch-
+führung eine r Sonographie des Abdomens  erwogen werden . EK 
+7.8. Zur Abklärung des Vorliegens von Sphinkterkontakt vor Durch-
+führung einer therapeutischen Exzision bei Anal kanal karzino-
+men im Stadium I (T1N0M0)  bzw. Analrandkarzinomen im Sta-
+dium I (T1N0M0) oder IIA (T2N0M0)  soll eine multipara metri-
+sche MRT anguliert auf den Analkanal oder eine anale Endoso-
+nographie durchgeführt werden.  EK 
+8 Sonstige Diagnostik und supportive Maßnahmen vor und während der zielgerichteten Tumortherapie  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 16 
+8. Sonstige Diagnostik und supportive 
+Maßnahmen vor und während der ziel-
+gerichteten Tumortherapie  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+8.1. Bei unbekanntem HIV -Status soll Patient*innen mit Analkarzi-
+nom die Durchführung eines HIV -Tests empfohlen werden.  EK 
+8.2. Bei Patient*innen mit Analkarzinom soll eine vollständige kli-
+nische Untersuchung der Anogenitalregion erfolgen. Bei 
+Frauen mit Analkarzinom soll eine gynäkologische Untersu-
+chung einschließlich eines Zervixkarzinom -Scree nings erfol-
+gen. EK 
+8.3. Bei Patient*innen mit Analkarzinom soll die Anamnese die 
+Frage nach Nikotingebrauch beinhalten. Raucher*innen sol-
+len ermutigt werden, das Rauchen zu beenden und eine ent-
+sprechende Hilfestellung angeboten bekommen.  EK 
+8.4. Bei männlichen Patienten, bei denen ein Kinderwunsch be-
+steht, soll vor Durchführung der kombinierten Radiochemo-
+therapie eine Asservierung von Spermien diskutiert werden. 
+Bei prämenopausalen Patientinnen soll der mögliche Eintritt 
+der Menopause, ein e Beeinflussung der Fertilität und Maß-
+nahmen zur Erhaltung der Fertilität besprochen werden.  EK 
+8.5. Bei HIV-positiven Patient*innen mit Analkarzinom  sollen  hin-
+sichtlich prätherapeutischer und therapeutischer Maßnahmen 
+die Empfehlungen der Deutsch -Österreichischen Leitlinie 
+„Anale Dysplasien und Analkarzinome bei HIV -Infizierten: Prä-
+vention, Diagnostik, Therapie“  [6, 7] berücksichtigt werden.  EK 
+8.6. Bei iatrogen immunsupprimierten Patient *innen mit Analkar-
+zinom  soll eine interdisziplinäre Entscheidung hinsichtlich 
+der Fortführung oder Umstellung des immunsuppressiven 
+Regimes in individualisierter Adaptation getroffen werden.  EK 
+8.7. Bei organtransplantierten Patient *innen sollten  dabei insbe-
+sondere die folgenden Aspekte berücksichtigt werden:  
+- Typ des transplantierten Organs  
+- Zahl der Transplantationen  
+- Inzidenz vorausgegangener Abstoßungen  
+Typ und Dosis bzw. Wirkspiegel der immunsuppre ssiven Me-
+dikation unter Beachtung des Metastasierungsrisikos, des 
+myelodepressiven Nebenwirkungsprofils bei simultaner Gabe 
+von Chemotherapeutika und des infektiologischen Risikos  EK 
+8 Sonstige Diagnostik und suppo rtive Maßnahmen vor und während der zielgerichteten Tumortherapie  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 17 
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+8.8. Eine HPV -Impfung mit dem Ziel eines therapeutischen Nut-
+zens im Rahmen der Behandlung des Analkarzinoms  soll vor, 
+während oder nach der regulären Behandlung von Patient *in-
+nen mit Analkarzinom nicht  durchgeführt werden.  EK 
+8.9. Die Indikation zur Stomaanlage vor einer Radiochemothera-
+pie in kurativer Intention soll zurückhaltend gestellt werden.  EK 
+8.10. Patient*innen, bei denen eine Stomaanlage vor Therapiebe-
+ginn notwendig ist, sollen  im interdisziplinären Tumorboard 
+besprochen werden.  EK 
+8.11. Die Stomaposition soll präoperativ angezeichnet werden.  EK 
+8.12. Unter kombinierter Radiochem otherapie soll bei allen Pati-
+ent*innen eine regelmäßige Erfassung krankheits - und thera-
+pieinduzierter unerwünschter Wirkungen sowie eine gezielte 
+Symptombehandlung durchgeführt werden.  EK 
+8.13. Es sollen  Aspekte der Sexualität und ihrer Beeinträchtigung 
+thematisiert werden.   EK 
+8.14. Die gezielte Symptombehandlung bei unerwünschten Wirkun-
+gen der zielgerichteten Tumortherapie soll den Empfehlun-
+gen der S3 -Leitlinien „Supportive Therapie bei onkologischen 
+PatientInnen“ [8] sowie „Palliativmedizin für Patienten mit ei-
+ner nicht -heilbaren Krebserkrankung“ [9] folgen.  EK 
+8.15. Die psychoonkologische Versorgung von Patient*innen mit 
+Analkarzinom und deren Angehörigen soll ambulant wie sta-
+tionär den Empfehlungen der S3 -Leitlinie „Psychoonkologi-
+sche Diagnostik, Beratung und Behandlung von erwachsen en 
+Krebspatienten“ [10] folgen.  EK 
+8.16. Psychoonkologische Interventionen sollten  entsprechend 
+dem individuellen Bedarf in allen Sektoren der Versorgung 
+sowie in allen Phasen der Erkrankung angeboten werden . EK 
+8.17. Die Erfassung der psychosozialen Belastu ng und der indivi-
+duellen psychoonkologischen Beh andlungsbedürftigkeit 
+sollte  so früh wie möglich und dann wiederholt im Krank-
+heitsverlauf erfolgen.  EK 
+  
+ 
+  
+8 Sonstige Diagnostik und supportive Maßnahmen vor und während der zielgerichteten Tumortherapie  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 18 
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+8.18. Alle Patienten sollen  ein Screening auf psychosoziale Belas-
+tungen erhalten. Ein psychoonkologisches Screening sollte  
+frühestmöglich in angemessenen Abständen, wenn klinisch 
+indiziert oder bei Veränderungen des Erkrankungss tatus ei-
+nes Patienten (z.B. Wiederauftreten oder Fortschreiten der Er-
+krankung) wiederholt im Krankheitsverlauf durchgeführt wer-
+den. EK 
+8.19. Zur Erfassung der psychosozialen Be lastung sollen  validierte 
+und standardisierte Screeninginstrumente eingesetzt werden. 
+Als Screeninginstrumente werden zum Beispiel das Distress -
+Thermometer oder die HADS -D empfohlen.  EK 
+8.20. Bei positivem Screening und/oder Patientenwunsch soll ein 
+diagnostisches Gespräch zur Abklärung psychosozialer Belas-
+tungen und psychischer Komorbidität erfolgen . EK 
+8.21. Eine weiterführende diagnostische Abklärung sollte  entspre-
+chend der im Gespräch festgestellten indivi duellen Probleme 
+im psychischen/sozialen/ somatischen Bereich erfolgen . EK 
+8.22. Die Indikationsstellung für psychoonkologische Interventio-
+nen soll entsprec hend dem nach den Empfehlungen 8 .18 bis 
+8.22 festgestellten individuellen Bedarf, dem Setting sowie 
+der Krankheitsphase des Patienten (Erstdiagnose, Operation, 
+adjuvante Therapie, rezidivfreie Phase, Rezidivphase, pallia-
+tive Phase) erfolgen und den Wunsch des Patienten berück-
+sichtigen . EK 
+ 
+  
+9 Therapie des Analkarzinoms im Stadium I -III 
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 19 
+9. Therap ie des Analkarzinoms im Stadium 
+I-III 
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+9.1. Analrandkarzinome mit einem Durchmesser <2 cm ohne re-
+gionale oder Fernmetastasen ( Stadium I ) sollen  unter Berück-
+sichtigung eines adäquaten Sicherheitsabstands (0,5 cm) lo-
+kal exzidiert werden.  A ⨁◯◯◯  Chai et al. 
+2018 [11]; 
+Chakrabarti 
+et al. 2019 
+[12]; Jelinek 
+et al. 2015 
+[13]; 
+Deshmukh et 
+al. 2018 [14] 9.2. Analkanal karzinome mit einem Durchmesser <2  cm ohne re-
+gionale oder Fernmetastasen ( Stadium I ) sollten  mittels pri-
+märer kombinierter Radiochemotherapie behandelt werden . B ⨁◯◯◯  
+9.3. Alternativ kann  bei Anal kanal karzinomen mit einem Durch-
+messe r <2 cm ohne regionale oder Fernmetastasen ( Stadium 
+I) eine alleinige R0 -Exzision erwogen werden . 0 ⨁◯◯◯  
+9.4. Zur Behandlung lokalisierter Anal kanal karzinome ( Stadium I ) 
+nach inkompletter Exzision  soll eine kombinierte Radioche-
+motherapie durchgeführt werden . A Keine vergleichenden 
+Studien vorliegend.  
+9.5. Alternativ kann  zur Behandlung lokalis ierter Anal kanal karzi-
+nome ( Stadium I ) nach inkompletter Exzision  eine Nachexzi-
+sion erwogen  werden . 0 
+9.6. Bei älteren oder multimorbiden  Patient*innen mit Anal kanal-
+karzinom mit einem Durchmesser <2  cm ohne regionale oder 
+Fernmetastasen ( Stadium I ) kann  anstatt einer kombinierten 
+Radiochemotherapie die Durchführung einer alleinigen Radio-
+therapie erwogen werden . 0 ⨁◯◯◯  Buckstein et 
+al. 2018 [15]; 
+De Bari et al. 
+2015 [16]; 
+Zilli et al. 
+2012 [17] 
+9.7. Analkarzinome der Stadien II -III sollen mit einer kombinier-
+ten Radiochemoth erapie behandelt werden.  A ⨁⨁◯◯  
+bis 
+⨁⨁⨁◯ ACT I (Arnott 
+et al. 1996 
+[18], Northo-
+ver et al. 
+2010 [19]) 
+und Bartelink 
+et al. 1997  
+[20] 
+9.8. Alternativ kann  bei Anal randkarzinomen im Stadium II A 
+(T2N0M0) die Durchführung einer alleinigen Exzision mit 
+adäquatem Sicherheitsabstand (0,5  cm) erwogen werden . EK 
+9.9. Bei Kontraindikationen  gegen die Durchführung einer Radio-
+chemotherapie oder Radiotherapie soll die primäre operative 
+Therapie des Analrand - oder Analkanalkarzinoms erfolgen . EK 
+9.10. Im Rahmen der k ombinierten Radiochemotherapie sollen 
+Analkarzinome der Stadien II -III mit einem Chemotherapie -Re-
+gime aus Mitomycin und 5 -FU behandelt werden . A ⨁⨁⨁◯ 
+bis 
+⨁⨁⨁⨁  Flam et al. 
+1996 [21] 
+9 Therapie des Analkarzinoms im Stadium I -III 
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 20 
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+9.11. Im Rahmen der kombinierten Radiochemotherapie zur Be-
+handlung von Analkarzinomen der Stadien II -III kann  alterna-
+tiv zu einem Chemotherapie -Regime aus Mitomycin und 5 -FU 
+ein Chemotherapie -Regime aus Cisplatin und 5 -FU erwoge n 
+werden . 0 ⨁⨁⨁◯ 
+bis 
+⨁⨁⨁⨁  RTOG 98 -11 
+(Ajani et al. 
+2008 [22], 
+Gunderson et 
+al. 2012 [23]) 
+und ACT II 
+(James et al. 
+2013 [24], 
+Glynne -Jones 
+et al. 2014 
+[25]) 
+9.12. Im Rahmen ein er kombinierten Radiochemotherapie mit ei-
+nem Chemotherapie -Regime aus Mitomycin und 5 -FU kann  5-
+FU durch Capecitabin ersetzt werden.  0 ⨁◯◯◯  Goodman et 
+al. 2017 [26], 
+Jones et al. 
+2018 [27], 
+Meulendijks 
+et al. 2014 
+[28] und 
+Peixoto et al. 
+2016 [29] 
+9.13. Im Rahmen der kombinierten Radiochemotherapie soll keine  
+Induktionschemotherapie durchgeführt werden . A ⨁⨁⨁◯ Peiffert et al. 
+2012 [30] 
+9.14. Im Rahmen der kombinierten Radiochemotherapie soll keine  
+Erhaltungschemotherapie durchgeführt werden.  A ⨁⨁⨁◯ ACT II (James 
+et al. 2013 
+[24], Glynne -
+Jones et al. 
+2014 [25]) 
+9.15. Im Rahmen der kombinierten Radiochemotherapie soll die 
+Dosis der Radiotherapie nicht  mehr als 59,4 Gy betrage n. A ⨁◯◯◯  Prasad et 
+al. 2018  
+[31] 
+9.16. Im Rahmen  der kombinierten Radiochemotherapie soll die 
+Bestrahlung mittels Intensitäts -modulierter Radiotherapie 
+(IMRT) erfolgen . A ⨁◯◯◯  
+bis 
+⨁⨁⨁◯ Rattan et al. 
+2016 [32], 
+Bryant et al. 
+2018 [33], El-
+son et al. 
+2018 [34], 
+Pollom et al. 
+2017 [35], 
+Chuong et al. 
+2013 [36], 
+Koerber et al. 
+2014 [37] und 
+Koerber et al. 
+2019 [38], 
+Spencer et a l. 
+2014 [39], 
+Weber et al. 
+2015 [40]) 
+9.17. Die Radiotherapie soll im Rahmen der Radiochemotherapie in 
+kontinuierlicher Form, ohne geplante Therapiepausen, erfol-
+gen. A ⨁◯◯◯  Konski et al. 
+2008 [41] 
+9.18. Im Rahmen der Radiochemotherapie soll ein stadienabhängi-
+ger Bestrahlungsboost erfolgen . A ⨁◯◯◯  Geltzeiler et 
+al. 2014 [42], 
+Budde et al. 
+2014 [43] 
+ 
+10 Responsebeurteilung nach primärer Radiochemotherapie  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 21 
+10. Responsebeurteilung nach primärer Ra-
+diochemotherapie  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+10.1. Zur Response -Evaluation nach kombinierter Radiochemothe-
+rapie soll eine klinische Untersuchung (digital -rektale Unter-
+suchung, Proktoskopie) 1 1 Wochen , 18 Wochen  und 26 Wo-
+chen nach Beginn der Radiochemotherapie erfolgen . A ⨁⨁⨁◯ 
+bis 
+⨁⨁⨁⨁  Glynne -Jones 
+et al.  2017  
+[44] 
+10.2. Die Indikation zur Durchführung weiterführender Diagnostik 
+(Gewebeprobe mit histopathologischer Untersuchung, weiter-
+führende Bildgebung) soll bei V.a. residuellen lokalen Tumor-
+befund (stabiler Befund, reduzierter aber persistierender Lo-
+kalbefund) frühesten s 26 Wochen  nach Beginn der kombi-
+nierten Radiochemotherapie gestellt werden.  A ⨁⨁⨁◯ 
+bis 
+⨁⨁⨁⨁  Glynne -Jones 
+et al. 2017 
+[44] 
+10.3. Bei vollständiger klinischer Response  soll keine Biopsie zur 
+histopathologischen Bestätigung des Ansprechens erfolgen.  EK 
+10.4. Bei klinisch nachgewiesenem Progress (z.B. Größenprog redi-
+enz) des lokalen Tumorbefun des soll die weiterführende Di-
+agnostik bereits vor Ablauf der genannten 26 Wochen nach 
+Beginn der Radiochemotherapie  erfolgen und ggf. weiterfüh-
+rende therapeutisc he Maßnahmen eingeleitet werden . EK 
+10.5. Bei klinisch kompletter Remission 26 Wochen nach Beginn 
+der Radiochemotherapie  sollte  eine MRT des Beckens zur Be-
+fundbestätigung und als Ausgangsbefund für die Nachsorge 
+durchgeführt werden.  EK 
+10.6. Bei Verdacht auf Progress sowie bei auffälligen Befunden 26 
+Wochen nach Beginn der Radiochemotherapie  soll zur Abklä-
+rung und Sicherung eine histopathologische Untersuchung  
+erfolgen,  und die weiterführende Bildgebung sollte  mittels 
+PET/CT * erfolgen.  Zur Beurteilung des auffälligen Lokalbefun-
+des soll, insbesondere in Bezug auf eine mögliche Salvage -
+Operation, eine MRT des Beckens durchgeführt werden.  
+*CAVE: Die PET -Untersuchung ist im Rahmen der Diagnostik bei Analkarzino-
+men nicht Gegenstand des Leistungskatalogs der gesetzlichen Krankenversi-
+cherung (Kostenübernahme nicht gesichert).  EK 
+ 
+ 
+  
+11 Nachsorge  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 22 
+11. Nachsorge  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+11.1. Allen Patient*innen mit Analkarzinom soll nach einer Behand-
+lung in kurativer Intention eine protokollgesteuerte Nach-
+sorge angeboten werden, nach Radiochemotherapie in Teams 
+aus der klinischen Onkologie/Radiotherapie und der kolopro-
+ktologischen Chirurgie/Proktologie.  EK 
+11.2. Die regelmäßige Nachsorge soll nach erfolgreichem Thera-
+pieabschluss  beginnen. Der erfolgreiche Therapieabschluss 
+wird für verschiedene Patientengruppen wie folgt definiert:   
+• Histopathologisch gesicherte R0 -Resektion in kurati-
+ver Intention  
+• Feststellung einer vollständigen Remission 26 Wo-
+chen nach Beginn einer Radiochemotherapie (siehe 
+Kapitel Response -Beurteilung nach primärer Radio-
+chemotherapie)  EK 
+11.3. Die Nachsorge sollte  über einen Zeitraum von fünf Jahren er-
+folgen.  EK 
+11.4. Die Nachsorgeuntersuchungen sollen  die Anamnese, kli-
+nisch -instrumentelle und bildgebende Untersuchungen um-
+fassen; dabei kann  das im Hintergrundtext dargestellte, risi-
+koadaptierte Nachsorgeschema (siehe Tabelle 1) angewandt 
+werden.  EK 
+ 
+  
+12 Therapie des residualen oder rezidivierenden Analkarzinoms  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 23 
+Tabelle 1: Nachsorgeuntersuchungen bei Patient*innen mit Analkarzinom nach erfolgreichem The-
+rapieabschluss einer Behandlung in kurativer Intention  
+Untersuchung  Monate nach erfolgreichem Therapieabschluss  
+3 6 9 12 15 18 21 24 30 36 42 48 54 60 
+Anamnese  X X X X (X) X (X) X (X) X (X) X (X) X 
+Klinische Untersuchung inkl. 
+inguinaler Palpation und digi-
+tal-rektaler Untersuchung  X X X X (X) X (X) X (X) X (X) X (X) X 
+Proktoskopie und ggf. Rekto-
+skopie  X X X X (X) X (X) X (X) X (X) X (X) X 
+MRT -Becken   (X)  X    X  (X)  (X)   
+CT-Thorax und -Abdomen mit 
+Kontrastmittel(1)  X    (X)   (X)      
+Optional PET/CT*   (X)    (X)   (X)      
+ 
+Legende: Untersuchungen in Klammern sind für Patient*innen mit erhöhtem Risiko empfohlen. Dies um-
+fasst alle Patient*innen mit Analkarzinom ab Stadium IIB  sowie stadienunabhängig alle HIV-positiven  und 
+anderweitig immunkompromittierten Patient*innen . (1) gilt ab Sta dium IIA, für Anal randkarzinome nach 
+Radiochemotherapie und für Anal kanal karzinome unabhängig von der primären Therapie. *CAVE: Die 
+PET-Untersuchung ist im Rahmen der Diagnostik bei Analkarzinomen nicht Gegenstand des Leistungs-
+katalogs der gesetzlichen Kra nkenversicherung (Kostenübernahme nicht gesichert).  
+ 
+12. Therapie des residualen oder rezidivie-
+renden Analkarzinoms  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+12.1. Bei Residual - oder Rezidivtumor nach primärer Therapie soll 
+die weitere Behandlungsplanung im Rahmen eines interdis-
+ziplinären Tumorboards erfolgen.  EK 
+12.2. Bei Residual - oder Rezidivtumor im Bereich des Primarius 
+(anal/perianal) nach primärer Radiochemotherapie  ohne 
+Nachweis einer Fernmetastasierung soll in kurativer Intention 
+die chirurgische Resektion durchgeführt werden.  EK 
+12.3. Bei residuellen oder rezidivierenden oder de novo entstande-
+nen lokoregionären Lymphknotenmetastasen (inguinal/ilia-
+kal) nach primärer Radiochemotherapie  ohne Nachweis einer 
+Fernmetastasierung soll in kurativer Intention die Resektion 
+der betroffenen Lymphknoten evaluiert und nach Möglichkeit 
+durchgeführt werden.  EK 
+13 Therapie des metastasierten A nalkarzinoms (Stadium IV)  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 24 
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+12.4. Bei Residual - oder Rezidivtumor im Bereich des Primarius und 
+simultanen lokoregionären Lymphknotenmetastasen nach 
+primärer Radiochemotherapie  ohne Nachweis einer Fernme-
+tastasierung soll in kurativer Intention die abdominop erine-
+ale Rektumexstirpation, ggf. mit erweiterter multiviszeraler 
+Resektion und entsprechender Defektdeckung und die Resek-
+tion der betroffenen Lymphknoten evaluiert und nach Mög-
+lichkeit durchgeführt werden.  EK 
+12.5. Patient*innen mit nicht R0 -resektablem Residual - oder Re-
+zidivtumor nach primärer Radiochemotherapie  soll ein indivi-
+duelles palliatives Therapiekonzept angeboten werden.  EK 
+12.6. Patient*innen mit lokoregionärem Rezidivtumor nach primä-
+rer chirurgischer Resektion  sollen  wie therapie -naive Pati-
+ent*innen mit Analkarzinom behandelt werden.  EK 
+ 
+13. Therapie des metastasierten Analkarzi-
+noms (Stadium IV)  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+13.1. Bei metastasiertem Analkarzinom im Stadium IV (Fernmeta-
+stasen) soll die weitere Behandlungsplanung im Rahmen ei-
+nes interdisziplinären Tumorboards erfolgen . EK 
+13.2. Bei metastasiertem Analkarzinom im Stadium IV (Fernmeta-
+stasen) kann  eine Platin -basierte Chemotherapie erwogen 
+werden . EK 
+13.3. Bei synchron  metastasiertem Analkarzinom im Stadium IV 
+(Fernmetastasen) kann  in Abhängigkeit von der Tumorlast 
+und Symptomatik eine additive lokale Therapie für den Pri-
+märtumor erwogen werden . EK 
+13.4. Bei oligometastasiertem Analkarzinom kann  die lokale Be-
+handlung von Metastasen im Rahmen eines multimodalen 
+Vorgehens erwogen werden . EK 
+ 
+ 
+14 Palliativversorgung  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 25 
+14. Palliativversorgung  
+Nr. Empfehlungen/Statements  EG LoE Quellen  
+14.1. Die allgemeine und spezialisierte Palliativversorgung von Pa-
+tient*innen mit Analkarzinom soll nach den Empfehlungen 
+der S3-Leitlinie „Palliativmedizin für Patienten mit einer nicht 
+heilbaren Krebserkrankung “ [9] erfolgen.  EK 
+14.2. Die Nicht -Heilbarkeit bleibt eine prognostische Einschätzung, 
+die individuell festzustellen ist. Beim Analkarzinom machen 
+die folgenden Situationen das Vorliegen von Nicht -Heilbarkeit 
+wahrscheinlich:  
+• Stadium IV (ggf. mit Ausnahme von synchron oligome-
+tastasiertem, primär kurativ zu behandelndem Anal-
+karzi nom)  
+• Progress oder Rezidiv nach Salvage -Rektumexstirpa-
+tion 
+• Progress oder Rezidiv nach inguinaler Lymphknotenre-
+sektion oder –dissektion  EK 
+14.3. Alle Patienten mit eine m Analka rzinom  sollen  unabhängig 
+vom Krankheitsstadi um Zugang zu Informationen über Pallia-
+tivversorgung (z.B. durch Auslage von Flyern) haben.  EK 
+14.4. Allen Patienten soll nach der Diagnose eines  nicht -heilbaren 
+Analkarzinoms Pallia tivversorgung angeboten werden, unab-
+hängig davo n, ob eine tumorspezifische The rapie durchge-
+führt wird.  A 1- Leitlinienadap-
+tation: S3 -Leitli-
+nie Palliativme-
+dizin, Langver-
+sion 2.1, Januar 
+2020, Kapitel 
+5.3.1, Evidenz-
+basierte Emp-
+fehlung 5.2  
+14.5. Die allgemeine Palliativversorgung eines  Patienten mit einem 
+nicht -heilbaren Analkarzinom soll folgende Aufgabenfelder 
+beinhalten:  
+• Behandlung von Symptomen und Begleitung bei Prob-
+lemen niedriger bis mittlerer Komplexität in allen vier 
+Dimensionen (physisch, psychisch, sozial und spiritu-
+ell) 
+• Kommunikation  
+• Therapiezielfindung  
+• Koordination der Versorgung  
+• Einbeziehung von spezialisierter Palliativversorgung 
+(SPV), wenn indiziert  
+ 
+ EK 
+14 Palliativversorgung  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 26 
+Nr. Empfehlungen/Statements  EG LoE Quellen  
+14.6. Patienten soll nach der Diagnose eines nicht -heilbaren Anal-
+karzinoms ein Bedarfsassessment durch ein spezialisiertes 
+Palliativversorgungsteam (SPV -Team) angeboten werden.  A 3 Leitlinienadap-
+tation: S3 -Leitli-
+nie Palliativme-
+dizin, Langver-
+sion 2.1, Januar 
+2020, Kapitel 
+5.4, Evidenzba-
+sierte Empfeh-
+lung 5.8  
+14.7. Patiente n mit einem  nicht -heilbaren Analka rzinom  und einer 
+hohen Komplexität ihrer Situation sollen  eine spezialisierte 
+Palliativversorgung erhalten.  A 3 Leitlinienadap-
+tation: S3 -Leitli-
+nie Palliativme-
+dizin, Langver-
+sion 2.1, Januar 
+2020, Kapitel 
+5.4, Evidenzba-
+sierte Empfeh-
+lung 5.9  
+ 
+  
+15 Rehabilitation  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 27 
+15. Rehabilitation  
+Nr. Empfehlungen/Statements  EG GRADE  Quellen  
+15.1. Allen Patient*innen mit einem Analkarzinom soll noch vor 
+Abschluss der operativen und / oder strahlentherapeutischen 
+Maßnahmen eine onkologische Rehabilitation als Anschluss-
+rehabilitation (AHB) angeboten werden. Eine Chemotherapie 
+muss zum Beginn der AHB nicht abgeschlossen sein, sondern 
+kann während d er Rehabilitation fortgesetzt werden. Eine 
+Ausnahme hierzu stellen Patient *innen mit Analkarzinom 
+dar, welche mittels lokaler Exzision im Gesunden kurativ be-
+handelt wurden, diesen kann  eine onkologische Rehabilita-
+tion als Anschlussrehabilitation angeboten werden.  EK 
+15.2. In der onkologischen Rehabilitation von Patient *innen mit 
+Analkarzinom sollen  die folgenden Inhalte erfüllt werden:  
+• Erfassung aller wichtigen Daten zur Erkrankung und 
+Begleiterkrankungen sowie zu den durchgeführten di-
+agnostischen und therapeutischen Maßnahmen  
+• Diagnostik der Funktionsstörungen ( nach ICF)  
+• Fortführung und Optimierung der medikamentösen 
+Therapie der Grund - und Begleiterkrankungen, ggf. 
+Fortse tzung auch der medikamentösen Tumortherapie  
+• Training von Restfunktionen, Ausbildung von Kompen-
+sationsfähigkeiten  
+• Information über die Erkrankung sowie die diagnosti-
+schen und therapeutischen Maßnahmen  
+• Hilfe bei der Krankheitsverarbeitung  
+• Beratung und auf Wu nsch Kontaktaufnahme zu beste-
+henden ambulanten Netzwerken (Sozialsprengel, 
+Selbsthilfegruppen, Pflegeinstitutionen, etc.)  
+• Verhaltensmodifikation hin zur gesunden Lebensweise  
+• Sozialmedizinische Beurteilung  
+• Beratung in Hinblick auf berufliche Tätigkeit  
+• Planu ng der Nachsorge  EK 
+ 
+  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 28 
+16. Anlagen  
+16.1.  Zusammensetzung der Leitliniengruppe  
+16.1.1.  Koordination  
+PD Dr. med. Felix Aigner, Charité  – Universitätsmedizin  Berlin, Chirurgische Klinik, Cam-
+pus Charité Mitte/ Campus Virchow -Klinikum , Berlin,  und Abteilung für Chirurgie, Kran-
+kenhaus der Barmherzigen Brüder, Graz, Österreich  
+PD Dr. med. Robert Siegel, Klinik für Allgemein -, Viszeral - und Onkologische Chirurgie, 
+Helios Klinikum Berlin -Buch, Berlin,  und Fakultät für Gesundheit, Universität Wit-
+ten/Herdecke . 
+16.1.2.  Methodische Koordination und Redaktion  
+Division of Evidence -Based Medicine (dEBM), Klinik für Dermatologie, Venerologie und 
+Allergologie, Charité – Universitätsmedizin Berlin.  
+Eine Übersicht über die Beteiligten findet sich in der folgenden Tab elle. 
+Tabelle 2: Methodische Koordination und Redaktion  
+Person  Funktion  
+Dr. med. Ricardo N. 
+Werner  
+ Klinische und methodische Koordination im LL -Sekretariat, Erstellung der 
+Leitliniendokumente, Unterstützung der AG-Leiter*innen bei der Erstellung 
+von Entwürfen für Empfehlungen und Hintergrundtexte, sowie Erstellung 
+des Evidenzberichts: u.a. systematische Recherche, Auswahl und Bewer-
+tung der Literatur, Erstellung von Evidenztabellen, narrative Zusammenfas-
+sungen.  
+Matthew Gaskins, MPH  u.a. Zweitbewertung im Rahmen der systematischen Recherche, Auswahl 
+und Bewertung der Literatur, Erstellung von Evidenztabellen, narrative Zu-
+sammenfassungen.  
+Gabriela L. Avila Valle, 
+M.Sc.  u.a. Zweitbewertung im Rahmen der systematisch en Recherche, Auswahl 
+und Bewertung der Literatur, Erstellung von Evidenztabellen, narrative Zu-
+sammenfassungen.  
+Martin Dittmann  Organisatorische Vorbereitung von Kick -Off-Meeting und Konsensuskonfe-
+renzen, technischer Support, Kommunikation, administrative  Unterstüt-
+zung.  
+16.1.3.  Beteiligte Fachgesellschaften und Mandatsträger*innen  
+In Abstimmung mit dem Leitlinienprogramm Onkologie wurden alle in Tabelle 2 aufge-
+führten Fachgesellschaften und sonstigen Organisationen zur Mitarbeit an der Leitlinie 
+eingeladen. Die Übersicht zeigt zusätzlich alle von den Fachgesellschaften und Organi-
+sationen benannten Mandatsträger*innen.  
+  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 29 
+Tabelle 3: Beteiligte Fachgesellschaften, Organisationen und Mandatsträger*innen  
+Beteiligte Fachgesellschaften und Organi-
+sationen  Mandatsträger*in  
+Deutsche Gesellschaft für Koloproktologie  
+(Federführende Fachgesellschaft)  PD Dr. med. Robert Siegel (Vorsitz),  
+Klinik für Allgemein -, Viszeral - und Onkologische 
+Chirurgie, Helios Klinikum Berlin -Buch, Berlin und 
+Fakultät für Gesundheit, Universität Witten/Herd-
+ecke, Witten  
+PD Dr. med. Felix Aigner (Vorsitz),  
+Charité – Universitätsmedizin Berlin, Chirurgische 
+Klinik, Campus Charité Mitte/ Campus Virchow -Kli-
+nikum, Berlin und  
+Abteilung für Chirurgie, Krankenhaus der Barmher-
+zigen Brüder, Graz, Österreich  
+Deutsche AIDS Gesellschaft  PD Dr. med. Stefan Esser  
+Klinik für Derma tologie und Venerologie, Universi-
+tätsklinikum Essen  
+Prof. Dr. med. Mark Oette (Stellvertr.)  
+Klinik für Allgemeine Innere Medizin, Gastroentero-
+logie und Infektiologie, Krankenhaus der Augustine-
+rinnen, Köln  
+Deutsche Dermatologische Gesellschaft  PD Dr. med. Gerhard Weyandt  
+Klinik für Dermatologie und Allergologie, Klinikum 
+Bayreuth  
+Deutsche Gesellschaft für Allgemein - und 
+Viszeralchirurgie – AG Coloproktologie  Prof. Dr. med. Volker Kahlke  
+Proktologische Praxis Kiel  
+Deutsche Gesellsc haft für Allgemein - und 
+Viszeralchirurgie – AG „Funktionalität in der 
+kolorektalen Chirurgie“  Dr. med. Adal Saeed  
+Praxisklinik Strack, Darmstadt und Fachabteilung 
+Koloproktologie, St. Josefs -Hospital, Wiesbaden  
+Prof. Dr. med. Matthias Turina (Stellvertr.)  
+Klinik für Viszeral - und Transplantationschirurgie, 
+Universitätsspital Zürich, Schweiz  
+Deutsche Gesellschaft für Gastroenterologie, 
+Verdauungs - und Stoffwechselkrankheiten  Prof. Dr. med. Mark Oette  
+Klinik für Allgemeine Innere Medizin, Gastroentero-
+logie und Infektiologie, Krankenhaus der Augustine-
+rinnen, Köln  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 30 
+Beteiligte Fachgesellschaften und Organi-
+sationen  Mandatsträger*in  
+Deutsche Gesellschaft für Hämatologie und 
+Medizinische Onkologie  Dr. med. Franz A. Mosthaf  
+Gemeinschaftspraxis für Hämatologie, Onkologie 
+und Infektiolog ie, Karlsruhe  
+Deutsche Gesellschaft für Nuklearmedizin  Prof. Dr. med. Stefan Dresel  
+Nuklearmedizin, Helios Klinikum Berlin -Buch, Berlin  
+Deutsche Gesellschaft für Palliativmedizin  Prof. Dr. med. Steffen Simon, MSc  
+Zentrum für Palliativmedizin, Uniklinik Köln  
+Deutsche Gesellschaft für Pathologie  Prof. Dr. med. Gerald Niedobitek  
+Institut für Pathologie, Sana Klinikum Lichtenberg, 
+Berlin  
+Deutsche Gesellschaft für Radioonkologie  Dr. med. Stephan Koswig  
+Klinik für Radioonkologie und Strahlenheilkunde, 
+Helios Klinikum Bad Saarow  
+Prof. Dr. Volker Budach (Stellvertr.)  
+Klinik für Radioonkologie und Strahlentherapie, 
+Charité – Universitätsmedizin Berlin  
+Deutsche Gesellschaft für Rehabilitationswis-
+senschaften  Dr. med. Jan Schmielau  
+AMEOS Reha Klinikum Ratzeburg  
+Deutsche Krebsgesellschaft – Assoziation 
+Chirurgische Onkologie  Prof. Dr. med. Hans -Rudolf Raab  
+Oldenburg  
+Deutsche Krebsgesellschaft – AG Onkologi-
+sche Pathologie  Prof. Dr. med. Gerald Niedobitek  
+Institut für Pathologie, Sana Klinikum Lichtenberg, 
+Berlin  
+Deutsche Krebsgesellschaft – AG Onkologi-
+sche Rehabilitation und Sozialmedizin  Dipl. med. Gerhard Faber  
+Celenus Teufelsbad Fachklinik Blankenburg  
+Deutsche Krebsgesellschaft – AG Psychoon-
+kologie  Dr. rer. medic. Bianca Senf, Dipl. -Psych  
+Universitäres Zentrum für Tumorerkrankungen 
+(UCT), Universitätsklinikum Frankfurt  
+Deutsche Krebsgesellschaft – AG Radiologi-
+sche Onkologie  Prof. Dr. med. Claus Rödel  
+Klinik für Strahlentherapie und Onkologie, Universi-
+tätsklinikum Frankfurt  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 31 
+Beteiligte Fachgesellschaften und Organi-
+sationen  Mandatsträger*in  
+Prof. Dr. med. E. Fokas (Stellvertr.)  
+Klinik für Strahlentherapie und Onkologie, Universi-
+tätsklinikum Frankfurt  
+Deutsche Krebsgesellschaft – AG Supportive 
+Maßnahmen in der Onkologie  Dr. med. Rolf Mahlberg  
+Interne Medizin I - Onkologie und Hämatologie, Kli-
+nikum Mutterhaus der Borromäerinnen, Trier  
+Dr. med. Maria Steingräber (Stellvertr.)  
+Praxis für Strahlentherapie Moabit, Berlin  
+Deutsche Röntgengesellschaft  Prof. Dr. med. Johannes Weßling  
+Klinik für Radiologie, Clemenshospi tal Münster  
+Gesellschaft für Virologie  Prof. Dr. med. Ulrike Wieland  
+Institut für Virologie, Nationales Referenzzentrum 
+für Papillom - und Polyomaviren, Universitätsklini-
+kum Köln  Paul-Ehrlich -Gesellschaft für Chemotherapie  
+Berufsverband der Coloproktologen Deutsch-
+lands  Prof. Dr. med. Alois Fürst  
+Klinik für Chirurgie, Caritas -Krankenhhaus St. Jo-
+sef, Regensburg  
+MR Dr. med. Petra Lugger, MSc (Stellvertr.)  
+Spezialpraxis für Proktologie Innsbruck, Österreich; 
+Magen -Darm -Zentrum Stans, Schweiz  
+Berufsverband der Deutschen Strahlenthera-
+peuten  Prof. Dr. med. Franz -Josef Prott  
+RNS Gemeinschaftspraxis GbR, St. Josefs -Hospital 
+Wiesbaden  
+Österreichische Arbeitsgemeinschaft für Co-
+loproktologie  Dr. med. Irmgard Kronber ger 
+Universitätsklinik für Viszeral -, Transplantations - 
+und Thoraxchirurgie, Innsbruck, Österreich  
+Schweizerische Arbeitsgemeinschaft für Ko-
+loproktologie  Dr. med. Stephan Baumeler  
+Klinik für Gastroenterologie / Hepatologie, Kan-
+tonsspital St. Gallen, Schweiz und  
+Klinik für Gastroenterologie / Hepatologie, Kan-
+tonsspital Luzern, Schweiz  
+ 
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 32 
+Beteiligte Fachgesellschaften und Organi-
+sationen  Mandatsträger*in  
+Dr. Christine Maurus (Stellvertr.)  
+Abteilung für Allgemein - und Viszeralchirurgie, Spi-
+tal Sitten, Hôpital du Valais / Spital Wallis, Sitten, 
+Schweiz  
+Deutsche  ILCO Erich Grohmann  
+Deutsche Ilco e.V., Bonn  
+ 
+An der Erarbeitung dieser S3 -Leitlinie waren zu einzelnen Aspekten mit sozialmedizini-
+scher Relevanz Ärztinnen und Ärzte des Kompetenz Centrums Onkologie des GKV -Spit-
+zenverbandes und der MDK-Gemeinschaft beratend beteiligt. Sie haben an den Abstim-
+mungen zu den einzelnen Empfehlungen nicht teilgenommen und sind für den Inhalt 
+dieser Leitlinie nicht verantwortlich.   
+Die von der AG Konferenz Onkologischer Kranken - und Kinderkrankenpflege mand a-
+tierte Person beteiligte sich nicht an der Leitlinienentwicklung . Außerdem wurden  die 
+Deutsche Gesellschaft für Allgemeinmedizin (DEGAM) und das Robert Koch -Institut (RKI) 
+für den Leitlinienprozess angeschrieben , die jedoch keine Vertreter*innen benannt h a-
+ben. 
+16.1.4.  Patienten beteiligung   
+Die Berücksichtigung der Patientenperspektive im Rahmen der Leitlinienentwicklung er-
+folgte über verschiedene Ansätze. Eine offizielle Organisation dezidiert von und für Pa-
+tient*innen mit Analkar zinom existiert in Deutschland nic ht. Daher wurde die Deutsche 
+ILCO e.V. als Selbsthilfevereinigung, die die Interessen von Patient*innen mit Stoma und 
+Darmkrebs vertritt,  gebeten, die Patientenper spektive im Rahmen der Leitlinienentwick-
+lung zu vertreten und hierfür eine*n Mandatsträger*in  zu nominieren. In diesem Zuge 
+wurde Herr Erich Grohmann nominiert ( siehe Tabelle 2 ).  
+Über den Ansatz der direkten Beteiligung eines Patienten vertreters hinaus wurde im Kon-
+text der Bewertung der Relevanz von Endpunkten eine Umfrage unter Patient*innen mit  
+Analkarzinom sowie unter den Mitgliedern der Leitlinienkommission durchgeführt. Die 
+Methodik und Ergebnisse dieser Umfrage finden sich im Evidenzbericht  dargestellt. Die 
+Ergebnisse dieser Bewertung der Relevanz von Endpunkten wu rden im Rahmen des 
+GRADE -Verfahrens zur Erstellung von Em pfehlungen entsprechend berücksichtigt . 
+16.1.5.  Weitere Beteiligte  
+In der Arbeitsgruppe „prätherapeutische Maßnahmen“ wurde Frau PD Dr. Claudia Bös-
+müller (Univer sitätsklinik für Visceral -, Transplantations - und Thoraxchirurgie, Univer si-
+tät Innsbruck, Innsbruck, Ös terreich) als externe Expertin gewonnen, die an der Entwick-
+lung des konsensbasierten Abschnitts zum Management von iatrogen immunsuppri-
+mierten Patient*innen mit Analkarzinom beteiligt war. 
+Darüber hinaus erfolgte eine methodische Begleitung durch das Leitl inienprogramm On-
+kologie:  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 33 
+- Dr. med. Markus Follmann, MPH, MSc., Bereichsleitung des Leitlinienprogramms 
+Onkologie der AWMF, Deutschen Krebsgesellschaft und Deutschen Krebshilfe, 
+Berlin  
+- Dipl.-Soz. Wiss. Thomas Langer , stellv. Be reichsleitung des Leitlinienpro gramms 
+Onkologie der AWMF, Deutschen Krebsgesellschaft und Deutschen Krebshilfe, 
+Berlin  
+- Dr. rer. medic. Susanne Blödt, MScPH, Arbeitsgemeinschaft der wis senschaftli-
+chen medizinischen Fachgesellschaften (AWMF)  
+- Dr. med. Monika Nothacker, MPH , Arbeitsgemeinsc haft der wis senschaftlichen 
+medizinischen Fachgesellschaften (AWMF)  
+16.2.  Methodische Erläuterungen  
+16.2.1.  Schema der Evidenzklassifikation  
+Im Rahmen des GRADE -Verfahrens erfolgt die Bewertung und Klassifikation der Evidenz 
+im Gegensatz zu den meisten anderen Klassifikationssystemen Endpunkt -bezogen. Nach 
+Durchführung der systematischen Literaturrecherche, -auswahl, -bewertung und der Be-
+rechnung von (gepoolten) Effektschätzern für jeden Vergleich von Interventionen erfolgt 
+für jeden verfügbaren Endpunkt eine Be wertung des Vertrauens in den berechneten Ef-
+fektschätzer. Hierbei wurde das in der folgenden Tabelle ( Tabelle 4 ) dargestellte Klassi-
+fikationssystem nach GRADE verwendet. Die Bewertung des Vertrauens in die Effekt-
+schätzer [45] erfolgte aufgrund de r Bewertung verschiedener Faktoren (Risk of Bias [46], 
+Präzision  [47], Konsistenz [48], Direktheit [49], Publikationsbias [50]). Details zur ange-
+wandten Methodik der Bewertung und den Ergebnissen der systematischen Evidenzauf-
+arbeitung finden sich im separat verfügbaren Evidenzbericht.  
+  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 34 
+Tabelle 4: Vertrauen in die Effektschätzer nach GRADE (modifiziert nach Balshem et al. [45] und 
+Meerpohl et al. [51]) 
+Vertrauen in den 
+Effektschätzer  Symbolik  Interpretation / Implikationen  
+Hoch  (⨁⨁⨁⨁ ) Wir sind sehr sicher, dass der wahre Effekt nahe bei dem Effekt-
+schätzer liegt.  
+Moderat  (⨁⨁⨁◯) Wir haben mäßig viel Vertrauen in den Effektschätzer: Der wahre Ef-
+fekt ist wahrscheinlich nahe bei dem Effektschätzer, aber es besteht 
+die Möglichkeit, dass er relevant verschieden ist.  
+Gering  (⨁⨁◯◯) Unser Vertrauen in den Effektschätzer ist begrenzt: Der wahre Ef-
+fekt kann durchaus relevant verschieden vom Effektschätzer sein.  
+Sehr gering  (⨁◯◯◯ ) Wir haben nur sehr wenig Vertrauen in den Effektschätzer: Der 
+wahre Effekt ist wahrscheinlich relevant verschieden vom Effekt-
+schätzer.  
+ 
+Zu beachten ist als Besonderheit im Rahmen des GRADE -Verfahrens, dass für einen Ver-
+gleich zweier Interventionen verschiedene Angaben zum Vertrauen in die Effektschätzer 
+vorliegen könn en, wenn einzelne Endpunkte unterschiedlich bewertet werden.  
+16.2.2.  Formulierung der Empfehlung en und Konsensusfindung  
+16.2.2.1.  Schema der Empfehlungsgraduierung  
+In der vorliegenden Leitlinie wird zu allen Empfehlungen die Stärke der Empfehlung 
+(Empfehlungsgrad) ausgewie sen. In der Leitlinie werden fünf Empfehlungsgrade unter-
+schieden (siehe Tabelle 5), die sich auch in der Formulierung der Empfehlungen jeweils 
+widerspiegeln. Die Graduierung der Empfehlungsstärke orientiert sich dabei an den Vor-
+gaben der GRADE Arbeitsgrupp e, nach denen positive und negative Empfehlungen star-
+ker oder sc hwacher Empfehlungsstärke unterschieden werden [52, 53]. Es wird eine ein-
+heitliche Wortwahl und Symb olik zur Repräsentation der Emp fehlungsstärken verwendet.  
+  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 35 
+Tabelle 5: Verwendete Empfehlungsgrade und ihre Interpretation, modifiziert nach Kaminski -Har-
+tenthaler et al. [53] und AWMF -Regelwerk Leitlinien [54] 
+Empfehlungsrich-
+tung und -stärke  Wording  Sym-
+bolik  Interpretation / Implikationen  
+Starke  Empfehlung 
+für eine Vorge-
+hensweise  „… soll 
+…“ A Wir sind der Auffassung, dass alle oder fast alle infor-
+mierten Menschen diese Entscheidung treffen würden. 
+Kliniker*innen müssen sich weniger Zeit für den Pro-
+zess der Entscheidungsfindung mit den Patient*innen 
+nehmen. In den meisten klinischen Situationen kann 
+die Empfehlung als allgemeine Vorgehensweise über-
+nommen werden.  
+Schwache  Empfeh-
+lung für eine Vor-
+gehensweise  „… sollte 
+…“ B Wir sind der Auffassung, dass die meisten informierten 
+Menschen, ein substanzieller Anteil jedoch nicht, diese 
+Entscheidung treffen würden. Kliniker*innen und an-
+dere Anbieter*innen von Gesundheitsleistungen müs-
+sen mehr Zeit aufwenden, um sicherzustellen, dass die 
+Wahl des Verfahrens mitsamt den möglicherweise ver-
+bundenen Konsequenzen die Werte und Präferenzen 
+der individuellen Patient*innen widerspiegelt. Entschei-
+dungsprozesse im Gesundheitssystem erfordern eine 
+tiefgehende Diskussion und die Einbeziehung vieler 
+Stakeholder.  
+Empfehlung offen / 
+keine Empfehlung  „… kann 
+erwogen 
+werden 
+…“ 0 Zurzeit kann eine Empfehlung für oder ge gen eine be-
+stimmte Vorgehensweise aufgrund bestimmter Gege-
+benheiten nicht getroffen werden (z.B. unklares oder 
+ausgeglichenes Nutzen -/Risiko -Verhältnis, keine ver-
+fügbare Evidenz, etc.)  
+Schwache  Empfeh-
+lung gegen  eine 
+Vorgehensweise  „… sollte 
+nicht …“  B Wir sind der Auffassung, dass die meisten informierten 
+Menschen, ein substanzieller Anteil jedoch nicht, diese 
+Entscheidung treffen würden.  
+Starke  Empfehlung 
+gegen  eine Vorge-
+hensweise  „… soll 
+nicht …“  A Wir sind der Auffassung, dass alle oder fast alle infor-
+mierten Menschen diese Entscheidung treffen würden.  
+ 
+16.2.2.2.  Festlegung des Empfehlungsgrades  
+Die Determinierung der Empfehlungsstärke orientiert sich, dem GRADE -System folgend, 
+in erster Linie am Verhältnis der zu erwartenden Nutzen und Risiken ei ner therapeu ti-
+schen oder diagnostischen Strategie, dem Vertrauen in die aus der  systematischen Evi-
+denzaufarbei tung abgeleiteten Effekte und an der Variabilität von Werten und Präferen-
+zen auf Seiten der Patient *innen. Des Weiteren zu berücksichtigen sind gesund heitsöko-
+nomische Aspekte. Die Richtung und Stärke einer Empfehlung spiegelt wider, wie stark 
+das Vertrauen darin ist, dass die erwünschten Effekte einer Intervention die unerwünsch-
+ten Effekte überwiegen [52, 55]. Hierbei werden vier Schlüsselfaktoren und deren Zu-
+sammenwirken berücksichtigt:  
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 36 
+ 
+Das Nutzen -Risiko -Verhältnis  
+Je größer oder wahrscheinlicher das Ausmaß des erwarteten Nutzen s einer spezifischen 
+Behandlungsstrategie im Verhältnis zu den möglichen unerwünschten Effekten ist, desto 
+eher wird eine starke Empfehlung für diese Behandlungsstrategie ausgesprochen. Ist der 
+erwartete „Netto -Nutzen“ eher gering, wird eine schwache Empfe hlung ausgesprochen.  
+Das Vertrauen in die Effektschätzer  
+Je größer das Vertrauen in die berechneten Effektschätzer ist, die das zuvor bereits eva-
+luierte Nutzen -Risiko -Verhältnis quantifizieren, desto sicherer kann eine starke Empfeh-
+lung für eine spezifisch e Behandlungsstrategie ausgesprochen werden. Das Vertrauen 
+in die Effektschätzer wird für jeden Endpunkt separat durch die GRADE -Bewertung quan-
+tifiziert (s.o.). Ist der zuvor evaluierte „Netto -Nutzen“ sehr hoch, aber das Vertrauen in 
+die Effektschätzer seh r gering, so wird eher eine schwache Empfehlung ausgesprochen.  
+Variabilität der Werte und Präferenzen der Patient*innen  
+Zur Beurteilung des Nutzen -Risiko -Verhältnisses ist die Berücksichtigung der Werte und 
+Präferenzen der Patientenpopulation, für die eine  Empfehlung ausgesprochen werden 
+soll, unabdingbar. Stellen sich die Werte und Präferenzen innerhalb des gesamten Pati-
+entenkollektivs als sehr einheitlich dar, besteht eine gute Grundlage, um auf dieser Basis 
+starke Empfehlungen aussprechen zu können. Ist dagegen die Variabilität der Werte und 
+Präferenzen innerhalb des Patientenkollektivs hoch, impliziert dies, dass Ärzt*innen bei 
+der Anwendung der Leitlinienempfehlung  mehr Zeit aufwenden  müssen, um si cherzu-
+stellen, dass die Wahl des Verfahrens mitsamt de n möglicherweise verbundenen Konse-
+quenzen die Werte und Präferenzen  der individuellen Patient*innen wi derspiegelt . 
+Ressourcen  und Anwendbarkeit  
+Eine Beurteilung der Kosten -Nutzen -Effektivität erfolgte im Rahmen der Erarbeitung der 
+vorliegenden Leitlinienempfehlungen explizit nicht. Gesundheitsökonomische Evaluati-
+onen von Interventionen im Zusammenhang mit Analkarzinomen, die valide Daten für 
+den Kontext der Gesundheitssysteme im deutschsprachigen Raum bieten, liegen nicht 
+vor. Jedoch wird die An wendbarkeit und Umsetzbarkeit der Empfehlungen auf Basis einer 
+Einschätzung durch die beteiligten Expert*innen beurteilt und in die Festlegung des 
+Empfehlungsgrades einbezogen.  
+Um eine systematische und strukturierte Diskussion und Konsentierung der E mpfeh lun-
+gen zu gewährleisten, wu rden für die evidenzbasierten Leitlinienfragen modifizierte 
+GRADE Evidence -to-Decision (EtD) frameworks verwendet [56, 57]. Diese finden sich im 
+Evidenzbericht.   
+16.2.2.3.  Formale Konsensusverfahren und Konsensuskonferenz  
+Die Konsentierung sowohl der evidenz - als auch der konsensbasierten Empfehlungen 
+erfolgte im Rahmen eine r strukturierten Konsensuskonferenz (25. und 26.11.2019). Be-
+reits vorab wurden in einer Online -Vorabstimmung die aus den Arbeitsgruppen stam-
+menden Entwürfe für die Empfehlungen abgestimmt. Dieses Vorgehen diente der vorbe-
+reitenden Auseinandersetzung mit de n Inhalten der Empfehlungen und der Offenlegung 
+von Dissens hinsichtlich spezifischer Empfehlungen und somit vermehrtem Diskussions-
+bedarf. Darüber hinaus wurden hierbei bereits alternative Formulierungen und/oder 
+16 Anlagen  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 37 
+Empfehlungsstärken gesammelt. Empfehlungen,  für die bereits während der Vorabstim-
+mung eine Zustimmung von 95% oder mehr der Mandatsträger*innen vorlag und zu de-
+nen keine inhaltlich relevanten Kommentare abgegeben wurden, wurden während der 
+Konsensuskonferenz nicht erneut konsentiert.  
+Im Rahmen der Konsensuskonferenz waren alle von den Fachgesellschaften mandatier-
+ten Mitglieder der repräsentativen Leitliniengruppe stimmberechtigt, ggf. mit Einschrän-
+kungen des Stimmrechts unter Berücksichtigung der vorliegenden Interessenkonflikte. 
+Im Rahmen der struk turierten Konsensfindung erfolgte bei evidenzbasierten Fragen zu-
+nächst eine Darlegung der Evidenzlage (Dr. med. Ricardo N. Werner), bei konsensbasier-
+ten Fragen eine Darstellung der in den Arbeitsgruppen vorbereiteten Empfehlungen und 
+des Hintergrunds mit a nschließender Diskussion. Entsprechend der Tischvorlage wurden 
+die Empfehlungsentwürfe von jedem Mitglied der repräsentativen Expertenkommission 
+kommentiert, abweichende Vorschläge notiert. Nach Reihendiskussion, Vorabstimmung, 
+und Diskussion erfolgte die endgültige Abstimmung. Die Moderation der Konsensuskon-
+ferenz erfolgte durch Dr. rer. medic. Susanne Blödt, MScPH (AWMF) und Dr. med. Markus 
+Follmann, MPH, MSc  (Deutsche Krebsgesellschaft).  
+Für alle zu konsentierenden Empfehlungen wurde ein starker Konsens (>95% Zustim-
+mung) angestrebt. Festlegungen hinsichtlich der Konsensstärke sind in der folgenden 
+Tabelle dargestellt.  
+Tabelle 6: Festlegungen hinsichtlich der Konsensstärke nach AWMF -Regelwerk Leitlinien [54] 
+Konsensstärke  Prozentuale Zustimmung  
+Starker Konsens  >95% der Stimmberechtigten  
+Konsens  >75–95% der Stimmberechtigten  
+Mehrheitliche Zustimmung  >50–75% der Stimmberechtigten  
+Dissens  ≤50% der Stimmberechtigten  
+ 
+16.2.3.  Statements  
+Als Statements werden Darlegungen oder Erläuterungen von spezifischen Sachverhalten 
+oder Fragestellungen ohne unmittelbare Handlungsaufforderung bezeichnet. Sie werden 
+entsprech end der Vorgehensweise bei den Empfehlungen im Rahmen eines formalen 
+Konsensusverfahrens verabschiedet und können entweder auf Studienergebnissen oder 
+auf Expertenmeinungen beruhen.  
+16.2.4.  Expertenkonsens (EK)  
+Statements  / Empfehlungen, für die eine Bearbeitung a uf der Grundlage von Experten-
+konsens der Leitliniengruppe beschlossen wurde, sind als Expertenkonsens ausgewie-
+sen. Für diese Empfehlungen wurde keine systematische Literaturrecherche durchge-
+führt (die in den Hintergrundtexten ggf. angeführten Studien wurde n von den beteiligten 
+Fachexperten ausgewählt). Bei Empfehlungen, die auf einem Expertenkonsens basieren,  
+werden  keine Symbole bzw. Buchstaben verwendet, um die Empfehlungsstärke und die 
+Qualität der Evidenz darzustellen. D ie Stärke de r Empfehlung ergibt s ich hier allein aus 
+der verwendeten Formulierung (soll/sollte/kann) entsprechend der Abstufung in  Tabelle 
+5. 
+17 Tabellenverzeichnis  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 38 
+17. Tabellenverzeichnis   
+Tabelle 1: Nachsorgeuntersuchungen bei Patient*innen mit Analkarzinom nach erfolgreichem 
+Therapieabschluss einer Behandlung in kurativer Intention  ................................ ............  23 
+Tabelle 2: Methodische Koordination und Redaktion  ................................ ................................ .........  28 
+Tabelle 3: Beteiligte Fachgesellschaften, Organisationen und Mandatsträger*innen  ............................  29 
+Tabelle 4: Vertrauen in die Effektschätzer nach GRADE (modifiziert nach Balshem et al. [45] und 
+Meerpohl et al. [51])  ................................ ................................ ................................ ...... 34 
+Tabelle 5: Verwendete Empfehlungsgrade und ihre Interpretation, modifiziert nach Kaminski -
+Hartenthaler et al. [53] und AWMF -Regelwerk Leitlinien [54]  ................................ ...........  35 
+Tabelle 6: Festlegungen hinsichtlich der Konsensstärke nach AWMF -Regelwerk Leitlinien [54]  ............  37 
+ 
+  
+18 Literatur  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 39 
+18. Literatur  
+1. AJCC Cancer Staging Manual . 8th ed. 2017, USA, New York: Springer International Publishing.  
+2. Benson, A.B., 3rd, et al., Anal Carcinoma, Version 2.2018, NCCN Clinical Practice Guidelines in 
+Oncology.  Journal of the National Comprehensive Cancer Network, 2018. 16(7): p. 449 -54.  
+3. Geh, I., et al., Association of Coloproctology of Great Britain & Ireland (ACPGBI): Guidelines for 
+the Management of Cancer of the Colon, Rectum and Anus (2017) - Anal Cancer.  Colorectal Dis, 
+2017. 19 Suppl 1 : p. 82 -97. https://www.ncbi.nlm.nih.gov/pubmed/28632308  
+4. Glynne -Jones, R., et al., Anal cancer: ESMO -ESSO -ESTRO Clinical Practice Guidelines for diagnosis, 
+treatment and follow -up. Ann Oncol, 2014. 25 Suppl 3 : p. iii10 -20. 
+https://www.ncbi.nlm.nih.gov/pubmed/25001200  
+5. Moureau -Zabotto, L.,  et al., Anal cancer: French Intergroup Clinical Practice Guidelines for 
+diagnosis, treatment and follow -up (SNFGE, FFCD, GERCOR, UNICANCER, SFCD, SFED, SFRO, 
+SNFCP).  Dig Liver Dis, 2017. 49(8): p. 831 -840. 
+https://www.ncbi.nlm.nih.gov/pubmed/28610905  
+6. Esser, S., et al., German -Austrian guidelines on anal dysplasia and anal cancer in HIV -positive 
+individuals: prevention, diagnosis, and treatment.  J Dtsch Dermatol Ges, 2015. 13(12): p. 1302 -
+19. https://www.ncbi.nlm.nih.gov/pubmed/26612810  
+7. AWMF - Association of Scientific Medical Societies. Anale Dysplasien und Analkarzinom bei HIV -
+Infizierten: Prävention, Diagnostik und Therapie. S2k-LL (DAIG) . [Guideline] 2013; Available 
+from: http://www.awmf.org/leitlinien/detail/ll/055 -007.html . 
+8. AWMF - Association of Scientific Medical Societies. Supportive Therapie bei onkolog ischen 
+PatientInnen . 2017  20 November 2019]; Available from: 
+https://www.awmf.org/uploads/tx_szleitlinien/032 -054OLl_S3_Supportiv_2017 -05.pdf . 
+9. Leitlinienpr ogramm Onkologie (Deutsche Krebsgesellschaft, D.K., AWMF),,. S3-Leitlinie 
+Palliativmedizin für Patienten mit einer nicht heilbaren Krebserkrankung, Langversion 2.1 - 
+Januar 2020, AWMF -Registernummer: 128/001OL . 2020  14.02.2018]; Available from: 
+https://www.awmf.org/uploads/tx_szleitlinien/128 -001OLl_S3_Palliativmedizin_2019 -09.pdf . 
+10. Leitlinienprogramm Onkologie (Deutsche Krebsgesellschaft, D.K., AWMF) ,,. S3-Leitlinie 
+Psychoonkologische Diagnostik, Beratung und Behandlung von erwachsenen Krebspatienten, 
+Version 1.1 – Januar 2014, AWMF -Registernummer: 032/051OL . 2014  06.08.2019]; Available 
+from: https://www.awmf.org/uploads/tx_szleitlinien/032 -
+051OLl_S3_Psychoonkologische_Beratung_Behandlung_2014 -01_abgelaufen.pdf . 
+11. Chai, C.Y., et al., Management of Stage I Squamous Cell Carcinoma of the Anal Canal.  JAMA Surg, 
+2018. 153(3): p. 209 -215. https://www.ncbi.nlm.nih.gov/pubmed/29049547  
+12. Chakrabarti, S., et al., Local excision for patients with stage I anal canal squamous cell carcinoma 
+can be curative.  J Gastrointest Oncol, 2019. 10(2): p. 171 -178. 
+https://www.ncbi.nlm.nih.gov/pubmed/31032082  
+13. Jelinek, S.K., et al., Anal superficially invasive squamous cell carcinoma (SISCCA) treatments and 
+outcomes.  Sexual Health, 2015. 12 (1) : p. 82.  
+14. Deshmukh, A.A., et al., Clinical and Economic Evaluation of Treatment Strategies for T1N0 Anal 
+Canal Cancer.  Am J Clin Oncol, 2018. 41(7): p. 626 -631. 
+https://www.ncbi.nlm.nih.gov/pubmed/27755059  
+15. Buckstein, M., et al., A Population -Based Cohort Analysis of Chemoradiation Versus Radiation 
+Alone for Definitive Treatment of St age I Anal Cancer in Older Patients.  Dis Colon Rectum, 2018. 
+61(7): p. 787 -794. https://www.ncbi.nlm.nih.gov/pubmed/29771796  
+16. De Bari, B., et al., Could concomitant radio -chemotherapy improve the outcomes of early -stage 
+node negative anal canal cancer patients? A retrospective analysis of 122 patients.  Cancer 
+Investigation, 2015. 33(4): p. 114 -20. 
+https://www.tandfonline.com/doi/pdf/10.3109/07357907.2014.1001898?needAccess=true  
+17. Zilli, T., et al., Node -negative T1 -T2 anal cancer: radiotherapy alone or concomitant 
+chemoradiotherapy?  Radiother Oncol, 2012. 102(1): p. 62 -7. 
+https://www.ncbi.nlm.nih.gov/pubmed/21993403  
+18. Arnott, S.J., et al., Epidermoid anal cancer: Results from the UKCCCR randomised trial of 
+radiotherapy alone versus radiotherapy, 5 -fluorouracil, and mitomycin.  Lancet, 19 96. 
+348(9034): p. 1049 -1054.  
+19. Northover, J., et al., Chemoradiation for the treatment of epidermoid anal cancer: 13 -year follow -
+up of the first randomised UKCCCR Anal Cancer Trial (ACT I).  Br J Cancer, 2010. 102(7): p. 1123 -
+8. https://www.ncbi.nlm.nih.gov/pubmed/20354531  
+20. Bartelink, H., et al., Concomitant radiotherapy and chemotherapy is superior to radiotherapy 
+alone in the treatment of locally advanced anal cancer: results of a phase III  randomized trial of 
+the European Organization for Research and Treatment of Cancer Radiotherapy and 
+18 Literatur  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 40 
+Gastrointestinal Cooperative Groups.  J Clin Oncol, 1997. 15(5): p. 2040 -9. 
+https://www.ncbi.nlm .nih.gov/pubmed/9164216  
+21. Flam, M., et al., Role of mitomycin in combination with fluorouracil and radiotherapy, and of 
+salvage chemoradiation in the definitive nonsurgical treatment of epidermoid carcinoma of the 
+anal canal: results of a phase III rando mized intergroup study.  J Clin Oncol, 1996. 14(9): p. 2527 -
+39. https://www.ncbi.nlm.nih.gov/pubmed/8823332  
+22. Ajani, J.A., et al., Fluorouracil, mitomycin, and radiotherapy vs fluorouracil, cisplatin, and 
+radiotherapy for carcinoma of the anal canal: a randomized controlled trial.  JAMA, 2008. 
+299(16): p. 1914 -21. https://www.ncbi.nlm.nih.gov/pubmed/18430910  
+23. Gunders on, L.L., et al., Long-term update of US GI intergroup RTOG 98 -11 phase III trial for anal 
+carcinoma: survival, relapse, and colostomy failure with concurrent chemoradiation involving 
+fluorouracil/mitomycin versus fluorouracil/cisplatin.  J Clin Oncol, 2012 . 30(35): p. 4344 -51. 
+https://www.ncbi.nlm.nih.gov/pubmed/23150707  
+24. James, R.D., et al., Mitomycin or cisplatin chemoradiation with or without maintenance 
+chemotherapy for treatment of squamou s-cell carcinoma of the anus (ACT II): a randomised, 
+phase 3, open -label, 2×2 factorial trial.  The Lancet Oncology, 2013. 14(6): p. 516 -524. 
+https://www.cochraneli brary.com/central/doi/10.1002/central/CN -00864066/full  
+25. Glynne -Jones, R., et al., Tumour - and treatment -related colostomy rates following mitomycin C 
+or cisplatin chemoradiation with or without maintenance chemotherapy in squamous cell 
+carcinoma of the anus in the ACT II trial.  Ann Oncol, 2014. 25(8): p. 1616 -22. 
+https://www.ncbi.nlm.nih.gov/pubmed/24827136  
+26. Goodman, K.A., et al., Capecitabine With Mitomycin Reduces Acute Hematologic Toxicit y and 
+Treatment Delays in Patients Undergoing Definitive Chemoradiation Using Intensity Modulated 
+Radiation Therapy for Anal Cancer.  Int J Radiat Oncol Biol Phys, 2017. 98(5): p. 1087 -1095. 
+https ://www.ncbi.nlm.nih.gov/pubmed/28721892  
+27. Jones, C.M., et al., Toxicity, Tolerability, and Compliance of Concurrent Capecitabine or 5 -
+Fluorouracil in Radical Management of Anal Cancer With Single -dose Mitomycin -C and Intensity 
+Modulated Radiation Therapy : Evaluation of a National Cohort.  Int J Radiat Oncol Biol Phys, 2018. 
+101(5): p. 1202 -1211. https://www.ncbi.nlm.nih.gov/pubmed/29859793  
+28. Meulendijks, D., et al., Chemoradiotherapy with capec itabine for locally advanced anal 
+carcinoma: an alternative treatment option.  Br J Cancer, 2014. 111(9): p. 1726 -33. 
+https://www.ncbi.nlm.nih.gov/pubmed/25167226  
+29. Peixoto, R.D., et al., A comp arison between 5 -fluorouracil/mitomycin and 
+capecitabine/mitomycin in combination with radiation for anal cancer.  J Gastrointest Oncol, 
+2016. 7(4): p. 665 -72. https://www.ncbi.nlm.nih.gov/pubmed/ 27563458  
+30. Peiffert, D., et al., Induction chemotherapy and dose intensification of the radiation boost in 
+locally advanced anal canal carcinoma: final analysis of the randomized UNICANCER ACCORD 
+03 trial.  J Clin Oncol, 2012. 30(16): p. 1941 -8. 
+https://www.ncbi.nlm.nih.gov/pubmed/22529257  
+31. Prasad, R.N., J. Elson, and J. Kharofa, The effect of dose escalation for large squamous cell 
+carcinomas of the anal canal.  Clin Transl Oncol, 2018. 20(10): p. 1314 -1320. 
+https://www.ncbi.nlm.nih.gov/pubmed/29623585  
+32. Rattan, R., et al., Comparison of bone marrow sparing intensity modulated radiotherapy (IMRT) 
+and three -dimensional conformal radiotherapy (3DCRT) in carcinoma of anal canal: a 
+prospective study.  Ann Transl Med, 2016. 4(4): p. 70. 
+https://www.ncbi.nlm.nih.gov/pubmed/27004217  
+33. Bryant, A.K., et al., Intensity Modulated  Radiation Therapy Versus Conventional Radiation for 
+Anal Cancer in the Veterans Affairs System.  Int J Radiat Oncol Biol Phys, 2018. 102(1): p. 109 -
+115. https://www.ncbi.nlm.nih.gov/pubmed/301021 86 
+34. Elson, J.K., L.A. Kachnic, and J.R. Kharofa, Intensity -modulated radiotherapy improves survival 
+and reduces treatment time in squamous cell carcinoma of the anus: A National Cancer Data 
+Base study.  Cancer, 2018. 124(22): p. 4383 -4392. 
+https://www.ncbi.nlm.nih.gov/pubmed/30329160  
+35. Pollom, E.L., et al., The Impact of Intensity Modulated Radiation Therapy on Hospitalization 
+Outcomes in the SEER -Medicare Population With Anal Squamous Cell Ca rcinoma.  Int J Radiat 
+Oncol Biol Phys, 2017. 98(1): p. 177 -185. https://www.ncbi.nlm.nih.gov/pubmed/28258896  
+36. Chuong, M.D., et al., Intensity -Modulated Radiation Therapy vs. 3D Conformal Radia tion Therapy 
+for Squamous Cell Carcinoma of the Anal Canal.  Gastrointest Cancer Res, 2013. 6(2): p. 39 -45. 
+https://www.ncbi.nlm.nih.gov/pubmed/23745158  
+37. Koerber, S.A., et al., Efficacy and tox icity of chemoradiation in patients with anal cancer --a 
+retrospective analysis.  Radiat Oncol, 2014. 9: p. 113. 
+https://www.ncbi.nlm.nih.gov/pubmed/24886574  
+18 Literatur  
+© Leitlinienprogramm Onkologie | S3 -Leitlinie Analkarzinom | Kurzversion 1.1 | November  2020 41 
+38. Koerber, S.A., et al., Chemoradiati on in female patients with anal cancer: Patient -reported 
+outcome of acute and chronic side effects.  Tumori, 2019. 105(2): p. 174 -180. 
+https://www.ncbi.nlm.nih.gov/pubmed/30484384  
+39. Spencer, C.R ., et al., Outcomes After IMRT Compared to 3DCRT for Squamous Cell Carcinoma of 
+the Anus.  International Journal of Radiation Oncology*Biology*Physics, 2014. 90(1): p. S400 -
+S401. https://www.redjournal.org/article/S0360 -3016(14)01929 -4/fulltext  
+40. Weber, H.E., et al., Volumetric intensity -modulated arc therapy vs. 3 -dimensional conformal 
+radiotherapy for primary chemoradiotherapy of anal carcinoma: Effects on treatment -related  
+side effects and survival.  Strahlenther Onkol, 2015. 191(11): p. 827 -34. 
+https://www.ncbi.nlm.nih.gov/pubmed/26050046  
+41. Konski, A., et al., Evaluation of planned treatment breaks during radiation therapy for anal 
+cancer: update of RTOG 92 -08. Int J Radiat Oncol Biol Phys, 2008. 72(1): p. 114 -8. 
+https://www.ncbi.nlm.nih.gov/pubmed/18472363  
+42. Geltzeiler, C.B., et al., Chemoradio therapy with a radiation boost for anal cancer decreases the 
+risk for salvage abdominoperineal resection: analysis from the national cancer data base.  Ann 
+Surg Oncol, 2014. 21(11): p. 3616 -20. https://www.ncbi.nlm.nih.gov/pubmed/24943237  
+43. Budde, C.N., et al., Boost radiation treatment for anal cancer decreases the risk for lifetime 
+colostomy: Analysis from the national cancer data base (NCDB).  Annals of Surgical Oncology, 
+2014. 1): p. S76. https://pubmed.ncbi.nlm.nih.gov/24943237/  
+44. Glynne -Jones, R., et al., Best time to assess complete clinical response after chemoradiotherapy 
+in squamous cell carcinoma of the anus (ACT II): a post -hoc analysis of randomised controlled 
+phase 3 trial.  Lancet Oncol, 2017. 18(3): p. 347 -356. 
+https://www.ncbi.nlm.nih.gov/pubmed/28209296  
+45. Balshem, H., et al., GRADE guidelines: 3. Rating the qual ity of evidence.  J Clin Epidemiol, 2011. 
+64(4): p. 401 -6. https://www.ncbi.nlm.nih.gov/pubmed/21208779  
+46. Guyatt, G.H., et al., GRADE guidelines: 4. Rating the quality of evidence --study limitat ions (risk of 
+bias).  J Clin Epidemiol, 2011. 64(4): p. 407 -15. 
+https://www.ncbi.nlm.nih.gov/pubmed/21247734  
+47. Guyatt, G.H., et al., GRADE guidelines 6. Rating the quality of evidence --imprecisi on. J Clin 
+Epidemiol, 2011. 64(12): p. 1283 -93. https://www.ncbi.nlm.nih.gov/pubmed/21839614  
+48. Guyatt, G.H., et al., GRADE guidelines: 7. Rating the quality of evidence --inconsistency.  J Clin 
+Epidemiol, 2011. 64(12): p. 1294 -302. https://www.ncbi.nlm.nih.gov/pubmed/21803546  
+49. Guyatt, G.H., et al., GRADE guidelines: 8. Rating the quality of evidence --indirectness.  J Clin 
+Epidemiol, 20 11. 64(12): p. 1303 -10. https://www.ncbi.nlm.nih.gov/pubmed/21802903  
+50. Guyatt, G.H., et al., GRADE guidelines: 5. Rating the quality of evidence --publication bias.  J Clin 
+Epidemiol, 2011. 64(12): p. 1277 -82. https://www.ncbi.nlm.nih.gov/pubmed/21802904  
+51. Meerpohl, J.J., et al., [GRADE guidelines: 3. Rating the quality of evidence (confidence in the 
+estimates of effect)].  Z Evid Fortbild Qual Gesundhwes, 2012. 106(6): p. 449 -56. 
+https://www.ncbi.nlm.nih.gov/pubmed/22857733  
+52. Andrews, J., et al., GRADE guidelines: 14. Going from evidence to recommendations: the 
+significance and presentation of recommendations.  J Clin Epidemiol, 2013. 66(7): p. 719 -25. 
+https://www.ncbi.nlm.nih.gov/pubmed/23312392  
+53. Kaminski -Hartenthaler, A., et al., [GRADE guidelines: 14. Going from evidence to 
+recommendations: the significance and presentation of recommendations].  Z Evid Fortbild Qual 
+Gesundhwes, 2014. 108(7): p. 413 -20. https://www.ncbi.nlm.nih.gov/pubmed/25 444300  
+54. AWMF - Association of Scientific Medical Societies. Das AWMF -Regelwerk Leitlinien . 2012; 
+Available from: https://www.awmf.org/fileadmin/user_upload/Leitlinien/AWMF -
+Regelwerk/20180608_Druckversion_AWMF -Regelwerk_2013_f_Vermerke_Links.pdf . 
+55. Andrews, J.C., et al., GRADE guidelines: 15. Going from evidence to recommendation -
+determinants of a recommenda tion's direction and strength.  J Clin Epidemiol, 2013. 66(7): p. 
+726-35. https://www.ncbi.nlm.nih.gov/pubmed/23570745  
+56. Alonso -Coello, P., et al., GRADE Evidence to Decision (EtD) frameworks: a  systematic and 
+transparent approach to making well informed healthcare choices. 2: Clinical practice 
+guidelines.  BMJ, 2016. 353: p. i2089. https://www.ncbi.nlm.nih.gov/pubmed/27365494  
+57. Alonso -Coello, P., et al., GRADE Evidence to Decision (EtD) frameworks: a systematic and 
+transparent approach to making well informed healthcare choices. 1: Introduction.  BMJ, 2016. 
+353: p. i2016. https://www.ncbi.nlm.nih.gov/pubmed/27353417  
+ 

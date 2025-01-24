@@ -1,0 +1,1190 @@
+Melanoma: assessmen t and 
+manag emen t 
+NICE guideline 
+Published: 29 July 2015 
+Last updat ed: 27 July 2022 
+www .nice.or g.uk/guidance/ng14 
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).
+Your r esponsi bility 
+The r ecommendations in t his guideline r epresent t he view of NICE, arriv ed at aft er car eful 
+consideration of t he evidence a vailable. When e xercising t heir judgement, pr ofessionals 
+and practitioners ar e expect ed to tak e this guideline fully int o account, alongside t he 
+individual needs, pr eferences and v alues of t heir patient s or t he people using t heir ser vice. 
+It is not mandat ory to apply t he recommendations, and t he guideline does not o verride t he 
+responsibility t o mak e decisions appr opriat e to the cir cumstances of t he individual, in 
+consultation wit h them and t heir f amilies and car ers or guar dian. 
+All pr oblems (adv erse e vents) related to a medicine or medical de vice used f or treatment 
+or in a pr ocedur e should be r epor ted to the Medicines and Healt hcare product s Regulat ory 
+Agency using t he Yellow Car d Scheme . 
+Local commissioners and pr oviders of healt hcare have a responsibility t o enable t he 
+guideline t o be applied when individual pr ofessionals and people using ser vices wish t o 
+use it. The y should do so in t he cont ext of local and national priorities f or funding and 
+developing ser vices, and in light of t heir duties t o have due r egar d to the need t o eliminat e 
+unlawful discrimination, t o adv ance equality of oppor tunity and t o reduce healt h 
+inequalities. Not hing in t his guideline should be int erpreted in a wa y that w ould be 
+inconsist ent wit h complying wit h those duties. 
+Commissioners and pr oviders ha ve a responsibility t o promot e an en vironmentally 
+sustainable healt h and car e syst em and should assess and r educe t he en vironmental 
+impact of implementing NICE r ecommendations  wher ever possible. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 of
+47
+Contents 
+Overview .................................................................................................................................... 5 
+Who is it f or? ........................................................................................................................................ 5 
+Stages of melanoma ................................................................................................................. 6 
+Recommendations ..................................................................................................................... 7 
+1.1 Communication and suppor t ......................................................................................................... 7 
+1.2 Managing vitamin D le vels and concurr ent drug tr eatment ...................................................... 9 
+1.3 Assessing melanoma .................................................................................................................... 9 
+1.4 Staging wit h sentinel lymph node biopsy ................................................................................... 11 
+1.5 Managing stages  0 to II melanoma .............................................................................................. 13 
+1.6 Managing stage  III melanoma ....................................................................................................... 14 
+1.7 Treating in-transit metastases in stages  III and IV melanoma .................................................. 16 
+1.8 Managing stage  IV and unr esectable stage  III melanoma ......................................................... 17 
+1.9 Follow-up aft er treatment f or melanoma .................................................................................... 22 
+Recommendations f or resear ch ............................................................................................... 28 
+Key recommendations f or resear ch .................................................................................................. 28 
+Other r ecommendations f or resear ch ............................................................................................... 30 
+Rationale and impact ................................................................................................................. 33 
+BRAF analysis of melanoma tissue samples ..................................................................................... 33 
+Staging wit h sentinel lymph node biopsy and imaging ................................................................... 34 
+Excision f or stages  0 to II melanoma ................................................................................................. 36 
+Managing stage  III melanoma ............................................................................................................ 37 
+Treating in-transit metastases in stages  III and IV melanoma ........................................................ 38 
+Managing stage  IV and unr esectable stage  III melanoma .............................................................. 39 
+Follow-up aft er treatment f or melanoma .......................................................................................... 41 
+Cont ext ....................................................................................................................................... 44 
+Finding mor e information and committ ee details ................................................................... 45 Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 3 of
+47
+Updat e information ................................................................................................................... 46 Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 of
+47
+This guideline is t he basis of QS130 . 
+Overview 
+This guideline co vers t he assessment and management of melanoma (a type of skin 
+cancer) in childr en, y oung people and adult s. It aims t o reduce v ariation in practice and 
+improve sur vival. 
+Who is i t for? 
+• Healt hcare professionals in primar y, secondar y and t ertiary car e 
+• Commissioners and pr oviders 
+• People wit h melanoma, t heir f amilies and car ers Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 5 of
+47
+Stages of melanoma 
+The stages of melanoma r eferred to in t his guideline ar e based on t he 8t h editions of t he 
+Union f or Int ernational Cancer Contr ol (UICC) tumour node metastasis (TNM) classification 
+of malignant tumours and t he American Joint Committ ee on Cancer (AJCC) melanoma 
+staging syst em. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 6 of
+47
+Recommenda tions 
+People ha ve the right t o be in volved in discussions and mak e informed decisions 
+about t heir car e, as described in NICE's inf ormation on making decisions about y our 
+care. 
+Making decisions using NICE guidelines  explains ho w we use w ords to sho w the 
+strengt h (or cer tainty) of our r ecommendations, and has inf ormation about 
+prescribing medicines (including off -label use), pr ofessional guidelines, standar ds 
+and laws (including on consent and mental capacity), and saf eguar ding. 
+1.1 Comm unic ation and suppor t 
+1.1.1 Give people wit h melanoma accurat e and easy t o understand inf ormation (bot h 
+writt en and spok en) in a sensitiv e and timely manner t hroughout t heir car e, 
+tailor ed to their needs and cir cumstances. T opics t o discuss include: 
+• melanoma and diff erent types of skin cancer 
+• treatment options, including t he risks and benefit s 
+• wher e the person's appointment s will tak e place 
+• which healt hcare professionals will under take the person's car e and ho w to 
+get in t ouch wit h them 
+• expect ed waiting times f or consultations, in vestigations and tr eatment s 
+• follow-up aft er treatment (see t he section on f ollow-up aft er treatment f or 
+melanoma ) 
+• preventing r ecurr ence, and ho w to protect t heir skin fr om damage caused b y 
+exposur e to the sun, while a voiding vitamin D depletion 
+• recognising signs and sympt oms of suspicious skin lesions 
+• what t o do if t hey have any concerns and ho w to re-access ser vices local Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 of
+47
+services and ho w to get in t ouch wit h them. 
+For mor e guidance on giving inf ormation t o people and discussing t heir 
+preferences, f ollow the recommendations on communication and patient 
+centr ed car e in NICE's guidelines on patient e xperience in adult NHS ser vices 
+and shared decision making . [2015] 
+1.1.2 Discuss t he psy chological and emotional impact of melanoma wit h the person, 
+ask whet her t hey have any psy chological or suppor t car e needs, and off er to 
+carry out a holistic needs assessment. T opics t o discuss include: 
+• their understanding of melanoma and it s prognosis 
+• their specific concerns and pr eferences 
+• impor tant v alues or personal goals f or car e and tr eatment 
+• risk of r ecurr ence, metastatic spr ead or new primar y cancers 
+• whet her f amily members ar e at risk. [2015 ] 
+1.1.3 Explain t o people wit h melanoma t hat t hey are welcome t o bring a companion 
+with them t o appointment s. [2015] 
+1.1.4 Ensur e that each local skin cancer multidisciplinar y team and specialist skin 
+cancer multidisciplinar y team has: 
+• at least 1 skin cancer clinical nurse specialist t o provide people wit h 
+information and suppor t 
+• access t o psy chological suppor t ser vices f or people wit h melanoma. [2015] 
+1.1.5 Ensur e that healt hcare professionals can suppor t people wit h melanoma b y 
+attending training and being compet ent in: 
+• communicating comple x and sensitiv e information clearly 
+• tailoring inf ormation and suppor t to the person's individual needs and 
+circumstances. [2015] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 8 of
+47
+1.2 M anag ing vi tamin D le vels and c oncurr ent drug 
+treatmen t 
+1.2.1 Measur e vitamin D le vels at diagnosis in secondar y car e in all people wit h 
+melanoma. [2015] 
+1.2.2 Give people whose vitamin D le vels ar e thought t o be suboptimal advice on 
+vitamin D supplementation and monit oring in line wit h local policies and NICE's 
+guideline on vitamin D . [2015] 
+1.2.3 Do not wit hhold or change drug tr eatment f or ot her conditions, e xcept 
+immunosuppr essant s and immunomodulat ors, on t he basis of a diagnosis of 
+melanoma. F or people on immunosuppr essiv e or immunomodulat ory treatment s, 
+seek advice fr om t he person's specialist t eam, aiming t o optimise quality of lif e 
+while minimising t he person's risk. [2015 , amended 2022] 
+1.3 A ssessing melanoma 
+Dermosc opy and other visualisa tion te chniques 
+1.3.1 Assess all pigment ed skin lesions t hat ar e either r eferred for assessment or 
+identified during f ollow-up in secondar y or t ertiary car e, using dermoscop y 
+carried out b y healt hcare professionals trained in t his technique. [2015] 
+1.3.2 Do not r outinely use conf ocal micr oscop y or comput er assist ed diagnostic t ools 
+to assess pigment ed skin lesions. [2015] 
+Photogr aphy 
+1.3.3 For a clinically atypical melanocytic lesion t hat does not need e xcision at first 
+presentation in secondar y or t ertiary car e: 
+• use baseline phot ograph y (pr eferably dermoscopic) and Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 9 of
+47
+• review t he clinical appearance of t he lesion, and compar e it wit h the baseline 
+phot ographic images, 3  mont hs aft er first pr esentation t o identify early signs 
+of melanoma. [2015] 
+Assessing and manag ing a typic al Spitzoid lesions 
+1.3.4 Discuss all suspect ed atypical Spitz oid lesions at t he specialist skin cancer 
+multidisciplinar y team meeting. [2015] 
+1.3.5 Make the diagnosis of a Spitz oid lesion of uncer tain malignant pot ential on t he 
+basis of t he hist ology , clinical f eatur es and beha viour . [2015] 
+1.3.6 Manage a Spitz oid lesion of uncer tain malignant pot ential as melanoma. [2015] 
+Taking tumour sam ples for genetic testing 
+1.3.7 If tar geted syst emic t herap y is a tr eatment option, off er genetic t esting using: 
+• a secondar y melanoma tissue sample if t here is adequat e cellularity or 
+• a primar y melanoma tissue sample if a secondar y sample is not a vailable or is 
+of inadequat e cellularity . [2015] 
+BRAF anal ysis o f primar y melanoma tissue sam ples 
+1.3.8 Do not off er BRAF analysis of melanoma tissue samples fr om people wit h 
+stage  IA or IB primar y melanoma at pr esentation e xcept as par t of a clinical trial. 
+[2022] 
+1.3.9 Consider BRAF analysis of melanoma tissue samples fr om people wit h stage  IIA 
+primar y melanoma. [2022] 
+1.3.10 Carry out BRAF analysis of melanoma tissue samples fr om people wit h stage  IIB 
+to IV primar y melanoma. [2022] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 10 of
+47
+1.3.11 Local skin multidisciplinar y teams should arrange BRAF analysis of melanoma 
+tissue samples and stat e the pr eferred tissue block f or analysis. [2022] 
+1.3.12 When doing BRAF analysis, consider immunohist ochemistr y as t he first t est for 
+BRAF  V600E, if a vailable. [2022] 
+1.3.13 If BRAF  V600E immunohist ochemistr y is negativ e or inconclusiv e, use a diff erent 
+BRAF genetic t est. [2022] 
+1.3.14 Offer BRAF analysis of melanoma tissue samples t o people wit h melanoma if t hey 
+are pot ential candidat es for an y ongoing clinical trials t hat r equir e kno wledge of 
+genetic status. [2022] 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice, see t he rationale and impact section on BRAF analysis of 
+melanoma tissue samples . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+genetic t esting f or melanoma . 
+1.4 S taging wi th sen tinel l ymph node biopsy 
+1.4.1 Do not off er imaging or sentinel lymph node biopsy (SLNB) t o people who ha ve 
+stage  IA melanoma. [2022] 
+1.4.2 Do not off er imaging bef ore SLNB unless lymph node or distant metastases ar e 
+suspect ed. [2022] 
+1.4.3 Consider SLNB f or people who ha ve melanoma wit h a Br eslow thickness of 
+0.8 mm t o 1.0 mm and at least one of t he following f eatur es: 
+• ulceration 
+• lympho vascular in vasion 
+• a mit otic inde x of 2 or mor e. [2022] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 11 of
+47
+1.4.4 Consider SLNB f or people who ha ve melanoma wit h a Br eslow thickness gr eater 
+than 1 .0 mm. [2022] 
+1.4.5 For women who ar e pregnant, discuss t he option of dela ying SLNB until aft er the 
+pregnancy is complet ed. [2022] 
+1.4.6 Consider staging wit h whole-body and brain contrast -enhanced (CE)-CT f or 
+people wit h stage  IIB melanoma. [2022] 
+1.4.7 Offer staging wit h whole-body and brain CE-CT t o people wit h stage  IIC to IV 
+melanoma. [2022] 
+1.4.8 Consider staging wit h brain MRI, inst ead of brain CE-CT , if locally a vailable and 
+after discussion and agr eement wit h the specialist skin cancer multidisciplinar y 
+team. [2022] 
+1.4.9 Offer staging wit h whole body and brain MRI, inst ead of CE-CT , to: 
+• childr en and y oung adult s (from bir th to 24 years) wit h stage  IIB to IV 
+melanoma 
+• women wit h stage  IIB to IV melanoma who ar e pregnant. [2022] 
+1.4.10 Consider staging wit h brain MRI, inst ead of brain CE-CT , for people wit h 
+stage  IIIC t o IV melanoma and one of t he following risk f actors: 
+• a mit otic inde x of 5 or mor e 
+• primar y melanoma locat ed on t he scalp. [2022] 
+1.4.11 Consider a r epeat staging scan bef ore star ting adjuv ant tr eatment, unless 
+imaging done wit hin the past 8  weeks is a vailable. [2022] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 12 of
+47
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice, see t he rationale and impact section on staging wit h 
+sentinel lymph node biopsy and imaging . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  B: 
+use of sentinel lymph node biopsy in people wit h melanoma . 
+1.5 M anag ing stag es 0 to II melanoma 
+Excision f or stag es 0 to II melanoma 
+1.5.1 Consider a clinical mar gin of at least 0 .5 cm when e xcising stage 0 melanoma. 
+[2022] 
+1.5.2 If excision f or stage  0 melanoma does not achie ve an adequat e hist ological 
+margin, discuss fur ther management wit h the specialist skin cancer 
+multidisciplinar y team. [2022] 
+1.5.3 Use a clinical mar gin of: 
+• 1 cm when e xcising stage I melanoma or when a 2  cm e xcision mar gin w ould 
+cause unacceptable disfigur ement or morbidity 
+• 2 cm when e xcising stage  II melanoma. 
+The clinical mar gin should be ar ound t he hist ological biopsy scar and tak e 
+into account t he primar y melanoma mar gin. [2022] 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice, see t he rationale and impact section on e xcision f or 
+stages  0 to II melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  C: 
+surgical and hist opat hological e xcision mar gins f or people wit h stage 0 t o II 
+melanoma . Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 13 of
+47
+Imiquimod f or stag e 0 melanoma 
+1.5.4 Consider t opical imiquimod t o treat stage  0 melanoma in adult s if sur gery to 
+remove the entir e lesion wit h a 0 .5 cm clinical mar gin w ould lead t o unacceptable 
+disfigur ement or morbidity . [2015] 
+1.5.5 Consider a r epeat skin biopsy f or hist opat hological assessment aft er treatment 
+with topical imiquimod f or stage  0 melanoma, t o check whet her it has been 
+effectiv e. [2015] 
+In July 2022, t his was an off -label use of t opical imiquimod in adult s and 
+imiquimod was not licensed f or use in t he UK in childr en and y oung people under 
+18. See NICE's inf ormation on pr escribing medicines . 
+1.6 Manag ing stag e III melanoma 
+Com pletion l ymph node disse ction f or stag e III melanoma 
+1.6.1 Do not r outinely off er completion lymph node dissection t o people wit h stage III 
+melanoma and micr ometastatic nodal disease det ected by SLNB unless: 
+• there are factors t hat might mak e recurr ent nodal disease difficult t o manage, 
+and 
+• after discussion wit h the person and t he specialist skin cancer 
+multidisciplinar y team. 
+Examples of f actors t hat might mak e recurr ent nodal disease difficult t o 
+manage include melanoma of t he head and neck, people f or whom stage  III 
+adjuv ant t herapies ar e contraindicat ed, or when r egular f ollow-up is not 
+possible. [2022] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 14 of
+47
+For a shor t explanation of wh y the committ ee made t his recommendation and ho w it 
+might aff ect practice, see t he rationale and impact section on managing stage  III 
+melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in: 
+• evidence r eview  D: completion lymphadenect omy for micr ometastatic nodal 
+disease in stage III melanoma 
+• evidence r eview  E: use of sentinel lymph node biopsy f or people wit h stage  III 
+melanoma wit h micr osatellite lesions . 
+Ther apeu tic lymph node disse ction f or stag e III melanoma 
+1.6.2 Offer therapeutic lymph node dissection t o people wit h palpable stage  IIIB to IIID 
+melanoma, or cyt ologically or hist ologically confirmed nodal disease det ected by 
+imaging. [2015] 
+Adjuvant treatmen ts for resected stag e III melanoma 
+Adjuv ant syst emic anticancer tr eatment s 
+For guidance on specific tr eatment s, see NICE's t echnology appraisal guidance on 
+dabraf enib wit h trametinib f or adjuv ant tr eatment of r esect ed BRAF V600 mutation-
+positiv e melanoma , pembr olizumab f or adjuv ant tr eatment of complet ely resect ed stage 3 
+melanoma  and nivolumab f or adjuv ant tr eatment of complet ely resect ed melanoma wit h 
+lymph node in volvement or metastatic disease . 
+Adjuv ant r adiot herapy 
+1.6.3 Do not off er adjuv ant radiot herap y to people wit h stage  IIIA melanoma. [2015] 
+1.6.4 Do not off er adjuv ant radiot herap y to people wit h resect ed stage  IIIB to IIID 
+melanoma unless a r eduction in t he risk of local r ecurr ence is estimat ed to Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 15 of
+47
+outw eigh t he risk of significant adv erse eff ects. [2015] 
+Non-cur ative treatmen t for superficial skin me tastases in stag e 
+III melanoma 
+1.6.5 Consider t opical imiquimod t o palliat e super ficial melanoma skin metastases. 
+[2015] 
+In July 2022, t his was an off -label use of t opical imiquimod in adult s and 
+imiquimod was not licensed f or use in t he UK in childr en and y oung people under 
+18. See NICE's inf ormation on pr escribing medicines . 
+Genomic biomar ker-base d treatmen t for stag e III melanoma 
+The point at which t o use genomic biomark er-based t herap y in solid tumour tr eatment 
+pathways is uncer tain. See NICE's t opic page on genomic biomark er-based cancer 
+treatment s for guidance on specific tr eatment s. 
+1.7 Treating in -transit me tastases in stag es III and 
+IV melanoma 
+1.7.1 Discuss management of in-transit metastases, including sur gery or tr eatment in a 
+regional specialist centr e, wit h the specialist skin cancer multidisciplinar y team. 
+[2022] 
+1.7.2 Offer sur gery as t he first option and if sur gery is not f easible, or if t he person has 
+recurr ent in-transit metastases, consider one of t he following options based on 
+their suitability f or the person: 
+• systemic anticancer t herap y (see recommendations 1 .8.6 to 1.8.15 on 
+systemic anticancer tr eatment s for untr eated stage IV and unr esectable 
+stage III melanoma ) 
+• talimogene laherpar epvec, in line wit h NICE's t echnology appraisal guidance Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 16 of
+47
+on talimogene laherpar epvec 
+• isolat ed limb infusion or per fusion 
+• radiot herap y 
+• electr ochemot herap y, in line wit h NICE's int erventional pr ocedur es guidance 
+on electr ochemot herap y for metastases in t he skin fr om tumours of non-skin 
+origin and melanoma 
+• a topical agent such as imiquimod. [2022] 
+In July 2022, most of t he therapies r ecommended in t his guideline w ere not 
+licensed f or use in t he UK in childr en and y oung people under 18 . See NICE's 
+information on pr escribing medicines . Refer to the summar y of pr oduct 
+charact eristics f or the individual tr eatment s because t here are diff erences in 
+their licensed populations. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice, see t he rationale and impact section on tr eating in-transit 
+metastases in stages  III and IV melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  F: 
+systematic and localised anticancer tr eatment f or people wit h stage  IV and 
+unresectable stage  III melanoma . 
+1.8 M anag ing stag e IV and unr esectable stag e III 
+melanoma 
+Manag emen t of oligome tasta tic stag e IV melanoma 
+1.8.1 Refer the car e of people who appear t o have oligometastatic melanoma t o the 
+specialist skin cancer multidisciplinar y team f or recommendations about staging 
+and management. [2015] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 17 of
+47
+1.8.2 Consider sur gery or ot her ablativ e treatment s to prevent or contr ol sympt oms of 
+oligometastatic stage  IV melanoma in consultation wit h other sit e specific 
+multidisciplinar y teams. [2015 , amended 2022] 
+Brain me tastases 
+1.8.3 For guidance on diagnosing, monit oring and managing brain metastases in people 
+aged 16 or o ver see NICE's guideline on brain tumours (primar y) and brain 
+metastases in o ver 16s . [2022] 
+1.8.4 Discuss t he car e of people wit h melanoma and brain metastases wit h the 
+specialist skin cancer multidisciplinar y team. [2015] 
+1.8.5 Refer people wit h melanoma and brain metastases t hat might be suitable f or 
+surgery or st ereotactic radiot herap y to the neur o-oncology multidisciplinar y team 
+for a r ecommendation about tr eatment. [2015 , amended 2022] 
+Systemic an ticancer tr eatmen ts for un treated stag e IV and 
+unresectable stag e III melanoma 
+In July 2022, most of t he therapies in r ecommendations 1 .8.7 to 1.8.12 w ere 
+unlicensed f or use in t he UK in childr en and y oung people under 18 . See NICE's 
+information on pr escribing medicines . Refer to the summar y of pr oduct 
+charact eristics f or the individual tr eatment s because t here are diff erences in t heir 
+licensed populations. 
+1.8.6 When choosing syst emic anticancer tr eatment f or untr eated stage IV or 
+unresectable stage III melanoma, base tr eatment decisions on t he following 
+factors: 
+• comorbidities and per formance status 
+• risk of tr eatment t oxicity Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 18 of
+47
+• whet her pot ential tr eatment t oxicity will be t olerat ed 
+• presence of sympt omatic brain metastases 
+• tumour biology (f or example, high disease bur den, rapid pr ogression, lactat e 
+dehydrogenase le vel). 
+Treatment decisions should be made aft er a full assessment of t he risks and 
+benefit s by the tr eating oncologist and discussion wit h the person, in line 
+with NICE's guideline on shar ed decision making . [2022] 
+1.8.7 Offer treatment wit h immunot herap y to people wit h untr eated stage IV or 
+unresectable stage III melanoma, as set out in r ecommendations 1 .8.8 to 1.8.9. If 
+immunot herap y is contraindicat ed or unsuitable, based on t he factors in 
+recommendation 1 .8.6, follow recommendations 1 .8.10 to 1.8.12 for alt ernativ e 
+treatment s based on BRAF type. [2022] 
+For ot her guidance on tr eatment s for adv anced melanoma, see NICE's t echnology 
+appraisal guidance on t he NICE t opic page f or skin cancer . 
+Immunot herapies 
+1.8.8 Offer niv olumab plus ipilimumab t o people wit h untr eated stage  IV or 
+unresectable stage  III melanoma if suitable f or them based on t he factors in 
+recommendation  1.8.6. [2022] 
+See NICE's t echnology appraisal guidance on niv olumab in combination wit h 
+ipilimumab f or treating adv anced melanoma . 
+1.8.9 If niv olumab plus ipilimumab is unsuitable or unacceptable (f or example, because 
+of pot ential t oxicity), off er pembr olizumab or niv olumab monot herap y. [2022] 
+See NICE's t echnology appraisal guidance on pembr olizumab f or adv anced 
+melanoma not pr eviously tr eated wit h ipilimumab  and nivolumab f or treating 
+advanced (unr esectable or metastatic) melanoma . Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 19 of
+47
+Targeted t herapies f or BRAF V600 mutation-positiv e melanoma 
+1.8.10 Offer encoraf enib plus binimetinib, or dabraf enib plus trametinib, t o people wit h 
+untreated BRAF-mutant stage  IV or unr esectable stage  III melanoma if: 
+• nivolumab plus ipilimumab, pembr olizumab, and niv olumab ar e 
+contraindicat ed or 
+• it is pr edict ed there is not enough time f or an adequat e immune r esponse (f or 
+example, because of high disease bur den or rapid pr ogression). [2022] 
+See NICE's t echnology appraisal guidance on encoraf enib wit h binimetinib f or 
+unresectable or metastatic BRAF V600 mutation-positiv e melanoma  and 
+trametinib in combination wit h dabraf enib f or treating unr esectable or 
+metastatic melanoma . 
+1.8.11 If encoraf enib plus binimetinib, and dabraf enib plus trametinib, ar e bot h 
+unsuitable or unacceptable t o the person: 
+• offer dabraf enib or v emuraf enib t o people f or whom binimetinib and 
+trametinib ar e contraindicat ed or 
+• if tar geted tr eatment is contraindicat ed, consider tr eatment wit h 
+chemot herap y (dacarbazine) or best suppor tive car e. [2022] 
+See NICE's t echnology appraisal guidance on dabraf enib f or treating 
+unresectable or metastatic BRAF  V600 mutation-positiv e melanoma  and 
+vemuraf enib f or treating locally adv anced or metastatic BRAF  V600 mutation-
+positiv e malignant melanoma . 
+For ot her guidance on tar geted therapies see NICE's t echnology appraisal 
+guidance on t he NICE t opic page f or skin cancer . 
+Alternativ es to immunot herapies f or BRAF wild-type melanoma 
+1.8.12 For people wit h untr eated BRAF-wild type stage  IV or unr esectable stage  III 
+melanoma f or whom niv olumab plus ipilimumab, pembr olizumab, and niv olumab 
+are contraindicat ed, consider: Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 20 of
+47
+• treatment wit h chemot herap y (dacarbazine) or 
+• best suppor tive car e. [2022] 
+Systemic an ticancer tr eatmen ts for pr eviousl y treated stag e IV 
+and unr esectable stag e III melanoma 
+In July 2022, most of t he therapies in r ecommendations 1 .8.14 and 1 .8.15 w ere 
+unlicensed f or use in t he UK in childr en and y oung people under 18 . See NICE's 
+information on pr escribing medicines . Refer to the summar y of pr oduct 
+charact eristics f or the individual tr eatment s because t here are diff erences in t heir 
+licensed populations. 
+For guidance on immunot herapies, see NICE's t echnology appraisal guidance on 
+ipilimumab , nivolumab , nivolumab wit h ipilimumab  and pembr olizumab . For guidance on 
+targeted therapies f or BRAF  V600 mutation-positiv e melanoma, see NICE's t echnology 
+appraisal guidance on encoraf enib wit h binimetinib  and trametinib wit h dabraf enib. 
+1.8.13 When making tr eatment decisions f or pr eviously tr eated melanoma, tak e into 
+account t he factors list ed in recommendation  1.8.6. [2022] 
+1.8.14 For people wit h previously tr eated melanoma in whom immunot herapies and 
+targeted therapies ar e contraindicat ed, unsuitable or unacceptable, consider: 
+• treatment wit h chemot herap y (dacarbazine) or 
+• best suppor tive car e. [2022] 
+1.8.15 Do not r outinely off er fur ther cyt otoxic chemot herap y to people wit h stage  IV or 
+unresectable stage  III melanoma who ha ve had pr evious tr eatment wit h 
+dacarbazine e xcept in t he cont ext of a clinical trial. [2022] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 21 of
+47
+Referral to spe cialist pallia tive care ser vices 
+1.8.16 Refer people wit h incurable melanoma t o specialist palliativ e car e ser vices f or 
+sympt om management. See NICE's guideline on end of lif e car e for adult s: ser vice 
+deliv ery. [2022] 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice, see t he rationale and impact section on managing stage  IV 
+and unr esectable stage  III melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  F: 
+systemic and localised anticancer tr eatment f or people wit h stage  IV and 
+unresectable stage  III melanoma . 
+Genomic biomar ker-base d treatmen t 
+The point at which t o use genomic biomark er-based t herap y in solid tumour tr eatment 
+pathways is uncer tain. See NICE's t opic page on genomic biomark er-based cancer 
+treatment s for guidance on specific tr eatment s. 
+1.9 F ollow-up af ter tr eatmen t for melanoma 
+Informa tion and suppor t for pe ople who ha ve had melanoma 
+1.9.1 Ensur e that people who ha ve complet ed tr eatment f or melanoma ha ve been 
+given dir ect contact details f or specialist skin cancer ser vices t hat can pr ovide 
+advice about pr oblems or concerns r elated to their melanoma. [2022] 
+1.9.2 Offer psy chosocial suppor t to the person and t heir f amily or car ers at all f ollow-
+up appointment s. [2022] 
+1.9.3 Ensur e that local f ollow-up policies: 
+• are in line wit h recommendations  1.1.1 to 1.1.3 in t he section on communication 
+and suppor t Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 22 of
+47
+• include: 
+－ reinforcing advice about self e xamination 
+－ healt h promotion f or people wit h melanoma and t heir f amilies, including 
+sun awar eness and a voiding vitamin D depletion (see NICE's guideline on 
+sunlight e xposur e: risks and benefit s) 
+－ advice on st opping smoking f or people who smok e (see NICE's guideline 
+on tobacco: pr eventing uptak e, pr omoting quitting and tr eating 
+dependence ). [2022] 
+Exceptions to r outine f ollow-up 
+1.9.4 For people who ha ve had stage  0 melanoma, pr ovide advice at a clinic visit during 
+the first y ear aft er treatment has been complet ed, in line wit h recommendation 
+1.9.3. [2022] 
+1.9.5 Offer personalised f ollow-up t o people wit h unr esectable stage  III or IV 
+melanoma. [2022] 
+1.9.6 Consider personalised f ollow-up f or people who ar e at incr eased risk of fur ther 
+primar y melanomas (f or example, people wit h atypical mole syndr ome, pr evious 
+melanoma, multiple in-situ melanomas, or a hist ory of melanoma in first degr ee 
+relativ es or ot her r elevant f amilial cancer syndr omes). [2022] 
+1.9.7 Offer whole-body and brain MRI, inst ead of CE-CT , to childr en and y oung adult s 
+(from bir th to 24 years) ha ving imaging as par t of f ollow-up. [2022] 
+1.9.8 Offer whole-body and brain MRI, inst ead of CE-CT , to women who ar e pregnant 
+and ha ving imaging as par t of f ollow-up. [2022] 
+1.9.9 Offer brain MRI f or follow-up imaging, inst ead of brain CE-CT , to people wit h 
+known or r esect ed brain metastases. [2022] 
+1.9.10 Consider brain MRI f or follow-up imaging, inst ead of brain CE-CT , if pr eferred 
+locally and aft er discussion and agr eement wit h the specialist skin cancer Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 23 of
+47
+multidisciplinar y team. [2022] 
+Planning r outine f ollow-up 
+1.9.11 Full examination of t he skin and r egional lymph nodes at clinic appointment s 
+should be done b y a healt hcare professional who has skills and e xper tise in skin 
+cancer and lymph node e xamination. The y should ha ve access t o dermoscop y 
+and medical phot ograph y as par t of e xaminations. [2022] 
+1.9.12 For people ha ving bot h CE-CT and ultrasound scans, alt ernat e betw een t he 2 
+types of scan. [2022] 
+1.9.13 Do not r outinely use PET -CT during f ollow-up of people wit h melanoma. [2022] 
+1.9.14 Continue t o follow the recommendations on managing concurr ent drug tr eatment . 
+[2022] 
+1.9.15 Offer follow-up f or 1 year t o people who ha ve had stage  IA melanoma, and f or 
+5 years t o people who ha ve had stages  IB to IV melanoma, using t he table on 
+follow-up aft er stages  I to IV melanoma. [2022] 
+Follow-up aft er stages  I to IV melanoma 
+Stage of melanoma Follow-up 
+IA • Year 1: Consider 2 clinic appointment s, wit h dischar ge at t he end of 
+year 1 . Do not r outinely off er scr eening in vestigations (including 
+imaging and blood t ests) as par t of f ollow-up Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 4 of
+47
+Stage of melanoma Follow-up 
+IB • Year 1: Off er 2 clinic appointment s, and consider adding 2 
+ultrasound scans of t he draining nodal basin if sentinel lymph node 
+biopsy (SLNB) was consider ed but not done 
+• Years 2 and 3: Off er 1 clinic appointment each y ear, and consider 
+adding 1 ultrasound scan of t he draining nodal basin each y ear if 
+SLNB was consider ed but not done 
+• Years 4 and 5: Off er 1 clinic appointment each y ear. Dischar ge at 
+the end of y ear 5 
+IIA • Years 1 and 2: Off er 2 clinic appointment s each y ear, and consider 
+adding 2 ultrasound scans of t he draining nodal basin each y ear if 
+SLNB was consider ed but not done 
+• Year 3: Off er 1 clinic appointment, and consider adding 1 ultrasound 
+scan of t he draining nodal basin if SLNB was consider ed but not 
+done 
+• Years 4 and 5: Off er 1 clinic appointment each y ear. Dischar ge at 
+the end of y ear 5 
+IIB • Years 1 and 2: Off er 4 clinic appointment s each y ear, and consider 2 
+whole-body and brain contrast -enhanced CT (CE-CT) scans each 
+year. Consider adding 2 ultrasound scans of t he draining nodal 
+basin each y ear if SLNB was consider ed but not done 
+• Year 3: Off er 2 clinic appointment s and consider 2 whole-body and 
+brain CE-CT scans. Consider adding 2 ultrasound scans of t he 
+draining nodal basin if SLNB was consider ed but not done 
+• Years 4 and 5: Off er 1 clinic appointment each y ear and consider 1 
+whole-body and brain CE-CT scan each y ear. Dischar ge at t he end 
+of year 5 Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 25 of
+47
+Stage of melanoma Follow-up 
+IIC • Years 1 and 2: Off er 4 clinic appointment s and 2 whole-body and 
+brain CE CT scans each y ear. Consider adding 2 ultrasound scans of 
+the draining nodal basin each y ear if SLNB was consider ed but not 
+done 
+• Year 3: Off er 2 clinic appointment s and 2 whole-body and brain CE-
+CT scans. Consider adding 2 ultrasound scans of t he draining nodal 
+basin if SLNB was consider ed but not done 
+• Years 4 and 5: Off er 1 clinic appointment and 1 whole-body and 
+brain CE-CT scan each y ear. Dischar ge at t he end of y ear 5 
+IIIA t o IIIC not 
+currently 
+having 
+adjuv ant 
+therap y • Years 1 t o 3: Off er 4 clinic appointment s and 2 whole-body and 
+brain CE-CT scans each y ear. Consider adding 2 ultrasound scans 
+of the draining nodal basin each y ear if t he person has a positiv e 
+sentinel lymph node 
+• Years 4 and 5: Off er 2 clinic appointment s and 1 whole-body and 
+brain CE-CT scan each y ear. Dischar ge at t he end of y ear 5 
+IIID and 
+resect ed IV not 
+currently 
+having 
+adjuv ant 
+therap y • Years 1 t o 3: Off er 4 clinic appointment s and 4 whole-body and 
+brain CE-CT scans each y ear 
+• Years 4 and 5: Off er 2 clinic appointment s and 2 whole-body and 
+brain CE-CT scans each y ear. Dischar ge at t he end of y ear 5 
+IIIA t o IIIC, IIID 
+and r esect ed 
+IV ha ving 
+adjuv ant 
+therap y • During adjuv ant t herap y, base f ollow-up on t herapeutic 
+requir ement s 
+Whole body CE-CT scans will r outinely include t he thorax, abdomen and pelvis. Ho wever, 
+other sit es such as t he neck ma y need including based on t he person's individual needs 
+and cir cumstances (f or example, when t here is an incr eased risk of t he melanoma 
+spreading or f or people who ar e exempt fr om routine f ollow-up ). Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 26 of
+47
+This table set s out r outine f ollow-up. Off er personalised f ollow-up t o people wit h 
+unresectable stage III or IV melanoma, people at incr eased risk of fur ther primar y 
+melanomas, childr en and y oung adult s, and w omen who ar e pregnant, in line wit h 
+recommendations 1 .9.5 to 1.9.10. 
+For a shor t explanation of wh y the committ ee made t hese r ecommendations and ho w 
+they might aff ect practice, see t he rationale and impact section on f ollow-up aft er 
+treatment f or melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  G: 
+follow-up of people wit h melanoma . Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 27 of
+47
+Recommenda tions f or research 
+The guideline committ ee has made t he following r ecommendations f or resear ch. 
+Key recommenda tions f or research 
+1 Monitoring and r esponse biomar kers 
+Can biomark ers accurat ely classify r ecurr ence, pr ogression and r esponse t o treatment? 
+[2022] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on BRAF analysis of melanoma tissue samples . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+genetic t esting f or melanoma . 
+2 Saf ety, prognostic and pr edictive biomar kers 
+Can biomark ers be used f or risk stratification and tr eatment planning f or people wit h 
+melanoma? [2022] 
+For a shor t explanation of wh y the committ ee made t he recommendation f or resear ch, 
+see t he rationale section on BRAF analysis of melanoma tissue samples . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  A: 
+genetic t esting f or melanoma . 
+3 Effectiveness o f loc alise d treatmen ts 
+What is t he eff ectiv eness of localised tr eatment f or people wit h stages  III and IV 
+melanoma? [2022] Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 28 of
+47
+For a shor t explanation of wh y the committ ee made t his recommendation f or 
+resear ch, see t he rationale section on tr eating in-transit metastases in stages  III and 
+IV melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  F: 
+systematic and localised anticancer tr eatment f or people wit h stage  IV and 
+unresectable stage  III melanoma . 
+4 Histological mar gins 
+What is t he optimal hist ological e xcision mar gin in stage  0 melanoma? [2022] 
+For a shor t explanation of wh y the committ ee made t his recommendation f or 
+resear ch, see t he rationale section on e xcision f or stages  0 to II melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  C: 
+surgical and hist opat hological e xcision mar gins f or people wit h stage  0 to II 
+melanoma . 
+5 Surveillanc e str ategies 
+How frequent ly should sur veillance imaging be conduct ed, and which imaging modality 
+should be used f or people wit h stage  IIB to IIIC melanoma? [2022] 
+For a shor t explanation of wh y the committ ee made t his recommendation f or 
+resear ch, see t he rationale and section on f ollow-up aft er treatment f or melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  G: 
+follow-up of people wit h melanoma . Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 29 of
+47
+Other r ecommenda tions f or research 
+6 Survivorship 
+What ar e the experiences of people who ar e living wit h, through and be yond a melanoma 
+diagnosis in t erms of sur vivorship and t heir disease journe y? [2022] 
+For a shor t explanation of wh y the committ ee made t his recommendation f or 
+resear ch, see t he rationale and section on f ollow-up aft er treatment f or melanoma . 
+Full details of t he evidence and t he committ ee's discussion ar e in evidence r eview  G: 
+follow-up of people wit h melanoma . 
+7 Techniques f or confirming a diagnosis in pe ople wi th suspe cted 
+atypic al Spitzoid melanoc ytic lesions 
+In people wit h repor ted atypical Spitz oid lesions, ho w eff ectiv e are fluor escence in situ 
+hybridization (FISH), comparativ e genomic h ybridization (CGH) and t ests to det ect driv er 
+mutations compar ed wit h hist opat hological e xamination alone in pr edicting disease 
+specific sur vival? 
+This should be in vestigat ed in a pr ospectiv e diagnostic study . Secondar y out comes should 
+include sensitivity , specificity , accuracy , positiv e predictiv e value, disease specific sur vival 
+and pr ogression fr ee sur vival. [2015] 
+Why this is impor tant 
+Atypical Spitz oid lesions continue t o be diagnostically challenging. Ther e are no r eliably 
+reproducible hist ological, immunohist ochemistr y or molecular f eatur es that allo w exact 
+typing and pr ognostic assessment of t hese lesions. The curr ent 'gold standar d' is 
+histological e xamination wit h exper t review , but it is not alwa ys possible t o distinguish 
+Spitz oid melanoma fr om benign Spitz oid melanocytic lesions. 
+Current molecular t echnologies such as FISH and CGH pr ovide some help, but t he result s 
+are difficult t o interpret and ma y not be conclusiv e. Understanding and mapping changes 
+in molecular pat hways could pr edict out come and inf orm individual tr eatment planning. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 30 of
+47
+8 Surgical excision f or pe ople wi th len tigo maligna 
+For people wit h lentigo maligna (stage  0 in sun damaged skin, usually on t he face) ho w 
+effectiv e is Mohs micr ographic sur gery, compar ed wit h excision wit h a 0 .5 cm clinical 
+margin, in pr eventing biopsy pr oven local r ecurr ence at 5  years? 
+This should be in vestigat ed in a randomised contr olled trial. Secondar y out comes should 
+include cosmetic and functional out comes. [2015] 
+Why this is impor tant 
+Mohs micr ographic sur gery is a micr oscopically contr olled sur gical t echnique designed t o 
+allow complet e excision of t he tumour wit h minimal tissue loss. The t echnique can be 
+useful f or people wit h lentigo maligna because t heir lesions can be v ery large and locat ed 
+in a cosmetically sensitiv e site wher e sur gery ma y cause significant scarring. Ho wever, the 
+histological det ection of small numbers of melanocyt es at t he edge of a sample is difficult, 
+and can lead t o false negativ e result s. In addition, lentigo maligna ma y occur in an ar ea of 
+field change wit h a risk of skip lesions at t he edge. Ther efore, alt hough Mohs micr ographic 
+surgery ma y ensur e complet e excision of lentigo maligna, it can be accompanied b y the 
+recurr ence of a similar lesion in adjacent skin. 
+9 Vitamin D supp lemen tation 
+In people wit h stage  I to III melanoma does vitamin D supplementation impr ove overall 
+survival? 
+This should be in vestigat ed in a placebo contr olled randomised trial. Secondar y out comes 
+should include disease specific sur vival and t oxicity , including t he de velopment of r enal 
+stones and h ypercalcaemia. [2015] 
+Why this is impor tant 
+It has been r epor ted that suboptimal le vels of vitamin D at diagnosis ar e common in people 
+with melanoma fr om t he nor th of England and t hat higher le vels ar e associat ed wit h lower 
+melanoma r elated mor tality . However, vitamin D le vels ar e higher in leaner , fitter people 
+and t he natur e of t he relationship betw een vitamin D le vels and melanoma sur vival is 
+unclear . Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 31 of
+47
+Ther e are 2 adjuv ant trials of vitamin D supplementation list ed as activ e curr ently, 1 in Italy 
+and 1 in Australia. Ho wever, there are man y uncer tainties about t he design of vitamin D 
+trials, which might become clear er in t he ne xt few y ears. These include t he dose of vitamin 
+D, use of concurr ent aspirin t herap y and t he baseline le vel at which vitamin D 
+supplementation w ould be star ted. 
+10 The ef fect of drug ther apy for concurr ent condi tions on 
+melanoma sur vival 
+In people diagnosed wit h melanoma what is t he eff ect of drug t herap y to treat concurr ent 
+conditions on disease specific sur vival? 
+This should be in vestigat ed in a national pr ospectiv e cohor t study . Secondar y out comes 
+should include o verall sur vival and quality of lif e. [2015] 
+Why this is impor tant 
+Drugs such as immunosuppr essant s and t hose used t o treat conditions such as diabet es 
+have eff ects that ma y affect sur vival in people wit h melanoma. F or example, metf ormin, 
+the most fr equent ly prescribed drug f or type 2 diabet es, is t hought t o reduce o verall 
+cancer rat es in people wit h diabet es but t o incr ease mor tality fr om melanoma in 
+appr oximat ely 40% of t hese people who ha ve a somatic BRAF mutation. 
+Ther e is a need t o balance t he risk of melanoma deat hs wit h the benefit s from t he most 
+effectiv e treatment of t he concurr ent conditions. But t here is curr ently no e vidence t o 
+inform t his decision. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 32 of
+47
+Rationale and im pact 
+These sections briefly e xplain wh y the committ ee made t he recommendations and ho w 
+they might aff ect practice. 
+BRAF anal ysis o f melanoma tissue sam ples 
+Recommendations 1 .3.8 to 1.3.14 
+Why the c ommi ttee made the r ecommenda tions 
+Immunohist ochemistr y 
+The 2015 guideline r ecommended genetic t esting f or stage  IIC and abo ve melanoma. The 
+2022 committ ee extended t his b y recommending t hat BRAF analysis be consider ed for 
+stage  IIA or IIB melanoma, and carried out f or stage  IIC to IV melanoma. The committ ee 
+agreed, based on t heir e xperience and in view of adv ances in tar geted tr eatment s since 
+2015 , that early det ermination of BRAF status has practical utility . The y not ed that disease 
+relapse occurs in a significant pr opor tion of people wit h stage  IIA to IIC melanoma (up t o 
+50% at 5  years in people wit h stage  IIC melanoma). Kno wing BRAF status can speed up 
+decisions about tr eatment f or relapsed melanoma and optimise t he use of t hese new er 
+treatment s. 
+The committ ee also not ed that BRAF analysis of melanoma tissue samples should be 
+arranged b y the local skin cancer multidisciplinar y team t o provide a mor e coor dinat ed 
+process. The pat hology r epor t on t he primar y lesion should also include t he relevant tissue 
+block suitable f or molecular genetic t esting, as specified b y the dermat opat hologist wit hin 
+the local skin cancer multidisciplinar y team. 
+The 2015 guideline did not specify t he type of genetic t est. The 2022 committ ee look ed at 
+specific types of t est. The y concluded t hat immunohist ochemistr y using BRAF  V600E 
+analysis is t he most rapid met hod and enables tr eatment t o be star ted sooner t han is t he 
+case wit h other types of genetic t esting. The y also not ed evidence t hat sho wed 
+BRAF  V600E immunohist ochemistr y rar ely pr oduces f alse positiv e result s. Ho wever, some 
+false negativ e result s do occur so t he committ ee agr eed t hat a diff erent BRAF genetic t est 
+should be used t o double-check a negativ e or inconclusiv e result. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 33 of
+47
+The committ ee agr eed t o retain t he 2015 r ecommendation t hat genetic t esting should not 
+be off ered to people wit h stages  IA to IB melanoma. 
+Genetic t esting f or people wit h melanoma who ar e pot ential candidat es for clinical trials 
+will str eamline enr olment int o clinical trials and identify mor e candidat es for trials. 
+Biomark ers 
+Biomark ers ar e of incr easing r elevance in t he diagnosis and monit oring of v arious cancers, 
+but t heir utility in t he cont ext of melanoma is still unclear . The committ ee made 
+recommendations f or resear ch on monit oring and r esponse biomark ers, and safety, 
+prognostic and pr edictiv e biomark ers. 
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations might incr ease t he use of genetic t esting. The y are expect ed to 
+increase immunohist ochemistr y wit h BRAF  V600E analysis as a means of genetic t esting 
+and r educe v ariations in genetic t esting practice. 
+Return t o recommendations 
+Staging wi th sen tinel l ymph node biopsy and 
+imag ing 
+Recommendations 1 .4.1 to 1.4.11 
+Why the c ommi ttee made the r ecommenda tions 
+Sentinel lymph node biopsy 
+Evidence sho wed that sentinel lymph node biopsy (SLNB) should be done ( or ruled out) 
+before imaging f or most people because imaging does not accurat ely det ect lymph node 
+metastases during staging. The committ ee agr eed t hat imaging should only be off ered 
+before SLNB if lymph node or distant metastases ar e suspect ed. 
+Specific risk f actors w ere sho wn b y the evidence t o be str ongly associat ed wit h a positiv e 
+sentinel lymph node and t he committ ee recommended t hat SLNB be consider ed for Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 34 of
+47
+people wit h any of t hese risk f actors. The y agr eed t hat SLNB is not cost eff ectiv e if t he 
+risk of sentinel node metastases is lo w. The committ ee not ed that t he existing economic 
+evidence was highly contradict ory. The y also not ed that t he model pr eviously de veloped 
+for the 2015 guideline and 1 study sho wed that SLNB was not cost eff ectiv e. 
+The committ ee not ed that w omen who ar e pregnant ma y have concerns about ha ving 
+SLNB because it needs t o be done under a general anaest hetic and uses a radioactiv e 
+tracer and an unlicensed drug. The committ ee agr eed t hat, in t heir e xperience, t here is no 
+harm associat ed wit h dela ying SLNB until aft er pr egnancy . The y not ed that t he decision 
+should be made wit hin the specialist skin cancer multidisciplinar y team on a case-b y-case 
+basis aft er discussion wit h the person. 
+Imaging 
+Most of t he evidence concerned imaging during f ollow-up. Ther e was less e vidence on 
+imaging during staging, but t he committ ee agr eed t hat t he imaging used f or staging 
+should be consist ent wit h the imaging t hat will be used during f ollow-up, and made 
+recommendations t o reflect t his (see t he recommendations on imaging in t he section on 
+follow-up aft er treatment f or melanoma ). 
+The committ ee agr eed t hat MRI has utility during staging, due t o the incr eased sensitivity 
+for det ecting brain metastases compar ed wit h CE-CT . The y recommended considering 
+brain MRI inst ead of CE-CT when staging people wit h stage  IIIC t o IV melanoma because 
+of their higher risk of de veloping brain metastases. The committ ee not ed that man y clinical 
+factors ar e also associat ed wit h an incr eased risk of de veloping brain metastases and 
+included t he main risk f actors in t he recommendations. 
+The e vidence sho wed a high rat e of r ecurr ence in t he int erim period betw een sur gery and 
+starting adjuv ant t herap y. The committ ee agr eed t hat f or people star ting adjuv ant t herap y, 
+imaging should be r epeat ed to exclude r ecurr ence if r ecent imaging is not a vailable. The y 
+agreed t o define t his as imaging done wit hin the past 8  weeks, based on t heir e xperience 
+and noting t hat 1  study had used a definition of 7 .4 weeks. 
+How the r ecommenda tions mig ht affect practice 
+In curr ent practice SLNB is commonly off ered to people wit h melanoma and a Br eslow 
+thickness of 0 .8 mm t o 1.0 mm. The r ecommendations ar e expect ed to reduce SLNB in t his 
+group b y tar geting it specifically t o those wit h risk f actors f or a positiv e SLNB. Ulceration is Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 35 of
+47
+the most common risk f actor and is t herefore likely to be t he main r eason f or off ering 
+SLNBs. 
+Variation in t he use of imaging during staging is e xpect ed to be r educed, wit h an incr ease 
+in the use of CE-CT . 
+Return t o recommendations 
+Excision f or stag es 0 to II melanoma 
+Recommendations 1 .5.1 to 1.5.3 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee agr eed t o retain t he 2015 r ecommendations on clinical mar gins f or 
+excision. 
+The 2015 committ ee found no e vidence on t he optimal clinical mar gin for stage  0 
+melanoma. The y made t he recommendation on t he basis of clinical e xperience suggesting 
+that local r ecurr ence ma y be seen when mar gins smaller t han 0 .5 cm ar e used. The 2022 
+committ ee found no fur ther e vidence so r etained t he recommendation. 
+Evidence suppor ted the 2015 r ecommendations t o use minimum clinical mar gins of 1  cm in 
+stage  I melanoma and 2  cm in stage  II melanoma. The mar gin should be ar ound t he 
+histological biopsy scar and tak e into account t he primar y melanoma mar gins. The 
+committ ee ackno wledged t hat smaller mar gins ma y be needed f or cosmetic r easons on 
+sites such as t he face, head and digit s. Ho wever, the use of smaller mar gins should be 
+discussed wit hin the specialist skin cancer multidisciplinar y team. The r easoning f or a 
+smaller mar gin should be justified and t he person should ha ve clinical sur veillance. The 
+evidence confirmed t hat lar ger mar gins of 4  cm to 5 cm ar e associat ed wit h mor e adv erse 
+events and no impr ovement in out comes. 
+The committ ee ackno wledged continuing uncer tainty about optimal e xcision mar gins, 
+particularly in stage  0 disease, and made a recommendation f or resear ch on hist ological 
+margins. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 36 of
+47
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ar e unchanged and ar e not e xpect ed to change curr ent practice. 
+Return t o recommendations 
+Manag ing stag e III melanoma 
+Recommendation 1 .6.1 
+Why the c ommi ttee made the r ecommenda tion 
+Completion lymph node dissection 
+Evidence suggest ed that completion lymph node dissection f or people wit h stage  III 
+melanoma does not impr ove sur vival or melanoma-specific sur vival when compar ed wit h 
+routine sur veillance, and t hat it is associat ed wit h an incr eased risk of lymphoedema. The 
+committ ee concluded t hat t he overall risks of completion lymph node dissection outw eigh 
+the benefit s for most people, and agr eed t o amend t he 2015 r ecommendation t o reflect 
+this. Ho wever, there is e vidence of less nodal basin disease contr ol in people who had 
+SLNB and sur veillance compar ed wit h people who had completion lymph node dissection. 
+The committ ee ackno wledged t hat cer tain f actors can mak e it difficult t o manage 
+recurr ent nodal disease. The y therefore agr eed t hat completion lymph node dissection 
+may be consider ed for people wit h these f actors. 
+SLNB (no r ecommendations) 
+Ther e was no e vidence on t he benefit of SLNB f or people wit h stage  III melanoma and 
+microsatellite lesions. The committ ee discussed t he pot ential benefit s and harms in t he 
+absence of e vidence. The y agr eed t hat t he pr esence of micr osatellite lesions indicat es 
+that t he melanoma has pr ogressed be yond t he lymph nodes and so w ould aut omatically 
+become stage  IIIB or IIIC disease wit hout t he need f or SLNB. 
+The committ ee agr eed t hat SLNB ma y sometimes be t hought useful as a wa y of finding 
+out whet her t he melanoma has spr ead t o the lymph nodes. Ho wever, its prognostic utility 
+in this cont ext is unclear . The committ ee also agr eed t hat most centr es in t he UK do not 
+currently off er SLNB t o people wit h stage III disease. Ther efore they agr eed not t o mak e Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 37 of
+47
+recommendations in t his ar ea. 
+How the r ecommenda tion mig ht affect practice 
+Completion lymph node dissection is no longer standar d practice and t he 
+recommendations will not change t his. 
+Return t o recommendation 
+Treating in -transit me tastases in stag es III and IV 
+melanoma 
+Recommendations 1 .7.1 and 1 .7.2 
+Why the c ommi ttee made the r ecommenda tions 
+Good quality e vidence on localised tr eatment s is lacking. The committ ee agr eed t hat 
+several tr eatment options can be consider ed but t hat in t he absence of good e vidence, 
+this decision should be based on tr eatment suitability f or the person wit h melanoma. The y 
+also agr eed t o remove the option of CO2 laser list ed in t he 2015 guideline because it is no 
+longer used in standar d practice. 
+The committ ee concurr ed that t here is uncer tainty about t he best option f or people wit h 
+different clinical charact eristics and made a recommendation f or resear ch on eff ectiv eness 
+of localised tr eatment s. 
+How the r ecommenda tions mig ht affect practice 
+Treatment s for in-transit metastases ar e rar ely used. The r ecommendations ma y help t o 
+target t hese tr eatment s but will not lead t o substantial changes in practice. 
+Return t o recommendations Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 38 of
+47
+Manag ing stag e IV and unr esectable stag e III 
+melanoma 
+Recommendations 1 .8.3 and 1 .8.6 to 1.8.16 
+Why the c ommi ttee made the r ecommenda tions 
+The committ ee look ed at e vidence on immunot herapies (ipilimumab, niv olumab, 
+pembr olizumab, and niv olumab plus ipilimumab ) and tar geted therapies ( encoraf enib plus 
+binimetinib, trametinib plus dabraf enib, dabraf enib monot herap y and v emuraf enib 
+monot herap y). These t herapies w ere also compar ed in a healt h economic model. 
+The committ ee not ed the comple xities and nuances in t he tr eatment pat hway. The y 
+identified a number of f actors t hat should be tak en int o account when considering 
+treatment choices t o allo w appr opriat e and individualised tr eatment decisions. 
+The e vidence sho wed that, o verall, t he immunot herapies ar e mor e clinically eff ectiv e than 
+the tar geted therapies. Wit hin the immunot herapies, niv olumab plus ipilimumab was t he 
+most clinically eff ectiv e. The healt h economic model demonstrat ed that it is also t he most 
+cost eff ectiv e. 
+However, the committ ee not ed evidence sho wing t hat t he risk of t oxicity wit h 
+immunot herapies is higher t han wit h tar geted therapies, and t hat t his risk incr eases when 
+immunot herapies ar e used in combination. The y therefore agr eed t hat monot herap y 
+should be an option if combination immunot herap y is deemed unsuitable f or people, f or 
+example t hose wit h poor per formance status or comorbidities who ar e less lik ely to 
+tolerat e toxicity . The e vidence sho wed that niv olumab and pembr olizumab ha ve similar 
+clinical eff ectiv eness and cost eff ectiv eness when used as monot herapies so t he 
+committ ee agr eed t hat eit her of t hese options should be off ered. 
+The committ ee not ed NICE t echnology appraisal guidance r ecommending ipilimumab 
+monot herap y for untr eated adv anced (unr esectable or metastatic) melanoma, but did not 
+include t his option in t heir r ecommendation because it is not commonly used as first -line 
+treatment and monot herap y wit h either niv olumab or pembr olizumab is mor e cost 
+effectiv e in t his population. The committ ee also ackno wledged t hat ipilimumab is licensed 
+for use as monot herap y in adult s and y oung people aged 12 and o ver. However, based on 
+their clinical e xperience, it s use as a monot herap y is consider ed to be t he same as in Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 39 of
+47
+adult s. 
+If immunot herap y, either in combination or as monot herap y, is unsuitable, t he committ ee 
+agreed t hat tar geted therapies based on BRAF status ar e an option. The committ ee not ed 
+that someone wit h sympt omatic brain metastases will usually need st eroids, which 
+excludes tr eatment wit h immunot herap y. In addition, f or people wit h a high disease bur den 
+or rapid pr ogression t here ma y not be enough time t o generat e the necessar y immune 
+response t hat is associat ed wit h immunot herap y. Wit hin the tar geted therapies, e vidence 
+showed that encoraf enib plus binimetinib, or trametinib plus dabraf enib, had similar clinical 
+effectiv eness. The healt h economic model did not demonstrat e clear diff erences in cost 
+effectiv eness betw een t hese 2 options. Ther efore, the committ ee agr eed t hat eit her of 
+these options f or combination tr eatment could be r ecommended. If bot h of t hese options 
+are unsuitable, t he committ ee agr eed t hat monot herap y wit h dabraf enib or v emuraf enib 
+should be off ered. 
+If tar geted tr eatment f or BRAF-mutat ed melanoma is unsuitable, or if t he melanoma is 
+BRAF-wild type, t he committ ee agr eed t hat t he options ar e limit ed to chemot herap y wit h 
+dacarbazine or best suppor tive car e. 
+The committ ee also made r ecommendations on tr eatment s for pr eviously tr eated stage  IV 
+or unr esectable stage  III melanoma. The e vidence f or the clinical and cost eff ectiv eness of 
+treatment in t his ar ea was limit ed. Ther efore, the committ ee pr eferred to list t he available 
+treatment options, and t o highlight t he factors t hat should be tak en int o account when 
+considering tr eatment choices f or pr eviously tr eated melanoma. 
+No e vidence was f ound f or the eff ectiv eness of syst emic cancer t herapies specific t o 
+childr en and y oung people. Ho wever, the committ ee agr eed t hat tr eatment should not 
+differ betw een childr en and adult s, and t hat r ecommendations also apply t o childr en and 
+young people. When tr eating childr en and y oung people, healt hcare professionals should 
+refer to the individual summar y of pr oduct charact eristics f or the tr eatment being 
+consider ed. This is because most of t he tr eatment s recommended in t his guideline ar e not 
+licensed f or use in t he UK in childr en and y oung people under 18 , but t here are diff erences 
+in their licensed populations. 
+The committ ee not ed that people wit h incurable melanoma ha ve a high sympt om bur den 
+which should be managed at an early stage, and r ecommended r eferral t o specialist 
+palliativ e car e ser vices. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 40 of
+47
+How the r ecommenda tions mig ht affect practice 
+The r ecommendations ar e expect ed to incr ease t he pr opor tion of people who ar e off ered 
+nivolumab plus ipilimumab as syst emic tr eatment f or stage  IV and unr esectable stage III 
+melanoma. 
+The r ecommendations f or pr eviously tr eated melanoma ar e not e xpect ed to have an 
+impact on practice, as all a vailable tr eatment s are list ed alongside t he factors t hat should 
+be consider ed when making tr eatment r ecommendations. 
+Return t o recommendations 
+Follow-up af ter tr eatmen t for melanoma 
+Recommendations 1 .9.1 to 1.9.15 
+Why the c ommi ttee made the r ecommenda tions 
+Information and suppor t for people who ha ve had melanoma 
+The committ ee agr eed, based on t heir e xperience, t hat t he inf ormation giv en to people 
+after treatment f or melanoma v aries, and t hat it is par ticularly impor tant t o giv e people 
+details of a specialist skin cancer ser vice t hat t hey can contact if t hey have questions or 
+concerns aft er treatment. The committ ee agr eed t o retain t he 2015 r ecommendation t o 
+provide psy chosocial suppor t and t o include pr ovision of advice in local f ollow-up policies. 
+The committ ee not ed the lack of e vidence on t he views of people who ha ve had 
+melanoma and made a recommendation f or resear ch on sur vivorship . 
+Exceptions t o routine f ollow-up 
+Based on t heir e xperience, t he committ ee agr eed t hat people who ha ve complet ed 
+treatment f or stage  0 melanoma can be dischar ged aft er a clinic visit f or advice. The y also 
+identified gr oups who should be off ered personalised f ollow-up, including people wit h 
+unresectable melanoma and t hose at incr eased risk of fur ther primar y melanomas. 
+The committ ee also identified gr oups f or whom MRI should be consider ed, as a substitut e 
+for CE-CT . See t he rationale section on imaging during f ollow-up . Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 1 of
+47
+Frequency of f ollow-up 
+The committ ee sought t o find a fr equency of clinical f ollow-up t hat w ould balance t he 
+need f or pr ompt identification of r ecurr ence or pr ogression wit h the need t o reduce t he 
+burden of f ollow-up appointment s for people wit h melanoma and a void t he cost s of 
+unnecessar y follow-up. 
+Evidence sho wed that f or stage  IB to IIC disease, a lo wer frequency of f ollow-up visit s did 
+not incr ease mor tality or cancer r ecurr ence, or w orsen quality of lif e. The committ ee 
+therefore agr eed t o reduce t he fr equency of f ollow-up visit s. The y agr eed t o retain 4  visits 
+per y ear f or the first 2  years aft er stages  IIB to IIC melanoma t o coincide wit h their 
+recommended imaging fr equency , but t o reduce t his to 2 visits in y ear 3. 
+Recommendations f or clinic visit s after resect ed stage  III to IV disease w ere made t o allo w 
+for a clinic visit aft er each imaging scan. 
+Imaging during f ollow-up 
+The committ ee agr eed t hat CT scanning during f ollow-up aft er all stages of melanoma 
+should include t he head because of t he fr equency of brain metastases de veloping during 
+follow-up. The committ ee consider ed that t he radiation risk fr om e xposur e to ionising 
+radiation during CE-CT scans was not serious. Ho wever, the committ ee agr eed t hat brain 
+MRI could be consider ed inst ead of CE-CT , if it is mor e suitable (f or example, when t here 
+are high-risk f actors associat ed wit h brain metastases or when MRI has been used in 
+staging). This will r educe radiation e xposur e and pot entially incr ease accuracy of 
+assessing brain metastases. The y not ed that t his should be aft er a discussion wit h the 
+specialist skin cancer multidisciplinar y team. The committ ee ackno wledged t he logistical 
+difficulties and incr eased bur den on MRI capacity of arranging separat e CE-CT and MRI 
+scans. 
+Evidence on stage  III melanoma suggest ed that while PET -CT is mor e sensitiv e for 
+detecting metastases compar ed wit h CE-CT it was not cost eff ectiv e. The committ ee 
+agreed t hat fr equent imaging wit h CE-CT , par ticularly in t he first 2 t o 3 years when rat es 
+of recurr ence ar e highest, will ensur e timely identification of r ecurr ences. The committ ee 
+therefore agr eed t o recommend twice y early imaging wit h CE-CT in t he first 3  years, t hen 
+once y early in y ears 4 and 5 . Ther e was no e vidence on CE-CT aft er stages  IIB and IIC 
+melanoma, but t here was e vidence suggesting a high risk of r ecurr ence, par ticularly in 
+stage IIC melanoma, t hat was w orse t han t he risk of r ecurr ence aft er stage  IIIA disease. 
+Based on t his, t he committ ee agr eed t hat CE-CT imaging should be consider ed aft er 
+stage  IIB, and off ered aft er stage  IIC, at t he same fr equency as stage  III. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 42 of
+47
+The committ ee agr eed t hat MRI should be off ered for childr en and y oung adult s having 
+follow-up because of t he cumulativ e risk of radiation associat ed wit h CE-CT scanning, and 
+during pr egnancy when CE-CT is undesirable. 
+Ultrasound scanning was sho wn b y the evidence t o be mor e sensitiv e than clinical 
+examination and alt ernativ e imaging modalities (par ticularly CE-CT) f or det ecting local 
+lymph node metastases. The committ ee agr eed, based on t heir e xperience, t hat CE-CT 
+alone can miss or dela y det ection of lymph node r ecurr ences. Ho wever, there was no good 
+quality e vidence t o sho w that ultrasound r educes mor tality or time t o recurr ence in people 
+with positiv e sentinel lymph nodes. Mor eover, in curr ent practice people wit h positiv e 
+sentinel lymph nodes ar e off ered fr equent cr oss-sectional imaging and it is unclear 
+whet her ultrasound off ers practical benefit abo ve and be yond t his imaging. This guideline 
+does not r ecommend r outine completion lymph node dissection, based on e vidence 
+comparing it wit h ultrasound scanning. Ho wever, there is no randomised contr olled trial 
+evidence comparing completion lymph node dissection wit h sur veillance alone (wit h no 
+ultrasound scanning). In addition, e vidence suggest ed that most nodal r ecurr ences 
+develop wit hin the first f ew y ears of diagnosis. The committ ee not ed that nodal status is 
+unkno wn in people who ha ve not had an SNLB, and t hus t heir staging is incomplet e. Based 
+on this, t he committ ee agr eed t o recommend ultrasound sur veillance f or 3 years f or 
+people wit h a positiv e sentinel lymph node and t hose who w ere consider ed for but did not 
+have an SLNB. 
+The committ ee ackno wledged t he practical implications of ultrasound imaging during 
+follow-up, such as t he capacity t o provide incr eased numbers of scans and t he variable 
+experience of healt hcare professionals in volved in f ollow-up. The y not ed the need f or 
+more evidence t o inform futur e guidance on f ollow-up aft er melanoma and made a 
+recommendation f or resear ch on sur veillance strat egies . 
+How the r ecommenda tions mig ht affect practice 
+Current practice v aries and it is e xpect ed that t hese r ecommendations will help t o 
+standar dise practice acr oss centr es. Clinic visit s for people wit h stages  I to IIC melanoma 
+may be r educed, especially f or people wit h stage  IA melanoma. It is t herefore impor tant 
+that people ar e giv en contact details f or the specialist skin cancer multidisciplinar y team. 
+The use of ultrasound, CE-CT or MRI scanning is e xpect ed to incr ease, but t he use of PET -
+CT is e xpect ed to decr ease. 
+Return t o recommendations Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 43 of
+47
+Context 
+Melanoma is t he fift h most common skin cancer in t he UK, accounting f or 4% of all new 
+cancer cases and mor e cancer deat hs than all ot her skin cancers combined. During 2016 
+to 2018 t here were 16,744 new cases of melanoma and 2, 333 deat hs fr om melanoma. Of 
+those who de velop melanoma, 87% sur vive for 10  years or longer . 
+Incidence rat es for melanoma skin cancer in t he UK ar e highest in people aged 85 t o 89. 
+Each y ear mor e than a quar ter (29%) of all new melanoma skin cancer cases in t he UK ar e 
+diagnosed in people aged 7 5 and o ver. Since t he early 1990s, melanoma skin cancer 
+incidence rat es ha ve mor e than doubled (140%) in t he UK. Rat es in f emales ha ve around 
+doubled (106%), and rat es in males ha ve almost tripled (186%), fr om 2016 t o 2018 . 
+Incidence rat es for melanoma skin cancer ar e project ed to rise b y 7% in t he UK betw een 
+2014 and 2035 , to 32 cases per 100 ,000 people b y 2035 . 
+A person's risk of de veloping cancer depends on man y factors, including age, genetics, 
+and e xposur e to risk f actors (including some pot entially a voidable lif estyle f actors). Most 
+cases of melanoma (86%) in t he UK ar e preventable. Melanoma is most common in people 
+with pale skin ho wever it is oft en diagnosed at a mor e adv anced stage in people wit h 
+darker skin. This highlight s a need f or equal oppor tunity of diagnoses f or people wit h 
+darker skin. The risk f actors ar e skin t hat t ends t o burn in t he sun, ha ving man y moles, 
+intermitt ent sun e xposur e and sunburn. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 44 of
+47
+Finding mor e inf orma tion and c ommi ttee 
+details 
+To find NICE guidance on r elated topics, including guidance in de velopment, see t he NICE 
+topic page on skin cancer . 
+For full details of t he evidence and t he guideline committ ee's discussions, see t he 
+evidence r eviews . You can also find inf ormation about how the guideline was de veloped , 
+including details of t he committ ee. 
+NICE has pr oduced tools and r esour ces t o help y ou put t his guideline int o practice . For 
+general help and advice on putting our guidelines int o practice, see resour ces t o help y ou 
+put NICE guidance int o practice . Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 45 of
+47
+Update inf orma tion 
+July 2022 : We have review ed the evidence on assessment, management and f ollow-up f or 
+people wit h melanoma. These r ecommendations ar e mark ed [2022] . 
+We have also made some changes wit hout an e vidence r eview: 
+• Immunomodulat ors w ere added t o recommendation 1 .2.3 and w ording was added t o 
+clarify seeking specialist t eam advice f or people who ar e having immunosuppr essiv e 
+or immunomodulat ory treatment s. 
+• The 2015 r ecommendation on minimising or a voiding immunosuppr essant s was 
+delet ed because it was superseded b y the amended r ecommendation 1 .2.3. 
+• Examples of ablativ e treatment s were removed fr om recommendation 1 .8.2. 
+• Wording was added t o recommendation 1 .8.5 to clarify t hat people wit h melanoma and 
+brain metastases should be r eferred to a neur o-oncology t eam. 
+These r ecommendations ar e mark ed [2015 , amended 2022] . 
+Recommendations mark ed [2015]  last had an e vidence r eview in 2015 . In some cases 
+minor changes ha ve been made t o the w ording t o bring t he language and style up t o dat e, 
+without changing t he meaning. 
+Minor changes since publication 
+Januar y 202 4: We made minor changes t o recommendations 1 .3.9 and 1 .3.10 on BRAF 
+analysis of primar y melanoma tissue samples t o bring t hem in line wit h the NICE 
+technology appraisal guidance on pembr olizumab f or adjuv ant tr eatment of r esect ed stage 
+2B or 2C melanoma . 
+July 2023: We amended a heading in section 1 .8 to separat e treatment s for untr eated and 
+previously tr eated stage IV and unr esectable stage III melanoma. 
+July 2019:  We added option grids t o help wit h discussion of pot ential tr eatment s. Links t o 
+technology appraisal guidance on t he NICE t opic page f or melanoma added t o sections 1 .7 
+and 1 .8. Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 46 of
+47
+ISBN: 9 78-1-47 31-1322-0 Melanoma: assessment and management (NG14)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 47 of
+47

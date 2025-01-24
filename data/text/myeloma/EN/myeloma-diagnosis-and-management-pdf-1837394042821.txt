@@ -1,0 +1,691 @@
+Myeloma: diagnosis and 
+manag emen t 
+NICE guideline 
+Published: 10 F ebruar y 2016 
+Last updat ed: 25 Oct ober 2018 
+www .nice.or g.uk/guidance/ng35 
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).
+Your r esponsi bility 
+The r ecommendations in t his guideline r epresent t he view of NICE, arriv ed at aft er car eful 
+consideration of t he evidence a vailable. When e xercising t heir judgement, pr ofessionals 
+and practitioners ar e expect ed to tak e this guideline fully int o account, alongside t he 
+individual needs, pr eferences and v alues of t heir patient s or t he people using t heir ser vice. 
+It is not mandat ory to apply t he recommendations, and t he guideline does not o verride t he 
+responsibility t o mak e decisions appr opriat e to the cir cumstances of t he individual, in 
+consultation wit h them and t heir f amilies and car ers or guar dian. 
+All pr oblems (adv erse e vents) related to a medicine or medical de vice used f or treatment 
+or in a pr ocedur e should be r epor ted to the Medicines and Healt hcare product s Regulat ory 
+Agency using t he Yellow Car d Scheme . 
+Local commissioners and pr oviders of healt hcare have a responsibility t o enable t he 
+guideline t o be applied when individual pr ofessionals and people using ser vices wish t o 
+use it. The y should do so in t he cont ext of local and national priorities f or funding and 
+developing ser vices, and in light of t heir duties t o have due r egar d to the need t o eliminat e 
+unlawful discrimination, t o adv ance equality of oppor tunity and t o reduce healt h 
+inequalities. Not hing in t his guideline should be int erpreted in a wa y that w ould be 
+inconsist ent wit h complying wit h those duties. 
+Commissioners and pr oviders ha ve a responsibility t o promot e an en vironmentally 
+sustainable healt h and car e syst em and should assess and r educe t he en vironmental 
+impact of implementing NICE r ecommendations  wher ever possible. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 of
+29
+Contents 
+Overview ................................................................................................................................... 4 
+Who is it f or? ........................................................................................................................................ 4 
+Recommendations .................................................................................................................... 5 
+1.1 Communication and suppor t ......................................................................................................... 5 
+1.2 Laborat ory investigations ............................................................................................................. 6 
+1.3 Imaging in vestigations .................................................................................................................. 8 
+1.4 Ser vice or ganisation ..................................................................................................................... 9 
+1.5 Managing newly diagnosed m yeloma ......................................................................................... 10 
+1.6 Managing acut e renal disease caused b y myeloma .................................................................. 12 
+1.7 Preventing and managing bone disease ..................................................................................... 13 
+1.8 Preventing and managing complications .................................................................................... 15 
+1.9 Monit oring ...................................................................................................................................... 18 
+1.10 Managing r elapsed m yeloma ...................................................................................................... 19 
+Terms used in t his guideline ............................................................................................................... 22 
+Recommendations f or resear ch .............................................................................................. 23 
+1 Diagnostic in vestigations t o predict tr eatment out comes ........................................................... 23 
+2 Imaging in vestigations f or newly diagnosed m yeloma ................................................................. 23 
+3 Management of smouldering m yeloma ......................................................................................... 24 
+4 Allogeneic st em cell transplantation .............................................................................................. 24 
+5 Bisphosphonat es for the pr evention of bone disease .................................................................. 25 
+Cont ext ...................................................................................................................................... 26 
+Finding mor e information and committ ee details .................................................................. 28 
+Updat e information .................................................................................................................. 29 Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 3 of
+29
+Overview 
+This guideline co vers t he diagnosing and managing of m yeloma (including smouldering 
+myeloma and primar y plasma cell leukaemia) in people aged 16 and o ver. It aims t o 
+improve car e for people wit h myeloma b y promoting t he most eff ectiv e tests and 
+treatment s for myeloma and it s complications. 
+In Oct ober 2018 w e delet ed the recommendations on pr eventing t hrombosis because t hey 
+have been r eplaced b y the NICE guideline on  venous t hromboembolism in o ver 16s . 
+Who is i t for? 
+• Healt hcare professionals r esponsible f or diagnosing and managing m yeloma 
+• Hospitals t hat pr ovide m yeloma management 
+• Commissioners of specialised ser vices 
+• People wit h myeloma, t heir f amilies and car ers Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 4 of
+29
+Recommenda tions 
+People ha ve the right t o be in volved in discussions and mak e informed decisions 
+about t heir car e, as described in NICE's inf ormation on making decisions about y our 
+care. 
+Making decisions using NICE guidelines  explains ho w we use w ords to sho w the 
+strengt h (or cer tainty) of our r ecommendations, and has inf ormation about 
+prescribing medicines (including off -label use), pr ofessional guidelines, standar ds 
+and laws (including on consent and mental capacity), and saf eguar ding. 
+1.1 Comm unic ation and suppor t 
+1.1.1 Provide inf ormation and suppor t to people wit h myeloma or primar y plasma cell 
+leukaemia and t heir f amily members or car ers (as appr opriat e), par ticularly at 
+diagnosis, at t he beginning and end of each tr eatment, at disease pr ogression 
+and at transition t o end of lif e car e. 
+1.1.2 Consider pr oviding t he following inf ormation in an individualised manner t o 
+people wit h myeloma and t heir f amily members or car ers (as appr opriat e): 
+• the disease pr ocess, r elapse and r emission cy cle, and t he person's o verall 
+prognosis 
+• the tr eatment plan, including (if appr opriat e) the pr ocess and t he pot ential 
+benefit s, risks and complications of st em cell transplantation 
+• sympt oms of m yeloma and tr eatment -related side eff ects (including 
+steroid-r elated side eff ects, inf ection and neur opat hy) 
+• lifestyle measur es to optimise bone healt h and r enal function 
+• how to identify and r epor t new sympt oms ( especially pain and spinal cor d 
+compr ession) 
+• the role of suppor tive and palliativ e car e Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 5 of
+29
+• how to access peer suppor t and patient suppor t groups. 
+1.1.3 Offer pr ompt psy chological assessment and suppor t to people wit h myeloma at 
+diagnosis and (as appr opriat e) at t he beginning and end of each tr eatment, at 
+disease pr ogression and at transition t o end of lif e car e. 
+1.1.4 Refer people who ar e assessed as needing fur ther psy chological suppor t to 
+psychological ser vices. 
+1.1.5 Advise f amily members or car ers (as appr opriat e) about t he range of a vailable 
+local and national suppor t ser vices at diagnosis, at t he beginning and end of each 
+treatment, at disease pr ogression and at transition t o end of lif e car e. 
+1.1.6 For guidance on communication and patient -centr ed car e see t he NICE guideline 
+on patient e xperience in adult NHS ser vices . 
+1.2 L abor atory investig ations 
+Labor atory investig ations f or pe ople wi th suspe cted myeloma 
+1.2.1 Use serum pr otein electr ophor esis and serum-fr ee light -chain assa y to confirm 
+the pr esence of a parapr otein indicating possible m yeloma or monoclonal 
+gammopat hy of undet ermined significance (MGUS). 
+1.2.2 If serum pr otein electr ophor esis is abnormal, use serum immunofixation t o 
+confirm t he pr esence of a parapr otein indicating possible m yeloma or MGUS. 
+1.2.3 Do not use serum pr otein electr ophor esis, serum immunofixation, serum-fr ee 
+light-chain assa y or urine electr ophor esis (urine Bence–Jones pr otein 
+assessment) alone t o exclude a diagnosis of m yeloma. 
+1.2.4 When per forming a bone marr ow aspirat e and tr ephine biopsy t o confirm a 
+diagnosis of m yeloma, use morphology t o det ermine plasma cell per centage and 
+flow cyt ometr y to det ermine plasma cell phenotype. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 6 of
+29
+1.2.5 For guidance on t he setup of laborat ory diagnostic ser vices see t he NICE cancer 
+service guidance on impr oving out comes in haemat ological cancers . 
+Labor atory investig ations to pr ovide pr ognostic inf orma tion 
+1.2.6 Use t he same sample f or all diagnostic and pr ognostic t ests on bone marr ow, so 
+people only ha ve to have one bone marr ow aspirat e and tr ephine biopsy . 
+1.2.7 When per forming a bone marr ow aspirat e and tr ephine biopsy t o provide 
+prognostic inf ormation: 
+• Perform fluor escence in-situ h ybridisation (FISH) on CD138-select ed bone 
+marr ow plasma cells t o identify t he adv erse risk abnormalities t(4;14), 
+t(14;16), 1q gain, del(1p ) and del(17p )(TP53 deletion). Use t hese abnormalities 
+alongside Int ernational Staging Syst em (ISS) scor es to identify people wit h 
+high-risk m yeloma. 
+• Consider per forming FISH on CD138-select ed bone marr ow plasma cells t o 
+identify t he adv erse risk abnormality t(14;20), and t he standar d risk 
+abnormalities t(11;14) and h yperdiploidy . 
+• Consider per forming immunophenotyping of bone marr ow to identify plasma 
+cell phenotype, and t o inform subsequent monit oring. 
+• Consider per forming immunohist ochemistr y (including K i-67 staining and p53 
+expression) on t he tr ephine biopsy t o identify plasma cell phenotype and giv e 
+an indication of cell pr oliferation, t o provide fur ther pr ognostic inf ormation. 
+1.2.8 Perform serum-fr ee light -chain assa y and use serum-fr ee light -chain ratio t o 
+assess pr ognosis. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 7 of
+29
+1.3 Imag ing in vestig ations 
+Imag ing f or pe ople wi th suspe cted myeloma 
+1.3.1 Offer imaging t o all people wit h a plasma cell disor der suspect ed to be m yeloma. 
+1.3.2 Consider whole-body MRI as first -line imaging. 
+1.3.3 Consider whole-body lo w-dose CT as first -line imaging if whole-body MRI is 
+unsuitable or t he person declines it. 
+1.3.4 Only consider sk eletal sur vey as first -line imaging if whole-body MRI and 
+whole-body lo w-dose CT ar e unsuitable or t he person declines t hem. 
+1.3.5 Do not use isot ope bone scans t o identify m yeloma-r elated bone disease in 
+people wit h a plasma cell disor der suspect ed to be m yeloma. 
+Imag ing f or pe ople wi th ne wly diagnose d myeloma 
+1.3.6 For people wit h newly diagnosed m yeloma or smouldering m yeloma  who ha ve not 
+had whole-body imaging wit h 1 of the following, consider whole-body imaging t o 
+assess f or myeloma-r elated bone disease and e xtra-medullar y plasmacyt omas 
+with one of: 
+• MRI 
+• CT 
+• fluor odeo xyglucose positr on emission t omograph y CT (FDG PET -CT). 
+1.3.7 For guidance on imaging f or people wit h suspect ed spinal cor d compr ession, see 
+the NICE guideline on metastatic spinal cor d compr ession . 
+1.3.8 Consider baseline whole-body imaging wit h MRI or FDG PET -CT f or people who 
+have non-secr etory myeloma or suspect ed or confirmed soft tissue 
+plasmacyt omas and ha ve not alr eady had eit her of t hese t ests. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 8 of
+29
+1.4 Ser vice organisa tion 
+1.4.1 For guidance on t he facilities needed t o provide int ensiv e inpatient chemot herap y 
+and transplant s for people wit h myeloma, and t he structur e and function of 
+multidisciplinar y teams (MD Ts), see t he NICE cancer ser vice guidance on 
+improving out comes in haemat ological cancers . 
+1.4.2 For guidance on ser vice or ganisation f or young people see t he NICE cancer 
+service guidance on impr oving out comes in childr en and y oung people wit h 
+cancer . 
+1.4.3 Each hospital tr eating people wit h myeloma who ar e not r eceiving int ensiv e 
+inpatient chemot herap y or a transplant should pr ovide local access t o: 
+• an MD T specialising in m yeloma 
+• suppor tive and palliativ e car e, suppor ted by: 
+－ psychological suppor t ser vices 
+－ a 24-hour acut e oncology and/or haemat ology helpline 
+－ physiot herap y 
+－ occupational t herap y 
+－ dietetics 
+－ medical social ser vices 
+－ critical car e 
+• clinical trials via t he MD T specialising in m yeloma 
+• dental ser vices. 
+1.4.4 Each hospital tr eating people wit h myeloma should pr ovide r egional access 
+through it s netw ork t o: 
+• facilities f or int ensiv e inpatient chemot herap y or transplantation Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 9 of
+29
+• renal suppor t 
+• spinal disease management 
+• specialised pain management 
+• therapeutic apher esis 
+• radiot herap y 
+• restorativ e dentistr y and oral sur gery 
+• clinical trials, in par ticular early phase trials. 
+1.5 M anag ing ne wly diagnose d myeloma 
+First-line tr eatmen t 
+NICE has a suit e of t echnology appraisal guidance on m yeloma eit her published or in 
+development. These published t echnology appraisals co ver NICE's position in r elation t o 
+primar y disease tr eatment, salv age t herap y for relapsed m yeloma and consolidation/
+maint enance t herap y aft er primar y management. The r ecommendations in t his guideline 
+complement t he existing t echnology appraisals, giving fur ther guidance in addition t o the 
+technology appraisals wher e myeloma-r elated subgr oups ar e not included. 
+1.5.1 Bortezomib is r ecommended as an option wit hin it s mark eting aut horisation, t hat 
+is, in combination wit h dexamet hasone, or wit h dexamet hasone and t halidomide, 
+for the induction tr eatment of adult s wit h previously untr eated multiple m yeloma, 
+who ar e eligible f or high-dose chemot herap y wit h haemat opoietic st em cell 
+transplantation. [This r ecommendation is fr om NICE t echnology appraisal 
+guidance on bor tezomib f or induction t herap y in multiple m yeloma bef ore high-
+dose chemot herap y and aut ologous st em cell transplantation .] 
+1.5.2 Thalidomide in combination wit h an alkylating agent and a cor ticost eroid is 
+recommended as an option f or the first -line tr eatment of multiple m yeloma in 
+people f or whom high-dose chemot herap y wit h stem cell transplantation is 
+consider ed inappr opriat e. [This r ecommendation is fr om NICE t echnology Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 10 of
+29
+appraisal guidance on bor tezomib and t halidomide f or the first -line tr eatment of 
+multiple m yeloma .] 
+1.5.3 Bortezomib in combination wit h an alkylating agent and a cor ticost eroid is 
+recommended as an option f or the first -line tr eatment of multiple m yeloma if: 
+• high-dose chemot herap y wit h stem cell transplantation is consider ed 
+inappr opriat e and 
+• the person is unable t o tolerat e or has contraindications t o thalidomide. [This 
+recommendation is fr om NICE t echnology appraisal guidance on bor tezomib 
+and t halidomide f or the first -line tr eatment of multiple m yeloma .] 
+First aut ologous st em cell tr ansplantation 
+1.5.4 Consider using frailty and per formance status measur es that include 
+comorbidities t o assess t he suitability of people wit h myeloma f or first aut ologous 
+stem cell transplant. 
+1.5.5 Do not use age or t he le vel of r enal impairment alone t o assess t he suitability of 
+people wit h myeloma f or first aut ologous st em cell transplant. 
+Allogeneic st em cell tr ansplantation 
+1.5.6 Take into account t hat only a small number of people wit h myeloma ar e suitable 
+for allogeneic st em cell transplantation. 
+1.5.7 When assessing whet her people wit h myeloma ar e suitable f or an allogeneic st em 
+cell transplant, tak e into account: 
+• whet her t he person has chemosensitiv e disease 
+• how man y previous lines of tr eatment t hey have had 
+• whet her a fully human leuk ocyte antigen (HL A) mat ched donor is a vailable 
+• how graft -versus-host disease (GvHD) and ot her complications ma y get Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 11 of
+29
+worse wit h age 
+• the risk of higher transplant -related mor tality and morbidity , versus t he 
+potential f or long-t erm disease-fr ee sur vival 
+• improving out comes wit h other new er treatment s 
+• the person's understanding of t he pr ocedur e and it s risks and benefit s. 
+1.5.8 Consider allogeneic st em cell transplantation as par t of a clinical trial if one is 
+available. 
+Primar y plasma c ell leuk aemia 
+1.5.9 Consider bor tezomib-based and/or lenalidomide-based combination induction 
+chemot herap y for people wit h primar y plasma cell leukaemia. 
+1.5.10 Consider high-dose melphalan-based aut ologous st em cell transplantation f or 
+people wit h primar y plasma cell leukaemia if t hey are suitable. 
+1.6 Manag ing acu te renal dise ase c aused by 
+myeloma 
+1.6.1 Consider immediat ely star ting a bor tezomib- and de xamet hasone-based 
+combination r egimen f or people wit h untr eated, newly diagnosed, 
+myeloma-induced acut e renal disease. 
+1.6.2 If a bor tezomib-based combination r egimen is unsuitable f or people wit h 
+untreated, newly diagnosed, m yeloma-induced acut e renal disease, consider 
+immediat ely star ting a t halidomide- and de xamet hasone-based combination 
+regimen. 
+In Februar y 2016 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 12 of
+29
+1.6.3 Do not per form plasma e xchange f or myeloma-induced acut e renal disease. 
+1.7 Preventing and manag ing bone dise ase 
+Preventing bone dise ase 
+1.7.1 To prevent bone disease, off er people wit h myeloma: 
+• zoledr onic acid or 
+• disodium pamidr onate, if z oledr onic acid is contraindicat ed or not t olerat ed 
+or 
+• sodium clodr onate, if z oledr onic acid and disodium pamidr onate are 
+contraindicat ed, not t olerat ed or not suitable. 
+1.7.2 Consider immediat ely referring people wit h myeloma f or dental assessment and 
+treatment bef ore star ting z oledr onic acid or disodium pamidr onate. 
+1.7.3 For people who need ur gent m yeloma tr eatment, consider r eferring f or dental 
+assessment and tr eatment as soon as possible aft er they star t treatment. 
+Manag ing non -spinal bone dise ase 
+1.7.4 Offer people wit h myeloma and non-spinal bone disease who ha ve not alr eady 
+started bisphosphonat es: 
+• zoledr onic acid or 
+• disodium pamidr onate, if z oledr onic acid is contraindicat ed or not t olerat ed 
+or 
+• sodium clodr onate, if z oledr onic acid and disodium pamidr onate are 
+contraindicat ed, not t olerat ed or not suitable. 
+1.7.5 Assess t he risk of fractur e (in line wit h the NICE guideline on assessing t he risk of Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 13 of
+29
+fragility fractur es in ost eopor osis) in people wit h myeloma and non-spinal bone 
+disease. 
+1.7.6 Consider sur gical stabilisation f ollowed by radiot herap y for non-spinal bones t hat 
+have fractur ed or ar e at high risk of fractur es. 
+1.7.7 Consider radiot herap y for non-spinal bones t hat ha ve fractur ed or ar e at high risk 
+of fractur e if sur gical int ervention is unsuitable or not immediat ely needed. 
+1.7.8 Consider radiot herap y for people wit h myeloma and non-spinal bone disease who 
+need additional pain r elief if: 
+• chemot herap y and initial pain management has not led t o prompt 
+improvement in pain contr ol 
+• chemot herap y is unsuitable and curr ent pain medication is not w orking. 
+1.7.9 Consider r e-treatment wit h radiot herap y if pain r ecurs or if t here is r egrowth of a 
+previously tr eated lesion. 
+1.7.10 Consider seeking advice fr om or r eferral t o specialist s in palliativ e car e or pain 
+medicine f or people wit h comple x non-spinal bone disease. 
+Manag ing spinal bone dise ase 
+1.7.11 For guidance on tr eating metastatic spinal cor d compr ession, see t he NICE 
+guideline on metastatic spinal cor d compr ession . 
+1.7.12 Offer all people wit h myeloma and spinal bone disease: 
+• bisphosphonat es as f ollows, if not alr eady star ted: 
+－ zoledr onic acid or 
+－ disodium pamidr onate, if z oledr onic acid is contraindicat ed or not 
+tolerat ed or 
+－ sodium clodr onate, if z oledr onic acid and disodium pamidr onate are Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 14 of
+29
+contraindicat ed, not t olerat ed or unsuitable 
+• systemic pain contr ol, when r elevant using t he NICE guidelines on 
+neuropat hic pain  and opioids in palliativ e car e. 
+1.7.13 Consider t he following as adjunct s to other tr eatment s for all people wit h 
+myeloma and spinal bone disease: 
+• interventional pain management 
+• bracing. 
+1.7.14 In people wit h radiological e vidence of m yeloma-r elated spinal instability , 
+consider immediat e intervention wit h: 
+• spinal sur gery, with or wit hout radiot herap y 
+• cement augmentation, wit h or wit hout radiot herap y 
+• radiot herap y alone, if spinal int ervention is unsuitable or not curr ently 
+needed. 
+1.7.15 In people wit h radiological e vidence of m yeloma-r elated spinal bone disease 
+without instability , consider: 
+• cement augmentation, wit h or wit hout radiot herap y 
+• radiot herap y alone. 
+1.8 Pr eventing and manag ing c omplications 
+Preventing inf ection 
+1.8.1 Offer people wit h myeloma t he seasonal influenza v accination. 
+1.8.2 Consider e xtending t he pneumococcal v accination t o people wit h myeloma who 
+are under  65. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 15 of
+29
+1.8.3 Consider intra venous immunoglobulin r eplacement t herap y for people who ha ve 
+hypogammaglobulinaemia and r ecurr ent inf ections. 
+1.8.4 Consider continuing aciclo vir or equiv alent antiviral pr ophylaxis aft er treatment 
+with bor tezomib or ot her pr oteasome inhibit ors ends. 
+In Februar y 2016 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . 
+1.8.5 Consider aciclo vir or equiv alent antiviral pr ophylaxis f or people who ar e taking 
+both immunomodulat ory drugs and high-dose st eroids. 
+In Februar y 2016 , this was an off -label use. See NICE's inf ormation on pr escribing 
+medicines . 
+1.8.6 Consider t esting f or hepatitis  B, hepatitis  C and HIV bef ore star ting m yeloma 
+treatment. 
+Manag ing perip heral neur opathy 
+1.8.7 For guidance on t he pharmacological management of neur opat hic pain see t he 
+NICE guideline on neur opat hic pain in adult s. 
+1.8.8 Explain t he sympt oms of neur opat hy to people wit h myeloma, and encourage 
+them t o tell their clinical t eam about an y new , diff erent or w orsening neur opat hic 
+sympt oms immediat ely. 
+1.8.9 If people who ar e receiving bor tezomib de velop neur opat hic sympt oms, consider 
+immediat ely: 
+• switching t o subcutaneous injections and/or 
+• reducing t o weekly doses and/or 
+• reducing t he dose. 
+1.8.10 Consider r educing t he dose if people ar e taking a drug ot her t han bor tezomib Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 16 of
+29
+and de velop neur opat hic sympt oms. 
+1.8.11 Temporarily st op neur opat hy-inducing m yeloma tr eatment s if people de velop 
+either of t he following: 
+• grade  2 neur opat hy wit h pain 
+• grade  3 or 4 neur opat hy. 
+1.8.12 If neur opat hy does not impr ove despit e stopping m yeloma tr eatment and fur ther 
+treatment is needed, consider swit ching t o myeloma tr eatment s less lik ely to 
+induce neur opat hy. 
+Preventing thr ombosis 
+1.8.13 This r ecommendation has been r eplaced b y the NICE guideline on v enous 
+thromboembolism in o ver 16s . 
+1.8.14 This r ecommendation has been r eplaced b y the NICE guideline on v enous 
+thromboembolism in o ver 16s . 
+1.8.15 This r ecommendation has been r eplaced b y the NICE guideline on v enous 
+thromboembolism in o ver 16s . 
+1.8.16 This r ecommendation has been r eplaced b y the NICE guideline on v enous 
+thromboembolism in o ver 16s . 
+1.8.17 This r ecommendation has been r eplaced b y the NICE guideline on v enous 
+thromboembolism in o ver 16s . 
+Manag ing f atigue 
+1.8.18 If other tr eatable causes of anaemia ha ve been e xcluded, consider er ythropoietin 
+analogues (adjust ed to maintain a st eady stat e of haemoglobin at 110–120  g/litr e) 
+to impr ove fatigue in people wit h myeloma who ha ve sympt omatic anaemia. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 17 of
+29
+1.9 M onitoring 
+1.9.1 Monit or people wit h smouldering m yeloma  every 3 mont hs for the first 5  years, 
+and t hen decide t he fr equency of fur ther monit oring based on t he long-t erm 
+stability of t he disease. 
+1.9.2 Monit or people who ha ve complet ed m yeloma tr eatment and r ecovered at least 
+every 3 mont hs. T ake into account an y risk f actors f or pr ogression, such as: 
+• high-risk fluor escence in-situ h ybridisation (FISH) 
+• impair ed renal function 
+• disease pr esentation. 
+1.9.3 Monit oring f or myeloma and smouldering m yeloma should include: 
+• assessment of sympt oms r elated to myeloma and m yeloma tr eatment and 
+• the following laborat ory tests: 
+－ full blood count 
+－ renal function 
+－ bone pr ofile 
+－ serum immunoglobulins and serum pr otein electr ophor esis 
+－ serum-fr ee light -chain assa y, if appr opriat e. 
+1.9.4 Do not off er people wit h myeloma or smouldering m yeloma r outine sk eletal 
+surveys for disease monit oring. 
+1.9.5 Consider sympt om-dir ected imaging f or people wit h myeloma or smouldering 
+myeloma if an y new bone sympt oms de velop. 
+1.9.6 For people wit h myeloma and ser ological r elapse or disease pr ogression, consider 
+one of t he following (taking int o consideration pr evious imaging t ests): 
+• whole-body MRI Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 18 of
+29
+• spinal MRI 
+• fluor odeo xyglucose positr on emission t omograph y CT (FDG PET -CT). 
+1.9.7 For people wit h smouldering m yeloma and disease pr ogression, consider one of 
+the following (taking int o consideration pr evious imaging t ests): 
+• whole-body MRI 
+• whole-body lo w-dose CT 
+• whole-body CT 
+• spinal MRI 
+• fluor odeo xyglucose positr on emission t omograph y CT (FDG PET -CT). 
+1.10 M anag ing r elapse d myeloma 
+First relapse 
+NICE has a suit e of t echnology appraisal guidance on m yeloma eit her published or in 
+development. These published t echnology appraisals co ver NICE's position in r elation t o 
+primar y disease tr eatment, salv age t herap y for relapsed m yeloma and consolidation/
+maint enance t herap y aft er primar y management. The r ecommendations in t his guideline 
+complement t he existing t echnology appraisals, giving fur ther guidance in addition t o the 
+technology appraisals wher e myeloma-r elated subgr oups ar e not included. 
+1.10.1 Bortezomib monot herap y is r ecommended as an option f or the tr eatment of 
+progressiv e multiple m yeloma in people who ar e at first r elapse ha ving r eceiv ed 1 
+prior t herap y and who ha ve under gone, or ar e unsuitable f or, bone marr ow 
+transplantation, under t he following cir cumstances: 
+• the response t o bor tezomib is measur ed using serum  M pr otein aft er a 
+maximum of 4 cy cles of tr eatment, and tr eatment is continued only in people 
+who ha ve a complet e or par tial response (t hat is, r eduction in serum  M 
+protein of 50% or mor e or, wher e serum  M pr otein is not measurable, an Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 19 of
+29
+appr opriat e alternativ e biochemical measur e of r esponse), and 
+• the manuf actur er rebat es the full cost of bor tezomib f or people who, aft er a 
+maximum of 4 cy cles of tr eatment, ha ve less t han a par tial response (as 
+defined abo ve). [This r ecommendation is fr om NICE t echnology appraisal 
+guidance on bor tezomib monot herap y for relapsed multiple m yeloma .] 
+1.10.2 People curr ently receiving bor tezomib monot herap y who do not meet t he crit eria 
+in recommendation 1 .10.1 should ha ve the option t o continue t herap y until t hey 
+and t heir clinicians consider it appr opriat e to stop. [This r ecommendation is fr om 
+NICE t echnology appraisal guidance on bor tezomib monot herap y for relapsed 
+multiple m yeloma .] 
+Second a utologous stem c ell tr ansp lantation 
+1.10.3 Offer a second aut ologous st em cell transplant t o people wit h relapsed m yeloma 
+who ar e suitable and who ha ve: 
+• complet ed re-induction t herap y wit hout disease pr ogression and 
+• had a r esponse duration of mor e than 2 4 mont hs aft er their first aut ologous 
+stem cell transplant. 
+1.10.4 Consider a second aut ologous st em cell transplant f or people wit h relapsed 
+myeloma who ar e suitable and who ha ve: 
+• complet ed reinduction t herap y wit hout disease pr ogression and 
+• had a r esponse duration of betw een 12 and 2 4 mont hs aft er their first 
+autologous st em cell transplant. 
+1.10.5 Be awar e that people wit h relapsed m yeloma ar e mor e likely to be suitable f or a 
+second autologous st em cell transplant if t hey have: 
+• had a good r esponse t o the first aut ologous st em cell transplant 
+• a lower Int ernational Staging Syst em (ISS) stage Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 20 of
+29
+• not had man y prior tr eatment s 
+• good o verall fitness, based on r esilience, frailty and per formance status 
+• no adv erse fluor escence in-situ h ybridisation (FISH) r esult s. 
+Subse quen t ther apy 
+1.10.6 Lenalidomide in combination wit h dexamet hasone is r ecommended, wit hin it s 
+licensed indication, as an option f or the tr eatment of multiple m yeloma only in 
+people who ha ve receiv ed tw o or mor e prior t herapies, wit h the following 
+condition: 
+• The drug cost of lenalidomide ( excluding an y related cost s) for people who 
+remain on tr eatment f or mor e than 26  cycles ( each of 28  days; normally a 
+period of 2  years) will be met b y the manuf actur er. [This r ecommendation is 
+from NICE t echnology appraisal guidance on lenalidomide f or the tr eatment 
+of multiple m yeloma in people who ha ve receiv ed at least one prior t herap y.] 
+1.10.7 People curr ently receiving lenalidomide f or the tr eatment of multiple m yeloma, 
+but who ha ve not r eceiv ed 2 or mor e prior t herapies, should ha ve the option t o 
+continue t herap y until t hey and t heir clinicians consider it appr opriat e to stop. 
+[This r ecommendation is fr om NICE t echnology appraisal guidance on 
+lenalidomide f or the tr eatment of multiple m yeloma in people who ha ve receiv ed 
+at least one prior t herap y.] 
+1.10.8 Pomalidomide, in combination wit h dexamet hasone, is not r ecommended wit hin 
+its mark eting aut horisation f or treating r elapsed and r efract ory multiple m yeloma 
+in adult s who ha ve had at least 2  previous tr eatment s, including lenalidomide and 
+bortezomib, and whose disease has pr ogressed on t he last t herap y. [This 
+recommendation is fr om NICE t echnology appraisal guidance on pomalidomide 
+for relapsed and r efract ory multiple m yeloma pr eviously tr eated wit h lenalidomide 
+and bor tezomib .] 
+1.10.9 People whose tr eatment wit h pomalidomide was star ted wit hin the NHS bef ore 
+this guidance was published should be able t o continue tr eatment until t hey and 
+their NHS clinician consider it appr opriat e to stop. [This r ecommendation is fr om Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 21 of
+29
+NICE t echnology appraisal guidance on pomalidomide f or relapsed and r efract ory 
+multiple m yeloma pr eviously tr eated wit h lenalidomide and bor tezomib .] 
+Terms use d in this guideline 
+Smouldering m yeloma 
+In this guideline, only r ecommendations t hat specifically r efer to smouldering m yeloma 
+apply t o this condition. 
+To find out what NICE has said on t opics r elated to this guideline, see our w eb pages on 
+blood and bone marr ow cancers , complications of cancer , embolism and t hrombosis  and 
+end of lif e car e. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 22 of
+29
+Recommenda tions f or research 
+The Guideline Committ ee has made t he following r ecommendations f or resear ch. The 
+Committ ee's full set of r esear ch recommendations is detailed in t he full guideline . 
+1 Diagnostic in vestig ations to pr edict treatmen t 
+outcomes 
+What is t he pr ognostic v alue of t he He vylite assa y and ratio compar ed wit h other 
+prognostic f actors and t ests, including t he serum-fr ee light -chain assa y and fluor escence 
+in-situ h ybridisation (FISH), in people wit h newly diagnosed m yeloma who ar e star ting 
+treatment? 
+Why this is im portant 
+Hevylite is a new assa y that some studies ha ve indicat ed is a useful pr ognostic t ool. 
+However, it is not clear ho w robust ly it has been e valuat ed against ot her pr ognostic 
+factors and t ests, or whet her it is an independent pr ognostic f actor. The He vylite assa y 
+should be e valuat ed in an accr edited centralised laborat ory independent of links wit h the 
+manuf actur er. Out comes of int erest ar e overall r esponse, complet e response, minimal 
+residual disease, pr ogression-fr ee sur vival, overall sur vival and r esour ce use. 
+2 Imag ing in vestig ations f or ne wly diagnose d 
+myeloma 
+What is t he comparativ e eff ectiv eness of whole-body MRI, fluor odeo xyglucose positr on 
+emission t omograph y CT (FDG PET -CT) and whole-body lo w-dose CT in det ecting lesions 
+that ma y det ermine t he star t of tr eatment f or people wit h newly diagnosed m yeloma? 
+Why this is im portant 
+New er imaging t echniques ar e replacing sk eletal sur veys for assessing m yeloma-r elated 
+bone disease in people wit h newly diagnosed m yeloma. Ho wever, the most eff ectiv e 
+technique is not kno wn. Out comes of int erest ar e lesion det ection, sensitivity and Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 23 of
+29
+specificity f or myeloma-r elated bone disease, patient acceptability , incr emental upstaging, 
+radiation e xposur e, risk of second primar y cancer , the impact of additional inf ormation on 
+predicting pr ogression-fr ee sur vival, overall sur vival and sk eletal-r elated events. 
+3 Manag emen t of smouldering m yeloma 
+Which combinations of FISH, molecular t echnologies, bone marr ow plasma cell 
+percentage, whole-body imaging, immunophenotype, serum-fr ee light -chain le vels or 
+ratio, He vylite, parapr otein le vels, immunopar esis, and Int ernational Staging Syst em (ISS) 
+are most eff ectiv e at risk stratification f or people wit h smouldering m yeloma ? 
+What is t he comparativ e eff ectiv eness of fix ed duration tr eatment (wit h or wit hout 
+bone-dir ected therap y), continuous tr eatment (wit h or wit hout bone-dir ected therap y) and 
+no tr eatment (wit h or wit hout bone-dir ected therap y) for people wit h smouldering 
+myeloma? 
+Why this is im portant 
+Changes t o the Int ernational My eloma W orking Gr oup definitions of smouldering m yeloma 
+and m yeloma ha ve aff ected the risk stratification pr ocess f or smouldering m yeloma. It is 
+unclear if t he pr evious risk stratification appr oach r emains v alid. It is also unclear if earlier 
+treatment will be of benefit t o people wit h smouldering m yeloma. This study should be a 
+randomised multi-centr e prospectiv e trial f or patient s wit h newly diagnosed smouldering 
+myeloma (as defined b y the International My eloma W orking Gr oup 2014 classification ). 
+Outcomes of int erest ar e time t o biochemical and/or clinical pr ogression, o verall sur vival, 
+adverse e vents, quality of lif e and r esour ce use. 
+4 Allog eneic stem c ell tr ansp lantation 
+What is t he eff ectiv eness of combined aut ologous–allogeneic st em cell transplantation 
+compar ed wit h aut ologous st em cell transplantation, plus consolidation and maint enance 
+treatment in chemosensitiv e patient s at first r esponse or first r elapse? 
+Why this is im portant 
+Ther e are conflicting data fr om a small number of studies on long-t erm sur vival following 
+auto/allo st em cell transplantation compar ed wit h aut ologous st em cell transplantation. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 2 4 of
+29
+These studies w ere per formed bef ore thalidomide, bor tezomib and lenalidomide w ere 
+used as m yeloma tr eatment s. These drugs pr oduce bett er responses and also ha ve the 
+capacity t o aff ect immunological r esponses aft er the transplant. R esear ch is needed t o 
+see if t here is a r ole for aut o/allo st em cell transplant in t he ongoing tr eatment of m yeloma. 
+Outcomes of int erest ar e progression-fr ee sur vival, overall sur vival, transplant -related 
+mortality , quality of lif e, early and lat e toxicity including graft -versus-host -disease (GvHD) 
+and r esour ce use. This r esear ch should be included as an option in appr opriat e 
+mainstr eam clinical trials f or myeloma. 
+5 Bisphosp hona tes f or the pr evention o f bone 
+disease 
+What is t he eff ectiv eness of mont hly z oledr onic acid giv en indefinit ely compar ed wit h 
+zoledr onic acid giv en for a fix ed duration in patient s wit h myeloma? 
+Why this is im portant 
+Ther e is good-quality e vidence t o suppor t the use of z oledr onic acid t o prevent bone 
+disease in people wit h myeloma. Ho wever, the optimal fr equency and duration of 
+treatment is not clearly defined and needs fur ther r esear ch, par ticularly giv en the 
+quality-of -life implications f or people needing r egular , life-long visit s to hospital. This study 
+should be a randomised contr olled trial. Out comes of int erest ar e skeletal-r elated events, 
+progression-fr ee sur vival, overall sur vival, utility of bone biomark ers, incidence of 
+osteonecr osis of t he jaw , quality of lif e and r esour ce use. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 25 of
+29
+Context 
+Myeloma is a malignancy of t he plasma cells t hat normally pr oduce immunoglobulin. It 
+affects multiple or gans and syst ems, including t he bones, kidne ys, blood and immune 
+systems. 
+Myeloma is t he se venteent h most common cancer in t he UK. In 2010 , 4672 people in t he 
+UK w ere diagnosed wit h myeloma. It occurs mor e frequent ly in men and in people of 
+African–Caribbean f amily origin. Diagnosis is oft en dela yed because t he sympt oms ar e not 
+specific t o myeloma, and t his leads t o significant early morbidity and mor tality . 
+Myeloma management is comple x and challenging. Eff ectiv e treatment s have been 
+developed o ver the past 15  years, and alt hough m yeloma is still incurable t hese tr eatment s 
+have led t o impr ovement s in o verall sur vival and quality of lif e. Ho wever, myeloma 
+treatment incr easingly in volves expensiv e drugs and fr equent hospital visit s. 
+Complications of m yeloma and m yeloma tr eatment cause an incr easing long-t erm strain on 
+suppor tive and palliativ e car e ser vices, and on car ers. 
+This guideline co vers ar eas in which t here is uncer tainty or v ariation in practice. It contains 
+recommendations on: 
+• communication and suppor t 
+• laborat ory investigations and imaging t o diagnose m yeloma and det ermine fur ther 
+treatment 
+• managing bone disease and acut e renal disease 
+• autologous and allogeneic st em cell transplantation 
+• preventing and managing m yeloma- and tr eatment -induced complications 
+• monit oring f or people wit h smouldering m yeloma  and m yeloma. 
+Because of t he changes t o the International My eloma W orking Gr oup definition of 
+smouldering m yeloma , it was not possible t o mak e any recommendations f or clinical 
+practice on managing t his condition. The new definition has changed ho w smouldering 
+myeloma and m yeloma ar e diff erentiat ed, and t here is curr ently no e vidence a vailable t hat 
+is using t he new definitions. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 26 of
+29
+This guideline co vers adult s (aged 16  years and o ver): 
+• who ar e referred to secondar y car e wit h suspect ed m yeloma 
+• with newly diagnosed or r elapsed m yeloma (including high-risk m yeloma and primar y 
+plasma cell leukaemia). 
+This guideline does not co ver people who ha ve: 
+• a solitar y plasmacyt oma wit hout m yeloma 
+• amyloid light -chain am yloidosis in t he absence of m yeloma 
+• parapr oteins secondar y to other conditions. Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 27 of
+29
+Finding mor e inf orma tion and c ommi ttee 
+details 
+To find NICE guidance on r elated topics, including guidance in de velopment, see t he NICE 
+topic pages on blood and bone marr ow cancers , complications of cancer , embolism and 
+thrombosis  and end of lif e car e. 
+For full details of t he evidence and t he guideline committ ee's discussions, see t he full 
+guideline . You can also find inf ormation about how the guideline was de veloped , including 
+details of t he committ ee. 
+NICE has pr oduced tools and r esour ces t o help y ou put t his guideline int o practice . For 
+general help and advice on putting our guidelines int o practice, see resour ces t o help y ou 
+put NICE guidance int o practice . Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 28 of
+29
+Update inf orma tion 
+October 2018: Recommendations 1 .8.13 to 1.8.17 w ere replaced b y NICE's guideline on 
+venous t hromboembolism in o ver 16s . 
+ISBN: 9 78-1-47 31-1659- 7 Myeloma: diagnosis and management (NG35)
+© NICE 202 4. All right s reserved. Subject t o Notice of right s (https://www .nice.or g.uk/t erms-and-
+conditions#notice-of -right s).Page 29 of
+29

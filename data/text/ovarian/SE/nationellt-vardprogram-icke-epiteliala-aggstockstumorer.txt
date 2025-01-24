@@ -1,0 +1,2716 @@
+ 
+ 
+Icke-epiteliala 
+äggstockstumörer  
+Nationellt  vårdprogram  
+2018 -02-06 Version: 1.1 
+ 
+ 
+2 
+ Rekommendationer utarbetade av nationell arbetsgrupp och fastställda av  
+Regionala cancercentrum i samverk an 2018 -02-06. 
+ 
+Beslut om implementering tas i respektive region/landsting i enlighet med överenskomna 
+rutiner.  
+Ansvarigt Regionalt cancercentrum: Regionalt cancercentrum  Väst.   
+Nationellt vårdprogram  Icke-epiteliala äggstockstumörer.  
+ISBN: 978-91-87587 -00-9 
+Februari  2018  Versionshantering  
+Datum  Beskrivning av förändring  
+2014 -02-25 Version 1  
+2018 -02-06 Reviderad version 1.1  
+Se kapitel 2.2  
+ 
+ 
+3 
+ Innehållsförteckning  
+Kapitel 1  
+ Sammanfattning  ................................ ................................ ................................ .......................  7 
+Kapitel 2  
+ Inledning ................................ ................................ ................................ ................................ .... 8 
+2.1. Vårdprogrammets giltighetsområde  ................................ ................................ ...............  8 
+2.2. Förändringar jämfört med tidigare version  ................................ ................................ ..... 8 
+2.3. Evidensgradering  ................................ ................................ ................................ ............  8 
+2.4. Standardiserat vårdförlopp  ................................ ................................ .............................  8 
+2.5. Vanliga förkortningar  ................................ ................................ ................................ ...... 9 
+Kapitel 3  
+ Mål med vårdprogrammet  ................................ ................................ ................................ ..... 11 
+Kapitel 4  
+ Epidemiologi  ................................ ................................ ................................ ...........................  12 
+4.1. Incidens  ................................ ................................ ................................ ........................  12 
+4.2. Tumörtyper  ................................ ................................ ................................ ...................  13 
+4.2.1.  Germinalcellstumörer  ................................ ................................ ................................ ................................  13 
+4.2.2.  Könssträngs -stromacellstumörer  ................................ ................................ ................................ ..............  14 
+4.3. Relativ överlevnad  ................................ ................................ ................................ ........  15 
+4.4. Naturalhistoria och etiologi  ................................ ................................ ...........................  18 
+4.4.1.  Germinalcellstumörer  ................................ ................................ ................................ ................................  18 
+4.4.2.  Könssträngs -stromacellstumörer  ................................ ................................ ................................ ..............  19 
+Kapitel 5  
+ Primär prevention  ................................ ................................ ................................ ..................  20 
+Kapitel 6  
+ Screening  ................................ ................................ ................................ ................................  21 
+Kapitel 7  
+ Symtom och tidig utredning  ................................ ................................ ................................ . 22 
+7.1. Ärftlighet  ................................ ................................ ................................ ........................  22 
+7.2. Symtom Germinalcelsstumörer  ................................ ................................ ....................  22 
+7.3. Symtom könssträng -stromacellstumörer  ................................ ................................ ..... 23 
+7.4. Ingång till standardiserat vårdförlopp  ................................ ................................ ...........  24 
+Kapitel 8  
+ Diagnostik  ................................ ................................ ................................ ...............................  25 
+8.1. Tumörmarkörer vid icke -epiteliala ovarialtumörer  ................................ .......................  26 
+8.1.1.  Germinalcellstumörer  ................................ ................................ ................................ ................................  26 
+8.1.1.1.  Alfafetoprotein, AFP  ................................ ................................ ................................ ...............................  26 
+8.1.1.2.  Humant choriongonadotropin, hCG  ................................ ................................ ................................ ....... 26 
+8.1.1.3.  Användning av AFP och hCG i serum för att monitorera terapieffekt  ................................ ....................  27 
+8.1.2.  Könssträngs -stromacellstumörer  ................................ ................................ ................................ ..............  29 
+8.1.2.1.  FSH och östradiol  ................................ ................................ ................................ ................................ ... 29 
+ 
+4 
+ 8.1.2.2.  Inhibin  ................................ ................................ ................................ ................................ .....................  29 
+8.1.2.3.  Anti-müllerian hormone (AMH eller MIS)  ................................ ................................ ...............................  30 
+Kapitel 9  
+ Histopatologi  ................................ ................................ ................................ ..........................  31 
+9.1. Kategorisering av tumören  ................................ ................................ ...........................  31 
+9.2. Patologins roll i den diagnostiska processen  ................................ ...............................  31 
+9.3. Anvisningar för hantering av provet  ................................ ................................ .............  31 
+9.3.1.  Preoperativ morfologisk/cytologisk diagnostik  ................................ ................................ ..........................  31 
+9.3.2.  Peroperativ diagnostik (Fryssnitt)  ................................ ................................ ................................ .............  32 
+9.3.3.  Operationsmaterial, bevara kvalitén  ................................ ................................ ................................ .........  32 
+9.4. Anamnestisk remissinformation  ................................ ................................ ...................  32 
+9.5. Klassificering av tumören  ................................ ................................ .............................  33 
+9.5.1.  PAD utlåtande bör innehålla:  ................................ ................................ ................................ ....................  36 
+Kapitel 10  
+ Multidisciplinär konferens (MDK)  ................................ ................................ .........................  37 
+Kapitel 11  
+ Primär behandling  ................................ ................................ ................................ ..................  38 
+11.1.  Behandli ng vid Germinalcellstumörer och dysgerminom  ................................ ............  38 
+11.1.1.  Kirurgisk behandling av germinalcellstumörer  ................................ ................................ ..........................  38 
+11.1.1.1.  Gonadoblastom  ................................ ................................ ................................ ................................ ...... 38 
+11.1.1.2.  Germinalcellstumörer hos barn  ................................ ................................ ................................ ..............  39 
+11.1.2.  Medikamentell behandling av germinalcellstumörer  ................................ ................................ .................  39 
+11.2.  Medikamentell behandling vid dysgerminom  ................................ ...............................  40 
+11.2.1.  Stadium I  ................................ ................................ ................................ ................................ ...................  40 
+11.2.2.  Stadium II -IV ................................ ................................ ................................ ................................ .............  40 
+11.3.  Behandling av övriga germinalcellstumörer (omogna teratom, embryonala carcinom, 
+endodermala sinus tumörer, icke -gestationell choriocarcinom  ................................ ............  41 
+11.3.1.  Stadium I  ................................ ................................ ................................ ................................ ...................  41 
+11.3.2.  Stadium II -IV ................................ ................................ ................................ ................................ .............  41 
+11.4.  Behandling vid könssträngscell -stromatumörer  ................................ ...........................  41 
+11.4.1.  Kirurgisk behandling  ................................ ................................ ................................ ................................ . 42 
+11.4.1.1.  Ferilitetsbevarande kirurgi  ................................ ................................ ................................ ......................  42 
+11.4.2.  Medikamentell behandling  ................................ ................................ ................................ ........................  42 
+11.4.3.  Strålbehandling  ................................ ................................ ................................ ................................ .........  43 
+11.4.4.  Målstyrd behandling  ................................ ................................ ................................ ................................ .. 43 
+11.5.  Tekom  ................................ ................................ ................................ ...........................  44 
+11.6.  Fibrom  ................................ ................................ ................................ ...........................  44 
+11.7.  Fibrosarkom  ................................ ................................ ................................ ..................  44 
+11.8.  Sertoli –Leydigcellstumörer  ................................ ................................ ...........................  44 
+11.9.  Behandling övriga ovanliga tumörer  ................................ ................................ ............  45 
+11.9.1.  Småcellig cancer, hypercalcemisk typ  ................................ ................................ ................................ ...... 45 
+11.9.2.  Småcellig cancer, pulmonell typ  ................................ ................................ ................................ ...............  46 
+11.9.3.  Storcellig neuroendokrin cancer  ................................ ................................ ................................ ...............  46 
+11.9.4.  Adenosarkom  ................................ ................................ ................................ ................................ ............  46 
+11.9.5.  Mesonefrisk adnextumör  ................................ ................................ ................................ ...........................  47 
+11.9.6.  Carcinosarkom  ................................ ................................ ................................ ................................ ..........  47 
+Kapitel 12  
+ Tumörutvärdering, uppföljning och behandling av återfall  ................................ ..............  48 
+12.1.  Tumörutvärdering  ................................ ................................ ................................ .........  48 
+ 
+5 
+ 12.2.  Prognostiska faktorer vid granulosacellstumörer  ................................ .........................  48 
+12.3.  Uppföljning  ................................ ................................ ................................ ....................  49 
+12.4.  Utredning av återfall  ................................ ................................ ................................ ..... 50 
+12.5.  Behandling av återfall  ................................ ................................ ................................ ... 51 
+12.5.1.  Recidivbehandling vid germinalcelsstumörer  ................................ ................................ ............................  51 
+12.5.2.  Recidivbehandling vid könssträngstumörer  ................................ ................................ ..............................  51 
+Kapitel 13  
+ Understödjande vård  ................................ ................................ ................................ .............  52 
+13.1.  Hormonsubstitution (HRT) efter avslutad primärbehandling  ................................ ....... 52 
+Kapitel 14  
+ Palliativ vård och insatser  ................................ ................................ ................................ ..... 53 
+Kapitel 15  
+ Omvårdnad och rehabilitering  ................................ ................................ ..............................  54 
+15.1.  Lagstöd  ................................ ................................ ................................ .........................  54 
+15.2.  Kontaktsjuksköterska  ................................ ................................ ................................ ... 54 
+15.3.  Min vårdplan  ................................ ................................ ................................ .................  55 
+15.4.  Aktiva överlämningar  ................................ ................................ ................................ .... 55 
+15.5.  Löpande cancerrehabilitering  ................................ ................................ .......................  55 
+15.5.1.  Regelbunden behovsbedömning för patienter och närstående  ................................ ................................  55 
+15.5.2.  Grundläggande och specialiserad rehabilitering  ................................ ................................ .......................  56 
+Kapitel 16  
+ Egenvård  ................................ ................................ ................................ ................................ . 57 
+16.1.  Nationella riktlinjer  ................................ ................................ ................................ ........  57 
+16.2.  Rökning  ................................ ................................ ................................ .........................  57 
+16.3.  Komplementär och alternativ medicin  ................................ ................................ ..........  57 
+16.4.  Alkohol  ................................ ................................ ................................ ..........................  57 
+16.5.  Fysisk aktivitet  ................................ ................................ ................................ ..............  57 
+16.6.  Egenvård vid biverkningar relaterat till antitumoral behandling  ................................ ... 58 
+16.7.  Patientföreningar  ................................ ................................ ................................ ..........  58 
+Kapitel 17  
+ Fertilitet, graviditet och ovarialcancer  ................................ ................................ .................  59 
+17.1.  Fertilitetsbevarande kirurgi  ................................ ................................ ...........................  59 
+17.2.  Fertilitet efter kemoterapi ................................ ................................ ..............................  59 
+Kapitel 18  
+ Underlag för nivåstrukturering  ................................ ................................ .............................  60 
+Kapitel 19  
+ Kvalitetsregister, indikatorer  ................................ ................................ ................................  61 
+Kapitel 20  
+ Referenser  ................................ ................................ ................................ ...............................  62 
+Kapitel 21  
+ Relevanta länkar  ................................ ................................ ................................ .....................  70 
+Kapitel 22  
+ 
+6 
+  Vårdprogramgruppen  ................................ ................................ ................................ ............  71 
+22.1.  Vårdprogramgruppens sammansättning ................................ ................................ ...... 71 
+22.2.  Vårdprogramgruppen  ................................ ................................ ................................ ... 71 
+22.3. Adjungerade författare  ................................ ................................ ................................ .. 73 
+22.4.  Stödteam  ................................ ................................ ................................ ......................  73 
+22.5.  Vårdprogrammets förankring  ................................ ................................ .......................  73 
+BILAGA 1  
+ Ultraljudsdiagnostik icke - epiteliala ovariatumörer  ................................ ...........................  74 
+ 
+  
+ REGIONALA CANCERCENTRUM  
+ 
+7 
+ KAPITEL 1  
+ Sammanfattning  
+Detta vårdprogram omfattar handläggning och behandling av icke -epiteliala maligna 
+ovarialtumörer och är ett komplement till det nationella vårdprogrammet för äggstockscancer. 
+Hänvisning kommer ske till nationella vårdprogrammet för äggstockscancer avseende de kapitel 
+som inte gör åtskillnad mellan epitelial respektive icke -epitelial ovarialcancer.  
+Det nationella vårdprogrammet ska fungera som ett ”paraplypr ogram” med principer för 
+handläggning och behandling baserat på bästa möjliga evidens. Vissa regionala skillnader kan 
+uppstå mot bakgrund av att tolkningen av vissa problemställningar på forskningsfronten kan 
+variera och skillnader i regionala förutsättnin gar föreligga. Samtidigt är vi skyldiga att bedriva en 
+likvärdig vård varför regionala anpassningar bör motiveras.  
+Globalt utgör icke -epiteliala ovarialtumörer cirka 10 % av primära maligna tumörer i ovariet. Till 
+skillnad från epitelial äggstockscancer (o varialcancer,) är icke -epitelial maligna ovarialtumörer 
+vanligen begränsad till ena ovariet och upptäcks i tidigt stadium. Vissa typer är mycket 
+snabbväxande och kräver ett snabbt omhändertagande. Prognosen för kvinnor med icke -
+epiteliala ovarialtumörer, s ärskilt för dem med germinalcellstumörer, har undergått en väsentlig 
+förbättring. Detta beror sannolikt på flera faktorer men den största vinsten torde tillskrivas 
+kemoterapi. Mot bakgrund av de enskilda tumörtypernas raritet är det svårt att bedriva 
+prosp ektiva randomiserade studier. Resultat har därför i vissa fall extrapolerats från andra 
+tumörsjukdomar med liknande histologi såsom t. ex testikelcancer. Det är angeläget med 
+internationellt forskningssamarbete och olika konsortium har bildats.  
+ 
+För vårdpr ogramgruppen  
+Elisabeth Åvall Lundqvist Ordförande  
+ 
+Vårdprogram icke -epiteliala maligna ovarialtumörer har reviderats 2016 -2017 med uppdaterade 
+data och viss ny kunskap. Nya referenser har tillagts.  
+För vårdprogramgruppen.  
+Christer Borgfeldt, Ordförande sedan 2015  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+8 
+ KAPITEL  2 
+Inledning  
+2.1. Vårdprogrammets gilt ighetsområde  
+Äggstockscancer (ovarialcancer) definieras som en malign tumör utgående från vävnaderna i en 
+äggstock (en av de två kvinnliga reproduktiva körtlarna där äggen bildas). Icke -epiteliala tumörer i 
+ovariet är en biologiskt mycket heterogen grupp, där flertalet diagnoser är mycket sällsynta.  
+Icke-epitliala tumörer utgår antingen från äggcellerna (germinalcellstumörer) eller från 
+stödjevävnaden i äggstocken (könssträngs -stromacellstumörer). Därutöve r finns en tredje grupp 
+bestående av övriga ovanliga icke -epiteliala tumörtyper. Tumörtyperna förekommer i alla åldrar.  
+Vårdprogrammet riktar sig främst till sjukvårdspersonal som utreder och behandlar dessa 
+äggstockstumörer men kan givetvis som fördjupad läsning användas av patienter eller 
+beslutsfattare inom sjukvårdsområdet.  
+2.2. Förändringar jämfört med tidigare version  
+Detta är den andra uppdaterade utgåvan av ett nationellt vårdprogram för icke -epiteliala maligna 
+ovarialtumörer i Sverige. Omstrukturering m ed rubriksättning enligt mallen för nationella 
+vårdprogram är gjorda. Uppdaterade epidemiologiska data och patologikapitlet refererar till 
+KVAST dokumentet via internet länk samt mindre förändringar som inte avsevärt förändrar 
+handläggning eller ekonomi är  införda. Uppdaterade nya referenser är tillagda.  
+2.3. Evidensgradering  
+Vårdprogrammets rekommendationer grundar sig på bästa möjliga medicinska kunskap. Icke -
+epiteliala maligna ovarialtumörer är en heterogen grupp av sällsynta tumörer varför det finns 
+mycket f å randomiserade behandlingsstudier. De flesta rekommendationer baseras på 
+retrospektiva studier från enskilda centra och små prospektiva fas II studier. Evidensstyrkan 
+enligt grade varierar mellan mycket låg till måttlig.  
+2.4. Standardiserat vårdförlopp  
+För ägg stockscancer (ovarialcancer) finns ett standardiserat vårdförlopp framtaget, gällande fr o 
+m år 2016.  
+Det finns ingen konflikt mellan innehållet i vårdprogrammet och det standardiserade  
+vårdförloppet. Vårdförloppet beskriver vad som ska göras medan vårdpro grammet  utvecklar hur, 
+samt vilken evidensgrund som finns för åtgärderna i det standardiserade  vårdförloppet för 
+äggstockscancer.  
+Det standardiserade  vårdförloppet finns delvis integrerat med texten i vårdprogrammet kan 
+laddas ned i sin helhet från RCC: s webbplats, 
+http://www.cancercentrum.se/samverkan/cancerdiagnoser/gynekologi/aggstock/vardforlopp -
+aggstock/  
+ REGIONALA CANCERCENTRUM  
+ 
+9 
+ 2.5. Vanliga förkortningar  
+AFIP:  The Armed Forces Institute of Pathology  
+AFP:  Alfafetoprotein  
+AMH:  Anti-müllerian hormone  
+BEP:  Kemoterapiregim bestående av bleomycin, etoposid, cisplatin.  
+CA-125: Cancer antigen 125  
+CD117:  Cluster of differentiation 117 (motsvarar proto - onkogenen c -kit) 
+CD30:  Cluster of differentiation 30  
+CK: Cytokeratin  
+EMA:  Epitelialt Membran Antigen  
+ER: Estrogen receptor  
+ESMO:  European Society for Medical Oncology  
+FANCF:  Fanconi Anemia, Complementation Group F  
+FATWO:  Female adnexal tumor of probable Wolffian origin  
+FHIT:  Fragile histidine triad protein  
+FOXL2:  Forkhead box L2  
+FSH:  Follikelstimulerande hormon  
+GCIG:  Gynecologic Cancer InterGroup  
+GFAP:  Glial fibrillary acidic protein  
+Glyp3:  Glypican3  
+hCG:  Humant choriogonadotropin  
+Hpf: High power field  
+hPL: Humant placenta laktogen  
+Ki67:  Alternativt MKI67  
+LD: Laktatdehydrogenas  
+LH: Luteiniserande hormon  
+LKB1:  Liver kinase B1  
+MDK:  Multidisciplinär konferens  
+MIS:  
+MOGCT:  Müllerian inhibitory substance  
+Malignant ovarian germ cell tumor  
+OCT4:  Octamer -binding transcription factor 4  
+PCO:  Polycystiskt ovariesyndrom  
+PGR:  Progesteron receptor  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+10 
+ PLAP:  Placentalt alkaliskt fosfatas  
+RMI:  Risk of malignancy index  
+RUNX3:  Runt -related transcription factor 3  
+SALL4:  Sal-like protein 4  
+SCCOHT:  
+ 
+SCST:  Small cell ovarian carcinoma of the hypercalcemic type (småcellig 
+ovarialcancer av hyperkalcemisk typ)  
+Sex-cord stromal tumor  
+SCTAT:  Sex cord tumor with annular tubules (könssträngs - stromacellstumör 
+med annulära tubuli)  
+SIADH  Syndrome of inappropriate a ntidiuretic hormone  
+SMA:  Smooth muscle actin  
+SOEB:  Bilateral salpingooforektomi  
+SOX2:  SRY (sex determining region Y) – box 2  
+TSH:  
+TVU:  Thyreoidea stimulerande hormon  
+Transvaginalt ultraljud  
+VIM:  Vimentin  
+WHO:  World Health Organization  
+ REGIONALA CANCERCENTRUM  
+ 
+11 
+ KAPITEL 3  
+Mål med vårdprogrammet  
+Det övergripande målet med vårdprogrammet är att utveckla och bedriva en god vård av kvinnor 
+med icke -epiteliala maligna ovarialtumörer. En god vård innefattar att vården ska vara 
+kunskapsbaserad och ändamålsenlig, säker, patientfokus erad, effektiv, jämlik och ges i rimlig tid. 
+Detta innebär att alla patienter med maligna ovarialtumörer ska få en likvärdig utredning, 
+behandling och uppföljning. Det är också en målsättning att handläggningen ska vara 
+ändamålsenlig, väl samordnad och eff ektiv.  
+Uppföljning av dessa mål görs inom ramen för kvalitetsregisterarbetet och vid revision av 
+vårdprogrammet.  
+ 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+12 
+ KAPITEL 4  
+Epidemiologi  
+4.1. Incidens  
+I Sverige utgör ovarialcancer 2,4 % av all kvinnlig malign tumörsjukdom. År 2014 
+diagnosticerades 700 nya fall  (Socialstyrelsen, Cancer incidence in Sweden 2014). Denna siffra 
+inkluderar såväl tumörer av epitelialt ursprung som de icke - epiteliala tumörerna. Epidemiologin 
+för gruppen maligna ovarialtumörer i sin helhet finns beskrivna i nationella vårdprogrammet f ör 
+äggstockscancer.  
+I Sverige utgör de icke -epiteliala tumörerna 6 % av alla primära maligna ovarial tumörer enligt 
+data från landets sex Regionala cancercentrum, RCC. Antalet nya fall har under de senaste 30 
+åren legat stabilt (se figur 1). Incidensen inte rnationellt anges enligt WHO ligga runt 10 % (1). 
+Diagnoserna är definierade enligt Snomed -koder och Socialstyrelsens anvisning ar (ICD -O/3). 
+Tumörer med osäker malignitetspotential är inte medräknade i denna statistik.  
+ 
+Figur 1. Antalet nya fall av icke -epitelial maligna ovarialtumörer uppdelat på germinalcellstumörer, könssträngs -
+stromacellstumörer och övriga icke -epiteliala tum örer per år under tidsperioden 1995 -2014. Data bearbetade av Regionalt 
+cancercentrum väst.  
+Germinalcellstumörer drabbar i regel flickor och unga kvinnor medan könssträngs -
+stromacellstumörer vanligen drabbar peri - och postmenopausala kvinnor, se figur 2.  
+
+ REGIONALA CANCERCENTRUM  
+ 
+13 
+  
+Figur 2. Åldersspecifik incidens. Antalet nya fall av germinalcellstumörer och könssträngs - stromacellstumörer per ålder under 
+tidsperioden 1995 -2014. Data bearbetade av Regionalt cancercentrum väst.  
+4.2. Tumörtyper  
+4.2.1.  Germinalcellstumörer  
+Gruppen germinalcellstum örer som helhet utgör 20 -30 % av tumörer i ovariet. Men av dessa är 
+95 % benigna och då huvudsakligen i form av mogna teratom. Den maligna delen utgör 3 % 
+(1,6 % i svenskt material) av totala antalet maligna ovarialtumörer, inklusive de epiteliala. Denna 
+rapporterade andel gäller västvärlden. Japan rapporterar en högre incidens, 20 %. Cirka 60 % av 
+de ovarialtumörer som upptäcks hos kvinnor som är 21 år eller yngre är germinalcellstumörer. Av 
+dessa är cirka en tredjedel maligna och utgör därmed den vanligas te ovarialmaligniteten hos unga.  
+
+REGIONALA CANCERCENTRUM  
+ 
+ 
+14 
+ Av de maligna germinalcellstumörerna är dysgerminomen vanligast och utgör 1 -2 % av alla 
+maligna ovarialtumörer. De ses framförallt i åldern 10 – 30 år, medelåldern vid diagnos är 23 år. 
+Huvudparten diagnostiseras i tidigt s tadium. Gulesäckstumörer är näst vanligast och även här 
+drabbas yngre kvinnor, medianåldern är 19 år. Tumören växer fort och är högmalign (2, 3). 
+Utöver dessa tumörer ingår icke -gestationell choriocarcinom och embryonalt carcinom i gruppen. 
+Båda drabbar yngre kvinnor och är högmaligna men sällsynta. Tumörerna ses ofta i form av 
+blandtumörer, med olika kombinationer av germina lcellstumörer, ibland germinalcell - 
+könssträngs -stromacellstumörer. För övriga diagnoser i gruppen se kapitlet Histopatologi . 
+4.2.2.  Könssträngs -stromacellstumörer  
+I denna g rupp ingår tumörer uppbyggda av granulosa -, teka -, Sertoli -, Leydigceller eller 
+fibroblaster av stromalt ursprung, enbart eller i kombination. Könssträngs - stromacellstumörer 
+utgör cirka 8 % (3,6 % i svenskt material) av maligna ovarialtumörer.  
+Granulosace llstumörer är vanligast och utgör internationellt 70 % av diagnoserna i denna grupp. 
+Av all diagnostiserad maligna ovarialtumörer utgör granulosacellstumörer 3 % - 5 %. Dessa 
+siffror stämmer väl med data från Sverige (76 % respektive 2,7 %). De kan utveckl as i alla åldrar. 
+Den adulta typen är vanligast (95 %) och medelålder vid insjuknandet är 58 år. Den juvenila 
+typen utgör 5 % och debuterar oftast före 30 års ålder.  
+Sertoli - Leydigcells tumörer är sällsynta. De utgör färre än 0,5 % av maligna ovarialtumör er. 
+Tumörtypen kan förekomma i alla åldrar men drabbar huvudsakligen unga kvinnor, medelåldern 
+är 25 år. De diagnostiseras ofta tidigt och prognosen är god.  
+Tekom - fibrom gruppen är huvudsakligen benigna tumörer men här ingår fibrosarkom, som är 
+den vanlig aste sarkomatösa förändringen i ovariet och mycket malign, men likväl mycket ovanlig.  
+För övriga diagnoser i gruppen och Övriga sällsynta tumörer se kapitlet Histopatologi . 
+Antal rapporterade fall till cancerregistret åren 1993 till 2010 relaterat till olika diagnoser i 
+respektive grupp av icke -epiteliala maligna ovari altumörer framkommer av tabell 3 . Den 
+vanligaste diagnosen bland maligna germinalcellstumörer var maligna teratom med 35,7 % (92 av 
+258) medan dysgerminom svarade för 25,2 %. Färska motsvarande siffror från det finska 
+cancerregistret visar att dysgerminom var vanligast (37.5%) efterföljt av maligna  teratom (4). 
+ 
+Grupp  Morfologi  Antal  
+Germcell  90803 - Teratom, malignt  112 
+Germcell  90603 - Dysgerminom  69 
+Germcell  82403 - Carcinoid (exkl appendix)  45 
+Germcell  90843 - Dermoidcysta med malign omvandling  31 
+Germcell  90713 - Gulsäckstumör (endodermal sinustumör)  29 
+Germcell  90723 - Embryonalt carcinom  3 
+Germcell  90903 - Stroma ovarii, malign  3 
+ REGIONALA CANCERCENTRUM  
+ 
+15 
+ Germcell  90703 - Embryonalt carcinom  2 
+Germcell  90853 - Blandad germinalcellstumör  2 
+Germcell  90911 - Carcinoid i stro ma ovarii  2 
+Könssträng  86203 - Granulosacells tumör, malign  450 
+Könssträng  85901 - Gonadal stromacellstumör  39 
+Könssträng  86313 - Sertoli -Leydig cells tumör, malign  30 
+Könssträng  86311 - Misstänkt Sertoli -Leydig cells tumör, malign  16 
+Könssträng  86301 - Arrhenoblastom UNS  11 
+Könssträng  88103 - Fibrosarkom  10 
+Könssträng  86003 - Tekom malignt  6 
+Könssträng  86403 - Sertoli - cell carcinom  4 
+Könssträng  86321 - Gynandroblastom  2 
+Övriga icke -epitelial  80413 - Småcellig cancer  11 
+Totalt Icke -epiteliala tumörer 1995 -2014  877 
+Tabell 3 . Antal nya fall av maligna icke -epiteliala ovarialtumörer (enligt ICD -O-3) rapporterade till cancerregistret (alla åldrar 
+inkluderade) under tidsperioden 1995 -2014. Data bearbetade av Regionalt cancercentrum väst.  
+Fotnot: De första 4 siffrorna återspeglar den morfologiska diagnosen. Den femte siffran anger malignitetspotential dvs 0= 
+benignt, 1= osäker malign potential/border line, 2= cancer in situ, 3= malign.  
+4.3. Relativ överlevnad  
+Relativ överlevnad är det cancerutfall som oftast används i populationsbaserad cancerstatistik och 
+anger överdödlighet jämfört med den förväntade dödligheten i befolkningen Vårt material 
+medger ingen j ämförelse över tid annat än att vi jämfört 1995 - 2004 mot 2005 – 2014. Här ses 
+ingen signifikant skillnad (se figur 3). Några större förändringar har heller inte skett i behandling 
+mellan dessa perioder. Effektiv kemoterapi kom redan innan 1993.  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+16 
+  
+Figur 3 . Relativ överlevnad i icke -epiteliala ovarialtumörer som är registrerade i tumörregistret under tidsperioden 1995 - 2004 
+jämfört med 2005 -2014. Data bearbetade av Regionalt cancercentrum väst.  
+Vid jämförelse mellan de båda huvudgrupperna germinalcells - och könssträngsgruppen ses ingen 
+skillnad i relativ överlevnad (se figur 4).  
+
+ REGIONALA CANCERCENTRUM  
+ 
+17 
+  
+Figur 4. Relativ överlevnad i germinalcellstumörer och könssträngs -stromacellstumörer under tidsperioden 1995 -2014. Data 
+bearbetade av Regionalt cancercentrum väst.  
+Vid jämförelse  av överlevnad  mellan  epitelial  och icke-epitelial  malign ovarialtumör finns 
+signifikant skillnad för 2 -årsöverlevnad på 66 % respektive 94  % samt för 5 -årsöverlevnad på 43 
+% respektive 91 % (se figur 5). Detta speglar bland annat att de vanligaste icke -epiteliala 
+tumörerna (dysgerminom, granulosacell och Sertoli -Leydigcell tumör) diagnostiseras i stadium I, 
+och att flertalet diagnoser svarar utmärkt på kemoterapi.  
+
+REGIONALA CANCERCENTRUM  
+ 
+ 
+18 
+  
+Figur 5. Relativ överlevnad i epitelial och icke -epitelial maligna ovarialtumörer under tids perioden 1995 -2014. Data bearbetade 
+av Regionalt cancercentrum väst.  
+4.4. Naturalhistoria och etiologi  
+Det finns begränsat med data i litteraturen beträffande etiologi och riskfaktorer för icke -epiteliala 
+maligna ovarialtumörer.  
+4.4.1.  Germinalcellstumörer  
+Germinalcel lstumörer uppkommer i de celler (de så kallade primitiva germinalcellerna) som bildar 
+ägg hos kvinnan och spermier hos män. Ur den primitiva germinalcellen utvecklas embryonala 
+och extraembryonala strukturer. Majoriteten av germinalcellstumörer uppkommer i  äggstocken 
+men de kan även ha extragonadal lokalisation såsom i mediastinum och retroperitonealt. 
+Etiologin bakom germinalcellstumörer är ofullständigt klarlagd. Den extragonadala lokalisationen 
+kan möjligen förklaras av en ofullständig migration av germi nalcellerna från gulesäcken till 
+gonaderna under embryogenesen. En känd riskfaktor för utvecklingen av malign 
+geminralcellstumörer i ovariet är gonadal dysgenesi, som kan manifesteras i form av försenad 
+pubertet eller primär amenorrhe.  
+
+ REGIONALA CANCERCENTRUM  
+ 
+19 
+ 4.4.2.  Könssträngs -stromac ellstumörer  
+Granulosacellstumörer (GCTs) är den vanligaste formen och uppkommer ur steroid -
+producerande granulosaceller i ovarial follikeln. GCTs har receptorer för såväl steroid hormoner 
+som gonadotropiner. Det finns hypoteser om att förhöjda gonadotropin nivåer ökar risken för att 
+utveckla granulosacellstumörer. I en stor svensk populationsbaserad studie fann man att kvinnor 
+som fötts för tidigt (<37 gestationsveckor) hade ökad risk (HR 1.86) att utveckla 
+könssträngstumörer   (5). Detta genom att ovariell hyperstimulering som svar på höga 
+gonadotropin nivåer hos för tidigt födda flickor skulle kunna mediera en proliferativ och 
+steroidogen effekt av FSH och LH på granulosa theca celler.  
+Man har också funnit att kromosomavvikelser med trisomi i kromosom 12 eller 14 samt 
+monosomi av kromosom 22 är vanliga i granulosacellstumörer  (6).  
+Germinalcellsmutation i LKB1 -genen som är associerat med Peutz - Jaegers syndrom ger ökad 
+risk att utveckla granulos acellstumörer  (7). En somatisk mutation av FOXL2 genen är också 
+associerat med granulosacellstumör utveckling  (8). Man har sett att FOXL2 mutationstestning 
+kan vara till hjälp för a tt bekräfta diagnosen adult granulosacellstumör  (9).  
+Metyle ring av promotor -regioner kan leda till att tumörsuppressorgener undertrycks. Man har i 
+en studie kunnat se att 68 % av granulosacellstumörerna var hypermetylerade i åtminstone en 
+gen, till exempel RUNX3, FANCF, FHIT (10). 
+ 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+20 
+ KAPITEL 5  
+Primär prevention  
+Det finns inga studier so m talar för att levnadsvanor påverkar risken för uppkomsten av icke 
+epiteliala ovarialtumörer.  
+ REGIONALA CANCERCENTRUM  
+ 
+21 
+ KAPITEL 6  
+Screening  
+Icke epiteliala ovarialtumörer är sällsynta och det finns ingen typ av screening för tidig upptäckt 
+av dessa tumörer.  
+ 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+22 
+ KAPITEL 7  
+Symtom och tidig utredning  
+7.1. Ärftlighet  
+Det finns inga uppgifter om att icke -epiteliala ovarialtumörer har någon ärftlighet.  
+7.2. Symtom Germinalcelsstumörer  
+Till skillnad från de mer långsamt växande epiteliala ovarialcancrarna är maligna 
+germinalcellstumörer oftasnabbväxa nde. Cirka 80 % av fallen har en palpabel resistens och 
+buksmärtor vid diagnos. Akuta buksmärtor, orsakade vanligen av torsion eller tumörruptur med 
+blödning, kan ibland misstolkas som akut appendicit. Andra symtom är vaginal blödning och 
+trycksymtom från urinblåsa och tarm. Ascites kan produceras vid avancerat stadium vilket kan ge 
+upphov till ökat bukomfång. Spridning sker vanligen till lymfkörtlar, lungor och lever. Utredning 
+av en palpabel resistens i lilla bäckenet sker i enlighet med vad som tidigare beskrivits men det 
+viktigaste är en snabb handläggning. Eventuellt får kompletterande radiologisk utredning göras 
+postoperativt.  
+Betydelsen av att utföra en fullständig kirurgisk procedur för stadieindelning vid förmodad tidigt 
+stadium är mindre studerat v id maligna germinalcellstumörer jämfört med tidig epitelial 
+ovarialcancer. Germinalcellstumörer med spridd sjukdom, stadium III -IV, har sämre prognos 
+(11, 12). Metastasering till retroperitonela lymfkörtlar förekom hos 18 % i den störs ta publicerade 
+studien och som inkluderade 613 lymfkörtelutrymda kvinnor. Vid kliniskt stadium I, II, III och 
+IV fann man metastaser i lymfkörtlarna hos 10 %, 24  %, 37 % och 43 % av patienterna (11). 
+Dysgerminom utan lymfkörtelmetastasering rapporterades ha en 5 års överlevnad på 99 % 
+jämfört med 91 % hos de med lymkörtelmetastasering. För omogna teratom angavs en 5 - års 
+överlevnad på 96 % utan lymfkörtelmetastasering och 86 % med lymfkörtelmetastaser ing. 
+Motsvarande siffror för embryonala carcinom var 96 % och 57 % (11). I en amerikansk 
+retrospektiv registerstudie omfattande 1083 kvinnor med malign germinalcellstumör genomgick 
+493 patienter lymfkörtelutrymning. Av dessa hade 89.5% stadium I och 10.5% metastasering 
+enbart till lymfkörtlarna (stadium  IIIC). En multivariat analys visade att vare sig 
+lymfkörtelutrymning eller förekomsten av lymfkörtelmetastaser var oberoende prognostiska 
+riskfaktorer för överlevnad hos patienter vars sjukdom enbart engagerade ovariet (13). En 
+sammanfattning av behandlingen vid germin alcellstumör framgår av tabell 2 . 
+  
+ REGIONALA CANCERCENTRUM  
+ 
+23 
+ Histologi  Kirurgi  Kemoterapi  
+Dysgerminom  IA Observation  
+IB-IC BEP x 3  
+IIA-IV BEP x 3 -4 
+Omogna teratom  IA, grad 1  Observation  
+IA, grad 2 -3 BEP x 3  
+IB-IC BEP x 3  
+IIA-IV BEP x 3 -4 
+Gulesäckstumör, embryonalt carcinom, 
+icke- gestationellt choriocarcinom  IA-IC BEP x 3  
+Gulesäckstumör, embryonalt carcinom, 
+icke- gestationellt choriocarcinom  IIA-IV BEP x 4  
+Tabell 2 . Behandling germinalcellstumörer. Samtliga fall ska diskuteras på multidisciplinär konferens.  
+7.3. Symtom könssträng -stromacellstumörer  
+Könssträng -stromacellstumörer är en heteroge n grupp och utgör cirka 8 % av ovarialtumörerna. 
+De är ofta hormonproducerande och såväl feminiserande (granulosa och tekaceller) som 
+maskuliniserande (Sertoli och Leydigceller) former förekommer. De olika typerna kan 
+förekomma som rena tumörer eller som b landformer. Tumörerna kan vara benigna, ha en malign 
+potential eller vara maligna, med olika differentieringsgrader, för närmare specifikation av 
+tumörtyper hänvisas till kapitlet Histopatologi. Det är avgörande för den fortsatta 
+handläggningen att kartläg ga vilken tumör patienten drabbats av. Behandlingsplaneringen och 
+beslutet om eventuell fertilitetsbevarande kirurgi måste individualiseras och baseras på tumörens 
+specifika karakteristika. De flesta tumörformer har ett indolent sjukdomsförlopp med mycket god 
+prognos. De fåtal som recidiverar gör det ofta efter lång latenstid (upptill 30 -40 år). Många 
+tumörformer är sällsynta varför vår kunskap om bästa behandling är begränsad. Stadieindelning 
+sker enligt principerna för epitelial ovarialcancer men lymfkört elutrymning rekommenderas inte.  
+De maligna könssträng -stromacellstumörerna är sällsynta och inkluderar bland annat 
+granulosacellstumörer (utgör 70 % av gruppen) och Sertoli -Leydigtumörer.  
+Adulta granulosacellstumörer är den vanligaste typen av stromacellst umörer och är i mer än 90 % 
+unilaterala och 90 % av tumörerna diagnosticeras i stadium I. Storleken kan variera avsevärt från 
+ärtstorlek till manshuvudstorlek (medel 12 cm). I cirka 70 % av fallen utsöndrar tumören 
+östrogen. Majoriteten tumörer utsöndrar ö strogen varför ökad risk föreligger för 
+endometriecancer. Överväg preoperativ endometriebiopsi.  
+De vanligaste symtomen är onormal blödning, buksmärta eller upptäckt av en resistens i lilla 
+bäckenet. Brösten kan bli ömma och spända. Oregelbundna blödningar och östrogenstimulerat 
+endometrium postmenopausalt skall alltid väcka misstanke om en granulosa -eller tekacellstumör. 
+Östrogenstimuleringen av endometriet medför en ökad risk för endometriehyperplasi (25 -50 % 
+av fallen) och endometriecancer (5 % - 13 % av fallen), och sannolikt också för bröstcancer (14-
+16). Symtomen kan också presenteras som en akut buk beroende på tor sion eller tumör ruptur.  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+24 
+ Spridning av granulosacellstumörer sker per continuitatem och genom utsådd intraperitonealt. 
+Hematogen spridning förekommer och spridning till lungor, lever och hjärna kan ske åratal  efter 
+den initiala diagnosen.  Avancerad metastat isk sjukdom med ascites förekommer i cirka 10 % av 
+fallen. Spridning till retroperitonela lymfkörtlar är ovanligt, 0 -9 % i litteraturen (17-21). Studierna 
+inkluderar dock få patienter, endast 219 patienter sammanräknat som lymfkörtelutrymdes och 
+antalet lymfkörtlar som analyserades var i bäckenet 10 -11 och paraaortalt 3 -4 stycken. De flesta 
+som klassificerats som stadium III har spridning i bukhålan och endast upp till 9 % har spridning 
+till lymfkörtlar.  
+7.4. Ingång till standardiserat vårdförlopp  
+Vid misstank e om äggstockscancer ska patienten remitteras till en gynekologisk undersökning 
+enligt instruktioner i det standardiserade vårdförloppet.   
+Här hittar du aktuell information om inledande undersökningar och definition av välgrundad 
+misstanke.   
+ REGIONALA CANCERCENTRUM  
+ 
+25 
+ KAPITEL 8  
+Diagnostik  
+Diagnostik, utredning och remittering vid adnextumör med misstanke på icke epitelial maligna 
+ovarialtumörer skiljer sig inte från handläggningen av epitelial ovarialcancer, se Nationellt 
+vårdprogram Äggstockscancer 2015, 
+http://www.cancercentrum.se/samverkan/cancerdiagnoser/gynekologi/aggstock/vardprogram/  
+Generella r ekommendationer  
+• Gynekologiskt ultraljud är förstahandsmetod för undersökning av adnextumör. 
+Ultraljudsfynd som kan tala för icke -epitelial maligna ovarialtumörer, se Bilaga 1 . 
+• RMI beräkning med CA125 kan användas för remitteringsbeslut. Cytologi  bör utföras vid 
+ascites eller pleuravätska.  
+• Preoperativ biopsi bör enbart utföras vid tecken på spridd sjukdom.  
+• Vid klinisk misstanke om malign ovarialtumör hos kvinnor < 40 år bör provtagning av 
+alfafetoprotein (AFP), humant choriongonadotropin hCG i ser um och laktat -dehydrogenas 
+(LD) utföras, förutom CA 125. Därutöver kan placentalt alkaliskt fosfatas (PLAP) ibland 
+vara förhöjt vid dysgerminom. Inhibin B och antimüllerian hormone (AMH) kan vara 
+förhöjt vid granulosacellstumörer och båda bör analyseras vi d misstänkt 
+granulosacellstumör. Ett alternativ är att preoperativt serumprov fryses ned för senare 
+analys efter histologiskt svar. Vid förhöjda tumörmarkörer bör dessa följas tills 
+normalisering. S -calcium är viktigt vid misstanke om småcellig cancer av h ypercalcemisk 
+typ. 
+• DT thorax och DT buk bör utföras preoperativt för kartläggning av tumörutbredning. Vid 
+överraskningsdiagnos utförs DT thorax och buk postoperativt inför ytterligare behandling.  
+• MRT kan utföras om ultraljud inte är konklusivt, eller om me r information önskas om lokal 
+tumörutbredning inför avancerad kirurgi.  
+Övrig utredning  
+• Vid misstanke på gonadoblastom bör karyotyp bestämning utföras eftersom de kan ha 
+kromosomavvikelser och tumören kan utvecklas från outvecklade gonadanlag (22). 
+• Vid misstanke om granulosacellstumör och tekom bör endometriebiopsi tas för att utesluta 
+en samtidig en dometriecancer.  
+• Vissa småcelliga carcinom kan ge hypercalcemi, hyponatremi och inadekvat ADH -
+sekretion (SIADH) som kan ge trötthet, illamående, huvudvärk och kräkningar samt 
+kramper ( (23). 
+• Positronemissionstomografi (PET) -CT kan vara av värde vid neuroendokrin och småcellig 
+histopatologi samt vid dysgerminom eftersom dessa tumörer har hög metabolisk aktivitet 
+(23). 
+• Vissa germinalcellstumörer (gulesäckstumörer, embryonala carcinom och choriocarcinom) 
+är högmaligna tumörer och kräver ett snabbt omhändertagande (inom 2 veckor).  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+26 
+ 8.1. Tumörmarkörer vid icke -epiteliala ovarialtumörer  
+8.1.1.  Germinalcellstumörer  
+Rekommendationer  
+• Tumörmarkörer har en viktig roll i diagnostik, behandling och uppföljning av 
+germinalcellstumörer.  
+• Preoperativt serump rov för bestämning av AFP, hCG, LD och CA -125 rekommenderas 
+vid misstanke om malign adnextumör hos kvinnor < 40 år.  
+• Vid gulesäckstumör är AFP -nivåerna ofta mycket höga och används för att styra 
+behandlingen. Samma gäller hCG vid choriocarcinom. Vid embryon alt carcinom och 
+blandtumörer kan måttligt förhöjda värden av den ena eller båda markörerna förekomma.  
+• Vid rent dysgerminom är AFP normalt och hCG normalt eller endast lätt förhöjt.  
+• Falskt förhöjda värden i serum av AFP och hCG är sällsynta, men kan föreko mma om 
+heterofila antikroppar mot djurprotein finns hos patienten. Försiktighet rekommenderas i 
+fall där laboratorieresultat inte stämmer med kliniska fynd.  
+• Olika testmetoder ger ofta olika resultat vid analys av markörer, särskilt för hCG.  
+• Serumvärden av tumörmarkörer från olika sjukhuslaboratorier kan skilja sig avsevärt.  
+8.1.1.1.  Alfafetoprotein,  AFP  
+Alfafetoprotein (AFP) är ett onkofetalt antigen och transportprotein med molvikt 70 kD och är 
+fostrets motsvarighet till albumin. AFP produceras hos fostret i gules äcksvävnad, gastrointestinal 
+vävnad och lever och förekommer i riklig mängd i gulesäck och amnion -vätska. AFP är förhöjt 
+hos 60 -70 % av alla fall med testikelcancer av icke -seminomtyp.  
+AFP är en känslig markör för vissa varianter av maligna germinalcellstu mörer i ovariet (tabell 2). 
+Vid gulesäckstumör (malign endodermal sinustumör) är AFP - nivåerna ofta mycket höga och 
+används för att styra behandlingen. AFP är också lätt till måttligt förhöjt i flera fall av embryonala 
+carcinom och maligna teratom av bland typ och kan då användas kliniskt tillsammans med hCG 
+som markör.  
+8.1.1.2.  Humant choriongonadotropin, hCG  
+hCG är ett hormon som under graviditet fysiologiskt produceras av moderkakans 
+cytotrofoblastceller. hCG är ett glykoprotein med molvikt 36 kD och består av en alfa - och en 
+betaenhet samt 8 olika sido -sockerkedjor. Kombinationen av dessa resulterar i stor v ariabilitet i 
+strukturen av hCG. I serum och urin förekommer förutom ordinärt hCG minst fem ytterligare 
+former. När hCG används som tumörmarkör vid mola, malign trofoblastsjukdom och vid 
+germinalcellstumörer är det viktigt att använda en metod, som korrekt  mäter alla varianter av 
+hCG och beta – hCG fragment. Vissa metoder kan ge falskt för låga värden vid persisterande 
+sjukdom efter behandling. Man kan inte jämföra analysresultat från olika laboratorier utan vidare, 
+vilket har betydelse när patienter remitte ras mellan olika sjukhus (24, 25). 
+ REGIONALA CANCERCENTRUM  
+ 
+27 
+ Vid malign germinalcellstumör av bla ndtyp förekommer ibland stegring av hCG (tabell 3 ). I dessa 
+fall kan markören användas i kombination med AFP. Vid embryonala carcinom är hCG förhöjt i 
+cirka hälften av fallen och vid choriocarcinom är hCG kraftigt förhöjt och används för att 
+monitorera ter apieffekten. Vid rena dysgerminom kan hCG vara lätt förhöjt. Om denna markör 
+är mera påtagligt förhöjd i serum innebär det att det inte är fråga om ett rent dysgerminom. 
+Patolog bör konsulteras för kompletterande diagnostik i dessa fall.  
+ AFP hCG  LD CA-125 
+Dysgerminom  _ + + + 
+Gulesäckstumör  + + +  _ + + 
+Omoget teratom (rent)  _ _ + + 
+Embryonalt carcinom  + + + + 
+Choriocarcinom  _ +++ + -/+ 
+Blandad germinalcellstumör  + + + + 
+Tabell 3 . Tumörmarkörer vid maligna germinalcellstumörer i ovariet  
++ + +: Hög nivå i serum.  
++: Förhöjd eller normalnivå i serum.  
+AFP: alfafetoprotein  
+hCG: choriongonadotropin  
+LD: Laktatdehydrogenas  
+8.1.1.3.  Användning av AFP och hCG i serum för att monitorera terapieffekt  
+Om AFP och eller hCG i serum är förhöjt preoperativt eller postoperativt vid germinalcellstumör 
+i ovariet kan endera eller båda dessa två markörer användas för att monitorera terapieffekten efter 
+kirurgi och under kemoterapi. AFP sjunker med en halveringst id av 7 dygn, hCG med en 
+halveringstid av 3 dygn efter radikal kirurgi eller under effektiv kemoterapi. Om inte 
+markörvärdena sjunker i denna takt kan det innebära resttumör eller bristande effekt av pågående 
+kemoterapi. Vid testikelcancer av icke -seminom -typ har det visats att förlängd halveringstid av 
+endera av de två markörerna i serum är prognostiskt ogynnsamt. Den svensk - norska 
+SWENOTECA -gruppen rekommenderar därför noggrann monitorering av AFP och eller hCG i 
+serum under pågående kemoterapi (26), se även fördjupningslitteratur SWENOTECA VIII). Om 
+avvikelse från önskad halveringstid påvisas, finns särskilda åtgärdsrekommendationer. Dock 
+måste hänsyn tas till att vid kemoterapi mot manifest sjukdom eller kvartumör efter operation 
+kan en utsvämning av AFP eller hCG ske i serum direkt efter kemoterapikur med ett temporärt 
+peak-värde. Därför måste prov för AFP och eller hCG tas på dag 1, dag 5 och 15 i varje 
+behandlingscykel och halveringstiden mätas utifrån detta peak -värde enligt figur 6. I praktiken 
+plottas markörvärdena i semi -logaritmiska nomogram, (figur 7).  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+28 
+  
+Figur 6. Exempel på förhöjt peak -värde av hCG i serum på dag 5 i första BEP -kur vid avancerad testikelcancer (SWENOTECA 
+III och IV, 1999)  
+ 
+Figur 7. Logarimiska nomogram för plottning av AFP och hCG i serum under kemoterapi. (SWENOTECA VIII, 2012)  
+
+ REGIONALA CANCERCENTRUM  
+ 
+29 
+ 8.1.2.  Könssträngs -stromacellstumörer  
+Rekommendationer  
+• Vid könssträngs -stromacellstumörer är inhibin, särskilt inhibin B samt anti -müllerian 
+hormone (AMH) förhöjda i serum i majoriteten av fall, särskilt vid granulosacellstumör. 
+För att öka sensitiviteten rekommenderas att båda dessa hormoner analyseras.  
+• Preoperativt serumprov för bestämning av in hibin B, AMH och CA -125 rekommenderas. 
+Alternativt kan fryst serum förvaras i väntan på histologisk bedömning av 
+operationspreparaten och senare analys.  
+• Inhibin B och AMH kan även användas i uppföljningen under och efter behandling.  
+8.1.2.1.  FSH och östradiol  
+Follikelstimulerande hormon (FSH) är ett hypofyshormon som utsöndras i kraftigt förhöjda 
+nivåer efter menopaus på grund av upphävd feedback från ovariet via östradiol och inhibin. 
+Granulosacellstumör är i många, men inte alla fall, östrogenproducerande. Patien ter med dessa 
+tumörer kan därför få symtom på östrogenproduktion, som till exempel postmenopausala 
+blödningar. I serum kan då inte sällan konstateras förhöjd östradiolnivå och sänkt FSH -nivå.  
+Den kliniska nyttan av rutinmässiga hormonbestämningar är tveks am, och rutinmässig 
+hormonbestämning rekommenderas inte. Däremot kan dessa analyser vara av visst värde vid 
+klinisk misstanke om granulosacellstumör. Idag finns dock känsligare och mer specifika 
+serummarkörer (inhibin och AMH) för granulosacellstumörer.  
+8.1.2.2.  Inhibin  
+Inhibin är ett peptidhormon med en alfa -kedja och en beta -kedja och produceras i testikelns 
+Sertoli -celler och i ovariets granulosa - och tekaceller i folliklarna. Inhibin är involverat i de 
+hormonella feedbackmekanismerna som styr ovarierna. Normalt hämmar inhibin FSH - 
+sekretionen i hypofysen. Inhibin B bildas fysiologiskt i primärfolliklar och små folliklar under 
+utveckling, medan inhibin A bildas i den fullt utvecklade, dominanta follikeln samt i corpus 
+luteum efter ovulationen. Fysiologiska serumni våer av inhibin A (< 150 ng/L) och B (< 200 
+ng/L) fluktuerar under menstruationscykeln.  
+Hos postmenopausala friska kvinnor är inhibin A < 5 ng/L och inhibin B < 15 ng/L.  
+Vid granulosacellstumör är inhibin patologiskt förhöjt i majoriteten av fall. Inhibin  B i serum, 
+mätt med modern metodik är mer förhöjt över fysiologiska nivåer (cirka 60 ggr) än inhibin A 
+(cirka 6 ggr) vid klinisk progressiv tumörsjukdom  (27-30), Inhibin B lämpar sig därför bäst att 
+mäta vid granulosacellstumör och andra könssträ ngs- stromacellstumörer. Mom och medarbetare 
+påvisade vid granulosacellstumör nivåer av inhibin B i intervallet 327 – 22 520 ng/L. I andra 
+studier (27, 31) har sensitiviteten för inhibin B i serum att påvisa granulosacellstumör varierat 
+mellan 89 % – 100 %. Falskt negativ seru mnivå av inhibin B kan dock förekomma. Specificiteten 
+för inhibin B var å andra sidan 100 % i de studierna. Inhibin sjunker till låga eller ej påvisbara 
+nivåer efter kirurgi (31, 32). 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+30 
+ 8.1.2.3.  Anti-müllerian hormone (AMH eller MIS)  
+AMH (synonym: müllerian inhibitory substance, MIS) tillhör (liksom inhibin) tillväxtfaktor -
+familjen TGF -beta. AMH är ett glykoprotein som fysiologiskt modulerar ovariets follikeltill växt 
+genom att selektera en dominant follikel och reducera övriga folliklars känslighet för stimulerande 
+FSH. I motsats till inhibin är AMH -nivån i serum konstant under menstruationscykeln. Efter 
+menopaus sjunker AMH till låg eller ej påvisbar nivå. AMH i serum sjunker även före menopaus i 
+takt med sjunkande antal kvarvarande aktiva folliklar i ovariet.  
+En förhöjd serumnivå av AMH är mycket specifik för granulosacellstumör (30, 33). Den enda 
+ovarialtumör av annan typ med förhöjd AMH -nivå är Sertolitumör. Förhöjt AMH har inte 
+påvisats vid någon annan benign eller malign ovarialtumör eller vid annan typ av cancer.  
+Rey och medarbetare fann förhöjda nivåer av AMH hos 8 av 9 patienter (89 %) med progressiv 
+granulosacellstumör (30). I andra studier var sensitiviteten för AMH för att påvisa  
+sjukdomsp rogress vid granulosacellstumör  76 % – 91 % (28, 29, 33). Således förekommer även 
+falskt negativ AMH nivå vid granulosacellstumör (31). Geerts och medarbetare föreslår därför att 
+både Inhibin B och AMH mäts för att öka sensitiviteten  (34). AMH i serum har inte korrelerat 
+med tumörstadium och tycks inte heller korrelera med inhibin -nivån. Efter framgångsrik kirurgi 
+eller annan behandling sjunker AMH -nivån i serum till mycket låg el ler ej påvisbar nivå på några 
+få dagar (28, 33). AMH kan användas för att bedöma kirurgisk radikalitet, samt för att förutsäga 
+sjukdomsåterfall.  
+ REGIONALA CANCERCENTRUM  
+ 
+31 
+ KAPITEL 9  
+Histopatologi  
+9.1. Kategorisering av tumören  
+För ytterligare information kring histopatologisk diagnostik hänvisas till KVAST (Kvalitets - och 
+Standardiserings) -dokument via Svensk förening för Patologi.  
+Länk: http://www.svfp.se/gynekologisk_p atologi  
+9.2. Patologins roll i den diagnostiska processen  
+Patologisk diagnostik är ofta behandlingspåverkande, preoperativt (för operationsmetod), resp. 
+postoperativt (för ev. re -operation, strålning eller cellgiftsbehandling). För att detta skall fungera 
+så bra som möjligt är det viktigt att väsentliga anamnestisk information framförs, att 
+materialmängden är tillräcklig samt att kvalitén är god och anpassad till frågeställningen (kort 
+ischemitid samt snabb och god fixering, samt i vissa fall, färskt material).  
+Då många av de icke -epiteliala ovarialtumörerna är ovanliga, och då tumörer inom de respektive 
+diagnosgrupperna kan likna varandra såväl morfologiskt som immunhistokemiskt, kan det ibland 
+vara svårt att subtypa tumören, framför allt  i pre-operativt skede.  Många av tumörerna har 
+dessutom ett prognostiskt förlopp som kan vara svårt eller omöjligt att förutsäga utifrån 
+histopatologiska parametrar.  
+Ett nära samarbete mellan olika discipliner är här av stort värde för bästa möjliga resultat.  
+9.3. Anvisningar för han tering av provet  
+9.3.1.  Preoperativ morfologisk/cytologisk diagnostik  
+Preoperativ diagnos gör bäst  på histologiskt mate rial (tumörresektat/biopsier).  
+Vissa preparat skickas färskt för speciellt omhändertagande enl. lokala instruktioner, men ofta 
+skickas materialet i 4 % buffrad formaldehydlösning. För optimal fixering skall 
+formaldehydmängden vara minst 10 ggr preparatmängden , kylförvaring fördröjer nedbrytningen . 
+Markera ev. områden med speciella frågeställningar.  
+Myck et små eller smala px -bitar (1 -3 mm) kan lägg as på filterpapper, för optimal  identifiering och 
+orientering vid paraffininbäddning.  
+Cytologiskt material; finnålspunktat, b uksköljvätska, ascites, cystvätska och pleuraexsudat.  
+Tappade vätskor skakas om ordentligt, så att bottensatsen slammas up p innan vätskan häll es i ett 
+tättslutande provkärl och t illsats av heparin behövs omgående för att undvika koagulering.  
+Materialet skall kylskåpsförvaras vid väntetid, t.ex. operation utanför kontorstid.  
+Om preoperativ  diagnostik görs på cytologiskt mate rial, bör man vara medveten om att  
+morfologin kan vara påverkad, materialmängden sparsam och viabilitet sbedömning  och de 
+tekniska möjligheterna att diagnostisera med hjälp av immunhistokemi är begränsade eller osäkra.   
+REGIONALA CANCERCENTRUM  
+ 
+ 
+32 
+ 9.3.2.  Peroperativ diagnostik (Fryssnitt)  
+De vanligaste  av de icke -epiteliala tumörerna är diagnostiserbara på fryssnitt, exempelvis har 20 
+teratom diagnostiserats korrekt avseende malignitetsgrad (Hashmi AA - 2016). Mindre vanliga, 
+och lägre differentierade tumörer är svårare att känna igen. Någon publikation angående 
+reproducerbarheten inom denna grupp har inte hittats.   
+9.3.3.  Operationsmaterial, bevara kvalitén  
+På en del sjukhus finns praktiska och personella resurser att skicka preparatet färskt direkt till 
+patologen, varefter en initial bedömning kan göras. Preparatet kan , efter primär makroskopisk 
+bedömning,  skivas i tunnare delar och en större andel vävnad kan fixeras på kortare tid, dessutom 
+kan patologen ta tillvara färsk vävnad för i nfrysning till specialanalyser.  
+Vid riklig mängd tumör finns det också möjlighet för kirurgen att under operation ta tillvara färsk 
+vävnad för infrysning, i dessa fall kan en liten närliggande bit fixeras i formalin som 
+referensmaterial för att verifiera tumö rförekomst i det frusna provet.  
+Vid excision av tumörbitar, el ler av större preparat med hela organ, är det viktigt att vävnaden 
+fixeras snabbt och väl. Hur tiden för ”varm ischemi”, dvs från att tumörens blodförsörjning 
+avslutas till påbörjad fixering (formalin och/eller nedkylning), spelar roll är otillräckligt kar tlagt, 
+och därför finns det anledning att notera båda dessa tider på remissen.  
+Rutinmässigt läggs preparat vanligen i 4 % buffrad formaldehydlösning (sk formalin), innan 
+preparatet skickas till patologen. För att formaldehyden skall räcka till för fixerin g beräknas 
+formalinmängd motsvarande 20 ggr provets storlek/vikt behövas. Då detta är svårhanterlig för 
+stora preparat har en praktisk gräns på minst 10 gg r preparatets storlek använts.  
+Man måste då vara medveten om att formaldehyd tränger in ytterst lång samt, ffa i blodrika organ. 
+Tjocka preparatbitar hinner därmed inte fixeras till dagen efter operation och materialet riskerar 
+att degraderas i nnan de hanteras av patologen, varför  vävnaden kan bli  tekniskt sub -optimal för 
+vidare analys (immunfärgningar , PCR m.m.)  
+Ett alternativt  sätt är bevara preparatets kvalité är att ställa det i kylskåp över natten, då den låga 
+temperaturen effektivt sänker nedbrytningshasti gheten av vävnaden. Detta är  av betydelse för 
+immunhistokemisk färgningar (Bass BP - 2014), och  ffa om preparatet riskerar att stå över helgen 
+innan det kan hanteras av patologen.  
+9.4. Anamne stisk remissinformation  
+För att tolka de histologiska förändringarna i icke -epiteliala ovarialtumörer är det viktigt att veta 
+omständigheterna kring patienten, ffa då hormonella faktorer samspelar med olika diagnoser och 
+dessutom påverkar morfologin.  
+Information skall noteras om : hormonell status, samt vilka blodprover inom denna kategori som 
+tagits och vilka som varit avvikande.  
+ 
+Med provet skall det komma information om:  
+• Identifikation - patientens namn och personnummer  
+• Insändande läkare och avdelning, samt ev. annan betalande avdelning.  
+• Vilket datum preparaten är tagna.  
+ 
+ REGIONALA CANCERCENTRUM  
+ 
+33 
+ Anamnesen skall vara lättläslig och innehålla adekvat anamnestisk information:  
+• Sjukhistoria, inkl. hormonell status, graviditet, hormonella symptom, medicinering, 
+hormonspiral samt vilka blodprover inom denna kategori som tagits och varit avvikande 
+eller normala (hormoner, tumörmarkörer, Calcium)  
+• Tidigare relevanta PAD  
+• Hereditet  
+• Rtg-fynd 
+• Preoperativt diagnosförslag  
+• Frågeställning  
+• Beskrivning av vilka preparat som medföljer inklusive operationsmetod och sidoan givelse., 
+samt tidpunkt i formalin  
+• Ev. önskemål om svarsdag, enl. lokal överenskommelse.  
+ 
+Preparatmärkningen skall överensstämma med beskrivningen på remissen.  
+Om remissen skickas elektroniskt skall det finnas identifikationsnummer, som kopplar remiss till  
+rätt preparatburkar.  
+9.5. Klassificering av tumören  
+I.    Köncelltumörer  (alternativ benämning germinalcellstumörer)  
+II.   Könssträngs -stromacellstumör (alternativ benämning gonadala stromatumörer)  
+III.  Övriga ovanliga icke -epiteliala tumörer (inklusive mali gna mesenkymala tumörer)  
+ 
+  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+34 
+ Köncellstumörer  
+Köncells/germinalcellstumörer utgår  från primordiala germinala celler som under  utvecklingen 
+migrerar  från gulesäcken  till den primitiva gonadala listen och blir inkorporerade i primitiva 
+könssträngar. Likheter  ses mellan  germinalcellstumörer hos kvinnliga  och manliga individer. En 
+modifierad.  WHO klassifikation av germinalcellstumörer framgår av tabell nedan.  
+WHO klassifikation  Morfologikod  Benign/Malign  Engelsk översättning  
+Teratom  
+    Moget  
+          Solida  
+          Cystiska  
+(Dermoid)  
+    Omoget  
+          Grad 1  
+          Grad 2  
+          Grad 3  
+           Polyembryom  
+Monodermalt  
+           Ex. Struma ovarii  
+Teratom med malign 
+transformation   
+M 90800  
+ 
+ 
+M 90803  
+ 
+ 
+ 
+ 
+M 90723  
+ 
+ 
+M 90800 +  
+tumörspecifik 
+kod, ex.  
+M 80703  
+skivepitelcancer   
+Benign  
+ 
+ 
+ 
+ 
+Benign  
+ 
+Malign  
+Högmalign  
+ 
+Benign  
+Malign  
+ 
+ 
+ Teratoma  
+     Mature teratoma  
+      (Dermoid cyst)  
+ 
+ 
+Immature  
+teratoma  
+ 
+ 
+Polyembryoma  
+ 
+ 
+Teratoma with malignant 
+transformation  
+Dysgerminom  M 90603  Malign  Dysgerminoma  
+Gulesäckstumör 
+(endodermal sinus tumör)  M 90713  Högmalign  Yolk sac tumor, YST  
+Embryonal cancer  M 90703  Högmalign  Embryonal carcinoma  
+    
+Icke-gestationellt 
+choriocarcinom  M 91003  Högmalign  Non-gestational 
+choriocarcinoma  
+Blandade GCT  M 90853  Maligna  Mixed germ cell tumor  
+Blandade GCT - 
+könssträngs - 
+stromacelltumörer  
+     UNS  
+     Gonadoblastom   
+ 
+M 85941  
+ 
+M 90731   
+ 
+ 
+Malign Osäker 
+malign  Mixed germ cell -sex- 
+cord stroma tumor  
+ 
+NOS  
+Gonadoblastoma  
+ REGIONALA CANCERCENTRUM  
+ 
+35 
+  
+Könsträngs -stromacellstumörer  
+Granulosa - stromacellstumörer  
+     Adult Granulosacells tumör  
+    Juvenil Granulosacellstumör  
+    Fibrom  
+    Tekom  
+Skleroserande stromatumör  
+     Signet -ring stromatumör  
+    Stromatumör med   
+”enstaka   könssträngselement”  
+Fibrosarkom   
+M 86203  
+M 86221  
+M 88100  
+M 86000  
+M86020  
+M85900  
+ 
+ 
+M88103   
+Malign  
+Benign/ Mal 
+Benign  
+Benign  
+Malign  
+Benign  
+Benign  
+Benign  
+Malign   
+Adult granulosa cell 
+tumor  
+Juvenile granulosa cell  
+Fibroma  
+Thecoma  
+Fibrosarcoma  
+Sclerosing stromal tumor 
+Signet -ring stromal tumor 
+Stromal tumor with minor 
+sex cord elements  
+Sertoli -Leydig cellstumörer  M 86301  Osäker  Sertoli -Leydig cell tumor  
+(tidigare androblastom,  el. malign el.  group  
+Arrhenoblastom)  
+Sertoli -Leydig cell tumör  M 86313  Maligna  Sertoli -leydig cell tumor  
+ 
+Högt diff (G1)  
+Medelhög diff (G2)  
+Låg diff (G3)  
+Heterologa element  
+ 
+Sertolicellstumör, retiform typ  M86301  
+M86311  
+M86313  
+ 
+ 
+M86401  
+ Benign/  
+Malign  
+  
+ 
+ 
+ 
+Retiform Sertoli cell 
+tumor  
+Sertoli cell tumor  
+Gynandroblastom  M 86321   Gynandroblastoma  
+Blandade eller oklassificerbara 
+typer  
+Könssträngstumör med “annular 
+tubules”  
+Gonadal stromatumör UNS  M 85901  
+ 
+M86231  
+M85901   
+ 
+ 
+Maligna  Sex cord stromal tumors, 
+Mixed or unclassified 
+types  
+ 
+Sex cord tumors with 
+annular tubules  
+Sex cord tumor, NOS  
+Steroid/Lipidcellstumörer  
+Steroid/Lipidcellstumör  
+Stromalt Luteom  
+Leydigcellstumör  M86700  
+ 
+ 
+M 86501   
+Benign  Steroid cell tumors  
+Steroid cell tumor, NOS  
+Stomal Luteoma  
+Leydig cell tymor  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+36 
+  
+Andra, icke -epiteliala ovarialtumörer  
+Maligna mesenkymala tumörer 
+(stromasarkom)  
+Adenosarkom 
+Endometriestromasarkom  M 89303  Malign   
+ 
+Adenosarcoma 
+Endometrial stromal 
+sarcoma  
+ 
+Småcellig ovarialcancer, 
+hypercalcemisk typ  M 80413  Malign  Small cell carcinoma, 
+hypercalcemic type  
+Småcellig cancer, pulmonell typ  
+(ScNEC)  M 80413  Malign  Small cell carcinoma, 
+pulmonary type  
+Storcellig neuroendokrin cancer  
+(LcNEC)  M 80423  Malign  Large cell 
+neuroendocrine 
+carcinoma  
+ 
+9.5.1.  PAD utlåtande bör innehålla:  
+Preparat:  
+Ovarier höger, vänster, tubor, uterus, oment, lymfkörtlar, peritonealbiopsier m m.  
+Tumör: Utseende (cystisk/multicystisk, solid komponent, färg, blödning, nekros). Mått 
+(tredimensionellt vid solida tumörer).  
+Tumörlokalisation: Höger, vänster, bilateral.  
+Kapselengagemang: Genomväxt av kapseln och/eller ytväxt på ovarier eller ej. Adherenser.  
+Histopatologisk subtyp: Malignitetspotential: Om möjligt, alt. information om de histopatologiska 
+variabler som påverkar prognosen.  
+Spridning utanför ovariet:  
+Andra organ, peritoneum, lymfkörtlar (antal totalt resp. antal m. metastas).  
+För vissa tumörtyper k an det behövas mutationsanalys för fullständig diagnos (t.ex. adult 
+granulosacellstumör som kan ha en ospecifik histologisk bild, men som vanligen har FOXL2 -
+mutation).  
+ 
+ 
+ REGIONALA CANCERCENTRUM  
+ 
+37 
+ KAPITEL 10  
+Multidisciplinär konferens 
+(MDK)  
+Den definitiva diagnosen av icke -epiteliala ovarialtumörer bör ställas efter histopatologisk 
+undersökning av kirurgiskt preparat. Diagnostiken är svår och bör utföras av referenspatolog i 
+gynekologisk patologi och klassas enligt WHO. Histologiskt svar var ej samstämmigt i 37 % 
+mellan initial diagnos och eftergranskning i en studie (35). Fryssnittsteknik är osäker och bör 
+undvikas för behandlingsbeslut.  
+Då tumörer na är ovanliga och ofta drabbar fertila kvinnor är det vanligt, och adekvat i 
+fertilitetsbevarande syfte, att en ovarialresektion är utförd vid den primära kirurgin. Tidpunkten 
+för kompletterande operation med SOE och staging beror på om tumören anses vara  högmalign. 
+Dessa patienter bör diskuteras på MDK både inför och efter kompletterande kirurgi med 
+definitivt histologisk bedömning för behandlingsbeslut.  
+Deltagande läkare vid MDK bör representera bild -och funktionsmedicin, gynekologisk 
+tumörkirurgi, gynek ologisk onkologi samt patologi/cytologi. Kontaktsjuksköterska bör närvara 
+vid konferensen. Därutöver adjungeras vid behov andra specialiteter och professioner, till 
+exempel barn - och urologisk onkolog.  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+38 
+ KAPITEL 11  
+Primär behandling  
+11.1.  Behandling vid Germinalce llstumörer och 
+dysgerminom  
+11.1.1.  Kirurgisk behandling av germinalcellstumörer  
+• Fertilitetsbevarande kirurgi kan utföras vid alla stadier även stadium II -IV. 
+• Vid fall utan önskemål om fertilitetsbevarande kirurgi utförs laparoskopi eller laparotomi 
+med buksköljvät ska för cytologi, SOEB, total uterusexstirpation, omentresektion, multipla 
+peritoneala biopsier från bukens övre och nedre delar.  
+• Lymfkörtelutrymning para -aortalt och bilateralt i bäckenet rekommenderas inte (ej heller 
+vid förmodat stadium I) däremot rekom menderas extirpation av kliniskt förstorade 
+lymfkörtlar.  
+ 
+Ofta diagnostiseras germinalcellstumörer när ovariet eller del av ovariet är laparoskopiskt 
+borttaget på grund av oklar cysta eller solid ovarialtumör. Tvåstegsförfarande för definitivt PAD 
+rekommen deras innan definitiv kirurgisk behandling i en andra seans.  
+Kirurgi vid primäroperation eller eventuell sekundär kirurgi för stadieindelning utförs med 
+laparoskopi alternativt laparotomi med buksköljvätska för cytologi, SOEB, total 
+uterusexstirpation, ome ntresektion, multipla peritoneala biopsier från bukens övre och nedre 
+delar. Iatrogen cystruptur bör undvikas. Lymfkörtelutrymning para -aortalt och bilateralt i 
+bäckenet saknar consensus hos vuxna kvinnor och rekommenderas generellt inte hos yngre 
+kvinnor tack vare den mycket goda prognosen samt att fertiliteten kan komprometteras.  Kliniskt 
+misstänkta  eller uppenbart  förstorade  pelvina  ellerparaaortala lymfkörtlar ska exstirperas.  Det 
+finns inga studier som visat att systematisk lymfkörtelutrymning förbättrar prognosen.  
+Fertilitetsbevarande kirurgi vid germinalcellstumör anses idag vara standard för de kvinnor som 
+önskar bibehålla sin fertilitet. Detta tack vare den mycket goda prognosen även vid avancerade 
+stadier  (36-38). Vid fertilitetsbevarande kirurgi utförs unilateral SOE, buksköljvätska för cytologi, 
+omentresektion samt multipla peritoneala biopsier från bukens övre och nedre delar.  
+Ett makroskopiskt normalt kontralateralt ovarium kvarlämnas även i a vancerade stadier. 
+Kilexcision i ett ovarium med normalt utseende rekommenderas inte. Vid konstaterat stadium IB 
+finns det inga data avseende ovarialresektion. Samtliga fall bör bedömas vid MDK.  
+11.1.1.1.  Gonadoblastom  
+Gonadoblastom är en blandad germinalcell -könsst rängs -stromacell stumör som oftast presenterar 
+sig mellan 10 -20 års ålder. Tumörerna är i regel små. Fenotypen är kvinnlig med virilisering och 
+90 % har Y -kromosom. Kromosomanalys bör utföras. Bilaterala tumörer förekommer mellan  
+30-50 %. Behandlingen är k irurgisk med bilateral SOE. Se även kapitlet Histopatologi.  
+ REGIONALA CANCERCENTRUM  
+ 
+39 
+ 11.1.1.2.  Germinalcellstumörer hos barn  
+Barn och tonåringar med maligna germinalcellstumörer rekommenderas fertilitetsbevarande 
+kirurgi utan lymfkörtelutrymning, och med bevarande av ipsilateral tuba om den  är utan 
+tumörengagemang (39, 40). I en studie av Billmire och medarbetare ingick 119 flickor med 
+maligna germinalcellstumörer och 5 årsöve rlevnaden var mycket god (stadium I 95 %, II 94 %, 
+III 98 % och IV 93 %). Lymfkörtelmetastasering hittades i 19 av 46 lymfkörtlar som togs bort på 
+grund av att de var förstorade eller förhårdnade. I studien av Kumar och medarbetare där man 
+även analyserade  förekomsten av lymfkörtelmetastasering hos kvinnor under 18 år med 
+germinalcellstumörer fann man att 20 % (30 av 150) hade lymfkörtelengagemang (11). 
+11.1.2.  Medikamentell behandling av germinalcellstumörer  
+Vilka ska erhålla postoperativ kemoterapi?  
+• Alla med tumör i stadium > IA  
+• Samtliga stadier av embryonala carcinom, icke -gestationellt choriocarcinom och 
+gulesäckstumörer  
+• Omogna teratom stadium IA, grad 2 -3 
+• Postoperativ kemoterapiregim med bleomycin, etoposi d och cisplatin (BEP).  
+• Vid adjuvant behandling stadium I ges tre cykler  
+• Vid stadium II -IV ges 3 -4 cykler  
+ 
+Vilka behöver inte postoperativ kemoterapi?  
+• Opererade dysgerminom med förmodat stadium IA  
+• Opererade omogna teratom grad 1, med förmodat stadium IA  
+ 
+Germinalcellstumörer är i mycket hög grad platinumkänsliga (jämför med testikelcancer). Cirka 
+90 % av patienterna i stadium I och 75 -80 % av patienterna i stadium II -IV är långtidsöverlevare. 
+Platinumkombinationen cisplatin, vinblastin, bleomycin (PVB) var  den första som  studerades. 
+Senare studier kunde dock uppvisa mindre toxicitet (neurotoxicitet, buksmärtor, förstoppning), 
+men även bättre effekt om vinblastin byttes ut mot etoposid, BEP kur  (41, 42). Högdos cisplatin 
+förbättrar inte resultatet av behandlingen. Det finns inga randomiserande studier som jämfört 
+dubbel kombination av kemoterapi (cisplatin + etoposid) med trippelkombination bleomycin (30 
+000 IE; maxdos 300 000IE), etoposid 100mg/m2, cisplatin 20mg/m2 (43, 44).  
+Med tanke på karboplatinets skonsammare biverkningar så ställer man sig frågan om det kan 
+ersätta cisplatin i BEP regimen. Det finns flera rapporter från framför allt den pediatriska 
+onkologin där man menar att cisplatin kan bytas till k arboplatin med likvärdigt resultat när det 
+gäller behandling av germinalcellstumörer hos flickor. Trots detta håller de flesta internationella 
+riktlinjer fast vid BEP (42, 45, 46). De vanligaste biverkningarna av BEP är illamående, 
+förstoppning, håravfall, neutropeni, njurfunktionspåverkan, hörselpåverkan, tinnitus, Reynauds 
+fenomen, samt bleomycininducerad pneumonit, som är dosberoende. Vad gäller pneumonit bör 
+man vara observant på att nedsatt njurfunktion indirekt kan ge pneumonit eftersom även 
+bleomycinet utsöndras via njurarna (47). Det är angeläget att full dos BEP ges, inom ramen för 
+rekommenderat intervall, för att behålla den kurativa effekten. Behandling med   
+REGIONALA CANCERCENTRUM  
+ 
+ 
+40 
+ granulocytstimulerande tillväxtfaktorer förkortar den neutropena perioden och kan övervägas om 
+intervall och doser inte kan upprätthållas på grund av neutropeni (47, 48).  
+Eftersom denna tumörgrupp i högre grad drabbar kvinnor i fertil ålder s å måste risken att 
+drabbas av prematur ovariell svikt och infertilitet beaktas och diskuteras med patient före 
+behandling. Fertiliteten kan korreleras till antal cykler cytostatika som getts adjuvant, där tre 
+cykler är gräns för en nedgång oavsett om det r ör sig om dysgerminom eller ick -dysgerminom 
+(49). Tillvaratagande av obefruktade eller befruktade ägg, alternativt ovarialvävnad bör övervägas 
+efter remittering till fertilitetsenhet, se även kapitlet Fertilitet, Graviditet och Ovarialcancer. 
+Andra biverkningar att uppmärksamma vid behandling av yngre in divider är kardiovaskulär 
+påverkan med ökad risk för hjärtinfarkt, hypertoni samt sekundärt metabolt syndrom i form av 
+adipositas och insulinresistens (50). Sekundära maligniteter som leukemi efter etoposid 
+behandl ing förekommer. Den kumulativa dosen är avgörande med över 5 % riskökning om den 
+kumulativa dosen etoposid överstiger 2000 mg/m2 (51). 
+11.2.  Medikamentell behandling vid dysgerminom  
+11.2.1.  Stadium I  
+Ingen adjuvant behandling rekommenderas vid stadium IA efter kirurgi (52-54). För patienter 
+med stadium IB -IC rekommenderas adjuvant BEP regim i 3 kurer.  
+11.2.2.  Stadium II -IV 
+Vid stadium II -IV rekommenderas postoperativ kemoterapibehandling med BEP - regim. Det 
+vetenskapliga underlaget är begränsat avseende optimala antalet cykler men i enhetlighet med 
+internationella riktlinjer rekommenderas 3 cykler BEP i den adjuvanta situati onen och 4 cykler 
+BEP i övriga fall (41, 55-57). 
+För selekterade patient er med dysgerminom stadium IB -III för vilka det är kritiskt att minimera 
+biverkningar kan, i den adjuvanta situationen, 3 cykler istället ges med etoposid (120 mg/m2 dag 
+1-3) + karboplatin (400mg/m2; AUC 5 -6, dag 1) givet var fjärde vecka.  
+Dysgerminom är ä ven känsliga för strålbehandling men på grund av risken för långvariga 
+biverkningar rekommenderas den behandlingsmetoden sällan.  
+ REGIONALA CANCERCENTRUM  
+ 
+41 
+ 11.3.  Behandling av övriga germinalcellstumörer (omogna 
+teratom, embryonala carcinom, endodermala sinus 
+tumörer, icke -gestationell ch oriocarcinom  
+11.3.1.  Stadium I  
+Omogna teratom stadium IA, grad 1 behöver ingen adjuvant kemoterapi. Övriga omogna 
+teratom stadium I, grad 2 och grad 3 samt alla embryonala carcinom, gulesäckstumörer eller icke -
+gestationella choriocarcinom rekommenderas postoperati v BEP -regim i 3 cykler (54). Det finns 
+flera små icke - randomiserade studier där patienter i över 90 % förblir recidivfria efter a djuvant 
+BEP. Detta är också vad amerikanska riktlinjer rekommenderar. Behandlingen bör starta så snart 
+efter genomgången kirurgi som möjligt helst efter 1 -2 veckor, framförallt då embryonal 
+differentiering beskrivs i histologin  (58, 59). 
+11.3.2.  Stadium II -IV 
+För stadium II -IV rekommenderas postoperativ kemoterapi med BEP -regim, 4 cykler. Observera 
+emellertid att maxdos av bleomycin måste beaktas.  
+För patienter med omoget teratom och radiologiska tecken på resttumör efter primärbehandling 
+bör reoperation med, om möjligt, radikal resektion övervägas. Om histologin visar enbart mogen 
+vävnad så är patienten färdigbehandlad och ingen ytterligare kemoterapi behöver ges. Emellertid 
+är det viktigt med radikalitet då de mogna teratomresterna kan tillväxa och bli icke -resektabla 
+samt ge trycksymtom  (60). Ett annat skäl till resektion är att man har, i sällsynta fall, sett att 
+mogna teratomrester kan transformeras till adenocarcinom respektive sarkom.  
+Målstyrd behandling, i kombination med kemoterapi eller ensamt kommer säkert framöver att 
+vara ett behandlin galternativ till dessa tumörer. Studier krävs dock men är svåra att genomföra på 
+grund av tumörens ovanliga förekomst. Såväl tyrokinashämmare, till exempel imatinib och 
+sunitinib, som antiangiogenes - hämmare exempelvis bevacizumab, har emellertid, börjat 
+introducerats vid testikelcancer (61). 
+Hos patienter med avancerade stadier av icke -resekta bel tumör kan, oavsett histologi, 
+neoadjuvant cytostatika med 4 cykler BEP vara ett alternativ  (62). 
+11.4.  Behandling vid könssträngscell -stromatumörer  
+• Primärbehandling utgörs av kirurgi enligt principerna för epitelial ovarialcancer men utan 
+lymfkörtelutrymning  
+• Fertilitetsbevarande kirurgi vid barnönskan  
+• Förmodat stadium I rekommenderas ingen postoperativ behandling  
+• Stadium II -IV rekommenderas kemoterapi med BEP eller karboplatin och paklitaxel. 
+Strålbehandling kan övervägas i selekterade fall av stadium II.  
+• Vid recidiv rekommenderas  ställningstagande till recidivkirurgi efterföljt av kemoterapi. 
+Övriga behandlingsalternativ är strålbehandling, hormonell behandling och bevacizumab.  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+42 
+ 11.4.1.  Kirurgisk behandling  
+Behandlingen av granulosacellstumörer är främst kirurgisk. Kirurgi utförs med lapar oskopi 
+alternativt laparotomi med buksköljvätska för cytologi, SOEB, total uterusexstirpation, 
+omentresektion, multipla peritoneala biopsier från bukens övre och nedre delar. Iatrogen 
+cystruptur bör undvikas. Rutinmässig lymfkörtelutrymning para -aortalt oc h bilateralt i bäckenet 
+rekommenderas inte mot bakgrund av den goda överlevnaden vid förmodat stadium I, utan 
+lymfkörtelutrymning, och den låga förekomsten av metastasering till paraaortala eller pelvina 
+lymfkörtlar. Vid kliniskt suspekta körtlar ska dessa  exstirperas. Vid spridd sjukdom eller recidiv 
+rekommenderas maximal tumörreducerande kirurgi.  
+Det finns inga studier som belyser frågan om kirurgisk teknik d v s laparoskopi eller laparotomi. 
+De allra flesta patienter upptäcks och förblir i stadium I även  efter reoperation. Det finns heller 
+inga publicerade studier som rapporterar eventuell förekomst av porthålsmetastaser efter 
+laparoskopisk kirurgi av granulosacellstumörer.  
+11.4.1.1.  Ferilitetsbevarande kirurgi  
+Hos unga kvinnor med granulosacellstumörer har visat p å mycket god 5 års överlevnad (98 %) 
+men dessa data är baserat på små patientkohorter (63, 64). I studien av Chan fick tre av tolv 
+kvinnor som genomgått fertilitetsbevarande kirurgi recidiv efter 15, 16 och 157 månader. De 
+kvinnor som fick recidiv efter 15 och 16 månader opererades med bra resu ltat men patienten 
+med leverrecidiv efter 157 månader avled trots kemoterapi 9 månader senare. 
+Granulosacellstumörer är i 2 -8 % bilaterala men vid normalt utseende på kvarvarande ovarium 
+bör inte biopsi tas för att undvika sammanväxningar och infertilitets problematik. 
+Endometriebiopsi rekommenderas för att utesluta endometriecancer. Efter avslutat barnafödande 
+rekommenderas kontralateral salpingo -ooforectomi samt hysterektomi. Om ovarialresektion har 
+utförts primärt rekommenderas reoperation med unilateral SOE av kvarvarande adnex.  
+11.4.2.  Medikamentell behandling  
+Vid adult granulosacellstumör stadium I rekommenderas ingen postoperativ behandling. Inhibin 
+eller AMH kan följas om dessa varit initialt förhöjda, för övrigt se kapitlet Tumörmarkörer 
+respektive Uppföljni ng. 
+För kvinnor med stadium II -IV rekommenderas platinum -baserad kombinationsbehandling 
+antingen med trippelkombinationen Bleomycin 30 000 IU, Etoposid 100mg/m2, Cisplatin 
+20mg/m2 (BEP) eller kombinationsbehandling med karboplatin och paklitaxel.  
+På 1980 -talet bestod kombinationsbehandlingen av cisplatin, doxorubicin och cyclofosfamid med 
+tumörsvar hos 63 % av åtta behandlade patienter. Under 1990 -talet skedde regimbyte till BEP 
+baserat på studier vid testikelcancer med motsvarande histologi. I en prospekti v studie från MD 
+Andersen mellan 1988 - 1993 behandlades nio patienter med BEP varav 83 % svarade på 
+behandlingen  (65).  En större prospektiv studie omfattande 57 patienter med könssträngs -
+stromacelltumörer (48 med granulo sacellstumörer) stadium II -IV visade komplett remission hos 
+55 av dessa patienter  (66). Fjorton av 38 (37 %) kvinnor hade vid second -look operation 
+mikroskopisk tumörfrihet.  Totalt gavs fyra BEP kurer i stu dien. Två dödsfall rapporterades och 
+var relaterade till bleomycin behandlingen. Effekten av BEP -regimen har bekräftats i flera 
+retrospektiva studier. En mindre retrospektiv studie talar för att effekten av sex kurer kan vara 
+bättre än färre antal behandli ngar vid behandling av stadium III -IV (20). BEP -regimen är  
+ REGIONALA CANCERCENTRUM  
+ 
+43 
+ associerad med utveckling av betydande biverkningar såsom lungfibros relaterat till bleomycin, 
+benmärgshämning (grad 4 granulocytopeni hos 60 % av patienterna), gastroi ntestinala besvär och 
+sekundära maligniteter relaterat till etoposid.  
+Mot bakgrund av risken för dessa biverkningar har taxan -baserade regimer utvärderats i syfte att 
+identifiera en lika effektiv men mindre toxisk regim. En retrospektiv jämförelse mellan t axan-
+baserad behandling med eller utan platinum och BEP inkluderade 222 patienter med antingen 
+nyupptäckt eller recidiv av könssträngs -stromacellstumörer. Tumörsvar och progressionfri 
+överlevnad var likartad för de taxan -baserade behandlingarna och BEP -regimen men den förra 
+hade en mer fördelaktig biverkningsprofil (67). En randomiserad fas II studie pågår för att 
+utvärdera effekten av karboplatin och  paklitaxel versus BEP -regimen. I avvaktan på resultaten 
+från denna studie, vilken kommer ta flera år, bedömer vårdprogramgruppen att 
+kombinationsbehandling med karboplatin och paklitaxel är ett acceptabelt behandlingsalternativ 
+till BEP på grund av dess f örras gynnsammare biverkningsprofil. Vid stadium III -IV 
+rekommenderas totalt 6 kurer. Vid BEP -regim utesluts bleomycinet efter den fjärde kuren.  
+11.4.3.  Strålbehandling  
+Granulosacellstumörer kan svara på strålbehandling, i vissa fall med långtidsöverlevnad. En 
+retrospektiv studie omfattande 14 patienter med mätbar sjukdom (avancerat stadium eller recidiv) 
+rapporterade att 43 % av patienterna uppnådde klinisk komplett remission  (68). Nyligen 
+publicerades resultaten från en retrospektiv studie som visade att adjuvant strålbehandling kan 
+vara effektiv (69). Studien inkluderade 103 patienter under tidsperioden 1961 -2006 med en medel 
+uppföljningstid på 100 månader. Av de 103 patienterna erhöll 31 adjuv ant strålbehandling. De 
+som erhåll strålbehandling hade mer avancerat stadium men trots detta påvisades en förlängd 
+sjukdomsfriöverlevnad på 11 år, jämfört med gruppen som inte erhöll strålbehandling. Någon 
+skillnad i total överlevnad påvisades inte. Studi ens resultat talar för att strålbehandling i 
+selekterade fall kan övervägas vid lokaliserad sjukdom.  
+11.4.4.  Målstyrd behandling  
+Bevacizumab, en angiogeneshämmare, har visat sig ha aktivitet vid granulosacellstumörer enligt 
+retrospektiva  data omfattande åtta patie nter (70). Amerikanska studier har visat att 94 % av 
+granulosacellstumörer uttrycker tillväxtfaktorn VEGF samt att överuttryck av VEGF och ökad 
+kärldensitet är associerat till sämre prognos (70, 71). En europeisk prospektiv randomiserad fas II 
+studie har nyligen startat som jämför paklitaxel givet varje vecka versus samma regim i 
+kombination med bevacizumab efterföljt av underhållsbehandling med enbart bevacizumab vid 
+återfall av granulosacellstumörer, den så kallade Alienorstudien. Nyligen stängde rekryteringen till 
+en annan prospektiv studie med bevacizumab vid recidiv av granulosacellstumör (40). 
+Under de senaste åren har framsteg inom forskningen ökat vår kunskap om den bakomliggande 
+molekylärbiologin av granulosacellstumörer. Ett kanadensiskt forskningsteam rapporterar att 
+FOXL2 mutationer förekommer så gott som hos alla (86 av 89) adulta gran ulosacellstumörer (8, 
+72, 73). FOXL2 mutationer resulterar i uttryck av enzymet CYP17 och en spansk prospektiv fas 
+II studie har nyligen startat för att utvärdera aktiviteten av ketoconazole, en känd hämmare av 
+CYP 17 vid granulosacellstumörer. Enstaka rapporter har skett av c -kit positiva 
+granulosacellstumörer som svarat på behandling med imatinib (74). 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+44 
+ 11.5.  Tekom  
+Dessa tumörer är benigna  (75). Rena tekacellstumörer föreko mmer inte före puberteten; 
+medelålder vid insjuknandet är 60 år. Tumörstorleken varierar från mycket små till sådana med en 
+tumördiameter på 20 cm. De flesta tekacellstumörer utsöndrar östrogen och huvuddelen av 
+patienterna får vaginala blödningar. Cirka 2 0–30 % av patienterna utvecklar endometriecancer. 
+Många tekacellstumörer upptäcks som bifynd i samband med behandling av en 
+endometriecancer. Behandling av post - och perimenopausala kvinnor bör vara bilateral SOE och 
+hysterektomi. Yngre kvinnor, där målet är att bibehålla fertiliteten, behandlas med ensidig 
+ooforektomi.  
+11.6.  Fibrom  
+Fibrom är benigna, oftast ensidiga tumörer . Fibromen är de vanligast före kommande 
+könssträngs -stromacellstumörerna. Även dessa kan variera i storlek, från minimala förändringar 
+till stora tumörmassor. De ger ofta ett malignt intryck vid palpation; man känner en hård 
+resistens på ovariets plats. Vid fibrom, men även tekacellstumörer, förekommer ibland Meigs 
+syndrom, som består av ovarialresistens, ascites och pleuraexsudat med benign cy tologi. Fibrom 
+behandlas kirurgiskt med avlägsnande av tumörförändringen.  
+11.7.  Fibrosarkom  
+Fibrosarkom är en ytterligt sällsynt högmalign tumörform. Denna tumör behandlas med radikal 
+kirurgi. Någon vedertagen adjuvant kemoterapi finns inte.  
+11.8.  Sertoli –Leydigcellstumörer  
+Rekommendationer  
+• Primärbehandling  utgörs av kirurgi enligt principerna för epitelial ovarialcancer men utan 
+lymfkörtelutrymning.  
+• Fertilitetsbevarande kirurgi vid barnönskan.  
+• Adjuvant BEP rekommenderas vid stadium I och lågt diffe rentieringsgrad eller heterologa 
+komponenter, samt alla stadium II -IV. 
+ 
+Sertoli –Leydigcellstumörer (SLCT) är bilaterala i mindre än 1 % av fallen. Tumörformerna 
+drabbar framförallt kvinnor yngre än 40 år (medelålder 25 år) och producerar i regel androgener . 
+Virilisering noteras i 70 -85 % av fallen och är i viss mån reversibel efter avlägsnande av tumören. 
+Symtomen inkluderar oligo - och amenorré, hirsutism, akne och djupare röst. Patienten utvecklar 
+manligt hårfäste, klitorisförstoring och larynxförstoring. Förhöjda värden av testosteron och 
+androstendion förekommer ofta. Merparten av de rena Sertolicellstumörerna utsöndrar östrogen 
+och patientens symtom är relaterade till detta.  
+SLCT är som grupp lågmaligna men vissa lågt differentierade former kan ha ett me r aggressivt 
+förlopp. Majoriteten tumörer diagnostiseras i stadium IA. Den kirurgiska behandlingen är 
+densamma som för adult granulosacellstumör hos såväl kvinnor i barnafödande ålder som 
+postmenopausala kvinnor. Kunskapen om mest effektiva kemoterapi vid SLCT är begränsad. 
+Responser har rapporterats efter behandling med framförallt BEP -regim (76). 
+ REGIONALA CANCERCENTRUM  
+ 
+45 
+ Olika rapporter uppvisar en 5 -årsöverlevnad på 70 – 90 % (75). I en retrospektiv studie 
+inkluderande 21 kvinnor med SLCT rapporteras en total  
+5-årsöverlevnad på 100 % för patienter med högt differentierade tumörer och 77.8% för 
+medelhögt - lågt differentierade tumörer och som ej erhållit postoperativ kemoter api (77). Den 
+totala 5 -årsöverlevnaden var 92,3 % för stadium I och 33, 3 % för mer avancerade st adier. 
+Nyligen publicerades en retrospektiv studie inkluderande 40 patienter med SLCT (76). Även 
+dessa resultat talar för att adjuvant kemoterapi bör rekommenderas vid stadium I och låg 
+differentieringsgrad eller heterologa komponenter, samt patienter med stadium II -IV. 
+Molekylärbiologiska studier har nyligen rapporterat om förekomsten av DICER1 mutationer vid 
+SLCT (78). DICER  1 kodar ett enzym som krävs för produkti onen av mogna microRNAs, s om 
+är kritiska för normal organ utveckling. Fyndet kan tala för en association mellan SLCT och 
+pleuropulmonärt blastom, en barncancerform som uppkommer från mesenkymet i pleura. Det är 
+oklart om DICER1 mutationer kan användas som m åltavla för framtida behandlingar.  
+11.9.  Behandling övriga ovanliga tumörer  
+11.9.1.  Småcellig cancer, hypercalcemisk typ  
+Småcellig ovarialcancer av hypercalcemisk typ (small cell ovarian carcinoma of the hypercalcemic 
+type, SCCOHT) är en sällsynt och aggressiv ovarialca ncer som framförallt drabbar den yngre 
+kvinnan. Prognosen är dålig trots att en majoritet av fallen diagnosticeras med en unilateral tumör 
+utan spridning. Överlevnaden i stadium IA har rapporterats vara 30 -40 %  (79). Debutsymtomen 
+skiljer sig inte nämnvärt från epitelial ovarialcancer men cirka 70 % av patienterna uppvisar 
+hyperkalcemi. SCCOHT kan skiljas från andra ovarialcancerformer med immunohistokemisk 
+färgning för SMARCA4  (80). Dessa tumörer härbärgerar sålunda mutationer i SMARCA4 -genen 
+och uttrycker, till skillnad från de flesta andra cancerformer, därför inte SMARCA4 -protein.  
+Givet att sjukdomen har ett aggressivt förlopp rekommenderar de fles ta författare att patienten 
+opereras med radikal kirurgi (81). Data är otillräckliga för understödjande av fertilitetsbevarande 
+ingrepp, men konservativ kirurgi kan i selekterade fall övervägas  (79). 
+Det finns inte några prospektiva studier som belyser vilken typ av postoperativ behandling 
+patienter med SCCOHT bör erbjudas. Endast små retrospektiva studier finns publicerade. I en 
+retrospektiv studie från 2006 inom ramen för GCIG redovisar Harrison och medförfattare 
+utfallet för 17 patienter. Man fann en bättre överlevnad för patienter i stadium I än vad s om 
+tidigare redovisats med sju av tio patienter i livet efter en median uppföljningstid på 40 månader. 
+Alla patienter erhöll postoperativ platinumbaserad kemoterapi varav tio en kombination 
+innehållande cisplatin och etoposid. Fem av dessa patienter är lån gtidsöverlevare och har utöver 
+kemoterapi även erhållit postoperativ strålbehandling. Fem patienter erhöll 
+kombinationsbehandling med paklitaxel och karboplatin men med recidiv under pågående eller 
+snabbt efter avslutad behandling (82). Ytterligare en retrospektive studie omfattande 47 patietner 
+med SCCOHT behandlade på MD Anderson Cancer Center mellan 1990 till 2014 visar att 
+kombinationsbehandling av kemoterapi och  eventuellt strålbehandling kan öka överlevnaden 
+(83). 
+Fall av SCCOHT bör diskuteras på MDK, helst på nationell nivå. Rekommendationen idag är att 
+erbjuda dessa patienter postoperativ kemoterapi med en kombination av etoposid och cisplati n. 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+46 
+ 11.9.2.  Småcellig cancer, pulmonell typ  
+Småcellig cancer av pulmonell typ (small cell carcinoma of the ovary, pulmonary type, SCCOPT) 
+är en extremt ovanlig och högmalign typ av ovarialcancer. Vid en genomgång av 21 publicerade 
+fall av småcellig cancer av pulmon ell typ (stadium IA -IV) var fem recidivfria efter en 
+uppföljningstid på mellan 21 och 90 månader efter postoperativ kombinationsskemoterapi 
+innehållande åtminstone etoposid och ett platinumpreparat (84).  
+Fall av SCCOPT bör diskuteras på MDK och synpunkter vid behov inhämtas från 
+lungonkologer. Rekomendationen är om möjligt radikal kirurgi och postoperativ kemoterapi med 
+en kombination av etoposid och platinumpreparat (cisplat in eller carboplatin)  (79).  
+11.9.3.  Storcellig neuroendokrin cancer  
+Storcellig neuroendokrin ovarialcancer, eller odifferentiera carcinom av icke - småcellig 
+neuroendokrin typ, är en sällsynt form av ovarialcancer med färre än 50 fall beskrivna i 
+litterat uren (85). I de flesta fall uppvisar tumören en epitelial komponent (ofta endometrioid) och 
+usprunget tros vara monoklonalt  (86). Mer sällan ses tumören som en del av ett teratom eller som 
+en renodlad neuroendokrin tumör. Storcellig neuroendokrin ovarialcancer är en högmalign 
+cancer med en ytterst dålig prognos där en majoritet av patienterna har avlidit inom ett år från 
+diagnos (87, 88).  
+Konsensu s kring hur dessa patienter bör behandlas finns inte, men beaktande epitelialt ursprung 
+och rapporterad effekt av platinum  (89) rekomenderas cytoreduktiv kirurgi efterföljt av adjuvant 
+platinumbaserad kemoterapi . 
+11.9.4.  Adenosarkom  
+Adenosarkom med ursprung i ovariet är en sällsynt, malign ovarialtumör med cirka 60 fall 
+beskrivna i littera turen (90). Tumören består av en benign och lätt atypisk epitelial komponent 
+samt en malign, ofta högt differentierad, stromal komponent.  
+Ovariellt adenosarkom har oftare ett aggressivare förlopp än dess motsvarighet i uterus, sannolikt 
+för att den i större utsträckning sprids peritonealt (91). Eichhorn och medarbetare har i en artikel 
+från 2002 gjort en genomgång av 40 fall med ovariellt adenosarkom. I 32 fall fanns  
+uppföljningsdata som visade att 20 patienter (62,5 %) drabbades av recidiv med en mediantid till 
+recidiv på 2.6 år. 12 patienter (37,5 %) avled till följd av sin tumörsjukdom. I tio fall (31,2 %) 
+erhöll patienten postoperativ behandling i form av kemotera pi, strålbehandling eller en 
+kombination av båda Nio patienter drabbades trots detta av recidiv.  
+Patienter med ovariellt adenosarkom bör erbjudas cytoreduktiv kirurgi som vid epitelial 
+ovarialcancer. Befintliga data tillåter inga säkra slutsatser om vilke n typ av efterbehandling som 
+sedan är att rekommendera och för vilka patienter. Möjligen kan typ av sarkomatös komponent 
+styra val av postoperativ behandling där endometriestromasarkom -liknande tumörer eventuellt 
+kan erbjudas hormonell terapi och/eller str ålbehandling medan kemoterapi kan vara aktuellt för 
+fibrosarkom -liknande tumörer (92). 
+ REGIONALA CANCERCENTRUM  
+ 
+47 
+ 11.9.5.  Mesonefrisk adnextumör  
+Mesonefrisk adnextumör (Female adnexal tumor of probable Wolff ian origin, FATWO) är en 
+indolent och lågmalign tumör med drygt 70 fall beskrivna i litteraturen. Tumören anses utvecklas 
+från rester av mesonefrisk vävnad (Wolffska gången) och är oftast lokaliserad till ligamentum 
+latum. Endast enstaka fall av spridd sju kdom eller recidiv har beskrivits. Någon rekommendation 
+kring ytterligare behandling utöver kirurgi finns i dagsläget inte (93). 
+11.9.6.  Carcinosarkom  
+Carcinosarkom (malignant mixed mesodermal tumors/malignant mixed müllerian tumor, 
+MMMT) är en  ovanlig ovarialtumör som består av  en malign epitelial och  en sarkomatös 
+komponent. Carcinosarkom klassas och behandlas som epitelial ovarialcancer. Patogenesen är 
+oklar, men sannolikt representerar carcinosarkomen metaplastiska carcinom  (94). Liknande den 
+transdifferentierin g som sker vid den exfoliativa spridningen av ett seröst adenocarcinom, kan 
+transformation av ett carcinom till ett sarkom ske via s.k. epitelial -till-mesenkymal transition (86). 
+Mellan 80 och 90 % av de ovariella carcinosarkomen diagnosticeras i stadium II -IV och 
+prognosen är sämre än för seropapillär ovarialca ncer med en sjukdomsspecifik femårsöverlevnad 
+understigande 30 %   (95, 96). Femårsöverlevnaden i stadium I är 65 -75 % (96, 97). Ett knappt 
+tiotal små studier visar att radikal kirurgi enligt principerna för epitelial ovarialcancer förlänger 
+överlevnaden (98). Retrospektiva studier talar också för en överlevnadsvinst efter 
+platinumbaserad kemoterapi (94, 99). Responsraten vid kombinationsbehandling med platinum 
+och taxan är dock lägre än vid behandling av höggradigt serösa cancrar (98). Prospektiva 
+randomiserade studier av adjuvant behandling  saknas helt.  
+Behandlingsrekomendationerna är desamma som för epitelial ovarialcancer: cytoreduktiv kirurgi 
+och platinumbaserad kemoterapi. Fertilitetsbevarande kirurgi rekommenderas inte, oavsett ålder.  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+48 
+ KAPITEL 12  
+Tumörutvärdering,  uppföljning 
+och behandl ing av återfall  
+12.1.  Tumörutvärdering  
+Klinisk undersökning inklusive gynekologisk undersökning, bedömning av performance status 
+enligt ECOG, tumörmarkörer, bild -och funktionsdiagnostik samt biverkningsrapportering utgör 
+grundstommen vid utvärdering av antitumor albehandling. Dessa undersökningar utförs vanligen 
+före start av behandling, efter tre cykler och vid avslutande av planerad behandlingt. Se även 
+kapitlet om Tumörmarkörer.  
+Vid adjuvant kemoterapi av tidigt stadium räcker det med undersökningar före start av 
+behandling och i samband med avslutande av behandling. Biverkninguppföljning bör dock ske 
+inför varje cykel.  
+Mätning av förändringar i tumörbördan är viktigt för att kliniskt kunna utvärdera effekten av 
+antitumoral behandling, både avseende minskning av  tumörstorlek (objektiv respons) och 
+sjukdomsprogress. I regel används DT thorax och buk som underlag för tumörutvärdering av 
+respons. DT thorax och buk bör därför ha utförts före start av antitumoral behandling. Enligt 
+RECIST version 1.1 kategoriseras tum örlesioner/lymfkörtlar som mätbara eller icke -mätbara. 
+Summan av alla diametrar av de mätbara lesionerna beräknas och denna summa används som 
+referensvärde. Definition av responskriterier enligt RECIST 1.1, se Nationellt vårdprogram 
+Äggstockscancer.  
+Patientskattad biverkningsrapportering rekommenderas och även användandet av CTC 
+(Common Terminiology Criteria  for Adverse Events) version 4.03, se webadress nedan. 
+(http://ctep.cancer.gov/protocolDevelopment/electronic_applications/ctc.htm  
+12.2.  Prognostiska faktorer vid granulos acellstumörer  
+Karakteristiskt för granulosacellstumörer är risken för mycket sent uppkomna recidiv, upptill 37 
+år efter primärdiagnosen. Majoriteten av recidiv uppkommer dock inom 5 till 10 år efter avslutad 
+primärbehandling.  
+Den mest tillförlitliga progno stiska faktorn vid granulosacellstumörer är stadium och kvarvarande 
+tumör efter operationen (100, 101). Eftersom tumören hos majoriteten av kvinnor är begränsad 
+till ovariet är prognosen mycket god. Total 5 -års överlevnad inkluderande alla stadier rapporteras 
+variera mellan 88 -100% och 10 -års över levnad mellan 78 -95 % (102, 103). För kvinnor med 
+stadium I rapporteras en 5 -årsöverlevnad på över 90 % och en 10 -års överlevnad mellan 85 -95 
+%. Överlevnadssiffran efter 20 år är mellan 60 och 75 % vilket återspeglar risken f ör sent 
+uppkomna recidiv (102, 104).  
+ REGIONALA CANCERCENTRUM  
+ 
+49 
+ Eftersom majoriteten av patienter, 60 -90 % upptäcks i stadium I har studier av prognostiska 
+faktorer i princip enbart relaterats till stadium I tumörer. Mot bakgrund av tumörens relativa 
+sällsynthet och dess långsamma tillväxt finns stora brister i de studier som publicerats. 
+Prospektiva studier saknas. Några säkra och validerade prognostiska faktorer förutom stadium 
+finns därför inte. Tumörstorlek, tumörruptur, morfologiskt mönster, kärnatypi, mitotiskt index 
+och DNA -ploidi har utvärderats  retrospektivt men resultaten är motsägelsefulla (104). 
+Prognosen vid avancerad sjukdom och recidiv är betydligt sämre och snarlik den för ep itelial 
+ovarialcancer (77, 105). Sjukdomsförloppet är vanligen långdraget. Patienter med spridd sjukdom 
+eller recidiv är i regel inte så påverkade av sin tumör som exempelv is de med epitelial 
+ovarialcancer.  
+12.3.  Uppföljning  
+Rekommendation  
+Kontrollintervall  År 1-2 År 3-5* 
+MOGCT  
+1) Pat som beh med enbart 
+kirurgi  
+2) Pat som beh med 
+fertilitetsbevarande kirurgi 
+oavsett adjuvant kemoter api 
+eller ej  
+3) Pat med normal eller 
+okänd tumörmarkörstatus 
+vid diagnos  3:e månad:  
+Klinisk kontroll  
+TVU 
+Tumörmarkör er 
+ 
+6:e månad  
+DT thorax och DT buk  
+alt MR buk  6:e månad:  
+Klinisk kontroll  
+TVU 
+Tumörmarkörer  
+MOGCT  
+Övriga  3:e månad:  
+Klinisk kontroll  
+Tumörmarkörer  6:e månad:  
+Klinisk kontroll  
+Tumörmarkörer  
+SCST  3:e månad : 
+Klinisk kontroll  
+TVU1 
+Tumörmarkörer  6:e månad:  
+Klinisk kontroll  
+TVU1 
+Tumörmarkörer  
+1 Hos kvinnor som genomgått fertilitetsbevarande kirurgi  
+* För patienter med adult granulosacellstumör bör man överväga förlängd uppföljning  
+ 
+  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+50 
+ Även  om den initiala handläggningen och behandlingen av maligna germinalcells  
+tumörer (MOGCT) och gonadala könssträngs - och stromacellstumörer (SCST) är likartade, 
+skiljer sig recidivmönstret åt mellan tumörgrupperna. Recidiv av germinalcellstumörer kommer  
+oftast inom  två år efter diagnos  medan recidiv av SCST  kommer i genomsnitt efter fyra till sex år, 
+och undantagsvis ännu senare  (106) . 
+Det finns inga studier som belyser frågan om hur patienter med icke -epitelial malign 
+äggstockstumör ska följas upp. Ett fåtal organisationer som The European Society for Medical 
+Oncology (ESMO), National Comprehensive Cancer Network (NCCN) samt The European 
+Society of Gynaecological Oncology  (ESGO) har publicerat kliniska riktlinjer där 
+rekommendationer fattats genom beslut i expertkonsensus (107-109). Vidare finns 
+rekommendationer från Storbrit annien som förordar tätare kliniska och radiologiska kontroller 
+för patienter med MOGCT och framför allt för de patienter där man valt att avstå från adjuvant 
+cytostatika då dessa patienter har en högre recidivrisk (110). 
+DT thorax -buk är förstahandsmetod vid eventuell bilddiagnostisk undersökning i 
+uppföljningsskedet (enligt ovan). Om man tillföljd av patientens unga ålder och förmodat stort 
+antal upprepade undersökningar överväger MRT buk i stråldosbegränsande syfte bör denna 
+följa princi per för diagnostik/uppföljning av ovarialexpansiviteter med MRT  (111). Det bör 
+vara en riktad undersökning av nedre buk/lilla b äckenet med adekvat ytspole samt även 
+inkludera övre buk där vid sidan av morfologisk avbildning, även sekvenser med 
+diffusionsviktning bör ingå.  
+ 
+Sammanfattningsvis är det vetenskapliga underlaget för hur patienter med MOGCT och SCST  
+bör följas upp begränsat. I de studier  och riktlinjer som vi tagit del av görs heller  ingen  åtskillnad 
+mellan  patienter som genomgått fertilitetsbevarande kirurgi eller radikal kirurgi med avseende på 
+hur länge dessa patienter bör följas upp. Då SCST  till sin natur är mer långsamt  växande och 
+recidiverar senare förefaller det rimligt att uppföljningen av dessa patienter sker över en längre 
+tid. Givet  att det rör sig om sällsynta tumörgrupper, med olika karaktäristika, är det mindre 
+sannolikt att vi inom  en snar framtid kommer  ha en större vetenskaplig tyngd  i våra 
+rekommendationer.  
+12.4.  Utredning av återfall  
+• Tumörmarkörer som varit förhöjda vid primär diagnos bör tas.  
+• DT thorax och buk bör utföras för att kartlägga tumörutbredning inför behandlingsbeslut  
+• Inför ställningtagande  om recidivkirurgi rekommenderas PET -CT och eventuellt MR 
+bäcken, i analogi med epitelial ovarialcancer  
+• Laparoskopisk kartläggning kan vara värdefull för histopatologisk diagnostik och 
+kartläggning av tumörutbredning inför MDK och behandlingsbeslut. Man ka n generöst 
+överväga kirurgisk exploration.  
+ 
+Återfallsbehandling se respektive kapitel om b ehandling.  
+ REGIONALA CANCERCENTRUM  
+ 
+51 
+ 12.5.  Behandling av återfall  
+12.5.1.  Recidivbehandling vid germinalcelsstumörer  
+De flesta recidiv (cirka 90 %) av germinalcellstumörer kommer inom 2 år efter avslutad 
+kemoterapi. Tumörerna är ofta långsamt växande och ofta resistenta mot kemoterapi där 
+sjukdomskontroll bara uppnås i ca 10 % av fallen. Recidiverande stadium IA behandla s med BEP 
+med mycket gott resultat, över 90 %  
+5-årsöverlevnad  (112). 
+Platinumkänsliga tumörer, det vill säga tumör som recidiverar mer än 6 månader efter avslutad 
+platinuminnehållande kemoterapibehandling, kan på nytt behandlas med platinum kombinationer 
+i enligh et med vad som ges vid testikelcancer, exempelvis etoposid -ifosfamid -cisplatin  (PEI) eller 
+paclitaxel -ifosfamid -cisplatin (TIP). Vid platinumresistenta recidiv kan vincristine -actinomycin D -
+cyklofosfamid eller paclitaxel -gemcitabin vara behandlingsalternat iv. Dessa fall bör diskuteras på 
+multidisciplinär konferens inkluderande onkologer specialiserade på testikelcancer.  
+En utvald grupp patienter såsom patienter med lokaliserade recidiv och utan 
+tumörmarkörstegring med återfall kan dra nytta av sekundär tumö rreducerande kirurgi (23). Vid 
+malign transformering i mogna teratom till exempel skivepitelcancer, thyroideacan cer, carcinoid 
+bör behandling anpassas till den typ av malign tumör som det rör sig om.  
+12.5.2.  Recidivbehandling vid könssträngstumörer  
+Recidiv i bukhålan är vanligast (19 -44 %) medan retroperitoneala recidiv förekommer i upp till 
+15 % (17, 19, 77). Kirurgi är hörnstenen vid recidiv  (113). Recidiv till lever och skelett finns 
+rapporterat  (103). 
+Det finns ingen standardbehandling vid recidiv av granulosacellstumörer. Både sekundär 
+tumörreducerande kirurgi, kemoterapi, strålbehandling och hormonell behandling bör tas i 
+beaktande och behandlingsplanering ske  på multidisciplinär konferens. I en studie av 
+Fotopoulous och medarbetare omfattande 27 patienter med recidiv av granulosacellstumörer 
+fann man peritonealcarcinos i buken hos 52  % av patienterna och 33 % hade peritonealcarcinos 
+även i övre delen av buken.  Makroskopisk tumörfrihet uppnåddes hos 85 % av recidivpatienterna 
+med aggressiv kirurgi. Inga överlevnadsdata har rapporterats  
+Om kvinnan inte tidigare erhållit behandling med kemoterapi rekommenderas BEP -regim. Andra 
+regimer såsom paklitaxel veckovis, k ombinationsbehandling paklitaxel och karboplatin och 
+docetaxel kan övervägas. Palliativ strålbehandling kan vara effektiv vid icke -operabla isolerade 
+recidiv eller för symtomlindring (114). Hormonell behandling är en tilltalande behandling på 
+grund av dess milda biverkningar.  Flera små retrospektiva studier och fallrapporter talar för att 
+granulosacellstumörer uttrycker estrogen receptorer i viss mån men framförallt 
+progesteronreceptorer. Behandling med tamoxifen, gestagener, GnRH analoger eller aromatas 
+inhibitorer (anastrozo l, letrozole) har använts och i vissa fall har långstidsremission uppnåtts (65, 
+115-117).  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+52 
+ KAPITEL 13  
+Understödjande vård  
+13.1.  Hormonsubstitution (HRT) efter avslutad 
+primärbehandling  
+Rekommendationer  
+• En klar majoritet av patienterna som genomgått fertilitetsbevarande kirurgi och 
+cisplatinbaserad kemoterapi kommer att återfå regelbunda menstruationer och kommer 
+inte att behöva hormonsubstitution.  
+• Patienter i iatrogen menopaus bör erbjudas hormonsubstitution upp till naturlig 
+menopausålder i enlighet med rekommendationerna för epitelial ovarialcance r. Hos 
+kvinnor med kvarvarande uterus rekommenderas kombinationsbehandling.  
+• För patienter med granulosacellstumör bör hormonsubstitution endast erbjudas efter 
+noggrant övervägande. För dessa kvinnor rekommenderas kombinationsbehandling.  
+ 
+En klar majoritet av alla patienter med germinalcellstumörer som genomgått fertilitetsbevarande 
+kirurgi och efterföljande cisplatinbaserad kemoterapi kommer att återfå regelbundna 
+menstruationer som tecken på bevarad ovariell funktion  (118). 
+Det finns inga studier avseende germinalcellstumörer och SCST och hormonsubstitution. I 
+genomgången litteratur rekommenderas generellt att patienter i iatrogen menopaus bör erbjudas 
+hormonsubstitut ion. Somliga författare menar dock att patienter med granulosacellstumörer bör 
+undantas på grund av tumörernas endokrina natur medan andra hävdar motsatsen  (119, 120).  
+ 
+ REGIONALA CANCERCENTRUM  
+ 
+53 
+ KAPITEL 14  
+Palliativ vård och insatser  
+Se Nationellt vårdprogram för palliativ vård.  
+www.cancercentrum.se/samverkan/vara -uppdrag/rehabilitering -och-palliativ -vard/palliativ -
+vard/vardprogram/  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+54 
+ KAPITEL 15  
+Omvårdnad och rehabilitering  
+För omvårdnad, understödjande vård, psykosocialt omhändertagande, rehabilitering samt palliativ 
+vård hänvisas till Nationellt vårdprogram Äggstockscancer 2015.  
+http://www.cancercentrum.se/samverkan/cancerdiagnoser/gynekologi/aggstock/vardprogram/
+gallande -vardprogram -aggstocksca ncer/  
+Icke-epitelial äggstockscancer drabbar i regel unga kvinnor. Ung Cancer är en ideell organisation 
+för unga cancerdrabbade mellan 16 -30 år. De arbetar för att förbättra unga vuxna 
+cancerdrabbades levnadssituation och för att skapa bästa möjliga föruts ättningar både under och 
+efter deras sjukdomstid. Ung cancer är de unga vuxna cancerdrabbades röst mot såväl vården 
+som politiken. Organisationen arbetar för unga cancerdrabbade och närstående genom att skapa 
+mötesplatser för att de ska träffa andra i likn ade situation, både på internet och i verkliga livet. 
+(Cancer varden nr 1 2012, http://www.ungcancer.se  
+Gynsam är Gyncancerföreningarnas Nationella Samarbetsorganisation som är en ideell 
+organisation som är religiöst  och politiskt obunden. Syftet är att stödja kvinnor med gynekologisk 
+cancer och deras närstående. Genom att påverka politiker, beslutsfattare och den allmänna 
+opinionen arbetar Gynsam för att gemensamma riktlinjer och en gemensam vårdplan antas för 
+hela S verige och att alla oavsett var man bor skall ha tillgång till det senaste inom den 
+gynekologiska cancervården. Inom Gynsam finns Nyck – Nätverket för Yngre 
+Cancerdiagnostiserade Kvinnor som främst är verksamt genom ett diskussionsforum på nätet. 
+http://www.gynsam.se  
+15.1.  Lagstöd  
+Den som har i uppdrag att säkerställa patientens delaktighet i vården bör känna till innehållet i 
+patientlagen (patientlagen 2014:821). Där anges t.ex. att patienten ska få information om 
+biverkninga r och att patienten har rätt att få en ny medicinsk bedömning.  
+15.2.  Kontaktsjuksköterska  
+Den nationella cancerstrategin styrker att varje patient ska erbjudas en kontaktperson på den 
+cancervårdande kliniken med syfte att förbättra informationen och kommunikati onen mellan 
+patienten och vårdenheten och stärka patientens möjligheter till delaktighet i vården (SOU 
+2009:11). Sedan 2010 finns en lagstadgad rätt till fast vårdkontakt (hälso - och sjukvårdslagen 
+1982:763).  
+Staten och Sveriges Kommuner och Landsting har  enats om en gemensam generell beskrivning 
+av kontaktsjuksköterskans roll och funktion. Den finns att läsa på 
+http://cancercentrum.se/samverkan/patient -och-narst aende/kontaktsjukskoterska/  
+Att patienten har erbjudits en namngiven kontaktsjuksköterska ska dokumenteras i patientens 
+journal och om möjligt registreras i kvalitetsregister.  
+ REGIONALA CANCERCENTRUM  
+ 
+55 
+ 15.3.  Min vårdplan  
+En individuell skriftlig vårdplan, kallad Min vårdplan, ska tas fr am för varje patient med cancer. 
+Det framgår i den nationella cancerstrategin för framtiden (SOU 2009:11) och i de 
+patientcentrerade kriterierna som ska utmärka ett regionalt cancercentrum (Socialdepartementet: 
+2011). Läs mer på http://cancercentrum.se/samverkan/patient -och-narstaende/min -vardplan/   
+15.4.  Aktiva överlämningar  
+Under patientens tid i cancervården förekommer ofta överlämningar mellan olika vårdgivare. För 
+att skap a en sammanhållen vårdkedja för patienten och de närstående ska alla överlämningar vara 
+”aktiva”.  
+Aktiv överlämning innebär att den som har ansvaret för patienten tar kontakt, muntligt och 
+skriftligt, med nästa instans. Den som aktivt överlämnat har fortsa tt ansvar till dess att 
+mottagande instans bekräftat att de tagit kontakt med patienten. Uppstartade åtgärder och 
+insatser inom omvårdnad, palliation och cancerrehabilitering ska följas upp, utvärderas och 
+dokumenteras i Min vårdplan.  
+http://cancercentrum.se/samverkan/patient -och-narstaende/kontaktsjukskoterska/  
+http://www.cancercentrum.se/norr/patient -och-
+narstaende/kontaktsjukskoterska/informationsbroschyr/  
+15.5.  Löpande cancerrehabilitering  
+Cancerrehabilitering syftar till att förebygga och minska de fysiska, psykiska, sociala och 
+existentiella följderna  av en cancersjukdom och dess behandling. Insatserna ska ge patienten och 
+de närstående stöd och förutsättningar att leva ett så bra liv som möjligt. Se det nationella 
+vårdprogrammet för rehabilitering.  
+http://www.cancercentrum.se/samverkan/vara -uppdrag/rehabilitering -och-palliativ -
+vard/rehabilitering/vardprogram/  (kap 5.2, 7.1, 9.1 -9.3) 
+15.5.1.  Regelbunden behovsbedömning för patienter och närstående  
+Cancerrehabilitering är aktuellt under hela processen från misstanke om cancersjukdom och 
+framåt. Behovet av rehabilitering ska därför bedömas regelbundet. Patienten och de närstående 
+ska återkommande få information om vilka rehabiliteringsb ehov som är vanliga och vilka insatser 
+som erbjuds. I patientens skriftliga vårdplan, Min Vårdplan, ska cancerrehabilitering ingå. Vissa 
+rehabiliteringsbehov, till exempel lymfödem, kan kräva behandling livet ut.  
+Såväl patienter som närstående kan omfattas  av rehabiliteringsinsatser. Närstående kan vara 
+exempelvis partner, barn, förälder, syskon eller annan person som patienten anser sig ha nära 
+relation till. Barn som anhöriga har en särställning då hälso - och sjukvården enligt 2g § hälso - och 
+sjukvårdslag en har skyldighet att ge dem information, råd och stöd.  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+56 
+ 15.5.2.  Grundläggande och specialiserad rehabilitering  
+All personal inom hälso - och sjukvården ska göra grundläggande behovsbedömningar och ge 
+grundläggande insatser inom cancerrehabilitering. Vid mer avance rade behov ska patienten alltid 
+erbjudas insatser från professioner med specialkompetens inom rehabilitering, exempelvis 
+kurator, fysioterapeut, psykolog, arbetsterapeut och dietist. Även andra professioner som 
+sjuksköterska, läkare och tandläkare kan arbe ta specialiserat med cancerrehabilitering.  
+ REGIONALA CANCERCENTRUM  
+ 
+57 
+ KAPITEL 16  
+Egenvård  
+Rekommendationer  
+• Patienten bör rekommenderas att avstå från rökning och att vara uppmärksam på sina 
+alkoholvanor.  
+16.1.  Nationella riktlinjer  
+Socialstyrelsens nationella riktlinjer för sjukdomsförebyggande metoder är användbara även 
+under cancerbehandlingen. De innehåller kunskaps - och beslutsstöd i mötet med patienten och 
+rekommenderar olika typer av rådgivning.  
+http://www.socialstyrelsen.se/nationellariktlinjerforsjukdomsforebyggandemetoder  
+16.2.  Rökning  
+Om patienten är rökare bör vårdpersonalen informera om rökningens negativa effekter vid 
+operation och strålbehandling, och hänvisa patienten till  rökavvänjning via primärvården eller 
+den specialiserade vården som kan ge hjälp med rökstopp (121-126).  
+http://www.cancercentrum.se/samverkan/vara -uppdrag/rehabilitering -och-palliativ -
+vard/rehabilitering/vardprogram/  (kap 15.3)  
+16.3.  Komplementär och alternativ medicin  
+Vårdpersonalen bör informera patienten om att komplementär och alternat iv medicin kan 
+påverka effekterna av cancerläkemedel  (127, 128). 
+16.4.  Alkohol  
+Vårdpersonalen bör rekommendera patienten att va ra uppmärksam på sina alkoholvanor under 
+alla typer av cancerbehandling. Alkohol kan öka risken för komplikationer och biverkningar  (129-
+131).   
+http://www.cancercentrum.se/samverkan/vara -uppdrag/rehabilitering -och-palliativ -
+vard/rehabilitering/vardprogram/  (kap 15.4)  
+16.5.  Fysisk aktivitet  
+Vårdpersonalen bör rekommendera patienter som har eller haft cancer vad gäller fysisk aktivitet 
+att följa rekommendationer som gäller för friska individer. Dock bör den fysiska aktiviteten 
+anpassas till den enskilda individens förutsättningar. 
+http://www.cancercentrum.se/samverkan/vara -uppdrag/rehabilitering -och-palliativ -
+vard/rehabilitering/vardprogram/  (kap 15.1)  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+58 
+ 16.6.  Egenvård vid bi verkningar relaterat till antitumoral 
+behandling  
+Vårdpersonalen bör informera om egenvårdsråd vid biverkningar såsom lymfödem, perifer 
+neuropati, cytostatikautlöst illamående och kräkningar, fatigue, nutrition, alopeci, påverkan på 
+hud och naglar, PPE -hand-fotsyndromet, kognitiv påverkan samt sexuell funktion. 
+http:// www.cancercentrum.se/samverkan/cancerdiagnoser/gynekologi/aggstock/vardprogram/
+gallande -vardprogram -aggstockscancer/14. -rehabilitering -understodjande -vard-och-egen-vard 
+(kap 14.4 -14.13)  
+16.7.  Patientföreningar  
+Ung cancer  
+https://ungcancer.se/  
+ 
+Gynsam  
+http://www.gynsam.se/gynsam/extern/  
+ 
+Nätverket mot gynekologisk cancer  
+http://gyncancer.se/  
+ 
+ 
+ 
+ REGIONALA CANCERCENTRUM  
+ 
+59 
+ KAPITEL 17  
+Fertilitet, graviditet och 
+ovarialcancer  
+17.1.  Fertilitetsbevarande kirurgi  
+Se kapitel 11.4.1.1  
+17.2.  Fertilitet efter kemoterapi  
+Faktaruta.  
+Faktaruta  
+• Risken för permanent ovariell insufficiens och infertilitet efter kemoterapi ökar med åldern. 
+Risken börjar öka från 30 -års ålder och är stor hos kvinnor över 40 år, särskilt efter 
+behandling med klassiska alkylerare.  
+• Unga kvinnor <30 år, som får platina -baserad kemoterapi får vanligen temporär amenorré.  
+• Ovarialfunktion, regelbundna menstruationer oc h fertilitet återkommer hos de flesta i 
+denna åldersgrupp men menstruationer garanterar inte ägglossningar.  
+• Många av dessa kvinnor kan bli gravida utan assistans eller med ovariell stimulering/IVF.  
+• Profylax mot ovariell insufficiens med ovulationshämmande p-piller av kombinationstyp 
+eller gonadotropin -stimulerande GnRH -agonister kan ges men värdet av sådan är inte 
+bevisat.  
+• Antikonception rekommenderas under kemoterapi.  
+• Nedfrysning av befruktade ägg/embryon ger störst chans till senare graviditet och är den 
+etablerade fertilitetsbevarande tekniken. Numera innebär ingreppet ingen påtaglig 
+fördröjning av cancerterapins början, det kan röra sig om 1 -2 veckor.  
+• Nya fertilitetsbevarande tekniker är i snabb utveckling. Det öppnar nya möjligheter i 
+samband med cancer diagnos. Vid behov kan kvinnan remitteras till fertilitetsenhet för 
+samtal.  
+ 
+För mer detaljerad text hänvis as till Natio nellt vårdprogram äggstockscancer .  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+60 
+ KAPITEL 18  
+Underlag för nivåstrukturering  
+Mot bakgrund av att de olika diagnoserna inom gruppen icke -epiteliala ovarialtumörer är ovanliga 
+till mycket ovanliga finns behov av en nationell referensgrupp och möjlighet till  gemensam 
+presentation och diskussion på multidisciplinär konferens genom till exempel videokonferenser.  
+Enligt framtagna Standardiserade Vårdprogram för äggstockscancer bör följande kompetenser 
+finnas med vid multidisciplinär konferens  
+• specialist i gyneko logisk tumörkirurgi  
+• specialist i gynekologisk onkologi   
+• radiolog med kompetens inom gynekologisk bilddiagnostik  
+• patolog med kompetens inom gynekologisk patologi  
+• vid behov annan specialistkompetens  
+• koordinatorsfunktion  
+• kontaktsjuksköterska  
+ 
+ REGIONALA CANCERCENTRUM  
+ 
+61 
+ KAPITEL 19  
+Kvalitetsregister, indikatorer  
+De nationella kvalitetsindikatorer som föreslås ska stödja kvalitetsjämförelser, säkerhets - och 
+förbättringsarbete samt forskning och utveckling. Indikatorerna bör avspegla de sex perspektiv 
+som ryms inom begreppet god vård, det vill säga vården skall vara kunskapsbaserad och 
+ändamålsenlig, säker, patientfokuserad. effektiv, jämlik och ges i rimlig tid. För övrigt hänvisas till 
+Nationella Vårdprogrammet för Äggstockscancer.  
+Svenska kvalitetsregistret för gynekologisk onkologi består av olika delregister för olika 
+gynekologiska cancersjukdomar. Det första delregistret, som omfattar ovarial -, tubar - 
+peritonealcancer och cancer abdominis inkluderar även borderlinetumörer, och startade med 
+prospektiv registrering 2009 -01-01. Alla r egioner deltar i registreringen. Dokumentation inklusive 
+styrdokument och blanketter finns på www.incanet.se.  Registret är uppbyggt på INCA -
+plattformen.  
+När ett nytt fall av ovarialcancer anmäls i INCA via webben (www .incanet.se) tas informationen 
+omhand av en monitor på RCC som identifierar och kontrollerar data och därefter kopplar till en 
+post i Cancerregistret. Om data saknas eller är felaktiga skickas uppgifterna tillbaka till respektive 
+rapportör för kompletterin g. Rapportören är den gynekolog som utför den tumörkirurgiska 
+operationen samt den gynonkolog som handlägger patienten. Sekreterarhjälp med 
+cancerregistrering och uppföljning i INCA organiseras lokalt.  
+Via INCA -systemet görs täckningskontroll gentemot canc erregistret. Dataanalyser sker i samråd 
+med statistisk expertis i första hand från Regionalt cancercentrum väst. Användare kan se 
+avidentifierade data för landet och identifierade data för den egna enheten.  
+Det finns 5 blanketter i ovarialcancerregistret i  INCA:  
+• Anmälningsblankett (cancerregistreringsblankett)  
+• Kirurgiblankett  
+• Onkologisk behandlingsblankett  
+• Recidivbehandlingsblankett  
+• Uppföljningsblankett  
+ 
+Rapportering sker enligt följande:  
+• Ovarialcancerfall anmäls direkt till INCA via webben på www.incanet.se  
+ 
+Vårdprogramgruppen för äggstockscancer har ett nära samarbete med styrgruppen för det 
+svenska kvalitetsregistret för gynekologisk cancer. Registret innehåller inga patientrapporterande 
+livskvalitemått (PROM) men patienttillfredsställelsemätningar (PREM) mätningar införs januari 
+2017.  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+62 
+ KAPITEL 20  
+Referenser  
+1. Tavassoli FA, Devilee P, eds. World Health Organization classification of Tumours. 
+Pathology and Genetics of Tumours of the Breast and Female Genital Organs. Lyon: 
+IARC Press; 2003. ISBN 92 -832-2412 -4. 
+2. Björkholm E, Lundell M, Gyftodimos A, Silfverswärd C. Dysgerminoma. The 
+Radiumhemmet series 1927 –1984. Cancer 1990; 44: 65 –68. 
+3. Williams SD. Gershenson DM. Horowitz CJ. Scully RE. Ovar ian germcell tumours . In 
+Hoskins WJ. Perez CA.Young RC. Principles and practice of Gynecologic Oncology. 
+Philadelphia Lippincott -Raven Publishers, 1997: 987 – 1001.  
+4. Pauniaho SL, Salonen J, Helminen M, Vettenranta K, Heikinheimo M, Heikinheimo O. 
+The inc idences of malignant gonadal and extragonadal germ cell tumors in males and 
+females: a population -based study covering over 40 years in Finland. Cancer Causes 
+Control. 2012;23(12):1921 -7. 
+5. Sieh W, Sundquist K, Sundquist J, Winkleby MA, Crump C. Intrauter ine factors and risk of 
+nonepithelial ovarian cancers. Gynecol Oncol. 2014;133(2):293 -7. 
+6. Mayr D, Hirschmann A, Marlow S, Horvath C, Diebold J. Analysis of selected oncogenes 
+(AKT1, FOS, BCL2L2, TGFbeta) on chromosome 14 in granulosa cell tumors (GCTs): a 
+comprehensive study on 30 GCTs combining comparative genomic hybridization (CGH) 
+and fluorescence -in situ -hybridization (FISH). Pathol Res Pract. 2008;204(11):823 -30. 
+7. Owens GE, Keri RA, Nilson JH. Ovulatory surges of human CG prevent hormone -
+induced g ranulosa cell tumor formation leading to the identification of tumor -associated 
+changes in the transcriptome. Mol Endocrinol. 2002;16(6):1230 -42. 
+8. Shah SP, Kobel M, Senz J, Morin RD, Clarke BA, Wiegand KC, et al. Mutation of FOXL2 
+in granulosa -cell tumor s of the ovary. N Engl J Med. 2009;360(26):2719 -29. 
+9. Kommoss S, Gilks CB, Penzel R, Herpel E, Mackenzie R, Huntsman D, et al. A current 
+perspective on the pathological assessment of FOXL2 in adult -type granulosa cell tumours 
+of the ovary. Histopathology.  2014;64(3):380 -8. 
+10. Dhillon VS, Shahid M, Husain SA. CpG methylation of the FHIT, FANCF, cyclin -D2, 
+BRCA2 and RUNX3 genes in Granulosa cell tumors (GCTs) of ovarian origin. Mol 
+Cancer. 2004;3:33.  
+11. Kumar S, Shah JP, Bryant CS, Imudia AN, Cote ML, Ali -Fehmi R, et al. The prevalence 
+and prognostic impact of lymph node metastasis in malignant germ cell tumors of the 
+ovary. Gynecol Oncol. 2008;110(2):125 -32. 
+12. Low JJ, Perrin LC, Crandon AJ, Hacker NF. Conservative surgery to preserve ovarian 
+function in patients with malignant ovarian germ cell tumors. A review of 74 cases. Cancer. 
+2000;89(2):391 -8. 
+13. Mahdi H, Swensen RE, Hanna R, Kumar S, Ali -Fehmi R, Semaan A, et al. Prognostic 
+impact of lymphadenectomy in clinically early stage malignant germ cell tu mour of the 
+ovary. Br J Cancer. 2011;105(4):493 -7. 
+14. Bjorkholm E, Silfversward C. Granulosa - and theca -cell tumors. Incidence and occurrence 
+of second primary tumors. Acta Radiol Oncol. 1980;19(3):161 -7. 
+15. Pectasides D, Pectasides E, Psyrri A. Granulos a cell tumor of the ovary. Cancer Treat Rev. 
+2008;34(1):1 -12. 
+ REGIONALA CANCERCENTRUM  
+ 
+63 
+ 16. Hammer A, Lauszus FF, Petersen AC. Ovarian granulosa cell tumor and increased risk of 
+breast cancer. Acta Obstet Gynecol Scand. 2013;92(12):1422 -5. 
+17. Abu-Rustum NR, Restivo A, Ivy J, Soslo w R, Sabbatini P, Sonoda Y, et al. Retroperitoneal 
+nodal metastasis in primary and recurrent granulosa cell tumors of the ovary. Gynecol 
+Oncol. 2006;103(1):31 -4. 
+18. Ayhan A, Salman MC, Velipasaoglu M, Sakinci M, Yuce K. Prognostic factors in adult 
+granulo sa cell tumors of the ovary: a retrospective analysis of 80 cases. J Gynecol Oncol. 
+2009;20(3):158 -63. 
+19. Brown J, Sood AK, Deavers MT, Milojevic L, Gershenson DM. Patterns of metastasis in 
+sex cord -stromal tumors of the ovary: can routine staging lymphad enectomy be omitted? 
+Gynecol Oncol. 2009;113(1):86 -90. 
+20. Park JY, Jin KL, Kim DY, Kim JH, Kim YM, Kim KR, et al. Surgical staging and adjuvant 
+chemotherapy in the management of patients with adult granulosa cell tumors of the ovary. 
+Gynecol Oncol. 2012;1 25(1):80 -6. 
+21. Thrall MM, Paley P, Pizer E, Garcia R, Goff BA. Patterns of spread and recurrence of sex 
+cord-stromal tumors of the ovary. Gynecol Oncol. 2011;122(2):242 -5. 
+22. Colombo N, Peiretti M, Castiglione M, Group EGW. Non -epithelial ovarian cancer:  
+ESMO clinical recommendations for diagnosis, treatment and follow -up. Ann Oncol. 
+2009;20 Suppl 4:24 -6. 
+23. Reed N, Millan D, Verheijen R, Castiglione M, Group EGW. Non -epithelial ovarian 
+cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment a nd follow -up. Ann 
+Oncol. 2010;21 Suppl 5:v31 -6. 
+24. Cole LA, Sutton JM. HCG tests in the management of gestational trophoblastic diseases. 
+Clin Obstet Gynecol. 2003;46(3):523 -40. 
+25. Stenman UH. Testicular cancer: the perfect paradigm for marker combinatio ns. Scand J 
+Clin Lab Invest. 2005;65(3):181 -8. 
+26. Olofsson SE, Tandstad T, Jerkeman M, Dahl O, Stahl O, Klepp O, et al. Population -based 
+study of treatment guided by tumor marker decline in patients with metastatic 
+nonseminomatous germ cell tumor: a repor t from the Swedish -Norwegian Testicular 
+Cancer Group. J Clin Oncol. 2011;29(15):2032 -9. 
+27. Robertson DM, Cahir N, Burger HG, Mamers P, McCloud PI, Pettersson K, et al. 
+Combined inhibin and CA125 assays in the detection of ovarian cancer. Clin Chem. 
+1999;4 5(5):651 -8. 
+28. Lane AH, Lee MM, Fuller AF, Jr., Kehas DJ, Donahoe PK, MacLaughlin DT. Diagnostic 
+utility of Mullerian inhibiting substance determination in patients with primary and 
+recurrent granulosa cell tumors. Gynecol Oncol. 1999;73(1):51 -5. 
+29. Long  WQ, Ranchin V, Pautier P, Belville C, Denizot P, Cailla H, et al. Detection of 
+minimal levels of serum anti -Mullerian hormone during follow -up of patients with ovarian 
+granulosa cell tumor by means of a highly sensitive enzyme -linked immunosorbent assay. J 
+Clin Endocrinol Metab. 2000;85(2):540 -4. 
+30. Rey RA, Lhomme C, Marcillac I, Lahlou N, Duvillard P, Josso N, et al. Antimullerian 
+hormone as a serum marker of granulosa cell tumorsof the ovary: comparative study with 
+serum alpha -inhibin and estradiol. Am J Obstet Gynecol. 1996;174(3):958 -65. 
+31. Petraglia F, Luisi S, Pautier P, Sabourin JC, Rey R, Lhomme C, et al. Inhibin B is the major 
+form of inhibin/activin family secreted by granulosa cell tumors. J Clin Endocrinol Metab. 
+1998;83(3):1029 -32. 
+32. Joblin g T, Mamers P, Healy DL, MacLachlan V, Burger HG, Quinn M, et al. A prospective 
+study of inhibin in granulosa cell tumors of the ovary. Gynecol Oncol. 1994;55(2):285 -9. 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+64 
+ 33. Gustafson ML, Lee MM, Scully RE, Moncure AC, Hirakawa T, Goodman A, et al. 
+Mulleria n inhibiting substance as a marker for ovarian sex -cord tumor. N Engl J Med. 
+1992;326(7):466 -71. 
+34. Geerts I, Vergote I, Neven P, Billen J. The role of inhibins B and antimullerian hormone 
+for diagnosis and follow -up of granulosa cell tumors. Int J Gyneco l Cancer. 
+2009;19(5):847 -55. 
+35. Ray-Coquard I, Weber B, Lotz JP, Tournigand C, Provencal J, Mayeur D, et al. 
+Management of rare ovarian cancers: the experience of the French website "Observatory 
+for rare malignant tumours of the ovaries" by the GINECO group: interim analysis of the 
+first 100 patients. Gynecol Oncol. 2010;119(1):53 -9. 
+36. Mangili G, Sigismondi C, Gadducci A, Cormio G, Scollo P, Tateo S, et al. Outcome and 
+risk factors for recurrence in malignant ovarian germ cell tumors: a MITO -9 retrosp ective 
+study. Int J Gynecol Cancer. 2011;21(8):1414 -21. 
+37. Park JY, Kim DY, Suh DS, Kim JH, Kim YM, Kim YT, et al. Outcomes of Surgery Alone 
+and Surveillance Strategy in Young Women With Stage I Malignant Ovarian Germ Cell 
+Tumors. Int J Gynecol Cancer. 20 16;26(5):859 -64. 
+38. Kempf E, Desamericq G, Vieites B, Diaz -Padilla I, Calvo E, Estevez P, et al. Clinical and 
+pathologic features of patients with non -epithelial ovarian cancer: retrospective analysis of 
+a single institution 15 -year experience. Clin Trans l Oncol. 2016.  
+39. Billmire D, Vinocur C, Rescorla F, Cushing B, London W, Schlatter M, et al. Outcome and 
+staging evaluation in malignant germ cell tumors of the ovary in children and adolescents: 
+an intergroup study. J Pediatr Surg. 2004;39(3):424 -9; dis cussion -9. 
+40. Gershenson DM. Current advances in the management of malignant germ cell and sex 
+cord-stromal tumors of the ovary. Gynecol Oncol. 2012;125(3):515 -7. 
+41. Williams SD, Blessing JA, Moore DH, Homesley HD, Adcock L. Cisplatin, vinblastine, 
+and bleomycin in advanced and recurrent ovarian germ -cell tumors. A trial of the 
+Gynecologic Oncology Group. Ann Intern Med. 1989;111(1):22 -7. 
+42. Lu KH, Gershenson DM. Update on the management of ovarian germ cell tumors. J 
+Reprod Med. 2005;50(6):417 -25. 
+43. Culine S, Kattan J, Lhomme C, Duvillard P, Michel G, Castaigne D, et al. A phase II study 
+of high -dose cisplatin, vinblastine, bleomycin, and etoposide (PVeBV regimen) in 
+malignant nondysgerminomatous germ -cell tumors of the ovary. Gynecol Oncol. 
+1994;54(1 ):47-53. 
+44. Cushing B, Giller R, Cullen JW, Marina NM, Lauer SJ, Olson TA, et al. Randomized 
+comparison of combination chemotherapy with etoposide, bleomycin, and either high -dose 
+or standard -dose cisplatin in children and adolescents with high -risk malig nant germ cell 
+tumors: a pediatric intergroup study --Pediatric Oncology Group 9049 and Children's 
+Cancer Group 8882. J Clin Oncol. 2004;22(13):2691 -700. 
+45. Dimopoulos MA, Papadopoulou M, Andreopoulou E, Papadimitriou C, Pavlidis N, 
+Aravantinos G, et al. F avorable outcome of ovarian germ cell malignancies treated with 
+cisplatin or carboplatin -based chemotherapy: a Hellenic Cooperative Oncology Group 
+study. Gynecol Oncol. 1998;70(1):70 -4. 
+46. Brown J, Friedlander M, Backes FJ, Harter P, O'Connor DM, de la Mo tte Rouge T, et al. 
+Gynecologic Cancer Intergroup (GCIG) consensus review for ovarian germ cell tumors. 
+Int J Gynecol Cancer. 2014;24(9 Suppl 3):S48 -54. 
+47. Culine S, Droz JP. Comparative tolerability of chemotherapy regimens for germ cell 
+cancer. Drug Saf . 2000;22(5):373 -88. 
+ REGIONALA CANCERCENTRUM  
+ 
+65 
+ 48. Kawai K, Akaza H. Current status of chemotherapy in risk -adapted management for 
+metastatic testicular germ cell cancer. Cancer Sci. 2010;101(1):22 -8. 
+49. Solheim O, Trope CG, Rokkones E, Kaern J, Paulsen T, Salvesen HB, et al. Fert ility and 
+gonadal function after adjuvant therapy in women diagnosed with a malignant ovarian 
+germ cell tumor (MOGCT) during the "cisplatin era". Gynecol Oncol. 2015;136(2):224 -9. 
+50. Matei D, Miller AM, Monahan P, Gershenson D, Zhao Q, Cella D, et al. Chr onic physical 
+effects and health care utilization in long -term ovarian germ cell tumor survivors: a 
+Gynecologic Oncology Group study. J Clin Oncol. 2009;27(25):4142 -9. 
+51. Travis LB, Andersson M, Gospodarowicz M, van Leeuwen FE, Bergfeldt K, Lynch CF, et 
+al. Treatment -associated leukemia following testicular cancer. J Natl Cancer Inst. 
+2000;92(14):1165 -71. 
+52. Dark GG, Bower M, Newlands ES, Paradinas F, Rustin GJ. Surveillance policy for stage I 
+ovarian germ cell tumors. J Clin Oncol. 1997;15(2):620 -4. 
+53. Williams SD. Ovarian germ cell tumors: an update. Semin Oncol. 1998;25(3):407 -13. 
+54. Mangili G, Sigismondi C, Lorusso D, Cormio G, Scollo P, Vigano R, et al. Is surgical 
+restaging indicated in apparent stage IA pure ovarian dysgerminoma? The MITO group 
+retrospective experience. Gynecol Oncol. 2011;121(2):280 -4. 
+55. Gershenson DM, Morris M, Cangir A, Kavanagh JJ, Stringer CA, Edwards CL, et al. 
+Treatment of malignant germ cell tumors of the ovary with bleomycin, etoposide, and 
+cisplatin. J Clin Oncol. 1990; 8(4):715 -20. 
+56. Gershenson DM. Management of ovarian germ cell tumors. J Clin Oncol. 
+2007;25(20):2938 -43. 
+57. Culine S, Lhomme C, Kattan J, Michel G, Duvillard P, Droz JP. Cisplatin -based 
+chemotherapy in the management of germ cell tumors of the ovary: The Institut Gustave 
+Roussy Experience. Gynecol Oncol. 1997;64(1):160 -5. 
+58. Bonazzi C, Peccatori F, Colombo N, Lucchini V, Cantu MG, Mangioni C. Pure ovarian 
+immature teratoma, a unique and curable disease: 10 years' experience of 32 prospectively 
+treated  patients. Obstet Gynecol. 1994;84(4):598 -604. 
+59. Gershenson DM, Frazier AL. Conundrums in the management of malignant ovarian germ 
+cell tumors: Toward lessening acute morbidity and late effects of treatment. Gynecol 
+Oncol. 2016;143(2):428 -32. 
+60. Andre F , Fizazi K, Culine S, Droz J, Taupin P, Lhomme C, et al. The growing teratoma 
+syndrome: results of therapy and long -term follow -up of 33 patients. Eur J Cancer. 
+2000;36(11):1389 -94. 
+61. Manchana T, Ittiwut C, Mutirangura A, Kavanagh JJ. Targeted therapies for rare 
+gynaecological cancers. Lancet Oncol. 2010;11(7):685 -93. 
+62. Talukdar S, Kumar S, Bhatla N, Mathur S, Thulkar S, Kumar L. Neo -adjuvant 
+chemotherapy in the treatment of advanced malignant germ cell tumors of ovary. Gynecol 
+Oncol. 2014;132(1):28 -32. 
+63. Chan JK, Zhang M, Kaleb V, Loizzi V, Benjamin J, Vasilev S, et al. Prognostic factors 
+responsible for survival in sex cord stromal tumors of the ovary --a multivariate analysis. 
+Gynecol Oncol. 2005;96(1):204 -9. 
+64. Lauszus FF, Petersen AC, Neumann G, C leemann L, Rosgaard A, Jorgensen A, et al. Less 
+extensive surgery compared to extensive surgery: survival seems similar in young women 
+with adult ovarian granulosa cell tumor. Eur J Obstet Gynecol Reprod Biol. 2014;177:61 -6. 
+65. Teoh D, Freedman R, Soliman  PT. Nearly 30 Years of Treatment for Recurrent Granulosa 
+Cell Tumor of the Ovary: A Case Report and Review of the Literature. Case Rep Oncol. 
+2010;3(1):14 -8. 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+66 
+ 66. Homesley HD, Bundy BN, Hurteau JA, Roth LM. Bleomycin, etoposide, and cisplatin 
+combination t herapy of ovarian granulosa cell tumors and other stromal malignancies: A 
+Gynecologic Oncology Group study. Gynecol Oncol. 1999;72(2):131 -7. 
+67. Brown J, Shvartsman HS, Deavers MT, Ramondetta LM, Burke TW, Munsell MF, et al. 
+The activity of taxanes compare d with bleomycin, etoposide, and cisplatin in the treatment 
+of sex cord -stromal ovarian tumors. Gynecol Oncol. 2005;97(2):489 -96. 
+68. Wolf JK, Mullen J, Eifel PJ, Burke TW, Levenback C, Gershenson DM. Radiation 
+treatment of advanced or recurrent granulosa cell tumor of the ovary. Gynecol Oncol. 
+1999;73(1):35 -41. 
+69. Hauspy J, Beiner ME, Harley I, Rosen B, Murphy J, Chapman W, et al. Role of adjuvant 
+radiotherapy in granulosa cell tumors of the ovary. Int J Radiat Oncol Biol Phys. 
+2011;79(3):770 -4. 
+70. Tao X , Sood AK, Deavers MT, Schmeler KM, Nick AM, Coleman RL, et al. Anti -
+angiogenesis therapy with bevacizumab for patients with ovarian granulosa cell tumors. 
+Gynecol Oncol. 2009;114(3):431 -6. 
+71. Schmidt M, Kammerer U, Segerer S, Cramer A, Kohrenhagen N, Die tl J, et al. Glucose 
+metabolism and angiogenesis in granulosa cell tumors of the ovary: activation of Akt, 
+expression of M2PK, TKTL1 and VEGF. Eur J Obstet Gynecol Reprod Biol. 
+2008;139(1):72 -8. 
+72. Kim JH, Kim YH, Kim HM, Park HO, Ha NC, Kim TH, et al. FO XL2 posttranslational 
+modifications mediated by GSK3beta determine the growth of granulosa cell tumours. Nat 
+Commun. 2014;5:2936.  
+73. Suh DS, Oh HK, Kim JH, Park S, Shin E, Lee K, et al. Identification and Validation of 
+Differential Phosphorylation Sites o f the Nuclear FOXL2 Protein as Potential Novel 
+Biomarkers for Adult -Type Granulosa Cell Tumors. J Proteome Res. 2015;14(6):2446 -56. 
+74. Raspagliesi F, Martinelli F, Grijuela B, Guadalupi V. Third -line chemotherapy with tyrosine 
+kinase inhibitor (imatinib m esylate) in recurrent ovarian granulosa cell tumor: case report. J 
+Obstet Gynaecol Res. 2011;37(12):1864 -7. 
+75. Ioffe OB, Simsir A, Silverberg. Pathology. In: Berek JS, Hacker NF, eds. Practical 
+Gynecologic Oncology. Philadelphia: Lippincott -Williams & Wil kins, 2005: 163 242.  
+76. Gui T, Cao D, Shen K, Yang J, Zhang Y, Yu Q, et al. A clinicopathological analysis of 40 
+cases of ovarian Sertoli -Leydig cell tumors. Gynecol Oncol. 2012;127(2):384 -9. 
+77. Sigismondi C, Gadducci A, Lorusso D, Candiani M, Breda E, R aspagliesi F, et al. Ovarian 
+Sertoli -Leydig cell tumors. a retrospective MITO study. Gynecol Oncol. 2012;125(3):673 -6. 
+78. Schultz KA, Pacheco MC, Yang J, Williams GM, Messinger Y, Hill DA, et al. Ovarian sex 
+cord-stromal tumors, pleuropulmonary blastoma and DICER1 mutations: a report from 
+the International Pleuropulmonary Blastoma Registry. Gynecol Oncol. 2011;122(2):246 -50. 
+79. Reed NS, Pautier P, Avall -Lundqvist E, Choi CH, du Bois A, Friedlander M, et al. 
+Gynecologic Cancer InterGroup (GCIG) consensus review for ovarian small cell cancers. 
+Int J Gynecol Cancer. 2014;24(9 Suppl 3):S30 -4. 
+80. Jelinic P, Schlappe BA, Conlon N, Tseng J, Olvera N, Dao F, et al. Concomitant loss of 
+SMARCA2 and SMARCA4 expression in small cell carcinoma of the ovary, hypercalc emic 
+type. Mod Pathol. 2016;29(1):60 -6. 
+81. Woopen H, Sehouli J, Pietzner K, Darb -Esfahani S, Braicu EI, Fotopoulou C. Clinical 
+experience of young patients with small cell ovarian carcinoma of the hypercalcemic type 
+(OSCCHT). Eur J Obstet Gynecol Reprod B iol. 2012;165(2):313 -7. 
+ REGIONALA CANCERCENTRUM  
+ 
+67 
+ 82. Harrison ML, Hoskins P, du Bois A, Quinn M, Rustin GJ, Ledermann JA, et al. Small cell 
+of the ovary, hypercalcemic type -- analysis of combined experience and recommendation 
+for management. A GCIG study. Gynecol Oncol. 2006;100( 2):233 -8. 
+83. Callegaro -Filho D, Gershenson DM, Nick AM, Munsell MF, Ramirez PT, Eifel PJ, et al. 
+Small cell carcinoma of the ovary -hypercalcemic type (SCCOHT): A review of 47 cases. 
+Gynecol Oncol. 2016;140(1):53 -7. 
+84. Tsolakidis D, Papanikolaou A, Ktenid is K, Pervana S. Primary ovarian small cell carcinoma 
+of pulmonary type with enlarged paraaortic lymph node masses: a case report and review 
+of the literature. Eur J Gynaecol Oncol. 2012;33(3):312 -5. 
+85. Shakuntala PN, Uma Devi K, Shobha K, Bafna UD, Geetashree M. Pure large cell 
+neuroendocrine carcinoma of ovary: a rare clinical entity and review of literature. Case Rep 
+Oncol Med. 2012;2012:120727.  
+86. Voutsadakis IA. Large cell neuroendocrine carcinoma of the ovary: A pathologic entity in 
+search of c linical identity. World J Clin Oncol. 2014;5(2):36 -8. 
+87. Lindboe CF. Large cell neuroendocrine carcinoma of the ovary. APMIS. 2007;115(2):169 -
+76. 
+88. Asada K, Kawana K, Teshima S, Saito A, Kawabata M, Fujii T. Poor prognosis of ovarian 
+cancer with large c ell neuroendocrine carcinoma: case report and review of published 
+works. J Obstet Gynaecol Res. 2014;40(3):869 -72. 
+89. Tsuji T, Togami S, Shintomo N, Fukamachi N, Douchi T, Taguchi S. Ovarian large cell 
+neuroendocrine carcinoma. J Obstet Gynaecol Res. 2008 ;34(4 Pt 2):726 -30. 
+90. Shakuntala P, Umadevi K, Usha A, Abhilasha N, Bafna U. Primary ovarian adenosarcoma 
+with elevated Ca -125 levels and normal ascitic fluid cytology: a case report and review of 
+literature. Ecancermedicalscience. 2012;6:284.  
+91. Rekhi B, Deodhar KK, Maheshwari A, Menon S, Kerkar R, Bajpai J, et al. 
+Clinicopathological spectrum of 19 adenosarcomas of female genital tract, including 
+uncommon clinical associations and immunohistochemical profile, reviewed at a single 
+institution. Indian J Pathol Microbiol. 2012;55(3):326 -32. 
+92. Eichhorn JH, Young RH, Clement PB, Scully RE. Mesodermal (mullerian) adenosarcoma 
+of the ovary: a clinicopathologic analysis of 40 cases and a review of the literature. Am J 
+Surg Pathol. 2002;26(10):1243 -58. 
+93. Kahyaoglu S, Kahyaoglu I, Sirvan L, Sengul I, Timur H, Mollamahmutoglu L. Female 
+Adnexial Tumor of Probable Wolffian Origin (FATWO) without Ki -67 Expression 
+Reflecting Low Malignant Potential in a 55 -Year-Old Woman. Eurasian J Med. 
+2012;44(3):172 -5. 
+94. Berto n-Rigaud D, Devouassoux -Shisheboran M, Ledermann JA, Leitao MM, Powell MA, 
+Poveda A, et al. Gynecologic Cancer InterGroup (GCIG) consensus review for uterine and 
+ovarian carcinosarcoma. Int J Gynecol Cancer. 2014;24(9 Suppl 3):S55 -60. 
+95. Shylasree TS, Bry ant A, Athavale R. Chemotherapy and/or radiotherapy in combination 
+with surgery for ovarian carcinosarcoma. Cochrane Database Syst Rev. 2013(2):CD006246.  
+96. Rauh -Hain JA, Shoni M, Schorge JO, Goodman A, Horowitz NS, del Carmen MG. 
+Prognostic determinants in patients with uterine and ovarian carcinosarcoma. J Reprod 
+Med. 2013;58(7 -8):297 -304. 
+97. George EM, Herzog TJ, Neugut AI, Lu YS, Burke WM, Lewin SN, et al. Carcinosarcoma 
+of the ovary: natural history, patterns of treatment, and outcome. Gynecol Oncol.  
+2013;131(1):42 -5. 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+68 
+ 98. Rauh -Hain JA, Growdon WB, Rodriguez N, Goodman AK, Boruta DM, 2nd, Schorge JO, 
+et al. Carcinosarcoma of the ovary: a case -control study. Gynecol Oncol. 2011;121(3):477 -
+81. 
+99. del Carmen MG, Birrer M, Schorge JO. Carcinosarcoma of th e ovary: a review of the 
+literature. Gynecol Oncol. 2012;125(1):271 -7. 
+100. Lee IH, Choi CH, Hong DG, Song JY, Kim YJ, Kim KT, et al. Clinicopathologic 
+characteristics of granulosa cell tumors of the ovary: a multicenter retrospective study. J 
+Gynecol Onco l. 2011;22(3):188 -95. 
+101. Shim SH, Lee SJ, Kim DY, Kim J, Kim SN, Kang SB, et al. A Long -term follow -up study 
+of 91 cases with ovarian granulosa cell tumors. Anticancer Res. 2014;34(2):1001 -10. 
+102. Lauszus FF, Petersen AC, Greisen J, Jakobsen A. Granulos a cell tumor of the ovary: a 
+population -based study of 37 women with stage I disease. Gynecol Oncol. 2001;81(3):456 -
+60. 
+103. Sun HD, Lin H, Jao MS, Wang KL, Liou WS, Hung YC, et al. A long -term follow -up study 
+of 176 cases with adult -type ovarian granulosa  cell tumors. Gynecol Oncol. 
+2012;124(2):244 -9. 
+104. Fox H. Pathologic prognostic factors in early stage adult -type granulosa cell tumors of the 
+ovary. Int J Gynecol Cancer. 2003;13(1):1 -4. 
+105. Zhang M, Cheung MK, Shin JY, Kapp DS, Husain A, Teng NN, et a l. Prognostic factors 
+responsible for survival in sex cord stromal tumors of the ovary --an analysis of 376 
+women. Gynecol Oncol. 2007;104(2):396 -400. 
+106. Koulouris CR, Penson RT. Ovarian stromal and germ cell tumors. Semin Oncol. 
+2009;36(2):126 -36. 
+107. Colombo N, Peiretti M, Garbi A, Carinelli S, Marini C, Sessa C, et al. Non -epithelial 
+ovarian cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow -up. 
+Ann Oncol. 2012;23 Suppl 7:vii20 -6. 
+108. Zola P, Macchi C, Cibula D, Colombo N, K immig R, Maggino T, et al. Follow -up in 
+Gynecological Malignancies: A State of Art. Int J Gynecol Cancer. 2015;25(7):1151 -64. 
+109. National Comprehensive Cancer Network. NCCN Clinical Practice Guidelines in 
+Oncology (NCCN Guidelines): Ovarian Cancer Includ ing Fallopian Tube Cancer and 
+Primaty Peritoneal Cancer. 2017.  
+110. Royal College of Obstetricians and Gynaecologists. Management of Female Malignant 
+Ovarian Germ Cell Tumours (Scientific Impact Paper No.52). 2016.  
+111. Forstner R, Thomassin -Naggara I, Cun ha TM, Kinkel K, Masselli G, Kubik -Huch R, et al. 
+ESUR recommendations for MR imaging of the sonographically indeterminate adnexal 
+mass: an update. Eur Radiol. 2017;27(6):2248 -57. 
+112. Murugaesu N, Schmid P, Dancey G, Agarwal R, Holden L, McNeish I, et al.  Malignant 
+ovarian germ cell tumors: identification of novel prognostic markers and long -term 
+outcome after multimodality treatment. J Clin Oncol. 2006;24(30):4862 -6. 
+113. Mangili G, Ottolina J, Gadducci A, Giorda G, Breda E, Savarese A, et al. Long -term 
+follow -up is crucial after treatment for granulosa cell tumours of the ovary. Br J Cancer. 
+2013;109(1):29 -34. 
+114. Taira Y, Hirakawa M, Nagayama C, Ikemiyagi K, Touma T, Tokashiki M. Successful 
+treatment of adult -type granulosa cell tumor of the ovary by p alliative radiotherapy. J 
+Obstet Gynaecol Res. 2012;38(2):461 -5. 
+115. Alhilli MM, Long HJ, Podratz KC, Bakkum -Gamez JN. Aromatase inhibitors in the 
+treatment of recurrent ovarian granulosa cell tumors: brief report and review of the 
+literature. J Obstet Gy naecol Res. 2012;38(1):340 -4. 
+ REGIONALA CANCERCENTRUM  
+ 
+69 
+ 116. Korach J, Perri T, Beiner M, Davidzon T, Fridman E, Ben -Baruch G. Promising effect of 
+aromatase inhibitors on recurrent granulosa cell tumors. Int J Gynecol Cancer. 
+2009;19(5):830 -3. 
+117. Hardy RD, Bell JG, Nicely CJ, Rei d GC. Hormonal treatment of a recurrent granulosa cell 
+tumor of the ovary: case report and review of the literature. Gynecol Oncol. 
+2005;96(3):865 -9. 
+118. Gershenson DM, Miller AM, Champion VL, Monahan PO, Zhao Q, Cella D, et al. 
+Reproductive and sexual fu nction after platinum -based chemotherapy in long -term ovarian 
+germ cell tumor survivors: a Gynecologic Oncology Group Study. J Clin Oncol. 
+2007;25(19):2792 -7. 
+119. Singh P, Oehler MK. Hormone replacement after gynaecological cancer. Maturitas. 
+2010;65(3):1 90-7. 
+120. Geetha P, Nair MK. Granulosa cell tumours of the ovary. Aust N Z J Obstet Gynaecol. 
+2010;50(3):216 -20. 
+121. Wells M, Macmillan M, Raab G, MacBride S, Bell N, MacKinnon K, et al. Does aqueous or 
+sucralfate cream affect the severity of erythematous radiation skin reactions? A randomised 
+controlled trial. Radiother Oncol. 2004;73(2):153 -62. 
+122. Iwakawa M, Noda S, Yamada S, Yamamoto N, Miyazawa Y, Yamazaki H, et al. Analysis of 
+non-genetic risk factors for adverse skin reactions to radiot herapy among 284 breast cancer 
+patients. Breast Cancer. 2006;13(3):300 -7. 
+123. Jagsi R, Griffith KA, Koelling T, Roberts R, Pierce LJ. Rates of myocardial infarction and 
+coronary artery disease and risk factors in patients treated with radiation therapy fo r early -
+stage breast cancer. Cancer. 2007;109(4):650 -7. 
+124. Kaufman EL, Jacobson JS, Hershman DL, Desai M, Neugut AI. Effect of breast cancer 
+radiotherapy and cigarette smoking on risk of second primary lung cancer. J Clin Oncol. 
+2008;26(3):392 -8. 
+125. Macdonald G, Kondor N, Yousefi V, Green A, Wong F, Aquino -Parsons C. Reduction of 
+carboxyhaemoglobin levels in the venous blood of cigarette smokers following the 
+administration of carbogen. Radiother Oncol. 2004;73(3):367 -71. 
+126. Sharp L, Johansson H, Hats chek T, Bergenmar M. Smoking as an independent risk factor 
+for severe skin reactions due to adjuvant radiotherapy for breast cancer. Breast. 
+2013;22(5):634 -8. 
+127. Peterson C. [Natural remedies --self care at your own risk! Danger of unknown adverse 
+effects  and interactions with "common" medications]. Lakartidningen. 2005;102(44):3200 -
+1. 
+128. Malekzadeh F, Rose C, Ingvar C, Jernstrom H. [Natural remedies and hormone 
+preparations --potential risk for breast cancer patients. A study surveys the use of agents 
+which possibly counteract with the treatment]. Lakartidningen. 2005;102(44):3226 -8, 30 -1. 
+129. Tonnesen H, Nielsen PR, Lauritzen JB, Moller AM. Smoking and alcohol intervention 
+before surgery: evidence for best practice. Br J Anaesth. 2009;102(3):297 -306. 
+130. Nath B, Li Y, Carroll JE, Szabo G, Tseng JF, Shah SA. Alcohol exposure as a risk factor 
+for adverse outcomes in elective surgery. J Gastrointest Surg. 2010;14(11):1732 -41. 
+131. Bradley KA, Rubinsky AD, Sun H, Bryson CL, Bishop MJ, Blough DK, et al. Alco hol 
+screening and risk of postoperative complications in male VA patients undergoing major 
+non-cardiac surgery. J Gen Intern Med. 2011;26(2):162 -9. 
+ 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+70 
+ KAPITEL 21  
+Relevanta länkar  
+Nationella vårdprogrammet för Äggstockscancer 2012  
+http://www.cancercentrum.se  
+Gynsam -Gyncancerföreningarnas Nationella Samarbetsorganisation   
+www.gynsam.se  
+Ung cancer   
+http://www.ungcancer.se  
+Vårdguiden   
+www.vardguiden.se  
+INCA - regionalt cancercentrums plattform för kvalitetsregister   
+www.incanet.se  
+ REGIONALA CANCERCENTRUM  
+ 
+71 
+ KAPITEL 22  
+Vårdprogramgruppen  
+22.1.  Vårdprogramgruppens sammansättning  
+Vårdprogramgrup pen består av en representant för gynekologisk tumörkirurgi, en för 
+gynekologisk onkologi, en för bild - och funktionsmedicin och en representant för 
+patologi/cytologi från de sju regionsjukhusen i Sverige. Dessa personer har utsetts av respektive 
+linjeorga nisation. Därutöver består vårdprogramgruppen av två sjuksköterskerepresentanter, en 
+representant från gyncancerföreningarnas nationella samarbetsorganisation (Gynsam) och 
+komplementära experter som representerar vissa kunskapsområden. I vårdprogramgruppen  ingår 
+stödresurser från Regionalt cancercentrum väst med sjuksköterska, monitor och statistiker.  
+22.2.  Vårdprogramgruppen  
+Norra regionen:  
+Ulrika Ottander, medicine doktor, överläkare, kvinn okliniken  
+Kristina Aglund, överläkare, onkologiska kliniken  
+Katrine Åhlström Riklund, professor, överläkare, Bild - och funktionsmedicin, Nuklearmedicin  
+Eva Lundin, universitetslektor, överläkare, kliniken  för klinisk patologi/cytologi  
+samtliga vid Norrlands Universitetssjukhus  
+ 
+Uppsala -Örebro regionen:  
+Karin Stålberg, medi cine doktor, överläkare, kvinnokliniken  
+Bengt Tholander, medicine doktor, överläkare, onkologiska kliniken  
+Antonina Bergman, medicine doktor, överläkare, Bild - och funktionsmedicinskt 
+centrum/Röntgen   
+Anna Tolf, överläkare, kliniken för klinisk patologi/cy tologi samtliga vid Akademiska sjukhuset  
+Fatma Bäckman, överläkare, kvinnokliniken  
+Per Ingverud, överläkare, Bild -och funktionsmedicin  
+samtliga vid Universitetssjukhuset Örebro  
+ 
+Stockholm -Gotlandregionen:  
+Sahar Salehi, biträdande överläkare, sektionen fö r gynekologisk cancer  
+Angelique Flöter Rådestad, docent, överläkare, sektionen för gynekologisk cancer, adjungerad  
+Elisabet Hjerpe,  medicine doktor, överläkare, onkologiska kliniken  
+REGIONALA CANCERCENTRUM  
+ 
+ 
+72 
+ Joseph Carlson, medicine doktor, överläkare, kliniken för klinisk patologi/cytologi  
+samtliga vid Karolinska Universitetssjukhuset  
+ 
+Sydöstra regionen:  
+Preben Kjølhede, professor, universitetsöverläkare, kvinnokliniken  
+Gabriel Lindahl, doktorand, specialis tläkare, onkologiska kliniken  
+Isidro Albert Garcia, överläkare, röntgenkliniken  
+Julia Bak, överläkare, klinisk patologi och genetik, Diagnostikcentrum  
+Elisabeth Åvall Lundqvist professor, överläkare, adjungerad, onkologiska kliniken  
+samtliga vid Universi tetssjukhuset i Linköping  
+ 
+Västra Götalandsregionen:  
+Pernilla Dahm -Kähler, medicine doktor, överläkare, kvinnokli niken  
+Maria Dimoula, specialist läkare överläkare, onkologiska kliniken  
+Henrik Leonhardt, överläkare, radiologiska kliniken  
+Claudia Matteio, k liniken  för klinisk patologi/cytologi  
+samtliga vid Sahlgrenska Universitetssjukhuset  
+ 
+Södra regionen:  
+Christer Borgfeldt, docent, överläkare, kvinnokliniken  
+Susanne Malander, medicine doktor, överläkare, onkologiska kliniken  
+Katerina Håkansson, specialis tläkare, BFC Röntgen  
+Anna Måsbäck, medicine doktor, överläkare, Klinisk patologi, Lund, Labmedicin Skåne  
+samtliga vid Skånes Universitetssjukhus Lund  
+ 
+Sjuksköterskerepresentanter : 
+Carina Melander Bergström, sjuksköterska, onkologiska kliniken, Karolinska 
+Universitetssjukhuset  
+Jennie Ekeberg, sjuksköterska, Kvinnokliniken Lund, Skånes Universitetssjukhus  
+Lotta Eriksson, sjuksköterska. Universitetssjukhuset  Linköping  
+ 
+Patientr epresentant  från Gyncancerföreningarnas nationella samarbetsorganisation (Gynsam)  
+Margaretha Sundsten, ordförande Gynsam  
+ REGIONALA CANCERCENTRUM  
+ 
+73 
+ 22.3.  Adjungerade författare  
+Patologi:   
+Anne -Marie Jacobsen, medicine doktor, överläkare, kliniken för klinisk patologi/cytologi, Capio  
+Ultraljud:   
+Elisabeth Epstein, docent, överläkare, kvinnokliniken, Södersjukhuset  
+Redak tionskommittén består av Elisabeth Åvall Lundqvist, Christer Borgfeldt (sammankallande), 
+Angelique Flöter Rådestad och Malin Samuelsson.  
+22.4.  Stödteam  
+Verksamma vid Regionalt cancercentrum väst:  
+Christian Staf, statistiker  
+Malin Samuelsson, utvecklingsledare vård 
+Susanne Amsler Nordin , administrativ koordinator  
+22.5.  Vårdprogrammets förankring  
+Ett färdigt förslag till första upplagan till vårdprogram har skickats ut på remiss till Svensk 
+sjuksköterskeförening, Svensk förening för onkologi, Svensk förening för obstet rik och 
+gynekologi, Svensk förening för patologi, Svensk förening för bild - och funktionsmedicin samt 
+till Gyncancerföreningarnas nationella samarbetsorganisation (Gynsam). Vårdprogramgruppen 
+har efter bearbetning lämnat nytt förslag och som via RCC skicka ts ut på remiss till 
+linjeorganisationerna. Därefter har vårdprogramgruppen gjort en bearbetning och lämnat ett 
+slutligt förslag som RCC i Samverkan fastställt och publicerat.  
+Vid denna andra uppdaterade version har mindre förändringar genomförts som dock inte ändrar 
+grunderna för utredning eller behandling. Vårdprogramgruppen har därför valt att skicka ut den 
+uppdaterade versionen med en förenklad remissgranskning motsvarande remissomgång 1.  
+ 
+REGIONALA CANCERCENTRUM  
+ 
+ 
+74 
+ BILAGA 1  
+Ultraljudsdiagnostik icke - 
+epiteliala ovaria ltumörer  
+Icke-epiteliala ovarialtumörer är ovanliga och består av en heterogen grupp tumörer med olika 
+histologi och morfologiska karakteristika. Många av tumörerna förekommer oftare hos unga 
+kvinnor med fertilitetsönskemål, vilket ställer stora krav på utredning o ch behandling. En erfaren 
+ultraljudsspecialist kan med hjälp av "pattern recognition" skilja på benigna och maligna 
+adnexexpansiviteter med en sensitivitet på 90 %, och en specificitet på 94 %, enligt en 
+multicenterstu die inkluderande 3 511 patienter . Majo riteten icke epiteliala ovarial tumörer är 
+solida, oregelbundna och välvaskulariserade och framstår därför som malignite tssuspekta. Nedan 
+följer beskrivning för en rad icke -epiteliala tumörer som har karakteristisk ultraljudsmorfologi.  
+Dysgerminom  
+Dysgermi nom är den vanligaste typen av groddcelltumör. Förekommer ofta hos unga kvinnor, 
+80 % är yngre än 30 år. AFP, hCG produktion förekommer, LD kan vara förhöjt. Sällsynta hos 
+postmenopausala kvinnor. Bilaterala tumörer ses hos 10 -15 % av kvinnorna. Tumörerna är 
+solida, lobulerade, välvaskulariserade och of ta stora (10 -15 cm) vid diagnos . Se bild 1.  
+ 
+Bild 1. Snabbväxande dysgerminom hos 22 årig gravid kvinna med förhöjt S -LD. 
+  
+
+ REGIONALA CANCERCENTRUM  
+ 
+75 
+ Omogna teratom  
+Benigna teratom d.v.s. dermoider är vanligt förkommande. Dermoider kan till exempel innehålla 
+talg, brosk, ben, tänder och hår. Talginnehållande dermoider kastar smutsiga ljusa skuggor 
+liknande de som man ser i gasförande tarm, vilket gör dem svåra att se med ultraljud och lätta att 
+missa om man bara ultraljudsundersöker och inte palperar patienten! Tänder, brosk och ben ses 
+som hyperekogena strukturer och hår ses som ekogena vita linjer. Vanligen ses inga solida 
+vaskulariserade partier i benigna dermoider.  Undantag är om det förekommer t yreoideavävnad 
+(Struma Ovarii) eller neurogen vävnad. Vid struma Ovarii ses oftast solid vaskulariserad vävnad i 
+komb ination med cystiska strukturer , se bild 2. Det är svårt att utesluta omoget teratom vid 
+förekomst av  solid vävnad, men det tycks förekomma omogna teratom där man med ultraljud 
+inte kunnat detektera solid vävnad. Många gånger kan det dock vara svårt att bedöma teratom 
+eftersom förekomst av talg, brosk hår mm kastar sk uggor som försvårar bedömningen . 
+ 
+ 
+Bild 2. Struma Ovarii, notera hyperekogen solid vävnad till höger I bild.  
+
+REGIONALA CANCERCENTRUM  
+ 
+ 
+76 
+  
+Bild 3. Omoget teratom, notera oregelbunden struktur.  
+Gulesäckstumör  
+Ovanlig och högmalign tumör, uppträder ofta hos unga kvinnor (vanligen 10 -30 år). 
+Förekommer ibland i samband med grav iditet, nästan alla har förhöjt S -AFP. Stora studier saknas 
+som beskriver ultraljudsmorfologin eftersom tumören är ovanlig. Enligt fallbeskrivningar är 
+tumören är oftast unilateral, stor (10 -20 cm), solid, välvaskulariserad och nekros kan förkomma 
+(Bild 4) .  
+ 
+Bild 4 Gulesäckstumör, ”Yolksac tumor/ Endodermal sinus tumor”, hos 25 -årig patient som sökt p.g.a. blödningsrubbningar, 
+förhöjt AFP.  
+
+ REGIONALA CANCERCENTRUM  
+ 
+77 
+ Choriocarcinom  
+Choriocarcinom kan antingen uppkomma primärt i ovariet utan föregående graviditet eller vara 
+en del i en gravidite tsrelaterad trofoblastsjukdom. Eftersom dessa tumörer producerar hCG 
+uppstår ofta diagnostiska svårigheter - rör det sig om en ektopisk graviditet, en "ektopisk" 
+trofoblast sjukdom en trofoblastsjukdom med metastas till ovariet eller en icke -graviditesrelaterad 
+primär ovarialtumör? Det finns ett flertal fallbeskrivningar publicerade men inga större studier. 
+Choriocarcinom i uterus ses som en resistens i myometiet med dilaterade patologiska blod kärl 
+med lågresistent blodflöde . 
+Granulosacellstumörer  
+Är ofta östrogenproducerade och förekommer hos kvinnor i alla åldrar. I en serie på 23 fall 
+beskrivs tumöreren som; ensidig, solid eller flerrummig so lid (många gånger solid med små 
+cystisk hålrum s.k. "Schweizerost", med rikligt blod flöde, oregelbunden ekogenicitet med en 
+medeldiameter på 10 cm3 (Bild 5).  
+ 
+ 
+Bild 5. Granulosacellstumör hos 30 årig kvinna med blödningsrubbningar och infertilitet  
+ 
+  
+
+REGIONALA CANCERCENTRUM  
+ 
+ 
+78 
+ Fibrom – fibrotekom  – tekom   
+Fibrom är den vanligaste benigna könssträngs -stromacellstum ören8. Fibrom är inte 
+östrogenproducerande och uppkommer från de kollagen producerade spolcellerna. Fibrom är 
+oftast (95 %) unilaterala, stora tumörer (uppemot 10 -15 cm), endast en 1/3 är mindre än  3 cm 
+(Bild 6). Fibrotekom är också en benign tumör som upp kommer från stroma cellerna. Fibrom 
+och fibrotekom har en liknande ultraljudsbild, se bild 6 och 7. De är solida runda, ovala eller lätt 
+lobulerade tumörer med regelbu nden eller lätt oregelbunden ekogenicitet . Blodflödet är sparsamt 
+till måttligt, tumörern a är "täta" och kastar ofta randiga skuggor (liksom vid myom), cystiska 
+hålrum kan förekomma och är framtr ädande i en minoritet av fallen . Meigs syndrom, se kapitlet 
+Histopatologi, förekommer i 10 % av fallen, men i hela 40 % av fallen då fibromen är > 10  cm 
+stora . CA-125 är förhöj t hos 1/3 av kvinnor med fibrom . Ibland kan det vara svårt att skilja 
+fibrom/fibrotekom från maligna tumörer, då de kan gå med ascites, och förhöjt CA -125. 
+Skuggbildning, tät tumör och sparsamt blodflöde kan i dessa fall stödja en  benign diagnos. 
+Tekom är benigna tumörer som ofta är östrogenproducerande.  
+ 
+Bild 6. Fibrom  
+
+ REGIONALA CANCERCENTRUM  
+ 
+79 
+  
+Bild 7. Tekom  
+  
+
+REGIONALA CANCERCENTRUM  
+ 
+ 
+80 
+ Sertoli -Leydig tumörer  
+Förekommer hos kvinnor i alla åldrar, ger ofta endokrina symptom. I en serie på 23 patienter 
+fann man att tumören var helt solid i 60 % av fallen och innehöll en solid komponent i 96 % av 
+fallen5. De flesta tumörerna är ensidiga, solida eller har solida ko mponenter som är måttligt till 
+rikligt vaskulariserade. Leydigcell tumörer är ofta små solida tumörer (1 -3cm), (Bild 8), 
+Sertolicelltumörer är också solida men kan vara något större (4 -7cm), medan Sertoli -
+Leydigcelltumörer är antingen solida små till mella nstora (3 -7 cm eller flerrummiga till solida med 
+ett stort antal hålrum och solida partier .  
+ 
+Bild 8. Leydig celltumör hos 73 årig kvinna med ökad libido, klitoris hypertrofi och viriliserade symptom. Notera liten 
+välvaskulariserad tumör  
+  
+
+ REGIONALA CANCERCENTRUM  
+ 
+81 
+ Metastaser till  ovariet  
+Det är relativt vanligt förekommande med metastaser i ovarierna från  andra maligna tumörer, 
+vanligast förekommande är metastaser från kolorektal, övre GI, ven trikel, lymfom och 
+bröstcancer . Det finns studier som har visat att metastaser från lymfo m, bröst -, och 
+ventrikelcancer ofta är solida medan metastaser från colorektal, gallblåse, pancreascancer ofta är 
+flerrummigasolida med inslag av nekros  10,11  (Bild 9 -12). Vid spridd bukmalignitet kan vara 
+svårt att tala skilja primär ovarialcancer från me tastaserade cancer av annan genes, inslag av 
+tumörnekros, avsaknad av ovarialtumör talar dock för icke ovariell genes. Transvaginal eller 
+transabdominell mellanålsbiopsi är en snabb enkel minimal -invasiv metod att fastställa  tumörens 
+primaritet .  
+Bild 9. Coloncancermetastas hos 19 årig kvinna i HNPCC familj.  
+
+REGIONALA CANCERCENTRUM  
+ 
+ 
+82 
+ Bild 10. "Krukenberg tumör", ventrikelcancermetastas  
+Bild 11. Flerrummig solid pancreas cancer metastas.  
+
+ REGIONALA CANCERCENTRUM  
+ 
+83 
+ Bild 12. Solid bröstcancer metastas  
+  
+
+REGIONALA CANCERCENTRUM  
+ 
+ 
+84 
+ Referenser  
+D. Timmerman, L. Valentin, T. H. Bourne, W . P. Collins, H. Verrelst and  
+I. Vergote. Terms, definitions and measurements to describe the sonographic features of adnexal 
+tumors: a consensus opinion from the International Ovarian Tumor Analysis (IOTA) Group. 
+Ultrasound Obstet Gynecol 2000; 16: 500 -505. 
+L. Valentin, L. Ameye, L. Savelli, R. Fruscio, F. P. Leone, A. Czekierdowski, A. A. Lissoni, D. 
+Fischerova, S. Guerriero, C. Van Holsbeke, S. Van Huffel and D. Timmerman. Adnexal masses 
+difficult to classify as benign or malignant using subjective asses sment of gray -scale and Doppler 
+ultrasound findings: logistic regression models do not help. Ultrasound Obstet Gynecol; 38: 456 -
+465. 
+C. Van Holsbeke, E. Domali, T. K. Holland, R. Achten, A. C. Testa, L. Valentin, D. Jurkovic, P. 
+Moerman and D. Timmerman. I maging of gynecological disease (3): clinical and ultrasound 
+characteristics of granulosa cell tumors of the ovary. Ultrasound Obstet Gynecol 2008; 31: 450 -
+456. 
+S. Guerriero, A. C. Testa, D. Timmerman, C. Van Holsbeke, S. Ajossa, D. Fischerova, D. 
+Franchi,  F. P. Leone, E. Domali, J. L. Alcazar, G. Parodo, F. Mascilini, B. Virgilio, V. N. 
+Demidov, J. Lipatenkova and L. Valentin. Imaging of gynecological disease (6): clinical and 
+ultrasound characteristics of ovarian dysgerminoma. Ultrasound  Obstet Gynecol; 3 7: 596 -602. 
+V. N. Demidov, J. Lipatenkova, O. Vikhareva, C. Van Holsbeke, D. Timmerman and L. 
+Valentin. Imaging of gynecological disease (2): clinical and ultrasound characteristics of Sertoli 
+cell tumors, Sertoli -Leydig cell tumors and Leydig cell tumors.  Ultrasound Obstet Gynecol 2008; 
+31: 85 -91. 
+Q. Zhou, X. Y. Lei, Q. Xie and J. D. Cardoza. Sonographic and Doppler imaging in the diagnosis 
+and treatment of gestational trophoblastic disease: a 12 -year experience. J Ultrasound Med 2005; 
+24: 15 -24. 
+Savelli L , Testa AC, Timmerman D, Paladini D, Ljungberg O, Valentin L. Imaging of 
+gynecological disease (4): clinical and ultrasound characteristics of struma ovarii. Ultrasound 
+Obstet Gynecol. 2008 Aug;32(2):210 -9. 
+Sivanesaratnam V, Dutta R, Jayalakshmi P. Ovarian  fibroma --clinical and histopathological 
+characteristics. Int J Gynaecol Obstet. 1990 Nov;33(3):243 -7. 
+Paladini D, Testa A, Van Holsbeke C, Mancari R, Timmerman D, Valentin L. Imaging in 
+gynecological disease (5): clinical and ultrasound characteristics in  fibroma and fibrothecoma of 
+the ovary. Ultrasound Obstet Gynecol. 2009 Aug;34(2):188 - 95. 
+Zikan M, Fischerova D, Pinkavova I, Dundr P, Cibula D. Ultrasonographic appearance of 
+metastatic non -gynecological pelvic tumors. Ultrasound Obstet Gynecol.  Feb;39(2 ):215 -25. 
+Testa AC, Ferrandina G, Timmerman D, Savelli L, Ludovisi M, Van Holsbeke C, et al. Imaging 
+in gynecological disease (1): ultrasound features of metastases in the ovaries differ depending on 
+the origin of the primary tumor. Ultrasound Obstet Gynec ol. 2007 May;29(5):505 -11. 
+Fischerova D, Cibula D, Dundr P, Zikan M, Calda P, Freitag P, et al. Ultrasound -guided tru -cut 
+biopsy in the management of advanced abdomino -pelvic  tumors. Int J Gynecol Cancer. 2008 Jul -
+Aug;18(4):833 -7.
+ REGIONALA CANCERCENTRUM  
+ 
+85 
+  
+ 
+Regionala cancercentrum – landstingens och regionernas nationella samverkan inom cancervården.  
+Med patienter och närstående för hela människan, i dagens och framtidens cancervård.  
+www.cancercent rum.se  
+ 

@@ -1,0 +1,3801 @@
+Anuscarcinoom
+Deze richtlijn is tot stand gekomen op initiatief van Integraal Kankercentrum Nederland
+ 
+© 2012 - 2025
+ 
+Richtlijnendatabase is een product ondersteund door het 
+Kennisinstituut van de Federatie van Medisch Specialisten
+1
+2
+4
+5
+6
+7
+8
+12
+14
+15
+16
+17
+18
+19
+21
+23
+26
+28
+30
+32
+33
+35
+36
+38
+40
+42
+47Inhoudsopgave
+Anuscarcinoom
+Inhoudsopgave
+Startpagina - Anuscarcinoom
+Anuscarcinoom - Algemeen
+Anuscarcinoom - Algemeen - Epidemiologie
+Anuscarcinoom - Screening en preventie
+Anuscarcinoom - Screening - Screening op premaligne afwijkingen
+Anuscarcinoom - Screening en preventie - HPV Vaccinatie
+Anuscarcinoom - Screening en preventie - Screening op HIV
+Anuscarcinoom - Diagnostiek
+Anuscarcinoom - Diagnostiek - Anamnese
+Anuscarcinoom - Diagnostiek - Lichamelijk onderzoek
+Anuscarcinoom - Diagnostiek - Beeldvormend onderzoek
+Anuscarcinoom - Diagnostiek - MRI
+Anuscarcinoom - Diagnostiek - Endoechografie
+Anuscarcinoom - Diagnsotiek - FDG-PET
+Anuscarcinoom - Diagnostiek - SWK-procedure
+Anuscarcinoom - Diagnostiek - Tumormarkers
+Anuscarcinoom - Behandeling AIN
+Anuscarcinoom - Behandeling invasief plaveiselcelca
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Chirurgie
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Radiotherapie
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Conventionele- vs. conformatie- vs intensity modulated
+radiotherapie
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Treatment gap
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Afkappunt radiotherapie/chemoradiotherapie
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Doelvolume, techniek en dosis
+Anuscarcinoom - Behandeling invasief plaveiselcelca Brachytherapie
+49
+50
+54
+56
+57
+59
+61
+62
+63
+64
+65
+66
+67
+68
+69
+72
+74
+75
+76
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Systemische therapie
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Chemotherapie voor gelocaliseerd anuscarcinoom
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Chemotherapie voor gemetastaseerd anuscarcinoom
+Anuscarcinoom - Pathologie resectiepreparaat
+Anuscarcinoom - Pathologie resectiepreparaat - Classificatie anuscarcinoom
+Anuscarcinoom - Pathologie resectiepreparaat - Beoordeling operatiepreparaat
+Anuscarcinoom - Zorg en nazorg
+Anuscarcinoom - Zorg en nazorg - Voorlichting en communicatie
+Anuscarcinoom - Zorg en nazorg - Ondersteunende zorg
+Anuscarcinoom - Zorg en nazorg - Nacontrole en nazorg
+Anuscarcinoom - Zorg en nazorg - Psychosociale zorg
+Anuscarcinoom - Behandeling locaal/regionaal recidief
+Anuscarcinoom - Behandeling locaal/regionaal recidief - Therapie locaal recidief
+Anuscarcinoom - Behandeling regionaal/locaal recidief - Locaal recidief na locale chirurgie
+Anuscarcinoom - Behandeling locaal/regionaal recidief - Locaal recidief na (chemo)radiotherapie
+Anuscarcinoom - Behandeling locaal/regionaal recidief - Therapie regionaal recidief
+Anuscarcinoom - Organisatie van zorg
+Anuscarcinoom - Palliatieve zorg
+Anuscarcinoom - TNM classificatie
+Anuscarcinoom - Samenvatting
+Startpagina - Anuscarcinoom
+Waar gaat deze richtlijn over?
+Deze richtlijn richt zich op wat volgens de huidige maatstaven de beste zorg is voor patiënten met
+anuskanker. In de richtlijn komen de volgende onderwerpen aan de orde:
+Algemene informatie over anuskanker
+De toegevoegde waarde van het onderzoeken van patiënten zonder klachten
+De mogelijk te verrichten onderzoeken
+De rol van bloedonderzoek in het opsporen van anuskanker
+De behandelingsmogelijkheden voor het voorstadium van anuskanker en voor anuskanker
+De behandeling van terugkerende anuskanker
+Het te verrichten cel- en weefselonderzoek
+De te verlenen zorg voor, tijdens en na de behandeling
+Een aanbeveling voor de termijn tussen het tijdstip van de diagnose en de behandeling
+De te verlenen zorg als anuskanker niet meer genezen kan worden
+De systematische indeling op basis van grootte en uitgebreidheid van de tumor
+ 
+Voor wie is deze richtlijn bedoeld?
+Deze richtlijn is bestemd voor alle zorgverleners die betrokken zijn bij de zorg voor patiënten met anuskanker.
+ 
+Voor patiënten
+Anuscarcinoom is de medische term voor anuskanker. Anuskanker is kanker die ontstaat in de anus of de huid
+daar vlak omheen. Anuskanker komt weinig voor en vooral bij oudere patiënten. Hiv-positieve mannen die
+seks hebben met andere mannen, hebben het grootste risico op het krijgen van anuskanker. De behandeling
+bestaat uit een operatie, chemotherapie, bestraling of een combinatie hiervan. Voor welke behandeling
+gekozen wordt is afhankelijk van de grootte, plaats en kenmerken van de tumor en de conditie van de
+patiënt.
+ 
+Meer informatie over anuskanker is te vinden op kanker.nl:
+https://www.kanker.nl/anuskanker
+ 
+Hoe is de richtlijn tot stand gekomen?
+Het initiatief voor deze richtlijn is afkomstig van het Integraal Kankercentrum Nederland (IKNL). De richtlijn is
+opgesteld door een multidisciplinaire commissie met vertegenwoordigers vanuit de chirurgen, Internist-
+oncologen, maag-darm-leverartsen, radiologen, radiotherapeuten, nucleair geneeskundigen, pathologen en
+dermatologen. In de commissie zaten ook vertegenwoordigers van patiëntenbeweging Levenmetkanker.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+4
+/
+78
+Anuscarcinoom - Algemeen
+Aanleiding
+In 2009 is in de Landelijke Werkgroep Gastro-Intestinale Tumoren (LWGIT) vastgesteld dat de richtlijn
+anuscarcinoom uit 2003 gereviseerd diende te worden. Naar aanleiding hiervan is een landelijke
+richtlijnwerkgroep anuscarcinoom opgericht welke de consensus based revisie op zich heeft genomen.
+ 
+Doelstelling
+De richtlijn is zoveel mogelijk gebaseerd op wetenschappelijk onderzoek of consensus. Het betreft een
+document met aanbevelingen ter ondersteuning van de dagelijkse praktijkvoering van zorgverleners die
+betrokken zijn bij patiënten met (een mogelijk) anuscarcinoom. De richtlijn geeft aanbevelingen over de
+screening en preventie, diagnostiek, behandeling, zorg en nazorg, organisatie van zorg en palliatieve zorg bij
+patiënten met (een mogelijk) anuscarcinoom. De richtlijn beoogt hiermee de kwaliteit van de zorgverlening te
+verbeteren, het klinisch handelen meer te baseren op bewijs dan op ervaringen en meningen, de
+transparantie te vergroten en de diversiteit van handelen door professionals te verminderen.
+ 
+Doelgroep
+Deze richtlijn is bestemd voor alle professionals die betrokken zijn bij de diagnostiek, behandeling en
+begeleiding van patiënten met anuscarcinoom, zoals internist-oncologen, chirurgen, radiotherapeuten,
+infectiologen, MDL-artsen, dermatologen, huisartsen, oncologieverpleegkundigen, consulenten, pathologen,
+maatschappelijk werkers, psychologen, radiologen en nucleair-geneeskundigen.
+ 
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+5
+/
+78
+Anuscarcinoom - Algemeen - Epidemiologie
+Anuscarcinomen gaan uit van het anaal kanaal of de perianale huid. Het anale kanaal strekt zich uit van de
+anorectale overgang tot de junctie met de behaarde huid 2 cm buiten de anale ring. De perianale huid of
+anale marge is een ringvormige zone van 2 tot 5 cm buiten de anale ring. De meeste carcinomen in deze
+regio zijn plaveiselcelcarcinomen. Deze richtlijn heeft enkel betrekking op plaveiselcelcarcinomen en zijn
+histologische varianten (zie ook module Classificatie anuscarcinoom). De richtlijn is niet van toepassing voor
+het adenocarcinoom of het kleincellige ongedifferentieerde carcinoom en evenmin voor het zeldzame
+melanoom, omdat deze een andere behandeling behoeven. Op basis van de gegevens afkomstig uit de
+Nederlandse Kankerregistratie (NKR) kan worden vastgesteld dat er sprake is van een toename van het aantal
+patiënten met anuscarcinoom. Over de periode 2000-2010 is in Nederland de incidentie van anuscarcinoom
+toegenomen van 113 naar 171 patiënten per jaar. In de periode 2000-2010 is ten aanzien van de
+leeftijdsspecifieke incidentie bij mannen sprake van een piek in de categorie 60-64 jaar en bij vrouwen een
+piek in de categorie van 55-59 jaar. In de periode 2000-2010 is er sprake van een stijging van het aantal
+sterfgevallen van 26 naar 41 per jaar. Er is een verhoogd risico op het ontstaan van anuscarcinomen bij
+immunosuppressie en een humaan papilloma virus infectie.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+6
+/
+78
+Anuscarcinoom - Screening en preventie
+Deze module is onderverdeeld in submodules en/of paragrafen. Om de inhoud te kunnen bekijken klikt u in
+de linkerkolom op de submodules.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+7
+/
+78
+Anuscarcinoom - Screening - Screening op premaligne afwijkingen
+Uitgangsvraag
+Wat zijn de doelgroepen voor een eventueel screeningsprogramma?
+Aanbeveling
+De werkgroep is van mening dat het op dit moment nog te vroeg is om HIV-positieve mannen die seks
+hebben met mannen (MSM), of andere risicogroepen, standaard screening op Anale Intraepitheliale
+Neoplasie (AIN) aan te bieden.
+Voor de diagnose en gradering van AIN wordt een biopsie geadviseerd voor histologisch onderzoek.
+ 
+p16 Immunohistochemie of HPV testing wordt niet routinematig geadviseerd.
+De werkgroep is van mening dat er geen indicatie is voor anale HPV analyse bij HIV-positieve MSM of andere
+risicogroepen.
+Overwegingen
+Gezien de hoge prevalentie van AIN 2/3 onder HIV-positieve MSM is het waarschijnlijk doelmatiger en
+kosteneffectiever om cytologische screening over te slaan. De ervaring met de diagnostiek en behandeling
+van Anale Intraepitheliale Neoplasie (AIN) is in Nederland zeer beperkt. De toepassing van hoge resolutie
+anoscopie (HRA) is duur en het betreft een belastend onderzoek voor de patiënt. Zover bekend bij de
+werkgroep zijn er maar drie centra met ervaring in HRA. In al deze centra wordt het onderzoek vooralsnog
+alleen in studieverband toegepast.
+Onderbouwing
+Conclusies
+Het is aangetoond dat vooral HIV-positieve MSM een fors verhoogd risico hebben op anuscarcinoom. De
+meerderheid van deze patiënten heeft Anale Intraepitheliale Neoplasie (AIN), waarvan meer dan de helft
+AIN2/3. Er is echter te weinig bekend over de progressie van AIN 2/3 naar anuscarcinoom. Voor de andere
+risicogroepen (HIV negatieve mannen die seks hebben met mannen (MSM), HIV positieve vrouwen,
+transplantatiepatiënten, vrouwen met een voorgeschiedenis van vulva- of cervixcarcinoom) zijn nog minder
+data beschikbaar.
+Diamond 2005 (
+2
+); Crum-Cianflone 2010 (
+3
+); d'Souza 2008 (
+4
+); Kreuter 2010 (
+9
+); Salit 2010 (
+10
+); Palefsky 2005
+(
+11
+)
+De diagnose wordt gesteld door middel van een biopsie voor histologisch onderzoek. Er zijn aanwijzingen dat
+routinematige immunofenotypering niet nodig is. Er is geen reden om anale HPV analyse te doen bij HIV-
+positieve MSM.
+Piroq 2010 (
+16
+); Lu 2003 (
+17
+); Salit 2010 (
+10
+); Palefsky 2005 (
+11
+)
+Samenvatting literatuur
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+8
+/
+78
+Risicogroep
+In de algehele bevolking ligt de incidentie voor anuscarcinoom tussen de 1 en de 2 per 100.000 persoonjaar.
+De incidentie stijgt met de leeftijd en bedraagt bij mensen boven de 80 ongeveer 4 per 100.000 persoonjaar
+(
+1
+). HIV-positieve mannen die seks hebben met mannen (MSM) zijn de belangrijkste risicogroep voor
+anuscarcinoom, met een incidentie van 128-144 per 100.000 persoonjaar en een relatief risico (RR) oplopend
+tot 352 (
+2
+)  (
+3
+)  (
+4
+). Ook HIV-negatieve MSM hebben een verhoogd risico. De incidentie onder MSM vóór de
+HIV epidemie bedroeg 33 per 100.000 persoonjaar (
+5
+). Hoewel de data beperkt zijn, lijkt de incidentie van
+anuscarcinoom onder HIV-positieve vrouwen ook verhoogd, met een RR van 7 (
+6
+). Bij
+niertransplantatiepatiënten bedraagt het RR 10 (
+7
+). Bij vrouwen met een voorgeschiedenis van vulva- of
+cervixcarcinoom is het RR respectievelijk 17 en 6 (
+8
+).
+Diagnostiek AIN
+Anuscarcinoom wordt net als cervixcarcinoom voorafgegaan door een voorstadium, de zogenaamde Anale
+Intraepitheliale Neoplasie (AIN). Deze wordt gegradeerd als AIN 1, 2 en 3, respectievelijk mild, matige en
+ernstige dysplasie. Ook worden de termen laaggradige squameuze intraepitheliale laesie (LSIL), wat
+overeenkomt met AIN 1, en hooggradige squameuze intraepitheliale laesie (HSIL) gebruikt, wat overeenkomt
+met AIN 2/3. De meerderheid van HIV-positieve MSM heeft AIN, waarvan meer dan de helft AIN 2/3 (
+9
+)  (
+10
+) 
+(
+11
+). Gegevens over progressie zijn beperkt. Volgens één studie is de progressie van laag- naar hooggradige
+dysplasie 50% binnen een periode van 4 jaar (
+12
+). Een andere kleine studie laat met een mediane follow-up
+van 5 jaar een progressie van AIN 2/3 naar anuscarcinoom zien van 15% (
+13
+). Algemeen wordt verondersteld
+dat screening op en behandeling van AIN het ontstaan van anuscarcinoom kan voorkomen. Anale cytologie
+(PAP smear) heeft een sensitiviteit van 69-93% en een specificiteit van 32-59% voor de detectie van AIN (
+14
+).
+Een recente studie laat zien dat van HIV-positieve MSM met een klinische verdenking op AIN, maar een
+benigne cytologie, 29% alsnog AIN 2/3 blijkt te hebben (
+15
+). De gouden standaard voor AIN diagnostiek is
+hoge resolutie anoscopie (HRA), een combinatie van proctoscopie en colposcopie, waarbij met 10-30 maal
+vergroting het distale rectum, de anorectale overgang, het anale kanaal en peri-anale regio kan worden
+geïnspecteerd. Verdachte afwijkingen dienen te worden gebiopteerd voor histologisch onderzoek. Er zijn
+aanwijzingen dat immunohistochemisch onderzoek op p16 expressie de reproduceerbaarheid van de
+diagnostiek verbetert (
+16
+). Een routinematige toepassing van p16 immunohistochemie is evenwel niet vereist.
+Evenmin is routinematig onderzoek op het humaan papilloma virus (HPV) noodzakelijk voor het stellen van de
+diagnose (
+17
+).
+HPV onderzoek
+De Gezondheidsraad heeft in 2011 het advies uitgebracht om in het bevolkingsonderzoek naar
+cervixcarcinoom het cervicale uitstrijkje te vervangen door screening op hoog risico HPV (
+18
+). Met de huidige
+kennis is er echter geen reden om anale HPV analyse te doen bij HIV-positieve MSM. De overgrote
+meerderheid van hen heeft multipele oncogene HPV types in het anale kanaal (
+19
+)  (
+11
+). Gezien de hoge AIN
+prevalentie is het derhalve de vraag of anale HPV analyse als selectie voor hoge resolutie anoscopie geschikt
+is. Mogelijk dat HPV genotypering of viral load bepaling een rol zou kunnen spelen in een toekomstig
+screeningsprogramma (
+19
+)  (
+20
+) of bij het beoordelen van een AIN behandelresultaat (
+21
+)  (
+22
+). De data
+hierover zijn echter beperkt. Bij de andere risicogroepen zijn geen gegevens bekend over de rol van HPV
+analyse.
+Verantwoording
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+9
+/
+78
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Van Lieshout A, Pronk A. Steeds meer anuscarcinomen in Nederland. 
+Ned Tijdschr Geneeskd. 2010;154:A1163.
+2
+ - Diamond C, Taylor TH, Aboumrad T, Bringman D, Anton-Culver H. Increased incidence of squamous cell anal cancer
+among men with AIDS in the era of highly active antiretroviral therapy. 
+Sex Transm Dis. 2005 May;32(5):314-20
+.
+3
+ - Crum-Cianflone NF, Hullsiek KH, Marconi VC, Ganesan A, Weintrob A, Barthel RV, et al. Infectious Disease Clinical Research
+Program HIV Working Group. Anal cancers among HIV-infected persons: HAART is not slowing rising incidence. 
+AIDS. 2010
+Feb 20;24(4):535-43.
+4
+ - D'Souza G, Wiley DJ, Li X, Chmiel JS, Margolick JB, Cranston RD, Jacobson LP. Incidence and epidemiology of anal cancer
+in the multicenter AIDS cohort study. 
+J Acquir Immune Defic Syndr. 2008 Aug 1;48(4):491-9.
+5
+ - Daling JR, Weiss NS, Klopfenstein LL, Cochran LE, Chow WH, Daifuku R. Correlates of homosexual behaviour and the
+incidence of anal cancer. 
+JAMA. 1982 Apr.9;247(14):1988-90
+.
+6
+ - Frisch M, Biggar RJ, Goedert JJ. Human papillomavirus-associated cancers in patients with human immunodeficiency virus
+infection and acquired immunodeficiency syndrome. 
+J Natl Cancer Inst. 2000 Sep 20;92(18):1500-10.
+7
+ - Patel HS, Silver AR, Northover JM. Anal cancer in renal transplant patients. 
+Int J Colorectal Dis. 2007 Jan;22(1):1-5
+.
+8
+ - Saleem AM, Paulus JK, Shapter AP, Baxter NN, Roberts PL, Ricciardi R. Risk of anal cancer in a cohort with human
+papillomavirus-related gynecologic neoplasm. Obstet Gynecol. 2011 Mar;117(3):643-9.
+9
+ - Kreuter A, Potthoff A, Brockmeyer NH, Gambichler T, Swoboda J, Stücker M, et al; German Competence Network
+HIV/AIDS. Anal carcinoma in human immunodeficiency virus-positive men: results of a prospective study from Germany. 
+Br J
+Dermatol. 2010,162:1269-77.
+1
+0 - Salit IE, Lytwyn A, Raboud J, Sano M, Chong S, Diong C, Chapman W, Mahony JB,Tinmouth J. The role of cytology (Pap
+tests) and human papillomavirus testing in anal cancer screening. 
+AIDS. 2010 Jun 1;24(9):1307-13
+.
+1
+1 - Palefsky JM, Holly EA, Efirdc JT, Da Costa M, Jay N, Berry JM, et al. Anal intraepithelial neoplasia in the highly active
+antiretroviral therapy era among HIV-positive men who have sex with men. 
+AIDS. 2005 Sep 2; 19(13): 1407-14
+.
+1
+2 - Palefsky JM, Holly EA, Ralston ML, et al.: High incidence of anal high-grade squamous intra-epithelial lesions among HIV-
+positive and HIV-negative homosexual and bisexual men. 
+AIDS 1998,12:495–503
+.
+1
+3 - Watson AJ, Smith BB, Whitehead MR, Sykes PH, Frizelle FA.Malignant progression of anal intra-epithelial neoplasia. 
+ANZ
+J Surg. 2006 Aug;76(8):715-7.
+1
+4 - Chiao EY, Giordano TP, Palefsky JM, Tyring S, El Serag H. Screening HIV-infected individuals for anal cancer precursor
+lesions: a systematic review. 
+Clin Infect Dis. 2006 Jul 15;43(2):223-33
+.
+1
+5 - Swedish KA, Lee EQ, Goldstone SE. The changing picture of high-grade anal intraepithelial neoplasia in men who have sex
+with men: the effects of 10 years of experience performing high-resolution anoscopy. 
+Dis Colon Rectum. 2011 Aug;54(8):1003-
+7
+.
+1
+6 - Pirog EC, Quint KD, Yantiss RK. P16/CDKN2A and Ki-67 enhance the detection of anal intraepithelial neoplasia and
+condyloma and correlate with human papillomavirus detection by polymerase chain reaction. 
+Am J Surg Pathol. 2010;34:1449-
+55
+.
+1
+7 - Lu DW, El-Mofty SK, Wang HL. Expression of p16, Rb, and p53 proteins in squamous cell carcinomas of the anorectal
+region harboring human papillomavirus DNA. 
+Mod Pathol. 2003;16:692-9
+.
+1
+8 - Gezondheidsraad. 
+Screening op baarmoederhalskanker
+. Den Haag: Gezondheidsraad, 2011; publica-tienr. 2011/07. ISBN
+978-90-5549-841-3
+1
+9 - Salit IE, Tinmouth J, Chong S, Raboud J, Diong C, Su D, et al. Screening for HIV-associated anal cancer: correlation of HPV
+genotypes, p16, and E6 transcripts with anal pathology. 
+Cancer Epidemiol Biomarkers Prev. 2009 Jul;18(7):1986-92
+.
+2
+0 - De Pokomandy A, Rouleau D, Ghattas G, Trottier H, Vézina S, Coté P, et al. HAART and progression to high-grade anal
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+10
+/
+78
+intraepithelial neoplasia in men who have sex with men and are infected with HIV. 
+Clin Infect Dis. 2011 May;52(9):1174-81
+.
+2
+1 - Kreuter A, Potthoff A, Brockmeyer NH, Gambichler T, Stücker M, Altmeyer P, et al; German Competence Network
+HIV/AIDS. Imiquimod leads to a decrease of human papillomavirus DNA and to a sustained clearance of anal intraepithelial
+neoplasia in HIV-infected men. 
+J Invest Dermatol. 2008, 128:2078-83
+.
+2
+2 - Richel O, Wieland U, de Vries HJ, Brockmeyer NH, van Noesel C, Potthoff A, Prins JM, Kreuter A.Topical 5-fluorouracil
+treatment of anal intraepithelial neoplasia in human immunodeficiency virus-positive men. 
+Br J Dermatol. 2010
+Dec;163(6):1301-7
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+11
+/
+78
+Anuscarcinoom - Screening en preventie - HPV Vaccinatie
+Uitgangsvraag
+Heeft vaccineren van verschillende subgroeppen in Nederland nut ter voorkoming van anuscarcinoom?
+Aanbeveling
+Er is een internationale discussie gaande over de zin van Humaan Papilloma Virus (HPV) vaccinatie van
+jongens. De werkgroep is van mening dat met de huidige kennis van zaken op dit moment geen aanbeveling
+kan worden gedaan over HPV vaccinatie van jongens.
+Overwegingen
+Het is niet bekend of de toepassing van het Humaan Papilloma Virus (HPV) vaccin kosteneffectief is ter
+preventie van anuscarcinoom bij mannen die seks hebben met mannen.
+Onderbouwing
+Conclusies
+Het is aannemelijk dat het Humaan Papilloma Virus (HPV) vaccin, indien vroeg gegeven, het risico op Anale
+Intraepitheliale Neoplasie reduceert bij mannen die seks hebben met mannen.
+Palefsky 2011 (
+2
+)
+Samenvatting literatuur
+Het bivalente vaccin beschermt tegen anale Humaan Papilloma Virus (HPV) 16 en 18 infectie bij jonge
+vrouwen (
+1
+). Het quadrivalente vaccin is effectief ter preventie van HPV dragerschap en Anale Intraepitheliale
+Neoplasie (AIN) bij gezonde MSM tot 26 jaar (<5 sekspartners) (
+2
+). Het quadrivalente HPV-vaccin lijkt sterk
+immunogeen te zijn bij HIV-positieve MSM (
+3
+). Echter, voor de meeste HIV-positieve MSM is vaccinatie geen
+oplossing. De profylactische HPV vaccins zijn niet effectief tegen reeds aanwezig cervicaal HPV en Cervicale
+Intraepitheliale Neoplasie (
+4
+). Het is niet waarschijnlijk dat dit bij anaal HPV of AIN wel het geval zal zijn.
+Vaccinatie dient daarom bij voorkeur plaats te vinden vóór de eerste seksuele contacten. Bij succesvolle
+implementatie van profylactische vaccinatie van meisjes is er wel groepsbescherming te verwachten voor
+heteroseksuele mannen, zoals te zien is in de afname in anogenitale wratten bij een hoge vaccinatie graad,
+maar niet voor MSM (
+5
+). Het is waarschijnlijk niet haalbaar jonge MSM voor het eerste seksuele contact te
+vaccineren omdat nog maar weinig jongens zich op dat moment als dusdanig identificeren ten opzichte van
+ouders of artsen (
+6
+). Profylactische vaccinatie van alle jongens voor het eerste seksuele contact is waarschijnlijk
+het meest effectief ter voorkoming van anuscarcinoom bij de belangrijkste risicogroepen, HIV-negatieve en
+HIV-positieve MSM. Toekomstig onderzoek zal moeten uitwijzen of dit kosteneffectief is.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+12
+/
+78
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Kreimer AR, González P, Katki HA, Porras C, Schiffman M, Rodriguez AC, et al. Efficacy of a bivalent HPV 16/18 vaccine
+against anal HPV 16/18 infection among young women: a nested analysis within the Costa Rica Vaccine Trial. 
+Lancet Oncol.
+2011 Sep;12(9):862-70.
+2
+ - Palefsky JM, Giuliano AR, Goldstone S, Moreira ED Jr, Aranda C, Jessen H, et al.  HPV vaccine against anal HPV infection
+and anal intraepithelial neoplasia. 
+N Engl J Med. 2011 Oct 27;365(17):1576-85
+.
+3
+ - Wilkin T, Lee JY, Lensing SY, Stier EA, Goldstone SE, Berry JM, et al. Safety and immunogenicity of the quadrivalent human
+papillomavirus vaccine in HIV-1-infected men. J Infect Dis. 2010 Oct 15;202(8):1246-53.
+4
+ - Hildesheim A, Herrero R, Wacholder S, Rodriguez AC, Solomon D, Bratti MC. Effect of Human Papillomavirus 16/18 L1
+Viruslike Particle Vaccine Among Young Women With Preexisting Infection: A Randomized Trial. 
+JAMA. 2007;298(7):743-53
+.
+5
+ - Fairley CK, Hocking JS, Gurrin LC, Chen MY, Donovan B, Bradshaw CS. Rapid decline in presentations of genital warts after
+the implementation of a national quadrivalent human papillomavirus vaccination programme for young women. 
+Sex Transm
+Infect. 2009 Dec;85(7):499-502. Epub 2009 Oct 16.
+6
+ - Pathela P, Hajat A, Schillinger J, Blank S, Sell R, Mostashari F. Discordance between sexual behavior and self-reported
+sexual identity: a population-based survey of New York City men. Ann Intern Med. 2006 Sep 19;145(6):416-25. Erratum in: 
+Ann
+Intern Med. 2006 Dec 19;145(12):936.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+13
+/
+78
+Anuscarcinoom - Screening en preventie - Screening op HIV
+Uitgangsvraag
+Moeten patiënten met anuscarcinoom standaard getest worden op HIV?
+Aanbeveling
+De werkgroep is van mening dat een HIV test overwogen dient te worden bij een patiënt met anuscarcinoom,
+omdat HIV de grootste risicofactor betreft voor het krijgen van anuscarcinoom en de incidentie van
+anuscarcinoom onder HIV-geïnfecteerden toeneemt.
+Onderbouwing
+Conclusies
+Er is te weinig bekend over de incidentie van HIV infectie bij patiënten met anuscarcinoom.
+Samenvatting literatuur
+De afgelopen decennia is de incidentie van anuscarcinoom verdubbeld 
+(
+1
+). Bij mensen met HIV is deze
+toename vele malen groter, vooral HIV-positieve MSM hebben een sterk verhoogd risico 
+(
+2
+)  (
+3
+)  (
+4
+). Er zijn
+echter bij de werkgroep geen studies bekend die laten zien wat het aandeel is van HIV-geïnfecteerden in de
+groep patiënten met anuscarcinoom. Evenmin is het bekend of HIV (deels) verantwoordelijk is voor de
+toename van de incidentie van anuscarcinoom.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Van Lieshout A, Pronk A. Steeds meer anuscarcinomen in Nederland. 
+Ned Tijdschr Geneeskd. 2010;154:A1163.
+2
+ - Diamond C, Taylor TH, Aboumrad T, Bringman D, Anton-Culver H. Increased incidence of squamous cell anal cancer
+among men with AIDS in the era of highly active antiretroviral therapy. 
+Sex Transm Dis. 2005 May;32(5):314-20
+.
+3
+ - Crum-Cianflone NF, Hullsiek KH, Marconi VC, Ganesan A, Weintrob A, Barthel RV, et al. Infectious Disease Clinical Research
+Program HIV Working Group. Anal cancers among HIV-infected persons: HAART is not slowing rising incidence. 
+AIDS. 2010
+Feb 20;24(4):535-43.
+4
+ - D'Souza G, Wiley DJ, Li X, Chmiel JS, Margolick JB, Cranston RD, Jacobson LP. Incidence and epidemiology of anal cancer
+in the multicenter AIDS cohort study. 
+J Acquir Immune Defic Syndr. 2008 Aug 1;48(4):491-9.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+14
+/
+78
+Anuscarcinoom - Diagnostiek
+Deze module is onderverdeeld in submodules en/of paragrafen. Om de inhoud 
+te kunnen bekijken klikt u in de linkerkolom op de submodules.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+15
+/
+78
+Anuscarcinoom - Diagnostiek - Anamnese
+De werkgroep is van mening dat bij (sterke verdenking op) anuscarcinoom minimaal de volgende vragen
+gesteld dienen te worden:
+Heeft de patiënt klachten van anaal bloed- of slijmverlies, tenesme, anale pijn of jeuk?
+Hoe is de algemene conditie van de patiënt?
+Is er sprake van gewichtsverlies of verminderde eetlust?
+Heeft de patiënt ooit genitale wratten gehad en/of is de patiënt daarvoor behandeld?
+Heeft de patiënt ooit een seksueel overdraagbare aandoening gehad of klachten die daarbij passen?
+Is de patiënt bekend met een immuunstoornis of gebruikt de patiënt immunosuppressiva?
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+16
+/
+78
+Anuscarcinoom - Diagnostiek - Lichamelijk onderzoek
+Uitgangsvraag
+Wat is de plaats van lichamelijk onderzoek bij de diagnostiek van mensen met een verdenking op
+anuscarcinoom?
+Aanbeveling
+Er wordt geadviseerd bij de diagnostiek een goed lichamelijk onderzoek, met eventueel aanvullend
+cytologisch onderzoek van de liesklieren middels dunne naald punctie te verrichten.
+Onderbouwing
+Conclusies
+Op grond van de beperkte literatuur is aangetoond dat een goed lichamelijk onderzoek met zo nodig
+aanvullend cytologisch onderzoek van de liesklieren middels dunne naald punctie zinvol is.
+Abbas 2010 
+(
+1
+); Glynne-Jones 2010 
+(
+2
+)
+Samenvatting literatuur
+Een gedegen lichamelijk onderzoek met inspectie van de anus, rectaal (en eventueel vaginaal) onderzoek, als
+ook aandachtig onderzoek van de liezen is zeer belangrijk 
+(
+1
+)  (
+2
+). Bij verdenking op lieskliermetastasen bij
+lichamelijk onderzoek is een cytologisch onderzoek middels dunne naald punctie aan te bevelen 
+(
+1
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Abbas A, Yang G, Fakih M. Management of Anal Cancer in 2010 Part 1: Overview, screening and diagnosis. 
+Oncology
+(Williston Park). 2010 Apr 15;24(4):364-9.
+2
+ - Glynne-Jones R, Northover JMA, Cervantes A. Anal cancer: ESMO clinical practice guidelines for diagnosis, treatment and
+follow-up. 
+Ann Oncology 2010, 21, 87-92.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+17
+/
+78
+Anuscarcinoom - Diagnostiek - Beeldvormend onderzoek
+Deze module is onderverdeeld in submodules. Om de inhoud te kunnen bekijken klikt u in de linkerkolom op
+de submodules.
+ 
+ 
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+18
+/
+78
+Anuscarcinoom - Diagnostiek - MRI
+Uitgangsvraag
+Welk stadiërend onderzoek is nodig voor de primaire tumor, de lies en de metastasen op afstand (o.a.
+cytologie)?
+Bestaande uit de volgende subvragen:
+Wat is de rol van MRI?
+Aanbeveling
+De werkgroep is van mening dat bij patiënten met ten minste een T2 tumor, MRI een meerwaarde kan
+betekenen in de evaluatie van locale en regionale tumoruitbreiding (invasie in diepe pelviene structuren en
+lymfeklieren). Pelviene phased-array MRI techniek met acquisitie van T2-gewogen beelden zonder
+vetsuppressie heeft hierbij de voorkeur.
+Overwegingen
+Studies die verschillende MRI technieken vergelijken bij patiënten met anuscarcinoom ontbreken. Gebaseerd
+op ervaring met rectumcarcinoom wordt de voorkeur aan pelviene phased-array techniek gegeven, met
+acquisitie van T2-gewogen opnamen zonder vetsuppressie 
+(
+1
+)  (
+7
+). Indien voor handen kan, omwille van zijn
+hogere resolutie, endoluminale MRI techniek overwogen worden ter beoordeling van oppervlakkige ingroei in
+het sfinctercomplex. De ervaring hiermee is echter beperkt en de techniek is niet erg patiëntvriendelijk.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat voor de stadiëring van het anuscarcinoom er een goede correlatie is tussen de
+bevindingen op MRI en de bevindingen bij lichamelijk onderzoek. Bij uitgebreidere tumoren lijkt MRI een
+meerwaarde te hebben ten opzichte van het klinisch en endo-echografisch onderzoek, met name voor het
+opsporen van invasie in diepe pelviene structuren en lymfekliermetastasen Otto 2009 
+(
+3
+); Roach 2005 
+(
+1
+); Koh
+2008 
+(
+2
+)
+Samenvatting literatuur
+De rol van MRI in de stadiëring van anuscarcinoom is slechts in beperkte mate onderzocht. In een
+retrospectieve studie van 27 patiënten met histologisch bewezen anuscarcinoom, waarvan 18 met een
+recidief na eerdere behandeling, konden de primaire tumor en pathologische lymfeklieren met MRI
+doorgaans goed gevisualiseerd worden (
+1
+). In vijf van de zeven gevallen die geopereerd werden, was de
+pathologische tumoruitbreiding in het resectiepreparaat in overeenstemming met de preoperatieve MRI
+bevindingen. In een retrospectieve studie van 15 patiënten werd een goede overeenkomst gevonden tussen
+MRI en het klinisch onderzoek voor tumorgrootte en T-stadium (
+2
+). Echter, bij vier van deze patiënten bleek
+het klinisch onderzoek onder te stadiëren ten opzichte van de MRI (2 T4 tumoren gestadieerd als T3 en 2 T2
+tumoren gestadieerd als T1). In een prospectieve vergelijkende studie tussen MRI en endo-echografie werd
+bij 45 patiënten een goede onderlinge correlatie gevonden voor het T-stadium, maar was endo-echografie
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+19
+/
+78
+onvoldoende betrouwbaar voor de N-stadiëring, met name voor de N2-3 stadia (
+3
+). Er zijn geen studies
+bekend die inzicht geven in de te hanteren cut-off voor suspecte lymfeklieren bij anuscarcinoom. Gebaseerd
+op de weinige literatuur is een cutt-off van 10-15 mm korte as het meest voor de hand liggend (
+4
+)  (
+5
+)  (
+3
+)  (
+6
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Roach SC, Hulse PA, Moulding FJ, Wilson R, Carrington BM. Magnetic resonance imaging of anal cancer. 
+Clin Radiol. 2005,
+60:1111-9.
+2
+ - Koh DM, Dzik-Jurasz A, O'neill B, Tait D, Husband JE, Brown G. Pelvic phased-array MR imaging of anal carcinoma before
+and after chemoradiation. 
+Br J Radiol. 2008 Feb;81(962):91-8
+.
+3
+ - Otto SD, Lee L, Buhr HJ, Frericks B, Hocht S, Kroesen AJ. Staging anal cancer: prospective comparison of transanal
+endoscopic ultrasound and magnetic resonance imaging. 
+J Gastrointest Surg. 2009 Jul;13(7):1292-8
+.
+4
+ - Cotter SE, Grigsby PW, Siegel BA, Dehdashti F, Malyapa RS, Fleshman JW, et al. FDG-PET/CT in the evaluation of anal
+carcinoma. 
+Int. J. Radiat. Oncol. Biol. Phys. 2006, 65, 720-5
+.
+5
+ - Nguyen BT, Joon DL, Khoo V, Quong G, Chao M, Wada M, et al. Assessing the impact of FDG-PET in the management of
+anal cancer. 
+Radiother Oncol. 2008, 87, 376-82
+.
+6
+ - Winton E, Heriot AG, Hicks RJ, Hogg A, Leong T, Fay M, et al. The impact of 18-fluorodeoxyglucose positron emission
+tomography on the staging, management and outcome of anal cancer. Br J Cancer. 2009;100:693-700.
+7
+ - Vliegen RF, Beets GL, von Meyenfeldt MF, KesselsAG, Lemaire EE, van Engelshoven JM, Beets-Tan RG. Rectal cancer: MR
+imaging in local staging – is gadolinium-based contrast material helpful? 
+Radiology 2005, 234, 179-88.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+20
+/
+78
+Anuscarcinoom - Diagnostiek - Endoechografie
+Uitgangsvraag
+Welk stadiërend onderzoek is nodig voor de primaire tumor, de lies en de metastasen op afstand (o.a.
+cytologie)?
+Bestaande uit de volgende subvragen:
+Wat is de rol van endoechografisch onderzoek?
+Aanbeveling
+De werkgroep is van mening dat endoanale ultrasonografie (EAUS) alleen een meerwaarde heeft in ervaren
+handen, met name om transmurale uitbreiding te beoordelen. Diepe tumoren, met uitbreiding naar de
+externe anale sfincter behoeven mogelijk een agressievere behandeling (zie submodule Afkappunt
+radiotherapie/chemoradiotherapie). Voor de N-stadiëring en voor de uitbreiding naar diepe pelviene
+structuren en organen is EAUS vanwege het beperkte gezichtsveld evenwel ontoereikend.
+Overwegingen
+Het aantal studies dat de waarde van endoanale ultrasonografie (EAUS) heeft bestudeerd is zeer beperkt.
+Slechts één studie heeft in een kleine groep patiënten een vergelijking met MRI gedaan. 3D-EAUS heeft de
+voorkeur boven 2D-EAUS. Diepe transmurale uitbreiding naar de externe anale sfincter kan in ervaren handen
+met EAUS redelijk onderscheiden worden en heeft mogelijk therapeutische consequenties (zie submodule
+Afkappunt radiotherapie/chemoradiotherapie).
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat endoanale ultrasonografie (EAUS) additionele informatie kan geven in de stadiëring
+van anuscarcinoom, met name voor wat betreft de transmurale uitbreiding. 3D-EAUS heeft hierbij de
+voorkeur. Het lijkt bij oppervlakkige tumoren superieur aan MRI maar ontoereikend voor het bepalen van de
+N-status.
+Christensen 2004 
+(
+1
+); Christensen 2009 
+(
+2
+); Otto 2009 
+(
+3
+)
+Samenvatting literatuur
+In een Deense studie is bij 30 patiënten de waarde van 2-dimensionale endoanale ultrasonografie (EAUS)
+vergeleken met 3-dimensionale EAUS (
+1
+). 3D-EAUS scoorde significant beter dan 2D-acquisitie, met name
+voor de transmurale uitbreiding naar de externe sfincter en voor de klierstatus (
+1
+). Ook bleek in een
+vervolgonderzoek bij zeven patiënten met recidief anuscarcinoom de interobserver variatie bij 3D-AEUS
+beduidend minder groot dan bij 2D-EAUS (
+2
+). In de eerder genoemde vergelijkende studie van Otto et al.
+tussen EAUS en MRI (zie subhoofdstuk MRI) bleek de concordantie voor het T- en N-stadium hoog bij N0-1
+(Kappa = 0,63, respectievelijk 0,77), maar waren N2-3 klieren niet te visualiseren met EAUS. Van de zes
+geopereerde patiënten was er bij vier gevallen overeenstemming tussen het pathologisch bepaalde T-
+stadium en het EAUS bepaalde stadium, terwijl dit met de MRI stadiering bij drie van de zes het geval was (
+3
+).
+Verantwoording
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+21
+/
+78
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Christensen AF, Nielsen MB, Engelholm SA, Roed H, Scendsen LB, Christensen H. Three-dimensional anal endosonography
+may improve staging of anal cancer compared with two-dimensional endosonography. 
+Dis Colon Rectum 2004;47 : 341-5
+.
+2
+ - Christensen AF, Nyhuus B, Nielsen MB. Interobserver and intraobserver variation of two-dimensional and three-dimensional
+anal endosonography in the evaluation of recurrent anal cancer. 
+Dis Colon Rectum. 2009; 52:484-8.
+3
+ - Otto SD, Lee L, Buhr HJ, Frericks B, Hocht S, Kroesen AJ. Staging anal cancer: prospective comparison of transanal
+endoscopic ultrasound and magnetic resonance imaging. 
+J Gastrointest Surg. 2009 Jul;13(7):1292-8
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+22
+/
+78
+Anuscarcinoom - Diagnsotiek - FDG-PET
+Uitgangsvraag
+Welk stadiërend onderzoek is nodig voor de primaire tumor, de lies en de metastasen op afstand (o.a.
+cytologie)?
+Bestaande uit de volgende subvragen:
+Wat is de rol van FDG-PET?
+Aanbeveling
+De werkgroep is van mening dat FDG-PET omwille van zijn hoge sensitiviteit nuttig kan zijn in de stadiëring
+van het anuscarcinoom en bij het uitwerken van een bestralingsplan. Het onderzoek is hiervoor echter
+onvoldoende gestandaardiseerd. Gezien de reële kans op fout-positieve uitslagen is cytologische of
+histopathologische bevestiging van suspecte afwijkingen, waar mogelijk, aan te bevelen.
+ 
+Er is geen plaats voor FDG-PET in het detecteren van micrometastasen.
+Overwegingen
+De hoge sensitiviteit maar vrij lage specificiteit van FDG-PET maakt dat dit onderzoek enkel nuttig is voor het
+optimaliseren van de stadiëring en aanpassing van het bestralingsplan bij patiënten met histologisch bewezen
+anuscarcinoom. De procedure is evenwel nog onvoldoende gestandaardiseerd, waardoor verschillen in
+interpretatie kunnen ontstaan. Bij op CT of MRI moeilijk interpreteerbare beelden kan FDG-PET wel nuttig zijn
+in het bepalen en afgrenzen van tumorlokalisaties.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat FDG-PET nuttig is in de stadiëring en radiotherapie planning van het anuscarcinoom.
+Er dient evenwel rekening gehouden te worden met mogelijke fout-positieve uitslagen. Micrometastasen
+worden niet gedetecteerd met FDG-PET.
+Mistrangelo 2010 
+(
+13
+); Bannas 2011 
+(
+1
+); Cotter 2006 
+(
+6
+); De Nardi 2011 
+(
+14
+); Nguyen 2008 
+(
+2
+); Trautmann 2005
+(
+11
+); Winton 2009 
+(
+10
+)
+Samenvatting literatuur
+De waarde van 
+F-FDG-PET(/CT) bij het anuscarcinoom is slechts in beperkte mate onderzocht en dan betreft
+het bovendien studies met geringe aantallen patiënten. Het is inmiddels geaccepteerd dat het toevoegen
+van CT, al dan niet met contrast, aan FDG-PET tot meer accurate uitslagen leidt, ook bij het anuscarcinoom
+(
+1
+). Waar in deze richtlijn FDG-PET staat, wordt consequent gecombineerde 
+F-FDG-PET/CT bedoeld.
+Metabolisme van anuscarcinoom
+Het anuscarcinoom is in vrijwel alle gevallen sterk metabool actief en dus goed visualiseerbaar met FDG (
+2
+). Er
+is geen verschil in standardised uptake value (SUV) tussen de histologische subtypen plaveiselcelcarcinoom en
+basaloid carcinoom (
+3
+). Op basis hiervan kunnen tumorlocaties doorgaans goed worden gedetecteerd en
+18
+18
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+23
+/
+78
+wordt aan FDG-PET/CT een grote potentiële waarde toegeschreven (
+4
+). Wel moet een onderscheid worden
+gemaakt tussen de evaluatie van een primaire tumor, lymfekliermetastasen en afstandsmetastasen. Evaluatie
+van respons na therapie valt buiten het bestek van deze richtlijn.
+Primaire tumor
+De specificiteit van FDG-PET in het anale kanaal voor anuscarcinoom is erg laag, omdat frequent fysiologische
+spieractiviteit in de anale sfincter zichtbaar is. In een studie met 546 patiënten zonder bekende anorectale
+pathologie die FDG-PET ondergingen voor andere redenen, had 49,8% visueel focaal verhoogd metabolisme
+in het anale kanaal (gemiddelde SUV
+ van 3,9) maar ontwikkelde geen enkele patiënt binnen 12 maanden
+een tumor (
+5
+). Bij patiënten met een aangetoond anuscarcinoom heeft FDG-PET wel een hoge sensitiviteit,
+gerapporteerd van 93 tot 100% (
+6
+)  (
+7
+)  (
+8
+)  (
+2
+)  (
+9
+). FDG-PET heeft wegens de beperkte resolutie geen waarde
+voor het bepalen van het T-stadium: tumoruitbreiding in de diverse weefsellagen kan niet worden
+onderscheiden, het bepalen van de afmeting is onbetrouwbaar en de SUV
+ is niet gerelateerd aan het T-
+stadium (
+3
+). Een hoge SUV
+ is wel een prognostische factor voor ongunstige uitkomst na behandeling (
+3
+).
+Lymfeklieren
+De sensitiviteit van FDG-PET voor kliermetastasen is 89%, versus 62% voor CT en MRI (
+6
+)  (
+10
+). Toevoegen van
+FDG-PET leidt tot een verandering in stadium bij gemiddeld 23% van de patiënten met anuscarcinoom. Als
+gevolg van het identificeren van onverwachte regionale kliermetastasen is een aanpassing van het
+bestralingsplan in 13 tot 27% van de gevallen noodzakelijk (
+1
+)  (
+6
+)  (
+2
+)  (
+11
+)  (
+10
+). Er dient evenwel rekening
+gehouden te worden met mogelijke fout-positieve uitslagen (
+12
+). In een serie van 27 patiënten bleken vier
+van de zeven FDG-PET positieve liesklieren bij histopathologisch onderzoek middels een
+schildwachtklierprocedure reactieve lymfeklieren te zijn (
+13
+). Micrometastasen worden niet gedetecteerd met
+FDG-PET: in een serie van 11 patiënten met negatieve beeldvorming van de liezen (inclusief FDG-PET) werd
+middels een schildwachtklierprocedure alsnog in drie gevallen een microscopische lymfekliermetastase
+vastgesteld (
+14
+). Een praktisch probleem is dat er nog geen eenduidig gestandaardiseerde criteria
+beschikbaar zijn voor het identificeren van kliermetastasen op FDG-PET, zoals een grenswaarde voor de
+SUV
+, waardoor de beoordeling op dit moment nog visueel en subjectief is.
+Afstandsmetastasen
+Upstaging naar M1 door FDG-PET is sporadisch beschreven, bijvoorbeeld in lever of longen en heeft dan
+invloed op het beleid (
+2
+)  (
+10
+). Gezien de lage incidentie is een berekening van sensitiviteit en specificiteit op
+dit moment niet mogelijk.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Bannas P, Weber C, Adam G, Frenzel T, Derlin T, Mester J, Klutmann S. Contrast-enhanced [(18)F]fluorodeoxyglucose-
+max
+max
+max
+max
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+24
+/
+78
+positron emission tomography/computed tomography for staging and radiotherapy planning in patients with anal cancer.
+ Int J
+Radiat Oncol Biol Phys. 2011 Oct 1;81(2):445-51. Epub 2010 Sep 9
+2
+ - Nguyen BT, Joon DL, Khoo V, Quong G, Chao M, Wada M, et al. Assessing the impact of FDG-PET in the management of
+anal cancer. 
+Radiother Oncol. 2008, 87, 376-82
+.
+3
+ - Kidd EA, Dehdashti F, Siegel BA, Grigsby PW. Anal cancer maximum F-18 fluorodeoxyglucose uptake on positron emission
+tomography is correlated with prognosis. 
+Radiother Oncol. 2010 Jun;95(3):288-91. Epub 2010 Mar 16
+.
+4
+ - Grigsby PW. FDG-PET/CT: new horizons in anal cancer. 
+Gastroenterol Clin Biol. 2009 May;33(5):456-8. Epub 2009 Apr 24
+.
+5
+ - Heusner TA, Hahn S, Hamami ME, Kim UH, Baumeister R, Forsting M, et al. Gastrointestinal 18F-FDG accumulation on PET
+without a corresponding CT abnormality is not an early indicator of cancer development. 
+Eur Radiol. 2009 Sep;19(9):2171-9.
+Epub 2009 May 5.
+6
+ - Cotter SE, Grigsby PW, Siegel BA, Dehdashti F, Malyapa RS, Fleshman JW, et al. FDG-PET/CT in the evaluation of anal
+carcinoma. 
+Int. J. Radiat. Oncol. Biol. Phys. 2006, 65, 720-5
+.
+7
+ - Engledow AH, Skipworth JR, Blackman G, Groves A, Bomanji J, Warren SJ, et al. The role of 18-fluoro-deoxy glucose
+combined position emission and computed tomography in the clinical management of anal squamous cell carcinoma.
+Colorectal Dis. 2011 May;13(5):532-7. doi: 10.1111/j.1463-1318.2010.02193.x.
+8
+ - Nagle D, Henry D, Iagaru A, Mastoris J, Chmielewski l, Rosenstock J. The utility of PET scanning in the management of
+squamous cell carcinoma of the anus (Meeting abstr.). J Clin Oncol. 2006:24:4152.
+9
+ - Vercellino L, Montravers F, de Parades V, Huchet V, Kerrou K, Bauer P, et al. Impact of FDG PET/CT in the staging and the
+follow-up of anal carcinoma. 
+Int J Colorectal Dis. 2011 Feb;26(2):201-10
+.
+1
+0 - Winton E, Heriot AG, Hicks RJ, Hogg A, Leong T, Fay M, et al. The impact of 18-fluorodeoxyglucose positron emission
+tomography on the staging, management and outcome of anal cancer. Br J Cancer. 2009;100:693-700.
+1
+1 - Trautmann TG, Zuger JH. Positron Emission Tomography for pretreatment staging and posttreatment evaluation in cancer
+of the anal canal. 
+Mol Imaging Biol. 2005 Jul-Aug;7(4):309-13
+.
+1
+2 - Iagaru A, Kundu R, Jadvar H, Nagle D. Evaluation by 18F-FDG-PET of patients with anal squamous cell carcinoma. 
+Hell J
+Nucl Med. 2009 12,26-9.
+1
+3 - Mistrangelo M, Pelosi E, Bello M, Castellano I, Cassoni P, Ricardi U, et al. Comparison of positron emission tomography
+scanning and sentinel node biopsy in the detection of inguinal node metastases in patients with anal cancer. 
+Int J Radiat Oncol
+Biol Phys 2010;77:73-8.
+1
+4 - De Nardi P, Carvello M, Canevari C, Passoni P, Staudacher C. Sentinel node biopsy in squamous-cell carcinoma of the anal
+canal. 
+Ann Surg Oncol. 2011 Feb;18(2):365-70. Epub 2010 Aug 28
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+25
+/
+78
+Anuscarcinoom - Diagnostiek - SWK-procedure
+Uitgangsvraag
+Welk stadiërend onderzoek is nodig voor de primaire tumor, de lies en de metastasen op afstand (o.a.
+cytologie)?
+Bestaande uit de volgende subvragen:
+Wat is de rol van de schildwachtklierprocedure?
+Aanbeveling
+De werkgroep is van mening dat de schildwachtklierprocedure (SWK) bij patiënten met cN0 anuscarcinoom
+niet kan worden aanbevolen.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat met de schildwachtklierprocedure (SWK) bij cN0 patiënten microscopische
+lieskliermetastasen kunnen worden aangetoond. De ervaring is evenwel nog beperkt en de kans op het
+ontstaan van een liesklierrecidief na een tumorvrije SWK zonder electieve liesklierbestraling is niet
+verwaarloosbaar. De incidentie van postoperatieve wondcomplicaties is zeer wisselend.
+Bobin 2003 (
+2
+); Gretschel 2008 (
+3
+); de Jong 2010 (
+4
+); Mistrangelo 2009 (
+5
+); Ross 2006 (
+1
+)
+Samenvatting literatuur
+De schildwachtklierprocedure (SWK) is in de laatste 10 jaar op beperkte schaal onderzocht bij patiënten met
+anuscarcinoom. Het doel was te onderzoeken of met behulp van de SWK procedure bij patiënten zonder
+macroscopische lymfekliermetastasen een subgroep kon worden geïdentificeerd zonder microscopische
+metastasen in de SWK en daarmee een electieve liesklierbestraling kon worden onthouden. De SWK bleek
+goed detecteerbaar (ongeveer 97%), vaak bilateraal en de incidentie van SWK metastasen bij cN0 patiënten
+was rond de 24% (
+1
+). Patiënten met een tumorvrije SWK, bij wie de electieve liesklierbestraling achterwege
+werd gelaten, ontwikkelden in 0 tot 14% van de gevallen een liesklierrecidief in een follow-up periode van 1
+tot 2 jaar (
+2
+)  (
+3
+)  (
+4
+). De incidentie van postoperatieve wondcomplicaties was wisselend, variërend van
+‘zeldzaam' (
+1
+) tot 24% (
+4
+) en 57% (
+5
+). Hierdoor diende de radiotherapie uitgesteld te worden bij de door
+tumor aangedane SWK gevallen (
+4
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Ross AS, Schmults CD. Sentinel lymph node biopsy in cutaneous squamous cell carcinoma: a systematic revieuw of the
+English literature. 
+Dermat Surg. 2006; 32:1309-21
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+26
+/
+78
+2
+ - Bobin JY, Gérard JP, Chapet O, Romestaing P, Isaac S. Le marquage lymphatique et la biopsie du ganglion sentinelle
+inguinal dans les cancers du canal anal pour éviter l`írradiation inguinale prophylactique. Lymphatic mapping inguinal and
+sentinel lymph node biopsy in anal canal cancers to avoid prophylactic inguinal irradiation. 
+Cancer/Radiothérapie 2003.7(S1),
+85s-90s
+.
+3
+ - Gretschel S, Warnick, P, Bembenek A, dresel S, Koswig S, Schlag PM. Lymphatic mapping and sentinel lymph node biopsy
+in carcinoma of the anal canal. 
+Eur J Surg Oncol 2008; 34: 890-
+4.
+4
+ - De Jong JS, Beukema JC, Van Dam GM, Slart R, Lemstra C, Wiggers T. Limited value of staging squamous cell carcinoma
+of the anal margin and canal using the sentinel lymph node procedure; a prospective study with long-term follow-up. 
+Ann
+Surg Oncol. 2010 Oct;17(10):2656-62.
+5
+ - Mistrangelo M, Pelosi E, Bello M, Castellano I, Cassoni P, Ricardi U, et al. Comparison of positron emission tomography
+scanning and sentinel node biopsy in the detection of inguinal node metastases in patients with anal cancer. 
+Int J Radiat Oncol
+Biol Phys 2010;77:73-8.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+27
+/
+78
+Anuscarcinoom - Diagnostiek - Tumormarkers
+Uitgangsvraag
+Welk stadiërend onderzoek is nodig voor de primaire tumor, de lies en de metastasen op afstand (o.a.
+cytologie)?
+Bestaande uit de volgende subvragen:
+a. Wat is de rol van tumormarkers?
+Aanbeveling
+De werkgroep is van mening dat bij de diagnostiek van het anuscarcinoom routine bepaling van serologische
+tumormarkers niet is aan te bevelen.
+Onderbouwing
+Conclusies
+Op grond van de weinig beschikbare literatuur zijn er geen aanwijzingen dat serologische tumormarkers van
+nut zijn bij de diagnostiek van het anuscarcinoom.
+Goldman 1993 
+(
+1
+); Indinnimeo 1997 
+(
+3
+); Tanum 1992 
+(
+4
+)
+Samenvatting literatuur
+De meest bekende serum tumormarker, squamous cell carcinoma antigen (SCC), is vooral in de 90-er jaren
+van de vorige eeuw onderzocht. In een serie van 60 patiënten bleek dat de bepaling van SCC vooral nuttig
+kon zijn in het monitoren van het ziektebeloop na behandeling, veeleer dan in het diagnostisch traject 
+(
+1
+). De
+sensitiviteit van de bepaling van dit antigeen middels radioimmunoassay is 59%, de specificiteit is 95% 
+(
+2
+). In
+een kleine serie van 18 patiënten zijn carcinoembryonaal antigeen (CEA), tissue plasminogen activator (TPA),
+CA19-9 en CYFRA onderzocht 
+(
+3
+). Deze bleken minder gevoelig en specifiek dan SCC en hebben dus geen
+aanvullende waarde in de diagnostiek van anuscarcinoom. Voor CEA is deze bevinding bevestigd in een
+grotere Zweedse studie van 106 patiënten 
+(
+4
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Goldman S, Svensson C, Brönnergård M, Glimelius B, Wallin G. Prognostic significance of serum concentration of squamous
+cell carcinoma antigen in anal epidermoid carcinoma. 
+Int J Colorectal Dis. 1993 Jul;8(2):98-102
+.
+2
+ - Petrelli NJ, Shaw N, Bhargava A, Daufeldt J, Herrera L, Stulc JP, et al. Squamous cell carcinoma antigen as a marker for
+squamous cell carcinoma of the anal canal. 
+J Clin Oncol. 1988; 6:782-5
+.
+3
+ - Indinnimeo M, Reale MG, Cicchini C, Stazi A, Fiori E, Izzo P. CEA, TPA, CA19-9, SCC and CYFRA at diagnosis and in the
+follow-up of anal canal tumors. 
+Int Surg. 1997 Jul-Sep;82(3):275-9
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+28
+/
+78
+4
+ - Tanum G, Stenwig AE, Børmer OP, Tveit KM. Carcinoembryonic antigen in anal carcinoma. 
+Acta Oncol. 1992;31(3):333-5
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+29
+/
+78
+Anuscarcinoom - Behandeling AIN
+Uitgangsvraag
+Waaruit dient de behandeling van patiënten met Anale Intraepitheliale Neoplasie (AIN) te bestaan?
+Aanbeveling
+De werkgroep is van mening dat bij een patiënt bekend met Anale Intraepitheliale Neoplasie (AIN) 1 een
+jaarlijkse controle wenselijk is. Patiënten met AIN 2/3 dienen behandeld te worden, bij voorkeur met electro-
+of infraroodcoagulatie. Voor peri-anale AIN 2/3 kan Imiquimod overwogen worden. Efudix is omwille van de
+toxiciteit geen aantrekkelijke optie.
+De werkgroep is van mening dat voor zowel AIN 1 als AIN 2/3 blijvende follow-up aangewezen is. Het is op
+basis van de literatuur niet mogelijk een aanbeveling te doen over de duur van follow-up.
+De werkgroep is van mening dat bij histologische evidentie van een (micro)invasief plaveiselcelcarcinoom, zo
+mogelijk, een radicale locale excisie is aangewezen. Indien dat niet mogelijk is zonder mutilatie van de anale
+sfinctercomplex, is (chemo)radiotherapie aangewezen (zie module Behandeling van het invasief
+plaveiselcelcarcinoom van de anus).
+Onderbouwing
+Conclusies
+De behandelingen van Anale Intraepitheliale Neoplasie (AIN) zijn uiteenlopend en suboptimaal. Het
+ontbreekt hierbij aan prospectieve vergelijkende studies. De voorkeur gaat uit naar electro- of
+infraroodcoagulatie. Hoewel er in de literatuur geen evidentie is, is het is aannemelijk dat blijvende follow-up
+voor zowel AIN 1 als AIN 2/3 aangewezen is.
+Goldstone 2005 (
+1
+); Stier 2008 (
+2
+)
+Samenvatting literatuur
+Voor de behandeling van Anale Intraepitheliale Neoplasie (AIN) dient onderscheid gemaakt te worden tussen
+AIN 1 enerzijds en AIN 2/3 anderzijds. Bij verdenking op (micro)invasieve groei is topicale behandeling niet
+geschikt. Afhankelijk van de grootte en localisatie van de tumor (intra- of peri-anaal) is dan radicale chirurgie
+ofwel (chemo)-radiotherapie geïndiceerd (zie Behandeling van het invasief plaveiselcelcarcinoom van de
+anus). Het onderstaande heeft vooral betrekking op behandeling van AIN 2/3, al is er in de literatuur niet
+altijd een goed onderscheid tussen AIN 1 en 2/3 gemaakt.
+Behandelopties kunnen onderverdeeld worden in poliklinische behandeling (cauterisatie, resectie,
+cryotherapie, trichloorazijnzuur, laser ablatio) en thuisbehandeling (Imiquimod, Efudix, Cidofovir). Daarbij
+moet vermeld worden dat Cidofovir als topicaal middel (nog) niet in Nederland verkrijgbaar is. Over het
+algemeen wordt de voorkeur gegeven aan (electro/infrarood) cauterisatie. Dit is poliklinisch relatief
+eenvoudig uit te voeren, eventueel onder locale anesthesie. De laesies kunnen doelgericht behandeld
+worden. In retrospectieve studies worden complete response rates van ruim 60% gerapporteerd, vaak na
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+30
+/
+78
+meerdere behandelsessies. De kans op een recidief bedraagt echter 37,5% en 65% na respectievelijk 12 en
+18 maanden (
+1
+)  (
+2
+). Een prospectieve studie over chirurgische excisie laat bij 37 patiënten een respons rate
+van 81% zien (niet verder gespecificeerd). Bovendien had 79% van de 29 HIV-positieve deelnemers een
+persisterende AIN of een recidief binnen 12 maanden (
+3
+). In een retrospectieve studie werd met
+trichloorazijnzuur (in een concentratie van 85%) een complete response rate van 32% gerapporteerd (
+4
+). Wat
+betreft thuisbehandeling is Imiquimod voor peri-anale AIN 2/3 een goede optie. Dit laat een complete
+response rate van 61% zien (
+5
+). Voor intra-anale toepassing is Imiquimod minder succesvol. Na een
+behandelperiode van 4 maanden en een applicatie van drie keer per week, is slechts 14% vrij van AIN (
+6
+). Bij
+intra-anale applicatie van 5-fluorouracil crème (Efudix) gedurende 4 maanden en een applicatie van twee maal
+per week, heeft 39% geen AIN meer. Efudix heeft echter significante bijwerkingen en bij 50% wordt na 6
+maanden een recidief gezien (
+7
+). Verder wordt gemeld dat 5-fluorouracil crème bij uitgebreide, circulaire AIN
+kan worden toegepast om de afwijkingen beter toegankelijk te maken voor cauterisatie (
+8
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Goldstone SE, Hundert JS, Huyett JW. Infrared coagulator: a useful tool for treating anal squamous intraepithelial lesions.
+Dis Colon Rectum. 2005;48:1042-54.
+2
+ - Stier EA, Goldstone SE, Berry JM, et al. JM. Infrared coagulator treatment of high-grade anal dysplasia in HIV-infected
+individuals: An AIDS malignancy consortium pilot study. 
+J Acquir Immune Defic Syndr. 2008; 47: 56–61
+.
+3
+ - Chang GJ, Berry JM, Jay N, Palefsky JM, Welton ML. Surgical treatment of high-grade anal squamous intraepithelial
+lesions: a prospective study. 
+Dis Colon Rectum. 2002;45: 453–8
+.
+4
+ - Singh JC, Kuohung V, Palefsky JM. Efficacy of trichloroacetic acid in the treatment of anal intraepithelial neoplasia in HIV-
+positive and HIV-negative men who have sex with men. 
+J Acquir Immune Defic Syndr. 2009;52:474-9
+.
+5
+ - Wieland U, Brockmeyer NH, Weissenborn SJ, et al. Imiquimod treatment of anal intraepithelial neoplasia in HIV-positive
+men. Arch Dermatol. 2006;142:1438-44.
+6
+ - Fox PA, Nathan M, Francis N, Singh N, Weir J, Dixon G, et L. A double-blind, randomized controlled trial of the use of
+imiquimod cream for the treatment of anal canal high-grade anal intraepithelial neoplasia in HIV-positive MSM on HAART, with
+long-term follow-up data including the use of open-label imiquimod. 
+AIDS. 2010 Sep 24;24(15):2331-5
+.
+7
+ - Richel O, Wieland U, de Vries HJ, Brockmeyer NH, van Noesel C, Potthoff A, Prins JM, Kreuter A.Topical 5-fluorouracil
+treatment of anal intraepithelial neoplasia in human immunodeficiency virus-positive men. 
+Br J Dermatol. 2010
+Dec;163(6):1301-7
+.
+8
+ - Park IU, Palefsky JM. Evaluation and Management of Anal Intraepithelial Neoplasia in HIV-Negative and HIV-Positive Men
+Who Have Sex with Men. 
+Curr Infect Dis Rep (2010) 12:126–33
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+31
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca
+ 
+ 
+Deze module is onderverdeeld in submodules. Om de inhoud te kunnen bekijken klikt u in de linkerkolom op
+de submodules.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+32
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Chirurgie
+Uitgangsvraag
+Wat is de plaats van chirurgische behandeling bij patiënten met invasief plaveiselcelcarcinoom van de anus?
+Aanbeveling
+De werkgroep is van mening dat de plaats van curatieve chirurgie bij het anuscarcinoom zich beperkt tot een
+ruime locale excisie (1 cm marge) van perianale cT1N0 tumoren (= ≤ 2 cm). Tumoren in het anale kanaal
+komen alleen in aanmerking voor locale excisie indien het een gesteelde polipeuze tumor betreft van
+beperkte omvang en er verdenking is op hooguit micro-invasief plaveiselcelcarcinoom (zie
+submodule Beoordeling operatiepreparaat). Bijkomende voorwaarden voor zowel de peri-anale als intra-anale
+tumoren zijn dat de patiënt niet tot de verhoogde risicogroepen behoort zoals beschreven in risicogroepen
+(zie submodule Risicogroepen) en de resectie in opzet radicaal is, met behoud van een functioneel anaal
+sfinctercomplex. Bij micro- of macroscopische irradicaliteit is postoperatieve radiotherapie aangewezen.
+Overwegingen
+De literatuur over primaire curatieve chirurgie bij perianale tumoren is zeer beperkt en enkel retrospectief.
+Gezien de hoge kans op krappe of positieve marges, waardoor postoperatieve radiotherapie aangewezen is,
+is het wellicht verstandig om de indicatie tot ruime locale excisie te beperken tot goed gedifferentieerde
+cT1N0 tumoren van de anale marge. De indicatie tot postoperatieve radiotherapie bij krappe marges is
+twijfelachtig en kan daarom niet aanbevolen worden. Voor tumoren van het anale kanaal is er over primaire
+curatieve chirurgie geen literatuur beschikbaar. Op basis van expert opinion is locale excisie enkel te
+overwegen bij kleine gesteelde poliepen met een verdenking van hooguit micro-invasief carcinoom.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat primaire curatieve chirurgie geschikt is voor goed gedifferentieerde oppervlakkige
+cT1-2N0 tumoren van de anale marge, met postoperatieve radiotherapie bij krappe of positieve marges.
+Leonard 2001 
+(
+1
+); Khanfir 2008 
+(
+2
+)
+Samenvatting literatuur
+Primaire curatieve chirurgie is wellicht geschikt voor beperkte perianale tumoren met gunstige kenmerken.
+Dat zijn goed gedifferentieerde oppervlakkige cT1-2N0 tumoren, waarvoor een ruime locale excisie met 1 cm
+marge mogelijk is met behoud van het anale sfinctercomplex 
+(
+1
+). Bij krappe of positieve marges is
+postoperatieve radiotherapie aangewezen. In een retrospectieve studie van 45 patiënten behandeld met
+(ruime) locale excisie en postoperatieve radiotherapie was de 5-jaars ziektevrije overleving 86% 
+(
+2
+).
+Vermeldenswaardig is dat in 22 van de 29 patiënten die een ruime locale excisie ondergingen, de marges bij
+histologisch onderzoek onvoldoende ruim waren en dat alle patiënten postoperatief bestraald werden.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+33
+/
+78
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Leonard D, Beddy D, Dozois E. Neoplasms of anal canal and perianal skin. 
+Clin Colon Rectal Surg 2011, 24: 54-63
+.
+2
+ - Khanfir K, Ozsahin M, Bieri S, Cavuto C, Mirimanoff R, Zouhair A. Paterns of failure and outcome in patients with carcinoma
+of the anal margin. 
+Ann Surg Oncol 2008, 15: 1092-8
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+34
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Radiotherapie
+Deze module is onderverdeeld in submodules. Om de inhoud te kunnen bekijken klikt u in de linkerkolom op
+de submodules.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+35
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Conventionele- vs.
+conformatie- vs intensity modulated radiotherapie
+Uitgangsvraag
+Wat is de beste radiotherapeutische behandeling van patiënten met invasief plaveiselcelcarcioom van de
+anus: intensity-modulated radiotherapie (IMRT), conformatie radiotherapie (CF-RT) of conventionele
+bestraling (CV-RT)?
+Aanbeveling
+De werkgroep is van mening dat voor de behandeling van het anuscarcinoom intensity-modulated
+radiotherapie (IMRT) of conformatie radiotherapie (CF-RT) de voorkeur verdienen boven conventionele
+bestraling (CV-RT).
+Overwegingen
+Ondanks het ontbreken van prospectieve gerandomiseerde studies die de toxiciteit en effectiviteit van
+conventionele radiotherapie (CV-RT) vergelijken met die van conformatie radiotherapie (CF-RT) en intensity-
+modulated radiotherapie (IMRT), zijn er voldoende aanwijzingen dat IMRT en CF-RT minder toxiciteit geven
+en mogelijk ook verbeterde locoregionale controle in vergelijking met CV-RT. Langere follow-up met meer
+mature data is evenwel noodzakelijk om de meerwaarde van IMRT beter te kunnen beoordelen.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat het gebruik van intensity-modulated radiotherapie (IMRT) en conformatie
+radiotherapie (CF-RT) bij het anuscarcinoom minder acute toxiciteit en mogelijk betere locoregionale tumor
+controle geeft dan conventionele radiotherapie (CV-RT).
+Bazan 2011 
+(
+1
+); Kachnic 2010 
+(
+2
+); Milano 2005 
+(
+3
+); Pepek 2010 
+(
+4
+); Saarilahti 2008 
+(
+5
+); Salama 2007 
+(
+6
+); Vuong
+2003 
+(
+8
+)
+Samenvatting literatuur
+Verscheidene studies suggereren verminderde toxiciteit met intensity-modulated radiotherapie (IMRT) in
+vergelijking met conventionele radiotherapie (CV-RT) voor anuscarcinoom 
+(
+1
+)  (
+2
+)  (
+3
+)  (
+4
+)  (
+5
+)  (
+6
+)  (
+7
+). Enkele
+studies claimen ook een verbeterde (ziektevrije) overleving en locoregionale controle met deze techniek 
+(
+1
+) 
+(
+3
+)  (
+4
+)]. Eén Canadese fase II studie rapporteert verminderde toxiciteit met conformatie radiotherapie (CF-RT)
+in vergelijking met de data van de EORTC, RTOG en UKCCCR trials die CV-RT voorschreven 
+(
+8
+).
+De Stanford groep vergeleek 17 patiënten bestraald met CV-RT in de periode 1993-2002 met 29 gevallen
+behandeld met IMRT van 2003 tot 2009 
+(
+1
+). De bestralingsdosis op de iliaco-inguinale klieren was bij de CV-
+RT 30,6-39,6 Gy tegenover 45 Gy bij IMRT. De acute graad 3-4 gastro-intestinale toxiciteit bij CV-RT bedroeg
+29% versus 7% bij IMRT en de huidtoxiciteit respectievelijk 41% en 21% 
+(
+1
+). Het verschil in acute
+hematologische toxiciteit was veel minder opvallend, wat mogelijk het gevolg is van meer expositie van
+hematopoietisch beenmerg in het kleine bekken aan lage dosis bestraling bij IMRT dan bij CV-RT 
+(
+9
+). De 3-
+jaarsoverleving was 52% bij de CV-RT groep en bij 88% bij de IMRT groep. De locoregionale controle
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+36
+/
+78
+bedroeg 57% bij CV-RT en 92% bij IMRT 
+(
+4
+). Acute graad 3 toxiciteit in de huid werd in deze patiëntengroep
+niet gevonden, versus 48% in de RTOG 98-11. Deze vergelijking is relevant omdat in beide studies dezelfde
+doelgebieden tot dezelfde dosis werden bestraald, te weten 30.6 Gy op de hoogste iliacale kliergebieden, 45
+Gy op electieve kliergebieden in het kleine bekken en liezen en tenminste 54 Gy op macroscopische tumor
+(
+4
+). De hematologische toxiciteit in de Duke's serie was ook minder dan in de RTOG studie, maar dit was
+deels te verklaren doordat niet alle patiënten in deze groep chemotherapie kregen. Vergelijkbare resultaten
+werden ook in één prospectieve 
+(
+2
+) en 2 retrospectieve studies gevonden  (
+5
+)  (
+6
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Bazan JG, Hara W, Hsu A, Kunz PA, Ford J, Fisher GA, et al. Intensity-modulated radiation therapy versus conventional
+radiation therapy for squamous cell carcinoma of the anal canal. 
+Cancer. 2011;117: 3342-51
+.
+2
+ - Kachnik L, Winter K, Myerson R, Goodyear M, Willins J, Esthappan J, et al. Early efficacy results of RTOG 0529: a phase II
+evaluation of dose-painted IMRT in combination with 5-fluorouracil and mitomycin-C for the reduction of acute morbidity in
+carcinoma of the anal canal (Meeting abstract). Int J Radiat Oncol Biol Phys. 2010, 78, S55.
+3
+ - Milano M, Jani AB , Farrey KJ, Rash C, Heimann R, Chmura SJ. Intensity-modulated radiation therapy (IMRT) in the
+treatment of anal cancer: toxicity and clinical outcome. 
+Int J Radiat Oncol Biol Phys. 2005;63:354-61
+.
+4
+ - Pepek JM, Willett CG, Wu J, Yoo S, Clough RW, Czito BG. Intensity-modulated radiation therapy for anal malignancies; a
+preliminary toxicity and disease outcomes analysis. 
+Int J Radiat Oncol Biol Phys. 2010 Dec 1;78(5):1413-9
+.
+5
+ - Saarilahti K, Arponen P, Vaalavirta L, Tenhunen M. The effect of intensity-modulated radiotherapy and high dose rate
+brachytherapy on acute and late radiotherapy-related adverse events following chemoradiotherapy of anal cancer. 
+Radiother
+Oncol. 2008 Jun;87(3):383-90.
+6
+ - Salama JK, Mell LK, Schomas DA, Miller RC, Devisetty K, Jani AB, et al. Concurrent chemotherapy and intensity-modulated
+radiation therapy for anal canal cancer patients; a multicenter experience. 
+J Clin Oncol. 2007 Oct 10;25(29):4581-6
+.
+7
+ - Zagar TM, Willett CG, Czito BG. Intensity-modulated radiation therapy for anal cancer: toxicity versus outcomes. 
+Oncology,
+2010, 24 (9), 815-23, 828.
+8
+ - Vuong T, Devic S, Belliveau P, Muanza T, Hegyi G. Contribution of conformal therapy in the treatment of anal canal
+carcinoma with combined chemotherapy and radiotherapy; results of a phase II study. 
+Int J Radiat Oncol Biol Phys. 2003 Jul
+1;56(3):823-31
+.
+9
+ - Mell LK, Schomas DA, Salama JK, Devisetty K, Aydogan B, Miller RC, et al. Association between bone marrow dosimetric
+parameters and acute hematologic toxicity in anal cancer patients treated with concurrent chemotherapy and intensity-
+modulated radiotherapy. 
+Int J Radiat Oncol Biol Phys. 2008 Apr 1;70(5):1431-7
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+37
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Treatment gap
+Uitgangsvraag
+Wat is de plaats van al dan niet een ‘gap' in de radiotherapeutische behandeling van patiënten met invasief
+plaveiselcelcarcinoom van de auns?
+Aanbeveling
+De werkgroep is van mening dat een kortere totale duur van de bestraling de locoregionale tumorcontrole en
+mogelijk ook de (colostomievrije) overleving verbetert. Indien omwille van acute toxiciteit een 
+treatment gap
+nodig is, is het advies van de werkgroep deze zo kort mogelijk te houden, met een maximum van 3 weken.
+Overwegingen
+Al zijn er geen prospectieve gerandomiseerde studies die het effect van een ‘lange' 
+treatment gap
+ hebben
+bestudeerd, toch is het aannemelijk dat dit de kans op locoregionale tumorcontrole vermindert. Verscheidene
+studies hebben niet zo zeer de duur van de 
+treatment
+ 
+gap
+ dan wel de totale behandelingsduur bestudeerd
+en rapporteren betere resultaten met een kortere totale behandelingsduur.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat het gebruik van een lange, al-dan-niet geplande 
+treatment gap
+ de kans op
+locoregionale controle vermindert.
+Ben-Josef 2010 
+(
+4
+); Bosset 2003 
+(
+3
+); Deniaud-Alexandre 2003 
+(
+5
+); Janssen 2009 
+(
+8
+); Konski 2008 
+(
+9
+); Meijer
+2006 
+(
+10
+); Oehler 2010 
+(
+6
+); Weber 2001 
+(
+7
+)
+Samenvatting literatuur
+Een geplande 
+treatment gap
+ bij conventionele bestraling van het anuscarcinoom is haast onvermijdelijk
+omwille van de forse acute huidreacties. Een geplande lange 
+treatment gap
+ van 5-6 weken, zoals toegepast in
+de genoemde prospectieve gerandomiseerde trials (EORTC 22861, UKCCCR-ACT I en RTOG/ECOG 87-04)
+(
+1
+)  (
+2
+) [UKCCCR Anal Cancer Trial Working Party 1996] is later beschouwd als potentieel gevaarlijk, wegens
+het risico op tumor repopulatie, met een verhoogde kans op locoregionale recidief. In de recentere EORTC
+fase II studie 22953 werd de haalbaarheid van een kortere 
+treatment gap
+ van 2 weken bestudeerd (
+3
+). Dit
+bleek gepaard te gaan met aanvaardbare acute toxiciteit en verbeterde locale controle en (colostomie-vrije)
+overleving in vergelijking met de EORTC 22861 studie met een 
+treatment gap
+ van 6 weken (
+3
+). Uit een
+gepoolde data analyse van 291 patiënten uit de RTOG trials 87-04 en 98-11 blijkt bij multivariaat analyse een
+significante verhoogde kans op locaal recidief (hazard ratio: 1.96) wanneer de totale duur van de bestraling
+langer is dan 53 dagen, waarbij een 
+treatment gap
+ in de behandeling is ingelast (
+4
+).
+In een retrospectieve analyse van 305 patiënten uit Parijs blijkt eveneens bij multivariaat analyse een
+significant verhoogde kans op recidief (hazard ratio: 1.33) bij een geplande ‘treatment gap' van meer dan 38
+dagen (
+5
+). Vergelijkbare resultaten zijn gevonden in twee kleinere retrospectieve Zwitserse studies (
+6
+)  (
+7
+). In
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+38
+/
+78
+twee andere studies echter, waarvan één prospectief, is er geen relatie gevonden tussen het locaal
+recidiefpercentage en een (on)geplande onderbreking van de bestraling van slechts 6 tot 14 dagen (
+8
+)  (
+9
+) 
+(
+10
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Bartelink H, Roelofsen F, Eschwege F, Rougier P, Bosset JF, Gonzalez D, et al. Concomitant radiotherapy and
+chemotherapy is superior to radiotherapy alone in the treatment of locally advanced anal cancer: results of a phase III
+randomized trial of the European Organisation for Research and treatment of Cancer Radiotherapy and Gastrointestinal
+Cooperative Groups. 
+J Clin Oncol. 1997 May:15(5):2040-9.
+2
+ - Flam M, Madhu J, Pajak TF, Petrelli N, Myerson R, Doggett S, et al. Role of Mitomycin in combination with fluorouracil and
+Radiotherapy and of salvage chemoradiation in the definitive nonsurgical treatment of epidermoid carcinoma of the anal canal
+: results of a phase III randomized intergroup study. 
+J Clin Oncol 1996;14:2527-39
+.
+3
+ - Bosset JF, Roelofsen F, Morgan DAL, Budach V, Coucke P, Jager JJ. et al. Shortened irradiation scheme, continuous
+infusion of 5-fluorouracil and fractionation of mitomycin C in locally advanced anal carcinoma. Results of a phase II study of the
+European Organisation for Research and Treatment of Cancer. Radiotherapy and Gastrointestinal Cooperative Groups. 
+Eur J
+Cancer. 2003; 39: 45-51.
+4
+ - Ben-Josef E, Moughan J, Ajani JA, Flam M, Gunderson L, Pollock J, et al. Impact of overall treatment time on survival and
+local control in patients with anal cancer: a pooled data analysis of radiation therapy oncology group trials 87-04 and 98-11. J
+Clin Oncol. 2010 Dec 1;28(34):5061-6. Epub 2010 Oct 18.
+5
+ - Deniaud-Alexandre E, Touboul E, Tiret E, Sezeur A, Houry S, Gallot D, et al. Result of definitive irradiation in a series of 305
+epidermoid carcinomas of the anal canal. 
+Int J Radiat Oncol Biol Phys. 2003; 56:1259-73
+.
+6
+ - Oehler C, Provencher S, Donath D, Bahary JP, Lutolf UM, Ciernik IF. Chemo-radiation with or without mandatory split in
+anal carcinoma; experiences of two institutions and review of the literature. 
+Radiat Oncol. 2010 May 13;5:36
+.
+7
+ - Weber DC, Kurtz JM, Allal AS. The impact of gap duration on local control in anal canal carcinoma treated by split-course
+radiotherapy and concomitant chemotherapy. 
+Int J Radiat Oncol Biol Phys. 2001 Jul 1;50(3):675-80.
+8
+ - Janssen S, Meier zu Eissen J, Kolbert G, Bremer M, Karstens JH, Meyer A. Anal cancer treated with radio-chemotherapy;
+correlation between length of treatment interruption and outcome. 
+Int J Colorectal Dis. 2009;24: 1421-8
+.
+9
+ - Konski A, Garcia M, Madhu J, Krieg R, Pinover W, Myerson R, et al. Evaluation of planned treatment breaks during radiation
+therapy for anal cancer: update of RTOG 92-08. 
+Int J Radiat Oncol Biol Phys. 2008 Sep 1;72(1):114-8
+.
+1
+0 - Meyer A, Meier Zu Eissen J, Karstens JH, Bremer M. Chemoradiotherapy in patients with anal cancer: Impact of length of
+unplanned treatment interruption on outcome. 
+Acta Oncologica 2006, 45, 728-35
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+39
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Afkappunt
+radiotherapie/chemoradiotherapie
+Uitgangsvraag
+Waar ligt het afkappunt voor radiotherapie dan wel chemoradiotherapie bij patiënten met invasief
+plaveiselcelcarcioom van de anus?
+Aanbeveling
+De werkgroep is van mening dat chemoradiotherapie de behandeling van keuze is voor de meeste patiënten
+met anuscarcinoom. Bij kleine (≤ 2 cm) én oppervlakkige tumoren (≤ 1 cm diepte-infiltratie) en bij patiënten in
+matige algemene conditie, of HIV+ patiënten met verminderde weerstand, is radiotherapie alleen een goed
+alternatief.
+Overwegingen
+De meerwaarde van chemoradiotherapie voor het anuscarcinoom is duidelijk aangetoond in twee
+prospectieve gerandomiseerde studies. Welke patiëntengroepen hiervan het meest profiteren is niet geheel
+duidelijk. Chemoradiotherapie geeft meer acute hematologische toxiciteit dan bestraling alleen, en is niet
+zonder risico bij bepaalde patiëntengroepen. De voor- en nadelen van chemotherapie dienen gewogen te
+worden in functie van het tumor stadium en conditie van de patiënt (performance status, HIV-seropositiviteit
+en comorbiditeit).
+Onderbouwing
+Conclusies
+Het is niet
+ 
+mogelijk een afkappunt te bepalen voor radiotherapie dan wel chemoradiotherapie bij de
+behandeling van het anuscarcinoom. Er zijn wel aanwijzingen dat voor beperkte stadia en oppervlakkige
+tumoren goede resultaten worden behaald met radiotherapie alleen.
+Abbas 2010 
+(
+6
+); Bartelink 1997 
+(
+1
+); Cummings 1991 (
+3
+) Deniaud-Alexandre 2003 
+(
+4
+); Gerard 2001 
+(
+5
+); Glynne-
+Jones 2010 
+(
+7
+); UKCCCR Anal Cancer Trial Working Party 1996 (
+2
+).
+Samenvatting literatuur
+Het is niet goed bekend welke patiënten voordeel hebben bij de combinatie behandeling chemotherapie en
+bestraling. In twee oudere gerandomiseerde trials is het effect van chemoradiotherapie versus radiotherapie
+vergeleken 
+(
+1
+); UKCCCR Anal Cancer Trial Working Party 1996]. In de EORTC 22861 studie werden enkel
+patiënten met locaal gevorderd stadium geïncludeerd (T3-4N0 of T1-4N+) 
+(
+1
+), terwijl in de UKCCCR ACT-I
+studie ook patiënten met T1-T2N0 tumoren werden gerandomiseerd 
+(
+2
+). In beide studies was er een
+significant verbeterde locoregionale controle na chemoradiatie, zonder een toename in late toxiciteit 
+(
+1
+); 
+(
+2
+)].
+Analyse van diverse subgroepen geeft evenwel geen uitsluitsel over welke patiënten wel of niet profiteren van
+de combinatiebehandeling. In een oudere prospectieve, niet-gerandomiseerde Canadese studie bij 119
+patiënten was chemoradiatie met 5-Fluorouracil en Mitomycine C ten opzichte van alleen bestraling superieur
+bij alle tumoren behalve stadium T1 
+(
+3
+).
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+40
+/
+78
+De TNM -classificatie is mogelijk ontoereikend om een correct onderscheid te kunnen maken tussen de
+groepen die wel of geen chemotherapie nodig hebben. Sommige retrospectieve studies suggereren
+bijvoorbeeld dat tumoren groter dan 2 tot 4 cm onvoldoende gecontroleerd worden met radiotherapie alleen
+(
+3
+)  (
+4
+)  (
+5
+). Diepe transmurale doorgroei (> 1 cm), vastgesteld middels EAUS of MRI, wordt ook soms als een
+ongunstige prognostische factor beschouwd 
+(
+4
+).
+Gezien het ontbreken van goed gerandomiseerd onderzoek naar de waarde van chemoradiotherapie 
+voor
+verschillende risicogroepen
+ is het afkappunt voor radiotherapie dan wel chemoradiotherapie niet goed te
+definiëren. Wellicht is radiotherapie alleen voldoende bij kleine (≤ 2 cm) en oppervlakkige tumoren (≤ 1 cm)
+(
+6
+)  (
+7
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Bartelink H, Roelofsen F, Eschwege F, Rougier P, Bosset JF, Gonzalez D, et al. Concomitant radiotherapy and
+chemotherapy is superior to radiotherapy alone in the treatment of locally advanced anal cancer: results of a phase III
+randomized trial of the European Organisation for Research and treatment of Cancer Radiotherapy and Gastrointestinal
+Cooperative Groups. 
+J Clin Oncol. 1997 May:15(5):2040-9.
+2
+ - UKCCCR Anal Cancer Trial Working Party 1996
+3
+ - Cummings BJ, Keane TJ, O’Sullivan B, Wong CS, Catton CN. Epidermoid anal cancer: treatment by radiation alone or by
+radiation and 5-fluorouracil with and without mitomycin C. 
+Int J Radiat Oncol Biol Phys. 1991;21:1115-25
+.
+4
+ - Deniaud-Alexandre E, Touboul E, Tiret E, Sezeur A, Houry S, Gallot D, et al. Result of definitive irradiation in a series of 305
+epidermoid carcinomas of the anal canal. 
+Int J Radiat Oncol Biol Phys. 2003; 56:1259-73
+.
+5
+ - Gerard JP, Chapet O, Samiei F, Morignat E, Isaac S, Paulin C, et al. Management of inguinal lymph node metastases in
+patients with carcinoma of the anal canal: experience in a series of 270 patients treated in Lyon and review of the literature.
+Cancer 2001; 92: 77-84.
+6
+ - Abbas A, Yang G, Fakih, M. Management of anal cancer in 2010 Part 2: current treatment standards and future directions.
+Oncology (Williston Park). 2010 Apr 30;24(5):417-24
+.
+7
+ - Glynne-Jones R, Northover JMA, Cervantes A. Anal cancer: ESMO clinical practice guidelines for diagnosis, treatment and
+follow-up. 
+Ann Oncology 2010, 21, 87-92.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+41
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Doelvolume, techniek en
+dosis
+Uitgangsvraag
+Welke dosis, techniek en doelvolume wordt aanbevolen ten aanzien van radiotherapie bij patiënten met
+invasief plaveiselcelcarcinoom van de anus?
+Aanbeveling
+De werkgroep is van mening dat voor tumoren groter dan 1-2 cm dan wel voor tumoren met aangetoonde
+regionale kliermetastasen het doelgebied voor bestraling van het anuscarcinoom de primaire tumor en de
+regionale kliergebieden dient te zijn. Voor tumoren proximaal van de anocutane junctie (linea dentata) zijn dat
+de interne pudendus klieren, de interne en externe iliacale en presacrale klieren, als ook de klieren in het
+mesorectum. Voor tumoren distaal van de anocutane junctie zijn het behalve de bovengenoemde
+kliergebieden tevens de oppervlakkige en diepe liesklieren.
+ 
+Inclusie van de iliaca communis klieren is controversieel en kan derhalve niet worden geadviseerd.
+De aanbevolen techniek is IMRT. De aanbevolen dosis op macroscopische tumor (primaire tumor en
+pathologisch vergrote lymfeklieren) is minimaal 50.4 Gy en op de electieve gebieden ten minste 30-36 Gy.
+Gezien de lage incidentie van anuscarcinoom is verwijzing naar een centrum met ervaring in deze techniek
+aan te bevelen.
+Overwegingen
+Een nauwkeurige omschrijving van het doelgebied voor anuscarcinoom is moeilijk gezien de plaats van
+locoregionaal tumorrecidief na bestraling slechts sporadisch is onderzocht. IMRT voor anuscarcinoom is een
+complexe techniek, waarvoor klinische en technische ervaring vereist is.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat het doelgebied voor bestraling van het anuscarcinoom voor tumoren groter dan 1-2
+cm de primaire tumor met regionale lymfekliergebieden dient te zijn. Voor tumoren proximaal van de
+anocutane junctie (linea dentata) zijn dat de interne pudendus klieren, de interne en externe iliacale en
+presacrale klieren, als ook de klieren in het mesorectum. Voor tumoren distaal van de anocutane junctie zijn
+het behalve de bovengenoemde kliergebieden tevens de oppervlakkige en diepe liesklieren. Inclusie van de
+iliaca communis klieren is controversieel.
+De aanbevolen techniek is IMRT. De aanbevolen dosis op macroscopische tumor (primaire tumor en
+pathologisch vergrote lymfeklieren) is minimaal 50.4 Gy, de dosis op de electieve gebieden dient ten minste
+30-36 Gy te zijn.
+Bosset 2008 ; Engineer 2010 (
+16
+); Ferrigno 2005 (
+18
+); Glynne-Jones 2010 (
+1
+); Glynne-Jones 2011 ; Huang 2007
+(
+19
+); Konski 2008 (
+15
+); Matthews 2011 (
+5
+); Myerson 2009 (
+6
+); Ng 2012 (
+7
+); Wright 2010 (
+3
+); Zagar 2010 (
+9
+) 
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+42
+/
+78
+Samenvatting literatuur
+Het doelvolume voor de bestraling van het anuscarcinoom is afhankelijk van de localisatie en het stadium van
+de tumor. Voor tumoren groter dan 1-2 cm is de kans op microscopische regionale lymfekliermetastasering
+reëel aanwezig (al is dit slecht gedocumenteerd in de literatuur) en wordt electieve bestraling van de
+regionale kliergebieden geadviseerd (
+1
+). Het doelgebied wordt mede bepaald door de lymfatische drainage
+van de plaats waar de primaire tumor is gelokaliseerd. De lymfatische drainage van de anale marge en het
+anale kanaal distaal van de anocutane junctie (linea dentata) gaat via de oppervlakkige perineale
+accessorische pelvische route naar de oppervlakkige liesklieren. De lymfatische drainage van het anale kanaal
+proximaal van de anocutane junctie verloopt via de middelste en posterieure pelvische route als ook via de
+interne pudendus accessorische pelvische route naar de interne iliacale en presacrale klieren en klieren in het
+mesorectale vet (
+2
+). Dit onderscheid is echter relatief, het betreft namelijk geen volledig gescheiden drainage
+gebieden. In een retrospectieve analyse uit Memorial Sloan-Kettering Cancer Center (MSKKC) in New York
+werden bij 20 van de 180 patiënten regionale klierrecidieven gevonden in het bekken en/of liezen na
+conventionele bestraling (
+3
+). Op basis van deze analyse adviseren deze onderzoekers bij IMRT altijd de
+inguinale en alle bekkenklieren in het doelgebied mee te nemen en voor T3 of N+ tumoren zelfs de klieren
+rond de a. iliaca communis (
+3
+). In een retrospectieve analyse uit het MD Anderson Cancer Center (MDACC) in
+Houston werden bij 7% van de patiënten lymfeklierrecidieven hoog presacraal of iliacaal gevonden, indien dit
+gebied niet electief was mee bestraald (
+4
+). In een prospectieve Australische TROG studie werd bij 40
+patiënten met T1-2 N0 tumoren van het anale kanaal de liesklieren bewust niet mee bestraald, onder de
+hypothese dat de kans op microscopische lymfekliermetastasen bij aanvang van de behandeling minder dan
+5% was (
+5
+). Na een gemiddelde follow-up van 8 maanden ontwikkelden 9 patiënten (22,5%) een liesklier
+recidief, waarvan 6 (12,5%) geïsoleerd. De studie werd om deze reden voortijdig gestopt (
+5
+). In een
+contouring atlas, ontwikkeld door de RTOG voor rectum- en anuscarcinoom, worden voor het anuscarcinoom
+de iliaca interna en externa lymfekliergebieden, als ook de perirectale, presacrale en inguinale kliergebieden
+in het doelgebied opgenomen (
+6
+). In een recent gepubliceerde contouring atlas en consensus richtlijn voor
+anuscarcinoom van de Australasian Gastrointestinal Trials Group (AGITG) worden alle kliergebieden
+beiderzijds iliaco-inguinaal alsmede de obturatoriusklieren, perirectale en presacrale kliergebieden in het
+doelgebied opgenomen (
+7
+).
+Het doelvolume voor anuscarcinoom lijkt dus de primaire tumor met marge en de regionale klieren. Voor
+tumoren proximaal van de anocutane junctie (linea dentata) zijn dat de interne pudendus klieren, de interne
+en externe iliacale en presacrale klieren, als ook de klieren in het mesorectum. Voor tumoren distaal van de
+anocutane junctie zijn het behalve de bovengenoemde kliergebieden tevens de oppervlakkige en diepe
+liesklieren. Inclusie van de iliaca communis klieren is controversieel.
+Het gebruik van IMRT biedt de mogelijkheid al de bovengenoemde kliergebieden homogeen te kunnen
+bestralen met maximale sparing van de omliggende gezonde structuren. De voorbereiding is wel
+arbeidsintensief en een nauwkeurige intekening van de doelgebieden is vereist. Dit vergt een gedetailleerde
+kennis van de anatomie van het kleine bekken, met name van de lymfatische routes, en van de tolerantie van
+de diverse gezonde organen voor bestraling en van de gebieden at risk voor microscopische tumoruitbreiding
+(
+8
+). Dat dit niet eenvoudig is blijkt uit een fase II studie van de RTOG (05-29), waarin de implementatie van
+IMRT bij het anuscarcinoom wordt onderzocht, onder aandere met real-time quality assurance. Bij een eerste
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+43
+/
+78
+evaluatie blijkt in 79% van de gevallen een aanpassing van de ingetekende doelgebieden noodzakelijk (
+9
+).
+Ook is er een goede kwaliteitscontrole voor de set-up verificatie noodzakelijk.
+De optimale dosis voor het anuscarcinoom is nog steeds niet goed bekend. In de oorspronkelijke (kleine)
+serie van Nigro en medewerkers werd een opvallend hoog percentage van pathologische complete remissies
+beschreven met chemoradiatie in de preoperatieve setting (
+10
+). Dit resulteerde in de jaren 80 van de vorige
+eeuw in het toedienen van relatieve lage dosissen op de primaire tumor (45 tot 50.4 Gy) en electieve
+kliergebieden (30.6 tot 45 Gy). Deze keuze was mede ingegeven door de vrees voor acute toxiciteit, gezien
+de grote doelgebieden (van liesklieren tot en met iliaca communis klieren) en het gebruik van vaak een
+eenvoudige AP-PA techniek. Met de introductie van conformatie radiotherapie en later IMRT zijn de dosissen
+voor de primaire tumor en voor de lymfeklieren geleidelijk opgehoogd.
+Toch zijn er nog verschillen in de totale dosis tussen enerzijds de Europese en anderzijds de Amerikaanse en
+Australische centra. In de RTOG 87-04 studie is de totale dosis op de primaire tumor 45 Gy en op de hoogste
+iliacale klieren 30.6 Gy, terwijl die in de UKCCCR ACT-I en EORTC 22861 trials respectievelijk 60-65 Gy en 45
+Gy bedragen (
+11
+)  (
+12
+)  (
+13
+). De resultaten van deze studies tonen onderling geen opvallende verschillen in
+locoregionale controle. Slechts een beperkt aantal studies hebben een rechtstreekse vergelijking tussen
+verschillende dosissen gedaan. De ACCORD-3 studie vergelijkt in een 2-by-2 factorial design onder andere
+het effect van 60 versus 70 Gy op macroscopische tumor en vindt vooralsnog geen verschil in locoregionale
+controle (
+14
+). In de fase II RTOG 92-08 studie wordt een iets betere locale controle gerapporteerd na 59,4 Gy
+(90%, zonder 
+treatment gap
+) in vergelijking met 50,4 Gy (84%, met 
+treatment gap
+) uit de RTOG 87-04 trial.
+Het verschil is echter niet significant wegens het gering aantal patiënten (
+15
+). In een Indiase retrospectieve
+studie bij 257 patiënten was de complete respons na chemoradiotherapie voor T1-2 tumoren significant
+hoger bij een dosis > 55 Gy dan <55Gy (respectievelijk 87,5% en 59,2%, 
+p
+=0.001) , en voor T3-4 tumoren
+eveneens significant hoger bij > 60 Gy vergeleken met <60Gy (85,7% 
+versus
+ 53%, 
+p
+=0.001) (
+16
+). In een
+Oostenrijkse retrospectieve analyse bij 129 patiënten werd alleen voor de T3-4 tumoren een verbeterde
+locoregionale controle beschreven bij een dosis ≥54 Gy vergeleken met <54Gy (86%, n=48 
+versus
+ 30%, n=8,
+p=0.007) (
+17
+). Dergelijke conclusies werden ook gevonden in 2 kleinere retrospectieve studies (
+18
+)  (
+19
+).
+Meer nog dan voor de primaire tumor is de optimale dosis voor het controleren van micro- of
+macroscopische tumoruitbreiding in lymfeklieren niet goed bekend. De beste analyse komt van het MSKKC in
+New York (
+3
+). Deze auteurs bestudeerden retrospectief onder andere de plaats van regionale recidieven na
+conventionele bestraling met de bestralingsgegevens. Twintig van de 180 patiënten ontwikkelden een
+regionaal recidief. Bij 8 hiervan was dat in de liezen, alle binnen het bestralingsveld. Bij 4 was dit na electieve
+liesbestraling tot 30.6 Gy en bij 4 na ‘curatieve' bestraling op macroscopische klieren tot 45 Gy (
+3
+). In de
+MDACC serie is slechts in één van de 43 patiënten met lieskliermetastasen een inguinaal klierrecidief
+gevonden, na een ‘curatieve' dosis van 55 Gy (
+20
+).
+In de 124 overige patiënten, die electief tot een dosis van 30,6 Gy bestraald werden, zijn geen inguinale
+klierrecidieven vastgesteld. Elf patiënten van de MSKCC serie ontwikkelden regionale klierrecidieven in het
+bekken, waarvan 5 buiten of op de grens van het bestralingsveld (
+3
+). Op basis hiervan suggereren deze
+auteurs het gebruik van IMRT om de kliergebieden nauwkeuriger in het doelgebied te omvatten, en voor
+macroscopische kliermetastasen een hogere dosis dan 45 Gy te geven.
+Verantwoording
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+44
+/
+78
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Glynne-Jones R, Northover JMA, Cervantes A. Anal cancer: ESMO clinical practice guidelines for diagnosis, treatment and
+follow-up. 
+Ann Oncology 2010, 21, 87-92.
+2
+ - Lengelé B, Scalliet P. Anatomical bases for the radiological delineation of lymph node areas. Part III: pelvis and lower limbs.
+Radiother Oncol 2009, 92: 22-33
+.
+3
+ - Wright JL, Patil SM, Temple LKF, Minsky BD, Slatz LB, Goodman KA. Squamous cell carcinoma of the anal canal: patterns
+and predictors of failure and implications for intensity-modulated radiation treatment planning. Int J Radiat Oncol Biol Phys.
+2010;78:1064-72.
+4
+ - Das P, Bhatia S, Eng C, Ajani JA, Skibber JN, Rodriguez-Bigas MA, et al. Predictors and patterns of recurrence after
+definitive chemoradiation for anal cancer. 
+Int J Radiat Oncol Biol Phys. 2007, 68, 794-800
+.
+5
+ - Matthews JHL, Burmeister BH, Borg M, Capp AL, Joseph D, Thompson KM, et al. T1-2 anal carcinoma requires elective
+inguinal radiation treatment – the results of trans tasman radiation oncology group study TROG 99.02. 
+Radiother Oncol. 2011,
+98, 93-8.
+6
+ - Myerson RJ, Garofalo MC, El Naqa I, Abrams RA, Apte A, Bosch WR, et al. Elective clinical target volumes for conformal
+therapy in anorectal cancer; a Radiation Therapy Oncology Group consensus panel contouring atlas. 
+Int J Radiat Oncol Biol
+Phys. 2009 Jul 1;74(3):824-30
+7
+ - Ng M., Leong T, Chander S, Chu J, Kneebone A, Carroll S, Wiltshire K, Ngan S, achnik L. Australasian Gastrointestinal Trials
+Group contouring atlas and planning guidelines for intensity-modulated radiotherapy in anal cancer. 
+Int J Radiat Oncol Biol
+Phys 2012: Aug 1;83(5):1455-62. Epub 2012 Mar 6.
+8
+ - Fiorino C, Valdagni R, Rancati T, Sanguineti G. Dose-volume effects for normal tissues in external radiotherapy: pelvis.
+Radiother Oncol. 2009; 93:153-67.
+9
+ - Zagar TM, Willett CG, Czito BG. Intensity-modulated radiation therapy for anal cancer: toxicity versus outcomes. 
+Oncology,
+2010, 24 (9), 815-23, 828.
+1
+0 - Nigro ND, Vaitkevicius VK, Considine B. Combined therapy for cancer of the anal canal: A preliminary report. 
+Dis Colon
+Rectum 1974, 17, 345-56.
+1
+1 - Bartelink H, Roelofsen F, Eschwege F, Rougier P, Bosset JF, Gonzalez D, et al. Concomitant radiotherapy and
+chemotherapy is superior to radiotherapy alone in the treatment of locally advanced anal cancer: results of a phase III
+randomized trial of the European Organisation for Research and treatment of Cancer Radiotherapy and Gastrointestinal
+Cooperative Groups. 
+J Clin Oncol. 1997 May:15(5):2040-9.
+1
+2 - Flam M, Madhu J, Pajak TF, Petrelli N, Myerson R, Doggett S, et al. Role of Mitomycin in combination with fluorouracil and
+Radiotherapy and of salvage chemoradiation in the definitive nonsurgical treatment of epidermoid carcinoma of the anal canal
+: results of a phase III randomized intergroup study. 
+J Clin Oncol 1996;14:2527-39
+.
+1
+3 - UKCCCR Anal Cancer Trial Working Party 1996
+1
+4 - Conroy T, Ducreux M, Lemanski C, Francois E, Giovanni M, Cvitcovic F, et al. Treatment intensification by induction
+chemotherapy (ICT) and radiation dose escalation in locally advanced squamous cell anal canal carcinoma (LAAC): definitive
+analysis of the intergroup ACCORD 03 trial (meeting abstract). J Clin Oncol. 2009, 27, no. 15S, 176s (abstr. no. 4033).
+1
+5 - Konski A, Garcia M, Madhu J, Krieg R, Pinover W, Myerson R, et al. Evaluation of planned treatment breaks during
+radiation therapy for anal cancer: update of RTOG 92-08. 
+Int J Radiat Oncol Biol Phys. 2008 Sep 1;72(1):114-8
+.
+1
+6 - Engineer R, Mallik S, Mahantshetty U, Shrivastava S. Impact of radiation dose on locoregional control and survival on
+squamous cell carcinoma of anal canal. 
+Radiother Oncol. 2010; 95, 283-7
+.
+1
+7 - Widder J, Kastenberger R, Fercher E, Schmid R, Langendijk JA, Dobrowsky W et al. Radiation dose associated with local
+control in advanced anal cancer; retrospective analysis of 129 patients. Radiother. Oncol. 2008, 87, 367-375.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+45
+/
+78
+1
+8 - Ferrigno R, Nakamura RA, Ribeiro dos Santos Novaes PE, Pellizzon ACA, Maia MAC, Fogarolli RC, et al.
+Radiochemotherapy in the conservative treatment of anal canal carcinoma: retrospective analysis of results and radiation dose
+effectiveness. 
+Int J Radiat Oncol Biol Phys. 2005;61:1136-42.
+1
+9 - Huang K, Haas-Kogan D, Weinberg V, Krieg R. Higher radiation dose with a shorter treatment duration improves outcome
+for locally advanced carcinoma of anal canal. 
+World J Gastroenterol. 2007 Feb 14;13(6):895-900
+.
+2
+0 - Hwang JM, Rao A, Shieh E, Yao J, Tome M. Treatment of HIV positive anal cancer patients with chemoradiation (Meeting
+abstr). J Clin Oncol 2006, 24S, 4154.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+46
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca Brachytherapie
+Uitgangsvraag
+Wat is de plaats van brachytherapie bij de behandeling van patiënten met invasief plaveiselcelcarcinoom van
+de anus?
+Aanbeveling
+De werkgroep is van mening dat er in geselecteerde gevallen mogelijk een meerwaarde is voor
+brachytherapie. Gezien de lage incidentie van anuscarcinoom is verwijzing naar een centrum met ervaring in
+deze techniek aan te bevelen.
+Overwegingen
+De waarde van brachytherapie is nooit onderzocht in een prospectieve gerandomiseerde fase III studie. De
+techniek vereist klinische ervaring.
+Onderbouwing
+Conclusies
+Er zijn aanwijzingen dat brachytherapie mogelijk een meerwaarde heeft bij geselecteerde patiënten met
+anuscarcinoom. Voorwaarde is voldoende klinische ervaring met deze techniek en geen uitgesproken
+verlenging van de totale behandelduur.
+Hannoun-Levi 2011 
+(
+7
+); Saarilahti 2008  (
+6
+)
+Samenvatting literatuur
+In veel retrospectieve single center studies maar ook in gerandomiseerde studies wordt bij geselecteerde
+patiënten gebruik gemaakt van brachytherapie in de behandeling van het anuscarcinoom (
+1
+)  (
+2
+)  (
+3
+)  (
+4
+)  (
+5
+) 
+(
+6
+). De locale controle is doorgaans erg goed, maar er is soms ook een hoog complicatierisico. Vaak
+gehanteerde selectiecriteria voor brachytherapie zijn tumoruitbreiding minder dan drie kwart van de
+circumferentie en goede respons op de uitwendige radiotherapie. Doorgaans worden maximaal 6-8 naalden
+gebruikt met een maximale actieve lengte van 6-7cm. De dosis varieert van 10 tot 25 Gy, indien gegeven als
+boost in combinatie met uitwendige bestraling, al of niet met chemotherapie.
+Twee recente publicaties over de waarde van brachytherapie bij anuscarcinoom zijn vermeldenswaardig. Eén
+betreft een Franse multicentrische studie, waarbij de resultaten van 76 patiënten, die enkel uitwendig zijn
+bestraald, vergeleken zijn met die van 86 gevallen die middels gecombineerde uit- en inwendige bestraling
+zijn behandeld (beide al of niet met chemotherapie) (
+7
+). Beide groepen hadden gelijkwaardige demografische
+kenmerken en de brachytherapie werd als boost gegeven op basis van beschikbaarheid van de technische
+faciliteit per deelnemend centrum en volgens welomschreven selectiecriteria (
+7
+). In een multivariaat analyse
+bleek de brachytherapie als boost de enige prognostische factor. Bij subgroep analyse bleek bij patiënten
+waarvan de totale behandelduur korter was dan 80 dagen, de 5-jaars locoregionale controle na
+brachytherapie significant hoger (91%) dan bij de bij de enkel uitwendig bestraalde patiënten (72%). Bij een
+totale behandelduur van 80 dagen of meer was dit verschil niet meer significant (81% voor brachytherapie
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+47
+/
+78
+versus 72% voor uitwendige bestraling) (
+7
+).
+De tweede studie betreft een Finse retrospectieve toxiciteitsanalyse van 59 patiënten behandeld met
+chemoradiatie, 3D-CF-RT of IMRT, waarbij in 29 gevallen de boost met high-dose rate brachytherapie werd
+gegeven. De meest opvallende winst in acute toxiciteit werd gevonden bij IMRT groep, terwijl er een trend
+was voor minder bestralingsproctitis in de brachytherapie groep, met name indien de dosis op het deel van
+de anus dat gespaard kon worden minder dan 45 Gy (EQD2) bedroeg (
+6
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Bartelink H, Roelofsen F, Eschwege F, Rougier P, Bosset JF, Gonzalez D, et al. Concomitant radiotherapy and
+chemotherapy is superior to radiotherapy alone in the treatment of locally advanced anal cancer: results of a phase III
+randomized trial of the European Organisation for Research and treatment of Cancer Radiotherapy and Gastrointestinal
+Cooperative Groups. 
+J Clin Oncol. 1997 May:15(5):2040-9.
+2
+ - Hwang JM, Rao A, Shieh E, Yao J, Tome M. Treatment of HIV positive anal cancer patients with chemoradiation (Meeting
+abstr). J Clin Oncol 2006, 24S, 4154.
+3
+ - Kapp KS, Geyer E, Gebhart FH, Oechs AC, Berger A, Hebenstreit J, et al. Experience with split-course external beam
+irradiation +/- chemotherapy and integrated Ir-192 high-dose-rate brachytherapy in the treatment of primary carcinomas of
+the anal canal. Int 
+J Radiat Oncol Biol Phys 2001 Mar 15;49(4):997-1005
+.
+4
+ - Roed H, Engelholm SA, Svendsen LB, Rosendal F, Olsen KJ. Pulsed dose rate (PDR) brachytherapy of anal carcinoma.
+Radiother Oncol 1996 Nov;41(2):131-4
+.
+5
+ - Sandhu AP, Symonds RP, Robertson AG, Reed NS, McNee SG, Paul J. Interstitial iridium-192 implantation combined with
+external radiotherapy in anal cancer: ten years experience. 
+Int J Radiat Oncol Biol Phys 1998 Feb 1;40(3):575-81
+.
+6
+ - Saarilahti K, Arponen P, Vaalavirta L, Tenhunen M. The effect of intensity-modulated radiotherapy and high dose rate
+brachytherapy on acute and late radiotherapy-related adverse events following chemoradiotherapy of anal cancer. 
+Radiother
+Oncol. 2008 Jun;87(3):383-90.
+7
+ - Hannoun-Levi JM, Ortholan C, Resbeut M, Teissier E, Ronchin P, Cowen D, et al. High-dose spit-course radiation therapy
+for anal cancer: outcome analysis regarding the boost strategy (CORS-03 study). 
+Int J Radiat Oncol Biol Phys. 2011; 80: 712-
+20
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+48
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Systemische therapie
+Deze module is onderverdeeld in submodules en/of paragrafen. Om de inhoud te kunnen bekijken klikt u in
+de linkerkolom op de submodule- en/of paragraaftitel.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+49
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Chemotherapie voor
+gelocaliseerd anuscarcinoom
+Uitgangsvraag
+Welke systemische therapie dient te worden gegeven bij patiënten met gelocaliseerd anuscarcinoom?
+Aanbeveling
+Het MMC/5-FU schema wordt geadviseerd in de gecombineerde chemoradiotherapie voor het
+gelocaliseerde anuscarcinoom.
+ 
+De ervaring met capecitabine als vervanging voor 5-FU bij anuscarcinoom is nog te beperkt en kan dus nog
+niet geadviseerd worden.
+ 
+Er is vooralsnog geen indicatie voor (neo)adjuvante chemotherapie.
+Overwegingen
+MMC, cisPt en 5-FU zijn in combinatie met bestraling in 4 prospectieve gerandomiseerde trials onderzocht,
+over een periode van 1998 tot 2008. In deze studies zijn verschillende combinatie schema's, eindpunten en
+toxiciteitsscoringen toegepast. Twee van de 4 trials zijn enkel nog als een meeting abstract gepubliceerd.
+Onderlinge vergelijking van de resultaten dient dus met de nodige voorzichtigheid te geschieden.
+Toch lijkt het erop dat de combinatie MMC/5-FU en bestraling de beste resultaten biedt. De optimale
+dosering en toedieningswijze is niet bekend, en de keuze lijkt voornamelijk ingegeven door de bezorgdheid
+over toxiciteit.
+Onderbouwing
+Conclusies
+Het is aangetoond dat bij het gelokaliseerd anuscarcinoom MMC/5-FU in combinatie met bestraling het
+schema van keuze is. Dit schema geeft weliswaar meer acute ernstige hematologische toxiciteit dan
+bijvoorbeeld cisPt/5-FU, maar lijkt op de langere termijn superieur qua (ziektevrije) overleving. De ervaring
+met capecitabine als vervanging voor 5-FU bij anuscarcinoom is nog te beperkt. Er is vooralsnog geen
+indicatie voor (neo)adjuvante chemotherapie.
+Ajani 2008 
+(
+6
+); Gunderson 2011 
+(
+17
+); James 2009 
+(
+8
+); Eng 2009 
+(
+14
+); Glynne-Jones 2008 
+(
+15
+) 
+Samenvatting literatuur
+De basis voor de huidige combinatie chemoradiotherapie is gelegd in de oorspronkelijke Nigro studie, die
+mitomycine C (MMC) en 5-fluoro-uracil (5-FU) combineerde met een intermediaire dosis radiotherapie in een
+kleine patiëntengroep met locaal beperkt anuscarcinoom in een preoperatieve setting (
+1
+). Hiermee werd een
+opvallend hoog percentage pathologische complete remissies gevonden. Dit vormde de aanleiding tot het
+gebruik van deze chemotherapie in combinatie met een ‘curatieve' dosis radiotherapie (
+2
+). De meerwaarde
+van dit combinatie schema is duidelijk aangetoond in twee prospectieve gerandomiseerde studies (
+3
+); (
+4
+). In
+de gerandomiseerde RTOG 87-04 is bovendien aangetoond dat MMC een essentiële bijdrage levert aan de
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+50
+/
+78
+betere resultaten voor deze patiëntengroep (
+5
+). In de daarop volgende trials is cisplatinum (cisPt) getest als
+alternatief voor MMC, naar analogie met trials voor hoofd-hals, slokdarm, long en cervix tumoren. CisPt en 5-
+FU zijn zowel gelijktijdig met bestraling (RT) als in de neo-adjuvante (
+6
+)  (
+7
+) en adjuvante setting onderzocht
+(
+8
+). In de UKCCCR-ACT II trial (2 x 2 factorial design, n = 940), waarin gelijktijdig RT + cisPt/5-FU (+ of -
+adjuvant) is vergeleken met gelijktijdig RT + 5-FU/MMC, is er geen verschil in (ziektevrije) overleving en
+incidentie van niet-geconverteerde colostomies tussen de cisPt/5-FU en de MMC/5-FU groep (
+8
+).
+In de ACCORD-03 trial (2 x 2 factorial design, n = 307), waar cisPt/5-FU neo-adjuvant is gegeven,
+voorafgaand aan gelijktijdig cisPt/5-FU + RT (met lage of hoge boost), is er evenmin een verschil in
+(ziektevrije) overleving of locale controle tussen de 2 groepen gevonden (
+7
+). In een recente update echter van
+de RTOG 98-11 trial (n = 649), die neo-adjuvant cisPt/5-FU gevolgd door cisPt/5-FU + RT vergelijkt met
+MMC/5-FU + RT, is de actuariële 5-jaars overleving in de MMC/5-FU groep significant hoger dan in de
+cisPt/5- FU groep (78,3%, 
+versus 
+70,7%, p = 0.026); de overeenkomstige ziektevrije 5-jaars overleving is
+67,8% en57,8% (p = 0.006) [Gunderson 2011]. MMC/5-FU geeft echter significant meer acute ernstige
+hematologische toxiciteit dan cisPt/5-FU, al is er geen graad 5 toxiciteit gerapporteerd (
+6
+)  (
+8
+). In een
+gerandomiseerde fase II EORTC studie (EORTC 22011-40014) is MMC/cisPt + RT vergeleken met MMC/5-FU
++ RT (
+9
+). MMC/cisPt + RT resulteerde in een hoger percentage responders vergeleken met MMC/5-FU + RT
+(92% versus 69%), maar ook in meer ernstige hematologische toxiciteit. Hierdoor diende in de MMC/cisPt
+groep bij nagenoeg 30% de behandeling voortijdig gestaakt te worden, tegenover slechts 5% in de MMC/5-
+FU arm (
+9
+).
+MMC wordt doorgaans gegeven in een kortdurend infuus in een dosis van 10 mg/m
+ op dag 1 en 29 van de
+bestraling (
+5
+)  (
+6
+), of op dag 1 en 42 (
+10
+) dan wel enkel op dag 1 aan 10 mg/m
+(
+11
+)  (
+9
+)  (
+12
+)  (
+13
+), 12 mg/m
+ 
+(
+4
+) (
+8
+) of 15 mg/m
+ (
+3
+)  (
+13
+).
+5-FU wordt meestal toegediend in een continu infuus aan 750 mg/m
+.d op dag 1-5 en dag 29-33 (
+3
+)  (
+13
+) of
+aan 1000 mg/m
+.d op dag 1-4 en 29-32  (
+4
+) (
+5
+)  (
+8
+) of 42-45 (
+10
+) dan wel aan 800 mg/m
+.d op dag 1-4 en dag
+29-32 (
+7
+) of ook op dag 1-4 van de eerste en tweede bestralingsserie (
+12
+). Soms is 5-FU toegediend in een
+continu infuus in een dosis van 200 mg/m
+ van dag 1-26 van de eerste bestralingsserie en dag 1-17 van de
+tweede, wat in vergelijking met de EORTC 22861 studie op zijn minst even goede resultaten gaf wat betreft
+overleving en tumorcontrole en een minder acute en late toxiciteit (
+3
+)  (
+11
+) 
+. In twee studies is 5-FU
+vervangen door capecitabine aan 825 mg/m
+b.i.d. gedurende nagenoeg de hele duur van de bestraling (
+14
+) 
+(
+15
+). Dit is een patiëntvriendelijk alternatief omdat het middel per os kan worden toegediend. Bij
+rectumcarcinoom is dit ten minste even effectief gebleken als 5-FU met acceptabele toxiciteit. CisPt is
+gegeven in een dosis van 60 mg/m
+ (
+8
+), 75 mg/m
+ (
+6
+) of 80 mg/m
+ (
+7
+) op dag 1 en 29, of 100 mg/m
+ op dag 1
+(
+10
+) dan wel wekelijks 25 mg/m
+ (
+9
+). De keuze voor een bepaald schema is vaak empirisch, doch wel steeds
+gelijktijdig met bestraling, om het radiosensitizerend effect te optimaliseren (
+16
+). Er is geen voordeel
+aangetoond voor (neo)adjuvante chemotherapie.
+Andere combinatie schema's zijn zelden getest, zoals bijvoorbeeld oxaliplatin en capecitabine in combinatie
+met bestraling (
+14
+). Sinds enkele jaren worden tyrosine kinase remmers en angiogenese remmers in
+combinatie met chemoradiotherapie, maar deze resultaten zijn nog te prematuur (
+16
+).
+Verantwoording
+2
+2 
+2
+2
+2
+2
+2
+2
+ (
+9
+)
+2 
+2
+2
+2
+2
+2.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+51
+/
+78
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Nigro ND, Vaitkevicius VK, Considine B. Combined therapy for cancer of the anal canal: A preliminary report. 
+Dis Colon
+Rectum 1974, 17, 345-56.
+2
+ - Cummings BJ, Keane TJ, O’Sullivan B, Wong CS, Catton CN. Epidermoid anal cancer: treatment by radiation alone or by
+radiation and 5-fluorouracil with and without mitomycin C. 
+Int J Radiat Oncol Biol Phys. 1991;21:1115-25
+.
+3
+ - Bartelink H, Roelofsen F, Eschwege F, Rougier P, Bosset JF, Gonzalez D, et al. Concomitant radiotherapy and
+chemotherapy is superior to radiotherapy alone in the treatment of locally advanced anal cancer: results of a phase III
+randomized trial of the European Organisation for Research and treatment of Cancer Radiotherapy and Gastrointestinal
+Cooperative Groups. 
+J Clin Oncol. 1997 May:15(5):2040-9.
+4
+ - UKCCCR Anal Cancer Trial Working Party 1996
+5
+ - Flam M, Madhu J, Pajak TF, Petrelli N, Myerson R, Doggett S, et al. Role of Mitomycin in combination with fluorouracil and
+Radiotherapy and of salvage chemoradiation in the definitive nonsurgical treatment of epidermoid carcinoma of the anal canal
+: results of a phase III randomized intergroup study. 
+J Clin Oncol 1996;14:2527-39
+.
+6
+ - Ajani JA, Winter KA, Gunderson LL, Pedersen J, Benson AB, Thomas CR, et al. Fluorouracil, mitomycin, and radiotherapy vs
+fluorouracil, cisplatin, and radiotherapy for carcinoma of the anal canal, a randomized controlled trial. 
+JAMA. 2008 Apr
+23;299(16):1914-21.
+7
+ - Conroy T, Ducreux M, Lemanski C, Francois E, Giovanni M, Cvitcovic F, et al. Treatment intensification by induction
+chemotherapy (ICT) and radiation dose escalation in locally advanced squamous cell anal canal carcinoma (LAAC): definitive
+analysis of the intergroup ACCORD 03 trial (meeting abstract). J Clin Oncol. 2009, 27, no. 15S, 176s (abstr. no. 4033).
+8
+ - James R, Wan S, Glynne-Jones R, Sebag-Montefiore D, Kadalayil L, Northover J, et al and National Cancer Research
+Institute (NCRI) ACT II Trial Management group. A randomized trial of chemoradiation using mitomycin or cisplatin, with or
+without maintenance cisplatin/5FU in squamous cell carcinoma of the anus (ACT II) (meeting abstract). J Clin Oncol. 2009;27:,
+no. 18S, 797s (LBA 4009).
+9
+ - Matzinger O, Roelofsen F, Mineur L, Koswig S, Van der Steen-Banasik EM, Van Houtte P, et al. Mitomycin C with
+continuous fluorouracil or with cisplatin in combination with radiotherapy for locally advanced anal cancer (European
+Organisation for Research and Treatment of Cancer phase II study 22011 – 40014). 
+Eur J Cancer. 2009; 45: 2782–91
+.
+1
+0 - Meropol NJ, Niedzwiecki D, Shank B, Colacchio TA, Ellerton J, Valone F, et al. Induction therapy for poor-prognosis anal
+canal carcinoma: a phase II study of the cancer and leukemia group B (CALCB 9281) 
+J Clin Oncol. 2008, 26, 3229-34
+.
+1
+1 - Bosset JF, Roelofsen F, Morgan DAL, Budach V, Coucke P, Jager JJ. et al. Shortened irradiation scheme, continuous
+infusion of 5-fluorouracil and fractionation of mitomycin C in locally advanced anal carcinoma. Results of a phase II study of the
+European Organisation for Research and Treatment of Cancer. Radiotherapy and Gastrointestinal Cooperative Groups. 
+Eur J
+Cancer. 2003; 39: 45-51.
+1
+2 - Matthews JHL, Burmeister BH, Borg M, Capp AL, Joseph D, Thompson KM, et al. T1-2 anal carcinoma requires elective
+inguinal radiation treatment – the results of trans tasman radiation oncology group study TROG 99.02. 
+Radiother Oncol. 2011,
+98, 93-8.
+1
+3 - Olivatto LO, Cabral V, Rosa A, Bezerra M, Santarem E, Fassizoli A, et al. Mitomycin-C-or cisplatin-based
+chemoradiotherapy for anal canal carcinoma: long-term results. 
+Int J Radiat Oncol Biol Phys. 2011 Feb 1;79(2):490-5
+1
+4 - Eng C, Chang GJ, Das P, Rodiguex-Bidas M, Skibber JM, Qiao W, et al. Phase II study of capecitabine and oxaliplatin with
+concurrent radiation therapy (XELOX-RT) for squamous cell carcinoma of the anal canal (meeting abstract). J Clin Oncol 2009,
+27, no 15S, abstr. no. 4116.
+1
+5 - Glynne-Jones R, Meadows H, Wan S, Gollins S, Leslie M, Levine E, et al. EXTRA – a multicenter Phase II study of
+chemoradiation using a 5 day per week oral regimen of capecitabine and intravenous mitomycin C in anal cancer. 
+Int J Radiat
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+52
+/
+78
+Oncol Biol Phys. 2008;72:119-26.
+1
+6 - Lim F, Glynne-Jones R. Chemotherapy/chemoradiation in anal cancer: A systematic review. 
+Cancer Treat Rev. 2011
+37(7):520-32
+.
+1
+7 - Gunderson LL, Winter KA, Ajani JA, Pedersen JE, Benson AB, Thomas CR, et al. Long-term update of US Intergroup RTOG
+98-11 phase III trial for anal carcinoma: concurrent chemoradiation with 5-FU-mitomycin yields better disease-free and overall
+survival than 5-FU-cisplatin (meeting abstract). Int J Radiat Oncol Biol Phys. 2011, 81, S5, abstract 9.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+53
+/
+78
+Anuscarcinoom - Behandeling invasief plaveiselcelca - Chemotherapie voor
+gemetastaseerd anuscarcinoom
+Uitgangsvraag
+Welke systemische therapie dient te worden gegeven bij patiënten met gemetastaseerd anuscarcinoom?
+Aanbeveling
+Er wordt geadviseerd om bij het gemetastaseerd anuscarcinoom cisPt en 5-FU als eerste keus chemotherapie
+te overwegen.
+Onderbouwing
+Conclusies
+Het is aangetoond dat bij het gemetastaseerd anuscarcinoom cisPt en 5-FU de eerste keus van behandeling
+is.
+Faivre 1999 
+(
+3
+); Jaiyesimi 1993 
+(
+4
+) 
+Samenvatting literatuur
+Volgens gegevens van het ‘
+Surveillance, Epidemiology, and End Results (SEER)
+ Program' van the National
+Cancer Institute in de Verenigde Staten, heeft 12% van de patiënten met een anuscarcinoom primair
+gemetastaseerde ziekte. In de EORTC studie en de UKCCCR-ACT I trial ontwikkelden 10%, respectievelijk
+17% van de patiënten afstandsmetastasen na primaire locale behandeling 
+(
+1
+)  (
+2
+). Er bestaan geen
+gerandomiseerde studies over de systemische behandeling van het gemetastaseerde anuscarcinoom. Hoewel
+in kleine series van meerdere middelen activiteit is gemeld, is verreweg de meeste ervaring opgedaan met de
+combinatie van cisPt en 5-FU via continu infuus 
+(
+3
+)  (
+4
+)  (
+5
+). Mogelijk kan 5-FU vervangen worden door
+capecitabine, maar dit is nauwelijks onderzocht.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Bartelink H, Roelofsen F, Eschwege F, Rougier P, Bosset JF, Gonzalez D, et al. Concomitant radiotherapy and
+chemotherapy is superior to radiotherapy alone in the treatment of locally advanced anal cancer: results of a phase III
+randomized trial of the European Organisation for Research and treatment of Cancer Radiotherapy and Gastrointestinal
+Cooperative Groups. 
+J Clin Oncol. 1997 May:15(5):2040-9.
+2
+ - UKCCCR Anal Cancer Trial Working Party 1996
+3
+ - Faivre C, Rougier P, Ducreux M et al. [5-fluorouraciland cisplatinum combination chemotherapy for metastatric squamous
+cell carcinoma of the anal canal] 
+Bull Cancer 1999: 86: 861-5
+.
+4
+ - Jaiyesimi IA, Pazdur RA. Cisplatinum and 5-fluorouracil as salvage therapy for recurrent metastatic squamous cell carcinoma
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+54
+/
+78
+of the anal canal. 
+Am J Clin Oncol. 1993 Dec;16(6):536-40
+.
+5
+ - Lim F, Glynne-Jones R. Chemotherapy/chemoradiation in anal cancer: A systematic review. 
+Cancer Treat Rev. 2011
+37(7):520-32
+.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+55
+/
+78
+Anuscarcinoom - Pathologie resectiepreparaat
+Deze module is onderverdeeld in submodules. Om de inhoud te kunnen bekijken klikt u in de linkerkolom op
+de submodules.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+56
+/
+78
+Anuscarcinoom - Pathologie resectiepreparaat - Classificatie anuscarcinoom
+Uitgangsvraag
+Welke modificaties zijn er in de classificatie van anuscarcinoom?
+Aanbeveling
+De werkgroep beveelt als diagnoseterm plaveiselcelcarcinoom aan. Een aanduiding van de differentiatiegraad
+met een eventueel specifiek histotype kan in de microscopische beschrijving worden vermeld.
+Onderbouwing
+Conclusies
+De werkgroep is van mening dat voor de histologische subtypes in de diagnose geen onderscheid gemaakt
+hoeft te worden. Zeldzame vormen van anale maligniteiten, zoals adenocarcinoom van het rectum,
+adenocarcinoom van de anale klieren, kleincellig carcinoom, ongedifferentieerd carcinoom en melanoom zijn
+buiten deze richtlijn gelaten.
+Williams 1999 
+(
+2
+); Fenger 2000 
+(
+3
+); Longacre 2008 
+(
+4
+); Welton 2010 
+(
+1
+) 
+Samenvatting literatuur
+De meeste maligniteiten van de anus betreffen plaveiselcelcarcinomen. Hoewel in de tweede editie van de
+WHO classificatie een vrij gedetailleerde subclassificatie werd voorgesteld is dit in de derde en de vierde
+editie verlaten 
+(
+1
+). Duidelijke plaveiselcellige differentiatie met verhoorning is aanwezig in 90% van de
+gevallen. Een basaloïde, weinig gedifferentieerde component is aanwezig in 65% van de gevallen, maar is
+zelden het enige patroon. De kleincellige ongedifferentieerde en de mucoepidermoïde componenten zijn
+zeldzaam. Termen als cloacogeen, basaloïde en transitioneel beschrijven derhalve morfologische patronen
+die momenteel worden beschouwd als niet verhoornende varianten van het plaveiselcelcarcinoom, met name
+omdat er geen verschillen in gedrag of prognose zijn en de reproduceerbaarheid van de diagnostiek te
+wensen overlaat 
+(
+2
+)  (
+3
+)  (
+4
+). Verder komen vaak verschillende histologische varianten in één tumor voor. Het
+adenocarcinoom komt voor in de anale regio, gaat uit van de anale klieren, doch is zeldzaam. Ditzelfde geldt
+voor het anale melanoom 
+(
+1
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Welton ML, Lambert R, Bosman FT. Tumours of the anal canal. In: WHO classification of tumours of the digestive system
+(4th Ed) Bosman FT, Carneiro F, Rhuban R, Theise N Eds. IARC, Lyon, 2010; 184-193
+2
+ - Williams GT, Talbot IC Anal carcinoma – a histological review. Histopathology 1999;25:507-16.
+3
+ - Fenger C, Frisch M, Jass JJ, Williams GT, Hilden J. Anal cancer subtype reproducibility study. 
+Virchows Arch. 2000;436:229-
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+57
+/
+78
+33
+.
+4
+ - Longacre TA, Kong CS, Welton ML. Diagnostic problems in anal pathology. 
+Adv. Anat. Pathol. 2008;15:263-78
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+58
+/
+78
+Anuscarcinoom - Pathologie resectiepreparaat - Beoordeling operatiepreparaat
+Uitgangsvraag
+Welke minimale eisen worden er gesteld aan het pathologieverslag en welke specifiek voor premaligne en
+maligne laesies?
+Aanbeveling
+De werkgroep is van mening dat de diagnostiek van het resectiepreparaat als volgt uitgevoerd wordt:
+Het preparaat wordt bij voorkeur vers ingestuurd door de chirurg, adequaat topografisch gemerkt. Het
+preparaat wordt zodanig bemonsterd dat de resectieranden kunnen worden beoordeeld evenals de diepte
+van de infiltratie van de tumor in de wand of in omliggende organen. Geregistreerd wordt wat de minimale
+afstand is tot de resectierand of, indien de tumor tot in de resectierand reikt, waar en wat de afmetingen zijn
+van het positieve gebied.
+Lymfeklieren worden adequaat bemonsterd voor histologisch onderzoek naar metastasen.
+De werkgroep is van mening dat het pathologieverslag minimaal de volgende elementen bevat:
+type tumor, eventueel differentiatiegraad (volgens WHO 2010)
+localisatie, in geval van een abdomino-perineaal resectiepreparaat
+grootte
+diepte-ingroei in de wand of omliggende organen, afstand tot de resectieranden. Bij positieve
+resectieranden, waar deze positief zijn
+angio-invasieve groei
+eventuele geassocieerde laesies (AIN, condyloma accuminatum)
+lymfeklierstatus
+een TNM voorstel (volgens 7e editie)
+Onderbouwing
+Samenvatting literatuur
+Er is weinig literatuur over de bewerking van beperkte of uitgebreide (abdomino-perineale)
+resectiepreparaten. Hier volgen algemene regels die gelden bij het onderzoek van oncologische preparaten
+en georiënteerd op de specifieke topografische kenmerken van de anale localisatie.
+De WHO 2010 is de aanbevolen classificatie. Verschillende differentiatiepatronen kunnen worden
+onderscheiden, vaak gecombineerd in één tumor, waardoor de biopsie niet altijd een compleet beeld geeft
+van de gehele tumor. Duidelijke plaveiselcellige differentiatie met verhoorning is aanwezig in 90% van de
+gevallen. Een basaloïde, weinig gedifferentieerde component is aanwezig in 65% van de gevallen, maar is
+zelden het enige patroon. De kleincellige ongedifferentieerde en de mucoepidermoïde componenten zijn
+zeldzaam. De histologische patronen hebben geen voorspellende waarde voor het biologische gedrag
+(prognose) of behandeling. Er zijn argumenten oppervlakkig infiltrerend (micro-invasief) plaveiselcelcarcinoom
+als aparte categorie te onderscheiden omdat daarvoor sparende behandeling mogelijk is (zie submodule
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+59
+/
+78
+Behandeling van het invasief plaveiselcelcarcinoom van de anus). Oppervlakkig infiltrerend
+plaveiselcelcarcinoom (superficially invasive squamous cell carcinoma, SISCCA) wordt gedefinieerd door een
+infiltratiediepte van max. 3 mm (gemeten vanaf de basale membraan van het epitheel op de plaats van
+oorsprong) én een grootste dimensie aan het oppervlak van max. 7 mm. én het volledig verwijderd zijn.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+60
+/
+78
+Anuscarcinoom - Zorg en nazorg
+Deze module is onderverdeeld in submodules. Om de inhoud te kunnen bekijken klikt u in de linkerkolom op
+de submodules.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+61
+/
+78
+Anuscarcinoom - Zorg en nazorg - Voorlichting en communicatie
+Uitgaande van de Wet Geneeskundige BehandelingsOvereenkomst (WGBO) is de werkgroep van mening dat
+een patiënt met een anuscarcinoom uitgebreid geïnformeerd dient te worden over zijn/haar ziekte en over:
+de aard en het doel van de diagnostische onderzoeken;
+de mogelijke risico's en de mogelijkheden tot doorverwijzing naar andere centra;
+de aard, het doel, de voor- en nadelen van de verschillende behandelingsmogelijkheden op de korte én
+ook op langere termijn.
+ 
+Daar schriftelijk voorlichtingsmateriaal specifiek voor patiënten met anuscarcinoom in ontwikkeling is, is een
+volledige mondelinge voorlichting van cruciaal belang. Schriftelijk voorlichtingsmateriaal voor algemeen
+diagnostische onderzoeken moet worden verstrekt. Ten aanzien van het informeren van de patiënt worden in
+een ziekenhuis duidelijke afspraken gemaakt welke hulpverlener wanneer hiervoor verantwoordelijk is. Er
+wordt naar gestreefd om één contactpersoon (bijvoorbeeld een oncologieverpleegkundige) aan te wijzen
+voor de patiënt binnen de instelling. Oncologische zorg is bij uitstek multidisciplinaire zorg. Vanaf het begin
+van de diagnostische fase is het van belang dat de zorg multidisciplinair verleend wordt (bijvoorbeeld door
+middel van een multidisciplinaire spreekuur/overleg). De (oncologie)verpleegkundige heeft een belangrijke
+rol bij het bespreekbaar maken van de invloed van de ziekte en de behandeling op seksualiteit. Voor verdere
+ondersteuning kunnen zorgverleners verwijzen naar bijvoorbeeld:
+De 
+Maag Lever Darm Stichting
+ (MLDS), geeft onder andere voorlichting aan mensen met maag-, darm-
+en leverziekten.
+SPKS
+ (Stichting voor Patiënten met Kanker aan het Spijsverteringskanaal), geeft informatie en verzorgt
+lotgenotencontact.
+De 
+Nederlandse Stomavereniging
+, een belangenorganisatie voor en door mensen met een stoma.
+KWF kankerbestrijding
+, voor informatie over onder andere psychosociale zorg.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+62
+/
+78
+Anuscarcinoom - Zorg en nazorg - Ondersteunende zorg
+Bij het verlenen van ondersteunende zorg dient specifieke aandacht uit te gaan naar de specifieke
+zorgbehoeften en vragen die kunnen spelen bij homoseksuele mannen en patiënten welke HIV-positief zijn.
+De inzet van een HIV-consulent kan in deze situatie worden overwogen.
+ 
+Voor het detecteren van gevolgen (fysiek, psychisch en sociaal) van ziekte en behandeling wordt het gebruik
+van de 
+Lastmeter 
+aanbevolen (zie richtlijn ‘Detecteren behoefte psychosociale zorg').
+ 
+Indien het aanleggen van een stoma geïndiceerd is, is specifieke ondersteunende zorg noodzakelijk.
+Voorlichting dient gegeven te worden door een stomaverpleegkundige.Om continuïteit van deze zorg te
+waarborgen is de werkgroep van mening dat een stomapoli, dan wel stomaverpleegkundige aanwezig moet
+zijn in een ziekenhuis waar de behandeling uitgevoerd wordt.
+ 
+Bij het verlenen van verpleegkundige zorg kunnen daarnaast de volgende richtlijnen worden gebruikt:
+Veranderd seksueel functioneren
+Verstoord lichaamsbeeld
+Sociaal isolement
+Machteloosheid
+Ineffectieve coping
+Orale mucositis
+Gevaar bloeding
+Gevaar infectie
+Ineffectieve ademhaling
+Obstipatie
+Vochttekort
+Voor verdere ondersteuning kunnen zorgverleners verwijzen naar 
+SIB op maat
+. Dit is een website met
+patiënteninformatie over bijwerkingen van medicijnen die gebruikt worden ter behandeling van kanker.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+63
+/
+78
+Anuscarcinoom - Zorg en nazorg - Nacontrole en nazorg
+Nazorg is ook voorzorg. Fysieke en psychosociale gevolgen van kanker en de behandeling daarvan kunnen
+reeds direct na diagnose en tijdens behandeling optreden. De richtlijnen 
+Herstel na Kanker
+ [IKNL 2011],
+Detecteren behoefte psychosociale
+ zorg [IKNL 2010] en 
+Oncologische revalidatie
+ [IKNL 2011] kunnen worden
+gehanteerd bij verlenen van nazorg. Een belangrijk aspect van nazorg betreft het geven van voorlichting,
+begeleiding, ingaan op klachten en symptomen, signaleren van directe of late effecten van ziekte en
+behandeling en aandacht voor sociale gevolgen.
+ 
+De werkgroep is van mening dat in de voorlichting aan patiënten met anuscarcinoom het van belang is
+aandacht te hebben voor de specifieke gevolgen van de behandeling op korte én lange termijn, bijvoorbeeld;
+seksuele dysfunctie, huid- en slijmvliesreacties als gevolg van een bestraling en darmproblemen,
+incontinentie, pijn/neuropathie en chronische moeheid. Daarnaast is aandacht van belang voor psychische
+klachten die voorkomen. In de 
+richtlijn
+ 
+Detecteren van behoefte aan psychosociale zorg
+ [IKNL 2010] wordt
+hiervoor een signaleringsinstrument (
+de Lastmeter
+) aanbevolen om gevolgen (fysiek, psychisch en sociaal) van
+ziekte en behandeling te signaleren.
+ 
+Zorgverleners hebben daarnaast de belangrijke taak de patiënt te 
+ondersteunen in zelfzorg
+. Naast het
+geven van informatie kan de zorgverlener hiertoe verwijzen naar instanties die informatie en
+lotgenotencontact bieden (zie module Voorlichting en communicatie).
+ 
+Zorgverleners 
+informeren
+ de patiënt met anuscarcinoom over de mogelijkheden en beperkingen van vroege
+detectie van nieuwe manifestaties van de primair behandelde kanker of nieuwe daarmee geassocieerde
+maligniteiten.
+ 
+Zorgverleners 
+evalueren
+ het medisch handelen bij voorkeur volgens een systematische aanpak en indien
+mogelijk in studieverband. Nazorg wordt multidisciplinair verleend. Er lijkt geen eenduidig bewijs voor de
+beste taakverdeling en aanpak in de nazorg. Om te voorzien in de verschillende behoeften van patiënten is
+een individueel nazorgplan van belang.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+64
+/
+78
+Anuscarcinoom - Zorg en nazorg - Psychosociale zorg
+In de diagnostische, behandel- en nazorgfase van patiënten met anuscarcinoom dienen hulpverleners alert te
+zijn op het ontstaan van psychosociale problemen en deze tijdig te behandelen. In de richtlijn 
+Detecteren van
+behoefte aan psychosociale zorg
+ [IKNL 2010] wordt een signaleringsinstrument (
+de Lastmeter
+) aanbevolen.
+Aanvullend kunnen signalerings- en diagnostische instrumenten worden ingezet voor specifieke klachten.
+Voor deze instrumenten wordt verwezen naar de richtlijn 
+Oncologische revalidatie
+ [IKNL 2011].
+ 
+Bij het verlenen van psychosociale zorg dient specifieke aandacht uit te gaan naar de specifieke
+zorgbehoeften en vragen die kunnen spelen bij homoseksuele mannen en patiënten welke HIV-positief zijn.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+65
+/
+78
+Anuscarcinoom - Behandeling locaal/regionaal recidief
+Uitgangsvraag
+Deze module is onderverdeeld in submodules en/of paragrafen. Om de inhoud te kunnen bekijken klikt u in
+de linkerkolom op de submodule- en/of paragraaftitel.
+Onderbouwing
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+66
+/
+78
+Anuscarcinoom - Behandeling locaal/regionaal recidief - Therapie locaal recidief
+Deze module is onderverdeeld in submodules. Om de inhoud te kunnen bekijken klikt u in de linkerkolom op
+de submodules.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+67
+/
+78
+Anuscarcinoom - Behandeling regionaal/locaal recidief - Locaal recidief na locale
+chirurgie
+Uitgangsvraag
+Wat zijn de therapeutische mogelijkheden bij een lokaal recidief anuscarcinoom na locale chirurgie?
+Aanbeveling
+De werkgroep is van mening dat indien er een lokaal recidief optreedt na eerdere excisie van een beperkt
+carcinoom van de anus, opnieuw beoordeeld moet worden of er plaats is voor een lokale chirurgische
+behandeling of dat de patiënt behandeld moet worden met (chemo)radiotherapie.
+Overwegingen
+In geselecteerde gevallen kan een locale resectie opnieuw overwogen worden. De voorwaarden hiervoor zijn
+dezelfde als voor de primaire chirurgische behandeling van het beperkt anuscarcinoom van de anale marge
+(zie subhoofdstuk Chirurgie). In alle andere gevallen is (chemo)radiotherapie geïndiceerd.
+Onderbouwing
+Conclusies
+Er zijn geen aanwijzingen uit de literatuur dat lokale resectie na eerdere excisie aangewezen is. Derhalve is het
+niet mogelijk een conclusie te formuleren.
+Samenvatting literatuur
+Er is weinig tot geen literatuur over de behandeling van recidief anuscarcinoom na eerdere (ruime) lokale
+resectie.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+68
+/
+78
+Anuscarcinoom - Behandeling locaal/regionaal recidief - Locaal recidief na
+(chemo)radiotherapie
+Uitgangsvraag
+Wat zijn de therapeutische mogelijkheden bij een lokaal recidief anuscarcinoom na (chemo) radiotherapie?
+Aanbeveling
+De werkgroep is van mening dat bij patiënten met een recidief of residu anuscarcinoom, zonder metastasen
+op afstand, een abdominoperineale rectumamputatie verricht dient te worden. Preoperatieve beeldvorming
+(CT,MRI, FDG-PET en mogelijk EAUS) is essentieel om patiënten te identificeren die radicaal geopereerd
+kunnen worden. Het recidief dient voldoende zeker gesteld te worden middels onderzoek onder narcose met
+gerichte biopten voor histologisch onderzoek. Vanwege de hoge kans op perineale wondproblematiek is een
+reconstructie van het perineum met bijvoorbeeld een Verticale Rectus Abdominus Muscle (VRAM) transpositie
+aanbevolen. Deze ingreep dient bij voorkeur in een centrum met voldoende ervaring te gebeuren.
+Onderbouwing
+Conclusies
+Lokaal residuele ziekte en lokaal recidief kan bij 25-30% van de patiënten met een anuscarcinoom optreden.
+Een abdominoperineale resectie bij lokaal recidief of residuele ziekte na chemoradiotherapie kan curatie
+bieden in 25-50% van de patiënten. Preoperatieve beeldvorming is essentieel om patiënten te identificeren
+die radicaal geopereerd kunnen worden. Het recidief dient voldoende zeker gesteld te worden middels
+onderzoek onder narcose met gerichte biopten voor histologisch onderzoek.
+Ryan 2000 
+(
+5
+); Ferenschild 2005 
+(
+7
+); Butler 2005 
+(
+8
+); Goh 2010 
+(
+10
+); Day 2011 
+(
+2
+); Tarantino 2002 
+(
+4
+) 
+Samenvatting literatuur
+Ondanks de uitstekende resultaten van chemoradiotherapie voor het anuscarcinoom reageren niet alle
+patiënten op deze behandeling. Vooral patiënten die persisterend pijnklachten houden na
+chemoradiotherapie verdienen extra aandacht. De respons na chemoradiotherapie is meestal vrij snel
+zichtbaar, maar kan nog tot 6 à 8 weken na einde behandeling optreden. Indien echter na 8 à 10 weken bij
+lichamelijk onderzoek verdenking is op residuele ziekte dan dient er een onderzoek onder narcose met het
+nemen van gerichte biopten te gebeuren. Indien dit bij histologisch onderzoek aanwijzingen geeft voor vitale
+tumorcellen, is een restadiëring noodzakelijk (CT, MRI, PET en mogelijk EAUS). MRI na chemoradiotherapie
+kan behulpzaam zijn voor het vaststellen van residuele ziekte. In een studie van 35 patiënten bleek een goede
+correlatie te bestaan tussen de bevindingen van follow-up MRI na chemoradiotherapie met het klinisch
+beloop 
+(
+1
+). FDG PET/CT na chemoradiatie lijkt een voorspellende waarde te hebben voor de ziektevrije en
+totale overleving. In een studie met 38 patiënten was de 2-jaars progressievrije overleving bij metabole
+complete response 95%, terwijl deze bij metabole partiële respons slechts 71% en bij progressie 0% was 
+(
+2
+).
+De waarde van EAUS in de follow-up is controversieel 
+(
+3
+). Het echografisch beeld kan tot 16-20 weken na
+chemoradiotherapie verstoord worden door oedeem en littekenvorming. Eén studie suggereert enige
+superioriteit van EAUS boven het lichamelijk onderzoek in het vaststellen van een locaal recidief 
+(
+4
+).
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+69
+/
+78
+Residuele ziekte treedt bij ongeveer 10-15% van de patiënten op die met chemoradiotherapie zijn
+behandeld. Bij lokaal uitgebreid anuscarcinoom is dit percentage zelfs beduidend hoger 
+(
+5
+). Daarnaast zijn er
+ook patiënten die gedurende de follow-up een lokaal recidief krijgen, zonder tekenen van metastasen op
+afstand. Dit komt bij ongeveer 15-20% van de patiënten voor na (chemo)radiatie therapie. Zelden wordt er
+gekozen voor re-irradiatie in combinatie met chemotherapie. De ervaring hiermee is dus beperkt en slechts
+bij een minderheid van de patiënten succesvol 
+(
+6
+). De enige in opzet curatieve behandeling voor een locaal
+recidief of residuele ziekte is een abdominoperineale resectie 
+(
+7
+). De mediane overleving na deze ingreep
+varieert van 20 tot 35 maanden en de 5-jaars overleving bedraagt 25-50%.
+Een radicale resectie van het lokaal recidief/residu is uiterst belangrijk, omdat de kans op recidief na niet-
+radicale resectie vrijwel 100% is. In geval van een niet-radicale resectie is aanvullende behandeling zoals
+bijvoorbeeld intraoperatieve radiotherapie niet zinvol gebleken 
+(
+8
+). Preoperatieve beeldvorming is daarom
+essentieel om patiënten te identificeren die radicaal kunnen geopereerd worden.
+Indien er wordt overgegaan tot een abdominoperineale resectie moet specifiek aandacht worden besteed
+aan de perineale wond. Door de eerdere hoge dosis radiotherapie ervaart een groot deel van de patiënten
+ernstige wondgenezingstoornissen na deze ingreep. De ervaringen met een reconstructie van het perineum
+met behulp van een Verticale Rectus Abdominus Myocutane (VRAM) transpositie zijn veelbelovend en lijken
+beter dan met een gesteelde omentale flapreconstructie 
+(
+8
+)  (
+7
+)  (
+9
+).
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Glynne-Jones R, Northover JMA, Cervantes A. Anal cancer: ESMO clinical practice guidelines for diagnosis, treatment and
+follow-up. 
+Ann Oncology 2010, 21, 87-92.
+2
+ - Day FL, Link E, Ngan S, Leong T, Moodie K, Lynch C, Michael M, de Winton E, Hogg A, Hicks RJ, Heriot A. FDG-PET
+metabolic response predicts outcomes in anal cancer managed with chemotherapy. 
+Brit J Cancer 2011:105, 498-504
+.
+3
+ - Parikh J, Shaw A, Grant LA, Schizas AM, Datta V, Williams AB, et al. Anal carcinomas: the role of endoanal ultrasound and
+magnetic resonance imaging in staging, response evaluation and follow-up. 
+Eur Radiol. 2011; 21: 776-85
+.
+4
+ - Tarantino D, Bernstein MA. Endoanal ultrasound in the staging and management of squamous-cell carcinoma of the anal
+canal: potential implications of a new ultrasound staging system. 
+Dis. Colon Rectum , 2002, 45, 16-22
+.
+5
+ - Ryan DP, Compton CC, Mayer RJ. Carcinoma of anal canal. 
+New Engl J Med. 2000, 342, 792-800
+.
+6
+ - Flam M, Madhu J, Pajak TF, Petrelli N, Myerson R, Doggett S, et al. Role of Mitomycin in combination with fluorouracil and
+Radiotherapy and of salvage chemoradiation in the definitive nonsurgical treatment of epidermoid carcinoma of the anal canal
+: results of a phase III randomized intergroup study. 
+J Clin Oncol 1996;14:2527-39
+.
+7
+ - Ferenschild FTJ, Vermaas M, Hofer SO, Verhoef C, Eggermont AMM, de Wilt JHW. Salvage abdominoperineal resection
+and perineal wound healing in local recurrent or persistent anal cancer. 
+World J Surg 2005; 29: 1452-7
+8
+ - Butler CE, Rodriguez-Bigas MA. Plevic reconstruction after abdominoperineal resection: is it worthwhile? 
+Ann Surg Oncol
+2005 ; 12 :91-4.
+9
+ - Lefevre JH, Parc Y, Kernéis S, Shields C, Touboul E, Chaouat M, Tiret E. Abdomino-perineal resection for anal carcinoma:
+impact of a vertical rectus abdominis myocutaneous flap on survival, recurrence, morbidity, and wound healing. 
+Ann Surg,
+2009, 250: 707-711.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+70
+/
+78
+1
+0 - Goh V, Gollub FK, Liaw J, Wellsted D, Przybytniak I, Padhani AR, et al. Magnetic resonance imaging assessment of
+squamous cell carcinoma of the anal canal before and after chemoradiation: can MRI predict for eventual clinical outcome? 
+Int
+J Radiat Oncol Biol Phys. 2010 Nov 1;78(3):715-21. Epub 2010 Feb 18.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+71
+/
+78
+Anuscarcinoom - Behandeling locaal/regionaal recidief - Therapie regionaal recidief
+Uitgangsvraag
+Wat zijn de therapeutische mogelijkheden bij patiënten met een regionaal recidief anuscarcinoom?
+Aanbeveling
+De werkgroep is van mening dat bij een geïsoleerd recidief in de lies een therapeutische lymfeklierdissectie
+dient te worden uitgevoerd. Hierbij is het gebruik van een sartoriusplastiek sterk aan te bevelen, gezien deze
+regio vaak eerder is bestraald of postoperatief bestraald dient te worden. Deze behandeling dient bij
+voorkeur in een centrum met voldoende ervaring te gebeuren.
+Overwegingen
+Het aantal studies over regionaal recidief anuscarcinoom is zeer beperkt en de beschikbare studies zijn klein
+in omvang. De therapeutische opties dienen multidisciplinair besproken te worden en bij voorkeur in een
+centrum met voldoende ervaring.
+Onderbouwing
+Conclusies
+De prognose van patiënten met regionaal klierrecidief is ongunstig. Er zijn aanwijzingen dat een
+therapeutische lymfeklierdissectie zinvol is bij een geïsoleerd liesklierrecidief, eventueel gevolgd door
+postoperatieve radiotherapie op deze klierregio, indien niet eerder bestraald.
+Matthews 2011 
+(
+1
+); Gerard 2001 
+(
+2
+); Akbari 2004 
+(
+3
+); Eeson 2011 
+(
+4
+); Wright 2011 
+(
+5
+)
+Samenvatting literatuur
+De beschikbare literatuur is zeer beperkt en haast altijd retrospectief. De enige prospectieve studie is een
+fase II onderzoek van de Trans Tasman Radiation Oncology Group (TROG) (
+1
+) (zie module Doelvolume,
+techniek en dosis). In deze studie zijn 40 patiënten met T1-2 N0 tumoren van het anale kanaal enkel lokaal
+bestraald zonder de liesklieren. De werkhypothese was dat de kans op microscopische lymfekliermetastasen
+bij aanvang van de behandeling minder dan 5% zou zijn. Na een gemiddelde follow-up van 8 maanden
+ontwikkelden 9 patiënten (22,5%) een liesklier recidief, waarvan 6 (12,5%) geïsoleerd. Om deze reden werd
+de studie voortijdig gestopt. Vier van deze 6 patiënten overleden uiteindelijk door tumorprogressie, ondanks
+een salvage liesklierexcisie (
+1
+). In 2001 is een retrospectieve serie van 19 patiënten beschreven met
+metachrone lymfekliermetastasen, zonder voorafgaande radiotherapie op de inguinale lymfeklierstations (
+2
+).
+Bij 15 patiënten werd een inguinale lymfeklierdissectie (ILKD) verricht met aanvullende radiotherapie en bij 4
+patiënten werd alleen radiotherapie gegeven. Lokale controle werd bij 68% bereikt. De 5-jaars overleving
+bedroeg 41%. Akbari et al. beschrijven een kleine serie van 5 patiënten met klierrecidieven na voorafgaande
+radiotherapie op de lymfeklierstations (
+3
+). Na een ILKD zijn 3 van de 5 patiënten in leven en ziektevrij; 1
+patiënt is in leven met een lokaal klierrecidief en 1 patiënt is overleden ten gevolge van gemetastaseerde
+ziekte. Eeson et al. beschrijven 6 patiënten met metachrone lymfekliermetastasen, waarvan 4 na voorgaande
+radiotherapie op de lymfeklierstations (
+4
+). Na een ILKD zijn slechts 2 patiënten in leven ten tijde van laatste
+follow-up, waarvan slechts 1 ziektevrij. Wright et al beschrijven patiënten met een locoregionaal recidief na
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+72
+/
+78
+eerdere radiotherapie op de regionale klieren (
+5
+).Vier patiënten met een lokaal recidief en inguinale klieren
+werden niet behandeld en waren allen overleden.
+Vier patiënten met een geïsoleerd inguinaal recidief werden geopereerd met een ILKD en waren allen in
+leven. Er waren 2 patiënten met een iliacaal recidief waarvan bij 1 patiënt een pelviene klierdissectie werd
+verricht. Deze patiënt was nog in leven en de andere patiënt die geen klierdissectie onderging was
+overleden.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Referenties
+1
+ - Matthews JHL, Burmeister BH, Borg M, Capp AL, Joseph D, Thompson KM, et al. T1-2 anal carcinoma requires elective
+inguinal radiation treatment – the results of trans tasman radiation oncology group study TROG 99.02. 
+Radiother Oncol. 2011,
+98, 93-8.
+2
+ - Gerard JP, Chapet O, Samiei F, Morignat E, Isaac S, Paulin C, et al. Management of inguinal lymph node metastases in
+patients with carcinoma of the anal canal: experience in a series of 270 patients treated in Lyon and review of the literature.
+Cancer 2001; 92: 77-84.
+3
+ - Akbari RP, Paty PB, Guillem JG, Weiser MR, Temple LK, Minsky BD, et al. Oncologic outcomes of salvage surgery for
+epidermoid carcinoma of the anus initially managed with combined modality therapy. 
+Dis Colon Rectum 2004; 47: 1136-44
+.
+4
+ - Eeson G, Foo M, Harrow S, McGregor G, Hay J. Outcomes of salvage surgery for epidermoid carcinoma of the anus
+following failed combined modality treatment. 
+Am J Surg 2011:201: 628-33
+.
+5
+ - Wright JL, Gollub MJ, Weiser MR, Saltz LB, Wong WD, Paty PB, et al: Surgery and high-dose-rate intraoperative radiation
+therapy for recurrent squamous-cell carcinoma of the anal canal. Dis Colon Rectum 2011; 54:1090-7.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+73
+/
+78
+Anuscarcinoom - Organisatie van zorg
+Uitgangsvraag
+Wat is de maximale doorlooptijd tussen het tijdstip van diagnose en start behandeling van anuscarcinoom?
+Aanbeveling
+Er is door de beroeps- en wetenschappelijke verenigingen nog geen maximale doorstroomtijd vastgesteld
+voor het anuscarcinoom. De werkgroep is van mening dat voor het invasief anuscarcinoom de doorstroomtijd
+tussen het vaststellen van de diagnose en de start van de behandeling, zo kort mogelijk en maximaal 6 weken
+dient te zijn. Indien de beroeps- en wetenschappelijke verenigingen te zijner tijd met een ander advies in
+deze komen, zal de aanbeveling van de werkgroep worden aangepast bij de eerstvolgende update van de
+richtlijn.
+Onderbouwing
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+74
+/
+78
+Anuscarcinoom - Palliatieve zorg
+In de palliatieve fase kan het detecteren van behoefte aan psychosociale zorg en het zo nodig verlenen van
+psychosociale zorg de kwaliteit van leven (ook doen) verbeteren. In de richtlijn 
+Detecteren behoefte
+psychosociale zorg
+ [NVPO 2009] wordt een signaleringsinstrument (de Lastmeter) aanbevolen. Voor richtlijnen
+palliatieve zorg zie de website 
+www.pallialine.nl
+ waar multidisciplinaire richtlijnen te raadplegen zijn.
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+75
+/
+78
+Anuscarcinoom - TNM classificatie
+Uitgangsvraag
+Wwelke TNM classificatie wordt ergebruikt bij de stadiëring van anuscarcinoom?
+Aanbeveling
+The anal canal extends from the rectum to the perianal skin (to the junction with hair-bearing skin). It is lined
+by the mucous membrane overlying the internal sphincter, including the transitional epithelium and dentate
+line. Tumours of the anal margin are classified with skin tumours.
+ 
+T - Primary Tumour
+TX
+Primary tumour cannot be assessed
+T0
+No evidence of primary tumour
+Tis
+Carcinoma in situ, Bowen disease, High-grade Squamous Intraepithelial Lesion (HSIL), Anal
+Intraepithelial Neoplasia II-III (AIN II-III)
+T1
+Tumour 2cm or less in greatest dimension
+T2
+Tumour more than 2 cm but no more than 5 cm in greatest dimension
+T3
+Tumour more than 5 cm in greatest dimension
+T4
+Tumour of any size invades adjacent organ(s), e.g., vagina, urethra, bladder
+ 
+N - Regional Lymph Nodes
+NX
+Regional lymph nodes cannot be assessed
+N0
+No regional lymcph node metastasis
+N1
+Metastasis in perirectal lymph node(s)
+N2
+Metastasis in unilateral internal iliac and/or unilateral inguinal lymph node(s)
+N3              
+Metastasis in perirectal and inguinal lymph nodes and/or bilateral internal iliac and/or Bilateral
+inguinal lymph nodes
+ 
+M - Distant Metastasis
+M0
+No distant metastasis
+M1
+Distant metastasis
+ Direct invasion of the rectal wall, perianal skin subcutaneous tissue, of the sphincter muscle(s) alone is not
+classified as T4.
+Onderbouwing
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+1)
+1)
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+76
+/
+78
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+77
+/
+78
+Anuscarcinoom - Samenvatting
+Van de richtlijn bestaat een samenvattingskaartje. Deze u kunt bekijken en bestellen op 
+iknl.nl
+Verantwoording
+Laatst beoordeeld
+ : 13-11-2012
+Laatst geautoriseerd
+ : 13-11-2012
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Richtlijnendatabase.
+Anuscarcinoom
+PDF aangemaakt op 
+23-01-2025
+78
+/
+78
