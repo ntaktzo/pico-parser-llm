@@ -21,10 +21,10 @@
         "P": "192 men with metastatic castration-resistant prostate cancer.",
         "I": "Risk-adapted combinations of androgen signaling inhibitors including abiraterone acetate, prednisone, apalutamide, and carboplatin + cabazitaxel.",
         "C": "Not mentioned.",
-        "O": "Median overall survival varied among treatment modules; adding ipilimumab did not improve outcomes."
+        "O": "Median overall survival varied by treatment module; adding ipilimumab did not improve outcomes."
     },
     "38663168": {
-        "P": "Patients with triple-negative breast cancer (TNBC) or luminal B/HER2-negative breast cancer, randomized in the GENEVIEVE study.",
+        "P": "Patients with triple-negative breast cancer (TNBC) or luminal B/HER2-negative breast cancer, specifically those with cT2-3, any cN or cT1, cN+/pN(SLN)+.",
         "I": "Neoadjuvant treatment with cabazitaxel versus paclitaxel.",
         "C": "Paclitaxel.",
         "O": "No significant differences in invasive disease-free survival (iDFS), distant disease-free survival (DDFS), or overall survival (OS) between cabazitaxel and paclitaxel after long-term follow-up."
@@ -33,60 +33,60 @@
         "P": "Men with metastatic castration-resistant prostate cancer progressing after docetaxel.",
         "I": "Treatment with [(177)Lu]Lu-PSMA-617.",
         "C": "Treatment with cabazitaxel.",
-        "O": "Overall survival was similar between the two groups, with RMST of 19.1 months for [(177)Lu]Lu-PSMA-617 and 19.6 months for cabazitaxel."
+        "O": "Overall survival was similar between the two groups, with median overall survival of 19.1 months for [(177)Lu]Lu-PSMA-617 and 19.6 months for cabazitaxel."
     },
     "38043558": {
         "P": "Men with metastatic castration-resistant prostate cancer progressing after docetaxel.",
         "I": "Treatment with [(177)Lu]Lu-PSMA-617.",
         "C": "Treatment with cabazitaxel.",
-        "O": "Overall survival was similar between the two groups, with RMST of 19.1 months for [(177)Lu]Lu-PSMA-617 and 19.6 months for cabazitaxel."
+        "O": "Overall survival was similar between the two groups, with median overall survival of 19.1 months for [(177)Lu]Lu-PSMA-617 and 19.6 months for cabazitaxel."
     },
     "37582240": {
         "P": "Men with metastatic castration-resistant prostate cancer (mCRPC).",
         "I": "Abiraterone acetate with cabazitaxel (AAP + C).",
         "C": "Abiraterone acetate alone (AAP).",
-        "O": "AAP + C showed improved radiographic progression-free survival (rPFS) of 14.8 months and overall survival (OS) of 24.5 months compared to AAP with rPFS of 6.4 months and OS of 18.3 months."
+        "O": "AAP + C showed improved radiographic progression-free survival (14.8 months) and overall survival (24.5 months) compared to AAP alone (6.4 months rPFS and 18.3 months OS)."
     },
     "37439809": {
         "P": "Patients with clinically localized, D'Amico high-risk prostate cancer.",
-        "I": "Neoadjuvant abiraterone acetate plus leuprolide acetate with or without cabazitaxel.",
-        "C": "Neoadjuvant abiraterone acetate plus leuprolide acetate without cabazitaxel.",
-        "O": "No significant difference in pathologic complete response (pCR) or minimal residual disease (MRD) between the two arms; pCR/MRD occurred in 43.2% vs. 45.5%."
+        "I": "Neoadjuvant abiraterone acetate and leuprolide acetate with cabazitaxel.",
+        "C": "Neoadjuvant abiraterone acetate and leuprolide acetate without cabazitaxel.",
+        "O": "No significant difference in pathologic complete response/minimal residual disease between the two arms (43.2% vs. 45.5%)."
     },
     "36917691": {
         "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC).",
         "I": "Cabazitaxel therapeutic drug monitoring.",
         "C": "Conventional dosing of cabazitaxel at 25 mg/m2.",
-        "O": "Pharmacokinetic-guided dosing improved median overall survival to 16.2 months compared to 7.3 months in the conventional arm."
+        "O": "Pharmacokinetic-guided dosing improved median overall survival (16.2 months vs. 7.3 months) and progression-free survival (9.5 months vs. 4.4 months) compared to conventional dosing."
     },
     "36753698": {
-        "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) who had nonprogressive disease after taxane chemotherapy.",
+        "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) who had nonprogressive disease after taxane treatment.",
         "I": "Darolutamide 600 mg twice a day.",
         "C": "Placebo twice a day.",
         "O": "Significantly improved radiographic progression-free survival (rPFS) at 12 weeks, median rPFS of 5.5 months on darolutamide vs 4.5 months on placebo, and improved PSA 50% response rate (22% vs 4%)."
     },
     "36692012": {
         "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC).",
-        "I": "Combination therapies including AKT inhibitors or PARP inhibitors added to abiraterone, and olaparib for patients with BRCA1, BRCA2, or ATM alterations.",
+        "I": "Combination therapies including AKT inhibitors or PARP inhibitors with abiraterone, and olaparib for patients with BRCA1, BRCA2, or ATM alterations.",
         "C": "Not mentioned.",
-        "O": "Improved radiographical progression-free survival but no overall survival improvement in first-line settings; olaparib improved OS in specific genetic alterations."
+        "O": "Improved oncologic outcomes such as radiographical progression-free survival, but no overall survival improvement in first-line settings."
     },
     "36407784": {
-        "P": "Asian patients with advanced/metastatic prostate cancer.",
+        "P": "Asian patients with advanced/metastatic prostate cancer, including nonmetastatic castration-resistant PC, metastatic castration-sensitive PC, and metastatic castration-resistant PC.",
         "I": "Various therapies including abiraterone acetate plus prednisone, enzalutamide, lutetium-177 PSMA, docetaxel, apalutamide, radium-223, darolutamide, and cabazitaxel.",
         "C": "Not mentioned.",
-        "O": "Clinical benefits of several treatments in terms of overall, disease-free, and metastasis-free survival; treatments were well tolerated with no new safety signals."
+        "O": "Clinical benefits of several treatments in terms of overall, disease-free, and metastasis-free survival, with good tolerability and no new safety signals identified."
     },
     "36261050": {
         "P": "Men with metastatic castration-resistant prostate cancer after treatment with docetaxel.",
-        "I": "[(177)Lu]Lu-PSMA-617.",
+        "I": "[(177)Lu]Lu-PSMA-617 or cabazitaxel.",
         "C": "Cabazitaxel.",
         "O": "Higher PSA response rate for [(177)Lu]Lu-PSMA-617 compared to cabazitaxel, with PSMA-PET SUVmean predictive of response."
     },
     "36194950": {
         "P": "HER2-negative metastatic breast cancer patients.",
-        "I": "Three-weekly cabazitaxel (25 mg/m\u00b2) for 6 cycles.",
-        "C": "Weekly paclitaxel (80 mg/m\u00b2) over 18 weeks.",
+        "I": "Three-weekly cabazitaxel (25 mg/m\u00b2) or weekly paclitaxel (80 mg/m\u00b2).",
+        "C": "Weekly paclitaxel.",
         "O": "No significant difference in median progression-free survival or overall survival, but cabazitaxel had a lower risk of peripheral neuropathy and better quality of life outcomes."
     },
     "36126602": {
@@ -99,7 +99,7 @@
         "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) who received prior docetaxel and progressed on alternative androgen-receptor-targeted agents",
         "I": "Cabazitaxel treatment",
         "C": "Not mentioned",
-        "O": "Comparison of characteristics and treatment patterns with the CARD population; similar duration of response to cabazitaxel in real-world population"
+        "O": "Comparison of characteristics and treatment patterns with the CARD population; similar duration of response to cabazitaxel in real-world data"
     },
     "34789394": {
         "P": "Chemotherapy-naive men with metastatic castration-resistant prostate cancer (mCRPC)",
@@ -111,19 +111,19 @@
         "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) previously treated with docetaxel and alternative androgen-receptor-targeted agents",
         "I": "Cabazitaxel versus abiraterone or enzalutamide",
         "C": "Abiraterone or enzalutamide",
-        "O": "High baseline neutrophil-to-lymphocyte ratio predicts poor outcomes with ARTA; cabazitaxel's activity retained irrespective of NLR"
+        "O": "High baseline neutrophil-to-lymphocyte ratio predicts poor outcomes with ARTA; cabazitaxel's efficacy is retained irrespective of NLR"
     },
     "34405748": {
         "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC)",
         "I": "Lutetium-177-prostate-specific membrane antigen ((177)Lu-PSMA) radioligand therapy",
         "C": "Cabazitaxel",
-        "O": "Improved prostate-specific antigen response rate and fewer grade 3/4 adverse events with (177)Lu-PSMA compared to cabazitaxel"
+        "O": "Improved prostate-specific antigen response rate and fewer grade 3/4 adverse events compared to cabazitaxel"
     },
     "34274136": {
-        "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) who had previously received docetaxel and progressed within 12 months on the alternative agent (abiraterone/enzalutamide); 135 patients aged 70 years or older (median age 76 years) and younger patients.",
-        "I": "Cabazitaxel (25 mg/m2 plus prednisone and granulocyte colony-stimulating factor).",
+        "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC), including 135 patients aged \u226570 years (median age 76 years) and younger patients.",
+        "I": "Cabazitaxel (25 mg/m\u00b2 plus prednisone and granulocyte colony-stimulating factor).",
         "C": "Abiraterone (1000 mg plus prednisone) or enzalutamide (160 mg).",
-        "O": "Cabazitaxel significantly improved median radiographic progression-free survival (8.2 vs 4.5 months) and overall survival (13.9 vs 9.4 months) in older patients compared to abiraterone/enzalutamide."
+        "O": "Cabazitaxel significantly improved median radiographic progression-free survival (rPFS) and overall survival (OS) compared to abiraterone/enzalutamide in both older and younger patients."
     },
     "34103179": {
         "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) participating in two prospective phase 3 trials (FIRSTANA and PROSELICA).",
@@ -133,39 +133,39 @@
     },
     "34028551": {
         "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC).",
-        "I": "Olaparib and cabazitaxel.",
-        "C": "Not mentioned.",
+        "I": "Olaparib.",
+        "C": "Cabazitaxel.",
         "O": "Comparative effectiveness research comparing survival endpoints and response rates between olaparib and cabazitaxel."
     },
     "33836265": {
-        "P": "Patients with androgen receptor pathway inhibitor (ARPI)-naive metastatic castration-resistant prostate cancer (mCRPC) with poor prognosis features.",
+        "P": "Patients with androgen receptor pathway inhibitor (ARPI)-naive metastatic castration-resistant prostate cancer (mCRPC) and poor prognosis features.",
         "I": "Cabazitaxel plus prednisone.",
         "C": "Physician's choice of enzalutamide or abiraterone plus prednisone.",
-        "O": "Cabazitaxel was associated with a higher clinical benefit rate (80% vs 62%) and a median overall survival of 37.0 months compared to 15.5 months for the comparator group."
+        "O": "Cabazitaxel was associated with a higher clinical benefit rate (80% vs 62%) and had a median overall survival of 37.0 months compared to 15.5 months for the comparator group."
     },
     "33625671": {
         "P": "Patients with advanced prostate cancer.",
         "I": "Not mentioned.",
         "C": "Not mentioned.",
-        "O": "Guidelines for the treatment of advanced prostate cancer, including recommendations for tumor testing and treatment strategies."
+        "O": "Guidelines for the treatment of advanced prostate cancer, emphasizing the importance of molecular research and new drug development."
     },
     "33581798": {
         "P": "Men with metastatic castration-resistant prostate cancer, requiring cabazitaxel as the next appropriate standard treatment, with adequate renal, haematological, and liver function, and an Eastern Cooperative Oncology Group performance status of 0-2.",
         "I": "Lutetium-177 [(177)Lu]Lu-PSMA-617 administered intravenously every 6 weeks for up to six cycles.",
         "C": "Cabazitaxel administered intravenously every 3 weeks for up to ten cycles.",
-        "O": "Higher prostate-specific antigen (PSA) response in the [(177)Lu]Lu-PSMA-617 group (66%) compared to the cabazitaxel group (37%), and fewer grade 3-4 adverse events in the [(177)Lu]Lu-PSMA-617 group (33%) compared to cabazitaxel (53%)."
+        "O": "Higher prostate-specific antigen (PSA) response in the [(177)Lu]Lu-PSMA-617 group (66%) compared to the cabazitaxel group (37%), and fewer grade 3-4 adverse events in the [(177)Lu]Lu-PSMA-617 group (33%) compared to the cabazitaxel group (53%)."
     },
     "32968994": {
-        "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) previously treated with docetaxel and an anti-androgen receptor therapy (ARTA).",
-        "I": "Cabazitaxel as a further treatment option.",
+        "P": "Patients with metastatic castration-resistant prostate cancer (mCRPC) who were previously treated with docetaxel and an anti-androgen receptor therapy (ARTA).",
+        "I": "Cabazitaxel treatment.",
         "C": "A second ARTA therapy.",
         "O": "Significant efficacy benefits in favor of cabazitaxel compared to a second ARTA therapy."
     },
     "32926841": {
-        "P": "Patients aged >/=18 years with confirmed metastatic castration-resistant prostate cancer, Eastern Cooperative Oncology Group (ECOG) performance status </=2, previously treated with docetaxel and an alternative androgen signalling-targeted inhibitor.",
-        "I": "Cabazitaxel (25 mg/m\u00b2 intravenously every 3 weeks) versus abiraterone (1000 mg orally once daily plus 5 mg prednisone twice daily) or enzalutamide (160 mg orally daily).",
+        "P": "Patients aged \u226518 years with confirmed metastatic castration-resistant prostate cancer, Eastern Cooperative Oncology Group (ECOG) performance status \u22642, previously treated with docetaxel and an alternative androgen signalling-targeted inhibitor.",
+        "I": "Cabazitaxel (25 mg/m\u00b2 intravenously every 3 weeks) plus prednisone and granulocyte colony-stimulating factor.",
         "C": "Abiraterone or enzalutamide.",
-        "O": "Cabazitaxel improved pain response, time to pain progression, time to symptomatic skeletal events, and EQ-5D-5L utility index compared to abiraterone or enzalutamide."
+        "O": "Improved pain response, time to pain progression, and quality of life (EQ-5D-5L utility index) with cabazitaxel compared to abiraterone or enzalutamide."
     },
     "32878814": {
         "P": "Twenty-six patients with chemotherapy-resistant epithelial ovarian cancer, fallopian tube, or peritoneal cancer.",
@@ -174,9 +174,9 @@
         "O": "54% of patients were alive and without progression after 3 months; response rate was 46% according to CA125 criteria."
     },
     "32380503": {
-        "P": "Patients with metastatic prostate cancer who previously showed sensitivity to docetaxel.",
+        "P": "Patients with metastatic prostate cancer who initially responded to docetaxel and maintained a minimum progression-free interval of 3-6 months.",
         "I": "Docetaxel rechallenge.",
         "C": "Not mentioned.",
-        "O": "Docetaxel rechallenge may be effective in patients who initially responded to docetaxel and maintained a progression-free interval exceeding 6 months."
+        "O": "Potential effectiveness of docetaxel rechallenge in patients who initially responded to docetaxel."
     }
 }
