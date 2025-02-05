@@ -1,18 +1,17 @@
 ##### 0. PRELIMINARIES
+# Standard library imports
 import sys
 import os
-from openai import OpenAI
-import json
-from PyPDF2 import PdfReader
 
 # Add the project directory to sys.path to ensure function imports
 project_dir = os.getcwd() # Get the current working directory (project root)
 if project_dir not in sys.path: 
     sys.path.append(project_dir)
 
-# Import functions
-from preprocess.extract import fetch_pubmed_articles
-from preprocess.process_pdf import extract_text_from_pdf
+# LLM related imports
+from openai import OpenAI
+
+# Local imports
 from preprocess.process_pdf import process_pdfs
 
 from llm.open_ai import count_tokens
@@ -20,11 +19,16 @@ from llm.open_ai import validate_api_key
 from llm.open_ai import create_batched_prompts
 from llm.open_ai import query_gpt_api_batched
 
+from preprocess.vectorization import chuncker
+from preprocess.vectorization import create_vectorstore
+from preprocess.vectorization import visualize_vectorstore
+
+
+# Visualization
+
 
 ##### 1. DEFINE PARAMETERS
 # For pubmed extraction
-retmax = 30  # Maximum number of articles to retrieve.
-email = "bjboverhof@gmail.com" # Email to use for PubMed API requests.
 message = validate_api_key() # Read in, and validate the OpenAI API key.
 print(message) # Print the validation message.
 
@@ -33,35 +37,99 @@ openai = OpenAI()
 model = "gpt-4o-mini"  # Replace with your model
 
 
-##### 2. DATA PREPERATION
-input_directory = "data/PDF"  # Replace with your actual input directory path
-output_directory = "data/text"  # Replace with your desired output directory
-
-process_pdfs(input_directory, output_directory)
+##### 2. PDF PROCESSING
+#process_pdfs("data/PDF", "data/text")
 
 
+### 3. CHUNKING
+chunks = chuncker(base_path = "data/text/*/*", chunck_size = 3000, chunck_overlap = 300)
 
 
-##### 3. CREATE SYSTEM PROMPT & BATCHED USER PROMPTS
-# Define the system prompt
-system_prompt = (
-    "You are an assistant that analyzes the contents of PubMed abstracts and provides the PICO elements of each specific study. "
-    "For each abstract, identify and extract the following components:\n"
-    "- **P (Population/Patients)**: Describe the participants and their characteristics.\n"
-    "- **I (Intervention)**: The main intervention, treatment, or exposure.\n"
-    "- **C (Comparator)**: The control condition or comparison group; if none, state 'Not mentioned'.\n"
-    "- **O (Outcome)**: The measured results, endpoints, or key findings relevant to the study.\n\n"
-    "Return the extracted PICO elements in plain JSON format, where each PMID is a key, and its value is an object containing the PICO details. "
-    "If a component is not mentioned or unclear, use 'Not mentioned'. Do not include any Markdown or code block formatting in your response. Ensure the JSON is well-structured and adheres to proper syntax."
+### 4. VECTORSTORE
+# Create the vectorstore    
+vectorstore = create_vectorstore(chunks)
+
+# Visualize the vectorstore
+visualize_vectorstore(vectorstore._collection)
+
+
+
+### 5. QUERY LLM
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import ConversationalRetrievalChain
+from langchain.llms import OpenAI
+from langchain.vectorstores import Chroma
+from langchain.chains import RetrievalQA
+from langchain.prompts import PromptTemplate
+
+# --- Custom System Prompt ---
+system_prompt_1 = (
+    "You are a highly experienced clinical information extraction expert. You have been provided with chunks "
+    "of clinical guidelines on lung cancer from various European countries in different languages. Your task is "
+    "to extract all medicines and treatments that can be considered relevant comparators for an HTA study, as well as "
+    "the corresponding populations for which these treatments may be used. \n\n"
+    "Please provide your answer in a structured format, listing each extracted medicine or treatment and the associated "
+    "population details (e.g., age group, disease stage, other eligibility criteria) if available. "
+    "If no specific population details are mentioned for a treatment, note that explicitly. \n\n"
+    "Your output should not contain any additional commentary or explanation—just the structured list. "
+    "Focus on precision and ensure that you capture all relevant details."
 )
 
-# Create batched user prompts 
-batched_prompts = create_batched_prompts(articles, batch_size=5)
+
+# --- Wrap the system prompt in a LangChain PromptTemplate ---
+# (Note: Depending on your version, you may need to adjust how prompts are passed into the chain.)
+prompt_template = PromptTemplate(
+    input_variables=["context", "question"],
+    template=system_prompt_1 + "\n\nContext:\n{context}\n\nQuestion:\n{question}"
+)
+
+# --- Function to run the extraction using RAG ---
+def run_extraction(query, vectorstore, prompt_template):
+    # Initialize the language model with your chosen model (e.g., "gpt-4o-mini")
+    llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0)
+
+    # Create a retriever from the vector store
+    retriever = vectorstore.as_retriever()
+
+    # Set up the RetrievalQA chain using the "stuff" chain type, which concatenates all retrieved docs
+    qa_chain = RetrievalQA.from_chain_type(
+        llm=llm,
+        chain_type="stuff",
+        retriever=retriever,
+        chain_type_kwargs={'prompt': prompt_template}
+    )
+    
+    # Run the query and return the result
+    result = qa_chain.run(query)
+    return result
+
+# --- Main code block ---
+# For demonstration, assume that you have already created 'chunks'
+# If you haven't, load or generate your document chunks here.
+# Example: chunks = load_your_chunks_function()
+
+# If vectorstore has already been created and persisted, you can load it:
+embeddings = OpenAIEmbeddings()
+vectorstore = Chroma(persist_directory="vector_db", embedding_function=embeddings)
+
+# Define your query
+query = (
+    "Extract all medicines/treatments that can be considered relevant comparators for an HTA study "
+    "and specify the corresponding patient population for which these treatments are intended."
+)
+
+# Run the extraction
+extraction_result = run_extraction(query, vectorstore, prompt_template)
+
+# Print the results
+print("Extraction result:")
+print(extraction_result)
 
 
-##### 4. QUERY THE OPENAI API
-results = query_gpt_api_batched(batched_prompts, system_prompt, model)
 
 
-with open('./results/result.json', 'w') as f:
-    json.dump(results, f, indent=4)
+
+
+
+
