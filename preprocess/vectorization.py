@@ -1,6 +1,7 @@
 import glob
 import os
 import numpy as np
+import shutil
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import DirectoryLoader, TextLoader
@@ -9,6 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 
 from sklearn.manifold import TSNE
 import plotly.graph_objects as go
+
 
 
 def load_documents(base_path):
@@ -43,7 +45,9 @@ def chuncker(base_path, chunck_size, chunck_overlap):
 
     # Use improved text splitter
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=chunck_size, chunk_overlap=chunck_overlap, separators=["\n", ".", "-", ","]
+        chunk_size=chunck_size, 
+        chunk_overlap=chunck_overlap, 
+        separators=["\n", ".", "-", ","]
     )
 
     # Apply chunking
@@ -63,18 +67,22 @@ def chuncker(base_path, chunck_size, chunck_overlap):
 
 
 def create_vectorstore(chunks, db_name="vector_db"):
+
+    # Ensure we have write permissions
+    if os.path.exists(db_name):
+        shutil.rmtree(db_name)  # Force delete previous DB
+
+    os.makedirs(db_name, exist_ok=True)
+
     # Embeddings
     embeddings = OpenAIEmbeddings()
-
-    # Delete if already exists
-    if os.path.exists(db_name):
-        Chroma(persist_directory=db_name, embedding_function=embeddings).delete_collection()
 
     # Create vectorstore
     vectorstore = Chroma.from_documents(documents=chunks, embedding=embeddings, persist_directory=db_name)
     print(f"Vectorstore created with {vectorstore._collection.count()} documents")
-    
+
     return vectorstore
+
 
 
 
