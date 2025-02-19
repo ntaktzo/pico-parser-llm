@@ -56,10 +56,14 @@ chunks = chuncker(
 
 ### 4. VECTORSTORE
 # Create OR load the vectorstore    
-#vector_store = create_vectorstore(chunks, db_name=db_name)
+vector_store = create_vectorstore(chunks, db_name=db_name)
+
+# load
+embeddings = OpenAIEmbeddings()
+vectorstore = Chroma(persist_directory=db_name, embedding_function=embeddings)
 
 # Visualize the vectorstore
-#visualize_vectorstore(vectorstore._collection)
+visualize_vectorstore(vectorstore._collection)
 
 
 ### 5. QUERY LLM
@@ -74,7 +78,7 @@ from langchain.prompts import PromptTemplate
 
 
 # --- Function to run the extraction using RAG ---
-def run_extraction_per_country(query, vectorstore, prompt_template, countries, k):
+def run_extraction_per_country(query, vector_store, prompt_template, countries, k):
     from langchain.chat_models import ChatOpenAI
     from langchain.chains import LLMChain
     from langchain.chains.combine_documents.stuff import StuffDocumentsChain
@@ -86,7 +90,7 @@ def run_extraction_per_country(query, vectorstore, prompt_template, countries, k
     
     for country in countries:
         # Each country gets its own retriever
-        retriever = vectorstore.as_retriever(
+        retriever = vector_store.as_retriever(
             search_kwargs={
                 "k": k,
                 "filter": {"country": country}
@@ -119,7 +123,7 @@ def run_extraction_per_country(query, vectorstore, prompt_template, countries, k
 # --- Updated System Prompt ---
 system_prompt_1 = (
     """
-    You are a highly experienced clinical information extraction expert. You have been provided with chunks of clinical guidelines on non-small cell lung cancer (NSCLC) from various European countries in different languages.Your task is to extract all medicines, treatments, and therapies that can be considered relevant comparators for an HTA study, along with the corresponding populations for which these treatments may be used, for each country.
+    You are a highly experienced clinical information extraction expert. You have been provided with chunks of clinical guidelines on non-small cell lung cancer with KRAS G12C mutuation from various European countries in different languages.Your task is to extract all medicines, treatments, and therapies that can be considered relevant comparators for an HTA study, along with the corresponding populations for which these treatments may be used, for each country.
 
     Your answer must be a single table in valid Markdown with three columns: “Country”, “Comparator”, and “Population details.” For country, write the country that is defined in the metadata of the document. For each comparator, create a separate row. If no population details are specified, write ‘No specific details provided.’ Use only the information in the provided context. Do not add extra commentary, explanations, or any text outside of the table. Be as complete as possible.
     """
@@ -134,14 +138,14 @@ prompt_template = PromptTemplate(
 # Define your query
 query = (
     """
-    Extract all relevant comparators for an HTA study on non-small cell lung cancer from each European country, along with patient population details. Present your findings as instructed, in a single Markdown table with columns for “Country”, “Comparator”, and “Population”
+    Extract all relevant comparators for an HTA study on non-small cell lung cancer with KRAS G12C mutuation for each European country, along with exact patient population details. Present your findings as instructed, in a single Markdown table with columns for “Country”, “Comparator”, and “Population”
     """
 )
 
 # Run the extraction for each country
 extraction_results = run_extraction_per_country(
     query=query,
-    vectorstore=vectorstore,
+    vector_store=vector_store,
     prompt_template=prompt_template,
     countries=["NL", "EN", "SE", "DE"],
     k=10
