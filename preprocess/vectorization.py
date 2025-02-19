@@ -91,7 +91,7 @@ def visualize_vectorstore(collection):
     vectors = np.array(result['embeddings'])
     documents = result['documents']
     doc_types = [metadata['country'] for metadata in result['metadatas']]
-    colors = [['blue', 'green', 'red', 'orange'][['SE', 'NL', 'DE', 'EN'].index(t)] for t in doc_types]
+    colors = [['blue', 'green', 'red', 'orange',"yellow"][['SE', 'NL', 'DE', 'EN', "EU"].index(t)] for t in doc_types]
 
     # Reduce the dimensionality of the vectors to 2D using t-SNE
     tsne = TSNE(n_components=2, random_state=42)

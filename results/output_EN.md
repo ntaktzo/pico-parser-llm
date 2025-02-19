@@ -1,7 +1,6 @@
 ```markdown
 | Country | Comparator | Population details |
 |---------|------------|--------------------|
-| UK      | Chemoradiotherapy with surgery | No specific details provided. |
-| UK      | Systemic anti-cancer therapy (SACT) | No specific details provided. |
-| UK      | Lung resection for lung cancer | No specific details provided. |
+| UK      | Sotorasib  | Previously treated KRAS G12C mutation-positive advanced non-small-cell lung cancer |
+| UK      | Chemotherapy | KRAS G12C mutation-positive locally advanced or metastatic NSCLC |
 ```
