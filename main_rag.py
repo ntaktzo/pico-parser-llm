@@ -12,17 +12,14 @@ if project_dir not in sys.path:
 from openai import OpenAI
 
 # Local imports
-from preprocess.process_pdf import process_pdfs
+from preprocess.process_pdf import PDFProcessor
+from preprocess.process_pdf import Translator
+from preprocess.vectorisation import Vectorisation
 
 from llm.open_ai import count_tokens
 from llm.open_ai import validate_api_key
 from llm.open_ai import create_batched_prompts
 from llm.open_ai import query_gpt_api_batched
-
-from preprocess.vectorization import load_documents
-from preprocess.vectorization import chuncker
-from preprocess.vectorization import create_vectorstore
-from preprocess.vectorization import visualize_vectorstore
 
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
@@ -39,18 +36,26 @@ embeddings = OpenAIEmbeddings()
 db_name = "vector_db"
 
 ##### 2. PDF PROCESSING
-#process_pdfs("data/PDF", "data/text")
+# Step 1. Extract text from pdfs
+input_pdf_dir = "data/PDF"  # Ensure this folder exists
+output_text_dir = "data/text"
+output_translated_dir = "data/text_translated"
 
+# Call the base function that processes all PDFs in the folder
+#PDFProcessor.process_pdfs(input_pdf_dir, output_text_dir)
 
+# Step 2. Translate text to English
+translator = Translator(output_text_dir, output_translated_dir)
+translator.translate_documents()
 
 
 ### 3. CHUNKING
-# Update the base_path so that you're capturing each country folder inside "lung_cancer"
-chunks = chuncker(
-    base_path = "data/text/*/*",  # e.g., data/text/lung_cancer/EN, data/text/lung_cancer/SE, etc.
-    chunck_size = 600,
-    chunck_overlap = 200
-)
+vectorisation = Vectorisation(base_path="data/text_translated/*/*")
+chunks = vectorisation.create_chunks()  # ✅ Correct
+vectorstore = vectorisation.create_vectorstore(chunks)
+
+# Optional: visualize vectorstore
+vectorisation.visualize_vectorstore(vectorstore)
 
 
 
