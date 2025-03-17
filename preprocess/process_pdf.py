@@ -7,6 +7,11 @@ from transformers import pipeline
 import torch
 import gc
 
+import pdfplumber
+import re
+import pandas as pd
+import os
+
 class PDFProcessor:
     def __init__(self, pdf_path):
         """
@@ -16,156 +21,147 @@ class PDFProcessor:
 
     def extract_text(self):
         """
-        Extracts text from the initialized PDF file using pdfplumber, 
-        with improved handling for layout issues and formatting.
+        Extracts text from the PDF file.
+        Single-column assumption.
+        1) Single pass pdfplumber extract.
+        2) Minimal disclaimers removal.
+        3) Flatten tables with explicit newlines.
+        4) Fix spacing and merge lines.
+        5) Remove references.
+        6) Chunk by headings + paragraphs.
         """
         try:
-            all_text = []
+            all_pages = []
+
             with pdfplumber.open(self.pdf_path) as pdf:
                 for page in pdf.pages:
-                    raw_text = page.extract_text(x_tolerance=2, y_tolerance=3)
-                    if raw_text:
-                        cleaned_text = self.remove_header_footer(raw_text)
-                        all_text.append(cleaned_text)
+                    raw_text = page.extract_text(x_tolerance=2, y_tolerance=2)
+                    if raw_text is None:
+                        raw_text = ""
 
-            text = "\n".join(all_text)
-            text = self.insert_heading_breaks(text)
-            text = self.fix_faulty_spacing(text)
-            text = self.merge_broken_lines(text)
-            text = self.remove_references(text)
+                    cleaned_page = self.remove_boilerplate(raw_text)
 
-            return text
+                    page_tables = page.extract_tables()
+                    tables_text = []
+                    if page_tables:
+                        for tbl in page_tables:
+                            tables_text.append(self.flatten_table(tbl))
 
+                    combined = cleaned_page.strip()
+                    if tables_text:
+                        combined += "\n\n" + "\n\n".join(tables_text)
+
+                    if combined.strip():
+                        all_pages.append(combined)
+
+            text = "\n".join(all_pages)
+
+            chunks = self.logical_chunking(text)
+
+            return chunks
         except Exception as e:
             print(f"Error reading {self.pdf_path}: {e}")
             return None
 
     @staticmethod
-    def remove_references(text):
-        """
-        Removes references commonly found in academic and medical texts.
-        """
-        text = re.sub(r"\[\s*[\w\s,.-]+\s*\]", "", text)
-        text = re.sub(r"\([A-Za-z,.\s]+\d{4}.*?\)", "", text)
-        text = re.sub(r"(?:^|\n)(References|Bibliography|Literature|Bibliografie|Referenties)\s*\n.*",
-                      "",
-                      text,
-                      flags=re.IGNORECASE | re.DOTALL)
-        text = re.sub(r"\s{2,}", " ", text)
-        return text
-
-    @staticmethod
-    def remove_header_footer(page_text):
-        """
-        Cleans up boilerplate headers and footers found in PDFs.
-        """
-        disclaimer_phrases = [
-            "© NICE", "All rights reserved", "Subject to Notice of rights",
-            "conditions#notice-of-rights", "Contents Overview",
-            "PDF aangemaakt op", "REGIONALA CANCERCENTRUM",
-            "© Leitlinienprogramm Onkologie", "Langversion", "März 2024",
-            "Richtlijnendatabase"
+    def remove_boilerplate(text):
+        disclaimers = [
+            "© NICE", "All rights reserved", "Subject to Notice", "Page ",
+            "REGIONALA CANCERCENTRUM", "Richtlijnendatabase"
         ]
-
-        lines = page_text.split("\n")
-        cleaned_lines = [line for line in lines if not (
-            re.match(r"^\s*\d+\s*$", line.strip()) or any(phrase in line for phrase in disclaimer_phrases)
-        )]
-        return "\n".join(cleaned_lines)
-
-    @staticmethod
-    def insert_heading_breaks(text):
-        """
-        Ensures headings are properly formatted with newlines.
-        """
-        text_with_markers = re.sub(
-            r"(?:(?<=\n)|^)(\d+\.\s[A-Z]+.*|[A-Z\s]+:)",
-            r"\n\1",
-            text
-        )
-
-        def add_newline_before_uppercase(m):
-            return "\n" + m.group(1)
-
-        text_with_markers = re.sub(
-            r"(?:(?<=\n)|^)([A-Z][A-Z\s]{2,})",
-            add_newline_before_uppercase,
-            text_with_markers
-        )
-        return text_with_markers
-
-    @staticmethod
-    def fix_faulty_spacing(text):
-        """
-        Fixes faulty spacing caused by line breaks and OCR issues.
-        """
-        text = re.sub(r"-\n", "", text)
-        text = re.sub(r"-\s+", "", text)
-        text = re.sub(r"([a-z])([A-Z])", r"\1 \2", text)
-        text = re.sub(r"(\d)([A-Za-z])", r"\1 \2", text)
-        text = re.sub(r"([A-Za-z])(\d)", r"\1 \2", text)
-        text = re.sub(r"([a-z]{2,})([A-Z][a-z]+)", r"\1 \2", text)
-        common_prefixes = r"\b(in|de|het|met|zonder|te|van|voor|op|aan|als|door|en|of|om|uit|over|bij)\b"
-        text = re.sub(r"(\w)" + common_prefixes, r"\1 \2", text)
-        return text
-
-    @staticmethod
-    def merge_broken_lines(text):
-        """
-        Merges unnecessarily broken lines while maintaining paragraph integrity.
-        """
         lines = text.split("\n")
-        merged_lines = []
-        buffer_line = ""
-
+        kept = []
         for line in lines:
-            line = line.strip()
-            if not line:
-                if buffer_line:
-                    merged_lines.append(buffer_line)
-                    buffer_line = ""
-                merged_lines.append("")
+            if not any(d.lower() in line.lower() for d in disclaimers):
+                kept.append(line)
+        return "\n".join(kept)
+
+    @staticmethod
+    def flatten_table(table):
+        flattened = []
+        for row in table:
+            cleaned_cells = [cell.strip() for cell in row if cell and cell.strip()]
+            if cleaned_cells:
+                row_text = " | ".join(cleaned_cells)
+                flattened.append(row_text)
+        return "\n".join(flattened)
+
+    @staticmethod
+    def is_likely_heading(prev_line, line, next_line):
+        line_stripped = line.strip()
+
+        # Strong numeric heading pattern (e.g., 3., 3.1, 07.1.1)
+        strong_numbered_heading = bool(re.match(r'^(\d+(\.\d+)*\.?)\s+[A-Z]', line_stripped))
+
+        # Short line ending with colon, likely heading
+        short_colon_ending = len(line_stripped.split()) <= 8 and line_stripped.endswith(':')
+
+        # Isolated line surrounded by blank lines and uppercase dominance
+        prev_blank = not prev_line.strip()
+        next_blank = not next_line.strip()
+        letters = [ch for ch in line_stripped if ch.isalpha()]
+        uppercase_ratio = sum(ch.isupper() for ch in letters) / len(letters) if letters else 0
+        isolated_uppercase = uppercase_ratio > 0.75 and prev_blank and next_blank and len(line_stripped.split()) < 10
+
+        return strong_numbered_heading or short_colon_ending or isolated_uppercase
+
+    @staticmethod
+    def logical_chunking(text):
+        lines = text.split('\n')
+        chunks = []
+        buffer = []
+
+        def flush_buffer():
+            if buffer:
+                chunk = ' '.join(buffer).strip()
+                if chunk:
+                    chunks.append(chunk)
+                buffer.clear()
+
+        padded_lines = [""] + lines + [""]  # padding to avoid index errors
+        for i in range(1, len(padded_lines) - 1):
+            line = padded_lines[i]
+            prev_line = padded_lines[i - 1]
+            next_line = padded_lines[i + 1]
+
+            if not line.strip():
+                flush_buffer()
                 continue
 
-            if not buffer_line:
-                buffer_line = line
+            if PDFProcessor.is_likely_heading(prev_line, line, next_line):
+                flush_buffer()
+                chunks.append(line.strip())
             else:
-                if re.search(r"[.!?;:]$", buffer_line):
-                    merged_lines.append(buffer_line)
-                    buffer_line = line
-                else:
-                    buffer_line += " " + line
+                buffer.append(line.strip())
 
-        if buffer_line:
-            merged_lines.append(buffer_line)
+        flush_buffer()
 
-        return "\n".join(merged_lines)
+        return [c for c in chunks if c.strip()]
 
     @staticmethod
     def process_pdfs(input_dir, output_dir):
-        """
-        Processes all PDFs in the input directory, extracts text, and saves them as text files.
-        """
-        print("Processing PDFs...")
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
         for root, _, files in os.walk(input_dir):
             for file in files:
-                if file.endswith(".pdf"):
+                if file.lower().endswith(".pdf"):
                     pdf_path = os.path.join(root, file)
                     processor = PDFProcessor(pdf_path)
-                    text = processor.extract_text()
-                    if text:
+                    chunks = processor.extract_text()
+                    if chunks:
                         relative_path = os.path.relpath(root, input_dir)
-                        output_subdir = os.path.join(output_dir, relative_path)
-                        os.makedirs(output_subdir, exist_ok=True)
-                        output_file = os.path.join(output_subdir, f"{os.path.splitext(file)[0]}.txt")
+                        out_dir = os.path.join(output_dir, relative_path)
+                        os.makedirs(out_dir, exist_ok=True)
+
+                        output_file = os.path.join(out_dir, f"{os.path.splitext(file)[0]}.txt")
                         with open(output_file, "w", encoding="utf-8") as f:
-                            f.write(text)
-                        print(f"Extracted text saved to {output_file}")
+                            f.write("\n\n".join(chunks))
                     else:
-                        print(f"Failed to extract text from {pdf_path}")
+                        print(f"Error reading {pdf_path}")
+
+
+
 
 
 

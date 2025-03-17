@@ -10,7 +10,7 @@ from sklearn.manifold import TSNE
 import plotly.graph_objects as go
 
 class Vectorisation:
-    def __init__(self, base_path, chunk_size=1000, chunk_overlap=200, db_name='vector_db'):
+    def __init__(self, base_path, chunk_size=600, chunk_overlap=150, db_name='vector_db'):
         self.base_path = base_path  # ✅ Corrected parameter
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap

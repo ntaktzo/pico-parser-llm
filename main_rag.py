@@ -16,10 +16,7 @@ from preprocess.process_pdf import PDFProcessor
 from preprocess.process_pdf import Translator
 from preprocess.vectorisation import Vectorisation
 
-from llm.open_ai import count_tokens
 from llm.open_ai import validate_api_key
-from llm.open_ai import create_batched_prompts
-from llm.open_ai import query_gpt_api_batched
 
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
@@ -42,14 +39,19 @@ output_text_dir = "data/text"
 output_translated_dir = "data/text_translated"
 
 # Call the base function that processes all PDFs in the folder
-#PDFProcessor.process_pdfs(input_pdf_dir, output_text_dir)
+
+import os
+import re
+import pdfplumber
+
+PDFProcessor.process_pdfs(input_pdf_dir, output_text_dir)
 
 # Step 2. Translate text to English
 translator = Translator(output_text_dir, output_translated_dir)
 translator.translate_documents()
 
 
-### 3. CHUNKING
+### 3. CHUNKING & VECTORISATION
 vectorisation = Vectorisation(base_path="data/text_translated/*/*")
 chunks = vectorisation.create_chunks()  # ✅ Correct
 vectorstore = vectorisation.create_vectorstore(chunks)
@@ -58,13 +60,7 @@ vectorstore = vectorisation.create_vectorstore(chunks)
 vectorisation.visualize_vectorstore(vectorstore)
 
 
-
-### 4. VECTORSTORE
-# Create OR load the vectorstore    
-vector_store = create_vectorstore(chunks, db_name=db_name)
-
 # load
-embeddings = OpenAIEmbeddings()
 vectorstore = Chroma(persist_directory=db_name, embedding_function=embeddings)
 
 # Visualize the vectorstore
