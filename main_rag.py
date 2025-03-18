@@ -39,11 +39,6 @@ output_text_dir = "data/text"
 output_translated_dir = "data/text_translated"
 
 # Call the base function that processes all PDFs in the folder
-
-import os
-import re
-import pdfplumber
-
 PDFProcessor.process_pdfs(input_pdf_dir, output_text_dir)
 
 # Step 2. Translate text to English

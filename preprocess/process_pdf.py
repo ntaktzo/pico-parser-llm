@@ -1,80 +1,282 @@
 import os
 import re
+import json
 import pdfplumber
-
-from langdetect import detect
-from transformers import pipeline
-import torch
-import gc
-
-import pdfplumber
-import re
-import pandas as pd
-import os
+from collections import Counter
+import statistics
 
 class PDFProcessor:
-    def __init__(self, pdf_path):
-        """
-        Initializes the PDFProcessor class with the given PDF file path.
-        """
+    def __init__(
+        self,
+        pdf_path,
+        boilerplate_threshold=0.3,
+        doc_id=None,
+        language="unknown",
+        region="unknown",
+        title="Unknown Title",
+        created_date="unknown_date",
+        keywords=None
+    ):
         self.pdf_path = pdf_path
+        self.boilerplate_threshold = boilerplate_threshold
+        self.doc_id = doc_id or os.path.splitext(os.path.basename(pdf_path))[0]
+        self.language = language
+        self.region = region
+        self.title = title
+        self.created_date = created_date
+        self.keywords = keywords or []
 
-    def extract_text(self):
-        """
-        Extracts text from the PDF file.
-        Single-column assumption.
-        1) Single pass pdfplumber extract.
-        2) Minimal disclaimers removal.
-        3) Flatten tables with explicit newlines.
-        4) Fix spacing and merge lines.
-        5) Remove references.
-        6) Chunk by headings + paragraphs.
-        """
-        try:
-            all_pages = []
-
-            with pdfplumber.open(self.pdf_path) as pdf:
-                for page in pdf.pages:
-                    raw_text = page.extract_text(x_tolerance=2, y_tolerance=2)
-                    if raw_text is None:
-                        raw_text = ""
-
-                    cleaned_page = self.remove_boilerplate(raw_text)
-
-                    page_tables = page.extract_tables()
-                    tables_text = []
-                    if page_tables:
-                        for tbl in page_tables:
-                            tables_text.append(self.flatten_table(tbl))
-
-                    combined = cleaned_page.strip()
-                    if tables_text:
-                        combined += "\n\n" + "\n\n".join(tables_text)
-
-                    if combined.strip():
-                        all_pages.append(combined)
-
-            text = "\n".join(all_pages)
-
-            chunks = self.logical_chunking(text)
-
-            return chunks
-        except Exception as e:
-            print(f"Error reading {self.pdf_path}: {e}")
-            return None
+    def print_boilerplate_lines(self, boilerplate_normed, normed_line_pages):
+        print(f"Boilerplate lines removed from {self.pdf_path}:")
+        for normed in boilerplate_normed:
+            pages = sorted(normed_line_pages[normed])
+            print(f"'{normed}' found on pages: {pages}")
 
     @staticmethod
-    def remove_boilerplate(text):
-        disclaimers = [
-            "© NICE", "All rights reserved", "Subject to Notice", "Page ",
-            "REGIONALA CANCERCENTRUM", "Richtlijnendatabase"
+    def remove_links(line: str) -> str:
+        line_no_links = re.sub(r'\(?(?:https?://|www\.)\S+\)?', '', line)
+        line_no_links = re.sub(r'\(\s*\)', '', line_no_links)
+        return line_no_links.strip()
+
+    @staticmethod
+    def advanced_normalize(line: str) -> str:
+        norm = line.lower()
+        norm = re.sub(r'\d+', '', norm)          # remove digits
+        norm = re.sub(r'[^a-z]+', '', norm)      # remove non-alpha
+        return norm.strip()
+
+    @staticmethod
+    def contains_of_contents(line: str) -> bool:
+        return bool(re.search(r'\bof\s+contents\b', line, re.IGNORECASE))
+
+    @staticmethod
+    def is_toc_dotline(line: str) -> bool:
+        return bool(re.search(r'\.{5,}\s*\d+$', line))
+
+    @staticmethod
+    def is_footnote_source(line: str) -> bool:
+        stripped = line.strip()
+        if not stripped:
+            return False
+
+        # e.g. "3 " or "[2]" or "2."
+        if not re.match(r'^(\[\d+\]|[\d\.]+)\b', stripped):
+            return False
+
+        reference_patterns = [
+            r'et al\.',
+            r'Disponible en ligne',
+            r'consulté le',
+            r'NEJM',
+            r'PubMed',
+            r'doi'
         ]
-        lines = text.split("\n")
-        kept = []
-        for line in lines:
-            if not any(d.lower() in line.lower() for d in disclaimers):
-                kept.append(line)
-        return "\n".join(kept)
+        combined = '(' + '|'.join(reference_patterns) + ')'
+        if re.search(combined, stripped, flags=re.IGNORECASE):
+            return True
+        return False
+
+    def detect_headings_by_font(self, page):
+        """
+        Detect headings based on font size, boldness, numbering, uppercase, and length.
+        """
+        words = page.extract_words(
+            x_tolerance=2, 
+            y_tolerance=2, 
+            extra_attrs=["fontname", "size"]
+        )
+        if not words:
+            return []
+
+        # sort top->down, left->right
+        words_sorted = sorted(words, key=lambda w: (round(w.get('top', 0)), w.get('x0', 0)))
+        lines = []
+        current_line = []
+        line_tolerance = 5
+
+        for w in words_sorted:
+            # skip words missing crucial bounding info
+            if w.get('size') is None or w.get('top') is None or w.get('bottom') is None:
+                continue
+
+            if not current_line:
+                current_line = [w]
+                continue
+
+            last_word = current_line[-1]
+            if abs(w['top'] - last_word['top']) <= line_tolerance:
+                current_line.append(w)
+            else:
+                lines.append(current_line)
+                current_line = [w]
+        if current_line:
+            lines.append(current_line)
+
+        line_objects = []
+        font_sizes = []
+
+        for line_words in lines:
+            text_parts = [lw["text"] for lw in line_words if lw.get("text")]
+            if not text_parts:
+                continue
+
+            text = " ".join(text_parts).strip()
+
+            # average font size
+            sizes = [lw['size'] for lw in line_words if lw.get('size') is not None]
+            avg_size = statistics.mean(sizes) if sizes else 10.0
+
+            line_objects.append({
+                "text": text,
+                "avg_size": avg_size,
+                "words": line_words
+            })
+            font_sizes.append(avg_size)
+
+        if not line_objects:
+            return []
+
+        median_size = statistics.median(font_sizes)
+
+        for obj in line_objects:
+            text = obj["text"]
+            avg_size = obj["avg_size"]
+            lw = obj["words"]
+            word_count = len(text.split())
+
+            # Font size ratio scoring
+            ratio_to_median = avg_size / median_size if median_size else 1.0
+            font_score = 2 if ratio_to_median >= 1.3 else (1 if ratio_to_median >= 1.1 else 0)
+
+            # Uppercase ratio scoring
+            letters = [c for c in text if c.isalpha()]
+            uppercase_ratio = sum(c.isupper() for c in letters) / len(letters) if letters else 0
+            uppercase_score = 2 if uppercase_ratio > 0.8 else (1 if uppercase_ratio > 0.6 else 0)
+
+            # Length scoring (shorter lines more likely headings)
+            length_score = 2 if word_count < 6 else (1 if word_count < 12 else 0)
+
+            # Boldface scoring
+            bold_words = [
+                w for w in lw if w.get('fontname') and 'bold' in w['fontname'].lower()
+            ]
+            bold_ratio = len(bold_words) / len(lw) if lw else 0
+            bold_score = 2 if bold_ratio > 0.7 else (1 if bold_ratio > 0.3 else 0)
+
+            # Numbering at start scoring (newly added)
+            numbering_score = 0
+            numbering_pattern = r'^(\d+[\.\,\)](\d+[\.\,\)])*\s+)'
+            if re.match(numbering_pattern, text):
+                numbering_score = 2  # numbering strongly indicates heading
+
+            # Sum all scores (without colon check)
+            total_score = font_score + uppercase_score + length_score + bold_score + numbering_score
+
+            # Final threshold (>=3)
+            obj["likely_heading"] = (total_score >= 3)
+
+        return line_objects
+
+    def extract_preliminary_chunks(self):
+        try:
+            with pdfplumber.open(self.pdf_path) as pdf:
+                num_pages = len(pdf.pages)
+                normed_line_pages = {}
+                pages_with_lines = []
+
+                # gather lines from each page
+                for i, page in enumerate(pdf.pages, start=1):
+                    line_objs = self.detect_headings_by_font(page)
+                    pages_with_lines.append((i, line_objs))
+
+                    # gather normalized lines for boilerplate detection
+                    unique_normed = set()
+                    for lo in line_objs:
+                        norm = self.advanced_normalize(lo["text"])
+                        if norm:
+                            unique_normed.add(norm)
+                    for n in unique_normed:
+                        normed_line_pages.setdefault(n, set()).add(i)
+
+                # identify boilerplate lines
+                boilerplate_normed = set()
+                for normed_line, pset in normed_line_pages.items():
+                    if len(pset) / num_pages >= self.boilerplate_threshold:
+                        boilerplate_normed.add(normed_line)
+
+                self.print_boilerplate_lines(boilerplate_normed, normed_line_pages)
+
+                # flatten & filter
+                filtered_lines = []
+                in_footnote = False
+
+                for page_num, line_objs in pages_with_lines:
+                    for lo in line_objs:
+                        line_text = lo["text"]
+                        if not line_text.strip():
+                            continue
+
+                        if in_footnote:
+                            # stop skipping if blank or heading
+                            if not line_text.strip() or lo["likely_heading"]:
+                                in_footnote = False
+                                continue
+                            else:
+                                continue
+
+                        if self.is_footnote_source(line_text):
+                            in_footnote = True
+                            continue
+
+                        line_text = self.remove_links(line_text)
+                        if not line_text.strip():
+                            continue
+
+                        # skip boilerplate
+                        norm = self.advanced_normalize(line_text)
+                        if not norm or norm in boilerplate_normed:
+                            continue
+
+                        if self.contains_of_contents(line_text):
+                            continue
+
+                        if self.is_toc_dotline(line_text):
+                            continue
+
+                        heading_flag = lo["likely_heading"]
+                        filtered_lines.append((page_num, line_text.strip(), heading_flag))
+
+                # build chunks
+                chunks = []
+                buffer = []
+                current_heading = ""
+
+                def flush_buffer():
+                    if buffer:
+                        min_page = min(x[0] for x in buffer)
+                        max_page = max(x[0] for x in buffer)
+                        chunk_text = "\n".join(x[1] for x in buffer)
+                        chunks.append({
+                            "heading": current_heading,
+                            "text": chunk_text,
+                            "start_page": min_page,
+                            "end_page": max_page
+                        })
+                        buffer.clear()
+
+                for (pnum, text_line, is_heading) in filtered_lines:
+                    if is_heading:
+                        flush_buffer()
+                        current_heading = text_line
+                    else:
+                        buffer.append((pnum, text_line))
+
+                flush_buffer()
+                return chunks
+
+        except Exception as e:
+            print(f"Error reading {self.pdf_path}: {e}")
+            return []
 
     @staticmethod
     def flatten_table(table):
@@ -87,59 +289,17 @@ class PDFProcessor:
         return "\n".join(flattened)
 
     @staticmethod
-    def is_likely_heading(prev_line, line, next_line):
-        line_stripped = line.strip()
-
-        # Strong numeric heading pattern (e.g., 3., 3.1, 07.1.1)
-        strong_numbered_heading = bool(re.match(r'^(\d+(\.\d+)*\.?)\s+[A-Z]', line_stripped))
-
-        # Short line ending with colon, likely heading
-        short_colon_ending = len(line_stripped.split()) <= 8 and line_stripped.endswith(':')
-
-        # Isolated line surrounded by blank lines and uppercase dominance
-        prev_blank = not prev_line.strip()
-        next_blank = not next_line.strip()
-        letters = [ch for ch in line_stripped if ch.isalpha()]
-        uppercase_ratio = sum(ch.isupper() for ch in letters) / len(letters) if letters else 0
-        isolated_uppercase = uppercase_ratio > 0.75 and prev_blank and next_blank and len(line_stripped.split()) < 10
-
-        return strong_numbered_heading or short_colon_ending or isolated_uppercase
-
-    @staticmethod
-    def logical_chunking(text):
-        lines = text.split('\n')
-        chunks = []
-        buffer = []
-
-        def flush_buffer():
-            if buffer:
-                chunk = ' '.join(buffer).strip()
-                if chunk:
-                    chunks.append(chunk)
-                buffer.clear()
-
-        padded_lines = [""] + lines + [""]  # padding to avoid index errors
-        for i in range(1, len(padded_lines) - 1):
-            line = padded_lines[i]
-            prev_line = padded_lines[i - 1]
-            next_line = padded_lines[i + 1]
-
-            if not line.strip():
-                flush_buffer()
-                continue
-
-            if PDFProcessor.is_likely_heading(prev_line, line, next_line):
-                flush_buffer()
-                chunks.append(line.strip())
-            else:
-                buffer.append(line.strip())
-
-        flush_buffer()
-
-        return [c for c in chunks if c.strip()]
-
-    @staticmethod
-    def process_pdfs(input_dir, output_dir):
+    def process_pdfs(
+        input_dir,
+        output_dir,
+        boilerplate_threshold=0.3,
+        doc_id=None,
+        language="unknown",
+        region="unknown",
+        title="Unknown Title",
+        created_date="unknown_date",
+        keywords=None
+    ):
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
@@ -147,21 +307,31 @@ class PDFProcessor:
             for file in files:
                 if file.lower().endswith(".pdf"):
                     pdf_path = os.path.join(root, file)
-                    processor = PDFProcessor(pdf_path)
-                    chunks = processor.extract_text()
+                    processor = PDFProcessor(
+                        pdf_path,
+                        boilerplate_threshold=boilerplate_threshold,
+                        doc_id=os.path.splitext(file)[0],
+                        language=language,
+                        region=region,
+                        title=title,
+                        created_date=created_date,
+                        keywords=keywords or []
+                    )
+
+                    chunks = processor.extract_preliminary_chunks()
                     if chunks:
                         relative_path = os.path.relpath(root, input_dir)
                         out_dir = os.path.join(output_dir, relative_path)
                         os.makedirs(out_dir, exist_ok=True)
 
-                        output_file = os.path.join(out_dir, f"{os.path.splitext(file)[0]}.txt")
+                        output_file = os.path.join(
+                            out_dir,
+                            f"{os.path.splitext(file)[0]}_cleaned.json"
+                        )
                         with open(output_file, "w", encoding="utf-8") as f:
-                            f.write("\n\n".join(chunks))
+                            json.dump(chunks, f, indent=2, ensure_ascii=False)
                     else:
                         print(f"Error reading {pdf_path}")
-
-
-
 
 
 
