@@ -66,33 +66,48 @@
       "text": "1. Stanowisko Rady Przejrzystości nr 41/2023 z dnia 11 kwietnia 2023 roku w sprawie oceny leku Lumykras (sotorasibum) w ramach programu lekowego „Leczenie chorych na raka płuca (ICD -10: C34) oraz międzybłoniaka opłucnej (ICD - 10: C45)” 2. Raport nr OT.4231.74.2022 Wniosek o objęcie refundacją leku Lumykras (sotorasib) w ramach programu lekowego: „Leczenie chorych na raka płuca (ICD - 10: C34) oraz międzybłoniaka opłucnej (ICD - 10: C45)” Analiza weryfikacyjna. Data ukończenia : 30 marca 2023 r.",
       "start_page": 15,
       "end_page": 15
-    }
-  ],
-  "tables": [
-    {
-      "page": 2,
-      "table_index": 1,
-      "text": " | \n | "
     },
     {
-      "page": 11,
-      "table_index": 1,
-      "text": " | \n | "
+      "heading": "table under heading <Problem zdrowotny>",
+      "text": "Row 1: |\nRow 2: |",
+      "start_page": 2,
+      "end_page": 2
     },
     {
-      "page": 13,
-      "table_index": 1,
-      "text": " | \n | "
+      "heading": "table under heading <Propozycje instrumentów dzielenia ryzyka>",
+      "text": "Row 1: \nRow 2: \nRow 3: \nRow 4: \nRow 5:",
+      "start_page": 10,
+      "end_page": 10
     },
     {
-      "page": 13,
-      "table_index": 2,
-      "text": " | \n | \n | \n | \n | "
+      "heading": "table under heading <Propozycje instrumentów dzielenia ryzyka>",
+      "text": "Row 1: |\nRow 2: |",
+      "start_page": 11,
+      "end_page": 11
     },
     {
-      "page": 14,
-      "table_index": 1,
-      "text": " | \n | \n | "
+      "heading": "table under heading <Uwagi do programu lekowego>",
+      "text": "Row 1: |\nRow 2: |",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "table under heading <Uwagi do programu lekowego>",
+      "text": "Row 1: |\nRow 2: |\nRow 3: |\nRow 4: |\nRow 5: |",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "table under heading <Uwagi do programu lekowego>",
+      "text": "Row 1: |\nRow 2: |\nRow 3: |",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "heading": "table under heading <Uwagi do programu lekowego>",
+      "text": "Row 1: \nRow 2:",
+      "start_page": 14,
+      "end_page": 14
     }
   ]
 }
