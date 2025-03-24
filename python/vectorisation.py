@@ -6,8 +6,19 @@ from typing import List
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.docstore.document import Document
 from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import Qdrant
 
+import os
+import json
+import glob
+import shutil
+import numpy as np
+from typing import List
+from langchain.docstore.document import Document
+from langchain.vectorstores import Chroma
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
+from sklearn.manifold import TSNE
+import plotly.graph_objs as go
 
 class Chunker:
     def __init__(
@@ -132,91 +143,139 @@ class Chunker:
 
 
 class Vectoriser:
+    """
+    Class to create or load a Chroma vectorstore from chunked JSON documents.
+    Supports multiple embeddings (OpenAI or PubMedBERT).
+    """
+
     def __init__(
         self,
-        chunked_folder_path="./data/text_chunked",
-        db_name="vector_db"
+        chunked_folder_path: str = "./data/tex_translated",
+        embedding_choice: str = "openai",
+        db_parent_dir: str = "./data/vectorstore"
     ):
         self.chunked_folder_path = chunked_folder_path
-        self.db_name = db_name
+        self.embedding_choice = embedding_choice.lower()
+        self.db_parent_dir = db_parent_dir
+        self.db_name = self._get_db_path()
+
+    def _get_db_path(self) -> str:
+        """Determines the path for the vectorstore based on embedding choice."""
+        store_name = {
+            "openai": "open_ai_vectorstore",
+            "pubmedbert": "pubmedbert_vectorstore"
+        }.get(self.embedding_choice)
+
+        if store_name is None:
+            raise ValueError("Unsupported embedding_choice. Use 'openai' or 'pubmedbert'.")
+
+        return os.path.join(self.db_parent_dir, store_name)
 
     def load_chunked_documents(self) -> List[Document]:
         """
-        Loads chunked JSON files from the specified folder and converts them to Document objects.
+        Loads chunked JSON files from the specified folder and converts them into Document objects.
         """
         documents = []
         json_files = glob.glob(os.path.join(self.chunked_folder_path, "*.json"))
-        print(f"Found {len(json_files)} chunked JSON files.")
-
         for jf in json_files:
-            print(f"Loading chunked file: {jf}")
             with open(jf, "r", encoding="utf-8") as f:
                 data = json.load(f)
-
-            if "doc_id" not in data or "chunks" not in data:
-                print(f"Skipping file {jf}: missing 'doc_id' or 'chunks'.")
-                continue
 
             doc_id = data["doc_id"]
             chunks = data["chunks"]
 
             for c in chunks:
-                if "text" not in c or "metadata" not in c:
-                    print(f"Skipping a chunk in {jf}: missing 'text' or 'metadata'.")
-                    continue
                 documents.append(Document(page_content=c["text"], metadata=c["metadata"]))
 
-        print(f"Loaded {len(documents)} chunked documents.")
         return documents
+
+    def vectorstore_exists(self) -> bool:
+        """Checks if a vectorstore already exists at the specified location."""
+        return os.path.exists(self.db_name) and len(os.listdir(self.db_name)) > 0
+
+    def get_embeddings(self):
+        """Returns the embedding model based on embedding_choice."""
+        if self.embedding_choice == "openai":
+            return OpenAIEmbeddings()
+        elif self.embedding_choice == "pubmedbert":
+            return HuggingFaceEmbeddings(model_name="NeuML/pubmedbert-base-embeddings")
 
     def create_vectorstore(self, docs: List[Document]):
         """
-        Creates a vector store from the provided documents using OpenAIEmbeddings and Chroma.
+        Creates and persists a Chroma vectorstore from provided documents.
         """
         if os.path.exists(self.db_name):
             shutil.rmtree(self.db_name)
         os.makedirs(self.db_name, exist_ok=True)
 
-        embeddings = OpenAIEmbeddings()
-        vectorstore = Qdrant.from_documents(
-            documents=docs,          # your list of chunked Documents
+        embeddings = self.get_embeddings()
+        vectorstore = Chroma.from_documents(
+            documents=docs,
             embedding=embeddings,
-            collection_name="my_collection",
-            url="http://localhost:6333"  # assuming Qdrant is running locally
+            persist_directory=self.db_name
         )
         vectorstore.persist()
-        print(f"Vectorstore created with {vectorstore._collection.count()} embedded chunks.")
+        print(f"Chroma vectorstore created with {len(docs)} embedded chunks at {self.db_name}.")
+        return vectorstore
 
+    def load_vectorstore(self):
+        """
+        Loads an existing Chroma vectorstore from disk.
+        """
+        embeddings = self.get_embeddings()
+        vectorstore = Chroma(
+            persist_directory=self.db_name,
+            embedding_function=embeddings
+        )
+        print(f"Chroma vectorstore loaded from {self.db_name}.")
         return vectorstore
 
     def run_pipeline(self):
-        docs = self.load_chunked_documents()
-        self.create_vectorstore(docs)
-
-
-
-
-
-
+        """
+        Checks for existing vectorstore. If it exists, loads it. Otherwise, creates it.
+        """
+        if self.vectorstore_exists():
+            print("Vectorstore already exists. Loading it now.")
+            return self.load_vectorstore()
+        else:
+            print("No vectorstore found. Creating a new one.")
+            docs = self.load_chunked_documents()
+            return self.create_vectorstore(docs)
+        
     def visualize_vectorstore(self, vectorstore):
-        """Creates a t-SNE visualization of the vectorstore embeddings."""
+        """
+        Creates a t-SNE visualization of the vectorstore embeddings.
+        Embeddings are color-coded based on the 'country' field in the metadata.
+        """
+        # Retrieve embeddings, documents, and metadatas from the vectorstore.
         result = vectorstore.get(include=['embeddings', 'documents', 'metadatas'])
         vectors = np.array(result['embeddings'])
         documents = result['documents']
-        doc_types = [metadata['country'] for metadata in result['metadatas']]
-
+        
+        # Safely extract the 'country' from metadata; default to 'Unknown' if not present.
+        doc_countries = []
+        for metadata in result['metadatas']:
+            if isinstance(metadata, dict):
+                doc_countries.append(metadata.get('country', 'Unknown'))
+            else:
+                doc_countries.append('Unknown')
+        
+        # Define a color map for countries.
         color_map = {'SE': 'blue', 'NL': 'green', 'DE': 'red', 'EN': 'orange', 'EU': 'yellow'}
-        colors = [color_map.get(t, 'grey') for t in doc_types]
+        colors = [color_map.get(country, 'grey') for country in doc_countries]
 
+        # Use t-SNE for dimensionality reduction to 2D.
         tsne = TSNE(n_components=2, random_state=42)
         reduced_vectors = tsne.fit_transform(vectors)
 
+        # Create an interactive scatter plot with Plotly.
         fig = go.Figure(data=[go.Scatter(
             x=reduced_vectors[:, 0],
             y=reduced_vectors[:, 1],
             mode='markers',
             marker=dict(size=5, color=colors, opacity=0.8),
-            text=[f"Type: {t}<br>Text: {d[:100]}..." for t, d in zip(doc_types, documents)],
+            text=[f"Country: {country}<br>Text: {doc[:100]}..." 
+                for country, doc in zip(doc_countries, documents)],
             hoverinfo='text'
         )])
 
