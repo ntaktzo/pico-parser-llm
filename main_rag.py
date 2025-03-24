@@ -17,6 +17,7 @@ from python.process_pdf import PDFProcessor
 from python.process_pdf import Translator
 from python.vectorisation import Chunker
 from python.vectorisation import Vectoriser
+from python.open_ai import validate_api_key
 
 
 from langchain_chroma import Chroma
@@ -27,28 +28,32 @@ tree = FolderTree(root_path=".", show_hidden=False, max_depth=None)
 tree.generate()
 
 
-
 ##### 1. DEFINE PARAMETERS
 # For openai API
 openai = OpenAI()
 model = "gpt-4o-mini"  # Replace with your model
+embedding = "openai"  # Replace with your embedding
 
-
+#open ai key
+message = validate_api_key() # Read in, and validate the OpenAI API key.
+print(message) # Print the validation message.
 
 ##### 2. PDF PROCESSING
 # prerquisites
-input_pdf_dir = "data/PDF"  # Ensure this folder exists
-output_text_dir = "data/text"
-output_translated_dir = "data/text_translated"
+path_pdf = "data/PDF"  # Ensure this folder exists
+path_clean = "data/text_cleaned"
+path_translated = "data/text_translated"
+path_chunked = "data/text_chunked"
 
 # Call the base function that processes all PDFs in the folder
-PDFProcessor.process_pdfs(input_pdf_dir, output_text_dir)
+PDFProcessor.process_pdfs(path_pdf, path_clean)
 
 # Step 2. Translate text to English
-translator = Translator(output_text_dir, output_translated_dir)
+translator = Translator(path_clean, path_translated)
 translator.translate_documents()
 
 
+#### HIERONDER VERDER GAAN
 
 ### 3. CHUNKING & VECTORISATION
 # Run the chunker
@@ -60,24 +65,17 @@ chunker = Chunker(
 )
 chunker.run_pipeline()
 
-# Run the vectoriser
-vectoriser = Vectoriser(
+# Example usage for OpenAI
+vectoriser_openai = Vectoriser(
     chunked_folder_path="./data/text_chunked",
-    db_name="my_vector_db"
+    embedding_choice=embedding,
+    db_parent_dir="./data/vectorstore"
 )
-vectoriser.run_pipeline()
-
-
+vectoriser_openai.run_pipeline()
 
 # Optional: visualize vectorstore
-vectorisation.visualize_vectorstore(vectorstore)
+vectoriser_openai.visualize_vectorstore(vectorstore)
 
-
-# load
-vectorstore = Chroma(persist_directory=db_name, embedding_function=embeddings)
-
-# Visualize the vectorstore
-visualize_vectorstore(vectorstore._collection)
 
 
 ### 5. QUERY LLM
