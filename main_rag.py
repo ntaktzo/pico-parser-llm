@@ -12,28 +12,31 @@ if project_dir not in sys.path:
 from openai import OpenAI
 
 # Local imports
-from preprocess.process_pdf import PDFProcessor
-from preprocess.process_pdf import Translator
-from preprocess.vectorisation import Vectorisation
+from python.utils import FolderTree
+from python.process_pdf import PDFProcessor
+from python.process_pdf import Translator
+from python.vectorisation import Chunker
+from python.vectorisation import Vectoriser
 
-from llm.open_ai import validate_api_key
 
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 
-##### 1. DEFINE PARAMETERS
-# For pubmed extraction
-message = validate_api_key() # Read in, and validate the OpenAI API key.
-print(message) # Print the validation message.
+# Show folder structure:
+tree = FolderTree(root_path=".", show_hidden=False, max_depth=None)
+tree.generate()
 
+
+
+##### 1. DEFINE PARAMETERS
 # For openai API
 openai = OpenAI()
 model = "gpt-4o-mini"  # Replace with your model
-embeddings = OpenAIEmbeddings()
-db_name = "vector_db"
+
+
 
 ##### 2. PDF PROCESSING
-# Step 1. Extract text from pdfs
+# prerquisites
 input_pdf_dir = "data/PDF"  # Ensure this folder exists
 output_text_dir = "data/text"
 output_translated_dir = "data/text_translated"
@@ -46,10 +49,25 @@ translator = Translator(output_text_dir, output_translated_dir)
 translator.translate_documents()
 
 
+
 ### 3. CHUNKING & VECTORISATION
-vectorisation = Vectorisation(base_path="data/text_translated/*/*")
-chunks = vectorisation.create_chunks()  # ✅ Correct
-vectorstore = vectorisation.create_vectorstore(chunks)
+# Run the chunker
+chunker = Chunker(
+    json_folder_path="./data/text/nsclc_kras_g12c",
+    output_dir="./data/text_chunked",
+    chunk_size=600,
+    chunk_overlap=100
+)
+chunker.run_pipeline()
+
+# Run the vectoriser
+vectoriser = Vectoriser(
+    chunked_folder_path="./data/text_chunked",
+    db_name="my_vector_db"
+)
+vectoriser.run_pipeline()
+
+
 
 # Optional: visualize vectorstore
 vectorisation.visualize_vectorstore(vectorstore)

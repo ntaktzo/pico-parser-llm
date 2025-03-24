@@ -108,288 +108,342 @@
       "text": "Subcommittee 23 March 2021 Determination of the appropriate comparator Medicinal therapy products Working group 30 May 2023 Information on written statements received; Section 35a preparation of the oral hearing Subcommittee 5 June 2023 Conduct of the oral hearing, Medicinal Commissioning of the IQWiG with the products supplementary assessment of documents Working group 13 June 2023 Consultation on the dossier assessment by the Section 35a 5 July 2023 IQWiG, evaluation of the written statement 19 July 2023 procedure Subcommittee 25 July 2023 Concluding discussion of the draft resolution Medicinal products Plenum 3 August 2023 Adoption of the resolution on the amendment of Annex XII AM- RL\nBerlin, 3 August 2023\nFederal Joint Committee (G-BA) in accordance with Section 91 SGB V The Chair\nProf. Hecken",
       "start_page": 27,
       "end_page": 27
-    }
-  ],
-  "tables": [
-    {
-      "page": 18,
-      "table_index": 1,
-      "text": "Designation of the therapy                                                                                                                |                                                           |   |  | Treatment mode          | Number of treatments/ patient/ year | Treatment duration/ treatment (days) | Treatment days/ patient/ year | \nMedicinal product to be assessed                                                                                                          |                                                           |   |  |                         |                                     |                                      |                               | \nSotorasib                                                                                                                                 |                                                           |   |  | Continuously, 1 x daily | 365.0                               | 1                                    | 365.0                         | \n                                                                                                                                          | Appropriate comparator therapy                            |   |  |                         |                                     |                                      |                               | \nb) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with cytotoxic chemotherapy |                                                           |   |  |                         |                                     |                                      |                               | \n                                                                                                                                          | Docetaxel (only for patients with PD-L1 negative tumours) |   |  |                         |                                     |                                      |                               | \nDocetaxel                                                                                                                                 |                                                           |   |  | 1 x per 21-day cycle    | 17.4                                | 1                                    | 17.4                          | \n                                                                                                                                          | Pemetrexed4                                               |   |  |                         |                                     |                                      |                               | \nPemetrexed                                                                                                                                |                                                           |   |  | 1 x per 21-day cycle    | 17.4                                | 1                                    | 17.4                          | \n                                                                                                                                          | Nivolumab                                                 |   |  |                         |                                     |                                      |                               | \nNivolumab                                                                                                                                 |                                                           |   |  | 1 x per 14-day cycle    | 26.1                                | 1                                    | 26.1                          | \n                                                                                                                                          | Pembrolizumab                                             | 5 |  |                         |                                     |                                      |                               | \nPembrolizumab                                                                                                                             |                                                           |   |  | 1 x per 21-day cycle    | 17.4                                | 1                                    | 17.4                          | \n                                                                                                                                          |                                                           |   |  | or                      |                                     |                                      |                               | \n                                                                                                                                          |                                                           |   |  | 1 x per 42-day cycle    | 8.7                                 | 1                                    | 8.7                           | \n                                                                                                                                          | Atezolizumab                                              |   |  |                         |                                     |                                      |                               | \nAtezolizumab                                                                                                                              |                                                           |   |  | 1 x per 14-day cycle    | 26.1                                | 1                                    | 26.1                          | \n                                                                                                                                          |                                                           |   |  | or                      |                                     |                                      |                               | \n                                                                                                                                          |                                                           |   |  | 1 x per 21-day cycle    | 17.4                                | 1                                    | 17.4                          | \n                                                                                                                                          |                                                           |   |  | or                      |                                     |                                      |                               | "
     },
     {
-      "page": 18,
-      "table_index": 2,
-      "text": "Designation of the\ntherapy           "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the therapy||||Treatment mode|Number of treatments/ patient/ year|Treatment duration/ treatment (days)|Treatment days/ patient/ year|\nRow 2: Medicinal product to be assessed||||||||\nRow 3: Sotorasib||||Continuously, 1 x daily|365.0|1|365.0|\nRow 4: |Appropriate comparator therapy|||||||\nRow 5: b) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with cytotoxic chemotherapy||||||||\nRow 6: |Docetaxel (only for patients with PD-L1 negative tumours)|||||||\nRow 7: Docetaxel||||1 x per 21-day cycle|17.4|1|17.4|\nRow 8: |Pemetrexed4|||||||\nRow 9: Pemetrexed||||1 x per 21-day cycle|17.4|1|17.4|\nRow 10: |Nivolumab|||||||\nRow 11: Nivolumab||||1 x per 14-day cycle|26.1|1|26.1|\nRow 12: |Pembrolizumab|5||||||\nRow 13: Pembrolizumab||||1 x per 21-day cycle|17.4|1|17.4|\nRow 14: ||||or||||\nRow 15: ||||1 x per 42-day cycle|8.7|1|8.7|\nRow 16: |Atezolizumab|||||||\nRow 17: Atezolizumab||||1 x per 14-day cycle|26.1|1|26.1|\nRow 18: ||||or||||\nRow 19: ||||1 x per 21-day cycle|17.4|1|17.4|\nRow 20: ||||or||||",
+      "start_page": 18,
+      "end_page": 18
     },
     {
-      "page": 18,
-      "table_index": 3,
-      "text": "Number of    \ntreatments/  \npatient/ year"
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the\nRow 2: therapy",
+      "start_page": 18,
+      "end_page": 18
     },
     {
-      "page": 18,
-      "table_index": 4,
-      "text": "Treatment\nduration/\ntreatment"
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Number of\nRow 2: treatments/\nRow 3: patient/ year",
+      "start_page": 18,
+      "end_page": 18
     },
     {
-      "page": 18,
-      "table_index": 5,
-      "text": "Treatment     \ndays/ patient/\nyear          "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Treatment\nRow 2: duration/\nRow 3: treatment",
+      "start_page": 18,
+      "end_page": 18
     },
     {
-      "page": 19,
-      "table_index": 1,
-      "text": "Designation of the therapy                                                                                                                                                                                                                                                           |                                           | Treatment mode                    | Number of treatments/ patient/ year |    | Treatment |  | Treatment days/ patient/ year | \n                                                                                                                                                                                                                                                                                     |                                           |                                   |                                     |    | duration/ |  |                               | \n                                                                                                                                                                                                                                                                                     |                                           |                                   |                                     |    | treatment |  |                               | \n                                                                                                                                                                                                                                                                                     |                                           |                                   |                                     |    | (days)    |  |                               | \n                                                                                                                                                                                                                                                                                     |                                           | 1 x per 28-day cycle              | 13.0                                | 1  |           |  | 13.0                          | \n                                                                                                                                                                                                                                                                                     | Docetaxel in combination with nintedanib6 |                                   |                                     |    |           |  |                               | \nDocetaxel                                                                                                                                                                                                                                                                            |                                           | 1 x per 21-day cycle              | 17.4                                | 1  |           |  | 17.4                          | \nNintedanib                                                                                                                                                                                                                                                                           |                                           | 2 x on day 2-21 of a 21-day cycle | 17.4                                | 20 |           |  | 348.0                         | \nc) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with an anti-PD-1/PD-L1 in combination with platinum- containing chemotherapy or after sequential therapy with an anti-PD-1/PD-L1 and platinum-containing chemotherapy |                                           |                                   |                                     |    |           |  |                               | \nPatient-individual therapy, taking into account previous therapy and histology with selection of afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with ramucirumab, docetaxel in combination with nintedanib and vinorelbine                                     |                                           |                                   |                                     |    |           |  |                               | \nAfatinib                                                                                                                                                                                                                                                                             |                                           |                                   |                                     |    |           |  |                               | \nAfatinib                                                                                                                                                                                                                                                                             |                                           | Continuously, 1 x daily           | 365.0                               | 1  |           |  | 365.0                         | \n                                                                                                                                                                                                                                                                                     | Pemetrexed                                |                                   |                                     |    |           |  |                               | \nPemetrexed                                                                                                                                                                                                                                                                           |                                           | 1 x per 21-day cycle              | 17.4                                | 1  |           |  | 17.4                          | \n                                                                                                                                                                                                                                                                                     | Erlotinib                                 |                                   |                                     |    |           |  |                               | \nErlotinib                                                                                                                                                                                                                                                                            |                                           | Continuously, 1 x daily           | 365.0                               | 1  |           |  | 365.0                         | \n                                                                                                                                                                                                                                                                                     | Docetaxel                                 |                                   |                                     |    |           |  |                               | \nDocetaxel                                                                                                                                                                                                                                                                            |                                           | 1 x per 21-day cycle              | 17.4                                | 1  |           |  | 17.4                          | \n                                                                                                                                                                                                                                                                                     | Docetaxel in combination with ramucirumab |                                   |                                     |    |           |  |                               | \nDocetaxel                                                                                                                                                                                                                                                                            |                                           | 1 x per 21-day cycle              | 17.4                                | 1  |           |  | 17.4                          | \nRamucirumab                                                                                                                                                                                                                                                                          |                                           | 1 x per 21-day cycle              | 17.4                                | 1  |           |  | 17.4                          | \n                                                                                                                                                                                                                                                                                     | Docetaxel in combination with nintedanib6 |                                   |                                     |    |           |  |                               | \nDocetaxel                                                                                                                                                                                                                                                                            |                                           | 1 x per 21-day cycle              | 17.4                                | 1  |           |  | 17.4                          | "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Treatment\nRow 2: days/ patient/\nRow 3: year",
+      "start_page": 18,
+      "end_page": 18
     },
     {
-      "page": 19,
-      "table_index": 2,
-      "text": "Designation of the\ntherapy           "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the therapy||Treatment mode|Number of treatments/ patient/ year||Treatment||Treatment days/ patient/ year|\nRow 2: |||||duration/|||\nRow 3: |||||treatment|||\nRow 4: |||||(days)|||\nRow 5: ||1 x per 28-day cycle|13.0|1|||13.0|\nRow 6: |Docetaxel in combination with nintedanib6|||||||\nRow 7: Docetaxel||1 x per 21-day cycle|17.4|1|||17.4|\nRow 8: Nintedanib||2 x on day 2-21 of a 21-day cycle|17.4|20|||348.0|\nRow 9: c) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with an anti-PD-1/PD-L1 in combination with platinum- containing chemotherapy or after sequential therapy with an anti-PD-1/PD-L1 and platinum-containing chemotherapy||||||||\nRow 10: Patient-individual therapy, taking into account previous therapy and histology with selection of afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with ramucirumab, docetaxel in combination with nintedanib and vinorelbine||||||||\nRow 11: Afatinib||||||||\nRow 12: Afatinib||Continuously, 1 x daily|365.0|1|||365.0|\nRow 13: |Pemetrexed|||||||\nRow 14: Pemetrexed||1 x per 21-day cycle|17.4|1|||17.4|\nRow 15: |Erlotinib|||||||\nRow 16: Erlotinib||Continuously, 1 x daily|365.0|1|||365.0|\nRow 17: |Docetaxel|||||||\nRow 18: Docetaxel||1 x per 21-day cycle|17.4|1|||17.4|\nRow 19: |Docetaxel in combination with ramucirumab|||||||\nRow 20: Docetaxel||1 x per 21-day cycle|17.4|1|||17.4|\nRow 21: Ramucirumab||1 x per 21-day cycle|17.4|1|||17.4|\nRow 22: |Docetaxel in combination with nintedanib6|||||||\nRow 23: Docetaxel||1 x per 21-day cycle|17.4|1|||17.4|",
+      "start_page": 19,
+      "end_page": 19
     },
     {
-      "page": 19,
-      "table_index": 3,
-      "text": "Number of    \ntreatments/  \npatient/ year"
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the\nRow 2: therapy",
+      "start_page": 19,
+      "end_page": 19
     },
     {
-      "page": 19,
-      "table_index": 4,
-      "text": "Treatment     \ndays/ patient/\nyear          "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Number of\nRow 2: treatments/\nRow 3: patient/ year",
+      "start_page": 19,
+      "end_page": 19
     },
     {
-      "page": 19,
-      "table_index": 5,
-      "text": "Patient-individual therapy, taking into account previous therapy and histology with   \nselection of afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with"
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Treatment\nRow 2: days/ patient/\nRow 3: year",
+      "start_page": 19,
+      "end_page": 19
     },
     {
-      "page": 20,
-      "table_index": 1,
-      "text": "Designation of the therapy |             | Treatment mode                    | Number of treatments/ patient/ year |    | Treatment duration/ treatment (days) | Treatment days/ patient/ year | \nNintedanib                 |             | 2 x on day 2-21 of a 21-day cycle | 17.4                                | 20 |                                      | 348.0                         | \n                           | Vinorelbine |                                   |                                     |    |                                      |                               | \nVinorelbine                |             | 1 x every 7 days                  | 52.1                                | 1  |                                      | 52.1                          | "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Patient-individual therapy, taking into account previous therapy and histology with\nRow 2: selection of afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with",
+      "start_page": 19,
+      "end_page": 19
     },
     {
-      "page": 20,
-      "table_index": 2,
-      "text": "Designation of the\ntherapy           "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the therapy||Treatment mode|Number of treatments/ patient/ year||Treatment duration/ treatment (days)|Treatment days/ patient/ year|\nRow 2: Nintedanib||2 x on day 2-21 of a 21-day cycle|17.4|20||348.0|\nRow 3: |Vinorelbine||||||\nRow 4: Vinorelbine||1 x every 7 days|52.1|1||52.1|",
+      "start_page": 20,
+      "end_page": 20
     },
     {
-      "page": 20,
-      "table_index": 3,
-      "text": "Number of    \ntreatments/  \npatient/ year"
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the\nRow 2: therapy",
+      "start_page": 20,
+      "end_page": 20
     },
     {
-      "page": 20,
-      "table_index": 4,
-      "text": "Designation of the therapy                                                                                                                |                                                           | Dosage/ application |          | Dose/    |  |            | Consumption |  |       | Treatment |  | Average annual consumption by potency | \n                                                                                                                                          |                                                           |                     |          | patient/ |  |            | by potency/ |  |       | days/     |  |                                       | \n                                                                                                                                          |                                                           |                     |          | treatmen |  |            | treatment   |  |       | patient/  |  |                                       | \n                                                                                                                                          |                                                           |                     |          | t days   |  |            | day         |  |       | year      |  |                                       | \nMedicinal product to be assessed                                                                                                          |                                                           |                     |          |          |  |            |             |  |       |           |  |                                       | \nSotorasib                                                                                                                                 |                                                           | 960 mg              | 960 mg   |          |  | 8 x 120 mg |             |  | 365.0 |           |  | 2,920 x 120 mg                        | \n                                                                                                                                          | Appropriate comparator therapy                            |                     |          |          |  |            |             |  |       |           |  |                                       | \nb) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with cytotoxic chemotherapy |                                                           |                     |          |          |  |            |             |  |       |           |  |                                       | \n                                                                                                                                          | Docetaxel (only for patients with PD-L1 negative tumours) |                     |          |          |  |            |             |  |       |           |  |                                       | \nDocetaxel                                                                                                                                 |                                                           | 75 mg/m2 = 142.5 mg | 142.5 mg |          |  | 1 x 160 mg |             |  | 17.4  |           |  | 17.4 x 160 mg                         | \n                                                                                                                                          | Pemetrexed                                                |                     |          |          |  |            |             |  |       |           |  |                                       | \nPemetrexed                                                                                                                                |                                                           | 500 mg/m² = 950 mg  | 950 mg   |          |  | 2 x 500 mg |             |  | 17.4  |           |  | 34.8 x 500 mg                         | \n                                                                                                                                          | Nivolumab                                                 |                     |          |          |  |            |             |  |       |           |  |                                       | \nNivolumab                                                                                                                                 |                                                           | 240 mg              | 240 mg   |          |  | 2 x 120 mg |             |  | 26.1  |           |  | 52.2 x 120 mg                         | \n                                                                                                                                          | Pembrolizumab                                             |                     |          |          |  |            |             |  |       |           |  |                                       | \nPembrolizumab                                                                                                                             |                                                           | 200 mg              | 200 mg   |          |  | 2 x 100 mg |             |  | 17.4  |           |  | 34.8 x 100 mg                         | "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Number of\nRow 2: treatments/\nRow 3: patient/ year",
+      "start_page": 20,
+      "end_page": 20
     },
     {
-      "page": 20,
-      "table_index": 5,
-      "text": "Designation of\nthe therapy   "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the therapy||Dosage/ application||Dose/|||Consumption|||Treatment||Average annual consumption by potency|\nRow 2: ||||patient/|||by potency/|||days/|||\nRow 3: ||||treatmen|||treatment|||patient/|||\nRow 4: ||||t days|||day|||year|||\nRow 5: Medicinal product to be assessed|||||||||||||\nRow 6: Sotorasib||960 mg|960 mg|||8 x 120 mg|||365.0|||2,920 x 120 mg|\nRow 7: |Appropriate comparator therapy||||||||||||\nRow 8: b) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with cytotoxic chemotherapy|||||||||||||\nRow 9: |Docetaxel (only for patients with PD-L1 negative tumours)||||||||||||\nRow 10: Docetaxel||75 mg/m2 = 142.5 mg|142.5 mg|||1 x 160 mg|||17.4|||17.4 x 160 mg|\nRow 11: |Pemetrexed||||||||||||\nRow 12: Pemetrexed||500 mg/m² = 950 mg|950 mg|||2 x 500 mg|||17.4|||34.8 x 500 mg|\nRow 13: |Nivolumab||||||||||||\nRow 14: Nivolumab||240 mg|240 mg|||2 x 120 mg|||26.1|||52.2 x 120 mg|\nRow 15: |Pembrolizumab||||||||||||\nRow 16: Pembrolizumab||200 mg|200 mg|||2 x 100 mg|||17.4|||34.8 x 100 mg|",
+      "start_page": 20,
+      "end_page": 20
     },
     {
-      "page": 20,
-      "table_index": 6,
-      "text": "Dosage/    \napplication"
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of\nRow 2: the therapy",
+      "start_page": 20,
+      "end_page": 20
     },
     {
-      "page": 21,
-      "table_index": 1,
-      "text": "Designation of the therapy                                                                                                                                                                                                                     |                                           | Dosage/ application |          | Dose/    |  |                         | Consumption |  |       | Treatment |  |                 | Average     | \n                                                                                                                                                                                                                                               |                                           |                     |          | patient/ |  |                         | by potency/ |  |       | days/     |  |                 | annual      | \n                                                                                                                                                                                                                                               |                                           |                     |          | treatmen |  |                         | treatment   |  |       | patient/  |  |                 | consumption | \n                                                                                                                                                                                                                                               |                                           |                     |          | t days   |  |                         | day         |  |       | year      |  |                 | by potency  | \n                                                                                                                                                                                                                                               |                                           | or                  |          |          |  |                         |             |  |       |           |  |                 |             | \n                                                                                                                                                                                                                                               |                                           | 400 mg              | 400 mg   |          |  | 4 x 100 mg              |             |  | 8.7   |           |  | 34.8 x 100 mg   |             | \n                                                                                                                                                                                                                                               | Atezolizumab                              |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nAtezolizumab                                                                                                                                                                                                                                   |                                           | 840 mg              | 840 mg   |          |  | 1 x 840 mg              |             |  | 26.1  |           |  | 26.1 x 840 mg   |             | \n                                                                                                                                                                                                                                               |                                           | or                  |          |          |  |                         |             |  |       |           |  |                 |             | \n                                                                                                                                                                                                                                               |                                           | 1,200 mg            | 1,200 mg |          |  | 1 x 1,200 mg            |             |  | 17.4  |           |  | 17.4 x 1,200 mg |             | \n                                                                                                                                                                                                                                               |                                           | or                  |          |          |  |                         |             |  |       |           |  |                 |             | \n                                                                                                                                                                                                                                               |                                           | 1,680 mg            | 1,680 mg |          |  | 2 x 840 mg              |             |  | 13.0  |           |  | 26 x 840 mg     |             | \n                                                                                                                                                                                                                                               | Docetaxel in combination with nintedanib  |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nDocetaxel                                                                                                                                                                                                                                      |                                           | 75 mg/m2 = 142.5 mg | 142.5 mg |          |  | 1 x 160 mg              |             |  | 17.4  |           |  | 17.4 x 160 mg   |             | \nNintedanib                                                                                                                                                                                                                                     |                                           | 200 mg              | 400 mg   |          |  | 4 x 100 mg              |             |  | 348.0 |           |  | 1,392 x 100 mg  |             | \nc) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with an anti-PD-1/PD-L1 in                                                                                                       |                                           |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nPatient-individual therapy, taking into account prior therapy and histology with selection of afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with ramucirumab, docetaxel in combination with nintedanib and vinorelbine. |                                           |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nAfatinib                                                                                                                                                                                                                                       |                                           |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nAfatinib                                                                                                                                                                                                                                       |                                           | 40 mg               | 40 mg    |          |  | 1 x 40 mg               |             |  | 365.0 |           |  | 365 x 40 mg     |             | \n                                                                                                                                                                                                                                               | Pemetrexed                                |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nPemetrexed                                                                                                                                                                                                                                     |                                           | 500 mg/m² = 950 mg  | 950 mg   |          |  | 2 x 500 mg              |             |  | 17.4  |           |  | 34.8 x 500 mg   |             | \n                                                                                                                                                                                                                                               | Erlotinib                                 |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nErlotinib                                                                                                                                                                                                                                      |                                           | 150 mg              | 150 mg   |          |  | 1 x 150 mg              |             |  | 365.0 |           |  | 365 x 150 mg    |             | \n                                                                                                                                                                                                                                               | Docetaxel                                 |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nDocetaxel                                                                                                                                                                                                                                      |                                           | 75 mg/m2 = 142.5 mg | 142.5 mg |          |  | 1 x 160 mg              |             |  | 17.4  |           |  | 17.4 x 160 mg   |             | \n                                                                                                                                                                                                                                               | Docetaxel in combination with ramucirumab |                     |          |          |  |                         |             |  |       |           |  |                 |             | \nDocetaxel                                                                                                                                                                                                                                      |                                           | 75 mg/m2 = 142.5 mg | 142.5 mg |          |  | 1 x 160 mg              |             |  | 17.4  |           |  | 17.4 x 160 mg   |             | \nRamucirumab                                                                                                                                                                                                                                    |                                           | 10 mg/kg = 770 mg   | 770 mg   |          |  | 1 x 500 mg + 3 x 100 mg |             |  | 17.4  |           |  | 17.4 x 500 mg + |             | "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Dosage/\nRow 2: application",
+      "start_page": 20,
+      "end_page": 20
     },
     {
-      "page": 21,
-      "table_index": 2,
-      "text": "Designation of\nthe therapy   "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of the therapy||Dosage/ application||Dose/|||Consumption|||Treatment|||Average|\nRow 2: ||||patient/|||by potency/|||days/|||annual|\nRow 3: ||||treatmen|||treatment|||patient/|||consumption|\nRow 4: ||||t days|||day|||year|||by potency|\nRow 5: ||or||||||||||||\nRow 6: ||400 mg|400 mg|||4 x 100 mg|||8.7|||34.8 x 100 mg||\nRow 7: |Atezolizumab|||||||||||||\nRow 8: Atezolizumab||840 mg|840 mg|||1 x 840 mg|||26.1|||26.1 x 840 mg||\nRow 9: ||or||||||||||||\nRow 10: ||1,200 mg|1,200 mg|||1 x 1,200 mg|||17.4|||17.4 x 1,200 mg||\nRow 11: ||or||||||||||||\nRow 12: ||1,680 mg|1,680 mg|||2 x 840 mg|||13.0|||26 x 840 mg||\nRow 13: |Docetaxel in combination with nintedanib|||||||||||||\nRow 14: Docetaxel||75 mg/m2 = 142.5 mg|142.5 mg|||1 x 160 mg|||17.4|||17.4 x 160 mg||\nRow 15: Nintedanib||200 mg|400 mg|||4 x 100 mg|||348.0|||1,392 x 100 mg||\nRow 16: c) Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with an anti-PD-1/PD-L1 in||||||||||||||\nRow 17: Patient-individual therapy, taking into account prior therapy and histology with selection of afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with ramucirumab, docetaxel in combination with nintedanib and vinorelbine.||||||||||||||\nRow 18: Afatinib||||||||||||||\nRow 19: Afatinib||40 mg|40 mg|||1 x 40 mg|||365.0|||365 x 40 mg||\nRow 20: |Pemetrexed|||||||||||||\nRow 21: Pemetrexed||500 mg/m² = 950 mg|950 mg|||2 x 500 mg|||17.4|||34.8 x 500 mg||\nRow 22: |Erlotinib|||||||||||||\nRow 23: Erlotinib||150 mg|150 mg|||1 x 150 mg|||365.0|||365 x 150 mg||\nRow 24: |Docetaxel|||||||||||||\nRow 25: Docetaxel||75 mg/m2 = 142.5 mg|142.5 mg|||1 x 160 mg|||17.4|||17.4 x 160 mg||\nRow 26: |Docetaxel in combination with ramucirumab|||||||||||||\nRow 27: Docetaxel||75 mg/m2 = 142.5 mg|142.5 mg|||1 x 160 mg|||17.4|||17.4 x 160 mg||\nRow 28: Ramucirumab||10 mg/kg = 770 mg|770 mg|||1 x 500 mg + 3 x 100 mg|||17.4|||17.4 x 500 mg +||",
+      "start_page": 21,
+      "end_page": 21
     },
     {
-      "page": 21,
-      "table_index": 3,
-      "text": "Dosage/    \napplication"
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Designation of\nRow 2: the therapy",
+      "start_page": 21,
+      "end_page": 21
     },
     {
-      "page": 21,
-      "table_index": 4,
-      "text": "Patient-individual therapy, taking into account prior therapy and histology with selection\nof afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with ramucirumab, "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Dosage/\nRow 2: application",
+      "start_page": 21,
+      "end_page": 21
     },
     {
-      "page": 22,
-      "table_index": 1,
-      "text": "Designation of the therapy |                                          | Dosage/ application                   |                 | Dose/    |  |                                   | Consumption |  |       | Treatment |  |                                            | Average     | \n                           |                                          |                                       |                 | patient/ |  |                                   | by potency/ |  |       | days/     |  |                                            | annual      | \n                           |                                          |                                       |                 | treatmen |  |                                   | treatment   |  |       | patient/  |  |                                            | consumption | \n                           |                                          |                                       |                 | t days   |  |                                   | day         |  |       | year      |  |                                            | by potency  | \n                           |                                          |                                       |                 |          |  |                                   |             |  |       |           |  | 52.2 x 100 mg                              |             | \n                           | Docetaxel in combination with nintedanib |                                       |                 |          |  |                                   |             |  |       |           |  |                                            |             | \nDocetaxel                  |                                          | 75 mg/m2 = 142.5 mg                   | 142.5 mg        |          |  | 1 x 160 mg                        |             |  | 17.4  |           |  | 17.4 x 160 mg                              |             | \nNintedanib                 |                                          | 200 mg                                | 400 mg          |          |  | 4 x 100 mg                        |             |  | 348.0 |           |  | 1,392 x 100 mg                             |             | \n                           | Vinorelbine                              |                                       |                 |          |  |                                   |             |  |       |           |  |                                            |             | \nVinorelbine                |                                          | 25 mg/m² = 47.5 mg - 30 mg/m² = 57 mg | 47.5 mg - 57 mg |          |  | 1 x 50 mg - 1 x 50 mg + 1 x 10 mg |             |  | 52.1  |           |  | 52.1 x 50 mg - 52.1 x 50 mg + 52.1 x 10 mg |             | "
+      "heading": "table under heading <2.4 Treatment costs>",
+      "text": "Row 1: Patient-individual therapy, taking into account prior therapy and histology with selection\nRow 2: of afatinib, pemetrexed, erlotinib, docetaxel, docetaxel in combination with ramucirumab,",
+      "start_page": 21,
+      "end_page": 21
     },
     {
-      "page": 22,
-      "table_index": 2,
-      "text": "Designation of\nthe therapy   "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of the therapy||Dosage/ application||Dose/|||Consumption|||Treatment|||Average|\nRow 2: ||||patient/|||by potency/|||days/|||annual|\nRow 3: ||||treatmen|||treatment|||patient/|||consumption|\nRow 4: ||||t days|||day|||year|||by potency|\nRow 5: ||||||||||||52.2 x 100 mg||\nRow 6: |Docetaxel in combination with nintedanib|||||||||||||\nRow 7: Docetaxel||75 mg/m2 = 142.5 mg|142.5 mg|||1 x 160 mg|||17.4|||17.4 x 160 mg||\nRow 8: Nintedanib||200 mg|400 mg|||4 x 100 mg|||348.0|||1,392 x 100 mg||\nRow 9: |Vinorelbine|||||||||||||\nRow 10: Vinorelbine||25 mg/m² = 47.5 mg - 30 mg/m² = 57 mg|47.5 mg - 57 mg|||1 x 50 mg - 1 x 50 mg + 1 x 10 mg|||52.1|||52.1 x 50 mg - 52.1 x 50 mg + 52.1 x 10 mg||",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 3,
-      "text": "Dosage/    \napplication"
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of\nRow 2: the therapy",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 4,
-      "text": "Designation of the therapy       | Packaging size | Costs (pharmacy sales price) | Rebate Section 130 SGB V | Rebate Section 130a SGB V | Costs after deduction of statutory rebates\nMedicinal product to be assessed |                |                              |                          |                           |                                           \nSotorasib 120 mg                 | 240 FCT        | € 4,820.84                   | € 2.00                   | € 466.34                  | € 4,352.50                                \nAppropriate comparator therapy   |                |                              |                          |                           |                                           \nAtezolizumab 1,200 mg            | 1 CIS          | € 4,319.46                   | € 2.00                   | € 417.25                  | € 3,900.21                                \nAtezolizumab 840 mg              | 1 CIS          | € 3,040.90                   | € 2.00                   | € 292.07                  | € 2,746.83                                \nAfatinib 40 mg                   | 28 FCT         | € 2,515.23                   | € 2.00                   | € 240.61                  | € 2,272.62                                \nDocetaxel 160 mg                 | 1 CIS          | € 515.75                     | € 2.00                   | € 23.94                   | € 489.81                                  \nErlotinib 150 mg8                | 30 FCT         | € 880.24                     | € 2.00                   | € 68.73                   | € 809.51                                  \nNintedanib 100 mg                | 120 SC         | € 2,761.26                   | € 2.00                   | € 110.29                  | € 2,648.97                                "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Dosage/\nRow 2: application",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 5,
-      "text": "Designation of the\ntherapy           "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of the therapy|Packaging size|Costs (pharmacy sales price)|Rebate Section 130 SGB V|Rebate Section 130a SGB V|Costs after deduction of statutory rebates\nRow 2: Medicinal product to be assessed|||||\nRow 3: Sotorasib 120 mg|240 FCT|€ 4,820.84|€ 2.00|€ 466.34|€ 4,352.50\nRow 4: Appropriate comparator therapy|||||\nRow 5: Atezolizumab 1,200 mg|1 CIS|€ 4,319.46|€ 2.00|€ 417.25|€ 3,900.21\nRow 6: Atezolizumab 840 mg|1 CIS|€ 3,040.90|€ 2.00|€ 292.07|€ 2,746.83\nRow 7: Afatinib 40 mg|28 FCT|€ 2,515.23|€ 2.00|€ 240.61|€ 2,272.62\nRow 8: Docetaxel 160 mg|1 CIS|€ 515.75|€ 2.00|€ 23.94|€ 489.81\nRow 9: Erlotinib 150 mg8|30 FCT|€ 880.24|€ 2.00|€ 68.73|€ 809.51\nRow 10: Nintedanib 100 mg|120 SC|€ 2,761.26|€ 2.00|€ 110.29|€ 2,648.97",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 6,
-      "text": "Packaging\nsize     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of the\nRow 2: therapy",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 7,
-      "text": "Costs       \n(pharmacy   \nsales price)"
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Packaging\nRow 2: size",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 8,
-      "text": "Rebate \nSection\n130 SGB\nV      "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs\nRow 2: (pharmacy\nRow 3: sales price)",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 9,
-      "text": "Rebate \nSection\n130a   \nSGB V  "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130 SGB\nRow 4: V",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 22,
-      "table_index": 10,
-      "text": "Costs after \ndeduction of\nstatutory   \nrebates     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130a\nRow 4: SGB V",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 23,
-      "table_index": 1,
-      "text": "Designation of the therapy                                                                                                                                                                                  | Packaging size | Costs (pharmacy sales price) | Rebate Section 130 SGB V | Rebate Section 130a SGB V | Costs after deduction of statutory rebates\nNivolumab 120 mg                                                                                                                                                                                            | 1 CIS          | € 1,546.93                   | € 2.00                   | € 145.81                  | € 1,399.12                                \nPembrolizumab 100 mg                                                                                                                                                                                        | 1 CIS          | € 2,974.79                   | € 2.00                   | € 285.60                  | € 2,687.19                                \nPemetrexed 500 mg                                                                                                                                                                                           | 1 CIS          | € 572.64                     | € 2.00                   | € 26.64                   | € 544.00                                  \nRamucirumab 500 mg                                                                                                                                                                                          | 1 CIS          | € 2,141.31                   | € 2.00                   | € 204.00                  | € 1,935.31                                \nRamucirumab 100 mg                                                                                                                                                                                          | 1 CIS          | € 441.14                     | € 2.00                   | € 40.80                   | € 398.34                                  \nVinorelbine 10 mg                                                                                                                                                                                           | 10 CIS         | € 293.98                     | € 2.00                   | € 13.42                   | € 278.56                                  \nVinorelbine 50 mg                                                                                                                                                                                           | 10 CIS         | € 1,424.53                   | € 2.00                   | € 67.07                   | € 1,355.46                                \nAbbreviations: FCT = film-coated tablets, HC = hard capsules, CIS = concentrate for the preparation of an infusion solution, PIS = powder for the preparation of an infusion suspension; SC = soft capsules |                |                              |                          |                           |                                           "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs after\nRow 2: deduction of\nRow 3: statutory\nRow 4: rebates",
+      "start_page": 22,
+      "end_page": 22
     },
     {
-      "page": 23,
-      "table_index": 2,
-      "text": "Designation of the\ntherapy           "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of the therapy|Packaging size|Costs (pharmacy sales price)|Rebate Section 130 SGB V|Rebate Section 130a SGB V|Costs after deduction of statutory rebates\nRow 2: Nivolumab 120 mg|1 CIS|€ 1,546.93|€ 2.00|€ 145.81|€ 1,399.12\nRow 3: Pembrolizumab 100 mg|1 CIS|€ 2,974.79|€ 2.00|€ 285.60|€ 2,687.19\nRow 4: Pemetrexed 500 mg|1 CIS|€ 572.64|€ 2.00|€ 26.64|€ 544.00\nRow 5: Ramucirumab 500 mg|1 CIS|€ 2,141.31|€ 2.00|€ 204.00|€ 1,935.31\nRow 6: Ramucirumab 100 mg|1 CIS|€ 441.14|€ 2.00|€ 40.80|€ 398.34\nRow 7: Vinorelbine 10 mg|10 CIS|€ 293.98|€ 2.00|€ 13.42|€ 278.56\nRow 8: Vinorelbine 50 mg|10 CIS|€ 1,424.53|€ 2.00|€ 67.07|€ 1,355.46\nRow 9: Abbreviations: FCT = film-coated tablets, HC = hard capsules, CIS = concentrate for the preparation of an infusion solution, PIS = powder for the preparation of an infusion suspension; SC = soft capsules|||||",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 3,
-      "text": "Packaging\nsize     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of the\nRow 2: therapy",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 4,
-      "text": "Costs       \n(pharmacy   \nsales price)"
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Packaging\nRow 2: size",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 5,
-      "text": "Rebate \nSection\n130 SGB\nV      "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs\nRow 2: (pharmacy\nRow 3: sales price)",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 6,
-      "text": "Rebate \nSection\n130a   \nSGB V  "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130 SGB\nRow 4: V",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 7,
-      "text": "Costs after \ndeduction of\nstatutory   \nrebates     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130a\nRow 4: SGB V",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 8,
-      "text": "Designation of the therapy                  |            | Packaging size | Costs (pharmacy sales price) | Rebate Section 130 SGB V | Rebate Section 130a SGB V | Costs after deduction of statutory rebates | Treatment days/ year | Costs/ patient/ year | \nMedicinal product to be assessed: Sotorasib |            |                |                              |                          |                           |                                            |                      |                      | \nNot applicable                              |            |                |                              |                          |                           |                                            |                      |                      | \nAppropriate comparator therapy:             |            |                |                              |                          |                           |                                            |                      |                      | \n                                            | Pemetrexed |                |                              |                          |                           |                                            |                      |                      | "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs after\nRow 2: deduction of\nRow 3: statutory\nRow 4: rebates",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 9,
-      "text": "Designation of\nthe therapy   "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of the therapy||Packaging size|Costs (pharmacy sales price)|Rebate Section 130 SGB V|Rebate Section 130a SGB V|Costs after deduction of statutory rebates|Treatment days/ year|Costs/ patient/ year|\nRow 2: Medicinal product to be assessed: Sotorasib|||||||||\nRow 3: Not applicable|||||||||\nRow 4: Appropriate comparator therapy:|||||||||\nRow 5: |Pemetrexed||||||||",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 10,
-      "text": "Packaging\nsize     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of\nRow 2: the therapy",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 11,
-      "text": "Costs       \n(pharmacy   \nsales price)"
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Packaging\nRow 2: size",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 12,
-      "text": "Rebate \nSection\n130    \nSGB V  "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs\nRow 2: (pharmacy\nRow 3: sales price)",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 13,
-      "text": "Rebate \nSection\n130a   \nSGB V  "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130\nRow 4: SGB V",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 14,
-      "text": "Costs after \ndeduction   \nof statutory\nrebates     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130a\nRow 4: SGB V",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 15,
-      "text": "Treatment \ndays/ year"
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs after\nRow 2: deduction\nRow 3: of statutory\nRow 4: rebates",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 23,
-      "table_index": 16,
-      "text": "Costs/  \npatient/\nyear    "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Treatment\nRow 2: days/ year",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 24,
-      "table_index": 1,
-      "text": "Designation of the therapy                      | Packaging size      | Costs (pharmacy sales price) | Rebate Section 130 SGB V | Rebate Section 130a SGB V | Costs after deduction of statutory rebates | Treatment days/ year | Costs/ patient/ year\nDexamethasone8 ,9 (2 x 4 mg P.O.)               | 100 TAB 4 mg each   | € 79.50                      | € 2.00                   | € 5.40                    | € 72.10                                    | 52.2                 | € 75.27             \nFolic acid (350 – 1,000 μg/day, p.o.)           | 100 TAB 400 μg each | € 16.89                      | € 0.84                   | € 2.13                    | € 13.92                                    | 365.0                | € 50.81 - € 101.62  \nVitamin B128 (1,000 μg/day, every 3 cycles, IM) | 10 AMP 1000 μg each | € 7.40                       | € 0.37                   | € 0.32                    | € 6.71                                     | 5.8                  | € 3.89              \nAbbreviations: TAB = tablets; AMP = ampoules    |                     |                              |                          |                           |                                            |                      |                     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs/\nRow 2: patient/\nRow 3: year",
+      "start_page": 23,
+      "end_page": 23
     },
     {
-      "page": 24,
-      "table_index": 2,
-      "text": "Designation of\nthe therapy   "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of the therapy|Packaging size|Costs (pharmacy sales price)|Rebate Section 130 SGB V|Rebate Section 130a SGB V|Costs after deduction of statutory rebates|Treatment days/ year|Costs/ patient/ year\nRow 2: Dexamethasone8 ,9 (2 x 4 mg P.O.)|100 TAB 4 mg each|€ 79.50|€ 2.00|€ 5.40|€ 72.10|52.2|€ 75.27\nRow 3: Folic acid (350 – 1,000 μg/day, p.o.)|100 TAB 400 μg each|€ 16.89|€ 0.84|€ 2.13|€ 13.92|365.0|€ 50.81 - € 101.62\nRow 4: Vitamin B128 (1,000 μg/day, every 3 cycles, IM)|10 AMP 1000 μg each|€ 7.40|€ 0.37|€ 0.32|€ 6.71|5.8|€ 3.89\nRow 5: Abbreviations: TAB = tablets; AMP = ampoules|||||||",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 24,
-      "table_index": 3,
-      "text": "Packaging\nsize     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Designation of\nRow 2: the therapy",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 24,
-      "table_index": 4,
-      "text": "Costs       \n(pharmacy   \nsales price)"
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Packaging\nRow 2: size",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 24,
-      "table_index": 5,
-      "text": "Rebate \nSection\n130    \nSGB V  "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs\nRow 2: (pharmacy\nRow 3: sales price)",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 24,
-      "table_index": 6,
-      "text": "Rebate \nSection\n130a   \nSGB V  "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130\nRow 4: SGB V",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 24,
-      "table_index": 7,
-      "text": "Costs after \ndeduction   \nof statutory\nrebates     "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Rebate\nRow 2: Section\nRow 3: 130a\nRow 4: SGB V",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 24,
-      "table_index": 8,
-      "text": "Treatment \ndays/ year"
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs after\nRow 2: deduction\nRow 3: of statutory\nRow 4: rebates",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 24,
-      "table_index": 9,
-      "text": "Costs/  \npatient/\nyear    "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Treatment\nRow 2: days/ year",
+      "start_page": 24,
+      "end_page": 24
     },
     {
-      "page": 27,
-      "table_index": 1,
-      "text": "                                |                                       |                                                                                                       \nSession                         | Date                                  | Subject of consultation                                                                               \n                                |                                       |                                                                                                       \nSubcommittee Medicinal products | 23 March 2021                         | Determination of the appropriate comparator therapy                                                   \nWorking group Section 35a       | 30 May 2023                           | Information on written statements received; preparation of the oral hearing                           \nSubcommittee Medicinal products | 5 June 2023                           | Conduct of the oral hearing, Commissioning of the IQWiG with the supplementary assessment of documents\nWorking group Section 35a       | 13 June 2023 5 July 2023 19 July 2023 | Consultation on the dossier assessment by the IQWiG, evaluation of the written statement procedure    \nSubcommittee Medicinal products | 25 July 2023                          | Concluding discussion of the draft resolution                                                         \nPlenum                          | 3 August 2023                         | Adoption of the resolution on the amendment of Annex XII AM-RL                                        "
+      "heading": "table under heading <8 Fixed reimbursement rate>",
+      "text": "Row 1: Costs/\nRow 2: patient/\nRow 3: year",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "table under heading <Session Date Subject of consultation>",
+      "text": "Row 1: ||\nRow 2: Session|Date|Subject of consultation\nRow 3: ||\nRow 4: Subcommittee Medicinal products|23 March 2021|Determination of the appropriate comparator therapy\nRow 5: Working group Section 35a|30 May 2023|Information on written statements received; preparation of the oral hearing\nRow 6: Subcommittee Medicinal products|5 June 2023|Conduct of the oral hearing, Commissioning of the IQWiG with the supplementary assessment of documents\nRow 7: Working group Section 35a|13 June 2023 5 July 2023 19 July 2023|Consultation on the dossier assessment by the IQWiG, evaluation of the written statement procedure\nRow 8: Subcommittee Medicinal products|25 July 2023|Concluding discussion of the draft resolution\nRow 9: Plenum|3 August 2023|Adoption of the resolution on the amendment of Annex XII AM-RL",
+      "start_page": 27,
+      "end_page": 27
     }
   ]
 }

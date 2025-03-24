@@ -1,15 +1,16 @@
 import os
 import re
 import json
-import pdfplumber
-from collections import Counter
 import statistics
+import pdfplumber
+from collections import defaultdict
 
-import os
-import re
 import json
-import statistics
-import pdfplumber
+import gc
+import shutil
+import torch
+from transformers import pipeline
+from langdetect import detect
 
 class PDFProcessor:
     def __init__(
@@ -32,7 +33,12 @@ class PDFProcessor:
         self.created_date = created_date
         self.keywords = keywords or []
 
+        # Will store a list of all headings found, plus a per-page mapping
+        self.global_headings_list = []       # list of (page_num, heading_text) in reading order
+        self.page_headings_map = defaultdict(list)  # page_num -> [heading_text1, heading_text2, ...]
+
     def print_boilerplate_lines(self, boilerplate_normed, normed_line_pages):
+        """Logs boilerplate lines that were removed from the PDF."""
         print(f"Boilerplate lines removed from {self.pdf_path}:")
         for normed in boilerplate_normed:
             pages = sorted(normed_line_pages[normed])
@@ -40,27 +46,32 @@ class PDFProcessor:
 
     @staticmethod
     def remove_links(line: str) -> str:
+        """Removes URLs and empty parentheses from a given text line."""
         line_no_links = re.sub(r'\(?(?:https?://|www\.)\S+\)?', '', line)
         line_no_links = re.sub(r'\(\s*\)', '', line_no_links)
         return line_no_links.strip()
 
     @staticmethod
     def advanced_normalize(line: str) -> str:
+        """Normalizes text by removing digits and non-alpha characters."""
         norm = line.lower()
-        norm = re.sub(r'\d+', '', norm)       # remove digits
-        norm = re.sub(r'[^a-z]+', '', norm)     # remove all non-alpha characters
+        norm = re.sub(r'\d+', '', norm)
+        norm = re.sub(r'[^a-z]+', '', norm)
         return norm.strip()
 
     @staticmethod
     def contains_of_contents(line: str) -> bool:
+        """Checks if the line contains 'of contents', indicating a table of contents entry."""
         return bool(re.search(r'\bof\s+contents\b', line, re.IGNORECASE))
 
     @staticmethod
     def is_toc_dotline(line: str) -> bool:
+        """Checks if a line is a dotted table of contents entry."""
         return bool(re.search(r'\.{5,}\s*\d+$', line))
 
     @staticmethod
     def is_footnote_source(line: str) -> bool:
+        """Determines if the line is a reference or footnote source."""
         stripped = line.strip()
         if not stripped:
             return False
@@ -68,18 +79,9 @@ class PDFProcessor:
         if not re.match(r'^(\[\d+\]|[\d\.]+)\b', stripped):
             return False
 
-        reference_patterns = [
-            r'et al\.',
-            r'Disponible en ligne',
-            r'consulté le',
-            r'NEJM',
-            r'PubMed',
-            r'doi'
-        ]
+        reference_patterns = [r'et al\.', r'Disponible en ligne', r'consulté le', r'NEJM', r'PubMed', r'doi']
         combined = '(' + '|'.join(reference_patterns) + ')'
-        if re.search(combined, stripped, flags=re.IGNORECASE):
-            return True
-        return False
+        return bool(re.search(combined, stripped, flags=re.IGNORECASE))
 
     def detect_headings_by_font(self, page):
         """
@@ -87,8 +89,8 @@ class PDFProcessor:
         and vertical spacing (space above and below).
         """
         words = page.extract_words(
-            x_tolerance=2, 
-            y_tolerance=2, 
+            x_tolerance=2,
+            y_tolerance=2,
             extra_attrs=["fontname", "size"]
         )
         if not words:
@@ -225,89 +227,128 @@ class PDFProcessor:
 
     def extract_tables_from_pdf(self, pdf):
         """
-        Extracts tables from the PDF and returns them as formatted strings that preserve their 2D structure.
-        Returns a list of dictionaries, each containing:
-          - page (int): The page number where the table was found.
-          - table_index (int): The index of the table on that page.
-          - text (str): A formatted string representation of the table.
+        After headings are determined and stored in self.page_headings_map,
+        extract tables. For each table, try to find a 'table title' from a heading on that page
+        that literally contains the word 'table' (ignoring case). 
+        If none found, name the table 'table under heading <X>' where <X> is the last heading found.
+        If no heading is found at all, use 'table under heading <none>'.
+        
+        Returns a list of dicts with shape:
+          {
+            "page": page_number,
+            "heading": the resolved table heading,
+            "text": the flattened table text (each row prefixed with 'Row X:')
+          }
         """
         tables_info = []
+        num_pages = len(pdf.pages)
+
+        # Helper to find the last heading text from previous pages
+        def find_last_heading_upto_page(p):
+            """Find the most recent heading on or before page p (ignoring headings that contain 'table')."""
+            # We only want the last heading in total if that page or previous pages has any headings
+            for page_ix in range(p, 0, -1):
+                if self.page_headings_map[page_ix]:
+                    return self.page_headings_map[page_ix][-1]
+            return None
+
         for page_num, page in enumerate(pdf.pages, start=1):
             page_tables = page.extract_tables()
             if not page_tables:
                 continue
-            for i, table in enumerate(page_tables, start=1):
-                if not table:
+
+            # Identify if there's a heading on this page containing the word 'table'
+            # We'll do a reverse search for any heading that has 'table' in it.
+            # If multiple headings mention 'table', we’ll just use the last one.
+            table_headings = []
+            for h in self.page_headings_map[page_num]:
+                if re.search(r'table', h, re.IGNORECASE):
+                    table_headings.append(h)
+
+            last_table_heading = table_headings[-1] if table_headings else None
+            # fallback heading if no heading has 'table'
+            fallback_heading = self.page_headings_map[page_num][-1] if self.page_headings_map[page_num] else None
+
+            for i, table_data in enumerate(page_tables, start=1):
+                # Flatten the table
+                flattened = self.flatten_table(table_data)
+                flattened = flattened.strip()
+                if not flattened:
                     continue
-                formatted_table = self.flatten_table(table)
-                if formatted_table.strip():
-                    tables_info.append({
-                        "page": page_num,
-                        "table_index": i,
-                        "text": formatted_table
-                    })
+
+                if last_table_heading:
+                    # We found a heading on this page containing the word 'table'
+                    table_title = last_table_heading
+                else:
+                    # We'll use the fallback heading, or if none on this page, look in previous pages
+                    if fallback_heading:
+                        table_title = f"table under heading <{fallback_heading}>"
+                    else:
+                        # No heading at all on this page, try previous pages
+                        last_heading_on_previous = find_last_heading_upto_page(page_num - 1)
+                        if last_heading_on_previous:
+                            table_title = f"table under heading <{last_heading_on_previous}>"
+                        else:
+                            table_title = "table under heading <none>"
+
+                tables_info.append({
+                    "page": page_num,
+                    "heading": table_title,
+                    "text": flattened
+                })
+
         return tables_info
 
     @staticmethod
     def flatten_table(table):
         """
-        Converts a table (list of lists) into a readable, formatted text representation with aligned columns.
-        This version cleans each cell by replacing newlines and multiple spaces with a single space.
-        :param table: 2D list representing the table.
-        :return: A formatted table as a single string.
+        Converts a table (list of lists) into lines where each row is:
+            Row X: cell1|cell2|cell3
+        with no extra padding around the '|'.
         """
         if not table:
             return ""
-        # Determine the maximum number of columns in any row
-        ncols = max(len(row) for row in table)
-        col_widths = [0] * ncols
-        cleaned_table = []
+
         # Clean each cell in the table (remove newlines and extra spaces)
+        cleaned_table = []
         for row in table:
             cleaned_row = []
             for cell in row:
                 if cell is None:
-                    cleaned_cell = ""
-                else:
-                    # Replace any sequence of whitespace (including newlines) with a single space
-                    cleaned_cell = re.sub(r'\s+', ' ', cell).strip()
+                    cell = ""
+                # Replace any sequence of whitespace (including newlines) with a single space
+                cleaned_cell = re.sub(r'\s+', ' ', cell).strip()
                 cleaned_row.append(cleaned_cell)
             cleaned_table.append(cleaned_row)
-        # Compute maximum width per column
-        for row in cleaned_table:
-            for i in range(len(row)):
-                col_widths[i] = max(col_widths[i], len(row[i]))
-        # Build each row with appropriate padding
-        formatted_rows = []
-        for row in cleaned_table:
-            formatted_row = []
-            for i in range(ncols):
-                cell = row[i] if i < len(row) else ""
-                formatted_row.append(cell.ljust(col_widths[i]))
-            formatted_rows.append(" | ".join(formatted_row))
-        return "\n".join(formatted_rows)
+
+        # Build lines with a Row index
+        lines = []
+        for i, row in enumerate(cleaned_table, start=1):
+            row_str = "|".join(row)
+            lines.append(f"Row {i}: {row_str}")
+
+        return "\n".join(lines)
 
     def extract_preliminary_chunks(self):
         """
         Main function that:
-          - Extracts text from each page, performs cleanup, and identifies chunks based on headings.
-          - Extracts and formats tables from each page.
-        Returns:
-          Dictionary containing:
-            - doc_id: Document identifier.
-            - chunks: List of text chunks with headings.
-            - tables: List of formatted tables with page numbers.
+          1. Extracts text and identifies headings from each page (skipping footnotes, boilerplate, etc.).
+          2. Stores headings per page in self.page_headings_map.
+          3. Extracts tables, tries to detect table titles, and inserts them as separate chunks.
+          4. Returns a dictionary:
+               {
+                 "doc_id": self.doc_id,
+                 "chunks": [ { "heading": ..., "text": ..., "start_page": ..., "end_page": ...}, ... ]
+               }
         """
         try:
             with pdfplumber.open(self.pdf_path) as pdf:
-                # Extract tables
-                tables_list = self.extract_tables_from_pdf(pdf)
-
+                # We'll first gather all lines/heading info (without handling tables).
                 num_pages = len(pdf.pages)
                 normed_line_pages = {}
                 pages_with_lines = []
 
-                # Extract text and headings from each page
+                # Pass 1: gather potential headings and normal lines
                 for i, page in enumerate(pdf.pages, start=1):
                     line_objs = self.detect_headings_by_font(page)
                     pages_with_lines.append((i, line_objs))
@@ -331,6 +372,7 @@ class PDFProcessor:
                 filtered_lines = []
                 in_footnote = False
 
+                # Filter out footnotes and boilerplate
                 for page_num, line_objs in pages_with_lines:
                     for lo in line_objs:
                         line_text = lo["text"]
@@ -338,12 +380,14 @@ class PDFProcessor:
                             continue
 
                         if in_footnote:
+                            # If we hit a new heading or an empty line, end footnote consumption
                             if not line_text.strip() or lo["likely_heading"]:
                                 in_footnote = False
                                 continue
                             else:
                                 continue
 
+                        # If line looks like a footnote reference, skip
                         if self.is_footnote_source(line_text):
                             in_footnote = True
                             continue
@@ -363,12 +407,13 @@ class PDFProcessor:
                         heading_flag = lo["likely_heading"]
                         filtered_lines.append((page_num, line_text.strip(), heading_flag))
 
-                # Compile text chunks
+                # Build text chunks, track headings
                 chunks = []
                 buffer = []
                 current_heading = ""
 
                 def flush_buffer():
+                    """Dump the buffered lines into a chunk if any."""
                     nonlocal current_heading
                     if buffer:
                         min_page = min(x[0] for x in buffer)
@@ -384,22 +429,40 @@ class PDFProcessor:
 
                 for (pnum, text_line, is_heading) in filtered_lines:
                     if is_heading:
+                        # Before we switch heading, flush existing buffer
                         flush_buffer()
                         current_heading = text_line
+                        self.global_headings_list.append((pnum, text_line))
+                        self.page_headings_map[pnum].append(text_line)
                     else:
                         buffer.append((pnum, text_line))
 
                 flush_buffer()
 
+                # Now we extract tables with knowledge of headings
+                tables_info = self.extract_tables_from_pdf(pdf)
+
+                # Insert each table as its own chunk
+                for tinfo in tables_info:
+                    pg = tinfo["page"]
+                    heading_for_table = tinfo["heading"]
+                    table_text = tinfo["text"]
+                    chunks.append({
+                        "heading": heading_for_table,
+                        "text": table_text,
+                        "start_page": pg,
+                        "end_page": pg
+                    })
+
+                # Return the final structure
                 return {
                     "doc_id": self.doc_id,
-                    "chunks": chunks,
-                    "tables": tables_list
+                    "chunks": chunks
                 }
 
         except Exception as e:
             print(f"Error reading {self.pdf_path}: {e}")
-            return {"doc_id": self.doc_id, "chunks": [], "tables": []}
+            return {"doc_id": self.doc_id, "chunks": []}
 
     @staticmethod
     def process_pdfs(
@@ -447,15 +510,6 @@ class PDFProcessor:
                         print(f"Error reading {pdf_path}")
 
 
-
-import os
-import re
-import json
-import gc
-import shutil
-import torch
-from transformers import pipeline
-from langdetect import detect
 
 class Translator:
     """

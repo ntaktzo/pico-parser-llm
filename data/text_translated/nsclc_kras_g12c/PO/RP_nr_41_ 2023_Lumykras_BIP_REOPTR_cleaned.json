@@ -66,33 +66,48 @@
       "text": "1. Position No 41/2023 of 11 April 2023 on the evaluation of Lumykras (sotorasibum) under the drug program • Treatment of patients with lung cancer (ICD -10: C34) and pleural mesothelioma (ICD - 10: C45) 2. Report No OT.4231.74.2022 Application for a refund of Lumykras (sotorasib) under the drug program: • Treatment of lung cancer (ICD - 10: C34) and pleural mesothelioma (ICD - 10: C45) • Verification analysis. Date of completion: 30 March 2023.",
       "start_page": 15,
       "end_page": 15
-    }
-  ],
-  "tables": [
-    {
-      "page": 2,
-      "table_index": 1,
-      "text": "Okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay."
     },
     {
-      "page": 11,
-      "table_index": 1,
-      "text": "Okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay."
+      "heading": "Table under heading <Health problem>",
+      "text": "Row 1: .. Row 2: ..",
+      "start_page": 2,
+      "end_page": 2
     },
     {
-      "page": 13,
-      "table_index": 1,
-      "text": "Okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay."
+      "heading": "Table under heading <Propositions of risk-sharing instruments>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5:",
+      "start_page": 10,
+      "end_page": 10
     },
     {
-      "page": 13,
-      "table_index": 2,
-      "text": "Okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay."
+      "heading": "Table under heading <Propositions of risk-sharing instruments>",
+      "text": "Row 1: .. Row 2: ..",
+      "start_page": 11,
+      "end_page": 11
     },
     {
-      "page": 14,
-      "table_index": 1,
-      "text": "Okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay, okay."
+      "heading": "Table under heading <Remarks on the drug programme>",
+      "text": "Row 1: .. Row 2: ..",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Table under heading <Remarks on the drug programme>",
+      "text": "Row 1: * Row 2: * Row 3: * Row 4: * Row 5: *",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Table under heading <Remarks on the drug programme>",
+      "text": "Row 1: ♪ Row 2: ♪ Row 3: ♪",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "heading": "Table under heading <Remarks on the drug programme>",
+      "text": "Row 1: Row 2:",
+      "start_page": 14,
+      "end_page": 14
     }
   ]
 }
