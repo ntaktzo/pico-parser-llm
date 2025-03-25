@@ -44,6 +44,7 @@ path_pdf = "data/PDF"  # Ensure this folder exists
 path_clean = "data/text_cleaned"
 path_translated = "data/text_translated"
 path_chunked = "data/text_chunked"
+path_vectorstore = "data/vectorstore"
 
 # Call the base function that processes all PDFs in the folder
 PDFProcessor.process_pdfs(path_pdf, path_clean)
@@ -52,30 +53,26 @@ PDFProcessor.process_pdfs(path_pdf, path_clean)
 translator = Translator(path_clean, path_translated)
 translator.translate_documents()
 
-
-#### HIERONDER VERDER GAAN
-
 ### 3. CHUNKING & VECTORISATION
-# Run the chunker
+# Initialise and run the chunker
 chunker = Chunker(
-    json_folder_path="./data/text/nsclc_kras_g12c",
-    output_dir="./data/text_chunked",
+    json_folder_path = path_translated,
+    output_dir = path_chunked,
     chunk_size=600,
     chunk_overlap=100
 )
 chunker.run_pipeline()
 
-# Example usage for OpenAI
+# Initialise and run the vectorizer
 vectoriser_openai = Vectoriser(
-    chunked_folder_path="./data/text_chunked",
-    embedding_choice=embedding,
-    db_parent_dir="./data/vectorstore"
+    chunked_folder_path = path_chunked,
+    embedding_choice = embedding,
+    db_parent_dir = path_vectorstore
 )
-vectoriser_openai.run_pipeline()
+vectorstore = vectoriser_openai.run_pipeline()
 
-# Optional: visualize vectorstore
+# Then pass the actual vectorstore object to visualize:
 vectoriser_openai.visualize_vectorstore(vectorstore)
-
 
 
 ### 5. QUERY LLM

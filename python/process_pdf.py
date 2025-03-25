@@ -11,6 +11,7 @@ import shutil
 import torch
 from transformers import pipeline
 from langdetect import detect
+from typing import Optional
 
 class PDFProcessor:
     def __init__(
@@ -32,11 +33,51 @@ class PDFProcessor:
         self.title = title
         self.created_date = created_date
         self.keywords = keywords or []
+        self.global_headings_list = []
+        self.page_headings_map = defaultdict(list)
 
-        # Will store a list of all headings found, plus a per-page mapping
-        self.global_headings_list = []       # list of (page_num, heading_text) in reading order
-        self.page_headings_map = defaultdict(list)  # page_num -> [heading_text1, heading_text2, ...]
+        # Immediately extract and store submission year upon initialization
+        self.created_date = self.find_submission_year()
+        print("--------------------------------------------")
+        print(f"Submission year for '{self.pdf_path}': {self.created_date}")
 
+    def find_submission_year(self):
+        """
+        Finds the submission/report year from the first page of the PDF.
+        Stores the year in self.created_date, or 'unknown_year' if none found.
+        """
+        try:
+            with pdfplumber.open(self.pdf_path) as pdf:
+                if not pdf.pages:
+                    return "unknown_year"
+                first_page_text = pdf.pages[0].extract_text() or ""
+        except Exception:
+            return "unknown_year"
+
+        year_pattern = r"\b(19|20)\d{2}\b"
+
+        triggers = [
+            "submission date", "submitted on", "report date", "date of submission", "date of issue",
+            "soumission", "data di presentazione", "fecha de presentación",
+            "datum der einreichung", "fecha de remisión", "submitted:", "issued on", "rapport",
+        ]
+
+        lines = first_page_text.splitlines()
+
+        for line in lines:
+            line_lower = line.lower()
+            if any(trigger in line_lower for trigger in triggers):
+                years_in_line = re.findall(year_pattern, line)
+                years_in_line = re.findall(r"\b(?:19|20)\d{2}\b", line)
+                if years_in_line:
+                    return years_in_line[0]
+
+        all_years = re.findall(r"\b(?:19|20)\d{2}\b", first_page_text)
+        if all_years:
+            return all_years[0]
+
+        return "unknown_year"
+    
     def print_boilerplate_lines(self, boilerplate_normed, normed_line_pages):
         """Logs boilerplate lines that were removed from the PDF."""
         print(f"Boilerplate lines removed from {self.pdf_path}:")
@@ -457,12 +498,13 @@ class PDFProcessor:
                 # Return the final structure
                 return {
                     "doc_id": self.doc_id,
+                    "created_date": self.created_date,
                     "chunks": chunks
                 }
 
         except Exception as e:
             print(f"Error reading {self.pdf_path}: {e}")
-            return {"doc_id": self.doc_id, "chunks": []}
+            return {"doc_id": self.doc_id, "created_date": self.created_date, "chunks": []}
 
     @staticmethod
     def process_pdfs(
@@ -511,6 +553,13 @@ class PDFProcessor:
 
 
 
+
+
+
+
+
+
+
 class Translator:
     """
     Translator class that processes JSON files with the following structure:
@@ -535,7 +584,7 @@ class Translator:
         ]
       }
     
-    The class translates the "doc_id", each chunk's "heading" and "text", and each table's "text"
+    The class translates each chunk's "heading" and "text", and each table's "text"
     from the original language to English. If the language is already English (or undetected),
     the file is copied unmodified.
     
@@ -570,8 +619,11 @@ class Translator:
             
         print(f"Using device: {self.device}")
 
-    def detect_language(self, text):
-        """Detects the language of the input text."""
+    def detect_language(self, text: str) -> Optional[str]:
+        """
+        Detects the language of the input text.
+        Returns a two-letter language code if successful, otherwise None.
+        """
         try:
             lang = detect(text)
             return lang
@@ -579,8 +631,11 @@ class Translator:
             print(f"Language detection failed: {e}")
             return None
 
-    def get_translator(self, lang):
-        """Returns a translation pipeline for the given language."""
+    def get_translator(self, lang: str):
+        """
+        Returns a Hugging Face translation pipeline for the given language code.
+        If no suitable model is found, returns None.
+        """
         if lang in self.translators:
             return self.translators[lang]
 
@@ -599,7 +654,7 @@ class Translator:
             print(f"No translation model available for language: {lang}")
             return None
 
-    def chunk_text(self, text):
+    def chunk_text(self, text: str) -> list:
         """
         Splits text into smaller chunks for translation.
         Uses a simple regex to split on sentences ending with a period.
@@ -609,17 +664,22 @@ class Translator:
         for sentence in sentences:
             if not sentence.strip():
                 continue
+            # If adding this sentence doesn't exceed max_chunk_length, add it to current chunk
             if len(current_chunk.split()) + len(sentence.split()) <= self.max_chunk_length:
                 current_chunk = f"{current_chunk} {sentence}".strip() if current_chunk else sentence
             else:
+                # Current chunk is full, start a new one
                 chunks.append(current_chunk.strip())
                 current_chunk = sentence
         if current_chunk:
             chunks.append(current_chunk.strip())
         return chunks
 
-    def translate_text(self, text, translator):
-        """Translates a string using the provided translator pipeline in chunks."""
+    def translate_text(self, text: str, translator) -> str:
+        """
+        Translates a string using the provided translator pipeline in chunks.
+        Returns the translated text.
+        """
         if not text.strip():
             return text
         chunks = self.chunk_text(text)
@@ -629,11 +689,14 @@ class Translator:
             translated_chunks.append(translation)
         return "\n\n".join(translated_chunks)
 
-    def translate_json_file(self, input_path, output_path):
+    def translate_json_file(self, input_path: str, output_path: str):
         """
         Reads a JSON file, detects its language from its combined text fields,
-        translates the "doc_id", each chunk's "heading" and "text", and each table's "text",
+        translates each chunk's 'heading' and 'text', as well as each table's 'text',
         and writes the translated content to a new JSON file.
+        
+        If the document is detected as English or undetected, or if no translator is available
+        for that language, the file is copied unmodified.
         """
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -641,7 +704,7 @@ class Translator:
         # Concatenate text from doc_id, chunks, and tables for language detection.
         all_texts = []
         if 'doc_id' in data:
-            all_texts.append(data['doc_id'])
+            all_texts.append(data['doc_id'])  # doc_id is used for detection only (not translated!)
         if 'chunks' in data:
             for ch in data['chunks']:
                 all_texts.append(ch.get('heading', ''))
@@ -649,10 +712,12 @@ class Translator:
         if 'tables' in data:
             for tb in data['tables']:
                 all_texts.append(tb.get('text', ''))
+
         combined_text = "\n".join(all_texts).strip()
         lang = self.detect_language(combined_text)
         print(f"Detected language for '{input_path}': {lang}")
 
+        # If the document is already English, or detection is uncertain, just copy it unmodified
         if lang == 'en' or not lang:
             print(f"File '{input_path}' is in English or language is unknown. Copying file unmodified.")
             shutil.copy(input_path, output_path)
@@ -664,9 +729,8 @@ class Translator:
             shutil.copy(input_path, output_path)
             return
 
-        # Translate "doc_id"
-        if 'doc_id' in data and data['doc_id'].strip():
-            data['doc_id'] = self.translate_text(data['doc_id'], translator)
+        # Note: doc_id is NOT translated, as requested
+        # If doc_id is originally in French (for instance) it will remain in that language
 
         # Translate chunks: headings and texts.
         if 'chunks' in data:
@@ -682,10 +746,12 @@ class Translator:
                 if 'text' in tb and tb['text'].strip():
                     tb['text'] = self.translate_text(tb['text'], translator)
 
+        # Save the translated JSON
         with open(output_path, "w", encoding="utf-8") as out_f:
             json.dump(data, out_f, indent=2, ensure_ascii=False)
         print(f"Translated JSON saved to '{output_path}'")
 
+        # Free up GPU memory if applicable
         gc.collect()
         if self.device.type == "mps":
             torch.mps.empty_cache()
@@ -707,4 +773,3 @@ class Translator:
                 os.makedirs(output_subdir, exist_ok=True)
                 output_path = os.path.join(output_subdir, file)
                 self.translate_json_file(input_path, output_path)
-
