@@ -13,10 +13,12 @@ from openai import OpenAI
 
 # Local imports
 from python.utils import FolderTree
-from python.process_pdf import PDFProcessor
-from python.process_pdf import Translator
-from python.vectorisation import Chunker
-from python.vectorisation import Vectoriser
+from python.utils import TestRetrieval
+from python.process import PDFProcessor
+from python.process import Translator
+from python.vectorise import Chunker
+from python.vectorise import Vectoriser
+
 from python.open_ai import validate_api_key
 
 
@@ -73,6 +75,11 @@ vectorstore = vectoriser_openai.run_pipeline()
 
 # Then pass the actual vectorstore object to visualize:
 vectoriser_openai.visualize_vectorstore(vectorstore)
+
+TestRetrieval(vectorstore).similarity_search("lung cancer", k=5)
+
+
+
 
 
 ### 5. QUERY LLM
