@@ -1,47 +1,30 @@
-import os
-from typing import List, Dict, Any, Optional
+import json
+from typing import List, Dict, Any, Optional, Union
+from chromadb import Collection
 from langchain.vectorstores import Chroma
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import SystemMessage, HumanMessage, BaseMessage
+
 
 class ChunkRetriever:
     """
-    Demonstration class for Step 1 of your RAG pipeline:
-      1) Primary metadata filtering (e.g., by country)
-      2) Secondary metadata filtering (e.g., by heading)
-      3) Semantic similarity search
-      4) Ensuring coverage across multiple countries/documents
+    Updated class for RAG retrieval pipeline with corrected metadata filtering.
     """
 
     def __init__(self, vectorstore: Chroma):
-        """
-        :param vectorstore: A loaded Chroma vectorstore object, 
-                            as created by your Vectoriser class.
-        """
         self.vectorstore = vectorstore
-        # Access to underlying collection, if needed for low-level queries.
-        # (Chroma internally exposes the collection as `_collection`.)
-        self.chroma_collection = self.vectorstore._collection
+        self.chroma_collection: Collection = self.vectorstore._collection
 
     def primary_filter_by_country(
         self, 
         country: str,
         limit: int = 1000
     ) -> List[Dict[str, Any]]:
-        """
-        Retrieves chunks from the database *strictly* filtered by 'country' metadata.
-        This is an optional step if you want to gather all content from a given country
-        before narrower filtering.
-        
-        :param country: e.g. "DE", "FR", etc.
-        :param limit: Safety cap on number of chunks.
-        :return: List of chunk dicts, each with 'text' and 'metadata' keys.
-        """
-        # `_collection.get(...)` can be used to filter by metadata:
         result = self.chroma_collection.get(
             where={"country": country},
             limit=limit
         )
         
-        # Transform the result into a list of dicts: {"text":..., "metadata":...}
         filtered_chunks = []
         for doc_text, meta in zip(result["documents"], result["metadatas"]):
             filtered_chunks.append({
@@ -50,26 +33,22 @@ class ChunkRetriever:
             })
         return filtered_chunks
 
+
+
     def secondary_filter_by_heading(
         self,
         chunks: List[Dict[str, Any]],
         heading_keywords: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """
-        Narrows a set of already-fetched chunks by examining the 'heading' metadata.
-        
-        :param chunks: List of chunk dicts (from primary_filter_by_country).
-        :param heading_keywords: e.g. ["Population", "Comparator", "Outcomes"].
-                                 If None or empty, no heading-based filter is applied.
-        :return: Filtered list of chunk dicts.
+        Narrows chunks by 'heading' metadata.
         """
         if not heading_keywords:
-            return chunks  # No additional heading filter
+            return chunks
 
         filtered = []
         for chunk in chunks:
             heading = chunk["metadata"].get("heading", "").lower()
-            # If any keyword is found in the heading, keep this chunk
             if any(keyword.lower() in heading for keyword in heading_keywords):
                 filtered.append(chunk)
         return filtered
@@ -77,22 +56,19 @@ class ChunkRetriever:
     def vector_similarity_search(
         self,
         query: str,
-        where_filter: Optional[Dict[str, Any]] = None,
+        filter_meta: Optional[Dict[str, Any]] = None,
         k: int = 5
     ) -> List[Dict[str, Any]]:
         """
-        Performs semantic similarity search within the vectorstore.
-        You can combine it with a metadata filter (where_filter) to restrict results.
+        Semantic similarity search within vectorstore.
         """
         docs = self.vectorstore.similarity_search(
-            query,  # <-- Pass as positional argument, not named
+            query, 
             k=k,
-            filter=where_filter  # Use `filter=` instead of `where=`
+            filter=filter_meta
         )
 
-        results = [{"text": d.page_content, "metadata": d.metadata} for d in docs]
-        return results
-
+        return [{"text": d.page_content, "metadata": d.metadata} for d in docs]
 
     def retrieve_pico_chunks(
         self,
@@ -102,45 +78,209 @@ class ChunkRetriever:
         k: int = 5
     ) -> Dict[str, List[Dict[str, Any]]]:
         """
-        High-level method to systematically ensure coverage across multiple countries.
-        
-        Workflow for each country:
-          1) Primary filter by 'country'
-          2) Optional heading-based filter
-          3) Vector similarity search (restricted to that country)
-          
-        This helps ensure we collect relevant chunks from each country,
-        while also preserving which chunks came from where.
-        
-        :param query: A semantic query for the final vector similarity step, 
-                      e.g. "comparator therapy" or "pico population".
-        :param countries: e.g. ["DE", "FR", "PL", ...]
-        :param heading_keywords: e.g. ["Comparator", "Population"]. If None, skip heading filter.
-        :param k: Number of top matching chunks per country to return.
-        :return: Dictionary keyed by country, each with a list of chunk dicts.
+        Ensures coverage across multiple countries.
         """
         results_by_country = {}
 
         for country in countries:
-            # 1) Primary: gather all from country
             country_chunks = self.primary_filter_by_country(country)
             
-            # 2) Secondary: refine by heading if desired
             if heading_keywords:
                 country_chunks = self.secondary_filter_by_heading(country_chunks, heading_keywords)
-            
-            # 3) Vector similarity search (restricted to the same country)
-            #    We rely on metadata to ensure we only retrieve from that country.
-            #    If you prefer to *only* search among your local 'country_chunks', you'd need
-            #    a separate approach or ephemeral sub-vectorstore. This approach uses the full DB 
-            #    but filters by metadata, so only that country’s chunks are considered.
+
+            # Use metadata filter to restrict similarity search to the given country
             final_hits = self.vector_similarity_search(
                 query=query,
-                where_filter={"country": country}, 
+                filter_meta={"country": country}, 
                 k=k
             )
-            
-            # Combine or store the final result for the country
+
             results_by_country[country] = final_hits
 
         return results_by_country
+
+
+
+class PICOExtractor:
+    """
+    PICOExtractor is a class that integrates with a ChunkRetriever and a LangChain-compatible LLM 
+    (such as OpenAI's ChatGPT) to extract PICO (Population, Intervention, Comparator, Outcome) elements 
+    from chunked Health Technology Assessment (HTA) documents.
+
+    This class:
+    - Accepts a system prompt and model name during initialization.
+    - For each country, retrieves the top-k relevant document chunks using the ChunkRetriever.
+    - Deduplicates and concatenates chunk text to form a prompt context.
+    - Queries the LLM with the context to extract structured PICO information.
+    - Saves each country's extracted PICOs to a file in the 'results' folder.
+    - Returns a list of all extracted PICO dictionaries, one per country.
+    """
+
+    def __init__(
+        self,
+        chunk_retriever,  # Instance of ChunkRetriever
+        system_prompt: str,  # The system prompt used to guide the LLM's behavior
+        model_name: str = "gpt-4o-mini"  # Default model name
+    ):
+        self.chunk_retriever = chunk_retriever
+        self.system_prompt = system_prompt
+        self.model_name = model_name
+        self.llm = ChatOpenAI(model_name=self.model_name, temperature=0)
+
+    def debug_retrieve_chunks(
+        self,
+        countries: List[str],
+        query: str,
+        k: int = 5,
+        heading_keywords: Optional[List[str]] = None
+    ) -> Dict[str, List[Dict[str, Any]]]:
+        """
+        For debugging, retrieve relevant chunks for each country and print them.
+
+        :param countries: List of country codes to retrieve chunks for.
+        :param query: Query string used for semantic search on the chunk retriever.
+        :param k: Number of top chunks to retrieve per country.
+        :param heading_keywords: Optional list of heading keywords to filter chunks.
+        :return: A dictionary keyed by country, mapping to a list of retrieved chunk dicts.
+        """
+        retrieval_results = {}
+
+        for country in countries:
+            # Retrieve chunks for this country
+            results_dict = self.chunk_retriever.retrieve_pico_chunks(
+                query=query,
+                countries=[country],
+                heading_keywords=heading_keywords,
+                k=k
+            )
+
+            # The retriever's return is a dict keyed by country
+            country_chunks = results_dict.get(country, [])
+
+            # Store in our return dictionary
+            retrieval_results[country] = country_chunks
+
+            # Print each chunk for debugging
+            print(f"===== Retrieved Chunks for country: {country} =====")
+            if not country_chunks:
+                print("No chunks retrieved.")
+            else:
+                for idx, chunk_info in enumerate(country_chunks, start=1):
+                    print(f"Chunk {idx}:")
+                    print(f"  {chunk_info}")
+            print("========================================\n")
+
+        return retrieval_results
+
+    def extract_picos(
+        self,
+        countries: List[str],
+        query: str,
+        k: int = 5,
+        heading_keywords: Optional[List[str]] = None,
+        model_override: Optional[Union[str, ChatOpenAI]] = None
+    ) -> List[Dict[str, Any]]:
+        """
+        Extracts PICO elements for a list of countries using retrieved document chunks and an LLM.
+
+        :param countries: List of country codes.
+        :param query: Query string used to retrieve relevant chunks.
+        :param k: Number of top chunks to retrieve per country.
+        :param heading_keywords: Optional list of heading keywords to further filter chunks.
+        :param model_override: Optional model override as a string or ChatOpenAI instance.
+        :return: A list of dictionaries, each containing the country code and extracted PICOs.
+        """
+        results = []
+
+        # Use model override if provided
+        llm_to_use = self.llm
+        if model_override:
+            if isinstance(model_override, str):
+                llm_to_use = ChatOpenAI(model_name=model_override, temperature=0)
+            elif isinstance(model_override, ChatOpenAI):
+                llm_to_use = model_override
+
+        # Ensure the output directory exists
+        os.makedirs("results", exist_ok=True)
+
+        for country in countries:
+            # Retrieve chunks for the country
+            results_dict = self.chunk_retriever.retrieve_pico_chunks(
+                query=query,
+                countries=[country],
+                heading_keywords=heading_keywords,
+                k=k
+            )
+            country_chunks = results_dict.get(country, [])
+            if not country_chunks:
+                continue
+
+            # Deduplicate chunk texts
+            seen_texts = set()
+            context_parts = []
+            for chunk_info in country_chunks:
+                text = chunk_info.get("text", "").strip()
+                if text and text not in seen_texts:
+                    seen_texts.add(text)
+                    context_parts.append(text)
+
+            context_block = "\n\n".join(context_parts)
+
+            # Construct system and user messages
+            system_msg = SystemMessage(content=self.system_prompt)
+            user_prompt = (
+                f"Context:\n{context_block}\n\n"
+                "Instructions:\n"
+                "Identify all distinct sets of Population, Intervention, Comparator, and Outcomes (PICOs) in the above text.\n"
+                "List multiple PICOs if needed. Output valid JSON ONLY in the form:\n"
+                "{\n"
+                f"  \"Country\": \"{country}\",\n"
+                "  \"PICOs\": [\n"
+                "    {\"Population\":\"...\", \"Intervention\":\"...\", \"Comparator\":\"...\", \"Outcomes\":\"...\"}\n"
+                "    <!-- more if multiple PICOs -->\n"
+                "  ]\n"
+                "}\n"
+                "Nothing else. Only JSON."
+            )
+            user_msg = HumanMessage(content=user_prompt)
+
+            # LLM call
+            try:
+                llm_response: BaseMessage = llm_to_use([system_msg, user_msg])
+            except Exception as exc:
+                print(f"LLM call failed for {country}: {exc}")
+                continue
+
+            answer_text = getattr(llm_response, 'content', str(llm_response))
+
+            # Attempt to parse JSON
+            try:
+                parsed_json = json.loads(answer_text)
+            except json.JSONDecodeError:
+                fix_msg = HumanMessage(content="Please correct and return valid JSON in the specified format only.")
+                try:
+                    fix_response = llm_to_use([system_msg, user_msg, fix_msg])
+                    fix_text = getattr(fix_response, 'content', str(fix_response))
+                    parsed_json = json.loads(fix_text)
+                except Exception as parse_err:
+                    print(f"Failed to parse JSON for {country}: {parse_err}")
+                    continue
+
+            # Save and append result
+            if isinstance(parsed_json, dict):
+                parsed_json["Country"] = country
+                results.append(parsed_json)
+                outpath = os.path.join("results", f"picos_{country}.json")
+                with open(outpath, "w") as f:
+                    json.dump(parsed_json, f, indent=2)
+            else:
+                wrapped_json = {
+                    "Country": country,
+                    "PICOs": parsed_json if isinstance(parsed_json, list) else []
+                }
+                results.append(wrapped_json)
+                outpath = os.path.join("results", f"picos_{country}.json")
+                with open(outpath, "w") as f:
+                    json.dump(wrapped_json, f, indent=2)
+
+        return results

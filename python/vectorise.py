@@ -233,22 +233,24 @@ class Vectoriser:
             raise ValueError("Unsupported embedding_choice. Use 'openai' or 'pubmedbert'.")
 
     def create_vectorstore(self, docs: List[Document]):
-        """
-        Creates and persists a new Chroma vectorstore.
-        """
         if os.path.exists(self.db_name):
             shutil.rmtree(self.db_name)
         os.makedirs(self.db_name, exist_ok=True)
-        os.chmod(self.db_name, 0o755)
 
         embeddings = self.get_embeddings()
-        vectorstore = Chroma.from_documents(
-            documents=docs,
+        
+        # Flatten your documents into two lists: texts and metadatas
+        texts = [doc.page_content for doc in docs]
+        metas = [doc.metadata for doc in docs]  # Should contain "country"
+
+        vectorstore = Chroma.from_texts(
+            texts=texts,
             embedding=embeddings,
+            metadatas=metas,
             persist_directory=self.db_name
         )
         vectorstore.persist()
-
+        
         for root, dirs, files in os.walk(self.db_name):
             for d in dirs:
                 os.chmod(os.path.join(root, d), 0o755)

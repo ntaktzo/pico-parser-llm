@@ -1,0 +1,17 @@
+{
+  "Country": "PO",
+  "PICOs": [
+    {
+      "Population": "Patients with KRAS G12C mutation",
+      "Intervention": "Sotorasib (SOT)",
+      "Comparator": "Nintedanib in combination with docetaxel (NIN + DOC) or dual-drug chemotherapy based on platinum (DOC)",
+      "Outcomes": "Efficacy and safety assessment, survival analysis"
+    },
+    {
+      "Population": "Patients with lung disease eligible for second line treatment",
+      "Intervention": "Sotorasib (SOT)",
+      "Comparator": "Docetaxel (DOC)",
+      "Outcomes": "Efficacy and safety assessment, survival analysis"
+    }
+  ]
+}
