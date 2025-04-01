@@ -13,6 +13,8 @@ from transformers import pipeline
 from langdetect import detect
 from typing import Optional
 
+
+
 class PDFProcessor:
     def __init__(
         self,
@@ -38,8 +40,19 @@ class PDFProcessor:
 
         # Immediately extract and store submission year upon initialization
         self.created_date = self.find_submission_year()
+
+        # Extract country from folder structure
+        self.country = self.extract_country_from_path()
+
         print("--------------------------------------------")
         print(f"Submission year for '{self.pdf_path}': {self.created_date}")
+        print(f"Country for '{self.pdf_path}': {self.country}")
+
+    def extract_country_from_path(self):
+        """Extracts the country code from the parent directory name."""
+        parent_dir = os.path.basename(os.path.dirname(self.pdf_path))
+        country_codes = {"DE", "EN", "FR", "NL", "PO", "SE"}
+        return parent_dir if parent_dir in country_codes else "unknown"
 
     def find_submission_year(self):
         """
@@ -499,6 +512,7 @@ class PDFProcessor:
                 return {
                     "doc_id": self.doc_id,
                     "created_date": self.created_date,
+                    "country:": self.country,
                     "chunks": chunks
                 }
 

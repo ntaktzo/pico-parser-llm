@@ -1,0 +1,17 @@
+{
+  "Country": "FR",
+  "PICOs": [
+    {
+      "Population": "Adult patients with non-small cell bronchial cancer (NCBC) KRAS p.G12C metastatic mutated, pre-treated",
+      "Intervention": "Sotorasib",
+      "Comparator": "None (non-comparative Phase I/II study)",
+      "Outcomes": "Objective response rate, adverse events, tolerability"
+    },
+    {
+      "Population": "Patients who received at least one dose of sotorasib",
+      "Intervention": "Sotorasib",
+      "Comparator": "None (safety population analysis)",
+      "Outcomes": "Adverse events, serious adverse events, treatment discontinuation due to adverse events"
+    }
+  ]
+}

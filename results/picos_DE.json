@@ -1,0 +1,11 @@
+{
+  "Country": "DE",
+  "PICOs": [
+    {
+      "Population": "Patients for whom docetaxel is the most appropriate patient-individual therapy",
+      "Intervention": "Sotorasib",
+      "Comparator": "Docetaxel",
+      "Outcomes": "Morbidity, overall survival, symptomatology, health status, health-related quality of life"
+    }
+  ]
+}

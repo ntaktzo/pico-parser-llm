@@ -2,6 +2,7 @@ import os
 from typing import List
 from langchain.docstore.document import Document
 from langchain.vectorstores import Chroma
+import glob
 
 class FolderTree:
     def __init__(self, root_path: str, show_hidden: bool = False, max_depth: int = None):
@@ -69,3 +70,57 @@ class TestRetrieval:
             for key, value in doc.metadata.items():
                 print(f"  {key}: {value}")
             print("-------------------------\n")
+
+
+    @staticmethod
+    def print_headings_from_cleaned_documents(base_folder="./data/text_cleaned"):
+        json_files = glob.glob(os.path.join(base_folder, "**/*.json"), recursive=True)
+
+        for json_file in json_files:
+            print(f"\nDocument: {os.path.basename(json_file)}")
+            print("Headings:")
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                chunks = data.get("chunks", [])
+                if not chunks:
+                    print("  No headings found (empty chunks).")
+                    continue
+
+                for chunk in chunks:
+                    heading = chunk.get("heading", "(No Heading)")
+                    print(f"  - {heading}")
+
+            except Exception as e:
+                print(f"  Error reading {json_file}: {e}")
+
+
+class HeadingPrinter:
+    def __init__(self, base_folder="./data/text_translated"):
+        self.base_folder = base_folder
+
+    def print_all_headings(self):
+        json_files = glob.glob(os.path.join(self.base_folder, "**/*.json"), recursive=True)
+
+        for json_file in json_files:
+            self.print_headings_from_file(json_file)
+
+    def print_headings_from_file(self, json_file):
+        print(f"\nDocument: {os.path.basename(json_file)}")
+        print("Headings:")
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+
+            chunks = data.get("chunks", [])
+            if not chunks:
+                print("  No headings found (empty chunks).")
+                return
+
+            for chunk in chunks:
+                heading = chunk.get("heading", "(No Heading)")
+                print(f"  - {heading}")
+
+        except Exception as e:
+            print(f"  Error reading {json_file}: {e}")

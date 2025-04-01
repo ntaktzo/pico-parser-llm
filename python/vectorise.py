@@ -29,6 +29,8 @@ from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from collections import defaultdict
 
+
+
 class Chunker:
     def __init__(
         self,
@@ -47,7 +49,7 @@ class Chunker:
         """
         Loads JSON files recursively and converts each heading-based entry
         into a preliminary LangChain Document.
-        If a top-level 'created_date' is found, we store it in each chunk's metadata.
+        If top-level 'created_date' or 'country' are found, store them in each chunk's metadata.
         """
         documents = []
         json_files = glob.glob(os.path.join(self.json_folder_path, "**/*.json"), recursive=True)
@@ -64,6 +66,7 @@ class Chunker:
 
             doc_id = data["doc_id"]
             doc_created_date = data.get("created_date", "unknown_year")  # Grab the year if present
+            doc_country = data.get("country", data.get("country:", "unknown"))  # Handle typo 'country:'
             chunks = data["chunks"]
 
             if not isinstance(chunks, list) or len(chunks) == 0:
@@ -75,13 +78,14 @@ class Chunker:
                     print(f"Skipping a chunk in {jf}: missing 'text'.")
                     continue
 
-                # Build the metadata for this chunk, including the doc year
+                # Build the metadata for this chunk, including doc year and country
                 heading_metadata = {
                     "doc_id": doc_id,
                     "heading": c.get("heading", ""),
                     "start_page": c.get("start_page"),
                     "end_page": c.get("end_page"),
-                    "created_date": doc_created_date,  # Store the year in each chunk
+                    "created_date": doc_created_date,
+                    "country": doc_country
                 }
 
                 documents.append(
@@ -97,7 +101,7 @@ class Chunker:
     def chunk_documents(self, docs: List[Document]) -> List[Document]:
         """
         Further splits each heading-based Document if it exceeds chunk_size.
-        Preserves heading metadata (including 'created_date').
+        Preserves heading metadata (including 'created_date' and 'country').
         """
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=self.chunk_size,
@@ -152,6 +156,7 @@ class Chunker:
         heading_docs = self.load_json_documents()
         final_chunks = self.chunk_documents(heading_docs)
         self.save_chunks_to_files(final_chunks)
+
 
 
 
@@ -228,22 +233,24 @@ class Vectoriser:
             raise ValueError("Unsupported embedding_choice. Use 'openai' or 'pubmedbert'.")
 
     def create_vectorstore(self, docs: List[Document]):
-        """
-        Creates and persists a new Chroma vectorstore.
-        """
         if os.path.exists(self.db_name):
             shutil.rmtree(self.db_name)
         os.makedirs(self.db_name, exist_ok=True)
-        os.chmod(self.db_name, 0o755)
 
         embeddings = self.get_embeddings()
-        vectorstore = Chroma.from_documents(
-            documents=docs,
+        
+        # Flatten your documents into two lists: texts and metadatas
+        texts = [doc.page_content for doc in docs]
+        metas = [doc.metadata for doc in docs]  # Should contain "country"
+
+        vectorstore = Chroma.from_texts(
+            texts=texts,
             embedding=embeddings,
+            metadatas=metas,
             persist_directory=self.db_name
         )
         vectorstore.persist()
-
+        
         for root, dirs, files in os.walk(self.db_name):
             for d in dirs:
                 os.chmod(os.path.join(root, d), 0o755)
