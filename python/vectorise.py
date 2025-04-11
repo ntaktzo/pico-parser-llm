@@ -29,7 +29,8 @@ from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from collections import defaultdict
 
-
+from transformers import AutoTokenizer, AutoModel
+import torch
 
 class Chunker:
     def __init__(
@@ -170,7 +171,7 @@ class Chunker:
 class Vectoriser:
     """
     Creates or loads a Chroma vectorstore from chunked JSON documents.
-    Supports embeddings from OpenAI or PubMedBERT.
+    Supports embeddings from OpenAI or BioBERT.
     """
 
     def __init__(
@@ -187,10 +188,10 @@ class Vectoriser:
     def _get_db_path(self) -> str:
         store_name = {
             "openai": "open_ai_vectorstore",
-            "pubmedbert": "pubmedbert_vectorstore"
+            "biobert": "biobert_vectorstore"
         }.get(self.embedding_choice)
         if store_name is None:
-            raise ValueError("Unsupported embedding_choice. Use 'openai' or 'pubmedbert'.")
+            raise ValueError("Unsupported embedding_choice. Use 'openai' or 'biobert'.")
         return os.path.join(self.db_parent_dir, store_name)
 
     def load_chunked_documents(self) -> List[Document]:
@@ -227,10 +228,10 @@ class Vectoriser:
         """
         if self.embedding_choice == "openai":
             return OpenAIEmbeddings()
-        elif self.embedding_choice == "pubmedbert":
-            return HuggingFaceEmbeddings(model_name="NeuML/pubmedbert-base-embeddings")
+        elif self.embedding_choice == "biobert":
+            return HuggingFaceEmbeddings(model_name="pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb")
         else:
-            raise ValueError("Unsupported embedding_choice. Use 'openai' or 'pubmedbert'.")
+            raise ValueError("Unsupported embedding_choice. Use 'openai' or 'biobert'.")
 
     def create_vectorstore(self, docs: List[Document]):
         if os.path.exists(self.db_name):

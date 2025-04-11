@@ -38,7 +38,6 @@ tree.generate()
 # For openai API
 openai = OpenAI()
 model = "gpt-4o-mini"  # Replace with your model
-embedding = "openai"  # Replace with your embedding
 
 #open ai key
 message = validate_api_key() # Read in, and validate the OpenAI API key.
@@ -74,12 +73,23 @@ chunker = Chunker(
 chunker.run_pipeline()
 
 # Initialise and run the vectorizer
+# Create OPENAI vectorstore
 vectoriser_openai = Vectoriser(
     chunked_folder_path = path_chunked,
-    embedding_choice = embedding,
+    embedding_choice = "openai",
     db_parent_dir = path_vectorstore
 )
-vectorstore = vectoriser_openai.run_pipeline()
+
+# Create BioBERT vectorstore
+vectoriser_biobert = Vectoriser(
+    chunked_folder_path = path_chunked,
+    embedding_choice = "biobert",
+    db_parent_dir = path_vectorstore
+)
+
+# create vectorstores
+vectorstore_openai = vectoriser_openai.run_pipeline()
+vectorstore_biobert = vectoriser_biobert.run_pipeline()
 
 # Then pass the actual vectorstore object to visualize:
 vectoriser_openai.visualize_vectorstore(vectorstore)
@@ -102,46 +112,6 @@ SYSTEM_PROMPT = (
 
 # Define your query
 retriever = ChunkRetriever(vectorstore=vectorstore)
-
-
-def test_retriever():
-    # your Chroma store presumably has loaded docs that mention docetaxel, etc.
-    my_retriever = ChunkRetriever(vectorstore=vectorstore)
-
-    query = "What is the comparator for this therapy?"  # a typical user query
-    countries = ["DE"]
-
-    heading_keywords = ["Comparator", "Comparison", "Appropriate comparator therapy"]
-    drug_keywords = [
-        "docetaxel", 
-        "pemetrexed", 
-        "nivolumab", 
-        "pembrolizumab", 
-        "atezolizumab", 
-        "ramucirumab", 
-        "nintedanib"
-    ]
-
-    results = my_retriever.retrieve_pico_chunks(
-        query=query,
-        countries=countries,
-        heading_keywords=heading_keywords,
-        drug_keywords=drug_keywords,
-        initial_k=30,  # can increase further if needed
-        final_k=10
-    )
-
-    for country, docs in results.items():
-        print(f"\n=== Results for country: {country} ===")
-        for i, d in enumerate(docs, start=1):
-            print(f"Document #{i}:")
-            print(f"  Heading: {d['metadata'].get('heading', 'N/A')}")
-            snippet = d["text"].replace("\n", " ")
-            print(f"  Text (snippet): {snippet}...")
-            print(f"  Metadata: {d['metadata']}")
-            print("-----")
-            
-test_retriever()
 
 
 
