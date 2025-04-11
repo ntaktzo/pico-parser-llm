@@ -8,7 +8,10 @@ from langchain.schema import SystemMessage, HumanMessage, BaseMessage
 
 class ChunkRetriever:
     """
-    Updated class for RAG retrieval pipeline with corrected metadata filtering.
+    Example retriever with two-phase approach:
+    1) Vector search to get initial_k chunks
+    2) Re-score them with heading boosts + drug name boosts
+    3) Sort by final score, pick top final_k
     """
 
     def __init__(self, vectorstore: Chroma):
@@ -24,80 +27,104 @@ class ChunkRetriever:
             where={"country": country},
             limit=limit
         )
-        
-        filtered_chunks = []
-        for doc_text, meta in zip(result["documents"], result["metadatas"]):
-            filtered_chunks.append({
-                "text": doc_text,
-                "metadata": meta
-            })
-        return filtered_chunks
+        return [
+            {"text": txt, "metadata": meta}
+            for txt, meta in zip(result["documents"], result["metadatas"])
+        ]
 
-
-
-    def secondary_filter_by_heading(
-        self,
-        chunks: List[Dict[str, Any]],
-        heading_keywords: Optional[List[str]] = None
-    ) -> List[Dict[str, Any]]:
-        """
-        Narrows chunks by 'heading' metadata.
-        """
-        if not heading_keywords:
-            return chunks
-
-        filtered = []
-        for chunk in chunks:
-            heading = chunk["metadata"].get("heading", "").lower()
-            if any(keyword.lower() in heading for keyword in heading_keywords):
-                filtered.append(chunk)
-        return filtered
-
-    def vector_similarity_search(
+    def vector_similarity_search_with_boost(
         self,
         query: str,
         filter_meta: Optional[Dict[str, Any]] = None,
-        k: int = 5
+        heading_keywords: Optional[List[str]] = None,
+        drug_keywords: Optional[List[str]] = None,
+        initial_k: int = 30,  # bigger net
+        final_k: int = 10,
+        heading_boost: float = 3.0,
+        drug_boost: float = 8.0
     ) -> List[Dict[str, Any]]:
         """
-        Semantic similarity search within vectorstore.
+        1) Retrieve top 'initial_k' chunks by semantic similarity.
+        2) Soft-boost if heading matches specific keywords.
+        3) Soft-boost if text contains known drug terms (docetaxel, etc.).
+        4) Re-sort by the new boosted value and return top 'final_k'.
         """
+        # 1) vector similarity search
         docs = self.vectorstore.similarity_search(
-            query, 
-            k=k,
-            filter=filter_meta
+            query=query,
+            k=initial_k,
+            filter=filter_meta,
         )
+        
+        # Because Chroma doesn't always return a raw numeric similarity, we do a
+        # rank-based approach or you can fetch the actual scores if possible.
+        # We'll do rank-based from the order docs appear in the result:
+        scored_docs = []
+        keyword_set = set(kw.lower() for kw in (heading_keywords or []))
+        drug_set = set(dr.lower() for dr in (drug_keywords or []))
 
-        return [{"text": d.page_content, "metadata": d.metadata} for d in docs]
+        for i, d in enumerate(docs):
+            # base score: higher for earlier docs (since they're presumably higher similarity)
+            base_score = (initial_k - i)  
+
+            # heading boost
+            heading_lower = d.metadata.get("heading", "").lower()
+            if any(k in heading_lower for k in keyword_set):
+                base_score += heading_boost
+
+            # drug name boost
+            text_lower = d.page_content.lower()
+            # If *any* known drug name is present, we add a boost
+            if any(drug in text_lower for drug in drug_set):
+                base_score += drug_boost
+
+            scored_docs.append((d, base_score))
+
+        # 2) re-sort descending
+        scored_docs.sort(key=lambda x: x[1], reverse=True)
+
+        # 3) pick top final_k
+        top_docs = scored_docs[:final_k]
+
+        # 4) format results
+        return [
+            {"text": doc.page_content, "metadata": doc.metadata}
+            for (doc, _) in top_docs
+        ]
 
     def retrieve_pico_chunks(
         self,
         query: str,
         countries: List[str],
         heading_keywords: Optional[List[str]] = None,
-        k: int = 5
+        drug_keywords: Optional[List[str]] = None,
+        initial_k: int = 30,
+        final_k: int = 10
     ) -> Dict[str, List[Dict[str, Any]]]:
         """
-        Ensures coverage across multiple countries.
+        Retrieve results by country, applying the new two-phase approach.
         """
         results_by_country = {}
 
         for country in countries:
-            country_chunks = self.primary_filter_by_country(country)
-            
-            if heading_keywords:
-                country_chunks = self.secondary_filter_by_heading(country_chunks, heading_keywords)
+            # optional pre-filter
+            _ = self.primary_filter_by_country(country)
 
-            # Use metadata filter to restrict similarity search to the given country
-            final_hits = self.vector_similarity_search(
+            final_hits = self.vector_similarity_search_with_boost(
                 query=query,
-                filter_meta={"country": country}, 
-                k=k
+                filter_meta={"country": country},
+                heading_keywords=heading_keywords,
+                drug_keywords=drug_keywords,
+                initial_k=initial_k,
+                final_k=final_k
             )
 
             results_by_country[country] = final_hits
 
         return results_by_country
+
+
+
 
 
 
