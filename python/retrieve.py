@@ -130,13 +130,14 @@ class ChunkRetriever:
 
 class PICOExtractor:
     """
-    PICOExtractor is a class that integrates with a ChunkRetriever and a LangChain-compatible LLM 
-    (such as OpenAI's ChatGPT) to extract PICO (Population, Intervention, Comparator, Outcome) elements 
-    from chunked Health Technology Assessment (HTA) documents.
+    PICOExtractor is a class that integrates with a ChunkRetriever and a LangChain-compatible LLM
+    (such as OpenAI's ChatGPT) to extract PICO (Population, Intervention, Comparator, Outcome)
+    elements from chunked Health Technology Assessment (HTA) documents.
 
     This class:
     - Accepts a system prompt and model name during initialization.
-    - For each country, retrieves the top-k relevant document chunks using the ChunkRetriever.
+    - For each country, retrieves the top-k relevant document chunks using the ChunkRetriever
+      (potentially doing an initial pass with `initial_k` and then a final pass with `final_k`).
     - Deduplicates and concatenates chunk text to form a prompt context.
     - Queries the LLM with the context to extract structured PICO information.
     - Saves each country's extracted PICOs to a file in the 'results' folder.
@@ -158,15 +159,18 @@ class PICOExtractor:
         self,
         countries: List[str],
         query: str,
-        k: int = 5,
+        initial_k: int = 10,
+        final_k: int = 5,
         heading_keywords: Optional[List[str]] = None
     ) -> Dict[str, List[Dict[str, Any]]]:
         """
-        For debugging, retrieve relevant chunks for each country and print them.
+        For debugging, retrieve relevant chunks for each country and print them, allowing you
+        to see the effect of both initial_k and final_k.
 
         :param countries: List of country codes to retrieve chunks for.
         :param query: Query string used for semantic search on the chunk retriever.
-        :param k: Number of top chunks to retrieve per country.
+        :param initial_k: Number of top chunks to retrieve in the initial pass.
+        :param final_k: Number of chunks to return after any further filtering, re-ranking, etc.
         :param heading_keywords: Optional list of heading keywords to filter chunks.
         :return: A dictionary keyed by country, mapping to a list of retrieved chunk dicts.
         """
@@ -178,7 +182,8 @@ class PICOExtractor:
                 query=query,
                 countries=[country],
                 heading_keywords=heading_keywords,
-                k=k
+                initial_k=initial_k,
+                final_k=final_k
             )
 
             # The retriever's return is a dict keyed by country
@@ -203,7 +208,8 @@ class PICOExtractor:
         self,
         countries: List[str],
         query: str,
-        k: int = 5,
+        initial_k: int = 10,
+        final_k: int = 5,
         heading_keywords: Optional[List[str]] = None,
         model_override: Optional[Union[str, ChatOpenAI]] = None
     ) -> List[Dict[str, Any]]:
@@ -212,7 +218,8 @@ class PICOExtractor:
 
         :param countries: List of country codes.
         :param query: Query string used to retrieve relevant chunks.
-        :param k: Number of top chunks to retrieve per country.
+        :param initial_k: Number of top chunks to retrieve in the initial pass.
+        :param final_k: Number of chunks to return after any further filtering, re-ranking, etc.
         :param heading_keywords: Optional list of heading keywords to further filter chunks.
         :param model_override: Optional model override as a string or ChatOpenAI instance.
         :return: A list of dictionaries, each containing the country code and extracted PICOs.
@@ -236,7 +243,8 @@ class PICOExtractor:
                 query=query,
                 countries=[country],
                 heading_keywords=heading_keywords,
-                k=k
+                initial_k=initial_k,
+                final_k=final_k
             )
             country_chunks = results_dict.get(country, [])
             if not country_chunks:
@@ -284,6 +292,7 @@ class PICOExtractor:
             try:
                 parsed_json = json.loads(answer_text)
             except json.JSONDecodeError:
+                # Ask the LLM again to return valid JSON
                 fix_msg = HumanMessage(content="Please correct and return valid JSON in the specified format only.")
                 try:
                     fix_response = llm_to_use([system_msg, user_msg, fix_msg])
@@ -311,3 +320,5 @@ class PICOExtractor:
                     json.dump(wrapped_json, f, indent=2)
 
         return results
+
+

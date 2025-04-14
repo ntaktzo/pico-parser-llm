@@ -92,7 +92,7 @@ vectorstore_openai = vectoriser_openai.run_pipeline()
 vectorstore_biobert = vectoriser_biobert.run_pipeline()
 
 # Then pass the actual vectorstore object to visualize:
-vectoriser_openai.visualize_vectorstore(vectorstore)
+vectoriser_openai.visualize_vectorstore(vectorstore_biobert)
 
 # Test the retrieval
 #TestRetrieval(vectorstore).similarity_search("lung cancer", k=5)
@@ -111,7 +111,7 @@ SYSTEM_PROMPT = (
 )
 
 # Define your query
-retriever = ChunkRetriever(vectorstore=vectorstore)
+retriever = ChunkRetriever(vectorstore=vectorstore_biobert)
 
 
 
@@ -123,15 +123,17 @@ pico_extractor = PICOExtractor(
 
 # Define your debug input
 countries_to_debug = ["EN", "DE", "FR", "PO"]  # Replace with actual country codes relevant to your data
-query = "What is the population and intervention for this HTA?"  # Replace with your real retrieval query
-k = 8  # Number of chunks to retrieve
+query = "What are the comparators and intended populations for the medicine under asessment?"  # Replace with your real retrieval query
+initial_k = 30  # Number of chunks to retrieve
+final_k = 10  # Number of chunks to return after scoring
 heading_keywords = None  # Optional, or set to None
 
 # Run the debug retrieval
 retrieved_chunks = pico_extractor.debug_retrieve_chunks(
     countries=countries_to_debug,
     query=query,
-    k=k,
+    initial_k=initial_k,
+    final_k=final_k,
     heading_keywords=heading_keywords
 )
 
