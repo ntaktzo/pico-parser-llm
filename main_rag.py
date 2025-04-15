@@ -58,7 +58,7 @@ PDFProcessor.process_pdfs(path_pdf, path_clean)
 
 # Step 2. Translate text to English
 translator = Translator(path_clean, path_translated)
-translator.translate_documents()
+#translator.translate_documents()
 
 
 
@@ -67,8 +67,9 @@ translator.translate_documents()
 chunker = Chunker(
     json_folder_path = path_translated,
     output_dir = path_chunked,
-    chunk_size=1000,
-    chunk_overlap=200
+    chunk_size=600,
+    chunk_overlap=200,
+    chunk_strat="semantic"  # Use "semantic" for semantic chunking
 )
 chunker.run_pipeline()
 
@@ -100,33 +101,64 @@ vectoriser_openai.visualize_vectorstore(vectorstore_biobert)
 
 
 ### 4. RETRIEVER 
+# Define the retriever
+retriever = ChunkRetriever(vectorstore=vectorstore_biobert)
 
 # Define the system prompt
 SYSTEM_PROMPT = (
     "You are a medical expert assisting with evidence synthesis. "
-    "When given a context of Health Technology Assessment documents, carefully read and analyze them step-by-step. "
-    "Explicitly identify and clearly distinguish the following elements: Population, Intervention, Comparator, and Outcomes (PICO). "
-    "If multiple PICOs are identified, list each separately. "
-    "Respond only in valid JSON format, strictly following the provided structure."
+    "Carefully review the provided context about Health Technology Assessment documents. "
+    "You must find all relevant Population, Intervention, Comparator, and Outcomes (PICO) information. "
+    "Use step-by-step reasoning internally (chain-of-thought) to identify implicit or explicit comparators,"
+    "including control groups, placebo, 'versus' statements, standard of care, or alternative therapies. "
+    "However, do NOT reveal your chain-of-thought in the final answer. "
+    "Your final output must be valid JSON only, strictly following the requested format. "
+    "No additional commentary or explanation outside the JSON."
+    )
+
+# Define the user prompt template
+USER_PROMPT_TEMPLATE = (
+    "Context:\n{context_block}\n\n"
+    "Instructions:\n"
+    "Identify all distinct sets of Population, Intervention, Comparator, and Outcomes (PICOs) in the above text.\n"
+    "List multiple PICOs if needed. Output valid JSON ONLY in the following form:\n"
+    "{{\n"
+    "  \"Country\": \"{country}\",\n"
+    "  \"PICOs\": [\n"
+    "    {{\"Population\":\"...\", \"Intervention\":\"...\", \"Comparator\":\"...\", \"Outcomes\":\"...\"}}\n"
+    "    <!-- more if multiple PICOs -->\n"
+    "  ]\n"
+    "}}\n"
+    "Nothing else. **Only JSON**, no extra text."
 )
 
-# Define your query
-retriever = ChunkRetriever(vectorstore=vectorstore_biobert)
-
-
+# Define query
+query = "In the context of this HTA (Health Technology Assessment) submission, identify all comparator treatments (including any alternative interventions, control arms, standard-of-care options, placebos, or therapies described as being ‘compared to’ or ‘versus’ the main intervention). For each comparator, also provide details about the intended population—such as disease severity, prior lines of therapy, and any relevant demographic or clinical inclusion/exclusion criteria."
 
 # Instantiate your PICOExtractor
 pico_extractor = PICOExtractor(
     chunk_retriever=retriever,
-    system_prompt=SYSTEM_PROMPT
+    system_prompt=SYSTEM_PROMPT,
+    user_prompt_template=USER_PROMPT_TEMPLATE,
+    model_name="gpt-4o-mini"
 )
 
+# Run the extraction
+extracted_picos = pico_extractor.extract_picos(
+    countries=["EN", "DE", "FR", "PO"],  
+    query=query,
+    initial_k=30,
+    final_k=10,
+    heading_keywords="comparator"
+)
+
+"""
 # Define your debug input
 countries_to_debug = ["EN", "DE", "FR", "PO"]  # Replace with actual country codes relevant to your data
-query = "What are the comparators and intended populations for the medicine under asessment?"  # Replace with your real retrieval query
+query = "In the context of this HTA (Health Technology Assessment) submission, identify all comparator treatments (including any alternative interventions, control arms, standard-of-care options, placebos, or therapies described as being ‘compared to’ or ‘versus’ the main intervention). For each comparator, also provide details about the intended population—such as disease severity, prior lines of therapy, and any relevant demographic or clinical inclusion/exclusion criteria."
 initial_k = 30  # Number of chunks to retrieve
 final_k = 10  # Number of chunks to return after scoring
-heading_keywords = None  # Optional, or set to None
+heading_keywords = "comparator"   # Optional, or set to None
 
 # Run the debug retrieval
 retrieved_chunks = pico_extractor.debug_retrieve_chunks(
@@ -137,4 +169,12 @@ retrieved_chunks = pico_extractor.debug_retrieve_chunks(
     heading_keywords=heading_keywords
 )
 
+pico_extractor.extract_picos(
+    countries=countries_to_debug,
+    query=query,
+    initial_k=initial_k,
+    final_k=final_k,
+    heading_keywords=heading_keywords
+)   
+"""
 

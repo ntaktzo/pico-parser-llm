@@ -2,10 +2,16 @@
   "Country": "DE",
   "PICOs": [
     {
-      "Population": "Patients for whom docetaxel is the most appropriate patient-individual therapy",
-      "Intervention": "Sotorasib",
-      "Comparator": "Docetaxel",
-      "Outcomes": "Morbidity, overall survival, symptomatology, health status, health-related quality of life"
+      "Population": "Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with cytotoxic chemotherapy",
+      "Intervention": "Sotorasib as monotherapy",
+      "Comparator": "Docetaxel (only for patients with PD-L1 negative tumours) or Pemetrexed (only for patients with PD-L1 negative tumours and except in cases of predominantly squamous histology) or Nivolumab or Pembrolizumab (only for patients with PD-L1 expressing tumours) or Atezolizumab or Docetaxel in combination with nintedanib (only for patients with PD-L1 negative tumours and adenocarcinoma histology)",
+      "Outcomes": "Mortality, morbidity, health-related quality of life, and side effects"
+    },
+    {
+      "Population": "Adults with advanced non-small cell lung cancer (NSCLC) with KRAS p.G12C mutation after first-line therapy with an anti-PD-1/PD-L1 in combination with platinum-containing chemotherapy or after sequential therapy with an anti-PD-1/PD-L1 and platinum-containing chemotherapy",
+      "Intervention": "Sotorasib as monotherapy",
+      "Comparator": "Afatinib, Pemetrexed, Erlotinib, Docetaxel, Docetaxel in combination with ramucirumab, Docetaxel in combination with nintedanib, and Vinorelbine",
+      "Outcomes": "Mortality, morbidity, health-related quality of life, and side effects"
     }
   ]
 }

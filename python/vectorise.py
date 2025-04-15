@@ -27,10 +27,14 @@ import json
 from typing import List
 from langchain.docstore.document import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_experimental.text_splitter import SemanticChunker
+
 from collections import defaultdict
 
 from transformers import AutoTokenizer, AutoModel
 import torch
+
+
 
 class Chunker:
     def __init__(
@@ -38,11 +42,13 @@ class Chunker:
         json_folder_path,
         output_dir="./data/text_chunked",
         chunk_size=600,
-        chunk_overlap=100
+        chunk_overlap=100,
+        chunk_strat="recursive"  # <-- Add this to choose the strategy: "semantic" or "recursive"
     ):
         self.json_folder_path = json_folder_path
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
+        self.chunk_strat = chunk_strat
         self.output_dir = output_dir
         os.makedirs(self.output_dir, exist_ok=True)
 
@@ -66,8 +72,8 @@ class Chunker:
                 continue
 
             doc_id = data["doc_id"]
-            doc_created_date = data.get("created_date", "unknown_year")  # Grab the year if present
-            doc_country = data.get("country", data.get("country:", "unknown"))  # Handle typo 'country:'
+            doc_created_date = data.get("created_date", "unknown_year")
+            doc_country = data.get("country", data.get("country:", "unknown"))
             chunks = data["chunks"]
 
             if not isinstance(chunks, list) or len(chunks) == 0:
@@ -79,7 +85,6 @@ class Chunker:
                     print(f"Skipping a chunk in {jf}: missing 'text'.")
                     continue
 
-                # Build the metadata for this chunk, including doc year and country
                 heading_metadata = {
                     "doc_id": doc_id,
                     "heading": c.get("heading", ""),
@@ -101,18 +106,28 @@ class Chunker:
 
     def chunk_documents(self, docs: List[Document]) -> List[Document]:
         """
-        Further splits each heading-based Document if it exceeds chunk_size.
-        Preserves heading metadata (including 'created_date' and 'country').
+        Further splits each heading-based Document using either the "recursive" or
+        "semantic" strategy, based on the chunk_strat field.
         """
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=self.chunk_size,
-            chunk_overlap=self.chunk_overlap,
-            separators=["\n\n", "\n", ".", " ", ""],
-        )
+        if self.chunk_strat == "semantic":
+            # Example: Language model–based text splitter for semantic chunking
+            text_splitter = SemanticChunker(
+                embeddings=HuggingFaceEmbeddings(model_name="pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb"),
+                breakpoint_threshold_amount=75,
+                min_chunk_size=self.chunk_size
+                )
+        else:
+            # Default: Recursive splitter
+            text_splitter = RecursiveCharacterTextSplitter(
+                chunk_size=self.chunk_size,
+                chunk_overlap=self.chunk_overlap,
+                separators=["\n\n", "\n", ".", " ", ""],
+            )
 
         all_splits = []
-
         for doc in docs:
+            # For semantic splitting, we'll call 'split_text' similarly,
+            # but it uses an LLM or other logic internally.
             splits = text_splitter.split_text(doc.page_content)
             for i, split_text in enumerate(splits):
                 sub_doc = Document(
@@ -122,7 +137,7 @@ class Chunker:
                 sub_doc.metadata["split_index"] = i
                 all_splits.append(sub_doc)
 
-        print(f"Total chunks after further splitting: {len(all_splits)}")
+        print(f"Total chunks after {self.chunk_strat} splitting: {len(all_splits)}")
         return all_splits
 
     def save_chunks_to_files(self, chunks: List[Document]):
