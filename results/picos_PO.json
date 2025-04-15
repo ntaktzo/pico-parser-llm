@@ -2,16 +2,16 @@
   "Country": "PO",
   "PICOs": [
     {
-      "Population": "Patients with KRAS G12C mutation",
-      "Intervention": "Sotorasib (SOT)",
-      "Comparator": "Nintedanib in combination with docetaxel (NIN + DOC) or dual-drug chemotherapy based on platinum (DOC)",
-      "Outcomes": "Efficacy and safety assessment, survival analysis"
+      "Population": "Patients with lung cancer (ICD - 10: C34) and pleural mesothelioma (ICD - 10: C45)",
+      "Intervention": "Sotorasib (Lumykras)",
+      "Comparator": "Docetaxel, Nintedanib",
+      "Outcomes": "Progression-free survival (PFS), Overall response rate (ORR), Quality of life (QoL)"
     },
     {
-      "Population": "Patients with lung disease eligible for second line treatment",
-      "Intervention": "Sotorasib (SOT)",
-      "Comparator": "Docetaxel (DOC)",
-      "Outcomes": "Efficacy and safety assessment, survival analysis"
+      "Population": "Immunotherapy-naïve patients with lung cancer",
+      "Intervention": "Atezolizumab or Nivolumab",
+      "Comparator": "Standard of care (chemotherapy, EGFR inhibitors, ALK inhibitors)",
+      "Outcomes": "Efficacy and safety outcomes, Quality of life (QoL)"
     }
   ]
 }

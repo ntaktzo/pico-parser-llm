@@ -2,16 +2,22 @@
   "Country": "FR",
   "PICOs": [
     {
-      "Population": "Adult patients with non-small cell bronchial cancer (NCBC) KRAS p.G12C metastatic mutated, pre-treated",
-      "Intervention": "Sotorasib",
-      "Comparator": "None (non-comparative Phase I/II study)",
-      "Outcomes": "Objective response rate, adverse events, tolerability"
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) presenting the KRAS G12C mutation, previously treated",
+      "Intervention": "LUMYKRAS (sotorasib)",
+      "Comparator": "Docetaxel",
+      "Outcomes": "Objective response rate, safety profile, incidence of adverse events"
     },
     {
-      "Population": "Patients who received at least one dose of sotorasib",
-      "Intervention": "Sotorasib",
-      "Comparator": "None (safety population analysis)",
-      "Outcomes": "Adverse events, serious adverse events, treatment discontinuation due to adverse events"
+      "Population": "Patients with advanced solid tumors with KRAS G12C mutation",
+      "Intervention": "AMG 510 (sotorasib) monotherapy",
+      "Comparator": "Standard treatments (as per ESME cohort)",
+      "Outcomes": "Objective response rate evaluated by an independent review committee"
+    },
+    {
+      "Population": "Patients treated with ATUc",
+      "Intervention": "LUMYKRAS (sotorasib)",
+      "Comparator": "No direct comparator mentioned, observational study",
+      "Outcomes": "Efficacy and safety data"
     }
   ]
 }

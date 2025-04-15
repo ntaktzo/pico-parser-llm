@@ -4,7 +4,14 @@ from chromadb import Collection
 from langchain.vectorstores import Chroma
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage, BaseMessage
+import os
 
+import os
+import json
+from typing import List, Dict, Any, Optional, Union
+
+from langchain.chat_models import ChatOpenAI
+from langchain.schema import SystemMessage, HumanMessage, BaseMessage
 
 class ChunkRetriever:
     """
@@ -132,26 +139,19 @@ class PICOExtractor:
     """
     PICOExtractor is a class that integrates with a ChunkRetriever and a LangChain-compatible LLM
     (such as OpenAI's ChatGPT) to extract PICO (Population, Intervention, Comparator, Outcome)
-    elements from chunked Health Technology Assessment (HTA) documents.
-
-    This class:
-    - Accepts a system prompt and model name during initialization.
-    - For each country, retrieves the top-k relevant document chunks using the ChunkRetriever
-      (potentially doing an initial pass with `initial_k` and then a final pass with `final_k`).
-    - Deduplicates and concatenates chunk text to form a prompt context.
-    - Queries the LLM with the context to extract structured PICO information.
-    - Saves each country's extracted PICOs to a file in the 'results' folder.
-    - Returns a list of all extracted PICO dictionaries, one per country.
+    elements from chunked HTA documents.
     """
 
     def __init__(
         self,
         chunk_retriever,  # Instance of ChunkRetriever
         system_prompt: str,  # The system prompt used to guide the LLM's behavior
+        user_prompt_template: str,  # The user prompt template with placeholders
         model_name: str = "gpt-4o-mini"  # Default model name
     ):
         self.chunk_retriever = chunk_retriever
         self.system_prompt = system_prompt
+        self.user_prompt_template = user_prompt_template
         self.model_name = model_name
         self.llm = ChatOpenAI(model_name=self.model_name, temperature=0)
 
@@ -164,15 +164,7 @@ class PICOExtractor:
         heading_keywords: Optional[List[str]] = None
     ) -> Dict[str, List[Dict[str, Any]]]:
         """
-        For debugging, retrieve relevant chunks for each country and print them, allowing you
-        to see the effect of both initial_k and final_k.
-
-        :param countries: List of country codes to retrieve chunks for.
-        :param query: Query string used for semantic search on the chunk retriever.
-        :param initial_k: Number of top chunks to retrieve in the initial pass.
-        :param final_k: Number of chunks to return after any further filtering, re-ranking, etc.
-        :param heading_keywords: Optional list of heading keywords to filter chunks.
-        :return: A dictionary keyed by country, mapping to a list of retrieved chunk dicts.
+        For debugging, retrieve relevant chunks for each country and print them.
         """
         retrieval_results = {}
 
@@ -186,10 +178,7 @@ class PICOExtractor:
                 final_k=final_k
             )
 
-            # The retriever's return is a dict keyed by country
             country_chunks = results_dict.get(country, [])
-
-            # Store in our return dictionary
             retrieval_results[country] = country_chunks
 
             # Print each chunk for debugging
@@ -215,18 +204,11 @@ class PICOExtractor:
     ) -> List[Dict[str, Any]]:
         """
         Extracts PICO elements for a list of countries using retrieved document chunks and an LLM.
-
-        :param countries: List of country codes.
-        :param query: Query string used to retrieve relevant chunks.
-        :param initial_k: Number of top chunks to retrieve in the initial pass.
-        :param final_k: Number of chunks to return after any further filtering, re-ranking, etc.
-        :param heading_keywords: Optional list of heading keywords to further filter chunks.
-        :param model_override: Optional model override as a string or ChatOpenAI instance.
-        :return: A list of dictionaries, each containing the country code and extracted PICOs.
         """
+
         results = []
 
-        # Use model override if provided
+        # Optionally override the model
         llm_to_use = self.llm
         if model_override:
             if isinstance(model_override, str):
@@ -259,25 +241,17 @@ class PICOExtractor:
                     seen_texts.add(text)
                     context_parts.append(text)
 
+            # Join relevant chunks for context
             context_block = "\n\n".join(context_parts)
 
-            # Construct system and user messages
+            # Prepare system and user messages
             system_msg = SystemMessage(content=self.system_prompt)
-            user_prompt = (
-                f"Context:\n{context_block}\n\n"
-                "Instructions:\n"
-                "Identify all distinct sets of Population, Intervention, Comparator, and Outcomes (PICOs) in the above text.\n"
-                "List multiple PICOs if needed. Output valid JSON ONLY in the form:\n"
-                "{\n"
-                f"  \"Country\": \"{country}\",\n"
-                "  \"PICOs\": [\n"
-                "    {\"Population\":\"...\", \"Intervention\":\"...\", \"Comparator\":\"...\", \"Outcomes\":\"...\"}\n"
-                "    <!-- more if multiple PICOs -->\n"
-                "  ]\n"
-                "}\n"
-                "Nothing else. Only JSON."
+            # Format the user prompt by inserting the dynamic context_block and country
+            user_msg_text = self.user_prompt_template.format(
+                context_block=context_block,
+                country=country
             )
-            user_msg = HumanMessage(content=user_prompt)
+            user_msg = HumanMessage(content=user_msg_text)
 
             # LLM call
             try:
@@ -292,7 +266,7 @@ class PICOExtractor:
             try:
                 parsed_json = json.loads(answer_text)
             except json.JSONDecodeError:
-                # Ask the LLM again to return valid JSON
+                # Attempt a second time if the model didn't return valid JSON the first time
                 fix_msg = HumanMessage(content="Please correct and return valid JSON in the specified format only.")
                 try:
                     fix_response = llm_to_use([system_msg, user_msg, fix_msg])
@@ -302,22 +276,23 @@ class PICOExtractor:
                     print(f"Failed to parse JSON for {country}: {parse_err}")
                     continue
 
-            # Save and append result
+            # Save or wrap results
             if isinstance(parsed_json, dict):
-                parsed_json["Country"] = country
+                parsed_json["Country"] = country  # Make sure Country is correct
                 results.append(parsed_json)
                 outpath = os.path.join("results", f"picos_{country}.json")
-                with open(outpath, "w") as f:
-                    json.dump(parsed_json, f, indent=2)
+                with open(outpath, "w", encoding="utf-8") as f:
+                    json.dump(parsed_json, f, indent=2, ensure_ascii=False)
             else:
+                # If the response is a list or something else, wrap it in a dict
                 wrapped_json = {
                     "Country": country,
                     "PICOs": parsed_json if isinstance(parsed_json, list) else []
                 }
                 results.append(wrapped_json)
                 outpath = os.path.join("results", f"picos_{country}.json")
-                with open(outpath, "w") as f:
-                    json.dump(wrapped_json, f, indent=2)
+                with open(outpath, "w", encoding="utf-8") as f:
+                    json.dump(wrapped_json, f, indent=2, ensure_ascii=False)
 
         return results
 

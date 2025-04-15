@@ -2,16 +2,22 @@
   "Country": "EN",
   "PICOs": [
     {
-      "Population": "People who have previously had platinum-doublet chemotherapy",
-      "Intervention": "Sotorasib (960 mg once a day until disease progression, treatment discontinuation or the end of the study)",
-      "Comparator": "Docetaxel monotherapy and docetaxel plus nintedanib",
-      "Outcomes": "Objective response rate of 37.1% (95% confidence interval 28.6 to 46.2)"
-    },
-    {
-      "Population": "People with advanced cancer after platinum-based chemotherapy",
+      "Population": "People with previously treated KRAS G12C mutation-positive advanced NSCLC",
       "Intervention": "Sotorasib",
       "Comparator": "Docetaxel",
-      "Outcomes": "Clinical effectiveness and cost-effectiveness, with ongoing data collection to resolve uncertainties"
+      "Outcomes": "Overall survival and progression-free survival"
+    },
+    {
+      "Population": "People with previously treated KRAS G12C mutation-positive advanced NSCLC",
+      "Intervention": "Sotorasib",
+      "Comparator": "Docetaxel plus nintedanib",
+      "Outcomes": "Overall survival and progression-free survival"
+    },
+    {
+      "Population": "People with advanced NSCLC",
+      "Intervention": "Docetaxel plus nintedanib",
+      "Comparator": "Docetaxel",
+      "Outcomes": "Overall survival and progression-free survival"
     }
   ]
 }
