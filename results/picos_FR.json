@@ -2,22 +2,40 @@
   "Country": "FR",
   "PICOs": [
     {
-      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) presenting the KRAS G12C mutation, previously treated",
-      "Intervention": "LUMYKRAS (sotorasib)",
+      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Sotorasib (LUMYKRAS)",
+      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
+    },
+    {
+      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Intervention": "New medicine under assessment",
       "Comparator": "Docetaxel",
-      "Outcomes": "Objective response rate, safety profile, incidence of adverse events"
+      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
     },
     {
-      "Population": "Patients with advanced solid tumors with KRAS G12C mutation",
-      "Intervention": "AMG 510 (sotorasib) monotherapy",
-      "Comparator": "Standard treatments (as per ESME cohort)",
-      "Outcomes": "Objective response rate evaluated by an independent review committee"
+      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Ramucirumab + Docetaxel",
+      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
     },
     {
-      "Population": "Patients treated with ATUc",
-      "Intervention": "LUMYKRAS (sotorasib)",
-      "Comparator": "No direct comparator mentioned, observational study",
-      "Outcomes": "Efficacy and safety data"
+      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Atezolizumab",
+      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
+    },
+    {
+      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Nivolumab",
+      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
+    },
+    {
+      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Gemcitabine + Bevacizumab",
+      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
     }
   ]
 }
