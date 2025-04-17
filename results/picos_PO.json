@@ -2,16 +2,28 @@
   "Country": "PO",
   "PICOs": [
     {
-      "Population": "Patients with lung cancer (ICD - 10: C34) and pleural mesothelioma (ICD - 10: C45)",
-      "Intervention": "Sotorasib (Lumykras)",
-      "Comparator": "Docetaxel, Nintedanib",
-      "Outcomes": "Progression-free survival (PFS), Overall response rate (ORR), Quality of life (QoL)"
+      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Docetaxel",
+      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
     },
     {
-      "Population": "Immunotherapy-naïve patients with lung cancer",
-      "Intervention": "Atezolizumab or Nivolumab",
-      "Comparator": "Standard of care (chemotherapy, EGFR inhibitors, ALK inhibitors)",
-      "Outcomes": "Efficacy and safety outcomes, Quality of life (QoL)"
+      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Nintedanib in combination with Docetaxel",
+      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
+    },
+    {
+      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Pemetrexed",
+      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
+    },
+    {
+      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Dual-drug chemotherapy based on platinum",
+      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
     }
   ]
 }

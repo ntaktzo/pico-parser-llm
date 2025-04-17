@@ -2,22 +2,22 @@
   "Country": "EN",
   "PICOs": [
     {
-      "Population": "People with previously treated KRAS G12C mutation-positive advanced NSCLC",
-      "Intervention": "Sotorasib",
+      "Population": "Adults with previously treated KRAS G12C mutation-positive, locally advanced or metastatic non-small-cell lung cancer",
+      "Intervention": "New medicine under assessment",
       "Comparator": "Docetaxel",
-      "Outcomes": "Overall survival and progression-free survival"
+      "Outcomes": "Overall survival, progression-free survival"
     },
     {
-      "Population": "People with previously treated KRAS G12C mutation-positive advanced NSCLC",
-      "Intervention": "Sotorasib",
+      "Population": "Adults with previously treated KRAS G12C mutation-positive, locally advanced or metastatic non-small-cell lung cancer",
+      "Intervention": "New medicine under assessment",
       "Comparator": "Docetaxel plus nintedanib",
-      "Outcomes": "Overall survival and progression-free survival"
+      "Outcomes": "Overall survival, progression-free survival"
     },
     {
-      "Population": "People with advanced NSCLC",
-      "Intervention": "Docetaxel plus nintedanib",
-      "Comparator": "Docetaxel",
-      "Outcomes": "Overall survival and progression-free survival"
+      "Population": "Adults with previously treated KRAS G12C mutation-positive, locally advanced or metastatic non-small-cell lung cancer",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Platinum-doublet chemotherapy",
+      "Outcomes": "Overall survival, progression-free survival"
     }
   ]
 }
