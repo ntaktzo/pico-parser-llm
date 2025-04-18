@@ -12,7 +12,7 @@ if project_dir not in sys.path:
 from openai import OpenAI
 
 
-class RAGHTASubmission:
+class RagHTASubmission:
     """
     A class to manage the entire RAG (Retrieval-Augmented Generation) pipeline:
     1. PDF processing
