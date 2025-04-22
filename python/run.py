@@ -8,6 +8,13 @@ project_dir = os.getcwd()  # Get the current working directory (project root)
 if project_dir not in sys.path:
     sys.path.append(project_dir)
 
+# Import necessary components
+from python.utils import FolderTree, HeadingPrinter
+from python.process import PDFProcessor, Translator
+from python.vectorise import Chunker, Vectoriser
+from python.retrieve import ChunkRetriever, PICOExtractor
+from python.open_ai import validate_api_key
+
 # LLM related imports
 from openai import OpenAI
 
@@ -33,7 +40,8 @@ class RagHTASubmission:
         vectorstore_path: str = "data/vectorstore",
         chunk_size: int = 600,
         chunk_overlap: int = 200,
-        chunk_strategy: str = "semantic"
+        chunk_strategy: str = "semantic",
+        vectorstore_type: str = "biobert"  # Add vectorstore_type parameter
     ):
         """
         Initialize the RAG system with customizable parameters.
@@ -48,6 +56,7 @@ class RagHTASubmission:
             chunk_size: Size of chunks for splitting documents
             chunk_overlap: Overlap between chunks
             chunk_strategy: Chunking strategy ("semantic" or "recursive")
+            vectorstore_type: Type of vectorstore to use ("openai", "biobert", or "both")
         """
         # Store parameters
         self.model = model
@@ -59,6 +68,7 @@ class RagHTASubmission:
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
         self.chunk_strategy = chunk_strategy
+        self.vectorstore_type = vectorstore_type  # Store vectorstore_type
 
         # Initialize OpenAI client
         self.openai = OpenAI()
@@ -172,13 +182,18 @@ class RagHTASubmission:
         self.chunker.run_pipeline()
         print(f"Chunked documents from {self.path_translated} to {self.path_chunked}")
 
-    def vectorize_documents(self, embeddings_type: str = "both"):
+    def vectorize_documents(self, embeddings_type: Optional[str] = None):
         """
         Vectorize chunked documents using specified embedding type.
         
         Args:
             embeddings_type: Type of embeddings to use ("openai", "biobert", or "both")
+                           If None, uses the value specified in self.vectorstore_type
         """
+        # Use class-level vectorstore_type if embeddings_type is not specified
+        if embeddings_type is None:
+            embeddings_type = self.vectorstore_type
+            
         # Ensure directories exist
         os.makedirs(self.path_vectorstore, exist_ok=True)
         
@@ -207,13 +222,18 @@ class RagHTASubmission:
             print("Visualizing vectorstore comparison")
             self.vectoriser_openai.visualize_vectorstore(self.vectorstore_biobert)
 
-    def initialize_retriever(self, vectorstore_type: str = "biobert"):
+    def initialize_retriever(self, vectorstore_type: Optional[str] = None):
         """
         Initialize the retriever with the specified vectorstore.
         
         Args:
             vectorstore_type: Type of vectorstore to use ("openai" or "biobert")
+                            If None, uses the value specified in self.vectorstore_type
         """
+        # Use class-level vectorstore_type if vectorstore_type is not specified
+        if vectorstore_type is None:
+            vectorstore_type = self.vectorstore_type
+            
         if vectorstore_type.lower() == "openai" and self.vectorstore_openai:
             self.retriever = ChunkRetriever(vectorstore=self.vectorstore_openai)
         elif vectorstore_type.lower() == "biobert" and self.vectorstore_biobert:
@@ -332,7 +352,7 @@ class RagHTASubmission:
         countries: List[str] = ["EN", "DE", "FR", "PO"],
         skip_processing: bool = False,
         skip_translation: bool = True,
-        vectorstore_type: str = "biobert"
+        vectorstore_type: Optional[str] = None
     ):
         """
         Run the full RAG pipeline.
@@ -342,10 +362,15 @@ class RagHTASubmission:
             skip_processing: Skip PDF processing if True
             skip_translation: Skip translation if True
             vectorstore_type: Type of vectorstore to use ("openai", "biobert", or "both")
+                            If None, uses the value specified in self.vectorstore_type
         
         Returns:
             Extracted PICOs
         """
+        # Use class-level vectorstore_type if vectorstore_type is not specified
+        if vectorstore_type is None:
+            vectorstore_type = self.vectorstore_type
+            
         # Validate API key
         self.validate_api_key()
         
