@@ -5,15 +5,6 @@ import statistics
 import pdfplumber
 from collections import defaultdict
 
-import json
-import gc
-import shutil
-import torch
-from transformers import pipeline
-from langdetect import detect
-from typing import Optional
-
-
 
 class PDFProcessor:
     def __init__(
@@ -73,6 +64,7 @@ class PDFProcessor:
             "submission date", "submitted on", "report date", "date of submission", "date of issue",
             "soumission", "data di presentazione", "fecha de presentación",
             "datum der einreichung", "fecha de remisión", "submitted:", "issued on", "rapport",
+            "published:", "published", "publication date", "date of publication"
         ]
 
         lines = first_page_text.splitlines()
@@ -81,7 +73,6 @@ class PDFProcessor:
             line_lower = line.lower()
             if any(trigger in line_lower for trigger in triggers):
                 years_in_line = re.findall(year_pattern, line)
-                years_in_line = re.findall(r"\b(?:19|20)\d{2}\b", line)
                 if years_in_line:
                     return years_in_line[0]
 
@@ -177,11 +168,15 @@ class PDFProcessor:
 
         # 2) Merge adjacent lines if same font style, etc. (multi-line headings)
         merged_lines = []
-        current_group = raw_lines[0]
+        current_group = raw_lines[0] if raw_lines else []
 
         for next_line in raw_lines[1:]:
-            current_avg_size = statistics.mean([w['size'] for w in current_group])
-            next_avg_size = statistics.mean([w['size'] for w in next_line])
+            if not current_group:
+                current_group = next_line
+                continue
+                
+            current_avg_size = statistics.mean([w['size'] for w in current_group if 'size' in w])
+            next_avg_size = statistics.mean([w['size'] for w in next_line if 'size' in w])
             current_bold = all('bold' in w.get('fontname', '').lower() for w in current_group)
             next_bold = all('bold' in w.get('fontname', '').lower() for w in next_line)
             vertical_gap = next_line[0]['top'] - current_group[-1]['bottom']
@@ -313,7 +308,7 @@ class PDFProcessor:
 
             # Identify if there's a heading on this page containing the word 'table'
             # We'll do a reverse search for any heading that has 'table' in it.
-            # If multiple headings mention 'table', we’ll just use the last one.
+            # If multiple headings mention 'table', we'll just use the last one.
             table_headings = []
             for h in self.page_headings_map[page_num]:
                 if re.search(r'table', h, re.IGNORECASE):
@@ -371,7 +366,7 @@ class PDFProcessor:
                 if cell is None:
                     cell = ""
                 # Replace any sequence of whitespace (including newlines) with a single space
-                cleaned_cell = re.sub(r'\s+', ' ', cell).strip()
+                cleaned_cell = re.sub(r'\s+', ' ', str(cell)).strip()
                 cleaned_row.append(cleaned_cell)
             cleaned_table.append(cleaned_row)
 
@@ -535,35 +530,53 @@ class PDFProcessor:
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
+        processed_files = 0
+        errors = 0
+        
         for root, _, files in os.walk(input_dir):
             for file in files:
                 if file.lower().endswith(".pdf"):
                     pdf_path = os.path.join(root, file)
-                    processor = PDFProcessor(
-                        pdf_path,
-                        boilerplate_threshold=boilerplate_threshold,
-                        doc_id=os.path.splitext(file)[0],
-                        language=language,
-                        region=region,
-                        title=title,
-                        created_date=created_date,
-                        keywords=keywords or []
-                    )
-
-                    result = processor.extract_preliminary_chunks()
-                    if result and result["chunks"]:
-                        relative_path = os.path.relpath(root, input_dir)
-                        out_dir = os.path.join(output_dir, relative_path)
-                        os.makedirs(out_dir, exist_ok=True)
-
-                        output_file = os.path.join(
-                            out_dir,
-                            f"{os.path.splitext(file)[0]}_cleaned.json"
+                    try:
+                        processor = PDFProcessor(
+                            pdf_path,
+                            boilerplate_threshold=boilerplate_threshold,
+                            doc_id=os.path.splitext(file)[0],
+                            language=language,
+                            region=region,
+                            title=title,
+                            created_date=created_date,
+                            keywords=keywords or []
                         )
-                        with open(output_file, "w", encoding="utf-8") as f:
-                            json.dump(result, f, indent=2, ensure_ascii=False)
-                    else:
-                        print(f"Error reading {pdf_path}")
+
+                        result = processor.extract_preliminary_chunks()
+                        if result and result["chunks"]:
+                            # Extract country code from folder structure for output
+                            country_code = processor.country
+                            
+                            # Create directory structure for output
+                            country_dir = os.path.join(output_dir, country_code)
+                            os.makedirs(country_dir, exist_ok=True)
+
+                            # Output file path
+                            output_file = os.path.join(
+                                country_dir,
+                                f"{os.path.splitext(file)[0]}_cleaned.json"
+                            )
+                            
+                            with open(output_file, "w", encoding="utf-8") as f:
+                                json.dump(result, f, indent=2, ensure_ascii=False)
+                                
+                            processed_files += 1
+                            print(f"Successfully processed: {pdf_path} -> {output_file}")
+                        else:
+                            errors += 1
+                            print(f"Warning: No chunks extracted from {pdf_path}")
+                    except Exception as e:
+                        errors += 1
+                        print(f"Error processing {pdf_path}: {e}")
+        
+        print(f"Processing complete. Successfully processed {processed_files} files with {errors} errors.")
 
 
 

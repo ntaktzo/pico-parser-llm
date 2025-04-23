@@ -1,0 +1,649 @@
+{
+  "doc_id": "lung_EN",
+  "created_date": "2019",
+  "country:": "EN",
+  "chunks": [
+    {
+      "heading": "Lung cancer: diagnosis and management",
+      "text": "NICE guideline Published: 28 March 2019 Last updated: 8 March 2024\n© NICE 2024. All rights reserved. Subject to Notice of rights  conditions#notice-of-rights).",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "Your responsibility",
+      "text": "The recommendations in this guideline represent the view of NICE, arrived at after careful consideration of the evidence available. When exercising their judgement, professionals and practitioners are expected to take this guideline fully into account, alongside the individual needs, preferences and values of their patients or the people using their service. It is not mandatory to apply the recommendations, and the guideline does not override the responsibility to make decisions appropriate to the circumstances of the individual, in consultation with them and their families and carers or guardian.\nAll problems (adverse events) related to a medicine or medical device used for treatment or in a procedure should be reported to the Medicines and Healthcare products Regulatory Agency using the Yellow Card Scheme.\nLocal commissioners and providers of healthcare have a responsibility to enable the guideline to be applied when individual professionals and people using services wish to use it. They should do so in the context of local and national priorities for funding and developing services, and in light of their duties to have due regard to the need to eliminate unlawful discrimination, to advance equality of opportunity and to reduce health inequalities. Nothing in this guideline should be interpreted in a way that would be inconsistent with complying with those duties.\nCommissioners and providers have a responsibility to promote an environmentally sustainable health and care system and should assess and reduce the environmental impact of implementing NICE recommendations wherever possible.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 2 of conditions#notice-of-rights). 51",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "heading": "Contents",
+      "text": "© NICE 2024. All rights reserved. Subject to Notice of rights  Page 3 of conditions#notice-of-rights). 51\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 4 of conditions#notice-of-rights). 51\nThis guideline replaces CG121.\nThis guideline is the basis of QS17.",
+      "start_page": 3,
+      "end_page": 5
+    },
+    {
+      "heading": "Overview",
+      "text": "This guideline covers diagnosing and managing non-small-cell and small-cell lung cancer. It aims to improve outcomes for patients by ensuring that the most effective tests and treatments are used, and that people have access to suitable palliative care and follow-up.",
+      "start_page": 5,
+      "end_page": 5
+    },
+    {
+      "heading": "Who is it for?",
+      "text": "• Healthcare professionals\n• Commissioners and providers\n• People with lung cancer and their families and carers\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 5 of conditions#notice-of-rights). 51",
+      "start_page": 5,
+      "end_page": 5
+    },
+    {
+      "heading": "Access to services and referral",
+      "text": "People have the right to be involved in discussions and make informed decisions about their care, as described in NICE's information on making decisions about your care.\nMaking decisions using NICE guidelines explains how we use words to show the strength (or certainty) of our recommendations, and has information about prescribing medicines (including off-label use), professional guidelines, standards and laws (including on consent and mental capacity), and safeguarding.",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "heading": "1.1 The importance of early diagnosis",
+      "text": "1.1.1 The public needs to be better informed of the symptoms and signs that are characteristic of lung cancer, through coordinated campaigning to raise awareness. [2005]",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "heading": "Referral and indications for chest radiography",
+      "text": "For guidance on referral, see the recommendations on referral for suspected lung 1.1.2 cancer in the NICE guideline on suspected cancer. [2019]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 6 of conditions#notice-of-rights). 51",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "heading": "1.2 Helping people understand their condition and the tests and treatments available",
+      "text": "Find out what the person knows about their condition without assuming a level of 1.2.1 knowledge. Provide them with the opportunity to discuss tests and treatment options in a private environment, with the support of family members or carers (as appropriate), and give them time to make an informed choice. [2011]\nEnsure that a lung cancer clinical nurse specialist is available at all stages of care 1.2.2 to support people and (as appropriate) their family members or carers. [2011]\nOffer accurate and easy-to-understand information to people and their family 1.2.3 members or carers (as appropriate). Explain the tests and treatment options, including potential survival benefits, side effects and effect on symptoms. [2011]\nConsider tailor-made decision aids to help people to: 1.2.4\n• understand the probable outcomes of treatment options\n• think about the personal value they place on benefits versus harms of treatment options\n• feel supported in decision making\n• move through the steps towards making a decision\n• take part in decisions about their healthcare. [2011]\nOffer people a record of all discussions that have taken place with them and a 1.2.5 copy of any correspondence with other healthcare professionals. Ensure all communications are worded in such a way to assist understanding. [2011]\nRespect the person's choice if they do not wish to confront future issues. [2011] 1.2.6\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 7 of conditions#notice-of-rights). 51\nAvoid giving people unexpected bad news in writing. Only give unexpected bad 1.2.7 news by phone in exceptional circumstances. [2011]\nOffer to discuss end-of-life care with the person sensitively and when 1.2.8 appropriate. Wherever possible, avoid leaving this discussion until the terminal stages of the illness. [2011]\nDocument discussions with the person about end-of-life care. In particular, 1.2.9 document:\n• their specific concerns\n• their understanding of their illness and its prognosis\n• important values or personal goals for care\n• their preferences for the types of care or treatment that may be beneficial in the future and their availability. [2011]\nShare information between healthcare professionals about: 1.2.10\n• any problems the person has\n• the management plan\n• what the person has been told\n• what the person has understood (if possible)\n• the involvement of other agencies\n• any advance decision made by the person. [2011]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 8 of conditions#notice-of-rights). 51",
+      "start_page": 7,
+      "end_page": 8
+    },
+    {
+      "heading": "1.3 Effectiveness of diagnostic and staging investigations",
+      "text": "Only use sputum cytology for investigation in people with suspected lung cancer 1.3.1 who have centrally placed nodules or masses and who decline or cannot tolerate bronchoscopy or other invasive tests. [2005]\nOffer people with known or suspected lung cancer a contrast-enhanced chest CT 1.3.2 scan to further the diagnosis and stage the disease. Include the liver, adrenals and lower neck in the scan. The guideline committee also recognised that contrast medium should only be given with caution to people with known renal impairment. [2005, amended 2019]\nWhen assessing mediastinal and chest wall invasion: 1.3.3\n• be aware that CT alone may not be reliable\n• consider other techniques such as ultrasound if there is doubt\n• be aware that surgical assessment may be necessary if there are no contraindications to resection. [2005]\nEnsure that all people with lung cancer who could potentially have treatment with 1.3.4 curative intent are offered positron-emission tomography CT (PET-CT) before treatment. [2011]\nEvery cancer alliance should have a system of rapid access to PET-CT scanning 1.3.5 for eligible people. [2005, amended 2019]\nDo not routinely use MRI to assess the stage of the primary tumour (T-stage) in 1.3.6 non-small-cell lung cancer (NSCLC). [2005]\nUse MRI when necessary to assess the extent of disease, for people with 1.3.7\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 9 of conditions#notice-of-rights). 51\nsuperior sulcus tumours. [2005]\nOffer endobronchial ultrasound-guided transbronchial needle aspiration (EBUS- 1.3.8 TBNA) for biopsy of paratracheal and peri-bronchial intra-parenchymal lung lesions. [2011]\nEvery cancer alliance should have at least 1 centre with EBUS and/or endoscopic 1.3.9 ultrasound (EUS) to ensure timely access. [2011]\nAudit the local test performance of EBUS-TBNA and endoscopic ultrasound- 1.3.10 guided fine-needle aspiration (EUS-FNA). [2011, amended 2019]\nWhen taking samples, ensure they are adequate (without unacceptable risk to 1.3.11 the person) to permit pathological diagnosis, including tumour subtyping and assessment of predictive markers. [2011, amended 2019]\nFor guidance on EGFR-TK mutation testing, see the NICE diagnostics guidance 1.3.12 on EGFR-TK mutation testing in adults with locally advanced or metastatic non- small-cell lung cancer. [2019]\nFor a short explanation of why the committee made these recommendations and how they might affect practice, see the rationale and impact section on effectiveness of diagnostic and staging investigations.\nFull details of the evidence and the committee's discussion are in evidence review A: Investigations for staging the mediastinum.",
+      "start_page": 9,
+      "end_page": 10
+    },
+    {
+      "heading": "Sequence of investigations",
+      "text": "Choose investigations that give the most information about diagnosis and staging 1.3.13 with the least risk to the person. Think carefully before performing a test that gives only diagnostic pathology when information on staging is also needed to guide treatment. [2011]\nPerform contrast-enhanced CT of the chest, liver adrenals and lower neck before 1.3.14 any biopsy procedure. [2005, amended 2019]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 10 conditions#notice-of-rights). of 51",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "Peripheral primary tumour",
+      "text": "Offer image-guided biopsy to people with peripheral lung lesions when treatment 1.3.15 can be planned on the basis of this test. [2011, amended 2019]\nBiopsy any enlarged intrathoracic nodes (10 mm or larger maximum short axis on 1.3.16 CT) or other lesions in preference to the primary lesion if determination of nodal stage affects treatment. Some people with lung cancer will not be well enough for treatment with curative intent. This needs to be taken into account when choosing diagnostic and staging investigations. [2011, amended 2019]",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "Central primary tumour",
+      "text": "Offer flexible bronchoscopy to people with central lesions on CT if nodal staging 1.3.17 does not influence treatment. [2011, amended 2019]",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "Intrathoracic lymph node assessment",
+      "text": "Offer PET-CT as the preferred first test after CT with a low probability of nodal 1.3.18 malignancy (lymph nodes below 10 mm maximum short axis on CT), for people with lung cancer who could potentially have treatment with curative intent. [2011,",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "amended 2019]",
+      "text": "Offer PET-CT (if not already done), followed by EBUS-TBNA and/or EUS-FNA, to 1.3.19 people with suspected lung cancer who have enlarged intrathoracic lymph nodes (lymph nodes greater than or equal to 10 mm short axis on CT) and who could potentially have treatment with curative intent. [2019]\nEvaluate PET-CT-positive or enlarged intrathoracic nodes using a systematic 1.3.20 approach (sampling any suspicious node on CT, PET or USS) with EBUS-TBNA and/or EUS-FNA if nodal status would affect the treatment plan. [2019]\nConsider surgical mediastinal staging for people with a negative EBUS-TBNA or 1.3.21 EUS-FNA if clinical suspicion of nodal malignancy is high and nodal status would affect their treatment plan. [2019]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 11 of conditions#notice-of-rights). 51\nWe have produced an algorithm on intrathoracic nodal staging of non-small cell lung cancer in patients being considered for radical treatment.\nFor a short explanation of why the committee made these recommendations and how they might affect practice, see the rationale and impact section on EBUS-TBNA and EUS-FNA.\nFull details of the evidence and the committee's discussion are in evidence review A: Investigations for staging the mediastinum.",
+      "start_page": 11,
+      "end_page": 12
+    },
+    {
+      "heading": "Further staging",
+      "text": "1.3.22 Confirm the presence of isolated distant metastases/synchronous tumours by biopsy or further imaging (for example, MRI or PET-CT) in people being considered for treatment with curative intent. [2011]\n1.3.23 Do not offer dedicated brain imaging to people with clinical stage I NSCLC who have no neurological symptoms and are having treatment with curative intent.\n1.3.24 Offer contrast-enhanced brain CT to people with clinical stage II NSCLC who are having treatment with curative intent. If CT shows suspected brain metastases, offer contrast-enhanced brain MRI. [2019]\n1.3.25 Offer contrast-enhanced brain MRI for people with stage III NSCLC who are having treatment with curative intent. [2019]\n1.3.26 Offer people with clinical features suggestive of intracranial pathology CT of the head followed by MRI if normal, or MRI as an initial test. [2011]\n1.3.27 Perform an X-ray as the first test for people with localised signs or symptoms of bone metastasis. If the results are negative or inconclusive, offer bone scintigraphy or an MRI scan. [2005]\n1.3.28 Avoid bone scintigraphy when PET-CT has not shown bone metastases. [2011]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 12 conditions#notice-of-rights). of 51\nFor a short explanation of why the committee made these recommendations and how they might affect practice, see the rationale and impact section on brain imaging for people having treatment with curative intent.\nFull details of the evidence and the committee's discussion are in evidence review B: Brain imaging for people with NSCLC selected for treatment with curative intent.",
+      "start_page": 12,
+      "end_page": 13
+    },
+    {
+      "heading": "Organisational factors relevant to diagnosis and staging",
+      "text": "Provide treatment without undue delay for people who have lung cancer that is 1.3.29 suitable for radical treatment or chemotherapy, or who need radiotherapy or ablative treatment for relief of symptoms. [2005, amended 2019]",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Multidisciplinary teams",
+      "text": "Refer all people with a suspected diagnosis of lung cancer to a member of a lung 1.3.30 cancer multidisciplinary team (usually a chest physician). [2005]\nThe care of all people with a working diagnosis of lung cancer should be 1.3.31 discussed at a lung cancer multidisciplinary team meeting. [2005]",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Fast track lung clinics",
+      "text": "Provide fast-track lung cancer clinics (previously known as early diagnosis clinics 1.3.32 and rapid access clinics) for investigating suspected lung cancer, because they are associated with faster diagnosis and less anxiety. [2005]",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Cancer clinical nurse specialists",
+      "text": "All cancer units/centres should have one or more trained lung cancer clinical 1.3.33 nurse specialists to:\n• see people before, at the time of and after diagnosis\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 13 conditions#notice-of-rights). of 51\n• provide continuing support\n• facilitate communication between the secondary care team (including the multidisciplinary team), the person's GP, the community team and the person with lung cancer\n• help people access advice and support whenever they need it. [2005,",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "heading": "amended 2019]",
+      "text": "© NICE 2024. All rights reserved. Subject to Notice of rights  Page 14 conditions#notice-of-rights). of 51",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "heading": "1.4 Stop smoking interventions and services",
+      "text": "Inform people that smoking increases the risk of pulmonary complications after 1.4.1 lung cancer surgery. [2011]\nAdvise people to stop smoking as soon as the diagnosis of lung cancer is 1.4.2 suspected and tell them why this is important. [2011]\nOffer nicotine replacement therapy and other therapies to help people to stop 1.4.3 smoking in line with the NICE guideline on tobacco: preventing uptake, promoting quitting and treating dependence and the NICE technology appraisal guidance on varenicline for smoking cessation. [2011]\nDo not postpone surgery for lung cancer to allow people to stop smoking. [2011] 1.4.4",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "Perioperative mortality",
+      "text": "When evaluating surgery as an option for people with NSCLC, consider using a 1.5.1 global risk score such as Thoracoscore to estimate the risk of death. Ensure the person is aware of the risk before they give consent for surgery. [2011]",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "1.5.2 Avoid surgery within 30 days of myocardial infarction. [2011]",
+      "text": "1.5.3 Seek a cardiology review in people with an active cardiac condition, or 3 or more\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 15 conditions#notice-of-rights). of 51\nrisk factors, or poor cardiac functional capacity. [2011]\nOffer surgery without further investigations to people with 2 or fewer risk factors 1.5.4 and good cardiac functional capacity. [2011]\nOptimise any primary cardiac treatment and begin secondary prophylaxis for 1.5.5 coronary disease as soon as possible. [2011]\nContinue anti-ischaemic treatment in the perioperative period, including aspirin, 1.5.6 statins and beta-blockers. [2011]\nFor people with coronary stents, discuss perioperative anti-platelet treatment 1.5.7 with a cardiologist. [2011]\nConsider revascularisation (percutaneous intervention or coronary artery bypass 1.5.8 grafting) before surgery for people with chronic stable angina and conventional indications for revascularisation. [2011]",
+      "start_page": 15,
+      "end_page": 16
+    },
+    {
+      "heading": "Lung function",
+      "text": "1.5.9 Perform spirometry and transfer factor (TLCO) in all people being considered for treatment with curative intent. [2011, amended 2019]\n1.5.10 Offer people surgery if they have a forced expiratory volume in 1 second (FEV1) within normal limits and good exercise tolerance. [2011]\n1.5.11 When considering surgery perform a functional segment count to predict postoperative lung function. [2011]\n1.5.12 Offer people with predicted postoperative FEV1 or TLCO below 30% the option of treatment with curative intent if they accept the risks of dyspnoea and associated complications. [2011, amended 2019]\n1.5.13 Consider using shuttle walk testing (using a distance walked of more than 400 m as a cut-off for good function) to assess the fitness of people with moderate to high risk of postoperative dyspnoea. [2011]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 16 conditions#notice-of-rights). of 51\nConsider cardiopulmonary exercise testing to measure oxygen uptake (VO max) 1.5.14 2 and assess lung function in people with moderate to high risk of postoperative dyspnoea, using more than 15 ml/kg/minute as a cut-off for good function. [2011]",
+      "start_page": 16,
+      "end_page": 17
+    },
+    {
+      "heading": "Assessment before radiotherapy with curative intent",
+      "text": "1.5.15 A clinical oncologist specialising in thoracic oncology should determine suitability for radiotherapy with curative intent, taking into account performance status and comorbidities. [2011]",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "Surgery",
+      "text": "1.6.1 For people with NSCLC who are well enough and for whom treatment with curative intent is suitable, offer lobectomy (either open or thoracoscopic). [2019]\n1.6.2 Offer more extensive surgery (bronchoangioplastic surgery, bilobectomy, pneumonectomy) only when needed to obtain clear margins. [2011]\n1.6.3 Perform hilar and mediastinal lymph node sampling or en bloc resection for all people having surgery with curative intent. [2011]\n1.6.4 For people with T3 NSCLC with chest wall involvement who are having surgery, aim for complete resection of the tumour using either extrapleural or en bloc chest wall resection. [2005]",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "Surgery or radiotherapy for people not having lobectomy",
+      "text": "For people with stage I–IIA (T1a–T2b, N0, M0) NSCLC who decline lobectomy or 1.6.5 in whom it is contraindicated, offer radical radiotherapy with stereotactic ablative\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 17 conditions#notice-of-rights). of 51\nradiotherapy (SABR) or sublobar resection. [2019]",
+      "start_page": 17,
+      "end_page": 18
+    },
+    {
+      "heading": "Radical radiotherapy for people not having surgery",
+      "text": "1.6.6 All people should have pulmonary function tests (including lung volumes and transfer factor) before radical radiotherapy for NSCLC. [2005]\n1.6.7 People receiving radiotherapy with curative intent should be part of a national quality assurance programme. [2011]\n1.6.8 For people with stage I–IIA (T1a–T2b, N0, M0) NSCLC who decline surgery or in whom any surgery is contraindicated, offer SABR. If SABR is contraindicated, offer either conventional or hyperfractionated radiotherapy. [2019]\n1.6.9 For eligible people with stage IIIA NSCLC who cannot tolerate or who decline chemoradiotherapy (with or without surgery), consider radical radiotherapy (either conventional or hyperfractionated). [2019]\n1.6.10 For eligible people with stage IIIB NSCLC who cannot tolerate or who decline chemoradiotherapy, consider radical radiotherapy (either conventional or hyperfractionated). [2019]",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "Radiotherapy fractionation",
+      "text": "If using SABR, follow the SABR Consortium guidance on fractionation. [2019] 1.6.11\nIf conventionally fractionated radical radiotherapy is used, offer either: 1.6.12\n• 55 Gy in 20 fractions over 4 weeks or\n• 60–66 Gy in 30–33 fractions over 6–6½ weeks. [2019]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 18 conditions#notice-of-rights). of 51\nFor a short explanation of why the committee made these recommendations and how they might affect practice, see the rationale and impact section on surgery and radiotherapy with curative intent for non-small-cell lung cancer.\nFull details of the evidence and the committee's discussion are in evidence review D: Radiotherapy with curative intent for NSCLC.",
+      "start_page": 18,
+      "end_page": 19
+    },
+    {
+      "heading": "1.7 Combination treatment for non-small-cell lung cancer",
+      "text": "Consider chemoradiotherapy for people with stage II or III NSCLC that are not 1.7.1 suitable for or decline surgery. Balance potential benefit in survival with the risk of additional toxicities. [2011]\nEnsure that all people for whom multimodality treatment is potentially suitable 1.7.2 (surgery, radiotherapy and chemotherapy in any combination) are assessed by a thoracic oncologist and by a thoracic surgeon. [2011]\nOffer postoperative chemotherapy to people with good performance status 1.7.3 (WHO 0 or 1) and T1a–4, N1–2, M0 NSCLC. [2011]\nConsider postoperative chemotherapy for people with good performance status 1.7.4 (WHO 0 or 1) and T2b–4, N0, M0 NSCLC with tumours greater than 4 cm in diameter. [2011]\nOffer a cisplatin-based combination chemotherapy regimen for adjuvant 1.7.5 chemotherapy. [2011]\nFor people with stage I–II NSCLC that are suitable for surgery, do not offer neo- 1.7.6 adjuvant treatment outside a clinical trial. [2011, amended 2019]\nEnsure eligible people have the benefit of detailed discussion of the risks and 1.7.7 benefits of adjuvant chemotherapy. [2011]\nTreat Pancoast tumours in the same way as other types of NSCLC. Offer 1.7.8\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 19 conditions#notice-of-rights). of 51\nmultimodality therapy according to resectability, stage of the tumour and performance status of the person. [2011]\nFor people with operable stage IIIA–N2 NSCLC who can have surgery and are well 1.7.9 enough for multimodality therapy, consider chemoradiotherapy with surgery.\nDiscuss the benefits and risks with the person before starting chemoradiotherapy 1.7.10 with surgery, including that:\n• chemoradiotherapy with surgery improves progression-free survival\n• chemoradiotherapy with surgery may improve overall survival. [2019]\nFor people with stage IIIA–N2 NSCLC who are having chemoradiotherapy and 1.7.11 surgery, ensure that their surgery is scheduled for 3 to 5 weeks after the chemoradiotherapy. [2019]\nMultidisciplinary teams that provide chemoradiotherapy with surgery should have 1.7.12 expertise in the combined therapy and in all of the individual components. [2019]\nCentres performing lung resections for lung cancer should validate their data for 1.7.13 the Royal College of Physicians Lung Cancer Clinical Outcomes publication and the National Lung Cancer Audit. [2019]\nFor a short explanation of why the committee made these recommendations and how they might affect practice, see the rationale and impact section on management of operable stage IIIA–N2 non-small-cell lung cancer.\nFull details of the evidence and the committee's discussion are in evidence review C: Management of NSCLC stage IIIA-N2.",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "heading": "1.8 Systemic anti-cancer therapy (SACT) for advanced non-small-cell lung cancer",
+      "text": "We have produced treatment pathways bringing together NICE recommended treatment options from this guideline and relevant technology appraisal guidance on advanced non-\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 20 conditions#notice-of-rights). of 51\nsmall-cell lung cancer (squamous and non-squamous). The treatment pathways cover the recommended treatment options at each decision point.\nThese are available to view as individual pathways (linked below), or grouped together in a single interactive PDF of all treatment pathways for squamous and non-squamous advanced non-small-cell lung cancer.\nWe have also produced fully accessible summaries of the treatment pathways.",
+      "start_page": 20,
+      "end_page": 21
+    },
+    {
+      "heading": "No targetable mutations, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with squamous non-small-cell lung cancer, with no targetable mutations and PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with squamous non-small-cell lung cancer, with no targetable mutations and PD-L1 less than 50%",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "No targetable mutations, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with squamous non-small-cell lung cancer, with no targetable mutations and PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with squamous non-small-cell lung cancer, with no targetable mutations and PD-L1 50% or higher",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "RET fusion positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with RET fusion positive squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with RET fusion positive squamous non-small-cell lung cancer, with PD-L1 less than 50%\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 21 conditions#notice-of-rights). of 51",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "RET fusion positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with RET fusion positive squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with RET fusion positive squamous non-small-cell lung cancer, with PD-L1 50% or higher",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "NTRK fusion positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with NTRK fusion positive squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with NTRK fusion positive squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "NTRK fusion positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with NTRK fusion positive squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with NTRK fusion positive squamous non-small-cell lung cancer, with PD-L1 50% or higher",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "KRAS G12C positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with KRAS G12C positive squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with KRAS G12C positive squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "KRAS G12C positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with KRAS G12C positive squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 22 conditions#notice-of-rights). of 51\nwith KRAS G12C positive squamous non-small-cell lung cancer, with PD-L1 50% or higher",
+      "start_page": 22,
+      "end_page": 23
+    },
+    {
+      "heading": "METex14 skipping alteration, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "METex14 skipping alteration, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration squamous non-small-cell lung cancer, with PD-L1 50% or higher",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "BRAF V600 positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with BRAF V600 positive squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with BRAF V600 positive squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "BRAF V600 positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with BRAF V600 positive squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of Systemic anti-cancer therapy: treatment options for people with BRAF V600 positive squamous non-small-cell lung cancer, with PD-L1 50% or higher\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 23 conditions#notice-of-rights). of 51",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "No targetable mutations, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with non-squamous non- small-cell lung cancer, with no targetable mutations and PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with non-squamous non-small-cell lung cancer, with no targetable mutations and PD-L1 less than 50%",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "No targetable mutations, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with non-squamous non- small-cell lung cancer, with no targetable mutations and PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with non-squamous non-small-cell lung cancer, with no targetable mutations and PD-L1 50% or higher",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "RET fusion positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with RET fusion positive non- squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with RET fusion positive non-squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "RET fusion positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with RET fusion positive non- squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with RET fusion positive non-squamous non-small-cell lung cancer, with PD-L1 50% or higher\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 24 conditions#notice-of-rights). of 51",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "NTRK fusion positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with NTRK fusion positive non- squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with NTRK fusion positive non-squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "NTRK fusion positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with NTRK fusion positive non- squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with NTRK fusion positive non-squamous non-small-cell lung cancer, with PD-L1 50% or higher",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "KRAS G12C positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with KRAS G12C positive non- squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with KRAS G12C positive non-squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "KRAS G12C positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with KRAS G12C positive non- squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with KRAS G12C positive non-squamous non-small-cell lung cancer, with PD-L1 50% or higher\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 25 conditions#notice-of-rights). of 51",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "METex14 skipping alteration, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration non-squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration non-squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "METex14 skipping alteration, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration non-squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with METex14 skipping alteration non-squamous non-small-cell lung cancer, with PD-L1 50% or higher",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "BRAF V600 positive, PD-L1 less than 50%",
+      "text": "Systemic anti-cancer therapy: treatment options for people with BRAF V600 positive non- squamous non-small-cell lung cancer, with PD-L1 less than 50%\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with BRAF V600 positive non-squamous non-small-cell lung cancer, with PD-L1 less than 50%",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "BRAF V600 positive, PD-L1 50% or higher",
+      "text": "Systemic anti-cancer therapy: treatment options for people with BRAF V600 positive non- squamous non-small-cell lung cancer, with PD-L1 50% or higher\nFully accessible summary of Systemic anti-cancer therapy: treatment options for people with BRAF V600 positive non-squamous non-small-cell lung cancer, with PD-L1 50% or higher\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 26 conditions#notice-of-rights). of 51",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "ROS-1 positive",
+      "text": "Systemic anti-cancer therapy: treatment options for people with ROS-1 positive non- squamous non-small-cell lung cancer\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with ROS-1 positive non-squamous non-small-cell lung cancer",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "EGFR-TK positive",
+      "text": "Systemic anti-cancer therapy: treatment options for people with EGFR-TK positive non- squamous non-small-cell lung cancer\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with EGFR-TK positive non-squamous non-small-cell lung cancer",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "ALK positive",
+      "text": "Systemic anti-cancer therapy: treatment options for people with ALK positive non- squamous non-small-cell lung cancer\nFully accessible summary of systemic anti-cancer therapy: treatment options for people with ALK positive non-squamous non-small-cell lung cancer",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "1.9 Assessing people with small-cell lung cancer",
+      "text": "Arrange for people with small-cell lung cancer (SCLC) to have an assessment by 1.9.1 a thoracic oncologist within 1 week of deciding to recommend treatment. [2011]",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "1.10 First-line treatment for limited-stage disease small-cell lung cancer",
+      "text": "1.10.1 Offer people with limited-stage disease SCLC (broadly corresponding to T1–4, N0–3, M0) 4 to 6 cycles of cisplatin-based combination chemotherapy. Consider substituting carboplatin in people with impaired renal function, poor performance\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 27 conditions#notice-of-rights). of 51\nstatus (WHO 2 or more) or significant comorbidity. [2011]\nOffer twice-daily radiotherapy with concurrent chemotherapy to people with 1.10.2 limited-stage disease SCLC (broadly corresponding to T1–4, N0–3, M0) and a WHO performance status of 0 or 1, if they present with disease that can be encompassed in a radical thoracic radiotherapy volume. Start the radiotherapy during the first or second cycle of chemotherapy. [2019]\nIf the person declines or is unable to have twice-daily radiotherapy, offer once- 1.10.3 daily radiotherapy. [2019]\nOffer sequential radical thoracic radiotherapy to people with limited-stage 1.10.4 disease SCLC (broadly corresponding to T1–4, N0–3, M0) who are not well enough for concurrent chemoradiotherapy but who respond to chemotherapy.\nOffer prophylactic cranial irradiation at a dose of 25 Gy in 10 fractions to people 1.10.5 with limited-stage disease SCLC and WHO performance status 0 to 2, if their disease has not progressed on first-line treatment. [2011, amended 2019]\nFor a short explanation of why the committee made these recommendations and how they might affect practice, see the rationale and impact section on first-line treatment for limited-stage disease SCLC.\nFull details of the evidence and the committee's discussion are in evidence review F: Chemoradiotherapy for limited stage SCLC.",
+      "start_page": 27,
+      "end_page": 28
+    },
+    {
+      "heading": "1.11 Surgery for small-cell lung cancer",
+      "text": "Consider surgery in people with early-stage SCLC (T1–2a, N0, M0). [2011] 1.11.1\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 28 conditions#notice-of-rights). of 51",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "heading": "1.12 First-line treatment for extensive-stage disease small-cell lung cancer",
+      "text": "Offer platinum-based combination chemotherapy to people with extensive-stage 1.12.1 disease SCLC (broadly corresponding to T1–4, N0–3, M1a/b – including cerebral metastases) if they are fit enough. [2011]\nAssess the person's condition before each cycle of chemotherapy for extensive- 1.12.2 stage disease SCLC (broadly corresponding to T1–4, N0–3, M1a/b) and offer up to a maximum of 6 cycles, depending on response and toxicity. [2011]\nConsider thoracic radiotherapy with prophylactic cranial irradiation for people 1.12.3 with extensive-stage disease SCLC who have had a partial or complete response to chemotherapy within the thorax and at distant sites. [2019]\nConsider prophylactic cranial irradiation for people with extensive-stage disease 1.12.4 SCLC and WHO performance status 0 to 2, if their disease has responded to first- line treatment. [2019]\nFor a short explanation of why the committee made these recommendations and how they might affect practice, see the rationale and impact section on thoracic radiotherapy and prophylactic cranial irradiation in SCLC.\nFull details of the evidence and the committee's discussion are in evidence review G: Thoracic radiotherapy for extensive stage SCLC and evidence review H: Prophylactic cranial irradiation for extensive stage SCLC.",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "heading": "1.13 Maintenance treatment for small-cell lung cancer",
+      "text": "Only offer maintenance treatment to people with SCLC in the context of a clinical 1.13.1 trial. [2011]",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "heading": "1.14 Second-line treatment for small-cell lung",
+      "text": "© NICE 2024. All rights reserved. Subject to Notice of rights  Page 29 conditions#notice-of-rights). of 51",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "heading": "cancer that has relapsed after first-line treatment",
+      "text": "1.14.1 Offer people with SCLC that has relapsed after first-line treatment assessment by a thoracic oncologist. [2011]\n1.14.2 Inform people whose disease has not responded to first-line treatment that there is very limited evidence that second-line chemotherapy will be of benefit. [2011]\n1.14.3 Offer people with relapsed SCLC in whom chemotherapy is suitable treatment with an anthracycline-containing regimen or further treatment with a platinum- based regimen to a maximum of 6 cycles. [2011]\n1.14.4 Offer radiotherapy for palliation of local symptoms to people with SCLC that has relapsed after first-line treatment. [2011]",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "Topotecan",
+      "text": "Refer to the NICE technology appraisal guidance on topotecan for the treatment 1.14.5 of relapsed small-cell lung cancer. [2009]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 30 conditions#notice-of-rights). of 51",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "1.15 Providing palliative care",
+      "text": "1.15.1 Supportive and palliative care of the person should be provided by general and specialist palliative care providers in line with the NICE guidance on improving supportive and palliative care for adults with cancer. [2005]\n1.15.2 Identify and refer people who may benefit from specialist palliative care services without delay. [2005]",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "1.16 Palliative radiotherapy",
+      "text": "Provide palliative radiotherapy, either as symptoms arise or immediately, for 1.16.1 eligible people who cannot be offered curative treatment. [2005]",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "1.17 Managing endobronchial obstruction",
+      "text": "When people have large airway involvement, monitor (clinically and radiologically) 1.17.1 for endobronchial obstruction to ensure treatment is offered early. [2011]\nOffer external beam radiotherapy and/or endobronchial debulking or stenting to 1.17.2 people with impending endobronchial obstruction. [2011]\nEvery cancer alliance should ensure that people have rapid access to a team 1.17.3 capable of providing interventional endobronchial treatments. [2011]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 31 conditions#notice-of-rights). of 51",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "1.18 Other palliative treatments",
+      "text": "1.18.1 Perform pleural aspiration or drainage in an attempt to relieve the symptoms of a pleural effusion. [2005]\n1.18.2 Patients who benefit symptomatically from aspiration or drainage of fluid should be offered talc pleurodesis for longer-term benefit. [2005]\n1.18.3 Consider non-drug interventions based on psychosocial support, breathing control and coping strategies for people with breathlessness. [2005]\n1.18.4 Non-drug interventions for breathlessness should be delivered by a multidisciplinary group, coordinated by a professional with an interest in breathlessness and expertise in the techniques (for example, a nurse, physiotherapist or occupational therapist). Although this support may be provided in a breathlessness clinic, people should have access to it in all care settings. [2005]\n1.18.5 Consider opioids, such as codeine or morphine, to reduce cough. [2005]\n1.18.6 Refer people with troublesome hoarseness due to recurrent laryngeal nerve palsy to an ear, nose and throat specialist for advice. [2005]\n1.18.7 Offer people who present with superior vena cava obstruction chemotherapy and radiotherapy according to the stage of disease and performance status. [2005]\n1.18.8 Consider stent insertion for the immediate relief of severe symptoms of superior vena caval obstruction or following failure of earlier treatment. [2005]",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "heading": "1.19 Managing brain metastases",
+      "text": "Offer dexamethasone to people with symptomatic brain metastases and reduce 1.19.1 to the minimum necessary maintenance dose for symptomatic response. [2011]\nFor guidance on management of brain metastases, see the section on 1.19.2 management of confirmed brain metastases in the NICE guideline on brain\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 32 conditions#notice-of-rights). of 51",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "heading": "1.20 Bone metastases",
+      "text": "1.20.1 Administer single-fraction radiotherapy to people with bone metastasis who need palliation and for whom standard analgesic treatments are inadequate. [2005]\n1.20.2 For more guidance on preventing complications from bone metastases, see the NICE technology appraisal guidance on denosumab for the prevention of skeletal-related events in adults with bone metastases from solid tumours.",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "heading": "1.21 Managing other symptoms: weight loss, loss of appetite, difficulty swallowing, fatigue and depression",
+      "text": "Other symptoms, including weight loss, loss of appetite, depression and difficulty 1.21.1 swallowing, should be managed by multidisciplinary groups that include supportive and palliative care professionals. [2005]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 33 conditions#notice-of-rights). of 51",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "heading": "1.22 Organising follow-up and collecting information on patient experience",
+      "text": "Offer all people with lung cancer an initial specialist follow-up appointment within 1.22.1 6 weeks of completing treatment to discuss ongoing care. Offer regular appointments after this, rather than relying on the person requesting appointments when they experience symptoms. [2011]\nOffer protocol-driven follow-up led by a lung cancer clinical nurse specialist as an 1.22.2 option for people with a life expectancy of more than 3 months. [2011]\nEnsure that people know how to contact the lung cancer clinical nurse specialist 1.22.3 involved in their care between their scheduled hospital visits. [2011]\nThe opinions and experiences of people with lung cancer and their family 1.22.4 members or carers (as appropriate) should be collected and used to improve the delivery of lung cancer services. People should receive feedback on any action taken as a result of such surveys. [2005]\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 34 conditions#notice-of-rights). of 51",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "Recommendations for research",
+      "text": "The guideline committee has made the following recommendations for research.",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "1 Immunotherapy after multimodality treatment",
+      "text": "What is the effectiveness and cost effectiveness of immunotherapy in people with stage IIIA-N2 non-small-cell lung cancer following multimodality treatment including surgery?\nFor a short explanation of why the committee made the recommendation for research, see the rationale section on management of operable stage IIIA–N2 non-small-cell lung cancer.\nFull details of the evidence and the committee's discussion are in evidence review C: Management of NSCLC stage IIIA-N2.",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "2 Stereotactic ablative radiotherapy compared with surgery",
+      "text": "What is the effectiveness and cost effectiveness of stereotactic ablative radiotherapy (SABR) compared with surgery (for example, sublobar, wedge resection, lobectomy) for people with non-small-cell lung cancer (stage I and IIA) in whom surgery is suitable?\nFor a short explanation of why the committee made the recommendation for research, see the rationale section on surgery and radiotherapy with curative intent for non- small-cell lung cancer.\nFull details of the evidence and the committee's discussion are in evidence review D: Radiotherapy with curative intent for NSCLC.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 35 conditions#notice-of-rights). of 51",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "3 Routine contrast-enhanced brain CT",
+      "text": "What is the effectiveness and cost effectiveness of routinely performing contrast- enhanced brain CT at the time of initial diagnosis and/or staging CT?\nFor a short explanation of why the committee made the recommendation for research, see the rationale section on brain imaging for people having treatment with curative intent.\nFull details of the evidence and the committee's discussion are in evidence review B: Brain imaging for people with NSCLC selected for treatment with curative intent.",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "heading": "4 Prophylactic cranial irradiation compared with routine MRI follow-up in extensive-stage small-cell lung cancer",
+      "text": "What is the effectiveness and cost effectiveness of prophylactic cranial irradiation compared with routine MRI follow-up in people with extensive-stage small-cell lung cancer without brain metastases?\nFor a short explanation of why the committee made the recommendation for research, see the rationale section on thoracic radiotherapy and prophylactic cranial irradiation in SCLC.\nFull details of the evidence and the committee's discussion are in evidence review G: Thoracic radiotherapy for extensive stage SCLC and evidence review H: Prophylactic cranial irradiation for extensive stage SCLC.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 36 conditions#notice-of-rights). of 51",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "heading": "Rationale and impact",
+      "text": "These sections briefly explain why the committee made the recommendations and how they might affect services. They link to details of the evidence and a full description of the committee's discussion.",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "heading": "Effectiveness of diagnostic and staging investigations",
+      "text": "Recommendation 1.3.10\nClinical audit is an important tool for maintaining high standards in the use of endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) and endoscopic ultrasound-guided fine-needle aspiration (EUS-FNA). This is consistent with the British Thoracic Society guideline and quality standards (which are accredited by NICE).",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "heading": "EBUS-TBNA and EUS-FNA",
+      "text": "Recommendations 1.3.19 to 1.3.21\nThe recommendations cover:\n• initial invasive investigations for people with an intermediate probability of mediastinal malignancy\n• subsequent investigations for people with a high probability of mediastinal malignancy, when neck ultrasound and biopsy are negative.\nIn these circumstances, when compared with alternative investigations, EBUS-TBNA and EUS-FNA:\n• produce a diagnosis and stage faster than bronchoscopy or CT-guided biopsy\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 37 conditions#notice-of-rights). of 51\n• are more acceptable to patients than surgery\n• reduce the need for further investigations and hospital visits compared with bronchoscopy.",
+      "start_page": 37,
+      "end_page": 38
+    },
+    {
+      "heading": "Surgical mediastinal staging",
+      "text": "Recommendation 1.3.21\nThere is evidence that surgical staging is useful when EBUS-TBNA and/or EUS-FNA are negative but clinical suspicion of mediastinal malignancy is high. While there are potential harms from the invasive nature of surgical staging, there is no evidence that these outweigh the benefits in this population.",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "heading": "Procedures that were not recommended",
+      "text": "Transthoracic needle biopsy, bronchoscopy and non-ultrasound-guided TBNA are no longer recommended for staging lung cancer in intrathoracic lymph nodes because:\n• bronchoscopy and non-ultrasound-guided TBNA are unlikely to reach the minimum sensitivity required by the British Thoracic quality standards and\n• they may discourage people from having more effective procedures (such as EBUS- TBNA) and subsequent investigations.\nThe word 'fibreoptic' has been removed because bronchoscopy can be fibreoptic, video or hybrid.",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "heading": "How the recommendations might affect practice",
+      "text": "The recommendations on PET-CT reflect current practice, so will not incur an extra cost.\nThe recommendations on EBUS-TBNA and EUS-FNA will reinforce best practice and result in a more streamlined diagnostic service with more timely diagnosis and staging.\nThe surgical mediastinal staging recommendation will also reinforce best practice and restrict this procedure to people most likely to benefit.\nReturn to recommendations\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 38 conditions#notice-of-rights). of 51",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "heading": "Brain imaging for people having treatment with curative intent",
+      "text": "Recommendations 1.3.23 to 1.3.25",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "heading": "Why the committee made the recommendations",
+      "text": "Brain imaging is helpful before starting treatment with curative intent, because if brain metastases are detected then the treatment plan is likely to change. However, routine brain imaging is expensive, and the evidence showed that it does not always offer a good balance of benefits and costs.\nIn people with stage II and IIIA disease, the benefits of brain imaging outweigh the costs because:\n• brain metastases are more common than in stage I disease\n• people can start early treatment for metastases if they are identified, which improves prognosis\n• some people with brain metastases will not have radical treatment (depending on factors such as the number of metastases, prognosis and patient preference), and this reduces costs.\nIn people with clinical stage I NSCLC and no neurological symptoms, the prevalence of detectable brain metastases is fairly low (around 4%) compared with people with stage II or IIIA disease. People with stage I NSCLC who do have brain metastases often still have radical lung treatment, which is much more rarely the case for people with stage IIIA NSCLC. Overall, the lower prevalence of metastases and smaller reduction in numbers of people having radical treatment mean that the benefits of brain imaging in this population are too low to justify the costs.\nThe 2018 review only examined the clinical and cost effectiveness of imaging after the treatment plan has been decided, but the committee noted that it could be more efficient to conduct CT brain imaging alongside initial staging CT. With this in mind, the committee made a recommendation for research on routine brain imaging with CT at initial diagnosis and/or staging.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 39 conditions#notice-of-rights). of 51",
+      "start_page": 39,
+      "end_page": 39
+    },
+    {
+      "heading": "How the recommendations might affect practice",
+      "text": "Practice in this area is variable. The committee estimated that the recommendations will increase the number of people who have brain imaging. In turn, they thought this should prevent the use of treatment options (such as lobectomy and sublobar resection) in some patients for whom it is not expected to be beneficial. The recommendations may also lead to an increase in radical radiotherapy, stereotactic radiosurgery and brain surgery. These treatments would be expected to improve the person's prognosis, although each treatment would carry its own risks and side effects.\nReturn to recommendations",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "heading": "Surgery and radiotherapy with curative intent for non-small-cell lung cancer",
+      "text": "Recommendations 1.6.1 and 1.6.5 to 1.6.12",
+      "start_page": 40,
+      "end_page": 40
+    },
+    {
+      "heading": "Why the committee made the recommendations",
+      "text": "For people with non-small-cell lung cancer (NSCLC) who are well enough and for whom treatment with curative intent is suitable, the evidence showed that lobectomy provides better survival outcomes than stereotactic ablative radiotherapy (SABR). Lobectomy is a good compromise between preserving pulmonary function and being more likely to remove cancerous cells compared with sublobar resection.\nFor people with stage I–IIA (T1a–T2b, N0, M0) NSCLC, the evidence showed that:\n• if they decline lobectomy or it is contraindicated, sublobar resection and SABR both provide better survival outcomes than conventionally fractionated radiotherapy, although it is not clear which of these 2 is better\n• if they decline any surgery or it is contraindicated, SABR provides better survival outcomes than conventionally fractionated radiotherapy, and people often prefer it because it involves fewer hospital visits\n• if surgery and SABR are contraindicated, conventionally fractionated radiotherapy provides better survival outcomes than no radiotherapy.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 40 conditions#notice-of-rights). of 51\nFor people with stage IIIA or IIIB NSCLC who cannot tolerate chemoradiotherapy or who decline it, the evidence was not strong enough to recommend conventional radiotherapy over hyper-fractionated regimens or vice versa. However, people who cannot tolerate chemoradiotherapy may also be unable to tolerate radical radiotherapy, so this will not be an option for everyone with stage IIIA or IIIB NSCLC. For an explanation of the recommendations covering surgery in this group, see the rationale on management of stage IIIA-N2 NSCLC.\n55 Gy in 20 fractions is the most common conventional radical radiotherapy regimen in the UK. If conventionally fractionated radiotherapy is used, a total radiation dose of 60 Gy provides better survival outcomes and fewer adverse events than 74 Gy. A total dose of 60 to 66 Gy is also normal NHS practice.\nThere are not many randomised controlled trials comparing SABR with surgery (lobectomy or sublobar resection). SABR is non-invasive, so if it is as effective as surgery then it may be a preferable option for many people with lung cancer. There are also various factors that may make SABR less costly than surgery. For example, it is usually delivered as outpatient treatment. There might also be subgroups for whom different forms of surgery or SABR might be the most cost-effective options. The committee made a recommendation for research on SABR compared with surgery to investigate these uncertainties.",
+      "start_page": 40,
+      "end_page": 41
+    },
+    {
+      "heading": "How the recommendations might affect practice",
+      "text": "The new recommendations on SABR are a change from the 2011 guideline and improve choice for people with NSCLC. However, practice has also changed since 2011, and SABR is now widely used, so implementing the recommendations may not involve a significant change in practice. The remaining changes to the recommendations reflect current practice.\nReturn to recommendations",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "heading": "Management of operable stage IIIA–N2 non-small- cell lung cancer",
+      "text": "Recommendations 1.7.9 to 1.7.13\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 41 conditions#notice-of-rights). of 51",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "heading": "Why the committee made the recommendations",
+      "text": "The available evidence showed that chemoradiotherapy and surgery are more effective than chemoradiotherapy alone in people who are well enough for surgery and when the disease is operable. For chemotherapy and surgery, there was no evidence that survival outcomes were better than for chemoradiotherapy, so the additional costs of including surgery outweighed the benefits.\nThe key benefit associated with chemoradiotherapy and surgery is the longer progression-free survival time. An analysis of multiple trials showed improved progression- free survival and cost effectiveness for chemoradiotherapy with surgery, compared with chemoradiotherapy alone. There was an 89% probability that chemoradiotherapy and surgery improved average overall survival time compared with chemoradiotherapy. However, the evidence in favour of chemoradiotherapy and surgery involved indirect comparisons, and no head-to-head trials showed meaningful differences in overall survival for any of the interventions. And as with any major surgery, there is a perioperative mortality risk for people who have chemoradiotherapy and surgery.\nThe 3 to 5 week wait for surgery is recommended to give people time to recover from the chemoradiotherapy.\nChemoradiotherapy with surgery is not often offered in current practice. In addition, there are specific factors to take into account when offering all these treatments together. Therefore, multidisciplinary teams providing it should have expertise both in the combined therapy, and in all the individual components.\nImmunotherapy has been shown to be effective in a variety of NSCLC indications but there is currently no evidence on whether it is clinically or cost effective for people with stage IIIA-N2 NSCLC following surgery. The committee made a recommendation for research on immunotherapy after multimodality treatment to address this.",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "heading": "How the recommendations might affect practice",
+      "text": "The committee felt that chemoradiotherapy and surgery is offered far less often than chemoradiotherapy alone or chemotherapy and surgery for people with NSCLC stage IIIA- N2. Therefore, these recommendations could lead to a change in current practice.\nReturn to recommendations\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 42 conditions#notice-of-rights). of 51",
+      "start_page": 42,
+      "end_page": 42
+    },
+    {
+      "heading": "First-line treatment for limited-stage disease small-cell lung cancer",
+      "text": "Recommendations 1.10.1 to 1.10.5",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "heading": "Why the committee changed the recommendations",
+      "text": "The evidence showed a survival benefit from twice-daily radiotherapy compared with once-daily. However, the committee agreed that some people with small-cell lung cancer will not be well enough to tolerate twice-daily radiotherapy, so they recommended giving people the option of once-daily radiotherapy.\nThe committee noted that, in practice, radiotherapy is not started in chemotherapy cycle 1, because this is when planning for the radiotherapy often takes place (see the recommendation on twice-daily radiotherapy with concurrent chemotherapy in the section on first-line treatment for limited-stage disease small-cell lung cancer). However, there was no new evidence on when to start radiotherapy, so the 2019 recommendation on this is the same as the original 2011 recommendation.\nThere were limited data available on whether continuous radiotherapy with concurrent chemotherapy was more effective than alternating radiotherapy and chemotherapy. Because of the limited data, and the committee's experience that people prefer to complete treatment as quickly as possible, the 2019 recommendation on concurrent therapy (see the recommendation on twice-daily radiotherapy with concurrent chemotherapy) is the same as the 2011 recommendation.\nReturn to recommendations",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "heading": "Thoracic radiotherapy and prophylactic cranial irradiation in small-cell lung cancer",
+      "text": "Recommendations 1.12.3 and 1.12.4\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 43 conditions#notice-of-rights). of 51",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "heading": "Thoracic radiotherapy",
+      "text": "There was some uncertainty in the evidence. However, the study most relevant to UK practice showed that thoracic radiotherapy improves long-term survival for people who have had a partial or complete response to chemotherapy, if they live longer than 1 year after the radiotherapy. The committee specified that thoracic radiotherapy should be given alongside prophylactic cranial irradiation. This is to match recommendation 1.4.55. In addition, the reviewed clinical trials gave thoracic radiotherapy alongside prophylactic cranial irradiation.",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "heading": "Prophylactic cranial irradiation",
+      "text": "The evidence showed that prophylactic cranial irradiation improves survival versus best supportive care.\nProphylactic cranial irradiation can adversely affect quality of life, and the survival benefits are limited. There is also some evidence from a study outside the UK that routine MRI follow-up may be more cost effective. The committee made a recommendation for research on prophylactic cranial irradiation compared with routine MRI follow-up in extensive-stage SCLC, to provide evidence more relevant to the UK and to see if MRI could identify people who need whole-brain radiotherapy and so reduce the number of people having unnecessary treatment.",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "heading": "Thoracic radiotherapy",
+      "text": "The 2011 recommendation only recommended thoracic radiotherapy for people with a complete response to chemotherapy at distant sites. Therefore, this recommendation could increase the number of people who are given thoracic radiotherapy.",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "heading": "Prophylactic cranial irradiation",
+      "text": "It is likely that the recommendation reflects current clinical practice.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 44 conditions#notice-of-rights). of 51\nReturn to recommendations\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 45 conditions#notice-of-rights). of 51",
+      "start_page": 44,
+      "end_page": 45
+    },
+    {
+      "heading": "Context",
+      "text": "Over 46,000 people were diagnosed with lung cancer in the UK in 2015. An estimated 89% of lung cancers are preventable, with 86% of these linked to smoking, 13% to occupational exposure, 9% to dietary factors and 7.8% to air pollution. Lung cancer can be linked to more than one cause.\nIn 2015 in the UK, over 35,000 people died from lung cancer. The overall mortality rate from lung cancer has decreased by 9% over the last decade. However, while there has been a decrease of 19% in mortality rates in men, there has been an increase of 2% in women. This is linked to lifestyle factors such as smoking and is driven by an increased incidence of lung cancer in older women.\nIn the UK, lung cancer is more common in people of European family origin than in people of African or Asian family origin. It is strongly linked to socioeconomic deprivation. There are many risk factors for lung cancer, including age, genetics, lifestyle (especially smoking) and occupation. Lung cancer is estimated to cost the UK economy £2.4 billion per year.\nNote: all statistics in this section are from Cancer Research UK's Lung Cancer Statistics.",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "heading": "Current practice",
+      "text": "Lung cancer is diagnosed and staged using a variety of tests, including chest X-rays, CT or positron-emission tomography CT (PET-CT). Lung cancer samples are commonly acquired for diagnosis using bronchoscopy, endobronchial ultrasound (EBUS) or a percutaneous procedure (guided by CT or ultrasound).\nLung cancer has 2 main types:\n• non-small-cell lung cancer (NSCLC), which is more common and spreads more slowly\n• small-cell lung cancer (SCLC), which is rarer and spreads more quickly.\nTreatment depends on the type, size, position and stage of the cancer, and the person's health. Possible treatments include radiotherapy, systemic anti-cancer therapies, surgery, supportive care cryotherapy, photodynamic therapy and ablation.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 46 conditions#notice-of-rights). of 51\nSince 2011, when the NICE lung cancer guideline was last updated, there have been changes in the way that lung cancer is diagnosed and treated. The Royal College of Physicians' National Lung Cancer Audit annual report 2016 identified that only 72% of people have pathological confirmation of their lung cancer. There is also inconsistency in the availability of molecular testing in lung cancer diagnosis.\nNHS England has taken steps to shorten the time to treatment, as well as improve access to and uptake of radiotherapy, and stereotactic ablative radiotherapy (SABR) is routinely used for certain subgroups of people with early-stage NSCLC. There are now a variety of licensed immunotherapies and biological targeted therapies for treating advanced NSCLC, and NICE has published technology appraisals covering many of these.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 47 conditions#notice-of-rights). of 51",
+      "start_page": 46,
+      "end_page": 47
+    },
+    {
+      "heading": "Finding more information and committee details",
+      "text": "To find NICE guidance on related topics, including guidance in development, see the NICE topic page on lung cancer.\nFor full details of the evidence and the guideline committee's discussions, see the evidence reviews. You can also find information about how the guideline was developed, including details of the committee.\nNICE has produced tools and resources to help you put this guideline into practice. For general help and advice on putting NICE guidelines into practice see resources to help you put NICE guidance into practice.\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 48 conditions#notice-of-rights). of 51",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "Update information",
+      "text": "March 2024: We have removed the following systemic anti-cancer therapy treatment pathways for advanced non-small-cell lung cancer after the withdrawal of the NICE technology appraisal guidance on mobocertinib:\n• EGFRex 20 insertion positive, PD-L1 less than 50%, for both squamous and non- squamous non-small-cell lung cancer\n• EGFRex 20 insertion positive, PD-L1 50% or higher, for both squamous and non- squamous non-small-cell lung cancer.\nJuly 2023: We have made the following changes to the systemic anti-cancer therapy treatment pathways for advanced non-small-cell lung cancer:\n• added the NICE technology appraisal guidance on dabrafenib and trametinib, for squamous and non-squamous non-small-cell lung cancer\n• added the NICE technology appraisal guidance on mobocertinib, for non-squamous non-small-cell lung cancer\n• added the NICE technology appraisal guidance on selpercatinib, for squamous and non-squamous non-small-cell lung cancer\n• updated the treatment options in the pathways for EGFR-TK positive, KRAS G12C positive and METex14 skipping alteration non-small-cell lung cancer.\nMarch 2023: We added the NICE technology appraisal guidance on mobocertinib to the systemic anti-cancer therapy treatment pathways for advanced non-small-cell lung cancer.\nSeptember 2022: We added the NICE technology appraisal guidance on tepotinib to the systemic anti-cancer therapy treatment pathways for advanced non-small-cell lung cancer.\nAugust 2022: We have changed how the information on systemic anti-cancer therapy for advanced non-small-cell lung cancer is presented.\n• In the 2019 version of the guideline, this information was presented both in separate\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 49 conditions#notice-of-rights). of 51\nvisual summaries, and as recommendations in the guideline.\n• In the 2022 update, this information is presented in separate treatment pathways. The recommendations have been incorporated into the treatment pathways and have been removed from the guideline. This is a presentational change only, and the recommendations still apply.\nThe sources for the 2019 and 2022 versions are the same:\n• NICE technology appraisal guidance\n• Recommendations from the 2019 version of the guideline that have been incorporated into the treatment pathways\n• Input from the 2019 guideline committee and other topic experts.\nThe 2022 treatment pathways were developed following an interim process to develop visualisations of treatment options.\nMarch 2019: We reviewed the evidence and made new recommendations on mediastinal lymph node assessment, brain imaging, prophylactic cranial irradiation, radical radiotherapy and operable stage IIIA disease. These recommendations are marked [2019] .\nWe also made some changes without an evidence review:\n• Recommendations 1.3.2, 1.3.10, 1.3.14, 1.3.15, 1.4.13, 1.4.16 and 1.4.38 were updated to fit with the recommendations made in the 2019 evidence review, and to reflect current best practice.\n• Recommendations 1.3.5, 1.3.11, 1.3.18 were updated to reflect current terminology.\n• Recommendation 1.3.17 has had 'fibreoptic' removed, because bronchoscopy can be fibreoptic, video or hybrid.\n• Recommendation 1.3.30 has had a reference to the Welsh Government and Department of Health removed, as the NHS England optimal lung cancer pathway now covers this area.\n• Recommendation 1.3.34 was updated to reflect current practice and to be in line with the NICE quality standard on lung cancer.\nThese recommendations are marked [2005, amended 2019] or [2011, amended 2019] .\n© NICE 2024. All rights reserved. Subject to Notice of rights  Page 50 conditions#notice-of-rights). of 51\nRecommendations marked [2005] or [2011] last had an evidence review in 2005 or 2011. In some cases minor changes have been made to the wording to bring the language and style up to date, without changing the meaning.\nThe 2019 visual summaries were developed following a process to develop a systemic anti-cancer therapy algorithm.",
+      "start_page": 49,
+      "end_page": 51
+    },
+    {
+      "heading": "ISBN: 978-1-4731-5818-4",
+      "text": "© NICE 2024. All rights reserved. Subject to Notice of rights  Page 51 conditions#notice-of-rights). of 51",
+      "start_page": 51,
+      "end_page": 51
+    }
+  ]
+}
