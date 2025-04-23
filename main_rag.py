@@ -28,3 +28,8 @@ for pico in extracted_picos:
     print(f"Country: {pico['Country']}")
     print(f"Number of PICOs: {len(pico.get('PICOs', []))}")
     print("---")
+
+
+
+
+
