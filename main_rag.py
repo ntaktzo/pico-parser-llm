@@ -42,7 +42,7 @@ chunker = Chunker(
     chunk_size=600,
     chunk_overlap=200,
     chunk_strat="semantic",
-    maintain_folder_structure=True
+    maintain_folder_structure=True  # Set to True to preserve folder structure
 )
 chunker.run_pipeline()
 
