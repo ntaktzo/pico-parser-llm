@@ -184,10 +184,10 @@
       }
     },
     {
-      "text": "Row 1: Name",
+      "text": "Row 1:\nName",
       "metadata": {
         "doc_id": "bes220825_lumykras_141_2022",
-        "heading": "table under heading <Post address Visiting address Phone number>",
+        "heading": "table under heading Post address Visiting address Phone number",
         "start_page": 1,
         "end_page": 1,
         "created_date": "2022",
