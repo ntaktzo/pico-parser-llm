@@ -4,11 +4,13 @@ from python.process import PDFProcessor, Translator
 from python.vectorise import Chunker, Vectoriser
 from python.run import RagHTASubmission
 from python.open_ai import validate_api_key
+from python.translation_cleaner import PostCleaner  # Import our new class
 
 # Define paths
 PDF_PATH = "data/PDF"
 CLEAN_PATH = "data/text_cleaned"
 TRANSLATED_PATH = "data/text_translated"
+POST_CLEANED_PATH = "data/post_cleaned"  # New directory for cleaned translations
 CHUNKED_PATH = "data/text_chunked"
 VECTORSTORE_PATH = "data/vectorstore"
 VECTORSTORE_TYPE = "biobert"  # Choose between "openai", "biobert", or "both"
@@ -35,9 +37,17 @@ translator = Translator(
 )
 translator.translate_documents()
 
-# Step 3: Chunk documents
+# Step 3: Clean translated documents 
+cleaner = PostCleaner(
+    input_dir=TRANSLATED_PATH,
+    output_dir=POST_CLEANED_PATH,  # Store cleaned files in new directory
+    maintain_folder_structure=True  # Preserve folder structure
+)
+cleaner.clean_all_documents()
+
+# Step 4: Chunk documents (use cleaned translations)
 chunker = Chunker(
-    json_folder_path=TRANSLATED_PATH,
+    json_folder_path=POST_CLEANED_PATH,  # Use cleaned documents as input
     output_dir=CHUNKED_PATH,
     chunk_size=600,
     chunk_overlap=200,
@@ -46,7 +56,7 @@ chunker = Chunker(
 )
 chunker.run_pipeline()
 
-# Step 4: Vectorize documents
+# Step 5: Vectorize documents
 vectoriser = Vectoriser(
     chunked_folder_path=CHUNKED_PATH,
     embedding_choice=VECTORSTORE_TYPE,
@@ -54,7 +64,7 @@ vectoriser = Vectoriser(
 )
 vectorstore = vectoriser.run_pipeline()
 
-# Step 5: Initialize RAG system for retrieval and LLM querying
+# Step 6: Initialize RAG system for retrieval and LLM querying
 rag = RagHTASubmission(
     model=MODEL,
     vectorstore_type=VECTORSTORE_TYPE
@@ -62,11 +72,6 @@ rag = RagHTASubmission(
 
 # Initialize the retriever with already created vectorstore
 rag.initialize_retriever(vectorstore_type=VECTORSTORE_TYPE)
-
-# Initialize PICO extractor
-rag.initialize_pico_extractor()
-
-# Extract PICOs
 extracted_picos = rag.extract_picos(countries=COUNTRIES)
 
 # Print extracted PICOs
