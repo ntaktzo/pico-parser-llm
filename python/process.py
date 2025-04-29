@@ -742,7 +742,7 @@ import gc
 import torch
 from typing import Optional
 from langdetect import detect
-from transformers import pipeline, MBartForConditionalGeneration, M2M100ForConditionalGeneration, AutoTokenizer
+from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
 class Translator:
     """
@@ -778,10 +778,9 @@ class Translator:
         self.output_dir = output_dir
         self.max_chunk_length = max_chunk_length
 
-        # Mapping from source language to the corresponding translation model.
-        # Primary models: Helsinki-NLP direct language-to-English models
+        # Mapping from source language to the corresponding Helsinki-NLP model.
+        # Covering major European languages with direct models
         self.models = {
-            # Direct Helsinki-NLP models
             'fr': 'Helsinki-NLP/opus-mt-fr-en',
             'de': 'Helsinki-NLP/opus-mt-de-en',
             'pl': 'Helsinki-NLP/opus-mt-pl-en',
@@ -800,34 +799,40 @@ class Translator:
             'lv': 'Helsinki-NLP/opus-mt-lv-en',
             'lt': 'Helsinki-NLP/opus-mt-tc-big-lt-en',
             'mt': 'Helsinki-NLP/opus-mt-mt-en',
-            
-            # Alternative models for languages without direct Helsinki models
-            # Using language group models
-            'pt': 'Helsinki-NLP/opus-mt-ROMANCE-en',  # Portuguese (Romance languages)
-            'ro': 'Helsinki-NLP/opus-mt-ROMANCE-en',  # Romanian (Romance languages)
-            'sl': 'Helsinki-NLP/opus-mt-SLAVIC-en',   # Slovenian (Slavic languages)
-            'hr': 'Helsinki-NLP/opus-mt-SLAVIC-en',   # Croatian (Slavic languages)
-            'no': 'Helsinki-NLP/opus-mt-NORTH-EUROPEAN-en',  # Norwegian
         }
         
-        # Fallback models for languages not covered by Helsinki-NLP models
-        # These models can handle many languages at once
-        self.fallback_models = {
-            'facebook/nllb-200-distilled-600M': set([
-                'af', 'am', 'ar', 'az', 'be', 'bn', 'bs', 'ca', 'cy', 'eo', 'eu', 'fa', 
-                'ga', 'gl', 'gu', 'ha', 'he', 'hi', 'hy', 'ig', 'is', 'ja', 'ka', 'kk', 
-                'km', 'kn', 'ko', 'ku', 'lo', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'ne', 
-                'ru', 'sr', 'ta', 'te', 'th', 'tl', 'tr', 'uk', 'ur', 'uz', 'vi', 'yo', 'zh'
-            ]),
-            'facebook/m2m100_418M': set([
-                'af', 'ar', 'az', 'bn', 'ca', 'cy', 'fa', 'gl', 'he', 'hi', 'is', 'ja', 
-                'ko', 'ku', 'mn', 'mr', 'my', 'ne', 'ru', 'sr', 'sw', 'th', 'tr', 'uk', 
-                'ur', 'uz', 'vi', 'zh'
-            ])
+        # Define language groups for the fallback Helsinki group models
+        self.language_groups = {
+            'facebook/nllb-200-distilled-600M': {
+                'model_type': 'nllb',
+                'langs': set([
+                    'af', 'am', 'ar', 'as', 'az', 'be', 'bg', 'bn', 'br', 'bs', 'ca', 'cs', 'cy', 'da', 
+                    'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'fy', 'ga', 'gd', 'gl', 'gu', 
+                    'ha', 'he', 'hi', 'hr', 'hu', 'hy', 'id', 'ig', 'is', 'it', 'ja', 'jv', 'ka', 'kk', 
+                    'km', 'kn', 'ko', 'ku', 'ky', 'lb', 'lg', 'ln', 'lo', 'lt', 'lv', 'mg', 'mk', 'ml', 
+                    'mn', 'mr', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ns', 'ny', 'om', 'or', 'pa', 'pl', 
+                    'ps', 'pt', 'ro', 'ru', 'sd', 'si', 'sk', 'sl', 'so', 'sq', 'sr', 'ss', 'su', 'sv', 
+                    'sw', 'ta', 'te', 'th', 'tl', 'tn', 'tr', 'uk', 'ur', 'uz', 'vi', 'wo', 'xh', 'yi', 
+                    'yo', 'zh', 'zu'
+                ])
+            }
+        }
+        
+        # Map ISO language codes to NLLB format
+        self.nllb_lang_map = {
+            'en': 'eng_Latn', 'fr': 'fra_Latn', 'de': 'deu_Latn', 'es': 'spa_Latn', 
+            'it': 'ita_Latn', 'pt': 'por_Latn', 'nl': 'nld_Latn', 'pl': 'pol_Latn',
+            'ru': 'rus_Cyrl', 'zh': 'zho_Hans', 'ja': 'jpn_Jpan', 'ar': 'ara_Arab',
+            'hi': 'hin_Deva', 'bg': 'bul_Cyrl', 'cs': 'ces_Latn', 'da': 'dan_Latn',
+            'fi': 'fin_Latn', 'el': 'ell_Grek', 'hu': 'hun_Latn', 'ro': 'ron_Latn',
+            'sk': 'slk_Latn', 'sl': 'slv_Latn', 'sv': 'swe_Latn', 'uk': 'ukr_Cyrl',
+            'hr': 'hrv_Latn', 'no': 'nno_Latn', 'et': 'est_Latn', 'lv': 'lav_Latn',
+            'lt': 'lit_Latn', 'tr': 'tur_Latn', 'he': 'heb_Hebr', 'th': 'tha_Thai',
+            'ko': 'kor_Hang', 'vi': 'vie_Latn', 'fa': 'fas_Arab', 'sr': 'srp_Cyrl'
         }
         
         self.translators = {}
-        self.fallback_translators = {}
+        self.multilingual_models = {}
 
         # Detect available hardware (CUDA, MPS, or CPU)
         if torch.cuda.is_available():
@@ -851,16 +856,18 @@ class Translator:
 
     def get_translator(self, lang: str):
         """
-        Returns a Hugging Face translation pipeline for the given language code.
-        If no suitable direct model is found, falls back to multilingual models.
+        Returns a translation function for the given language code.
+        Tries different model options in order of preference.
         """
         # Return cached translator if already loaded
         if lang in self.translators:
             return self.translators[lang]
 
-        # Try direct language-specific model first
-        model_name = self.models.get(lang)
-        if model_name:
+        # 1. Try direct Helsinki-NLP model first (language-specific)
+        if lang in self.models:
+            model_name = self.models[lang]
+            print(f"Using model: {model_name}")
+            
             try:
                 translator = pipeline(
                     "translation",
@@ -872,114 +879,50 @@ class Translator:
                 return translator
             except Exception as e:
                 print(f"Failed to load model {model_name}: {e}")
-                # Continue to fallback models if this fails
+                # Continue to next option
         
-        # Try fallback multilingual models if no direct model available
-        for model_name, supported_langs in self.fallback_models.items():
-            if lang in supported_langs:
-                if model_name in self.fallback_translators:
-                    # Use cached fallback translator
-                    translator = self.fallback_translators[model_name]
-                    self.translators[lang] = translator
-                    return translator
-                
+        # 2. Try NLLB multilingual model as fallback
+        nllb_model = 'facebook/nllb-200-distilled-600M'
+        if lang in self.language_groups[nllb_model]['langs']:
+            print(f"Using model: {nllb_model}")
+            
+            # Load or retrieve cached NLLB model
+            if nllb_model not in self.multilingual_models:
                 try:
-                    if "nllb" in model_name:
-                        # Handle NLLB models differently
-                        translator = self._setup_nllb_translator(model_name, lang)
-                    elif "m2m100" in model_name:
-                        # Handle M2M100 models differently
-                        translator = self._setup_m2m100_translator(model_name, lang)
-                    else:
-                        # Standard pipeline for other models
-                        translator = pipeline(
-                            "translation",
-                            model=model_name,
-                            torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
-                            device=self.device
-                        )
-                    
-                    self.fallback_translators[model_name] = translator
-                    self.translators[lang] = translator
-                    return translator
+                    tokenizer = AutoTokenizer.from_pretrained(nllb_model)
+                    model = AutoModelForSeq2SeqLM.from_pretrained(nllb_model).to(self.device)
+                    self.multilingual_models[nllb_model] = (model, tokenizer)
                 except Exception as e:
-                    print(f"Failed to load fallback model {model_name}: {e}")
-                    continue
-        
-        # Last resort: use the generic multilingual model
-        if not lang in self.translators:
-            try:
-                model_name = "facebook/nllb-200-distilled-600M"
-                translator = self._setup_nllb_translator(model_name, lang)
-                self.translators[lang] = translator
-                return translator
-            except Exception as e:
-                print(f"Failed to load generic multilingual model: {e}")
-        
-        print(f"No translation model available for language: {lang}")
+                    print(f"Failed to load multilingual model {nllb_model}: {e}")
+                    return None
+            else:
+                model, tokenizer = self.multilingual_models[nllb_model]
+            
+            # Get NLLB-formatted language codes
+            src_lang = self.nllb_lang_map.get(lang, f"{lang}_Latn")  # Fallback to Latin script
+            tgt_lang = 'eng_Latn'  # Always translate to English
+            
+            # Create translator function
+            def nllb_translate(text, **kwargs):
+                # Set the source language
+                inputs = tokenizer(text, return_tensors="pt").to(self.device)
+                
+                # Get the tokenizer's language ID for the target language
+                with torch.no_grad():
+                    translated_tokens = model.generate(
+                        **inputs,
+                        forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
+                        max_length=512
+                    )
+                
+                translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
+                return [{'translation_text': translation}]
+            
+            self.translators[lang] = nllb_translate
+            return nllb_translate
+
+        # No suitable model found
         return None
-    
-    def _setup_nllb_translator(self, model_name, source_lang):
-        """Sets up a translator using NLLB model which requires special handling"""
-        # Map ISO language codes to NLLB language codes
-        lang_map = {
-            'en': 'eng_Latn', 'fr': 'fra_Latn', 'de': 'deu_Latn', 'es': 'spa_Latn', 
-            'it': 'ita_Latn', 'pt': 'por_Latn', 'nl': 'nld_Latn', 'pl': 'pol_Latn',
-            'ru': 'rus_Cyrl', 'zh': 'zho_Hans', 'ja': 'jpn_Jpan', 'ar': 'ara_Arab',
-            'hi': 'hin_Deva', 'bg': 'bul_Cyrl', 'cs': 'ces_Latn', 'da': 'dan_Latn',
-            'fi': 'fin_Latn', 'el': 'ell_Grek', 'hu': 'hun_Latn', 'ro': 'ron_Latn',
-            'sk': 'slk_Latn', 'sl': 'slv_Latn', 'sv': 'swe_Latn', 'uk': 'ukr_Cyrl',
-            'hr': 'hrv_Latn', 'no': 'nno_Latn', 'et': 'est_Latn', 'lv': 'lav_Latn',
-            'lt': 'lit_Latn', 'tr': 'tur_Latn', 'he': 'heb_Hebr', 'th': 'tha_Thai',
-            'ko': 'kor_Hang', 'vi': 'vie_Latn', 'fa': 'fas_Arab', 'sr': 'srp_Cyrl'
-        }
-        
-        nllb_source = lang_map.get(source_lang, source_lang + '_Latn')  # Default to Latin script if not found
-        nllb_target = 'eng_Latn'  # Always translate to English
-        
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = MBartForConditionalGeneration.from_pretrained(model_name).to(self.device)
-        
-        # Create a custom translator function
-        def translate_fn(text, **kwargs):
-            inputs = tokenizer(text, return_tensors="pt").to(self.device)
-            tokenizer.src_lang = nllb_source
-            
-            with torch.no_grad():
-                translated_tokens = model.generate(
-                    **inputs, 
-                    forced_bos_token_id=tokenizer.lang_code_to_id[nllb_target],
-                    max_length=512
-                )
-            
-            translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
-            return [{'translation_text': translation}]
-        
-        return translate_fn
-    
-    def _setup_m2m100_translator(self, model_name, source_lang):
-        """Sets up a translator using M2M100 model which requires special handling"""
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = M2M100ForConditionalGeneration.from_pretrained(model_name).to(self.device)
-        
-        # Create a custom translator function
-        def translate_fn(text, **kwargs):
-            tokenizer.src_lang = source_lang
-            tokenizer.tgt_lang = "en"
-            
-            inputs = tokenizer(text, return_tensors="pt").to(self.device)
-            
-            with torch.no_grad():
-                translated_tokens = model.generate(
-                    **inputs, 
-                    forced_bos_token_id=tokenizer.get_lang_id("en"),
-                    max_length=512
-                )
-            
-            translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
-            return [{'translation_text': translation}]
-        
-        return translate_fn
 
     def chunk_text(self, text: str) -> list:
         """
@@ -1004,7 +947,7 @@ class Translator:
 
     def translate_text(self, text: str, translator) -> str:
         """
-        Translates a string using the provided translator pipeline in chunks.
+        Translates a string using the provided translator function in chunks.
         Returns the translated text.
         """
         if not text.strip():
@@ -1022,9 +965,16 @@ class Translator:
         translates each chunk's 'heading' and 'text', as well as each table's 'text',
         and writes the translated content to a new JSON file.
         
-        If the document is detected as English or undetected, or if no translator is available
+        If the document is already English or undetected, or if no translator is available
         for that language, the file is copied unmodified.
         """
+        # Get document name and parent folder
+        file_name = os.path.basename(input_path)
+        parent_folder = os.path.basename(os.path.dirname(input_path))
+        
+        # Print document info
+        print(f"Document: {file_name} (in folder: {parent_folder})")
+        
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
@@ -1040,13 +990,6 @@ class Translator:
             for tb in data['tables']:
                 all_texts.append(tb.get('text', ''))
 
-        # Get document name and parent folder
-        file_name = os.path.basename(input_path)
-        parent_folder = os.path.basename(os.path.dirname(input_path))
-        
-        # Print document info
-        print(f"Document: {file_name} (in folder: {parent_folder})")
-        
         combined_text = "\n".join([t for t in all_texts if t]).strip()
         lang = self.detect_language(combined_text)
         print(f"Detected language: {lang}")
@@ -1057,28 +1000,12 @@ class Translator:
             shutil.copy(input_path, output_path)
             return
 
-        model_name = self.models.get(lang)
         translator = self.get_translator(lang)
         
-        if translator:
-            # Print model name being used
-            if lang in self.models:
-                print(f"Using model: {self.models[lang]}")
-            elif any(lang in supported_langs for model, supported_langs in self.fallback_models.items()):
-                # Find which fallback model is being used
-                for model, supported_langs in self.fallback_models.items():
-                    if lang in supported_langs:
-                        print(f"Using model: {model}")
-                        break
-            else:
-                print("Using model: facebook/nllb-200-distilled-600M (fallback)")
-        else:
+        if not translator:
             print(f"No translator available for {lang}. Copying file unmodified.")
             shutil.copy(input_path, output_path)
             return
-
-        # Note: doc_id is NOT translated, as requested
-        # If doc_id is originally in a non-English language it will remain in that language
 
         # Translate chunks: headings and texts.
         if 'chunks' in data:
