@@ -50,7 +50,7 @@ class Chunker:
         chunk_size=600,
         chunk_overlap=100,
         chunk_strat="recursive",  # "semantic" or "recursive"
-        maintain_folder_structure=False  # New parameter to control folder structure preservation
+        maintain_folder_structure=False  # Parameter to control folder structure preservation
     ):
         self.json_folder_path = json_folder_path
         self.chunk_size = chunk_size
@@ -64,9 +64,7 @@ class Chunker:
         """
         Loads JSON files recursively and converts each heading-based entry
         into a preliminary LangChain Document.
-        If top-level 'created_date' or 'country' are found, store them in each chunk's metadata.
-        
-        Also stores the original file path relative to the json_folder_path for maintaining folder structure.
+        Enhanced to detect source type from the path.
         """
         documents = []
         json_files = glob.glob(os.path.join(self.json_folder_path, "**/*.json"), recursive=True)
@@ -76,6 +74,14 @@ class Chunker:
             print(f"Processing file: {jf}")
             # Calculate relative path from input folder to this JSON file
             rel_path = os.path.relpath(jf, self.json_folder_path)
+            
+            # Detect source type from path
+            source_type = "unknown"
+            path_lower = jf.lower()
+            if "hta submission" in path_lower or "hta submissions" in path_lower:
+                source_type = "hta_submission"
+            elif "clinical guideline" in path_lower or "clinical guidelines" in path_lower:
+                source_type = "clinical_guideline"
             
             with open(jf, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -87,6 +93,10 @@ class Chunker:
             doc_id = data["doc_id"]
             doc_created_date = data.get("created_date", "unknown_year")
             doc_country = data.get("country", data.get("country:", "unknown"))
+            
+            # Use source_type from JSON if available, otherwise use the one detected from path
+            doc_source_type = data.get("source_type", source_type)
+            
             chunks = data["chunks"]
 
             if not isinstance(chunks, list) or len(chunks) == 0:
@@ -105,6 +115,7 @@ class Chunker:
                     "end_page": c.get("end_page"),
                     "created_date": doc_created_date,
                     "country": doc_country,
+                    "source_type": doc_source_type,  # Add source type to metadata
                     "original_file_path": rel_path  # Store the relative path for maintaining structure
                 }
 
@@ -117,6 +128,7 @@ class Chunker:
 
         print(f"Loaded {len(documents)} heading-level documents.")
         return documents
+
 
     def chunk_documents(self, docs: List[Document]) -> List[Document]:
         """

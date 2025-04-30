@@ -205,6 +205,50 @@ class ChunkRetriever:
             for txt, meta in zip(result["documents"], result["metadatas"])
         ]
 
+
+# Modified portions of the ChunkRetriever class in retrieve.py
+
+class ChunkRetriever:
+    """
+    Retriever with improved deduplication and adaptive context handling.
+    Enhanced to support source type filtering.
+    """
+    def __init__(self, vectorstore):
+        self.vectorstore = vectorstore
+        self.chroma_collection = self.vectorstore._collection
+        self.deduplicator = DocumentDeduplicator()
+        self.similarity_utils = TextSimilarityUtils()
+        self.context_manager = ContextManager()
+        self.debug_mode = False
+
+    def primary_filter_by_country(
+        self, 
+        country: str,
+        source_filter: Optional[Dict[str, Any]] = None,
+        limit: int = 1000
+    ) -> List[Dict[str, Any]]:
+        """
+        Filter by country with optional additional source type filter.
+        
+        Args:
+            country: Country code to filter by
+            source_filter: Optional additional filter by source type
+            limit: Maximum number of results to return
+        """
+        # Combine country filter with source filter if provided
+        where_filter = {"country": country}
+        if source_filter:
+            where_filter.update(source_filter)
+            
+        result = self.chroma_collection.get(
+            where=where_filter,
+            limit=limit
+        )
+        return [
+            {"text": txt, "metadata": meta}
+            for txt, meta in zip(result["documents"], result["metadatas"])
+        ]
+
     def vector_similarity_search(
         self,
         query: str,
@@ -214,10 +258,12 @@ class ChunkRetriever:
         initial_k: int = 30,
         final_k: int = 10,
         heading_boost: float = 3.0,
-        drug_boost: float = 8.0
+        drug_boost: float = 8.0,
+        source_filter: Optional[Dict[str, Any]] = None
     ) -> List[Dict[str, Any]]:
         """
         Retrieve documents by vector similarity with heading and drug boosts.
+        Enhanced to support source type filtering.
         """
         # For tracking retrieval process in debug mode
         retrieval_info = {
@@ -229,11 +275,16 @@ class ChunkRetriever:
             "all_comparators": set()
         }
         
+        # Combine filter_meta with source_filter if provided
+        combined_filter = filter_meta or {}
+        if source_filter:
+            combined_filter.update(source_filter)
+        
         # Get initial chunks via vector similarity
         docs = self.vectorstore.similarity_search(
             query=query,
             k=initial_k,
-            filter=filter_meta,
+            filter=combined_filter,
         )
         
         # Store initial docs for debug
@@ -339,13 +390,14 @@ class ChunkRetriever:
                     "reason": "Insufficient unique comparators or over limit"
                 })
         
-        # Format results
+        # Return the formatted results
         formatted_docs = [
             {"text": doc.page_content, "metadata": doc.metadata}
             for doc in selected_docs
         ]
         
         return formatted_docs if not self.debug_mode else (formatted_docs, retrieval_info)
+
         
     # Alias for backward compatibility with existing code
     vector_similarity_search_with_deduplication = vector_similarity_search
@@ -358,10 +410,12 @@ class ChunkRetriever:
         drug_keywords: Optional[List[str]] = None,
         initial_k: int = 30,
         final_k: int = 10,
-        debug: bool = False
+        debug: bool = False,
+        source_filter: Optional[Dict[str, Any]] = None
     ) -> Dict[str, List[Dict[str, Any]]]:
         """
         Retrieve chunks by country using vector similarity search.
+        Enhanced to support source type filtering.
         
         Args:
             query: The search query
@@ -371,6 +425,7 @@ class ChunkRetriever:
             initial_k: Initial number of chunks to retrieve
             final_k: Final number of chunks after filtering
             debug: Whether to return debug information
+            source_filter: Optional filter by source type (e.g., {"source_type": "hta_submission"})
             
         Returns:
             Dictionary mapping countries to retrieved chunks, with optional debug info
@@ -380,11 +435,16 @@ class ChunkRetriever:
         debug_info = {}
 
         for country in countries:
+            # Create combined filter with country and source type
+            filter_meta = {"country": country}
+            if source_filter:
+                filter_meta.update(source_filter)
+            
             # Use vector similarity search with debugging if enabled
             if debug:
                 final_hits, country_debug_info = self.vector_similarity_search(
                     query=query,
-                    filter_meta={"country": country},
+                    filter_meta=filter_meta,
                     heading_keywords=heading_keywords,
                     drug_keywords=drug_keywords,
                     initial_k=initial_k,
@@ -394,7 +454,7 @@ class ChunkRetriever:
             else:
                 final_hits = self.vector_similarity_search(
                     query=query,
-                    filter_meta={"country": country},
+                    filter_meta=filter_meta,
                     heading_keywords=heading_keywords,
                     drug_keywords=drug_keywords,
                     initial_k=initial_k,
@@ -411,12 +471,14 @@ class ChunkRetriever:
         countries: List[str],
         heading_keywords: Optional[List[str]] = None,
         drug_keywords: Optional[List[str]] = None,
-        initial_k: int = 30,
+        initial_k: int = 20,
         final_k: int = 10,
-        show_tables: bool = False
+        show_tables: bool = False,
+        source_filter: Optional[Dict[str, Any]] = None
     ):
         """
         Test the retrieval pipeline and show diagnostic information.
+        Enhanced to support source type filtering.
         
         Args:
             query: The search query
@@ -426,17 +488,20 @@ class ChunkRetriever:
             initial_k: Initial number of chunks to retrieve
             final_k: Final number of chunks after filtering
             show_tables: Whether to display HTML tables (for notebooks)
+            source_filter: Optional filter by source type (e.g., {"source_type": "clinical_guideline"})
             
         Returns:
             Dictionary with retrieval results and diagnostics
         """
+        source_type = source_filter.get("source_type", "any") if source_filter else "any"
         print(f"📋 Testing retrieval pipeline for query: '{query}'")
         print(f"🔍 Initial retrieval: {initial_k} chunks, Final target: {final_k} chunks")
         print(f"🌍 Processing countries: {', '.join(countries)}")
+        print(f"📑 Source type filter: {source_type}")
         print(f"💡 Heading keywords: {heading_keywords}")
         print(f"💊 Drug keywords: {drug_keywords}")
         
-        # Retrieve chunks with debug info
+        # Retrieve chunks with debug info and source filter
         results, debug_info = self.retrieve_pico_chunks(
             query=query,
             countries=countries,
@@ -444,7 +509,8 @@ class ChunkRetriever:
             drug_keywords=drug_keywords,
             initial_k=initial_k,
             final_k=final_k,
-            debug=True
+            debug=True,
+            source_filter=source_filter
         )
         
         # Print diagnostics for each country
