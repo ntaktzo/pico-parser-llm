@@ -1,10 +1,9 @@
 # Local imports
 from python.utils import FolderTree
-from python.process import PDFProcessor, Translator
+from python.process import PDFProcessor, Translator, PostCleaner
 from python.vectorise import Chunker, Vectoriser
 from python.run import RagHTASubmission
 from python.open_ai import validate_api_key
-from python.translation_cleaner import PostCleaner  # Import our new class
 
 # Define paths
 PDF_PATH = "data/PDF"
@@ -15,7 +14,7 @@ CHUNKED_PATH = "data/text_chunked"
 VECTORSTORE_PATH = "data/vectorstore"
 VECTORSTORE_TYPE = "biobert"  # Choose between "openai", "biobert", or "both"
 MODEL = "gpt-4o-mini"
-COUNTRIES = ["EN", "DE", "PO", "FR"]
+COUNTRIES = ["DE", "DK", "EN", "FR", "IT", "PO", "SE", "NL"]
 
 # Validate OpenAI API key
 validate_api_key()
@@ -71,7 +70,18 @@ rag = RagHTASubmission(
 )
 
 # Initialize the retriever with already created vectorstore
+if VECTORSTORE_TYPE.lower() == "openai":
+    rag.vectorstore_openai = vectorstore
+elif VECTORSTORE_TYPE.lower() == "biobert":
+    rag.vectorstore_biobert = vectorstore
+
+# Initialize the retriever
 rag.initialize_retriever(vectorstore_type=VECTORSTORE_TYPE)
+
+# Initialize the PICO extractor (add this line)
+rag.initialize_pico_extractor()
+
+# Now extract PICOs
 extracted_picos = rag.extract_picos(countries=COUNTRIES)
 
 # Print extracted PICOs
