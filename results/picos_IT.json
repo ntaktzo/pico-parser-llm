@@ -1,0 +1,17 @@
+{
+  "Country": "IT",
+  "PICOs": [
+    {
+      "Population": "Patients eligible for treatment with LUMYKRAS (sotorasib)",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Standard of care or alternative therapies",
+      "Outcomes": "Efficacy, safety, and reimbursement status"
+    },
+    {
+      "Population": "Patients with advanced cancer",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Docetaxel",
+      "Outcomes": "Overall survival, progression-free survival, and quality of life"
+    }
+  ]
+}

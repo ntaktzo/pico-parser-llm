@@ -2,28 +2,28 @@
   "Country": "PO",
   "PICOs": [
     {
-      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Population": "Adult patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation after at least one previous line of therapy",
       "Intervention": "New medicine under assessment",
       "Comparator": "Docetaxel",
-      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
+      "Outcomes": "Progression-free survival (PFS), overall response rate (ORR), disease control rate (DCR)"
     },
     {
-      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Population": "Adult patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation after at least one previous line of therapy",
       "Intervention": "New medicine under assessment",
       "Comparator": "Nintedanib in combination with Docetaxel",
-      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
+      "Outcomes": "Progression-free survival (PFS), overall response rate (ORR), disease control rate (DCR)"
     },
     {
-      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Population": "Adult patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation after at least one previous line of therapy",
       "Intervention": "New medicine under assessment",
       "Comparator": "Pemetrexed",
-      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
+      "Outcomes": "Progression-free survival (PFS), overall response rate (ORR), disease control rate (DCR)"
     },
     {
-      "Population": "Patients with advanced non-small cell lung cancer (NDRP) with KRAS G12C mutation",
+      "Population": "Immunotherapy-naïve patients with advanced non-small cell lung cancer (NDRP)",
       "Intervention": "New medicine under assessment",
-      "Comparator": "Dual-drug chemotherapy based on platinum",
-      "Outcomes": "Progression-free survival (PFS), overall survival, quality of life"
+      "Comparator": "Nivolumab or Atezolizumab",
+      "Outcomes": "Overall survival, quality of life measures"
     }
   ]
 }

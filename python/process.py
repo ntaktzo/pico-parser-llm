@@ -36,9 +36,25 @@ class PDFProcessor:
         # Extract country from folder structure
         self.country = self.extract_country_from_path()
 
+        # Extract source type 
+        self.source_type = self.extract_source_type_from_path()
+
         print("--------------------------------------------")
+        print(f"Source type for '{self.pdf_path}': {self.source_type}")
         print(f"Submission year for '{self.pdf_path}': {self.created_date}")
         print(f"Country for '{self.pdf_path}': {self.country}")
+
+    # Modify python/process.py - PDFProcessor class
+    def extract_source_type_from_path(self):
+        """Identifies whether this is an HTA submission or clinical guideline."""
+        path_parts = self.pdf_path.lower().split(os.sep)
+        
+        if "hta submission" in self.pdf_path.lower() or "hta submissions" in self.pdf_path.lower():
+            return "hta_submission"
+        elif "clinical guideline" in self.pdf_path.lower() or "clinical guidelines" in self.pdf_path.lower():
+            return "clinical_guideline"
+        else:
+            return "unknown"
 
     def extract_country_from_path(self):
         """Extracts the country code from the parent directory name."""
@@ -552,6 +568,7 @@ class PDFProcessor:
                     "doc_id": self.doc_id,
                     "created_date": self.created_date,
                     "country:": self.country,
+                    "source_type": self.source_type,
                     "chunks": chunks
                 }
 

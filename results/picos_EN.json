@@ -2,28 +2,22 @@
   "Country": "EN",
   "PICOs": [
     {
-      "Population": "Adults with previously treated KRAS G12C mutation-positive locally advanced or metastatic NSCLC",
+      "Population": "Adults with KRAS G12C mutation-positive, locally advanced or metastatic non-small-cell lung cancer who have previously been treated",
       "Intervention": "New medicine under assessment",
       "Comparator": "Docetaxel",
-      "Outcomes": "Overall survival, progression-free survival, health-related quality of life"
+      "Outcomes": "Overall survival, progression-free survival, objective response rate"
     },
     {
-      "Population": "Adults with previously treated KRAS G12C mutation-positive locally advanced or metastatic NSCLC",
+      "Population": "Adults with KRAS G12C mutation-positive, locally advanced or metastatic non-small-cell lung cancer who have previously been treated",
       "Intervention": "New medicine under assessment",
-      "Comparator": "Docetaxel plus Nintedanib",
-      "Outcomes": "Overall survival, progression-free survival, health-related quality of life"
+      "Comparator": "Docetaxel plus nintedanib",
+      "Outcomes": "Overall survival, progression-free survival, objective response rate"
     },
     {
-      "Population": "Adults with advanced NSCLC",
+      "Population": "Adults with KRAS G12C mutation-positive, locally advanced or metastatic non-small-cell lung cancer who have previously been treated",
       "Intervention": "New medicine under assessment",
-      "Comparator": "Docetaxel",
-      "Outcomes": "Overall survival, progression-free survival utilities"
-    },
-    {
-      "Population": "Adults with advanced NSCLC",
-      "Intervention": "New medicine under assessment",
-      "Comparator": "Erlotinib with Docetaxel",
-      "Outcomes": "Utilities in progression-free health state"
+      "Comparator": "Platinum-doublet chemotherapy",
+      "Outcomes": "Overall survival, progression-free survival, objective response rate"
     }
   ]
 }

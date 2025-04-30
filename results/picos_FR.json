@@ -2,40 +2,28 @@
   "Country": "FR",
   "PICOs": [
     {
-      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
-      "Intervention": "New medicine under assessment",
-      "Comparator": "Sotorasib (LUMYKRAS)",
-      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
-    },
-    {
-      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with the KRAS G12C mutation, whose disease progressed after at least one previous systemic treatment line",
       "Intervention": "New medicine under assessment",
       "Comparator": "Docetaxel",
-      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
+      "Outcomes": "Progression-free survival, overall survival, objective response rate, quality of life, duration of response, disease control rate"
     },
     {
-      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with the KRAS G12C mutation, whose disease progressed after at least one previous systemic treatment line",
       "Intervention": "New medicine under assessment",
       "Comparator": "Ramucirumab + Docetaxel",
-      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
+      "Outcomes": "Objective response rate, progression-free survival"
     },
     {
-      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with the KRAS G12C mutation, whose disease progressed after at least one previous systemic treatment line",
       "Intervention": "New medicine under assessment",
-      "Comparator": "Atezolizumab",
-      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
+      "Comparator": "Gemcitabine",
+      "Outcomes": "Overall survival, quality of life"
     },
     {
-      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with the KRAS G12C mutation, whose disease progressed after at least one previous systemic treatment line",
       "Intervention": "New medicine under assessment",
-      "Comparator": "Nivolumab",
-      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
-    },
-    {
-      "Population": "Adult patients with KRAS G12C mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) who have received at least one prior systemic therapy",
-      "Intervention": "New medicine under assessment",
-      "Comparator": "Gemcitabine + Bevacizumab",
-      "Outcomes": "Objective response rate, duration of response, disease control rate, delay until response, progression-free survival, overall survival, quality of life, tolerance"
+      "Comparator": "Bevacizumab",
+      "Outcomes": "Overall survival, quality of life"
     }
   ]
 }
