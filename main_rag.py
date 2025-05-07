@@ -1,10 +1,9 @@
 # Local imports
 from python.utils import FolderTree
-from python.process import PDFProcessor, Translator
+from python.process import PDFProcessor, Translator, PostCleaner
 from python.vectorise import Chunker, Vectoriser
 from python.run import RagHTASubmission
 from python.open_ai import validate_api_key
-from python.translation_cleaner import PostCleaner
 
 # Define paths
 PDF_PATH = "data/PDF"
