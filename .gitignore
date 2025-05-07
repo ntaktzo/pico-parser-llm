@@ -179,3 +179,7 @@ products_vectorstore/
 # ignore diagnostics reports
 **/report.txt
 .env.save
+
+
+# Ignore vectorstore files
+data/vectorstore/

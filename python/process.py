@@ -404,14 +404,15 @@ class PDFProcessor:
     def extract_preliminary_chunks(self):
         """
         Main function that:
-          1. Extracts text and identifies headings from each page (skipping footnotes, boilerplate, etc.).
-          2. Stores headings per page in self.page_headings_map.
-          3. Extracts tables, tries to detect table titles, and inserts them as separate chunks.
-          4. Returns a dictionary:
-               {
-                 "doc_id": self.doc_id,
-                 "chunks": [ { "heading": ..., "text": ..., "start_page": ..., "end_page": ...}, ... ]
-               }
+        1. Extracts text and identifies headings from each page (skipping footnotes, boilerplate, etc.).
+        2. Stores headings per page in self.page_headings_map.
+        3. Extracts tables, tries to detect table titles, and inserts them as separate chunks.
+        4. Returns a dictionary:
+                {
+                    "doc_id": self.doc_id,
+                    "chunks": [ { "heading": ..., "text": ..., "start_page": ..., "end_page": ...}, ... ]
+                }
+        Enhanced with better error handling for problematic PDFs.
         """
         try:
             with pdfplumber.open(self.pdf_path) as pdf:
@@ -419,57 +420,84 @@ class PDFProcessor:
                 num_pages = len(pdf.pages)
                 normed_line_pages = {}
                 pages_with_lines = []
+                problematic_pages = 0
+                total_pages_processed = 0
 
                 # Pass 1: gather potential headings and normal lines, handling columns
                 for i, page in enumerate(pdf.pages, start=1):
-                    # First detect headings using font information
-                    line_objs = self.detect_headings_by_font(page)
-                    
-                    # Create a mapping of heading text to heading status
-                    likely_headings = {}
-                    for lo in line_objs:
-                        likely_headings[lo["text"]] = lo.get("likely_heading", False)
-                    
-                    # Extract text column by column
-                    column_texts = self.extract_text_by_columns(page)
-                    
-                    # Track all lines with their page numbers for boilerplate detection
-                    all_lines = []
-                    
-                    # Process each column
-                    for col_idx, column_text in enumerate(column_texts):
-                        # Split column text into lines
-                        col_lines = column_text.split('\n')
+                    try:
+                        # First detect headings using font information
+                        line_objs = self.detect_headings_by_font(page)
                         
-                        # Process each line for headings and content
-                        for line in col_lines:
-                            if not line.strip():
-                                continue
+                        # Create a mapping of heading text to heading status
+                        likely_headings = {}
+                        for lo in line_objs:
+                            likely_headings[lo["text"]] = lo.get("likely_heading", False)
+                        
+                        # Extract text column by column
+                        column_texts = self.extract_text_by_columns(page)
+                        
+                        # Track all lines with their page numbers for boilerplate detection
+                        all_lines = []
+                        
+                        # Process each column
+                        for col_idx, column_text in enumerate(column_texts):
+                            # Split column text into lines
+                            col_lines = column_text.split('\n')
+                            
+                            # Process each line for headings and content
+                            for line in col_lines:
+                                if not line.strip():
+                                    continue
+                                    
+                                # Create a simple line object
+                                line_obj = {
+                                    "text": line.strip(),
+                                    "likely_heading": False
+                                }
                                 
-                            # Create a simple line object
-                            line_obj = {
-                                "text": line.strip(),
-                                "likely_heading": False
-                            }
+                                # Check if this line matches any of our detected headings
+                                for heading_text, is_heading in likely_headings.items():
+                                    if heading_text in line and is_heading:
+                                        line_obj["likely_heading"] = True
+                                        break
+                                
+                                all_lines.append(line_obj)
                             
-                            # Check if this line matches any of our detected headings
-                            for heading_text, is_heading in likely_headings.items():
-                                if heading_text in line and is_heading:
-                                    line_obj["likely_heading"] = True
-                                    break
-                            
-                            all_lines.append(line_obj)
+                        pages_with_lines.append((i, all_lines))
+                        total_pages_processed += 1
                         
-                    pages_with_lines.append((i, all_lines))
+                        # Identify potential boilerplate lines
+                        unique_normed = set()
+                        for lo in all_lines:
+                            norm = self.advanced_normalize(lo["text"])
+                            if norm:
+                                unique_normed.add(norm)
+                        for n in unique_normed:
+                            normed_line_pages.setdefault(n, set()).add(i)
                     
-                    # Identify potential boilerplate lines
-                    unique_normed = set()
-                    for lo in all_lines:
-                        norm = self.advanced_normalize(lo["text"])
-                        if norm:
-                            unique_normed.add(norm)
-                    for n in unique_normed:
-                        normed_line_pages.setdefault(n, set()).add(i)
+                    except ValueError as page_err:
+                        # Check specifically for negative width/height error
+                        if "negative width or height" in str(page_err):
+                            print(f"Warning: Skipping page {i} due to layout issues")
+                            problematic_pages += 1
+                            continue
+                        else:
+                            raise page_err
+                    except Exception as page_err:
+                        print(f"Warning: Error processing page {i}: {page_err}")
+                        problematic_pages += 1
+                        continue
+
+                # If too many pages were problematic, switch to fallback method
+                if problematic_pages > 0 and (total_pages_processed == 0 or problematic_pages / num_pages > 0.2):
+                    print(f"Too many problematic pages ({problematic_pages}/{num_pages}). Switching to fallback method.")
+                    return self.extract_using_fallback()
+
+                # If we couldn't extract any content, try the fallback method
+                if not pages_with_lines:
+                    print(f"No content extracted from {self.pdf_path}. Switching to fallback method.")
+                    return self.extract_using_fallback()
 
                 # Determine boilerplate lines
                 boilerplate_normed = set()
@@ -567,14 +595,134 @@ class PDFProcessor:
                 return {
                     "doc_id": self.doc_id,
                     "created_date": self.created_date,
-                    "country:": self.country,
+                    "country": self.country,
                     "source_type": self.source_type,
                     "chunks": chunks
                 }
 
         except Exception as e:
             print(f"Error reading {self.pdf_path}: {e}")
-            return {"doc_id": self.doc_id, "created_date": self.created_date, "chunks": []}
+            # Try fallback method if primary extraction fails
+            return self.extract_using_fallback()
+
+
+    def extract_using_fallback(self):
+        """
+        Fallback method for problematic PDFs that can't be processed normally.
+        Uses PyPDF2 for more reliable text extraction when pdfplumber fails.
+        """
+        try:
+            import PyPDF2
+            
+            print(f"Using fallback extraction for {self.pdf_path}")
+            
+            # Create a basic document structure
+            doc_structure = {
+                "doc_id": self.doc_id,
+                "created_date": self.created_date,
+                "country": self.country,
+                "source_type": self.source_type,
+                "chunks": []
+            }
+            
+            # Open with PyPDF2 as a more robust alternative
+            with open(self.pdf_path, 'rb') as file:
+                reader = PyPDF2.PdfReader(file)
+                
+                print(f"PDF has {len(reader.pages)} pages")
+                
+                # Extract text page by page
+                current_chunk_text = []
+                current_heading = "Introduction"
+                start_page = 1
+                
+                # Process each page
+                for page_num, page in enumerate(reader.pages, 1):
+                    try:
+                        text = page.extract_text()
+                        
+                        # Skip empty pages
+                        if not text or not text.strip():
+                            continue
+                        
+                        # Check for potential section headings
+                        lines = text.split('\n')
+                        potential_heading = None
+                        
+                        for line in lines[:5]:  # Look at first few lines for potential headings
+                            clean_line = line.strip()
+                            if not clean_line:
+                                continue
+                                
+                            # Simple heuristic for headings: short lines that are capitalized or numbered
+                            if (len(clean_line.split()) <= 7 and 
+                                (clean_line.isupper() or 
+                                (any(char.isdigit() for char in clean_line[:3]) and 
+                                not clean_line.lower().startswith("page")))):
+                                potential_heading = clean_line
+                                break
+                        
+                        # If we found a potential heading, start a new chunk
+                        if potential_heading and len(current_chunk_text) > 0:
+                            # Save the previous chunk
+                            combined_text = "\n\n".join(current_chunk_text)
+                            doc_structure["chunks"].append({
+                                "heading": current_heading,
+                                "text": combined_text,
+                                "start_page": start_page,
+                                "end_page": page_num - 1
+                            })
+                            
+                            # Start a new chunk
+                            current_chunk_text = [text]
+                            current_heading = potential_heading
+                            start_page = page_num
+                        else:
+                            # Continue with current chunk
+                            current_chunk_text.append(text)
+                        
+                        # Create a new chunk every few pages if no natural breaks found
+                        if page_num - start_page >= 4 and not potential_heading:
+                            combined_text = "\n\n".join(current_chunk_text)
+                            doc_structure["chunks"].append({
+                                "heading": current_heading,
+                                "text": combined_text,
+                                "start_page": start_page,
+                                "end_page": page_num
+                            })
+                            
+                            # Reset for next chunk
+                            current_chunk_text = []
+                            current_heading = f"Section starting on page {page_num + 1}"
+                            start_page = page_num + 1
+                            
+                    except Exception as page_error:
+                        print(f"Warning: Error processing page {page_num} in fallback method: {page_error}")
+                        continue
+                
+                # Add any remaining text
+                if current_chunk_text:
+                    combined_text = "\n\n".join(current_chunk_text)
+                    doc_structure["chunks"].append({
+                        "heading": current_heading,
+                        "text": combined_text,
+                        "start_page": start_page,
+                        "end_page": len(reader.pages)
+                    })
+            
+            print(f"Fallback extraction completed: created {len(doc_structure['chunks'])} chunks")
+            return doc_structure
+            
+        except Exception as fallback_error:
+            print(f"Fallback extraction also failed: {fallback_error}")
+            # Return empty structure if all methods fail
+            return {
+                "doc_id": self.doc_id,
+                "created_date": self.created_date,
+                "country": self.country,
+                "source_type": self.source_type,
+                "chunks": []
+            }
 
     def detect_columns(self, page):
         """
