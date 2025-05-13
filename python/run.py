@@ -18,6 +18,8 @@ from python.open_ai import validate_api_key
 # LLM related imports
 from openai import OpenAI
 
+from langchain.schema import SystemMessage, HumanMessage
+
 
 class RagHTASubmission:
     """
@@ -86,79 +88,6 @@ class RagHTASubmission:
         self.pico_extractor_hta = None
         self.pico_extractor_clinical = None
 
-        # Define system prompts for different source types
-        self.system_prompt_hta = (
-            "You are a medical expert assisting with evidence synthesis for Health Technology Assessment documents. "
-            "Carefully review the provided context about Health Technology Assessment submissions. "
-            "You must find all relevant Population, Intervention, Comparator, and Outcomes (PICO) information. "
-            "IMPORTANT: For this specific task, do NOT consider Sotorasib as the 'Intervention' in the PICO framework. "
-            "Instead, identify each treatment option mentioned in the documents as a separate PICO entry. "
-            "Fill the 'Intervention' field with a placeholder like 'New medicine under assessment'. "
-            "Treatments such as Sotorasib, docetaxel, or any other treatment options should be listed in the 'Comparator' field. "
-            "Use step-by-step reasoning internally (chain-of-thought) to identify explicit or implicit comparators, "
-            "including control groups, placebo, 'versus' statements, standard of care, or alternative therapies. "
-            "For HTA submissions, focus specifically on the comparators that are officially considered in the assessment process. "
-            "However, do NOT reveal your chain-of-thought in the final answer. "
-            "Your final output must be valid JSON only, strictly following the requested format. "
-            "No additional commentary or explanation outside the JSON."
-        )
-        
-        self.system_prompt_clinical = (
-            "You are a medical expert assisting with evidence synthesis for clinical guidelines. "
-            "Carefully review the provided context about clinical practice guidelines. "
-            "You must find all relevant Population, Intervention, Comparator, and Outcomes (PICO) information. "
-            "IMPORTANT: For this specific task, extract each distinct treatment recommendation from the clinical guidelines. "
-            "Each recommendation should be a separate PICO entry. "
-            "For clinical guidelines, focus on identifying the current standard of care treatments and their indications. "
-            "Capture all treatment options mentioned for specific patient populations, including first-line, second-line, and subsequent therapies. "
-            "Pay special attention to biomarkers, staging information, and patient characteristics that influence treatment decisions. "
-            "Use step-by-step reasoning internally (chain-of-thought) to identify these recommendations. "
-            "However, do NOT reveal your chain-of-thought in the final answer. "
-            "Your final output must be valid JSON only, strictly following the requested format. "
-            "No additional commentary or explanation outside the JSON."
-        )
-
-        # Define user prompt templates for different source types
-        self.user_prompt_template_hta = (
-            "Context:\n{context_block}\n\n"
-            "Instructions:\n"
-            "Identify all distinct sets of Population, Comparator, and Outcomes in the above HTA submission text.\n"
-            "For each comparator, create a separate PICO entry. Do NOT include Sotorasib as the 'Intervention'.\n"
-            "Instead, leave the 'Intervention' field as 'New medicine under assessment' and include all treatment options "
-            "(including Sotorasib) as separate PICOs with different comparators.\n"
-            "Output valid JSON ONLY in the following form:\n"
-            "{{\n"
-            "  \"Country\": \"{country}\",\n"
-            "  \"PICOs\": [\n"
-            "    {{\"Population\":\"...\", \"Intervention\":\"New medicine under assessment\", \"Comparator\":\"...\", \"Outcomes\":\"...\"}},\n"
-            "    <!-- more if multiple PICOs -->\n"
-            "  ]\n"
-            "}}\n"
-            "Nothing else. **Only JSON**, no extra text."
-        )
-        
-        self.user_prompt_template_clinical = (
-            "Context:\n{context_block}\n\n"
-            "Instructions:\n"
-            "Analyze this clinical guideline text and extract all treatment recommendations in PICO format.\n"
-            "For each distinct treatment recommendation, create a separate PICO entry.\n"
-            "Be specific about patient populations, including biomarkers, staging, and prior therapy status.\n"
-            "For each recommendation, clearly identify:\n"
-            "1. The specific patient population (Population)\n"
-            "2. The recommended treatment (Intervention)\n"
-            "3. Alternative treatments or comparators mentioned (Comparator)\n"
-            "4. Expected outcomes or goals of therapy (Outcomes)\n"
-            "Output valid JSON ONLY in the following form:\n"
-            "{{\n"
-            "  \"Country\": \"{country}\",\n"
-            "  \"PICOs\": [\n"
-            "    {{\"Population\":\"...\", \"Intervention\":\"...\", \"Comparator\":\"...\", \"Outcomes\":\"...\"}},\n"
-            "    <!-- more if multiple PICOs -->\n"
-            "  ]\n"
-            "}}\n"
-            "Nothing else. **Only JSON**, no extra text."
-        )
-
         # Default queries for different source types
         self.default_query_hta = """
         In the context of this HTA submission, identify all medicines mentioned, including:
@@ -168,12 +97,168 @@ class RagHTASubmission:
         """
         
         self.default_query_clinical = """
-        In this clinical guideline, identify all treatment recommendations, including:
-        1. First-line, second-line, and subsequent treatment options
-        2. Specific patient populations for each treatment (by biomarker status, disease stage, prior therapy)
-        3. Treatment algorithms or decision trees for different patient populations
-        4. Comparative information between different treatment options, including efficacy and safety profiles
+        1. In this clinical guideline, identify all treatment recommendations SPECIFICALLY for adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.
+        2. First-line, second-line, and subsequent treatment options for KRAS G12C mutations in NSCLC patients after at least one prior systemic therapy.
+        3. Specific patient populations for each treatment (by biomarker status, disease stage, prior therapy)
+        4. Treatment algorithms or decision trees for different patient populations
+        5. Comparative information between different treatment options, including efficacy and safety profiles
         """
+        
+        # Define system prompts for different source types
+        self.system_prompt_hta = """
+        You are a medical specialist in oncology with expertise in health technology assessment for lung cancer treatments. Your task is to extract PICO (Population, Intervention, Comparator, Outcomes) elements from HTA submissions, specifically focusing on treatments for adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.
+
+        Analyze the provided HTA submission using this structured approach:
+
+        Step 1: Document Organization Assessment
+        - Identify sections containing population details, comparator information, and outcome data
+
+        Step 2: Population Identification
+        - Verify references to advanced/metastatic NSCLC
+        - Identify prior therapy requirements
+        - Note other inclusion/exclusion criteria (ECOG status, age, etc.)
+
+        Step 3: Treatment/Comparator Analysis
+        - Identify the primary medicine being assessed
+        - Note all comparators explicitly mentioned
+        - Identify any standard of care treatments referenced
+        - Record treatments mentioned in clinical trials cited
+
+        Step 4: Outcome Extraction
+        - Extract primary and secondary efficacy endpoints
+        - Identify safety, quality of life, and economic outcomes
+
+        Step 5: PICO Assembly
+        - For each identified comparator, create a separate PICO entry
+        - Always use "New medicine under assessment" as the Intervention
+        - Include the specific comparator in the Comparator field
+        - Use the most detailed population description found
+        - List all relevant outcomes identified
+
+        Do NOT include your reasoning process in the final output. Your final output must be valid JSON only, strictly following the requested format.
+        """
+
+        self.system_prompt_clinical = """
+        You are a medical specialist in oncology with expertise in clinical practice guidelines for lung cancer. Your task is to extract PICO (Population, Intervention, Comparator, Outcomes) elements from clinical guidelines, specifically focusing on recommendations for adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.
+
+        Analyze the provided clinical guideline using this structured approach:
+
+        Step 1: Guideline Structure Analysis
+        - Identify sections on advanced non-small cell lung cancer KRAS mutations who have progressed after at least one prior systemic therapy.
+        - Locate treatment algorithms based on molecular profiles
+
+        Step 2: KRAS G12C-Specific Content
+        - Determine if KRAS G12C mutation is explicitly addressed
+        - Note any KRAS G12C testing recommendations
+
+        Step 3: Treatment Recommendation Identification
+        - Extract recommendations for post-first-line therapy
+        - Find recommendations specifically for KRAS G12C+ patients
+
+        Step 4: Recommendation Context Analysis
+        - Note evidence levels assigned to recommendations
+        - Identify expected outcomes from recommended treatments
+        - Extract factors influencing treatment selection
+
+        Step 5: PICO Assembly
+        - For each relevant recommendation, create a PICO entry
+        - Only involve patietns with KRAS G12C mutation  
+        - Include relevant recommendations for post-progression therapy
+        - Ensure population descriptions are as detailed as possible, and include mutation status and prior therapy details
+
+        Do NOT include your reasoning process in the final output. Your final output must be valid JSON only, strictly following the requested format.
+        """
+
+        # Define user prompt templates for different source types
+        self.user_prompt_template_hta = """
+        Context:
+        {context_block}
+
+        Instructions:
+        Extract all PICO elements from this HTA submission specifically for adult patients with advanced NSCLC with KRAS G12C mutation who have progressed after prior therapy.
+
+        Follow this systematic approach:
+        1. Extract the exact population description with all eligibility criteria
+        2. For each treatment or comparator mentioned:
+        - Create a separate PICO entry 
+        - Always set "New medicine under assessment" as the Intervention (including the medicine under assessment in the submission)
+        - Put the specific treatment as the Comparator
+        3. Include all clinical outcomes evaluated
+
+        Output valid JSON ONLY in this format:
+        {{
+        "Country": "{country}",
+        "PICOs": [
+            {{"Population":"[Detailed population with KRAS G12C status and prior therapy]", "Intervention":"New medicine under assessment", "Comparator":"[Specific treatment/comparator]", "Outcomes":"[Specific outcomes measured]"}},
+            <!-- additional PICOs as needed -->
+        ]
+        }}
+
+        Return ONLY the JSON, no additional text.
+        """
+
+        self.user_prompt_template_clinical = """
+        Context:
+        {context_block}
+
+        Instructions:
+        Extract all treatment recommendations from this clinical guideline relevant to adult patients with advanced NSCLC with KRAS G12C mutation who have progressed after prior therapy.
+
+        Follow this systematic approach:
+        1. Identify any content specifically addressing KRAS G12C mutation
+        2. Extract recommendations for second-line+ therapy in advanced NSCLC
+        3. For each relevant recommendation:
+        - Precisely describe the applicable patient population
+        - Identify the recommended treatment(s)
+        - Note alternative options
+        - Extract expected outcomes
+
+        If KRAS G12C is not explicitly addressed, include recommendations for:
+        - Similar biomarker-driven therapies
+        - General second-line therapy for advanced NSCLC
+
+        Output valid JSON ONLY in this format:
+        {{
+        "Country": "{country}",
+        "PICOs": [
+            {{"Population":"[Specific patient population]", "Intervention":"[Recommended treatment]", "Comparator":"[Alternative options]", "Outcomes":"[Expected benefits]"}},
+            <!-- additional PICOs as needed -->
+        ]
+        }}
+
+        Return ONLY the JSON, no additional text.
+        """
+        
+        self.user_prompt_template_clinical = """
+        Context:
+        {context_block}
+
+        Instructions:
+        Extract all treatment recommendations from this clinical guideline relevant to adult patients with advanced NSCLC with KRAS G12C mutation who have progressed after prior therapy.
+
+        Follow this systematic approach:
+        1. Identify any content specifically addressing KRAS G12C mutation
+        2. Extract recommendations for second-line+ therapy in advanced NSCLC
+        3. For each relevant recommendation:
+        - Precisely describe the applicable patient population
+        - Identify the recommended treatment(s)
+        - Note alternative options
+        - Extract expected outcomes
+
+        If KRAS G12C is not explicitly addressed don't include it.
+
+        Output valid JSON ONLY in this format:
+        {{
+        "Country": "{country}",
+        "PICOs": [
+            {{"Population":"[Specific patient population]", "Intervention":"[Recommended treatment]", "Comparator":"[Alternative options]", "Outcomes":"[Expected benefits]"}},
+            <!-- additional PICOs as needed -->
+        ]
+        }}
+
+        Return ONLY the JSON, no additional text.
+        """
+
 
     def show_folder_structure(self, root_path: str = ".", show_hidden: bool = False, max_depth: Optional[int] = None):
         """Show the folder structure of the project."""
@@ -321,6 +406,32 @@ class RagHTASubmission:
         
         print(f"Initialized PICO extractors for both source types with model {self.model}")
 
+    def get_all_countries(self):
+        """
+        Retrieves all unique country codes available in the vectorstore.
+        
+        Returns:
+            List[str]: List of unique country codes
+        """
+        if self.retriever is None:
+            print("Retriever not initialized. Please run initialize_retriever first.")
+            return []
+        
+        # Get all available countries from the vectorstore metadata
+        # Use a high limit without a where filter
+        result = self.retriever.chroma_collection.get(
+            limit=10000,  # Use a high limit to get most documents
+            include=['metadatas']
+        )
+        
+        # Extract unique countries from metadata
+        countries = set()
+        for metadata in result['metadatas']:
+            if metadata and 'country' in metadata and metadata['country'] not in ['unknown', None, '']:
+                countries.add(metadata['country'])
+        
+        return sorted(list(countries))
+
     def extract_picos_by_source_type(
         self,
         countries: List[str],
@@ -332,9 +443,10 @@ class RagHTASubmission:
     ):
         """
         Extract PICOs from the specified countries and source type.
+        Special case: If 'ALL' is in countries, it will be replaced with all available countries.
         
         Args:
-            countries: List of country codes to extract PICOs from
+            countries: List of country codes to extract PICOs from, or ["ALL"] for all countries
             source_type: Source type to extract from ("hta_submission" or "clinical_guideline")
             query: Query to use for retrieval (defaults to source-specific default query)
             initial_k: Initial number of documents to retrieve
@@ -347,7 +459,18 @@ class RagHTASubmission:
         # Initialize extractors if not already done
         if self.pico_extractor_hta is None or self.pico_extractor_clinical is None:
             self.initialize_pico_extractors()
+        
+        # Handle the "ALL" special case - check if any country is "ALL"
+        if any(country == "ALL" for country in countries):
+            all_countries = self.get_all_countries()
+            if not all_countries:
+                print("No countries detected in the vectorstore. Please check your data.")
+                return []
             
+            # Replace the countries list with the list of all countries
+            countries = all_countries
+            print(f"Processing all available countries: {', '.join(countries)}")
+        
         # Set source-specific defaults
         if source_type == "hta_submission":
             extractor = self.pico_extractor_hta
@@ -378,7 +501,12 @@ class RagHTASubmission:
         # Ensure the output directory exists
         os.makedirs("results", exist_ok=True)
         
+        # Import necessary classes for messages
+        from langchain.schema import SystemMessage, HumanMessage
+        
         for country in countries:
+            print(f"Processing country: {country}")
+            
             # Get document chunks for this country and source type
             results_dict = extractor.chunk_retriever.retrieve_pico_chunks(
                 query=query,
@@ -398,13 +526,13 @@ class RagHTASubmission:
             processed_chunks = extractor.context_manager.process_chunks(country_chunks)
             context_block = extractor.context_manager.build_optimal_context(processed_chunks)
             
-            # Prepare system and user messages
-            system_msg = extractor.system_message
+            # Prepare system and user messages correctly
+            system_msg = SystemMessage(content=extractor.system_prompt)
             user_msg_text = extractor.user_prompt_template.format(
                 context_block=context_block,
                 country=country
             )
-            user_msg = extractor.user_message(user_msg_text)
+            user_msg = HumanMessage(content=user_msg_text)
             
             # LLM call
             try:
@@ -420,7 +548,7 @@ class RagHTASubmission:
                 parsed_json = json.loads(answer_text)
             except json.JSONDecodeError:
                 # Retry once with explicit instruction to fix JSON
-                fix_msg = extractor.user_message("Please correct and return valid JSON in the specified format only.")
+                fix_msg = HumanMessage(content="Please correct and return valid JSON in the specified format only.")
                 try:
                     fix_response = extractor.llm([system_msg, user_msg, fix_msg])
                     fix_text = getattr(fix_response, 'content', str(fix_response))
@@ -437,6 +565,7 @@ class RagHTASubmission:
                 outpath = os.path.join("results", f"{output_prefix}_picos_{country}.json")
                 with open(outpath, "w", encoding="utf-8") as f:
                     json.dump(parsed_json, f, indent=2, ensure_ascii=False)
+                print(f"Saved PICO results for {country} to {outpath}")
             else:
                 # Handle non-dict response
                 wrapped_json = {
@@ -448,6 +577,7 @@ class RagHTASubmission:
                 outpath = os.path.join("results", f"{output_prefix}_picos_{country}.json")
                 with open(outpath, "w", encoding="utf-8") as f:
                     json.dump(wrapped_json, f, indent=2, ensure_ascii=False)
+                print(f"Saved PICO results for {country} to {outpath}")
         
         print(f"Extracted PICOs for {source_type} from countries: {', '.join(countries)}")
         return extracted_picos
