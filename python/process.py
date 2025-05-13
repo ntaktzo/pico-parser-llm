@@ -946,12 +946,12 @@ class Translator:
         # Mapping from source language to the corresponding Helsinki-NLP model.
         # Covering major European languages with direct models
         self.models = {
-            'fr': 'Helsinki-NLP/opus-mt-fr-en',
-            'de': 'Helsinki-NLP/opus-mt-de-en',
+            'fr': 'aimped/nlp-health-translation-base-fr-en',
+            'de': 'aimped/nlp-health-translation-base-de-en',
             'pl': 'Helsinki-NLP/opus-mt-pl-en',
             'es': 'Helsinki-NLP/opus-mt-es-en',
             'it': 'Helsinki-NLP/opus-mt-it-en',
-            'nl': 'Helsinki-NLP/opus-mt-nl-en',
+            'nl': 'FremyCompany/opus-mt-nl-en-healthcare',
             'da': 'Helsinki-NLP/opus-mt-da-en',
             'fi': 'Helsinki-NLP/opus-mt-fi-en',
             'sv': 'Helsinki-NLP/opus-mt-sv-en',
@@ -964,11 +964,13 @@ class Translator:
             'lv': 'Helsinki-NLP/opus-mt-lv-en',
             'lt': 'Helsinki-NLP/opus-mt-tc-big-lt-en',
             'mt': 'Helsinki-NLP/opus-mt-mt-en',
+            'ro': 'aimped/nlp-health-translation-base-ro-en',
+            'pt': 'aimped/nlp-health-translation-base-pt-en',
         }
         
         # Define language groups for the fallback Helsinki group models
         self.language_groups = {
-            'facebook/nllb-200-distilled-600M': {
+            'facebook/mbart-large-50-many-to-many-mmt': {
                 'model_type': 'nllb',
                 'langs': set([
                     'af', 'am', 'ar', 'as', 'az', 'be', 'bg', 'bn', 'br', 'bs', 'ca', 'cs', 'cy', 'da', 
@@ -1006,6 +1008,19 @@ class Translator:
             self.device = torch.device("mps")
         else:
             self.device = torch.device("cpu")
+            
+        # Repetition patterns to detect and clean
+        self.repetition_patterns = [
+            # Word repetition (e.g., "placebo-treated placebo-treated placebo-treated...")
+            r'(\b\w+(?:-\w+)?(?:\s+|\s*,\s*|\s*\.\s*)){3,}',
+            # Symbol repetition (e.g., "H2H2H2H2H2...")
+            r'([A-Z0-9]{1,5})\1{3,}',
+            # Numerical patterns (e.g., "0.09.09.09...")
+            r'(\d+\.\d{1,3})(?:\.\d{1,3}){3,}',
+        ]
+        
+        # Maximum allowed repetition length (as percentage of total text)
+        self.max_repetition_ratio = 0.3
 
     def detect_language(self, text: str) -> Optional[str]:
         """
@@ -1038,7 +1053,17 @@ class Translator:
                     "translation",
                     model=model_name,
                     torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
-                    device=self.device
+                    device=self.device,
+                    # Add repetition and length penalties to help prevent stuck patterns
+                    model_kwargs={"forced_bos_token_id": None},
+                    # Add generation config to reduce repetitions
+                    generate_kwargs={
+                        "num_beams": 5,  # Use more beams for better search
+                        "no_repeat_ngram_size": 3,  # Prevent repeating 3-grams
+                        "length_penalty": 1.0,  # Slight penalty for length
+                        "repetition_penalty": 1.5,  # Apply repetition penalty
+                        "max_length": 512  # Limit maximum output length
+                    }
                 )
                 self.translators[lang] = translator
                 return translator
@@ -1067,7 +1092,7 @@ class Translator:
             src_lang = self.nllb_lang_map.get(lang, f"{lang}_Latn")  # Fallback to Latin script
             tgt_lang = 'eng_Latn'  # Always translate to English
             
-            # Create translator function
+            # Create translator function with repetition prevention
             def nllb_translate(text, **kwargs):
                 # Set the source language
                 inputs = tokenizer(text, return_tensors="pt").to(self.device)
@@ -1077,7 +1102,11 @@ class Translator:
                     translated_tokens = model.generate(
                         **inputs,
                         forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
-                        max_length=512
+                        max_length=512,
+                        num_beams=5,
+                        no_repeat_ngram_size=3,
+                        length_penalty=1.0,
+                        repetition_penalty=1.5
                     )
                 
                 translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
@@ -1110,6 +1139,48 @@ class Translator:
             chunks.append(current_chunk.strip())
         return chunks
 
+    def detect_repetitions(self, text: str) -> bool:
+        """
+        Detects problematic repetition patterns in translated text.
+        Returns True if repetitions are found.
+        """
+        for pattern in self.repetition_patterns:
+            matches = re.findall(pattern, text)
+            if matches:
+                # Calculate the percentage of text that consists of repetitions
+                total_match_length = sum(len(match) for match in matches)
+                repetition_ratio = total_match_length / len(text) if text else 0
+                
+                # Only flag as problematic if the repetition is substantial
+                if repetition_ratio > self.max_repetition_ratio:
+                    return True
+                    
+        return False
+        
+    def clean_repetitions(self, text: str) -> str:
+        """
+        Cleans repetition patterns from translated text.
+        """
+        if not text:
+            return text
+            
+        # Clean word repetitions
+        text = re.sub(r'(\b\w+(?:-\w+)?(?:\s+|\s*,\s*|\s*\.\s*)){3,}', r'\1 \1', text)
+        
+        # Clean symbol repetitions (e.g., H2H2H2H2H2...)
+        text = re.sub(r'([A-Z0-9]{1,5})\1{3,}', r'\1\1', text)
+        
+        # Clean numerical patterns (e.g., 0.09.09.09...)
+        text = re.sub(r'(\d+\.\d{1,3})(?:\.\d{1,3}){3,}', r'\1', text)
+        
+        # Clean repeated character strings
+        text = re.sub(r'([a-zA-Z])\1{5,}', r'\1\1\1', text)
+        
+        # Fix spacing and special patterns
+        text = re.sub(r'\s+', ' ', text)
+        
+        return text.strip()
+
     def translate_text(self, text: str, translator) -> str:
         """
         Translates a string using the provided translator function in chunks.
@@ -1117,12 +1188,49 @@ class Translator:
         """
         if not text.strip():
             return text
+            
         chunks = self.chunk_text(text)
         translated_chunks = []
+        
         for chunk in chunks:
-            translation = translator(chunk, truncation=True)[0]['translation_text']
-            translated_chunks.append(translation)
-        return "\n\n".join(translated_chunks)
+            max_attempts = 3
+            current_attempt = 0
+            chunk_translated = False
+            
+            while not chunk_translated and current_attempt < max_attempts:
+                try:
+                    # Translate the chunk
+                    translation = translator(chunk, truncation=True)[0]['translation_text']
+                    
+                    # Check for problematic repetitions
+                    if self.detect_repetitions(translation):
+                        print(f"Detected repetition in translation. Attempt {current_attempt+1}/{max_attempts}")
+                        # If this is the last attempt, use what we got but clean it
+                        if current_attempt == max_attempts - 1:
+                            translation = self.clean_repetitions(translation)
+                            translated_chunks.append(translation)
+                            chunk_translated = True
+                        # Otherwise try again with a shorter chunk or different settings
+                        else:
+                            # Reduce the chunk size for the next attempt
+                            if len(chunk) > 100:
+                                chunk = chunk[:len(chunk)//2 * (current_attempt + 1)]
+                    else:
+                        # No repetitions detected
+                        translated_chunks.append(translation)
+                        chunk_translated = True
+                except Exception as e:
+                    print(f"Translation error: {e}. Attempt {current_attempt+1}/{max_attempts}")
+                    # If this is the last attempt, use the original text
+                    if current_attempt == max_attempts - 1:
+                        translated_chunks.append(chunk)
+                        chunk_translated = True
+                
+                current_attempt += 1
+                
+        # Join the translated chunks and perform a final cleaning
+        result = "\n\n".join(translated_chunks)
+        return self.clean_repetitions(result)
 
     def translate_json_file(self, input_path: str, output_path: str):
         """

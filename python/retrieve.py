@@ -436,9 +436,15 @@ class ChunkRetriever:
 
         for country in countries:
             # Create combined filter with country and source type
-            filter_meta = {"country": country}
             if source_filter:
-                filter_meta.update(source_filter)
+                filter_meta = {
+                    "$and": [
+                        {"country": country},
+                        source_filter
+                    ]
+                }
+            else:
+                filter_meta = {"country": country}
             
             # Use vector similarity search with debugging if enabled
             if debug:

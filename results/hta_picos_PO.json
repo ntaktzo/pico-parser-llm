@@ -1,0 +1,36 @@
+{
+  "Country": "PO",
+  "PICOs": [
+    {
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Docetaxel",
+      "Outcomes": "Progression-free survival (PFS), overall survival (OS), overall response rate (ORR), safety, quality of life (EORTC QLQ-C30 and EORTC QLQ-LC13)."
+    },
+    {
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Nintedanib in combination with Docetaxel",
+      "Outcomes": "Progression-free survival (PFS), overall survival (OS), overall response rate (ORR), safety, quality of life (EORTC QLQ-C30 and EORTC QLQ-LC13)."
+    },
+    {
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Pemetrexed",
+      "Outcomes": "Progression-free survival (PFS), overall survival (OS), overall response rate (ORR), safety, quality of life (EORTC QLQ-C30 and EORTC QLQ-LC13)."
+    },
+    {
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Nivolumab",
+      "Outcomes": "Progression-free survival (PFS), overall survival (OS), overall response rate (ORR), safety, quality of life (EORTC QLQ-C30 and EORTC QLQ-LC13)."
+    },
+    {
+      "Population": "Adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.",
+      "Intervention": "New medicine under assessment",
+      "Comparator": "Atezolizumab",
+      "Outcomes": "Progression-free survival (PFS), overall survival (OS), overall response rate (ORR), safety, quality of life (EORTC QLQ-C30 and EORTC QLQ-LC13)."
+    }
+  ],
+  "SourceType": "hta_submission"
+}

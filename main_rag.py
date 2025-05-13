@@ -14,7 +14,7 @@ CHUNKED_PATH = "data/text_chunked"
 VECTORSTORE_PATH = "data/vectorstore"
 VECTORSTORE_TYPE = "biobert"  # Choose between "openai", "biobert", or "both"
 MODEL = "gpt-4o-mini"
-COUNTRIES = ["EN", "DE", "PO", "FR"]
+COUNTRIES = ["ALL"]
 
 # Validate OpenAI API key
 validate_api_key()
@@ -63,11 +63,15 @@ vectoriser = Vectoriser(
 )
 vectorstore = vectoriser.run_pipeline()
 
+
 # Step 6: Initialize enhanced RAG system for retrieval and LLM querying
 rag = RagHTASubmission(
     model=MODEL,
     vectorstore_type=VECTORSTORE_TYPE
 )
+
+#Load the vectorstore
+rag.vectorize_documents(embeddings_type=VECTORSTORE_TYPE)
 
 # Initialize the retriever with the created vectorstore
 rag.initialize_retriever(vectorstore_type=VECTORSTORE_TYPE)
@@ -93,3 +97,5 @@ for pico in extracted_picos_clinical:
     print(f"Country: {pico['Country']}")
     print(f"Number of PICOs: {len(pico.get('PICOs', []))}")
     print("---")
+
+
