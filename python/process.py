@@ -946,8 +946,8 @@ class Translator:
         # Mapping from source language to the corresponding Helsinki-NLP model.
         # Covering major European languages with direct models
         self.models = {
-            'fr': 'aimped/nlp-health-translation-base-fr-en',
-            'de': 'aimped/nlp-health-translation-base-de-en',
+            'fr': 'Helsinki-NLP/opus-mt-tc-big-fr-en',
+            'de': 'DunnBC22/opus-mt-de-en-OPUS_Medical_German_to_English',
             'pl': 'Helsinki-NLP/opus-mt-pl-en',
             'es': 'Helsinki-NLP/opus-mt-es-en',
             'it': 'Helsinki-NLP/opus-mt-it-en',
@@ -964,8 +964,7 @@ class Translator:
             'lv': 'Helsinki-NLP/opus-mt-lv-en',
             'lt': 'Helsinki-NLP/opus-mt-tc-big-lt-en',
             'mt': 'Helsinki-NLP/opus-mt-mt-en',
-            'ro': 'aimped/nlp-health-translation-base-ro-en',
-            'pt': 'aimped/nlp-health-translation-base-pt-en',
+            'pt': 'Helsinki-NLP/opus-mt-pt-en',
         }
         
         # Define language groups for the fallback Helsinki group models
