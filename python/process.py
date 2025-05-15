@@ -934,19 +934,20 @@ class Translator:
       }
     
     The class translates each chunk's "heading" and "text", and each table's "text"
-    from the original language to English. If the language is already English (or undetected),
-    the file is copied unmodified.
+    from the original language to English. Only translates text that isn't already English.
     """
     
     def __init__(self, input_dir, output_dir, max_chunk_length=300):
         self.input_dir = input_dir
         self.output_dir = output_dir
         self.max_chunk_length = max_chunk_length
+        self.english_chunks_preserved = 0
+        self.chunks_translated = 0
 
         # Mapping from source language to the corresponding Helsinki-NLP model.
         # Covering major European languages with direct models
         self.models = {
-            'fr': 'Helsinki-NLP/opus-mt-tc-big-fr-en',
+            'fr': 'Helsinki-NLP/opus-mt-fr-en',
             'de': 'DunnBC22/opus-mt-de-en-OPUS_Medical_German_to_English',
             'pl': 'Helsinki-NLP/opus-mt-pl-en',
             'es': 'Helsinki-NLP/opus-mt-es-en',
@@ -1031,6 +1032,33 @@ class Translator:
             return lang
         except Exception as e:
             print(f"Language detection failed: {e}")
+            return None
+            
+    def detect_chunk_language(self, text: str, min_length: int = 40) -> str:
+        """
+        Detects the language of a text chunk with more reliability.
+        
+        Args:
+            text: The text to detect language for
+            min_length: Minimum length of text to attempt detection (shorter texts are unreliable)
+            
+        Returns:
+            Language code (e.g., 'en', 'fr') or None if detection failed or text too short
+        """
+        if not text or len(text.strip()) < min_length:
+            return None
+            
+        # Clean the text before detection
+        clean_text = re.sub(r'\d+', '', text)  # Remove numbers
+        clean_text = re.sub(r'[^\w\s]', '', clean_text)  # Remove punctuation
+        
+        if len(clean_text.strip()) < min_length:
+            return None
+        
+        try:
+            lang = detect(clean_text)
+            return lang
+        except LangDetectException:
             return None
 
     def get_translator(self, lang: str):
@@ -1233,12 +1261,8 @@ class Translator:
 
     def translate_json_file(self, input_path: str, output_path: str):
         """
-        Reads a JSON file, detects its language from its combined text fields,
-        translates each chunk's 'heading' and 'text', as well as each table's 'text',
-        and writes the translated content to a new JSON file.
-        
-        If the document is already English or undetected, or if no translator is available
-        for that language, the file is copied unmodified.
+        Reads a JSON file, detects language at the chunk level,
+        and only translates non-English chunks.
         """
         # Get document name and parent folder
         file_name = os.path.basename(input_path)
@@ -1250,10 +1274,10 @@ class Translator:
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # Concatenate text from doc_id, chunks, and tables for language detection.
+        # Concatenate text from doc_id, chunks, and tables for initial language detection
         all_texts = []
         if 'doc_id' in data:
-            all_texts.append(data['doc_id'])  # doc_id is used for detection only (not translated!)
+            all_texts.append(data['doc_id'])
         if 'chunks' in data:
             for ch in data['chunks']:
                 all_texts.append(ch.get('heading', ''))
@@ -1263,39 +1287,102 @@ class Translator:
                 all_texts.append(tb.get('text', ''))
 
         combined_text = "\n".join([t for t in all_texts if t]).strip()
-        lang = self.detect_language(combined_text)
-        print(f"Detected language: {lang}")
+        primary_lang = self.detect_language(combined_text)
+        print(f"Primary document language detected: {primary_lang}")
 
-        # If the document is already English, or detection is uncertain, just copy it unmodified
-        if lang == 'en' or not lang:
-            print("No translation needed (English or undetected language)")
-            shutil.copy(input_path, output_path)
-            return
-
-        translator = self.get_translator(lang)
+        # If the document is primarily English, we'll still check each chunk
+        # but we'll expect most to be English
+        if primary_lang == 'en':
+            print("Document primarily in English, but will check each chunk individually")
         
-        if not translator:
-            print(f"No translator available for {lang}. Copying file unmodified.")
-            shutil.copy(input_path, output_path)
-            return
+        # Initialize chunk statistics
+        chunks_checked = 0
+        english_chunks = 0
+        translated_chunks = 0
+        
+        # Get translator based on the primary language (only if needed)
+        translator = None
+        if primary_lang != 'en' and primary_lang is not None:
+            translator = self.get_translator(primary_lang)
+            if not translator:
+                print(f"No translator available for {primary_lang}. Copying file unmodified.")
+                shutil.copy(input_path, output_path)
+                return
 
-        # Translate chunks: headings and texts.
+        # Process chunks: check language for each chunk and translate only non-English
         if 'chunks' in data:
             for ch in data['chunks']:
+                chunks_checked += 1
+                
+                # Process heading
                 if 'heading' in ch and ch['heading'].strip():
-                    ch['heading'] = self.translate_text(ch['heading'], translator)
+                    heading_lang = self.detect_chunk_language(ch['heading'])
+                    if heading_lang is None or heading_lang == 'en':
+                        # Keep English/undetected headings as is
+                        english_chunks += 1
+                    else:
+                        # Translate non-English headings
+                        if translator:
+                            ch['heading'] = self.translate_text(ch['heading'], translator)
+                            translated_chunks += 1
+                        else:
+                            # If no translator available for primary language, try to get one for this chunk
+                            chunk_translator = self.get_translator(heading_lang)
+                            if chunk_translator:
+                                ch['heading'] = self.translate_text(ch['heading'], chunk_translator)
+                                translated_chunks += 1
+                
+                # Process main text content
                 if 'text' in ch and ch['text'].strip():
-                    ch['text'] = self.translate_text(ch['text'], translator)
+                    text_lang = self.detect_chunk_language(ch['text'])
+                    if text_lang is None or text_lang == 'en':
+                        # Keep English/undetected text as is
+                        english_chunks += 1
+                    else:
+                        # Translate non-English text
+                        if translator:
+                            ch['text'] = self.translate_text(ch['text'], translator)
+                            translated_chunks += 1
+                        else:
+                            # If no translator available for primary language, try to get one for this chunk
+                            chunk_translator = self.get_translator(text_lang)
+                            if chunk_translator:
+                                ch['text'] = self.translate_text(ch['text'], chunk_translator)
+                                translated_chunks += 1
 
-        # Translate table text.
+        # Process table texts similarly
         if 'tables' in data:
             for tb in data['tables']:
                 if 'text' in tb and tb['text'].strip():
-                    tb['text'] = self.translate_text(tb['text'], translator)
+                    chunks_checked += 1
+                    text_lang = self.detect_chunk_language(tb['text'])
+                    if text_lang is None or text_lang == 'en':
+                        # Keep English/undetected text as is
+                        english_chunks += 1
+                    else:
+                        # Translate non-English text
+                        if translator:
+                            tb['text'] = self.translate_text(tb['text'], translator)
+                            translated_chunks += 1
+                        else:
+                            # If no translator available for primary language, try to get one for this chunk
+                            chunk_translator = self.get_translator(text_lang)
+                            if chunk_translator:
+                                tb['text'] = self.translate_text(tb['text'], chunk_translator)
+                                translated_chunks += 1
 
-        # Save the translated JSON
+        # Save the processed JSON
         with open(output_path, "w", encoding="utf-8") as out_f:
             json.dump(data, out_f, indent=2, ensure_ascii=False)
+
+        # Update statistics
+        self.english_chunks_preserved += english_chunks
+        self.chunks_translated += translated_chunks
+        
+        # Print chunk statistics
+        print(f"Chunks processed: {chunks_checked}")
+        print(f"English chunks preserved: {english_chunks}")
+        print(f"Non-English chunks translated: {translated_chunks}")
 
         # Free up GPU memory if applicable
         gc.collect()
@@ -1309,16 +1396,28 @@ class Translator:
         Translates all JSON files in the input directory and saves the translated
         versions in the corresponding structure in the output directory.
         """
+        total_files = 0
+        
         for root, _, files in os.walk(self.input_dir):
             for file in files:
                 if not file.endswith(".json"):
                     continue
+                total_files += 1
+                    
                 input_path = os.path.join(root, file)
                 relative_path = os.path.relpath(root, self.input_dir)
                 output_subdir = os.path.join(self.output_dir, relative_path)
                 os.makedirs(output_subdir, exist_ok=True)
                 output_path = os.path.join(output_subdir, file)
                 self.translate_json_file(input_path, output_path)
+                
+        # Print final statistics
+        print("\n=== Translation Summary ===")
+        print(f"Total files processed: {total_files}")
+        print(f"Total English chunks preserved: {self.english_chunks_preserved}")
+        print(f"Total chunks translated: {self.chunks_translated}")
+        if self.chunks_translated > 0:
+            print(f"Preservation rate: {self.english_chunks_preserved/(self.english_chunks_preserved+self.chunks_translated):.2%}")
 
 
 
