@@ -1,0 +1,269 @@
+=== Comparator Extract 1 (Control) ===
+te smoking in Europe: an update of
+risk estimates and an assessment of inter-country heterogeneity.
+International journal of cancer Journal international du cancer.
+Agudo A, Ahrens W, Benhamou E, Benhamou S, Boffetta P, Darby
+SC, et al. Lung cancer and cigarette smoking in women: a multicenter
+case-control study in Europe. International journal of cancer Journal
+international du cancer. 2000;88(5):820-7
+Parry EM, Gable DL, Stanley SE, Khalil SE, Antonescu V, Florea L, et
+al. Germline Mutations in DNA Repair Genes in Lung
+Adenocarcinoma. Journal of thoracic oncology : official publication of
+the Inter
+
+=== Comparator Extract 2 (Placebo) ===
+IIA, och som genomg
+komplett resektion (167). Konventionell adjuvant cytostatikabehandling gav
+enigt klinisk praxis, och genomfördes innan randomisering skedde. I studie
+gavs adjuvant cytostatikabehandling till 76% av patienter med stadium II-II
+och till 26% av patienter med stadium IB. Osimertinib/placebo gavs upp ti
+tre år efter randomisering. Primärt effektmått var sjukdomsfri överlevnad
+(DFS) hos patienter med tumörstadium II-IIIA. DFS var här signifikant län
+ts är
+div
+al
+na
+. En
+örsta
+st
+nde
+nt
+de
+vant
+tion)
+eken
+n
+gått
+vs
+en
+IIA,
+ill
+ngre
+hos patienter som erhöll adjuvant behandling med osimert
+
+=== Comparator Extract 3 (Placebo) ===
+2023 [197] kvarstod en längre DFS med adjuvant osimertinib, både i
+populationen med tumörstadium II-IIIA (HR 0,23 [0,18–0,30]) och i hela
+studiepopulationen med tumörstadium IB-IIIA (HR 0,27 [0,21-0,34]). Andelen
+patienter med sjukdomsfri överlevnad vid 4 år var här 73% med osimertinib vs.
+38% med placebo. I en planerad uppföljande analys av ADAURA [198]
+kunde man även visa att total överlevnad (OS) var signifikant längre hos
+patienter som erhållit adjuvant behandling med osimertinib. Vid tumörstadium
+II-IIIA var 5-årsöverlevnaden 85% med osimertinib vs. 73% med placebo (HR
+0,49 [0,33–0,73]; p < 0,0
+
+=== Comparator Extract 4 (Placebo) ===
+% med osimertinib vs.
+38% med placebo. I en planerad uppföljande analys av ADAURA [198]
+kunde man även visa att total överlevnad (OS) var signifikant längre hos
+patienter som erhållit adjuvant behandling med osimertinib. Vid tumörstadium
+II-IIIA var 5-årsöverlevnaden 85% med osimertinib vs. 73% med placebo (HR
+0,49 [0,33–0,73]; p < 0,001). I hela studiepopulationen (stadium IB-IIIA) var
+5-årsöverlevnaden 88% vs. 78% (HR 0,49 [0,34–0,70]; p < 0,001). Baserat på
+resultaten i ADAURA rekommenderas postoperativ adjuvant behandling med
+osimertinib hos patienter med EGFR-positiv NSCLC stadium IB-IIIA som
+ha
+
+=== Comparator Extract 5 (Placebo) ===
+203]. I studien randomiserades 1197 patienter med
+NSCLC stadium IB-IIIA (TNM-klasssifikation 7th edition) och med
+performance status 0-1, som genomgått komplett kirurgisk resektion och
+adjuvant kemoterapi enl kliniska riktlinjer, till postoperativ adjuvant behandling
+med pembrolizumab (n=590) eller placebo (n=587) var 3:e vecka upp till 18
+cykler. Efter en median uppföljningstid på 53,6 månader sågs en längre
+sjukdomsfri överlevnad (DFS) hos patienter som erhöll adjuvant behandling
+med pembrolizumab vs. placebo (HR 0,76 [0,63–0,91]; p=0,0014). Median
+DFS var 53,6 vs. 42,0 månader. I KEYNOTE-091 sågs
+
+=== Comparator Extract 6 (Placebo) ===
+kliniska riktlinjer, till postoperativ adjuvant behandling
+med pembrolizumab (n=590) eller placebo (n=587) var 3:e vecka upp till 18
+cykler. Efter en median uppföljningstid på 53,6 månader sågs en längre
+sjukdomsfri överlevnad (DFS) hos patienter som erhöll adjuvant behandling
+med pembrolizumab vs. placebo (HR 0,76 [0,63–0,91]; p=0,0014). Median
+DFS var 53,6 vs. 42,0 månader. I KEYNOTE-091 sågs inget samband mellan
+PD-L1-uttryck och förlängd DFS med pembrolizumab, och den formella
+indikationen är ej begränsad till patienter med högt PD-L1-uttryck i tumören.
+OS-data var i denna interimsanalys omogna,
+
+=== Comparator Extract 7 (Placebo) ===
+vs. 40,9 %, och estimerad total 2-årsöverlevnad var 85 % vs. 63,6 %
+(HR 0,43 [0,19–0,98]).
+I CheckMate 77T, som presenterades på ESMO 2023 [208] inkluderades 461
+patienter med potentiellt resektabel NSCLC stadium IIA-IIIB (N2) till
+neoadjuvant behandling med kemoterapi + nivolumab vs. kemoterapi +
+placebo, 4 cykler, följt av kirurgi och adjuvant behandling med nivolumab vs.
+placebo, 12 månader. Studien visade en förlängd event-fri överlevnad (EFS)
+i gruppen som behandlades med kombinerad kemo-immunterapi (HR 0,58
+[0,42–0,81]; p=0,00025), och högre andel med patologiskt komplett remission
+(pCR) (25,3
+
+=== Comparator Extract 8 (Placebo) ===
+[0,19–0,98]).
+I CheckMate 77T, som presenterades på ESMO 2023 [208] inkluderades 461
+patienter med potentiellt resektabel NSCLC stadium IIA-IIIB (N2) till
+neoadjuvant behandling med kemoterapi + nivolumab vs. kemoterapi +
+placebo, 4 cykler, följt av kirurgi och adjuvant behandling med nivolumab vs.
+placebo, 12 månader. Studien visade en förlängd event-fri överlevnad (EFS)
+i gruppen som behandlades med kombinerad kemo-immunterapi (HR 0,58
+[0,42–0,81]; p=0,00025), och högre andel med patologiskt komplett remission
+(pCR) (25,3% vs 4,7 %). Data avseende total överlevnad har ej redovisats.
+Nivolumab sakna
+
+=== Comparator Extract 9 (Placebo) ===
+ad pre- och postoperativ behandling med pembrolizumab har
+undersökts i KEYNOTE-671 [82]. 797 patienter med potentiellt resektabel
+NSCLC stadium II-IIIB (N2) (TNM-klassifikation 8th edition) randomiserades
+till preoperativ behandling med cisplatinbaserad cytostatika + pembrolizumab
+vs. cytostatika + placebo fyra cykler, följt av kirurgisk resektion, och därefter
+postoperativ behandling med pembrolizumab vs. placebo upp till 13 cykler.
+Event-fri överlevnad (EFS; avsaknad av tumörprogression, recidiv eller död)
+var längre hos patienter som fick pembrolizumab, och i en uppföljande analys
+efter en median
+
+=== Comparator Extract 10 (Placebo) ===
+entiellt resektabel
+NSCLC stadium II-IIIB (N2) (TNM-klassifikation 8th edition) randomiserades
+till preoperativ behandling med cisplatinbaserad cytostatika + pembrolizumab
+vs. cytostatika + placebo fyra cykler, följt av kirurgisk resektion, och därefter
+postoperativ behandling med pembrolizumab vs. placebo upp till 13 cykler.
+Event-fri överlevnad (EFS; avsaknad av tumörprogression, recidiv eller död)
+var längre hos patienter som fick pembrolizumab, och i en uppföljande analys
+efter en median uppföljningstid på 36,6 månader [209]sågs även en förlängd
+total överlevnad (OS) med pembrolizumab. Andelen so
+
+=== Comparator Extract 11 (Placebo) ===
+m fick pembrolizumab, och i en uppföljande analys
+efter en median uppföljningstid på 36,6 månader [209]sågs även en förlängd
+total överlevnad (OS) med pembrolizumab. Andelen som genomgick komplett
+kirurgisk resektion var 81 % i behandlingsarmen med pembrolizumab vs. 76 %
+i behandlingsarmen som fick placebo. Andelen som var i livet utan
+tumörprogression eller recidiv vid 3 år var vid den uppföljande analysen 54,3
+% med cytostatika + pembrolizumab vs. 35,4 % med cytostatika + placebo
+(HR 0,59 [0,48-0,72]; p<0,0001). OS vid 3 år var i denna analys 71,3 % vs. 64,0
+% (HR 0,72 [0,56-0,93]; p=0,00517). I su
+
+=== Comparator Extract 12 (Placebo) ===
+enomgick komplett
+kirurgisk resektion var 81 % i behandlingsarmen med pembrolizumab vs. 76 %
+i behandlingsarmen som fick placebo. Andelen som var i livet utan
+tumörprogression eller recidiv vid 3 år var vid den uppföljande analysen 54,3
+% med cytostatika + pembrolizumab vs. 35,4 % med cytostatika + placebo
+(HR 0,59 [0,48-0,72]; p<0,0001). OS vid 3 år var i denna analys 71,3 % vs. 64,0
+% (HR 0,72 [0,56-0,93]; p=0,00517). I subgruppanalyser var överlevnadsvinster
+med pembrolizumab begränsade till patienter med PD-L1-uttryck ≥1% i
+tumören.
+Baserat på resultaten från KEYNOTE-671 fick pembrolizumab i mars
+
+=== Comparator Extract 13 (Placebo) ===
+n har ännu ej gjorts.
+Även durvalumab har utvärderats för kombinerad pre- och postoperativ
+behandling vid lokalt avancerad NSCLC. I en fas III-studie (AEGEAN)
+randomiserades 802 patienter med NSCLC stadium II-IIIB (N2) till
+neoadjuvant behandling med platinumbaserad kemoterapi plus durvalumab
+eller placebo, följt av kirurgi och adjuvant durvalumab eller placebo upp till 12
+cykler [210]. Redovisade interimsdata visar förlängd EFS och högre andel med
+pCR bland patienter som fick durvalumab som en del av behandlingen.
+Andelen som var i livet utan tumörprogression eller recidiv vid 2 år var 63,3 %
+vs. 52
+
+=== Comparator Extract 14 (Placebo) ===
+r kombinerad pre- och postoperativ
+behandling vid lokalt avancerad NSCLC. I en fas III-studie (AEGEAN)
+randomiserades 802 patienter med NSCLC stadium II-IIIB (N2) till
+neoadjuvant behandling med platinumbaserad kemoterapi plus durvalumab
+eller placebo, följt av kirurgi och adjuvant durvalumab eller placebo upp till 12
+cykler [210]. Redovisade interimsdata visar förlängd EFS och högre andel med
+pCR bland patienter som fick durvalumab som en del av behandlingen.
+Andelen som var i livet utan tumörprogression eller recidiv vid 2 år var 63,3 %
+vs. 52,4 % (HR 0,68 [0,53-0,88]; p=0,004). Resultat avseende t
+
+=== Comparator Extract 15 (Placebo) ===
+r undersökts
+i två randomiserade fas III-studier. I KEYNOTE-189 randomiserades 616
+patienter med NSCLC av annan typ än skivepitelcancer, och utan EGFR-
+mutationer eller ALK-rearrangemang, till induktionsbehandling med
+cisplatin/karboplatin plus pemetrexed kombinerat med antingen
+pembrolizumab eller placebo, följt av underhållsbehandling med pemetrexed i
+kombination med pembrolizumab eller placebo [266-268] Studien visade en
+klar överlevnadsvinst med pembrolizumab-kombinationen jämfört med
+placebokombinationen (dvs. enbart cytostatika). Total överlevnad vid ett år var
+69,2 % respektive 49,4 %, median
+
+=== Comparator Extract 16 (Placebo) ===
+med NSCLC av annan typ än skivepitelcancer, och utan EGFR-
+mutationer eller ALK-rearrangemang, till induktionsbehandling med
+cisplatin/karboplatin plus pemetrexed kombinerat med antingen
+pembrolizumab eller placebo, följt av underhållsbehandling med pemetrexed i
+kombination med pembrolizumab eller placebo [266-268] Studien visade en
+klar överlevnadsvinst med pembrolizumab-kombinationen jämfört med
+placebokombinationen (dvs. enbart cytostatika). Total överlevnad vid ett år var
+69,2 % respektive 49,4 %, median OS var 22 månader respektive 10.6 månader
+(HR 0,56 [0,46‒0,69]; p<0,001), och median PFS 9,0
+
+=== Comparator Extract 17 (Placebo) ===
+<0,001). Överlevnadsvinster med pembrolizumab-
+kombinationen sågs oavsett PD-L1-uttryck, även hos patienter med PD-L1
+< 1 %. I KEYNOTE-407 randomiserades 559 patienter med skivepitelcancer
+till induktionsbehandling med karboplatin plus paklitaxel/nab-paklitaxel i
+kombination med pembrolizumab eller placebo, följt av underhållsbehandling
+med pembrolizumab eller placebo [269, 270]. Även i den studien sågs en
+överlevnadsvinst med pembrolizumab-kombinationen. 1-årsöverlevnaden var
+64,7 % respektive 49,6 %, median OS 17,1 respektive 11,6 månader (HR 0,71
+[0,58–0,88]), och median PFS 8,0 respektive 5,1 mån
+
+=== Comparator Extract 18 (Placebo) ===
+gs oavsett PD-L1-uttryck, även hos patienter med PD-L1
+< 1 %. I KEYNOTE-407 randomiserades 559 patienter med skivepitelcancer
+till induktionsbehandling med karboplatin plus paklitaxel/nab-paklitaxel i
+kombination med pembrolizumab eller placebo, följt av underhållsbehandling
+med pembrolizumab eller placebo [269, 270]. Även i den studien sågs en
+överlevnadsvinst med pembrolizumab-kombinationen. 1-årsöverlevnaden var
+64,7 % respektive 49,6 %, median OS 17,1 respektive 11,6 månader (HR 0,71
+[0,58–0,88]), och median PFS 8,0 respektive 5,1 månader (HR 0,57
+[0,47–0,69]). Överlevnadsvinster med pembrolizuma
+
+=== Comparator Extract 19 (Placebo) ===
+ationsbehandling med cemiplimab och cytostatika har undersökts i en
+randomiserad studie (EMPOWER-Lung 3) som publicerades i november 2022
+[274]. I studien randomiserades 466 patienter med avancerad, EGFR-, ALK-
+och ROS1-neg NSCLC till behandling med platinumbaserad cytostatika plus
+cemiplimab eller placebo. Resultaten visade en överlevnadsfördel för patienter
+som erhöll cemiplimab i tillägg till cytostatika. Detta visades redan i en
+interimsanalys vilket ledde till tidigt avslutande av studien. Median OS var 21,9
+månader med tillägg av cemiplimab till cytostatika vs. 13,0 månader med
+placebo plus cyt
+
+=== Comparator Extract 20 (Placebo) ===
+ab eller placebo. Resultaten visade en överlevnadsfördel för patienter
+som erhöll cemiplimab i tillägg till cytostatika. Detta visades redan i en
+interimsanalys vilket ledde till tidigt avslutande av studien. Median OS var 21,9
+månader med tillägg av cemiplimab till cytostatika vs. 13,0 månader med
+placebo plus cytostatika (HR 0,71 [0,53-0,93]; p=0,014). I subgruppanalyser var
+överlevnadsfördelen begränsad till patienter med PD-L1-pos tumörer (PD-L1
+≥1%). April 2023 erhöll cemiplimab EMA-godkännande för
+kombinationsbehandling med platinumbaserad cytostatika hos patienter med
+PD-L1-uttryck ≥1% i tumör
+
+=== Comparator Extract 21 (Placebo) ===
+inkluderade ca 300 patienter varav 90 med bronkialkarcinoider [362]. Där
+ingick både behandlingsnaiva patienter, de med tidigare SSA-behandling och en
+mindre grupp som tidigare fått kemoterapi. Hela gruppen hade en förlängd
+progressionsfri överlevnad (PFS) på 11 månader jämfört med 3,9 månader för
+placebo med en hazardkvot (HR) på 0,48 (HR 0,5 i subgruppen med
+bronkialkarcinoid) och man såg även en förlängd överlevnad (HR 0,64,
+p = 0,037) som dock inte nådde förutbestämd statistisk signifikans. Ytterligare
+data på everolimus och bronkialkarcinoider publicerades i LUNA en
+randomiserad fas II-studie m
+
+=== Comparator Extract 22 (Placebo) ===
+ression efter immunterapi kan kombination karboplatin-pemtrexed
+(+eventuellt bevacizumab) ges. Vid progression efter första linjens kemoterapi
+kan singel nivolumab vara ett alternativ. En fas 3 studie från 2021
+(CONFIRM) jämfördes singel nivolumab (240mg fast dos varannan vecka, tills
+progress) med placebo hos tidigare kemobehandlade patienter (i andra och
+tredje linjen, n=332, 2:1 randomisering). Den progressionsfria överlevnaden
+var signifikant bättre i nivolumab-armen med PFS på 3,0 månader jämfört med
+1,8 (HR 0,67, p=0.0012). Medianöverlevnaden var 10,2 månader i
+nivolumabgruppen jämfört med 6,9
+

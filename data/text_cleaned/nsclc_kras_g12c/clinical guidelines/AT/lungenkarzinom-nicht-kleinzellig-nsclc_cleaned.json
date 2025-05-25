@@ -317,7 +317,7 @@
     },
     {
       "heading": "Untersuchung Anmerkung",
-      "text": "Spirometrie: FEV11, TLCO2 Methoden der ersten Wahl\nGanzkörperplethysmographie\narterielle Blutgase in Ruhe\nSpiroergometrie bei Pat. mit Einschränkung von FEV1 und / oder Diffusionskapazität (TLCO), oder ande-\nren limitierenden kardiovaskulären Risiken bzw. Begleiterkrankungen\nLegende:\n1 FEV1 – forciertes exspiratorisches 1-Sekunden-Volumen; 2 TLCO – CO-Transferfaktor (CO-Diffusionskapazität), früher\nund in den USA auch als DLCO bezeichnet;\nTabelle 11: Klinische Prädiktoren eines erhöhten, perioperativen, kardiovaskulären Risikos (nach American College of\nCardiology (ACC) und American Heart Association (AHA)) [66]",
+      "text": "Spirometrie: FEV1 1, TLCO2 Methoden der ersten Wahl\nGanzkörperplethysmographie\narterielle Blutgase in Ruhe\nSpiroergometrie bei Pat. mit Einschränkung von FEV1 und / oder Diffusionskapazität (TLCO), oder ande-\nren limitierenden kardiovaskulären Risiken bzw. Begleiterkrankungen\nLegende:\n1 FEV1 – forciertes exspiratorisches 1-Sekunden-Volumen; 2 TLCO – CO-Transferfaktor (CO-Diffusionskapazität), früher\nund in den USA auch als DLCO bezeichnet;\nTabelle 11: Klinische Prädiktoren eines erhöhten, perioperativen, kardiovaskulären Risikos (nach American College of\nCardiology (ACC) und American Heart Association (AHA)) [66]",
       "start_page": 22,
       "end_page": 23
     },
@@ -1247,7 +1247,7 @@
     },
     {
       "heading": "table under heading <Untersuchung Anmerkung>",
-      "text": "Row 1: Untersuchung|Anmerkung\nRow 2: Spirometrie: FEV11, TLCO2|Methoden der ersten Wahl\nRow 3: Ganzkörperplethysmographie|\nRow 4: arterielle Blutgase in Ruhe|\nRow 5: Spiroergometrie|bei Pat. mit Einschränkung von FEV1 und / oder Diffusionskapazität (TLCO), oder ande- ren limitierenden kardiovaskulären Risiken bzw. Begleiterkrankungen",
+      "text": "Row 1: Untersuchung|Anmerkung\nRow 2: Spirometrie: FEV1 1, TLCO2|Methoden der ersten Wahl\nRow 3: Ganzkörperplethysmographie|\nRow 4: arterielle Blutgase in Ruhe|\nRow 5: Spiroergometrie|bei Pat. mit Einschränkung von FEV1 und / oder Diffusionskapazität (TLCO), oder ande- ren limitierenden kardiovaskulären Risiken bzw. Begleiterkrankungen",
       "start_page": 22,
       "end_page": 22
     },

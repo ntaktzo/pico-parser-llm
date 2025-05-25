@@ -1,0 +1,80 @@
+=== Intervention Extract 1 (Treatment) ===
+Oncogene-addicted metastatic non-small-cell lung cancer: ESMO Clinical
+Practice Guideline for diagnosis, treatment and follow-up
+L. E. Hendriks1, K. M. Kerr2, J. Menis3,T. S. Mok4, U. Nestle5,6, A. Passaro7, S. Peters8, D. Planchard9, E. F. Smit10,11,
+B. J. Solomon12, G.Veronesi13,14 & M. Reck15, on behalf of the ESMO Guidelines Committee(cid:1)
+1DepartmentofPulmonology,GROWSchoolforOncologyandReproduction,Maas
+
+=== Intervention Extract 2 (Treatment) ===
+ntificInstitute,Milan,Italy;15DepartmentofThoracic
+Oncology,AirwayResearchCenterNorth,GermanCenterforLungResearch,LungClinic,Grosshansdorf,Germany
+Availableonline23January2023
+Keywords:ESCAT,ESMOClinicalPracticeGuideline(CPG),ESMO-MCBS,oncogene-addictedmetastaticnon-small-cell
+lung cancer (mNSCLC), treatment, targeted therapy
+INCIDENCE AND EPIDEMIOLOGY therapy.ThefrequencyofoncogenicdriversinNSCLCaswell
+as general discussion of testing strategy and methodology,
+Details on incidence and epidemiology are covered in the
+including the use of liquid biopsies, can be found in the
+Supplementary Material Secti
+
+=== Intervention Extract 3 (Treatment) ===
+E-mail:clinicalguidelines@esmo.org(ESMOGuidelinesCommittee). largegroupofexon20insertionsmostlyresistanttocurrent
+5Note:ApprovedbytheESMOGuidelinesCommittee:February2002,last EGFRTKIsbutsensitivetosomeemergingagents(discussed
+updateDecember2022.Thispublicationsupersedesthepreviouslypublished in the treatment paragraph including EGFR exon 20 in-
+versiondAnnOncol2018;29(Suppl4):iv192-iv237.
+sertions). Other mutations, including in exon 18, variably
+0923-7534/©2023EuropeanSociety forMedicalOncology. Published by
+sensitise, while some mutations confer resistance and may
+ElsevierLtd.Allrightsreserved.
+Volum
+
+=== Intervention Extract 4 (Therapy) ===
+n,Italy;15DepartmentofThoracic
+Oncology,AirwayResearchCenterNorth,GermanCenterforLungResearch,LungClinic,Grosshansdorf,Germany
+Availableonline23January2023
+Keywords:ESCAT,ESMOClinicalPracticeGuideline(CPG),ESMO-MCBS,oncogene-addictedmetastaticnon-small-cell
+lung cancer (mNSCLC), treatment, targeted therapy
+INCIDENCE AND EPIDEMIOLOGY therapy.ThefrequencyofoncogenicdriversinNSCLCaswell
+as general discussion of testing strategy and methodology,
+Details on incidence and epidemiology are covered in the
+including the use of liquid biopsies, can be found in the
+Supplementary Material Section 1, available at
+
+=== Intervention Extract 5 (Therapy) ===
+logy,AirwayResearchCenterNorth,GermanCenterforLungResearch,LungClinic,Grosshansdorf,Germany
+Availableonline23January2023
+Keywords:ESCAT,ESMOClinicalPracticeGuideline(CPG),ESMO-MCBS,oncogene-addictedmetastaticnon-small-cell
+lung cancer (mNSCLC), treatment, targeted therapy
+INCIDENCE AND EPIDEMIOLOGY therapy.ThefrequencyofoncogenicdriversinNSCLCaswell
+as general discussion of testing strategy and methodology,
+Details on incidence and epidemiology are covered in the
+including the use of liquid biopsies, can be found in the
+Supplementary Material Section 1, available at
+Supplementary Material Section 3,
+
+=== Intervention Extract 6 (Therapy) ===
+appro-
+Diagnostic procedures
+priatedrugs.1Testingismandatoryforoncogenicdriversfor
+whichdrugsareapprovedforroutineusage.Broadertesting
+Details on diagnostic procedures are covered in the
+maybeusedtosupportearlydrugaccessorclinicaltrials.2,3
+SupplementaryMaterialSection2,availableat
+For personalised therapy approaches, European Society for
+10.1016/j.annonc.2022.12.009.SeeSupplementaryFigureS1,
+Medical Oncology (ESMO) Scale for Clinical Actionability of
+availableat
+molecular Targets (ESCAT) classifications4 need to be
+aflowchartondiagnosisandtestingbiopsy/cytologysamples
+considered (Supplementary Table
+
+=== Intervention Extract 7 (Therapy) ===
+e mutations confer resistance and may
+ElsevierLtd.Allrightsreserved.
+Volume34 - Issue 4 - 2023  339
+drive disease relapse. Complete sequencing ofexons 18-21 Resistanceto kinase inhibitorsis almostinevitableandis
+by next-generation sequencing (NGS) is strongly recom- variably due to the emergence of therapy-resistanttumour
+mended,toidentifyallpossiblesensitisingmutations.Some cell clones with target gene alteration, increased bypass
+allele-specific EGFR sequencing solutions do not provide pathwaysignallingand/orphenotypictransformation(small-
+complete coverage. EGFR FISH or immunohistochemistry cell,
+

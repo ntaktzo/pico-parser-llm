@@ -1,0 +1,13 @@
+=== Comparator Extract 1 (Comparator) ===
+100 was not specifically powered for overall and
+progression-free survival outcomes, but it was powered for the primary
+outcome. The committee acknowledged that the clinical evidence from
+the CodeBreaK100 trial is relevant. An indirect comparison is appropriate because there are
+to-head trials with comparator treatments, but this incre
+uncertainty
+3.4 There were no direct comparative data and no common trial arms for
+anchored indirect treatment comparisons or network meta-analyses.
+Therefore, the company used an unanchored indirect treatment
+comparison (as recommended in the NICE Decision Support Unit
+T
+

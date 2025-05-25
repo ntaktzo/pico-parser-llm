@@ -1,0 +1,695 @@
+# Top 30 ranked extracts from nccp-lung-guideline-full_cleaned.json.cleaned_population.txt
+
+=== Ranked Extract 1 (#17, Population) — Score: 14 ===
+e survival was longer
+in the afatinib group (3.3 months, 95% CI 2.79–4.40)
+than it was in the placebo group (1.1 months, 0.95–
+1.68; HR 0.38, 95% CI 0.31–0.48; p<0.0001).
+| A National Clinical
+Patient population
+Patients with non-s
+NSCLC that had pro
+during or after plati
+based doublet chem
+Patient population
+Patients with advan
+squamous-cell NSC
+have disease progre
+during or after first
+chemotherapy.
+Patient population
+Patients with previo
+treated, PD-L1-posi
+advanced NSCLC.
+The following sing
+positive tumours:
+Patient population
+Patients with locally
+or metastatic ALK-p
+lung cancer who ha
+one prior pl
+
+=== Ranked Extract 2 (#18, Population) — Score: 14 ===
+months, 0.95–
+1.68; HR 0.38, 95% CI 0.31–0.48; p<0.0001).
+| A National Clinical
+Patient population
+Patients with non-s
+NSCLC that had pro
+during or after plati
+based doublet chem
+Patient population
+Patients with advan
+squamous-cell NSC
+have disease progre
+during or after first
+chemotherapy.
+Patient population
+Patients with previo
+treated, PD-L1-posi
+advanced NSCLC.
+The following sing
+positive tumours:
+Patient population
+Patients with locally
+or metastatic ALK-p
+lung cancer who ha
+one prior platinum-
+regimen.
+l Guid
+n:
+squam
+ogress
+tinum-
+mothe
+n:
+nced
+CLC wh
+ession
+t-line
+n:
+ously
+itive,
+gle ag
+n:
+y adv
+
+=== Ranked Extract 3 (#34, Population) — Score: 14 ===
+and non-co
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.2
+In patients with periphe
+cancer?
+- Percutaneous fine ne
+- Guided bronchoscop
+- Video assisted thora
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.3
+In NSCLC patients with e
+ablative techniques?
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.4
+For patients with NSCLC
+a role for imaging surve
+Population:
+Intervention:
+Comparison:
+Outcome:
+deline | Diagnosis, staging and treatment of
+nical Questions in PICO format
+ancer (NSCLC) patients with mediastinal and hilar adenopathy what i
+
+=== Ranked Extract 4 (#37, Population) — Score: 14 ===
+mical shift MRI, non-c
+Population: Patients with lung cancer with metastati
+masses
+Intervention: Chemical shift MRI, non-contrast CT, PE
+Comparison: -
+Outcome: Detection of metastatic spread to indet
+Clinical question 2.2.6
+For patients with NSCLC which of the following tests is most accura
+PET-CT?
+Population: Patients with NSCLC with brain metasta
+Intervention: MRI, CT, PET-CT
+Comparison: -
+Outcome: Detection of brain metastases
+Clinical question 2.2.7
+For patients with NSCLC which of the following tests is most accura
+bone scan, CT, MRI, PET-CT?
+Population: For patients with NSCLC with suspected
+Inter
+
+=== Ranked Extract 5 (#38, Population) — Score: 14 ===
+of the following tests is most accura
+PET-CT?
+Population: Patients with NSCLC with brain metasta
+Intervention: MRI, CT, PET-CT
+Comparison: -
+Outcome: Detection of brain metastases
+Clinical question 2.2.7
+For patients with NSCLC which of the following tests is most accura
+bone scan, CT, MRI, PET-CT?
+Population: For patients with NSCLC with suspected
+Intervention: Isotope bone scan, CT, MRI, PET-CT
+Comparison: –
+Outcome: Detection of bone metastases
+Clinical question 2.2.8
+In patients with limited-stage SCLC on diagnostic CT, does PET-CT ch
+Population: Patients with limited-stage SCLC on diag
+Intervention
+
+=== Ranked Extract 6 (#399, Patients) — Score: 14 ===
+ties, or patient preference. Seven patients (35%) treated surgically had tumours that
+were ipsilateral to their primary tumour, and eight (40%) had metachronous metastases. Five-year overall
+survival was 34% for patients treated operatively and 0% for patients treated nonoperatively p=0.002).
+Among patients treated with adrenalectomy, patients with ipsilateral metastases had a 5-year survival of
+83% compared with 0% for patients with contralateral metastases (p=0.003). Patients without mediastinal
+nodal disease had a 5-year survival of 52% compared with 0% for patients with mediastinal nodal disease
+(
+
+=== Ranked Extract 7 (#400, Patients) — Score: 14 ===
+tients (35%) treated surgically had tumours that
+were ipsilateral to their primary tumour, and eight (40%) had metachronous metastases. Five-year overall
+survival was 34% for patients treated operatively and 0% for patients treated nonoperatively p=0.002).
+Among patients treated with adrenalectomy, patients with ipsilateral metastases had a 5-year survival of
+83% compared with 0% for patients with contralateral metastases (p=0.003). Patients without mediastinal
+nodal disease had a 5-year survival of 52% compared with 0% for patients with mediastinal nodal disease
+(p=0.008). Survival of patients who un
+
+=== Ranked Extract 8 (#401, Patients) — Score: 14 ===
+ur, and eight (40%) had metachronous metastases. Five-year overall
+survival was 34% for patients treated operatively and 0% for patients treated nonoperatively p=0.002).
+Among patients treated with adrenalectomy, patients with ipsilateral metastases had a 5-year survival of
+83% compared with 0% for patients with contralateral metastases (p=0.003). Patients without mediastinal
+nodal disease had a 5-year survival of 52% compared with 0% for patients with mediastinal nodal disease
+(p=0.008). Survival of patients who underwent adrenalectomy for synchronous and metachronous adrenal
+metastases was not signi
+
+=== Ranked Extract 9 (#402, Patients) — Score: 14 ===
+ive-year overall
+survival was 34% for patients treated operatively and 0% for patients treated nonoperatively p=0.002).
+Among patients treated with adrenalectomy, patients with ipsilateral metastases had a 5-year survival of
+83% compared with 0% for patients with contralateral metastases (p=0.003). Patients without mediastinal
+nodal disease had a 5-year survival of 52% compared with 0% for patients with mediastinal nodal disease
+(p=0.008). Survival of patients who underwent adrenalectomy for synchronous and metachronous adrenal
+metastases was not significantly different (p=0.81). Surgical resection of
+
+=== Ranked Extract 10 (#515, Patients) — Score: 14 ===
+was longer
+in the afatinib group (3.3 months, 95% CI 2.79–4.40)
+than it was in the placebo group (1.1 months, 0.95–
+1.68; HR 0.38, 95% CI 0.31–0.48; p<0.0001).
+| A National Clinical
+Patient population
+Patients with non-s
+NSCLC that had pro
+during or after plati
+based doublet chem
+Patient population
+Patients with advan
+squamous-cell NSC
+have disease progre
+during or after first
+chemotherapy.
+Patient population
+Patients with previo
+treated, PD-L1-posi
+advanced NSCLC.
+The following sing
+positive tumours:
+Patient population
+Patients with locally
+or metastatic ALK-p
+lung cancer who ha
+one prior platinum-
+r
+
+=== Ranked Extract 11 (#516, Patients) — Score: 14 ===
+5–
+1.68; HR 0.38, 95% CI 0.31–0.48; p<0.0001).
+| A National Clinical
+Patient population
+Patients with non-s
+NSCLC that had pro
+during or after plati
+based doublet chem
+Patient population
+Patients with advan
+squamous-cell NSC
+have disease progre
+during or after first
+chemotherapy.
+Patient population
+Patients with previo
+treated, PD-L1-posi
+advanced NSCLC.
+The following sing
+positive tumours:
+Patient population
+Patients with locally
+or metastatic ALK-p
+lung cancer who ha
+one prior platinum-
+regimen.
+l Guid
+n:
+squam
+ogress
+tinum-
+mothe
+n:
+nced
+CLC wh
+ession
+t-line
+n:
+ously
+itive,
+gle ag
+n:
+y adva
+positiv
+
+=== Ranked Extract 12 (#560, Patients) — Score: 14 ===
+of patients with clinical stage I NSCLC significantly
+more patients who had received surgical treatment were alive at 3 years than patients who had received
+SBRT/SABR. The treatment groups did not differ in terms of 3-year cancer-specific survival or local control.
+When the analyses were limited to patients with clinical stage Ia 3-year disease-free survival did not differ
+significantly between the SBRT/SABR (n = 57) and surgery (n = 288) patients, but the surgery patients
+achieved significantly higher rates of local control at 3 years compared to the SBRT/SABR patients.
+Analysis of the patients with
+
+=== Ranked Extract 13 (#667, Patients) — Score: 14 ===
+n non-small cell lung ca
+CT (contrast and non-co
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.2
+In patients with periphe
+cancer?
+- Percutaneous fine ne
+- Guided bronchoscop
+- Video assisted thora
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.3
+In NSCLC patients with e
+ablative techniques?
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.4
+For patients with NSCLC
+a role for imaging surve
+Population:
+Intervention:
+Comparison:
+Outcome:
+deline | Diagnosis, staging and treatment of
+nical Questions in PICO format
+ancer (NSCLC) patients with
+
+=== Ranked Extract 14 (#677, Patients) — Score: 14 ===
+MRI, non-c
+Population: Patients with lung cancer with metastati
+masses
+Intervention: Chemical shift MRI, non-contrast CT, PE
+Comparison: -
+Outcome: Detection of metastatic spread to indet
+Clinical question 2.2.6
+For patients with NSCLC which of the following tests is most accura
+PET-CT?
+Population: Patients with NSCLC with brain metasta
+Intervention: MRI, CT, PET-CT
+Comparison: -
+Outcome: Detection of brain metastases
+Clinical question 2.2.7
+For patients with NSCLC which of the following tests is most accura
+bone scan, CT, MRI, PET-CT?
+Population: For patients with NSCLC with suspected
+Intervention: I
+
+=== Ranked Extract 15 (#679, Patients) — Score: 14 ===
+tests is most accura
+PET-CT?
+Population: Patients with NSCLC with brain metasta
+Intervention: MRI, CT, PET-CT
+Comparison: -
+Outcome: Detection of brain metastases
+Clinical question 2.2.7
+For patients with NSCLC which of the following tests is most accura
+bone scan, CT, MRI, PET-CT?
+Population: For patients with NSCLC with suspected
+Intervention: Isotope bone scan, CT, MRI, PET-CT
+Comparison: –
+Outcome: Detection of bone metastases
+Clinical question 2.2.8
+In patients with limited-stage SCLC on diagnostic CT, does PET-CT ch
+Population: Patients with limited-stage SCLC on diag
+Intervention: PET-CT
+Compa
+
+=== Ranked Extract 16 (#12, Population) — Score: 13 ===
+; p=0.02).
+1 The process for reimbursement is outlined on page 130.
+76 | Diagnosis, staging and
+patients with lung canc
+Patient population: Stud
+Patients with stage IIIb or IV (Kaw
+NSCLC, previous treatment
+Inte
+with chemotherapy, and
+performance status of 0 to 2 Erlo
+were eligible.
+Com
+Doc
+Patient population: Stud
+Patients with NSCLC (Ciu
+that progressed on first-
+Inte
+line, platinum-doublet
+chemotherapy. Erlo
+Com
+Che
+doc
+regi
+inve
+Patient population: Stud
+Patients with stage (She
+IIIb or IV NSCLC, with
+Inte
+performance status from 0
+to 3, were eligible if they had Erlo
+received one or two prior
+Com
+ch
+
+=== Ranked Extract 17 (#33, Population) — Score: 13 ===
+velopment.
+| A National Clinical Guid
+Appendix 2: Clin Clinical question 2.2.1
+In non-small cell lung ca
+CT (contrast and non-co
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.2
+In patients with periphe
+cancer?
+- Percutaneous fine ne
+- Guided bronchoscop
+- Video assisted thora
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.3
+In NSCLC patients with e
+ablative techniques?
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.4
+For patients with NSCLC
+a role for imaging surve
+Population:
+Intervention:
+Comparison:
+Outcome:
+deline | Diagnosis, stagin
+
+=== Ranked Extract 18 (#35, Population) — Score: 13 ===
+rcutaneous fine ne
+- Guided bronchoscop
+- Video assisted thora
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.3
+In NSCLC patients with e
+ablative techniques?
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.4
+For patients with NSCLC
+a role for imaging surve
+Population:
+Intervention:
+Comparison:
+Outcome:
+deline | Diagnosis, staging and treatment of
+nical Questions in PICO format
+ancer (NSCLC) patients with mediastinal and hilar adenopathy what is the e
+ontrast) and PET-CT in the diagnosis of lung cancer?
+NSCLC patients with mediastinal and hilar adenopathy
+CT con
+
+=== Ranked Extract 19 (#42, Population) — Score: 13 ===
+cal Guid Clinical question 2.3.1
+What is the efficacy of b
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.3.2
+In patients with medias
+diagnosis of lung cancer
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.3.3
+In patients with pleural
+diagnosis of lung cancer
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.3.4
+What is the role of palli
+Population:
+Intervention:
+Comparison:
+Outcome:
+deline | Diagnosis, staging and treatment of
+bronchoscopy in identifying lung cancer?
+Patients with suspected lung cancer
+Bronchoscopy
+Clinical follow-up
+Diagnosis of
+
+=== Ranked Extract 20 (#57, Population) — Score: 13 ===
+es at the time of presentation?
+Population: Patients with NSCLC with isolated metastases
+Intervention: Surgical resection
+Comparison: -
+Outcome: Survival (one year, three year, five year)
+Clinical question 2.5.10
+Should surgical resection be considered as part of the multimodality treat
+(N2) NSCLC?
+Population: Patients with stage IIIa (N2) NSCLC
+Intervention: Surgical resection
+Comparison: -
+Outcome: Survival
+Clinical question 2.5.11
+In patients with small-cell lung cancer (SCLC) what is the role of surgery?
+Population: Patients with SCLC
+Intervention: Surgery
+Comparison: -
+Outcome: Survival
+| A Nationa
+
+=== Ranked Extract 21 (#105, Population) — Score: 13 ===
+w 2: Patient population:|Stud
+Row 3: Patients with stage IIIb or IV NSCLC, previous treatment with chemotherapy, and performance status of 0 to 2 were eligible.|
+Row 4: Patient population:|Stud
+Row 5: Patients with NSCLC that progressed on first- line, platinum-doublet chemotherapy.|
+Row 6: Patient population:|Stud
+Row 7: Patients with stage IIIb or IV NSCLC, with performance status from 0 to 3, were eligible if they had received one or two prior chemotherapy regimens.|
+Row 8: |
+Row 9: Patient population:|Stud
+Row 10: Stage IIIb or IV squamous cell carcinoma of the lung who had progressed after at least
+
+=== Ranked Extract 22 (#162, Population) — Score: 13 ===
+atients with stage IIIa (N2) NSCLC?|
+Row 17: Population:|Patients with stage IIIa (N2) NSCLC
+Row 18: Intervention:|Surgical resection
+Row 19: Comparison:|-
+Row 20: Outcome:|Survival
+Row 21: Clinical question 2.5.11 In patients with small-cell lung cancer (SCLC) what is the role of surgery?|
+Row 22: Population:|Patients with SCLC
+Row 23: Intervention:|Surgery
+Row 24: Comparison:|-
+Row 25: Outcome:|Survival Row 1: Clinical question 2.5.7 In patients with NSCLC, what is the optimal lymph node strategy at surgica
+Row 2: Population:
+Row 3: Intervention:
+Row 4: Comparison:
+Row 5: Outcome:
+Row 6: Clinical ques
+
+=== Ranked Extract 23 (#396, Patients) — Score: 13 ===
+ion
+of the brain metastasis improves prognosis. Raz et al. (2011) identified 37 patients with isolated adrenal metastasis from NSCLC. Twenty patients
+underwent adrenalectomy. Patients did not undergo adrenalectomy owing to suspicion of N2 disease,
+medical comorbidities, or patient preference. Seven patients (35%) treated surgically had tumours that
+were ipsilateral to their primary tumour, and eight (40%) had metachronous metastases. Five-year overall
+survival was 34% for patients treated operatively and 0% for patients treated nonoperatively p=0.002).
+Among patients treated with adrenalectomy, patien
+
+=== Ranked Extract 24 (#397, Patients) — Score: 13 ===
+tients did not undergo adrenalectomy owing to suspicion of N2 disease,
+medical comorbidities, or patient preference. Seven patients (35%) treated surgically had tumours that
+were ipsilateral to their primary tumour, and eight (40%) had metachronous metastases. Five-year overall
+survival was 34% for patients treated operatively and 0% for patients treated nonoperatively p=0.002).
+Among patients treated with adrenalectomy, patients with ipsilateral metastases had a 5-year survival of
+83% compared with 0% for patients with contralateral metastases (p=0.003). Patients without mediastinal
+nodal disease had
+
+=== Ranked Extract 25 (#398, Patients) — Score: 13 ===
+ng to suspicion of N2 disease,
+medical comorbidities, or patient preference. Seven patients (35%) treated surgically had tumours that
+were ipsilateral to their primary tumour, and eight (40%) had metachronous metastases. Five-year overall
+survival was 34% for patients treated operatively and 0% for patients treated nonoperatively p=0.002).
+Among patients treated with adrenalectomy, patients with ipsilateral metastases had a 5-year survival of
+83% compared with 0% for patients with contralateral metastases (p=0.003). Patients without mediastinal
+nodal disease had a 5-year survival of 52% compared with
+
+=== Ranked Extract 26 (#511, Patients) — Score: 13 ===
+process for reimbursement is outlined on page 130.
+76 | Diagnosis, staging and
+patients with lung canc
+Patient population: Stud
+Patients with stage IIIb or IV (Kaw
+NSCLC, previous treatment
+Inte
+with chemotherapy, and
+performance status of 0 to 2 Erlo
+were eligible.
+Com
+Doc
+Patient population: Stud
+Patients with NSCLC (Ciu
+that progressed on first-
+Inte
+line, platinum-doublet
+chemotherapy. Erlo
+Com
+Che
+doc
+regi
+inve
+Patient population: Stud
+Patients with stage (She
+IIIb or IV NSCLC, with
+Inte
+performance status from 0
+to 3, were eligible if they had Erlo
+received one or two prior
+Com
+chemotherapy regi
+
+=== Ranked Extract 27 (#668, Patients) — Score: 13 ===
+n 2.2.2
+In patients with periphe
+cancer?
+- Percutaneous fine ne
+- Guided bronchoscop
+- Video assisted thora
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.3
+In NSCLC patients with e
+ablative techniques?
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.2.4
+For patients with NSCLC
+a role for imaging surve
+Population:
+Intervention:
+Comparison:
+Outcome:
+deline | Diagnosis, staging and treatment of
+nical Questions in PICO format
+ancer (NSCLC) patients with mediastinal and hilar adenopathy what is the e
+ontrast) and PET-CT in the diagnosis of lung cancer?
+NSCLC patien
+
+=== Ranked Extract 28 (#678, Patients) — Score: 13 ===
+tection of metastatic spread to indet
+Clinical question 2.2.6
+For patients with NSCLC which of the following tests is most accura
+PET-CT?
+Population: Patients with NSCLC with brain metasta
+Intervention: MRI, CT, PET-CT
+Comparison: -
+Outcome: Detection of brain metastases
+Clinical question 2.2.7
+For patients with NSCLC which of the following tests is most accura
+bone scan, CT, MRI, PET-CT?
+Population: For patients with NSCLC with suspected
+Intervention: Isotope bone scan, CT, MRI, PET-CT
+Comparison: –
+Outcome: Detection of bone metastases
+Clinical question 2.2.8
+In patients with limited-stage SCLC on d
+
+=== Ranked Extract 29 (#683, Patients) — Score: 13 ===
+ideline
+dules/
+RI, CT,
+otope
+| A National Clinical Guid Clinical question 2.3.1
+What is the efficacy of b
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.3.2
+In patients with medias
+diagnosis of lung cancer
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.3.3
+In patients with pleural
+diagnosis of lung cancer
+Population:
+Intervention:
+Comparison:
+Outcome:
+Clinical question 2.3.4
+What is the role of palli
+Population:
+Intervention:
+Comparison:
+Outcome:
+deline | Diagnosis, staging and treatment of
+bronchoscopy in identifying lung cancer?
+Patients with suspected lung ca
+
+=== Ranked Extract 30 (#708, Patients) — Score: 13 ===
+me of presentation?
+Population: Patients with NSCLC with isolated metastases
+Intervention: Surgical resection
+Comparison: -
+Outcome: Survival (one year, three year, five year)
+Clinical question 2.5.10
+Should surgical resection be considered as part of the multimodality treat
+(N2) NSCLC?
+Population: Patients with stage IIIa (N2) NSCLC
+Intervention: Surgical resection
+Comparison: -
+Outcome: Survival
+Clinical question 2.5.11
+In patients with small-cell lung cancer (SCLC) what is the role of surgery?
+Population: Patients with SCLC
+Intervention: Surgery
+Comparison: -
+Outcome: Survival
+| A National Clinical
+

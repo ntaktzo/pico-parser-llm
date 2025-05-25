@@ -1,0 +1,1546 @@
+=== Outcome Extract 1 (Outcome) ===
+cancer. Eur J Cardiothorac Surg 1997; 12(5):689-693.
+10 - Macchiarini P, Hardin M, Basolo F, Bruno J, Chella A, Angeletti CA: Surgery plus adjuvant chemotherapy for T1-3N0M0
+small-cell lung cancer. Rationale for current approach. Am J Clin Oncol 1991; 14(3):218-224.
+11 - Nakamura H, Kato Y, Kato H: Outcome of surgery for small cell lung cancer -- response to induction chemotherapy
+predicts survival. Thorac Cardiovasc Surg 2004; 52(4):206-210.
+12 - Rea F, Callegaro D, Favaretto A, Loy M, Paccagnella A, Fantoni U, Festi G, Sartori F: Long term results of surgery and
+chemotherapy in small cell lung canc
+
+=== Outcome Extract 2 (Outcome) ===
+r J Cardiothorac Surg 1998; 14(4):398-402.
+2 - Granetzny A, Boseila A, Wagner W, Krukemeyer G, Vogt U, Hecker E, Koch OM, Klinke F: Surgery in the tri-modality
+treatment of small cell lung cancer. Stage-dependent survival. Eur J Cardiothorac Surg 2006; 30(2):212-216.
+3 - Nakamura H, Kato Y, Kato H: Outcome of surgery for small cell lung cancer -- response to induction chemotherapy predicts
+survival. Thorac Cardiovasc Surg 2004; 52(4):206-210.
+4 - Badzio A, Kurowski K, Karnicka-Mlodkowska H, Jassem J: A retrospective comparative study of surgery followed by
+chemotherapy vs. non-surgical management in
+
+=== Outcome Extract 3 (Effect) ===
+gestart. Dit zou aan de patient meegedeeld moeten
+worden als dit klinisch relevant lijkt.
+Onderbouwing
+Conclusies
+Niveau 2
+SCLC is één van de histologische types longkanker die sterk geassocieerd zijn met roken. In patiënten met
+roken-gerelateerde longkanker heeft continueren van roken een negatief effect op de overleving.
+Samenvatting literatuur
+Epidemiologie
+Oudere cijfers midden jaren negentig lieten zien dat mondiaal SCLC bij 10-20% van de mannen met
+longkanker werd vastgesteld en bij 20-30% van de vrouwen met longkanker. [Khuder 2001]. Voor de
+Nederlandse situatie is er een duidelijke afname te
+
+=== Outcome Extract 4 (Effect) ===
+gkanker. Het 15q24-25
+gebied bevat de AChR genen, die coderen voor de subunits nAChR α3, α5 and β4, welke een rol spelen bij
+de verslaving aan nicotine (12) (13) (14).
+Nicotine en een andere rook component (NNK) hebben een hogere affiniteit voor de AChR dan het
+fysiologische acetylcholine (15). Het effect is dat bronchus epitheel cellen, die ook AChR op het oppervlak
+hebben en SCLC cellijnen in vitro gestimuleerd worden tot proliferatie en minder anoikos (=apoptosis) (16)
+(17) (18) (19). Bovendien synthetiseren NSCLC and SCLC cellijnen acetylcholine en scheiden dit uit (20).
+Nicotine leidt tot een v
+
+=== Outcome Extract 5 (Effect) ===
+en minder anoikos (=apoptosis) (16)
+(17) (18) (19). Bovendien synthetiseren NSCLC and SCLC cellijnen acetylcholine en scheiden dit uit (20).
+Nicotine leidt tot een verhoging van acetylcholine productie en meer AChR op de cel membraan (21). Al deze
+veranderingen wijzen op een autocrien of paracrien effect, resulterend in endogene proliferatieve stimuli.
+In patiënten met roken gerelateerde longkanker, heeft continueren van roken een negatief effect op de
+overleving (22) (23) (24) (25). Al met al is van het bestanddeel nicotine zelf niet duidelijk of dit DNA schade
+veroorzaakt, maar na initiatie van l
+
+=== Outcome Extract 6 (Effect) ===
+otine leidt tot een verhoging van acetylcholine productie en meer AChR op de cel membraan (21). Al deze
+veranderingen wijzen op een autocrien of paracrien effect, resulterend in endogene proliferatieve stimuli.
+In patiënten met roken gerelateerde longkanker, heeft continueren van roken een negatief effect op de
+overleving (22) (23) (24) (25). Al met al is van het bestanddeel nicotine zelf niet duidelijk of dit DNA schade
+veroorzaakt, maar na initiatie van longkanker leidt dit wel tot progressie van tumor groei.
+Bij het SCLC spelen alle ‘G-protein coupled' receptoren een rol (26). Bij het SCLC worden
+
+=== Outcome Extract 7 (Effect) ===
+evonden.
+Human Achaete/Scute Homolog (hASH1) expressie komt voor bij foetale ontwikkeling van longepitheel via
+een neuroendocriene weg en ook bij SCLC. hASH1 is een transcriptie factor die aan de E-box bindt. Dit is een
+DNA sequentie met de volgorde CACGTG. hASH1, L-myc en N-myc hebben bij SCLC een effect op de anti-
+tumor immuniteit. Major Histocompatibilty Class (MHC) II eiwitten worden geïnduceerd op niet-immuun
+competente cellen door interferon γ. The class II transactivator eiwit (CIITA) is een transcriptie factor, die
+noodzakelijk is voor inductie van MHC klasse I en II expressie. De promoter
+
+=== Outcome Extract 8 (Effect) ===
+nvattend kan gesteld worden dat er nog veel details ontbreken van de ontstaanswijze van SCLC, maar
+dat sommige gevonden afwijkingen enig inzicht in de pathogenese geven.
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Referenties
+1 - Khuder SA. Effect of cigarette smoking on major histological types of lung cancer: a meta-analysis. Lung Cancer 2001
+Feb;31(2-3):139-148.
+2 - Benowitz NL, Lessov-Schlaggar CN, Swan GE, Jacob P, III. Female sex and oral contraceptive use accelerate nicotine
+metabolism. Clin. Pharmacol. Ther. 2006 May;79(5):480-488.
+D
+
+=== Outcome Extract 9 (Effect) ===
+ll lung carcinomas. Anticancer Res 1999 July;19(4A):2673-8. Uitgangsvraag
+Wat is de plaats van laboratoriumonderzoek (tumormerkers zoals NSE en ProGRP) bij patiënten met,
+verdenking op, kleincellig longcarcinoom?
+Aanbeveling
+Bepalen van tumormerkers, zoals NSE en ProGRP, kan overwogen worden om het effect van de therapie te
+evalueren.
+Onderbouwing
+Conclusies
+Niveau 3
+Tumormerkers zoals NSE en ProGRP kunnen enige waarde hebben in de follow-up van SCLC. Of dit
+radiologische follow-up kan vervangen is niet onderzocht.
+C (2) (4) (1)
+Samenvatting literatuur
+Het SCLC geeft soms aanleiding tot een laag ser
+
+=== Outcome Extract 10 (Effect) ===
+tabellen en eventuele aanverwante producten raadpleegt u de
+Referenties
+1 - Stahel RA, Ginsberg R, Havemann K, Hirsch FR, Hide DC, Jassem J. Staging and prognostic factors in small cell lung cancer:
+a consensus report. Lung Cancer 1989;5:119-126
+Aanbeveling
+Er zijn geen goede studies die alléén het effect van chirurgie
+beschrijven.
+Voor de volledige verantwoording, evidence tabellen en eve
+e op de ove
+entuele aanv
+erlevin
+verwa
+ng bij de be
+ante produ
+ehand
+ucten r
+deling
+raadp
+g van SCLC
+pleegt u de
+Kleincellig longcarcinoom - Chirurgie gecombineerd met chemotherapie /
+radiotherapie
+Onderbouwing
+Sa
+
+=== Outcome Extract 11 (Effect) ===
+is een gerandomiseerde studie uit, die liet zien
+dat carboplatin/etoposide even effectief is als cisplatin/etoposide (voornamelijk patiënten met SCLC-ED) (7).
+In de Japanse JCOG 9511 werd aangetoond dat cisplatin/irinotecan een betere overleving gaf dan
+cisplatin/etoposide.[Noda 2002] Dit positieve effect van irinotecan kon echter niet worden aangetoond in een
+studie met dezelfde opzet die werd uitgevoerd in Amerika, Australia en Canada (8). Andere cytostatica zoals
+topotecan, epirubicine, paclitaxel en ifosfamide tonen geen extra voordeel ten opzichte van etoposide,
+gecombineerd met cisplatin. Comb
+
+=== Outcome Extract 12 (Effect) ===
+vraag
+Wat is de plaats van de behandeling met orale Etoposide bij patiënten met extensive disease kleincellig
+longcarcinoom?
+Aanbeveling
+Etoposide per os (beschikbaar in 50mg en 100mg capsules) is een mogelijk alternatief voor intraveneuze
+toediening [Farmacotherapeutisch kompas 2010]. Het klinisch effect is volgens Miller equivalent (ref 70 uit
+review)Het wordt over het algemeen goed verdragen en is in de thuissetting in te nemen. Er is een belangrijk
+nadeel aan verbonden. De biologische beschikbaarheid is lager en erg variabel ten opzichte van iv
+toediening (1).
+Met de huidige hydrofiele capsules
+
+=== Outcome Extract 13 (Effect) ===
+lledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Referenties
+1 - Toffoli G, Corona G, Basso B, Boiocchi M. Pharmacokinetic optimisation of treatment with oral etoposide. Clin
+Pharmacokinet 2004:47 (7);441-466
+2 - Slevin ML, Joel SP, Whomsley R, rt al. The effect of dose on the bioavailability or oral etoposide: confirmation of a clinically
+relevant observation. Cancer Chemother Pharmacol 1989; 24 (5) 329-31
+Uitgangsvraag
+Wat is de plaats van dosisintensificatie bij behandeling van patiënten met extensive disease kleincellig
+longcarcinoom?
+Aanbeveling
+Er is
+
+=== Outcome Extract 14 (Effect) ===
+au 1
+Een onderhoudsbehandeling of sequentiële chemotherapie leidt niet tot een langere overleving bij SCLC-ED.
+Samenvatting literatuur
+Vanaf 2000 zijn er 4 gerandomiseerde fase III studies verricht naar onderhoudsbehandeling bij SCLC.
+Toevoeging van zowel marimastat (1) als thalidomide (2) had geen effect op de overleving. Hoewel
+toevoegen van 4 cycli topotecan na 4 cycli cisplatin-etoposide een verlenging van de progressievrije
+overleving liet zien werd dit niet vertaald in een verlenging van de overleving (3) (4). Hetzelfde werd
+gevonden voor een 3 maanden durende behandeling met orale etoposide b
+
+=== Outcome Extract 15 (Effect) ===
+A2 (10)
+Samenvatting literatuur
+Van oudsher heeft radiotherapie een belangrijke plaats in de palliatie van symptomen ten gevolge van lokale
+intrathoracale tumorgroei of afstandsmetastasen. SCLC is over het algemeen zeer stralengevoelig. Er zijn
+daarom geen redenen om aan te nemen dat het palliatief effect, zoals dat bij NSCLC is aangetoond, minder
+zou zijn bij SCLC. Door een eenmalige dosis van 8 Gy te geven op pijnlijke botmetastasen kunnen bijna 25%
+van de patiënten volledig pijnvrij worden en in nog eens 35% een partiële pijnvermindering optreden.
+Hemoptoë zal in 80% van de patiënten goed respond
+
+=== Outcome Extract 16 (Effect) ===
+in de behandeling van een recidief va
+C (1) (2) (3) (4) (5) (6)
+Samenvatting literatuur
+Van deze categorie middelen zijn er enkele toegepast bij recidief SCLC in fase II studies (waaronder
+EGFR tyrosine kinase remmer) (1) (2) (3) (4) (5) (6). Tot nu toe zijn er geen middelen waarvan aangeto
+het een effect heeft op recidief SCLC. In tabel 4 zijn de beschikbare studies weergegeven.
+Tabel 4. Targeted therapie bij de behandeling van recidief kleincellig longcarcinoom
+middel werking fase van de trial uitko
+Zarnestra (7) farnesyl transferase remmer II nega
+Imatinib (8) (9) (10) c-Kit tyrosine kinase remme
+
+=== Outcome Extract 17 (Effect) ===
+Daarnaast is het ophogen van
+de voedselinname en het tegengaan van spier en vet " wasting" cruciaal. Hypercalorische voeding en
+agressieve voedingsmethoden leveren geen goed resultaat en worden niet aanbevolen (4) (5) (6). Voedings-,
+psychologische- en gedragstherapieën hebben aantoonbaar gunstige effect. Het is van belang een team van
+ondersteuners bij de behandeling van longkanker te betrekken, afhankelijk van de situatie per patiënt.
+Tabel - Medicatie bij anorexie cachexie
+medicamenten effect
+Kleincellig
+glucoco
+Progest
+cyprohe
+antisero
+medicat
+"Branch
+aminozu
+Prokinet
+eicosap
+(EPA)
+cannabi
+5'de
+
+=== Outcome Extract 18 (Effect) ===
+niet aanbevolen (4) (5) (6). Voedings-,
+psychologische- en gedragstherapieën hebben aantoonbaar gunstige effect. Het is van belang een team van
+ondersteuners bij de behandeling van longkanker te betrekken, afhankelijk van de situatie per patiënt.
+Tabel - Medicatie bij anorexie cachexie
+medicamenten effect
+Kleincellig
+glucoco
+Progest
+cyprohe
+antisero
+medicat
+"Branch
+aminozu
+Prokinet
+eicosap
+(EPA)
+cannabi
+5'deoxy
+melaton
+Thalidom
+restgroe
+Verantw
+Laatst be
+Laatst ge
+PDF aange
+longcar
+orticos
+togen
+eptadi
+otoner
+tie
+hed" c
+uren
+tica
+pentan
+is
+y-5-flu
+nine
+mide
+ep
+woord
+eoord
+eauto
+emaakt
+rcinoom
+steroi
+
+=== Outcome Extract 19 (Effect) ===
+(EPA)
+cannabi
+5'deoxy
+melaton
+Thalidom
+restgroe
+Verantw
+Laatst be
+Laatst ge
+PDF aange
+longcar
+orticos
+togen
+eptadi
+otoner
+tie
+hed" c
+uren
+tica
+pentan
+is
+y-5-flu
+nine
+mide
+ep
+woord
+eoord
+eauto
+emaakt
+rcinoom
+steroiden Wel symptomatische verbetering op glucocorticoiden (7) (8) (9) (10), maar beperkt
+effect op eetlust, voedsel inname, PS en welbeleven (11) (12) (13). Een bewezen
+gunstig resultaat op toegenomen eetlust wordt gezien bij prednisolon 15mg dd po,
+dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon
+125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam
+
+=== Outcome Extract 20 (Effect) ===
+(9) (10), maar beperkt
+effect op eetlust, voedsel inname, PS en welbeleven (11) (12) (13). Een bewezen
+gunstig resultaat op toegenomen eetlust wordt gezien bij prednisolon 15mg dd po,
+dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon
+125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam.
+nen Megestrol (40mg 4dd tot totaal max 800mgdd) en Medroxy-progesteron acetaat
+(500mg 2dd) hebben een bewezen positief effect op eetlust, calorie inname,
+gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de
+kans op tromboembolische complicaties, (14)
+
+=== Outcome Extract 21 (Effect) ===
+ezien bij prednisolon 15mg dd po,
+dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon
+125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam.
+nen Megestrol (40mg 4dd tot totaal max 800mgdd) en Medroxy-progesteron acetaat
+(500mg 2dd) hebben een bewezen positief effect op eetlust, calorie inname,
+gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de
+kans op tromboembolische complicaties, (14) (11) (15) (16) (12) (17) (18) (19)
+ine e.a. Beperkt, maar gunstig effect gezien op de eetlust door deze middelen. Dit leverde
+rge geen afname van het
+
+=== Outcome Extract 22 (Effect) ===
+mgdd) en Medroxy-progesteron acetaat
+(500mg 2dd) hebben een bewezen positief effect op eetlust, calorie inname,
+gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de
+kans op tromboembolische complicaties, (14) (11) (15) (16) (12) (17) (18) (19)
+ine e.a. Beperkt, maar gunstig effect gezien op de eetlust door deze middelen. Dit leverde
+rge geen afname van het gewichtsverlies op (12) (13) (24) (25).
+chain Orale supplementen met hebben met succes de ernst van kanker anorexie kunnen
+reduceren (26).
+metoclopramide (10mg 3dd) heeft geeft enige verbetering van anorexie en het
+gevoel
+
+=== Outcome Extract 23 (Effect) ===
+-body mass en PS in oudere studies. B.v. visolie capsules
+(18% EPA en 12% docosahexaenoic acid), 12 dd po. (30) (31) (32) (33). Echter EPA
+is slechter dan andere medicatie (34) (35).
+Van Dronabinol (synthetische orale vorm van tetrahydrocannabinol) wordt in niet-
+gerandomiseerde studies een gunstig effect gezien op stemming en eetlust.
+Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+uorouridine effect onvoldoende onderzocht voor klinisch gebruik.
+20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoog
+
+=== Outcome Extract 24 (Effect) ===
+(30) (31) (32) (33). Echter EPA
+is slechter dan andere medicatie (34) (35).
+Van Dronabinol (synthetische orale vorm van tetrahydrocannabinol) wordt in niet-
+gerandomiseerde studies een gunstig effect gezien op stemming en eetlust.
+Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+uorouridine effect onvoldoende onderzocht voor klinisch gebruik.
+20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd
+welbevinden (36)
+B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na
+knieoperaties bl
+
+=== Outcome Extract 25 (Effect) ===
+.
+Van Dronabinol (synthetische orale vorm van tetrahydrocannabinol) wordt in niet-
+gerandomiseerde studies een gunstig effect gezien op stemming en eetlust.
+Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+uorouridine effect onvoldoende onderzocht voor klinisch gebruik.
+20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd
+welbevinden (36)
+B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na
+knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor
+indomethacin
+
+=== Outcome Extract 26 (Effect) ===
+ahydrocannabinol) wordt in niet-
+gerandomiseerde studies een gunstig effect gezien op stemming en eetlust.
+Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+uorouridine effect onvoldoende onderzocht voor klinisch gebruik.
+20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd
+welbevinden (36)
+B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na
+knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor
+indomethacine (2dd 50mg) is een bewezen gunstig effect op het
+
+=== Outcome Extract 27 (Effect) ===
+gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd
+welbevinden (36)
+B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na
+knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor
+indomethacine (2dd 50mg) is een bewezen gunstig effect op het stabiliseren van de
+PS en betere overleving. Pentoxifyllinen en hydazyne sulftaat werken niet.
+Nandrolon decanoate (anabool steroid) toont gunstig effect op gewichtsverlies bij
+longkanker. (38)
+ding
+deeld : 10-05-2011
+oriseerd : 10-05-2011
+op 23-01-2025 119/148
+Voor de volledige verantwoordi
+
+=== Outcome Extract 28 (Effect) ===
+ten, maar na
+knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor
+indomethacine (2dd 50mg) is een bewezen gunstig effect op het stabiliseren van de
+PS en betere overleving. Pentoxifyllinen en hydazyne sulftaat werken niet.
+Nandrolon decanoate (anabool steroid) toont gunstig effect op gewichtsverlies bij
+longkanker. (38)
+ding
+deeld : 10-05-2011
+oriseerd : 10-05-2011
+op 23-01-2025 119/148
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u
+Referenties
+Paraneoplastisch neurologische verschijnselen zijn kanker-gerelateerde syndrome
+
+=== Outcome Extract 29 (Effect) ===
+u (ANNA-1)
+neuronopathie
+ptor; ANNA, antineuronale nucleare antilichame
+1; nAChR, nicotinic acetylcholine receptor; PCA
+noma;VGCC, voltage-gated calcium channels; V
+he syndromen en hun respons op behandelin
+m Respons op Respons op com
+therapie tumortherapie
+Geen overtuigend Stabiliseert patiënt Spo
+effect in betere conditie zeld
+a2 sommige patiënten Kan verbeteren Par
+responderen spo
+Geen overtuigend Geen effect op Ind
+effect neurologische M.
+uitkomst spo
+Kan verbeteren Kan verbeteren
+Kan verbeteren Partieel Thi
+neurologisch clo
+herstel effe
+Kan verbeteren Kan verbeteren Res
+dia
+vig
+car
+spa
+nod
+Visu
+
+=== Outcome Extract 30 (Effect) ===
+eptor; PCA
+noma;VGCC, voltage-gated calcium channels; V
+he syndromen en hun respons op behandelin
+m Respons op Respons op com
+therapie tumortherapie
+Geen overtuigend Stabiliseert patiënt Spo
+effect in betere conditie zeld
+a2 sommige patiënten Kan verbeteren Par
+responderen spo
+Geen overtuigend Geen effect op Ind
+effect neurologische M.
+uitkomst spo
+Kan verbeteren Kan verbeteren
+Kan verbeteren Partieel Thi
+neurologisch clo
+herstel effe
+Kan verbeteren Kan verbeteren Res
+dia
+vig
+car
+spa
+nod
+Visus kan iets Geen overtuigend
+verbeteren effect
+Anecdotische visus Anecdotische visus
+verbetering verbetering
+A
+
+=== Outcome Extract 31 (Effect) ===
+a;VGCC, voltage-gated calcium channels; V
+he syndromen en hun respons op behandelin
+m Respons op Respons op com
+therapie tumortherapie
+Geen overtuigend Stabiliseert patiënt Spo
+effect in betere conditie zeld
+a2 sommige patiënten Kan verbeteren Par
+responderen spo
+Geen overtuigend Geen effect op Ind
+effect neurologische M.
+uitkomst spo
+Kan verbeteren Kan verbeteren
+Kan verbeteren Partieel Thi
+neurologisch clo
+herstel effe
+Kan verbeteren Kan verbeteren Res
+dia
+vig
+car
+spa
+nod
+Visus kan iets Geen overtuigend
+verbeteren effect
+Anecdotische visus Anecdotische visus
+verbetering verbetering
+Anecdotische vi
+
+=== Outcome Extract 32 (Effect) ===
+iënten Kan verbeteren Par
+responderen spo
+Geen overtuigend Geen effect op Ind
+effect neurologische M.
+uitkomst spo
+Kan verbeteren Kan verbeteren
+Kan verbeteren Partieel Thi
+neurologisch clo
+herstel effe
+Kan verbeteren Kan verbeteren Res
+dia
+vig
+car
+spa
+nod
+Visus kan iets Geen overtuigend
+verbeteren effect
+Anecdotische visus Anecdotische visus
+verbetering verbetering
+Anecdotische visus Anecdotische visus
+verbetering verbetering
+Geen overtuigend Stabiliseert de Beh
+effect, zelden patient in een neu
+partiele respons betere conditie tric
+en; mGluR1,
+A, Purkinje cytoplasmic
+VGKC, voltage-gated
+ng
+mmentaa
+
+=== Outcome Extract 33 (Effect) ===
+Thi
+neurologisch clo
+herstel effe
+Kan verbeteren Kan verbeteren Res
+dia
+vig
+car
+spa
+nod
+Visus kan iets Geen overtuigend
+verbeteren effect
+Anecdotische visus Anecdotische visus
+verbetering verbetering
+Anecdotische visus Anecdotische visus
+verbetering verbetering
+Geen overtuigend Stabiliseert de Beh
+effect, zelden patient in een neu
+partiele respons betere conditie tric
+en; mGluR1,
+A, Purkinje cytoplasmic
+VGKC, voltage-gated
+ng
+mmentaar
+ontane verbetering
+den beschreven
+rtiele verbetering kan
+ontaan voorkomen
+dien geassocieerd met
+Hodgkin kan het
+ontaan verbeteren
+iamine, baclofen en
+onazepam kunen
+e
+
+=== Outcome Extract 34 (Effect) ===
+zijn
+spondeert op baclofen,
+azepam, valproaat,
+gabatrine en
+rbamazepine; pijnlijke
+asmen kunnen opioiden
+dig maken
+handeling van
+urologische pijn met
+cyclische antidepressiva
+Chronisch MAG (IgM) Kan verbeteren
+sensorimotore
+neuropathie met
+M-proteine
+Chronisch Geen AL Geen overtuigend
+sensorimotore effect
+neuropathie met
+osteoscleroticsch
+myeloom
+Subacuut autonome Hu Geen overtuigend
+neuropathie effect
+Paraneoplastisch Hu Kan verbeteren
+perifere zenuw
+vasculitis
+Lambert-Eaton P/Q-type VGCC Reageert vaak
+myastheen
+syndroom (LEMS)
+Myasthenia gravis AChR Reageer vaak
+Neuromyotonie VGKC Kan verbeteren
+D
+
+=== Outcome Extract 35 (Effect) ===
+oiden
+dig maken
+handeling van
+urologische pijn met
+cyclische antidepressiva
+Chronisch MAG (IgM) Kan verbeteren
+sensorimotore
+neuropathie met
+M-proteine
+Chronisch Geen AL Geen overtuigend
+sensorimotore effect
+neuropathie met
+osteoscleroticsch
+myeloom
+Subacuut autonome Hu Geen overtuigend
+neuropathie effect
+Paraneoplastisch Hu Kan verbeteren
+perifere zenuw
+vasculitis
+Lambert-Eaton P/Q-type VGCC Reageert vaak
+myastheen
+syndroom (LEMS)
+Myasthenia gravis AChR Reageer vaak
+Neuromyotonie VGKC Kan verbeteren
+Dermatomyositis Mi-2 Respondeert
+meestal
+afkortingen: AChR, acetylcholine receptor; ANNA, antineuro
+
+=== Outcome Extract 36 (Effect) ===
+gische syndromen zijn schuingedr
+Tabel 10 "klassieke" paraneoplastische syndromen, klinie
+PNS en voorkomen kliniek diagno
+encephalomyelitis, limbische encefalitis en subacuut cerebe
+Kan verbeteren
+d Reageert vaak Radiotherapie,
+chemotherapie, en
+Chirurgie effectief
+d Geen overtuigend Symptomatische
+effect behandeling van
+orthostatische
+hypotension; neost
+bij pseudo-obstruc
+Kan verbeteren
+Reageert vaak 2,3 diaminopyridin
+cholinesterase inhi
+kunnen geprobeer
+worden (effect ond
+Reageert vaak Cholinesterase inh
+Niet bekend Antiepileptica
+(carbamazepine,
+phenytoin
+Kan verbeteren
+onale nucleare antilicham
+
+=== Outcome Extract 37 (Effect) ===
+acuut cerebe
+Kan verbeteren
+d Reageert vaak Radiotherapie,
+chemotherapie, en
+Chirurgie effectief
+d Geen overtuigend Symptomatische
+effect behandeling van
+orthostatische
+hypotension; neost
+bij pseudo-obstruc
+Kan verbeteren
+Reageert vaak 2,3 diaminopyridin
+cholinesterase inhi
+kunnen geprobeer
+worden (effect ond
+Reageert vaak Cholinesterase inh
+Niet bekend Antiepileptica
+(carbamazepine,
+phenytoin
+Kan verbeteren
+onale nucleare antilichamen; MAG, myelin
+mate receptor type 1; PCA, Purkinje cytop
+voltage-gated potassium channel.. *Klass
+rukt. [Beukelaar 2006]
+ek, diagnose en therapie
+ose therapie
+ellaire d
+
+=== Outcome Extract 38 (Effect) ===
+it zou aan de patient meegedeeld
+moeten worden als dit klinisch relevant lijkt.
+Vooralsnog wordt standaard bepaling van tumormerkers niet aanbevolen.
+ProGRP kan mogelijk behulpzaam zijn bij tumoren met onduidelijke histologie.
+Bepalen van tumormerkers zoals NSE en ProGRP kan overwogen worden om het effect van de therapie
+te evalueren.
+In principe wordt aanbevolen bij alle patiënten met longkanker een cytologische of histologische
+diagnose te verkrijgen, als er het klinische relevant is. Bij diagnostische twijfel aan de diagnose SCLC is
+immunohistochemie geïndiceerd.
+Alle patiënten met een SCLC diene
+
+=== Outcome Extract 39 (Effect) ===
+||||
+Row 12: Onderbouwing|||||||
+Row 13: |||||||
+Row 14: Conclusies|||||||
+Row 15: |||||||
+Row 16: Niveau 2|||||||
+Row 17: SCLC is één van de histologische types longkanker die sterk geassocieerd zijn met roken. In patiënten met roken-gerelateerde longkanker heeft continueren van roken een negatief effect op de overleving.|||||||
+Row 18: (22|) (|23|) (|24|) (|25|)
+Row 19: |||||||
+Row 20: Samenvatting literatuur|||||||
+Row 21: |||||||
+Row 22: Epidemiologie||||||| Row 1: Incidentiecijfers van de Nederlandse Kanker Registratie (registratie vanaf 1989) laten een totale incidentie van SCLC zien van 11,7/
+
+=== Outcome Extract 40 (Effect) ===
+. Het 15q24-25 gebied bevat de AChR genen, die coderen voor de subunits nAChR α3, α5 and β4, welke een rol spelen bij de verslaving aan nicotine (12) (13) (14).
+Row 9: Nicotine en een andere rook component (NNK) hebben een hogere affiniteit voor de AChR dan het fysiologische acetylcholine (15). Het effect is dat bronchus epitheel cellen, die ook AChR op het oppervlak hebben en SCLC cellijnen in vitro gestimuleerd worden tot proliferatie en minder anoikos (=apoptosis) (16) (17) (18) (19). Bovendien synthetiseren NSCLC and SCLC cellijnen acetylcholine en scheiden dit uit (20). Nicotine leidt tot een v
+
+=== Outcome Extract 41 (Effect) ===
+en minder anoikos (=apoptosis) (16) (17) (18) (19). Bovendien synthetiseren NSCLC and SCLC cellijnen acetylcholine en scheiden dit uit (20). Nicotine leidt tot een verhoging van acetylcholine productie en meer AChR op de cel membraan (21). Al deze veranderingen wijzen op een autocrien of paracrien effect, resulterend in endogene proliferatieve stimuli.
+Row 10: In patiënten met roken gerelateerde longkanker, heeft continueren van roken een negatief effect op de overleving (22) (23) (24) (25). Al met al is van het bestanddeel nicotine zelf niet duidelijk of dit DNA schade veroorzaakt, maar na initiat
+
+=== Outcome Extract 42 (Effect) ===
+idt tot een verhoging van acetylcholine productie en meer AChR op de cel membraan (21). Al deze veranderingen wijzen op een autocrien of paracrien effect, resulterend in endogene proliferatieve stimuli.
+Row 10: In patiënten met roken gerelateerde longkanker, heeft continueren van roken een negatief effect op de overleving (22) (23) (24) (25). Al met al is van het bestanddeel nicotine zelf niet duidelijk of dit DNA schade veroorzaakt, maar na initiatie van longkanker leidt dit wel tot progressie van tumor groei.
+Row 11: Bij het SCLC spelen alle ‘G-protein coupled' receptoren een rol (26). Bij het SCL
+
+=== Outcome Extract 43 (Effect) ===
+Row 12: Human Achaete/Scute Homolog (hASH1) expressie komt voor bij foetale ontwikkeling van longepitheel via een neuroendocriene weg en ook bij SCLC. hASH1 is een transcriptie factor die aan de E-box bindt. Dit is een DNA sequentie met de volgorde CACGTG. hASH1, L-myc en N-myc hebben bij SCLC een effect op de anti-
+Row 13: PDF aangemaakt op 23-01-2025 9/148
+Row 14: 
+Row 15:  Row 1: |
+Row 2: |
+Row 3: |
+Row 4: |
+Row 5: Kleincellig longcarcinoom|
+Row 6: tumor immuniteit. Major Histocompatibilty Class (MHC) II eiwitten worden geïnduceerd op niet-immuun competente cellen door interferon γ. The class II
+
+=== Outcome Extract 44 (Effect) ===
+|||||||
+Row 6: Wat is de plaats van laboratoriumonderzoek (tumormerkers zoals NSE en ProGRP) bij patiënten met, verdenking op, kleincellig longcarcinoom?|||||||
+Row 7: |||||||
+Row 8: Aanbeveling|||||||
+Row 9: |||||||
+Row 10: Bepalen van tumormerkers, zoals NSE en ProGRP, kan overwogen worden om het effect van de therapie te evalueren.|||||||
+Row 11: |||||||
+Row 12: Onderbouwing|||||||
+Row 13: |||||||
+Row 14: Conclusies|||||||
+Row 15: |||||||
+Row 16: Niveau 3|||||||
+Row 17: Tumormerkers zoals NSE en ProGRP kunnen enige waarde hebben in de follow-up van SCLC. Of dit radiologische follow-up kan vervang
+
+=== Outcome Extract 45 (Effect) ===
+en en eventuele aanverwante producten raadpleegt u de Richtlijnendatabase.
+Row 2: 
+Row 3: PDF aangemaakt op 23-01-2025 29/148 Row 1: Kleincellig longcarcinoom|
+Row 2: Kleincellig longcarcinoom - Alleen chirurgie|
+Row 3: |
+Row 4: Aanbeveling|
+Row 5: |
+Row 6: Er zijn geen goede studies die alléén het effect van chirurgie op de overleving bij de behandeling van SCLC beschrijven.|
+Row 7: |
+Row 8: Verantwoording|
+Row 9: |
+Row 10: Laatst beoordeeld|: 10-05-2011
+Row 11: Laatst geautoriseerd|: 10-05-2011 Row 1: Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt
+
+=== Outcome Extract 46 (Effect) ===
+en en eventuele aanverwante producten raadpleegt u de Richtlijnendatabase.
+Row 2: 
+Row 3: PDF aangemaakt op 23-01-2025 30/148 Row 1: Kleincellig longcarcinoom|
+Row 2: Kleincellig longcarcinoom - Alleen chirurgie|
+Row 3: |
+Row 4: Aanbeveling|
+Row 5: |
+Row 6: Er zijn geen goede studies die alléén het effect van chirurgie beschrijven.|
+Row 7: |
+Row 8: Verantwoording|
+Row 9: |
+Row 10: Laatst beoordeeld|: 10-05-2011
+Row 11: Laatst geautoriseerd|: 10-05-2011 Row 1: Voor de volledige verantwoording, evidence tabellen en eve Richtlijnendatabase.
+Row 2: 
+Row 3: PDF aangemaakt op 23-01-2025 Row 1: 
+Row 2: 
+Ro
+
+=== Outcome Extract 47 (Effect) ===
+is een gerandomiseerde studie uit, die liet zien dat carboplatin/etoposide even effectief is als cisplatin/etoposide (voornamelijk patiënten met SCLC-ED) (7). In de Japanse JCOG 9511 werd aangetoond dat cisplatin/irinotecan een betere overleving gaf dan cisplatin/etoposide.[Noda 2002] Dit positieve effect van irinotecan kon echter niet worden aangetoond in een studie met dezelfde opzet die werd uitgevoerd in Amerika, Australia en Canada (8). Andere cytostatica zoals topotecan, epirubicine, paclitaxel en ifosfamide tonen geen extra voordeel ten opzichte van etoposide, gecombineerd met cisplatin. Comb
+
+=== Outcome Extract 48 (Effect) ===
+aag||
+Row 5: ||
+Row 6: Wat is het eerste keuze chemoradiatieschema voor stadium I-III kleincellig longcarcinoom?||
+Row 7: ||
+Row 8: Aanbeveling||
+Row 9: ||
+Row 10: Geef chemotherapie zonder uitstel en dosisreductie aan patiënten die concurrente chemotherapie en radiotherapie krijgen om een optimaal effect van de behandeling te bereiken.||
+Row 11: ||
+Row 12: Geef patiënten in een goede algemene conditie (WHO-performancestatus 0 tot 1) en met een adequate orgaanfunctie concurrente chemotherapie en radiotherapie.||
+Row 13: ||
+Row 14: Begin de thoracale bestraling zo snel mogelijk na de start van de che
+
+=== Outcome Extract 49 (Effect) ===
+doch zonder toename van de incidentie van infecties van welke graad dan ook.||
+Row 14: ||Laag|||||||
+Row 15: |GRADE||||||||
+Row 16: |||||||||
+Row 17: |||||||Bronnen: (Faivre-Finn, 2017)||
+Row 18: |||||||||
+Row 19: Kwaliteit van leven|||||||||
+Row 20: |||||||Er zijn geen studies gevonden waarin het effect van conventionele radiotherapie concurrent met chemotherapie op de uitkomstmaat kwaliteit van leven is onderzocht bij patiënten met SCLC stadium I-III.||
+Row 21: |||-||||||
+Row 22: |GRADE||||||||
+Row 23: |||||||||
+Row 24: |||||||||
+Row 25: |||||||-||
+Row 26: |||||||||
+Row 27: Samenvatting literatuu
+
+=== Outcome Extract 50 (Effect) ===
+|||
+Row 23: |||||||||
+Row 24: |||||||||
+Row 25: |||||||-||
+Row 26: |||||||||
+Row 27: Samenvatting literatuur|||||||||
+Row 28: |||||||||
+Row 29: Beschrijving studies|||||||||
+Row 30: Er zijn twee systematische reviews (De Ruysscher, 2016; Lu, 2014) en een RCT (Faivre-Finn, 2017) geïncludeerd die het effect beschreven van verschillende chemoradiatieschema’s bij de behandeling van patiënten met een stadium I tot III kleincellig longcarcinoom.|||||||||
+Row 31: |||||||||
+Row 32: De Ruysscher (2016) onderzocht de juiste timing van hoge dosis thoracale radiotherapie met chemotherapie in een meta-analyse me
+
+=== Outcome Extract 51 (Effect) ===
+aus verlaagd gezien beperkingen in de onderzoeksopzet (risk of bias) en imprecisie.||||
+Row 18: ||||
+Row 19: Zoeken en selecteren||||
+Row 20: ||||
+Row 21: Om de uitgangsvraag te kunnen beantwoorden is er een systematische literatuuranalyse verricht naar de volgende zoekvraag:||||
+Row 22: Wat is het effect van conventionele radiotherapie (2 Gy eenmaal daags) concurrent (gelijktijdig) met chemotherapie op de uitkomstmaten overall survival, toxiciteit en kwaliteit van leven bij patiënten met stadium I tot III kleincellig longcarcinoom?||||
+Row 23: ||||
+Row 24: Relevante uitkomstmaten||||
+Row 25: ||||
+R
+
+=== Outcome Extract 52 (Effect) ===
+ficant verminderde t.o.v. geen PCI (relatief risico 0,84 [95%CI 0.73-0.97], p=0,01), met een absolute toename van de 3-jaars overleving met 5.4 % (2) (3). Er was een trend dat hogere bestralingsdoses mogelijk het risico op het ontwikkelen van hersenmetastasen verminderde, zonder echter een meetbaar effect op de overleving. Wel significant was een groter effect van PCI op de overleving wanneer PCI snel na het begin van de initiële behandeling werd gegeven. Zestig dagen of later na het einde van de initiële behandeling zijn hogere doses nodig om hetzelfde effect te bereiken.
+Row 6: Uit deze meta-analy
+
+=== Outcome Extract 53 (Effect) ===
+[95%CI 0.73-0.97], p=0,01), met een absolute toename van de 3-jaars overleving met 5.4 % (2) (3). Er was een trend dat hogere bestralingsdoses mogelijk het risico op het ontwikkelen van hersenmetastasen verminderde, zonder echter een meetbaar effect op de overleving. Wel significant was een groter effect van PCI op de overleving wanneer PCI snel na het begin van de initiële behandeling werd gegeven. Zestig dagen of later na het einde van de initiële behandeling zijn hogere doses nodig om hetzelfde effect te bereiken.
+Row 6: Uit deze meta-analyse kwam als eerste keus fractioneringschema 25 Gy in 10
+
+=== Outcome Extract 54 (Effect) ===
+verminderde, zonder echter een meetbaar effect op de overleving. Wel significant was een groter effect van PCI op de overleving wanneer PCI snel na het begin van de initiële behandeling werd gegeven. Zestig dagen of later na het einde van de initiële behandeling zijn hogere doses nodig om hetzelfde effect te bereiken.
+Row 6: Uit deze meta-analyse kwam als eerste keus fractioneringschema 25 Gy in 10 dagelijkse fracties naar voor. Een recente fase III studie van de EORTC, toonde geen overlevingswinst aan van een hogere dosis PCI (36 Gy in 18 fracties) vs. 25 Gy in 10 fracties (4). In al deze studies w
+
+=== Outcome Extract 55 (Effect) ===
+incidentie van febriele neutropenie significant afneemt wanneer in de 1e cyclus chemotherapie naast primaire profylaxe met antibiotica hematopoetische groeifactoren (G-CSF) wordt toegediend (4). Deze strategie is evenwel niet kosten-effectief (5). In dezelfde studiepopulatie werd bestudeerd wat het effect is van toevoeging van G-CSF aan antibiotica als secundaire profylaxe voor het voorkomen van febriele neutropenie. Toevoeging van ofwel gelijktidig toegediend G-CSF of sequentieel toegediend G-CSF bleek niet kosten-effectief in de Nederlandse verhoudingen (6).|
+Row 6: |
+Row 7: Verantwoording|
+Row 8:
+
+=== Outcome Extract 56 (Effect) ===
+w 18: Tenslotte werd in 2 studies met zowel LD als ED geïncludeerde patiënten geen voordeel aangetoond van de combinatie cisplatin-paclitaxel en cisplatin-epirubicine in vergelijking met de standaardarm cisplatin- etoposide (9) (10). Ook de toevoeging van paclitaxel aan cisplatin-etoposide had geen effect op overleving, maar resulteerde wel in een toename van het aantal toxische doden in de experimentele arm (11). Een studie met LD en ED patiënten toonde na 6 jaar follow-up een kleine overlevingswinst aan voor de combinatie taxol- carboplatin-etoposide vergeleken met de combinatie vincristine-carbop
+
+=== Outcome Extract 57 (Effect) ===
+ehandeling met orale Etoposide bij patiënten met extensive disease kleincellig longcarcinoom?
+Row 7: 
+Row 8: Aanbeveling
+Row 9: 
+Row 10: Etoposide per os (beschikbaar in 50mg en 100mg capsules) is een mogelijk alternatief voor intraveneuze toediening [Farmacotherapeutisch kompas 2010]. Het klinisch effect is volgens Miller equivalent (ref 70 uit review)Het wordt over het algemeen goed verdragen en is in de thuissetting in te nemen. Er is een belangrijk nadeel aan verbonden. De biologische beschikbaarheid is lager en erg variabel ten opzichte van iv toediening (1). Met de huidige hydrofiele capsules
+
+=== Outcome Extract 58 (Effect) ===
+Onderbouwing
+Row 13: 
+Row 14: Conclusies
+Row 15: 
+Row 16: Niveau 1 Row 1: (1|
+Row 2: |
+Row 3: Samenvatting literatuur|
+Row 4: |
+Row 5: Vanaf 2000 zijn er 4 gerandomiseerde fase III studies verricht naar onderhoudsbehandeling bij SCLC. Toevoeging van zowel marimastat (1) als thalidomide (2) had geen effect op de overleving. Hoewel toevoegen van 4 cycli topotecan na 4 cycli cisplatin-etoposide een verlenging van de progressievrije overleving liet zien werd dit niet vertaald in een verlenging van de overleving (3) (4). Hetzelfde werd gevonden voor een 3 maanden durende behandeling met orale etoposide b
+
+=== Outcome Extract 59 (Effect) ===
+alle patiënten met SCLC stadium IV wordt verricht, dan zal dit consequenties hebben voor de bezetting en beschikbaarheid van de MRI-scan in Nederland en gegevens over de kosteneffectiviteit van MRI-follow-up ontbreken.
+Row 8: 
+Row 9: Recent zijn de resultaten van een gerandomiseerde studie naar het effect van atezolizumab bij patiënten met een niet eerder behandeld SCLC stadium IV gepubliceerd (Horn 2018). Na een mediane follow-up van 13,9 maanden was de overleving significant langer voor patiënten behandeld met atezolizumab en chemotherapie ten opzichte van patiënten behandeld met chemotherapie en
+
+=== Outcome Extract 60 (Effect) ===
+t extrapoleren van de studieresultaten aangezien het hier om een Japanse studie gaat.||||
+Row 8: ||||
+Row 9: Zoeken en selecteren||||
+Row 10: ||||
+Row 11: Om de uitgangsvraag te kunnen beantwoorden is er een systematische literatuuranalyse verricht naar de volgende zoekvraag:||||
+Row 12: Wat is het effect van MRI-stadiëring en MRI-follow-up in vergelijking tot PCI bij patiënten met een stadium IV kleincellig longcarcinoom die een respons vertoonden op chemotherapie?||||
+Row 13: ||||
+Row 14: Relevante uitkomstmaten||||
+Row 15: De werkgroep achtte overall survival, toxiciteit, kwaliteit van leven, her
+
+=== Outcome Extract 61 (Effect) ===
+||
+Row 24: |GRADE|||||
+Row 25: |||||Bronnen: (Slotman, 2016)|
+Row 26: ||||||
+Row 27: Samenvatting literatuur||||||
+Row 28: ||||||
+Row 29: De RCTs van Slotman (2015a) en Jeremic (1999) en de systematische review van Palma (2016) worden hieronder per uitkomstmaat beschreven. In beide studies werd het effect van thoracale bestraling na chemotherapie bij patiënten met SCLC stadium IV onderzocht.||||||
+Row 30: ||||||
+Row 31: In de studie van Slotman (2015a) (CREST-studie) werden 495 patiënten met een respons na chemotherapie gerandomiseerd tussen alleen PCI en PCI met thoracale bestraling. Er werd, gelet
+
+=== Outcome Extract 62 (Effect) ===
+0 tot 15 fracties). Patiënten met pleurale en/of leptomeningeale metastasen werden geëxcludeerd. Alle patiënten kregen PCI. De meeste patiënten (90%) hadden een goede performance score (WHO 0-1).||||||
+Row 32: ||||||
+Row 33: Palma (2016) includeerde in een meta-analyse de studies die keken naar het effect van thoracale bestraling bij patiënten met ED-SCLC die platinumhoudende chemotherapie kregen. Naast de studie van Slotman (2015a) werd hierin ook een oudere studie met andere patiëntenselectie en behandeling meegenomen (Jeremic, 1999). In deze laatste studie werden 109 patiënten met ED-SCLC met een
+
+=== Outcome Extract 63 (Effect) ===
+et 1 niveau (startpunt: hoog) gezien beperkingen in de onderzoeksopzet (risk of bias).||||
+Row 7: ||||
+Row 8: Zoeken en selecteren||||
+Row 9: ||||
+Row 10: Om de uitgangsvraag te kunnen beantwoorden is er een systematische literatuuranalyse verricht naar de volgende zoekvraag:||||
+Row 11: Wat is het effect van thoracale bestraling na chemotherapie in vergelijking tot een afwachtend beleid bij volwassen patiënten met stadium IV kleincellig longcarcinoom?||||
+Row 12: ||||
+Row 13: Relevante uitkomstmaten||||
+Row 14: De werkgroep achtte overall survival, progressievrije overleving, toxiciteit en kwalitei
+
+=== Outcome Extract 64 (Effect) ===
+tting literatuur
+Row 3: 
+Row 4: Van oudsher heeft radiotherapie een belangrijke plaats in de palliatie van symptomen ten gevolge van lokale intrathoracale tumorgroei of afstandsmetastasen. SCLC is over het algemeen zeer stralengevoelig. Er zijn daarom geen redenen om aan te nemen dat het palliatief effect, zoals dat bij NSCLC is aangetoond, minder zou zijn bij SCLC. Door een eenmalige dosis van 8 Gy te geven op pijnlijke botmetastasen kunnen bijna 25% van de patiënten volledig pijnvrij worden en in nog eens 35% een partiële pijnvermindering optreden. Hemoptoë zal in 80% van de patiënten goed respond
+
+=== Outcome Extract 65 (Effect) ===
+is er in de dagelijkse praktijk sprake van gevorderde leeftijd, slechte performance staat, comorbiditeit, tumorgerelateerde symptomen en resterende problemen samenhangende met eerstelijns chemotherapie waardoor een verdere behandeling met chemotherapie niet meer mogelijk is. Hoewel factoren die het effect van tweedelijns chemotherapie voorspellen niet goed gedefinieerd zijn, wordt
+Row 7: PDF aangemaakt op 23-01-2025 86/148
+Row 8:  Row 1: |
+Row 2: |
+Row 3: |
+Row 4: |
+Row 5: Kleincellig longcarcinoom|
+Row 6: de responsduur op eerstelijns chemotherapie wel algemeen erkend als belangrijke predictieve fa
+
+=== Outcome Extract 66 (Effect) ===
+ellig longcarcinoom hebben, dienen een tweedelijns behandeling met chemotherapie aangeboden te krijgen.
+Row 11: 
+Row 12: Onderbouwing
+Row 13: 
+Row 14: Conclusies
+Row 15: 
+Row 16: Niveau 1 Row 1: 
+Row 2: Samenvatting literatuur
+Row 3: 
+Row 4: Twee gerandomiseerde studies werden gepubliceerd, die het effect onderzochten van tweedelijns chemotherapie versus BSC (1) (2). Bij een van deze studies werd eerst gerandomiseerd tussen 4 of 8 kuren eerstelijns chemotherapie bestaande uit cyclofosfamide-vincristine-etoposide. Vervolgens werd bij recidief gerandomiseerd tussen tweedelijns chemotherapie bestaande
+
+=== Outcome Extract 67 (Effect) ===
+Dit gold ook voor patiënten met een kort behandelvrij interval (minder dan 60 dagen). Daarnaast gaf topotecan een significante verbetering van een aantal symptomen (kortademigheid, moeheid en slaapstoornis) en vertraging van de achteruitgang van de kwaliteit van leven.
+Row 6: Opmerkelijk is dat dit effect op overleving werd bereikt ondanks een response rate van slechts 7%.
+Row 7: 
+Row 8: PDF aangemaakt op 23-01-2025 88/148 Row 1: Kleincellig longcarcinoom|
+Row 2: |
+Row 3: Verantwoording|
+Row 4: |
+Row 5: Laatst beoordeeld|: 10-05-2011
+Row 6: Laatst geautoriseerd|: 10-05-2011 Row 1: Voor de volledige
+
+=== Outcome Extract 68 (Effect) ===
+||
+Row 17: ||||
+Row 18: Samenvatting literatuur||||
+Row 19: ||||
+Row 20: Van deze categorie middelen zijn er enkele toegepast bij recidief SCLC in fase II studies (waaronder een EGFR tyrosine kinase remmer) (1) (2) (3) (4) (5) (6). Tot nu toe zijn er geen middelen waarvan aangetoond is, dat het een effect heeft op recidief SCLC. In tabel 4 zijn de beschikbare studies weergegeven.||||
+Row 21: ||||
+Row 22: Tabel 4. Targeted therapie bij de behandeling van recidief kleincellig longcarcinoom||||
+Row 23: middel||werking|fase van de trial|uitkomst
+Row 24: Zarnestra (7)||farnesyl transferase remmer|II|nega
+
+=== Outcome Extract 69 (Effect) ===
+) (4) (5) (6)||||
+Row 17: ||||
+Row 18: Samenvatting literatuur||||
+Row 19: ||||
+Row 20: Van deze categorie middelen zijn er enkele toegepast bij recidief SCLC in fase II studies (waaronder EGFR tyrosine kinase remmer) (1) (2) (3) (4) (5) (6). Tot nu toe zijn er geen middelen waarvan aangeto het een effect heeft op recidief SCLC. In tabel 4 zijn de beschikbare studies weergegeven.||||
+Row 21: ||||
+Row 22: Tabel 4. Targeted therapie bij de behandeling van recidief kleincellig longcarcinoom||||
+Row 23: middel||werking|fase van de trial|uitko
+Row 24: Zarnestra (7)||farnesyl transferase remmer|II|nega
+Ro
+
+=== Outcome Extract 70 (Effect) ===
+staties
+Row 3: 
+Row 4: Uitgangsvraag
+Row 5: 
+Row 6: zie voor de informatie over gastrointestinale manifestaties de literatuurbeschrijving
+Row 7: 
+Row 8: Onderbouwing
+Row 9: 
+Row 10: Samenvatting literatuur
+Row 11: 
+Row 12: Algemeen Row 1: Tabel - Medicatie bij anorexie cachexie|
+Row 2: medicamenten|effect
+Row 3: |
+Row 4: |
+Row 5: PDF aangemaakt op 23-01-2025 118/148|
+Row 6: |
+Row 7: | Row 1: ||
+Row 2: ||
+Row 3: ||
+Row 4: ||
+Row 5: Kleincellig longcarcinoom||
+Row 6: glucocorticosteroiden||Wel symptomatische verbetering op glucocorticoiden (7) (8) (9) (10), maar beperkt effect op eetlust, voedsel inna
+
+=== Outcome Extract 71 (Effect) ===
+xie|
+Row 2: medicamenten|effect
+Row 3: |
+Row 4: |
+Row 5: PDF aangemaakt op 23-01-2025 118/148|
+Row 6: |
+Row 7: | Row 1: ||
+Row 2: ||
+Row 3: ||
+Row 4: ||
+Row 5: Kleincellig longcarcinoom||
+Row 6: glucocorticosteroiden||Wel symptomatische verbetering op glucocorticoiden (7) (8) (9) (10), maar beperkt effect op eetlust, voedsel inname, PS en welbeleven (11) (12) (13). Een bewezen gunstig resultaat op toegenomen eetlust wordt gezien bij prednisolon 15mg dd po, dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon 125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam
+
+=== Outcome Extract 72 (Effect) ===
+(9) (10), maar beperkt effect op eetlust, voedsel inname, PS en welbeleven (11) (12) (13). Een bewezen gunstig resultaat op toegenomen eetlust wordt gezien bij prednisolon 15mg dd po, dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon 125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam.
+Row 7: ||
+Row 8: Progestogenen||Megestrol (40mg 4dd tot totaal max 800mgdd) en Medroxy-progesteron acetaat (500mg 2dd) hebben een bewezen positief effect op eetlust, calorie inname, gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de kans op tromboe
+
+=== Outcome Extract 73 (Effect) ===
+d po, dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon 125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam.
+Row 7: ||
+Row 8: Progestogenen||Megestrol (40mg 4dd tot totaal max 800mgdd) en Medroxy-progesteron acetaat (500mg 2dd) hebben een bewezen positief effect op eetlust, calorie inname, gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de kans op tromboembolische complicaties, (14) (11) (15) (16) (12) (17) (18) (19) (20) (21) (22) (19) (23).
+Row 9: ||
+Row 10: ||
+Row 11: cyproheptadine e.a. antiserotonerge medicatie||Beperkt, maa
+
+=== Outcome Extract 74 (Effect) ===
+t, calorie inname, gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de kans op tromboembolische complicaties, (14) (11) (15) (16) (12) (17) (18) (19) (20) (21) (22) (19) (23).
+Row 9: ||
+Row 10: ||
+Row 11: cyproheptadine e.a. antiserotonerge medicatie||Beperkt, maar gunstig effect gezien op de eetlust door deze middelen. Dit leverde geen afname van het gewichtsverlies op (12) (13) (24) (25).
+Row 12: ||
+Row 13: "Branched" chain aminozuren||Orale supplementen met hebben met succes de ernst van kanker anorexie kunnen reduceren (26).
+Row 14: Prokinetica||metoclopramide (10mg 3dd
+
+=== Outcome Extract 75 (Effect) ===
+udies. B.v. visolie capsules (18% EPA en 12% docosahexaenoic acid), 12 dd po. (30) (31) (32) (33). Echter EPA is slechter dan andere medicatie (34) (35).
+Row 17: ||
+Row 18: cannabis||Van Dronabinol (synthetische orale vorm van tetrahydrocannabinol) wordt in niet- gerandomiseerde studies een gunstig effect gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 19: ||
+Row 20: 5'deoxy-5-fluorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 21: melatonine||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 22: Thalidomide||gunstig ef
+
+=== Outcome Extract 76 (Effect) ===
+tie (34) (35).
+Row 17: ||
+Row 18: cannabis||Van Dronabinol (synthetische orale vorm van tetrahydrocannabinol) wordt in niet- gerandomiseerde studies een gunstig effect gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 19: ||
+Row 20: 5'deoxy-5-fluorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 21: melatonine||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 22: Thalidomide||gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 23: ||
+Row 24: restgroep||B2-agonisten: gee
+
+=== Outcome Extract 77 (Effect) ===
+ydrocannabinol) wordt in niet- gerandomiseerde studies een gunstig effect gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 19: ||
+Row 20: 5'deoxy-5-fluorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 21: melatonine||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 22: Thalidomide||gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 23: ||
+Row 24: restgroep||B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na knieoperaties bleek dat clenbuterol de
+
+=== Outcome Extract 78 (Effect) ===
+ct gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 19: ||
+Row 20: 5'deoxy-5-fluorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 21: melatonine||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 22: Thalidomide||gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 23: ||
+Row 24: restgroep||B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor indomethacine (2dd 50mg) is een
+
+=== Outcome Extract 79 (Effect) ===
+d, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 23: ||
+Row 24: restgroep||B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor indomethacine (2dd 50mg) is een bewezen gunstig effect op het stabiliseren van de PS en betere overleving. Pentoxifyllinen en hydazyne sulftaat werken niet. Nandrolon decanoate (anabool steroid) toont gunstig effect op gewichtsverlies bij longkanker. (38)
+Row 25: ||
+Row 26: ||
+Row 27: ||
+Row 28: ||
+Row 29: Verantwoording||
+Row 30: ||
+Row 31: Laatst beo
+
+=== Outcome Extract 80 (Effect) ===
+ten, maar na knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor indomethacine (2dd 50mg) is een bewezen gunstig effect op het stabiliseren van de PS en betere overleving. Pentoxifyllinen en hydazyne sulftaat werken niet. Nandrolon decanoate (anabool steroid) toont gunstig effect op gewichtsverlies bij longkanker. (38)
+Row 25: ||
+Row 26: ||
+Row 27: ||
+Row 28: ||
+Row 29: Verantwoording||
+Row 30: ||
+Row 31: Laatst beoordeeld|: 10-05-2011|
+Row 32: Laatst geautoriseerd|: 10-05-2011| Row 1: 9|) (|10 Row 1: PDF aangemaakt op 23-01-2025 119/148
+Row 2:  Row 1: Kleincellig
+Row 2: gl
+
+=== Outcome Extract 81 (Effect) ===
+Row 15: y-5-flu
+Row 16: nine
+Row 17: mide
+Row 18: 
+Row 19: ep
+Row 20: 
+Row 21: 
+Row 22: 
+Row 23: 
+Row 24: woord
+Row 25: 
+Row 26: eoord
+Row 27: eauto
+Row 28: 
+Row 29: emaakt
+Row 30:  Row 1: rcinoom||
+Row 2: steroiden||Wel symptomatische verbetering op glucocorticoiden (7) (8) (9) (10), maar beperkt effect op eetlust, voedsel inname, PS en welbeleven (11) (12) (13). Een bewezen gunstig resultaat op toegenomen eetlust wordt gezien bij prednisolon 15mg dd po, dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon 125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam
+
+=== Outcome Extract 82 (Effect) ===
+(9) (10), maar beperkt effect op eetlust, voedsel inname, PS en welbeleven (11) (12) (13). Een bewezen gunstig resultaat op toegenomen eetlust wordt gezien bij prednisolon 15mg dd po, dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon 125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam.
+Row 3: ||
+Row 4: nen||Megestrol (40mg 4dd tot totaal max 800mgdd) en Medroxy-progesteron acetaat (500mg 2dd) hebben een bewezen positief effect op eetlust, calorie inname, gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de kans op tromboembolische
+
+=== Outcome Extract 83 (Effect) ===
+lon 15mg dd po, dexamethason 3-6mg dd po of op de kwaliteit van het leven met methlprednisolon 125mg dd iv. Testperiode op klinisch effect van 1 week is raadzaam.
+Row 3: ||
+Row 4: nen||Megestrol (40mg 4dd tot totaal max 800mgdd) en Medroxy-progesteron acetaat (500mg 2dd) hebben een bewezen positief effect op eetlust, calorie inname, gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de kans op tromboembolische complicaties, (14) (11) (15) (16) (12) (17) (18) (19) (20) (21) (22) (19) (23).
+Row 5: ||
+Row 6: ||
+Row 7: ine e.a. rge||Beperkt, maar gunstig effect gezien op de eetlu
+
+=== Outcome Extract 84 (Effect) ===
+n bewezen positief effect op eetlust, calorie inname, gewichtstoename (vet), en welbevinden. Cave de bijwerkingen bv toename van de kans op tromboembolische complicaties, (14) (11) (15) (16) (12) (17) (18) (19) (20) (21) (22) (19) (23).
+Row 5: ||
+Row 6: ||
+Row 7: ine e.a. rge||Beperkt, maar gunstig effect gezien op de eetlust door deze middelen. Dit leverde geen afname van het gewichtsverlies op (12) (13) (24) (25).
+Row 8: ||
+Row 9: chain||Orale supplementen met hebben met succes de ernst van kanker anorexie kunnen reduceren (26).
+Row 10: ||metoclopramide (10mg 3dd) heeft geeft enige verbetering van
+
+=== Outcome Extract 85 (Effect) ===
+udere studies. B.v. visolie capsules (18% EPA en 12% docosahexaenoic acid), 12 dd po. (30) (31) (32) (33). Echter EPA is slechter dan andere medicatie (34) (35).
+Row 13: ||
+Row 14: ||Van Dronabinol (synthetische orale vorm van tetrahydrocannabinol) wordt in niet- gerandomiseerde studies een gunstig effect gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 15: ||
+Row 16: uorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 17: ||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 18: ||gunstig effect op slapeloosheid, rusteloosh
+
+=== Outcome Extract 86 (Effect) ===
+er dan andere medicatie (34) (35).
+Row 13: ||
+Row 14: ||Van Dronabinol (synthetische orale vorm van tetrahydrocannabinol) wordt in niet- gerandomiseerde studies een gunstig effect gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 15: ||
+Row 16: uorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 17: ||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 18: ||gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 19: ||
+Row 20: ||B2-agonisten: geen gecontroleerde studies bij k
+
+=== Outcome Extract 87 (Effect) ===
+orale vorm van tetrahydrocannabinol) wordt in niet- gerandomiseerde studies een gunstig effect gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 15: ||
+Row 16: uorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 17: ||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 18: ||gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 19: ||
+Row 20: ||B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na knieoperaties bleek dat clenbuterol de spierfunctie kan ver
+
+=== Outcome Extract 88 (Effect) ===
+miseerde studies een gunstig effect gezien op stemming en eetlust. Gewichtstoename in minder duidelijk. (14) (11) (15) (12)
+Row 15: ||
+Row 16: uorouridine||effect onvoldoende onderzocht voor klinisch gebruik.
+Row 17: ||20mgdd heeft gunstig effect laten zien op gewichtsverlies (12)
+Row 18: ||gunstig effect op slapeloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 19: ||
+Row 20: ||B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor indomethacine (2dd 50mg) is een bewezen g
+
+=== Outcome Extract 89 (Effect) ===
+peloosheid, rusteloosheid en misselijkheid, eetlust en verhoogd welbevinden (36)
+Row 19: ||
+Row 20: ||B2-agonisten: geen gecontroleerde studies bij kanker patiënten, maar na knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor indomethacine (2dd 50mg) is een bewezen gunstig effect op het stabiliseren van de PS en betere overleving. Pentoxifyllinen en hydazyne sulftaat werken niet. Nandrolon decanoate (anabool steroid) toont gunstig effect op gewichtsverlies bij longkanker. (38)
+Row 21: ||
+Row 22: ||
+Row 23: ||
+Row 24: ||
+Row 25: ding||
+Row 26: ||
+Row 27: deeld|: 10-05-2011|
+
+=== Outcome Extract 90 (Effect) ===
+ten, maar na knieoperaties bleek dat clenbuterol de spierfunctie kan verbeteren (37). Voor indomethacine (2dd 50mg) is een bewezen gunstig effect op het stabiliseren van de PS en betere overleving. Pentoxifyllinen en hydazyne sulftaat werken niet. Nandrolon decanoate (anabool steroid) toont gunstig effect op gewichtsverlies bij longkanker. (38)
+Row 21: ||
+Row 22: ||
+Row 23: ||
+Row 24: ||
+Row 25: ding||
+Row 26: ||
+Row 27: deeld|: 10-05-2011|
+Row 28: oriseerd|: 10-05-2011| Row 1: op 23-01-2025 119/148
+Row 2:  Row 1: 
+Row 2: 
+Row 3: Kleincellig longcarcinoom
+Row 4: Voor de volledige verantwoording, evi
+
+=== Outcome Extract 91 (Effect) ===
+KC, voltage-gated potassium channel [Beukelaar 2006]. Tabel 9 paraneoplastisch neurologische syndromen en hun respons op behandeling||||||||
+Row 7: Klinisch syndroom|||Auto-Antilichaam||Respons op||commentaar|
+Row 8: ||||||||
+Row 9: ||||||||
+Row 10: Encephalomyelitis|||Hu (ANNA-1)||Geen overtuigend effect|Stabiliseert patiënt in betere conditie|Spontane verbetering zelden beschreven|
+Row 11: ||||||||
+Row 12: Limbische encefalitis|||Hu (ANNA-1), Ma2||sommige patiënten responderen|Kan verbeteren|Partiele verbetering kan spontaan voorkomen|
+Row 13: ||||||||
+Row 14: Subacuut cerebellaire|||Yo (PCA-1)||G
+
+=== Outcome Extract 92 (Effect) ===
+tiënt in betere conditie|Spontane verbetering zelden beschreven|
+Row 11: ||||||||
+Row 12: Limbische encefalitis|||Hu (ANNA-1), Ma2||sommige patiënten responderen|Kan verbeteren|Partiele verbetering kan spontaan voorkomen|
+Row 13: ||||||||
+Row 14: Subacuut cerebellaire|||Yo (PCA-1)||Geen overtuigend effect|Geen effect op neurologische uitkomst|Indien geassocieerd met M. Hodgkin kan het spontaan verbeteren|
+Row 15: cerebellaire||||||||
+Row 16: degeneratie||||||||
+Row 17: |||Tr (PCA-Tr), mGluR1||Kan verbeteren|Kan verbeteren||
+Row 18: ||||||||
+Row 19: Opsoclonus- myoclonus|||Ri (ANNA-2)||Kan verbeteren
+
+=== Outcome Extract 93 (Effect) ===
+ere conditie|Spontane verbetering zelden beschreven|
+Row 11: ||||||||
+Row 12: Limbische encefalitis|||Hu (ANNA-1), Ma2||sommige patiënten responderen|Kan verbeteren|Partiele verbetering kan spontaan voorkomen|
+Row 13: ||||||||
+Row 14: Subacuut cerebellaire|||Yo (PCA-1)||Geen overtuigend effect|Geen effect op neurologische uitkomst|Indien geassocieerd met M. Hodgkin kan het spontaan verbeteren|
+Row 15: cerebellaire||||||||
+Row 16: degeneratie||||||||
+Row 17: |||Tr (PCA-Tr), mGluR1||Kan verbeteren|Kan verbeteren||
+Row 18: ||||||||
+Row 19: Opsoclonus- myoclonus|||Ri (ANNA-2)||Kan verbeteren|Partieel ne
+
+=== Outcome Extract 94 (Effect) ===
+sine||Kan verbeteren|Kan verbeteren|Respondeert op baclofen, diazepam, valproaat, vigabatrine en carbamazepine; pijnlijke spasmen kunnen opioiden nodig maken|
+Row 23: syndroom||||||||
+Row 24: ||||||||
+Row 25: Kanker geassocieerde retinopathie|||Recoverine||Visus kan iets verbeteren|Geen overtuigend effect||
+Row 26: ||||||||
+Row 27: ||||||||
+Row 28: Melanoom- geassocieerd|||Anti-bipolar cells||Anecdotische visus verbetering|Anecdotische visus verbetering||
+Row 29: ||||||||
+Row 30: retinopathie||||||||
+Row 31: Paraneoplastische n. opticus|||CV2/CRMP5||Anecdotische visus verbetering|Anecdotische visus
+
+=== Outcome Extract 95 (Effect) ===
+ring|Anecdotische visus verbetering||
+Row 29: ||||||||
+Row 30: retinopathie||||||||
+Row 31: Paraneoplastische n. opticus|||CV2/CRMP5||Anecdotische visus verbetering|Anecdotische visus verbetering||
+Row 32: ||||||||
+Row 33: neuropathie||||||||
+Row 34: Subacute sensore|||Hu (ANNA-1)||Geen overtuigend effect, zelden partiele respons|Stabiliseert de patient in een betere conditie|Behandeling van neurologische pijn met tricyclische antidepressiva|
+Row 35: neuronopathie||||||||
+Row 36: ||||||||
+Row 37: ||||||||
+Row 38: PDF aangemaakt op 23-01-2025 127/148||||||||
+Row 39: ||||||||
+Row 40: |||||||| Row 1: |
+
+=== Outcome Extract 96 (Effect) ===
+1: ||||
+Row 2: ||||
+Row 3: ptor; ANNA, antineuronale nucleare antilichame 1; nAChR, nicotinic acetylcholine receptor; PCA noma;VGCC, voltage-gated calcium channels; V||||
+Row 4: he syndromen en hun respons op behandelin||||
+Row 5: m||Respons op||com
+Row 6: ||||
+Row 7: ||||
+Row 8: ||Geen overtuigend effect|Stabiliseert patiënt in betere conditie|Spo zeld
+Row 9: ||||
+Row 10: a2||sommige patiënten responderen|Kan verbeteren|Par spo
+Row 11: ||||
+Row 12: ||Geen overtuigend effect|Geen effect op neurologische uitkomst|Ind M. spo
+Row 13: ||||
+Row 14: ||||
+Row 15: ||Kan verbeteren|Kan verbeteren|
+Row 16: ||
+
+=== Outcome Extract 97 (Effect) ===
+w 4: he syndromen en hun respons op behandelin||||
+Row 5: m||Respons op||com
+Row 6: ||||
+Row 7: ||||
+Row 8: ||Geen overtuigend effect|Stabiliseert patiënt in betere conditie|Spo zeld
+Row 9: ||||
+Row 10: a2||sommige patiënten responderen|Kan verbeteren|Par spo
+Row 11: ||||
+Row 12: ||Geen overtuigend effect|Geen effect op neurologische uitkomst|Ind M. spo
+Row 13: ||||
+Row 14: ||||
+Row 15: ||Kan verbeteren|Kan verbeteren|
+Row 16: ||||
+Row 17: ||Kan verbeteren|Partieel neurologisch herstel|Thi clo effe
+Row 18: ||||
+Row 19: ||Kan verbeteren|Kan verbeteren|Res dia vig car spa nod
+Row 20: ||||
+Row 21: ||Vi
+
+=== Outcome Extract 98 (Effect) ===
+romen en hun respons op behandelin||||
+Row 5: m||Respons op||com
+Row 6: ||||
+Row 7: ||||
+Row 8: ||Geen overtuigend effect|Stabiliseert patiënt in betere conditie|Spo zeld
+Row 9: ||||
+Row 10: a2||sommige patiënten responderen|Kan verbeteren|Par spo
+Row 11: ||||
+Row 12: ||Geen overtuigend effect|Geen effect op neurologische uitkomst|Ind M. spo
+Row 13: ||||
+Row 14: ||||
+Row 15: ||Kan verbeteren|Kan verbeteren|
+Row 16: ||||
+Row 17: ||Kan verbeteren|Partieel neurologisch herstel|Thi clo effe
+Row 18: ||||
+Row 19: ||Kan verbeteren|Kan verbeteren|Res dia vig car spa nod
+Row 20: ||||
+Row 21: ||Visus kan iets
+
+=== Outcome Extract 99 (Effect) ===
+d M. spo
+Row 13: ||||
+Row 14: ||||
+Row 15: ||Kan verbeteren|Kan verbeteren|
+Row 16: ||||
+Row 17: ||Kan verbeteren|Partieel neurologisch herstel|Thi clo effe
+Row 18: ||||
+Row 19: ||Kan verbeteren|Kan verbeteren|Res dia vig car spa nod
+Row 20: ||||
+Row 21: ||Visus kan iets verbeteren|Geen overtuigend effect|
+Row 22: ||||
+Row 23: ||||
+Row 24: ||Anecdotische visus verbetering|Anecdotische visus verbetering|
+Row 25: ||||
+Row 26: ||||
+Row 27: ||Anecdotische visus verbetering|Anecdotische visus verbetering|
+Row 28: ||||
+Row 29: ||||
+Row 30: ||Geen overtuigend effect, zelden partiele respons|Stabiliseert de
+
+=== Outcome Extract 100 (Effect) ===
+sus kan iets verbeteren|Geen overtuigend effect|
+Row 22: ||||
+Row 23: ||||
+Row 24: ||Anecdotische visus verbetering|Anecdotische visus verbetering|
+Row 25: ||||
+Row 26: ||||
+Row 27: ||Anecdotische visus verbetering|Anecdotische visus verbetering|
+Row 28: ||||
+Row 29: ||||
+Row 30: ||Geen overtuigend effect, zelden partiele respons|Stabiliseert de patient in een betere conditie|Beh neu tric
+Row 31: ||||
+Row 32: ||||
+Row 33: |||| Row 1: 
+Row 2: 
+Row 3: en; mGluR1, A, Purkinje cytoplasmic VGKC, voltage-gated ng
+Row 4: ng
+Row 5: mmentaar
+Row 6: 
+Row 7: 
+Row 8: ontane verbetering den beschreven
+Row 9: rti
+
+=== Outcome Extract 101 (Effect) ===
+27/148 Row 1: ||||||
+Row 2: ||||||
+Row 3: ||||||
+Row 4: ||||||
+Row 5: Kleincellig longcarcinoom||||||
+Row 6: Chronisch sensorimotore|MAG (IgM)|Kan verbeteren||Kan verbeteren||
+Row 7: ||||||
+Row 8: neuropathie met||||||
+Row 9: M-proteine||||||
+Row 10: Chronisch sensorimotore|Geen AL|Geen overtuigend effect||Reageert vaak|Radiotherapie, chemotherapie, en|
+Row 11: ||||||
+Row 12: neuropathie met|||||Chirurgie effectief|
+Row 13: osteoscleroticsch myeloom||||||
+Row 14: Subacuut autonome|Hu|Geen overtuigend effect||Geen overtuigend effect|Symptomatische behandeling van orthostatische hypotension; neostigmi
+
+=== Outcome Extract 102 (Effect) ===
+ie met||||||
+Row 9: M-proteine||||||
+Row 10: Chronisch sensorimotore|Geen AL|Geen overtuigend effect||Reageert vaak|Radiotherapie, chemotherapie, en|
+Row 11: ||||||
+Row 12: neuropathie met|||||Chirurgie effectief|
+Row 13: osteoscleroticsch myeloom||||||
+Row 14: Subacuut autonome|Hu|Geen overtuigend effect||Geen overtuigend effect|Symptomatische behandeling van orthostatische hypotension; neostigmine bij pseudo-obstructie|
+Row 15: neuropathie||||||
+Row 16: ||||||
+Row 17: Paraneoplastisch perifere zenuw vasculitis|Hu|Kan verbeteren||Kan verbeteren||
+Row 18: ||||||
+Row 19: Lambert-Eaton|P/Q-type VGCC|R
+
+=== Outcome Extract 103 (Effect) ===
+teine||||||
+Row 10: Chronisch sensorimotore|Geen AL|Geen overtuigend effect||Reageert vaak|Radiotherapie, chemotherapie, en|
+Row 11: ||||||
+Row 12: neuropathie met|||||Chirurgie effectief|
+Row 13: osteoscleroticsch myeloom||||||
+Row 14: Subacuut autonome|Hu|Geen overtuigend effect||Geen overtuigend effect|Symptomatische behandeling van orthostatische hypotension; neostigmine bij pseudo-obstructie|
+Row 15: neuropathie||||||
+Row 16: ||||||
+Row 17: Paraneoplastisch perifere zenuw vasculitis|Hu|Kan verbeteren||Kan verbeteren||
+Row 18: ||||||
+Row 19: Lambert-Eaton|P/Q-type VGCC|Reageert vaak||Reageert va
+
+=== Outcome Extract 104 (Effect) ===
+seudo-obstructie|
+Row 15: neuropathie||||||
+Row 16: ||||||
+Row 17: Paraneoplastisch perifere zenuw vasculitis|Hu|Kan verbeteren||Kan verbeteren||
+Row 18: ||||||
+Row 19: Lambert-Eaton|P/Q-type VGCC|Reageert vaak||Reageert vaak|2,3 diaminopyridine; cholinesterase inhibitoren kunnen geprobeerd worden (effect onduidelijk)|
+Row 20: myastheen||||||
+Row 21: syndroom (LEMS||||||
+Row 22: ||||||
+Row 23: Myasthenia gravis|AChR|Reageer vaak||Reageert vaak|Cholinesterase inhibitoren|
+Row 24: Neuromyotonie|VGKC|Kan verbeteren||Niet bekend|Antiepileptica (carbamazepine, phenytoin|
+Row 25: ||||||
+Row 26: Dermatomyo
+
+=== Outcome Extract 105 (Effect) ===
+33: ||||||
+Row 34: PDF aangemaakt op 23-01-2025 128/148||||||
+Row 35: ||||||
+Row 36: |||||| Row 1: Kleincellig longcarcinoom|||
+Row 2: Chronisch sensorimotore|MAG (IgM)|Kan verbeteren|
+Row 3: |||
+Row 4: neuropathie met|||
+Row 5: M-proteine|||
+Row 6: Chronisch sensorimotore|Geen AL|Geen overtuigend effect|
+Row 7: |||
+Row 8: neuropathie met|||
+Row 9: osteoscleroticsch myeloom|||
+Row 10: Subacuut autonome|Hu|Geen overtuigend effect|
+Row 11: neuropathie|||
+Row 12: |||
+Row 13: Paraneoplastisch perifere zenuw vasculitis|Hu|Kan verbeteren|
+Row 14: |||
+Row 15: Lambert-Eaton|P/Q-type VGCC|Reageert vaak|
+Row
+
+=== Outcome Extract 106 (Effect) ===
+|
+Row 2: Chronisch sensorimotore|MAG (IgM)|Kan verbeteren|
+Row 3: |||
+Row 4: neuropathie met|||
+Row 5: M-proteine|||
+Row 6: Chronisch sensorimotore|Geen AL|Geen overtuigend effect|
+Row 7: |||
+Row 8: neuropathie met|||
+Row 9: osteoscleroticsch myeloom|||
+Row 10: Subacuut autonome|Hu|Geen overtuigend effect|
+Row 11: neuropathie|||
+Row 12: |||
+Row 13: Paraneoplastisch perifere zenuw vasculitis|Hu|Kan verbeteren|
+Row 14: |||
+Row 15: Lambert-Eaton|P/Q-type VGCC|Reageert vaak|
+Row 16: myastheen|||
+Row 17: syndroom (LEMS|||
+Row 18: |||
+Row 19: Myasthenia gravis|AChR|Reageer vaak|
+Row 20: Neuromyotonie|VGKC
+
+=== Outcome Extract 107 (Effect) ===
+8: encephalomyelitis, limbische encefalitis en subacuut cerebe|||
+Row 29: |||
+Row 30: PDF aangemaakt op 23-01-2025||| Row 1: |||
+Row 2: |Kan verbeteren||
+Row 3: |||
+Row 4: d|Reageert vaak|Radiotherapie, chemotherapie, en|
+Row 5: |||
+Row 6: ||Chirurgie effectief|
+Row 7: |||
+Row 8: d|Geen overtuigend effect|Symptomatische behandeling van orthostatische hypotension; neost bij pseudo-obstruc|
+Row 9: |||
+Row 10: |Kan verbeteren||
+Row 11: |||
+Row 12: |Reageert vaak|2,3 diaminopyridin cholinesterase inhi kunnen geprobeer worden (effect ond|
+Row 13: |||
+Row 14: |Reageert vaak|Cholinesterase inh|
+Row 15: |Ni
+
+=== Outcome Extract 108 (Effect) ===
+|||
+Row 6: ||Chirurgie effectief|
+Row 7: |||
+Row 8: d|Geen overtuigend effect|Symptomatische behandeling van orthostatische hypotension; neost bij pseudo-obstruc|
+Row 9: |||
+Row 10: |Kan verbeteren||
+Row 11: |||
+Row 12: |Reageert vaak|2,3 diaminopyridin cholinesterase inhi kunnen geprobeer worden (effect ond|
+Row 13: |||
+Row 14: |Reageert vaak|Cholinesterase inh|
+Row 15: |Niet bekend|Antiepileptica (carbamazepine, phenytoin|
+Row 16: |||
+Row 17: |Kan verbeteren||
+Row 18: |||
+Row 19: onale nucleare antilichamen; MAG, myelin mate receptor type 1; PCA, Purkinje cytop voltage-gated potassium channel.. *
+
+=== Outcome Extract 109 (Effect) ===
+ld moeten worden als dit klinisch relevant lijkt.||
+Row 7: |Vooralsnog wordt standaard bepaling van tumormerkers niet aanbevolen.||
+Row 8: |ProGRP kan mogelijk behulpzaam zijn bij tumoren met onduidelijke histologie.||
+Row 9: |Bepalen van tumormerkers zoals NSE en ProGRP kan overwogen worden om het effect van de therapie te evalueren.||
+Row 10: |In principe wordt aanbevolen bij alle patiënten met longkanker een cytologische of histologische diagnose te verkrijgen, als er het klinische relevant is. Bij diagnostische twijfel aan de diagnose SCLC is immunohistochemie geïndiceerd.||
+Row 11: |Alle patiën
+
+=== Outcome Extract 110 (Effect) ===
+ld moeten worden als dit klinisch relevant lijkt.||
+Row 7: |Vooralsnog wordt standaard bepaling van tumormerkers niet aanbevolen.||
+Row 8: |ProGRP kan mogelijk behulpzaam zijn bij tumoren met onduidelijke histologie.||
+Row 9: |Bepalen van tumormerkers zoals NSE en ProGRP kan overwogen worden om het effect van de therapie te evalueren.||
+Row 10: |In principe wordt aanbevolen bij alle patiënten met longkanker een cytologische of histologische diagnose te verkrijgen, als er het klinische relevant is. Bij diagnostische twijfel aan de diagnose SCLC is immunohistochemie geïndiceerd.||
+Row 11: |Alle patiën
+
+=== Outcome Extract 111 (Efficacy) ===
+geen rol
+en voor antistolling, steroiden
+etc. (2)
+n
+d maar wel effectief op de PNS
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Referenties
+1 - Pirker R, Ramlau RA, Schuette W, Zatloukal P, Ferreira I, Lillie T, Vansteenkiste JF. Safety and efficacy of darbepoetin alpha
+in previously untreated extensive-stage small-cell lung cancer treated with platinum plus etoposide. J Clin Oncol. 2008
+2 - Löwenberg B, Ossenkoppele G, Witte, T de. Handboek Hematologie Fig 39.1 p553 2008. ISBN 9789058981325
+3 - Wolf de, JTM en Eindhoven GB. Transfusiegeneesku
+
+=== Outcome Extract 112 (Safety) ===
+delen Er is geen rol
+en voor antistolling, steroiden
+etc. (2)
+n
+d maar wel effectief op de PNS
+Voor de volledige verantwoording, evidence tabellen en eventuele aanverwante producten raadpleegt u de
+Referenties
+1 - Pirker R, Ramlau RA, Schuette W, Zatloukal P, Ferreira I, Lillie T, Vansteenkiste JF. Safety and efficacy of darbepoetin alpha
+in previously untreated extensive-stage small-cell lung cancer treated with platinum plus etoposide. J Clin Oncol. 2008
+2 - Löwenberg B, Ossenkoppele G, Witte, T de. Handboek Hematologie Fig 39.1 p553 2008. ISBN 9789058981325
+3 - Wolf de, JTM en Eindhoven GB. Trans
+

@@ -1,0 +1,72 @@
+=== Outcome Extract 1 (Efficacy) ===
+otherapy plus standard chemotherapy
+be considered
+Platinum-based chemotherapy based on tumor histology:
+Platinum-based doublets (4, up to 6 cycles)
+Immunotherapy (atezolizumab or pembrolizumab) and carboplatin p
+paclitaxel or nab-placlitaxel)(#)
+Platinum-based doublet:
+Cisplatin/pemetrexed has more efficacy and less toxicity than cispla
+gemcitabine
+Bevacizumab added to a platinum doublet. if there are no contraindi
+tions
+Pemetrexed maintenance
+Immunotherapy (atezolizumab(#) or pembrolizumab) plus standard
+chemotherapy
+Comprehensive geriatric assessment is highly recommended
+Decision according to histo
+
+=== Outcome Extract 2 (Efficacy) ===
+] (I,B). Carboplatin can paclitaxel/carboplatin and less neurotoxicity (I,B) [45].
+be recommended if any contraindication for cisplatin • Recently, two randomized phase III trials have shown that
+exists. the addition of immunotherapy (atezolizumab or pem-
+• Non-platinum regimens have reported lower efficacy than brolizumab) to standard first-line chemotherapy (carbo-
+platinum regimens [36] (I,A). platin plus paclitaxel or nab-placlitaxel) in SCC, results
+• Recently, results from several phase III trials have shown in significantly longer PFS with atezolizumab (I,B) [38]
+a significant benefit in terms
+
+=== Outcome Extract 3 (Efficacy) ===
+an brolizumab) to standard first-line chemotherapy (carbo-
+platinum regimens [36] (I,A). platin plus paclitaxel or nab-placlitaxel) in SCC, results
+• Recently, results from several phase III trials have shown in significantly longer PFS with atezolizumab (I,B) [38]
+a significant benefit in terms of efficacy for the addition and OS and PFS with pembrolizumab (I,A) [40] than
+of immunotherapy to platinum-based chemotherapy chemotherapy alone, regardless of PD-L1 expression. It
+regardless of the PD-L1 status [37–41] (I,A-I,B). is important to underline that these combinations were
+• Cisplatin-based combin
+
+=== Outcome Extract 4 (Efficacy) ===
+on of a third-generation (TPS < 50%) or unknown PD-L1 [42] (I,A).
+cytotoxic agent (gemcitabine, vinorelbine, taxanes) are • Pemetrexed-based combination chemotherapy represents
+recommended (I,A). The different combinations have a therapeutic option. This regimen showed a slight but
+shown comparable efficacy [42]. significant survival benefit compared with gemcitabine
+• Four cycles are recommended, up to a maximum of six or docetaxel-based combinations (results coming from a
+cycles in selected cases [43, 44] (I,A).
+meta-analysis and a preplanned subgroup analysis of a particularly in those patients pro
+
+=== Outcome Extract 5 (Efficacy) ===
+be
+Patients clinically or radiologically progressing after first- used for PS 2 patients. In the first-line setting, platinum-
+line therapy, with a PS 0–1 and appropriate PS 2, should be based doublets (preferably carboplatin) have superior
+offered second-line treatment (I,A). Second-line treatment efficacy to monotherapy, despite higher toxicity rates
+should be individualized and treatment duration should be [62, 63] (II,A).
+subject to tolerability and clinical benefit. • Unfit patients with PS 3–4 should not receive active treat-
+ment regardless of age because no benefit has been dem-
+• In patients
+
+=== Outcome Extract 6 (Efficacy) ===
+the main mecha-
+patients have been reported. Although a benefit in terms nism of acquired resistance after first- or second-generation
+of PFS has been demonstrated for third-generation TKIs EGFR TKIs [76]. Osimertinib has demonstrated greater
+osimertinib (I,A) and dacomitinib (I,A) [66–68], to date efficacy over platinum-based chemotherapy (I,A) [77].
+only dacomitinib has shown a significant OS advantage • For patients with systemic symptomatic progression
+(I,A) [69]. However, grade 3–4 treatment-related adverse in whom T790 M cannot be detected or who have pro-
+events were significantly higher with d
+
+=== Outcome Extract 7 (Efficacy) ===
+open-label, multicentre phase 2 trial. Lancet Oncol. cell lung cancer: a phase 2 randomized clinical trial. JAMA Oncol.
+2016;17(7):984–93. 2018;4(1):e173501.
+93. Drilon A, Laetsch TW, Kummar S, DuBois SG, Lassen UN, Dem- 97. Ou SH, Janne PA, Bartlett CH, Tang Y, Kim DW, Otterson GA,
+etri GD, et al. Efficacy of larotrectinib in TRK fusion-positive can- et al. Clinical benefit of continuing ALK inhibition with crizotinib
+cers in adults and children. New Engl J Med. 2018;378(8):731–9. beyond initial disease progression in patients with advanced ALK-
+94. Juan O, Popat S. Ablative therapy for oligometastat
+

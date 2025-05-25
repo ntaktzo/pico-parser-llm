@@ -1,0 +1,189 @@
+# Top 30 ranked extracts from LG149_Polmone_agg2024_cleaned.json.cleaned_population.txt
+
+=== Ranked Extract 1 (#633, Patients) — Score: 12 ===
+study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician
+decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician
+decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150
+radiographic PD, 78 AEs, 16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 cli
+
+=== Ranked Extract 2 (#634, Patients) — Score: 12 ===
+lowing reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician
+decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician
+decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150
+radiographic PD, 78 AEs, 16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 clinical progression; 166 patients discontinued treatment in the CHT alone
+arm for the following re
+
+=== Ranked Extract 3 (#643, Patients) — Score: 12 ===
+all population and not according to PD-L1 tumour
+proportion score
+i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the P
+
+=== Ranked Extract 4 (#645, Patients) — Score: 12 ===
+study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs,
+16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 cli
+
+=== Ranked Extract 5 (#646, Patients) — Score: 12 ===
+lowing reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs,
+16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 clinical progression; 166 patients
+discontinued treatment in the CHT alone arm for the following re
+
+=== Ranked Extract 6 (#653, Patients) — Score: 12 ===
+all population and not according to PD-L1 tumour
+proportion score
+i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the P
+
+=== Ranked Extract 7 (#655, Patients) — Score: 12 ===
+study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs,
+16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 cli
+
+=== Ranked Extract 8 (#656, Patients) — Score: 12 ===
+lowing reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs,
+16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 clinical progression; 166 patients
+discontinued treatment in the CHT alone arm for the following re
+
+=== Ranked Extract 9 (#947, Patients) — Score: 12 ===
+all population and not according to PD-L1 tumour proportion score i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the P
+
+=== Ranked Extract 10 (#949, Patients) — Score: 12 ===
+study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs, 16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 cli
+
+=== Ranked Extract 11 (#950, Patients) — Score: 12 ===
+lowing reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs, 16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 clinical progression; 166 patients discontinued treatment in the CHT alone arm for the following re
+
+=== Ranked Extract 12 (#957, Patients) — Score: 12 ===
+all population and not according to PD-L1 tumour proportion score i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the P
+
+=== Ranked Extract 13 (#959, Patients) — Score: 12 ===
+study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs, 16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 cli
+
+=== Ranked Extract 14 (#960, Patients) — Score: 12 ===
+lowing reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiographic PD, 78 AEs, 16 patients withdrawal, 9 physician decision, 4 new anticancer therapy and 11 clinical progression; 166 patients discontinued treatment in the CHT alone arm for the following re
+
+=== Ranked Extract 15 (#630, Patients) — Score: 11 ===
+esults were showed in the overall population and not according to PD-L1 tumour proportion score
+i. We decided to downgrade the quality of the evidence by one level for imprecision because the 95% CI includes both negligible effect and appreciable benefit or appreciable harm
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician
+decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawa
+
+=== Ranked Extract 16 (#631, Patients) — Score: 11 ===
+rade the quality of the evidence by one level for imprecision because the 95% CI includes both negligible effect and appreciable benefit or appreciable harm
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician
+decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician
+decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the P
+
+=== Ranked Extract 17 (#632, Patients) — Score: 11 ===
+% CI includes both negligible effect and appreciable benefit or appreciable harm
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician
+decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician
+decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150
+radiograph
+
+=== Ranked Extract 18 (#642, Patients) — Score: 11 ===
+t and appreciable benefit or appreciable harm
+g. I2=53%
+h. In KEYNOTE 189 study safety results were showed in the overall population and not according to PD-L1 tumour
+proportion score
+i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawa
+
+=== Ranked Extract 19 (#644, Patients) — Score: 11 ===
+sk of performance and detection bias because KEYNOTE-021 was an open-label trial
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiograph
+
+=== Ranked Extract 20 (#652, Patients) — Score: 11 ===
+t and appreciable benefit or appreciable harm
+g. I2=53%
+h. In KEYNOTE 189 study safety results were showed in the overall population and not according to PD-L1 tumour
+proportion score
+i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawa
+
+=== Ranked Extract 21 (#654, Patients) — Score: 11 ===
+sk of performance and detection bias because KEYNOTE-021 was an open-label trial
+j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the
+following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43
+patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients
+withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued
+treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiograph
+
+=== Ranked Extract 22 (#946, Patients) — Score: 11 ===
+t and appreciable benefit or appreciable harm g. I2=53% h. In KEYNOTE 189 study safety results were showed in the overall population and not according to PD-L1 tumour proportion score i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawa
+
+=== Ranked Extract 23 (#948, Patients) — Score: 11 ===
+sk of performance and detection bias because KEYNOTE-021 was an open-label trial j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiograph
+
+=== Ranked Extract 24 (#956, Patients) — Score: 11 ===
+t and appreciable benefit or appreciable harm g. I2=53% h. In KEYNOTE 189 study safety results were showed in the overall population and not according to PD-L1 tumour proportion score i. High risk of performance and detection bias because KEYNOTE-021 was an open-label trial j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawa
+
+=== Ranked Extract 25 (#958, Patients) — Score: 11 ===
+sk of performance and detection bias because KEYNOTE-021 was an open-label trial j. KEYNOTE-021 study: 31 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 17 PD, 6 AEs, 4 patients withdrawal, 3 physician decision, 1 use of excluded medication. 43 patients discontinued treatment in the CHT alone arm for the following reasons: 31 PD, 6 AEs, 3 patients withdrawal, 2 physician decision, 1 use of excluded medication. KEYNOTE 189 study: 268 patients discontinued treatment in the Pembrolizumab combination treatment for the following reasons: 150 radiograph
+
+=== Ranked Extract 26 (#15, Population) — Score: 10 ===
+xclude the risk of selection bias due to the lack of information. Progression free survival/Objective response and duraion of response were assessed by means of blinded independent central review; patients-reported
+outcome had an high risk of performance bias
+b. Outcome data reported in the overall population
+c. Number of patients with a tumor response. The tumor response was assessed by an independent centralized review
+d. More than the 80% of patients in both arms completed the questionnaire. Data extracted from a ESMO 2017 communication (.ppt)
+e. A deterioration or an improvement is defined, accordin
+
+=== Ranked Extract 27 (#26, Population) — Score: 10 ===
+xclude the risk of selection bias due to the lack of information.
+Progression free survival/Objective response and duraion of response were assessed
+by means of blinded independent central review; patients-reported outcome had an
+high risk of performance bias
+b. Outcome data reported in the overall population
+c. Number of patients with a tumor response. The tumor response was assessed by an
+independent centralized review
+d. More than the 80% of patients in both arms completed the questionnaire. Data
+extracted from a ESMO 2017 communication (.ppt)
+e. A deterioration or an improvement is defined, accordin
+
+=== Ranked Extract 28 (#181, Population) — Score: 10 ===
+xclude the risk of selection bias due to the lack of information. Progression free survival/Objective response and duraion of response were assessed by means of blinded independent central review; patients-reported outcome had an high risk of performance bias b. Outcome data reported in the overall population c. Number of patients with a tumor response. The tumor response was assessed by an independent centralized review d. More than the 80% of patients in both arms completed the questionnaire. Data extracted from a ESMO 2017 communication (.ppt) e. A deterioration or an improvement is defined, accordin
+
+=== Ranked Extract 29 (#182, Population) — Score: 10 ===
+xclude the risk of selection bias due to the lack of information. Progression free survival/Objective response and duraion of response were assessed by means of blinded independent central review; patients-reported outcome had an high risk of performance bias b. Outcome data reported in the overall population c. Number of patients with a tumor response. The tumor response was assessed by an independent centralized review d. More than the 80% of patients in both arms completed the questionnaire. Data extracted from a ESMO 2017 communication (.ppt) e. A deterioration or an improvement is defined, accordin
+
+=== Ranked Extract 30 (#546, Patients) — Score: 10 ===
+Confidence interval; HR: Hazard Ratio; RR: Risk ratio; MD: Mean difference
+Explanations
+a. We cannot exclude the risk of selection bias due to the lack of information. Progression free survival/Objective response and duraion of response were assessed by means of blinded independent central review; patients-reported
+outcome had an high risk of performance bias
+b. Outcome data reported in the overall population
+c. Number of patients with a tumor response. The tumor response was assessed by an independent centralized review
+d. More than the 80% of patients in both arms completed the questionnaire. Data
+

@@ -1,0 +1,151 @@
+# Top 30 ranked extracts from lung_SE_cleaned.json.cleaned_population.txt
+
+=== Ranked Extract 1 (#9, Patients) — Score: 9 ===
+Cytisine vs Varenicline on Smoking
+Cessation: A Randomized Clinical Trial. Jama. 2021;326(1):56-64
+119. Din OS, Harden SV, Hudson E, Mohammed N, Pemberton LS, Lester
+JF, et al. Accelerated hypo-fractionated radiotherapy for non small cell
+lung cancer: results from 4 UK centres. Radiother Oncol.
+in patients with locally advanced non-small cell lung cancer (NSCLC): a
+meta-analysis of individual data from 1764 patients. Annals of
+oncology : official journal of the European Society for Medical
+Oncology / ESMO. 2006;17(3):473-83
+without bevacizumab in Japanese patients with advanced non-
+squamous non-smal
+
+=== Ranked Extract 2 (#10, Patients) — Score: 9 ===
+Harden SV, Hudson E, Mohammed N, Pemberton LS, Lester
+JF, et al. Accelerated hypo-fractionated radiotherapy for non small cell
+lung cancer: results from 4 UK centres. Radiother Oncol.
+in patients with locally advanced non-small cell lung cancer (NSCLC): a
+meta-analysis of individual data from 1764 patients. Annals of
+oncology : official journal of the European Society for Medical
+Oncology / ESMO. 2006;17(3):473-83
+without bevacizumab in Japanese patients with advanced non-
+squamous non-small-cell lung cancer. Lung cancer. 2012;76(3):362-7 Sammanfattning
+• Lungcancerföreningen är en ideell förening fö
+
+=== Ranked Extract 3 (#11, Patients) — Score: 9 ===
+om 4 UK centres. Radiother Oncol.
+in patients with locally advanced non-small cell lung cancer (NSCLC): a
+meta-analysis of individual data from 1764 patients. Annals of
+oncology : official journal of the European Society for Medical
+Oncology / ESMO. 2006;17(3):473-83
+without bevacizumab in Japanese patients with advanced non-
+squamous non-small-cell lung cancer. Lung cancer. 2012;76(3):362-7 Sammanfattning
+• Lungcancerföreningen är en ideell förening för patienter, närstående och
+andra som vill delta i arbetet för en förbättrad lungcancervård i Sverige.
+• Lungcancerföreningen arbetar på olika sätt med
+
+=== Ranked Extract 4 (#7, Patients) — Score: 4 ===
+er JA, Jatoi A, Garces YI, Busta AJ, et al. Effect
+of cigarette smoking on quality of life in small cell lung cancer patients.
+European journal of cancer. 2012;48(11):1593-601
+Bergman M, Fountoukidis G, Smith D, Ahlgren J, Lambe M, Valachis
+A. Effect of Smoking on Treatment Efficacy and Toxicity in Patients
+with Cancer: A Systematic Review and Meta-Analysis. Cancers (Basel).
+26. Rollnick S MWR, Butler C.C, . Motivational Interviewing in Health
+Care: Helping Patients Change Behavior Guilford press; 2008 Cited
+27. Cahill K, Stead LF, Lancaster T. Nicotine receptor partial agonists for
+smoking cessation.
+
+=== Ranked Extract 5 (#6, Patients) — Score: 3 ===
+e of smoking
+cessation after diagnosis of early stage lung cancer on prognosis:
+systematic review of observational studies with meta-analysis. BMJ.
+2010;340:b5569
+Chen J, Qi Y, Wampfler JA, Jatoi A, Garces YI, Busta AJ, et al. Effect
+of cigarette smoking on quality of life in small cell lung cancer patients.
+European journal of cancer. 2012;48(11):1593-601
+Bergman M, Fountoukidis G, Smith D, Ahlgren J, Lambe M, Valachis
+A. Effect of Smoking on Treatment Efficacy and Toxicity in Patients
+with Cancer: A Systematic Review and Meta-Analysis. Cancers (Basel).
+26. Rollnick S MWR, Butler C.C, . Motivational
+
+=== Ranked Extract 6 (#8, Patients) — Score: 3 ===
+(11):1593-601
+Bergman M, Fountoukidis G, Smith D, Ahlgren J, Lambe M, Valachis
+A. Effect of Smoking on Treatment Efficacy and Toxicity in Patients
+with Cancer: A Systematic Review and Meta-Analysis. Cancers (Basel).
+26. Rollnick S MWR, Butler C.C, . Motivational Interviewing in Health
+Care: Helping Patients Change Behavior Guilford press; 2008 Cited
+27. Cahill K, Stead LF, Lancaster T. Nicotine receptor partial agonists for
+smoking cessation. Cochrane Database Syst Rev. 2011(2):CD006103
+28. Courtney RJ, McRobbie H, Tutka P, Weaver NA, Petrie D,
+Mendelsohn CP, et al. Effect of Cytisine vs Varenicline o
+
+=== Ranked Extract 7 (#1, Population) — Score: 2 ===
+d nästan 500 %, och har passerat ventrikelcancer som
+vanligaste cancerrelaterade dödsorsaken. Antalet nya fall i urbaniserade
+områden var 2014 ca 450 000, motsvarande en incidens på 36,7 per 100 000
+REGIONALA CANCE
+Av Kinas gigant
+rökare och ca 54
+utveckling av lun
+Figur 2.4 Inciden
+ERCENTRUM
+tiska population på ca 1,3 miljarder invånare är 350 miljoner
+40 miljoner är passiva rökare. Dessa siffror pekar på en tragisk
+ngcancerförekomsten även under de följande 30 åren.
+ns och mortalitet i lungcancer per kön i EU 2022. • Den viktigaste orsaken till lungcancer är tobaksrökning som ensamt eller
+i kombinatio
+
+=== Ranked Extract 8 (#2, Population) — Score: 2 ===
+byggnader och installationer.
+Risken för lungcancer ökar påtagligt vid samtidig asbestexponering och
+tobaksrökning. Sambandet mellan dessa faktorer kan bäst beskrivas som
+multiplikativt. Om den relativa risken för lungcancer hos asbestexponerade
+individer är fördubblad jämfört med en icke-exponerad population (gäller
+historiska svenska förhållanden), och ca 15 gånger högre hos rökare jämfört
+med aldrig-rökare, är den relativa risken hos den som både röker och är
+asbestexponerad ungefär 30 gånger förhöjd. Asbestexponering ökar således
+risken för lungcancer, speciellt hos rökare, och bör alltid föranleda
+
+=== Ranked Extract 9 (#3, Population) — Score: 2 ===
+ancer (IASLC) har
+genomfört en workshop angående lungcancerscreening [40].
+Man fastslog att data från NLST är valida, men att betydande frågor kvarstår
+att belysa innan eventuell lungcancerscreening kan implementeras i stor skala
+internationellt. Sådana frågor handlar bl.a. om att
+• identifiera den population som har bäst nytta av screening
+• undersöka kostnadseffektivitet av DT-screening
+• harmonisera DT-screeningprotokoll avseende utförande och volumetrisk
+analys
+• definiera värdet av uppföljningstekniker, standardisera utförandet och
+definiera adekvat sekvens
+• definiera optimal kirurgi för screening
+
+=== Ranked Extract 10 (#4, Population) — Score: 2 ===
+om det passerat 20 år efter rökstopp men åtminstone 3
+kontroller skall erbjudas dessa personer vilket skall gälla även dem som fyllt 74
+år under screeningsprogrammet. Rökavvänjningsprogram skall erbjudas alla
+aktiva rökare. Man skall skapa screeningsbiobank för samling av blod/plasma
+från screenad population. Med utskick av enkäter till ca 3 miljoner individer i
+ålder 50–74 år och med estimerad svarsfrekvens på 30% samt beräknad
+uppfyllelse av screeningskriterier bland 12% skulle det innebära om ca 37 500
+screeningsomgångar per år nationellt.
+Socialstyrelsen ifrågasätter inte det vetenskapliga underlag
+
+=== Ranked Extract 11 (#5, Patients) — Score: 2 ===
+ing i ett palliativt team är att föredra vid
+behandling av avancerad sjukdom för att möjliggöra en specialiserad
+multidisciplinär symtomlindrande behandling och omhändertagande. Palliativ
+vård i livets slutskede syftar till att lindra allvarliga symtom som smärta, ångest,
+andnöd och agitation under patients sista tid. Läs mer i Nationellt vårdprogram
+palliativ vård. Det här kapitlet tar sin utgångspunkt i vad det kan innebära att drabbas av svår
+sjukdom som patient, detta i syfte att ge en förståelse för patienters
+psykosociala processer. Därefter fokuserar kapitlet på mötet mellan patient och
+sjukvår
+
+=== Ranked Extract 12 (#12, Adults) — Score: 2 ===
+i N, Shimazu T, Sasazuki S, Nozue M, Mutoh M, Sawada N, et al.
+Cruciferous Vegetable Intake Is Inversely Associated with Lung Cancer
+Risk among Current Nonsmoking Men in the Japan Public Health
+Center (JPHC) Study. J Nutr. 2017;147(5):841-9
+Centers for Disease C, Prevention. Cigarette smoking among adults--
+United States, 2006. MMWR Morb Mortal Wkly Rep.
+Garces YI, Yang P, Parkinson J, Zhao X, Wampfler JA, Ebbert JO, et
+al. The relationship between cigarette smoking and quality of life after
+lung cancer diagnosis. Chest. 2004;126(6):1733-41
+Parsons A, Daley A, Begh R, Aveyard P. Influence of smoking
+

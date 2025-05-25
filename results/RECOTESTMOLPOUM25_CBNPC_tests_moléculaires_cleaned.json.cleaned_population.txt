@@ -1,0 +1,2879 @@
+=== Population Extract 1 (Patients) ===
+TE JANVIE
+ACTUA ALISATION 2024 PA
+D’U NO
+CE
+/ Ind
+en vu
+de p
+ére
+AT
+’U O
+EL
+dic
+ue
+pré
+entie
+TIE
+UN
+ON
+ON
+LL
+catio
+e de
+écisi
+el de bonne
+ENTS
+N CAN
+NCH
+N À PE
+LULES
+ons des tes
+e la prescri
+ion
+es prat
+S AT
+NC
+HIQ
+ETI
+S
+ests m
+iption
+tiques
+ATTEINTS QUE
+ITES
+moléculaires
+n de traitements
+PATIENTS ATTEINTS D’UN CANCER BRONCHIQUE NON À PETITES CELLULES
+INDICATIONS DES TESTS MOLÉCULAIRES EN VUE DE LA PRESCRIPTION
+DE TRAITEMENTS DE PRÉCISION
+L’Institut national du cancer (INCa) est l’agence d’expertise sanitaire et scientifique en cancérologie chargée de coordonner la
+lutte contre les cancers e
+
+=== Population Extract 2 (Patients) ===
+e Recherche et Innovation Afin de prendre en considération les évolutions rapides du domaine, le document a été actualisé en 2024.
+Dans les conclusions, les modifications apportées par rapport à la version d’origine sont surlignées en turquoise (août 2024).
+Ce document doit être cité comme suit : © Patients atteints d’un cancer bronchique non à petites cellules / Indications des tests moléculaires en vue de la
+prescription de traitements de précision / Référentiel de bonnes pratiques, collection « Recommandations et référentiels », Institut national du cancer, ac-
+tualisation 2024 du document de janvi
+
+=== Population Extract 3 (Patients) ===
+.............................................................
+ARBRE DÉCISIONNEL : BIOMARQUEURS NÉCESSAIRES AU TRAITEMENT DES PATIENT
+DE CBNPC ..................................................................................................................
+BIOMARQUEURS NÉCESSAIRES AU TRAITEMENT DES PATIENTS ATTEINTS DE CBNPC
+AAP ET AAC ................................................................................................................
+A. AU STADE PRÉCOCE, TUMEURS RÉSÉCABLES (STADES IB À III) ..............................
+1. Pour un traitement néoadjuvant ..................................
+
+=== Population Extract 4 (Patients) ===
+CPC : cadre de prescription compassionnel
+EGFR : Epidermal Growth Factor Receptor
+EMA : Agence européenne du médicament
+ESCAT : ESMO Scale for Clinical Actionability o
+molecular Targets
+ESMO : European Society for Medical Oncolog
+FISH : hybridation fluorescente in situ
+HAS : Haute Autorité de santé
+Patients atteints d’un cancer bronchique non à petites cellu
+HER2/ERBB2 : Erb-B2 Receptor Tyrosine
+Kinase 2
+IFCT : Intergroupe francophone de
+cancérologie thoracique
+IHC : Immunohistochimie
+ITK : inhibiteur de tyrosine kinase
+KRAS : KRAS Proto-Oncogene, GTPase
+MET : MET Proto-Oncogene, Receptor Tyr
+Kinase
+N
+
+=== Population Extract 5 (Patients) ===
+nes minimales à analyser dans le cadre d'un usage à visée diagnostique du NGS (février 2016), disponible
+au téléchargement sur cancer.fr
+C’est pourquoi le choix de la stratégie des tests à effectuer doit prendre en compte les enjeux
+suivants :
+• rechercher l’ensemble des biomarqueurs permettant aux patients d’avoir accès aux
+traitements dont ils pourraient bénéficier, y compris dans le cadre d’essais cliniques, afin de
+ne pas entraîner de perte de chance ;
+• gérer la quantité de tissu tumoral existante pour pouvoir effectuer l’ensemble des tests
+nécessaires à la décision thérapeutique et/ou prévoir de
+
+=== Population Extract 6 (Patients) ===
+té de tissu tumoral existante pour pouvoir effectuer l’ensemble des tests
+nécessaires à la décision thérapeutique et/ou prévoir des biopsies liquides ;
+• veiller à ce que l’ensemble des tests moléculaires nécessaires soient effectués dans des délais
+compatibles avec le démarrage des traitements des patients ;
+• veiller à la qualité des tests moléculaires effectués en tenant compte de la performance des
+techniques utilisées.
+Ce document présente les conclusions du groupe d’experts sur la stratégie de tests à mettre en
+place chez les patients atteints de CBNPC pour une stratégie de soin optimale à tous
+
+=== Population Extract 7 (Patients) ===
+des délais
+compatibles avec le démarrage des traitements des patients ;
+• veiller à la qualité des tests moléculaires effectués en tenant compte de la performance des
+techniques utilisées.
+Ce document présente les conclusions du groupe d’experts sur la stratégie de tests à mettre en
+place chez les patients atteints de CBNPC pour une stratégie de soin optimale à tous les stades de
+la maladie (considérant les données disponibles au jour de la rédaction du document). Il s’adresse
+à tous les prescripteurs de tests moléculaires pour guider le choix des tests à réaliser pour leurs
+patients (ex. : oncologue
+
+=== Population Extract 8 (Patients) ===
+n
+place chez les patients atteints de CBNPC pour une stratégie de soin optimale à tous les stades de
+la maladie (considérant les données disponibles au jour de la rédaction du document). Il s’adresse
+à tous les prescripteurs de tests moléculaires pour guider le choix des tests à réaliser pour leurs
+patients (ex. : oncologue, pneumologue ou autre clinicien) et aux praticiens qui réalisent ces tests
+(anatomopathologistes et biologistes).
+Attention, le but de ce document est de recommander les tests à réaliser et non pas les traitements
+à administrer. Des traitements sont évoqués pour expliquer l’intérêt
+
+=== Population Extract 9 (Patients) ===
+aticiens qui réalisent ces tests
+(anatomopathologistes et biologistes).
+Attention, le but de ce document est de recommander les tests à réaliser et non pas les traitements
+à administrer. Des traitements sont évoqués pour expliquer l’intérêt des tests, mais la liste des
+choix thérapeutiques pour les patients n’est pas exhaustive. De plus, les accès aux molécules
+évoluent très rapidement et nécessitent un suivi en temps réel par le praticien impliqué.
+Ce document ne contient pas non plus de recommandations sur la façon de réaliser les tests, mais
+uniquement les techniques à utiliser quand il en existe p
+
+=== Population Extract 10 (Patients) ===
+moléculaire.
+Ces recommandations de tests à réaliser sont à discuter en réunion de concertation
+pluridisciplinaire (RCP) et/ou en staff moléculaire, suivant l’organisation locale, en fonction
+notamment de l’accès possible à des essais cliniques. La réalisation de tests pour permettre
+d’inclure les patients dans des essais cliniques est recommandée.
+Sauf mention contraire, ces recommandations de tests concernent les patients atteints de CBNPC,
+en dehors des carcinomes épidermoïdes du patient fumeur. Afin de prendre en considération les évolutions rapides du domaine, des mises à jour ont été faites
+en
+
+=== Population Extract 11 (Patients) ===
+) et/ou en staff moléculaire, suivant l’organisation locale, en fonction
+notamment de l’accès possible à des essais cliniques. La réalisation de tests pour permettre
+d’inclure les patients dans des essais cliniques est recommandée.
+Sauf mention contraire, ces recommandations de tests concernent les patients atteints de CBNPC,
+en dehors des carcinomes épidermoïdes du patient fumeur. Afin de prendre en considération les évolutions rapides du domaine, des mises à jour ont été faites
+en 2024. Ainsi il a été ajouté ou modifié dans le document les éléments listés ci-dessous :
+• la recherche des statuts PD-L
+
+=== Population Extract 12 (Patients) ===
+ne version des recommandations.
+Dans les conclusions, les modifications apportées par rapport à la version d’origine sont surlignées
+en turquoise (août 2024).
+ARBRE DÉCISIONNEL : BIOMARQUEURS NÉCESSAIRES AU TRAI
+ITEME
+ENT DES PATIEN
+NTS ATTEIN
+NTS DE CBNPC
+BIOMARQUEURS NÉCESSAIRES
+AU TRAITEMENT DES PATIENTS ATTEINTS
+DE CBNPC SELON LES AMM, AAP ET AAC Pour un CBNPC non métastatique d’emblée résécable (stades IIA ≥ 4 cm à IIIB — 8e TNM), exprimant
+PD-L1 au seuil ≥ 1 % et en l’absence de mutation activatrice de l’EGFR et de fusion d’ALK, il est
+possible de traiter le patient en néoadjuvant avec du nivolu
+
+=== Population Extract 13 (Patients) ===
+s de platine (AMM, AAP). Il faut donc rechercher ces biomarqueurs dès
+la biopsie préopératoire. Si les statuts PD-L1, EGFR et ALK n’ont pas déjà été déterminés sur la biopsie préopératoire pour la
+prescription du traitement néoadjuvant, il faudra réaliser les recherches suivantes :
+a. EGFR
+Pour les patients de stades IB à IIIA avec une tumeur complètement réséquée, la présence d’une
+mutation L858R ou d’une délétion de l’exon 19 d’EGFR permet un traitement adjuvant avec de
+l’osimertinib durant trois ans (AMM ; test recommandé par l’ESMO et le NCCN) après chimiothérapie
+adjuvante lorsque celle-ci est in
+
+=== Population Extract 14 (Patients) ===
+ns peut être réalisée indifféremment sur des biopsies préopératoires ou des
+pièces opératoires.
+b. PD-L1 et ALK
+La recherche du statut PD-L1 n’est pas indispensable. En effet, une AMM a été octroyée à
+l’atézolizumab en adjuvant, après résection complète et chimiothérapie à base de platine, pour les
+patients avec un risque élevé de récidive et une tumeur avec un TPS (tumor proportion score :
+pourcentage de cellules tumorales exprimant PD-L1 par rapport au nombre total de cellules
+tumorales viables) supérieur ou égal à 50 % dont le cancer n’est pas EGFR+ ou ALK+. Cette molécule
+n’est pas remboursée dans
+
+=== Population Extract 15 (Patients) ===
+par rapport au nombre total de cellules
+tumorales viables) supérieur ou égal à 50 % dont le cancer n’est pas EGFR+ ou ALK+. Cette molécule
+n’est pas remboursée dans cette indication. La recherche du statut ALK pourrait devenir nécessaire pour envisager un traitement adjuvant par
+alectinib pour les patients de stade II à IIIA (résultats intermédiaires de l’essai ALINA présentés à
+l’ESMO 20235). Une demande d’AMM a été déposée à l’EMA.
+4 Les données de survie globale de l’étude princeps ADAURA: Adjuvant Osimertinib for Resected EGFR-Mutated Stage IB-
+IIIA Non-Small-Cell Lung Cancer: Updated Results Fro
+
+=== Population Extract 16 (Patients) ===
+ized ADAURA Trial. Herbst RS, et al,. J Clin
+Oncol. 2023 Apr 1;41(10):1830-1840. doi: 10.1200/JCO.22.02186. Epub 2023 Jan 31. PMID: 36720083 t
+Pour un traitement néoadjuvant :
+Il faut rechercher les biomarqueurs PD-L1, ALK et EGFR dès la biopsie préopératoire.
+Pour un traitement adjuvant :
+Pour les patients de stades IB à III avec une tumeur complètement réséquée, une recherche des
+mutations activatrices fréquentes d’EGFR est indispensable (L858R et délétions de l’exon 19). Une
+recherche des statuts PD-L1 et ALK pourrait être indispensable dans le futur. Les résultats de ces
+analyses doivent être disp
+
+=== Population Extract 17 (Patients) ===
+emaines
+après la chirurgie s’il n’y a pas de chimiothérapie adjuvante. Au stade localement avancé, quelle que soit l’histologie (épidermoïde ou non épidermoïde), il faut
+évaluer le niveau d’expression de PD-L1 par les cellules tumorales (test recommandé par l’ESMO et
+le NCCN). En effet :
+• pour les patients non opérables, dont le TPS est supérieur ou égal à 1 % et dont la maladie n’a
+pas progressé après une chimioradiothérapie, le durvalumab est une option (AMM) ;
+• pour les patients adultes atteints d’un CBNPC localement avancé non opérable et dont la
+maladie n’a pas progressé après une chimioradioth
+
+=== Population Extract 18 (Patients) ===
+niveau d’expression de PD-L1 par les cellules tumorales (test recommandé par l’ESMO et
+le NCCN). En effet :
+• pour les patients non opérables, dont le TPS est supérieur ou égal à 1 % et dont la maladie n’a
+pas progressé après une chimioradiothérapie, le durvalumab est une option (AMM) ;
+• pour les patients adultes atteints d’un CBNPC localement avancé non opérable et dont la
+maladie n’a pas progressé après une chimioradiothérapie à base de platine, si le TPS est
+inférieur à 1 % ou si ce statut est recherché, mais que le résultat de ce marqueur n’est pas
+exploitable, le durvalumab est également une op
+
+=== Population Extract 19 (Patients) ===
+BNPC localement avancé non opérable et dont la
+maladie n’a pas progressé après une chimioradiothérapie à base de platine, si le TPS est
+inférieur à 1 % ou si ce statut est recherché, mais que le résultat de ce marqueur n’est pas
+exploitable, le durvalumab est également une option (AAC) ;
+• pour les patients avec un TPS supérieur ou égal à 1 % et ayant reçu au moins une
+chimiothérapie antérieure, le pembrolizumab est une option (AMM).
+Ces recherches doivent être faites par IHC. Les IHC doivent être réalisées selon les recommandations
+de la discipline anatomopathologique. La décision de traitement de co
+
+=== Population Extract 20 (Patients) ===
+chimioradiothérapie en cas
+d’addiction oncogénique, particulièrement de mutation de l’EGFR est discutée, sachant que la
+majorité des données ne montrent pas de bénéfice avec le durvalumab. Il est recommandé de
+rechercher les mutations, y compris rares, d’EGFR (exons 18, 19, 20 et 21) chez tous les patients afin
+d’éviter de prescrire une immunothérapie non efficace, longue et coûteuse (test recommandé par
+l’ESMO et le NCCN). Cette recherche peut être réalisée préférentiellement par NGS ou par test ciblé,
+suivant l’organisation locale.
+Les résultats de ces analyses doivent être disponibles avant la fin
+
+=== Population Extract 21 (Patients) ===
+ence. Le statut PD-L1 est à évaluer par IHC (test recommandé par l’ESMO, le NCCN et le NICE). Les IHC
+doivent être réalisées selon les recommandations de la discipline anatomopathologique. Cette
+recherche doit être faite pour tous les types histologiques (épidermoïdes et non épidermoïdes).
+Pour les patients dont le TPS est supérieur ou égal à 50 %, et en cas d’absence de mutation d’EGFR
+et de fusion impliquant le gène ALK, un traitement par pembrolizumab, atezolizumab ou cemiplimab
+(non remboursé) est possible en monothérapie (AMM).
+Le pembrolizumab est également accessible aux patients dont les tumeu
+
+=== Population Extract 22 (Patients) ===
+des).
+Pour les patients dont le TPS est supérieur ou égal à 50 %, et en cas d’absence de mutation d’EGFR
+et de fusion impliquant le gène ALK, un traitement par pembrolizumab, atezolizumab ou cemiplimab
+(non remboursé) est possible en monothérapie (AMM).
+Le pembrolizumab est également accessible aux patients dont les tumeurs expriment PD-L1 avec un
+TPS supérieur ou égal à 1 %, et ayant reçu au moins une chimiothérapie antérieure (AMM). La recherche de variants du gène EGFR permet d’envisager des traitements par ITK anti-EGFR en
+première ligne en monothérapie pour les patients atteints de CBNPC avec mut
+
+=== Population Extract 23 (Patients) ===
+t également accessible aux patients dont les tumeurs expriment PD-L1 avec un
+TPS supérieur ou égal à 1 %, et ayant reçu au moins une chimiothérapie antérieure (AMM). La recherche de variants du gène EGFR permet d’envisager des traitements par ITK anti-EGFR en
+première ligne en monothérapie pour les patients atteints de CBNPC avec mutations activatrices de
+l’EGFR. La prescription d’osimertinib est également possible en cas de mutation T790M de l’EGFR
+(AMM ; test recommandé par l’ESMO, le NCCN, CAP et NICE).
+Afin d’optimiser les délais, en cas de CBNPC métastatique de type non épidermoïde, l’organisatio
+
+=== Population Extract 24 (Patients) ===
+t très
+majoritairement mutuellement exclusives. La recherche de fusions impliquant ALK, ROS1 (tests recommandés par L’ESMO, le NCCN, CAP et
+NICE) et RET (tests recommandés par l’ESMO, le NCCN) doit être réalisée.
+La présence d’une fusion impliquant ROS1 permet la prescription de crizotinib pour les patients
+adultes ayant un CBNPC avancé (AMM) (remboursement en France à partir de la deuxième ligne de
+traitement).
+La présence d’une fusion impliquant RET permet un traitement par selpercatinib dès la première
+ligne de traitement (AMM avec avis favorable de la HAS pour le remboursement). Le pralsetinib a
+é
+
+=== Population Extract 25 (Patients) ===
+er les exons 18 à 21 codant le domaine tyrosine kinase. L’identification de mutations
+activatrices de l’EGFR sur les exons 18, 19 et 21 permet de prescrire des ITK anti-EGFR dans le cadre
+des AMM. Pour les insertions dans l’exon 20, l’association amivantamab-chimiothérapie a obtenu
+une AAP pour les patients non opérables et devrait obtenir prochainement une AMM (essai de
+phase III PAPILLON6).
+6 Amivantamab plus Chemotherapy in NSCLC with EGFR Exon 20 Insertions N Engl J Med. 2023 Nov 30;389(22):2039-
+Mutation d’EGFR (exons 18 à 21)
+Mutations de BRAF
+Mutations de KRAS
+Mutationsd’HER2/ERBB2 NGS ADN
+Ampl
+
+=== Population Extract 26 (Patients) ===
+ant RET
+NGS ARN
+Saut de l’exon 14 de MET
+Fusions impliquant NTRK1/2
+Fusions impliquant NRG1
+Amplification de HER2/ERBB2
+Altérations
+NGS ADN
+émergentes Mutations de TP53, STK11 et KEAP1
+à discuter
+Fusions de NRG1 NGS ARN
+En 2024, il n’est pas recommandé de déterminer la charge mutationnelle pour les patients atteints
+de CBNPC. Elle semble avoir une valeur prédictive et pronostique, mais sa connaissance ne changera
+pas le traitement du patient et la technique pour la mesurer ne fait pas encore consensus.
+Si la biopsie n’est pas possible, si le contenu en cellules tumorales est faible, et lorsque l’analy
+
+=== Population Extract 27 (Patients) ===
+ssible, si le contenu en cellules tumorales est faible, et lorsque l’analyse
+moléculaire est revenue non contributive ou encore en situation d’urgence thérapeutique, une
+recherche d’anomalies moléculaires sur biopsie liquide doit être réalisée.
+Aucun biomarqueur n’est recommandé durant le suivi des patients métastatiques, hors progression
+tumorale. En cas de progression de la maladie sous ITK, il faut rechercher les anomalies de résistance aux ITK
+pour pouvoir prescrire d’autres ITK de génération ultérieure ou des associations d’ITK. En fonction
+du médicament pour lequel il y a une résistance, il peut
+
+=== Population Extract 28 (Patients) ===
+génome pour rechercher des altérations émergentes peut être discutée en RCP et/ou
+staff moléculaire, suivant l’organisation locale.
+Remarque : début 2024, l’accès au séquençage du génome complet par le Plan France Médecine
+Génomique 202510 (plateformes SeqOIA11 et AURAGEN12) est disponible pour les patients avec un
+cancer avancé en échec thérapeutique de première ligne13, mais les critères suivants s’appliquent :
+• un patient avec un cancer avancé et avec matériel disponible (biopsie récente ou matériel
+congelé disponible dans un premier temps) ;
+• une espérance de vie d’au moins 6 mois (2 mois de dél
+
+=== Population Extract 29 (Patients) ===
+s for diagnosis, treatment and follow-up, published in 2017 – Ann Oncol (2017)
+28: iv1-iv21, updated in September 2021,
+o NCCN Clinical Practice Guidelines in Oncology Non-Small Cell Lung Cancer Version 5.2023
+—August 11th, 2023,
+o Recommendations for the use of next-generation sequencing (NGS) for patients with
+metastatic cancers: a report from the ESMO Precision Medicine Working Group – Ann
+Oncol 2020 Nov;31(11):1491-1505. doi: 10.1016/j.annonc.2020.07.014. Epub 2020
+Aug 24,
+o NICE guideline [NG122] Lung cancer: diagnosis and management Published date: March
+o Systemic Therapy for Stage IV Non–Small
+
+=== Population Extract 30 (Patients) ===
+on–Small-Cell Lung Cancer: American Society of Clinical
+Oncology Clinical Practice Guideline Update Nasser Hanna et al. Journal of Clinical
+Oncology 2017 35:30, 3484-3515
+• Les recommandations du College of American Pathologists (CAP) concernant les tests
+moléculaires devant être effectués pour les patients atteints de CBNPC : Kalemkerian GP et al.
+Molecular Testing Guideline for the Selection of Patients With Lung Cancer for Treatment With
+Targeted Tyrosine Kinase Inhibitors: American Society of Clinical Oncology Endorsement of the
+College of American Pathologists/International Association for the St
+
+=== Population Extract 31 (Patients) ===
+Nasser Hanna et al. Journal of Clinical
+Oncology 2017 35:30, 3484-3515
+• Les recommandations du College of American Pathologists (CAP) concernant les tests
+moléculaires devant être effectués pour les patients atteints de CBNPC : Kalemkerian GP et al.
+Molecular Testing Guideline for the Selection of Patients With Lung Cancer for Treatment With
+Targeted Tyrosine Kinase Inhibitors: American Society of Clinical Oncology Endorsement of the
+College of American Pathologists/International Association for the Study of Lung
+Cancer/Association for Molecular Pathology Clinical Practice Guideline Update. 2018 ;
+•
+
+=== Population Extract 32 (Patients) ===
+s’est réuni à quatre reprises (en novembre 2019, juillet 2020, février 2021
+et en juillet 2022) pour établir la liste des biomarqueurs indispensables ou émergents dans le cadre
+du traitement du CBNPC et définir la stratégie de réalisation des tests moléculaires permettant un
+traitement optimal des patients.
+Le document produit a été soumis à une relecture nationale (voir le paragraphe suivant).
+Une cinquième réunion, en octobre 2022 a permis la prise en considération des retours de la
+relecture nationale et l’actualisation des données. Le document élaboré par le groupe d’experts a été soumis à une re
+
+=== Population Extract 33 (Patients) ===
+24 afin de décider des sui
+étaient à modifier, les membres du groupe de rédacte
+avancées du domaine ont été discutées et les recomman
+en suivant jusqu’en août 2024 ont permis de valider le
+modifications du texte sont listées à la fin de l’introducti
+a pas eu lieu de refaire une relecture nationale.
+Patients atteints d’un cancer bronchique non à petites cellules : indicati P 8,37 91,8
+ableaux des AMM, AAC et AAP, et bilan des
+c le groupe de rédacteurs a eu lieu en
+ites à mener. Comme certaines conclusions
+eurs ont mis à jour leur DPI. Les nouvelles
+ndations mises à jour. Des échanges de mails
+es différ
+
+=== Population Extract 34 (Patients) ===
+s : indications des tests moléculaire
+vue de la prescription de traitements de précision
+Stras
+sbou
+d
+Ouest
+eine-
+TH, V
+es
+sbourg
+urg
+t, Saint-Herblain
+-Saint-Denis
+Villeurbanne Annexe 1. Biomar
+de pratique cliniq
+Indication
+CBNPC au stade précoce
+CBNPC au stade métastatiq
+25 | RÉFÉRENTIEL DE BONNE
+Patients atteints d’un can
+en vue de la prescription
+rqueur
+que po
+Biom
+Mut
+exon
+Mut
+Fusi
+Expr
+Mut
+Fusi
+Fusi
+que
+Mut
+Mut
+Expr
+Fusi
+Fusi
+ES PRATIQ
+ncer bronch
+de traitem
+rs figurant dans les recom
+our le CBNPC (22 avril 202
+marqueurs indispensables
+tation EGFR (délétion exon 19 ou mutati
+n 21)
+tation EGFR
+io
+
+=== Population Extract 35 (Patients) ===
+24
+CAP 2018 NCCN 2024
+NCCN 2024 NCCN 2024 NCCN 2024
+NCCN 2024 éculaires
+Mut
+CBNPC au stade métastatique Amp
+Mut
+Mut
+CBNPC après progression d’un
+traitement par thérapie ciblée
+Pan
+Indication Biom
+Fusi
+CBNPC au stade précoce
+Expr
+Amp
+CBNPC au stade métastatique
+Alté
+26 | RÉFÉRENTIEL DE BONNES PRATIQ
+Patients atteints d’un cancer bronch
+en vue de la prescription de traitem
+tation MET ex 14 skip
+plification de MET/surexpressi
+tation HER2 (ERBB2)
+tation EGFR T790 M
+nel génomique large
+marqueurs optionnels
+ion impliquant ALK
+ression de PD-L1 (tumeurs com
+plification de MET de haut nive
+érations de FGFR
+QUE
+
+=== Population Extract 36 (Patients) ===
+sion impliquant ROS1
+entrectinib
+repotrectinib
+larotrectinib
+Fusion impliquant
+NTRK1/2/3
+repotrectinib
+selpercatinib
+Fusion impliquant RET
+pralsetinib
+association dabrafenib
+Mutation V600 de BRAF
+trametinib
+sotorasib
+Mutation G12C de KRAS
+adagrasib
+Mutation activatrice
+trastuzumab déruxtéca
+de HER2
+Patients atteints d’un cancer bronchique non à petites c
+molécules pour les
+arqueur
+sations évoluent très rap
+Types d’autorisatio
+ab2, AMM, (nivolumab et
+durvalumab : AAP)
+AMM
+AMM
+AMM
+nib AAC arrêtées
+AMM, AAP
+AMM
+AMM
+AMM
+AMM, AAC
+AMM
+AMM, AAC
+AMM
+AMM
+et
+AMM
+AMM
+AAC
+an AMM
+cellules : indications des tests m
+
+=== Population Extract 37 (Patients) ===
+écrite par les experts, les mol
+disponibles en France.
+2 Le durvalumab dispose également d’une autoris
+est inconnu ou <1 %.
+3 Le ramucirumab est un anticorps monoclonal sp
+conditionnée à l’existence d’une mutation activat
+4 La demande d’AMM du mobocertinib a été retir
+renouvellements de traitement.
+Patients atteints d’un cancer bronchique non à petites c
+AAC Oui
+AMM Non
+AMM Non
+AAC Oui
+lécules pour lesquelles un « non » est présent ne sont pas
+sation d’accès compassionnel dans le cas où le statut PDL1
+pécifique du récepteur VEGF-2, mais son AMM est
+trice d’EGFR.
+rée par Takeda, l’AAC est arrêtée sauf
+
+=== Population Extract 38 (Patients) ===
+t
+dacomi
+29 | RÉFÉ
+Patien
+en vu
+xe 3. Libellé des AMM, autorisation d’accès précoces et compassionnels
+molécules pour lesquelles la prescription est guidée par le statut d’un
+arqueur dans le CBNPC (avril 2024)
+ules Libellé AMM
+ons d’EGFR
+Est indiqué en monothérapie dans les traitements suivants :
+- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou
+b métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;
+- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou
+métastatique, progressant sous ou après chimiothérapie à base de platine.
+
+=== Population Extract 39 (Patients) ===
+le statut d’un
+arqueur dans le CBNPC (avril 2024)
+ules Libellé AMM
+ons d’EGFR
+Est indiqué en monothérapie dans les traitements suivants :
+- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou
+b métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;
+- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou
+métastatique, progressant sous ou après chimiothérapie à base de platine.
+Est indiqué en :
+- première ligne de traitement des formes localement avancées ou métastatiques du
+CBNPC chez les patients présentant des mutations activatrices
+
+=== Population Extract 40 (Patients) ===
+ation(s) activatrice(s) de l’EGFR ;
+- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou
+métastatique, progressant sous ou après chimiothérapie à base de platine.
+Est indiqué en :
+- première ligne de traitement des formes localement avancées ou métastatiques du
+CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;
+- traitement de switch maintenance des formes localement avancées ou métastatiques
+du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une
+maladie stable après une première ligne de chimiothérapie ;
+- traitement des formes
+
+=== Population Extract 41 (Patients) ===
+érapie à base de platine.
+Est indiqué en :
+- première ligne de traitement des formes localement avancées ou métastatiques du
+CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;
+- traitement de switch maintenance des formes localement avancées ou métastatiques
+du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une
+maladie stable après une première ligne de chimiothérapie ;
+- traitement des formes localement avancées ou métastatiques du CBNPC après échec
+d’au moins une ligne de chimiothérapie. Chez les patients avec des tumeurs sans
+ib
+mutations activatr
+
+=== Population Extract 42 (Patients) ===
+avancées ou métastatiques
+du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une
+maladie stable après une première ligne de chimiothérapie ;
+- traitement des formes localement avancées ou métastatiques du CBNPC après échec
+d’au moins une ligne de chimiothérapie. Chez les patients avec des tumeurs sans
+ib
+mutations activatrices de l’EGFR, il est indiqué lorsque les autres options de traitement
+ne sont pas considérées appropriées.
+Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris
+en considération.
+Aucun bénéfice en survie ou autres effets
+
+=== Population Extract 43 (Patients) ===
+ndiqué lorsque les autres options de traitement
+ne sont pas considérées appropriées.
+Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris
+en considération.
+Aucun bénéfice en survie ou autres effets cliniquement significatifs du traitement n’a été
+démontré chez les patients dont l’expression de l’EGFR de la tumeur (déterminée par IHC)
+était négative.
+Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement
+ib
+avancé ou métastatique avec mutations activatrices de l’EGFR-TK.
+Est indiqué en monothérapie dans :
+- le traitement adjuvant après rés
+
+=== Population Extract 44 (Patients) ===
+de la tumeur (déterminée par IHC)
+était négative.
+Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement
+ib
+avancé ou métastatique avec mutations activatrices de l’EGFR-TK.
+Est indiqué en monothérapie dans :
+- le traitement adjuvant après résection tumorale complète des patients adultes atteints
+d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de
+l’exon 19 ou substitution de l’exon 21 (L858R) ;
+tinib
+- le traitement de première ligne des patients adultes atteints d’un CBNPC localement
+avancé ou métastatique avec mutations activatrices de l’E
+
+=== Population Extract 45 (Patients) ===
+st indiqué en monothérapie dans :
+- le traitement adjuvant après résection tumorale complète des patients adultes atteints
+d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de
+l’exon 19 ou substitution de l’exon 21 (L858R) ;
+tinib
+- le traitement de première ligne des patients adultes atteints d’un CBNPC localement
+avancé ou métastatique avec mutations activatrices de l’EGFR ;
+- le traitement des patients adultes atteints d’un CBNPC localement avancé ou
+métastatique, avec mutation EGFR T790M.
+Est indiqué en monothérapie pour le traitement de première intention des patien
+
+=== Population Extract 46 (Patients) ===
+PC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de
+l’exon 19 ou substitution de l’exon 21 (L858R) ;
+tinib
+- le traitement de première ligne des patients adultes atteints d’un CBNPC localement
+avancé ou métastatique avec mutations activatrices de l’EGFR ;
+- le traitement des patients adultes atteints d’un CBNPC localement avancé ou
+métastatique, avec mutation EGFR T790M.
+Est indiqué en monothérapie pour le traitement de première intention des patients
+itinib adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations
+activatrices d’EGFR.
+RENTIEL DE BONNES PRATI
+
+=== Population Extract 47 (Patients) ===
+tients adultes atteints d’un CBNPC localement
+avancé ou métastatique avec mutations activatrices de l’EGFR ;
+- le traitement des patients adultes atteints d’un CBNPC localement avancé ou
+métastatique, avec mutation EGFR T790M.
+Est indiqué en monothérapie pour le traitement de première intention des patients
+itinib adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations
+activatrices d’EGFR.
+RENTIEL DE BONNES PRATIQUES
+nts atteints d’un cancer bronchique non à petites cellules : indications des tests moléculaires
+ue de la prescription de traitements de précision
+ramucir
+amivan
+Fusio
+
+=== Population Extract 48 (Patients) ===
+aires
+ue de la prescription de traitements de précision
+ramucir
+amivan
+Fusion i
+crizotin
+ceritinib
+alectini
+brigatin
+lorlatin
+30 | RÉFÉ
+Patien
+en vu
+rumab
+ntama
+impliq
+nib
+b
+ib
+nib
+nib
+RENTIE
+nts atte
+ue de la
+Est indiqué :
+- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes
+atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations
+b activatrices de l’EGFR ;
+- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un
+cancer bronchique non à petites cellules localement avancé ou métastatique dont la
+maladie
+
+=== Population Extract 49 (Patients) ===
+NTIE
+nts atte
+ue de la
+Est indiqué :
+- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes
+atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations
+b activatrices de l’EGFR ;
+- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un
+cancer bronchique non à petites cellules localement avancé ou métastatique dont la
+maladie a progressé après une chimiothérapie à base de sels de platine.
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+ab avancé avec mutations activatri
+
+=== Population Extract 50 (Patients) ===
+R ;
+- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un
+cancer bronchique non à petites cellules localement avancé ou métastatique dont la
+maladie a progressé après une chimiothérapie à base de sels de platine.
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+ab avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec
+d’un traitement à base de sels de platine.
+quant ALK
+Est indiqué en monothérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et
+avancé ;
+- da
+
+=== Population Extract 51 (Patients) ===
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+ab avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec
+d’un traitement à base de sels de platine.
+quant ALK
+Est indiqué en monothérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et
+avancé ;
+- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur
+pour un CBNPC ALK-positif et avancé.
+Est indiqué en monothérapie :
+- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-
+positif chez les
+
+=== Population Extract 52 (Patients) ===
+n CBNPC
+ab avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec
+d’un traitement à base de sels de platine.
+quant ALK
+Est indiqué en monothérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et
+avancé ;
+- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur
+pour un CBNPC ALK-positif et avancé.
+Est indiqué en monothérapie :
+- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-
+positif chez les patients adultes ;
+- dans le traitement du CBNPC avancé avec réarrangement du gèn
+
+=== Population Extract 53 (Patients) ===
+adultes ayant un CBNPC ALK-positif et
+avancé ;
+- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur
+pour un CBNPC ALK-positif et avancé.
+Est indiqué en monothérapie :
+- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-
+positif chez les patients adultes ;
+- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez
+les patients adultes préalablement traités par crizotinib.
+Est indiqué en monothérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un
+réarrangement du gène ALK-positif
+
+=== Population Extract 54 (Patients) ===
+moins un traitement antérieur
+pour un CBNPC ALK-positif et avancé.
+Est indiqué en monothérapie :
+- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-
+positif chez les patients adultes ;
+- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez
+les patients adultes préalablement traités par crizotinib.
+Est indiqué en monothérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un
+réarrangement du gène ALK-positif ;
+- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes
+préalablement traités par c
+
+=== Population Extract 55 (Patients) ===
+itement du CBNPC avancé avec réarrangement du gène ALK-
+positif chez les patients adultes ;
+- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez
+les patients adultes préalablement traités par crizotinib.
+Est indiqué en monothérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un
+réarrangement du gène ALK-positif ;
+- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes
+préalablement traités par crizotinib.
+Est indiqué en monothérapie :
+- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un
+
+=== Population Extract 56 (Patients) ===
+gement du gène ALK-positif chez
+les patients adultes préalablement traités par crizotinib.
+Est indiqué en monothérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un
+réarrangement du gène ALK-positif ;
+- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes
+préalablement traités par crizotinib.
+Est indiqué en monothérapie :
+- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un
+réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur
+de tyrosine kinase ciblant la mutation ALK+ ;
+- pour le t
+
+=== Population Extract 57 (Patients) ===
+thérapie :
+- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un
+réarrangement du gène ALK-positif ;
+- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes
+préalablement traités par crizotinib.
+Est indiqué en monothérapie :
+- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un
+réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur
+de tyrosine kinase ciblant la mutation ALK+ ;
+- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et
+prétraités par crizotinib.
+Est indiqué
+
+=== Population Extract 58 (Patients) ===
+ablement traités par crizotinib.
+Est indiqué en monothérapie :
+- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un
+réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur
+de tyrosine kinase ciblant la mutation ALK+ ;
+- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et
+prétraités par crizotinib.
+Est indiqué en monothérapie :
+- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non
+préalablement traité par un inhibiteur de l’ALK ;
+- dans le traitement des patients adultes atteints d’un CBN
+
+=== Population Extract 59 (Patients) ===
+ant un
+réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur
+de tyrosine kinase ciblant la mutation ALK+ ;
+- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et
+prétraités par crizotinib.
+Est indiqué en monothérapie :
+- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non
+préalablement traité par un inhibiteur de l’ALK ;
+- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la
+maladie a progressé après :
+• alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosin
+
+=== Population Extract 60 (Patients) ===
+- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et
+prétraités par crizotinib.
+Est indiqué en monothérapie :
+- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non
+préalablement traité par un inhibiteur de l’ALK ;
+- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la
+maladie a progressé après :
+• alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosine
+kinase (ITK) ALK ; ou
+• crizotinib et au moins un autre ITK ALK.
+EL DE BONNES PRATIQUES
+eints d’un cancer bronchique non à petites ce
+
+=== Population Extract 61 (Patients) ===
+un inhibiteur de la tyrosine
+kinase (ITK) ALK ; ou
+• crizotinib et au moins un autre ITK ALK.
+EL DE BONNES PRATIQUES
+eints d’un cancer bronchique non à petites cellules : indications des tests moléculaires
+a prescription de traitements de précision Est indiqué en monothérapie dans le traitement des patients adultes ayant un CBNPC
+crizotinib
+ROS1- positif et avancé.
+Est indiqué en monothérapie chez les patients adultes atteints de formes avancées de
+entrectinib
+CBNPC positif pour ROS1 (ROS1+), non précédemment traités par des inhibiteurs de ROS1.
+Validation de la demande d’AMM pour repotrectinib dans l
+
+=== Population Extract 62 (Patients) ===
+S PRATIQUES
+eints d’un cancer bronchique non à petites cellules : indications des tests moléculaires
+a prescription de traitements de précision Est indiqué en monothérapie dans le traitement des patients adultes ayant un CBNPC
+crizotinib
+ROS1- positif et avancé.
+Est indiqué en monothérapie chez les patients adultes atteints de formes avancées de
+entrectinib
+CBNPC positif pour ROS1 (ROS1+), non précédemment traités par des inhibiteurs de ROS1.
+Validation de la demande d’AMM pour repotrectinib dans le traitement du cancer du
+poumon non à petites cellules localement avancé ou métastatique Ros1-Positif et
+
+=== Population Extract 63 (Patients) ===
+AMM pour repotrectinib dans le traitement du cancer du
+poumon non à petites cellules localement avancé ou métastatique Ros1-Positif et des
+Repotrectinib
+tumeurs solides Ntrk-Positives (dépêche du 02/01/2024, en attente de la publication par
+l’EMA). Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+selpercatinib avancé présentant une fusion du gène RET non précédemment traités par un inhibiteur
+de RET
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+pralsetinib avancé présentant une fusion positive de RET non précédemment trai
+
+=== Population Extract 64 (Patients) ===
+du 02/01/2024, en attente de la publication par
+l’EMA). Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+selpercatinib avancé présentant une fusion du gène RET non précédemment traités par un inhibiteur
+de RET
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+pralsetinib avancé présentant une fusion positive de RET non précédemment traités par un inhibiteur
+de RET. trametinib Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC
+et dabrafenib avancé porteur d’une mutation BRAF V600E. Est ind
+
+=== Population Extract 65 (Patients) ===
+demment traités par un inhibiteur
+de RET
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+pralsetinib avancé présentant une fusion positive de RET non précédemment traités par un inhibiteur
+de RET. trametinib Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC
+et dabrafenib avancé porteur d’une mutation BRAF V600E. Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+sotorasib avancé, présentant la mutation KRAS G12C, dont la maladie a progressé après au moins
+une ligne de traitement systémiq
+
+=== Population Extract 66 (Patients) ===
+ncé présentant une fusion positive de RET non précédemment traités par un inhibiteur
+de RET. trametinib Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC
+et dabrafenib avancé porteur d’une mutation BRAF V600E. Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+sotorasib avancé, présentant la mutation KRAS G12C, dont la maladie a progressé après au moins
+une ligne de traitement systémique antérieur.
+Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer
+adagrasib bronchique non à petites cellule
+
+=== Population Extract 67 (Patients) ===
+mutation BRAF V600E. Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+sotorasib avancé, présentant la mutation KRAS G12C, dont la maladie a progressé après au moins
+une ligne de traitement systémique antérieur.
+Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer
+adagrasib bronchique non à petites cellules avancé (CBNPC) avec mutation KRAS G12C, dont la
+maladie a progressé après au moins un traitement systémique antérieur. Est indiqué en monothérapie dans le traitement adjuvant des patients adultes atteints
+d’un CBNPC à haut ris
+
+=== Population Extract 68 (Patients) ===
+en monothérapie pour le traitement de patients adultes atteints d’un cancer
+adagrasib bronchique non à petites cellules avancé (CBNPC) avec mutation KRAS G12C, dont la
+maladie a progressé après au moins un traitement systémique antérieur. Est indiqué en monothérapie dans le traitement adjuvant des patients adultes atteints
+d’un CBNPC à haut risque de récidive après résection complète et une chimiothérapie
+à base de sels de platine
+Est indiqué en monothérapie dans le traitement de première ligne des patients adultes
+pembrolizumab atteints d’un CBNPC métastatique dont les tumeurs expriment PD-L1 avec u
+
+=== Population Extract 69 (Patients) ===
+n traitement systémique antérieur. Est indiqué en monothérapie dans le traitement adjuvant des patients adultes atteints
+d’un CBNPC à haut risque de récidive après résection complète et une chimiothérapie
+à base de sels de platine
+Est indiqué en monothérapie dans le traitement de première ligne des patients adultes
+pembrolizumab atteints d’un CBNPC métastatique dont les tumeurs expriment PD-L1 avec un score de
+proportion tumorale (TPS) ³50 %, sans mutations tumorales de l’EGFR ou d’ALK.
+Est indiqué en association à une chimiothérapie pemetrexed et sel de platine, dans le
+traitement de première ligne d
+
+=== Population Extract 70 (Patients) ===
+ultes
+pembrolizumab atteints d’un CBNPC métastatique dont les tumeurs expriment PD-L1 avec un score de
+proportion tumorale (TPS) ³50 %, sans mutations tumorales de l’EGFR ou d’ALK.
+Est indiqué en association à une chimiothérapie pemetrexed et sel de platine, dans le
+traitement de première ligne des patients adultes atteints de CBNPC métastatique
+non épidermoïde dont les tumeurs ne présentent pas de mutations d’EGFR ou d’ALK.
+durvalu
+atezoliz
+32 | RÉFÉR
+Patien
+en vu
+Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+le traitement de première ligne des patients adulte
+
+=== Population Extract 71 (Patients) ===
+ne des patients adultes atteints de CBNPC métastatique
+non épidermoïde dont les tumeurs ne présentent pas de mutations d’EGFR ou d’ALK.
+durvalu
+atezoliz
+32 | RÉFÉR
+Patien
+en vu
+Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+le traitement de première ligne des patients adultes atteints de CBNPC métastatique
+épidermoïde
+Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant
+
+=== Population Extract 72 (Patients) ===
+tations d’EGFR ou d’ALK.
+durvalu
+atezoliz
+32 | RÉFÉR
+Patien
+en vu
+Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+le traitement de première ligne des patients adultes atteints de CBNPC métastatique
+épidermoïde
+Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+une thérapie ciblée avan
+
+=== Population Extract 73 (Patients) ===
+e ligne des patients adultes atteints de CBNPC métastatique
+épidermoïde
+Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+une thérapie ciblée avant de recevoir du pembrolizumab.
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+localement avancé, non opérable, dont les tumeurs exprime
+
+=== Population Extract 74 (Patients) ===
+ment PD-L1 avec un TPS³1 %,
+et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+une thérapie ciblée avant de recevoir du pembrolizumab.
+Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+localement avancé, non opérable, dont les tumeurs expriment PD-L1 ≥ 1 % des cellules
+tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base de
+umab platine.
+Est indiqué en association avec le trémélimumab et une chimiothérapie à base de plati
+
+=== Population Extract 75 (Patients) ===
+é, non opérable, dont les tumeurs expriment PD-L1 ≥ 1 % des cellules
+tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base de
+umab platine.
+Est indiqué en association avec le trémélimumab et une chimiothérapie à base de platine,
+dans le traitement de première ligne des patients adultes atteints d’un CBNPC
+métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.
+Chez les patients atteints
+
+=== Population Extract 76 (Patients) ===
+ab et une chimiothérapie à base de platine,
+dans le traitement de première ligne des patients adultes atteints d’un CBNPC
+métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.
+Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK
+(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+seulement après échec des thérapies ciblées appropriées.
+Est indiqué, en
+
+=== Population Extract 77 (Patients) ===
+igne des patients adultes atteints d’un CBNPC
+métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.
+Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK
+(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+seulement après échec des thérapies ciblées appropriées.
+Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne de
+traitem
+
+=== Population Extract 78 (Patients) ===
+s d’un CBNPC avec EGFR muté ou réarrangement du gène ALK
+(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+seulement après échec des thérapies ciblées appropriées.
+Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne de
+traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sans
+EGFR muté ou réarrangement du gène ALK (ALK-positif)
+Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultes
+atteints d’un CBNPC métastatique dont les tumeurs présentent une expression de PD-L1 ≥
+50 % sur
+
+=== Population Extract 79 (Patients) ===
+iées.
+Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne de
+traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sans
+EGFR muté ou réarrangement du gène ALK (ALK-positif)
+Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultes
+atteints d’un CBNPC métastatique dont les tumeurs présentent une expression de PD-L1 ≥
+50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant la
+zumab
+tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+gène ALK (ALK-positif
+
+=== Population Extract 80 (Patients) ===
+rs présentent une expression de PD-L1 ≥
+50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant la
+zumab
+tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+gène ALK (ALK-positif).
+Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPC
+localement avancé ou métastatique après une chimiothérapie antérieure. Les patients
+atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doivent
+également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.
+Est indiqué pour le traitemen
+
+=== Population Extract 81 (Patients) ===
+ires infiltrant la
+zumab
+tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+gène ALK (ALK-positif).
+Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPC
+localement avancé ou métastatique après une chimiothérapie antérieure. Les patients
+atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doivent
+également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.
+Est indiqué pour le traitement adjuvant, après une résection complète et une
+chimiothérapie à base de platine, chez les adultes atteints d’un
+
+=== Population Extract 82 (Patients) ===
+ellules : indications des tests moléculaires
+ue de la prescription de traitements de précision
+cemipli
+nivolum
+tislelizu
+Fusion i
+larotrec
+Repotre
+33 | RÉFÉR
+Patien
+en vu
+imab
+mab
+umab
+impliq
+ctinib
+ectinib
+RENTIE
+nts atte
+ue de la
+Est indiqué en monothérapie pour le traitement de première ligne de patients adultes
+atteints d’un CBNPC exprimant PD-L1 (dans ≥ 50 % des cellules tumorales) sans altérations
+du gène EGFR, ALK ou ROS1, qui ont :
+- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou
+- un CBNPC métastatique.
+Est indiqué en association à une chimiothérapie à bas
+
+=== Population Extract 83 (Patients) ===
+cellules tumorales) sans altérations
+du gène EGFR, ALK ou ROS1, qui ont :
+- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou
+- un CBNPC métastatique.
+Est indiqué en association à une chimiothérapie à base de sels de platine pour le
+traitement de première ligne de patients adultes atteints d’un cancer bronchopulmonaire
+non à petites cellules (CBNPC) exprimant PD-L1 (dans ≥ 1 % des cellules tumorales) sans
+altérations du gène EGFR, ALK ou ROS1, et qui ont :
+- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou
+- un CBNPC métastatique.
+Es
+
+=== Population Extract 84 (Patients) ===
+des cellules tumorales) sans
+altérations du gène EGFR, ALK ou ROS1, et qui ont :
+- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou
+- un CBNPC métastatique.
+Est indiqué en association à une chimiothérapie à base de sels de platine dans le
+traitement néoadjuvant des patients adultes, atteints d’un cancer bronchique non à
+petites cellules résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au
+seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR
+connue, ni de translocation ALK connue
+L’indication en combinaison concerne
+
+=== Population Extract 85 (Patients) ===
+eurs expriment PD-L1 au
+seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR
+connue, ni de translocation ALK connue
+L’indication en combinaison concerne l’association au pemetrexed et une chimiothérapie
+contenant du platine, dans le traitement de première ligne des patients adultes atteints
+d’un cancer du poumon NAPC non épidermoïde dont les tumeurs présentent une
+expression de PD-L1 ≥50 % des cellules tumorales, sans mutation positive EGFR ou ALK, et
+qui présentent :
+- un cancer du poumon NAPC localement avancé et qui ne sont pas candidats à une
+résection chirurgical
+
+=== Population Extract 86 (Patients) ===
+ion positive EGFR ou ALK, et
+qui présentent :
+- un cancer du poumon NAPC localement avancé et qui ne sont pas candidats à une
+résection chirurgicale ou à une chimioradiothérapie à base de platine ; ou
+- un cancer du poumon NAPC métastatique.
+En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un
+cancer du poumon NAPC localement avancé ou métastatique après un traitement
+antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec
+mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant
+de recevoir le tislélizumab.
+(Avis du CHM
+
+=== Population Extract 87 (Patients) ===
+urgicale ou à une chimioradiothérapie à base de platine ; ou
+- un cancer du poumon NAPC métastatique.
+En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un
+cancer du poumon NAPC localement avancé ou métastatique après un traitement
+antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec
+mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant
+de recevoir le tislélizumab.
+(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)
+quant NTRK1/2/3
+Est indiqué en monothérapie pour le traitement des patients adultes et
+
+=== Population Extract 88 (Patients) ===
+atine. Les patients atteints de cancer du poumon NAPC avec
+mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant
+de recevoir le tislélizumab.
+(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)
+quant NTRK1/2/3
+Est indiqué en monothérapie pour le traitement des patients adultes et pédiatriques
+atteints d’une tumeur solide présentant une fusion d’un des gènes NTRK1/2/3.
+- ayant une maladie au stade localement avancé ou métastatique, ou pour laquelle une
+résection chirurgicale risquerait d’entraîner une morbidité sévère ; et
+- lorsqu’il n’existe aucune option thérap
+
+=== Population Extract 89 (Patients) ===
+ique non à petites cellules : indications des tests moléculaires
+a prescription de traitements de précision
+Mutatio
+capmat
+tepotin
+Mutatio
+trastuzu
+déruxté
+Molécu
+Express
+durvalu
+nivolum
+Mutatio
+moboce
+34 | RÉFÉR
+Patien
+en vu
+on saut d’exon 14 c-MET
+Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer
+bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne
+tinib le saut de l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale
+(METex14), qui nécessitent un traitement systémique après un traitement antérieur par
+imm
+
+=== Population Extract 90 (Patients) ===
+qui entraîne
+tinib le saut de l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale
+(METex14), qui nécessitent un traitement systémique après un traitement antérieur par
+immunothérapie et/ou chimiothérapie à base de platine.
+Est indiqué en monothérapie pour le traitement des patients adultes atteints d’un cancer
+bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne le
+nib saut de l’exon 14 au niveau du gène du facteur de transition épithélio-mésenchymateuse
+(METex14), qui nécessitent un traitement systémique après un traitement antérieur par
+immu
+
+=== Population Extract 91 (Patients) ===
+exon 14 au niveau du gène du facteur de transition épithélio-mésenchymateuse
+(METex14), qui nécessitent un traitement systémique après un traitement antérieur par
+immunothérapie et/ou chimiothérapie à base de platine.
+on activatrice de HER2 (ERBB2)
+Est indiqué en monothérapie dans le traitement des patients adultes présentant un CBNPC
+umab
+avec mutation activatrice du gène HER2 (ERBB2) nécessitant un traitement systémique après
+écan
+une chimiothérapie à base de platine associée ou non à une immunothérapie.
+ules Libellé Autorisations d’accès précoces et compassionnels
+sion de PD-L1 (TPS)
+Traitement des
+
+=== Population Extract 92 (Patients) ===
+adultes présentant un CBNPC
+umab
+avec mutation activatrice du gène HER2 (ERBB2) nécessitant un traitement systémique après
+écan
+une chimiothérapie à base de platine associée ou non à une immunothérapie.
+ules Libellé Autorisations d’accès précoces et compassionnels
+sion de PD-L1 (TPS)
+Traitement des patients adultes atteints d’un CBNPC localement avancé non opérable et
+dont la maladie n’a pas progressé après une chimioradiothérapie à base de platine, en cas
+umab
+d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le
+résultat de ce marqueur n’est pas exploitable (statut
+
+=== Population Extract 93 (Patients) ===
+chimioradiothérapie à base de platine, en cas
+umab
+d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le
+résultat de ce marqueur n’est pas exploitable (statut inconnu).
+En association à une chimiothérapie à base de sels de platine dans le traitement
+néoadjuvant des patients adultes, atteints d’un cancer bronchique non à petites cellules
+mab résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et
+dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de
+translocation ALK connue.
+on d’EGFR exon 20
+Patients adul
+
+=== Population Extract 94 (Patients) ===
+des patients adultes, atteints d’un cancer bronchique non à petites cellules
+mab résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et
+dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de
+translocation ALK connue.
+on d’EGFR exon 20
+Patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) EGFR
+muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de
+sels de platine :
+- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du
+ertinib traitement permettent d
+
+=== Population Extract 95 (Patients) ===
+non à petites cellules (CBNPC) EGFR
+muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de
+sels de platine :
+- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du
+ertinib traitement permettent de justifier sa poursuite ; ou
+- chez les patients ne pouvant bénéficier du Rybrevant.
+Information importante du 23/11/2023 :
+Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que
+pour les patients déjà en cours de traitement.
+RENTIEL DE BONNES PRATIQUES
+nts atteints d’un cancer bronchique non à petites cellules : ind
+
+=== Population Extract 96 (Patients) ===
+b et pour lesquels l’efficacité et la sécurité du
+ertinib traitement permettent de justifier sa poursuite ; ou
+- chez les patients ne pouvant bénéficier du Rybrevant.
+Information importante du 23/11/2023 :
+Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que
+pour les patients déjà en cours de traitement.
+RENTIEL DE BONNES PRATIQUES
+nts atteints d’un cancer bronchique non à petites cellules : indications des tests moléculaires
+ue de la prescription de traitements de précision
+En association au carboplatine et au pemetrexed en première ligne de traitement des
+patients adu
+
+=== Population Extract 97 (Patients) ===
+les patients déjà en cours de traitement.
+RENTIEL DE BONNES PRATIQUES
+nts atteints d’un cancer bronchique non à petites cellules : indications des tests moléculaires
+ue de la prescription de traitements de précision
+En association au carboplatine et au pemetrexed en première ligne de traitement des
+patients adultes atteints d’un cancer bronchique non à petites cellules avancé avec
+amivantamab
+mutations activatrices du récepteur du facteur de croissance épidermique (EGFR) par
+insertion dans l’exon 20, pour les patients non opérables Cancer bronchique non à petites cellules avancé ou métastatique : en p
+
+=== Population Extract 98 (Patients) ===
+En association au carboplatine et au pemetrexed en première ligne de traitement des
+patients adultes atteints d’un cancer bronchique non à petites cellules avancé avec
+amivantamab
+mutations activatrices du récepteur du facteur de croissance épidermique (EGFR) par
+insertion dans l’exon 20, pour les patients non opérables Cancer bronchique non à petites cellules avancé ou métastatique : en présence d’une
+mutation de KRAS p.G12C, ayant échappé à une seconde ligne de traitement par docetaxel ou non éligible à un traitement par docetaxel.
+(Attention, risque potentiel d’effets indésirables cutanés sévères)
+
+=== Population Extract 99 (Patients) ===
+ancer bronchique non à petites cellules avancé ou métastatique : en présence d’une
+mutation de KRAS p.G12C, ayant échappé à une seconde ligne de traitement par docetaxel ou non éligible à un traitement par docetaxel.
+(Attention, risque potentiel d’effets indésirables cutanés sévères) Traitement des patients adultes atteints d’un CBNPC localement avancé ou métastatique
+crizotinib présentant une mutation du site d’épissage de l’exon 14 de c-MET, après au moins une
+ligne de traitement à base de doublet de platine associé ou non à une immunothérapie CBNPC non squameux avancé/métastatique en rechute/réfrac
+
+=== Population Extract 100 (Patients) ===
+eutique après 2 lignes de traitement ; - absence de mutation EGFR. repotrectinib Cancer bronchique non à petites cellules avancé ou métastatique ROS1-positif, chez des Tumeurs solides exprimant une fusion du gène NTRK1/2/3, non résécables métastatiques
+repotrectinib
+ou localement avancées, chez des patients ayant déjà reçu une première ligne de traitement. En monothérapie dans le traitement des patients adultes atteints d’un cancer bronchique
+non à petites cellules (CBNPC) avancé présentant une fusion du gène RET non
+selpercatinib
+précédemment traités par un inhibiteur de RET uniquement en première li
+
+=== Population Extract 101 (Patients) ===
+non à petites cellules avancé ou métastatique ROS1-positif, chez des Tumeurs solides exprimant une fusion du gène NTRK1/2/3, non résécables métastatiques
+repotrectinib
+ou localement avancées, chez des patients ayant déjà reçu une première ligne de traitement. En monothérapie dans le traitement des patients adultes atteints d’un cancer bronchique
+non à petites cellules (CBNPC) avancé présentant une fusion du gène RET non
+selpercatinib
+précédemment traités par un inhibiteur de RET uniquement en première ligne de
+traitement. La liste des essais cliniques de phase précoce ouverts aux inclusions au sein d
+
+=== Population Extract 102 (Patients) ===
+traitement. La liste des essais cliniques de phase précoce ouverts aux inclusions au sein des établissements
+abritant un centre labellisé de phase précoce (CLIP² 2024-2029) est maintenue à jour sur la page
+suivante :
+La liste des essais nécessitant la recherche d’un biomarqueur pour l’inclusion des patients pour les
+cancers de l’appareil respiratoire, les tumeurs solides et multilocalisations y est disponible. CBNPC de stade IB à IIIA EGFR
+Recherche complémentaire après la publication des recommandations internationales.
+Search: ((NSCLC) AND ((stage I) OR (stage II) OR (stage III)) AND EGFR mutation)
+
+=== Population Extract 103 (Patients) ===
+car le stade investigué était IIIB-IV
+5 articles sélectionnés et 1 article ajouté par les experts : pas de résultat de nature à faire évoluer les
+recommandations internationales
+1. PMID: 37236398
+Three-Year Safety, Tolerability, and Health-Related Quality of Life Outcomes of Adjuvant Osimertinib
+in Patients With Resected Stage IB to IIIA EGFR-Mutated NSCLC: Updated Analysis From the Phase 3
+ADAURA Trial.
+John T, Grohé C, Goldman JW, Shepherd FA, de Marinis F, Kato T, Wang Q, Su WC, Choi JH, Sriuranpong
+V, Melotti B, Fidler MJ, Chen J, Albayaty M, Stachowiak M, Taggart S, Wu YL, Tsuboi M, Herbst RS,
+Ma
+
+=== Population Extract 104 (Patients) ===
+, Melotti B, Fidler MJ, Chen J, Albayaty M, Stachowiak M, Taggart S, Wu YL, Tsuboi M, Herbst RS,
+Majem M. J Thorac Oncol. 2023 Sep;18(9):1209-1221. doi: 10.1016/j.jtho.2023.05.015. Epub 2023
+May 24. PMID: 37236398 Free article. Clinical Trial.
+2. PMID: 36863124
+Osimertinib as neoadjuvant therapy in patients with EGFR-mutant resectable stage II-IIIB lung
+adenocarcinoma (NEOS): A multicenter, single-arm, open-label phase 2b trial.
+Lv C, Fang W, Wu N, Jiao W, Xu S, Ma H, Wang J, Wang R, Ji C, Li S, Wang Y, Yan S, Lu F, Pei Y, Liu Y, Yang
+Y. Lung Cancer. 2023 Apr;178:151-156. doi: 10.1016/j.lungcan.2023.0
+
+=== Population Extract 105 (Patients) ===
+b 24;8(1):76. doi: 10.1038/s41392-022-01286-3. PMID: 36823150 Free
+PMC article. Clinical Trial.
+4. PMID: 36369159
+Surgical results of the Lung Cancer Mutation Consortium 3 trial: A phase II multicenter single-arm
+study to investigate the efficacy and safety of atezolizumab as neoadjuvant therapy in patients with
+stages IB-select IIIB resectable non-small cell lung cancer.
+Rusch VW, Nicholas A, Patterson GA, Waqar SN, Toloza EM, Haura EB, Raz DJ, Reckamp KL, Merritt
+RE, Owen DH, Finley DJ, McNamee CJ, Blasberg JD, Garon EB, Mitchell JD, Doebele RC, Baciewicz F,
+Nagasaka M, Pass HI, Schulze K, Johnson A
+
+=== Population Extract 106 (Patients) ===
+Kwiatkowski DJ, Wistuba
+II, Chaft JE, Carbone DP, Lee JM. J Thorac Cardiovasc Surg. 2023 Mar;165(3):828-839.e5. doi:
+10.1016/j.jtcvs.2022.10.007. EPub 2022 Oct 8. PMID: 36369159 Free PMC article. Clinical Trial.
+5. PMID: 36355317
+Icotinib, an EGFR tyrosine kinase inhibitor, as adjuvant therapy for patients with stage IIA-IIIA EGFR-
+mutant non-small-cell lung adenocarcinoma: a multicenter, open-label, single-arm, phase II study
+(ICAPE).
+Qian K, Chen QR, He M, Wang ZT, Liu Y, Liang HG, Su ZY, Cui YS, Liu LJ, Zhang Y. Invest New Drugs.
+Recherche du statut PD-L1 pour immunothérapie
+Recherche complémentai
+
+=== Population Extract 107 (Patients) ===
+eli R, McNally V, Srivastava MK, Bennett E, Gitlitz BJ, Wakelee HA. Ann Oncol. 2023
+Oct;34(10):907-919. doi: 10.1016/j.annonc.2023.07.001. Epub 2023 Jul 17. PMID: 37467930 Free
+article. Clinical Trial.
+2. PMID: 37146754
+Systemic and Intracranial Outcomes With First-Line Nivolumab Plus Ipilimumab in Patients With
+Metastatic NSCLC and Baseline Brain Metastases From CheckMate 227 Part 1.
+Reck M, Ciuleanu TE, Lee JS, Schenker M, Zurawski B, Kim SW, Mahave M, Alexandru A, Peters S,
+Pluzanski A, Caro RB, Linardou H, Burgers JA, Nishio M, Martinez-Marti A, Azuma K, Axelrod R, Paz-
+Ares LG, Ramalingam SS, Bor
+
+=== Population Extract 108 (Patients) ===
+himokawa M, Yamamoto N, Nakagawa K;
+West Japan Oncology Group (WJOG). JAMA Oncol. 2023 Nov 1;9(11):1505-1513. doi:
+10.1001/jamaoncol.2023.3309. PMID: 37676681 Clinical Trial.
+5. PMID: 37548831
+First-line nivolumab plus ipilimumab in metastatic non-small cell lung cancer: 5-year outcomes in
+Japanese patients from CheckMate 227 Part 1.
+Nishio M, Ohe Y, Ikeda S, Yokoyama T, Hayashi H, Fukuhara T, Sato Y, Tanaka H, Hotta K, Sugawara S,
+Daga H, Okamoto I, Kasahara K, Naito T, Li L, Gupta RG, Bushong J, Mizutani H. Int J Clin Oncol. 2023
+Oct;28(10):1354-1368. doi: 10.1007/s10147-023-02390-2. Epub 2023 Aug 7
+
+=== Population Extract 109 (Patients) ===
+technology, Leica, Ménarini, Novocastra, Quartett Biochem
+Mutations, fusions, NGS : Agilent, Amoy Diagnostics, Amplite
+Biotech, Blue DNA Companion, Cliniscience, Entrogen, Fluid
+Illumina, Invitae, Launch Diagnostics, Qiagen, Roche Diagnost
+Thermofisher, Pentabase, Precigenome, Sophia Genetic, Twist
+Patients atteints d’un cancer bronchique non à petites cellules : indications des
+ricants d
+care, Diag
+micals, Roc
+ech, Bioca
+digm3B, G
+tics, Sigma
+t Bioscienc
+s tests molécu
+de d
+gnost
+che, V
+artis,
+Gene
+a Ald
+ce…
+ulaires
+dispo
+tic Bio
+Venta
+Biora
+eri Bio
+drich,
+s
+ositi
+osyst
+ana…
+ad, B
+otech
+, Stilla
+ifs
+
+=== Population Extract 110 (Patients) ===
+es e la prescri ion
+Row 3:  Row 1: 
+Row 2: es prat S AT NC HIQ ETI S ests m iption
+Row 3:  Row 1: 
+Row 2: tiques ATTEINTS CER QUE ITES moléculaires n de traitements
+Row 3:  Row 1: |Ce document présente les conclusions du groupe d’experts sur la stratégie de tests à mettre en|
+Row 2: |place chez les patients atteints de CBNPC pour une stratégie de soin optimale à tous les stades de|
+Row 3: |la maladie (considérant les données disponibles au jour de la rédaction du document). Il s’adresse|
+Row 4: |à tous les prescripteurs de tests moléculaires pour guider le choix des tests à réaliser pour leurs|
+Row 5:
+
+=== Population Extract 111 (Patients) ===
+tteints de CBNPC pour une stratégie de soin optimale à tous les stades de|
+Row 3: |la maladie (considérant les données disponibles au jour de la rédaction du document). Il s’adresse|
+Row 4: |à tous les prescripteurs de tests moléculaires pour guider le choix des tests à réaliser pour leurs|
+Row 5: |patients (ex. : oncologue, pneumologue ou autre clinicien) et aux praticiens qui réalisent ces tests|
+Row 6: |(anatomopathologistes et biologistes).|
+Row 7: |Attention, le but de ce document est de recommander les tests à réaliser et non pas les traitements|
+Row 8: |à administrer. Des traitements sont évoqu
+
+=== Population Extract 112 (Patients) ===
+w 6: |(anatomopathologistes et biologistes).|
+Row 7: |Attention, le but de ce document est de recommander les tests à réaliser et non pas les traitements|
+Row 8: |à administrer. Des traitements sont évoqués pour expliquer l’intérêt des tests, mais la liste des|
+Row 9: |choix thérapeutiques pour les patients n’est pas exhaustive. De plus, les accès aux molécules|
+Row 10: |évoluent très rapidement et nécessitent un suivi en temps réel par le praticien impliqué.|
+Row 11: |Ce document ne contient pas non plus de recommandations sur la façon de réaliser les tests, mais|
+Row 12: |uniquement les techniques à
+
+=== Population Extract 113 (Patients) ===
+ons de tests à réaliser sont à discuter en réunion de concertation|
+Row 16: |pluridisciplinaire (RCP) et/ou en staff moléculaire, suivant l’organisation locale, en fonction|
+Row 17: |notamment de l’accès possible à des essais cliniques. La réalisation de tests pour permettre|
+Row 18: |d’inclure les patients dans des essais cliniques est recommandée.|
+Row 19: |Sauf mention contraire, ces recommandations de tests concernent les patients atteints de CBNPC,|
+Row 20: |en dehors des carcinomes épidermoïdes du patient fumeur.| Row 1: |Conclusions|
+Row 2: |Pour un traitement néoadjuvant :|
+Row 3: |Il faut rec
+
+=== Population Extract 114 (Patients) ===
+suivant l’organisation locale, en fonction|
+Row 17: |notamment de l’accès possible à des essais cliniques. La réalisation de tests pour permettre|
+Row 18: |d’inclure les patients dans des essais cliniques est recommandée.|
+Row 19: |Sauf mention contraire, ces recommandations de tests concernent les patients atteints de CBNPC,|
+Row 20: |en dehors des carcinomes épidermoïdes du patient fumeur.| Row 1: |Conclusions|
+Row 2: |Pour un traitement néoadjuvant :|
+Row 3: |Il faut rechercher les biomarqueurs PD-L1, ALK et EGFR dès la biopsie préopératoire|
+Row 4: |Pour un traitement adjuvant :|
+Row 5: |Pour les
+
+=== Population Extract 115 (Patients) ===
+atteints de CBNPC,|
+Row 20: |en dehors des carcinomes épidermoïdes du patient fumeur.| Row 1: |Conclusions|
+Row 2: |Pour un traitement néoadjuvant :|
+Row 3: |Il faut rechercher les biomarqueurs PD-L1, ALK et EGFR dès la biopsie préopératoire|
+Row 4: |Pour un traitement adjuvant :|
+Row 5: |Pour les patients de stades IB à III avec une tumeur complètement réséquée, une recherche des|
+Row 6: |mutations activatrices fréquentes d’EGFR est indispensable (L858R et délétions de l’exon 19). Une|
+Row 7: |recherche des statuts PD-L1 et ALK pourrait être indispensable dans le futur. Les résultats de ces|
+Row 8:
+
+=== Population Extract 116 (Patients) ===
+w 4: Amplification ou surexpression de c-MET|| Row 1: ||AAC|||Oui||
+Row 2: |||AMM|||Non|
+Row 3: |||AMM|||Non|
+Row 4: ||AAC|||Oui|| Row 1: Molécules|||
+Row 2: ||Libellé AMM|
+Row 3: |||
+Row 4: |Mutations d’EGFR||
+Row 5: afatinib||Est indiqué en monothérapie dans les traitements suivants :|
+Row 6: ||- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou|
+Row 7: ||métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;|
+Row 8: ||- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou|
+Row 9: ||métastatique, progressant sous ou après chimio
+
+=== Population Extract 117 (Patients) ===
+: |||
+Row 4: |Mutations d’EGFR||
+Row 5: afatinib||Est indiqué en monothérapie dans les traitements suivants :|
+Row 6: ||- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou|
+Row 7: ||métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;|
+Row 8: ||- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou|
+Row 9: ||métastatique, progressant sous ou après chimiothérapie à base de platine.|
+Row 10: erlotinib||Est indiqué en :|
+Row 11: ||- première ligne de traitement des formes localement avancées ou métastatiques du|
+Row 12: ||CBNPC che
+
+=== Population Extract 118 (Patients) ===
+es ayant un CBNPC de type épidermoïde, localement avancé ou|
+Row 9: ||métastatique, progressant sous ou après chimiothérapie à base de platine.|
+Row 10: erlotinib||Est indiqué en :|
+Row 11: ||- première ligne de traitement des formes localement avancées ou métastatiques du|
+Row 12: ||CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;|
+Row 13: ||- traitement de switch maintenance des formes localement avancées ou métastatiques|
+Row 14: ||du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une|
+Row 15: ||maladie stable après une première ligne de chimiot
+
+=== Population Extract 119 (Patients) ===
+Row 11: ||- première ligne de traitement des formes localement avancées ou métastatiques du|
+Row 12: ||CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;|
+Row 13: ||- traitement de switch maintenance des formes localement avancées ou métastatiques|
+Row 14: ||du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une|
+Row 15: ||maladie stable après une première ligne de chimiothérapie ;|
+Row 16: ||- traitement des formes localement avancées ou métastatiques du CBNPC après échec|
+Row 17: ||d’au moins une ligne de chimiothérapie. Chez les patients avec des t
+
+=== Population Extract 120 (Patients) ===
+C chez les patients avec mutations activatrices de l’EGFR et présentant une|
+Row 15: ||maladie stable après une première ligne de chimiothérapie ;|
+Row 16: ||- traitement des formes localement avancées ou métastatiques du CBNPC après échec|
+Row 17: ||d’au moins une ligne de chimiothérapie. Chez les patients avec des tumeurs sans|
+Row 18: ||mutations activatrices de l’EGFR, il est indiqué lorsque les autres options de traitement|
+Row 19: ||ne sont pas considérées appropriées.|
+Row 20: ||Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris|
+Row 21: ||en considération.|
+
+=== Population Extract 121 (Patients) ===
+: ||ne sont pas considérées appropriées.|
+Row 20: ||Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris|
+Row 21: ||en considération.|
+Row 22: ||Aucun bénéfice en survie ou autres effets cliniquement significatifs du traitement n’a été|
+Row 23: ||démontré chez les patients dont l’expression de l’EGFR de la tumeur (déterminée par IHC)|
+Row 24: ||était négative.|
+Row 25: Gefitinib||Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement|
+Row 26: ||avancé ou métastatique avec mutations activatrices de l’EGFR-TK.|
+Row 27: osimertinib||Est indi
+
+=== Population Extract 122 (Patients) ===
+fitinib||Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement|
+Row 26: ||avancé ou métastatique avec mutations activatrices de l’EGFR-TK.|
+Row 27: osimertinib||Est indiqué en monothérapie dans :|
+Row 28: ||- le traitement adjuvant après résection tumorale complète des patients adultes atteints|
+Row 29: ||d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de|
+Row 30: ||l’exon 19 ou substitution de l’exon 21 (L858R) ;|
+Row 31: ||- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|
+Row 32: ||avancé ou métastati
+
+=== Population Extract 123 (Patients) ===
+28: ||- le traitement adjuvant après résection tumorale complète des patients adultes atteints|
+Row 29: ||d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de|
+Row 30: ||l’exon 19 ou substitution de l’exon 21 (L858R) ;|
+Row 31: ||- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|
+Row 32: ||avancé ou métastatique avec mutations activatrices de l’EGFR ;|
+Row 33: ||- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|
+Row 34: ||métastatique, avec mutation EGFR T790M.|
+Row 35: dacomitinib||Est indiqué en monothéra
+
+=== Population Extract 124 (Patients) ===
+ctivatrices de l’EGFR par délétion de|
+Row 30: ||l’exon 19 ou substitution de l’exon 21 (L858R) ;|
+Row 31: ||- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|
+Row 32: ||avancé ou métastatique avec mutations activatrices de l’EGFR ;|
+Row 33: ||- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|
+Row 34: ||métastatique, avec mutation EGFR T790M.|
+Row 35: dacomitinib||Est indiqué en monothérapie pour le traitement de première intention des patients|
+Row 36: ||adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations|
+Row 37
+
+=== Population Extract 125 (Patients) ===
+||avancé ou métastatique avec mutations activatrices de l’EGFR ;|
+Row 33: ||- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|
+Row 34: ||métastatique, avec mutation EGFR T790M.|
+Row 35: dacomitinib||Est indiqué en monothérapie pour le traitement de première intention des patients|
+Row 36: ||adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations|
+Row 37: ||activatrices d’EGFR.| Row 1: Molécu|
+Row 2: |Mutatio
+Row 3: afatinib|
+Row 4: erlotini|
+Row 5: Gefitini|
+Row 6: osimert|
+Row 7: dacomi| Row 1: ules||
+Row 2: |Libellé AMM|
+Row 3: ||
+Row 4: ons d’EGFR||
+
+=== Population Extract 126 (Patients) ===
+utations|
+Row 37: ||activatrices d’EGFR.| Row 1: Molécu|
+Row 2: |Mutatio
+Row 3: afatinib|
+Row 4: erlotini|
+Row 5: Gefitini|
+Row 6: osimert|
+Row 7: dacomi| Row 1: ules||
+Row 2: |Libellé AMM|
+Row 3: ||
+Row 4: ons d’EGFR||
+Row 5: b|Est indiqué en monothérapie dans les traitements suivants :|
+Row 6: |- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou|
+Row 7: |métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;|
+Row 8: |- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou|
+Row 9: |métastatique, progressant sous ou après chimiothé
+
+=== Population Extract 127 (Patients) ===
+|Libellé AMM|
+Row 3: ||
+Row 4: ons d’EGFR||
+Row 5: b|Est indiqué en monothérapie dans les traitements suivants :|
+Row 6: |- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou|
+Row 7: |métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;|
+Row 8: |- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou|
+Row 9: |métastatique, progressant sous ou après chimiothérapie à base de platine.|
+Row 10: ib|Est indiqué en :|
+Row 11: |- première ligne de traitement des formes localement avancées ou métastatiques du|
+Row 12: |CBNPC chez les patie
+
+=== Population Extract 128 (Patients) ===
+ients adultes ayant un CBNPC de type épidermoïde, localement avancé ou|
+Row 9: |métastatique, progressant sous ou après chimiothérapie à base de platine.|
+Row 10: ib|Est indiqué en :|
+Row 11: |- première ligne de traitement des formes localement avancées ou métastatiques du|
+Row 12: |CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;|
+Row 13: |- traitement de switch maintenance des formes localement avancées ou métastatiques|
+Row 14: |du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une|
+Row 15: |maladie stable après une première ligne de chimiothér
+
+=== Population Extract 129 (Patients) ===
+:|
+Row 11: |- première ligne de traitement des formes localement avancées ou métastatiques du|
+Row 12: |CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;|
+Row 13: |- traitement de switch maintenance des formes localement avancées ou métastatiques|
+Row 14: |du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une|
+Row 15: |maladie stable après une première ligne de chimiothérapie ;|
+Row 16: |- traitement des formes localement avancées ou métastatiques du CBNPC après échec|
+Row 17: |d’au moins une ligne de chimiothérapie. Chez les patients avec des tume
+
+=== Population Extract 130 (Patients) ===
+BNPC chez les patients avec mutations activatrices de l’EGFR et présentant une|
+Row 15: |maladie stable après une première ligne de chimiothérapie ;|
+Row 16: |- traitement des formes localement avancées ou métastatiques du CBNPC après échec|
+Row 17: |d’au moins une ligne de chimiothérapie. Chez les patients avec des tumeurs sans|
+Row 18: |mutations activatrices de l’EGFR, il est indiqué lorsque les autres options de traitement|
+Row 19: |ne sont pas considérées appropriées.|
+Row 20: |Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris|
+Row 21: |en considération.|
+Row
+
+=== Population Extract 131 (Patients) ===
+ow 19: |ne sont pas considérées appropriées.|
+Row 20: |Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris|
+Row 21: |en considération.|
+Row 22: |Aucun bénéfice en survie ou autres effets cliniquement significatifs du traitement n’a été|
+Row 23: |démontré chez les patients dont l’expression de l’EGFR de la tumeur (déterminée par IHC)|
+Row 24: |était négative.|
+Row 25: ib|Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement|
+Row 26: |avancé ou métastatique avec mutations activatrices de l’EGFR-TK.|
+Row 27: tinib|Est indiqué en monothérap
+
+=== Population Extract 132 (Patients) ===
+tive.|
+Row 25: ib|Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement|
+Row 26: |avancé ou métastatique avec mutations activatrices de l’EGFR-TK.|
+Row 27: tinib|Est indiqué en monothérapie dans :|
+Row 28: |- le traitement adjuvant après résection tumorale complète des patients adultes atteints|
+Row 29: |d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de|
+Row 30: |l’exon 19 ou substitution de l’exon 21 (L858R) ;|
+Row 31: |- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|
+Row 32: |avancé ou métastatique
+
+=== Population Extract 133 (Patients) ===
+Row 28: |- le traitement adjuvant après résection tumorale complète des patients adultes atteints|
+Row 29: |d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de|
+Row 30: |l’exon 19 ou substitution de l’exon 21 (L858R) ;|
+Row 31: |- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|
+Row 32: |avancé ou métastatique avec mutations activatrices de l’EGFR ;|
+Row 33: |- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|
+Row 34: |métastatique, avec mutation EGFR T790M.|
+Row 35: itinib|Est indiqué en monothérapie pour
+
+=== Population Extract 134 (Patients) ===
+ns activatrices de l’EGFR par délétion de|
+Row 30: |l’exon 19 ou substitution de l’exon 21 (L858R) ;|
+Row 31: |- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|
+Row 32: |avancé ou métastatique avec mutations activatrices de l’EGFR ;|
+Row 33: |- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|
+Row 34: |métastatique, avec mutation EGFR T790M.|
+Row 35: itinib|Est indiqué en monothérapie pour le traitement de première intention des patients|
+Row 36: |adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations|
+Row 37: |activ
+
+=== Population Extract 135 (Patients) ===
+Row 32: |avancé ou métastatique avec mutations activatrices de l’EGFR ;|
+Row 33: |- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|
+Row 34: |métastatique, avec mutation EGFR T790M.|
+Row 35: itinib|Est indiqué en monothérapie pour le traitement de première intention des patients|
+Row 36: |adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations|
+Row 37: |activatrices d’EGFR.| Row 1: ramucirumab||Est indiqué :|
+Row 2: ||- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes|
+Row 3: ||atteints d’un cancer bronchique n
+
+=== Population Extract 136 (Patients) ===
+érapie pour le traitement de première intention des patients|
+Row 36: |adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations|
+Row 37: |activatrices d’EGFR.| Row 1: ramucirumab||Est indiqué :|
+Row 2: ||- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes|
+Row 3: ||atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations|
+Row 4: ||activatrices de l’EGFR ;|
+Row 5: ||- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un|
+Row 6: ||cancer bronchique non à petites cellules localement
+
+=== Population Extract 137 (Patients) ===
+Row 2: ||- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes|
+Row 3: ||atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations|
+Row 4: ||activatrices de l’EGFR ;|
+Row 5: ||- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un|
+Row 6: ||cancer bronchique non à petites cellules localement avancé ou métastatique dont la|
+Row 7: ||maladie a progressé après une chimiothérapie à base de sels de platine.|
+Row 8: amivantamab||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un
+
+=== Population Extract 138 (Patients) ===
+ans le traitement des patients adultes atteints d’un|
+Row 6: ||cancer bronchique non à petites cellules localement avancé ou métastatique dont la|
+Row 7: ||maladie a progressé après une chimiothérapie à base de sels de platine.|
+Row 8: amivantamab||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 9: ||avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec|
+Row 10: ||d’un traitement à base de sels de platine.|
+Row 11: |Fusion impliquant ALK||
+Row 12: crizotinib||Est indiqué en monothérapie :|
+Row 13: ||- en première ligne de tr
+
+=== Population Extract 139 (Patients) ===
+ints d’un CBNPC|
+Row 9: ||avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec|
+Row 10: ||d’un traitement à base de sels de platine.|
+Row 11: |Fusion impliquant ALK||
+Row 12: crizotinib||Est indiqué en monothérapie :|
+Row 13: ||- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et|
+Row 14: ||avancé ;|
+Row 15: ||- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur|
+Row 16: ||pour un CBNPC ALK-positif et avancé.|
+Row 17: ceritinib||Est indiqué en monothérapie :|
+Row 18: ||- en première ligne de traitement d
+
+=== Population Extract 140 (Patients) ===
+rès échec|
+Row 10: ||d’un traitement à base de sels de platine.|
+Row 11: |Fusion impliquant ALK||
+Row 12: crizotinib||Est indiqué en monothérapie :|
+Row 13: ||- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et|
+Row 14: ||avancé ;|
+Row 15: ||- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur|
+Row 16: ||pour un CBNPC ALK-positif et avancé.|
+Row 17: ceritinib||Est indiqué en monothérapie :|
+Row 18: ||- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|
+Row 19: ||positif chez les patients adultes ;|
+Row 20:
+
+=== Population Extract 141 (Patients) ===
+s le traitement des patients adultes ayant reçu au moins un traitement antérieur|
+Row 16: ||pour un CBNPC ALK-positif et avancé.|
+Row 17: ceritinib||Est indiqué en monothérapie :|
+Row 18: ||- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|
+Row 19: ||positif chez les patients adultes ;|
+Row 20: ||- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|
+Row 21: ||les patients adultes préalablement traités par crizotinib.|
+Row 22: alectinib||Est indiqué en monothérapie :|
+Row 23: ||- en première ligne de traitement des patients adultes ayant un CB
+
+=== Population Extract 142 (Patients) ===
+é.|
+Row 17: ceritinib||Est indiqué en monothérapie :|
+Row 18: ||- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|
+Row 19: ||positif chez les patients adultes ;|
+Row 20: ||- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|
+Row 21: ||les patients adultes préalablement traités par crizotinib.|
+Row 22: alectinib||Est indiqué en monothérapie :|
+Row 23: ||- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|
+Row 24: ||réarrangement du gène ALK-positif ;|
+Row 25: ||- dans le traitement du CBNPC avancé ALK-positif
+
+=== Population Extract 143 (Patients) ===
+||positif chez les patients adultes ;|
+Row 20: ||- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|
+Row 21: ||les patients adultes préalablement traités par crizotinib.|
+Row 22: alectinib||Est indiqué en monothérapie :|
+Row 23: ||- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|
+Row 24: ||réarrangement du gène ALK-positif ;|
+Row 25: ||- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|
+Row 26: ||préalablement traités par crizotinib.|
+Row 27: brigatinib||Est indiqué en monothérapie :|
+Row 28: ||- pour le traitem
+
+=== Population Extract 144 (Patients) ===
+préalablement traités par crizotinib.|
+Row 22: alectinib||Est indiqué en monothérapie :|
+Row 23: ||- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|
+Row 24: ||réarrangement du gène ALK-positif ;|
+Row 25: ||- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|
+Row 26: ||préalablement traités par crizotinib.|
+Row 27: brigatinib||Est indiqué en monothérapie :|
+Row 28: ||- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|
+Row 29: ||réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|
+Ro
+
+=== Population Extract 145 (Patients) ===
+ayant un CBNPC avancé avec un|
+Row 24: ||réarrangement du gène ALK-positif ;|
+Row 25: ||- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|
+Row 26: ||préalablement traités par crizotinib.|
+Row 27: brigatinib||Est indiqué en monothérapie :|
+Row 28: ||- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|
+Row 29: ||réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|
+Row 30: ||de tyrosine kinase ciblant la mutation ALK+ ;|
+Row 31: ||- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|
+Row 3
+
+=== Population Extract 146 (Patients) ===
+en monothérapie :|
+Row 28: ||- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|
+Row 29: ||réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|
+Row 30: ||de tyrosine kinase ciblant la mutation ALK+ ;|
+Row 31: ||- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|
+Row 32: ||prétraités par crizotinib.|
+Row 33: lorlatinib||Est indiqué en monothérapie :|
+Row 34: ||- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|
+Row 35: ||préalablement traité par un inhibiteur de l’ALK ;|
+Row
+
+=== Population Extract 147 (Patients) ===
+raités par un inhibiteur|
+Row 30: ||de tyrosine kinase ciblant la mutation ALK+ ;|
+Row 31: ||- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|
+Row 32: ||prétraités par crizotinib.|
+Row 33: lorlatinib||Est indiqué en monothérapie :|
+Row 34: ||- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|
+Row 35: ||préalablement traité par un inhibiteur de l’ALK ;|
+Row 36: ||- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la|
+Row 37: ||maladie a progressé après :|
+Row 38: ||• alectinib ou ceritinib comme premie
+
+=== Population Extract 148 (Patients) ===
+cé ALK-positif et|
+Row 32: ||prétraités par crizotinib.|
+Row 33: lorlatinib||Est indiqué en monothérapie :|
+Row 34: ||- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|
+Row 35: ||préalablement traité par un inhibiteur de l’ALK ;|
+Row 36: ||- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la|
+Row 37: ||maladie a progressé après :|
+Row 38: ||• alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosine|
+Row 39: ||kinase (ITK) ALK ; ou|
+Row 40: ||• crizotinib et au moins un autre ITK ALK.| Row 1: ramucir|
+Row 2:
+
+=== Population Extract 149 (Patients) ===
+3: 
+Row 4: 
+Row 5: ntama
+Row 6: 
+Row 7: impliq
+Row 8: 
+Row 9: nib
+Row 10: 
+Row 11: 
+Row 12: b
+Row 13: 
+Row 14: 
+Row 15: ib
+Row 16: 
+Row 17: 
+Row 18: nib
+Row 19: 
+Row 20: 
+Row 21: nib
+Row 22:  Row 1: b|Est indiqué :|
+Row 2: |- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes|
+Row 3: |atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations|
+Row 4: |activatrices de l’EGFR ;|
+Row 5: |- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un|
+Row 6: |cancer bronchique non à petites cellules localement avan
+
+=== Population Extract 150 (Patients) ===
+:|
+Row 2: |- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes|
+Row 3: |atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations|
+Row 4: |activatrices de l’EGFR ;|
+Row 5: |- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un|
+Row 6: |cancer bronchique non à petites cellules localement avancé ou métastatique dont la|
+Row 7: |maladie a progressé après une chimiothérapie à base de sels de platine.|
+Row 8: ab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row
+
+=== Population Extract 151 (Patients) ===
+docétaxel, dans le traitement des patients adultes atteints d’un|
+Row 6: |cancer bronchique non à petites cellules localement avancé ou métastatique dont la|
+Row 7: |maladie a progressé après une chimiothérapie à base de sels de platine.|
+Row 8: ab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 9: |avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec|
+Row 10: |d’un traitement à base de sels de platine.|
+Row 11: quant ALK||
+Row 12: |Est indiqué en monothérapie :|
+Row 13: |- en première ligne de traitement des patients adult
+
+=== Population Extract 152 (Patients) ===
+t des patients adultes atteints d’un CBNPC|
+Row 9: |avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec|
+Row 10: |d’un traitement à base de sels de platine.|
+Row 11: quant ALK||
+Row 12: |Est indiqué en monothérapie :|
+Row 13: |- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et|
+Row 14: |avancé ;|
+Row 15: |- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur|
+Row 16: |pour un CBNPC ALK-positif et avancé.|
+Row 17: |Est indiqué en monothérapie :|
+Row 18: |- en première ligne de traitement du CBNPC avancé
+
+=== Population Extract 153 (Patients) ===
+insertion dans l’exon 20, après échec|
+Row 10: |d’un traitement à base de sels de platine.|
+Row 11: quant ALK||
+Row 12: |Est indiqué en monothérapie :|
+Row 13: |- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et|
+Row 14: |avancé ;|
+Row 15: |- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur|
+Row 16: |pour un CBNPC ALK-positif et avancé.|
+Row 17: |Est indiqué en monothérapie :|
+Row 18: |- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|
+Row 19: |positif chez les patients adultes ;|
+Row 20: |- dans le tr
+
+=== Population Extract 154 (Patients) ===
+ow 15: |- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur|
+Row 16: |pour un CBNPC ALK-positif et avancé.|
+Row 17: |Est indiqué en monothérapie :|
+Row 18: |- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|
+Row 19: |positif chez les patients adultes ;|
+Row 20: |- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|
+Row 21: |les patients adultes préalablement traités par crizotinib.|
+Row 22: |Est indiqué en monothérapie :|
+Row 23: |- en première ligne de traitement des patients adultes ayant un CBNPC avancé av
+
+=== Population Extract 155 (Patients) ===
+sitif et avancé.|
+Row 17: |Est indiqué en monothérapie :|
+Row 18: |- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|
+Row 19: |positif chez les patients adultes ;|
+Row 20: |- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|
+Row 21: |les patients adultes préalablement traités par crizotinib.|
+Row 22: |Est indiqué en monothérapie :|
+Row 23: |- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|
+Row 24: |réarrangement du gène ALK-positif ;|
+Row 25: |- dans le traitement du CBNPC avancé ALK-positif chez les pati
+
+=== Population Extract 156 (Patients) ===
+ALK-|
+Row 19: |positif chez les patients adultes ;|
+Row 20: |- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|
+Row 21: |les patients adultes préalablement traités par crizotinib.|
+Row 22: |Est indiqué en monothérapie :|
+Row 23: |- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|
+Row 24: |réarrangement du gène ALK-positif ;|
+Row 25: |- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|
+Row 26: |préalablement traités par crizotinib.|
+Row 27: |Est indiqué en monothérapie :|
+Row 28: |- pour le traitement des patient
+
+=== Population Extract 157 (Patients) ===
+ents adultes préalablement traités par crizotinib.|
+Row 22: |Est indiqué en monothérapie :|
+Row 23: |- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|
+Row 24: |réarrangement du gène ALK-positif ;|
+Row 25: |- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|
+Row 26: |préalablement traités par crizotinib.|
+Row 27: |Est indiqué en monothérapie :|
+Row 28: |- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|
+Row 29: |réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|
+Row 30: |de tyro
+
+=== Population Extract 158 (Patients) ===
+atients adultes ayant un CBNPC avancé avec un|
+Row 24: |réarrangement du gène ALK-positif ;|
+Row 25: |- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|
+Row 26: |préalablement traités par crizotinib.|
+Row 27: |Est indiqué en monothérapie :|
+Row 28: |- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|
+Row 29: |réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|
+Row 30: |de tyrosine kinase ciblant la mutation ALK+ ;|
+Row 31: |- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|
+Row 32:
+
+=== Population Extract 159 (Patients) ===
+iqué en monothérapie :|
+Row 28: |- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|
+Row 29: |réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|
+Row 30: |de tyrosine kinase ciblant la mutation ALK+ ;|
+Row 31: |- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|
+Row 32: |prétraités par crizotinib.|
+Row 33: |Est indiqué en monothérapie :|
+Row 34: |- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|
+Row 35: |préalablement traité par un inhibiteur de l’ALK ;|
+Row 36: |- dans le
+
+=== Population Extract 160 (Patients) ===
+précédemment traités par un inhibiteur|
+Row 30: |de tyrosine kinase ciblant la mutation ALK+ ;|
+Row 31: |- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|
+Row 32: |prétraités par crizotinib.|
+Row 33: |Est indiqué en monothérapie :|
+Row 34: |- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|
+Row 35: |préalablement traité par un inhibiteur de l’ALK ;|
+Row 36: |- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la|
+Row 37: |maladie a progressé après :|
+Row 38: |• alectinib ou ceritinib comme premier tr
+
+=== Population Extract 161 (Patients) ===
+s de CBNPC avancé ALK-positif et|
+Row 32: |prétraités par crizotinib.|
+Row 33: |Est indiqué en monothérapie :|
+Row 34: |- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|
+Row 35: |préalablement traité par un inhibiteur de l’ALK ;|
+Row 36: |- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la|
+Row 37: |maladie a progressé après :|
+Row 38: |• alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosine|
+Row 39: |kinase (ITK) ALK ; ou|
+Row 40: |• crizotinib et au moins un autre ITK ALK.| Row 1: |Fusion impliquant R
+
+=== Population Extract 162 (Patients) ===
+ogressé après :|
+Row 38: |• alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosine|
+Row 39: |kinase (ITK) ALK ; ou|
+Row 40: |• crizotinib et au moins un autre ITK ALK.| Row 1: |Fusion impliquant ROS1|||
+Row 2: crizotinib|||Est indiqué en monothérapie dans le traitement des patients adultes ayant un CBNPC|
+Row 3: |||ROS1- positif et avancé.|
+Row 4: entrectinib|||Est indiqué en monothérapie chez les patients adultes atteints de formes avancées de|
+Row 5: |||CBNPC positif pour ROS1 (ROS1+), non précédemment traités par des inhibiteurs de ROS1.|
+Row 6: Repotrectinib|||Validation
+
+=== Population Extract 163 (Patients) ===
+ITK) ALK ; ou|
+Row 40: |• crizotinib et au moins un autre ITK ALK.| Row 1: |Fusion impliquant ROS1|||
+Row 2: crizotinib|||Est indiqué en monothérapie dans le traitement des patients adultes ayant un CBNPC|
+Row 3: |||ROS1- positif et avancé.|
+Row 4: entrectinib|||Est indiqué en monothérapie chez les patients adultes atteints de formes avancées de|
+Row 5: |||CBNPC positif pour ROS1 (ROS1+), non précédemment traités par des inhibiteurs de ROS1.|
+Row 6: Repotrectinib|||Validation de la demande d’AMM pour repotrectinib dans le traitement du cancer du|
+Row 7: |||poumon non à petites cellules localement avan
+
+=== Population Extract 164 (Patients) ===
+petites cellules localement avancé ou métastatique Ros1-Positif et des|
+Row 8: |||tumeurs solides Ntrk-Positives (dépêche du 02/01/2024, en attente de la publication par|
+Row 9: |||l’EMA).|
+Row 10: |Fusion impliquant RET|||
+Row 11: selpercatinib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 12: |||avancé présentant une fusion du gène RET non précédemment traités par un inhibiteur|
+Row 13: |||de RET|
+Row 14: pralsetinib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 15: |||avancé présentant une fusion posi
+
+=== Population Extract 165 (Patients) ===
+ow 11: selpercatinib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 12: |||avancé présentant une fusion du gène RET non précédemment traités par un inhibiteur|
+Row 13: |||de RET|
+Row 14: pralsetinib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 15: |||avancé présentant une fusion positive de RET non précédemment traités par un inhibiteur|
+Row 16: |||de RET.|
+Row 17: |Mutation V600E de BRAF|||
+Row 18: |trametinib||Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC|
+Row
+
+=== Population Extract 166 (Patients) ===
+nothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 15: |||avancé présentant une fusion positive de RET non précédemment traités par un inhibiteur|
+Row 16: |||de RET.|
+Row 17: |Mutation V600E de BRAF|||
+Row 18: |trametinib||Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC|
+Row 19: |et dabrafenib||avancé porteur d’une mutation BRAF V600E.|
+Row 20: |Mutation G12C de KRAS|||
+Row 21: sotorasib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 22: |||avancé, présentant la mutation KRAS G12C, dont la
+
+=== Population Extract 167 (Patients) ===
+V600E de BRAF|||
+Row 18: |trametinib||Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC|
+Row 19: |et dabrafenib||avancé porteur d’une mutation BRAF V600E.|
+Row 20: |Mutation G12C de KRAS|||
+Row 21: sotorasib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 22: |||avancé, présentant la mutation KRAS G12C, dont la maladie a progressé après au moins|
+Row 23: |||une ligne de traitement systémique antérieur.|
+Row 24: adagrasib|||Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer|
+Row 25
+
+=== Population Extract 168 (Patients) ===
+monothérapie dans le traitement des patients adultes atteints d’un CBNPC|
+Row 22: |||avancé, présentant la mutation KRAS G12C, dont la maladie a progressé après au moins|
+Row 23: |||une ligne de traitement systémique antérieur.|
+Row 24: adagrasib|||Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer|
+Row 25: |||bronchique non à petites cellules avancé (CBNPC) avec mutation KRAS G12C, dont la|
+Row 26: |||maladie a progressé après au moins un traitement systémique antérieur.|
+Row 27: |Expression de PD-L1 (TPS)|||
+Row 28: pembrolizumab|||Est indiqué en monothérapie da
+
+=== Population Extract 169 (Patients) ===
+Row 25: |||bronchique non à petites cellules avancé (CBNPC) avec mutation KRAS G12C, dont la|
+Row 26: |||maladie a progressé après au moins un traitement systémique antérieur.|
+Row 27: |Expression de PD-L1 (TPS)|||
+Row 28: pembrolizumab|||Est indiqué en monothérapie dans le traitement adjuvant des patients adultes atteints|
+Row 29: |||d’un CBNPC à haut risque de récidive après résection complète et une chimiothérapie|
+Row 30: |||à base de sels de platine|
+Row 31: |||Est indiqué en monothérapie dans le traitement de première ligne des patients adultes|
+Row 32: |||atteints d’un CBNPC métastatique dont
+
+=== Population Extract 170 (Patients) ===
+st indiqué en monothérapie dans le traitement adjuvant des patients adultes atteints|
+Row 29: |||d’un CBNPC à haut risque de récidive après résection complète et une chimiothérapie|
+Row 30: |||à base de sels de platine|
+Row 31: |||Est indiqué en monothérapie dans le traitement de première ligne des patients adultes|
+Row 32: |||atteints d’un CBNPC métastatique dont les tumeurs expriment PD-L1 avec un score de|
+Row 33: |||proportion tumorale (TPS) ³50 %, sans mutations tumorales de l’EGFR ou d’ALK.|
+Row 34: |||Est indiqué en association à une chimiothérapie pemetrexed et sel de platine, dans le|
+Row 35:
+
+=== Population Extract 171 (Patients) ===
+NPC métastatique dont les tumeurs expriment PD-L1 avec un score de|
+Row 33: |||proportion tumorale (TPS) ³50 %, sans mutations tumorales de l’EGFR ou d’ALK.|
+Row 34: |||Est indiqué en association à une chimiothérapie pemetrexed et sel de platine, dans le|
+Row 35: |||traitement de première ligne des patients adultes atteints de CBNPC métastatique|
+Row 36: |||non épidermoïde dont les tumeurs ne présentent pas de mutations d’EGFR ou d’ALK.| Row 1: |Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+Row 2: |le traitement de première ligne des patients adultes atteints d
+
+=== Population Extract 172 (Patients) ===
+première ligne des patients adultes atteints de CBNPC métastatique|
+Row 36: |||non épidermoïde dont les tumeurs ne présentent pas de mutations d’EGFR ou d’ALK.| Row 1: |Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+Row 2: |le traitement de première ligne des patients adultes atteints de CBNPC métastatique
+Row 3: |épidermoïde
+Row 4: |Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+Row 5: |localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+Row 6: |et ayant reçu au moins une chimiothérapie anté
+
+=== Population Extract 173 (Patients) ===
+as de mutations d’EGFR ou d’ALK.| Row 1: |Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+Row 2: |le traitement de première ligne des patients adultes atteints de CBNPC métastatique
+Row 3: |épidermoïde
+Row 4: |Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+Row 5: |localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+Row 6: |et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+Row 7: |mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+
+=== Population Extract 174 (Patients) ===
+eints de CBNPC métastatique
+Row 3: |épidermoïde
+Row 4: |Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+Row 5: |localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+Row 6: |et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+Row 7: |mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+Row 8: |une thérapie ciblée avant de recevoir du pembrolizumab.
+Row 9: durvalumab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+Row 10: |localement ava
+
+=== Population Extract 175 (Patients) ===
+nt reçu au moins une chimiothérapie antérieure. Les patients présentant des
+Row 7: |mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+Row 8: |une thérapie ciblée avant de recevoir du pembrolizumab.
+Row 9: durvalumab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+Row 10: |localement avancé, non opérable, dont les tumeurs expriment PD-L1 ≥ 1 % des cellules
+Row 11: |tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base de
+Row 12: |platine.
+Row 13: |Est indiqué en association avec le trémélimumab et une
+
+=== Population Extract 176 (Patients) ===
+rs expriment PD-L1 ≥ 1 % des cellules
+Row 11: |tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base de
+Row 12: |platine.
+Row 13: |Est indiqué en association avec le trémélimumab et une chimiothérapie à base de platine,
+Row 14: |dans le traitement de première ligne des patients adultes atteints d’un CBNPC
+Row 15: |métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Row 16: atezolizumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+Row 17: |de traitement des patients adultes atteints d’un CBNPC non épidermoïde m
+
+=== Population Extract 177 (Patients) ===
+14: |dans le traitement de première ligne des patients adultes atteints d’un CBNPC
+Row 15: |métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Row 16: atezolizumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+Row 17: |de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.
+Row 18: |Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK
+Row 19: |(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+Row 20: |seulement après échec des thérapies ciblées a
+
+=== Population Extract 178 (Patients) ===
+w 15: |métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Row 16: atezolizumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+Row 17: |de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.
+Row 18: |Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK
+Row 19: |(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+Row 20: |seulement après échec des thérapies ciblées appropriées.
+Row 21: |Est indiqué, en association au nab-paclitaxel et carboplatine, e
+
+=== Population Extract 179 (Patients) ===
+angement du gène ALK
+Row 19: |(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+Row 20: |seulement après échec des thérapies ciblées appropriées.
+Row 21: |Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne de
+Row 22: |traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sans
+Row 23: |EGFR muté ou réarrangement du gène ALK (ALK-positif)
+Row 24: |Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultes
+Row 25: |atteints d’un CBNPC métastatique dont les tumeurs présentent une expr
+
+=== Population Extract 180 (Patients) ===
+iation au nab-paclitaxel et carboplatine, en première ligne de
+Row 22: |traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sans
+Row 23: |EGFR muté ou réarrangement du gène ALK (ALK-positif)
+Row 24: |Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultes
+Row 25: |atteints d’un CBNPC métastatique dont les tumeurs présentent une expression de PD-L1 ≥
+Row 26: |50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant la
+Row 27: |tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+
+=== Population Extract 181 (Patients) ===
+e PD-L1 ≥
+Row 26: |50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant la
+Row 27: |tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+Row 28: |gène ALK (ALK-positif).
+Row 29: |Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPC
+Row 30: |localement avancé ou métastatique après une chimiothérapie antérieure. Les patients
+Row 31: |atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doivent
+Row 32: |également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.
+Ro
+
+=== Population Extract 182 (Patients) ===
+meur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+Row 28: |gène ALK (ALK-positif).
+Row 29: |Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPC
+Row 30: |localement avancé ou métastatique après une chimiothérapie antérieure. Les patients
+Row 31: |atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doivent
+Row 32: |également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.
+Row 33: |Est indiqué pour le traitement adjuvant, après une résection complète et une
+Row 34: |chimiothérapie à base de pla
+
+=== Population Extract 183 (Patients) ===
+ow 36: |moitié des cellules tumorales ou plus (PD-L1≥50 %), et dont le cancer n’a pas les
+Row 37: |mutations EGFR ou ALK+ Row 1: 
+Row 2: durvalu
+Row 3: atezoliz Row 1: |Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+Row 2: |le traitement de première ligne des patients adultes atteints de CBNPC métastatique
+Row 3: |épidermoïde
+Row 4: |Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+Row 5: |localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+Row 6: |et ayant reçu au moins une chimiothérapie anté
+
+=== Population Extract 184 (Patients) ===
+: 
+Row 2: durvalu
+Row 3: atezoliz Row 1: |Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans
+Row 2: |le traitement de première ligne des patients adultes atteints de CBNPC métastatique
+Row 3: |épidermoïde
+Row 4: |Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+Row 5: |localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+Row 6: |et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+Row 7: |mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+
+=== Population Extract 185 (Patients) ===
+eints de CBNPC métastatique
+Row 3: |épidermoïde
+Row 4: |Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC
+Row 5: |localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,
+Row 6: |et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+Row 7: |mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+Row 8: |une thérapie ciblée avant de recevoir du pembrolizumab.
+Row 9: umab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+Row 10: |localement avancé, n
+
+=== Population Extract 186 (Patients) ===
+et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des
+Row 7: |mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu
+Row 8: |une thérapie ciblée avant de recevoir du pembrolizumab.
+Row 9: umab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC
+Row 10: |localement avancé, non opérable, dont les tumeurs expriment PD-L1 ≥ 1 % des cellules
+Row 11: |tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base de
+Row 12: |platine.
+Row 13: |Est indiqué en association avec le trémélimumab et une
+
+=== Population Extract 187 (Patients) ===
+rs expriment PD-L1 ≥ 1 % des cellules
+Row 11: |tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base de
+Row 12: |platine.
+Row 13: |Est indiqué en association avec le trémélimumab et une chimiothérapie à base de platine,
+Row 14: |dans le traitement de première ligne des patients adultes atteints d’un CBNPC
+Row 15: |métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Row 16: zumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+Row 17: |de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastat
+
+=== Population Extract 188 (Patients) ===
+e,
+Row 14: |dans le traitement de première ligne des patients adultes atteints d’un CBNPC
+Row 15: |métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Row 16: zumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+Row 17: |de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.
+Row 18: |Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK
+Row 19: |(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+Row 20: |seulement après échec des thérapies ciblées a
+
+=== Population Extract 189 (Patients) ===
+BNPC
+Row 15: |métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK
+Row 16: zumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne
+Row 17: |de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.
+Row 18: |Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK
+Row 19: |(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+Row 20: |seulement après échec des thérapies ciblées appropriées.
+Row 21: |Est indiqué, en association au nab-paclitaxel et carboplatine, e
+
+=== Population Extract 190 (Patients) ===
+angement du gène ALK
+Row 19: |(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,
+Row 20: |seulement après échec des thérapies ciblées appropriées.
+Row 21: |Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne de
+Row 22: |traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sans
+Row 23: |EGFR muté ou réarrangement du gène ALK (ALK-positif)
+Row 24: |Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultes
+Row 25: |atteints d’un CBNPC métastatique dont les tumeurs présentent une expr
+
+=== Population Extract 191 (Patients) ===
+iation au nab-paclitaxel et carboplatine, en première ligne de
+Row 22: |traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sans
+Row 23: |EGFR muté ou réarrangement du gène ALK (ALK-positif)
+Row 24: |Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultes
+Row 25: |atteints d’un CBNPC métastatique dont les tumeurs présentent une expression de PD-L1 ≥
+Row 26: |50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant la
+Row 27: |tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+
+=== Population Extract 192 (Patients) ===
+e PD-L1 ≥
+Row 26: |50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant la
+Row 27: |tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+Row 28: |gène ALK (ALK-positif).
+Row 29: |Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPC
+Row 30: |localement avancé ou métastatique après une chimiothérapie antérieure. Les patients
+Row 31: |atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doivent
+Row 32: |également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.
+Ro
+
+=== Population Extract 193 (Patients) ===
+meur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du
+Row 28: |gène ALK (ALK-positif).
+Row 29: |Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPC
+Row 30: |localement avancé ou métastatique après une chimiothérapie antérieure. Les patients
+Row 31: |atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doivent
+Row 32: |également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.
+Row 33: |Est indiqué pour le traitement adjuvant, après une résection complète et une
+Row 34: |chimiothérapie à base de pla
+
+=== Population Extract 194 (Patients) ===
+35: |risque élevé de récidive, dont les tumeurs présentent une expression de PD-L1 sur la
+Row 36: |moitié des cellules tumorales ou plus (PD-L1≥50 %), et dont le cancer n’a pas les
+Row 37: |mutations EGFR ou ALK+ Row 1: cemiplimab||Est indiqué en monothérapie pour le traitement de première ligne de patients adultes|
+Row 2: ||atteints d’un CBNPC exprimant PD-L1 (dans ≥ 50 % des cellules tumorales) sans altérations|
+Row 3: ||du gène EGFR, ALK ou ROS1, qui ont :|
+Row 4: ||- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou|
+Row 5: ||- un CBNPC métastatique.|
+Row 6: ||Est
+
+=== Population Extract 195 (Patients) ===
+gène EGFR, ALK ou ROS1, qui ont :|
+Row 4: ||- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou|
+Row 5: ||- un CBNPC métastatique.|
+Row 6: ||Est indiqué en association à une chimiothérapie à base de sels de platine pour le|
+Row 7: ||traitement de première ligne de patients adultes atteints d’un cancer bronchopulmonaire|
+Row 8: ||non à petites cellules (CBNPC) exprimant PD-L1 (dans ≥ 1 % des cellules tumorales) sans|
+Row 9: ||altérations du gène EGFR, ALK ou ROS1, et qui ont :|
+Row 10: ||- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ;
+
+=== Population Extract 196 (Patients) ===
+, ALK ou ROS1, et qui ont :|
+Row 10: ||- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou|
+Row 11: ||- un CBNPC métastatique.|
+Row 12: nivolumab||Est indiqué en association à une chimiothérapie à base de sels de platine dans le|
+Row 13: ||traitement néoadjuvant des patients adultes, atteints d’un cancer bronchique non à|
+Row 14: ||petites cellules résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au|
+Row 15: ||seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR|
+Row 16: ||connue, ni de translocation ALK connue|
+Ro
+
+=== Population Extract 197 (Patients) ===
+es tumeurs ne présentent pas de mutation sensibilisante de l’EGFR|
+Row 16: ||connue, ni de translocation ALK connue|
+Row 17: tislelizumab||L’indication en combinaison concerne l’association au pemetrexed et une chimiothérapie|
+Row 18: ||contenant du platine, dans le traitement de première ligne des patients adultes atteints|
+Row 19: ||d’un cancer du poumon NAPC non épidermoïde dont les tumeurs présentent une|
+Row 20: ||expression de PD-L1 ≥50 % des cellules tumorales, sans mutation positive EGFR ou ALK, et|
+Row 21: ||qui présentent :|
+Row 22: ||- un cancer du poumon NAPC localement avancé et qui ne so
+
+=== Population Extract 198 (Patients) ===
+:|
+Row 22: ||- un cancer du poumon NAPC localement avancé et qui ne sont pas candidats à une|
+Row 23: ||résection chirurgicale ou à une chimioradiothérapie à base de platine ; ou|
+Row 24: ||- un cancer du poumon NAPC métastatique.|
+Row 25: ||En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un|
+Row 26: ||cancer du poumon NAPC localement avancé ou métastatique après un traitement|
+Row 27: ||antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec|
+Row 28: ||mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|
+Row 29:
+
+=== Population Extract 199 (Patients) ===
+de platine ; ou|
+Row 24: ||- un cancer du poumon NAPC métastatique.|
+Row 25: ||En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un|
+Row 26: ||cancer du poumon NAPC localement avancé ou métastatique après un traitement|
+Row 27: ||antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec|
+Row 28: ||mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|
+Row 29: ||de recevoir le tislélizumab.|
+Row 30: ||(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)|
+Row 31: |Fusion impliquant NTRK1/2/3||
+Row 32: larot
+
+=== Population Extract 200 (Patients) ===
+GFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|
+Row 29: ||de recevoir le tislélizumab.|
+Row 30: ||(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)|
+Row 31: |Fusion impliquant NTRK1/2/3||
+Row 32: larotrectinib||Est indiqué en monothérapie pour le traitement des patients adultes et pédiatriques|
+Row 33: ||atteints d’une tumeur solide présentant une fusion d’un des gènes NTRK1/2/3.|
+Row 34: ||- ayant une maladie au stade localement avancé ou métastatique, ou pour laquelle une|
+Row 35: ||résection chirurgicale risquerait d’entraîner une morbidité sévère ; et|
+Row 36:
+
+=== Population Extract 201 (Patients) ===
+slelizu|
+Row 4: |Fusion i
+Row 5: larotrec|
+Row 6: Repotre| Row 1: 
+Row 2: imab
+Row 3: 
+Row 4: 
+Row 5: mab
+Row 6: 
+Row 7: 
+Row 8: umab
+Row 9: 
+Row 10: impliq
+Row 11: 
+Row 12: ctinib
+Row 13: 
+Row 14: 
+Row 15: ectinib
+Row 16:  Row 1: |Est indiqué en monothérapie pour le traitement de première ligne de patients adultes|
+Row 2: |atteints d’un CBNPC exprimant PD-L1 (dans ≥ 50 % des cellules tumorales) sans altérations|
+Row 3: |du gène EGFR, ALK ou ROS1, qui ont :|
+Row 4: |- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou|
+Row 5: |- un CBNPC métastatique.|
+Row 6: |Est indi
+
+=== Population Extract 202 (Patients) ===
+|du gène EGFR, ALK ou ROS1, qui ont :|
+Row 4: |- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou|
+Row 5: |- un CBNPC métastatique.|
+Row 6: |Est indiqué en association à une chimiothérapie à base de sels de platine pour le|
+Row 7: |traitement de première ligne de patients adultes atteints d’un cancer bronchopulmonaire|
+Row 8: |non à petites cellules (CBNPC) exprimant PD-L1 (dans ≥ 1 % des cellules tumorales) sans|
+Row 9: |altérations du gène EGFR, ALK ou ROS1, et qui ont :|
+Row 10: |- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou
+
+=== Population Extract 203 (Patients) ===
+du gène EGFR, ALK ou ROS1, et qui ont :|
+Row 10: |- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou|
+Row 11: |- un CBNPC métastatique.|
+Row 12: |Est indiqué en association à une chimiothérapie à base de sels de platine dans le|
+Row 13: |traitement néoadjuvant des patients adultes, atteints d’un cancer bronchique non à|
+Row 14: |petites cellules résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au|
+Row 15: |seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR|
+Row 16: |connue, ni de translocation ALK connue|
+Row 1
+
+=== Population Extract 204 (Patients) ===
+≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR|
+Row 16: |connue, ni de translocation ALK connue|
+Row 17: |L’indication en combinaison concerne l’association au pemetrexed et une chimiothérapie|
+Row 18: |contenant du platine, dans le traitement de première ligne des patients adultes atteints|
+Row 19: |d’un cancer du poumon NAPC non épidermoïde dont les tumeurs présentent une|
+Row 20: |expression de PD-L1 ≥50 % des cellules tumorales, sans mutation positive EGFR ou ALK, et|
+Row 21: |qui présentent :|
+Row 22: |- un cancer du poumon NAPC localement avancé et qui ne sont p
+
+=== Population Extract 205 (Patients) ===
+ent :|
+Row 22: |- un cancer du poumon NAPC localement avancé et qui ne sont pas candidats à une|
+Row 23: |résection chirurgicale ou à une chimioradiothérapie à base de platine ; ou|
+Row 24: |- un cancer du poumon NAPC métastatique.|
+Row 25: |En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un|
+Row 26: |cancer du poumon NAPC localement avancé ou métastatique après un traitement|
+Row 27: |antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec|
+Row 28: |mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|
+Row 29: |d
+
+=== Population Extract 206 (Patients) ===
+base de platine ; ou|
+Row 24: |- un cancer du poumon NAPC métastatique.|
+Row 25: |En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un|
+Row 26: |cancer du poumon NAPC localement avancé ou métastatique après un traitement|
+Row 27: |antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec|
+Row 28: |mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|
+Row 29: |de recevoir le tislélizumab.|
+Row 30: |(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)|
+Row 31: quant NTRK1/2/3||
+Row 32: |Est indiqué en monot
+
+=== Population Extract 207 (Patients) ===
+APC avec|
+Row 28: |mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|
+Row 29: |de recevoir le tislélizumab.|
+Row 30: |(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)|
+Row 31: quant NTRK1/2/3||
+Row 32: |Est indiqué en monothérapie pour le traitement des patients adultes et pédiatriques|
+Row 33: |atteints d’une tumeur solide présentant une fusion d’un des gènes NTRK1/2/3.|
+Row 34: |- ayant une maladie au stade localement avancé ou métastatique, ou pour laquelle une|
+Row 35: |résection chirurgicale risquerait d’entraîner une morbidité sévère ; et|
+Row 36: |-
+
+=== Population Extract 208 (Patients) ===
+on à petites cellules localement avancé ou métastatique Ros1-Positif et des|
+Row 39: |tumeurs solides Ntrk-Positives (dépêche du 2/01/2024, en attente de la publication|
+Row 40: |par l’EMA)| Row 1: |Mutation saut d’exon 14 c-MET||
+Row 2: capmatinib||Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer|
+Row 3: ||bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne|
+Row 4: ||le saut de l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale|
+Row 5: ||(METex14), qui nécessitent un traitement systémique après un trai
+
+=== Population Extract 209 (Patients) ===
+au niveau du gène du facteur de transition mésenchymato-épithéliale|
+Row 5: ||(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|
+Row 6: ||immunothérapie et/ou chimiothérapie à base de platine.|
+Row 7: tepotinib||Est indiqué en monothérapie pour le traitement des patients adultes atteints d’un cancer|
+Row 8: ||bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne le|
+Row 9: ||saut de l’exon 14 au niveau du gène du facteur de transition épithélio-mésenchymateuse|
+Row 10: ||(METex14), qui nécessitent un traitement systémique après un tr
+
+=== Population Extract 210 (Patients) ===
+euse|
+Row 10: ||(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|
+Row 11: ||immunothérapie et/ou chimiothérapie à base de platine.|
+Row 12: |Mutation activatrice de HER2 (ERBB2)||
+Row 13: trastuzumab déruxtécan||Est indiqué en monothérapie dans le traitement des patients adultes présentant un CBNPC|
+Row 14: ||avec mutation activatrice du gène HER2 (ERBB2) nécessitant un traitement systémique après|
+Row 15: ||une chimiothérapie à base de platine associée ou non à une immunothérapie.| Row 1: trastuzumab
+Row 2: déruxtécan Row 1: Molécules|||
+Row 2: ||Libellé Autorisat
+
+=== Population Extract 211 (Patients) ===
+e après|
+Row 15: ||une chimiothérapie à base de platine associée ou non à une immunothérapie.| Row 1: trastuzumab
+Row 2: déruxtécan Row 1: Molécules|||
+Row 2: ||Libellé Autorisations d’accès précoces et compassionnels|
+Row 3: |||
+Row 4: |Expression de PD-L1 (TPS)||
+Row 5: durvalumab||Traitement des patients adultes atteints d’un CBNPC localement avancé non opérable et|
+Row 6: ||dont la maladie n’a pas progressé après une chimioradiothérapie à base de platine, en cas|
+Row 7: ||d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le|
+Row 8: ||résultat de ce marqueur n’est
+
+=== Population Extract 212 (Patients) ===
+|
+Row 7: ||d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le|
+Row 8: ||résultat de ce marqueur n’est pas exploitable (statut inconnu).|
+Row 9: nivolumab||En association à une chimiothérapie à base de sels de platine dans le traitement|
+Row 10: ||néoadjuvant des patients adultes, atteints d’un cancer bronchique non à petites cellules|
+Row 11: ||résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et|
+Row 12: ||dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de|
+Row 13: ||translocation ALK connue.|
+R
+
+=== Population Extract 213 (Patients) ===
+cellules|
+Row 11: ||résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et|
+Row 12: ||dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de|
+Row 13: ||translocation ALK connue.|
+Row 14: |Mutation d’EGFR exon 20||
+Row 15: mobocertinib||Patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) EGFR|
+Row 16: ||muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de|
+Row 17: ||sels de platine :|
+Row 18: ||- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité d
+
+=== Population Extract 214 (Patients) ===
+muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de|
+Row 17: ||sels de platine :|
+Row 18: ||- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du|
+Row 19: ||traitement permettent de justifier sa poursuite ; ou|
+Row 20: ||- chez les patients ne pouvant bénéficier du Rybrevant.|
+Row 21: ||Information importante du 23/11/2023 :|
+Row 22: ||Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que|
+Row 23: ||pour les patients déjà en cours de traitement.| Row 1: |Mutatio
+Row 2: capmat|
+Row 3: tepotin|
+Row 4: |Mut
+
+=== Population Extract 215 (Patients) ===
+du|
+Row 19: ||traitement permettent de justifier sa poursuite ; ou|
+Row 20: ||- chez les patients ne pouvant bénéficier du Rybrevant.|
+Row 21: ||Information importante du 23/11/2023 :|
+Row 22: ||Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que|
+Row 23: ||pour les patients déjà en cours de traitement.| Row 1: |Mutatio
+Row 2: capmat|
+Row 3: tepotin|
+Row 4: |Mutatio
+Row 5: trastuzu déruxté| Row 1: trastuzu
+Row 2: déruxté Row 1: Molécu|
+Row 2: |Express
+Row 3: durvalu|
+Row 4: nivolum|
+Row 5: |Mutatio
+Row 6: moboce| Row 1: on saut d’exon 14 c-MET||
+Row 2: tinib|Est indiqu
+
+=== Population Extract 216 (Patients) ===
+utatio
+Row 2: capmat|
+Row 3: tepotin|
+Row 4: |Mutatio
+Row 5: trastuzu déruxté| Row 1: trastuzu
+Row 2: déruxté Row 1: Molécu|
+Row 2: |Express
+Row 3: durvalu|
+Row 4: nivolum|
+Row 5: |Mutatio
+Row 6: moboce| Row 1: on saut d’exon 14 c-MET||
+Row 2: tinib|Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer|
+Row 3: |bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne|
+Row 4: |le saut de l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale|
+Row 5: |(METex14), qui nécessitent un traitement systémique après un traitem
+
+=== Population Extract 217 (Patients) ===
+l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale|
+Row 5: |(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|
+Row 6: |immunothérapie et/ou chimiothérapie à base de platine.|
+Row 7: nib|Est indiqué en monothérapie pour le traitement des patients adultes atteints d’un cancer|
+Row 8: |bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne le|
+Row 9: |saut de l’exon 14 au niveau du gène du facteur de transition épithélio-mésenchymateuse|
+Row 10: |(METex14), qui nécessitent un traitement systémique après un trait
+
+=== Population Extract 218 (Patients) ===
+n épithélio-mésenchymateuse|
+Row 10: |(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|
+Row 11: |immunothérapie et/ou chimiothérapie à base de platine.|
+Row 12: on activatrice de HER2 (ERBB2)||
+Row 13: umab écan|Est indiqué en monothérapie dans le traitement des patients adultes présentant un CBNPC|
+Row 14: |avec mutation activatrice du gène HER2 (ERBB2) nécessitant un traitement systémique après|
+Row 15: |une chimiothérapie à base de platine associée ou non à une immunothérapie.| Row 1: umab
+Row 2: écan Row 1: ules||
+Row 2: |Libellé Autorisations d’accès précoces
+
+=== Population Extract 219 (Patients) ===
+nécessitant un traitement systémique après|
+Row 15: |une chimiothérapie à base de platine associée ou non à une immunothérapie.| Row 1: umab
+Row 2: écan Row 1: ules||
+Row 2: |Libellé Autorisations d’accès précoces et compassionnels|
+Row 3: ||
+Row 4: sion de PD-L1 (TPS)||
+Row 5: umab|Traitement des patients adultes atteints d’un CBNPC localement avancé non opérable et|
+Row 6: |dont la maladie n’a pas progressé après une chimioradiothérapie à base de platine, en cas|
+Row 7: |d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le|
+Row 8: |résultat de ce marqueur n’est pa
+
+=== Population Extract 220 (Patients) ===
+ne, en cas|
+Row 7: |d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le|
+Row 8: |résultat de ce marqueur n’est pas exploitable (statut inconnu).|
+Row 9: mab|En association à une chimiothérapie à base de sels de platine dans le traitement|
+Row 10: |néoadjuvant des patients adultes, atteints d’un cancer bronchique non à petites cellules|
+Row 11: |résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et|
+Row 12: |dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de|
+Row 13: |translocation ALK connue.|
+Row
+
+=== Population Extract 221 (Patients) ===
+e non à petites cellules|
+Row 11: |résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et|
+Row 12: |dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de|
+Row 13: |translocation ALK connue.|
+Row 14: on d’EGFR exon 20||
+Row 15: ertinib|Patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) EGFR|
+Row 16: |muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de|
+Row 17: |sels de platine :|
+Row 18: |- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du|
+
+=== Population Extract 222 (Patients) ===
+6: |muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de|
+Row 17: |sels de platine :|
+Row 18: |- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du|
+Row 19: |traitement permettent de justifier sa poursuite ; ou|
+Row 20: |- chez les patients ne pouvant bénéficier du Rybrevant.|
+Row 21: |Information importante du 23/11/2023 :|
+Row 22: |Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que|
+Row 23: |pour les patients déjà en cours de traitement.| Row 1: amivantamab|||En association au carboplatine et au pem
+
+=== Population Extract 223 (Patients) ===
+rité du|
+Row 19: |traitement permettent de justifier sa poursuite ; ou|
+Row 20: |- chez les patients ne pouvant bénéficier du Rybrevant.|
+Row 21: |Information importante du 23/11/2023 :|
+Row 22: |Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que|
+Row 23: |pour les patients déjà en cours de traitement.| Row 1: amivantamab|||En association au carboplatine et au pemetrexed en première ligne de traitement des|
+Row 2: |||patients adultes atteints d’un cancer bronchique non à petites cellules avancé avec|
+Row 3: |||mutations activatrices du récepteur du facteur de croissan
+
+=== Population Extract 224 (Patients) ===
+ion importante du 23/11/2023 :|
+Row 22: |Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que|
+Row 23: |pour les patients déjà en cours de traitement.| Row 1: amivantamab|||En association au carboplatine et au pemetrexed en première ligne de traitement des|
+Row 2: |||patients adultes atteints d’un cancer bronchique non à petites cellules avancé avec|
+Row 3: |||mutations activatrices du récepteur du facteur de croissance épidermique (EGFR) par|
+Row 4: |||insertion dans l’exon 20, pour les patients non opérables|
+Row 5: |Mutation KRAS G12C|||
+Row 6: adagrasib (AAC)|||Canc
+
+=== Population Extract 225 (Patients) ===
+rboplatine et au pemetrexed en première ligne de traitement des|
+Row 2: |||patients adultes atteints d’un cancer bronchique non à petites cellules avancé avec|
+Row 3: |||mutations activatrices du récepteur du facteur de croissance épidermique (EGFR) par|
+Row 4: |||insertion dans l’exon 20, pour les patients non opérables|
+Row 5: |Mutation KRAS G12C|||
+Row 6: adagrasib (AAC)|||Cancer bronchique non à petites cellules avancé ou métastatique : en présence d’une|
+Row 7: |||mutation de KRAS p.G12C, ayant échappé à une seconde ligne de traitement par|
+Row 8: |||docetaxel ou non éligible à un traitement par
+
+=== Population Extract 226 (Patients) ===
+de KRAS p.G12C, ayant échappé à une seconde ligne de traitement par|
+Row 8: |||docetaxel ou non éligible à un traitement par docetaxel.|
+Row 9: |||(Attention, risque potentiel d’effets indésirables cutanés sévères)|
+Row 10: |Mutation avec saut de l’exon 14 MET|||
+Row 11: crizotinib|||Traitement des patients adultes atteints d’un CBNPC localement avancé ou métastatique|
+Row 12: |||présentant une mutation du site d’épissage de l’exon 14 de c-MET, après au moins une|
+Row 13: |||ligne de traitement à base de doublet de platine associé ou non à une immunothérapie|
+Row 14: |Amplification de MET ou surexpres
+
+=== Population Extract 227 (Patients) ===
+lignes de traitement ;|
+Row 17: |||- amplification c-MET ou surexpression c-MET caractérisée par IHC ;|
+Row 18: |||- absence de mutation EGFR.|
+Row 19: |Fusion de ROS1|||
+Row 20: |repotrectinib||Cancer bronchique non à petites cellules avancé ou métastatique ROS1-positif, chez des|
+Row 21: |(AAC)||patients adultes ayant déjà reçu une première ligne de traitement par Crizotinib|
+Row 22: |Fusion de NTRK1/2/3|||
+Row 23: repotrectinib (AAC)|||Tumeurs solides exprimant une fusion du gène NTRK1/2/3, non résécables métastatiques|
+Row 24: |||ou localement avancées, chez des patients ayant déjà reçu une premi
+
+=== Population Extract 228 (Patients) ===
+chez des|
+Row 21: |(AAC)||patients adultes ayant déjà reçu une première ligne de traitement par Crizotinib|
+Row 22: |Fusion de NTRK1/2/3|||
+Row 23: repotrectinib (AAC)|||Tumeurs solides exprimant une fusion du gène NTRK1/2/3, non résécables métastatiques|
+Row 24: |||ou localement avancées, chez des patients ayant déjà reçu une première ligne de|
+Row 25: |||traitement.|
+Row 26: |Fusion de RET|||
+Row 27: selpercatinib|||En monothérapie dans le traitement des patients adultes atteints d’un cancer bronchique|
+Row 28: |||non à petites cellules (CBNPC) avancé présentant une fusion du gène RET non|
+Row 29: |
+
+=== Population Extract 229 (Patients) ===
+(AAC)|||Tumeurs solides exprimant une fusion du gène NTRK1/2/3, non résécables métastatiques|
+Row 24: |||ou localement avancées, chez des patients ayant déjà reçu une première ligne de|
+Row 25: |||traitement.|
+Row 26: |Fusion de RET|||
+Row 27: selpercatinib|||En monothérapie dans le traitement des patients adultes atteints d’un cancer bronchique|
+Row 28: |||non à petites cellules (CBNPC) avancé présentant une fusion du gène RET non|
+Row 29: |||précédemment traités par un inhibiteur de RET uniquement en première ligne de|
+Row 30: |||traitement.| Row 1: telisotuzumab
+Row 2: vedotin (AAC) Row 1: repotre
+
+=== Population Extract 230 (Adults) ===
+Okamoto I, Kasahara K, Naito T, Li L, Gupta RG, Bushong J, Mizutani H. Int J Clin Oncol. 2023
+Oct;28(10):1354-1368. doi: 10.1007/s10147-023-02390-2. Epub 2023 Aug 7. PMID: 37548831 Free
+PMC article. Clinical Trial.
+6. PMID: 37557022
+Pembrolizumab as first-line treatment for advanced NSCLC in older adults: A phase II clinical trial
+evaluating geriatric and quality-of-life outcomes.
+Blanco R, Dómine M, González JL, Loutfi S, Alfaro J, Saldaña J, Rubio J, Campos B, Hidalgo J, Barba A,
+Márquez D, Martin M, Olaverri A, Nadal E. Lung Cancer. 2023 Sep;183:107318. doi:
+10.1016/j.lungcan.2023.107318. EPub 2
+
+=== Population Extract 231 (Participants) ===
+.......................................................
+ÉLABORATION ...........................................................................................................
+MÉTHODOLOGIE ..........................................................................................................
+LES PARTICIPANTS ........................................................................................................
+ANNEXES ...................................................................................................................
+ANNEXE 1. BIOMARQUEURS FIGURANT DANS LES RECOMMANDATIONS INTERNATI
+CLI
+

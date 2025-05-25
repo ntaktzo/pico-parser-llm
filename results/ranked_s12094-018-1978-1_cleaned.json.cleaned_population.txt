@@ -1,0 +1,436 @@
+# Top 30 ranked extracts from s12094-018-1978-1_cleaned.json.cleaned_population.txt
+
+=== Ranked Extract 1 (#25, Patients) — Score: 12 ===
+-based chemotherapy in completely resected fit
+stage II–III patients [13].
+• Four cycles of cisplatin-based chemotherapy following
+complete resection in stage II NSCLC patients remain
+the standard of care in adjuvant setting, offering a 5% OS
+benefit [13] (I,A).
+1b
+• Stage I (7th TNM edition) NSCLC patients do not ben-
+efit from adjuvant therapy except those patients with
+tumors > 4 cm [5, 14] (I,C).
+• In elderly fit patients, adjuvant platinum-based chemo-
+therapy should be considered.
+• Postoperative radiotherapy (PORT) is not indicated in
+C
+completely resected stage I–II NSCLC patients [15] (I,A-
+d
+
+=== Ranked Extract 2 (#23, Patients) — Score: 11 ===
+ended for patients with positive
+margins in resected stage I–II NSCLC patients. If it is not
+possible, postoperative radiotherapy may be considered
+Adjuvant therapy
+Overall survival (OS) benefit of adjuvant treatment is limited
+to cisplatin-based chemotherapy in completely resected fit
+stage II–III patients [13].
+• Four cycles of cisplatin-based chemotherapy following
+complete resection in stage II NSCLC patients remain
+the standard of care in adjuvant setting, offering a 5% OS
+benefit [13] (I,A).
+1b
+• Stage I (7th TNM edition) NSCLC patients do not ben-
+efit from adjuvant therapy except those patient
+
+=== Ranked Extract 3 (#24, Patients) — Score: 11 ===
+perative radiotherapy may be considered
+Adjuvant therapy
+Overall survival (OS) benefit of adjuvant treatment is limited
+to cisplatin-based chemotherapy in completely resected fit
+stage II–III patients [13].
+• Four cycles of cisplatin-based chemotherapy following
+complete resection in stage II NSCLC patients remain
+the standard of care in adjuvant setting, offering a 5% OS
+benefit [13] (I,A).
+1b
+• Stage I (7th TNM edition) NSCLC patients do not ben-
+efit from adjuvant therapy except those patients with
+tumors > 4 cm [5, 14] (I,C).
+• In elderly fit patients, adjuvant platinum-based chemo-
+therapy should
+
+=== Ranked Extract 4 (#26, Patients) — Score: 11 ===
+atients [13].
+• Four cycles of cisplatin-based chemotherapy following
+complete resection in stage II NSCLC patients remain
+the standard of care in adjuvant setting, offering a 5% OS
+benefit [13] (I,A).
+1b
+• Stage I (7th TNM edition) NSCLC patients do not ben-
+efit from adjuvant therapy except those patients with
+tumors > 4 cm [5, 14] (I,C).
+• In elderly fit patients, adjuvant platinum-based chemo-
+therapy should be considered.
+• Postoperative radiotherapy (PORT) is not indicated in
+C
+completely resected stage I–II NSCLC patients [15] (I,A-
+d,
+II,A).
+ve Preoperative chemotherapy has the potential role
+
+=== Ranked Extract 5 (#27, Patients) — Score: 11 ===
+following
+complete resection in stage II NSCLC patients remain
+the standard of care in adjuvant setting, offering a 5% OS
+benefit [13] (I,A).
+1b
+• Stage I (7th TNM edition) NSCLC patients do not ben-
+efit from adjuvant therapy except those patients with
+tumors > 4 cm [5, 14] (I,C).
+• In elderly fit patients, adjuvant platinum-based chemo-
+therapy should be considered.
+• Postoperative radiotherapy (PORT) is not indicated in
+C
+completely resected stage I–II NSCLC patients [15] (I,A-
+d,
+II,A).
+ve Preoperative chemotherapy has the potential role to reduce
+tumor size, increase operability, and eliminate mi
+
+=== Ranked Extract 6 (#8, Patients) — Score: 10 ===
+] and ASCO [5] guidelines, as it has scopic ultrasound-guided fine-needle aspiration are
+demonstrated to have an impact on patients’ outcomes (I,A). recommended in patients with suspected mediastinal or
+New molecular guidelines recommend to include upfront hilar lymph nodes (LNs) in the PET–CT. For patients
+ROS-1 testing along with EGFR and ALK in stage IV non- with suspected LNs on PET–CT and negative EBUS/
+SCC and endorse to include other additional genes such as EUS results, an additional mediastinoscopy is recom-
+BRAF, MET, HER2, KRAS and RET for laboratories that mended. In patients with no suspe
+
+=== Ranked Extract 7 (#10, Patients) — Score: 10 ===
+oscopy is recom-
+BRAF, MET, HER2, KRAS and RET for laboratories that mended. In patients with no suspected LN on the PET-
+perform next-generation sequencing (NGS) testing [5]. Immu- CT, invasive mediastinal staging is also recommended
+nohistochemistry can be considered as an alternative to fluo- in patients with enlarged mediastinal LNs (≥ 1.5 cm),
+rescence in situ hybridization for ALK and/or ROS1 testing. in tumors ≥ 3 cm and/or in patients with central tumors.
+In EGFR mutant patients progressing on first- or second- • Histological and cytological confirmation is strongly
+generation EGFR TKI, the de
+
+=== Ranked Extract 8 (#16, Patients) — Score: 10 ===
+M0
+IIB T1a-T2b N1 M0
+T3 N0 M0
+IIIA T1a-T2b N2 M0
+T3 N1 M0
+T4 N0/N1 M0
+IIIB T1a-T2b N3 M0
+T3/T4 N2 M0
+IIIC T3/T4 N3 M0
+IVA Any T Any N M1a/M1
+IVB Any T Any N M1c
+Stage I–II
+A multidisciplinary tumor board evaluation of NSCLC
+patients with stage I-II disease is strongly recommended
+even non-surgical patients. It has to include a preoperativ
+cardiopulmonary assessment.
+Surgery
+For stage I–II NSCLC patients and no medical contraindi
+cations to surgery, surgical resection remains the treatmen
+of choice, yielding the best potential choice of cure fo
+these patients (IB).
+The type of surgery resection depend
+
+=== Ranked Extract 9 (#17, Patients) — Score: 10 ===
+M0
+IIIC T3/T4 N3 M0
+IVA Any T Any N M1a/M1
+IVB Any T Any N M1c
+Stage I–II
+A multidisciplinary tumor board evaluation of NSCLC
+patients with stage I-II disease is strongly recommended
+even non-surgical patients. It has to include a preoperativ
+cardiopulmonary assessment.
+Surgery
+For stage I–II NSCLC patients and no medical contraindi
+cations to surgery, surgical resection remains the treatmen
+of choice, yielding the best potential choice of cure fo
+these patients (IB).
+The type of surgery resection depends on the extensio
+of the disease, the location of the tumor and the preopera
+tive evaluation:
+• In
+
+=== Ranked Extract 10 (#21, Patients) — Score: 10 ===
+ent
+who cannot tolerate a lobar resection due to decrease
+pulmonary function or comorbid disease (I,B).
+• For patients with a stage I predominantly ground glass
+opacity with lesion ≤ 1 cm, sublobar resection with nega-
+tive margins is suggested over lobectomy (I,B).
+• Reresection is recommended for patients with positive
+margins in resected stage I–II NSCLC patients. If it is not
+possible, postoperative radiotherapy may be considered
+Adjuvant therapy
+Overall survival (OS) benefit of adjuvant treatment is limited
+to cisplatin-based chemotherapy in completely resected fit
+stage II–III patients [13].
+• F
+
+=== Ranked Extract 11 (#22, Patients) — Score: 10 ===
+lmonary function or comorbid disease (I,B).
+• For patients with a stage I predominantly ground glass
+opacity with lesion ≤ 1 cm, sublobar resection with nega-
+tive margins is suggested over lobectomy (I,B).
+• Reresection is recommended for patients with positive
+margins in resected stage I–II NSCLC patients. If it is not
+possible, postoperative radiotherapy may be considered
+Adjuvant therapy
+Overall survival (OS) benefit of adjuvant treatment is limited
+to cisplatin-based chemotherapy in completely resected fit
+stage II–III patients [13].
+• Four cycles of cisplatin-based chemotherapy following
+complet
+
+=== Ranked Extract 12 (#28, Patients) — Score: 10 ===
+ition) NSCLC patients do not ben-
+efit from adjuvant therapy except those patients with
+tumors > 4 cm [5, 14] (I,C).
+• In elderly fit patients, adjuvant platinum-based chemo-
+therapy should be considered.
+• Postoperative radiotherapy (PORT) is not indicated in
+C
+completely resected stage I–II NSCLC patients [15] (I,A-
+d,
+II,A).
+ve Preoperative chemotherapy has the potential role to reduce
+tumor size, increase operability, and eliminate micrometas-
+i- tases. A meta-analysis with 15 randomized trials showed
+nt a significant benefit of preoperative chemotherapy on OS
+or (representing an absolute survival
+
+=== Ranked Extract 13 (#30, Patients) — Score: 10 ===
+clu-
+a- sive evidence favors adjuvant treatment (I,B).
+Stereotactic ablative radiotherapy (SART)
+my
+ed
+SART is recommended for medically inoperable NSCLC
+i-
+patients with node negative tumors ≤5 cm (2C). Several non-
+er
+randomized studies suggest that SART might be a suitable
+u-
+option for operable patients older than 75 years [17] (II,C).
+ts
+ph
+Other adjuvant treatments
+fit
+is Adjuvant EGFR TKI in patients with EGFR mutation has
+ts not demonstrated a survival benefit yet. Several trials in
+ed patients with EGFR mutations or ALK translocations in
+adjuvant setting are ongoing [18]. Stage III NSCLC is a
+
+=== Ranked Extract 14 (#31, Patients) — Score: 10 ===
+SART is recommended for medically inoperable NSCLC
+i-
+patients with node negative tumors ≤5 cm (2C). Several non-
+er
+randomized studies suggest that SART might be a suitable
+u-
+option for operable patients older than 75 years [17] (II,C).
+ts
+ph
+Other adjuvant treatments
+fit
+is Adjuvant EGFR TKI in patients with EGFR mutation has
+ts not demonstrated a survival benefit yet. Several trials in
+ed patients with EGFR mutations or ALK translocations in
+adjuvant setting are ongoing [18]. Stage III NSCLC is a heterogeneous and complex disease Unresectable LA-NSCLC includes stage IIIA N2 (bulky
+that has been c
+
+=== Ranked Extract 15 (#34, Patients) — Score: 10 ===
+he treatment of choice
+enced multidisciplinary team (Fig. 1). for medically fit patients (I,A). Several randomized clini-
+cal trials and a meta-analysis have shown a higher 5-year
+Resectable and potentially resectable NSCLC survival rates favoring this strategy over sequential
+approaches [24].
+• In patients with R0 resected stage III NSCLC, 4 cycles of • Cisplatin-based combinations are recommended for med-
+adjuvant platinum-based chemotherapy should be given ically fit patients (usually with etoposide or vinorelbine)
+(preferably cisplatin doublet) [19] (I,A). [24].
+• In patients with pathological N2
+
+=== Ranked Extract 16 (#53, Patients) — Score: 10 ===
+S in two randomized clinical for those patients with contraindications to immunother-
+trials and, therefore, it can be offered to patients with apy or nintedanib combination therapy (non-SCC) [56,
+advanced PS 0–1 non-SCC and no contraindications for 57].
+antiangiogenic treatment [6, 48] (I,A). • In patients who have received an immune checkpoint
+• Maintenance therapy can be considered in those PS 0–1 inhibitor as first-line therapy, platinum doublets are rec-
+patients with at least stable disease and who have recov- ommended (I,B).
+ered from residual toxicity after first-line chemotherapy: • For those
+
+=== Ranked Extract 17 (#61, Patients) — Score: 10 ===
+with
+was submitted. comorbidities or unfit patients [60] (IB).
+• For patients with PS 2, chemotherapy prolongs OS
+compared to best supportive care (BSC) [61] (I,B). In
+Second‑line therapy
+an individualized-based decision, combination therapy,
+single-agent therapy, or palliative therapy alone may be
+Patients clinically or radiologically progressing after first- used for PS 2 patients. In the first-line setting, platinum-
+line therapy, with a PS 0–1 and appropriate PS 2, should be based doublets (preferably carboplatin) have superior
+offered second-line treatment (I,A). Second-line treatment efficacy to
+
+=== Ranked Extract 18 (#66, Patients) — Score: 10 ===
+cid:31)nue with targeted therapy (II,A)
+Fig. 3 Treatment algorithm for Stage IV with known targetable drivers
+based doublets (I,A) [64, 65]. Only a prespecified suba- After EGFR TKI progression
+nalysis showed a significant improvement in OS favoring
+afatinib in patients with Del19 mutations [65]. • Patients might benefit of continuation with the EGFR TKI,
+• Patients with PS 3–4 may also be offered an EGFR TKI, especially if clinical benefit is maintained from a sustained
+as they are likely to receive a similar clinical benefit to EGFR oncogenic blockade [7] or if there is an oligopro-
+patients with go
+
+=== Ranked Extract 19 (#67, Patients) — Score: 10 ===
+orithm for Stage IV with known targetable drivers
+based doublets (I,A) [64, 65]. Only a prespecified suba- After EGFR TKI progression
+nalysis showed a significant improvement in OS favoring
+afatinib in patients with Del19 mutations [65]. • Patients might benefit of continuation with the EGFR TKI,
+• Patients with PS 3–4 may also be offered an EGFR TKI, especially if clinical benefit is maintained from a sustained
+as they are likely to receive a similar clinical benefit to EGFR oncogenic blockade [7] or if there is an oligopro-
+patients with good PS (III,A). gressive disease treatable with local strateg
+
+=== Ranked Extract 20 (#68, Patients) — Score: 10 ===
+[65]. • Patients might benefit of continuation with the EGFR TKI,
+• Patients with PS 3–4 may also be offered an EGFR TKI, especially if clinical benefit is maintained from a sustained
+as they are likely to receive a similar clinical benefit to EGFR oncogenic blockade [7] or if there is an oligopro-
+patients with good PS (III,A). gressive disease treatable with local strategies (SART or
+• Results from direct comparison of first-, second- and surgery) (II,A) [75].
+third-generation EGFR TKIs in previously untreated • EGFR Exon 20, T790 M mutation, is the main mecha-
+patients have been reported. Although
+
+=== Ranked Extract 21 (#84, Patients) — Score: 10 ===
+ccurs in patients treated with cura-
+activity in CNS disease. In the ALEX trial, fewer patients tive intent and metachronously present 1–5 metastastic
+treated with alectinib (12%) had CNS progression than lesions suitable to ablative therapy.
+crizotinib (45%). In the ALTA-1 trial, intracranial RR
+• Patients with oligometastatic disease at diagno-
+was 78% for brigatinib versus 29% for crizotinib [82].
+sis should be treated with systemic therapy and
+• For asymptomatic or patients who became asymptomatic
+local consolidative ablative therapy (LAT) to pri-
+with steroids, brain-penetrable ALK TKIs may be us
+
+=== Ranked Extract 22 (#6, Patients) — Score: 9 ===
+ve mediastinal staging, endobronchial ultra-
+of NSCLC advanced disease is recommended in daily clinical sound-guided fine-needle aspiration and/or endo-
+practice by both ESMO [4] and ASCO [5] guidelines, as it has scopic ultrasound-guided fine-needle aspiration are
+demonstrated to have an impact on patients’ outcomes (I,A). recommended in patients with suspected mediastinal or
+New molecular guidelines recommend to include upfront hilar lymph nodes (LNs) in the PET–CT. For patients
+ROS-1 testing along with EGFR and ALK in stage IV non- with suspected LNs on PET–CT and negative EBUS/
+SCC and endorse to
+
+=== Ranked Extract 23 (#7, Patients) — Score: 9 ===
+ra-
+of NSCLC advanced disease is recommended in daily clinical sound-guided fine-needle aspiration and/or endo-
+practice by both ESMO [4] and ASCO [5] guidelines, as it has scopic ultrasound-guided fine-needle aspiration are
+demonstrated to have an impact on patients’ outcomes (I,A). recommended in patients with suspected mediastinal or
+New molecular guidelines recommend to include upfront hilar lymph nodes (LNs) in the PET–CT. For patients
+ROS-1 testing along with EGFR and ALK in stage IV non- with suspected LNs on PET–CT and negative EBUS/
+SCC and endorse to include other additional genes such as EU
+
+=== Ranked Extract 24 (#9, Patients) — Score: 9 ===
+e PET–CT. For patients
+ROS-1 testing along with EGFR and ALK in stage IV non- with suspected LNs on PET–CT and negative EBUS/
+SCC and endorse to include other additional genes such as EUS results, an additional mediastinoscopy is recom-
+BRAF, MET, HER2, KRAS and RET for laboratories that mended. In patients with no suspected LN on the PET-
+perform next-generation sequencing (NGS) testing [5]. Immu- CT, invasive mediastinal staging is also recommended
+nohistochemistry can be considered as an alternative to fluo- in patients with enlarged mediastinal LNs (≥ 1.5 cm),
+rescence in situ hybridization for AL
+
+=== Ranked Extract 25 (#11, Patients) — Score: 9 ===
+eration sequencing (NGS) testing [5]. Immu- CT, invasive mediastinal staging is also recommended
+nohistochemistry can be considered as an alternative to fluo- in patients with enlarged mediastinal LNs (≥ 1.5 cm),
+rescence in situ hybridization for ALK and/or ROS1 testing. in tumors ≥ 3 cm and/or in patients with central tumors.
+In EGFR mutant patients progressing on first- or second- • Histological and cytological confirmation is strongly
+generation EGFR TKI, the detection of EGFR T790M second- recommended in the presence of pleural/pericardial
+ary resistance mutations in tumor tissue is recommended (
+
+=== Ranked Extract 26 (#12, Patients) — Score: 9 ===
+T, invasive mediastinal staging is also recommended
+nohistochemistry can be considered as an alternative to fluo- in patients with enlarged mediastinal LNs (≥ 1.5 cm),
+rescence in situ hybridization for ALK and/or ROS1 testing. in tumors ≥ 3 cm and/or in patients with central tumors.
+In EGFR mutant patients progressing on first- or second- • Histological and cytological confirmation is strongly
+generation EGFR TKI, the detection of EGFR T790M second- recommended in the presence of pleural/pericardial
+ary resistance mutations in tumor tissue is recommended (I,A). effusion or isolated metastatic site.
+L
+
+=== Ranked Extract 27 (#15, Patients) — Score: 9 ===
+0
+IA1 T1a(mi)/T1a N0 M0
+IA2 T1b N0 M0
+IA3 T1c N0 M0
+IB T2a N0 M0
+IIA T2b N0 M0
+IIB T1a-T2b N1 M0
+T3 N0 M0
+IIIA T1a-T2b N2 M0
+T3 N1 M0
+T4 N0/N1 M0
+IIIB T1a-T2b N3 M0
+T3/T4 N2 M0
+IIIC T3/T4 N3 M0
+IVA Any T Any N M1a/M1
+IVB Any T Any N M1c
+Stage I–II
+A multidisciplinary tumor board evaluation of NSCLC
+patients with stage I-II disease is strongly recommended
+even non-surgical patients. It has to include a preoperativ
+cardiopulmonary assessment.
+Surgery
+For stage I–II NSCLC patients and no medical contraindi
+cations to surgery, surgical resection remains the treatmen
+of choice, yielding the best potential
+
+=== Ranked Extract 28 (#20, Patients) — Score: 9 ===
+tinal lymp
+node dissection may provide additional survival benefi
+over sampling [11] (II,B).
+• A sublobar resection (anatomical segmentectomy) i
+recommended over nonsurgical therapy for patient
+who cannot tolerate a lobar resection due to decrease
+pulmonary function or comorbid disease (I,B).
+• For patients with a stage I predominantly ground glass
+opacity with lesion ≤ 1 cm, sublobar resection with nega-
+tive margins is suggested over lobectomy (I,B).
+• Reresection is recommended for patients with positive
+margins in resected stage I–II NSCLC patients. If it is not
+possible, postoperative radiotherap
+
+=== Ranked Extract 29 (#29, Patients) — Score: 9 ===
+urvival improvement of 5% at
+5 years [16]. Although neoadjuvant chemotherapy has simi-
+on lar impact on OS than adjuvant chemotherapy, more conclu-
+a- sive evidence favors adjuvant treatment (I,B).
+Stereotactic ablative radiotherapy (SART)
+my
+ed
+SART is recommended for medically inoperable NSCLC
+i-
+patients with node negative tumors ≤5 cm (2C). Several non-
+er
+randomized studies suggest that SART might be a suitable
+u-
+option for operable patients older than 75 years [17] (II,C).
+ts
+ph
+Other adjuvant treatments
+fit
+is Adjuvant EGFR TKI in patients with EGFR mutation has
+ts not demonstrated a survival
+
+=== Ranked Extract 30 (#32, Patients) — Score: 9 ===
+2C). Several non-
+er
+randomized studies suggest that SART might be a suitable
+u-
+option for operable patients older than 75 years [17] (II,C).
+ts
+ph
+Other adjuvant treatments
+fit
+is Adjuvant EGFR TKI in patients with EGFR mutation has
+ts not demonstrated a survival benefit yet. Several trials in
+ed patients with EGFR mutations or ALK translocations in
+adjuvant setting are ongoing [18]. Stage III NSCLC is a heterogeneous and complex disease Unresectable LA-NSCLC includes stage IIIA N2 (bulky
+that has been classified into different subgroups: resectable, and/or multiple nodal involvement), stage IIIB an
+

@@ -1,0 +1,799 @@
+=== Comparator Extract 1 (Control) ===
+of Clinical Oncology
+American Thoracic Society
+Area Under the Curve
+i AWMF-Institut für Medizinisches Wiss
+Bronchialarterienembolisation
+Bundesarbeitsgemeinschaft für Rehab
+Biologisch Effektive Dosis
+Bürgerliches Gesetzbuch
+Berufskrankheit
+Bronchoskopie
+Best Supportive Care
+British Thoracic Society
+Control Group
+comprehensive geriatric assessment
+Konfidenzintervall
+Chronisch obstruktive Lungenerkrank
+Komplette Remission
+Computertomographie
+Common Terminology Criteria for Ad
+Deutsche Gesellschaft für Radioonkol
+© Leitlinienprogramm Onkologie | Lungenk
+y
+sensm
+bilitat
+kung
+dverse
+logie
+karzino
+manag
+ti
+
+=== Comparator Extract 2 (Control) ===
+evention, Aetiology, Harm: Systematic Review (with homogeneity)
+of cohort studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of case-control studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+ford 2009) Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+and case-control studies)
+2.2 Grun
+Eviden
+5 (Oxf
+1 (Oxf
+2 (Oxf
+3 (Oxf
+4 (Oxf
+5 (Oxf
+ndlagen der
+nzgrad
+ford 2009)
+ford 2011)
+fo
+
+=== Comparator Extract 3 (Control) ===
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of case-control studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+ford 2009) Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+and case-control studies)
+2.2 Grun
+Eviden
+5 (Oxf
+1 (Oxf
+2 (Oxf
+3 (Oxf
+4 (Oxf
+5 (Oxf
+ndlagen der
+nzgrad
+ford 2009)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+© L
+Methodik 29
+Beschreibung
+) Therapy/
+
+=== Comparator Extract 4 (Control) ===
+<80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of case-control studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+ford 2009) Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+and case-control studies)
+2.2 Grun
+Eviden
+5 (Oxf
+1 (Oxf
+2 (Oxf
+3 (Oxf
+4 (Oxf
+5 (Oxf
+ndlagen der
+nzgrad
+ford 2009)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+© L
+Methodik 29
+Beschreibung
+) Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+appraisal, or based on physiology, ben
+
+=== Comparator Extract 5 (Control) ===
+tional study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow-up study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Case-series,
+case-control studies, or historically controlled studies (a systematic review is
+generally better than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Mechanism-
+based reasoning
+Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher, dass der
+wahre Effekt nahe bei dem E
+
+=== Comparator Extract 6 (Control) ===
+als auch an CD3 auf den T-Zellen, vorgestellt. Im
+Rahmen der Phase II DeLLphi-301-Studie wurden jeweils 88 Patienten, die zuvor min-
+destens 2 Therapielinien erhalten hatten, mit 10mg oder 100mg Tarlatamab behan-
+delt. Die Ansprechrate lag in den jeweiligen Armen bei 40% bzw. bei 28%, die disease-
+control-rate bei 70% bzw. 50%. Ein Ansprechen wurde dabei unabhängig von der
+DLL3-Exposition beobachtet. Die mediane Behandlungsdauer war noch nicht erreicht.
+Erste Daten zeigten ein 6-Monats-PFS von 40% sowie ein 6-Monats OS von 73%. Als
+eine höufige Nebenwirkungen wurde das CRS (cytokine-release-syndrom)
+
+=== Comparator Extract 7 (Control) ===
+, BI764532, der eben-
+falls gegen DLL3und CD3 gerichtet ist vor. Im Rahmen einer Dosisfindungsstudie
+zeigte sich bei N=39 Patienten mit SCLC mit DLL3-Expression im Gewebe und nach
+mindestens einer platinbasierten Therapielinie bei einer Dosis von ≥ 90µg/kg eine
+Ansprechrate von 26% und eine disease control rate von 51%. Auch hier war das cyto-
+kine release syndrom mit 59% in der Gesamtgruppe eine häufige Nebenwirkung
+In Phase II getestet wurde Rovalpituzumab-Tesirine, ein Konjugat aus einer chemothe-
+rapeutisch wirksamen Substanz und einem Antikörper gegen Delta-Like-Protein3.
+DLL-3 wird aberrant bei
+
+=== Comparator Extract 8 (Control) ===
+ironmental tobacco
+smoke in the workplace. Risk Anal. 1993;13:463-75. URL:
+med/8234955
+32. Kolb S, Bruckner U, Nowak D, Radon K. Quantification of ETS exposure in hospitality workers
+who have never smoked. Environ Health. 2010;9:49. URL:
+med.ncbi.nlm.nih.gov/20704719/
+33. Repace JL. Can Ventilation Control Secondhand Smoke in the Hospitality Industry? An Analysis
+of the Document “Proceedings of the Workshop on Ventilation Engineering Controls for Envi-
+ronmental Tobacco Smoke in the Hospitality Industry” , sponsored by the Federal Occupa-
+tional Safety and Health Administration and the American Confe
+
+=== Comparator Extract 9 (Control) ===
+inical oncology : official journal of the American Society of Clinical Oncology.
+520. Zachariae R, Pedersen CG, Jensen AB, Ehrnrooth E, Rossen PB, von der Maase H. Association
+of perceived physician communication style with patient satisfaction, distress, cancer-related
+self-efficacy, and perceived control over the disease. Br J Cancer. 2003;88:658-65. URL:
+521. Fogarty L, Curbow B, Wingard J, McDonnell K, Somerfield M. Can 40 seconds of compassion
+reduce patient anxiety?. J Clin Oncol. 1999;17(1):371-9. URL:
+534. Baile WF, Beale EA. Giving bad news to cancer patients: matching process and content. J
+
+=== Comparator Extract 10 (Control) ===
+AE|Bronchialarterienembolisation
+Row 12: BAR|Bundesarbeitsgemeinschaft für Rehabilitation
+Row 13: BED|Biologisch Effektive Dosis
+Row 14: BGB|Bürgerliches Gesetzbuch
+Row 15: BK|Berufskrankheit
+Row 16: BRSK|Bronchoskopie
+Row 17: BSC|Best Supportive Care
+Row 18: BTS|British Thoracic Society
+Row 19: CG|Control Group
+Row 20: CGA|comprehensive geriatric assessment
+Row 21: CI|Konfidenzintervall
+Row 22: COPD|Chronisch obstruktive Lungenerkrankung
+Row 23: CR|Komplette Remission
+Row 24: CT|Computertomographie
+Row 25: CTCAE|Common Terminology Criteria for Adverse Events
+Row 26: DEGRO|Deutsche Gesellschaft für R
+
+=== Comparator Extract 11 (Control) ===
+ut für Medizinisches Wiss
+Row 11: |Bronchialarterienembolisation
+Row 12: |Bundesarbeitsgemeinschaft für Rehab
+Row 13: |Biologisch Effektive Dosis
+Row 14: |Bürgerliches Gesetzbuch
+Row 15: |Berufskrankheit
+Row 16: |Bronchoskopie
+Row 17: |Best Supportive Care
+Row 18: |British Thoracic Society
+Row 19: |Control Group
+Row 20: |comprehensive geriatric assessment
+Row 21: |Konfidenzintervall
+Row 22: |Chronisch obstruktive Lungenerkrank
+Row 23: |Komplette Remission
+Row 24: |Computertomographie
+Row 25: |Common Terminology Criteria for Ad
+Row 26: |Deutsche Gesellschaft für Radioonkol Row 1: 
+Row 2: 
+Row 3: 
+Row
+
+=== Comparator Extract 12 (Control) ===
+of cohort studies
+Row 10: |
+Row 11: 2b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: 3a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: 3b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: 4 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Eviden
+Row 2: 1a (Ox
+Row 3: 
+Row 4: 1b
+
+=== Comparator Extract 13 (Control) ===
+ort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: 3a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: 3b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: 4 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Eviden
+Row 2: 1a (Ox
+Row 3: 
+Row 4: 1b (Ox
+Row 5: 
+Row 6: 2a (Ox
+Row 7: 
+Row 8: 2b (Ox
+Row 9: 
+Row 10: 3a (Ox
+Row 11: 
+Row 12: 3b (Ox
+Row 13: 4
+
+=== Comparator Extract 14 (Control) ===
+logy, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: 3b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: 4 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Eviden
+Row 2: 1a (Ox
+Row 3: 
+Row 4: 1b (Ox
+Row 5: 
+Row 6: 2a (Ox
+Row 7: 
+Row 8: 2b (Ox
+Row 9: 
+Row 10: 3a (Ox
+Row 11: 
+Row 12: 3b (Ox
+Row 13: 4 (Oxf
+Row 14:  Row 1: nzgrad|Beschreibung
+Row 2: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogene
+
+=== Comparator Extract 15 (Control) ===
+)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: ford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|T
+
+=== Comparator Extract 16 (Control) ===
+vidual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: ford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or
+
+=== Comparator Extract 17 (Control) ===
+ion, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: ford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: 1 (Oxford 2011)|Category - Does this intervention h
+
+=== Comparator Extract 18 (Control) ===
+tervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: 4 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: 5 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+Row 21: |
+Row 22: ⊕⊕⊕⊕|Hohe Qualität der Eviden
+
+=== Comparator Extract 19 (Control) ===
+- Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: )|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: )|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+Row 21: |
+Row 22: |Hohe Qualität der Evidenz nach GRADE = Wir
+
+=== Comparator Extract 20 (Placebo) ===
+thologischen Remission (pCR) ein Kriterium.
+In der AEGEAN Studie erhielten 802 Patienten mit resektablem NSCLC (Stadium II-IIIB;
+N2, 8. TNM Klassifikation) 4 Zyklen neoadjuvante Chemotherapie mit oder ohne Dur-
+valumab, um dann nach kompletter Resektion eine 1-jährige Erhaltungsphase mit
+Durvalumab/Placebo anzuschließen. Patienten mit zu erwartender Pneumonektomie
+konnten nicht eingeschlossen werden. Das Event-freie Überleben in der modifizierten
+ITT Population, die Patienten mit EGFR und ALK Mutationen ausschloss (N=740), war
+im Durvalumab Arm signifikant verbessert (Hazard Ratio 0,69; 36-Monats EFS
+
+=== Comparator Extract 21 (Placebo) ===
+eicht (hazard ratio 0,17; 99,06% CI, 0,11-0,26; P<0,001). Das Aus-
+maß der Verbesserung des DFS im Stadium IB war etwas geringer (hazard ration 0,39;
+95% CI 0,18-0,76). Nach zwei Jahren waren 89% der Patienten in der mit Osimertinib
+behandelten Studie am Leben und krankheitsfrei gegenüber 53% unter Placebo. Kon-
+sistente DFS-Ergebnisse wurden in allen Untergruppen beobachtet, einschließlich Pati-
+enten, die mit einer Operation mit anschließender Chemotherapie behandelt wurden,
+und Patienten, die nur eine Operation erhielten, sowie bei asiatischen und nicht-asiati-
+schen Patienten. Auch das 5-Jahres G
+
+=== Comparator Extract 22 (Placebo) ===
+icherheit und Verträglichkeit von Osimertinib in dieser Studie war konsis-
+tent mit früheren Studien im metastasierenden Setting. Unerwünschte Ereignisse des
+Grades 3 oder höher aller Ursachen traten nach Einschätzung des Forschers bei 10%
+der Patienten in der Osimertinib-Gruppe gegenüber 3% in der Placebo-Gruppe auf.
+Aufgrund der Zulassung ist nun die molekulare Testung auf EGFR-Mutationen (Exon
+19 Deletion, Exon 21 L858R) auch in den frühen Stadien zwingend notwendig.
+Mit Alectinib wurde im Juni 2024 der erste ALK-Inhibitor für die adjuvante Therapie
+bei ALK positiven NSCLC Patienten zugelassen. Di
+
+=== Comparator Extract 23 (Placebo) ===
+ante Checkpointinhibitortherapie)
+Die IMpower010-Studie war eine große randomisierte Phase-III Studie, die bei Patien-
+ten mit komplett resezierten Nicht-kleinzelligen Lungenkarzinom (NSCLC) in den Sta-
+dien IB, II und IIIA (resektabel) die Gabe des PD-L1 Checkpointinhibitors randomisiert
+gegenüber Placebo bei Patienten nach Abschluss der adjuvanten Platin-basierten Che-
+motherapie geprüft hat [740]. Die Studie zeigte klar einen Benefit für die adjuvante
+Gabe von Atezolizumab versus Placebo bei Patienten mit PD-L1-IHC grösser oder
+gleich 50% (TPS). Dies hat entsprechend zur Zulassung von Atezolizumab
+
+=== Comparator Extract 24 (Placebo) ===
+C) in den Sta-
+dien IB, II und IIIA (resektabel) die Gabe des PD-L1 Checkpointinhibitors randomisiert
+gegenüber Placebo bei Patienten nach Abschluss der adjuvanten Platin-basierten Che-
+motherapie geprüft hat [740]. Die Studie zeigte klar einen Benefit für die adjuvante
+Gabe von Atezolizumab versus Placebo bei Patienten mit PD-L1-IHC grösser oder
+gleich 50% (TPS). Dies hat entsprechend zur Zulassung von Atezolizumab für diese
+Indikation bei der EMA geführt. Bei Patienten in den Stadien II und IIIA die nach kom-
+pletter Resektion des NSCLC eine adjuvante Chemotherapie (Platin-basiert) erhalten
+haben,
+
+=== Comparator Extract 25 (Placebo) ===
+jeglicher Art; n =
+1239, 2:1 Randomisierung) hatte bei insgesamt fehlendem Überlebensvorteil ein star-
+kes Signal in der Gruppe der Patienten mit simultaner Radiochemotherapie ergeben
+(p= 0,016; medianes Überleben 30,8 versus 20,6 Monate). Im PACIFIC Trial (713 Pati-
+enten 2:1 Randomisierung gegen Placebo) wurde der PD-L1 Inhibitor Durvalumab (3-
+wöchentlich über 12 Monate nach Ansprechen auf eine platinbasierte simultane Radi-
+ochemotherapie untersucht. Die Randomisierung erfolgte nach Abschluss der Radio-
+chemotherapie für nicht progrediente Patienten. Ein prätherapeutisches PET-Staging
+war nicht
+
+=== Comparator Extract 26 (Placebo) ===
+Konsolidierung
+mit Durvalumab signifikant besser. Ein ausgeprägter Effekt war für das metastasen-
+freie Überleben nachweisbar. In multivariater (post hoc) Analyse hatten nur die Patien-
+ten mit einer PD-L1 Expression< 1% keinen Vorteil. Nebenwirkungen waren geringfü-
+gig erhöht (G3/4 31% vs. 26% im Placebo-Arm, speziell Pneumonien und Schilddrü-
+senveränderungen). [767], [795].
+In einer Subgruppenanalyse des PACIFIC Trial wurden nur Patienten mit lokal bestäti-
+ger EGER-Mutation betrachtet (n.35) und in dieser Subgruppe betrug das mediane
+progressionsfreie Überleben im Durvalumab-Arm 11,2 Monate (95%
+
+=== Comparator Extract 27 (Placebo) ===
+abgebrochen. In einer randomisier-
+ten Phase III zur Erhaltungstherapie mit Gefitinib (SWOG S0023) mit 243 Patienten
+ohne Progression nach simultaner Radiochemotherapie (61 Gy simultan mit 2 Zyklen
+Cisplatin/Etoposide) gefolgt von 3 Zyklen Docetaxel war das Überleben in der Gefiti-
+nib Gruppe gegen Placebo signifikant schlechter. Ursache schien eher vermehrte Tu-
+morprogression als Toxizität.
+In 2024 wurden die Daten der LAURA-Studie publiziert, in der 216 Patienten im Sta-
+dium III mit aktivierender EGFR-Mutation (del 19, L858R) und ohne Progression
+8.5 Stadi
+Empfeh
+B
+Level of ium III
+hlungsg
+f Evid
+
+=== Comparator Extract 28 (Placebo) ===
+n der 216 Patienten im Sta-
+dium III mit aktivierender EGFR-Mutation (del 19, L858R) und ohne Progression
+8.5 Stadi
+Empfeh
+B
+Level of ium III
+hlungsg
+f Eviden
+I (T1-3N2 / T1-3N3 / T4N0-3) 274
+während oder nach der Radiochemotherapie auf die Gabe von Osimertinib 80 mg täg-
+lich bis zum Progress oder Placebo 2:1 randomisiett wurden [1004]. Das mediane
+progressionsfreie Überleben betrug 39,1 Monate im Osimertinib-Arm und 5.6 Monate
+im Placebo-Arm (HR 0.16, 95% CI: 0,10 - 0,24, p<0.001). Das 1-Jahres-progressions-
+freie Überleben betrug 74% (95% Cl: 65 - 80%) im Osimertinib-Arm und 22% (95% CI:
+13 - 32%)
+
+=== Comparator Extract 29 (Placebo) ===
+m III
+hlungsg
+f Eviden
+I (T1-3N2 / T1-3N3 / T4N0-3) 274
+während oder nach der Radiochemotherapie auf die Gabe von Osimertinib 80 mg täg-
+lich bis zum Progress oder Placebo 2:1 randomisiett wurden [1004]. Das mediane
+progressionsfreie Überleben betrug 39,1 Monate im Osimertinib-Arm und 5.6 Monate
+im Placebo-Arm (HR 0.16, 95% CI: 0,10 - 0,24, p<0.001). Das 1-Jahres-progressions-
+freie Überleben betrug 74% (95% Cl: 65 - 80%) im Osimertinib-Arm und 22% (95% CI:
+13 - 32%) im Placebo-Arm. Vorläufige Daten zum 3-Jahres-Gesamtüberleben betrugen
+84% für Osimertinib und 74% für Placebo (HR 0,81, 95% Cl 0,42 -
+
+=== Comparator Extract 30 (Placebo) ===
+randomisiett wurden [1004]. Das mediane
+progressionsfreie Überleben betrug 39,1 Monate im Osimertinib-Arm und 5.6 Monate
+im Placebo-Arm (HR 0.16, 95% CI: 0,10 - 0,24, p<0.001). Das 1-Jahres-progressions-
+freie Überleben betrug 74% (95% Cl: 65 - 80%) im Osimertinib-Arm und 22% (95% CI:
+13 - 32%) im Placebo-Arm. Vorläufige Daten zum 3-Jahres-Gesamtüberleben betrugen
+84% für Osimertinib und 74% für Placebo (HR 0,81, 95% Cl 0,42 - 1,56, p=0,53). Toxi-
+zitäten Grad 3 oder höher traten in 35% bei Osimertinib und in 12% bei Placebo auf.
+In der RTOG-Studie 0617 (n = 544) wurde neben einer Dosiseskalation di
+
+=== Comparator Extract 31 (Placebo) ===
+ib-Arm und 5.6 Monate
+im Placebo-Arm (HR 0.16, 95% CI: 0,10 - 0,24, p<0.001). Das 1-Jahres-progressions-
+freie Überleben betrug 74% (95% Cl: 65 - 80%) im Osimertinib-Arm und 22% (95% CI:
+13 - 32%) im Placebo-Arm. Vorläufige Daten zum 3-Jahres-Gesamtüberleben betrugen
+84% für Osimertinib und 74% für Placebo (HR 0,81, 95% Cl 0,42 - 1,56, p=0,53). Toxi-
+zitäten Grad 3 oder höher traten in 35% bei Osimertinib und in 12% bei Placebo auf.
+In der RTOG-Studie 0617 (n = 544) wurde neben einer Dosiseskalation die Hinzu-
+nahme von Cetuximab in einem 2x2 (faktoriellen) Design geprüft. Cetuximab wurde
+parallel zu
+
+=== Comparator Extract 32 (Placebo) ===
+rug 74% (95% Cl: 65 - 80%) im Osimertinib-Arm und 22% (95% CI:
+13 - 32%) im Placebo-Arm. Vorläufige Daten zum 3-Jahres-Gesamtüberleben betrugen
+84% für Osimertinib und 74% für Placebo (HR 0,81, 95% Cl 0,42 - 1,56, p=0,53). Toxi-
+zitäten Grad 3 oder höher traten in 35% bei Osimertinib und in 12% bei Placebo auf.
+In der RTOG-Studie 0617 (n = 544) wurde neben einer Dosiseskalation die Hinzu-
+nahme von Cetuximab in einem 2x2 (faktoriellen) Design geprüft. Cetuximab wurde
+parallel zu Carboplatin/Paciltaxel während der Strahlentherapie gegeben. Diese wurde
+von einer Konsolidierung mit weiteren 2 Zyklen Car
+
+=== Comparator Extract 33 (Placebo) ===
+gen.
+In der EMPOWER-Lung-3-Studie erhielten Patienten in einer 2:1-Randomisierung
+6 Stadi
+ium IV
+V (ohne Indikation zur definitiven Lokaltherapie) 290
+Cemiplimab und bis zu 4 Zyklen platinhaltige Kombinationschemotherapie oder Pla-
+cebo und Chemotherapie, anschließend Cemiplimab aller 3 Wochen bzw. Placebo. Ein-
+geschlossen waren auch 146 Patienten mit plattenepithelialer Histologie. Es konnte
+eine signifikante Verbesserung des Ansprechens (47,9 vs. 22,7%), progressionsfreien
+(8,3 vs. 5,5 Monate, HR 0,48) und Gesamtüberlebens (23,5 vs. 12,1 Monate, HR 0,51)
+gezeigt werden. Patienten mit plattenepithe
+
+=== Comparator Extract 34 (Placebo) ===
+t (9%) und Asthenie (8 %) waren die häufigsten aller Nebenwirkungen un-
+ter Atezolizumab.
+In der Revel-Studie wurde der anti-VEGFR 2 Antikörper Ramucirumab in einer Dosis
+von 10 mg/kg KG alle 3 Wochen in Kombination mit Docetaxel bei 1253 Patienten mit
+einem vorbehandelten NSCLC mit der Kombination Placebo/Docetaxel verglichen. So-
+wohl für die Überlebenszeit (Gewinn mediane Überlebenszeit 1.4 Monate, HR 0.86)
+wie auch für das PFS (Gewinn medianes PFS 1.5 Monate, HR 0.76) zeigte sich eine sig-
+nifikante Verbesserung bei verstärkter Knochenmarkstoxizität und Fatigue [1080]. In
+der Subgruppe der Patien
+
+=== Comparator Extract 35 (Placebo) ===
+91786) findet sich ausführlich im Kapitel 8.6.3.3
+Weitere Evidenz zu Patienten mit ECOG 2 findet sich ebenfalls im Hintergrundtext in
+Kapitel 8.6.2.2
+Immunchemotherapie versus Kombinationschemotherapie bei ECOG 2
+2018 publizierten Paz-Ares und Kollegen ([881]) eine Studie, in der Pembrolizumab
+oder Placebo in Kombination mit Paclitaxel oder nab-Paclitaxel sowie Carboplatin ver-
+glichen wurde. Die Chemotherapie wurde nach 4 Zyklen beendet. In dieser Studie
+zeigte sich ein Vorteil beim OS mit einem HR von 0,56 [95 % KI 0,38; 0,82] p=0,003
+(AD: + 3,3 Monate), dem patientenberichteten Symptom Dysphagie m
+
+=== Comparator Extract 36 (Placebo) ===
+ed zeigte in zwei randomisierten Phase-III-Studien eine Verbesserung des
+Überlebens (OS) und des progressionsfreien Überlebens (PFS) in der Erhaltungsthera-
+pie. In der ersten Studie (JMEN) wurde nach 4 Zyklen einer Kombinationschemothera-
+pie und bei ausbleibendem Progress in einen Pemetrexed oder Placebo Arm randomi-
+siert (switch maintenance). Pemetrexed verbesserte das PFS (4,3 gegen 2,6 Monate,
+HR 0.50 (95% CI 0,42–0,61); p<0,0001) und das Gesamtüberleben (13,4 gegen 10,6
+Monate, HR 0,79 (95% CI 0,65–0,95); p=0,012). In einer geplanten Subgruppenanalyse
+zeigte sich kein Vorteil für Patienten mit
+
+=== Comparator Extract 37 (Placebo) ===
+ie formal keine vergleichende Aussage über einen Mainte-
+nance-Einsatz von Pemetrexed vs. einem frühen Einsatz im Rezidiv zu.
+In der zweiten Studie (PARAMOUNT) wurde Pemetrexed nach 4 Zyklen mit Cisplatin
+und Pemetrexed als Monotherapie (continuation maintenance) fortgeführt im Ver-
+gleich zu einem Placebo-Arm [1100], [1101], [1102], [1103]. Hier zeigte sich eine Ver-
+besserung des PFS (4,1 vs. 2,8 Monate, HR 0,62 (95% CI 0,49–0,79); p<0,0001) und
+des Gesamtüberleben (13,9 versus 11,0 Monate, HR 0,78 (95% CI 0,64–0,96);
+p=0,0195). Allerdings erhielten weniger Patienten eine Zweitlinientherapie mit
+6
+
+=== Comparator Extract 38 (Placebo) ===
+p=0,0195). Allerdings erhielten weniger Patienten eine Zweitlinientherapie mit
+6 Stadi
+ium IV
+V (ohne Indikation zur definitiven Lokaltherapie) 319
+Pemetrexed-Arm bzw. eine Zweitlinienchemotherapie als im Therapiearm. Die Chemo-
+therapie-assoziierten Grad 3,4 Nebenwirkungen betrugen im Pemetrexed /Placebo
+Arm: 9%/<1%,p<0·0001. Nicht-hämatologische NW der Grade 3-5 waren im
+Pemetrexed-Arm höher als im Placebo-Arm: 9 vs. 4%, p=0,080). Die häufigste Thera-
+pie-assoziierte NW Grad 3-4 im Pemetrexed-Arm war Anämie (4%), Granulozytopenie
+(4%) und Fatigue (4%), im Placebo Arm (<1%), (0%), (<1%). Die Lebens
+
+=== Comparator Extract 39 (Placebo) ===
+dikation zur definitiven Lokaltherapie) 319
+Pemetrexed-Arm bzw. eine Zweitlinienchemotherapie als im Therapiearm. Die Chemo-
+therapie-assoziierten Grad 3,4 Nebenwirkungen betrugen im Pemetrexed /Placebo
+Arm: 9%/<1%,p<0·0001. Nicht-hämatologische NW der Grade 3-5 waren im
+Pemetrexed-Arm höher als im Placebo-Arm: 9 vs. 4%, p=0,080). Die häufigste Thera-
+pie-assoziierte NW Grad 3-4 im Pemetrexed-Arm war Anämie (4%), Granulozytopenie
+(4%) und Fatigue (4%), im Placebo Arm (<1%), (0%), (<1%). Die Lebensqualität war mit
+der Pemetrexed-Erhaltungstherapie nicht negativ beeinflusst
+Eine weitere Studie prüfte d
+
+=== Comparator Extract 40 (Placebo) ===
+nwirkungen betrugen im Pemetrexed /Placebo
+Arm: 9%/<1%,p<0·0001. Nicht-hämatologische NW der Grade 3-5 waren im
+Pemetrexed-Arm höher als im Placebo-Arm: 9 vs. 4%, p=0,080). Die häufigste Thera-
+pie-assoziierte NW Grad 3-4 im Pemetrexed-Arm war Anämie (4%), Granulozytopenie
+(4%) und Fatigue (4%), im Placebo Arm (<1%), (0%), (<1%). Die Lebensqualität war mit
+der Pemetrexed-Erhaltungstherapie nicht negativ beeinflusst
+Eine weitere Studie prüfte das Prinzip einer Switch Maintenance mit Erlotinib vs. einer
+Continuous Maintenance mit Gemcitabin nach einer Induktionstherapie mit Gemci-
+tabin und Cisplatin [
+
+=== Comparator Extract 41 (Placebo) ===
+(Me-
+dian, 2,9 vs 1,9 Monatem HR, 0,69,P= .003) gegenüber Beobachtung verbessert. Das
+Überleben war nicht-signifikant verbessert.
+Der Tyrosinkinase-Inhibitor Erlotinib wurde in der SATURN-Studie in der Erhaltungs-
+therapie untersucht [1133]. Nach 4 Zyklen einer Platindublette wurde Erlotinib gegen
+Placebo randomisiert. Das PFS verbesserte sich (12,3 vs. 11,1 Wochen, HR 0,79 (95%
+CI 0,51–0,82); p<0,0001) und das Gesamtüberleben bei Patienten die kein Progress
+entsprechend RECIST nach der Erstlinientherapie hatten (11,9 vs. 9,6 Monate, HR 0,72
+(95% CI 0,59–0,89); p=0,0019). Nicht jedoch bei Patienten
+
+=== Comparator Extract 42 (Placebo) ===
+zur Zulassung von Erlotinib als
+Switch Maintenance bei Patienten mit stabiler Erkrankung nach Induktionstherapie.
+In einer retrospektiven, explorativen Auswertung der Saturn Studie zeigte sich bei Pa-
+tienten mit einer EGFR-Mutation ein deutlich besserer Effekt im PFS (HR 0,1, p<0.01;
+Erlotinib vs Placebo) als bei den Patienten mit deinem EGFR-Wildtyp (HR 0.78; p
+0.019). Allerdings stand nicht bei allen Patienten Material für eine molekulare Analyse
+zur Verfügung [1134].
+In der randomisierten, doppelblinden, placebokontrollierten Phase-III-Studie IUNO
+wird das Nutzen-Risiko-Verhältnis einer Erhaltun
+
+=== Comparator Extract 43 (Placebo) ===
+rte Wirksamkeit einer Kombination eines Angiogenese-Inhibitors mit einer Che-
+motherapie gegenüber einer alleinigen Chemotherapie nachgewiesen werden [1080],
+Nintedanib wurde in der LUME-Lung-1-Studie in Kombination mit Docetaxel bei 1314
+Patienten mit einem vorbehandelten NSCLC mit der Kombination Placebo/Docetaxel
+verglichen. Die Nintedanib-Dosis betrug 200 mg zweimal täglich an den Tagen 2 bis
+21 eines 3-wöchentlichen Behandlungszyklus mit Docetaxel.
+In dieser Studie war das PFS zugunsten der Kombination mit Nintedanib signifikant
+verbessert (medianes PFS +0.7 Monate, HR 0.79, in der Population de
+
+=== Comparator Extract 44 (Placebo) ===
+-2019-0262). Das PFS betrug 5.5 Monate (95% CI: 1.9–8.7), die Ansprech-
+rate lag bei 58%.
+In der Revel-Studie wurde der anti-VEGFR 2 Antikörper Ramucirumab in einer Dosis
+von 10 mg/kg KG alle 3 Wochen in Kombination mit Docetaxel bei 1253 Patienten mit
+einem vorbehandelten NSCLC mit der Kombination Placebo/Docetaxel verglichen. So-
+wohl für die Überlebenszeit (Mediane Überlebenszeit: 10.5 versus 9.1 Monate, HR
+0.86) wie auch für das PFS (Gewinn medianes PFS 1.5 Monate, HR 0.76) zeigte sich
+eine signifikante Verbesserung bei verstärkter Knochenmarkstoxizität, Mukositis und
+Fatigue. In der Subgruppenan
+
+=== Comparator Extract 45 (Placebo) ===
+lektionierte PS2-Patienten
+von der Chemotherapie mit Carbo/Pacli mehr als von einer EGFR-TKI-Therapie
+profitieren. [1159]
+• Goss 2009 [1159]: verglich in einer rand. Phase II Studie 201 unselektio-
+nierte Patienten im ECOG 2 und 3, (hiervon 50% über 75 Jahre alt, 45% Adeno-
+CA) mit Gefitinib versus Placebo und sah bei den Chemotherapienaiven Pati-
+enten mit schlechtem Allgemeinzustand keinen signifikanten Vorteil im pro-
+gressionsfreien Überleben, Gesamtüberleben oder Ansprechen. Bei 38% der
+Patienten konnte die EGFR-FISH-Testung erfolgen. In dieser Subgruppe der
+EGFR_FISH-positiven Tumore (n=32) war
+
+=== Comparator Extract 46 (Placebo) ===
+n Komorbiditäten, die als nicht-Chemogeeignet eingestuft wurden, waren
+15% im ECOG 0-1, 55% im ECOG 2 und 29% im ECOG 3. Eine EGFR-Testung
+erfolgte bei 58% der Patienten, 7% waren EGFR-mutiert. Der Vergleich von
+6 Stadi
+ium IV
+V (ohne Indikation zur definitiven Lokaltherapie) 332
+Erlotinib (ER) mit Placebo bei diesen überwiegend älteren Patienten (63% > 75
+Jahre alt), ergab zwar einen signifikanten Vorteil im progressionsfreien Über-
+leben (2,8 vs. 2,6 Monate), aber keinen Unterschied im Gesamtüberleben
+(OS): OS: 3.7 versus 3.6 Monate, (HR=0.94; p value=0.46). In der vordefinier-
+ten Subgruppe von Pa
+
+=== Comparator Extract 47 (Placebo) ===
+herapie mit prophylaktischer Schädelbestrahlung analog zum Vorgehen bei T1-
+4N2-3 M0 Befall eine Therapiealternative zur Operation mit postoperativer Chemo-
+und Strahlentherapie darstellen kann. [1391]
+In die prospektive randomisierte Phase III Studie ADRIATIC [1392] wurden auch 67
+Patienten in den Placebo- respektive Durvalumab-Arm eingeschlossen. Die Patienten
+musten primär inoperabel sein und durften keinen Krankheitsprogress nach kombi-
+nierter Chemo-Strahlentherapie gehabt haben. Die Ergebnisse der Gesamtpopulation
+sind in Kapitel 9.5 beschrieben. Die Subgrupe der Patienten im Stadium I und II z
+
+=== Comparator Extract 48 (Placebo) ===
+hnik im Rahme einer PCI angeboten werden.
+Erhaltungstherapie
+Konsensbasierte Empfehlung neu 2025
+Allen Patienten mit SCLC Stadium III ohne Progress nach Abschluss der Chemo-
+Strahlentherapie soll eine 24-monatige Erhaltungstherapie mit Durvalumab ange-
+boten werden.
+Starker Konsens
+Die prospektive, Placebo-kontrollierte und randomisierte Phase III-Studie ADRIATIC
+[1392] untersuchte den Stellenwert einer Erhaltungstherapie über 24 Monate mit dem
+Checkpointinhibitor Durvalumab (1500mg alle 4 Wochen) bei Patienten mit SCLC im
+Stadium I-III die nach Standard-Chemo-Strahlentherapie keinen Tumorprogress er
+
+=== Comparator Extract 49 (Placebo) ===
+e Zunahme der
+Toxizität zu verzeichnen war [1463]. Das Ein-Jahresüberleben war mit 51,7% in der
+Atezolizumab-Gruppe günstiger gegenüber 38,2% in der Placebogruppe, nach 18 Mo-
+naten waren es noch 34.0% bzw. 21.0%. Auch das 24-Monatsüberleben war in der Ate-
+zolizumab-Gruppe mit 22% höher als in der Placebo-Gruppe mit 16,8 %. [1464]. Zu
+Atezolizumab gibt es Daten aus einer explorativen Analyse der IMpower 133-Studie
+(„IMbrella A“), bei der nach 5 Jahren noch 11 Patienten der ursprünglich 201 Patienten
+am Leben waren [1455].
+Unerwünschte Wirkungen (AEs adverse events) vom Grad 3 oder höher traten in 58
+
+=== Comparator Extract 50 (Placebo) ===
+aus einer explorativen Analyse der IMpower 133-Studie
+(„IMbrella A“), bei der nach 5 Jahren noch 11 Patienten der ursprünglich 201 Patienten
+am Leben waren [1455].
+Unerwünschte Wirkungen (AEs adverse events) vom Grad 3 oder höher traten in 58,1%
+der Pateinten mit Atezolizumab gegenüber 57,6% unter Placebo gleich häufig auf. Die
+häufigsten schweren unerwünschten Ereignisse (Grad 3 oder 4) waren Neutropenie
+und Anämie. AEs führten zu Therapieabbrüchen bei 11,1% der Patienten unter Atezo-
+lizumab und bei 3.1% unter Placebo. Immunvermittelte AEs traten bei 39.9% der Pati-
+enten unter Atezolizumab vergli
+
+=== Comparator Extract 51 (Placebo) ===
+oder höher traten in 58,1%
+der Pateinten mit Atezolizumab gegenüber 57,6% unter Placebo gleich häufig auf. Die
+häufigsten schweren unerwünschten Ereignisse (Grad 3 oder 4) waren Neutropenie
+und Anämie. AEs führten zu Therapieabbrüchen bei 11,1% der Patienten unter Atezo-
+lizumab und bei 3.1% unter Placebo. Immunvermittelte AEs traten bei 39.9% der Pati-
+enten unter Atezolizumab verglichen mit 24.5% unter Placebo auf. Schwerere (Grad-
+3/4-) immunvermittelte unerwünschte Wirkungen sah man bei 10.6% der Patienten
+unter Atezolizumab und bei 2.6% unter Placebo.
+Die Ansprechraten waren unter der Immun-Che
+
+=== Comparator Extract 52 (Placebo) ===
+ie
+häufigsten schweren unerwünschten Ereignisse (Grad 3 oder 4) waren Neutropenie
+und Anämie. AEs führten zu Therapieabbrüchen bei 11,1% der Patienten unter Atezo-
+lizumab und bei 3.1% unter Placebo. Immunvermittelte AEs traten bei 39.9% der Pati-
+enten unter Atezolizumab verglichen mit 24.5% unter Placebo auf. Schwerere (Grad-
+3/4-) immunvermittelte unerwünschte Wirkungen sah man bei 10.6% der Patienten
+unter Atezolizumab und bei 2.6% unter Placebo.
+Die Ansprechraten waren unter der Immun-Chemo-Kombination im Vergleich zur al-
+leinigen Chemotherapie vergleichbar (60.2% mit Atezolizumab vs. 64.4% mit
+
+=== Comparator Extract 53 (Placebo) ===
+nten unter Atezo-
+lizumab und bei 3.1% unter Placebo. Immunvermittelte AEs traten bei 39.9% der Pati-
+enten unter Atezolizumab verglichen mit 24.5% unter Placebo auf. Schwerere (Grad-
+3/4-) immunvermittelte unerwünschte Wirkungen sah man bei 10.6% der Patienten
+unter Atezolizumab und bei 2.6% unter Placebo.
+Die Ansprechraten waren unter der Immun-Chemo-Kombination im Vergleich zur al-
+leinigen Chemotherapie vergleichbar (60.2% mit Atezolizumab vs. 64.4% mit Placebo).
+6 Beha
+andlun
+ng des Stadiums M1 (Extensive Disease) 420
+Patienten mit unkontrollierten Hirnmetastasen waren ausgeschlossen worden. All
+
+=== Comparator Extract 54 (Placebo) ===
+auf. Schwerere (Grad-
+3/4-) immunvermittelte unerwünschte Wirkungen sah man bei 10.6% der Patienten
+unter Atezolizumab und bei 2.6% unter Placebo.
+Die Ansprechraten waren unter der Immun-Chemo-Kombination im Vergleich zur al-
+leinigen Chemotherapie vergleichbar (60.2% mit Atezolizumab vs. 64.4% mit Placebo).
+6 Beha
+andlun
+ng des Stadiums M1 (Extensive Disease) 420
+Patienten mit unkontrollierten Hirnmetastasen waren ausgeschlossen worden. Aller-
+dings wurde eine geringe Zahl (n = 35) von Patienten mit vorbehandelten und stabilen
+Hirnmetastasen eingeschlossen. Diese kleine Gruppe (n=17) schien von der
+
+=== Comparator Extract 55 (Placebo) ===
+eynot
+ECOG-A
+andlung des Stadiums M1 (Extensive Disease) 421
+Zusammenfassend sprach die Kosten-Nutzen Beobachtung für Durvalumab plus Eto-
+posid/Platin und gegen die Hinzunahme von Tremelilumab. [1466].
+Für die Therapie mit PD-1-Antikörpern liegen zwei Studien vor: die (KEYNOTE-604)
+Studie verglich Placebo-kontrolliert 4 Zyklen EP mit oder ohne den PD-1-Inhibitor
+Pembrolizumab. [1467]. Dabei wurde eine signifikante Verlängerung des progressi-
+onsfreien Überlebens (PFS) von 4,8 gegenüber 4,3 Monaten (HR 0,75) beobachtet. Das
+primäre Studienziel einer signifikanten Überlebenszeitverlängerung (OS) wurde
+
+=== Comparator Extract 56 (Placebo) ===
+eroidbedarf eingeschlossen werden. In dieser Studie
+zeigte sich, ähnlich wie in der IMPower-133-Studie kein Vorteil für die Zugabe einer
+Immuntherapie bei den Patienten mit vorbestrahlten Hirnmetastasen.
+Eine kleinere Phase-II-Studie [1468] verglich an 160 Patienten Platin/Eto plus Nivo-
+lumab oder Placebo, gefolgt von einer Nivolumab-Erhaltungstherapie. Das PFS war mit
+5,5 vs. 4,7 Monaten (HR 0,68) signifikant länger wie auch das Gesamtüberleben mit
+11,3 vs. 8,5 Monaten (HR 0,67). Nach 12 Monaten waren unter der Chemo-Immunthe-
+rapie-Kombination 15% der Patienten rezidivfrei gegenüber 5% im alleinig
+
+=== Comparator Extract 57 (Placebo) ===
+er in Kombination.
+Zur Erhaltungstherapie liegt die große randomisierte Checkmate 451 Studie [1471]
+vor. Hier wurden 835 Patienten mit Ansprechen oder stabilem Befund nach 4 Zyklen
+Platin und Etoposid eingeschlossen. Die Randomisierung erfolgte auf Nivolumab al-
+lein, Nivolumab plus Ipilimumab oder Placebo. Die Studie konnte keinen signifikanten
+OS Vorteil nachweisen. Die 1-Jahres-Überlebensraten lagen bei 44% für die Nivolumab-
+Monotherapie, 40% für Nivolumab plus Ipilimumab und 41% für die Placebo-Gruppe.
+Die 2-Jahres Überlebensraten betrugen 22%, 21% und 15%. Die HR für den OS-Ver-
+gleich betrug b
+
+=== Comparator Extract 58 (Placebo) ===
+sid eingeschlossen. Die Randomisierung erfolgte auf Nivolumab al-
+lein, Nivolumab plus Ipilimumab oder Placebo. Die Studie konnte keinen signifikanten
+OS Vorteil nachweisen. Die 1-Jahres-Überlebensraten lagen bei 44% für die Nivolumab-
+Monotherapie, 40% für Nivolumab plus Ipilimumab und 41% für die Placebo-Gruppe.
+Die 2-Jahres Überlebensraten betrugen 22%, 21% und 15%. Die HR für den OS-Ver-
+gleich betrug bei 0.85 für die Nivolumab-Monotherapie und 0,92 für die Kombination.
+Biomarker: Patienten nachweisen [1456]. Der Stellenwert der PD-L-Expression als prädiktiver Mar-
+ker beim SCLC wird kontrovers d
+
+=== Comparator Extract 59 (Placebo) ===
+m SCLC eine Remissionsrate von 34 % und eine Krankheits-
+stabilisierung in 31 %.
+Eine randomisierte second line Studie (TAHOE) verglich Rova-T mit Topotecan. Diese
+wurde allerdings vorzeitig wegen Unterlegenheit des Rova-T abgebrochen. In der Er-
+haltungstherapie Studie mit dem Vergleich Rova-T vs. Placebo war ebenfalls kein
+Überlebensvorteil nachweisbar.
+Weitere frühe Daten liegen für ein weiteres ADC, Ifinatamab Deruxtecan, vor, welches
+gegen den Immuncheckpoint B7-H3 gerichtet ist und als Chemotherapie-Komponente
+einen Toposisomerase-Inhibitor (Deruxtecan) besitzt. Hier zeigte sich bei n=21 Pati-
+

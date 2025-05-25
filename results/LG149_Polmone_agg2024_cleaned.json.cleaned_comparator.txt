@@ -1,0 +1,2011 @@
+=== Comparator Extract 1 (Control) ===
+studi studio distorsione generalizzabilità (95% CI) (95% CI)
+dei risultati
+Overdiagnosis - LDCT vs no screening (follow up: intervallo 3 anni a 5 anni; valutato con: the ratio between the difference of cumulative cancer incidence in the screened population and the cumulative cancer incidence in the control population, and the
+screen-detected cancers.)
+5 studi serio b serio c non importante non importante nessuno 14653 14003 - overdiagnosis ⨁⨁◯◯
+randomizzati 0.38
+maggiore BASSA
+maggiore a
+maggiore)
+False positive rate - LDCT vs no screening (follow up: intervallo 3 anni a 8.35 anni)
+2 studi serio b no
+
+=== Comparator Extract 2 (Control) ===
+media overdiagnosis - 28656 ⨁⨁◯
+no screening overdiagnosis - 0.38 maggiore (5 RCT)
+valutato con: the ratio LDCT vs no (0.14
+between the difference of screening era 0 maggiore a BASSAa,b
+cumulative cancer 0.63
+incidence in the screened maggiore)
+population and the
+cumulative cancer
+incidence in the control
+population, and the
+cumulative number of
+CONS
+e
+i
+LINE
+SIDERAZIO
+EE GUIDA
+ONI AGGIUNTIVE
+screen-detected cancers.
+follow up: intervallo 3
+anni a 5 anni
+False positive rate - LDCT La media false false positive - 8635 ⨁⨁◯
+vs no screening positive rate - rate 4.53 (2 RCT)
+follow up: intervallo 3 LDCT
+
+=== Comparator Extract 3 (Control) ===
+tcomes between video-assisted segmentectomy and lobectomy for patients with clinical stage IA non-small cell lung cancer: a propensity score matching study. J Thorac
+Dis; Aug 2018.
+24.Darras, M., Ojanguren, A., Forster, C., Zellweger, M., Perentes, J. Y., Krueger, T., Gonzalez, M.. Short-term local control after VATS segmentectomy and lobectomy for solid NSCLC of less than 2 cm. Thorac Cancer; Feb 2021.
+25.De Giacomo, T., Di Stasio, M., Diso, D., Anile, M., Venuta, F., Furio Coloni, G.. Sub-lobar lung resection of peripheral T1N0M0 NSCLC does not affect local recurrence rate. Scand J Surg; 2009.
+26.Z
+
+=== Comparator Extract 4 (Control) ===
+comes
+between video-assisted segmentectomy and lobectomy for patients with clinical stage IA non-small cell lung cancer:
+a propensity score matching study. J Thorac Dis; Aug 2018.
+24. Darras, M., Ojanguren, A., Forster, C., Zellweger, M., Perentes, J. Y., Krueger, T., Gonzalez, M.. Short-term local
+control after VATS segmentectomy and lobectomy for solid NSCLC of less than 2 cm. Thorac Cancer; Feb 2021.
+25. De Giacomo, T., Di Stasio, M., Diso, D., Anile, M., Venuta, F., Furio Coloni, G.. Sub-lobar lung resection of peripheral
+T1N0M0 NSCLC does not affect local recurrence rate. Scand J Surg; 2009.
+26.
+
+=== Comparator Extract 5 (Control) ===
+mparison of the surgical outcomes
+of thoracoscopic lobectomy, segmentectomy, and wedge resection for clinical stage I non-small cell lung cancer. Thorac Cardiovasc
+Surg; Apr 2011.
+24. Darras, M., Ojanguren, A., Forster, C., Zellweger, M., Perentes, J. Y., Krueger, T., Gonzalez, M.. Short-term local control after VATS
+segmentectomy and lobectomy for solid NSCLC of less than 2 cm. Thorac Cancer; Feb 2021.
+25. Deng, B., Cassivi, S. D., de Andrade, M., Nichols, F. C., Trastek, V. F., Wang, Y., Wampfler, J. A., Stoddard, S. M., Wigle, D. A.,
+Shen, R. K., Allen, M. S., Deschamps, C., Yang, P.. Clinical out
+
+=== Comparator Extract 6 (Control) ===
+)
+HR 0.53 303
+(0.36 to (1 RCT)
+HR 0.46 303
+(0.33 to (1 RCT)
+HR 0.52 713
+(0.39 to (1 RCT)
+Certainty
+pants the eviden
+s) (GRADE)
+) HIGHa
+) HIGHa
+) MODERA
+of C
+nce
+ATEa,b
+Comments
+CONS
+s
+SIDERAZIONI AGGIUNTIVE
+NEO
+distant
+metastasis
+(all
+assessed by
+means of
+blinded
+independent
+central
+review)
+Local -
+control - not
+reported
+Objective Study population
+response
+18 per 100
+Duration of Study population
+response
+follow up: 35 per 100c
+median 13.8
+months
+Quality of -
+life - not
+reportedd
+Grade 3-4 Study population
+pneumonia
+assessed 4 per 100
+with: NCI-
+CTCAE
+follow up:
+median 14.5
+months
+OPLASIE DEL
+n
+30 per
+
+=== Comparator Extract 7 (Control) ===
+Relative № of
+effect particip
+(95% (studies
+lumab CI)
+HR 0.53 303
+(0.36 to (1 RCT)
+HR 0.46 303
+(0.33 to (1 RCT)
+HR 0.52 713
+(0.39 to (1 RCT)
+Certainty
+pants the eviden
+s) (GRADE)
+) HIGHa
+) HIGHa
+) MODERA
+of C
+nce
+ATEa,b
+Comments
+CONS
+s
+SIDERAZIONI AGGIUNTIVE
+NEO
+independent
+central
+review)
+Local -
+control - not
+reported
+Objective Study population
+response
+18 per 100
+Duration of Study population
+response
+follow up: 35 per 100c
+median 13.8
+months
+Quality of -
+life - not
+reportedd
+Grade 3-4 Study population
+pneumonia
+assessed 4 per 100
+with: NCI-
+CTCAE
+follow up:
+median 14.5
+months
+Grade 3-4 Study popu
+
+=== Comparator Extract 8 (Control) ===
+and the lower confidence limit crosses the minimal important difference (MID= 7 VAS)
+14 Assuming a SD= 7.24 for both arm (Sds are not reported in the primary article) and a p-value > 0.05 (the authors reported "Not-Ssignificant" only)
+15 we added a further event both in the intervention and in the control group to permit the calculation of relative and absolute effect
+IDA
+ore); both f
+for benefit
+and harm Dovrebbe maintenance therapy with pemetrexed vs placebo essere utiliz
+POPOLAZIONE: Advanced NSCLC
+INTERVENTO: Maintenance therapy with pemetrexed
+CONFRONTO: Placebo
+ESITI PRINCIPALI: Overall Surviv
+
+=== Comparator Extract 9 (Control) ===
+guidelines for target volume definition in the treatment
+Row 27: of locally advanced non-small cell lung cancer. Radiother Oncol. 2018; 127(1):1-5.
+Row 28: Billiet C, Decaluvè H, Peeters S, et al. Modern post-operative radiotherapy for stage III non-small cell lung cancer
+Row 29: may improve local control and survival: a meta-analysis. Radiother Oncol. 2014; 110:3-8
+Row 30: Li N, Zhu X, Li Y, et al. Meta-analysis of postoperative radiotherapy (PORT) in resectable stage IIIA-N2 non-small
+Row 31: cell lung cancer (NSCLC): an update on 3,278 patients. J Clin Oncol. 2016; 34(Suppl):8546.
+Row 32: Liu T,
+
+=== Comparator Extract 10 (Control) ===
+43: cancer: should its role be re-evaluated? Cancer. 2010; 116(5):1350-7.
+Row 44: Pignon JP, Arriagada R. A meta-analysis of thoracic radiotherapy for small-cell lung cancer. N Engl J Med. 1992;
+Row 45: 327(23):1618-24.
+Row 46: Warde P, Payne D. Does thoracic irradiation improve survival and local control in limited-stage small-cell carcinoma
+Row 47: of the lung? A meta-analysis. J Clin Oncol. 1992; 10(6):890-5
+Row 48: Turrisi AT 3rd, Kim K, Blum R, et al. Twice-daily compared with once-daily thoracic radiotherapy in limited small-
+Row 49: cell lung cancer treated concurrently with cisplatin and eto
+
+=== Comparator Extract 11 (Control) ===
+PM, Glatzer M, Belderbos J, et al. Prophylactic cranial irradiation in stage IV small cell lung cancer: Selection
+Row 10: of patients amongst European IASLC and ESTRO experts. Radiother Oncol. 2019; 133:163-6.
+Row 11: Ge W, Xu H, Yan Y, et al. The effects of prophylactic cranial irradiation versus control on survival of patients with
+Row 12: extensive-stage small-cell lung cancer: a meta-analysis of 14 trials. Radiat Oncol. 2018; 13(1):155.
+Row 13: Jeremic B, Shibamoto Y, Nikolic N, et al. Role of radiation therapy in the combined-modality treatment of patients
+Row 14: with extensive disease small-c
+
+=== Comparator Extract 12 (Control) ===
+screening|Relativo (95% CI)|Assoluto (95% CI)||
+Row 5: ||||||||||||
+Row 6: Overdiagnosis - LDCT vs no screening (follow up: intervallo 3 anni a 5 anni; valutato con: the ratio between the difference of cumulative cancer incidence in the screened population and the cumulative cancer incidence in the control population, and the cumulative number of screen-detected cancers.)||||||||||||
+Row 7: ||||||||||||
+Row 8: 5|studi randomizzati|serio b|serio c|non importante|non importante|nessuno|14653|14003|-|overdiagnosis 0.38 maggiore (0.14 maggiore a 0.63 maggiore)|⨁⨁◯◯ BASSA|CRITICO
+Row 9: False positive rat
+
+=== Comparator Extract 13 (Control) ===
+T screening|Relativo (95% CI)|Assoluto (95% CI)|
+Row 5: |||||||||||
+Row 6: Overdiagnosis - LDCT vs no screening (follow up: intervallo 3 anni a 5 anni; valutato con: the ratio between the difference of cumulative cancer incidence in the screened population and the cumulative cancer incidence in the control population, and the screen-detected cancers.)|||||||||||
+Row 7: |||||||||||
+Row 8: 5|studi randomizzati|serio b|serio c|non importante|non importante|nessuno|14653|14003|-|overdiagnosis 0.38 maggiore (0.14 maggiore a 0.63 maggiore)|⨁⨁◯◯ BASSA
+Row 9: False positive rate - LDCT vs no screening (follo
+
+=== Comparator Extract 14 (Control) ===
+edia overdiagnosis - 28656 ⨁⨁◯ no screening overdiagnosis - 0.38 maggiore (5 RCT) ◯ valutato con: the ratio LDCT vs no (0.14 between the difference of screening era 0 maggiore a BASSAa,b cumulative cancer 0.63 incidence in the screened maggiore) population and the cumulative cancer incidence in the control population, and the cumulative number of| Row 1: |||||||||
+Row 2: Esiti||Effetto assoluto anticipato* (95%||||Effetto relativo (95% CI)|№ dei partecipanti (studi)|Certezza delle prove (GRADE)|Commenti
+Row 3: ||CI)|||||||
+Row 4: |||||||||
+Row 5: |||||||||
+Row 6: |Rischio con no LDCT screening|||Risc
+
+=== Comparator Extract 15 (Control) ===
+o con no LDCT screening|||Rischio con|||||
+Row 7: ||||LDCT|||||
+Row 8: ||||screening|||||
+Row 9: |||||||||
+Row 10: Overdiagnosis - LDCT vs no screening valutato con: the ratio between the difference of cumulative cancer incidence in the screened population and the cumulative cancer incidence in the control population, and the cumulative number of||||||-|28656 (5 RCT)|⨁⨁◯ ◯ BASSAa,b|
+Row 11: |La media overdiagnosis - LDCT vs no screening era 0||overdiagnosis 0.38 maggiore (0.14 maggiore a 0.63 maggiore)||||||
+Row 12: ||||||||| Row 1: Effetto
+Row 2: relativo
+Row 3: (95% CI) Row 1: № dei
+Row 2: partecip
+
+=== Comparator Extract 16 (Control) ===
+n no LDCT screening|||Rischio con||||||
+Row 7: ||||LDCT||||||
+Row 8: ||||screening||||||
+Row 9: ||||||||||
+Row 10: Overdiagnosis - LDCT vs no screening valutato con: the ratio between the difference of cumulative cancer incidence in the screened population and the cumulative cancer incidence in the control population, and the cumulative number of||||||-|28656 (5 RCT)|⨁⨁◯ ◯ BASSAa,b||
+Row 11: |La media overdiagnosis - LDCT vs no screening era 0||overdiagnosis 0.38 maggiore (0.14 maggiore a 0.63 maggiore)|||||||
+Row 12: |||||||||| Row 1: 
+Row 2: i Row 1: |screen-detected cancers. follow up: intervallo
+
+=== Comparator Extract 17 (Control) ===
+comes between video-assisted segmentectomy and lobectomy for patients with clinical stage IA non-small cell lung cancer: a propensity score matching study. J Thorac Dis; Aug 2018. 24. Darras, M., Ojanguren, A., Forster, C., Zellweger, M., Perentes, J. Y., Krueger, T., Gonzalez, M.. Short-term local control after VATS segmentectomy and lobectomy for solid NSCLC of less than 2 cm. Thorac Cancer; Feb 2021. 25. De Giacomo, T., Di Stasio, M., Diso, D., Anile, M., Venuta, F., Furio Coloni, G.. Sub-lobar lung resection of peripheral T1N0M0 NSCLC does not affect local recurrence rate. Scand J Surg; 2009. 26.
+
+=== Comparator Extract 18 (Control) ===
+mparison of the surgical outcomes of thoracoscopic lobectomy, segmentectomy, and wedge resection for clinical stage I non-small cell lung cancer. Thorac Cardiovasc Surg; Apr 2011. 24. Darras, M., Ojanguren, A., Forster, C., Zellweger, M., Perentes, J. Y., Krueger, T., Gonzalez, M.. Short-term local control after VATS segmentectomy and lobectomy for solid NSCLC of less than 2 cm. Thorac Cancer; Feb 2021. 25. Deng, B., Cassivi, S. D., de Andrade, M., Nichols, F. C., Trastek, V. F., Wang, Y., Wampfler, J. A., Stoddard, S. M., Wigle, D. A., Shen, R. K., Allen, M. S., Deschamps, C., Yang, P.. Clinical out
+
+=== Comparator Extract 19 (Control) ===
+by means of blinded independent central review))||||||||||||
+Row 14: ||||||||||||
+Row 15: 1|randomised trials|not serious a|not serious|serious b|not serious|none|72/476 (15.1%)|140/237 (59.1%)|HR 0.52 (0.39 to 0.69)|22 fewer per 100 (from 30 fewer to 13 fewer)|⨁⨁⨁◯ MODERATE|CRITICAL
+Row 16: Local control - not reported||||||||||||
+Row 17: ||||||||||||
+Row 18: -|-|-|-|-|-|-|-|-|-|-|-|
+Row 19: ||||||||||||
+Row 20: |||||||||||| Row 1: |||||||||||||
+Row 2: Objective response|||||||||||||
+Row 3: |||||||||||||
+Row 4: 1|randomised trials|not serious a|not serious|serious b|not serious|none|133/443 (30.0%)
+
+=== Comparator Extract 20 (Control) ===
+(GRADE)|Certainty
+Row 3: pants||the eviden
+Row 4: s)||(GRADE) Row 1: ||
+Row 2: of|C|C
+Row 3: nce||
+Row 4: || Row 1: 
+Row 2: Comments
+Row 3:  Row 1: |
+Row 2: |
+Row 3: |
+Row 4: | Row 1: 
+Row 2: s Row 1: |distant metastasis (all assessed by means of blinded independent central review) Local - - - - - control - not reported Objective Study population RR 1.68 656 ⨁⨁⨁◯ response (1.22 to (1 RCT) MODERATEa,b 18 per 100 30 per 100 2.32) (22 to 41) Duration of Study population HR 0.43 160 ⨁⨁⨁◯ response (0.22 to (1 RCT)c MODERATEa,b follow up: 35 per 100c 17 per 100 0.84) median 13.8 (9 to 31)c months Quality
+
+=== Comparator Extract 21 (Control) ===
+tion RR 1.15 709 ⨁⨁◯◯ pneumonia (0.53 to (1 RCT) LOWa,b,f assessed 4 per 100 4 per 100 2.47) with: NCI- (2 to 10) CTCAE 4.03 follow up: median 14.5 months| Row 1: distant metastasis (all assessed by means of blinded independent central review)|||||||||
+Row 2: |||||||||
+Row 3: |||||||||
+Row 4: Local control - not reported||||||-|-|-|
+Row 5: |-||-||||||
+Row 6: |||||||||
+Row 7: Objective response||||||RR 1.68 (1.22 to 2.32)|656 (1 RCT)|⨁⨁⨁◯ MODERATEa,b|
+Row 8: ||Study population|||||||
+Row 9: |||||||||
+Row 10: |||||||||
+Row 11: |18 per 100|||30 per 100|||||
+Row 12: ||||(22 to 41)|||||
+Row 13: |||||||||
+
+=== Comparator Extract 22 (Control) ===
+||||||
+Row 25: |||||||||
+Row 26: |||||||||
+Row 27: |4 per 100||4 per 100 (2 to 10)||||||
+Row 28: ||||||||| Row 1: 17 per 100
+Row 2: (9 to 31)c Row 1: 4 per 100
+Row 2: (2 to 10) Row 1: distant metastasis (all assessed by means of blinded independent central review)||
+Row 2: ||
+Row 3: ||
+Row 4: Local control - not reported||
+Row 5: |-|-
+Row 6: ||
+Row 7: Objective response||
+Row 8: ||Study population
+Row 9: ||
+Row 10: ||
+Row 11: |18 per 100|18 per 100
+Row 12: ||
+Row 13: Duration of response follow up: median 13.8 months||
+Row 14: ||Study population
+Row 15: ||
+Row 16: ||
+Row 17: |35 per 100c|35 per 100c
+
+=== Comparator Extract 23 (Control) ===
+|
+Row 28: |||| Row 1: ||
+Row 2: |Certainty the eviden (GRADE)|Certainty
+Row 3: pants||the eviden
+Row 4: s)||(GRADE) Row 1: ||
+Row 2: of|C|C
+Row 3: nce||
+Row 4: || Row 1: 
+Row 2: Comments
+Row 3:  Row 1: 
+Row 2: s Row 1: |
+Row 2: |
+Row 3: |
+Row 4: | Row 1: |independent central review) Local - - - - - control - not reported Objective Study population RR 1.68 656 ⨁⨁⨁◯ response (1.22 to (1 RCT) MODERATEa,b 18 per 100 30 per 100 2.32) (22 to 41) Duration of Study population HR 0.43 160 ⨁⨁⨁◯ response (0.22 to (1 RCT)c MODERATEa,b follow up: 35 per 100c 17 per 100 0.84) median 13.8 (9 to 31)c months Quality
+
+=== Comparator Extract 24 (Control) ===
+NCI- (2 to 10) CTCAE 4.03 follow up: median 14.5 months Grade 3-4 Study population RR 1.31 709 ⨁⨁◯◯ pneumonitis (0.52 to (1 RCT) LOWa,b,f or radiation 3 per 100 3 per 100 3.31) pneumonitis (1 to 8) assessed| Row 1: independent central review)|||||||||
+Row 2: |||||||||
+Row 3: |||||||||
+Row 4: Local control - not reported||||||-|-|-|
+Row 5: |-||-||||||
+Row 6: |||||||||
+Row 7: Objective response||||||RR 1.68 (1.22 to 2.32)|656 (1 RCT)|⨁⨁⨁◯ MODERATEa,b|
+Row 8: ||Study population|||||||
+Row 9: |||||||||
+Row 10: |||||||||
+Row 11: |18 per 100|||30 per 100|||||
+Row 12: ||||(22 to 41)|||||
+Row 13: |||||||||
+
+=== Comparator Extract 25 (Control) ===
+: ||Study population|||||||
+Row 31: |||||||||
+Row 32: |||||||||
+Row 33: |3 per 100||3 per 100 (1 to 8)||||||
+Row 34: ||||||||| Row 1: 17 per 100
+Row 2: (9 to 31)c Row 1: 4 per 100
+Row 2: (2 to 10) Row 1: 3 per 100
+Row 2: (1 to 8) Row 1: independent central review)||
+Row 2: ||
+Row 3: ||
+Row 4: Local control - not reported||
+Row 5: |-|-
+Row 6: ||
+Row 7: Objective response||
+Row 8: ||Study population
+Row 9: ||
+Row 10: ||
+Row 11: |18 per 100|18 per 100
+Row 12: ||
+Row 13: Duration of response follow up: median 13.8 months||
+Row 14: ||Study population
+Row 15: ||
+Row 16: ||
+Row 17: |35 per 100c|35 per 100c
+
+=== Comparator Extract 26 (Placebo) ===
+-the-ats-response.php /  News-Detail/declaration-from-
+iaslc-tobacco-cessation-after-cancer-diagnosis) (11).
+Le evidenze scientifiche sull’argomento rimangono carenti. Una recente revisione sistematica Cochrane ha
+analizzato 2 studi randomizzati (n=662) che confrontavano e-cig a base di nicotina vs placebo e-cig (senza
+nicotina) in soggetti fumatori, evidenziando una significativa riduzione dell’abitudine tabagica in favore
+dell’uso di e-cig a base di nicotina (astensione 9% vs 4%; rischio relativo 2,29; IC95% 1,05-4,96). Tuttavia,
+gli studi valutati includevano pochi pazienti e utilizzavano disposit
+
+=== Comparator Extract 27 (Placebo) ===
+n hanno dimostrato alcun beneficio
+in termini di sopravvivenza libera da malattia (erlotinib: HR 0,90; IC95% 0,74-1,10; p=0,32; gefitinib: HR
+1,28; IC95% 0,92-1,76; p=0,14) o sopravvivenza globale (erlotinib: HR 1,13; IC95% 0,88-1,44; p=0,33;
+gefitinib: HR 1,24; IC95% 0,90-1,71; p=0,18) rispetto al placebo in pazienti affetti da NSCLC radicalmente
+operati (stadio IB-IIIA) non selezionati per mutazioni attivanti di EGFR.
+Quattro studi randomizzati (EVAN, CTONG 1104, IMPACT, EVIDENCE) condotti in pazienti asiatici affetti
+da NSCLC radicalmente operato in stadio II-III hanno confrontato inibitori di EGF
+
+=== Comparator Extract 28 (Placebo) ===
+degli studi).
+Lo studio di fase III ADAURA ha randomizzato 682 pazienti affetti da NSCLC radicalmente operato in stadio
+IB-IIIA (VII edizione del TNM) e con mutazione attivanti classiche di EGFR (delezione esone 19 o mutazione
+L588R esone 21) a ricevere un trattamento con osimertinib per 3 anni vs placebo. Nella prima pubblicazione
+dei risultati sul New England Journal of Medicine nel 2020, lo studio ha dimostrato di soddisfare l’obiettivo
+primario aumentando la sopravvivenza libera da recidiva nei pazienti con stadio II-IIIA (HR 0,17; IC99,06%
+0,11-0,26; p <0,0001). Il beneficio si è osservato sia
+
+=== Comparator Extract 29 (Placebo) ===
+dimostrato anche un beneficio significativo in sopravvivenza libera da recidiva
+cerebrale di malattia (stadio II-IIIA) (HR 0,24; IC95% 0,14-0,42) con una probabilità stimata di osservare
+recidiva cerebrale a 36 mesi (in assenza di recidiva non-cerebrale o morte) del 2% con osimertinib vs il 13%
+con placebo. Per quanto riguarda il profilo di tollerabilità, eventi avversi di grado 3 o 4 si sono registrati nel
+23% dei pazienti trattati con osimertinib (prevalentemente diarrea, paronichia e secchezza cutanea) e nel 14%
+dei pazienti trattati con placebo. Nel braccio osimertinib i tassi di interruzione del
+
+=== Comparator Extract 30 (Placebo) ===
+ebrale o morte) del 2% con osimertinib vs il 13%
+con placebo. Per quanto riguarda il profilo di tollerabilità, eventi avversi di grado 3 o 4 si sono registrati nel
+23% dei pazienti trattati con osimertinib (prevalentemente diarrea, paronichia e secchezza cutanea) e nel 14%
+dei pazienti trattati con placebo. Nel braccio osimertinib i tassi di interruzione del farmaco, riduzione di dose
+e discontinuazione definitiva sono stati rispettivamente del 27%, 12% e 13% (186). I dati di sopravvivenza
+globale dello studio ADAURA sono stati pubblicati sul New England Journal of Medicine nel 2023. Tra i
+pazienti c
+
+=== Comparator Extract 31 (Placebo) ===
+ente del 27%, 12% e 13% (186). I dati di sopravvivenza
+globale dello studio ADAURA sono stati pubblicati sul New England Journal of Medicine nel 2023. Tra i
+pazienti con stadio II-IIIA, la percentuale di pazienti vivi a 5 anni è risultata dell’85% nedicine nel braccio
+osimertinib vs 73% del braccio placebo (HR 0,49; IC95% 0,33-0,73; p <0,001). Tale beneficio significativo in
+sopravvivenza si mantiene anche nell’intera popolazione (stadio IB-IIIA) (HR 0,49; IC95% 0,34-0,70; p
+Limiti: Mancanza di generalizzabilità dei dati (rischio downstaging al basale).
+Bilancio beneficio/danno: A favore in considera
+
+=== Comparator Extract 32 (Placebo) ===
+B-IIIA) (HR 0,49; IC95% 0,34-0,70; p
+Limiti: Mancanza di generalizzabilità dei dati (rischio downstaging al basale).
+Bilancio beneficio/danno: A favore in considerazione del prolungamento della sopravvivenza libera da
+recidiva (inclusa recidiva intracranica) e della sopravvivenza globale rispetto a placebo.
+Qualità globale Forza della
+Raccomandazione clinica
+delle prove raccomandazione
+Nei pazienti con NSCLC in stadio IB-IIIA sottoposti a
+resezione chirurgica con mutazioni classiche di EGFR
+(Del19/L858R), un trattamento con osimertinib della durata
+Moderata Forte a favore
+di 3 anni dovrebbe essere pr
+
+=== Comparator Extract 33 (Placebo) ===
+studio di fase III con inibitore anti-PD-1 (pembrolizumab)
+nel setting adiuvante. Nello studio PEARLS/KEYNOTE-091, 1177 pazienti con NSCLC radicalmente operato
+stadio IB (≥4 cm)-IIIA (VII edizione della stadiazione TNM) sono stati randomizzati a ricevere l’inibitore
+pembrolizumab per 1 anno oppure placebo (chemioterapia adiuvante a base di platino eseguita nell’86% dei
+casi). Pembrolizumab ha dimostrato un vantaggio statisticamente significativo in sopravvivenza libera da
+recidiva nell’intera popolazione (stadio IB-IIIA: HR 0,76; IC95% 0,63-0,91; p=0,0014), ma non nei pazienti
+con PD-L1 ≥50% (HR 0,8
+
+=== Comparator Extract 34 (Placebo) ===
+i platino concomitanti alla radioterapia) ad intento radicale (dose totale di radioterapia compresa
+tra 54 Gy e 66 Gy). I pazienti venivano randomizzati, in un intervallo temporale compreso tra 1 e 42 giorni dall’ultima
+dose di radioterapia, a ricevere un trattamento immunoterapico con durvalumab o placebo (2:1) 10 mg/kg e.v. ogni 2
+settimane sino a un massimo di 12 mesi di trattamento. I due endpoint primari erano PFS e OS. Il tempo alla progressione
+è stato valutato da un comitato di revisione centrale indipendente in cieco, secondo i criteri RECIST v1.1.
+Alla prima analisi ad interim pianificata,
+
+=== Comparator Extract 35 (Placebo) ===
+primari erano PFS e OS. Il tempo alla progressione
+è stato valutato da un comitato di revisione centrale indipendente in cieco, secondo i criteri RECIST v1.1.
+Alla prima analisi ad interim pianificata, la PFS è risultata significativamente superiore nei pazienti trattati con
+durvalumab rispetto al placebo (PFS mediana 16,8 mesi vs 5,6 mesi; HR 0,52; IC95% 0,42-0,65; p=0,001). Gli eventi
+avversi di grado 3 e 4 sono stati solo lievemente più frequenti nel braccio durvalumab (29,9% vs 26,1%), così come gli
+eventi avversi che hanno portato a una sospensione del trattamento (15,4% vs 9,8%) (235).
+Dopo un
+
+=== Comparator Extract 36 (Placebo) ===
+etastatico ad istologia non-squamosa, senza mutazioni di EGFR o riarrangiamento di ALK
+e con qualsiasi livello di espressione di PD-L1, con performance status di 0-1, in I linea di trattamento (366). I pazienti
+sono stati randomizzati (2:1) a ricevere pembrolizumab (200 mg/mq ev ogni 3 settimane) o placebo, fino ad un massimo
+di 35 cicli, in associazione a pemetrexed (500 mg/mq e.v. g. 1 ogni 3 settimane) e cisplatino (75 mg/mq e.v. g.1 ogni 3
+settimane) o carboplatino (AUC 5 e.v. g. 1 ogni 3 settimane) per 4 cicli seguiti da pemetrexed di mantenimento. In questo
+studio, la maggior parte dei pazienti
+
+=== Comparator Extract 37 (Placebo) ===
+quella
+osservata negli studi di pembrolizumab in monoterapia, ad eccezione della nefrite, che si è verificata più frequentemente
+rispetto all’atteso (6,2%). L’interruzione di almeno uno dei componenti del trattamento è stata più frequente nel braccio
+del pembrolizumab (33,6%) rispetto a quello del placebo (16,3%), ma a questo proposito occorre considerare che la durata
+mediana del trattamento nel braccio del pembrolizumab è stata maggiore di quella del placebo (9,8 vs 6,2 mesi) (367-
+Rapporto beneficio/danno: A favore della combinazione, in considerazione del prolungamento della sopravvivenza
+libera
+
+=== Comparator Extract 38 (Placebo) ===
+L’interruzione di almeno uno dei componenti del trattamento è stata più frequente nel braccio
+del pembrolizumab (33,6%) rispetto a quello del placebo (16,3%), ma a questo proposito occorre considerare che la durata
+mediana del trattamento nel braccio del pembrolizumab è stata maggiore di quella del placebo (9,8 vs 6,2 mesi) (367-
+Rapporto beneficio/danno: A favore della combinazione, in considerazione del prolungamento della sopravvivenza
+libera da progressione e della sopravvivenza globale rispetto alla chemioterapia a fronte di un simile profilo di tollerabilità
+in termini di eventi avversi correla
+
+=== Comparator Extract 39 (Placebo) ===
+to chemioterapico di I linea nei pazienti
+affetti da NSCLC avanzato, ad istologia squamosa, con qualsiasi livello di espressione di PD-L1. Lo studio KEYNOTE-
+407 è uno studio di fase III in doppio cieco, che ha randomizzato i pazienti (1:1) a ricevere pembrolizumab (200 mg/mq ev
+ogni 3 settimane) o placebo in associazione a paclitaxel (200 mg/mq e.v. g. 1 ogni 3 settimane) o nab-paclitaxel (100 mg/mq
+e.v. g. 1 settimanale) e carboplatino (AUC 5 e.v. g. 1 ogni 3 settimane) per 4 cicli, seguiti da una terapia di mantenimento
+con pembrolizumab e/o placebo in caso di risposta o stabilità di malattia, fin
+
+=== Comparator Extract 40 (Placebo) ===
+pembrolizumab (200 mg/mq ev
+ogni 3 settimane) o placebo in associazione a paclitaxel (200 mg/mq e.v. g. 1 ogni 3 settimane) o nab-paclitaxel (100 mg/mq
+e.v. g. 1 settimanale) e carboplatino (AUC 5 e.v. g. 1 ogni 3 settimane) per 4 cicli, seguiti da una terapia di mantenimento
+con pembrolizumab e/o placebo in caso di risposta o stabilità di malattia, fino ad un massimo di 35 cicli. I fattori di
+stratificazione dello studio includevano il livello di espressione di PD-L1 (PD-L1 ≥1% vs <1%), il tipo di taxano (paclitaxel
+vs nab-paclitaxel) e la regione geografica (Asia vs resto del mondo). Il disegno de
+
+=== Comparator Extract 41 (Placebo) ===
+el braccio chemioimmuno vs 9,4% nel braccio standard con la chemioterapia. Anche la PFS è risultata superiore nel braccio
+con pembrolizumab (8 vs 5,1 mesi; HR 0,62; IC95% 0,52-0,74), con un tasso di risposte obiettive pari al 62,2% per la
+combinazione con pembrolizumab rispetto al 38,8% nel braccio placebo.
+In termini di tollerabilità, la combinazione ha avuto eventi avversi sovrapponibili rispetto al gruppo trattato con placebo:
+74,5% di eventi avversi G3-5 per il gruppo trattato con pembrolizumab vs 70% del gruppo trattato con placebo (369-370).
+Bilancio beneficio/danno: A favore della combinazione
+
+=== Comparator Extract 42 (Placebo) ===
+pembrolizumab (8 vs 5,1 mesi; HR 0,62; IC95% 0,52-0,74), con un tasso di risposte obiettive pari al 62,2% per la
+combinazione con pembrolizumab rispetto al 38,8% nel braccio placebo.
+In termini di tollerabilità, la combinazione ha avuto eventi avversi sovrapponibili rispetto al gruppo trattato con placebo:
+74,5% di eventi avversi G3-5 per il gruppo trattato con pembrolizumab vs 70% del gruppo trattato con placebo (369-370).
+Bilancio beneficio/danno: A favore della combinazione in considerazione del prolungamento della sopravvivenza libera
+da progressione e della sopravvivenza globale rispetto alla c
+
+=== Comparator Extract 43 (Placebo) ===
+la
+combinazione con pembrolizumab rispetto al 38,8% nel braccio placebo.
+In termini di tollerabilità, la combinazione ha avuto eventi avversi sovrapponibili rispetto al gruppo trattato con placebo:
+74,5% di eventi avversi G3-5 per il gruppo trattato con pembrolizumab vs 70% del gruppo trattato con placebo (369-370).
+Bilancio beneficio/danno: A favore della combinazione in considerazione del prolungamento della sopravvivenza libera
+da progressione e della sopravvivenza globale rispetto alla chemioterapia a fronte di un profilo di tossicità simile in termini
+di eventi avversi correlati al trattamento
+
+=== Comparator Extract 44 (Placebo) ===
+mg/mq e.v. g. 1 ogni 3
+settimane) per 4 cicli ed una successiva fase randomizzata (fase di mantenimento), in cui i pazienti eleggibili che non
+erano in progressione di malattia dopo l’induzione (n=539) venivano randomizzati (2:1) a ricevere pemetrexed (500
+mg/mq e.v. g. 1 ogni 3 settimane) + BSC o placebo + BSC. L’endpoint primario dello studio era la PFS della fase di
+mantenimento valutata dagli sperimentatori. La PFS mediana è risultata essere significativamente migliore per il braccio
+del pemetrexed rispetto al placebo (4,1 vs 2,8 mesi; HR 0,62; IC95% 0,49-0,79; p <0,0001) e tale vantaggio è stat
+
+=== Comparator Extract 45 (Placebo) ===
+ati (2:1) a ricevere pemetrexed (500
+mg/mq e.v. g. 1 ogni 3 settimane) + BSC o placebo + BSC. L’endpoint primario dello studio era la PFS della fase di
+mantenimento valutata dagli sperimentatori. La PFS mediana è risultata essere significativamente migliore per il braccio
+del pemetrexed rispetto al placebo (4,1 vs 2,8 mesi; HR 0,62; IC95% 0,49-0,79; p <0,0001) e tale vantaggio è stato
+confermato anche da un comitato di revisione radiologica indipendente (3,9 vs 2,6 mesi; HR 0,64; IC95% 0,51-0,81;
+p=0,0002). L’analisi finale di OS effettuata dopo un follow-up mediano di 24,3 mesi ha mostrato un vantag
+
+=== Comparator Extract 46 (Placebo) ===
+95% 0,49-0,79; p <0,0001) e tale vantaggio è stato
+confermato anche da un comitato di revisione radiologica indipendente (3,9 vs 2,6 mesi; HR 0,64; IC95% 0,51-0,81;
+p=0,0002). L’analisi finale di OS effettuata dopo un follow-up mediano di 24,3 mesi ha mostrato un vantaggio per
+pemetrexed rispetto a placebo (mediana: 13,9 vs 11 mesi; HR 0,78; IC95% 0,64-0,96; p=0,0195), sia per i pazienti che
+con la terapia di induzione avevano ottenuto una risposta completa o parziale (HR 0,81; IC95% 0,59-1,11) che per quelli
+che avevano ottenuto una stabilità di malattia (HR 0,76; IC95% 0,57-1,01) (386). La terapia
+
+=== Comparator Extract 47 (Placebo) ===
+sia per i pazienti che
+con la terapia di induzione avevano ottenuto una risposta completa o parziale (HR 0,81; IC95% 0,59-1,11) che per quelli
+che avevano ottenuto una stabilità di malattia (HR 0,76; IC95% 0,57-1,01) (386). La terapia con pemetrexed è stata
+gravata da maggiore tossicità rispetto al placebo (soprattutto in termini di anemia, neutropenia e fatigue).
+Sulla base di tali dati, pemetrexed è approvato e rimborsato come terapia di mantenimento in caso di malattia ad istologia
+non-squamosa in stabilità o risposta dopo combinazione di chemioterapia a base di platino, ed è un’opzione che può
+es
+
+=== Comparator Extract 48 (Placebo) ===
+IB o IV) (389). I pazienti sono stati randomizzati (1:1:1) a ricevere
+cisplatino/gemcitabina (cisplatino 80 mg/mq e.v. g. 1 e gemcitabina 1250 mg/mq e.v. gg. 1,8 ogni 3 settimane)
+fino ad un massimo di 6 cicli, associati a bevacizumab a basse dosi (7,5 mg/mq) o bevacizumab ad alte dosi
+(15 mg/mq) o placebo g. 1 ogni 3 settimane fino a progressione di malattia o tossicità inaccettabile. L’endpoint
+primario dello studio era inizialmente la OS, divenendo poi la PFS ad un successivo emendamento. La PFS è
+stata significativamente migliore per il bevacizumab rispetto al placebo, sia nel braccio ad alte dos
+
+=== Comparator Extract 49 (Placebo) ===
+ab ad alte dosi
+(15 mg/mq) o placebo g. 1 ogni 3 settimane fino a progressione di malattia o tossicità inaccettabile. L’endpoint
+primario dello studio era inizialmente la OS, divenendo poi la PFS ad un successivo emendamento. La PFS è
+stata significativamente migliore per il bevacizumab rispetto al placebo, sia nel braccio ad alte dosi (PFS
+mediana: 6,5 vs 6,1 mesi; HR 0,82; IC95% 0,68-0,98; p=0,03) che in quello a basse dosi (PFS mediana: 6,7
+vs 6,1 mesi; HR 0,75; IC95% 0,62-0,91; p=0,003). Nei pazienti trattati con bevacizumab è stato osservato
+inoltre un incremento del RR (alte dosi: 30,4%; basse
+
+=== Comparator Extract 50 (Placebo) ===
+ccio ad alte dosi (PFS
+mediana: 6,5 vs 6,1 mesi; HR 0,82; IC95% 0,68-0,98; p=0,03) che in quello a basse dosi (PFS mediana: 6,7
+vs 6,1 mesi; HR 0,75; IC95% 0,62-0,91; p=0,003). Nei pazienti trattati con bevacizumab è stato osservato
+inoltre un incremento del RR (alte dosi: 30,4%; basse dosi: 34,1%, placebo: 20,1%). Il vantaggio in PFS non
+si è tuttavia tradotto in un vantaggio in OS (mediana: 13,4 mesi per bevacizumab ad alte dosi, 13,6 mesi per
+bevacizumab ad alte dosi, 13,1 per il placebo) (390). Il profilo di tossicità del bevacizumab è stato coerente
+con quanto atteso, e l’incidenza di eventi avv
+
+=== Comparator Extract 51 (Placebo) ===
+i trattati con bevacizumab è stato osservato
+inoltre un incremento del RR (alte dosi: 30,4%; basse dosi: 34,1%, placebo: 20,1%). Il vantaggio in PFS non
+si è tuttavia tradotto in un vantaggio in OS (mediana: 13,4 mesi per bevacizumab ad alte dosi, 13,6 mesi per
+bevacizumab ad alte dosi, 13,1 per il placebo) (390). Il profilo di tossicità del bevacizumab è stato coerente
+con quanto atteso, e l’incidenza di eventi avversi di grado ≥3 è stata simile nei tre bracci; in questo studio le
+emorragie polmonari di grado ≥3 si sono verificate in 2 pazienti nel braccio placebo, 5 pazienti nel braccio con
+bevaciz
+
+=== Comparator Extract 52 (Placebo) ===
+vacizumab ad alte dosi, 13,1 per il placebo) (390). Il profilo di tossicità del bevacizumab è stato coerente
+con quanto atteso, e l’incidenza di eventi avversi di grado ≥3 è stata simile nei tre bracci; in questo studio le
+emorragie polmonari di grado ≥3 si sono verificate in 2 pazienti nel braccio placebo, 5 pazienti nel braccio con
+bevacizumab a basse dosi e 3 pazienti nel braccio con bevacizumab ad alte dosi.
+Due metanalisi hanno dimostrato un incremento significativo in RR, PFS e OS dall’aggiunta di bevacizumab
+alla chemioterapia a base di platino rispetto alla sola chemioterapia in pazienti affe
+
+=== Comparator Extract 53 (Placebo) ===
+nimento del NSCLC ad istologia non-
+squamosa ne limita il ruolo in seconda linea (395).
+Un ulteriore agente che si è dimostrato efficace nella terapia di II e III linea del NSCLC avanzato è erlotinib
+che, in uno studio randomizzato di fase III, si è dimostrato superiore in termini di OS rispetto al placebo, in
+pazienti con NSCLC avanzato, non selezionati per mutazione di EGFR, e considerati non idonei alla
+chemioterapia (396).
+Tuttavia, 2 studi randomizzati di confronto tra erlotinib e docetaxel in II linea in pazienti wild-type per EGFR,
+lo studio italiano “TAILOR” e lo studio giapponese “DELTA”, no
+
+=== Comparator Extract 54 (Placebo) ===
+entrali con evidenza di infiltrazione dei grossi vasi, o storia recente di emottisi significativa o di evento
+trombotico o emorragico clinicamente rilevante. In questo studio i pazienti sono stati randomizzati a ricevere
+docetaxel (75 mg/mq e.v.) g. 1 ogni 3 settimane + nintedanib (200 mg b.i.d.) o placebo gg. 2-21 ogni 3
+settimane, fino a tossicità inaccettabile o progressione di malattia. L’endpoint primario era la PFS. L’endpoint
+secondario era l’OS, valutata mediante un’analisi gerarchica pre-specificata secondo il seguente ordine: 1) nei
+pazienti con adenocarcinoma in progressione entro 9 mesi d
+
+=== Comparator Extract 55 (Placebo) ===
+ocarcinoma in progressione entro 9 mesi dall’inizio della I linea; 2) in tutti i pazienti con
+adenocarcinoma; 3) in tutti i pazienti. Nella popolazione ITT, dopo un follow-up mediano di 7,1 mesi, la PFS
+è stata di 3,4 mesi nel braccio di docetaxel + nintedanib vs 2,7 mesi nel braccio di docetaxel + placebo (HR
+0,79; IC95% 0,68-0,92; p=0,0019); il vantaggio in PFS è stato osservato indipendentemente dall’istologia (HR
+nell’istologia adenocarcinoma: 0,77; HR nell’istologia squamosa: 0,77) e si è mantenuto ad un follow-up
+mediano di 37,1 mesi (HR 0,85; IC95% 0,75-0,96; p=0,0076), quando è stata effettua
+
+=== Comparator Extract 56 (Placebo) ===
+HR nell’istologia squamosa: 0,77) e si è mantenuto ad un follow-up
+mediano di 37,1 mesi (HR 0,85; IC95% 0,75-0,96; p=0,0076), quando è stata effettuata l’analisi finale della
+OS. La OS è risultata in maniera statisticamente significativa più lunga nel braccio con nintedanib rispetto al
+braccio con placebo per i pazienti con adenocarcinoma progrediti entro i 9 mesi dall’inizio della terapia di I
+linea (10,9 vs 7,9 mesi; HR 0,75; IC95% 0,60-0,92; p=0,0073) e per tutti i pazienti con adenocarcinoma (12,6
+vs 10,3 mesi; HR 0,83; IC95% 0,70-0,99), ma non nella popolazione totale comprendente tutte le isto
+
+=== Comparator Extract 57 (Placebo) ===
+,6
+vs 10,3 mesi; HR 0,83; IC95% 0,70-0,99), ma non nella popolazione totale comprendente tutte le istologie
+(10,1 vs 9,1 mesi; HR 0,94; IC95% 0,83-1,05). In termini di RR non sono state osservate significative
+differenze tra i due bracci (per i pazienti trattati rispettivamente con nintedanib e con placebo: 4,4% e 3,3% in
+tutte le istologie; 4,7% e 3,6% nell’adenocarcinoma). Per quanto riguarda il profilo di sicurezza, gli eventi
+avversi più comuni tra i pazienti trattati con nintedanib rispetto a quelli trattati con placebo sono stati: diarrea
+(tutti i gradi: 42,3% vs 21,8%; grado ≥3: 6,6% vs 2,2%),
+
+=== Comparator Extract 58 (Placebo) ===
+a i due bracci (per i pazienti trattati rispettivamente con nintedanib e con placebo: 4,4% e 3,3% in
+tutte le istologie; 4,7% e 3,6% nell’adenocarcinoma). Per quanto riguarda il profilo di sicurezza, gli eventi
+avversi più comuni tra i pazienti trattati con nintedanib rispetto a quelli trattati con placebo sono stati: diarrea
+(tutti i gradi: 42,3% vs 21,8%; grado ≥3: 6,6% vs 2,2%), incremento delle transaminasi (ALT, tutti i gradi:
+26,8% vs 8,4%; grado ≥3: 7,8% vs 0,9%; AST, tutti i gradi: 22,5% vs 6,6%; grado ≥3: 3,4% vs 0,5%), nausea
+(tutti i gradi: 24,2% vs 18%; grado ≥3: 0,8% vs 0,9%) e riduzione
+
+=== Comparator Extract 59 (Placebo) ===
+cieco, multicentrico, che ha incluso 403 pazienti
+con performance status 0-1, affetti da carcinoma polmonare a piccole cellule in stadio esteso. I pazienti venivano
+randomizzati a ricevere un trattamento chemioterapico di induzione per 4 cicli con platino-etoposide in associazione
+ad atezolizumab o placebo (1:1) e, a seguire, in caso di risposta o stabilità di malattia, una terapia di mantenimento
+con atezolizumab o placebo. I due endpoint primari erano OS e PFS. L’aggiunta dell’atezolizumab alla chemioterapia
+a base di platino ha determinato un incremento significativo dell’OS (12,3 vs 10,3 mesi; HR
+
+=== Comparator Extract 60 (Placebo) ===
+ellule in stadio esteso. I pazienti venivano
+randomizzati a ricevere un trattamento chemioterapico di induzione per 4 cicli con platino-etoposide in associazione
+ad atezolizumab o placebo (1:1) e, a seguire, in caso di risposta o stabilità di malattia, una terapia di mantenimento
+con atezolizumab o placebo. I due endpoint primari erano OS e PFS. L’aggiunta dell’atezolizumab alla chemioterapia
+a base di platino ha determinato un incremento significativo dell’OS (12,3 vs 10,3 mesi; HR 0,70; IC95% 0,54-0,91;
+p=0,007) nella popolazione intention-to-treat (ITT), e della PFS (5,2 vs 4,3 mesi; HR 0,77; IC95
+
+=== Comparator Extract 61 (Placebo) ===
+di mantenimento, compatibile con i dati relativi alla tossicità
+dei singoli farmaci. In particolare gli eventi avversi di grado 3-4 associati al trattamento si sono verificati nel 56,6%
+dei pazienti che hanno ricevuto atezolizumab in associazione alla chemioterapia e nel 56,1% di quelli nel gruppo
+placebo. Gli esiti riferiti dal paziente (PRO) e la qualità della vita correlata alla salute (HRQoL) sono migliorati in
+entrambi i gruppi dopo l’inizio del trattamento, ma una più rilevante e duratura HRQoL è stata riportata nei pazienti
+trattati con atezolizumab (436).
+Sulla base di tali evidenze la combi
+
+=== Comparator Extract 62 (Placebo) ===
+Strong recommenda
+intervention intervention intervention interventio Recommendation
+L a segmentectomia rispetto alla lobectomia può essere presa in considerazione per pazienti affetti da NSCLC in stadio inizia
+ation for the
+on
+ale Author(s): MC
+Date: September 2019
+Question: Durvalumab compared to placebo/Observation in patients with PD-L1<1 expression, stage III non resectable, responders or with a stable disease, non small cell lung cancer after concomitant chemoradiotherapy
+Setting: inpatients
+Bibliography: Antonia S.J. "Durvalumab after chemoradiotherapy in stage III Non-Small-Cell Lung Cancer"
+
+=== Comparator Extract 63 (Placebo) ===
+of Medicine, September 8, 2017
+Antonia S.J. et al. N Engl J Med 2018; 379:2342-50;
+EMA Assessment report 26 July 2018 EMA/CHMP/548232/2018
+Certainty assessment № of patients Effect
+Certainty Importance
+№ of Study Risk of Other Relative Absolute
+Inconsistency Indirectness Imprecision (Q1)Durvalumab placebo/Observation
+studies design bias considerations (95% CI) (95% CI)
+Overall Survival
+1 randomised not serious a not serious not serious not serious none 70/212 (33.0%) 45/91 (49.5%) HR 0.53 19 fewer ⨁⨁⨁⨁ CRITICAL
+trials (0.36 to 0.77) per 100 HIGH
+(from 28
+fewer to 9
+fewer)
+Progression free survival (
+
+=== Comparator Extract 64 (Placebo) ===
+PROVE CONSIDERAZIONI AGGIUNTIVE
+○ Probabilme
+X Si
+○ Varia
+○ Non so
+Effetti d
+Quanto consid
+GIUDIZI
+○ Irrilevanti
+○ Piccoli
+○ Moderati
+X Grandi
+○ Variano
+○ Non so
+ente si
+deside
+derevoli s
+erabi
+sono gli ef
+NEO
+ili
+ffetti desiderabili attesi?
+RICERCA DELLE PROVE
+Outcomes Anticipated absol
+Risk with
+placebo/Observat
+Overall Study population
+Survival
+49 per 100
+Progression Study population
+free
+survival 65 per 100
+assessed
+with:
+RECIST 1.1
+follow up:
+median 14.5
+months
+Distant Study population
+metastasis
+assessed 59 per 100
+with: time
+to death or
+OPLASIE DEL
+lute effects* (95%
+Risk with
+tion (Q1)Durval
+
+=== Comparator Extract 65 (Placebo) ===
+tial lung disease,
+pneumonitis and pulmonary fibrosis”.
+L
+LINE
+EE GUIDA
+Effetti in
+Quanto consid
+GIUDIZI
+○ Grandi
+○ Moderati
+X Piccoli
+○ Irrilevanti
+○ Variano
+○ Non so
+ndesi
+derevoli s
+idera
+sono gli ef
+NEO
+abili
+ffetti indesiderabili attesi?
+RICERCA DELLE PROVE
+Outcomes Anticipated absol
+Risk with
+placebo/Observat
+Overall Study population
+Survival
+49 per 100
+Progression Study population
+free
+survival 65 per 100
+assessed
+with:
+RECIST 1.1
+follow up:
+median 14.5
+months
+Distant Study population
+metastasis
+assessed 59 per 100
+with: time
+to death or
+distant
+metastasis
+(all
+assessed by
+means of
+blinded
+OPL
+
+=== Comparator Extract 66 (Placebo) ===
+ancet Oncol; Nov 2016.
+3. Paz-Ares, L., Vicente, D., Tafreshi, A., Robinson, A., Soto Parra, H., Mazières, J., Hermes, B., Cicin, I., Medgyasszay, B., Rodríguez-Cid, J., Okamoto, I., Lee, S., Ramlau, R., Vladimirov, V., Cheng, Y., Deng, X., Zhang, Y., Bas, T., Piperdi, B., Halmos, B.. A Randomized,
+Placebo-Controlled Trial of Pembrolizumab Plus Chemotherapy in Patients With Metastatic Squamous NSCLC: Protocol-Specified Final Analysis of KEYNOTE-407. J Thorac Oncol; Oct 2020.
+4. Paz-Ares, L., Luft, A., Vicente, D., Tafreshi, A., Gümüş, M., Mazières, J., Hermes, B., Çay Şenler, F., Csőszi, T., Fülöp, A
+
+=== Comparator Extract 67 (Placebo) ===
+i affetti da NSCLC a istologia squamosa in stadio IV, non
+precedentemente trattati con terapia sistemica e con un performance status di 0-1. Di questi 278 sono stati
+randomizzati al trattamento con con combinazione di chemioterapia + Pembrolizumab e 281 al gruppo con
+combinazione di chemioterapia + placebo.
+Lo studio KEINOTE-021 ha incluso 123 pazienti affetti da NSCLC a istologia non squamosa, in stadio III o IV, non
+precedentemente trattati con terapia sistemica e con un performance status di 0-1. DI questi 60 sono stati
+randomizzati al trattamento combinato con chemioterapia a base di platino + pe
+
+=== Comparator Extract 68 (Placebo) ===
+,
+kar,
+L
+LINE
+EE GUIDA
+2. Paz-Ares, L., Vicente, D., Tafreshi, A., Robinson, A., Soto Parra, H., Mazières, J.,
+Hermes, B., Cicin, I., Medgyasszay, B., Rodríguez-Cid, J., Okamoto, I., Lee, S.,
+Ramlau, R., Vladimirov, V., Cheng, Y., Deng, X., Zhang, Y., Bas, T., Piperdi, B.,
+Halmos, B.. A Randomized, Placebo-Controlled Trial of Pembrolizumab Plus
+Chemotherapy in Patients With Metastatic Squamous NSCLC: Protocol-Specified Final
+Analysis of KEYNOTE-407. J Thorac Oncol; Oct 2020.
+3. Mazieres, J., Kowalski, D., Luft, A., Vicente, D., Tafreshi, A., Gumus, M., Laktionov,
+K., Hermes, B., Cicin, I., Rodriguez-
+
+=== Comparator Extract 69 (Placebo) ===
+i affetti da NSCLC a istologia squamosa in stadio IV, non
+precedentemente trattati con terapia sistemica e con un performance status di 0-1. Di questi 278 sono stati
+randomizzati al trattamento con con combinazione di chemioterapia + pembrolizumab e 281 al gruppo con
+combinazione di chemioterapia + placebo.
+Lo studio KEINOTE-021 ha inlcuso 123 pazienti affetti da NSCLC a istologia non squamosa, in stadio III o IV, non
+precedentemente trattati con terapia sistemica e con un performance status di 0-1. DI questi 60 sono stati
+randomizzati al trattamento combinato con chemioterapia a base di platino + pe
+
+=== Comparator Extract 70 (Placebo) ===
+gl J Med; Nov 22 2018.
+3. Paz-Ares, L., Vicente, D., Tafreshi, A., Robinson, A., Soto Parra, H., Mazières, J.,
+Hermes, B., Cicin, I., Medgyasszay, B., Rodríguez-Cid, J., Okamoto, I., Lee, S.,
+Ramlau, R., Vladimirov, V., Cheng, Y., Deng, X., Zhang, Y., Bas, T., Piperdi, B.,
+Halmos, B.. A Randomized, Placebo-Controlled Trial of Pembrolizumab Plus
+Chemotherapy in Patients With Metastatic Squamous NSCLC: Protocol-Specified Final
+Analysis of KEYNOTE-407. J Thorac Oncol; Oct 2020.
+a. Abbassata di un livello la fiducia nelle prove per alto rischio di distorsione (Rischio di
+sponsor bias: lo studio di Langer
+
+=== Comparator Extract 71 (Placebo) ===
+4 cicli di trattamento dovrebbe essere preso in considerazione come prima opzione rispetto alla chemioterapia in pazienti affetti da NSCLC a istologia squamosa in stadio
+metastatico e con buon performance status (0-1). Author(s): IM
+Date: 2021
+Question: Should maintenance therapy with pemetrexed vs placebo be used for advanced NSCLC ?1
+Settings: advanced NSCLC without disease progression after first line chemotherapy with platinum and pemetrexed
+Bibliography: Paz-Ares L, Lacet Oncol 2012;13:247-55 Gridelli C, J Thorac Oncol 2012;7:1713-1721 Paz-Ares L, JCO 2013;3
+Quality assessment No of patients
+No
+
+=== Comparator Extract 72 (Placebo) ===
+y indirectness imprecision8 (2.8%)
+Quality of life -EQ-5D (measured with: EQ-5D index score - Cycle 6; range of scores: -0,59-1,0; Better indicated by higher values)
+1 randomised serious10 no serious no serious serious11 none 98
+trials inconsistency indirectness
+Effect
+Quality Importance
+y Relative
+Placebo Absolute
+(95% CI)
+140/180 HR 0.78 (0.64 to 9 fewer per 100 (from 1 CRITICAL3
+(77.8%) 0.96)2 fewer to 16 fewer) HIGH
+62/180 HR 0.62 (0.49 to 11 fewer per 100 (from 6 IMPORTANT3
+(34.4%) 0.79)6 fewer to 16 fewer) HIGH
+ST 1.07)
+1/156 RR 4.44 (0.57 to 2 more per 100 (from 0 NOT
+(0.64%) 34.36)9 fewer to
+
+=== Comparator Extract 73 (Placebo) ===
+1 randomised no serious risk no serious no serious no serious none 22/359 1/180 RR 11.03 (1.5 to 6 more per 100 (from 0 IMPORTANT
+trials of bias inconsistency indirectness imprecision8 (6.1%)15 (0.56%)15 81.18)9 more to 45 more) HIGH
+1 pemetrexed 500 mg/m2
+2 OS pemetrexed 13,9 mesi versus 11,1 for placebo. difference = 2,8 months
+3 Panel Composition: 6 oncologi medici, 1 radioterapista, 1 chirurgo toracico.
+4 Results based on event-driven analisys (Paz-Ares Lancet Oncol 2012). PFS results were not updated in the final report (Paz-Ares JCO 2013)
+5 The primary outcome declared in  is PFS detected by i
+
+=== Comparator Extract 74 (Placebo) ===
+he primary outcome declared in  is PFS detected by investigators. Taking into account the high proportion of indipendent evaluation available 88% and the similar results
+LINEE GUI
+obtained we decided to report the investigator assessed PFS
+6 Investigator -> pemetrexed median PFS 4,1 mesi (3,2-4,6), placebo 2,8 (2,6-3,1); Indipendent -> pemetrexed median PFS 3,9 mesi (3- 4,2) , placebo 2,6 ( 2.2-2.9)
+7 Assessed by the indipendent review
+8 Wide 95% CI due to low number of events. For this reason we decided to not downgrade quality of evidence for imprecision
+9 Calcolated throught number of events and t
+
+=== Comparator Extract 75 (Placebo) ===
+count the high proportion of indipendent evaluation available 88% and the similar results
+LINEE GUI
+obtained we decided to report the investigator assessed PFS
+6 Investigator -> pemetrexed median PFS 4,1 mesi (3,2-4,6), placebo 2,8 (2,6-3,1); Indipendent -> pemetrexed median PFS 3,9 mesi (3- 4,2) , placebo 2,6 ( 2.2-2.9)
+7 Assessed by the indipendent review
+8 Wide 95% CI due to low number of events. For this reason we decided to not downgrade quality of evidence for imprecision
+9 Calcolated throught number of events and totals
+10 Low questionnaire compliance due to failure by study site to administer
+
+=== Comparator Extract 76 (Placebo) ===
+article) and a p-value > 0.05 (the authors reported "Not-Ssignificant" only)
+15 we added a further event both in the intervention and in the control group to permit the calculation of relative and absolute effect
+IDA
+ore); both f
+for benefit
+and harm Dovrebbe maintenance therapy with pemetrexed vs placebo essere utiliz
+POPOLAZIONE: Advanced NSCLC
+INTERVENTO: Maintenance therapy with pemetrexed
+CONFRONTO: Placebo
+ESITI PRINCIPALI: Overall Survival; Progression free survival; Objective responce rate; Quality of life -EQ-5D; Qual
+grade 3-4; Neutropenia grade 3-4
+SETTING:
+PROSPETTIVA:
+BACKGROUND:
+CONFLI
+
+=== Comparator Extract 77 (Placebo) ===
+h in the intervention and in the control group to permit the calculation of relative and absolute effect
+IDA
+ore); both f
+for benefit
+and harm Dovrebbe maintenance therapy with pemetrexed vs placebo essere utiliz
+POPOLAZIONE: Advanced NSCLC
+INTERVENTO: Maintenance therapy with pemetrexed
+CONFRONTO: Placebo
+ESITI PRINCIPALI: Overall Survival; Progression free survival; Objective responce rate; Quality of life -EQ-5D; Qual
+grade 3-4; Neutropenia grade 3-4
+SETTING:
+PROSPETTIVA:
+BACKGROUND:
+CONFLITTI DI
+INTERESSE Il problema è una priorità?
+GIUDIZI RICERCA DELLE PROVE DI EVIDENZA
+○ No
+○ Probabilmente no
+
+=== Comparator Extract 78 (Placebo) ===
+mq e.v. g.1 ogni tre settimane) per 4 cicli ed una successiva fase randomizzata
+(fase di mantenimento), in cui i pazienti eleggibili che non erano in progressione di malattia dopo
+l’induzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni
+tre settimane) + BSC o placebo + BSC
+Esiti Effetto assoluto Effetto № dei Certezza Commenti
+anticipato* (95% CI) relativo partecipanti delle prove
+(95% (studi) (GRADE)
+Rischio Rischio con CI)
+con maintenance
+placebo therapy with
+pemetrexed
+Overall Popolazione in studio HR 539 ⨁⨁⨁⨁
+Survival (OS) 0.78 (1 RCT)
+ALTA
+valutato con: 78
+
+=== Comparator Extract 79 (Placebo) ===
+uzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni
+tre settimane) + BSC o placebo + BSC
+Esiti Effetto assoluto Effetto № dei Certezza Commenti
+anticipato* (95% CI) relativo partecipanti delle prove
+(95% (studi) (GRADE)
+Rischio Rischio con CI)
+con maintenance
+placebo therapy with
+pemetrexed
+Overall Popolazione in studio HR 539 ⨁⨁⨁⨁
+Survival (OS) 0.78 (1 RCT)
+ALTA
+valutato con: 78 per 69 per 100 (0.64 a
+not rilevant 100 (62 a 76) 0.96)
+follow up:
+mediana 12.5
+m esi
+Popolazione in studio
+SIDERAZIO
+LINE
+ONI AGG
+EE GUIDA
+GIUNTIVE
+NE
+Progression 34 per
+free survival
+
+=== Comparator Extract 80 (Placebo) ===
+mq e.v. g.1 ogni tre settimane) per 4 cicli ed una successiva fase randomizzata
+(fase di mantenimento), in cui i pazienti eleggibili che non erano in progressione di malattia dopo
+l’induzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni
+tre settimane) + BSC o placebo + BSC.
+Esiti Effetto assoluto Effetto № dei Certezza Commenti
+anticipato* (95% CI) relativo partecipanti delle prove
+(95% (studi) (GRADE)
+Rischio Rischio con CI)
+con maintenance
+placebo therapy with
+pemetrexed
+Severe Popolazione in studio RR 539 ⨁⨁⨁⨁
+Toxicity (Non 2.51 (1 RCT) ALTA
+laboratory) 3 pe
+
+=== Comparator Extract 81 (Placebo) ===
+zione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni
+tre settimane) + BSC o placebo + BSC.
+Esiti Effetto assoluto Effetto № dei Certezza Commenti
+anticipato* (95% CI) relativo partecipanti delle prove
+(95% (studi) (GRADE)
+Rischio Rischio con CI)
+con maintenance
+placebo therapy with
+pemetrexed
+Severe Popolazione in studio RR 539 ⨁⨁⨁⨁
+Toxicity (Non 2.51 (1 RCT) ALTA
+laboratory) 3 per 8 per 100 (1.06 a
+(ST) 100 (4 a 20) 5.91)
+valutato con:
+N° Patient
+hospitalized
+because of
+drug related
+adverse events
+follow up:
+mediana 12.5
+mesi
+Popolazione in studio
+a
+ti
+a
+i
+LINE
+
+=== Comparator Extract 82 (Placebo) ===
+iderazioni chemioterapia
+mantenimento con (95% CI) (95% CI)
+atezolizumab in
+caso di risposta o
+stabilità di malattia
+dopo 4 cicli di
+trattamento
+nessuno Inizialmente, 175 (87%) pazienti nel braccio esperimentale (atezolizumab più ⨁⨁◯◯
+carboplatino ed etoposide) e 179 (89%) nel braccio di controllo (placebo più carboplatino
+ed etoposide) hanno completato il QLQ-C30 e 176 (88%) e 168 (83%), rispettivamente, BASSA
+completato il QLQ-LC13. I tassi di completamento sono rimasti superiori all'80% fino alla
+settimana 24 nel braccio placebo e fino alla settimana 36 nel braccio atezolizumab. Alla
+settimana 54,
+
+=== Comparator Extract 83 (Placebo) ===
+⨁⨁◯◯
+carboplatino ed etoposide) e 179 (89%) nel braccio di controllo (placebo più carboplatino
+ed etoposide) hanno completato il QLQ-C30 e 176 (88%) e 168 (83%), rispettivamente, BASSA
+completato il QLQ-LC13. I tassi di completamento sono rimasti superiori all'80% fino alla
+settimana 24 nel braccio placebo e fino alla settimana 36 nel braccio atezolizumab. Alla
+settimana 54, 34 (8%) dei 403 pazienti randomizzati sono rimasti in trattamento in studio
+e hanno completato le valutazioni di QLQ-C30 e QLQ-LC13. I pazienti nel braccio
+esperimentale hanno ottenuto miglioramenti significativi nella qualità de
+
+=== Comparator Extract 84 (Placebo) ===
+l modulo
+supplementare
+per il carcinoma
+polmonare (QLQ
+LC13)
+follow up: 54
+settimane
+64 per 100 60 per 100
+RR 0.94
+(51 a 70) 403
+(0.80 a
+te (1 R
+li)
+Inizialmente, 175 (87%) pazienti - (1 R
+nel braccio esperimentale
+(atezolizumab più carboplatino
+f ed etoposide) e 179 (89%) nel
+braccio di controllo (placebo più
+carboplatino ed etoposide)
+hanno completato il QLQ-C30 e
+176 (88%) e 168 (83%),
+rispettivamente, completato il
+QLQ-LC13. I tassi di
+Q- completamento sono rimasti
+superiori all'80% fino alla
+settimana 24 nel braccio
+placebo e fino alla settimana 36
+nel braccio atezolizumab. Alla
+settimana 54, 34
+
+=== Comparator Extract 85 (Placebo) ===
+b più carboplatino
+f ed etoposide) e 179 (89%) nel
+braccio di controllo (placebo più
+carboplatino ed etoposide)
+hanno completato il QLQ-C30 e
+176 (88%) e 168 (83%),
+rispettivamente, completato il
+QLQ-LC13. I tassi di
+Q- completamento sono rimasti
+superiori all'80% fino alla
+settimana 24 nel braccio
+placebo e fino alla settimana 36
+nel braccio atezolizumab. Alla
+settimana 54, 34 (8%) dei 403
+pazienti randomizzati sono
+rimasti in trattamento in studio
+e hanno completato le
+valutazioni di QLQ-C30 e QLQ-
+LC13. I pazienti nel braccio
+esperimentale hanno ottenuto
+miglioramenti significativi nella
+qualità d
+
+=== Comparator Extract 86 (Placebo) ===
+l carcinoma
+polmonare (QLQ
+LC13)
+follow up: 54
+settimane
+Popolazione in studio RR 0.94 403
+(0.80 a (1 R
+te 1.09)
+64 per 100 60 per 100
+li)
+(51 a 70)
+Inizialmente, 175 (87%) pazienti - (1 R
+nel braccio esperimentale
+(atezolizumab più carboplatino
+f ed etoposide) e 179 (89%) nel
+braccio di controllo (placebo più
+carboplatino ed etoposide)
+hanno completato il QLQ-C30 e
+176 (88%) e 168 (83%),
+rispettivamente, completato il
+QLQ-LC13. I tassi di
+Q- completamento sono rimasti
+superiori all'80% fino alla
+settimana 24 nel braccio
+placebo e fino alla settimana 36
+nel braccio atezolizumab. Alla
+settimana 54, 34
+
+=== Comparator Extract 87 (Placebo) ===
+b più carboplatino
+f ed etoposide) e 179 (89%) nel
+braccio di controllo (placebo più
+carboplatino ed etoposide)
+hanno completato il QLQ-C30 e
+176 (88%) e 168 (83%),
+rispettivamente, completato il
+QLQ-LC13. I tassi di
+Q- completamento sono rimasti
+superiori all'80% fino alla
+settimana 24 nel braccio
+placebo e fino alla settimana 36
+nel braccio atezolizumab. Alla
+settimana 54, 34 (8%) dei 403
+pazienti randomizzati sono
+rimasti in trattamento in studio
+e hanno completato le
+valutazioni di QLQ-C30 e QLQ-
+LC13.
+I pazienti nel braccio
+esperimentale hanno ottenuto
+miglioramenti significativi nella
+qualità d
+
+=== Comparator Extract 88 (Placebo) ===
+e. Patients included in the Prophylactic Cranial irradiation overview collaborative group had achieved a complete response after induction treatment. In Rule at al. all patients were 70 years or older.
+Salama et al presented a secondary analysis of the CALGB 30504 study, included patients received placebo or sunitinib
+f. This is not the total number of events, Ge 2018 et al. did not show the number of events but only the overall number of patients
+g. There was 2 RCT and 3 observational studies
+h. The number of events were not showed in all included studies
+i. I2=64%
+j. Slotman et al 2007
+k. Unclear
+
+=== Comparator Extract 89 (Placebo) ===
+c. Patients included in the Prophylactic Cranial irradiation overview collaborative group had
+achieved a complete response after induction treatment. In Rule at al. all patients were 70
+years or older. Salama et al presented a secondary analysis of the CALGB 30504 study,
+included patients received placebo or sunitinib
+d. I2=84%
+e. In 13 out of 21 studies, the number of events were not showed
+f. The quality of the observational included studies was assessed according to the Newcastle-
+Ottawa scale. Studies was considerate as moderate or high quality, the reasons for
+downgrade the quality were selecti
+
+=== Comparator Extract 90 (Placebo) ===
+c. Patients included in the Prophylactic Cranial irradiation overview collaborative group had
+achieved a complete response after induction treatment. In Rule at al. all patients were 70
+years or older. Salama et al presented a secondary analysis of the CALGB 30504 study,
+included patients received placebo or sunitinib
+d. I2=84%
+e. In 13 out of 21 studies, the number of events were not showed
+EE GUIDA
+f. The quality of the observational included studies was assessed according to the Newcastle-
+Ottawa scale. Studies was considerate as moderate or high quality, the reasons for
+downgrade the quality wer
+
+=== Comparator Extract 91 (Placebo) ===
+ry"[Title/Abstract]))) OR ("VATS segmentectomy"[Title/Abstract] OR
+segmentectomy[Title/Abstract])))) AND (((((((((("Randomized Controlled Trial"[Publication Type]) OR
+"Clinical Trial"[Publication Type]) OR "drug therapy"[Subheading])) OR ((randomized[Title/Abstract]
+OR randomised[Title/Abstract] OR placebo[Title/Abstract] OR randomly[Title/Abstract] OR
+trial[Title/Abstract] OR groups)))) NOT ((("Animals"[Mesh]) NOT "Animals"[Mesh]) AND
+"Humans"[Mesh])))))
+AND ("2009/07/18"[PDAT] : "2019/07/15"[PDAT]) AND ("2009/07/18"[PDAT] : "2019/07/15"[PDAT]) Embase (Embase.com) (2019 ad Agosto 2023)
+#1 'lung tumo
+
+=== Comparator Extract 92 (Placebo) ===
+)))) OR ("grade I"[T
+"grade II"[Title/Abstract] OR "stage I"[Title/Abstract] OR "stage II"[Title/Abstract]))))
+surgery")) AND (((((((("Randomized Controlled Trial" [Publication Type]) OR "Clinic
+Type]) OR "drug therapy" [Subheading])) OR ((randomized[Title/Abstract] OR
+randomised[Title/Abstract] OR placebo[Title/Abstract] OR randomly[Title/Abstract]
+trial[Title/Abstract] OR groups OR)))) NOT ((("Animals"[Mesh]) NOT "Animals"[Mes
+"Humans"[Mesh]))) espressione del
+zolizumab dopo
+oma, Non-Small-
+g
+mall-cell lung
+pt]) OR
+cer' OR 'non sma
+apia postoperat
+(((((lung
+ract]) OR lung
+ung
+C*[Title/Abstract])
+Ti
+
+=== Comparator Extract 93 (Placebo) ===
+[MeSH
+Terms] OR "etoposide"[All Fields]) AND (("platinum"[MeSH Terms] OR "platinum"[All Fields]))))) AND
+((((((("Randomized Controlled Trial" [Publication Type]) OR "Clinical Trial" [Publication Type]) OR
+"drug therapy" [Subheading])) OR ((randomized[Title/Abstract] OR randomised[Title/Abstract] OR
+placebo[Title/Abstract] OR randomly[Title/Abstract] OR trial[Title/Abstract] OR groups OR)))) NOT
+((("Animals"[Mesh]) NOT "Animals"[Mesh]) AND "Humans"[Mesh])) Embase (Embase.com) (1974 ad Agosto 2023)
+#1 'non small cell lung cancer'/exp/mj
+#2 'non-small-cell lung cancer' OR 'non small cell lung cancer' OR
+
+=== Comparator Extract 94 (Placebo) ===
+OR "prophylactic cranial irradiation"[Title/Abstract] OR "prophylactic cranial
+irradiation (PCI)"[Title/Abstract])))) AND (((((((((((((("Randomized Controlled Trial "[Publication Typ
+OR "controlled clinical trial"[Publication Type]) OR (randomized[Title/Abstract] OR
+randomised[Title/Abstract])) OR placebo[Title/Abstract]) OR randomly[Title/Abstract]) OR
+groups[Title/Abstract]) OR trial[Title/Abstract])) Embase (Embase.com) (1974 a Maggio 2019)
+#1 'non small cell lung cancer'/exp/mj
+#2 'non-small-cell lung cancer' OR 'non small cell lung cancer' OR nsclc:ti,ab
+#3 #50 OR #51
+#4 'skull irradiation'/exp
+
+=== Comparator Extract 95 (Placebo) ===
+i platino concomitanti alla radioterapia) ad intento radicale (dose totale di radioterapia compresa tra 54 Gy e 66 Gy). I pazienti venivano randomizzati, in un intervallo temporale compreso tra 1 e 42 giorni dall’ultima dose di radioterapia, a ricevere un trattamento immunoterapico con durvalumab o placebo (2:1) 10 mg/kg e.v. ogni 2 settimane sino a un massimo di 12 mesi di trattamento. I due endpoint primari erano PFS e OS. Il tempo alla progressione è stato valutato da un comitato di revisione centrale indipendente in cieco, secondo i criteri RECIST v1.1. Alla prima analisi ad interim pianificata,
+
+=== Comparator Extract 96 (Placebo) ===
+primari erano PFS e OS. Il tempo alla progressione è stato valutato da un comitato di revisione centrale indipendente in cieco, secondo i criteri RECIST v1.1. Alla prima analisi ad interim pianificata, la PFS è risultata significativamente superiore nei pazienti trattati con durvalumab rispetto al placebo (PFS mediana 16,8 mesi vs 5,6 mesi; HR 0,52; IC95% 0,42-0,65; p=0,001). Gli eventi avversi di grado 3 e 4 sono stati solo lievemente più frequenti nel braccio durvalumab (29,9% vs 26,1%), così come gli eventi avversi che hanno portato a una sospensione del trattamento (15,4% vs 9,8%) (235). Dopo un
+
+=== Comparator Extract 97 (Placebo) ===
+etastatico ad istologia non-squamosa, senza mutazioni di EGFR o riarrangiamento di ALK e con qualsiasi livello di espressione di PD-L1, con performance status di 0-1, in I linea di trattamento (366). I pazienti sono stati randomizzati (2:1) a ricevere pembrolizumab (200 mg/mq ev ogni 3 settimane) o placebo, fino ad un massimo di 35 cicli, in associazione a pemetrexed (500 mg/mq e.v. g. 1 ogni 3 settimane) e cisplatino (75 mg/mq e.v. g.1 ogni 3 settimane) o carboplatino (AUC 5 e.v. g. 1 ogni 3 settimane) per 4 cicli seguiti da pemetrexed di mantenimento. In questo studio, la maggior parte dei pazienti
+
+=== Comparator Extract 98 (Placebo) ===
+quella osservata negli studi di pembrolizumab in monoterapia, ad eccezione della nefrite, che si è verificata più frequentemente rispetto all’atteso (6,2%). L’interruzione di almeno uno dei componenti del trattamento è stata più frequente nel braccio del pembrolizumab (33,6%) rispetto a quello del placebo (16,3%), ma a questo proposito occorre considerare che la durata mediana del trattamento nel braccio del pembrolizumab è stata maggiore di quella del placebo (9,8 vs 6,2 mesi) (367- 368). Rapporto beneficio/danno: A favore della combinazione, in considerazione del prolungamento della sopravvivenza
+
+=== Comparator Extract 99 (Placebo) ===
+L’interruzione di almeno uno dei componenti del trattamento è stata più frequente nel braccio del pembrolizumab (33,6%) rispetto a quello del placebo (16,3%), ma a questo proposito occorre considerare che la durata mediana del trattamento nel braccio del pembrolizumab è stata maggiore di quella del placebo (9,8 vs 6,2 mesi) (367- 368). Rapporto beneficio/danno: A favore della combinazione, in considerazione del prolungamento della sopravvivenza libera da progressione e della sopravvivenza globale rispetto alla chemioterapia a fronte di un simile profilo di tollerabilità in termini di eventi avversi c
+
+=== Comparator Extract 100 (Placebo) ===
+to chemioterapico di I linea nei pazienti affetti da NSCLC avanzato, ad istologia squamosa, con qualsiasi livello di espressione di PD-L1. Lo studio KEYNOTE- 407 è uno studio di fase III in doppio cieco, che ha randomizzato i pazienti (1:1) a ricevere pembrolizumab (200 mg/mq ev ogni 3 settimane) o placebo in associazione a paclitaxel (200 mg/mq e.v. g. 1 ogni 3 settimane) o nab-paclitaxel (100 mg/mq e.v. g. 1 settimanale) e carboplatino (AUC 5 e.v. g. 1 ogni 3 settimane) per 4 cicli, seguiti da una terapia di mantenimento con pembrolizumab e/o placebo in caso di risposta o stabilità di malattia, fin
+
+=== Comparator Extract 101 (Placebo) ===
+pembrolizumab (200 mg/mq ev ogni 3 settimane) o placebo in associazione a paclitaxel (200 mg/mq e.v. g. 1 ogni 3 settimane) o nab-paclitaxel (100 mg/mq e.v. g. 1 settimanale) e carboplatino (AUC 5 e.v. g. 1 ogni 3 settimane) per 4 cicli, seguiti da una terapia di mantenimento con pembrolizumab e/o placebo in caso di risposta o stabilità di malattia, fino ad un massimo di 35 cicli. I fattori di stratificazione dello studio includevano il livello di espressione di PD-L1 (PD-L1 ≥1% vs <1%), il tipo di taxano (paclitaxel vs nab-paclitaxel) e la regione geografica (Asia vs resto del mondo). Il disegno de
+
+=== Comparator Extract 102 (Placebo) ===
+el braccio chemioimmuno vs 9,4% nel braccio standard con la chemioterapia. Anche la PFS è risultata superiore nel braccio con pembrolizumab (8 vs 5,1 mesi; HR 0,62; IC95% 0,52-0,74), con un tasso di risposte obiettive pari al 62,2% per la combinazione con pembrolizumab rispetto al 38,8% nel braccio placebo. In termini di tollerabilità, la combinazione ha avuto eventi avversi sovrapponibili rispetto al gruppo trattato con placebo: 74,5% di eventi avversi G3-5 per il gruppo trattato con pembrolizumab vs 70% del gruppo trattato con placebo (369-370). Bilancio beneficio/danno: A favore della combinazione
+
+=== Comparator Extract 103 (Placebo) ===
+pembrolizumab (8 vs 5,1 mesi; HR 0,62; IC95% 0,52-0,74), con un tasso di risposte obiettive pari al 62,2% per la combinazione con pembrolizumab rispetto al 38,8% nel braccio placebo. In termini di tollerabilità, la combinazione ha avuto eventi avversi sovrapponibili rispetto al gruppo trattato con placebo: 74,5% di eventi avversi G3-5 per il gruppo trattato con pembrolizumab vs 70% del gruppo trattato con placebo (369-370). Bilancio beneficio/danno: A favore della combinazione in considerazione del prolungamento della sopravvivenza libera da progressione e della sopravvivenza globale rispetto alla c
+
+=== Comparator Extract 104 (Placebo) ===
+la combinazione con pembrolizumab rispetto al 38,8% nel braccio placebo. In termini di tollerabilità, la combinazione ha avuto eventi avversi sovrapponibili rispetto al gruppo trattato con placebo: 74,5% di eventi avversi G3-5 per il gruppo trattato con pembrolizumab vs 70% del gruppo trattato con placebo (369-370). Bilancio beneficio/danno: A favore della combinazione in considerazione del prolungamento della sopravvivenza libera da progressione e della sopravvivenza globale rispetto alla chemioterapia a fronte di un profilo di tossicità simile in termini di eventi avversi correlati al trattamento
+
+=== Comparator Extract 105 (Placebo) ===
+e.v. g. 1 ogni 3 Row 1: settimane) per 4 cicli ed una successiva fase randomizzata (fase di mantenimento), in cui i pazienti eleggibili che non erano in progressione di malattia dopo l’induzione (n=539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g. 1 ogni 3 settimane) + BSC o placebo + BSC. L’endpoint primario dello studio era la PFS della fase di mantenimento valutata dagli sperimentatori. La PFS mediana è risultata essere significativamente migliore per il braccio del pemetrexed rispetto al placebo (4,1 vs 2,8 mesi; HR 0,62; IC95% 0,49-0,79; p <0,0001) e tale vantaggio è stat
+
+=== Comparator Extract 106 (Placebo) ===
+ati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g. 1 ogni 3 settimane) + BSC o placebo + BSC. L’endpoint primario dello studio era la PFS della fase di mantenimento valutata dagli sperimentatori. La PFS mediana è risultata essere significativamente migliore per il braccio del pemetrexed rispetto al placebo (4,1 vs 2,8 mesi; HR 0,62; IC95% 0,49-0,79; p <0,0001) e tale vantaggio è stato confermato anche da un comitato di revisione radiologica indipendente (3,9 vs 2,6 mesi; HR 0,64; IC95% 0,51-0,81; p=0,0002). L’analisi finale di OS effettuata dopo un follow-up mediano di 24,3 mesi ha mostrato un vantag
+
+=== Comparator Extract 107 (Placebo) ===
+95% 0,49-0,79; p <0,0001) e tale vantaggio è stato confermato anche da un comitato di revisione radiologica indipendente (3,9 vs 2,6 mesi; HR 0,64; IC95% 0,51-0,81; p=0,0002). L’analisi finale di OS effettuata dopo un follow-up mediano di 24,3 mesi ha mostrato un vantaggio per pemetrexed rispetto a placebo (mediana: 13,9 vs 11 mesi; HR 0,78; IC95% 0,64-0,96; p=0,0195), sia per i pazienti che con la terapia di induzione avevano ottenuto una risposta completa o parziale (HR 0,81; IC95% 0,59-1,11) che per quelli che avevano ottenuto una stabilità di malattia (HR 0,76; IC95% 0,57-1,01) (386). La terapia
+
+=== Comparator Extract 108 (Placebo) ===
+sia per i pazienti che con la terapia di induzione avevano ottenuto una risposta completa o parziale (HR 0,81; IC95% 0,59-1,11) che per quelli che avevano ottenuto una stabilità di malattia (HR 0,76; IC95% 0,57-1,01) (386). La terapia con pemetrexed è stata gravata da maggiore tossicità rispetto al placebo (soprattutto in termini di anemia, neutropenia e fatigue). Sulla base di tali dati, pemetrexed è approvato e rimborsato come terapia di mantenimento in caso di malattia ad istologia non-squamosa in stabilità o risposta dopo combinazione di chemioterapia a base di platino, ed è un’opzione che può es
+
+=== Comparator Extract 109 (Placebo) ===
+cieco, multicentrico, che ha incluso 403 pazienti con performance status 0-1, affetti da carcinoma polmonare a piccole cellule in stadio esteso. I pazienti venivano randomizzati a ricevere un trattamento chemioterapico di induzione per 4 cicli con platino-etoposide in associazione ad atezolizumab o placebo (1:1) e, a seguire, in caso di risposta o stabilità di malattia, una terapia di mantenimento con atezolizumab o placebo. I due endpoint primari erano OS e PFS. L’aggiunta dell’atezolizumab alla chemioterapia a base di platino ha determinato un incremento significativo dell’OS (12,3 vs 10,3 mesi; HR
+
+=== Comparator Extract 110 (Placebo) ===
+ellule in stadio esteso. I pazienti venivano randomizzati a ricevere un trattamento chemioterapico di induzione per 4 cicli con platino-etoposide in associazione ad atezolizumab o placebo (1:1) e, a seguire, in caso di risposta o stabilità di malattia, una terapia di mantenimento con atezolizumab o placebo. I due endpoint primari erano OS e PFS. L’aggiunta dell’atezolizumab alla chemioterapia a base di platino ha determinato un incremento significativo dell’OS (12,3 vs 10,3 mesi; HR 0,70; IC95% 0,54-0,91; p=0,007) nella popolazione intention-to-treat (ITT), e della PFS (5,2 vs 4,3 mesi; HR 0,77; IC95
+
+=== Comparator Extract 111 (Placebo) ===
+di mantenimento, compatibile con i dati relativi alla tossicità dei singoli farmaci. In particolare gli eventi avversi di grado 3-4 associati al trattamento si sono verificati nel 56,6% dei pazienti che hanno ricevuto atezolizumab in associazione alla chemioterapia e nel 56,1% di quelli nel gruppo placebo. Gli esiti riferiti dal paziente (PRO) e la qualità della vita correlata alla salute (HRQoL) sono migliorati in entrambi i gruppi dopo l’inizio del trattamento, ma una più rilevante e duratura HRQoL è stata riportata nei pazienti trattati con atezolizumab (436). Sulla base di tali evidenze la combi
+
+=== Comparator Extract 112 (Placebo) ===
+Randomized phase III study of pemetrexed plus cisplatin versus
+Row 26: vinorelbine plus cisplatin for completely resected stage II to IIIA nonsquamous non-small-cell lung cancer. J Clin
+Row 27: Oncol. 2020; 38(19):2187-96.
+Row 28: Kelly K, Altorki NK, Eberhardt WE, et al. Adjuvant erlotinib versus placebo in patients with stage IB-IIIA non-
+Row 29: small-cell lung cancer (RADIANT): a randomized, double-blind, phase III trial. J Clin Oncol. 2015; 33(34):4007-
+Row 30: 14.
+Row 31: Goss GD, O’Callaghan C, Lorimer I, et al. Gefitinib versus placebo in completely resected non-small-cell lung
+Row 32: cance
+
+=== Comparator Extract 113 (Placebo) ===
+torki NK, Eberhardt WE, et al. Adjuvant erlotinib versus placebo in patients with stage IB-IIIA non-
+Row 29: small-cell lung cancer (RADIANT): a randomized, double-blind, phase III trial. J Clin Oncol. 2015; 33(34):4007-
+Row 30: 14.
+Row 31: Goss GD, O’Callaghan C, Lorimer I, et al. Gefitinib versus placebo in completely resected non-small-cell lung
+Row 32: cancer: results of the NCIC CTG BR19 study. J Clin Oncol. 2013; 31(27):3320-6.
+Row 33: Yue D, Xu S, Wang Q, et al. Updated overall survival and exploratory analysis from randomized, phase II
+Row 34: EVAN study of erlotinib versus vinorelbine plus c
+
+=== Comparator Extract 114 (Placebo) ===
+ll survival with adjuvant atezolizumab after chemotherapy in resected stage
+Row 11: II-IIIA non-small-cell lung cancer (IMpower010): a randomised, multicentre, open-label, phase III trial. Ann Oncol.
+Row 12: 2023; 34(10):907-19.
+Row 13: O’Brien M, Paz-Ares L, Marreaud S, et al. Pembrolizumab versus placebo as adjuvant therapy for completely
+Row 14: resected stage IB-IIIA non-small-cell lung cancer (PEARLS/KEYNOTE-091): an interim analysis of a randomised,
+Row 15: triple-blind, phase 3 trial. Lancet Oncol. 2022; 23(10):1274-86.
+Row 16: PORT meta-analysis trialists group. Postoperative radiotherapy in
+
+=== Comparator Extract 115 (Placebo) ===
+16(1):162-8.
+Row 4: Gandhi L, Rodríguez-Abreu D, Gadgeel S, et al. Pembrolizumab plus chemotherapy in metastatic non-small-cell
+Row 5: lung cancer. N Engl J Med. 2018; 378(22):2078-92.
+Row 6: Gadgeel S, Rodríguez-Abreu D, Speranza G, et al. Updated analysis from KEYNOTE-189: pembrolizumab or
+Row 7: placebo plus pemetrexed and platinum for previously untreated metastatic nonsquamous non-small-cell lung cancer.
+Row 8: J Clin Oncol. 2020; 38(14):1505-17.
+Row 9: Garassino MC, Gadgeel S, Speranza G, et al. Pembrolizumab plus pemetrexed and platinum in nonsquamous non-
+Row 10: small-cell lung cancer: 5-yea
+
+=== Comparator Extract 116 (Placebo) ===
+us gemcitabine with cisplatin plus
+Row 50: pemetrexed in chemotherapy-naive patients with advanced-stage non-small-cell lung cancer. J Clin Oncol. 2008;
+Row 51: 26:3543-51.
+Row 52: Paz-Ares L, de Marinis F, Dediu M, et al. Maintenance therapy with pemetrexed plus best supportive care versus
+Row 53: placebo plus best supportive care after induction therapy with pemetrexed plus cisplatin for advanced non-squamous
+Row 54: non-small-cell lung cancer (PARAMOUNT): a double-blind, phase 3, randomised controlled trial. Lancet Oncol.
+Row 55: 2012; 13:247-55. Row 1: Paz-Ares LG, de Marinis F, Dediu M, et al. P
+
+=== Comparator Extract 117 (Placebo) ===
+ous
+Row 54: non-small-cell lung cancer (PARAMOUNT): a double-blind, phase 3, randomised controlled trial. Lancet Oncol.
+Row 55: 2012; 13:247-55. Row 1: Paz-Ares LG, de Marinis F, Dediu M, et al. PARAMOUNT: final overall survival results of the phase III study of
+Row 2: maintenance pemetrexed versus placebo immediately after induction treatment with pemetrexed plus cisplatin for
+Row 3: advanced nonsquamous non-small-cell lung cancer. J Clin Oncol. 2013; 31:2895-902.
+Row 4: Johnson DH, Fehrenbacher L, Novotny WF, et al. Randomized phase II trial comparing bevacizumab plus
+Row 5: carboplatin and paclita
+
+=== Comparator Extract 118 (Placebo) ===
+Clin Oncol. 2004; 22:2184-91.
+Row 7: Sandler A, Gray R, Perry MC, et al. Paclitaxel-carboplatin alone or with bevacizumab for non-small-cell lung cancer.
+Row 8: N Engl J Med. 2006; 355:2542-50.
+Row 9: Reck M, von Pawel J, Zatloukal P, et al. Phase III trial of cisplatin plus gemcitabine with either placebo or
+Row 10: bevacizumab as first-line therapy for nonsquamous non-small-cell lung cancer: AVAil. J Clin Oncol. 2009; 27:1227-
+Row 11: 34.
+Row 12: Reck M, von Pawel J, Zatloukal P, et al. Overall survival with cisplatin-gemcitabine and bevacizumab or placebo
+Row 13: as first-line therapy for nonsquam
+
+=== Comparator Extract 119 (Placebo) ===
+of cisplatin plus gemcitabine with either placebo or
+Row 10: bevacizumab as first-line therapy for nonsquamous non-small-cell lung cancer: AVAil. J Clin Oncol. 2009; 27:1227-
+Row 11: 34.
+Row 12: Reck M, von Pawel J, Zatloukal P, et al. Overall survival with cisplatin-gemcitabine and bevacizumab or placebo
+Row 13: as first-line therapy for nonsquamous non-small-cell lung cancer: results from a randomised phase III trial (AVAiL).
+Row 14: Ann Oncol. 2010; 21:1804-9.
+Row 15: Lima AB, Macedo LT, Sasse AD. Addition of bevacizumab to chemotherapy in advanced non-small cell lung
+Row 16: cancer: a systematic
+
+=== Comparator Extract 120 (Placebo) ===
+erm survival in patients with advanced non-small-cell lung cancer
+Row 5: treated with atezolizumab versus docetaxel: results from the randomised phase III OAK study. Eur J Cancer. 2019;
+Row 6: 107:124-32.
+Row 7: Reck M, Kaiser R, Mellemgaard A, et al. Docetaxel plus nintedanib versus docetaxel plus placebo in patients with
+Row 8: previously treated non-small-cell lung cancer (LUME-Lung 1): a phase 3, double-blind, randomized controlled trial.
+Row 9: Lancet Oncol. 2014; 15:143-55.
+Row 10: Novello S, Kaiser R, Mellemgaard A, et al. Analysis of patient-reported outcomes from the LUME-Lung 1 trial: a
+Row
+
+=== Comparator Extract 121 (Placebo) ===
+usly treated non-small-cell lung cancer (LUME-Lung 1): a phase 3, double-blind, randomized controlled trial.
+Row 9: Lancet Oncol. 2014; 15:143-55.
+Row 10: Novello S, Kaiser R, Mellemgaard A, et al. Analysis of patient-reported outcomes from the LUME-Lung 1 trial: a
+Row 11: randomised, double-blind, placebo-controlled, phase III study of second-line nintedanib in patients with advanced
+Row 12: non-small cell lung cancer. Eur J Cancer. 2015; 51:317-26.
+Row 13: Cappelletto E, Migliorino MR, Morabito A, et al. Final results of the SENECA (SEcond line NintEdanib in non-
+Row 14: small cell lung CAncer) tri
+
+=== Comparator Extract 122 (Placebo) ===
+tion
+Row 3: | Row 1: |
+Row 2: |
+Row 3: | Row 1: ||||||||||||
+Row 2: Certainty assessment|||||||№ of patients||Effect||Certainty|Importance
+Row 3: ||||||||||||
+Row 4: ||||||||||||
+Row 5: № of studies|Study design|Risk of bias|Inconsistency|Indirectness|Imprecision|Other considerations|(Q1)Durvalumab|placebo/Observation|Relative (95% CI)|Absolute (95% CI)||
+Row 6: ||||||||||||
+Row 7: Overall Survival||||||||||||
+Row 8: ||||||||||||
+Row 9: 1|randomised trials|not serious a|not serious|not serious|not serious|none|70/212 (33.0%)|45/91 (49.5%)|HR 0.53 (0.36 to 0.77)|19 fewer per 100 (from 28 fewer to 9 fe
+
+=== Comparator Extract 123 (Placebo) ===
+||||
+Row 6: GIUDIZI||RICERCA DELLE PROVE|CONSIDERAZIONI AGGIUNTIVE|
+Row 7: ○ Irrilevanti ○ Piccoli ○ Moderati X Grandi ○ Variano ○ Non so||Outcomes Anticipated absolute effects* (95% CI) Relative № of Certainty of Comments effect participants the evidence Risk with Risk with (95% (studies) (GRADE) placebo/Observation (Q1)Durvalumab CI) Overall Study population HR 0.53 303 ⨁⨁⨁⨁ Survival (0.36 to (1 RCT) HIGHa 49 per 100 30 per 100 0.77) (22 to 41) Progression Study population HR 0.46 303 ⨁⨁⨁⨁ free (0.33 to (1 RCT) HIGHa survival 65 per 100 38 per 100 0.64) assessed (29 to 49) with: RECIST 1.1 follow
+
+=== Comparator Extract 124 (Placebo) ===
+00 0.69) with: time (29 to 46) to death or|| Row 1: ||||||||||
+Row 2: Outcomes||Anticipated absolute effects* (95% CI)|||||Relative effect (95% CI)|№ of participants (studies)|Certainty of the evidence (GRADE)|Comments
+Row 3: ||||||||||
+Row 4: ||||||||||
+Row 5: ||Risk with|||Risk with|||||
+Row 6: ||placebo/Observation|||(Q1)Durvalumab|||||
+Row 7: ||||||||||
+Row 8: Overall Survival|||||||HR 0.53 (0.36 to 0.77)|303 (1 RCT)|⨁⨁⨁⨁ HIGHa|
+Row 9: ||Study population||||||||
+Row 10: ||||||||||
+Row 11: ||||||||||
+Row 12: |49 per 100||||30 per 100|||||
+Row 13: |||||(22 to 41)|||||
+Row 14: ||||||||||
+Row 15: Pro
+
+=== Comparator Extract 125 (Placebo) ===
+2: |Effetti d
+Row 3: |Quanto consid
+Row 4: | Row 1: 
+Row 2: deside
+Row 3: derevoli s
+Row 4:  Row 1: 
+Row 2: erabi
+Row 3: sono gli ef
+Row 4:  Row 1: |
+Row 2: ili|
+Row 3: ffetti desiderabili attesi?|
+Row 4: | Row 1: ||
+Row 2: Outcomes||Anticipated absol
+Row 3: ||
+Row 4: ||
+Row 5: ||Risk with
+Row 6: ||placebo/Observat
+Row 7: ||
+Row 8: Overall Survival||
+Row 9: ||Study population
+Row 10: ||
+Row 11: ||
+Row 12: |49 per 100|49 per 100
+Row 13: ||
+Row 14: Progression free survival assessed with: RECIST 1.1 follow up: median 14.5 months||
+Row 15: ||Study population
+Row 16: ||
+Row 17: ||
+Row 18: |65 per 100|65
+
+=== Comparator Extract 126 (Placebo) ===
+||||
+Row 5: GIUDIZI||RICERCA DELLE PROVE|CONSIDERAZIONI AGGIUNTIVE|
+Row 6: ○ Grandi ○ Moderati X Piccoli ○ Irrilevanti ○ Variano ○ Non so||Outcomes Anticipated absolute effects* (95% CI) Relative № of Certainty of Comments effect participants the evidence Risk with Risk with (95% (studies) (GRADE) placebo/Observation (Q1)Durvalumab CI) Overall Study population HR 0.53 303 ⨁⨁⨁⨁ Survival (0.36 to (1 RCT) HIGHa 49 per 100 30 per 100 0.77) (22 to 41) Progression Study population HR 0.46 303 ⨁⨁⨁⨁ free (0.33 to (1 RCT) HIGHa survival 65 per 100 38 per 100 0.64) assessed (29 to 49) with: RECIST 1.1 follow
+
+=== Comparator Extract 127 (Placebo) ===
+tastasis (all assessed by means of blinded|| Row 1: ||||||||||
+Row 2: Outcomes||Anticipated absolute effects* (95% CI)|||||Relative effect (95% CI)|№ of participants (studies)|Certainty of the evidence (GRADE)|Comments
+Row 3: ||||||||||
+Row 4: ||||||||||
+Row 5: ||Risk with|||Risk with|||||
+Row 6: ||placebo/Observation|||(Q1)Durvalumab|||||
+Row 7: ||||||||||
+Row 8: Overall Survival|||||||HR 0.53 (0.36 to 0.77)|303 (1 RCT)|⨁⨁⨁⨁ HIGHa|
+Row 9: ||Study population||||||||
+Row 10: ||||||||||
+Row 11: ||||||||||
+Row 12: |49 per 100||||30 per 100|||||
+Row 13: |||||(22 to 41)|||||
+Row 14: ||||||||||
+Row 15: Pro
+
+=== Comparator Extract 128 (Placebo) ===
+2: |Effetti in
+Row 3: |Quanto consid
+Row 4: | Row 1: 
+Row 2: ndesi
+Row 3: derevoli s
+Row 4:  Row 1: 
+Row 2: idera
+Row 3: sono gli ef
+Row 4:  Row 1: 
+Row 2: abili
+Row 3: ffetti indesiderabili attesi?
+Row 4:  Row 1: ||
+Row 2: Outcomes||Anticipated absol
+Row 3: ||
+Row 4: ||
+Row 5: ||Risk with
+Row 6: ||placebo/Observat
+Row 7: ||
+Row 8: Overall Survival||
+Row 9: ||Study population
+Row 10: ||
+Row 11: ||
+Row 12: |49 per 100|49 per 100
+Row 13: ||
+Row 14: Progression free survival assessed with: RECIST 1.1 follow up: median 14.5 months||
+Row 15: ||Study population
+Row 16: ||
+Row 17: ||
+Row 18: |65 per 100|65
+
+=== Comparator Extract 129 (Placebo) ===
+i affetti da NSCLC a istologia squamosa in stadio IV, non precedentemente trattati con terapia sistemica e con un performance status di 0-1. Di questi 278 sono stati randomizzati al trattamento con con combinazione di chemioterapia + Pembrolizumab e 281 al gruppo con combinazione di chemioterapia + placebo. Lo studio KEINOTE-021 ha incluso 123 pazienti affetti da NSCLC a istologia non squamosa, in stadio III o IV, non precedentemente trattati con terapia sistemica e con un performance status di 0-1. DI questi 60 sono stati randomizzati al trattamento combinato con chemioterapia a base di platino + pe
+
+=== Comparator Extract 130 (Placebo) ===
+OLTO BASSAb ,c Row 1: |2. Paz-Ares, L., Vicente, D., Tafreshi, A., Robinson, A., Soto Parra, H., Mazières, J., Hermes, B., Cicin, I., Medgyasszay, B., Rodríguez-Cid, J., Okamoto, I., Lee, S., Ramlau, R., Vladimirov, V., Cheng, Y., Deng, X., Zhang, Y., Bas, T., Piperdi, B., Halmos, B.. A Randomized, Placebo-Controlled Trial of Pembrolizumab Plus Chemotherapy in Patients With Metastatic Squamous NSCLC: Protocol-Specified Final Analysis of KEYNOTE-407. J Thorac Oncol; Oct 2020. 3. Mazieres, J., Kowalski, D., Luft, A., Vicente, D., Tafreshi, A., Gumus, M., Laktionov, K., Hermes, B., Cicin, I., Rodriguez-
+
+=== Comparator Extract 131 (Placebo) ===
+fficacia). OS| Row 1: |2. Paz-Ares, L., Vicente, D., Tafreshi, A., Robinson, A., Soto Parra, H., Mazières, J., Hermes, B., Cicin, I., Medgyasszay, B., Rodríguez-Cid, J., Okamoto, I., Lee, S., Ramlau, R., Vladimirov, V., Cheng, Y., Deng, X., Zhang, Y., Bas, T., Piperdi, B., Halmos, B.. A Randomized, Placebo-Controlled Trial of Pembrolizumab Plus Chemotherapy in Patients With Metastatic Squamous NSCLC: Protocol-Specified Final Analysis of KEYNOTE-407. J Thorac Oncol; Oct 2020. 3. Mazieres, J., Kowalski, D., Luft, A., Vicente, D., Tafreshi, A., Gumus, M., Laktionov, K., Hermes, B., Cicin, I., Rodriguez-
+
+=== Comparator Extract 132 (Placebo) ===
+i affetti da NSCLC a istologia squamosa in stadio IV, non precedentemente trattati con terapia sistemica e con un performance status di 0-1. Di questi 278 sono stati randomizzati al trattamento con con combinazione di chemioterapia + pembrolizumab e 281 al gruppo con combinazione di chemioterapia + placebo. Lo studio KEINOTE-021 ha inlcuso 123 pazienti affetti da NSCLC a istologia non squamosa, in stadio III o IV, non precedentemente trattati con terapia sistemica e con un performance status di 0-1. DI questi 60 sono stati randomizzati al trattamento combinato con chemioterapia a base di platino + pe
+
+=== Comparator Extract 133 (Placebo) ===
+gl J Med; Nov 22 2018. 3. Paz-Ares, L., Vicente, D., Tafreshi, A., Robinson, A., Soto Parra, H., Mazières, J., Hermes, B., Cicin, I., Medgyasszay, B., Rodríguez-Cid, J., Okamoto, I., Lee, S., Ramlau, R., Vladimirov, V., Cheng, Y., Deng, X., Zhang, Y., Bas, T., Piperdi, B., Halmos, B.. A Randomized, Placebo-Controlled Trial of Pembrolizumab Plus Chemotherapy in Patients With Metastatic Squamous NSCLC: Protocol-Specified Final Analysis of KEYNOTE-407. J Thorac Oncol; Oct 2020. a. Abbassata di un livello la fiducia nelle prove per alto rischio di distorsione (Rischio di sponsor bias: lo studio di Langer
+
+=== Comparator Extract 134 (Placebo) ===
+gl J Med; Nov 22 2018. 3. Paz-Ares, L., Vicente, D., Tafreshi, A., Robinson, A., Soto Parra, H., Mazières, J., Hermes, B., Cicin, I., Medgyasszay, B., Rodríguez-Cid, J., Okamoto, I., Lee, S., Ramlau, R., Vladimirov, V., Cheng, Y., Deng, X., Zhang, Y., Bas, T., Piperdi, B., Halmos, B.. A Randomized, Placebo-Controlled Trial of Pembrolizumab Plus Chemotherapy in Patients With Metastatic Squamous NSCLC: Protocol-Specified Final Analysis of KEYNOTE-407. J Thorac Oncol; Oct 2020. a. Abbassata di un livello la fiducia nelle prove per alto rischio di distorsione (Rischio di sponsor bias: lo studio di Langer
+
+=== Comparator Extract 135 (Placebo) ===
+Row 1: 
+Row 2: Recommendation
+Row 3:  Row 1: ||||||||||||
+Row 2: Quality assessment|||||||No of patients||Effect|||
+Row 3: |||||||||||Quality|Importance
+Row 4: ||||||||||||
+Row 5: No of||||||Other|Maintenance therapy||Relative|||
+Row 6: |Design|Risk of bias|Inconsistency|Indirectness|Imprecision|||Placebo||Absolute||
+Row 7: studies||||||considerations|with pemetrexed||(95% CI)|||
+Row 8: ||||||||||||
+Row 9: Overall Survival (follow-up median 12.5 months; assessed with: not rilevant )||||||||||||
+Row 10: 1|randomised trials|no serious risk of bias|no serious inconsistency|no serious indirectness|no se
+
+=== Comparator Extract 136 (Placebo) ===
+ndex score - Cycle 6; range of scores: -0,59-1,0; Better indicated by higher values)|||||||
+Row 15: 1|randomised trials|serious10|no serious inconsistency|no serious indirectness|serious11|none| Row 1: |||||
+Row 2: ||Effect|||
+Row 3: ||||Quality|Importance
+Row 4: |||||
+Row 5: y||Relative|||
+Row 6: |Placebo||Absolute||
+Row 7: ||(95% CI)|||
+Row 8: |||||
+Row 9: |||||
+Row 10: |140/180 (77.8%)|HR 0.78 (0.64 to 0.96)2|9 fewer per 100 (from 1 fewer to 16 fewer)|HIGH|CRITICAL3
+Row 11: 5)|||||
+Row 12: |62/180 (34.4%)|HR 0.62 (0.49 to 0.79)6|11 fewer per 100 (from 6 fewer to 16 fewer)|HIGH|IMPORTANT3
+Row 13: S
+
+=== Comparator Extract 137 (Placebo) ===
+||
+Row 18: 1|randomised trials|no serious risk of bias|no serious inconsistency|no serious indirectness|no serious imprecision8|none|22/359 (6.1%)15|1/180 (0.56%)15|RR 11.03 (1.5 to 81.18)9|6 more per 100 (from 0 more to 45 more)|HIGH|IMPORTANT Row 1: Dovrebbe maintenance therapy with pemetrexed vs placebo essere utilizzato per advanced NSCLC||
+Row 2: ||
+Row 3: POPOLAZIONE:||Advanced NSCLC
+Row 4: ||
+Row 5: INTERVENTO:||Maintenance therapy with pemetrexed
+Row 6: ||
+Row 7: CONFRONTO:||Placebo
+Row 8: ||
+Row 9: ESITI PRINCIPALI:||Overall Survival; Progression free survival; Objective responce rate; Quali
+
+=== Comparator Extract 138 (Placebo) ===
+9|6 more per 100 (from 0 more to 45 more)|HIGH|IMPORTANT Row 1: Dovrebbe maintenance therapy with pemetrexed vs placebo essere utilizzato per advanced NSCLC||
+Row 2: ||
+Row 3: POPOLAZIONE:||Advanced NSCLC
+Row 4: ||
+Row 5: INTERVENTO:||Maintenance therapy with pemetrexed
+Row 6: ||
+Row 7: CONFRONTO:||Placebo
+Row 8: ||
+Row 9: ESITI PRINCIPALI:||Overall Survival; Progression free survival; Objective responce rate; Quality of life -EQ-5D; Quality of life -VAS; Severe Toxicity (Non laboratory); Fatigue grade 3-4; transfusion; G-CSF ; Anemia grade 3-4; Neutropenia grade 3-4
+Row 10: ||
+Row 11: SETTING:||
+Row
+
+=== Comparator Extract 139 (Placebo) ===
+Row 18: INTERESSE||
+Row 19: || Row 1: ||
+Row 2: Problema Il problema è una priorità?||
+Row 3: ||
+Row 4: GIUDIZI|RICERCA DELLE PROVE DI EVIDENZA|CONSIDERAZIONI AGGIUNTIVE
+Row 5: ○ No ○ Probabilmente no ○ Probabilmente si ● Si ○ Varia ○ Non so|| Row 1: Dovrebbe maintenance therapy with pemetrexed vs placebo essere utiliz|
+Row 2: |
+Row 3: POPOLAZIONE:|
+Row 4: |
+Row 5: INTERVENTO:|
+Row 6: |
+Row 7: CONFRONTO:|
+Row 8: |
+Row 9: ESITI PRINCIPALI:| Row 1: |
+Row 2: SETTING:|
+Row 3: |
+Row 4: PROSPETTIVA:|
+Row 5: |
+Row 6: BACKGROUND:|
+Row 7: |
+Row 8: CONFLITTI DI|
+Row 9: INTERESSE|
+Row 10: | Row 1: 
+Row 2: Prob
+
+=== Comparator Extract 140 (Placebo) ===
+mq e.v. g.1 ogni tre settimane) per 4 cicli ed una successiva fase randomizzata (fase di mantenimento), in cui i pazienti eleggibili che non erano in progressione di malattia dopo l’induzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni tre settimane) + BSC o placebo + BSC Esiti Effetto assoluto Effetto № dei Certezza Commenti anticipato* (95% CI) relativo partecipanti delle prove (95% (studi) (GRADE) Rischio Rischio con CI) con maintenance placebo therapy with pemetrexed Overall Popolazione in studio HR 539 ⨁⨁⨁⨁ Survival (OS) 0.78 (1 RCT) ALTA valutato con: 78
+
+=== Comparator Extract 141 (Placebo) ===
+uzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni tre settimane) + BSC o placebo + BSC Esiti Effetto assoluto Effetto № dei Certezza Commenti anticipato* (95% CI) relativo partecipanti delle prove (95% (studi) (GRADE) Rischio Rischio con CI) con maintenance placebo therapy with pemetrexed Overall Popolazione in studio HR 539 ⨁⨁⨁⨁ Survival (OS) 0.78 (1 RCT) ALTA valutato con: 78 per 69 per 100 (0.64 a not rilevant 100 (62 a 76) 0.96) follow up: mediana 12.5 m esi Popolazione in studio|| Row 1: |||||||||
+Row 2: Esiti||Effetto assoluto||||Effetto relativo (95% C
+
+=== Comparator Extract 142 (Placebo) ===
+a 76) 0.96) follow up: mediana 12.5 m esi Popolazione in studio|| Row 1: |||||||||
+Row 2: Esiti||Effetto assoluto||||Effetto relativo (95% CI)|№ dei partecipanti (studi)|Certezza delle prove (GRADE)|Commenti
+Row 3: ||anticipato* (95% CI)|||||||
+Row 4: |||||||||
+Row 5: |||||||||
+Row 6: |Rischio con placebo|||Rischio con|||||
+Row 7: ||||maintenance|||||
+Row 8: ||||therapy with|||||
+Row 9: ||||pemetrexed|||||
+Row 10: |||||||||
+Row 11: Overall Survival (OS) valutato con: not rilevant follow up: mediana 12.5 m esi||||||HR 0.78 (0.64 a 0.96)|539 (1 RCT)|⨁⨁⨁⨁ ALTA|
+Row 12: ||Popolazione in studio|||||||
+Ro
+
+=== Comparator Extract 143 (Placebo) ===
+r 100 (62 a 76)||||||
+Row 16: |||||||||
+Row 17: |||||||||
+Row 18: ||Popolazione in studio|||||||
+Row 19: ||||||||| Row 1: Effetto
+Row 2: relativo
+Row 3: (95%
+Row 4: CI) Row 1: № dei
+Row 2: partecipanti
+Row 3: (studi) Row 1: Certezza
+Row 2: delle prove
+Row 3: (GRADE) Row 1: Rischio
+Row 2: con
+Row 3: placebo Row 1: 78 per
+Row 2: 100 Row 1: 69 per 100
+Row 2: (62 a 76) Row 1: |
+Row 2: |Effetti de
+Row 3: |Quanto consid
+Row 4: | Row 1: 
+Row 2: esider
+Row 3: derevoli s
+Row 4:  Row 1: 
+Row 2: rabili
+Row 3: sono gli e
+Row 4:  Row 1: 
+Row 2: 
+Row 3: effetti des
+Row 4:  Row 1: 
+Row 2: 
+Row 3: siderabili attesi?
+
+=== Comparator Extract 144 (Placebo) ===
+mq e.v. g.1 ogni tre settimane) per 4 cicli ed una successiva fase randomizzata (fase di mantenimento), in cui i pazienti eleggibili che non erano in progressione di malattia dopo l’induzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni tre settimane) + BSC o placebo + BSC Esiti Effetto assoluto Effetto № dei Certezza Commenti anticipato* (95% CI) relativo partecipanti delle prove (95% (studi) (GRADE) Rischio Rischio con CI) con maintenance placebo therapy with pemetrexed Overall Popolazione in studio HR 539 ⨁⨁⨁⨁ Survival (OS) 0.78 (1 RCT) ALTA valutato con: 78
+
+=== Comparator Extract 145 (Placebo) ===
+uzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni tre settimane) + BSC o placebo + BSC Esiti Effetto assoluto Effetto № dei Certezza Commenti anticipato* (95% CI) relativo partecipanti delle prove (95% (studi) (GRADE) Rischio Rischio con CI) con maintenance placebo therapy with pemetrexed Overall Popolazione in studio HR 539 ⨁⨁⨁⨁ Survival (OS) 0.78 (1 RCT) ALTA valutato con: 78 per 69 per 100 (0.64 a not rilevant 100 (62 a 76) 0.96) follow up: mediana 12.5 m esi Popolazione in studio Row 1: 
+Row 2: 
+Row 3: 
+Row 4:  Row 1: |
+Row 2: |
+Row 3: |
+Row 4: | Row 1: |
+
+=== Comparator Extract 146 (Placebo) ===
+mq e.v. g.1 ogni tre settimane) per 4 cicli ed una successiva fase randomizzata (fase di mantenimento), in cui i pazienti eleggibili che non erano in progressione di malattia dopo l’induzione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni tre settimane) + BSC o placebo + BSC. Esiti Effetto assoluto Effetto № dei Certezza Commenti anticipato* (95% CI) relativo partecipanti delle prove (95% (studi) (GRADE) Rischio Rischio con CI) con maintenance placebo therapy with pemetrexed Severe Popolazione in studio RR 539 ⨁⨁⨁⨁ Toxicity (Non 2.51 (1 RCT) ALTA laboratory) 3 pe
+
+=== Comparator Extract 147 (Placebo) ===
+zione (n = 539) venivano randomizzati (2:1) a ricevere pemetrexed (500 mg/mq e.v. g.1 ogni tre settimane) + BSC o placebo + BSC. Esiti Effetto assoluto Effetto № dei Certezza Commenti anticipato* (95% CI) relativo partecipanti delle prove (95% (studi) (GRADE) Rischio Rischio con CI) con maintenance placebo therapy with pemetrexed Severe Popolazione in studio RR 539 ⨁⨁⨁⨁ Toxicity (Non 2.51 (1 RCT) ALTA laboratory) 3 per 8 per 100 (1.06 a (ST) 100 (4 a 20) 5.91) valutato con: N° Patient hospitalized because of drug related adverse events follow up: mediana 12.5 mesi Popolazione in studio| Row 1: ||||||
+
+=== Comparator Extract 148 (Placebo) ===
+adverse events follow up: mediana 12.5 mesi Popolazione in studio| Row 1: |||||||||
+Row 2: Esiti||Effetto assoluto||||Effetto relativo (95% CI)|№ dei partecipanti (studi)|Certezza delle prove (GRADE)|Commenti
+Row 3: ||anticipato* (95% CI)|||||||
+Row 4: |||||||||
+Row 5: |||||||||
+Row 6: |Rischio con placebo|||Rischio con|||||
+Row 7: ||||maintenance|||||
+Row 8: ||||therapy with|||||
+Row 9: ||||pemetrexed|||||
+Row 10: |||||||||
+Row 11: Severe Toxicity (Non laboratory) (ST) valutato con: N° Patient hospitalized because of drug related adverse events follow up: mediana 12.5 mesi||||||RR 2.51 (1.06 a 5.91)
+
+=== Comparator Extract 149 (Placebo) ===
+er 100 (4 a 20)||||||
+Row 16: |||||||||
+Row 17: |||||||||
+Row 18: ||Popolazione in studio|||||||
+Row 19: ||||||||| Row 1: Effetto
+Row 2: relativo
+Row 3: (95%
+Row 4: CI) Row 1: № dei
+Row 2: partecipanti
+Row 3: (studi) Row 1: Certezza
+Row 2: delle prove
+Row 3: (GRADE) Row 1: Rischio
+Row 2: con
+Row 3: placebo Row 1: 3 per
+Row 2: 100 Row 1: 8 per 100
+Row 2: (4 a 20) Row 1: ||||||||||
+Row 2: Esiti||Effetto assoluto||||Effetto relativo (95% CI)|№ dei partecipanti (studi)|Certezza delle prove (GRADE)|Commenti|Commenti
+Row 3: ||anticipato* (95% CI)||||||||
+Row 4: ||||||||||
+Row 5: ||||||||||
+Row 6: |Rischio
+
+=== Comparator Extract 150 (Placebo) ===
+1: 3 per
+Row 2: 100 Row 1: 8 per 100
+Row 2: (4 a 20) Row 1: ||||||||||
+Row 2: Esiti||Effetto assoluto||||Effetto relativo (95% CI)|№ dei partecipanti (studi)|Certezza delle prove (GRADE)|Commenti|Commenti
+Row 3: ||anticipato* (95% CI)||||||||
+Row 4: ||||||||||
+Row 5: ||||||||||
+Row 6: |Rischio con placebo|||Rischio con||||||
+Row 7: ||||maintenance||||||
+Row 8: ||||therapy with||||||
+Row 9: ||||pemetrexed||||||
+Row 10: ||||||||||
+Row 11: Severe Toxicity (Non laboratory) (ST) valutato con: N° Patient hospitalized because of drug related adverse events follow up: mediana 12.5 mesi||||||RR 2.51 (1.06 a
+
+=== Comparator Extract 151 (Placebo) ===
+chemioterapia|Relativo (95% CI)|Assoluto (95% CI)||
+Row 6: ||||||||||||
+Row 7: 1 1,2|studi randomizzati|serio a|non importante|non importante|serio b|nessuno|Inizialmente, 175 (87%) pazienti nel braccio esperimentale (atezolizumab più carboplatino ed etoposide) e 179 (89%) nel braccio di controllo (placebo più carboplatino ed etoposide) hanno completato il QLQ-C30 e 176 (88%) e 168 (83%), rispettivamente, completato il QLQ-LC13. I tassi di completamento sono rimasti superiori all'80% fino alla settimana 24 nel braccio placebo e fino alla settimana 36 nel braccio atezolizumab. Alla settimana 54, 34 (8
+
+=== Comparator Extract 152 (Placebo) ===
+izumab più carboplatino ed etoposide) e 179 (89%) nel braccio di controllo (placebo più carboplatino ed etoposide) hanno completato il QLQ-C30 e 176 (88%) e 168 (83%), rispettivamente, completato il QLQ-LC13. I tassi di completamento sono rimasti superiori all'80% fino alla settimana 24 nel braccio placebo e fino alla settimana 36 nel braccio atezolizumab. Alla settimana 54, 34 (8%) dei 403 pazienti randomizzati sono rimasti in trattamento in studio e hanno completato le valutazioni di QLQ-C30 e QLQ-LC13. I pazienti nel braccio esperimentale hanno ottenuto miglioramenti significativi nella qualità de
+
+=== Comparator Extract 153 (Placebo) ===
+atezolizumab in caso di risposta o stabilità di malattia dopo 4 cicli di trattamento|chemioterapia|Relativo (95% CI)|Assoluto (95% CI)|
+Row 6: |||||
+Row 7: |Inizialmente, 175 (87%) pazienti nel braccio esperimentale (atezolizumab più carboplatino ed etoposide) e 179 (89%) nel braccio di controllo (placebo più carboplatino ed etoposide) hanno completato il QLQ-C30 e 176 (88%) e 168 (83%), rispettivamente, completato il QLQ-LC13. I tassi di completamento sono rimasti superiori all'80% fino alla settimana 24 nel braccio placebo e fino alla settimana 36 nel braccio atezolizumab. Alla settimana 54, 34 (8
+
+=== Comparator Extract 154 (Placebo) ===
+izumab più carboplatino ed etoposide) e 179 (89%) nel braccio di controllo (placebo più carboplatino ed etoposide) hanno completato il QLQ-C30 e 176 (88%) e 168 (83%), rispettivamente, completato il QLQ-LC13. I tassi di completamento sono rimasti superiori all'80% fino alla settimana 24 nel braccio placebo e fino alla settimana 36 nel braccio atezolizumab. Alla settimana 54, 34 (8%) dei 403 pazienti randomizzati sono rimasti in trattamento in studio e hanno completato le valutazioni di QLQ-C30 e QLQ-LC13. I pazienti nel braccio esperimentale hanno ottenuto miglioramenti significativi nella qualità de
+
+=== Comparator Extract 155 (Placebo) ===
+a risposte complete (1 RCT)1 MODERATAa 1.09) e risposte parziali) Qualità di vita Inizialmente, 175 (87%) pazienti - (1 RCT)1,2 ⨁⨁◯◯ (QoL) (QoL) nel braccio esperimentale BASSAa,b valutato con: (atezolizumab più carboplatino EORTC Quality of ed etoposide) e 179 (89%) nel Life braccio di controllo (placebo più Questionnaire e carboplatino ed etoposide) Core 30 (QLQ- hanno completato il QLQ-C30 e C30) e il modulo 176 (88%) e 168 (83%), supplementare rispettivamente, completato il per il carcinoma QLQ-LC13. I tassi di polmonare (QLQ- completamento sono rimasti LC13) superiori all'80% fino alla follow u
+
+=== Comparator Extract 156 (Placebo) ===
+oside) Core 30 (QLQ- hanno completato il QLQ-C30 e C30) e il modulo 176 (88%) e 168 (83%), supplementare rispettivamente, completato il per il carcinoma QLQ-LC13. I tassi di polmonare (QLQ- completamento sono rimasti LC13) superiori all'80% fino alla follow up: 54 settimana 24 nel braccio settimane placebo e fino alla settimana 36 nel braccio atezolizumab. Alla settimana 54, 34 (8%) dei 403 pazienti randomizzati sono rimasti in trattamento in studio e hanno completato le valutazioni di QLQ-C30 e QLQ- LC13. I pazienti nel braccio esperimentale hanno ottenuto miglioramenti significativi nella qualità d
+
+=== Comparator Extract 157 (Placebo) ===
+carcinoma polmonare (QLQ- LC13) follow up: 54 settimane|||||-|(1 RCT)1,2|⨁⨁◯◯ BASSAa,b|
+Row 5: ||Inizialmente, 175 (87%) pazienti||||||
+Row 6: ||nel braccio esperimentale||||||
+Row 7: ||(atezolizumab più carboplatino||||||
+Row 8: ||ed etoposide) e 179 (89%) nel||||||
+Row 9: ||braccio di controllo (placebo più||||||
+Row 10: ||carboplatino ed etoposide)||||||
+Row 11: ||hanno completato il QLQ-C30 e||||||
+Row 12: ||176 (88%) e 168 (83%),||||||
+Row 13: ||rispettivamente, completato il||||||
+Row 14: ||QLQ-LC13. I tassi di||||||
+Row 15: ||completamento sono rimasti||||||
+Row 16: ||superiori all'80% fino a
+
+=== Comparator Extract 158 (Placebo) ===
+||hanno completato il QLQ-C30 e||||||
+Row 12: ||176 (88%) e 168 (83%),||||||
+Row 13: ||rispettivamente, completato il||||||
+Row 14: ||QLQ-LC13. I tassi di||||||
+Row 15: ||completamento sono rimasti||||||
+Row 16: ||superiori all'80% fino alla||||||
+Row 17: ||settimana 24 nel braccio||||||
+Row 18: ||placebo e fino alla settimana 36||||||
+Row 19: ||nel braccio atezolizumab. Alla||||||
+Row 20: ||settimana 54, 34 (8%) dei 403||||||
+Row 21: ||pazienti randomizzati sono||||||
+Row 22: ||rimasti in trattamento in studio||||||
+Row 23: ||e hanno completato le||||||
+Row 24: ||valutazioni di QLQ-C30 e QLQ-||||||
+
+=== Comparator Extract 159 (Placebo) ===
+a 70) Row 1: ||||RR 0.94 (0.80 a 1.09)
+Row 2: 64 per 100||60 per 100 (51 a 70)||
+Row 3: ||||
+Row 4: ||||-
+Row 5: |Inizialmente, 175 (87%) pazienti|||
+Row 6: |nel braccio esperimentale|||
+Row 7: |(atezolizumab più carboplatino|||
+Row 8: |ed etoposide) e 179 (89%) nel|||
+Row 9: |braccio di controllo (placebo più|||
+Row 10: |carboplatino ed etoposide)|||
+Row 11: |hanno completato il QLQ-C30 e|||
+Row 12: |176 (88%) e 168 (83%),|||
+Row 13: |rispettivamente, completato il|||
+Row 14: |QLQ-LC13. I tassi di|||
+Row 15: |completamento sono rimasti|||
+Row 16: |superiori all'80% fino alla|||
+Row 17: |settimana 24
+
+=== Comparator Extract 160 (Placebo) ===
+tino ed etoposide)|||
+Row 11: |hanno completato il QLQ-C30 e|||
+Row 12: |176 (88%) e 168 (83%),|||
+Row 13: |rispettivamente, completato il|||
+Row 14: |QLQ-LC13. I tassi di|||
+Row 15: |completamento sono rimasti|||
+Row 16: |superiori all'80% fino alla|||
+Row 17: |settimana 24 nel braccio|||
+Row 18: |placebo e fino alla settimana 36|||
+Row 19: |nel braccio atezolizumab. Alla|||
+Row 20: |settimana 54, 34 (8%) dei 403|||
+Row 21: |pazienti randomizzati sono|||
+Row 22: |rimasti in trattamento in studio|||
+Row 23: |e hanno completato le|||
+Row 24: |valutazioni di QLQ-C30 e QLQ-|||
+Row 25: |LC13. I pazienti
+
+=== Comparator Extract 161 (Placebo) ===
+omplete 1.09) 64 per 100 60 per 100 e risposte parziali) (51 a 70) Qualità di vita Inizialmente, 175 (87%) pazienti - (1 RCT)1,2 ⨁⨁◯◯ (QoL) (QoL) nel braccio esperimentale BASSAa,b valutato con: (atezolizumab più carboplatino EORTC Quality of ed etoposide) e 179 (89%) nel Life braccio di controllo (placebo più Questionnaire e carboplatino ed etoposide) Core 30 (QLQ- hanno completato il QLQ-C30 e C30) e il modulo 176 (88%) e 168 (83%), supplementare rispettivamente, completato il per il carcinoma QLQ-LC13. I tassi di polmonare (QLQ- completamento sono rimasti LC13) superiori all'80% fino alla follow u
+
+=== Comparator Extract 162 (Placebo) ===
+oside) Core 30 (QLQ- hanno completato il QLQ-C30 e C30) e il modulo 176 (88%) e 168 (83%), supplementare rispettivamente, completato il per il carcinoma QLQ-LC13. I tassi di polmonare (QLQ- completamento sono rimasti LC13) superiori all'80% fino alla follow up: 54 settimana 24 nel braccio settimane placebo e fino alla settimana 36 nel braccio atezolizumab. Alla settimana 54, 34 (8%) dei 403 pazienti randomizzati sono rimasti in trattamento in studio e hanno completato le valutazioni di QLQ-C30 e QLQ- LC13. I pazienti nel braccio esperimentale hanno ottenuto miglioramenti significativi nella qualità d
+
+=== Comparator Extract 163 (Placebo) ===
+a polmonare (QLQ- LC13) follow up: 54 settimane||||||-|(1 RCT)1,2|⨁⨁◯◯ BASSAa,b|
+Row 9: ||Inizialmente, 175 (87%) pazienti|||||||
+Row 10: ||nel braccio esperimentale|||||||
+Row 11: ||(atezolizumab più carboplatino|||||||
+Row 12: ||ed etoposide) e 179 (89%) nel|||||||
+Row 13: ||braccio di controllo (placebo più|||||||
+Row 14: ||carboplatino ed etoposide)|||||||
+Row 15: ||hanno completato il QLQ-C30 e|||||||
+Row 16: ||176 (88%) e 168 (83%),|||||||
+Row 17: ||rispettivamente, completato il|||||||
+Row 18: ||QLQ-LC13. I tassi di|||||||
+Row 19: ||completamento sono rimasti|||||||
+Row 20: ||superiori all'80%
+
+=== Comparator Extract 164 (Placebo) ===
+o completato il QLQ-C30 e|||||||
+Row 16: ||176 (88%) e 168 (83%),|||||||
+Row 17: ||rispettivamente, completato il|||||||
+Row 18: ||QLQ-LC13. I tassi di|||||||
+Row 19: ||completamento sono rimasti|||||||
+Row 20: ||superiori all'80% fino alla|||||||
+Row 21: ||settimana 24 nel braccio|||||||
+Row 22: ||placebo e fino alla settimana 36|||||||
+Row 23: ||nel braccio atezolizumab. Alla|||||||
+Row 24: ||settimana 54, 34 (8%) dei 403|||||||
+Row 25: ||pazienti randomizzati sono|||||||
+Row 26: ||rimasti in trattamento in studio|||||||
+Row 27: ||e hanno completato le|||||||
+Row 28: ||valutazioni di QLQ-C30 e QLQ-
+
+=== Comparator Extract 165 (Placebo) ===
+||
+Row 4: |||||
+Row 5: 64 per 100|||60 per 100||
+Row 6: |||(51 a 70)||
+Row 7: |||||
+Row 8: |||||-
+Row 9: |Inizialmente, 175 (87%) pazienti||||
+Row 10: |nel braccio esperimentale||||
+Row 11: |(atezolizumab più carboplatino||||
+Row 12: |ed etoposide) e 179 (89%) nel||||
+Row 13: |braccio di controllo (placebo più||||
+Row 14: |carboplatino ed etoposide)||||
+Row 15: |hanno completato il QLQ-C30 e||||
+Row 16: |176 (88%) e 168 (83%),||||
+Row 17: |rispettivamente, completato il||||
+Row 18: |QLQ-LC13. I tassi di||||
+Row 19: |completamento sono rimasti||||
+Row 20: |superiori all'80% fino alla||||
+Row 21: |sett
+
+=== Comparator Extract 166 (Placebo) ===
+etoposide)||||
+Row 15: |hanno completato il QLQ-C30 e||||
+Row 16: |176 (88%) e 168 (83%),||||
+Row 17: |rispettivamente, completato il||||
+Row 18: |QLQ-LC13. I tassi di||||
+Row 19: |completamento sono rimasti||||
+Row 20: |superiori all'80% fino alla||||
+Row 21: |settimana 24 nel braccio||||
+Row 22: |placebo e fino alla settimana 36||||
+Row 23: |nel braccio atezolizumab. Alla||||
+Row 24: |settimana 54, 34 (8%) dei 403||||
+Row 25: |pazienti randomizzati sono||||
+Row 26: |rimasti in trattamento in studio||||
+Row 27: |e hanno completato le||||
+Row 28: |valutazioni di QLQ-C30 e QLQ-||||
+Row 29: |LC13.||||
+
+=== Comparator Extract 167 (Placebo) ===
+c. Patients included in the Prophylactic Cranial irradiation overview collaborative group had achieved a complete response after induction treatment. In Rule at al. all patients were 70 years or older. Salama et al presented a secondary analysis of the CALGB 30504 study, included patients received placebo or sunitinib d. I2=84% e. In 13 out of 21 studies, the number of events were not showed f. The quality of the observational included studies was assessed according to the Newcastle- Ottawa scale. Studies was considerate as moderate or high quality, the reasons for downgrade the quality were selecti
+
+=== Comparator Extract 168 (Placebo) ===
+c. Patients included in the Prophylactic Cranial irradiation overview collaborative group had achieved a complete response after induction treatment. In Rule at al. all patients were 70 years or older. Salama et al presented a secondary analysis of the CALGB 30504 study, included patients received placebo or sunitinib d. I2=84% e. In 13 out of 21 studies, the number of events were not showed f. The quality of the observational included studies was assessed according to the Newcastle- Ottawa scale. Studies was considerate as moderate or high quality, the reasons for downgrade the quality were selecti
+
+=== Comparator Extract 169 (Placebo) ===
+c. Patients included in the Prophylactic Cranial irradiation overview collaborative group had achieved a complete response after induction treatment. In Rule at al. all patients were 70 years or older. Salama et al presented a secondary analysis of the CALGB 30504 study, included patients received placebo or sunitinib d. I2=84% e. In 13 out of 21 studies, the number of events were not showed| Row 1: |||||||VERY LOWc,h,i|
+Row 2: ||||||||
+Row 3: ||||||||
+Row 4: Quality of life|||||-|(1 RCT)j|⨁⨁⨁⨁ HIGHk|
+Row 5: ||Authors stated that "The rate of compliance with||||||
+Row 6: ||the quality-of-life assess
+
+=== Comparator Extract 170 (Placebo) ===
+c. Patients included in the Prophylactic Cranial irradiation overview collaborative group had achieved a complete response after induction treatment. In Rule at al. all patients were 70 years or older. Salama et al presented a secondary analysis of the CALGB 30504 study, included patients received placebo or sunitinib d. I2=84% e. In 13 out of 21 studies, the number of events were not showed Row 1: |f. The quality of the observational included studies was assessed according to the Newcastle- Ottawa scale. Studies was considerate as moderate or high quality, the reasons for downgrade the quality were
+
+=== Comparator Extract 171 (Placebo) ===
+I"[Title/Abstract] OR "stage II"[Title/Abstract])))))) AND "radical
+Row 7: surgery")) AND (((((((("Randomized Controlled Trial" [Publication Type]) OR "Clinical Trial" [Publication
+Row 8: Type]) OR "drug therapy" [Subheading])) OR ((randomized[Title/Abstract] OR
+Row 9: randomised[Title/Abstract] OR placebo[Title/Abstract] OR randomly[Title/Abstract] OR
+Row 10: trial[Title/Abstract] OR groups OR)))) NOT ((("Animals"[Mesh]) NOT "Animals"[Mesh]) AND
+Row 11: "Humans"[Mesh]))) Row 1: (((((((((((((((((( "Carcinoma, Non-Small-Cell Lung/drug therapy"[Mesh] OR "Carcino
+Row 2: Lung/pathology"[Mesh] )) OR ( "Lu
+
+=== Comparator Extract 172 (Placebo) ===
+"grade II"[Title/Abstract] OR "stage I"[Title/Abstract] OR "stage II"[Title/Abstract]))))
+Row 7: surgery")) AND (((((((("Randomized Controlled Trial" [Publication Type]) OR "Clinic
+Row 8: Type]) OR "drug therapy" [Subheading])) OR ((randomized[Title/Abstract] OR
+Row 9: randomised[Title/Abstract] OR placebo[Title/Abstract] OR randomly[Title/Abstract]
+Row 10: trial[Title/Abstract] OR groups OR)))) NOT ((("Animals"[Mesh]) NOT "Animals"[Mes
+Row 11: "Humans"[Mesh]))) Row 1: (((((lung
+Row 2: ract]) OR lung
+Row 3: ung
+Row 4: C*[Title/Abstract])
+Row 5: itle/Abstract] OR
+Row 6: ))) AND "radical
+Row 7: cal Tri
+
+=== Comparator Extract 173 (Placebo) ===
+oside"[All Fields]) AND (("platinum"[MeSH Terms] OR "platinum"[All Fields]))))) AND
+Row 5: ((((((("Randomized Controlled Trial" [Publication Type]) OR "Clinical Trial" [Publication Type]) OR
+Row 6: "drug therapy" [Subheading])) OR ((randomized[Title/Abstract] OR randomised[Title/Abstract] OR
+Row 7: placebo[Title/Abstract] OR randomly[Title/Abstract] OR trial[Title/Abstract] OR groups OR)))) NOT
+Row 8: ((("Animals"[Mesh]) NOT "Animals"[Mesh]) AND "Humans"[Mesh])) Row 1: (((("Small Cell Lung Carcinoma"[Mesh]) OR (“Small Cell Lung Cancer”[Title/Abstract] OR “Oat Cell
+Row 2: Lung Cancer”[Title/Abstract]
+
+=== Comparator Extract 174 (Placebo) ===
+l irradiation"[Title/Abstract] OR "prophylactic cranial
+Row 6: irradiation (PCI)"[Title/Abstract])))) AND (((((((((((((("Randomized Controlled Trial "[Publication Type])
+Row 7: OR "controlled clinical trial"[Publication Type]) OR (randomized[Title/Abstract] OR
+Row 8: randomised[Title/Abstract])) OR placebo[Title/Abstract]) OR randomly[Title/Abstract]) OR
+Row 9: groups[Title/Abstract]) OR trial[Title/Abstract])) Row 1: ((((((("Small Cell Lung Carcinoma"[Mesh]) OR (“Small Cell Lung Cancer”[Title/Abstract] OR “Oat Cell
+Row 2: Lung Cancer”[Title/Abstract] OR “Small Cell Cancer Of The Lung” “Carcinoma, Sm
+
+=== Comparator Extract 175 (Placebo) ===
+nial irradiation"[Title/Abstract] OR "prophylactic cranial
+Row 6: irradiation (PCI)"[Title/Abstract])))) AND (((((((((((((("Randomized Controlled Trial "[Publication Typ
+Row 7: OR "controlled clinical trial"[Publication Type]) OR (randomized[Title/Abstract] OR
+Row 8: randomised[Title/Abstract])) OR placebo[Title/Abstract]) OR randomly[Title/Abstract]) OR
+Row 9: groups[Title/Abstract]) OR trial[Title/Abstract])) Row 1: ((((((("Small Cell Lung Carcinoma"[Mesh]) OR (“Small Cell Lung Cancer”[Title/Abstract] OR “Oat C
+Row 2: Lung Cancer”[Title/Abstract] OR “Small Cell Cancer Of The Lung” “Carcinoma, Small
+
+=== Comparator Extract 176 (Usual care) ===
+anni), e
+riducendo la storia di fumo a 20 pack/years (vs 30 pack-years) (17). In Europa, sono stati condotti 6 studi
+randomizzati (MILD [18], ITALUNG [19], DANTE [20], DLCST [21], LUSI [22], NELSON [23]) che hanno
+confrontato una strategia di screening annuale mediante LDCT vs sola osservazione o “usual care” in soggetti
+fumatori e/o ex-fumatori.
+Quesito 1 GRADE. Uno screening annuale mediante TC torace dovrebbe essere raccomandato in
+soggetti fumatori o ex-fumatori che hanno fumato almeno 15 sigarette al giorno per più di 25 anni oppure
+almeno 10 sigarette al giorno per più di 30 anni, oppure che hann
+

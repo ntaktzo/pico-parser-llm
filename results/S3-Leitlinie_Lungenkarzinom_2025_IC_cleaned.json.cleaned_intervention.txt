@@ -1,0 +1,2132 @@
+=== Intervention Extract 1 (Intervention) ===
+Oxf
+5 (Oxf
+ndlagen der
+nzgrad
+ford 2009)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+© L
+Methodik 29
+Beschreibung
+) Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+appraisal, or based on physiology, bench research or “first principles”
+) Category - Does this intervention help? (Treatment Benefits): Systematic re-
+view of randomized trials or n-of-1 trials
+) Category - Does this intervention help? (Treatment Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized control
+
+=== Intervention Extract 2 (Intervention) ===
+ng
+) Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+appraisal, or based on physiology, bench research or “first principles”
+) Category - Does this intervention help? (Treatment Benefits): Systematic re-
+view of randomized trials or n-of-1 trials
+) Category - Does this intervention help? (Treatment Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow-up study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this int
+
+=== Intervention Extract 3 (Intervention) ===
+esearch or “first principles”
+) Category - Does this intervention help? (Treatment Benefits): Systematic re-
+view of randomized trials or n-of-1 trials
+) Category - Does this intervention help? (Treatment Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow-up study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Case-series,
+case-control studies, or historically controlled studies (a systematic rev
+
+=== Intervention Extract 4 (Intervention) ===
+ion help? (Treatment Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow-up study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Case-series,
+case-control studies, or historically controlled studies (a systematic review is
+generally better than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Mechanism-
+based reasoning
+Hohe Qualität der Evidenz nach GRADE = Wir
+
+=== Intervention Extract 5 (Intervention) ===
+study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Case-series,
+case-control studies, or historically controlled studies (a systematic review is
+generally better than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Mechanism-
+based reasoning
+Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher, dass der
+wahre Effekt nahe bei dem Effektschätzer liegt.
+Moderate Qualität nach GRADE = Wir haben mäßig viel Vertrauen in den Ef-
+fektschätzer: Der wahre Effekt ist wahrscheinlich nah
+
+=== Intervention Extract 6 (Intervention) ===
+von 55 auf 50 Jahre als auch die
+kumulative Mindest-Tabakrauchexposition von 30 auf 20 Packungsjahre [149]. Neben
+den beiden größten randomisierten Studien von NLST [158] und NELSON [178] stam-
+men zusätzliche Beweise für die USPSTF-Empfehlung 2021aus quantitativen Modellie-
+rungsstudien im Cancer Intervention and Surveillance Modeling Network (CISNET).
+Diese zeigten, dass das Screening von Personen im Alter von 50–80 Jahren mit 20 Pa-
+ckungsjahren oder mehr aktivem Rauchen voraussichtlich zu mehr Nutzen führt bei
+akzeptablem Anstieg der erwarteten finanziellen Kosten und Nebenwirkungen des
+Screenings, i
+
+=== Intervention Extract 7 (Intervention) ===
+t beeinflussen, gehören die
+Methode zur Auswahl der in Frage kommenden Population, die Teilnahmerate, das
+Intervall zwischen den Screeningrunden, die Methode des Lungenrundherdmanage-
+ments, der Ansatz für die klinische Aufarbeitung der Niedrigdosis-CT-Befunde sowie
+die Integration einer Rauchstopp-Intervention bzw. eines zertifizierten Rauchfreipro-
+gramms [215].
+Stand Implementierung von Niedrigdosis-CT-Lungenkrebsscreening
+Internationaler Implementierungsstatus
+Außerhalb von Deutschland wurden nationale Niedrigdosis-CT Lungenkrebs-Scree-
+ningprogramme nach den USA bereits in Australien, Großbritannien,
+
+=== Intervention Extract 8 (Intervention) ===
+6]. Rund 35–55% der Teilnehmer in
+den randomisierten Low-Dose-CT-Screeningstudien bzw. Pilotstudien waren aktive
+Raucher [227], [178], [228]. Ein Rauchstopp senkt ebenso wie ein Niedrigdosis-CT-
+Lungenkrebs-Screening-Programm die lungenkrebsbedingte Mortalität. Bereits eine
+einmalige therapeutische Intervention zur Tabakentwöhnung ist effektiv und redu-
+ziert nicht nur die lungenkrebsbedingte Mortalität, sondern auch die Sterblichkeit an-
+derer prävalenter tabakassoziierter Erkrankungen. Bei Kombination beider Verfahren
+addieren sich deren mortalitätssenkende Effekte. Gleichzeitig wurden bei aktiven Rau-
+
+=== Intervention Extract 9 (Intervention) ===
+ienen CT-Verlaufs-
+kontrollen bei subsoliden Lungenherden dazu, den optimalen Zeitpunkt für eine Inter-
+vention zu identifizieren bzw. eine im Kontext der Gesamtmorbidität des Patienten
+4 Inzid
+dentell
+ler Lungenrundherd (außerhalb eines Programms zur Lungenkrebs-Früherkennung) 145
+nicht hilfreiche Intervention komplett zu vermeiden. Denn auch bei bereits bestehen-
+der Malignität ist die Wachstumsgeschwindigkeit subsolider Lungenrundherde typi-
+scherweise außerordentlich gering, mit einer Größenkonstanz und fehlender Progres-
+sion oft über mehrere Jahre. Entsprechend lang (3 – 5 Jahre) sollte die Dauer de
+
+=== Intervention Extract 10 (Intervention) ===
+it
+einem Lungenkarzinom konnten im Rahmen einer systematischen Recherche der Leit-
+liniengruppe vier prospektive, randomisierte Studien identifiziert werden [564], [568],
+[607], [609] (siehe Tabelle 31).
+e 31: Studienübersicht zur frühzeitigen Integration von Palliativversorgung
+e Studienpopulation Intervention/ Kontrolle Ergebnisse
+H., et Fallzahl: N=39 Intervention(s): Sign. Reduktion von De-
+014 pressiviät und Ängstlich-
+Setting: USA, single Manual with six items:
+keit nach Wochen (gemes-
+, center, home based
+Content: strategies for sen mit (Patient Reported
+care
+balancing autonomy with Outcomes Measur
+
+=== Intervention Extract 11 (Intervention) ===
+schen Recherche der Leit-
+liniengruppe vier prospektive, randomisierte Studien identifiziert werden [564], [568],
+[607], [609] (siehe Tabelle 31).
+e 31: Studienübersicht zur frühzeitigen Integration von Palliativversorgung
+e Studienpopulation Intervention/ Kontrolle Ergebnisse
+H., et Fallzahl: N=39 Intervention(s): Sign. Reduktion von De-
+014 pressiviät und Ängstlich-
+Setting: USA, single Manual with six items:
+keit nach Wochen (gemes-
+, center, home based
+Content: strategies for sen mit (Patient Reported
+care
+balancing autonomy with Outcomes Measurement In-
+Patientencharakteris- soliciting/accepting sup-
+
+=== Intervention Extract 12 (Intervention) ===
+needs, and support- 1.8; < .0001
+kaukasisch ing/acknowledging the
+Ängstlichkeit
+caregiver.
+SCLC (5): 16
+12.35/14.84; SMD=-1.3;
+6 weekly 60-minute tele-
+NSCLC (Stage 3-4) (%): <.0001>
+phone counselling ses-
+sions with a trained inter-
+ventionist
+Kontrolle
+Usual palliative care
+as, M. Fallzahl: N=161 Intervention(s): Mittleres Überleben 14/8,5
+2009 mo
+Setting: USA, 2 sites Advanced practice nurses
+, with palliative care spe- Gesamtüberleben
+Patientencharakteris-
+cialty training conducted 30,4/26,1 mo
+tika: 62% männlich, Al-
+4 initial structures educa-
+ter im Mittel: 65 Jahre, mittleres follow up 10,7
+tional
+
+=== Intervention Extract 13 (Intervention) ===
+v-
+98% kaukasisch mo
+ing sessions
+married or living with Biasrisiko:
+Manual for:
+partner: 73%
+1) problem solving unvollständige outcome-
+lung: 34% 2) communication and Daten
+social support
+3) symptom management
+4) advanced care plan-
+ning and unfinished busi-
+ness
+Kontrolle Studie Studienpopulation Intervention/ Kontrolle Ergebnisse
+Usual palliative care
+Temel, J.S. Fallzahl: N=77 Intervention(s) QoL(tFAC-L)
+et al., 2010 98,0/91,5/59/53,21/19
+Setting: USA, single Early palliative care,
+[564], center monthly, with palliative Gesamtmortalität
+care team
+Patientencharakteris- 12,9/22,9 %
+tika: 55% weiblich, A
+
+=== Intervention Extract 14 (Intervention) ===
+tner: 73%
+1) problem solving unvollständige outcome-
+lung: 34% 2) communication and Daten
+social support
+3) symptom management
+4) advanced care plan-
+ning and unfinished busi-
+ness
+Kontrolle Studie Studienpopulation Intervention/ Kontrolle Ergebnisse
+Usual palliative care
+Temel, J.S. Fallzahl: N=77 Intervention(s) QoL(tFAC-L)
+et al., 2010 98,0/91,5/59/53,21/19
+Setting: USA, single Early palliative care,
+[564], center monthly, with palliative Gesamtmortalität
+care team
+Patientencharakteris- 12,9/22,9 %
+tika: 55% weiblich, Alter routine oncology care
+Biasrisiko:
+im Mittel: 64 Jahre, 95%
+Kontrolle
+kaukasisch
+
+=== Intervention Extract 15 (Intervention) ===
+with palliative Gesamtmortalität
+care team
+Patientencharakteris- 12,9/22,9 %
+tika: 55% weiblich, Alter routine oncology care
+Biasrisiko:
+im Mittel: 64 Jahre, 95%
+Kontrolle
+kaukasisch
+standard palliative care
+ECOG 0 41%
+and routine oncology
+ECOG 1 47% care
+Hirnmetastasen: 26%
+Zimmer- Fallzahl: N=461 Intervention(s) Kein sign. Unterschied in
+mann, C. et der LQ
+Setting: Canada, single Early palliative care inter-
+al., 2014
+center, 16 medical on- vention with pc physician weitere Studien notwendig
+[609], cologists, 24 clinics and nurse zur richtigen Patientenaus-
+wahl für die Intervention
+Patientencharakteris
+
+=== Intervention Extract 16 (Intervention) ===
+mer- Fallzahl: N=461 Intervention(s) Kein sign. Unterschied in
+mann, C. et der LQ
+Setting: Canada, single Early palliative care inter-
+al., 2014
+center, 16 medical on- vention with pc physician weitere Studien notwendig
+[609], cologists, 24 clinics and nurse zur richtigen Patientenaus-
+wahl für die Intervention
+Patientencharakteris- once monthly, more often
+tika: 74% weiblich, Alter necessary Biasrisiko: keine komplette
+im Mittel: 68 Jahre, 85% Verblindung möglich, nur
+Content:
+kaukasisch ein Zentrum
+Kontrolle
+usual cancer care
+Inzwischen liegen mehr Studien vor und im Jahr 2017 zeigten zwei Metaanalysen
+
+=== Intervention Extract 17 (Intervention) ===
+waren Einsatz einer Kom-
+binationschemotherapie und Einsatz von Cisplatin und/oder Taxan sowie ein guter
+Performance-Status (ECOG 0,1), Oligometastasierung, Hämoglobin > 11 g/dl, Alter < Auch unter einer laufenden Therapie müssen regelmäßige Kontrollen erfolgen, um
+eine akute Symptomatik, die einer Intervention (bronchologische Intervention; pallia-
+tive Radiotherapie; palliative Operation) bedarf, frühzeitig zu erkennen. Für alle Pati-
+enten mit Lungenkarzinomen muss der Zugang zu den oben genannten Techniken
+und Verfahren zeitnah gewährleistet sein.
+8.6.2.2 Systemtherapie (Zweitlinie) bei Patienten mit
+
+=== Intervention Extract 18 (Intervention) ===
+ionschemotherapie und Einsatz von Cisplatin und/oder Taxan sowie ein guter
+Performance-Status (ECOG 0,1), Oligometastasierung, Hämoglobin > 11 g/dl, Alter < Auch unter einer laufenden Therapie müssen regelmäßige Kontrollen erfolgen, um
+eine akute Symptomatik, die einer Intervention (bronchologische Intervention; pallia-
+tive Radiotherapie; palliative Operation) bedarf, frühzeitig zu erkennen. Für alle Pati-
+enten mit Lungenkarzinomen muss der Zugang zu den oben genannten Techniken
+und Verfahren zeitnah gewährleistet sein.
+8.6.2.2 Systemtherapie (Zweitlinie) bei Patienten mit Plattenepithelkarzinom
+ohne th
+
+=== Intervention Extract 19 (Intervention) ===
+Hä-
+moptoe zunächst die Offenhaltung der zentralen Atemwege und die Oxygenierung im
+Vordergrund. Die Intubation und Blockung eines kontralateralen Hauptbronchus ist
+effektiv, um die nicht blutende Lunge zu schützen. Dabei erleichtern großlumige Tu-
+ben die Bronchialtoilette und die bronchoskopische Intervention.
+Die wichtigste diagnostische Maßnahme ist die Bronchoskopie. Zur Blutungslokalisa-
+tion oder zum Staging kann darüber hinaus ein CT des Thorax notwendig werden
+[1526](Evidenzgrad 1c).
+Therapie
+Die Bronchoskopie dient diagnostisch der Identifikation der Blutungsquelle und thera-
+peutisch der Entfer
+
+=== Intervention Extract 20 (Intervention) ===
+• Tumortherapie induzierte Nausea und Emesis
+• Tumortherapie induzierte Diarrhoe
+• Orale Mucositis durch systemische Tumortherapie
+• Tumortherapie induzierte Hauttoxizität
+• Neurotoxizität – Chemotherapie induzierte periphere Neuropa
+• Ossäre Komplikationen
+o Ossäre Manifestationen
+o Medikamentöse Intervention
+o Chirurgische Intervention
+o Strahlentherapeutische Intervention
+o Radionuklidtherapie
+o Therapie assoziierte Osteoporose
+• Paravasate
+• Supportive Maßnahmen in der Radioonkologie
+• Radiogene Enteropathie/ Enteritis
+• Chronische Enteropathie/ Enteritis- Therapie der chronischen D
+• Radiogene Prokt
+
+=== Intervention Extract 21 (Intervention) ===
+Nausea und Emesis
+• Tumortherapie induzierte Diarrhoe
+• Orale Mucositis durch systemische Tumortherapie
+• Tumortherapie induzierte Hauttoxizität
+• Neurotoxizität – Chemotherapie induzierte periphere Neuropa
+• Ossäre Komplikationen
+o Ossäre Manifestationen
+o Medikamentöse Intervention
+o Chirurgische Intervention
+o Strahlentherapeutische Intervention
+o Radionuklidtherapie
+o Therapie assoziierte Osteoporose
+• Paravasate
+• Supportive Maßnahmen in der Radioonkologie
+• Radiogene Enteropathie/ Enteritis
+• Chronische Enteropathie/ Enteritis- Therapie der chronischen D
+• Radiogene Proktitis
+• Späte radiogene Prokt
+
+=== Intervention Extract 22 (Intervention) ===
+zierte Diarrhoe
+• Orale Mucositis durch systemische Tumortherapie
+• Tumortherapie induzierte Hauttoxizität
+• Neurotoxizität – Chemotherapie induzierte periphere Neuropa
+• Ossäre Komplikationen
+o Ossäre Manifestationen
+o Medikamentöse Intervention
+o Chirurgische Intervention
+o Strahlentherapeutische Intervention
+o Radionuklidtherapie
+o Therapie assoziierte Osteoporose
+• Paravasate
+• Supportive Maßnahmen in der Radioonkologie
+• Radiogene Enteropathie/ Enteritis
+• Chronische Enteropathie/ Enteritis- Therapie der chronischen D
+• Radiogene Proktitis
+• Späte radiogene Proktitis
+• Radiodermatitis
+• Osteoradionek
+
+=== Intervention Extract 23 (Intervention) ===
+beim NSCLC ist noch
+nicht identifiziert worden. Für die Zukunft sind randomisierte, kontrollierte Studien
+wünschenswert, die nicht nur die klinische Effektivität und die Kosteneffektivität der
+verschiedenen Nachsorgeprotokolle erfassen sollten, sondern auch die Lebensqualität
+der Patienten je nach Intervention.
+16 Nachsorge/
+EK
+Empfehlungsg
+A/B
+Level of Eviden Empfehlungsg
+A
+Level of Eviden /Verlauf/Follow-Up
+Konsensbasierte Empfehlung geprüft 2025
+Bei Patienten nach ablativer lokaler Therapie (Operation im Stadium I-II und III,
+Strahlentherapie/ Strahlenchemotherapie im Stadium I und II) sollten die pos
+
+=== Intervention Extract 24 (Intervention) ===
+Row 9: 
+Row 10: 
+Row 11: 
+Row 12: 
+Row 13: 
+Row 14: 
+Row 15: 
+Row 16: 
+Row 17: 
+Row 18: 
+Row 19: 
+Row 20: 
+Row 21: 
+Row 22: 
+Row 23: 
+Row 24: 
+Row 25: 
+Row 26:  Row 1: Abkür-|Erläuterung
+Row 2: zung|
+Row 3: |
+Row 4: LoE|Level of Evidence
+Row 5: LR|Lokalrezidiv
+Row 6: LUSI|Lung tumor screening and intervention trial
+Row 7: MASCC|Multinational Association of Supportive Care in Cancer
+Row 8: MIA|melanoma inhibitory activity
+Row 9: MRT|Magnetresonanztomographie
+Row 10: Nab|nanoparticle albumin bound
+Row 11: NCCN|National Comprehensive Cancer Network
+Row 12: NCCTG|North Central Cancer Treatment Group
+Row 13:
+
+=== Intervention Extract 25 (Intervention) ===
+d case-control studies)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: 1 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: 2 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: 3 (Oxford 2011)|Category
+
+=== Intervention Extract 26 (Intervention) ===
+itical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: 1 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: 2 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: 3 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13:
+
+=== Intervention Extract 27 (Intervention) ===
+ment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: 2 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: 3 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: 4 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control st
+
+=== Intervention Extract 28 (Intervention) ===
+tic effect
+Row 10: |
+Row 11: 3 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: 4 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: 5 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |
+
+=== Intervention Extract 29 (Intervention) ===
+dy)
+Row 15: 4 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: 5 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+Row 21: |
+Row 22: ⊕⊕⊕⊕|Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher, dass der
+Row 23: |wahre Effekt nahe bei dem Effektschätzer liegt.
+Row 24: |
+Row 25: ⊕⊕⊕⊝|Moderate Qualität nach GRADE = Wir haben mäßig viel Vertrauen
+
+=== Intervention Extract 30 (Intervention) ===
+⊕⊕
+Row 15: 
+Row 16: ⊕⊝
+Row 17: 
+Row 18: ⊝⊝
+Row 19: 
+Row 20: ⊝⊝
+Row 21:  Row 1: |Beschreibung
+Row 2: )|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: )|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: )|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention he
+
+=== Intervention Extract 31 (Intervention) ===
+opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: )|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: )|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |te
+
+=== Intervention Extract 32 (Intervention) ===
+is intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: )|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: )|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or hist
+
+=== Intervention Extract 33 (Intervention) ===
+servational study with dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: )|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: )|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasonin
+
+=== Intervention Extract 34 (Intervention) ===
+|ter than an individual study)
+Row 15: )|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: )|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+Row 21: |
+Row 22: |Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher, dass der
+Row 23: |wahre Effekt nahe bei dem Effektschätzer liegt.
+Row 24: |
+Row 25: |Moderate Qualität nach GRADE = Wir haben mäßig viel Vertrauen in den E
+
+=== Intervention Extract 35 (Intervention) ===
+bei Patienten|
+Row 3: |mit einer nicht-heilbaren Lungenkarzinomerkrankung integriert werden (z.B.|
+Row 4: |durch Beteiligung an interdisziplinäre Tumorkonferenzen oder durch einen pallia-|
+Row 5: ||
+Row 6: |tivmedizinischen Konsildienst).|
+Row 7: |Konsens|
+Row 8: || Row 1: Studie|Studienpopulation|Intervention/ Kontrolle|Ergebnisse
+Row 2: Badr, H., et|Fallzahl: N=39|Intervention(s):|Sign. Reduktion von De-
+Row 3: al., 2014|||pressiviät und Ängstlich-
+Row 4: |Setting: USA, single|Manual with six items:|
+Row 5: |||keit nach Wochen (gemes-
+Row 6: [607],|center, home based||
+Row 7: |care|Content: strategies
+
+=== Intervention Extract 36 (Intervention) ===
+kung integriert werden (z.B.|
+Row 4: |durch Beteiligung an interdisziplinäre Tumorkonferenzen oder durch einen pallia-|
+Row 5: ||
+Row 6: |tivmedizinischen Konsildienst).|
+Row 7: |Konsens|
+Row 8: || Row 1: Studie|Studienpopulation|Intervention/ Kontrolle|Ergebnisse
+Row 2: Badr, H., et|Fallzahl: N=39|Intervention(s):|Sign. Reduktion von De-
+Row 3: al., 2014|||pressiviät und Ängstlich-
+Row 4: |Setting: USA, single|Manual with six items:|
+Row 5: |||keit nach Wochen (gemes-
+Row 6: [607],|center, home based||
+Row 7: |care|Content: strategies for|sen mit (Patient Reported
+Row 8: ||balancing autonomy with|Outcome
+
+=== Intervention Extract 37 (Intervention) ===
+|12.35/14.84; SMD=-1.3;
+Row 17: ||6 weekly 60-minute tele-|
+Row 18: |NSCLC (Stage 3-4) (%):||<.0001>
+Row 19: ||phone counselling ses-|
+Row 20: |84||
+Row 21: ||sions with a trained inter-|
+Row 22: ||ventionist|
+Row 23: ||Kontrolle|
+Row 24: ||Usual palliative care|
+Row 25: Bakitas, M.|Fallzahl: N=161|Intervention(s):|Mittleres Überleben 14/8,5
+Row 26: et al., 2009|||mo
+Row 27: |Setting: USA, 2 sites|Advanced practice nurses|
+Row 28: [568],||with palliative care spe-|Gesamtüberleben
+Row 29: |Patientencharakteris-||
+Row 30: ||cialty training conducted|30,4/26,1 mo
+Row 31: |tika: 62% männlich, Al-||
+Row 32: ||
+
+=== Intervention Extract 38 (Intervention) ===
+ort|
+Row 43: |||
+Row 44: ||3) symptom management|
+Row 45: ||4) advanced care plan-|
+Row 46: ||ning and unfinished busi-|
+Row 47: ||ness|
+Row 48: ||Kontrolle| Row 1: Studie
+Row 2: Badr,
+Row 3: al., 20
+Row 4: [607],
+Row 5: 
+Row 6: Bakita
+Row 7: et al.,
+Row 8: [568],
+Row 9:  Row 1: e|Studienpopulation|Intervention/ Kontrolle|Ergebnisse
+Row 2: H., et|Fallzahl: N=39|Intervention(s):|Sign. Reduktion von De-
+Row 3: 014|||pressiviät und Ängstlich-
+Row 4: |Setting: USA, single|Manual with six items:|
+Row 5: |||keit nach Wochen (gemes-
+Row 6: ,|center, home based||
+Row 7: ||Content: strategies for|sen mit (Patient
+
+=== Intervention Extract 39 (Intervention) ===
+dvanced care plan-|
+Row 46: ||ning and unfinished busi-|
+Row 47: ||ness|
+Row 48: ||Kontrolle| Row 1: Studie
+Row 2: Badr,
+Row 3: al., 20
+Row 4: [607],
+Row 5: 
+Row 6: Bakita
+Row 7: et al.,
+Row 8: [568],
+Row 9:  Row 1: e|Studienpopulation|Intervention/ Kontrolle|Ergebnisse
+Row 2: H., et|Fallzahl: N=39|Intervention(s):|Sign. Reduktion von De-
+Row 3: 014|||pressiviät und Ängstlich-
+Row 4: |Setting: USA, single|Manual with six items:|
+Row 5: |||keit nach Wochen (gemes-
+Row 6: ,|center, home based||
+Row 7: ||Content: strategies for|sen mit (Patient Reported
+Row 8: |care||
+Row 9: ||balancing autonomy with|Outcome
+
+=== Intervention Extract 40 (Intervention) ===
+7: |||12.35/14.84; SMD=-1.3;
+Row 18: ||6 weekly 60-minute tele-|
+Row 19: |NSCLC (Stage 3-4) (%):||<.0001>
+Row 20: ||phone counselling ses-|
+Row 21: |84||
+Row 22: ||sions with a trained inter-|
+Row 23: ||ventionist|
+Row 24: ||Kontrolle|
+Row 25: ||Usual palliative care|
+Row 26: as, M.|Fallzahl: N=161|Intervention(s):|Mittleres Überleben 14/8,5
+Row 27: 2009|||mo
+Row 28: |Setting: USA, 2 sites|Advanced practice nurses|
+Row 29: ,||with palliative care spe-|Gesamtüberleben
+Row 30: |Patientencharakteris-||
+Row 31: ||cialty training conducted|30,4/26,1 mo
+Row 32: |tika: 62% männlich, Al-||
+Row 33: ||4 initial str
+
+=== Intervention Extract 41 (Intervention) ===
+1) problem solving|unvollständige outcome-
+Row 42: |lung: 34%|2) communication and|Daten
+Row 43: ||social support|
+Row 44: |||
+Row 45: ||3) symptom management|
+Row 46: ||4) advanced care plan-|
+Row 47: ||ning and unfinished busi-|
+Row 48: ||ness|
+Row 49: ||Kontrolle| Row 1: Studie|Studienpopulation|Intervention/ Kontrolle|Ergebnisse
+Row 2: ||Usual palliative care|
+Row 3: Temel, J.S.|Fallzahl: N=77|Intervention(s)|QoL(tFAC-L)
+Row 4: et al., 2010|||98,0/91,5/59/53,21/19
+Row 5: |Setting: USA, single|Early palliative care,|
+Row 6: [564],|center|monthly, with palliative|Gesamtmortalität
+Row 7: ||care team|
+Row
+
+=== Intervention Extract 42 (Intervention) ===
+cial support|
+Row 44: |||
+Row 45: ||3) symptom management|
+Row 46: ||4) advanced care plan-|
+Row 47: ||ning and unfinished busi-|
+Row 48: ||ness|
+Row 49: ||Kontrolle| Row 1: Studie|Studienpopulation|Intervention/ Kontrolle|Ergebnisse
+Row 2: ||Usual palliative care|
+Row 3: Temel, J.S.|Fallzahl: N=77|Intervention(s)|QoL(tFAC-L)
+Row 4: et al., 2010|||98,0/91,5/59/53,21/19
+Row 5: |Setting: USA, single|Early palliative care,|
+Row 6: [564],|center|monthly, with palliative|Gesamtmortalität
+Row 7: ||care team|
+Row 8: |Patientencharakteris-||12,9/22,9 %
+Row 9: |tika: 55% weiblich, Alter|routine oncology care|
+Row
+
+=== Intervention Extract 43 (Intervention) ===
+ine oncology care|
+Row 10: |||Biasrisiko:
+Row 11: |im Mittel: 64 Jahre, 95%||
+Row 12: ||Kontrolle|
+Row 13: |kaukasisch||
+Row 14: ||standard palliative care|
+Row 15: |ECOG 0 41%||
+Row 16: ||and routine oncology|
+Row 17: |ECOG 1 47%|care|
+Row 18: |Hirnmetastasen: 26%||
+Row 19: Zimmer-|Fallzahl: N=461|Intervention(s)|Kein sign. Unterschied in
+Row 20: mann, C. et|||der LQ
+Row 21: |Setting: Canada, single|Early palliative care inter-|
+Row 22: al., 2014|||
+Row 23: |center, 16 medical on-|vention with pc physician|weitere Studien notwendig
+Row 24: [609],|cologists, 24 clinics|and nurse|zur richtigen Patientenaus
+
+=== Intervention Extract 44 (Intervention) ===
+in
+Row 20: mann, C. et|||der LQ
+Row 21: |Setting: Canada, single|Early palliative care inter-|
+Row 22: al., 2014|||
+Row 23: |center, 16 medical on-|vention with pc physician|weitere Studien notwendig
+Row 24: [609],|cologists, 24 clinics|and nurse|zur richtigen Patientenaus-
+Row 25: |||wahl für die Intervention
+Row 26: |Patientencharakteris-|once monthly, more often|
+Row 27: |tika: 74% weiblich, Alter|necessary|Biasrisiko: keine komplette
+Row 28: |im Mittel: 68 Jahre, 85%||Verblindung möglich, nur
+Row 29: ||Content:|
+Row 30: |kaukasisch||ein Zentrum
+Row 31: ||Kontrolle|
+Row 32: |||
+Row 33: ||usual cancer
+
+=== Intervention Extract 45 (Treatment) ===
+n Respiratory Society
+ean Society of Medical Oncology
+kopischer Ultraschall
+uordeoxyglukose-Positronenem
+rtes exspiratorisches Volumen
+last growth factor receptor
+etastasen
+tis-C-Virus
+oxylin-Eosin-Färbung
+ienprogramm Onkologie | Lungenk
+ease-f
+Epide
+and T
+ns
+y
+missio
+karzino
+free surviv
+ermal Grow
+Treatment o
+onstomogra
+om | Langve
+val)
+wth Factor Recep
+of Cancer
+aphie
+ersion - 4.0 | April
+ptor)
+1.10 Abk
+Abkür
+zung
+HER2
+HIV
+HLM
+HPV
+HR
+HRQoL
+IARC
+IASLC
+IC
+ICD
+ICD
+IMRT
+IO
+IP
+IPD
+IQWiG
+ITT
+KHK
+LD
+LDCT
+LDH
+LK
+LL
+kürzun
+r-
+L
+G
+ngsverzeichnis
+Erläuterung
+Human Epidermal Growth Factor Rece
+Human Immundefizie
+
+=== Intervention Extract 46 (Treatment) ===
+R
+ORR
+OS
+kürzun
+r-
+C
+G
+ON
+C
+ngsverzeichnis
+Erläuterung
+Level of Evidence
+Lokalrezidiv
+Lung tumor screening and interventio
+Multinational Association of Supportiv
+melanoma inhibitory activity
+Magnetresonanztomographie
+nanoparticle albumin bound
+National Comprehensive Cancer Netw
+North Central Cancer Treatment Grou
+Dutch-Belgian Randomized Lung Canc
+Next generation sequencing
+National Institute for Health and Care
+National Institutes of Health
+Negative Predictive Value
+Non-Small-Cell Lung Cancer
+Neuron-specific enolase
+National Lung Screening Trial
+neurotropher Tyrosinkinaserezeptor
+Oligometastasierte Er
+
+=== Intervention Extract 47 (Treatment) ===
+er
+nzgrad
+ford 2009)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+© L
+Methodik 29
+Beschreibung
+) Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+appraisal, or based on physiology, bench research or “first principles”
+) Category - Does this intervention help? (Treatment Benefits): Systematic re-
+view of randomized trials or n-of-1 trials
+) Category - Does this intervention help? (Treatment Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow
+
+=== Intervention Extract 48 (Treatment) ===
+ion, Aetiology, Harm: Expert opinion without explicit critical
+appraisal, or based on physiology, bench research or “first principles”
+) Category - Does this intervention help? (Treatment Benefits): Systematic re-
+view of randomized trials or n-of-1 trials
+) Category - Does this intervention help? (Treatment Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow-up study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (
+
+=== Intervention Extract 49 (Treatment) ===
+inciples”
+) Category - Does this intervention help? (Treatment Benefits): Systematic re-
+view of randomized trials or n-of-1 trials
+) Category - Does this intervention help? (Treatment Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow-up study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Case-series,
+case-control studies, or historically controlled studies (a systematic review is
+generally
+
+=== Intervention Extract 50 (Treatment) ===
+Benefits): Randomized
+trial or observational study with dramatic effect
+) Category - Does this intervention help? (Treatment Benefits): Non-random-
+ized controlled cohort/follow-up study (a systematic review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Case-series,
+case-control studies, or historically controlled studies (a systematic review is
+generally better than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Mechanism-
+based reasoning
+Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher,
+
+=== Intervention Extract 51 (Treatment) ===
+review is generally bet-
+ter than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Case-series,
+case-control studies, or historically controlled studies (a systematic review is
+generally better than an individual study)
+) Category - Does this intervention help? (Treatment Benefits): Mechanism-
+based reasoning
+Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher, dass der
+wahre Effekt nahe bei dem Effektschätzer liegt.
+Moderate Qualität nach GRADE = Wir haben mäßig viel Vertrauen in den Ef-
+fektschätzer: Der wahre Effekt ist wahrscheinlich nahe bei dem Effekts
+
+=== Intervention Extract 52 (Treatment) ===
+sich durch Lokalthera-
+pien, vorwiegend Bestrahlung oder Operation, behandeln lassen [1220], [1221],
+[1222], [1223]. Ein derartiger Einsatz von ablativen Verfahren unter Fortführung der
+bisherigen molekular-zielgerichteten Systemtherapie hat in mehreren retrospektiven
+Studien zu einem Time-to-Next-Treatment Benefit (d.h. Hinauszögern des Systemthe-
+rapiewechsels) von ca. 5-10 Monate im Median geführt und ist stets von einem Wech-
+sel der Systemtherapie zu prüfen. Vorausssetzung für die Diagnose und Therapie ei-
+ner Oligoprogression ist eine adäquate Bildgebung, idealerweise mit PET/CT und
+Hirn-MRT.
+Na
+
+=== Intervention Extract 53 (Treatment) ===
+apie nach Versagen von anderen Zweitge-
+nerations-ALK-Inhibitoren erteilt wird. Real-world Daten aus dem Brigatinib Compas-
+sionate-Use Program zeigen allerdings dass Brigatinib eine klinisch relevante Wirk-
+samkeit bei vielen Patienten mit Lorlatinib-Versagen zeigt mit einer medianen Time-
+to-Next-Treatment von 7.5 Monaten [1258]. Da Brigatinib auch besser verträglich als
+die Chemotherapie, kann daher eine Therapieversuch mit Brigatinib nach Lorlatinib-
+Versagen bei Fällen, die zuvor kein Brigatinib hatten, erwogen werden.
+Ähnlich zu EGFR+ NSCLC kann auch bei ALK+ NSCLC zum Zeitpunkt des TKI-Versa-
+ge
+
+=== Intervention Extract 54 (Treatment) ===
+en, erwogen werden.
+Ähnlich zu EGFR+ NSCLC kann auch bei ALK+ NSCLC zum Zeitpunkt des TKI-Versa-
+gens eine an 1-2 Orten beschränkte Oligoprogression in ca. 50% der Fälle auftreten.
+Unter Anwendung von Lokaltherapien, vorwiegend Radiotherapie oder Chirurgie, be-
+trägt der Benefit in der Time-to-Next-Treatment (d.h. das Hinauszögern des Sys-
+temtherapiewechsels) im Median ca. 5-10 Monate [1221], [1259].
+8.6 Stadi
+EK
+EK
+Empfeh
+B/0
+Level of ium IV
+hlungsg
+f Eviden
+V (ohne Indikation zur definitiven Lokaltherapie) 360
+Therapie nach Versagen der zugelassenen ALK-Inhibitoren
+Konsensbasierte Empfehlung geprüft
+
+=== Intervention Extract 55 (Treatment) ===
+m NSCLC war das ORR (primärer Endpunkt) 72% (95% CI, 54-75) in der
+Erstlinie und 59% (95% CI, 80-136) nach Vorbehandlung mit Platin-basierter Chemo-
+therapie. Das PFS betrug 13.0 und 16.5 Monate, die intrakranielle Ansprechrate 70%
+bei Patienten mit messbaren ZNS-Metastasen. Die häufigsten Grad 3-4 treatment-rela-
+ted adverse events (TRAEs) waren Neutropenie (18%), arterielle Hypertonie (10%), Se-
+rum-CK Erhöhung (9%) und Lymphopenie (9%). Die Abbruchrate betrug 7%.
+Systemtherapie bei Patienten mit MET Exon14 skipping Mu-
+tation
+Evidenzbasierte Empfehlung geprüft 2025
+grad Patienten mit NSCLC Stadium I
+
+=== Intervention Extract 56 (Treatment) ===
+suchungen war eine cisplatinhaltige The-
+rapie einer platinfreien Strategie überlegen Wolf et al. 1987 [1399], Havemann et al.
+1987 [1368]. Eine Wirksamkeitsverstärkung durch Zugabe von Etoposid wurde auch
+in einer Studie von Jackson et al 1984 [1400] gesehen. In der Studie der North Central
+Cancer Treatment Group (NCCTG) [1401] führte die Addition von Etoposid zum ACO-
+Schema bei LD-Patienten zur Verbesserung der Prognose. Dieses ACO-E-Schema
+wurde in einer SWOG-Studie [1402] gegen das Alternieren von ACO und PE getestet,
+wobei sich eine geringe Verlängerung der medianen Überlebenszeit (16.5 vs 15.1
+M
+
+=== Intervention Extract 57 (Treatment) ===
+9;354:1837-1838. URL:
+492. North American Symptomatic Carotid Endarterectomy Trial C. Beneficial effect of carotid
+endarterectomy in symptomatic patients with high-grade carotid stenosis. N.Engl.J.Med.
+506. Elkin EB, Kim SH, Casper ES, Kissane DW, Schrag D. Desire for information and involvement in
+treatment decisions: elderly cancer patients' preferences and their physicians' perceptions.
+Journal of clinical oncology : official journal of the American Society of Clinical Oncology.
+520. Zachariae R, Pedersen CG, Jensen AB, Ehrnrooth E, Rossen PB, von der Maase H. Association
+of perceived physician comm
+
+=== Intervention Extract 58 (Treatment) ===
+Turkiewicz KL, Allen M. An evidence base for patient-centered can-
+cer care: a meta-analysis of studies of observed communication between cancer specialists
+and their patients. Patient Educ Couns. 2009;77:379-83. URL:
+567. Zolnierek KB, Dimatteo MR. Physician communication and patient adherence to treatment: a
+meta-analysis. Med Care. 2009;47:826-34. URL:
+cles/PMC2728700/
+579. Arnold EM, Artin KA, Person JL, Griffith DL. Consideration of hastening death among hospice
+patients and their families. J Pain Symptom Manage. 2004;27:523-32. URL:
+580. Kohlwes RJ, Koepsell TD, Rhodes LA, Pearlman RA. Physician
+
+=== Intervention Extract 59 (Treatment) ===
+ir families. J Pain Symptom Manage. 2004;27:523-32. URL:
+580. Kohlwes RJ, Koepsell TD, Rhodes LA, Pearlman RA. Physicians' responses to patients' requests
+for physician-assisted suicide. Arch Intern Med. 2001;161:657-63. URL:
+593. Nagasaki F, Flehinger BJ, Martini N. Complications of surgery in the treatment of carcinoma of
+the lung. Chest. 1982;82:25-29. URL:
+622. Okada M, Yoshikawa K, Hatta T, Tsubota N. Is segmentectomy with lymph node assessment
+an alternative to lobectomy for non-small cell lung cancer of 2 cm or smaller?.
+Ann.Thorac.Surg. 2001;71:956-960. URL:
+623. Date H, Andou A, Shimizu N. The
+
+=== Intervention Extract 60 (Treatment) ===
+cancer. Lung Cancer. 2002;36:1-6. URL:
+687. Perng RP, Wu MF, Lin SY, Chen YM, Lin JY, Whang-Peng J. A phase I feasibility and pharmaco-
+kinetic study of intrapleural paclitaxel in patients with malignant pleural effusions. Anticancer
+Drugs. 1997;8:565-573. URL:
+688. Scott WJ, Howington J, Movsas B. Treatment of stage II non-small cell lung cancer. Chest.
+Clin Oncol Vol 20, 2603-4 and 2604-5). J Clin Oncol. 2002;20:247-253. URL:
+(Comment to Marino, P, Cancer, Vol 76, p 593 - 601). Cancer. 1996;77:2413-2414. URL:
+Cancer Institute of Canada and intergroup trial JBR10 and a review of the literature. Lung
+C
+
+=== Intervention Extract 61 (Treatment) ===
+y 9730). J Clin Oncol. 2005;23:190-6. URL:
+med/15625373
+lung cancer: AVAPERL (MO22089). J Clin Oncol. 2013;31:3004-11. URL:
+med.ncbi.nlm.nih.gov/23835708/
+Osterlind, K, Lung Cancer Vol 19, p 99-100). Lung Cancer. 1998;19:141-151. URL:
+1387. Osterlind K, Hansen M, Hansen HH, Dombernowsky P, Rorth M. Treatment policy of surgery
+in small cell carcinoma of the lung: retrospective analysis of a series of 874 consecutive pa-
+tients. Thorax. 1985;40:272-277. URL:
+1388. Waddell TK, Shepherd FA. Should aggressive surgery ever be part of the management of
+small cell lung cancer?. Thorac.Surg.Clin. 2004;14:271-28
+
+=== Intervention Extract 62 (Treatment) ===
+of Programmed Cell Death
+Ligand1 Expression in Patients With Small Cell Lung Cancer: A Meta-Analysis. Front Oncol.
+doxorubicin, and etoposide: a non-cross-resistant schedule. J.Clin.Oncol. 1999;17:927-932.
+URL:
+brain radiotherapy--a phase III study of the European Organization for the Research and
+Treatment of Cancer Lung Cancer Cooperative Group. J.Clin.Oncol. 2000;18:3400-3408. URL:
+1506. Shaw P, Agarwal R. Pleurodesis for malignant pleural effusion. Cochrane-database-of-system-
+atic-reviews. 2004;(1): URL:
+1507. Shaw P, Agarwal R. Pleurodesis for malignant pleural effusion. Cochrane-database-of-sys
+
+=== Intervention Extract 63 (Treatment) ===
+ll-bore, tunneled pleural catheters. Respiration. 2004;71:559-566. URL:
+1537. Varricchio C. Clinical management of superior vena cava syndrome. Heart Lung.
+1553. George PJ, Clarke G, Tolfree S, Garrett CP, Hetzel MR. Changes in regional ventilation and per-
+fusion of the lung after endoscopic laser treatment. Thorax. 1990;45:248-253. URL:
+1554. Casey KR, Fairfax WR, Smith SJ, Dixon JA. Intratracheal fire ignited by the Nd-YAG laser during
+treatment of tracheal stenosis. Chest. 1983;84:295-296. URL:
+1555. Vanderschueren RG, Westermann CJ. Complications of endobronchial neodymium-Yag
+(Nd:Yag) laser appli
+
+=== Intervention Extract 64 (Treatment) ===
+Heart Lung.
+1553. George PJ, Clarke G, Tolfree S, Garrett CP, Hetzel MR. Changes in regional ventilation and per-
+fusion of the lung after endoscopic laser treatment. Thorax. 1990;45:248-253. URL:
+1554. Casey KR, Fairfax WR, Smith SJ, Dixon JA. Intratracheal fire ignited by the Nd-YAG laser during
+treatment of tracheal stenosis. Chest. 1983;84:295-296. URL:
+1555. Vanderschueren RG, Westermann CJ. Complications of endobronchial neodymium-Yag
+(Nd:Yag) laser application. Lung. 1990;168 Suppl:1089-1094. URL:
+1556. Freitag L, Chapman GA, Sielczak M, Ahmed A, Russin D. Laser smoke effect on the bronchial
+sy
+
+=== Intervention Extract 65 (Treatment) ===
+icone prostheses. Ann.Otol.Rhi-
+nol.Laryngol. 1998;107:149-154. URL:
+1616. Wilhelm K, Schild H, Duber C, Mitze M, Schlegel J, Lorenz J. [Stent implantation as a palliative
+therapeutic measure in stenosing tumors of central airways]. Rofo. 1996;164:496-501. URL:
+1617. Wilson GE, Walshaw MJ, Hind CR. Treatment of large airway obstruction in lung cancer using
+expandable metal stents inserted under direct vision via the fibreoptic bronchoscope. Tho-
+rax. 1996;51:248-252. URL:
+1618. Witt C, Dinges S, Schmidt B, Ewert R, Budach V, Baumann G. Temporary tracheobronchial
+stenting in malignant stenoses. Eur.J.Ca
+
+=== Intervention Extract 66 (Treatment) ===
+J
+Palliat Care. 2011;27:28-36. URL:
+1697. King SJ, Reid C, Forbes K, Hanks G. A systematic review of oxycodone in the management of
+cancer pain. Palliative Medicine. 2011;25:454-470. URL:
+med.ncbi.nlm.nih.gov/21708852/
+1698. Pigni A, Brunelli C, Caraceni A. The role of hydromorphone in cancer pain treatment: a sys-
+tematic review. Palliat Med. 2011;25:471-7. URL:
+med/21708853
+review of practices and effects. Annals of Oncology. 2011;22:1478-86. URL:
+1727. Lübbe A. S. KV. Konzepte onkologischer Rehabilitation. Therapiekonzepte Onkologie. 2003
+1728. Fialka-Moser V, Crevenna R, Korpan M, Quittan M. Cance
+
+=== Intervention Extract 67 (Treatment) ===
+KV. Konzepte onkologischer Rehabilitation. Therapiekonzepte Onkologie. 2003
+1728. Fialka-Moser V, Crevenna R, Korpan M, Quittan M. Cancer rehabilitation: particularly with as-
+pects on physical impairments. J.Rehabil.Med. 2003;35:153-162. URL:
+1729. Nazarian J. Cardiopulmonary rehabilitation after treatment for lung cancer. Curr.Treat Op-
+tions.Oncol. 2004;5:75-82. URL:
+1730. Spruit MA, Janssen PP, Willemsen SC, Hochstenbag MM, Wouters EF. Exercise capacity before
+and after an 8-week multidisciplinary inpatient rehabilitation program in lung cancer patients:
+a pilot study. Lung Cancer. 2006;52:257-260
+
+=== Intervention Extract 68 (Treatment) ===
+ECOG|Eastern Cooperative Oncology Group
+Row 11: ED|Extensive disease
+Row 12: EGFR|Epidermaler Wachstumsfaktor (engl. Epidermal Growth Factor Receptor)
+Row 13: EK|Expertenkonsens
+Row 14: EKG|Elektrokardiogramm
+Row 15: EMA|European Medicines Agency
+Row 16: EORTC|European Organisation for Research and Treatment of Cancer
+Row 17: EQ-5D|European Quality of Life 5 Dimensions
+Row 18: ERS|European Respiratory Society
+Row 19: ESMO|European Society of Medical Oncology
+Row 20: EUS|Endoskopischer Ultraschall
+Row 21: FDG-PET|18F-Fluordeoxyglukose-Positronenemissionstomographie
+Row 22: FEV|Forciertes exspiratorische
+
+=== Intervention Extract 69 (Treatment) ===
+Row 11: Epide
+Row 12: 
+Row 13: 
+Row 14: 
+Row 15: and T
+Row 16: ns
+Row 17: 
+Row 18: y
+Row 19: 
+Row 20: missio
+Row 21: 
+Row 22: 
+Row 23: 
+Row 24: 
+Row 25:  Row 1: 
+Row 2: 
+Row 3: free surviv
+Row 4: 
+Row 5: 
+Row 6: 
+Row 7: 
+Row 8: 
+Row 9: 
+Row 10: 
+Row 11: ermal Grow
+Row 12: 
+Row 13: 
+Row 14: 
+Row 15: Treatment o
+Row 16: 
+Row 17: 
+Row 18: 
+Row 19: 
+Row 20: onstomogra
+Row 21: 
+Row 22: 
+Row 23: 
+Row 24: 
+Row 25:  Row 1: 
+Row 2: 
+Row 3: val)
+Row 4: 
+Row 5: 
+Row 6: 
+Row 7: 
+Row 8: 
+Row 9: 
+Row 10: 
+Row 11: wth Factor Recep
+Row 12: 
+Row 13: 
+Row 14: 
+Row 15: of Cancer
+Row 16: 
+Row 17: 
+Row 18: 
+Row 19: 
+Row 20
+
+=== Intervention Extract 70 (Treatment) ===
+eening and intervention trial
+Row 7: MASCC|Multinational Association of Supportive Care in Cancer
+Row 8: MIA|melanoma inhibitory activity
+Row 9: MRT|Magnetresonanztomographie
+Row 10: Nab|nanoparticle albumin bound
+Row 11: NCCN|National Comprehensive Cancer Network
+Row 12: NCCTG|North Central Cancer Treatment Group
+Row 13: NELSON|Dutch-Belgian Randomized Lung Cancer Screening Trial
+Row 14: NGS|Next generation sequencing
+Row 15: NICE|National Institute for Health and Care Excellence
+Row 16: NIH|National Institutes of Health
+Row 17: NPV|Negative Predictive Value
+Row 18: NSCLC|Non-Small-Cell Lung Cancer
+Ro
+
+=== Intervention Extract 71 (Treatment) ===
+dence
+Row 5: |Lokalrezidiv
+Row 6: |Lung tumor screening and interventio
+Row 7: |Multinational Association of Supportiv
+Row 8: |melanoma inhibitory activity
+Row 9: |Magnetresonanztomographie
+Row 10: |nanoparticle albumin bound
+Row 11: |National Comprehensive Cancer Netw
+Row 12: |North Central Cancer Treatment Grou
+Row 13: |Dutch-Belgian Randomized Lung Canc
+Row 14: |Next generation sequencing
+Row 15: |National Institute for Health and Care
+Row 16: |National Institutes of Health
+Row 17: |Negative Predictive Value
+Row 18: |Non-Small-Cell Lung Cancer
+Row 19: |Neuron-specific enolase
+Row 20: |National Lung
+
+=== Intervention Extract 72 (Treatment) ===
+es)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: 1 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: 2 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: 3 (Oxford 2011)|Category - Does this inte
+
+=== Intervention Extract 73 (Treatment) ===
+isal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: 1 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: 2 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: 3 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter t
+
+=== Intervention Extract 74 (Treatment) ===
+ematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: 2 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: 3 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: 4 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or histori
+
+=== Intervention Extract 75 (Treatment) ===
+Row 11: 3 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: 4 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: 5 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+R
+
+=== Intervention Extract 76 (Treatment) ===
+d 2011)|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: 5 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+Row 21: |
+Row 22: ⊕⊕⊕⊕|Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher, dass der
+Row 23: |wahre Effekt nahe bei dem Effektschätzer liegt.
+Row 24: |
+Row 25: ⊕⊕⊕⊝|Moderate Qualität nach GRADE = Wir haben mäßig viel Vertrauen in den Ef-
+Row 26
+
+=== Intervention Extract 77 (Treatment) ===
+⊕⊝
+Row 17: 
+Row 18: ⊝⊝
+Row 19: 
+Row 20: ⊝⊝
+Row 21:  Row 1: |Beschreibung
+Row 2: )|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: )|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: )|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention help? (Treatment Be
+
+=== Intervention Extract 78 (Treatment) ===
+licit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: )|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: )|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individ
+
+=== Intervention Extract 79 (Treatment) ===
+? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row 7: |
+Row 8: )|Category - Does this intervention help? (Treatment Benefits): Randomized
+Row 9: |trial or observational study with dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: )|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controll
+
+=== Intervention Extract 80 (Treatment) ===
+th dramatic effect
+Row 10: |
+Row 11: )|Category - Does this intervention help? (Treatment Benefits): Non-random-
+Row 12: |ized controlled cohort/follow-up study (a systematic review is generally bet-
+Row 13: |
+Row 14: |ter than an individual study)
+Row 15: )|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: )|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+Row 21: |
+Row 2
+
+=== Intervention Extract 81 (Treatment) ===
+dual study)
+Row 15: )|Category - Does this intervention help? (Treatment Benefits): Case-series,
+Row 16: |case-control studies, or historically controlled studies (a systematic review is
+Row 17: |
+Row 18: |generally better than an individual study)
+Row 19: )|Category - Does this intervention help? (Treatment Benefits): Mechanism-
+Row 20: |based reasoning
+Row 21: |
+Row 22: |Hohe Qualität der Evidenz nach GRADE = Wir sind sehr sicher, dass der
+Row 23: |wahre Effekt nahe bei dem Effektschätzer liegt.
+Row 24: |
+Row 25: |Moderate Qualität nach GRADE = Wir haben mäßig viel Vertrauen in den Ef-
+Row 26: |fekts
+
+=== Intervention Extract 82 (Drug) ===
+V (ohne Indikation zur definitiven Lokaltherapie) 375
+Systemtherapie bei Patienten mit HER2-Mutation
+Evidenzbasierte Empfehlung neu 2025
+grad Patienten mit NSCLC Stadium IV mit einer HER2 Mutation sollte nach Versagen
+mindestens einer Systemtherapie eine zielgerichtete Therapie mit dem Antikör-
+per-Drug Konjugat Trastuzumab deruxtecan angeboten werden. Starker Konsens 6.4 mg/kg Trastuzumab deruxtecan (T-DXd) alle 3 Wochen eine Ansprechrate von
+55%, eine mediane Ansprechdauer von 9,3 Monaten, ein medianes progressionsfreie Zulassungsstudie zu T-DXd für vorbehaldente Patienten (DESTINY-Lung02) i.v.
+
+=== Intervention Extract 83 (Drug) ===
+pie CHECKMATE 331 [1487] wurden insgesamt 569
+Patienten eingeschlossen und auf einen Therapiearm mit Nivolumab oder Topotecan
+bzw Amrubicin randomisiert. Der Unterschied im medianen Gesamtüberleben war
+nicht statistisch signifikant.
+Neue Therapieansätze - Bispezifische Antikörper und ADCs (antibody-drug-conju-
+gate)
+Auf dem ESMO 2023 wurden Daten zu Tarlatamab, einem bispezifischen T-cell enga-
+ger mit Bindung sowohl an DLL3 als auch an CD3 auf den T-Zellen, vorgestellt. Im
+Rahmen der Phase II DeLLphi-301-Studie wurden jeweils 88 Patienten, die zuvor min-
+destens 2 Therapielinien erhalten hatten,
+
+=== Intervention Extract 84 (Drug) ===
+Immuncheck-
+point-Inhibitor Therapie eine zielge-
+richtete Therapie mit einem KRAS In-
+hibitor (Adagrasib oder Sotorasib)
+angeboten werden.
+Patienten mit NSCLC Stadium IV mit
+einer HER2 Mutation sollte nach Ver-
+sagen mindestens einer Systemthe-
+rapie eine zielgerichtete Therapie
+mit dem Antikörper-Drug Konjugat
+Trastuzumab deruxtecan angeboten
+werden.
+In Anbetracht der Dynamik der Ent-
+wicklung neuer personalisierter The-
+rapieansätze sollte angestrebt wer-
+den dass jeder Patient mit NSCLC
+Stadium IV vor der Erstlinientherapie-
+entscheidung eine umfassende NGS-
+basierte Molekulardiagnostik erhält
+
+=== Intervention Extract 85 (Drug) ===
+erfügbar in DE|
+Row 8: |Starker Konsens|
+Row 9: || Row 1: 8.153|Evidenzbasierte Empfehlung|neu 2025
+Row 2: Empfehlungsgrad|Patienten mit NSCLC Stadium IV mit einer HER2 Mutation sollte nach Versagen|
+Row 3: A|mindestens einer Systemtherapie eine zielgerichtete Therapie mit dem Antikör-|
+Row 4: |per-Drug Konjugat Trastuzumab deruxtecan angeboten werden.|
+Row 5: Level of Evidence|[1303], [1304], [1305]|
+Row 6: 1||
+Row 7: ||
+Row 8: |Starker Konsens|
+Row 9: || Row 1: 8.153
+Row 2: Empfeh
+Row 3: A
+Row 4: Level of
+Row 5: 1
+Row 6: 
+Row 7:  Row 1: 3
+Row 2: hlungsg
+Row 3: 
+Row 4: f Eviden
+Row 5: 
+Row 6: 
+Ro
+
+=== Intervention Extract 86 (Drug) ===
+1: 3
+Row 2: hlungsg
+Row 3: 
+Row 4: f Eviden
+Row 5: 
+Row 6: 
+Row 7:  Row 1: |Evidenzbasierte Empfehlung|neu 2025
+Row 2: grad|Patienten mit NSCLC Stadium IV mit einer HER2 Mutation sollte nach Versagen|
+Row 3: |mindestens einer Systemtherapie eine zielgerichtete Therapie mit dem Antikör-|
+Row 4: |per-Drug Konjugat Trastuzumab deruxtecan angeboten werden.|
+Row 5: nce|[1303], [1304], [1305]|
+Row 6: ||
+Row 7: ||
+Row 8: |Starker Konsens|
+Row 9: || Row 1: 8.154|Konsensbasierte Empfehlung|modifiziert 2025
+Row 2: EK|In Anbetracht der Dynamik der Entwicklung neuer personalisierter Therapiean-|
+Row 3: |sätze
+
+=== Intervention Extract 87 (Drug) ===
+oder Sotorasib)|
+Row 27: ||
+Row 28: |angeboten werden.|
+Row 29: |8.152|neu 2024
+Row 30: |Patienten mit NSCLC Stadium IV mit|
+Row 31: |einer HER2 Mutation sollte nach Ver-|
+Row 32: ||
+Row 33: |sagen mindestens einer Systemthe-|
+Row 34: |rapie eine zielgerichtete Therapie|
+Row 35: |mit dem Antikörper-Drug Konjugat|
+Row 36: |Trastuzumab deruxtecan angeboten|
+Row 37: |werden.|
+Row 38: 8.146|8.153|modifiziert
+Row 39: ||2024
+Row 40: In Anbetracht der Dynamik der Entwick-|In Anbetracht der Dynamik der Ent-|
+Row 41: ||
+Row 42: lung neuer personalisierter Therapiean-|wicklung neuer personalisierter The-|
+R
+
+=== Intervention Extract 88 (Drug) ===
+bitor (Adagrasib oder Sotorasib)
+Row 23: |
+Row 24: |angeboten werden.
+Row 25: |8.152
+Row 26: |Patienten mit NSCLC Stadium IV mit
+Row 27: |einer HER2 Mutation sollte nach Ver-
+Row 28: |
+Row 29: |sagen mindestens einer Systemthe-
+Row 30: |rapie eine zielgerichtete Therapie
+Row 31: |mit dem Antikörper-Drug Konjugat
+Row 32: |Trastuzumab deruxtecan angeboten
+Row 33: |werden.
+Row 34: |8.153
+Row 35: |In Anbetracht der Dynamik der Ent-
+Row 36: |wicklung neuer personalisierter The-
+Row 37: |rapieansätze sollte angestrebt wer-
+Row 38: |den dass jeder Patient mit NSCLC
+Row 39: |Stadium IV vor der Erstlinient
+
+=== Intervention Extract 89 (Therapy) ===
+lisierungen wurde das System des Oxford Centre for Evidence-based
+Medicine in der Version von 2011 sowie zu einzelnen Fragen das GRADE-Systems
+(Grading of Recommendations Assessment, Development and Evaluation)
+e 4: Übersicht der verwendeten Evidenzgraduierungsysteme
+nzgrad Beschreibung
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of RCTs
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+dence Interval)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of cohort studies
+xford 2009) Therapy/P
+
+=== Intervention Extract 90 (Therapy) ===
+2011 sowie zu einzelnen Fragen das GRADE-Systems
+(Grading of Recommendations Assessment, Development and Evaluation)
+e 4: Übersicht der verwendeten Evidenzgraduierungsysteme
+nzgrad Beschreibung
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of RCTs
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+dence Interval)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of cohort studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % fo
+
+=== Intervention Extract 91 (Therapy) ===
+and Evaluation)
+e 4: Übersicht der verwendeten Evidenzgraduierungsysteme
+nzgrad Beschreibung
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of RCTs
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+dence Interval)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of cohort studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of ca
+
+=== Intervention Extract 92 (Therapy) ===
+) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of RCTs
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+dence Interval)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of cohort studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of case-control studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+ford 2
+
+=== Intervention Extract 93 (Therapy) ===
+y, Harm: Individual RCT (with narrow Confi-
+dence Interval)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of cohort studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of case-control studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+ford 2009) Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+and case-control studies)
+2.2 Grun
+Eviden
+5 (
+
+=== Intervention Extract 94 (Therapy) ===
+ystematic Review (with homogeneity)
+of cohort studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of case-control studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+ford 2009) Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+and case-control studies)
+2.2 Grun
+Eviden
+5 (Oxf
+1 (Oxf
+2 (Oxf
+3 (Oxf
+4 (Oxf
+5 (Oxf
+ndlagen der
+nzgrad
+ford 2009)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 201
+
+=== Intervention Extract 95 (Therapy) ===
+ention, Aetiology, Harm: Individual cohort study (including low
+quality RCT; e.g., <80 % follow-up)
+xford 2009) Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+of case-control studies
+xford 2009) Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+ford 2009) Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+and case-control studies)
+2.2 Grun
+Eviden
+5 (Oxf
+1 (Oxf
+2 (Oxf
+3 (Oxf
+4 (Oxf
+5 (Oxf
+ndlagen der
+nzgrad
+ford 2009)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+© L
+Methodik 29
+Beschreibung
+) Therapy/Prevention, Aetiology, Ha
+
+=== Intervention Extract 96 (Therapy) ===
+-Control Study
+ford 2009) Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+and case-control studies)
+2.2 Grun
+Eviden
+5 (Oxf
+1 (Oxf
+2 (Oxf
+3 (Oxf
+4 (Oxf
+5 (Oxf
+ndlagen der
+nzgrad
+ford 2009)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+ford 2011)
+© L
+Methodik 29
+Beschreibung
+) Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+appraisal, or based on physiology, bench research or “first principles”
+) Category - Does this intervention help? (Treatment Benefits): Systematic re-
+view of randomized trials or n-of-1 trials
+) Category - Does this intervention
+
+=== Intervention Extract 97 (Therapy) ===
+i B, Decook C, Haura E, Chellappan S. Nicotine inhibits apoptosis
+induced by chemotherapeutic drugs by up-regulating XIAP and survivin.
+Proc.Natl.Acad.Sci.U.S.A. 2006;103:6332-6337. URL:
+med/16601104
+79. Fox JL, Rosenzweig KE, Ostroff JS. The effect of smoking status on survival following radiation
+therapy for non-small cell lung cancer. Lung Cancer. 2004;44:287-293. URL:
+120. Korte JE, Brennan P, Henley SJ, Boffetta P. Dose-specific meta-analysis and sensitivity analysis
+of the relation between alcohol consumption and lung cancer risk. Am.J.Epidemiol.
+134. Hong WK, Benner SE, Lippman SM. Evolution o
+
+=== Intervention Extract 98 (Therapy) ===
+hebungsbögen, Kennzahlen und Checklisten im Überblick.
+2021; URL:
+Followed by Consolidation Chemotherapy in Locally Advanced Nonsquamous Non-Small-Cell
+Lung Cancer. J Clin Oncol. 2016;34(9):953-62. URL:
+med.ncbi.nlm.nih.gov/26811519/
+951. Ilonen I, Jones D. Initial extended resection or neoadjuvant therapy for T4 non-small cell lung
+cancer-What is the evidence?. Shanghai Chest. 2018;2: URL:
+med.ncbi.nlm.nih.gov/30498811/
+outcome. Ann Thorac Surg. 2012;94(6):1815-22. URL:
+med.ncbi.nlm.nih.gov/23103000/
+1000. Huber R, Reck M, Thomas M. Current status of and future strategies for multimodality treat-
+me
+
+=== Intervention Extract 99 (Therapy) ===
+stage III nonsmall cell lung cancer. Eur Respir J. 2013;42(4):1119-33.
+URL:
+lung cancer: exploratory subgroup analyses of the NVALT-11/DLCRG-02 phase-III study. Acta
+Oncol. 2019;58(10):1528-1531. URL:
+1013. Baker S, Dahele M, Lagerwaard F, Senan S. A critical review of recent developments in radio-
+therapy for non-small cell lung cancer. Radiat Oncol. 2016;11(1):115. URL:
+med.ncbi.nlm.nih.gov/27600665/
+1014. Jumeau R, Vilotte F, Durham A, Ozsahin E. Current landscape of palliative radiotherapy for
+non-small-cell lung cancer. Transl Lung Cancer Res. 2019;8(Suppl 2):S192-S201. URL:
+1015. Stevens R, Mac
+
+=== Intervention Extract 100 (Therapy) ===
+ddition to supportive care improves survival in advanced non-
+small-cell lung cancer: a systematic review and meta-analysis of individual patient data from
+16 randomized controlled trials. J Clin Oncol. 2008;26:4617-25. URL:
+1061. Kong FM, Ten HR, Eisbruch A, Lawrence TS. Non-small cell lung cancer therapy-related pulmo-
+nary toxicity: an update on radiation pneumonitis and fibrosis. Semin.Oncol. 2005;32:S42-
+S54. URL:
+1073. Chang DT, Zlotecki RA, Olivier KR. Re-examining the role of elective nodal irradiation: finding
+ways to maximize the therapeutic ratio. Am.J Clin Oncol. 2005;28:597-602. URL:
+107
+
+=== Intervention Extract 101 (Therapy) ===
+er?. Thorac.Surg.Clin. 2004;14:271-281. URL:
+1389. Wakeam E, Giuliani M, Leighl N, Finlayson S, Varghese T, Darling G. Indications for Adjuvant
+Mediastinal Radiotherapy in Surgically Resected Small Cell Lung Cancer. Ann Thorac Surg.
+1410. Perry MC, Herndon JE, Eaton WL, Green MR. Thoracic radiation therapy added to chemother-
+apy for small-cell lung cancer: an update of Cancer and Leukemia Group B Study 8083.
+J.Clin.Oncol. 1998;16:2466-2467. URL:
+chemotherapy and elective brain irradiation: a preliminary report. J Clin Oncol. 1984;2:1200-
+cancer (CONVERT): an open-label, phase 3, randomised, superior
+
+=== Intervention Extract 102 (Therapy) ===
+Golish JA, Ahmad M. Survival experience following
+Nd:YAG laser photoresection for primary bronchogenic carcinoma. Chest. 1988;94:939-944.
+URL:
+1559. Hetzel MR, Smith SG. Endoscopic palliation of tracheobronchial malignancies. Thorax.
+1583. 10 cm in diameter after complete remission by photodynamic therapy. Chest.
+1612. Vonk-Noordegraaf A, Postmus PE, Sutedja TG. Tracheobronchial stenting in the terminal care
+of cancer patients with central airways obstruction. Chest. 2001;120:1811-1814. URL:
+1613. Wassermann K, Eckel HE, Michel O, Muller RP. Emergency stenting of malignant obstruction
+of the upper a
+
+=== Intervention Extract 103 (Therapy) ===
+bstructive pulmonary disease A systematic review. Ann Am Thorac
+Soc. 2015;12(7):1079-92. URL:
+1669. Clemens KE, Klaschik E. Effect of hydromorphone on ventilation in palliative care patients
+with dyspnea. Support Care Cancer. 2008;16:93-9. URL:
+med/17929063
+1670. Clemens KE, Klaschik E. Symptomatic therapy of dyspnea with strong opioids and its effect
+on ventilation in palliative care patients. J Pain Symptom Manage. 2007;33:473-81. URL:
+1682. Booth S, Moffat C, Farquhar M, Higginson IJ, Burkin J. Developing a breathlessness interven-
+tion service for patients with palliative and supportive care need
+
+=== Intervention Extract 104 (Therapy) ===
+Row 9:  Row 1: 
+Row 2: 
+Row 3: 
+Row 4: 
+Row 5: 
+Row 6: 
+Row 7: eitsorganis
+Row 8: 
+Row 9:  Row 1: 
+Row 2: 
+Row 3: 
+Row 4: 
+Row 5: 
+Row 6: 
+Row 7: sation)
+Row 8: 
+Row 9:  Row 1: 
+Row 2: 
+Row 3: 
+Row 4: 
+Row 5: 
+Row 6: 
+Row 7: 
+Row 8: 
+Row 9:  Row 1: Evidenzgrad|Beschreibung
+Row 2: 1a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 3: |of RCTs
+Row 4: |
+Row 5: 1b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: 2a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review
+
+=== Intervention Extract 105 (Therapy) ===
+Row 5: 
+Row 6: 
+Row 7: sation)
+Row 8: 
+Row 9:  Row 1: 
+Row 2: 
+Row 3: 
+Row 4: 
+Row 5: 
+Row 6: 
+Row 7: 
+Row 8: 
+Row 9:  Row 1: Evidenzgrad|Beschreibung
+Row 2: 1a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 3: |of RCTs
+Row 4: |
+Row 5: 1b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: 2a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: 2b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Indivi
+
+=== Intervention Extract 106 (Therapy) ===
+videnzgrad|Beschreibung
+Row 2: 1a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 3: |of RCTs
+Row 4: |
+Row 5: 1b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: 2a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: 2b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: 3a (Oxford 2009)|Therapy/Preventi
+
+=== Intervention Extract 107 (Therapy) ===
+Ts
+Row 4: |
+Row 5: 1b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: 2a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: 2b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: 3a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: 3b (Oxford 2009)|Therapy/P
+
+=== Intervention Extract 108 (Therapy) ===
+rd 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: 2b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: 3a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: 3b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: 4 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+
+=== Intervention Extract 109 (Therapy) ===
+)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: 3a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: 3b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: 4 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Eviden
+Row 2: 1a (Ox
+Row 3: 
+Row 4: 1b (Ox
+Row 5: 
+Row 6: 2a (Ox
+Row 7: 
+Row 8: 2b (Ox
+Row
+
+=== Intervention Extract 110 (Therapy) ===
+ity RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: 3a (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: 3b (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: 4 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Eviden
+Row 2: 1a (Ox
+Row 3: 
+Row 4: 1b (Ox
+Row 5: 
+Row 6: 2a (Ox
+Row 7: 
+Row 8: 2b (Ox
+Row 9: 
+Row 10: 3a (Ox
+Row 11: 
+Row 12: 3b (Ox
+Row 13: 4 (Oxf
+Row 14:  Row 1: nzgrad|Beschreib
+
+=== Intervention Extract 111 (Therapy) ===
+Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Eviden
+Row 2: 1a (Ox
+Row 3: 
+Row 4: 1b (Ox
+Row 5: 
+Row 6: 2a (Ox
+Row 7: 
+Row 8: 2b (Ox
+Row 9: 
+Row 10: 3a (Ox
+Row 11: 
+Row 12: 3b (Ox
+Row 13: 4 (Oxf
+Row 14:  Row 1: nzgrad|Beschreibung
+Row 2: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 3: |of RCTs
+Row 4: |
+Row 5: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homo
+
+=== Intervention Extract 112 (Therapy) ===
+ow 3: 
+Row 4: 1b (Ox
+Row 5: 
+Row 6: 2a (Ox
+Row 7: 
+Row 8: 2b (Ox
+Row 9: 
+Row 10: 3a (Ox
+Row 11: 
+Row 12: 3b (Ox
+Row 13: 4 (Oxf
+Row 14:  Row 1: nzgrad|Beschreibung
+Row 2: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 3: |of RCTs
+Row 4: |
+Row 5: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohor
+
+=== Intervention Extract 113 (Therapy) ===
+xf
+Row 14:  Row 1: nzgrad|Beschreibung
+Row 2: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 3: |of RCTs
+Row 4: |
+Row 5: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: xford 2009)|Therapy/Prevention, Aetiol
+
+=== Intervention Extract 114 (Therapy) ===
+)
+Row 3: |of RCTs
+Row 4: |
+Row 5: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual RCT (with narrow Confi-
+Row 6: |dence Interval)
+Row 7: |
+Row 8: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention,
+
+=== Intervention Extract 115 (Therapy) ===
+Row 8: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 9: |of cohort studies
+Row 10: |
+Row 11: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: ford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |a
+
+=== Intervention Extract 116 (Therapy) ===
+xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual cohort study (including low
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: ford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Expert opi
+
+=== Intervention Extract 117 (Therapy) ===
+w
+Row 12: |quality RCT; e.g., <80 % follow-up)
+Row 13: |
+Row 14: xford 2009)|Therapy/Prevention, Aetiology, Harm: Systematic Review (with homogeneity)
+Row 15: |of case-control studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: ford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench resear
+
+=== Intervention Extract 118 (Therapy) ===
+l studies
+Row 16: |
+Row 17: xford 2009)|Therapy/Prevention, Aetiology, Harm: Individual Case-Control Study
+Row 18: ford 2009)|Therapy/Prevention, Aetiology, Harm: Case-series (and poor quality cohort
+Row 19: |and case-control studies)
+Row 20: | Row 1: Evidenzgrad|Beschreibung
+Row 2: 5 (Oxford 2009)|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: 1 (Oxford 2011)|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-o
+
+=== Intervention Extract 119 (Therapy) ===
+0: ⊕⊝⊝
+Row 21:  Row 1: nzgrad
+Row 2: ford 2009)
+Row 3: 
+Row 4: ford 2011)
+Row 5: 
+Row 6: ford 2011)
+Row 7: 
+Row 8: ford 2011)
+Row 9: 
+Row 10: ford 2011)
+Row 11: 
+Row 12: ford 2011)
+Row 13: 
+Row 14: ⊕⊕
+Row 15: 
+Row 16: ⊕⊝
+Row 17: 
+Row 18: ⊝⊝
+Row 19: 
+Row 20: ⊝⊝
+Row 21:  Row 1: |Beschreibung
+Row 2: )|Therapy/Prevention, Aetiology, Harm: Expert opinion without explicit critical
+Row 3: |appraisal, or based on physiology, bench research or “first principles”
+Row 4: |
+Row 5: )|Category - Does this intervention help? (Treatment Benefits): Systematic re-
+Row 6: |view of randomized trials or n-of-1 trials
+Row
+
+=== Intervention Extract 120 (Dose) ===
+Autoren dieses Unterkapitels Struktur, Textpassagen und Tabellen ihres eige-
+nen, durch mehrere Fachgesellschaften in 2023 konsentierten Positionspapiers zur
+Implementierung eines nationalen organisierten Programms in Deutschland zur Früh-
+erkennung von Lungenkrebs in Risikopopulationen mittels Low-dose-CT-Screening
+inklusive Management von abklärungsbedürftigen Screeningbefunden eingearbeitet,
+nachdem sie diese unter Einbeziehung der vorgenannten und neuer Evidenz sowie
+der Vorgaben der Lungenkrebs-Früherkennungs-Verordnung sorgfältig revidiert hat-
+ten [157].
+Optimierung von Nutzen, Risiken und
+
+=== Intervention Extract 121 (Dose) ===
+n 105
+Integration der Tabakentwöhnung
+Ein vor kurzem veröffentlichtes Positionspapier zur Implementierung der Tabakent-
+wöhnung in ein Lungenkrebs-Screeningprogramm bietet eine ausführliche Zusam-
+menfassung der hierzu vorliegenden Evidenz [226]. Rund 35–55% der Teilnehmer in
+den randomisierten Low-Dose-CT-Screeningstudien bzw. Pilotstudien waren aktive
+Raucher [227], [178], [228]. Ein Rauchstopp senkt ebenso wie ein Niedrigdosis-CT-
+Lungenkrebs-Screening-Programm die lungenkrebsbedingte Mortalität. Bereits eine
+einmalige therapeutische Intervention zur Tabakentwöhnung ist effektiv und redu-
+ziert
+
+=== Intervention Extract 122 (Dose) ===
+e in den Survivaldaten. Allerdings zeigte sich nach vier bis fünf Jahren ein kla-
+rer, signifikanter Unterschied in der Entdeckung und Diagnose von Zweittumoren.
+Diese können dann wieder teilweise kurativ behandelt werden. Vergleichbare Befunde
+gibt es auch aus den grossen Screening-Studien mit low-dose CT beim NSCLC Patien-
+ten in der Subgruppe mit anamestisch bekannten NSCLC (NLST, NELSON). Lungen-
+krebs-specific Survival war in beiden Studien signifikant günstiger in den gescreenten
+Randomisationsgruppen. Für die Bildgebung sind damit klare Daten für die Zukunft
+bei Patienten mit Lungentumoren
+
+=== Intervention Extract 123 (Dose) ===
+kamen zu dem Ergeb-
+nis, dass die Nachsorge mit kurzen Zeitintervallen im Vergleich zur rein
+Nachs
+sorge/
+/Verlauf/Follow-Up 483
+symptomorientierten Nachsorge keinen Überlebensvorteil erbrachte und nicht kosten-
+effektiv war. Diese Daten sind aber im Licht der Screening-Daten mit Rö Thorax und
+low-dose CT zu sehen. Viele Patienten mussten randomisiert werden um zu zeigen,
+dass der Röntgen-Thorax nicht die relevante Untersuchung für diese Fragestellung
+darstellt. Die Screening-Studien konnten dagegen für das Low-dose-CT die signifi-
+kante Effektivität dieser Untersuchungsmethode im randomisierten
+
+=== Intervention Extract 124 (Dose) ===
+tiv war. Diese Daten sind aber im Licht der Screening-Daten mit Rö Thorax und
+low-dose CT zu sehen. Viele Patienten mussten randomisiert werden um zu zeigen,
+dass der Röntgen-Thorax nicht die relevante Untersuchung für diese Fragestellung
+darstellt. Die Screening-Studien konnten dagegen für das Low-dose-CT die signifi-
+kante Effektivität dieser Untersuchungsmethode im randomisierten Vergleich darstel-
+len. Das gilt besonders für die besondere Risikogruppe NSCLC mit Vor-Lungenkarzi-
+nom
+Zum Screening sind bereits die ersten positiven Kosten-Nutzen Analysen durchge-
+führt worden (siehe: IQWIG Berich
+
+=== Intervention Extract 125 (Dose) ===
+hiede zwischen den einzelnen
+Gesundheitssystemen in den betroffenen Ländern zu berücksichtigen.
+16 Nachs
+sorge/
+/Verlauf/Follow-Up 489
+Forschungsbedarf
+Forschungsbedarf besteht insbesondere hinsichtlich folgender Fragestellungen:
+a. Nachsorgeintensität (Methoden), hier besonders Integration des Low-dose CT
+nach drei bzw. vier Jahren
+b. Nachsorgeintervalle nach lokal-ablativer Therapie (in den ersten drei Jahren)
+c. Kosteneffektivität verschiedener Nachsorgestrategien (nach Ausschluss von Unter-
+schieden beim 3-J-OS, 5-J-OS, DFS, Qol, Erfassung von Langzeittoxizitäten, jetzt be-
+sonders auch bei de
+
+=== Intervention Extract 126 (Dose) ===
+d survivin.
+Proc.Natl.Acad.Sci.U.S.A. 2006;103:6332-6337. URL:
+med/16601104
+79. Fox JL, Rosenzweig KE, Ostroff JS. The effect of smoking status on survival following radiation
+therapy for non-small cell lung cancer. Lung Cancer. 2004;44:287-293. URL:
+120. Korte JE, Brennan P, Henley SJ, Boffetta P. Dose-specific meta-analysis and sensitivity analysis
+of the relation between alcohol consumption and lung cancer risk. Am.J.Epidemiol.
+134. Hong WK, Benner SE, Lippman SM. Evolution of aerodigestive tract 13-cis-retinoid acid chemo-
+prevention: the MD Anderson experience Leukemia. Leukemia. 1994;8:S33-S
+
+=== Intervention Extract 127 (Dose) ===
+emo-
+prevention: the MD Anderson experience Leukemia. Leukemia. 1994;8:S33-S37. URL:
+who find it difficult to quit. Eur Respir J. 2015;46(1):61-79. URL:
+med.ncbi.nlm.nih.gov/25882805/
+148. Piñeiro B, Simmons V, Palmer A, Correa J, Brandon T. Smoking cessation interventions within
+the context of Low-Dose Computed Tomography lung cancer screening: A systematic review.
+Lung Cancer. 2016;98:91-98. URL:
+161. van den Bergh KA, Essink-Bot ML, Borsboom GJ, Scholten ET, van Klaveren RJ, de Koning HJ.
+Long-term effects of lung cancer computed tomography screening on health-related quality
+of life: the NELSO
+
+=== Intervention Extract 128 (Dose) ===
+ted quality
+of life: the NELSON trial. Eur Respir J. 2011;38:154-61. URL:
+162. van de Wiel JC, Wang Y, Xu DM, van der Zaag-Loonen HJ, van der Jagt EJ, van Klaveren RJ, et
+al. Neglectable benefit of searching for incidental findings in the Dutch-Belgian lung cancer
+screening trial (NELSON) using low-dose multidetector CT. Eur Radiol. 2007;17:1474-82. URL:
+material mark the development of lung cancer in symptomatic chronic smokers. J Clin Oncol.
+268. Zhang R, Shao F, Wu X, Ying K. Value of quantitative analysis of circulating cell free DNA as a
+screening tool for lung cancer: a meta-analysis. Lung C
+

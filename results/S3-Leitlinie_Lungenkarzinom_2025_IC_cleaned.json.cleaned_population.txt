@@ -1,0 +1,493 @@
+=== Population Extract 1 (Population) ===
+neffektivität
+von jährlichen Niedrigdosis-CT-Lungenkrebs-Screening-Programmen nachweisen, u. a.
+für Deutschland, Großbritannien, Kanada und den USA [210], [211], [212], [213],
+Zu den Programmkomponenten, die die Kosteneffektivität beeinflussen, gehören die
+Methode zur Auswahl der in Frage kommenden Population, die Teilnahmerate, das
+Intervall zwischen den Screeningrunden, die Methode des Lungenrundherdmanage-
+ments, der Ansatz für die klinische Aufarbeitung der Niedrigdosis-CT-Befunde sowie
+die Integration einer Rauchstopp-Intervention bzw. eines zertifizierten Rauchfreipro-
+gramms [215].
+Stand Implemen
+
+=== Population Extract 2 (Population) ===
+ügbar sind, wird die Programmevaluierung längerfristig
+auch eine Analyse der Wirksamkeit im Hinblick auf ihre tatsächlichen Auswirkungen
+auf die Lungenkrebs-bedingte Mortalität oder auch Überdiagnostik, ermöglichen.
+Letztere Analysen erfordern allerdings eine langzeitliche Nachbeobachtung der Ziel-
+population (d. h. aller deutschen Männer und Frauen, die im Prinzip für eine Lungen-
+krebsvorsorgeuntersuchung in Frage gekommen wären) im Hinblick auf das Auftreten
+(Inzidenz) von Lungenkrebs, sowie die Gesamtmortalität und Todesursachen. Die
+Auswirkung einer regelmäßigen Screening-Teilnahme auf die Lungenkr
+
+=== Population Extract 3 (Population) ===
+(e) errechnet werden ([385] Evi-
+denzlevel 2b; [386], [387], [381], [380].
+Extern validierte Online-Wahrscheinlichkeits-Rechenmodelle können bei der initialen
+Beurteilung der Malignität eines pulmonalen Rundherdes helfen (Evidenzlevel 3). Bei
+der klinischen Anwendung der Modelle ist es wichtig, die Population zu verstehen,
+aus der das jeweilige Modell abgeleitet wurde. Das Mayo-Clinic Modell wurde ur-
+sprünglich in einer Kohorte aus den 1980er Jahren entwickelt. Patienten mit einer
+Lungenkarzinom-Vorgeschichte sowie Patienten mit einem weniger als 5 Jahre zurück-
+liegenden extrathorakaler Malignom-Erkra
+
+=== Population Extract 4 (Population) ===
+n einer Kohorte von 106 Patienten mit PET/CT-Diagnostik, wodurch die AUC
+um 13% von 0.79 auf 0.92 gesteigert werden konnte. [383], [381]. Das Brock-Modell
+ist das einzige multivariate Modell, das Fälle mit mehreren Rundherden berücksich-
+tigt. Es wurde ursprünglich in einer Lungenkarzinom-Screening Population entwickelt
+und hat unter allen validierten Modellen die höchste AUC für Patienten mit einem ho-
+hen Lungenkarzinom-Risiko. [384]; Evidenzlevel 3 [381].
+Hintergrundtext für die Empfehlungen 6.39 bis 6.45:
+Verlaufskontrolle von Lungenrundherden
+Daten zur Malignitätsbeurteilung kleiner Lungenrundherde
+
+=== Population Extract 5 (Population) ===
+-Wahrscheinlichkeit von 9,7 %;
+bei einer VDT von 400–600 Tagen betrug die 2-Jahres-Lungenkrebs-Wahrscheinlich-
+keit 4,1%. Damit war in beiden Populationen das Lungenkrebsrisiko signifikant höher
+als in einer Vergleichspopulation ohne Lungenrundherd (0,4%) und höher als in der
+untersuchten Screening-Population insgesamt (1,3%). [390] Evidenzlevel 2+ [381] Die-
+selbe Studie zeigte, dass das 2-Jahres-Lungenkrebsrisiko bei einer VDT > 600 Tage
+mit 0,8 % nicht signifikant höher war als bei Probanden ohne Lungenrundherd. [390])
+Evidenzlevel 2+ [381] Die zitierte Evidenz für die Bewertung der VDT und die Dauer
+
+=== Population Extract 6 (Population) ===
+4 Zyklen neoadjuvante Chemotherapie mit oder ohne Dur-
+valumab, um dann nach kompletter Resektion eine 1-jährige Erhaltungsphase mit
+Durvalumab/Placebo anzuschließen. Patienten mit zu erwartender Pneumonektomie
+konnten nicht eingeschlossen werden. Das Event-freie Überleben in der modifizierten
+ITT Population, die Patienten mit EGFR und ALK Mutationen ausschloss (N=740), war
+im Durvalumab Arm signifikant verbessert (Hazard Ratio 0,69; 36-Monats EFS 60,1%
+3 Stadi
+ium I/
+/II 222
+vs 47,9%). Auch die Rate an komplettem pathologischen Ansprechen war im Durvalu-
+mab-Arm deutlich höher (17,2% versus 4,3%) [722
+
+=== Population Extract 7 (Population) ===
+OS (durch den Investigator beurteilt). Der PD-L1 Sta-
+tus war kein Einschlusskriterium und wurde auch nicht stratifiziert. Stratifizierungs-
+merkmale waren das Geschlecht der Raucherstatus der Allgemeinzustand nach ECOG
+sowie das eingesetzte Chemotherapie-Regime. Der primäre Endpunkt PFS in der ITT
+Population war signifikant positiv für die Chemo-Immuntherapie mit einem PFS von
+7,6 Monaten (versus 5,2 Monaten im Chemotherapie-Arm); HR 0,60, P<0.0001. In der
+Subgruppenanalyse waren alle stratifizierten Patientencharakteristika ebenfalls signifi-
+kant in Bezug auf ein besseres PFS unter Chemoimmuntherapie
+
+=== Population Extract 8 (Population) ===
+eristika ebenfalls signifi-
+kant in Bezug auf ein besseres PFS unter Chemoimmuntherapie. Lediglich die Patien-
+tengruppe mit Lebermetastasen zeigte mit einer HR von 0,77 keine Signifikanz (PFS
+unter PP 4,0 Monate vs 4.4 Monate unter APP). Im co-primären Endpunkt Gesamtüber-
+leben konnte für die ITT Population jedoch keine Signifikanz erreicht werden. Hier
+zeigte sich ein medianes Überleben von 18,1 Monaten unter der 3-fach-Therapie ver-
+sus 13,6 Monaten unter Chemotherapie (HR 0,81, P = 0,0797). In der Subgruppenana-
+lyse der stratifizierten Merkmale zeigte sich für das Gesamtüberleben lediglich die
+Gru
+
+=== Population Extract 9 (Population) ===
+on; PD-L1 negativ waren etwa 52 %. Das Ansprechen lag in
+der Gesamtgruppe bei 49,2 % für die Kombinationstherapie; bei 31,9 % für den CnP
+Arm. Das PFS lag im CnP-Arm bei 5,5 Monaten, im Chemo-Immuntherapie-Arm bei 7
+Monaten (HR 0,64; P<0.0001). Auch der andere co-primäre Endpunkt OS war für die
+EDT Population signifikant positiv mit einer HR von 0,79 (P = 0.033). Das mediane Ge-
+samtüberleben lag im CnP Arm bei 13,9 Monaten, im CnP+Atezolizumab-Arm bei
+18,6 Monaten. Das PFS war für alle drei unterschiedenen PD-L1 Gruppen (hoch/nied-
+rig/ negativ) signifikant besser für die Dreifach-Therapie mit jeweilig
+
+=== Population Extract 10 (Population) ===
+bei 13,9 Monaten, im CnP+Atezolizumab-Arm bei
+18,6 Monaten. Das PFS war für alle drei unterschiedenen PD-L1 Gruppen (hoch/nied-
+rig/ negativ) signifikant besser für die Dreifach-Therapie mit jeweiligen hazard ratios
+von 0,41, 0,61 und 0,72. Im Gesamtüberleben konnte jedoch im Gegensatz zur Ge-
+samt-Population in keiner der drei PD-L1 Gruppen eine Signifikanz erreicht werden.
+Die CTC Grad 3-5 Toxizität (behandlungsbedingt) lag im Kontrollarm bei 60,7 %, im
+Chemo-Immuntherapie-Arm bei 74,9 %. Dabei verstarben im CnP+ Atezolizumab-Arm
+acht Patienten (1,7 %), im CnP Arm ein Patient (0,4 %). Unerwünschte Neb
+
+=== Population Extract 11 (Population) ===
+A:
+Carboplatin+Paclitaxel+Atezolizumab, Arm B: Carboplatin+Paclitaxel+Bevacizu-
+mab+Atezolizumab, Arm C: Carboplatin+Paclitaxel+Bevacizumab (sog. „Sandler-
+Schema“). Stratifikationsmerkmale waren das Geschlecht der PD-L1 Status sowie Le-
+bermetastasen. Co-primäre Endpunkte waren das PFS in der ITT Population, das PFS in
+einer molekularen Subgruppe (Expression der Gene PD-L1, CXCL9 und Interferon-g
+(Teff-high)) sowie das Gesamtüberleben der ITT Population. Das statistische Design
+sah vor, zunächst Arm B versus Arm C zu testen. Falls hier das Gesamtüberleben sig-
+nifikant positiv ist, dann auch Arm A ver
+
+=== Population Extract 12 (Population) ===
+andler-
+Schema“). Stratifikationsmerkmale waren das Geschlecht der PD-L1 Status sowie Le-
+bermetastasen. Co-primäre Endpunkte waren das PFS in der ITT Population, das PFS in
+einer molekularen Subgruppe (Expression der Gene PD-L1, CXCL9 und Interferon-g
+(Teff-high)) sowie das Gesamtüberleben der ITT Population. Das statistische Design
+sah vor, zunächst Arm B versus Arm C zu testen. Falls hier das Gesamtüberleben sig-
+nifikant positiv ist, dann auch Arm A versus am C auszuwerten. Das PFS war signifi-
+kant positiv für die 4-fach Kombination im Vergleich zum Sandler Schema (Arm C).
+Das mediane PFS lag bei 8
+
+=== Population Extract 13 (Population) ===
+stratifiziert. Es konnten auch Patienten
+in den Stadien IIIB und IIIC eingeschlossen werden, wenn diese für eine definitive Ra-
+diochemotherapie nicht in Betracht kamen. EGFR-Mutationen sowie Translokationen
+im ALK und ROS1 Gen mussten vorher ausgeschlossen sein. Der primäre Endpunkt OS
+in der ITT Population war signifikant positiv für die Chemo-Immuntherapie mit einem
+mOS von 21,9 Monaten (versus 13 Monaten im Chemotherapie-Arm); HR 0,71,
+P=0.014. Das PFS war ebenfalls signifikant besser im Chemo-CEM Arm mit 8,2 Mona-
+ten (versus 5 Monaten im Chemotherapie Arm); HR 0,56, P<0.0001. In der stratifizier-
+
+=== Population Extract 14 (Population) ===
+ndomisiert in einen Arm A mit Cemiplimab Monotherapie
+oder in den Arm B mit einer Standardchemotherapie. Ein Crossover von Chemothera-
+pie zu Cempilimab war bei Progress erlaubt. Co-primäre Endpunkte waren das PFS
+und OS nach Beurteilung durch ein unabhängiges Review Komitee. In der Intent to
+treat Population fanden sich aber auch 56 Patienten, die in einem validierten Retest
+einen PD-L1 Status <50% aufwiesen und 91 Patienten bei denen der PD-L1 Status un-
+klar war, da eine validierte Retestung nicht möglich war. Die gesichert PD-L1 ≥50%
+Gruppe bestand aus 563 Patienten, die gezielt ausgewertet wurden.
+
+=== Population Extract 15 (Population) ===
+ation Placebo/Docetaxel
+verglichen. Die Nintedanib-Dosis betrug 200 mg zweimal täglich an den Tagen 2 bis
+21 eines 3-wöchentlichen Behandlungszyklus mit Docetaxel.
+In dieser Studie war das PFS zugunsten der Kombination mit Nintedanib signifikant
+verbessert (medianes PFS +0.7 Monate, HR 0.79, in der Population der Patienten mit
+einem Adenokarzinom: median 4,2 vs. 2,8 Monate, HR 0,84)) [1140].
+Bei vergleichbarer Überlebenszeit in der ITT fand sich eine signifikante Verlängerung
+der Überlebenszeit bei Patienten mit einem Adenokarzinom (Mediane Überlebenszeit:
+12.6 versus 10,3 Monate, HR 0.83). Zusätzlich z
+
+=== Population Extract 16 (Population) ===
+eschlossen und auf Ate-
+zolizumab 1200 mg i.v. alle 3 Wochen und Docetaxel 75 mg/m2 i.v. alle 3 Wochen
+randomisiert. Das statistische Design wurde im Laufe der Studie geändert und die An-
+zahl der rekrutierten Patienten von 850 auf 1225 erhöht. Der primäre Endpunkt war
+die Überlebenszeit in der ITT Population (850 Patienten) bzw. der TC1/2/3 oder IC
+1/2/3 Population. Das mediane Überleben in der ITT-Population betrug mit Atezolizu-
+mab 13,8 gegenüber 9,6 Monaten für Docetaxel (HR 0,73, p= 0,0003), bzw. 15,7 vs.
+10,3 Monate in der TC1/2/3 oder IC 1/2/3 Subgruppe. Somit wurden die koprimären
+Endpunkte err
+
+=== Population Extract 17 (Population) ===
+en und Docetaxel 75 mg/m2 i.v. alle 3 Wochen
+randomisiert. Das statistische Design wurde im Laufe der Studie geändert und die An-
+zahl der rekrutierten Patienten von 850 auf 1225 erhöht. Der primäre Endpunkt war
+die Überlebenszeit in der ITT Population (850 Patienten) bzw. der TC1/2/3 oder IC
+1/2/3 Population. Das mediane Überleben in der ITT-Population betrug mit Atezolizu-
+mab 13,8 gegenüber 9,6 Monaten für Docetaxel (HR 0,73, p= 0,0003), bzw. 15,7 vs.
+10,3 Monate in der TC1/2/3 oder IC 1/2/3 Subgruppe. Somit wurden die koprimären
+Endpunkte erreicht. In der Chemotherapiegruppe erhielten 17 % der Patie
+
+=== Population Extract 18 (Population) ===
+randomisiert. Das statistische Design wurde im Laufe der Studie geändert und die An-
+zahl der rekrutierten Patienten von 850 auf 1225 erhöht. Der primäre Endpunkt war
+die Überlebenszeit in der ITT Population (850 Patienten) bzw. der TC1/2/3 oder IC
+1/2/3 Population. Das mediane Überleben in der ITT-Population betrug mit Atezolizu-
+mab 13,8 gegenüber 9,6 Monaten für Docetaxel (HR 0,73, p= 0,0003), bzw. 15,7 vs.
+10,3 Monate in der TC1/2/3 oder IC 1/2/3 Subgruppe. Somit wurden die koprimären
+Endpunkte erreicht. In der Chemotherapiegruppe erhielten 17 % der Patienten nach-
+folgend eine Immuntherapie, in der
+
+=== Population Extract 19 (Population) ===
+alyse dreier randomisierter Studien (KEYNOTE-010, -024 und -
+042) verglich Pembrolizumab mit Chemotherapie und legte dabei den Schwerpunkt
+auf Patienten > 75 Jahre [1056]. Es zeigte sich, dass Pembrolizumab auch in dieser
+Altersgruppe das Gesamtüberleben gegenüber Chemotherapie verlängerte (Gesamt-
+population PD-L1 >1, HR=0,76, PD-L1 >50% HR 0,41) mit einer 1 Jahres OS, die ver-
+gleichbar war mit jüngeren Patienten dieser Studien. Auch am Nebenwirkungsprofil
+einschließlich der immun-bedingten Nebenwirkungen gab es keinen Unterschied zu
+der jüngeren Altersgruppe.
+Auch in der Checkmate 153 Studie, die Niv
+
+=== Population Extract 20 (Population) ===
+Vorteil von E19 vs. E 21 Mutationen beobachtet
+(EGFR Exon 19 del: HR 0,60 (95% CI 0,44 – 0,83); L8585R: HR 0,63 (95% CI 0,44-
+0,90)). Die Subgruppe der Patienten mit einer ZNS Metastasierung bei Einschluss in
+die Studie hatte einen PFS Vorteil mit einer HR von 0,47 (95% CI 0,33-0,66), so dass
+diese Population einen besonderen Benefit von der Kombinationstherapie haben
+könnte. OS Daten für die Gesamtstudie sind noch unreif, die 2. OS- Interimsanalyse
+zeigte eine HR von 0,75 (95% KI: 0,57-0,97 p=0,0280). Das PFS 2 war mit einer HR
+von 0,7 (95% CI 0,52-0,93, p=0,0132) statistisch signifikant verbessert. Ei
+
+=== Population Extract 21 (Population) ===
+01). Der Vorteil für Selpercatinib ge-
+genüber dem Kontrollarm betrug für die ORR 84% CI 76-90) vs. 65% (95% CI, 54-75).
+Die HR für die Zeit bis zur Progression im ZNS betrug 0.28 (95% CI, 0.12-0.68). Die
+Ergebnisse zur Überlegenheit von Selpercatinib waren in der intention-to-treat-pemb-
+rolizumab Population vergleichbar der Gesamtpopulation. Das Nebenwirkungsspekt-
+rum entsprach dem bereits bekannten (s.o.).
+Der RET-Inhibitor Pralsetinib zeigte in einer Phase-I/II-Studie vergleichbare Ergebnisse
+[1292], [1293], [1294], [1295], [1296]. Bei 281 Patienten mit fortgeschrittenem RET-
+Fusions-positivem NSCL
+
+=== Population Extract 22 (Patients) ===
+. Respir.Care Clin.N.Am. 2003;9:51-76. URL:
+338. Toloza EM, Harpole L, McCrory DC. Noninvasive staging of non-small cell lung cancer: a re-
+view of the current evidence. Chest. 2003;123:137S-146S. URL:
+339. Spira A, Ettinger DS. Multidisciplinary management of lung cancer. N Engl J Med.
+Analysis in Patients with Non-Small Cell Lung Cancer Systematic Review and Meta-Analysis.
+Ann Am Thorac Soc. 2018;15(10):1205-1216. URL:
+med.ncbi.nlm.nih.gov/30011388/
+352. Layfield L, Pearson L, Walker B, White S, Schmidt R. Diagnostic Accuracy of Fine-Needle Aspi-
+ration Cytology for Discrimination of Squamous Cell C
+
+=== Population Extract 23 (Patients) ===
+5:828-
+491. Kelion AD, Banning AP. Is simple clinical assessment adequate for cardiac risk stratification
+before elective non-cardiac surgery?. Lancet. 1999;354:1837-1838. URL:
+492. North American Symptomatic Carotid Endarterectomy Trial C. Beneficial effect of carotid
+endarterectomy in symptomatic patients with high-grade carotid stenosis. N.Engl.J.Med.
+506. Elkin EB, Kim SH, Casper ES, Kissane DW, Schrag D. Desire for information and involvement in
+treatment decisions: elderly cancer patients' preferences and their physicians' perceptions.
+Journal of clinical oncology : official journal of the Ameri
+
+=== Population Extract 24 (Patients) ===
+rican Symptomatic Carotid Endarterectomy Trial C. Beneficial effect of carotid
+endarterectomy in symptomatic patients with high-grade carotid stenosis. N.Engl.J.Med.
+506. Elkin EB, Kim SH, Casper ES, Kissane DW, Schrag D. Desire for information and involvement in
+treatment decisions: elderly cancer patients' preferences and their physicians' perceptions.
+Journal of clinical oncology : official journal of the American Society of Clinical Oncology.
+520. Zachariae R, Pedersen CG, Jensen AB, Ehrnrooth E, Rossen PB, von der Maase H. Association
+of perceived physician communication style with patient satisf
+
+=== Population Extract 25 (Patients) ===
+ated
+self-efficacy, and perceived control over the disease. Br J Cancer. 2003;88:658-65. URL:
+521. Fogarty L, Curbow B, Wingard J, McDonnell K, Somerfield M. Can 40 seconds of compassion
+reduce patient anxiety?. J Clin Oncol. 1999;17(1):371-9. URL:
+534. Baile WF, Beale EA. Giving bad news to cancer patients: matching process and content. J Clin
+Oncol. 2001;19:2575-7. URL:
+535. Baile WF, De Panfilis L, Tanzi S, Moroni M, Walters R, Biasco G. Using sociodrama and psycho-
+drama to teach communication in end-of-life care. J Palliat Med. 2012;15:1006-10. URL:
+536. Baile WF, Walters R. Applying sociodramati
+
+=== Population Extract 26 (Patients) ===
+fe care. J Palliat Med. 2012;15:1006-10. URL:
+536. Baile WF, Walters R. Applying sociodramatic methods in teaching transition to palliative care. J
+Pain Symptom Manage. 2013;45:606-19. URL:
+med/22889858
+537. Evans WG, Tulsky JA, Back AL, Arnold RM. Communication at times of transitions: how to help
+patients cope with loss and re-define hope. Cancer J. 2006;12:417-24. URL:
+538. Maguire P, Pitceathly C. Key communication skills and how to acquire them. BMJ.
+550. Baile WF, Buckman R, Lenzi R, Glober G, Beale EA, Kudelka AP. SPIKES-A six-step protocol for
+delivering bad news: application to the patient wi
+
+=== Population Extract 27 (Patients) ===
+ad news: application to the patient with cancer. Oncologist. 2000;5:302-311. URL:
+551. Back AL, Arnold RM, Baile WF, Tulsky JA, Fryer-Edwards K. Approaching difficult communica-
+tion tasks in oncology. CA Cancer J Clin. 2005;55:164-77. URL:
+552. Turnbull G, al e. Psychosocial Health Care for Cancer Patients and Their Families. 2010
+553. Gasper M, Weber M. Kommunikation in der Palliativmedizin. Z Palliativmed. 2010;11:167-
+566. Venetis MK, Robinson JD, Turkiewicz KL, Allen M. An evidence base for patient-centered can-
+cer care: a meta-analysis of studies of observed communication between cancer special
+
+=== Population Extract 28 (Patients) ===
+lies. 2010
+553. Gasper M, Weber M. Kommunikation in der Palliativmedizin. Z Palliativmed. 2010;11:167-
+566. Venetis MK, Robinson JD, Turkiewicz KL, Allen M. An evidence base for patient-centered can-
+cer care: a meta-analysis of studies of observed communication between cancer specialists
+and their patients. Patient Educ Couns. 2009;77:379-83. URL:
+567. Zolnierek KB, Dimatteo MR. Physician communication and patient adherence to treatment: a
+meta-analysis. Med Care. 2009;47:826-34. URL:
+cles/PMC2728700/
+579. Arnold EM, Artin KA, Person JL, Griffith DL. Consideration of hastening death among hospice
+pat
+
+=== Population Extract 29 (Patients) ===
+nts. Patient Educ Couns. 2009;77:379-83. URL:
+567. Zolnierek KB, Dimatteo MR. Physician communication and patient adherence to treatment: a
+meta-analysis. Med Care. 2009;47:826-34. URL:
+cles/PMC2728700/
+579. Arnold EM, Artin KA, Person JL, Griffith DL. Consideration of hastening death among hospice
+patients and their families. J Pain Symptom Manage. 2004;27:523-32. URL:
+580. Kohlwes RJ, Koepsell TD, Rhodes LA, Pearlman RA. Physicians' responses to patients' requests
+for physician-assisted suicide. Arch Intern Med. 2001;161:657-63. URL:
+593. Nagasaki F, Flehinger BJ, Martini N. Complications of surgery
+
+=== Population Extract 30 (Patients) ===
+s. Med Care. 2009;47:826-34. URL:
+cles/PMC2728700/
+579. Arnold EM, Artin KA, Person JL, Griffith DL. Consideration of hastening death among hospice
+patients and their families. J Pain Symptom Manage. 2004;27:523-32. URL:
+580. Kohlwes RJ, Koepsell TD, Rhodes LA, Pearlman RA. Physicians' responses to patients' requests
+for physician-assisted suicide. Arch Intern Med. 2001;161:657-63. URL:
+593. Nagasaki F, Flehinger BJ, Martini N. Complications of surgery in the treatment of carcinoma of
+the lung. Chest. 1982;82:25-29. URL:
+622. Okada M, Yoshikawa K, Hatta T, Tsubota N. Is segmentectomy with lymph node a
+
+=== Population Extract 31 (Patients) ===
+s segmentectomy with lymph node assessment
+an alternative to lobectomy for non-small cell lung cancer of 2 cm or smaller?.
+Ann.Thorac.Surg. 2001;71:956-960. URL:
+623. Date H, Andou A, Shimizu N. The value of limited resection for "clinical" stage I peripheral
+non-small cell lung cancer in poor-risk patients: comparison of limited resection and lobec-
+tomy by a computer-assisted matched study. Tumori. 1994;80:422-426. URL:
+634. Haasbeek C, Lagerwaard F, Slotman B, Senan S. Outcomes of stereotactic ablative radiother-
+apy for centrally located early-stage lung cancer. J Thorac Oncol. 2011;6(12):2036-43.
+
+=== Population Extract 32 (Patients) ===
+lung cancer. J Thorac Oncol. 2011;6(12):2036-43. URL:
+radiotherapy: results from propensity score analysis. Lung Cancer. 2015;87(3):283-9. URL:
+647. Ezer N, Veluswamy R, Mhango G, Rosenzweig K, Powell C, Wisnivesky J. Outcomes after Stere-
+otactic Body Radiotherapy versus Limited Resection in Older Patients with Early-Stage Lung
+Cancer. J Thorac Oncol. 2015;10(8):1201-6. URL:
+med.ncbi.nlm.nih.gov/26200275/
+648. Fernandez F, Crabtree T, Liu J, Meyers B. Sublobar resection versus definitive radiation in pa-
+tients with stage IA non-small cell lung cancer. Ann Thorac Surg. 2012;94(2):354-60; discus-
+sion
+
+=== Population Extract 33 (Patients) ===
+, Huang ZF, Wang SY, Yang XN, Ou W. A randomized trial of systematic nodal dissection
+in resectable non-small cell lung cancer. Lung Cancer. 2002;36:1-6. URL:
+687. Perng RP, Wu MF, Lin SY, Chen YM, Lin JY, Whang-Peng J. A phase I feasibility and pharmaco-
+kinetic study of intrapleural paclitaxel in patients with malignant pleural effusions. Anticancer
+Drugs. 1997;8:565-573. URL:
+688. Scott WJ, Howington J, Movsas B. Treatment of stage II non-small cell lung cancer. Chest.
+Clin Oncol Vol 20, 2603-4 and 2604-5). J Clin Oncol. 2002;20:247-253. URL:
+(Comment to Marino, P, Cancer, Vol 76, p 593 - 601). Can
+
+=== Population Extract 34 (Patients) ===
+385-394. URL:
+766. Buderi S, Shackcloth M, Woolley S. Does induction chemoradiotherapy increase survival in pa-
+tients with Pancoast tumour?. Interact Cardiovasc Thorac Surg. 2016;23(5):821-825. URL:
+of the TNM classification for lung cancer. J Thorac Oncol. 2007;2(7):603-12. URL:
+Cancer in Elderly Patients Compared With Younger Patients Who Participated in US National
+Cancer Institute Cooperative Group Studies. J Clin Oncol. 2017;35(25):2885-2892. URL:
+cancer. Ann Surg Oncol. 2014;21(8):2546-54. URL:
+med.ncbi.nlm.nih.gov/24633668/
+cancer: a multicentre phase II trial. Lancet Oncol. 2009;10(8):785-93.
+
+=== Population Extract 35 (Patients) ===
+ackcloth M, Woolley S. Does induction chemoradiotherapy increase survival in pa-
+tients with Pancoast tumour?. Interact Cardiovasc Thorac Surg. 2016;23(5):821-825. URL:
+of the TNM classification for lung cancer. J Thorac Oncol. 2007;2(7):603-12. URL:
+Cancer in Elderly Patients Compared With Younger Patients Who Participated in US National
+Cancer Institute Cooperative Group Studies. J Clin Oncol. 2017;35(25):2885-2892. URL:
+cancer. Ann Surg Oncol. 2014;21(8):2546-54. URL:
+med.ncbi.nlm.nih.gov/24633668/
+cancer: a multicentre phase II trial. Lancet Oncol. 2009;10(8):785-93. URL:
+med.ncbi.nlm.nih.gov/1960
+
+=== Population Extract 36 (Patients) ===
+.ncbi.nlm.nih.gov/27600665/
+1014. Jumeau R, Vilotte F, Durham A, Ozsahin E. Current landscape of palliative radiotherapy for
+non-small-cell lung cancer. Transl Lung Cancer Res. 2019;8(Suppl 2):S192-S201. URL:
+1015. Stevens R, Macbeth F, Toy E, Coles B, Lester J. Palliative radiotherapy regimens for patients
+with thoracic symptoms from non-small cell lung cancer. Cochrane Database Syst Rev.
+Metastatic Non-Small-Cell Lung Cancer: The Phase III POSEIDON Study. J Clin Oncol.
+1049. D'Addario G, Pintilie M, Leighl NB, Feld R, Cerny T, Shepherd FA. Platinum-based versus non-
+platinum-based chemotherapy in ad
+
+=== Population Extract 37 (Patients) ===
+chemotherapy and elective brain irradiation: a preliminary report. J Clin Oncol. 1984;2:1200-
+cancer (CONVERT): an open-label, phase 3, randomised, superiority trial. Lancet Oncol.
+1457. Cai H, Zhang H, Jiang Y. Prognostic and Clinicopathological Value of Programmed Cell Death
+Ligand1 Expression in Patients With Small Cell Lung Cancer: A Meta-Analysis. Front Oncol.
+doxorubicin, and etoposide: a non-cross-resistant schedule. J.Clin.Oncol. 1999;17:927-932.
+URL:
+brain radiotherapy--a phase III study of the European Organization for the Research and
+Treatment of Cancer Lung Cancer Cooperative Group. J.Cli
+
+=== Population Extract 38 (Patients) ===
+988;94:939-944.
+URL:
+1559. Hetzel MR, Smith SG. Endoscopic palliation of tracheobronchial malignancies. Thorax.
+1583. 10 cm in diameter after complete remission by photodynamic therapy. Chest.
+1612. Vonk-Noordegraaf A, Postmus PE, Sutedja TG. Tracheobronchial stenting in the terminal care
+of cancer patients with central airways obstruction. Chest. 2001;120:1811-1814. URL:
+1613. Wassermann K, Eckel HE, Michel O, Muller RP. Emergency stenting of malignant obstruction
+of the upper airways: long-term follow-up with two types of silicone prostheses. J.Thorac.Car-
+diovasc.Surg. 1996;112:859-866. URL:
+1614.
+
+=== Population Extract 39 (Patients) ===
+ary tracheobronchial
+stenting in malignant stenoses. Eur.J.Cancer. 1997;33:204-208. URL:
+management of dyspnea. Am J Respir Crit Care Med. 2012;185:435-52. URL:
+1641. Allard P, Lamontagne C, Bernard P, Tremblay C. How effective are supplementary doses of
+opioids for dyspnea in terminally ill cancer patients? A randomized continuous sequential
+clinical trial. J Pain Symptom Manage. 1999;17:256-65. URL:
+med.ncbi.nlm.nih.gov/10203878/
+1642. Bruera E, Sala R, Spruyt O, Palmer JL, Zhang T, Willey J. Nebulized versus subcutaneous mor-
+phine for patients with cancer dyspnea: a preliminary study. Journal of P
+
+=== Population Extract 40 (Patients) ===
+doses of
+opioids for dyspnea in terminally ill cancer patients? A randomized continuous sequential
+clinical trial. J Pain Symptom Manage. 1999;17:256-65. URL:
+med.ncbi.nlm.nih.gov/10203878/
+1642. Bruera E, Sala R, Spruyt O, Palmer JL, Zhang T, Willey J. Nebulized versus subcutaneous mor-
+phine for patients with cancer dyspnea: a preliminary study. Journal of Pain & Symptom Man-
+agement. 2005;29:613-8. URL:
+1643. Charles MA, Reymond L, Israel F. Relief of incident dyspnea in palliative cancer patients: A pi-
+lot, randomized, controlled trial comparing nebulized hydromorphone, systemic hydromor-
+phone,
+
+=== Population Extract 41 (Patients) ===
+ruera E, Sala R, Spruyt O, Palmer JL, Zhang T, Willey J. Nebulized versus subcutaneous mor-
+phine for patients with cancer dyspnea: a preliminary study. Journal of Pain & Symptom Man-
+agement. 2005;29:613-8. URL:
+1643. Charles MA, Reymond L, Israel F. Relief of incident dyspnea in palliative cancer patients: A pi-
+lot, randomized, controlled trial comparing nebulized hydromorphone, systemic hydromor-
+phone, and nebulized saline. Journal of Pain and Symptom Management. 2008;36:29-38.
+URL:
+1654. Pinna R, Campus G, Cumbo E, Mura I, Milia E. Xerostomia induced by radiotherapy: an over-
+view of the physiop
+
+=== Population Extract 42 (Patients) ===
+Ekström M, Nilsson F, Abernethy A, Currow D. Effects of opioids on breathlessness and exer-
+cise capacity in chronic obstructive pulmonary disease A systematic review. Ann Am Thorac
+Soc. 2015;12(7):1079-92. URL:
+1669. Clemens KE, Klaschik E. Effect of hydromorphone on ventilation in palliative care patients
+with dyspnea. Support Care Cancer. 2008;16:93-9. URL:
+med/17929063
+1670. Clemens KE, Klaschik E. Symptomatic therapy of dyspnea with strong opioids and its effect
+on ventilation in palliative care patients. J Pain Symptom Manage. 2007;33:473-81. URL:
+1682. Booth S, Moffat C, Farquhar M, Higginson I
+
+=== Population Extract 43 (Patients) ===
+URL:
+1669. Clemens KE, Klaschik E. Effect of hydromorphone on ventilation in palliative care patients
+with dyspnea. Support Care Cancer. 2008;16:93-9. URL:
+med/17929063
+1670. Clemens KE, Klaschik E. Symptomatic therapy of dyspnea with strong opioids and its effect
+on ventilation in palliative care patients. J Pain Symptom Manage. 2007;33:473-81. URL:
+1682. Booth S, Moffat C, Farquhar M, Higginson IJ, Burkin J. Developing a breathlessness interven-
+tion service for patients with palliative and supportive care needs, irrespective of diagnosis. J
+Palliat Care. 2011;27:28-36. URL:
+1697. King SJ, Reid C,
+
+=== Population Extract 44 (Patients) ===
+1670. Clemens KE, Klaschik E. Symptomatic therapy of dyspnea with strong opioids and its effect
+on ventilation in palliative care patients. J Pain Symptom Manage. 2007;33:473-81. URL:
+1682. Booth S, Moffat C, Farquhar M, Higginson IJ, Burkin J. Developing a breathlessness interven-
+tion service for patients with palliative and supportive care needs, irrespective of diagnosis. J
+Palliat Care. 2011;27:28-36. URL:
+1697. King SJ, Reid C, Forbes K, Hanks G. A systematic review of oxycodone in the management of
+cancer pain. Palliative Medicine. 2011;25:454-470. URL:
+med.ncbi.nlm.nih.gov/21708852/
+1698. Pign
+
+=== Population Extract 45 (Patients) ===
+ian J. Cardiopulmonary rehabilitation after treatment for lung cancer. Curr.Treat Op-
+tions.Oncol. 2004;5:75-82. URL:
+1730. Spruit MA, Janssen PP, Willemsen SC, Hochstenbag MM, Wouters EF. Exercise capacity before
+and after an 8-week multidisciplinary inpatient rehabilitation program in lung cancer patients:
+a pilot study. Lung Cancer. 2006;52:257-260. URL:
+med/16529844
+1731. Thompson E, Sola I, Subirana M. Non-invasive interventions for improving well-being and
+quality of life in patients with lung cancer--a systematic review of the evidence. Lung Cancer.
+(IFCT-0302): a multicentre, open-label, rando
+
+=== Population Extract 46 (Patients) ===
+F. Exercise capacity before
+and after an 8-week multidisciplinary inpatient rehabilitation program in lung cancer patients:
+a pilot study. Lung Cancer. 2006;52:257-260. URL:
+med/16529844
+1731. Thompson E, Sola I, Subirana M. Non-invasive interventions for improving well-being and
+quality of life in patients with lung cancer--a systematic review of the evidence. Lung Cancer.
+(IFCT-0302): a multicentre, open-label, randomised, phase 3 trial. Lancet Oncol. Row 1: |Die Medizin unterliegt einem fortwährenden Entwicklungsprozess, sodass alle|
+Row 2: |Angaben, insbesondere zu diagnostischen und therapeutisch
+
