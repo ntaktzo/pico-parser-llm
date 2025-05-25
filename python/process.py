@@ -36,9 +36,25 @@ class PDFProcessor:
         # Extract country from folder structure
         self.country = self.extract_country_from_path()
 
+        # Extract source type 
+        self.source_type = self.extract_source_type_from_path()
+
         print("--------------------------------------------")
+        print(f"Source type for '{self.pdf_path}': {self.source_type}")
         print(f"Submission year for '{self.pdf_path}': {self.created_date}")
         print(f"Country for '{self.pdf_path}': {self.country}")
+
+    # Modify python/process.py - PDFProcessor class
+    def extract_source_type_from_path(self):
+        """Identifies whether this is an HTA submission or clinical guideline."""
+        path_parts = self.pdf_path.lower().split(os.sep)
+        
+        if "hta submission" in self.pdf_path.lower() or "hta submissions" in self.pdf_path.lower():
+            return "hta_submission"
+        elif "clinical guideline" in self.pdf_path.lower() or "clinical guidelines" in self.pdf_path.lower():
+            return "clinical_guideline"
+        else:
+            return "unknown"
 
     def extract_country_from_path(self):
         """Extracts the country code from the parent directory name."""
@@ -388,14 +404,15 @@ class PDFProcessor:
     def extract_preliminary_chunks(self):
         """
         Main function that:
-          1. Extracts text and identifies headings from each page (skipping footnotes, boilerplate, etc.).
-          2. Stores headings per page in self.page_headings_map.
-          3. Extracts tables, tries to detect table titles, and inserts them as separate chunks.
-          4. Returns a dictionary:
-               {
-                 "doc_id": self.doc_id,
-                 "chunks": [ { "heading": ..., "text": ..., "start_page": ..., "end_page": ...}, ... ]
-               }
+        1. Extracts text and identifies headings from each page (skipping footnotes, boilerplate, etc.).
+        2. Stores headings per page in self.page_headings_map.
+        3. Extracts tables, tries to detect table titles, and inserts them as separate chunks.
+        4. Returns a dictionary:
+                {
+                    "doc_id": self.doc_id,
+                    "chunks": [ { "heading": ..., "text": ..., "start_page": ..., "end_page": ...}, ... ]
+                }
+        Enhanced with better error handling for problematic PDFs.
         """
         try:
             with pdfplumber.open(self.pdf_path) as pdf:
@@ -403,57 +420,84 @@ class PDFProcessor:
                 num_pages = len(pdf.pages)
                 normed_line_pages = {}
                 pages_with_lines = []
+                problematic_pages = 0
+                total_pages_processed = 0
 
                 # Pass 1: gather potential headings and normal lines, handling columns
                 for i, page in enumerate(pdf.pages, start=1):
-                    # First detect headings using font information
-                    line_objs = self.detect_headings_by_font(page)
-                    
-                    # Create a mapping of heading text to heading status
-                    likely_headings = {}
-                    for lo in line_objs:
-                        likely_headings[lo["text"]] = lo.get("likely_heading", False)
-                    
-                    # Extract text column by column
-                    column_texts = self.extract_text_by_columns(page)
-                    
-                    # Track all lines with their page numbers for boilerplate detection
-                    all_lines = []
-                    
-                    # Process each column
-                    for col_idx, column_text in enumerate(column_texts):
-                        # Split column text into lines
-                        col_lines = column_text.split('\n')
+                    try:
+                        # First detect headings using font information
+                        line_objs = self.detect_headings_by_font(page)
                         
-                        # Process each line for headings and content
-                        for line in col_lines:
-                            if not line.strip():
-                                continue
+                        # Create a mapping of heading text to heading status
+                        likely_headings = {}
+                        for lo in line_objs:
+                            likely_headings[lo["text"]] = lo.get("likely_heading", False)
+                        
+                        # Extract text column by column
+                        column_texts = self.extract_text_by_columns(page)
+                        
+                        # Track all lines with their page numbers for boilerplate detection
+                        all_lines = []
+                        
+                        # Process each column
+                        for col_idx, column_text in enumerate(column_texts):
+                            # Split column text into lines
+                            col_lines = column_text.split('\n')
+                            
+                            # Process each line for headings and content
+                            for line in col_lines:
+                                if not line.strip():
+                                    continue
+                                    
+                                # Create a simple line object
+                                line_obj = {
+                                    "text": line.strip(),
+                                    "likely_heading": False
+                                }
                                 
-                            # Create a simple line object
-                            line_obj = {
-                                "text": line.strip(),
-                                "likely_heading": False
-                            }
+                                # Check if this line matches any of our detected headings
+                                for heading_text, is_heading in likely_headings.items():
+                                    if heading_text in line and is_heading:
+                                        line_obj["likely_heading"] = True
+                                        break
+                                
+                                all_lines.append(line_obj)
                             
-                            # Check if this line matches any of our detected headings
-                            for heading_text, is_heading in likely_headings.items():
-                                if heading_text in line and is_heading:
-                                    line_obj["likely_heading"] = True
-                                    break
-                            
-                            all_lines.append(line_obj)
+                        pages_with_lines.append((i, all_lines))
+                        total_pages_processed += 1
                         
-                    pages_with_lines.append((i, all_lines))
+                        # Identify potential boilerplate lines
+                        unique_normed = set()
+                        for lo in all_lines:
+                            norm = self.advanced_normalize(lo["text"])
+                            if norm:
+                                unique_normed.add(norm)
+                        for n in unique_normed:
+                            normed_line_pages.setdefault(n, set()).add(i)
                     
-                    # Identify potential boilerplate lines
-                    unique_normed = set()
-                    for lo in all_lines:
-                        norm = self.advanced_normalize(lo["text"])
-                        if norm:
-                            unique_normed.add(norm)
-                    for n in unique_normed:
-                        normed_line_pages.setdefault(n, set()).add(i)
+                    except ValueError as page_err:
+                        # Check specifically for negative width/height error
+                        if "negative width or height" in str(page_err):
+                            print(f"Warning: Skipping page {i} due to layout issues")
+                            problematic_pages += 1
+                            continue
+                        else:
+                            raise page_err
+                    except Exception as page_err:
+                        print(f"Warning: Error processing page {i}: {page_err}")
+                        problematic_pages += 1
+                        continue
+
+                # If too many pages were problematic, switch to fallback method
+                if problematic_pages > 0 and (total_pages_processed == 0 or problematic_pages / num_pages > 0.2):
+                    print(f"Too many problematic pages ({problematic_pages}/{num_pages}). Switching to fallback method.")
+                    return self.extract_using_fallback()
+
+                # If we couldn't extract any content, try the fallback method
+                if not pages_with_lines:
+                    print(f"No content extracted from {self.pdf_path}. Switching to fallback method.")
+                    return self.extract_using_fallback()
 
                 # Determine boilerplate lines
                 boilerplate_normed = set()
@@ -551,13 +595,134 @@ class PDFProcessor:
                 return {
                     "doc_id": self.doc_id,
                     "created_date": self.created_date,
-                    "country:": self.country,
+                    "country": self.country,
+                    "source_type": self.source_type,
                     "chunks": chunks
                 }
 
         except Exception as e:
             print(f"Error reading {self.pdf_path}: {e}")
-            return {"doc_id": self.doc_id, "created_date": self.created_date, "chunks": []}
+            # Try fallback method if primary extraction fails
+            return self.extract_using_fallback()
+
+
+    def extract_using_fallback(self):
+        """
+        Fallback method for problematic PDFs that can't be processed normally.
+        Uses PyPDF2 for more reliable text extraction when pdfplumber fails.
+        """
+        try:
+            import PyPDF2
+            
+            print(f"Using fallback extraction for {self.pdf_path}")
+            
+            # Create a basic document structure
+            doc_structure = {
+                "doc_id": self.doc_id,
+                "created_date": self.created_date,
+                "country": self.country,
+                "source_type": self.source_type,
+                "chunks": []
+            }
+            
+            # Open with PyPDF2 as a more robust alternative
+            with open(self.pdf_path, 'rb') as file:
+                reader = PyPDF2.PdfReader(file)
+                
+                print(f"PDF has {len(reader.pages)} pages")
+                
+                # Extract text page by page
+                current_chunk_text = []
+                current_heading = "Introduction"
+                start_page = 1
+                
+                # Process each page
+                for page_num, page in enumerate(reader.pages, 1):
+                    try:
+                        text = page.extract_text()
+                        
+                        # Skip empty pages
+                        if not text or not text.strip():
+                            continue
+                        
+                        # Check for potential section headings
+                        lines = text.split('\n')
+                        potential_heading = None
+                        
+                        for line in lines[:5]:  # Look at first few lines for potential headings
+                            clean_line = line.strip()
+                            if not clean_line:
+                                continue
+                                
+                            # Simple heuristic for headings: short lines that are capitalized or numbered
+                            if (len(clean_line.split()) <= 7 and 
+                                (clean_line.isupper() or 
+                                (any(char.isdigit() for char in clean_line[:3]) and 
+                                not clean_line.lower().startswith("page")))):
+                                potential_heading = clean_line
+                                break
+                        
+                        # If we found a potential heading, start a new chunk
+                        if potential_heading and len(current_chunk_text) > 0:
+                            # Save the previous chunk
+                            combined_text = "\n\n".join(current_chunk_text)
+                            doc_structure["chunks"].append({
+                                "heading": current_heading,
+                                "text": combined_text,
+                                "start_page": start_page,
+                                "end_page": page_num - 1
+                            })
+                            
+                            # Start a new chunk
+                            current_chunk_text = [text]
+                            current_heading = potential_heading
+                            start_page = page_num
+                        else:
+                            # Continue with current chunk
+                            current_chunk_text.append(text)
+                        
+                        # Create a new chunk every few pages if no natural breaks found
+                        if page_num - start_page >= 4 and not potential_heading:
+                            combined_text = "\n\n".join(current_chunk_text)
+                            doc_structure["chunks"].append({
+                                "heading": current_heading,
+                                "text": combined_text,
+                                "start_page": start_page,
+                                "end_page": page_num
+                            })
+                            
+                            # Reset for next chunk
+                            current_chunk_text = []
+                            current_heading = f"Section starting on page {page_num + 1}"
+                            start_page = page_num + 1
+                            
+                    except Exception as page_error:
+                        print(f"Warning: Error processing page {page_num} in fallback method: {page_error}")
+                        continue
+                
+                # Add any remaining text
+                if current_chunk_text:
+                    combined_text = "\n\n".join(current_chunk_text)
+                    doc_structure["chunks"].append({
+                        "heading": current_heading,
+                        "text": combined_text,
+                        "start_page": start_page,
+                        "end_page": len(reader.pages)
+                    })
+            
+            print(f"Fallback extraction completed: created {len(doc_structure['chunks'])} chunks")
+            return doc_structure
+            
+        except Exception as fallback_error:
+            print(f"Fallback extraction also failed: {fallback_error}")
+            # Return empty structure if all methods fail
+            return {
+                "doc_id": self.doc_id,
+                "created_date": self.created_date,
+                "country": self.country,
+                "source_type": self.source_type,
+                "chunks": []
+            }
 
     def detect_columns(self, page):
         """
@@ -742,7 +907,7 @@ import gc
 import torch
 from typing import Optional
 from langdetect import detect
-from transformers import pipeline, MBartForConditionalGeneration, M2M100ForConditionalGeneration, AutoTokenizer
+from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
 class Translator:
     """
@@ -769,25 +934,25 @@ class Translator:
       }
     
     The class translates each chunk's "heading" and "text", and each table's "text"
-    from the original language to English. If the language is already English (or undetected),
-    the file is copied unmodified.
+    from the original language to English. Only translates text that isn't already English.
     """
     
     def __init__(self, input_dir, output_dir, max_chunk_length=300):
         self.input_dir = input_dir
         self.output_dir = output_dir
         self.max_chunk_length = max_chunk_length
+        self.english_chunks_preserved = 0
+        self.chunks_translated = 0
 
-        # Mapping from source language to the corresponding translation model.
-        # Primary models: Helsinki-NLP direct language-to-English models
+        # Mapping from source language to the corresponding Helsinki-NLP model.
+        # Covering major European languages with direct models
         self.models = {
-            # Direct Helsinki-NLP models
             'fr': 'Helsinki-NLP/opus-mt-fr-en',
-            'de': 'Helsinki-NLP/opus-mt-de-en',
+            'de': 'DunnBC22/opus-mt-de-en-OPUS_Medical_German_to_English',
             'pl': 'Helsinki-NLP/opus-mt-pl-en',
             'es': 'Helsinki-NLP/opus-mt-es-en',
             'it': 'Helsinki-NLP/opus-mt-it-en',
-            'nl': 'Helsinki-NLP/opus-mt-nl-en',
+            'nl': 'FremyCompany/opus-mt-nl-en-healthcare',
             'da': 'Helsinki-NLP/opus-mt-da-en',
             'fi': 'Helsinki-NLP/opus-mt-fi-en',
             'sv': 'Helsinki-NLP/opus-mt-sv-en',
@@ -800,34 +965,41 @@ class Translator:
             'lv': 'Helsinki-NLP/opus-mt-lv-en',
             'lt': 'Helsinki-NLP/opus-mt-tc-big-lt-en',
             'mt': 'Helsinki-NLP/opus-mt-mt-en',
-            
-            # Alternative models for languages without direct Helsinki models
-            # Using language group models
-            'pt': 'Helsinki-NLP/opus-mt-ROMANCE-en',  # Portuguese (Romance languages)
-            'ro': 'Helsinki-NLP/opus-mt-ROMANCE-en',  # Romanian (Romance languages)
-            'sl': 'Helsinki-NLP/opus-mt-SLAVIC-en',   # Slovenian (Slavic languages)
-            'hr': 'Helsinki-NLP/opus-mt-SLAVIC-en',   # Croatian (Slavic languages)
-            'no': 'Helsinki-NLP/opus-mt-NORTH-EUROPEAN-en',  # Norwegian
+            'pt': 'Helsinki-NLP/opus-mt-pt-en',
         }
         
-        # Fallback models for languages not covered by Helsinki-NLP models
-        # These models can handle many languages at once
-        self.fallback_models = {
-            'facebook/nllb-200-distilled-600M': set([
-                'af', 'am', 'ar', 'az', 'be', 'bn', 'bs', 'ca', 'cy', 'eo', 'eu', 'fa', 
-                'ga', 'gl', 'gu', 'ha', 'he', 'hi', 'hy', 'ig', 'is', 'ja', 'ka', 'kk', 
-                'km', 'kn', 'ko', 'ku', 'lo', 'mk', 'ml', 'mn', 'mr', 'ms', 'my', 'ne', 
-                'ru', 'sr', 'ta', 'te', 'th', 'tl', 'tr', 'uk', 'ur', 'uz', 'vi', 'yo', 'zh'
-            ]),
-            'facebook/m2m100_418M': set([
-                'af', 'ar', 'az', 'bn', 'ca', 'cy', 'fa', 'gl', 'he', 'hi', 'is', 'ja', 
-                'ko', 'ku', 'mn', 'mr', 'my', 'ne', 'ru', 'sr', 'sw', 'th', 'tr', 'uk', 
-                'ur', 'uz', 'vi', 'zh'
-            ])
+        # Define language groups for the fallback Helsinki group models
+        self.language_groups = {
+            'facebook/mbart-large-50-many-to-many-mmt': {
+                'model_type': 'nllb',
+                'langs': set([
+                    'af', 'am', 'ar', 'as', 'az', 'be', 'bg', 'bn', 'br', 'bs', 'ca', 'cs', 'cy', 'da', 
+                    'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'fy', 'ga', 'gd', 'gl', 'gu', 
+                    'ha', 'he', 'hi', 'hr', 'hu', 'hy', 'id', 'ig', 'is', 'it', 'ja', 'jv', 'ka', 'kk', 
+                    'km', 'kn', 'ko', 'ku', 'ky', 'lb', 'lg', 'ln', 'lo', 'lt', 'lv', 'mg', 'mk', 'ml', 
+                    'mn', 'mr', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ns', 'ny', 'om', 'or', 'pa', 'pl', 
+                    'ps', 'pt', 'ro', 'ru', 'sd', 'si', 'sk', 'sl', 'so', 'sq', 'sr', 'ss', 'su', 'sv', 
+                    'sw', 'ta', 'te', 'th', 'tl', 'tn', 'tr', 'uk', 'ur', 'uz', 'vi', 'wo', 'xh', 'yi', 
+                    'yo', 'zh', 'zu'
+                ])
+            }
+        }
+        
+        # Map ISO language codes to NLLB format
+        self.nllb_lang_map = {
+            'en': 'eng_Latn', 'fr': 'fra_Latn', 'de': 'deu_Latn', 'es': 'spa_Latn', 
+            'it': 'ita_Latn', 'pt': 'por_Latn', 'nl': 'nld_Latn', 'pl': 'pol_Latn',
+            'ru': 'rus_Cyrl', 'zh': 'zho_Hans', 'ja': 'jpn_Jpan', 'ar': 'ara_Arab',
+            'hi': 'hin_Deva', 'bg': 'bul_Cyrl', 'cs': 'ces_Latn', 'da': 'dan_Latn',
+            'fi': 'fin_Latn', 'el': 'ell_Grek', 'hu': 'hun_Latn', 'ro': 'ron_Latn',
+            'sk': 'slk_Latn', 'sl': 'slv_Latn', 'sv': 'swe_Latn', 'uk': 'ukr_Cyrl',
+            'hr': 'hrv_Latn', 'no': 'nno_Latn', 'et': 'est_Latn', 'lv': 'lav_Latn',
+            'lt': 'lit_Latn', 'tr': 'tur_Latn', 'he': 'heb_Hebr', 'th': 'tha_Thai',
+            'ko': 'kor_Hang', 'vi': 'vie_Latn', 'fa': 'fas_Arab', 'sr': 'srp_Cyrl'
         }
         
         self.translators = {}
-        self.fallback_translators = {}
+        self.multilingual_models = {}
 
         # Detect available hardware (CUDA, MPS, or CPU)
         if torch.cuda.is_available():
@@ -836,6 +1008,19 @@ class Translator:
             self.device = torch.device("mps")
         else:
             self.device = torch.device("cpu")
+            
+        # Repetition patterns to detect and clean
+        self.repetition_patterns = [
+            # Word repetition (e.g., "placebo-treated placebo-treated placebo-treated...")
+            r'(\b\w+(?:-\w+)?(?:\s+|\s*,\s*|\s*\.\s*)){3,}',
+            # Symbol repetition (e.g., "H2H2H2H2H2...")
+            r'([A-Z0-9]{1,5})\1{3,}',
+            # Numerical patterns (e.g., "0.09.09.09...")
+            r'(\d+\.\d{1,3})(?:\.\d{1,3}){3,}',
+        ]
+        
+        # Maximum allowed repetition length (as percentage of total text)
+        self.max_repetition_ratio = 0.3
 
     def detect_language(self, text: str) -> Optional[str]:
         """
@@ -848,138 +1033,117 @@ class Translator:
         except Exception as e:
             print(f"Language detection failed: {e}")
             return None
+            
+    def detect_chunk_language(self, text: str, min_length: int = 40) -> str:
+        """
+        Detects the language of a text chunk with more reliability.
+        
+        Args:
+            text: The text to detect language for
+            min_length: Minimum length of text to attempt detection (shorter texts are unreliable)
+            
+        Returns:
+            Language code (e.g., 'en', 'fr') or None if detection failed or text too short
+        """
+        if not text or len(text.strip()) < min_length:
+            return None
+            
+        # Clean the text before detection
+        clean_text = re.sub(r'\d+', '', text)  # Remove numbers
+        clean_text = re.sub(r'[^\w\s]', '', clean_text)  # Remove punctuation
+        
+        if len(clean_text.strip()) < min_length:
+            return None
+        
+        try:
+            lang = detect(clean_text)
+            return lang
+        except LangDetectException:
+            return None
 
     def get_translator(self, lang: str):
         """
-        Returns a Hugging Face translation pipeline for the given language code.
-        If no suitable direct model is found, falls back to multilingual models.
+        Returns a translation function for the given language code.
+        Tries different model options in order of preference.
         """
         # Return cached translator if already loaded
         if lang in self.translators:
             return self.translators[lang]
 
-        # Try direct language-specific model first
-        model_name = self.models.get(lang)
-        if model_name:
+        # 1. Try direct Helsinki-NLP model first (language-specific)
+        if lang in self.models:
+            model_name = self.models[lang]
+            print(f"Using model: {model_name}")
+            
             try:
                 translator = pipeline(
                     "translation",
                     model=model_name,
                     torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
-                    device=self.device
+                    device=self.device,
+                    # Add repetition and length penalties to help prevent stuck patterns
+                    model_kwargs={"forced_bos_token_id": None},
+                    # Add generation config to reduce repetitions
+                    generate_kwargs={
+                        "num_beams": 5,  # Use more beams for better search
+                        "no_repeat_ngram_size": 3,  # Prevent repeating 3-grams
+                        "length_penalty": 1.0,  # Slight penalty for length
+                        "repetition_penalty": 1.5,  # Apply repetition penalty
+                        "max_length": 512  # Limit maximum output length
+                    }
                 )
                 self.translators[lang] = translator
                 return translator
             except Exception as e:
                 print(f"Failed to load model {model_name}: {e}")
-                # Continue to fallback models if this fails
+                # Continue to next option
         
-        # Try fallback multilingual models if no direct model available
-        for model_name, supported_langs in self.fallback_models.items():
-            if lang in supported_langs:
-                if model_name in self.fallback_translators:
-                    # Use cached fallback translator
-                    translator = self.fallback_translators[model_name]
-                    self.translators[lang] = translator
-                    return translator
-                
+        # 2. Try NLLB multilingual model as fallback
+        nllb_model = 'facebook/nllb-200-distilled-600M'
+        if lang in self.language_groups[nllb_model]['langs']:
+            print(f"Using model: {nllb_model}")
+            
+            # Load or retrieve cached NLLB model
+            if nllb_model not in self.multilingual_models:
                 try:
-                    if "nllb" in model_name:
-                        # Handle NLLB models differently
-                        translator = self._setup_nllb_translator(model_name, lang)
-                    elif "m2m100" in model_name:
-                        # Handle M2M100 models differently
-                        translator = self._setup_m2m100_translator(model_name, lang)
-                    else:
-                        # Standard pipeline for other models
-                        translator = pipeline(
-                            "translation",
-                            model=model_name,
-                            torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
-                            device=self.device
-                        )
-                    
-                    self.fallback_translators[model_name] = translator
-                    self.translators[lang] = translator
-                    return translator
+                    tokenizer = AutoTokenizer.from_pretrained(nllb_model)
+                    model = AutoModelForSeq2SeqLM.from_pretrained(nllb_model).to(self.device)
+                    self.multilingual_models[nllb_model] = (model, tokenizer)
                 except Exception as e:
-                    print(f"Failed to load fallback model {model_name}: {e}")
-                    continue
-        
-        # Last resort: use the generic multilingual model
-        if not lang in self.translators:
-            try:
-                model_name = "facebook/nllb-200-distilled-600M"
-                translator = self._setup_nllb_translator(model_name, lang)
-                self.translators[lang] = translator
-                return translator
-            except Exception as e:
-                print(f"Failed to load generic multilingual model: {e}")
-        
-        print(f"No translation model available for language: {lang}")
+                    print(f"Failed to load multilingual model {nllb_model}: {e}")
+                    return None
+            else:
+                model, tokenizer = self.multilingual_models[nllb_model]
+            
+            # Get NLLB-formatted language codes
+            src_lang = self.nllb_lang_map.get(lang, f"{lang}_Latn")  # Fallback to Latin script
+            tgt_lang = 'eng_Latn'  # Always translate to English
+            
+            # Create translator function with repetition prevention
+            def nllb_translate(text, **kwargs):
+                # Set the source language
+                inputs = tokenizer(text, return_tensors="pt").to(self.device)
+                
+                # Get the tokenizer's language ID for the target language
+                with torch.no_grad():
+                    translated_tokens = model.generate(
+                        **inputs,
+                        forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
+                        max_length=512,
+                        num_beams=5,
+                        no_repeat_ngram_size=3,
+                        length_penalty=1.0,
+                        repetition_penalty=1.5
+                    )
+                
+                translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
+                return [{'translation_text': translation}]
+            
+            self.translators[lang] = nllb_translate
+            return nllb_translate
+
+        # No suitable model found
         return None
-    
-    def _setup_nllb_translator(self, model_name, source_lang):
-        """Sets up a translator using NLLB model which requires special handling"""
-        # Map ISO language codes to NLLB language codes
-        lang_map = {
-            'en': 'eng_Latn', 'fr': 'fra_Latn', 'de': 'deu_Latn', 'es': 'spa_Latn', 
-            'it': 'ita_Latn', 'pt': 'por_Latn', 'nl': 'nld_Latn', 'pl': 'pol_Latn',
-            'ru': 'rus_Cyrl', 'zh': 'zho_Hans', 'ja': 'jpn_Jpan', 'ar': 'ara_Arab',
-            'hi': 'hin_Deva', 'bg': 'bul_Cyrl', 'cs': 'ces_Latn', 'da': 'dan_Latn',
-            'fi': 'fin_Latn', 'el': 'ell_Grek', 'hu': 'hun_Latn', 'ro': 'ron_Latn',
-            'sk': 'slk_Latn', 'sl': 'slv_Latn', 'sv': 'swe_Latn', 'uk': 'ukr_Cyrl',
-            'hr': 'hrv_Latn', 'no': 'nno_Latn', 'et': 'est_Latn', 'lv': 'lav_Latn',
-            'lt': 'lit_Latn', 'tr': 'tur_Latn', 'he': 'heb_Hebr', 'th': 'tha_Thai',
-            'ko': 'kor_Hang', 'vi': 'vie_Latn', 'fa': 'fas_Arab', 'sr': 'srp_Cyrl'
-        }
-        
-        nllb_source = lang_map.get(source_lang, source_lang + '_Latn')  # Default to Latin script if not found
-        nllb_target = 'eng_Latn'  # Always translate to English
-        
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = MBartForConditionalGeneration.from_pretrained(model_name).to(self.device)
-        
-        # Create a custom translator function
-        def translate_fn(text, **kwargs):
-            inputs = tokenizer(text, return_tensors="pt").to(self.device)
-            tokenizer.src_lang = nllb_source
-            
-            with torch.no_grad():
-                translated_tokens = model.generate(
-                    **inputs, 
-                    forced_bos_token_id=tokenizer.lang_code_to_id[nllb_target],
-                    max_length=512
-                )
-            
-            translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
-            return [{'translation_text': translation}]
-        
-        return translate_fn
-    
-    def _setup_m2m100_translator(self, model_name, source_lang):
-        """Sets up a translator using M2M100 model which requires special handling"""
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
-        model = M2M100ForConditionalGeneration.from_pretrained(model_name).to(self.device)
-        
-        # Create a custom translator function
-        def translate_fn(text, **kwargs):
-            tokenizer.src_lang = source_lang
-            tokenizer.tgt_lang = "en"
-            
-            inputs = tokenizer(text, return_tensors="pt").to(self.device)
-            
-            with torch.no_grad():
-                translated_tokens = model.generate(
-                    **inputs, 
-                    forced_bos_token_id=tokenizer.get_lang_id("en"),
-                    max_length=512
-                )
-            
-            translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
-            return [{'translation_text': translation}]
-        
-        return translate_fn
 
     def chunk_text(self, text: str) -> list:
         """
@@ -1002,36 +1166,118 @@ class Translator:
             chunks.append(current_chunk.strip())
         return chunks
 
+    def detect_repetitions(self, text: str) -> bool:
+        """
+        Detects problematic repetition patterns in translated text.
+        Returns True if repetitions are found.
+        """
+        for pattern in self.repetition_patterns:
+            matches = re.findall(pattern, text)
+            if matches:
+                # Calculate the percentage of text that consists of repetitions
+                total_match_length = sum(len(match) for match in matches)
+                repetition_ratio = total_match_length / len(text) if text else 0
+                
+                # Only flag as problematic if the repetition is substantial
+                if repetition_ratio > self.max_repetition_ratio:
+                    return True
+                    
+        return False
+        
+    def clean_repetitions(self, text: str) -> str:
+        """
+        Cleans repetition patterns from translated text.
+        """
+        if not text:
+            return text
+            
+        # Clean word repetitions
+        text = re.sub(r'(\b\w+(?:-\w+)?(?:\s+|\s*,\s*|\s*\.\s*)){3,}', r'\1 \1', text)
+        
+        # Clean symbol repetitions (e.g., H2H2H2H2H2...)
+        text = re.sub(r'([A-Z0-9]{1,5})\1{3,}', r'\1\1', text)
+        
+        # Clean numerical patterns (e.g., 0.09.09.09...)
+        text = re.sub(r'(\d+\.\d{1,3})(?:\.\d{1,3}){3,}', r'\1', text)
+        
+        # Clean repeated character strings
+        text = re.sub(r'([a-zA-Z])\1{5,}', r'\1\1\1', text)
+        
+        # Fix spacing and special patterns
+        text = re.sub(r'\s+', ' ', text)
+        
+        return text.strip()
+
     def translate_text(self, text: str, translator) -> str:
         """
-        Translates a string using the provided translator pipeline in chunks.
+        Translates a string using the provided translator function in chunks.
         Returns the translated text.
         """
         if not text.strip():
             return text
+            
         chunks = self.chunk_text(text)
         translated_chunks = []
+        
         for chunk in chunks:
-            translation = translator(chunk, truncation=True)[0]['translation_text']
-            translated_chunks.append(translation)
-        return "\n\n".join(translated_chunks)
+            max_attempts = 3
+            current_attempt = 0
+            chunk_translated = False
+            
+            while not chunk_translated and current_attempt < max_attempts:
+                try:
+                    # Translate the chunk
+                    translation = translator(chunk, truncation=True)[0]['translation_text']
+                    
+                    # Check for problematic repetitions
+                    if self.detect_repetitions(translation):
+                        print(f"Detected repetition in translation. Attempt {current_attempt+1}/{max_attempts}")
+                        # If this is the last attempt, use what we got but clean it
+                        if current_attempt == max_attempts - 1:
+                            translation = self.clean_repetitions(translation)
+                            translated_chunks.append(translation)
+                            chunk_translated = True
+                        # Otherwise try again with a shorter chunk or different settings
+                        else:
+                            # Reduce the chunk size for the next attempt
+                            if len(chunk) > 100:
+                                chunk = chunk[:len(chunk)//2 * (current_attempt + 1)]
+                    else:
+                        # No repetitions detected
+                        translated_chunks.append(translation)
+                        chunk_translated = True
+                except Exception as e:
+                    print(f"Translation error: {e}. Attempt {current_attempt+1}/{max_attempts}")
+                    # If this is the last attempt, use the original text
+                    if current_attempt == max_attempts - 1:
+                        translated_chunks.append(chunk)
+                        chunk_translated = True
+                
+                current_attempt += 1
+                
+        # Join the translated chunks and perform a final cleaning
+        result = "\n\n".join(translated_chunks)
+        return self.clean_repetitions(result)
 
     def translate_json_file(self, input_path: str, output_path: str):
         """
-        Reads a JSON file, detects its language from its combined text fields,
-        translates each chunk's 'heading' and 'text', as well as each table's 'text',
-        and writes the translated content to a new JSON file.
-        
-        If the document is detected as English or undetected, or if no translator is available
-        for that language, the file is copied unmodified.
+        Reads a JSON file, detects language at the chunk level,
+        and only translates non-English chunks.
         """
+        # Get document name and parent folder
+        file_name = os.path.basename(input_path)
+        parent_folder = os.path.basename(os.path.dirname(input_path))
+        
+        # Print document info
+        print(f"Document: {file_name} (in folder: {parent_folder})")
+        
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # Concatenate text from doc_id, chunks, and tables for language detection.
+        # Concatenate text from doc_id, chunks, and tables for initial language detection
         all_texts = []
         if 'doc_id' in data:
-            all_texts.append(data['doc_id'])  # doc_id is used for detection only (not translated!)
+            all_texts.append(data['doc_id'])
         if 'chunks' in data:
             for ch in data['chunks']:
                 all_texts.append(ch.get('heading', ''))
@@ -1040,63 +1286,103 @@ class Translator:
             for tb in data['tables']:
                 all_texts.append(tb.get('text', ''))
 
-        # Get document name and parent folder
-        file_name = os.path.basename(input_path)
-        parent_folder = os.path.basename(os.path.dirname(input_path))
-        
-        # Print document info
-        print(f"Document: {file_name} (in folder: {parent_folder})")
-        
         combined_text = "\n".join([t for t in all_texts if t]).strip()
-        lang = self.detect_language(combined_text)
-        print(f"Detected language: {lang}")
+        primary_lang = self.detect_language(combined_text)
+        print(f"Primary document language detected: {primary_lang}")
 
-        # If the document is already English, or detection is uncertain, just copy it unmodified
-        if lang == 'en' or not lang:
-            print("No translation needed (English or undetected language)")
-            shutil.copy(input_path, output_path)
-            return
-
-        model_name = self.models.get(lang)
-        translator = self.get_translator(lang)
+        # If the document is primarily English, we'll still check each chunk
+        # but we'll expect most to be English
+        if primary_lang == 'en':
+            print("Document primarily in English, but will check each chunk individually")
         
-        if translator:
-            # Print model name being used
-            if lang in self.models:
-                print(f"Using model: {self.models[lang]}")
-            elif any(lang in supported_langs for model, supported_langs in self.fallback_models.items()):
-                # Find which fallback model is being used
-                for model, supported_langs in self.fallback_models.items():
-                    if lang in supported_langs:
-                        print(f"Using model: {model}")
-                        break
-            else:
-                print("Using model: facebook/nllb-200-distilled-600M (fallback)")
-        else:
-            print(f"No translator available for {lang}. Copying file unmodified.")
-            shutil.copy(input_path, output_path)
-            return
+        # Initialize chunk statistics
+        chunks_checked = 0
+        english_chunks = 0
+        translated_chunks = 0
+        
+        # Get translator based on the primary language (only if needed)
+        translator = None
+        if primary_lang != 'en' and primary_lang is not None:
+            translator = self.get_translator(primary_lang)
+            if not translator:
+                print(f"No translator available for {primary_lang}. Copying file unmodified.")
+                shutil.copy(input_path, output_path)
+                return
 
-        # Note: doc_id is NOT translated, as requested
-        # If doc_id is originally in a non-English language it will remain in that language
-
-        # Translate chunks: headings and texts.
+        # Process chunks: check language for each chunk and translate only non-English
         if 'chunks' in data:
             for ch in data['chunks']:
+                chunks_checked += 1
+                
+                # Process heading
                 if 'heading' in ch and ch['heading'].strip():
-                    ch['heading'] = self.translate_text(ch['heading'], translator)
+                    heading_lang = self.detect_chunk_language(ch['heading'])
+                    if heading_lang is None or heading_lang == 'en':
+                        # Keep English/undetected headings as is
+                        english_chunks += 1
+                    else:
+                        # Translate non-English headings
+                        if translator:
+                            ch['heading'] = self.translate_text(ch['heading'], translator)
+                            translated_chunks += 1
+                        else:
+                            # If no translator available for primary language, try to get one for this chunk
+                            chunk_translator = self.get_translator(heading_lang)
+                            if chunk_translator:
+                                ch['heading'] = self.translate_text(ch['heading'], chunk_translator)
+                                translated_chunks += 1
+                
+                # Process main text content
                 if 'text' in ch and ch['text'].strip():
-                    ch['text'] = self.translate_text(ch['text'], translator)
+                    text_lang = self.detect_chunk_language(ch['text'])
+                    if text_lang is None or text_lang == 'en':
+                        # Keep English/undetected text as is
+                        english_chunks += 1
+                    else:
+                        # Translate non-English text
+                        if translator:
+                            ch['text'] = self.translate_text(ch['text'], translator)
+                            translated_chunks += 1
+                        else:
+                            # If no translator available for primary language, try to get one for this chunk
+                            chunk_translator = self.get_translator(text_lang)
+                            if chunk_translator:
+                                ch['text'] = self.translate_text(ch['text'], chunk_translator)
+                                translated_chunks += 1
 
-        # Translate table text.
+        # Process table texts similarly
         if 'tables' in data:
             for tb in data['tables']:
                 if 'text' in tb and tb['text'].strip():
-                    tb['text'] = self.translate_text(tb['text'], translator)
+                    chunks_checked += 1
+                    text_lang = self.detect_chunk_language(tb['text'])
+                    if text_lang is None or text_lang == 'en':
+                        # Keep English/undetected text as is
+                        english_chunks += 1
+                    else:
+                        # Translate non-English text
+                        if translator:
+                            tb['text'] = self.translate_text(tb['text'], translator)
+                            translated_chunks += 1
+                        else:
+                            # If no translator available for primary language, try to get one for this chunk
+                            chunk_translator = self.get_translator(text_lang)
+                            if chunk_translator:
+                                tb['text'] = self.translate_text(tb['text'], chunk_translator)
+                                translated_chunks += 1
 
-        # Save the translated JSON
+        # Save the processed JSON
         with open(output_path, "w", encoding="utf-8") as out_f:
             json.dump(data, out_f, indent=2, ensure_ascii=False)
+
+        # Update statistics
+        self.english_chunks_preserved += english_chunks
+        self.chunks_translated += translated_chunks
+        
+        # Print chunk statistics
+        print(f"Chunks processed: {chunks_checked}")
+        print(f"English chunks preserved: {english_chunks}")
+        print(f"Non-English chunks translated: {translated_chunks}")
 
         # Free up GPU memory if applicable
         gc.collect()
@@ -1110,13 +1396,584 @@ class Translator:
         Translates all JSON files in the input directory and saves the translated
         versions in the corresponding structure in the output directory.
         """
+        total_files = 0
+        
         for root, _, files in os.walk(self.input_dir):
             for file in files:
                 if not file.endswith(".json"):
                     continue
+                total_files += 1
+                    
                 input_path = os.path.join(root, file)
                 relative_path = os.path.relpath(root, self.input_dir)
                 output_subdir = os.path.join(self.output_dir, relative_path)
                 os.makedirs(output_subdir, exist_ok=True)
                 output_path = os.path.join(output_subdir, file)
                 self.translate_json_file(input_path, output_path)
+                
+        # Print final statistics
+        print("\n=== Translation Summary ===")
+        print(f"Total files processed: {total_files}")
+        print(f"Total English chunks preserved: {self.english_chunks_preserved}")
+        print(f"Total chunks translated: {self.chunks_translated}")
+        if self.chunks_translated > 0:
+            print(f"Preservation rate: {self.english_chunks_preserved/(self.english_chunks_preserved+self.chunks_translated):.2%}")
+
+
+
+import os
+import re
+import json
+import glob
+from typing import Dict, Any, List, Union, Optional
+
+
+class PostCleaner:
+    """
+    Advanced class to clean up translation artifacts in processed JSON documents.
+    
+    This cleaner handles complex cases including:
+    1. Numerical pattern repetition (0.09.09.09...)
+    2. Dollar sign and other symbol repetition ($$$$$)
+    3. Quoted row markers and duplicate rows
+    4. Nonsensical word repetitions (agglomeration, agitation...)
+    5. Technical phrase repetition (material injury, material...)
+    6. Mixed numerical and textual artifacts
+    """
+    
+    def __init__(
+        self,
+        input_dir: str,
+        output_dir: str,
+        maintain_folder_structure: bool = True
+    ):
+        """
+        Initialize the translation cleaner.
+        
+        Args:
+            input_dir: Directory containing translated JSON files
+            output_dir: Directory to save cleaned files
+            maintain_folder_structure: Whether to maintain folder structure when saving
+        """
+        self.input_dir = input_dir
+        self.output_dir = output_dir
+        self.maintain_folder_structure = maintain_folder_structure
+        
+        # Counter for statistics
+        self.stats = {
+            "files_processed": 0,
+            "text_chunks_cleaned": 0,
+            "table_chunks_cleaned": 0,
+            "artifacts_removed": 0,
+            "chinese_chars_removed": 0,
+            "excessive_punctuation_fixed": 0,
+            "table_rows_fixed": 0,
+            "repeated_phrases_removed": 0,
+            "repeated_words_fixed": 0,
+            "numerical_patterns_fixed": 0,
+            "quoted_rows_fixed": 0,
+            "symbol_repetition_fixed": 0,
+            "special_patterns_fixed": 0
+        }
+        
+        # Create output directory if it doesn't exist
+        os.makedirs(self.output_dir, exist_ok=True)
+    
+    def clean_all_documents(self):
+        """Process all JSON files in the input directory recursively."""
+        # Find all JSON files
+        json_files = glob.glob(os.path.join(self.input_dir, "**/*.json"), recursive=True)
+        print(f"Found {len(json_files)} JSON files to clean.")
+        
+        for file_path in json_files:
+            self.clean_document(file_path)
+        
+        # Print statistics
+        print(f"\nCleaning Complete:")
+        print(f"  Files processed: {self.stats['files_processed']}")
+        print(f"  Text chunks cleaned: {self.stats['text_chunks_cleaned']}")
+        print(f"  Table chunks cleaned: {self.stats['table_chunks_cleaned']}")
+        print(f"  Artifacts removed: {self.stats['artifacts_removed']}")
+        print(f"  Chinese characters removed: {self.stats['chinese_chars_removed']}")
+        print(f"  Excessive punctuation fixed: {self.stats['excessive_punctuation_fixed']}")
+        print(f"  Table rows fixed: {self.stats['table_rows_fixed']}")
+        print(f"  Repeated phrases removed: {self.stats['repeated_phrases_removed']}")
+        print(f"  Repeated words fixed: {self.stats['repeated_words_fixed']}")
+        print(f"  Numerical patterns fixed: {self.stats['numerical_patterns_fixed']}")
+        print(f"  Quoted rows fixed: {self.stats['quoted_rows_fixed']}")
+        print(f"  Symbol repetition fixed: {self.stats['symbol_repetition_fixed']}")
+        print(f"  Special patterns fixed: {self.stats['special_patterns_fixed']}")
+    
+    def clean_document(self, file_path: str):
+        """Clean a single JSON document."""
+        rel_path = os.path.relpath(file_path, self.input_dir)
+        print(f"Cleaning: {rel_path}")
+        
+        try:
+            # Load the document
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            # Clean the document
+            cleaned_data = self._process_document(data)
+            
+            # Determine output path
+            if self.maintain_folder_structure:
+                # Create subdirectories if needed
+                output_path = os.path.join(self.output_dir, rel_path)
+                os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            else:
+                # Flat structure - just use filename
+                output_path = os.path.join(self.output_dir, os.path.basename(file_path))
+            
+            # Save the cleaned document
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
+            
+            self.stats["files_processed"] += 1
+            
+        except Exception as e:
+            print(f"Error processing {file_path}: {e}")
+    
+    def _process_document(self, data: Dict[str, Any]) -> Dict[str, Any]:
+        """Process a document by cleaning all its chunks."""
+        if not isinstance(data, dict) or "chunks" not in data:
+            return data
+        
+        # Clean each chunk
+        for chunk in data["chunks"]:
+            # Clean the heading
+            if "heading" in chunk:
+                chunk["heading"] = self._clean_text(chunk["heading"], is_heading=True)
+            
+            # Clean the text content
+            if "text" in chunk:
+                original_text = chunk["text"]
+                is_table = self._is_table_chunk(chunk)
+                
+                if is_table:
+                    chunk["text"] = self._clean_table_text(original_text)
+                    self.stats["table_chunks_cleaned"] += 1
+                else:
+                    chunk["text"] = self._clean_text(original_text)
+                    self.stats["text_chunks_cleaned"] += 1
+                
+                # Apply advanced pattern cleaning regardless of chunk type
+                chunk["text"] = self._clean_advanced_patterns(chunk["text"])
+        
+        return data
+    
+    def _is_table_chunk(self, chunk: Dict[str, Any]) -> bool:
+        """Determine if a chunk contains a table."""
+        # Check if the heading mentions "table"
+        if "heading" in chunk and re.search(r'table', chunk["heading"], re.IGNORECASE):
+            return True
+        
+        # Check if the text contains table-like rows
+        if "text" in chunk and re.search(r'Row \d+:', chunk["text"]):
+            return True
+        
+        return False
+    
+    def _clean_quoted_rows(self, text: str) -> str:
+        """
+        Clean quoted row markers like "Row 5" "Row 6" "Row 6".
+        """
+        if not text:
+            return text
+        
+        # Count occurrences before cleaning
+        quoted_row_pattern = r'"Row \d+"'
+        count_before = len(re.findall(quoted_row_pattern, text))
+        
+        # Fix consecutive quoted rows (e.g., "Row 6" "Row 6" "Row 7" "Row 7")
+        text = re.sub(r'("Row \d+"\s*)(\1)+', r'\1', text)
+        
+        # Fix rows with too many quotes
+        text = re.sub(r'"Row (\d+)"\s+"Row \1"', r'Row \1:', text)
+        
+        # Count occurrences after cleaning
+        count_after = len(re.findall(quoted_row_pattern, text))
+        self.stats["quoted_rows_fixed"] += (count_before - count_after)
+        
+        return text
+    
+    def _clean_numerical_patterns(self, text: str) -> str:
+        """
+        Clean numerical pattern repetition like 0.09.09.09.09.09...
+        """
+        # Find patterns of repeating digits with dots or other separators
+        patterns_found = 0
+        
+        # Find decimal number patterns that repeat (like 0.09.09.09...)
+        decimal_repetition = r'(\d+\.\d{1,3})(\.\d{1,3}){3,}'
+        matches = re.findall(decimal_repetition, text)
+        for match in matches:
+            if match and match[0]:
+                # Get the first part of the pattern
+                base_pattern = match[0]
+                # Find the full repeating pattern in the text
+                full_pattern = re.escape(base_pattern) + r'(\.\d{1,3}){3,}'
+                replacement = base_pattern  # Replace with just the first occurrence
+                text = re.sub(full_pattern, replacement, text)
+                patterns_found += 1
+        
+        # Another pattern: repeating decimals like 0.090.090.09...
+        decimal_repetition2 = r'(\d+\.\d{2,3})(\d+\.\d{2,3})(\d+\.\d{2,3})+'
+        text = re.sub(decimal_repetition2, r'\1', text)
+        
+        # Yet another pattern: isolated repeating numbers
+        repeated_numbers = re.compile(r'(\d{1,3})(\1){3,}')
+        text = re.sub(repeated_numbers, r'\1\1', text)
+        
+        self.stats["numerical_patterns_fixed"] += patterns_found
+        return text
+    
+    def _clean_symbol_repetition(self, text: str) -> str:
+        """
+        Clean repetitive symbols like $$$$$$$$ or ######## that go beyond normal formatting.
+        """
+        symbol_patterns = {
+            # Repeated $ signs
+            r'\${5,}': '$$$',
+            # Repeated # signs
+            r'#{5,}': '###',
+            # Repeated @ signs
+            r'@{5,}': '@@@',
+            # Repeated + signs
+            r'\+{5,}': '+++',
+            # Repeated * signs
+            r'\*{5,}': '***',
+            # Repeated = signs
+            r'={5,}': '===',
+        }
+        
+        count = 0
+        for pattern, replacement in symbol_patterns.items():
+            # Count matches before replacement
+            matches = re.findall(pattern, text)
+            count += len(matches)
+            
+            # Replace the repetitions
+            text = re.sub(pattern, replacement, text)
+        
+        self.stats["symbol_repetition_fixed"] += count
+        return text
+    
+    def _clean_special_phrase_repetition(self, text: str) -> str:
+        """
+        Clean specific phrase repetitions found in examples.
+        """
+        special_patterns = [
+            # Abortion of information/commission repeating
+            (r'(Abortion of (?:this information|the Commission)(?:\s+|,)){3,}', r'\1\1'),
+            
+            # Agglomeration/agitation repeating
+            (r'(agglomeration|agitation)(?:\s+\1){3,}', r'\1 \1'),
+            
+            # Repeated "ag ag ag" sequences
+            (r'(ag\s+){3,}', r'ag ag '),
+            
+            # material injury repetition
+            (r'((?:material |)injury,?\s+){5,}', r'material injury, '),
+            
+            # "material, material, material" repetition
+            (r'(material,?\s+){3,}', r'material, material '),
+            
+            # "etc, etc, etc" repetition
+            (r'(etc(?:,|\.)?\s*){3,}', r'etc., etc.'),
+            
+            # "of the of the of the" repetition
+            (r'(of the\s+){3,}', r'of the '),
+            
+            # "Row: Row: Row:" repetition
+            (r'(Row:\s*){3,}', r'Row: '),
+            
+            # progressively/progressionlessly/progressiveness repeating
+            (r'(progress(?:ion|ively|iveness)(?:\s+|,)){3,}', r'\1\1'),
+        ]
+        
+        count = 0
+        for pattern, replacement in special_patterns:
+            # Count matches before replacement
+            matches = len(re.findall(pattern, text))
+            count += matches
+            
+            # Replace the repetitions
+            text = re.sub(pattern, replacement, text)
+        
+        self.stats["special_patterns_fixed"] += count
+        return text
+    
+    def _clean_repeating_row_markers(self, text: str) -> str:
+        """
+        Clean repetitive row markers, especially in tables.
+        """
+        # Fix sequences of repeating "Row X:" or "Row: Row: Row:"
+        row_fixes = 0
+        
+        # Fix "Row X: Row X: Row X:" patterns
+        row_pattern = r'(Row \d+:)\s*\1+'
+        row_fixes += len(re.findall(row_pattern, text))
+        text = re.sub(row_pattern, r'\1', text)
+        
+        # Fix "Row: Row: Row:" patterns
+        row_colon_pattern = r'(Row:)\s*\1+'
+        row_fixes += len(re.findall(row_colon_pattern, text))
+        text = re.sub(row_colon_pattern, r'\1', text)
+        
+        # Fix "Row: Row: Row: Row: Row:" patterns without numbers
+        row_pattern2 = r'(Row:\s+){3,}'
+        row_fixes += len(re.findall(row_pattern2, text))
+        text = re.sub(row_pattern2, r'Row: ', text)
+        
+        # Fix sequences with numbers like "Row: 27: Row:"
+        row_pattern3 = r'Row:\s*\d+:\s*Row:'
+        row_fixes += len(re.findall(row_pattern3, text))
+        text = re.sub(row_pattern3, r'Row:', text)
+        
+        self.stats["table_rows_fixed"] += row_fixes
+        return text
+    
+    def _clean_advanced_patterns(self, text: str) -> str:
+        """
+        Apply advanced pattern cleaning that works on all document types.
+        """
+        # Save original length for artifact counting
+        original_length = len(text)
+        
+        # Apply all advanced cleaning methods
+        text = self._clean_numerical_patterns(text)
+        text = self._clean_symbol_repetition(text)
+        text = self._clean_quoted_rows(text)
+        text = self._clean_special_phrase_repetition(text)
+        text = self._clean_repeating_row_markers(text)
+        
+        # Specialized pattern for the examples you provided:
+        # Pattern with "0.09.09.09..." repeating (from the Discussion section)
+        text = re.sub(r'0\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09\.09[\.09]*', 
+                      r'0.09', text)
+        
+        # Count artifacts removed
+        artifacts_removed = original_length - len(text)
+        if artifacts_removed > 0:
+            self.stats["artifacts_removed"] += artifacts_removed
+        
+        return text
+    
+    def _find_repeated_phrases(self, text: str, min_length: int = 3, max_length: int = 30) -> List[tuple]:
+        """Find repeated phrases in text."""
+        words = text.split()
+        if len(words) < min_length * 2:  # Need at least 2 occurrences to find repetition
+            return []
+        
+        # Try different phrase lengths
+        repeated_phrases = []
+        
+        for phrase_len in range(min_length, min(max_length, len(words) // 2 + 1)):
+            # Check each possible phrase of this length
+            for i in range(len(words) - phrase_len + 1):
+                phrase = ' '.join(words[i:i+phrase_len])
+                
+                # Count occurrences
+                count = 0
+                for j in range(i + phrase_len, len(words) - phrase_len + 1, phrase_len):
+                    if ' '.join(words[j:j+phrase_len]) == phrase:
+                        count += 1
+                    else:
+                        break
+                
+                # If phrase repeats, add it to our list
+                if count > 0:
+                    repeated_phrases.append((phrase, count + 1))
+                    # Skip ahead to avoid finding sub-phrases of this repetition
+                    i += (count + 1) * phrase_len - 1
+        
+        return repeated_phrases
+    
+    def _remove_repeated_phrases(self, text: str) -> str:
+        """Remove repeated phrases, keeping just one instance."""
+        if not text:
+            return text
+        
+        # Find repeated phrases
+        repeated_phrases = self._find_repeated_phrases(text)
+        count = 0
+        
+        for phrase, occurrences in repeated_phrases:
+            # Create pattern that matches exactly this phrase repeated multiple times
+            pattern = re.escape(phrase) + r'(?:\s+' + re.escape(phrase) + r')+'
+            
+            # Replace with single instance
+            new_text = re.sub(pattern, phrase, text)
+            
+            # Update count if replacement occurred
+            if new_text != text:
+                count += 1
+                text = new_text
+        
+        self.stats["repeated_phrases_removed"] += count
+        return text
+    
+    def _remove_repeated_single_words(self, text: str) -> str:
+        """Remove long runs of the same word (e.g., 'no, no, no, no...')."""
+        if not text:
+            return text
+        
+        # Pattern for repeated words with optional punctuation
+        pattern = r'\b(\w+(?:[,.;:]? |, |\. ))\1{2,}'
+        
+        # Find all matches
+        matches = re.findall(pattern, text)
+        
+        # Replace each match with just two instances (e.g., "no, no")
+        for match in matches:
+            repeat_pattern = re.escape(match) + r'{3,}'  # 3+ occurrences
+            text = re.sub(repeat_pattern, match + match, text)
+            self.stats["repeated_words_fixed"] += 1
+        
+        return text
+    
+    def _clean_text(self, text: str, is_heading: bool = False) -> str:
+        """
+        Clean general text content.
+        This enhanced version handles complex patterns.
+        """
+        if not text:
+            return text
+        
+        original_length = len(text)
+        
+        # Step 1: Handle basic patterns
+        
+        # Remove Chinese/Japanese/Korean characters
+        chinese_char_count = len(re.findall(r'[一-龥的]', text))
+        text = re.sub(r'[一-龥的]', '', text)
+        self.stats["chinese_chars_removed"] += chinese_char_count
+        
+        # Handle repeated ellipses and dots
+        text = re.sub(r'\.{5,}', '...', text)  # Replace long runs of dots with ellipsis
+        
+        # Fix excessive repetitions of common words
+        text = re.sub(r'(?:no,? ){3,}', 'no, no ', text)
+        text = re.sub(r'(?:yes,? ){3,}', 'yes, yes ', text)
+        text = re.sub(r'(?:not ){3,}', 'not not ', text)
+        
+        # Remove excessive punctuation
+        punct_matches = len(re.findall(r'([!?.:;,\-_=\*\+#&\|\[\]\{\}\(\)<>])\1{3,}', text))
+        text = re.sub(r'([!?.:;,\-_=\*\+#&\|\[\]\{\}\(\)<>])\1{3,}', r'\1', text)
+        self.stats["excessive_punctuation_fixed"] += punct_matches
+        
+        # Remove excessive letter repetitions
+        text = re.sub(r'([a-zA-Z])\1{3,}', r'\1', text)
+        
+        # Step 2: Handle repeated phrases
+        if len(text.split()) > 5:  # Only for longer texts
+            text = self._remove_repeated_phrases(text)
+            text = self._remove_repeated_single_words(text)
+        
+        # Step 3: Final formatting adjustments
+        
+        # Fix spacing issues
+        text = re.sub(r'\s+', ' ', text)
+        
+        # For headings only, apply specific rules
+        if is_heading:
+            # Remove table markers in headings
+            text = re.sub(r'table underheading', 'table heading', text)
+            
+            # Clean up angle brackets in headings
+            text = re.sub(r'<([^<>]*)>', r'\1', text)
+            
+            # Remove row markers in headings
+            text = re.sub(r'Row \d+:\s*', '', text)
+        
+        # Update artifact counter
+        artifacts_removed = original_length - len(text)
+        if artifacts_removed > 0:
+            self.stats["artifacts_removed"] += artifacts_removed
+        
+        return text.strip()
+    
+    def _clean_table_text(self, text: str) -> str:
+        """
+        Clean text specifically for table content.
+        Enhanced to handle complex patterns in tables.
+        """
+        if not text:
+            return text
+        
+        original_length = len(text)
+        
+        # Step 1: First run special patterns for tables
+        
+        # Fix duplicate row labels (Row 1:Row 1:Row 1:)
+        row_fixes = 0
+        row_fixes += len(re.findall(r'(Row \d+:)\s*\1+', text))
+        text = re.sub(r'(Row \d+:)\s*\1+', r'\1', text)
+        
+        # Fix "Low N" to "Row N"
+        row_fixes += len(re.findall(r'Low (\d+)', text))
+        text = re.sub(r'Low (\d+)', r'Row \1:', text)
+        
+        # Fix row label format
+        row_fixes += len(re.findall(r'Row (\d+)!!+', text))
+        text = re.sub(r'Row (\d+)!!+', r'Row \1:', text)
+        
+        row_fixes += len(re.findall(r'Row (\d+):的', text))
+        text = re.sub(r'Row (\d+):的', r'Row \1:', text)
+        
+        # Fix consecutive empty row numbers
+        text = re.sub(r'(Row \d+:\s*\n\s*){3,}', r'Row 1:\n', text)
+        
+        self.stats["table_rows_fixed"] += row_fixes
+        
+        # Apply advanced pattern cleaning
+        text = self._clean_advanced_patterns(text)
+        
+        # Clean repeated content within rows
+        parts = re.split(r'(Row \d+:)', text)
+        result_parts = []
+        
+        for i, part in enumerate(parts):
+            if i % 2 == 0:  # Even parts are content between "Row N:" markers
+                if part.strip():
+                    # Clean the content of this row
+                    cleaned_part = self._clean_text(part)  # Use standard text cleaning
+                    if len(part.split()) > 5:  # Only for longer content
+                        # Try to fix repeated phrases in this row
+                        cleaned_part = self._remove_repeated_phrases(cleaned_part)
+                    result_parts.append(cleaned_part)
+                else:
+                    result_parts.append(part)
+            else:  # Odd parts are "Row N:" markers
+                result_parts.append(part)
+        
+        text = ''.join(result_parts)
+        
+        # Special handling for common table artifacts
+        
+        # Repeated "Indication of AMM & " pattern
+        text = re.sub(r'(Indication of AMM &\s+)+', r'Indication of AMM & ', text)
+        
+        # Remove consecutive duplicate items in comma-separated lists
+        text = re.sub(r'([^,]+, )(\1)+', r'\1', text)
+        
+        # Fix row formatting
+        
+        # Remove empty rows
+        text = re.sub(r'Row \d+:\s*(\n|$)', '', text)
+        
+        # Fix spacing issues
+        text = re.sub(r'\s+', ' ', text)
+        text = re.sub(r' {2,}', ' ', text)
+        
+        # Make sure rows are on new lines
+        text = re.sub(r'(Row \d+:)(?!\n)', r'\1\n', text)
+        
+        # Update artifact counter
+        artifacts_removed = original_length - len(text)
+        if artifacts_removed > 0:
+            self.stats["artifacts_removed"] += artifacts_removed
+        
+        return text.strip()

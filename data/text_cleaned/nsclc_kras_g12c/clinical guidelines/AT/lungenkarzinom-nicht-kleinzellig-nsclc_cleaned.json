@@ -1,7 +1,8 @@
 {
   "doc_id": "lungenkarzinom-nicht-kleinzellig-nsclc",
   "created_date": "unknown_year",
-  "country:": "AT",
+  "country": "AT",
+  "source_type": "clinical_guideline",
   "chunks": [
     {
       "heading": "",

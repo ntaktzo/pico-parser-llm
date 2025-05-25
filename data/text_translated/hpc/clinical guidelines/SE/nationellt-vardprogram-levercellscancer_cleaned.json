@@ -1,0 +1,1826 @@
+{
+  "doc_id": "nationellt-vardprogram-levercellscancer",
+  "created_date": "2024",
+  "country": "SE",
+  "source_type": "clinical_guideline",
+  "chunks": [
+    {
+      "heading": "",
+      "text": ". . .. . . ... . .... . ................. . . . . .. . . ... . .... . . . . .. . .... . . ... . . . . .. . . ... . .... . . Chapter 20.................................... levels levels ....... Chapter 21....................... References ..................... Chapter 22................................................................. group group ................................. programme programme group'bindings bindings ..care care programme's anchoring .................. r r .. mgru iterin HCC- d ng ... o o -en en ... g g ....nads g.... svan nor ... 1 1 ...... ogi ogi ...................................",
+      "start_page": 1,
+      "end_page": 8
+    },
+    {
+      "heading": "Executive summary",
+      "text": "hepatitis hepatitis and/treatment treatment (or or transplantation) 40-75 40-75 %, failure failure (CHR) the the patient'0 0 (transplantation transplantation (LTx) at HCC) collaboration collaboration 2024-Bes Bes 5-06-16 Fixed 0-01-14 Vers 0-08-21 Vers 2-cancer cancer (from from you). out. out.",
+      "start_page": 9,
+      "end_page": 12
+    },
+    {
+      "heading": "previous previous version",
+      "text": "care care programme: • recommendations. recommendations. • principles. principles. • transplantation transplantation (Metronicket 2.0) programme programme (transplantation transplantation (LTx) at HCC) • precision. precision. • now now Atezolizumab____MEDTERMS1_",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "heading": "healthcare healthcare course",
+      "text": "cancer. cancer.",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "heading": "Legal Legal aid",
+      "text": "The patient'Act Act (2017:30). patient patient (13 Chapter). support support (7 7 §). clause clause (Care Care Act), Försäkringskassan. Försäkringskassan.",
+      "start_page": 12,
+      "end_page": 13
+    },
+    {
+      "heading": "scientific scientific evidence",
+      "text": "If If GRADE'the the group'care care program'four four levels: • reliability reliability (++++). • reliability reliability (+ ++).",
+      "start_page": 13,
+      "end_page": 14
+    },
+    {
+      "heading": "other other bindings",
+      "text": "4 4 ‘Behaviour' Council. Council.",
+      "start_page": 14,
+      "end_page": 15
+    },
+    {
+      "heading": "Summary and recommendations",
+      "text": "hepatitis hepatitis (and and C), diseases diseases (dysfunction dysfunction (MASLD), hemochromatosis, porphyria). diseases diseases (mainly MASLDE) progression progression (2, 2, obesity) disorders. disorders. • c. c. • groups. groups. • B. B. • v. v.",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "4.1 Introduction",
+      "text": "world world [1]. cancer cancer [1]. approximately approximately 75% least least 75% cirrhosis cirrhosis [2, 3]. hepatitis hepatitis (B and/or C), disease disease (disease disease [MASLD] – disorder disorder [NAFLD]) HCP HCP [1, 4]. risk risk [5, 5). to to 40% cirrhosis cirrhosis [7].",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "and and mortality",
+      "text": "years years 1990–10 % 10 10 %, world world [3]. States States [3, 9]. 6. 6.1/women women (8 vs 2/100 000), years years [10]. age age (fig. 1). Europe. Europe.",
+      "start_page": 17,
+      "end_page": 18
+    },
+    {
+      "heading": "and and Survival",
+      "text": "condition condition [16]. treatments treatments (blative blative therapy) to to 80%. to to 40% than than 20% [16].",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "4.3 Causes",
+      "text": "SweLiv, SweLiv, > 2/39 39 % 37 37 % 8 8 % 7 7 % reported reported [2]. HCC HCC (HCC) in Sweden [17]. diabetes diabetes and/disease disease [7].",
+      "start_page": 18,
+      "end_page": 19
+    },
+    {
+      "heading": "viral viral hepatitis",
+      "text": "levels levels (hepatitis B-DNA > 200 000 IU/ml), birth birth [20]. adolescents adolescents [22]. vaccinations vaccinations [25]. HCP HCP (and and survival). CC CC (and and Survival).",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "viral viral hepatitis",
+      "text": "HCC HCC [20]. B B [25]. infection infection [29]. drugs drugs (DAA) in in > 95% [30]. cirrhosis cirrhosis [31-37]. clearance clearance [38]. C C [30].",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "heading": "viral viral hepatitis",
+      "text": "2 2 - 0.3 % Sweden Sweden > 80 % countries countries [41, 42]. Sweden Sweden [43-45]. counts counts (all all ALT) screenings (HIV HIV infection) UK. UK.",
+      "start_page": 20,
+      "end_page": 21
+    },
+    {
+      "heading": "1 1 Alcohol",
+      "text": "80 80 grams/HCC HCC [47] disease disease [48-51]. disease disease [50-52] hepatic hepatic fibrosis/cirrhosis [53].",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "and and tea",
+      "text": "volumes volumes [54-61]. given. given.",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "3 3 Smoking",
+      "text": "HCC HCC [62.63]. of of HCC",
+      "start_page": 21,
+      "end_page": 22
+    },
+    {
+      "heading": "physical physical activity",
+      "text": "HCC HCC [65], disease disease [66-68]. life life [69]. MASlD MASlD (physical physical activity) for for HCC[70-73].",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "non-viral non-viral causes",
+      "text": "condition condition [31.74] .",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "6 6 Porphyria",
+      "text": "porfuria porfuria (AIP) elderly elderly [75]. tarda tarda (PCT) of of [76].",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "recommended recommended for:",
+      "text": "• of of gender* • porphyria porphyria (AP) of of age* • for for HCC*.",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "recommended recommended in",
+      "text": "• liver liver transplantation* • fibrosis fibrosis (F3) cirrhosis cirrhosis • cirrhosis cirrhosis • organization organization • contrast contrast recommended* • 6 6 months* • Alfa-fetoprotein (AFP) porphyria. porphyria.",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "• country country and",
+      "text": "scientifically. scientifically. * to to GRADE: evidence evidence (++). monitoring monitoring (surveillance)",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "heading": "HCC HCC monitoring",
+      "text": "risk risk – monitoring monitoring (eng: surveillance) intent. intent.",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "HCC HCC monitoring",
+      "text": "is is necessary: • suspected suspected findings; • delay delay (practice, practice, SVF).",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "Quality Quality aspects",
+      "text": "terminated. terminated.",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "to to SVF",
+      "text": "procedures. procedures.",
+      "start_page": 24,
+      "end_page": 24
+    },
+    {
+      "heading": "suspected suspected findings",
+      "text": "guidelines guidelines (AASLD and EASL) programs. programs.",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "1 1 Ultrasound",
+      "text": "contrast contrast [77, 78]. 84-97 84-97 %, 47-63 47-63 % HCC HCC (Milan Milan criteria) [79-81]. investigator-dependent investigator-dependent [82, 83]. monitoring monitoring [84]. MRT MRT [77.85]. tomography tomography (DT) imaging imaging (MRT) Computer Tomography (DT) ultrasound ultrasound [86-88]. 62 62 %. imaging imaging (\"MRT\") with gadolinium (MRI) imaging imaging (DT).",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "test test (serum markers)",
+      "text": "monitoring monitoring [90, 91] . 10-20 10-20 % positive positive [91] values values [92]. 53 53 % 63 63 % consequence consequence [79]. hepatitis hepatitis [93, 94]. ultrasound ultrasound + alone alone [95]. ultrasound ultrasound [77]. demonstrated. demonstrated.",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "HCC HCC monitoring",
+      "text": "rate rate (doubling doubling time) [99-101]. bis bis [102]. month month [103]. guidelines guidelines [77.78]. Korea Korea [104]. months. months.",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "Patient Patient selection",
+      "text": "survival survival (or or TACE). out out at: • transplantation transplantation [105, 106]. • impossible. impossible. • survival. survival. • compliance. compliance.",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "Liver Liver cirrhosis",
+      "text": "diagnosed diagnosed [2]. elastography elastography (VCTE). approved approved (distance distance < 30%). cirrhosis cirrhosis include: • decompensation (hepatic hepatic encephalopathy) disease disease • disorder disorder • biochemical markers (and and bilirubin) direct direct (circotic circotic appearance) or indirect (venous venous collaterals).",
+      "start_page": 27,
+      "end_page": 28
+    },
+    {
+      "heading": "Chronic hepatitis B",
+      "text": "cirrhosis cirrhosis (80-90%) cirrhosis cirrhosis (< 0.2%), cirrhosis cirrhosis (> 1.5%) [110]. Sweden Sweden [41, 111]. factors factors (aflatoxin aflatoxin exposition) chronic chronic hepatitisB: • Africa Africa • male gender • increasing age • relatives relatives • DNA DNA (> 20,000 IU/ml) • levels levels • advanced fibrosis (stage F3) [119, 120] • C C • infection infection • D D • aflatoxin aflatoxin • diabetes mellitus.",
+      "start_page": 28,
+      "end_page": 29
+    },
+    {
+      "heading": "Chronic hepatitis C",
+      "text": "15-20 15-20 % 3 3 % per year [110, 121, 122] . elastography elastography [123]. therapy therapy (DAA) in in > 95%, development development [124]. 1-2 1-2 % per annum [38, 125]. cirrhosis cirrhosis (liver liver biopsy), to to < treatment. treatment.",
+      "start_page": 29,
+      "end_page": 30
+    },
+    {
+      "heading": "liver liver disease",
+      "text": "studies, studies, 19% [17] and 25% [127] by by 16% and and 22% of of > day day [128]. 0. 0.7% per year [129]. higher higher (2. 2.9% per year) hospitals hospitals [130]. common common [131].",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "choleangitis choleangitis (PBC)",
+      "text": "males males [132, 133]. prognosis prognosis [134].",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "hepatitis hepatitis (AIH)",
+      "text": "approximately approximately 1% per year [135, 136].",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "Hemochromatosis Hemochromatosis (HH)",
+      "text": "haemochromatosis haemochromatosis (HH) HCC HCC [137-139] to to 4% [138]. less less [140].",
+      "start_page": 30,
+      "end_page": 31
+    },
+    {
+      "heading": "antitrypsin antitrypsin deficiency",
+      "text": "diseases. diseases.",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "9 9 Wilson's Disease",
+      "text": "cirrhosis cirrhosis [143, 144]. MASLD MASLD (as as NACLD) 2. 2.6% indicated indicated [145]. in in 20-30% HCC HCC [146]. kPa kPa [147-149].",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "porphyria porphyria (AIP)",
+      "text": "1. 1.8% [8]. studies studies [75, 98] improve improve 3- guidelines guidelines [150].",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "tarda tarda (PCT)",
+      "text": "itself. itself.",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "HCC HCC monitoring",
+      "text": "cost-effective cost-effective [151]. years years [153]. ultrasound ultrasound [95]. years years [153]. Overall, Overall, it'1. 1.",
+      "start_page": 32,
+      "end_page": 33
+    },
+    {
+      "heading": "Inheritance",
+      "text": "background background [156]. low low [157]. Alfa-HC HC [158]. recessive. recessive.",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "clinical clinical findings",
+      "text": "are are unspecific; diagnosis diagnosis [159, 160]. In approximately 2/women women [159-161]. without without [160]. finding finding (84%) cirrhosis. cirrhosis.",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "healthcare healthcare course",
+      "text": "Knowledge Knowledge Bank: awakened awakened at: • upper upper abdomen",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "• of of chronic",
+      "text": "liver disease • groups groups (care care programme) or",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "investigations. investigations.",
+      "text": "MRI MRI (filter function). signs signs and",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "procedures. procedures.",
+      "text": "treatment course: REGIO • car ma • kro • his • present present lesion",
+      "start_page": 35,
+      "end_page": 36
+    },
+    {
+      "heading": "2 2 Radiology",
+      "text": "• 4-phase 4-phase liver/conference conference (MDK). • HCC. HCC. • algorithm. algorithm. (++++) • mg mg iod/examination examination (provided the patient'allows allows this). (++)",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "heading": "liver liver biopsy",
+      "text": "• transplantation transplantation (including down-stamping). MDK. MDK. • primarily. primarily. (children. children.) • HCC HCC • three three groups: − tumour dilation (DT DT and/or MRT) − portahypertension portahypertension − outcomes. outcomes.",
+      "start_page": 37,
+      "end_page": 38
+    },
+    {
+      "heading": "Diagnosis Diagnosis notification",
+      "text": "• them. them. • diagnosis. diagnosis.",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "heading": "ultrasound ultrasound (CEUS)",
+      "text": "lesions lesions (FLL) cirrhosis cirrhosis [162]. ICC ICC (intrahepatic choleangiocarcinoma). education education [163]. undergo undergo 4-MRI MRI (renal renal function), FLL. FLL.",
+      "start_page": 38,
+      "end_page": 39
+    },
+    {
+      "heading": "Computer Computer tomography",
+      "text": "comparable comparable [164]. 4 4 phases: native + phase phase + phase phase + Late phase (3-5 min). avoided avoided (= liver liver bub). Phase Phase + phase phase + advanced phase + delayed phase (3–5 min).",
+      "start_page": 39,
+      "end_page": 40
+    },
+    {
+      "heading": "3 3 MRI",
+      "text": "disodium disodium (Primovis) society society [167], another another [77, 168]. recommended. recommended.",
+      "start_page": 40,
+      "end_page": 41
+    },
+    {
+      "heading": "Non-invasive Non-invasive criteria",
+      "text": "HCC HCC (hepatitis hepatitis B) [169]. venous venous and/fa fa (wash-out), lesion. lesion.",
+      "start_page": 41,
+      "end_page": 41
+    },
+    {
+      "heading": "LI-RADS LI-RADS (Data Data System)",
+      "text": "website website [170]. katego katego • LR 1: definitely benign • LPR 2: probably benignan • L R 3: HCC HCC • LRR 4: probably HCC• LR 4: HCC ... LR 5: LI LI -a a similar: is is also: a du?/k.BWQQQ/j?almost almost 99% for HCP [172]. MRT MRT [173] . centres. centres.",
+      "start_page": 41,
+      "end_page": 42
+    },
+    {
+      "heading": "non-circotic non-circotic liver",
+      "text": "lesions lesions (cysts, cysts, hemangiomas) and pseudolesions (fat fat infiltrations) changes changes [170, 174]. response response (=response response rate) RECIST RECIST [179]. System System (LI-RADS) HCC HCC (LR-TR) [180]. in in LR'TR viable (likely likely viable), LR/TR equical (absolute viability) and LR–LR LR –any any of: • Artphasic discharge • peripheral discharge.",
+      "start_page": 42,
+      "end_page": 44
+    },
+    {
+      "heading": "the the referral:",
+      "text": "disease disease (etc. etc., and possibly cirrhosis/steatosis etc.)? treatment treatment (TACE, TACE, etc)? HCC monitoring/surveillance? focal focal changes?",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "heading": "Radiology opinion:",
+      "text": "examination examination + contrast contrast + quality quality + assessment assessment generally: Parentym: portahypertension portahypertension (Open-label Open-label porta? level level (left, left, segmental)? Gallways: Focal Focal changes: with with more) • invasion. invasion. • LIRADS category (forecasted cirrhosis/chronic hep B) • at at venetitis). • Caracteria (with with greater) • Possible vasculitis. • LIRADS category (predicated cirrhosis/chonic hepb B)",
+      "start_page": 44,
+      "end_page": 45
+    },
+    {
+      "heading": "Executive summary",
+      "text": "category category (provided cirrhosis/hepatitis B). Macrovascular vascular invasion? for for supplementation/follow-up.",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "heading": "at at HCC",
+      "text": "spread spread (of of 1-2%) [182-185]. porphyria porphyria > genes genes (heart heart failure) (18). LIRADS-4. LIRADS-4.",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "heading": "Tumor Tumor size",
+      "text": "invasion invasion [187]. criteria criteria (of of HCC) treatments treatments (including including pre- and post-operative treatment). transplantation transplantation (transplantation transplantation (LTx) at HCC), important important [188-191] ablation ablation (2 2 Ablation) treatments treatments (locoregional locoregional treatment) tumours tumours < BCLC BCLC for",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "heading": "of of Tumours",
+      "text": "propagation propagation [19]. factor factor [19].",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "heading": "occurrence occurrence of",
+      "text": "the the tumour'characteristics characteristics (of of HCC). described described as",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "heading": "vascular vascular invasion",
+      "text": "invasion invasion (both macro- and microscopic) prognosis prognosis (the the tumour). options options (including including pre- and post-operative treatment). magnitude magnitude [195] factor factor [19].",
+      "start_page": 46,
+      "end_page": 47
+    },
+    {
+      "heading": "node node metastasis",
+      "text": "prognancy prognancy [197]. common common [198].",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "heading": "Remote Remote metastasis",
+      "text": "premises premises [199].",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "heading": "marker marker alpha-fetoprotein",
+      "text": "Alpha-fetoprotein (AFP) sensitivity sensitivity (65%) and specificity (82%). invasion invasion [200]. 1000 1000 ng/mL (locoregional locoregional treatment) [201]. downstake downstake [202].",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "heading": "function function assessment",
+      "text": "the the patient'care. care.",
+      "start_page": 47,
+      "end_page": 48
+    },
+    {
+      "heading": "1 1 Child-Pugh",
+      "text": "of of severity: C C (2 2 Child- Pugh scale). tests tests (Limone) A6 A6 (equal to B7) resection resection [203].",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "heading": "Child-Pugh Child-Pugh scale",
+      "text": "Bilirubin Bilirubin umol/l < 35 35–51 >51 PK < 2 2 >Albumin Albumin g/l >35 28–35 < treated treated Moderate/Child-Pugh Child-Pugh A: Child-Pugh Child-Pugh B: child-Pugh child-Pugh C: > 1 1 Child-Turcotte-Pugh score (CTP) score assessment • 1 point: ascites ascites (on on ultrasound), treatment. treatment. • 2 points: diuretics. diuretics. • 3 points: repeated repeated tapping/TIPS (portosystemic portosystemic shunt).",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "heading": "the the Child-Turcotte-Pugh (CTP) scale",
+      "text": "• Grade 1: change. change. • Grade 2: stimulation. stimulation. • Degree 3: at at stimulation; • Grade 4: occur. occur.",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "heading": "liver liver function",
+      "text": "surgery surgery (remnant, remnant, FLR) perform perform one'a a patient'the the patient' diseases diseases (and and C), diseases diseases (and and PSC) diseases diseases (Wilson'etc. etc.) large large (more more segments) or complex (non-anatomical) hepatic hepatic disease/80 80 % HCC HCC [205] capacity. capacity.",
+      "start_page": 50,
+      "end_page": 52
+    },
+    {
+      "heading": "3 3 ECOG",
+      "text": "to to ECOG/WHO (to to ECog/WHO.) the the patient'morbidity. morbidity.",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "to to ECOG/WHO",
+      "text": "1 1 Can'than than 50% of the day'50 50 % of day-I I can'to to bed/chair. 5 Death",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "heading": "and and ASA",
+      "text": "separately separately (in in HCC) system system (classification classification system) ASA. ASA.",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "ASA Co-morbidity",
+      "text": "surgery. surgery.",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "1 1 TNM",
+      "text": "classification classification [14]. 8 8 (2018) choices. choices.",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "2 2 BCLC",
+      "text": "BCLC (Liver Liver Cancer) proposal proposal [77]. B B (intermediate HCC), recommendations recommendations [16].",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "treatment treatment algorithm",
+      "text": "algorithm algorithm (in in Sweden) as as follows: • to to symptoms/the the patient'morbidity. morbidity. • resection. resection. • transplantation transplantation (LTx) to to BCLC- conference. conference.",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "in in Sweden",
+      "text": "Chorec_vl_vn_vr_vht_vb_jp_gl_kl_jn_jwh_jf_jm_jd_jb_kb_hp_jc_jk_jx_j.jp-jp/jb",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "follow-up follow-up call:",
+      "text": "• him. him. • statement. statement. • and and treatment: perspective. perspective. • treatment. treatment. • capacity. capacity. • Identify the patient'support. support. • necessary. necessary. • diagnosis. diagnosis. • associations. associations.",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "and and rehabilitation",
+      "text": "rehabilitation. rehabilitation.",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "Recommendations",
+      "text": "• WHO WHO (5th 2019) edition edition (8th). • liver. liver. • diagnostics. diagnostics. • KVAST KVAST group'pathways. pathways. • biops biops (FNB) cytology cytology (FNAC) examined cytologically.",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "heading": "needle needle aspirate",
+      "text": "analysis analysis [206]. biopsy biopsy (EUS-FNB) liver liver (node node metastases). aspirate aspirate (FNAC) aspiration aspiration (EUNAC) the the liver(e. g. lympheurtelmetastasis). sampling sampling (so-called \"site site examination\") precision. precision.",
+      "start_page": 56,
+      "end_page": 57
+    },
+    {
+      "heading": "Quality Quality monitoring",
+      "text": "cytology cytology (FNAC), the the sampler'cytological cytological (FNAC) comparison comparison [207]. cm. cm. • clover clover (e.g., an ecclesiaspine) chemical. chemical. • body. body. • chamber. chamber. • test. test. • KVAST KVAST group: hilus (green), hepatoduodenal ligament (yellow), cow ent (orange). steamstock steamstock (resection lines). surface surface (shad shad [209]. as as follows: group group (HCV, HCV, PSC) diagnosis diagnosis (adenoma adenoma NH) findings findings (anatomical anatomical routing; solid, cystic and/necrotic, necrotic, hypoecogenic).",
+      "start_page": 57,
+      "end_page": 59
+    },
+    {
+      "heading": "Operational Operational preparations",
+      "text": "• procedure procedure (tracts tracts one-block) including which segment(s) of. of. • organs organs (abdominal abdominal oment). • markings. markings. • Preoperative procedures (embolising embolising (PVE), ALPPS). • Intraoperative observations (liver liver capsule). • interventions interventions (additional additional surgery). • not. not.",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "heading": "of of biopsies",
+      "text": "adenoma adenoma (HCA) subtypes subtypes (Bland Bland hepatocellular-colletarcinoma) hyperplasia hyperplasia (FNH).",
+      "start_page": 60,
+      "end_page": 61
+    },
+    {
+      "heading": "surgical surgical preparations",
+      "text": "2019 2019 [215]. tumour tumour units: hepatocellular carcinoma (HCC), hepatoblastoma hepatoblastoma (paediatric paediatric tumor), adenoma adenoma (HCA), hyperplasia hyperplasia (FNH) for for Pathology'tumours tumours [20].",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "heading": "Hepatocellular Hepatocellular carcinoma",
+      "text": "shall shall apply: (a) ‘infectious' body, body, (b), (c), (d), (e), (f), (g), (h), (k), (i), (ii), (j), (v), (iv), (vi), (x),) and (v). grading grading (for for steatohepatitis) KVAST KVAST document",
+      "start_page": 61,
+      "end_page": 62
+    },
+    {
+      "heading": "hepatocellular hepatocellular colangiocarcinoma",
+      "text": "choleangiocarcinoma choleangiocarcinoma (HCC-CCC) component component (CCC CCC respectively) carcinoma carcinoma [225]. colongiocarcinoma colongiocarcinoma (ICC).",
+      "start_page": 62,
+      "end_page": 63
+    },
+    {
+      "heading": "Hepatocellular Hepatocellular adenomas",
+      "text": "Hepatocellular adenoma (HCA) carcinoma carcinoma (HCC) is uncommon (8 8 %). activation activation (exon 3 mutated) HCA HCA (adenom adenom (HCA)) patient. patient.",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "adenoma adenoma (HCA)",
+      "text": "HGD1A- ~30% inactivated inactivated steatosis; Inflammatory Inflammatory ~35% β-catenin β-catenin ~10% and Exon3 mutation: Often •mutation mutation (and and ~15% than than S45): β β -inflammatori inflammatori •Exone 3 S45: Diffuse (starry-sky pattern) peripheral peripheral GS+ limit.",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "heading": "hedgehog",
+      "text": "Unclassified ~ 5 % ASS1 ASS1 (characterize characterize HCC: and and loss/negative. negative.",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Materials Materials (FNAC)",
+      "text": "material material (FNAC) materials materials [20]; studies studies and/used. used.",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Additional Additional analyses",
+      "text": "Medicine Medicine Sweden's (GMS) immunotherapy immunotherapy [22]. situations situations (mixed mixed tumours), choleangiocarcinoma choleangiocarcinoma (etc. etc.) [226]. REGIONALA REGIONALA CANCENTRU",
+      "start_page": 64,
+      "end_page": 65
+    },
+    {
+      "heading": "CHAPTER 10",
+      "text": "Multidisc conference",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "Recommendations",
+      "text": "• Each region'cow cow • cow cow • Subjects who assess",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "national national level",
+      "text": "phle phle Always: • upper gastro-radiologist • liver surgeon • hepatologist Most often: • responsibility responsibility • contact nurse Sometimes: • radiological intervention • pathologist • onference onference (MDK) at at hepatobiliary",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "ciplinary conference (MDK) at e",
+      "text": "andling andling (utera utera drumnde: an an log)",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "Level Level structure",
+      "text": "hepatobiliary hepatobiliary MDK? treatment treatment (best supportive care), condition condition (or or more) function function (Child Pugh C) tumor. tumor.",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "heading": "liver liver transplantation",
+      "text": "• liver. liver. • the the country'centers. centers. • recommended recommended (requires requires histopathology). • Child-Pugh Child-Pugh > transplantation. transplantation.",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "heading": "2 2 Ablation",
+      "text": "• lesion lesion ≤ Evidence Evidence level: (++). • abration. abration.",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "heading": "11. 11.3",
+      "text": "• cases. cases. • A A (preferably 5 p).",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "heading": "4 4 Transplantation",
+      "text": "• list list (++) Evidence Evidence level: (+). • Evidence Evidence rate: (++). • considered. considered. Evidence: weak.",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "heading": "Transarterial Transarterial treatments",
+      "text": "• cTACE (by by embolisation) status status (ECOG 0) function function (Child-Pugh A). Evidence: (+++) • Evidence Evidence level: • CTACE. CTACE. • low. low. • portatrombos. portatrombos.",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "heading": "Neoadjuvant Neoadjuvant treatment",
+      "text": "• treatment treatment and/or radiotherapy.",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "heading": "Adjuvant Adjuvant treatment",
+      "text": "treatment treatment and/function function (WHO PS 0-1) therapy therapy • products. products. • MedTERM0__ MedTERM0__ ___",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "heading": "treatment treatment review",
+      "text": "treatments treatments – cost cost [27%].",
+      "start_page": 69,
+      "end_page": 70
+    },
+    {
+      "heading": "Non-circotic Non-circotic liver",
+      "text": "liver, liver, resection/radically radically (R0) HCC HCC < tumours, tumours, < interventions interventions (of of HCC).",
+      "start_page": 70,
+      "end_page": 70
+    },
+    {
+      "heading": "Cirrotic Cirrotic liver",
+      "text": "transplantation transplantation (LTx) years years [230, 231] the the patient'transplantation transplantation [230, 232]. criteria criteria (transplantation transplantation (ITx) at HCC). Resection/limited limited [232-234]. transplantation transplantation [230; 235]. resection resection [77].",
+      "start_page": 70,
+      "end_page": 71
+    },
+    {
+      "heading": "and and number",
+      "text": "HCC HCC (not localised) tumours tumours and/treatment treatment (Systemic Systemic therapy) co-morbidity. co-morbidity.",
+      "start_page": 71,
+      "end_page": 72
+    },
+    {
+      "heading": "ablative ablative treatment",
+      "text": "resection resection [227-229]. margin margin (common common limit). aids aids [238]. ducts. ducts.",
+      "start_page": 72,
+      "end_page": 72
+    },
+    {
+      "heading": "and and RFA",
+      "text": "Microwave therapy (MWA) technology technology (RFA) treatment treatment [239].",
+      "start_page": 72,
+      "end_page": 73
+    },
+    {
+      "heading": "scientific scientific support",
+      "text": "injections injections (PEIT) RFA RFA [240, 241). the the liver: electroporisation electroporisation (IRE), ultrasound ultrasound (HICU). studies. studies.",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "heading": "locoregional locoregional treatments",
+      "text": "therapy therapy [242-245]. limits limits (> 3 cm) cases cases [24], evidence evidence [236]. treated treated (needing needing anaesthetics). accuracy accuracy [238]. structures. structures.",
+      "start_page": 73,
+      "end_page": 73
+    },
+    {
+      "heading": "after after ablation",
+      "text": "the the patient'damage. damage.",
+      "start_page": 74,
+      "end_page": 74
+    },
+    {
+      "heading": "liver liver resection",
+      "text": "HCC HCC (80 % SweLiv SweLiv 2009-2016) [234] HCC HCC [16, 236, 248], factors factors (and and stagnating) 50 50 % systemic systemic [251, 252].",
+      "start_page": 74,
+      "end_page": 75
+    },
+    {
+      "heading": "wedge wedge resection",
+      "text": "resection resection [253, 254], meta-analysis meta-analysis [255]. study study [256], tumours tumours (<the the capsule) volume. volume.",
+      "start_page": 75,
+      "end_page": 75
+    },
+    {
+      "heading": "invasive invasive technologies",
+      "text": "minor minor (< 5 cm) 6 6 [257]. laparoscopy laparoscopy [258]. ascites ascites [257]. technology technology [259]. localisation. localisation.",
+      "start_page": 75,
+      "end_page": 76
+    },
+    {
+      "heading": "of of FLR",
+      "text": "levels levels (ECOG 0-1), liver function (Child-Pugh 5p) FLR FLR (future liver remnant) central central [260]. least least 30% growth growth (261). PVE PVE (portavanic embolisation), ALPPS (Staged Staged hepatomy), embolization embolization (PVE+HVE, hepatic embolism). to to PVE/rate. rate.",
+      "start_page": 76,
+      "end_page": 76
+    },
+    {
+      "heading": "hepatic hepatic resection",
+      "text": "Sweliv Sweliv [263]. Serious complications (Clavien Dindo ≥ 3b) approximately approximately 10% is is 3% leakage leakage (each 7%). diuretics diuretics (3 3 Ascides). infection infection (21%), bleeding (unusual), renal failure (3%), events events (3%). failure failure (PHLF) 4 4 % of HCF.",
+      "start_page": 76,
+      "end_page": 77
+    },
+    {
+      "heading": "at at HCC",
+      "text": "criteria criteria (Singular HCC < 3 3 HCC<3cm) of of 75%, while 8% reported reported [81]. criteria criteria [81, 264]. criteria criteria (HFC HFC ≤ diameter diameter ≤ 8cm) [265] fetoprotein fetoprotein (AFP) Tx Tx [201, 266]. LTX LTX [189, 267, 268] countries countries [77, 269]. model model [189] cut-offs cut-offs (for for LTTx).",
+      "start_page": 77,
+      "end_page": 78
+    },
+    {
+      "heading": "2. 2.0",
+      "text": "AFP AFP + in in cm* (three three months) * The largest tumor'survival survival [270] Tx. Tx.",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "heading": "pending pending LTx",
+      "text": "loss loss (dropout) time time [271], as as ‘bridging'. dropout dropout [272, 273] AFP AFP [274-277] function function (7-8 7-8 p). LTx LTx [278, 279]. transplants. transplants.",
+      "start_page": 78,
+      "end_page": 79
+    },
+    {
+      "heading": "LTx LTx withdrawal",
+      "text": "transplantation transplantation [237, 280, 281]. therapies therapies (TACE, SIRT), described described [282, 283). a a patient'disease. disease.",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "heading": "waiting waiting time",
+      "text": "centre. centre.",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "heading": "after after LTx",
+      "text": "complications complications (Clavien Dindo ≥ 3b) approximately approximately 26% is is 0-1% liver liver (PNF) condition condition (< 1%) function function (",
+      "start_page": 79,
+      "end_page": 80
+    },
+    {
+      "heading": "after after LTx",
+      "text": "malignancy malignancy [288] rate rate [289, 290]. immunosuppression immunosuppression [291]. comparing comparing mTOR-calcinerine calcinerine inhibitor- years years [292].",
+      "start_page": 80,
+      "end_page": 81
+    },
+    {
+      "heading": "locoregional locoregional treatment",
+      "text": "Indrinsic metabolism [Testococlerosis] lipiodole lipiodole (an oil-basedcontrastant), chemotherapy chemotherapy (TACE) DEB DEB indications* B B > expected expected (bilirubin bilirubin > 50 mmol/the the below) failure failure (cerea-refractory asc",
+      "start_page": 81,
+      "end_page": 82
+    },
+    {
+      "heading": "TACE TACE (cTACE)",
+      "text": "studies studies [295, 299] status status (ECOG 0) [295, 299-304]. studies studies (from 1990 onwards).",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "heading": "2 2 DEB-TACE",
+      "text": "beads beads (DEB-TACE) cytotoxics cytotoxics (usually doxorubicin) cTACE cTACE [306, 307] CTACE CTACE [308], after after DEB–CATACE CATACE [39].",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "heading": "Chemoinfusion Chemoinfusion (TAI)",
+      "text": "response response [310] or survival [310, 311] TACE TACE (chemoembolization chemoembolization (cTACE, TAI) and DEB-TACE).",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "heading": "embolisation embolisation (TAE)",
+      "text": "studies studies (TAE TAE [312].",
+      "start_page": 83,
+      "end_page": 83
+    },
+    {
+      "heading": "with with TACE",
+      "text": "disease disease (Child-Pugh B-C), localisation localisation (tract tract complications), volume volume (with with abscedation). treatment. treatment.",
+      "start_page": 83,
+      "end_page": 84
+    },
+    {
+      "heading": "therapy therapy (SIRT)",
+      "text": "microspheres microspheres (SRI) toxicity toxicity [313, 314]. A A [315, 316]. standard standard dosimetrics",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "heading": "with with SIRTs",
+      "text": "REILD REILD (liver liver disease), bilirubin bilirubin [319] dose dose [319, 320].",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "heading": "or or SIRT",
+      "text": "TACE TACE [316, 321-324]. effect effect [325-329] survival survival [328, 330, 331], syndrome syndrome [330, 331; study study (n = 24) DEB-TACE DEB-TACE [332] discontinued discontinued (n=72) than than DEB–TACE[333; sufficient sufficient (carobär carobär disease).",
+      "start_page": 84,
+      "end_page": 84
+    },
+    {
+      "heading": "at at PVT",
+      "text": "thrombosis thrombosis (PVT), patients patients [334-342]. burden burden [114, 337, 343], strain strain [311, 314] impairment impairment (Child-Pugh B) [337]. PVT. PVT.",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "heading": "at at PVT",
+      "text": "PVT PVT [344, 345].survival survival (median 17 months) described described [346], PVTs PVTs [347].",
+      "start_page": 85,
+      "end_page": 85
+    },
+    {
+      "heading": "locoregional locoregional treatments",
+      "text": "recommended recommended [242-245]. TACE + ablation therapy; possible possible [24]. TACE+ systemic treatment: therapy therapy [348]. transplantation transplantation (LTx) for for resection: transplant transplant [349] achieved. achieved.",
+      "start_page": 85,
+      "end_page": 86
+    },
+    {
+      "heading": "Neoadjuvant Neoadjuvant treatment",
+      "text": "care care [354, 355]. studies. studies.",
+      "start_page": 86,
+      "end_page": 86
+    },
+    {
+      "heading": "Adjuvant Adjuvant treatment",
+      "text": "approximately approximately 70% surgery surgery [77]. size size >differentiation differentiation [356]. relapse. relapse.",
+      "start_page": 86,
+      "end_page": 87
+    },
+    {
+      "heading": "oncology oncology treatment",
+      "text": "status status (WHO PS 0-1) function function (Child Pugh A). function function ( Child B7), absolute absolute limit; complications. complications.",
+      "start_page": 87,
+      "end_page": 87
+    },
+    {
+      "heading": "2 2 Atezolizumab__MEDTERMS1__",
+      "text": "study study - randomised randomised 2:status status (WHO PS 0-1) function function (5-6 5-6 points) 67. 67.2% (95% 61.3-73.1) and 54.6% (95% CI 45.2-64) [359, 360]. other. other.",
+      "start_page": 87,
+      "end_page": 88
+    },
+    {
+      "heading": "3 3 Tremelimumab__MEDTERMS1__",
+      "text": "__ __ MEDTERM1__(STRIDE), therapy therapy (see below) or __ MedTERM5_1:1:status status (WHO PS 0-1) arm arm (STRIDE), by by __MTTERM1] months months (95% 06-19. 06-19.12) months months (95%CI2.3-16.1) 30. 30.7% and 20.2% respectively.",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "heading": "single single regimen",
+      "text": "detected detected [363]. NT NT Council'for for PD-(L)1 inhibitors.",
+      "start_page": 88,
+      "end_page": 88
+    },
+    {
+      "heading": "5 5 Sorafenib",
+      "text": "a a % months months [175]. population population [364]. in in NCCN'CC. CC.",
+      "start_page": 88,
+      "end_page": 89
+    },
+    {
+      "heading": "6 6 Lenvatinib",
+      "text": "for for __MediaM0=hypertension hypertension [365]. efficacy. efficacy.",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "heading": "palliative palliative therapy",
+      "text": "recommended. recommended.",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "heading": "1 1 Regorafenib",
+      "text": "study study [366]. study study (double blind, placebo-controlled) whom whom 38% with with _$63 63 (95% CI 0.50–0.79). with with _MEDPERM0___",
+      "start_page": 89,
+      "end_page": 89
+    },
+    {
+      "heading": "2 2 Cabozantinib",
+      "text": "study study (double-blind, placebo-controlled), treatment treatment [368]. A. A. 34% 76 76 (95% CI 0.63–0.92).",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "heading": "3 3 Ramucirumab",
+      "text": "REACH-1 REACH-1 (250 patients) and REACH-2 (292 patients) status status (WHO PS 0-1'function function (Child Pugh A). group group (HR 0.694; 95% 571-0. 571-0.842) with with AFP>rare rare [369, 370].",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "heading": "first first line",
+      "text": "placebo placebo (HR 0.781; 95% 0. 0.998), significant. significant. [371].",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "heading": "treatment treatment regimens",
+      "text": "Knowledge Knowledge Bank: reactions. reactions.",
+      "start_page": 90,
+      "end_page": 90
+    },
+    {
+      "heading": "Oncological Oncological Treatment",
+      "text": "the the patient'the the body'Cancercentrum. Cancercentrum.se'inhibitors. inhibitors.",
+      "start_page": 90,
+      "end_page": 91
+    },
+    {
+      "heading": "Stereotactic Stereotactic radiotherapy",
+      "text": "therapy therapy (SBRT) function function (Child Pugh B7) approximately approximately 13% years years [372]. rt rt i",
+      "start_page": 91,
+      "end_page": 91
+    },
+    {
+      "heading": "Treatment of Relapse",
+      "text": "ablation ablation • survival. survival. Evidence: • Child-Pugh Child-Pugh > Evidence Evidence rate: (++). • transplantation. transplantation. Evidence: (+ ++) • hepatic hepatic resection/allows. allows. Efarence: ++).",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "heading": "Post-transplant Post-transplant relapse",
+      "text": "• extrahepatic, extrahepatic, resection/assessment. assessment. • loss. loss.",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "heading": "tumour tumour relapse",
+      "text": "factor factor (at at HCC) [356, 373, 374]. relapse. relapse.",
+      "start_page": 92,
+      "end_page": 93
+    },
+    {
+      "heading": "and and ablation",
+      "text": "after after resection/itself itself [374, 375]. resection resection [376], treatment treatment (30-50%) 70 70 % years years [77, 377]. biphasic biphasic [378, 379], relapse relapse > more more [375, 377, 380]. lesion lesion (often early relapse), treatment. treatment.",
+      "start_page": 93,
+      "end_page": 93
+    },
+    {
+      "heading": "after after transplantation",
+      "text": "12 12 % and 20 %. 24 24 % [391]. relapses relapses (15 %) 20-100 20-100 ng/to to < 20 ng /ml [391]. years years [388, 392, 393] done. done.",
+      "start_page": 93,
+      "end_page": 94
+    },
+    {
+      "heading": "at at HCC",
+      "text": "beta-blocker beta-blocker (NSBB), carvedilol. carvedilol.",
+      "start_page": 95,
+      "end_page": 96
+    },
+    {
+      "heading": "at at HCC",
+      "text": "• malnutrition. malnutrition. • life. life. • life. life.",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "heading": "primary primary prophylaxis",
+      "text": "elastography elastography and/or TPK < VII VII [147]. 2 2 [398]. of of intolerance/hypertension hypertension (hepatophagal hepatophagal flow) only for intolerance/NSCBs. NSCBs.",
+      "start_page": 96,
+      "end_page": 97
+    },
+    {
+      "heading": "varix varix bleeding",
+      "text": "shunt shunt (TIPS) disease disease (at at endoscopy), tumour. tumour.",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "heading": "Secondary Secondary prophylaxis",
+      "text": "treatments. treatments.",
+      "start_page": 97,
+      "end_page": 97
+    },
+    {
+      "heading": "varix varix bleeding",
+      "text": "prophylaxis prophylaxis [398]. above above (primary primary prophylaxis). thrombocytopaenia. thrombocytopaenia.",
+      "start_page": 97,
+      "end_page": 99
+    },
+    {
+      "heading": "3 3 Ascites",
+      "text": "accumulation. accumulation.",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "heading": "and and bottling",
+      "text": "complication complication (or or infection). asc-LPK asc-LPK poly/peritonitis peritonitis (SBP).",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "heading": "peritonitis peritonitis (SBP)",
+      "text": "Asc-LPK – poly ≥ x x 109/present. present.",
+      "start_page": 99,
+      "end_page": 99
+    },
+    {
+      "heading": "Other Other treatment",
+      "text": "phase. phase.",
+      "start_page": 99,
+      "end_page": 100
+    },
+    {
+      "heading": "Hepatic Hepatic hydrotorax",
+      "text": "ascites ascites (hepatic hydrotorax). pleura pleura (spo bacterial empyem) effects. effects.",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "5 5 Nursing",
+      "text": "instrume instrume (for example RFH-NPT).",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "Liver Liver encephalopathy",
+      "text": "cell cell mass/function and/and and alcohol/occlusion. occlusion.",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "and and Signs",
+      "text": "Asterixis Asterixis (flabbing tremor) reactions reactions (contactable on speech), stimuli stimuli (time, time, ng),",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "1 1 Diagnostics",
+      "text": "test test (counting > 60 60 seconds) diagnoses diagnoses (infection, infection, epilepsy). value value (<70 μmol/L) enencephalopathy. enencephalopathy.",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "heading": "2 2 Treatment",
+      "text": "above above (the the liver) discharge discharge (per per day). disaccharides disaccharides (Lactul___/Lactitol) Rifaximin Rifaximin (Xifaxan) branched branched amine__MEDTERM0_$relapse. relapse.",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "heading": "of of care",
+      "text": "restrictions. restrictions.",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "heading": "4 4 Nursing",
+      "text": "instrument instrument (for example RFH-NPT). experience. experience.",
+      "start_page": 101,
+      "end_page": 101
+    },
+    {
+      "heading": "13.2 Nutrition",
+      "text": "life life [399]. complications complications [400]. the the patient'increased increased fatigue/surgery. surgery.",
+      "start_page": 101,
+      "end_page": 102
+    },
+    {
+      "heading": "Nutritional Nutritional status",
+      "text": "the the patient'following following factors: • loss loss (and and extent) • eating difficulties • underweight (BMI < 20 if < 70 years; BMI < 22 about > 70 years). oedema oedema and/Tool Tool (RFH-NPT) [years years [401] treatment. treatment.",
+      "start_page": 102,
+      "end_page": 103
+    },
+    {
+      "heading": "nutrition nutrition treatment",
+      "text": "The patient'the the patient' patient patient 'are are recommended: • Multidisciplinary team: patient patient ́situation. situation. • Nutritional assessment: status. status.",
+      "start_page": 103,
+      "end_page": 104
+    },
+    {
+      "heading": "and and HCC",
+      "text": "cirrhosis cirrhosis [405]. However, However, it'approximately approximately 20% malnutrition. malnutrition. [406]. an an energy- cirrhosis cirrhosis [407].",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "heading": "and and transplantation",
+      "text": "malnutrition malnutrition and/or sarcophaenia (regardless of BMI) course course [400, 405]. malnutrition malnutrition (regarding BMI), post-operative post-operative course[400]. drug drug and/and post- pre-nutrients pre-nutrients (regarded BMI).",
+      "start_page": 104,
+      "end_page": 104
+    },
+    {
+      "heading": "1 1 Preoperative",
+      "text": "malnutrition malnutrition and/or sarcophaenia (regardless of BMI) surgery surgery [400].",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "heading": "2 2 Post-operatively",
+      "text": "intake intake [408]. nutrition nutrition (EN) treatment. treatment.",
+      "start_page": 105,
+      "end_page": 105
+    },
+    {
+      "heading": "and and nutrition",
+      "text": "agent. agent. • reduction reduction (e. g. erythrocytes) the the patient; • care. care.",
+      "start_page": 106,
+      "end_page": 107
+    },
+    {
+      "heading": "13.3 Pruritus",
+      "text": "cholestyramine. cholestyramine.",
+      "start_page": 107,
+      "end_page": 107
+    },
+    {
+      "heading": "Preparation Dosage Observandum",
+      "text": "g g 1–absorption absorption – with with 10–x x 2- night night (hydroxyzine) with with 6–Sertraline Sertraline 50– (SSRI) Paroxin Paroxin 5–itching itching [343, 414]. shower. shower.",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "heading": "Summary and recommendations",
+      "text": "• process. process. • plan. plan. • available. available. • chain. chain. • process. process.",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "heading": "Contact Contact nurse",
+      "text": "the the patient'care care (SOU 2009:11). Contact Contact nurse'se. se.",
+      "start_page": 109,
+      "end_page": 110
+    },
+    {
+      "heading": "care care plan",
+      "text": "of of RCC'the the patient'years years 2024–what. what.",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "heading": "Active Active handover",
+      "text": "During the patient'should should be",
+      "start_page": 110,
+      "end_page": 110
+    },
+    {
+      "heading": "Confirming Confirming Care",
+      "text": "self-determination self-determination [368]. the the person'the the patient'insights insights [415]. disease disease [416-418]. interventions. interventions.",
+      "start_page": 111,
+      "end_page": 111
+    },
+    {
+      "heading": "Cancer Cancer rehabilitation",
+      "text": "Act Act (2017:30).",
+      "start_page": 111,
+      "end_page": 112
+    },
+    {
+      "heading": "specialised specialised rehabilitation",
+      "text": "the the patient'symptom symptom relief",
+      "start_page": 112,
+      "end_page": 112
+    },
+    {
+      "heading": "of of life",
+      "text": "relief, relief, patients' increase increase [418, 420]. ascites ascites (3 3 Ascites) and encephalopathy (Liver Liver encephalopathy). process process [417, 421]. ones ones [420, 423]. FACT-Hep FACT-Hep [427-429]. care care [430]. scale scale (Numeric Rating Scale) HCC HCC [415, 431].",
+      "start_page": 112,
+      "end_page": 113
+    },
+    {
+      "heading": "14.7 Fatigue",
+      "text": "fatigue fatigue – life life [432, 433]. in. in.",
+      "start_page": 113,
+      "end_page": 113
+    },
+    {
+      "heading": "Treating Treating Fatigue",
+      "text": "fatigue fatigue [434, 435]. rehabilitation rehabilitation [436]. ability ability [430]. of of fatigues: the the patient'treated. treated.",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "heading": "14.8 Pain",
+      "text": "cancer cancer [419, 437]. size size [437]. pain pain [437). pain pain [419, 438]. development. development.",
+      "start_page": 114,
+      "end_page": 114
+    },
+    {
+      "heading": "Treating Treating Pain",
+      "text": "10 10 mg/ kg/ 1 1 mg/ Inventory Inventory (BPI) daily daily (ongoing ongoing uc",
+      "start_page": 115,
+      "end_page": 116
+    },
+    {
+      "heading": "Summary and recommendations",
+      "text": "• individual. individual. • life. life.",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "heading": "physical physical activity",
+      "text": "The patient'habits habits (eating eating habits) the the patient' diseases. diseases. Patient'cancer cancer [442]. fatigue fatigue [436, 443-449]. avoided. avoided.",
+      "start_page": 117,
+      "end_page": 118
+    },
+    {
+      "heading": "Alternative Alternative Medicine",
+      "text": "medicine medicine (KAM) medicines medicines [450]. about about KAM: unknown. unknown.",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "heading": "risks risks (and and tobacco)",
+      "text": "complications complications (Cochrane review). survival survival [451]. Consumption of > of of alcohol/day (corresponding to > 10 standard glasses/week) HCC HCC [452). transplantation transplantation [453). anti-perative. anti-perative.",
+      "start_page": 118,
+      "end_page": 118
+    },
+    {
+      "heading": "Recommendations",
+      "text": "• wishes wishes (serious serious illness). • the the patient'information information (breakpoint call).",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "heading": "interventions. interventions.",
+      "text": "the the patient'the the patient's and relatives' course course - medicines. medicines.",
+      "start_page": 119,
+      "end_page": 120
+    },
+    {
+      "heading": "palliative palliative care",
+      "text": "needs needs (2 2 Nutrition). nutrition nutrition treatment: less. less.",
+      "start_page": 120,
+      "end_page": 121
+    },
+    {
+      "heading": "phase phase symptoms",
+      "text": "provided. provided.",
+      "start_page": 121,
+      "end_page": 121
+    },
+    {
+      "heading": "Recommendations",
+      "text": "• the the patient'Evidence Evidence level: (++). • Evidence Evidence • Evidence Evidence Grade: (+). • disease disease (surveillance) notice notice (5 5 years). Evidence rate: (+) • post-LTx. post-LTx.",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "heading": "main main objectives: relapses relapses early",
+      "text": "The patient'plan. plan. • plan plan • An up-living living conditions: nor nor • the the patient' it it • the the patients' up. up. • treatment. treatment. • of of life? • physical physical ability? • The patient'gisk gisk aller",
+      "start_page": 122,
+      "end_page": 123
+    },
+    {
+      "heading": "of of symptoms",
+      "text": "they they occur: • fatigue • nausea nausea • cause cause • itching itching • failure failure symptoms",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "heading": "Relapse Relapse control",
+      "text": "HCC HCC treatment",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "heading": "follow-up follow-up intervals",
+      "text": "months months (year 1) DT/MRT liver - months months (months 1) CT/DT DT / months months (Year 1) liver liver - 12 months ( Year 1) Dt/liver liver DTS/MNT liver DTT/months months ( Years 2) DT & MRT live DT",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "heading": "30 months (year 3) DT/MRT liver* DT / MRI liver* CT / MRT liver",
+      "text": "36 months (year 3) DT/MRT liver* CT/MRI liver* DT / months months (4 years 4) liver liver * 48 months (Year 4) CT/MRT liver* PC/M RT liver*months months ( Year 5) Dt/MRL liver* 60 months ( Years 5) CT / MRT live* D T/Mr liver* DM/MR liver* DG/toraxa toraxa * HCC HCC – surveillance (surveillance) groups. groups.",
+      "start_page": 125,
+      "end_page": 125
+    },
+    {
+      "heading": "17.6 Liability",
+      "text": "treatment treatment (ablation, surgery, transplantation) needs. needs.",
+      "start_page": 125,
+      "end_page": 125
+    },
+    {
+      "heading": "of of follow-up",
+      "text": "programme programme [4546].",
+      "start_page": 125,
+      "end_page": 126
+    },
+    {
+      "heading": "evidence evidence situation",
+      "text": "after after ablution/resection [374], LTx LTx [455]. unit unit (vertum vertum diseases: healthcare healthcare provider'development. development.",
+      "start_page": 126,
+      "end_page": 127
+    },
+    {
+      "heading": "19.1 SweLiv",
+      "text": "care care provider'SweLive. SweLive.",
+      "start_page": 128,
+      "end_page": 128
+    },
+    {
+      "heading": "Cancer Cancer Register",
+      "text": "register register (and and Welfare'HSLF-FS HSLF-FS 2016:7 and HSLF–FS 2023:36). Centre Centre (RCC) se. se.",
+      "start_page": 128,
+      "end_page": 128
+    },
+    {
+      "heading": "Coverage rate",
+      "text": "Measurements: Target Target figure: > 95 % SweLIV. SweLIV.",
+      "start_page": 129,
+      "end_page": 129
+    },
+    {
+      "heading": "Survival",
+      "text": "Measure: all all patients; treatment. treatment. Comment: B. B.: T. T., G.I., D.S., L., K., Ng., S., T. T., P., R., B., C., c.,d.,f.,k.,p.,c.,r.,e.,t.,m.,h.,n.b.,a.,X. X. Cholangiocarcinoma: Med. Med. 2024;148(3):HPB HPB : Association. Association. 2017;19(8):Caring Caring Prog",
+      "start_page": 129,
+      "end_page": 168
+    },
+    {
+      "heading": "RCC Central Sweden",
+      "text": "Karlsson, Karlsson, superior",
+      "start_page": 168,
+      "end_page": 168
+    },
+    {
+      "heading": "RCC North",
+      "text": "the the patient'Nations Nations (UN) transoccupinator, transoccupinator, transhumane",
+      "start_page": 168,
+      "end_page": 170
+    },
+    {
+      "heading": "RCC South",
+      "text": "radiology, radiology, Scania'radiologist, radiologist, Skåne'Skåne Skåne ́Skåne Skåne University",
+      "start_page": 170,
+      "end_page": 170
+    },
+    {
+      "heading": "RCC South East",
+      "text": "ukhua ukhua hus",
+      "start_page": 170,
+      "end_page": 171
+    },
+    {
+      "heading": "RCC West",
+      "text": "country. country.",
+      "start_page": 171,
+      "end_page": 171
+    },
+    {
+      "heading": "RCC West",
+      "text": "The agency'Bank Bank (ECB) rum rum – i i today'framförvaltning. framförvaltning.",
+      "start_page": 171,
+      "end_page": 175
+    },
+    {
+      "heading": "heading heading <Summary> (from Previous page)",
+      "text": "Row 1: Date",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 1)",
+      "text": "Row 1: 中2015",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 1)",
+      "text": "Row 1: 中2020",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 1)",
+      "text": "Row 1: 中2022",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 2)",
+      "text": "Row 1: 5-06-16",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 2)",
+      "text": "Row 1: 0-06-23",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 2)",
+      "text": "Row 1: 2-04-05",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 3)",
+      "text": "Row 1: in in collaboration",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 3)",
+      "text": "Row 1:in in collaboration",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary> (column column 3)",
+      "text": "Row 1:in in collaboration",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "heading heading <Summary and recommendations>",
+      "text": "diseases diseases (mainly MASLD) progression progression (diabetes diabetes mellitus) treatments. treatments. • C. C. • groups. groups. • B. B. • treatment. treatment.",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading <Summary and recommendations> (column 1)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23: Row 24: Row 25: Row 26: Row 27: Row 28:",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading <• country country and>",
+      "text": "Rights. Rights.",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "Heading Heading <liver liver biopsy>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23: Row 24: Row 25: Row 26: Row 27: Row 28: Row 29: Row 30: Row 31:",
+      "start_page": 37,
+      "end_page": 37
+    },
+    {
+      "heading": "heading heading <ultrasound ultrasound (CEUS)>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23:",
+      "start_page": 38,
+      "end_page": 38
+    },
+    {
+      "heading": "heading heading <Radiologist opinion>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23: Row 24: Row 25: Row 26: Row 27: Row 28: Row 29:",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "heading": "heading heading <at at HCC>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14:",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "heading": "Heading Heading <the the Child-Turcotte-Pugh scale (CTP)>",
+      "text": "Row 1: Parameter",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "heading": "Heading Heading <to to ECOG/WHO>",
+      "text": "Row 1: to to ECOG/WHO",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "Heading Heading <1 1 TNM>",
+      "text": "Row 1: than than 50% of the day'hours. hours.",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "Heading Heading <1 1 TNM>",
+      "text": "Row 1: Row Row 4: Row Row 5: 4",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "Heading Heading <and and Rehabilitation>",
+      "text": "Row 1: Size <3 cm",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "Heading Heading <and and Rehabilitation>",
+      "text": "Row 1: Child-Pugh A-B7",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "Heading Heading <and and Rehabilitation>",
+      "text": "Row 1: None/of of portathrombosis",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "Heading Heading <and and Rehabilitation>",
+      "text": "Row 1: Abla on",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "heading heading <needle needle aspirate>",
+      "text": "Row 1: 中Recommendations • WHO WHO (5th, 2019) distribution distribution (8th). • liver. liver. • diagnostics. diagnostics. • pathways. pathways. • alternatives. alternatives.",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "heading": "heading heading <needle needle aspirate> (column 1)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9: Row 10: Row 11: Row 12:",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)>",
+      "text": "than than kover? a a ‘creakton.",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)>",
+      "text": "Row 1: HNF1A-Row 2: disabled",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)>",
+      "text": "Row 1: β-catenin- Row 2: Row Row 3: β -catenin- Row 4: activated Row 5: inflammatori Row 6: so called",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)>",
+      "text": "Row 1: ~ 10 % and Row 2: ~ 15 %",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)>",
+      "text": "Row 1: Exon3 mutation: Often Row 2: Row Row 3: pseudoglandular Row 4: formations",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)>",
+      "text": "Row 1: Row Row 2: Row Row 3: mutation. Row 4: Row 5: Row 6: Row 7: Row 8: Row Row 9: Row Row 10: and exon",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)> (column 1)",
+      "text": "a a rain?a a koveroverpeak: Row Row 3:",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <adenoma adenoma (HCA)> (column 2)",
+      "text": "Row Row 5: en",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "Heading Heading <Additional Additional Analyses>",
+      "text": "Row 1:",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Heading Heading <Additional Additional Analyses>",
+      "text": "Row 1: Unclassified Row 2:",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Heading Heading <Additional Additional Analyses> (column 1)",
+      "text": "Row 1:",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Heading Heading <Additional Additional Analyses> (column 2)",
+      "text": "Row 1: Row 2:",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Heading Heading <Additional Additional Analyses> (column 2)",
+      "text": "Row 1: Row 2: er Row 3: Row 4:",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Heading Heading <Additional Additional Analyses> (column 3)",
+      "text": "Row 1:",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Heading Heading <ciplinary Conference (MDK) at e>",
+      "text": "Row 1: 中Recommendations • conference conference (MDK) competences. competences. • reject. reject. • Centre. Centre.",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "Heading Heading <ciplinary Conference (MDK) at e> (column 1)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9:",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "heading heading <2 2 Ablation>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23: Row 24: Row 25: Row 26: Row 27: Row 28:",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "heading": "Heading Heading <Neoadjuvant Neoadjuvant treatment>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23: Row 24: Row 25: Row 26: Row 27: Row 28: Row 29: Row 30: Row 31: Row 32: Row 33: Row 34: Row 35: Row 36: Row 37: Row 38: Row 39:",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "heading": "Heading Heading <Treatment Treatment Summary>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23: Row 24: Row 25: Row 26: Row 27: Row 28: Row 29: Row 30:",
+      "start_page": 69,
+      "end_page": 69
+    },
+    {
+      "heading": "heading heading <pending pending LTx>",
+      "text": "Row 1: tumours tumours + in in cm*",
+      "start_page": 78,
+      "end_page": 78
+    },
+    {
+      "heading": "Heading Heading < Locoregional Locoregional Treatment> (from Previous Page)",
+      "text": "total total of: kation. kation.dities: and and down? (the the below) outReelative counter-in indications* ( the the following)",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "heading": "Heading Heading < Locoregional Locoregional Treatment> (Column Column 1)",
+      "text": "Row 1: 中Lever-function Row 2:",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "heading": "Heading Heading < Locoregional Locoregional Treatment> (Column Column 2)",
+      "text": "du du kover? total total of: (the the below).Reelative counter-indting indications* ( the the following)",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "heading": "Heading Heading < Locoregional Locoregional Treatment> (Column Column 3)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9: a Row 10: ngen Row 11: 6 Row 12: Row 13: Row 14: tera Row 15: nan Row 16: ng (ex Row 17: ) Row 18: Row 19:",
+      "start_page": 82,
+      "end_page": 82
+    },
+    {
+      "heading": "Heading Heading <Tumour Tumour Relapse>",
+      "text": "Odowoveroverover?kP: ablation ablation • Evidence Evidence level: (++). • Child-Pugh Child-Pugh > Evidence Evidence degree: (+ ++) • transplantation. transplantation.",
+      "start_page": 92,
+      "end_page": 92
+    },
+    {
+      "heading": "Heading Heading <at at HCC>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 9: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16: Row 17: Row 18: Row 19: Row 20: Row 21: Row 22: Row 23: Row 24: Row 25: Row 26: Row 27: Row 28: Row 29: Row 30: Row 31: Row 32: Row 33:",
+      "start_page": 95,
+      "end_page": 95
+    },
+    {
+      "heading": "heading heading <primary primary prophylaxis>",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15: Row 16:",
+      "start_page": 96,
+      "end_page": 96
+    },
+    {
+      "heading": "Heading Heading <and and Signs>",
+      "text": "Row 1: Grade",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "Heading Heading <and and Signs> (column 1)",
+      "text": "Row 1: Row Row 2: Row Row 3: Asterixis (flabbing tremor) Row Row 4: II",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "Heading Heading <and and Signs> (column 2)",
+      "text": "Row 1: d",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "Heading Heading <and and Signs> (column 2)",
+      "text": "Row 1: ng),",
+      "start_page": 100,
+      "end_page": 100
+    },
+    {
+      "heading": "Heading Heading < Preparat Dosage Observandum>",
+      "text": "Ataraax Ataraax (hydroxyzine)",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "heading": "Heading Heading < Preparat Dosage Observandum>",
+      "text": "Row 1: Row Row 2: example Questran",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "heading": "Heading Heading < Preparat Dosage Observandum>",
+      "text": "Row 1: Row Row 2: night",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "heading": "Heading Heading < Preparat Dosage Observandum>",
+      "text": "Row 1: Row Row 2: fatigue",
+      "start_page": 108,
+      "end_page": 108
+    },
+    {
+      "heading": "heading heading < Contact Contact nurse>",
+      "text": "Row 1: recommendations recommendations • process. process. • plan. plan. • provided. provided. • chain. chain. • process. process.",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "heading": "heading heading < Contact Contact nurse> (column 1)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15:",
+      "start_page": 109,
+      "end_page": 109
+    },
+    {
+      "heading": "Heading Heading <physical physical activity>",
+      "text": "Row 1: recommendations recommendations • individual. individual. • life. life. Evidence: (++++).",
+      "start_page": 117,
+      "end_page": 117
+    },
+    {
+      "heading": "heading heading <For For more>",
+      "text": "Row 1: 中Recommendations • the the patient'wishes wishes (serious serious illness). • on on patient' information information (breakpoint call).",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "heading": "heading heading <For For more> (column 1)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9:",
+      "start_page": 119,
+      "end_page": 119
+    },
+    {
+      "heading": "Heading Heading <main main purposes: the the process>",
+      "text": "Row 1: 中Recommendations • the the patient'Evidence Evidence level: (++). • Evidence Evidence rate: (+ +). • of of evidence: (+). • disease disease (surveillance) notice notice (5 5 years). Evidence level : (+).",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "heading": "Heading Heading <main main purposes: early early as> (column 1)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 10: Row 11: Row 12: Row 13: Row 14: Row 15:",
+      "start_page": 122,
+      "end_page": 122
+    },
+    {
+      "heading": "Heading Heading <follow-up follow-up interval>",
+      "text": "Row 1: Interval",
+      "start_page": 124,
+      "end_page": 124
+    },
+    {
+      "heading": "Heading Heading <of of follow-up>",
+      "text": "Row 1: 30 months (years 3)",
+      "start_page": 125,
+      "end_page": 125
+    }
+  ]
+}

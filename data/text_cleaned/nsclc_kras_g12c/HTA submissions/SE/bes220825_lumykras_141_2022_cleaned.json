@@ -1,7 +1,8 @@
 {
   "doc_id": "bes220825_lumykras_141_2022",
   "created_date": "2022",
-  "country:": "SE",
+  "country": "SE",
+  "source_type": "hta_submission",
   "chunks": [
     {
       "heading": "Datum Vår beteckning",

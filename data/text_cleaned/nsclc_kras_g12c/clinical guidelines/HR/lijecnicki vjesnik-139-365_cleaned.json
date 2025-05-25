@@ -1,7 +1,8 @@
 {
   "doc_id": "lijecnicki vjesnik-139-365",
   "created_date": "2017",
-  "country:": "HR",
+  "country": "HR",
+  "source_type": "clinical_guideline",
   "chunks": [
     {
       "heading": "",

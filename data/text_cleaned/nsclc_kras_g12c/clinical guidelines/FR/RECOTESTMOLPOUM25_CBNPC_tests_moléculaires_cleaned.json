@@ -1,7 +1,8 @@
 {
   "doc_id": "RECOTESTMOLPOUM25_CBNPC_tests_moléculaires",
   "created_date": "2023",
-  "country:": "FR",
+  "country": "FR",
+  "source_type": "clinical_guideline",
   "chunks": [
     {
       "heading": "SLEITNERÉFÉR",

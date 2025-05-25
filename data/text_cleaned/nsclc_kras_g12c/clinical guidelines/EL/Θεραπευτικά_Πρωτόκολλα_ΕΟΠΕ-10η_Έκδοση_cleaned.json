@@ -1,7 +1,8 @@
 {
   "doc_id": "Θεραπευτικά_Πρωτόκολλα_ΕΟΠΕ-10η_Έκδοση",
   "created_date": "2024",
-  "country:": "EL",
+  "country": "EL",
+  "source_type": "clinical_guideline",
   "chunks": [
     {
       "heading": "",

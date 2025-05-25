@@ -1,7 +1,8 @@
 {
   "doc_id": "HTA_submission_sotosorib_FR",
   "created_date": "2022",
-  "country:": "FR",
+  "country": "FR",
+  "source_type": "hta_submission",
   "chunks": [
     {
       "heading": "",

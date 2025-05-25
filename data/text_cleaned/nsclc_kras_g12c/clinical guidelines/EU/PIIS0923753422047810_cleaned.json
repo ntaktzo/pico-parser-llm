@@ -1,7 +1,8 @@
 {
   "doc_id": "PIIS0923753422047810",
   "created_date": "2022",
-  "country:": "EU",
+  "country": "EU",
+  "source_type": "clinical_guideline",
   "chunks": [
     {
       "heading": "SPECIAL ARTICLE",

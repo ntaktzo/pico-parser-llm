@@ -1,7 +1,8 @@
 {
   "doc_id": "s12094-018-1978-1",
   "created_date": "20",
-  "country:": "ES",
+  "country": "ES",
+  "source_type": "clinical_guideline",
   "chunks": [
     {
       "heading": "CLINICAL GUIDES IN ONCOLOGY",

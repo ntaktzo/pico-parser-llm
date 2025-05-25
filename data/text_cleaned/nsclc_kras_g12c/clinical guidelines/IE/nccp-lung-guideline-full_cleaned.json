@@ -1,7 +1,8 @@
 {
   "doc_id": "nccp-lung-guideline-full",
   "created_date": "2017",
-  "country:": "IE",
+  "country": "IE",
+  "source_type": "clinical_guideline",
   "chunks": [
     {
       "heading": "",

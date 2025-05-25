@@ -18,6 +18,8 @@ from python.open_ai import validate_api_key
 # LLM related imports
 from openai import OpenAI
 
+from langchain.schema import SystemMessage, HumanMessage
+
 
 class RagHTASubmission:
     """
@@ -28,6 +30,8 @@ class RagHTASubmission:
     4. Vectorization
     5. Retrieval
     6. PICO extraction
+
+    Enhanced to support different source types (HTA submissions vs clinical guidelines).
     """
 
     def __init__(
@@ -41,7 +45,7 @@ class RagHTASubmission:
         chunk_size: int = 600,
         chunk_overlap: int = 200,
         chunk_strategy: str = "semantic",
-        vectorstore_type: str = "biobert"  # Add vectorstore_type parameter
+        vectorstore_type: str = "biobert"
     ):
         """
         Initialize the RAG system with customizable parameters.
@@ -68,7 +72,7 @@ class RagHTASubmission:
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
         self.chunk_strategy = chunk_strategy
-        self.vectorstore_type = vectorstore_type  # Store vectorstore_type
+        self.vectorstore_type = vectorstore_type
 
         # Initialize OpenAI client
         self.openai = OpenAI()
@@ -81,50 +85,180 @@ class RagHTASubmission:
         self.vectorstore_openai = None
         self.vectorstore_biobert = None
         self.retriever = None
-        self.pico_extractor = None
+        self.pico_extractor_hta = None
+        self.pico_extractor_clinical = None
 
-        # Define system prompt for PICO extraction
-        self.system_prompt = (
-            "You are a medical expert assisting with evidence synthesis. "
-            "Carefully review the provided context about Health Technology Assessment documents. "
-            "You must find all relevant Population, Intervention, Comparator, and Outcomes (PICO) information. "
-            "IMPORTANT: For this specific task, do NOT consider Sotorasib as the 'Intervention' in the PICO framework. "
-            "Instead, identify each treatment option mentioned in the documents as a separate PICO entry. "
-            "Fill the 'Intervention' field with a placeholder like 'New medicine under assessment'. "
-            "Treatments such as Sotorasib, docetaxel, or any other treatment options should be listed in the 'Comparator' field. "
-            "Use step-by-step reasoning internally (chain-of-thought) to identify explicit or implicit comparators, "
-            "including control groups, placebo, 'versus' statements, standard of care, or alternative therapies. "
-            "However, do NOT reveal your chain-of-thought in the final answer. "
-            "Your final output must be valid JSON only, strictly following the requested format. "
-            "No additional commentary or explanation outside the JSON."
-        )
-
-        # Define user prompt template for PICO extraction
-        self.user_prompt_template = (
-            "Context:\n{context_block}\n\n"
-            "Instructions:\n"
-            "Identify all distinct sets of Population, Comparator, and Outcomes in the above text.\n"
-            "For each comparator, create a separate PICO entry. Do NOT include Sotorasib as the 'Intervention'.\n"
-            "Instead, leave the 'Intervention' field as 'New medicine under assessment' and include all treatment options "
-            "(including Sotorasib) as separate PICOs with different comparators.\n"
-            "Output valid JSON ONLY in the following form:\n"
-            "{{\n"
-            "  \"Country\": \"{country}\",\n"
-            "  \"PICOs\": [\n"
-            "    {{\"Population\":\"...\", \"Intervention\":\"New medicine under assessment\", \"Comparator\":\"...\", \"Outcomes\":\"...\"}},\n"
-            "    <!-- more if multiple PICOs -->\n"
-            "  ]\n"
-            "}}\n"
-            "Nothing else. **Only JSON**, no extra text."
-        )
-
-        # Default query for PICO extraction
-        self.default_query = """
+        # Default queries for different source types
+        self.default_query_hta = """
         In the context of this HTA submission, identify all medicines mentioned, including:
         1. The medicine under evaluation (submission medicine)
         2. ALL possible comparator treatments (alternative interventions, control arms, standard-of-care options, placebos, or therapies described as being 'compared to' or 'versus' the main medicine)
         3. For each medicine, identify the specific intended population with details about disease severity, prior therapy requirements, biomarkers, and any relevant inclusion/exclusion criteria.
         """
+        
+        self.default_query_clinical = """
+        1. In this clinical guideline, identify all treatment recommendations SPECIFICALLY for adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.
+        2. First-line, second-line, and subsequent treatment options for KRAS G12C mutations in NSCLC patients after at least one prior systemic therapy.
+        3. Specific patient populations for each treatment (by biomarker status, disease stage, prior therapy)
+        4. Treatment algorithms or decision trees for different patient populations
+        5. Comparative information between different treatment options, including efficacy and safety profiles
+        """
+        
+        # Define system prompts for different source types
+        self.system_prompt_hta = """
+        You are a medical specialist in oncology with expertise in health technology assessment for lung cancer treatments. Your task is to extract PICO (Population, Intervention, Comparator, Outcomes) elements from HTA submissions, specifically focusing on treatments for adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.
+
+        Analyze the provided HTA submission using this structured approach:
+
+        Step 1: Document Organization Assessment
+        - Identify sections containing population details, comparator information, and outcome data
+
+        Step 2: Population Identification
+        - Verify references to advanced/metastatic NSCLC
+        - Identify prior therapy requirements
+        - Note other inclusion/exclusion criteria (ECOG status, age, etc.)
+
+        Step 3: Treatment/Comparator Analysis
+        - Identify the primary medicine being assessed
+        - Note all comparators explicitly mentioned
+        - Identify any standard of care treatments referenced
+        - Record treatments mentioned in clinical trials cited
+
+        Step 4: Outcome Extraction
+        - Extract primary and secondary efficacy endpoints
+        - Identify safety, quality of life, and economic outcomes
+
+        Step 5: PICO Assembly
+        - For each identified comparator, create a separate PICO entry
+        - Always use "New medicine under assessment" as the Intervention
+        - Include the specific comparator in the Comparator field
+        - Use the most detailed population description found
+        - List all relevant outcomes identified
+
+        Do NOT include your reasoning process in the final output. Your final output must be valid JSON only, strictly following the requested format.
+        """
+
+        self.system_prompt_clinical = """
+        You are a medical specialist in oncology with expertise in clinical practice guidelines for lung cancer. Your task is to extract PICO (Population, Intervention, Comparator, Outcomes) elements from clinical guidelines, specifically focusing on recommendations for adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation who have progressed after at least one prior systemic therapy.
+
+        Analyze the provided clinical guideline using this structured approach:
+
+        Step 1: Guideline Structure Analysis
+        - Identify sections on advanced non-small cell lung cancer KRAS mutations who have progressed after at least one prior systemic therapy.
+        - Locate treatment algorithms based on molecular profiles
+
+        Step 2: KRAS G12C-Specific Content
+        - Determine if KRAS G12C mutation is explicitly addressed
+        - Note any KRAS G12C testing recommendations
+
+        Step 3: Treatment Recommendation Identification
+        - Extract recommendations for post-first-line therapy
+        - Find recommendations specifically for KRAS G12C+ patients
+
+        Step 4: Recommendation Context Analysis
+        - Note evidence levels assigned to recommendations
+        - Identify expected outcomes from recommended treatments
+        - Extract factors influencing treatment selection
+
+        Step 5: PICO Assembly
+        - For each relevant recommendation, create a PICO entry
+        - Only involve patietns with KRAS G12C mutation  
+        - Include relevant recommendations for post-progression therapy
+        - Ensure population descriptions are as detailed as possible, and include mutation status and prior therapy details
+
+        Do NOT include your reasoning process in the final output. Your final output must be valid JSON only, strictly following the requested format.
+        """
+
+        # Define user prompt templates for different source types
+        self.user_prompt_template_hta = """
+        Context:
+        {context_block}
+
+        Instructions:
+        Extract all PICO elements from this HTA submission specifically for adult patients with advanced NSCLC with KRAS G12C mutation who have progressed after prior therapy.
+
+        Follow this systematic approach:
+        1. Extract the exact population description with all eligibility criteria
+        2. For each treatment or comparator mentioned:
+        - Create a separate PICO entry 
+        - Always set "New medicine under assessment" as the Intervention (including the medicine under assessment in the submission)
+        - Put the specific treatment as the Comparator
+        3. Include all clinical outcomes evaluated
+
+        Output valid JSON ONLY in this format:
+        {{
+        "Country": "{country}",
+        "PICOs": [
+            {{"Population":"[Detailed population with KRAS G12C status and prior therapy]", "Intervention":"New medicine under assessment", "Comparator":"[Specific treatment/comparator]", "Outcomes":"[Specific outcomes measured]"}},
+            <!-- additional PICOs as needed -->
+        ]
+        }}
+
+        Return ONLY the JSON, no additional text.
+        """
+
+        self.user_prompt_template_clinical = """
+        Context:
+        {context_block}
+
+        Instructions:
+        Extract all treatment recommendations from this clinical guideline relevant to adult patients with advanced NSCLC with KRAS G12C mutation who have progressed after prior therapy.
+
+        Follow this systematic approach:
+        1. Identify any content specifically addressing KRAS G12C mutation
+        2. Extract recommendations for second-line+ therapy in advanced NSCLC
+        3. For each relevant recommendation:
+        - Precisely describe the applicable patient population
+        - Identify the recommended treatment(s)
+        - Note alternative options
+        - Extract expected outcomes
+
+        If KRAS G12C is not explicitly addressed, include recommendations for:
+        - Similar biomarker-driven therapies
+        - General second-line therapy for advanced NSCLC
+
+        Output valid JSON ONLY in this format:
+        {{
+        "Country": "{country}",
+        "PICOs": [
+            {{"Population":"[Specific patient population]", "Intervention":"[Recommended treatment]", "Comparator":"[Alternative options]", "Outcomes":"[Expected benefits]"}},
+            <!-- additional PICOs as needed -->
+        ]
+        }}
+
+        Return ONLY the JSON, no additional text.
+        """
+        
+        self.user_prompt_template_clinical = """
+        Context:
+        {context_block}
+
+        Instructions:
+        Extract all treatment recommendations from this clinical guideline relevant to adult patients with advanced NSCLC with KRAS G12C mutation who have progressed after prior therapy.
+
+        Follow this systematic approach:
+        1. Identify any content specifically addressing KRAS G12C mutation
+        2. Extract recommendations for second-line+ therapy in advanced NSCLC
+        3. For each relevant recommendation:
+        - Precisely describe the applicable patient population
+        - Identify the recommended treatment(s)
+        - Note alternative options
+        - Extract expected outcomes
+
+        If KRAS G12C is not explicitly addressed don't include it.
+
+        Output valid JSON ONLY in this format:
+        {{
+        "Country": "{country}",
+        "PICOs": [
+            {{"Population":"[Specific patient population]", "Intervention":"[Recommended treatment]", "Comparator":"[Alternative options]", "Outcomes":"[Expected benefits]"}},
+            <!-- additional PICOs as needed -->
+        ]
+        }}
+
+        Return ONLY the JSON, no additional text.
+        """
+
 
     def show_folder_structure(self, root_path: str = ".", show_hidden: bool = False, max_depth: Optional[int] = None):
         """Show the folder structure of the project."""
@@ -175,7 +309,8 @@ class RagHTASubmission:
             output_dir=self.path_chunked,
             chunk_size=self.chunk_size,
             chunk_overlap=self.chunk_overlap,
-            chunk_strat=self.chunk_strategy
+            chunk_strat=self.chunk_strategy,
+            maintain_folder_structure=True
         )
         
         # Run chunking pipeline
@@ -247,20 +382,243 @@ class RagHTASubmission:
         
         print(f"Initialized retriever with {vectorstore_type} vectorstore")
 
-    def initialize_pico_extractor(self):
-        """Initialize the PICO extractor with the current retriever."""
+    def initialize_pico_extractors(self):
+        """Initialize separate PICO extractors for HTA and clinical guideline sources."""
         if self.retriever is None:
             print("Retriever not initialized. Please run initialize_retriever first.")
             return
             
-        self.pico_extractor = PICOExtractor(
+        # HTA Submissions extractor
+        self.pico_extractor_hta = PICOExtractor(
             chunk_retriever=self.retriever,
-            system_prompt=self.system_prompt,
-            user_prompt_template=self.user_prompt_template,
+            system_prompt=self.system_prompt_hta,
+            user_prompt_template=self.user_prompt_template_hta,
             model_name=self.model
         )
-        print(f"Initialized PICO extractor with model {self.model}")
+        
+        # Clinical Guidelines extractor
+        self.pico_extractor_clinical = PICOExtractor(
+            chunk_retriever=self.retriever,
+            system_prompt=self.system_prompt_clinical,
+            user_prompt_template=self.user_prompt_template_clinical,
+            model_name=self.model
+        )
+        
+        print(f"Initialized PICO extractors for both source types with model {self.model}")
 
+    def get_all_countries(self):
+        """
+        Retrieves all unique country codes available in the vectorstore.
+        
+        Returns:
+            List[str]: List of unique country codes
+        """
+        if self.retriever is None:
+            print("Retriever not initialized. Please run initialize_retriever first.")
+            return []
+        
+        # Get all available countries from the vectorstore metadata
+        # Use a high limit without a where filter
+        result = self.retriever.chroma_collection.get(
+            limit=10000,  # Use a high limit to get most documents
+            include=['metadatas']
+        )
+        
+        # Extract unique countries from metadata
+        countries = set()
+        for metadata in result['metadatas']:
+            if metadata and 'country' in metadata and metadata['country'] not in ['unknown', None, '']:
+                countries.add(metadata['country'])
+        
+        return sorted(list(countries))
+
+    def extract_picos_by_source_type(
+        self,
+        countries: List[str],
+        source_type: str = "hta_submission",
+        query: Optional[str] = None,
+        initial_k: int = 30,
+        final_k: int = 15,
+        heading_keywords: Optional[List[str]] = None
+    ):
+        """
+        Extract PICOs from the specified countries and source type.
+        Special case: If 'ALL' is in countries, it will be replaced with all available countries.
+        
+        Args:
+            countries: List of country codes to extract PICOs from, or ["ALL"] for all countries
+            source_type: Source type to extract from ("hta_submission" or "clinical_guideline")
+            query: Query to use for retrieval (defaults to source-specific default query)
+            initial_k: Initial number of documents to retrieve
+            final_k: Final number of documents to use after filtering
+            heading_keywords: Keywords to look for in document headings
+        
+        Returns:
+            List of extracted PICOs
+        """
+        # Initialize extractors if not already done
+        if self.pico_extractor_hta is None or self.pico_extractor_clinical is None:
+            self.initialize_pico_extractors()
+        
+        # Handle the "ALL" special case - check if any country is "ALL"
+        if any(country == "ALL" for country in countries):
+            all_countries = self.get_all_countries()
+            if not all_countries:
+                print("No countries detected in the vectorstore. Please check your data.")
+                return []
+            
+            # Replace the countries list with the list of all countries
+            countries = all_countries
+            print(f"Processing all available countries: {', '.join(countries)}")
+        
+        # Set source-specific defaults
+        if source_type == "hta_submission":
+            extractor = self.pico_extractor_hta
+            default_query = self.default_query_hta
+            default_headings = ["comparator", "alternative", "therapy"]
+            output_prefix = "hta"
+        elif source_type == "clinical_guideline":
+            extractor = self.pico_extractor_clinical
+            default_query = self.default_query_clinical
+            default_headings = ["recommendation", "treatment", "therapy", "algorithm"]
+            output_prefix = "clinical"
+        else:
+            raise ValueError(f"Unsupported source_type: {source_type}")
+            
+        # Use defaults if not specified
+        if query is None:
+            query = default_query
+            
+        if heading_keywords is None:
+            heading_keywords = default_headings
+            
+        # Create a filter for the source type
+        source_filter = {"source_type": source_type}
+        
+        # Extract PICOs with source type filter
+        extracted_picos = []
+        
+        # Ensure the output directory exists
+        os.makedirs("results", exist_ok=True)
+        
+        # Import necessary classes for messages
+        from langchain.schema import SystemMessage, HumanMessage
+        
+        for country in countries:
+            print(f"Processing country: {country}")
+            
+            # Get document chunks for this country and source type
+            results_dict = extractor.chunk_retriever.retrieve_pico_chunks(
+                query=query,
+                countries=[country],
+                heading_keywords=heading_keywords,
+                initial_k=initial_k,
+                final_k=final_k,
+                source_filter=source_filter  # Add source type filtering
+            )
+            
+            country_chunks = results_dict.get(country, [])
+            if not country_chunks:
+                print(f"No {source_type} chunks found for country {country}")
+                continue
+            
+            # Process chunks with context manager
+            processed_chunks = extractor.context_manager.process_chunks(country_chunks)
+            context_block = extractor.context_manager.build_optimal_context(processed_chunks)
+            
+            # Prepare system and user messages correctly
+            system_msg = SystemMessage(content=extractor.system_prompt)
+            user_msg_text = extractor.user_prompt_template.format(
+                context_block=context_block,
+                country=country
+            )
+            user_msg = HumanMessage(content=user_msg_text)
+            
+            # LLM call
+            try:
+                llm_response = extractor.llm([system_msg, user_msg])
+            except Exception as exc:
+                print(f"LLM call failed for {country}: {exc}")
+                continue
+            
+            answer_text = getattr(llm_response, 'content', str(llm_response))
+            
+            # Parse JSON response
+            try:
+                parsed_json = json.loads(answer_text)
+            except json.JSONDecodeError:
+                # Retry once with explicit instruction to fix JSON
+                fix_msg = HumanMessage(content="Please correct and return valid JSON in the specified format only.")
+                try:
+                    fix_response = extractor.llm([system_msg, user_msg, fix_msg])
+                    fix_text = getattr(fix_response, 'content', str(fix_response))
+                    parsed_json = json.loads(fix_text)
+                except Exception as parse_err:
+                    print(f"Failed to parse JSON for {country}: {parse_err}")
+                    continue
+            
+            # Save results
+            if isinstance(parsed_json, dict):
+                parsed_json["Country"] = country  # Ensure correct country
+                parsed_json["SourceType"] = source_type  # Add source type
+                extracted_picos.append(parsed_json)
+                outpath = os.path.join("results", f"{output_prefix}_picos_{country}.json")
+                with open(outpath, "w", encoding="utf-8") as f:
+                    json.dump(parsed_json, f, indent=2, ensure_ascii=False)
+                print(f"Saved PICO results for {country} to {outpath}")
+            else:
+                # Handle non-dict response
+                wrapped_json = {
+                    "Country": country,
+                    "SourceType": source_type,
+                    "PICOs": parsed_json if isinstance(parsed_json, list) else []
+                }
+                extracted_picos.append(wrapped_json)
+                outpath = os.path.join("results", f"{output_prefix}_picos_{country}.json")
+                with open(outpath, "w", encoding="utf-8") as f:
+                    json.dump(wrapped_json, f, indent=2, ensure_ascii=False)
+                print(f"Saved PICO results for {country} to {outpath}")
+        
+        print(f"Extracted PICOs for {source_type} from countries: {', '.join(countries)}")
+        return extracted_picos
+
+    def extract_picos_hta(
+        self,
+        countries: List[str],
+        query: Optional[str] = None,
+        initial_k: int = 30,
+        final_k: int = 15,
+        heading_keywords: Optional[List[str]] = None
+    ):
+        """Extract PICOs specifically from HTA submissions."""
+        return self.extract_picos_by_source_type(
+            countries=countries,
+            source_type="hta_submission",
+            query=query,
+            initial_k=initial_k,
+            final_k=final_k,
+            heading_keywords=heading_keywords
+        )
+
+    def extract_picos_clinical(
+        self,
+        countries: List[str],
+        query: Optional[str] = None,
+        initial_k: int = 30,
+        final_k: int = 15,
+        heading_keywords: Optional[List[str]] = None
+    ):
+        """Extract PICOs specifically from clinical guidelines."""
+        return self.extract_picos_by_source_type(
+            countries=countries,
+            source_type="clinical_guideline",
+            query=query,
+            initial_k=initial_k,
+            final_k=final_k,
+            heading_keywords=heading_keywords
+        )
+
+    # Original method kept for backward compatibility
     def extract_picos(
         self,
         countries: List[str],
@@ -270,11 +628,11 @@ class RagHTASubmission:
         heading_keywords: Optional[List[str]] = None
     ):
         """
-        Extract PICOs from the specified countries.
+        Extract PICOs from the specified countries (both source types).
         
         Args:
             countries: List of country codes to extract PICOs from
-            query: Query to use for retrieval (defaults to self.default_query)
+            query: Query to use for retrieval (defaults to self.default_query_hta)
             initial_k: Initial number of documents to retrieve
             final_k: Final number of documents to use after filtering
             heading_keywords: Keywords to look for in document headings
@@ -282,17 +640,17 @@ class RagHTASubmission:
         Returns:
             List of extracted PICOs
         """
-        if self.pico_extractor is None:
-            print("PICO extractor not initialized. Please run initialize_pico_extractor first.")
-            return []
+        # For backward compatibility, use the HTA extractor
+        if self.pico_extractor_hta is None:
+            self.initialize_pico_extractors()
             
         if query is None:
-            query = self.default_query
+            query = self.default_query_hta
             
         if heading_keywords is None:
             heading_keywords = ["comparator", "alternative", "therapy"]
             
-        extracted_picos = self.pico_extractor.extract_picos(
+        extracted_picos = self.pico_extractor_hta.extract_picos(
             countries=countries,
             query=query,
             initial_k=initial_k,
@@ -307,6 +665,7 @@ class RagHTASubmission:
         self,
         query: str,
         countries: List[str],
+        source_type: Optional[str] = None,
         heading_keywords: Optional[List[str]] = None,
         drug_keywords: Optional[List[str]] = None,
         initial_k: int = 20,
@@ -318,6 +677,7 @@ class RagHTASubmission:
         Args:
             query: Query for retrieval
             countries: List of country codes to retrieve from
+            source_type: Optional source type filter (hta_submission or clinical_guideline)
             heading_keywords: Keywords to look for in document headings
             drug_keywords: Keywords for drugs to prioritize
             initial_k: Initial number of documents to retrieve
@@ -331,10 +691,13 @@ class RagHTASubmission:
             return None
             
         if heading_keywords is None:
-            heading_keywords = ["comparator", "alternative"]
+            heading_keywords = ["comparator", "alternative", "treatment"]
             
         if drug_keywords is None:
             drug_keywords = ["docetaxel", "nintedanib"]
+            
+        # Create source_filter if source_type is provided
+        source_filter = {"source_type": source_type} if source_type else None
             
         test_results = self.retriever.test_retrieval(
             query=query,
@@ -342,22 +705,25 @@ class RagHTASubmission:
             heading_keywords=heading_keywords,
             drug_keywords=drug_keywords,
             initial_k=initial_k,
-            final_k=final_k
+            final_k=final_k,
+            source_filter=source_filter  # Add source filter
         )
         
         return test_results
 
-    def run_full_pipeline(
+    def run_full_pipeline_for_source(
         self,
+        source_type: str,
         countries: List[str] = ["EN", "DE", "FR", "PO"],
         skip_processing: bool = False,
         skip_translation: bool = True,
         vectorstore_type: Optional[str] = None
     ):
         """
-        Run the full RAG pipeline.
+        Run the full RAG pipeline for a specific source type.
         
         Args:
+            source_type: Type of source to process ("hta_submission" or "clinical_guideline")
             countries: List of country codes to extract PICOs from
             skip_processing: Skip PDF processing if True
             skip_translation: Skip translation if True
@@ -391,10 +757,15 @@ class RagHTASubmission:
         # Initialize retriever
         self.initialize_retriever(vectorstore_type=vectorstore_type if vectorstore_type != "both" else "biobert")
         
-        # Initialize PICO extractor
-        self.initialize_pico_extractor()
+        # Initialize PICO extractors
+        self.initialize_pico_extractors()
         
-        # Extract PICOs
-        extracted_picos = self.extract_picos(countries=countries)
+        # Extract PICOs based on source type
+        if source_type == "hta_submission":
+            extracted_picos = self.extract_picos_hta(countries=countries)
+        elif source_type == "clinical_guideline":
+            extracted_picos = self.extract_picos_clinical(countries=countries)
+        else:
+            raise ValueError(f"Unsupported source_type: {source_type}")
         
         return extracted_picos

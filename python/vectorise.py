@@ -36,6 +36,12 @@ import torch
 
 
 
+import os
+import json
+from typing import List, Dict, Any, Optional, Union
+import re
+import logging
+
 class Chunker:
     def __init__(
         self,
@@ -43,20 +49,22 @@ class Chunker:
         output_dir="./data/text_chunked",
         chunk_size=600,
         chunk_overlap=100,
-        chunk_strat="recursive"  # <-- Add this to choose the strategy: "semantic" or "recursive"
+        chunk_strat="recursive",  # "semantic" or "recursive"
+        maintain_folder_structure=False  # Parameter to control folder structure preservation
     ):
         self.json_folder_path = json_folder_path
         self.chunk_size = chunk_size
         self.chunk_overlap = chunk_overlap
         self.chunk_strat = chunk_strat
         self.output_dir = output_dir
+        self.maintain_folder_structure = maintain_folder_structure
         os.makedirs(self.output_dir, exist_ok=True)
 
     def load_json_documents(self) -> List[Document]:
         """
         Loads JSON files recursively and converts each heading-based entry
         into a preliminary LangChain Document.
-        If top-level 'created_date' or 'country' are found, store them in each chunk's metadata.
+        Enhanced to detect source type from the path.
         """
         documents = []
         json_files = glob.glob(os.path.join(self.json_folder_path, "**/*.json"), recursive=True)
@@ -64,6 +72,17 @@ class Chunker:
 
         for jf in json_files:
             print(f"Processing file: {jf}")
+            # Calculate relative path from input folder to this JSON file
+            rel_path = os.path.relpath(jf, self.json_folder_path)
+            
+            # Detect source type from path
+            source_type = "unknown"
+            path_lower = jf.lower()
+            if "hta submission" in path_lower or "hta submissions" in path_lower:
+                source_type = "hta_submission"
+            elif "clinical guideline" in path_lower or "clinical guidelines" in path_lower:
+                source_type = "clinical_guideline"
+            
             with open(jf, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
@@ -74,6 +93,10 @@ class Chunker:
             doc_id = data["doc_id"]
             doc_created_date = data.get("created_date", "unknown_year")
             doc_country = data.get("country", data.get("country:", "unknown"))
+            
+            # Use source_type from JSON if available, otherwise use the one detected from path
+            doc_source_type = data.get("source_type", source_type)
+            
             chunks = data["chunks"]
 
             if not isinstance(chunks, list) or len(chunks) == 0:
@@ -91,7 +114,9 @@ class Chunker:
                     "start_page": c.get("start_page"),
                     "end_page": c.get("end_page"),
                     "created_date": doc_created_date,
-                    "country": doc_country
+                    "country": doc_country,
+                    "source_type": doc_source_type,  # Add source type to metadata
+                    "original_file_path": rel_path  # Store the relative path for maintaining structure
                 }
 
                 documents.append(
@@ -103,6 +128,7 @@ class Chunker:
 
         print(f"Loaded {len(documents)} heading-level documents.")
         return documents
+
 
     def chunk_documents(self, docs: List[Document]) -> List[Document]:
         """
@@ -142,21 +168,45 @@ class Chunker:
 
     def save_chunks_to_files(self, chunks: List[Document]):
         """
-        Saves the final chunks to individual files in the output directory.
+        Saves the final chunks to files while maintaining the original folder structure if requested.
         Each file is named <doc_id>_chunked.json and contains all chunks with that doc_id.
         """
+        # Group chunks by doc_id and original file path
         grouped = defaultdict(list)
+        
+        # Organize chunks by their document ID and original file path
         for doc in chunks:
             doc_id = doc.metadata.get("doc_id", "unknown_doc")
-            grouped[doc_id].append({
+            original_file_path = doc.metadata.get("original_file_path", "")
+            
+            # Key format: tuple of (doc_id, original_file_path)
+            key = (doc_id, original_file_path)
+            grouped[key].append({
                 "text": doc.page_content,
                 "metadata": doc.metadata
             })
 
-        for doc_id, doc_chunks in grouped.items():
-            out_path = os.path.join(self.output_dir, f"{doc_id}_chunked.json")
+        # Save each group to its corresponding location
+        for (doc_id, original_file_path), doc_chunks in grouped.items():
+            if self.maintain_folder_structure and original_file_path:
+                # Extract directory path from original file path
+                original_dir = os.path.dirname(original_file_path)
+                
+                # Create target directory mirroring the original structure
+                target_dir = os.path.join(self.output_dir, original_dir)
+                os.makedirs(target_dir, exist_ok=True)
+                
+                # Construct output path preserving the directory structure
+                output_filename = f"{doc_id}_chunked.json"
+                out_path = os.path.join(target_dir, output_filename)
+            else:
+                # Simple flat structure - just save in the output directory
+                out_path = os.path.join(self.output_dir, f"{doc_id}_chunked.json")
+            
+            # Save the document with its chunks
             with open(out_path, "w", encoding="utf-8") as f:
                 json.dump({"doc_id": doc_id, "chunks": doc_chunks}, f, indent=2, ensure_ascii=False)
+            
             print(f"Saved {len(doc_chunks)} chunks to {out_path}")
 
     def debug_print_chunks(self, docs: List[Document], num_chunks=5):
@@ -172,7 +222,6 @@ class Chunker:
         heading_docs = self.load_json_documents()
         final_chunks = self.chunk_documents(heading_docs)
         self.save_chunks_to_files(final_chunks)
-
 
 
 
@@ -212,20 +261,31 @@ class Vectoriser:
     def load_chunked_documents(self) -> List[Document]:
         """
         Loads chunked JSON files into Document objects.
+        Uses recursive glob to find JSON files in any subdirectory of the chunked_folder_path.
         """
         documents = []
-        json_files = glob.glob(os.path.join(self.chunked_folder_path, "*.json"))
-        print(f"Found {len(json_files)} JSON files in {self.chunked_folder_path}.")
+        # Use recursive glob to find JSON files in any subdirectory
+        json_files = glob.glob(os.path.join(self.chunked_folder_path, "**/*.json"), recursive=True)
+        print(f"Found {len(json_files)} JSON files in {self.chunked_folder_path} (including subdirectories).")
 
         for jf in json_files:
             with open(jf, "r", encoding="utf-8") as f:
                 data = json.load(f)
 
+            # Get the relative path from chunked_folder_path to the json file directory
+            rel_path = os.path.relpath(os.path.dirname(jf), self.chunked_folder_path)
+            
             for c in data.get("chunks", []):
                 text_content = c.get("text", "").strip()
                 if not text_content:
                     continue
+                
                 metadata = c.get("metadata", {})
+                
+                # Add the folder path as additional metadata if not already present
+                if rel_path and rel_path != "." and "folder_path" not in metadata:
+                    metadata["folder_path"] = rel_path
+                
                 documents.append(Document(page_content=text_content, metadata=metadata))
 
         print(f"Loaded {len(documents)} valid document chunks.")
