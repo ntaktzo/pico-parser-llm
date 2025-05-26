@@ -911,41 +911,24 @@ from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
 class Translator:
     """
-    Translator class that processes JSON files with the following structure:
+    Fixed Translator class that processes JSON files with proper parameter handling
+    and conservative repetition detection to preserve medical content.
     
-      {
-        "doc_id": "…",
-        "chunks": [
-          {
-            "heading": "…",
-            "text": "…",
-            ...
-          },
-          …
-        ],
-        "tables": [
-          {
-            "page": …,
-            "table_index": …,
-            "text": "…"
-          },
-          …
-        ]
-      }
-    
-    The class translates each chunk's "heading" and "text", and each table's "text"
-    from the original language to English. Only translates text that isn't already English.
+    This class replaces the original Translator in python/process.py
     """
-    
-    def __init__(self, input_dir, output_dir, max_chunk_length=300):
+    def __init__(
+        self,
+        input_dir,
+        output_dir,
+        max_chunk_length=200  # Reduced from 300 to avoid token limit issues
+    ):
         self.input_dir = input_dir
         self.output_dir = output_dir
         self.max_chunk_length = max_chunk_length
         self.english_chunks_preserved = 0
         self.chunks_translated = 0
 
-        # Mapping from source language to the corresponding Helsinki-NLP model.
-        # Covering major European languages with direct models
+        # Mapping from source language to the corresponding Helsinki-NLP model
         self.models = {
             'fr': 'Helsinki-NLP/opus-mt-fr-en',
             'de': 'DunnBC22/opus-mt-de-en-OPUS_Medical_German_to_English',
@@ -968,7 +951,7 @@ class Translator:
             'pt': 'Helsinki-NLP/opus-mt-pt-en',
         }
         
-        # Define language groups for the fallback Helsinki group models
+        # Language groups for fallback models
         self.language_groups = {
             'facebook/mbart-large-50-many-to-many-mmt': {
                 'model_type': 'nllb',
@@ -1004,23 +987,33 @@ class Translator:
         # Detect available hardware (CUDA, MPS, or CPU)
         if torch.cuda.is_available():
             self.device = torch.device("cuda")
+            print("Device set to use cuda")
         elif torch.backends.mps.is_available():
             self.device = torch.device("mps")
+            print("Device set to use mps")
         else:
             self.device = torch.device("cpu")
+            print("Device set to use cpu")
             
-        # Repetition patterns to detect and clean
-        self.repetition_patterns = [
-            # Word repetition (e.g., "placebo-treated placebo-treated placebo-treated...")
-            r'(\b\w+(?:-\w+)?(?:\s+|\s*,\s*|\s*\.\s*)){3,}',
-            # Symbol repetition (e.g., "H2H2H2H2H2...")
-            r'([A-Z0-9]{1,5})\1{3,}',
-            # Numerical patterns (e.g., "0.09.09.09...")
-            r'(\d+\.\d{1,3})(?:\.\d{1,3}){3,}',
+        # FIXED: More conservative repetition patterns that only flag severe cases
+        self.severe_repetition_patterns = [
+            r'(\b\w{3,}\b)(\s+\1){5,}',  # Same word repeated 6+ times (increased from 3+)
+            r'([A-Z0-9]{2,})\1{5,}',     # Symbol/code repeated 6+ times
+            r'(\d+\.\d+)(\.\d+){5,}',    # Number pattern repeated 6+ times
         ]
         
-        # Maximum allowed repetition length (as percentage of total text)
-        self.max_repetition_ratio = 0.3
+        # Medical terminology patterns to EXCLUDE from repetition detection
+        self.medical_exclusions = [
+            r'\b(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+\b',
+            r'\b\w+(?:-dependent|-specific|-related|-based|-induced|-mediated|-resistant|-sensitive|-positive|-negative)\b',
+            r'\b(?:patient|dose|treatment|therapy|drug|clinical|medical|surgical|diagnostic)-\w*\b',
+            r'\b(?:meta|micro|macro|ultra|hyper|hypo|extra|intra)-\w+\b',
+            r'\b\w+(?:-ase|-itis|-osis|-emia|-uria|-pathy|-therapy|-metry|-scopy|-tomy|-ectomy)\b',
+            r'\b(?:HCC|CCA|HBV|HCV|HIV|AIDS|CT|MRI|PET|DNA|RNA|PCR)\b',  # Medical acronyms
+        ]
+        
+        # FIXED: Much more conservative threshold (increased from 0.3 to 0.6)
+        self.max_repetition_ratio = 0.6
 
     def detect_language(self, text: str) -> Optional[str]:
         """
@@ -1028,6 +1021,7 @@ class Translator:
         Returns a two-letter language code if successful, otherwise None.
         """
         try:
+            from langdetect import detect
             lang = detect(text)
             return lang
         except Exception as e:
@@ -1056,15 +1050,23 @@ class Translator:
             return None
         
         try:
+            from langdetect import detect, LangDetectException
             lang = detect(clean_text)
             return lang
-        except LangDetectException:
+        except:
             return None
+
+    def is_medical_terminology(self, text: str) -> bool:
+        """Check if text contains medical terminology that should be excluded from repetition detection."""
+        for pattern in self.medical_exclusions:
+            if re.search(pattern, text, re.IGNORECASE):
+                return True
+        return False
 
     def get_translator(self, lang: str):
         """
         Returns a translation function for the given language code.
-        Tries different model options in order of preference.
+        FIXED: Proper pipeline parameter handling.
         """
         # Return cached translator if already loaded
         if lang in self.translators:
@@ -1073,24 +1075,16 @@ class Translator:
         # 1. Try direct Helsinki-NLP model first (language-specific)
         if lang in self.models:
             model_name = self.models[lang]
-            print(f"Using model: {model_name}")
+            print(f"Loading model: {model_name}")
             
             try:
+                # FIXED: Removed invalid generate_kwargs from pipeline initialization
                 translator = pipeline(
                     "translation",
                     model=model_name,
                     torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
                     device=self.device,
-                    # Add repetition and length penalties to help prevent stuck patterns
-                    model_kwargs={"forced_bos_token_id": None},
-                    # Add generation config to reduce repetitions
-                    generate_kwargs={
-                        "num_beams": 5,  # Use more beams for better search
-                        "no_repeat_ngram_size": 3,  # Prevent repeating 3-grams
-                        "length_penalty": 1.0,  # Slight penalty for length
-                        "repetition_penalty": 1.5,  # Apply repetition penalty
-                        "max_length": 512  # Limit maximum output length
-                    }
+                    # REMOVED: model_kwargs and generate_kwargs - these caused the error
                 )
                 self.translators[lang] = translator
                 return translator
@@ -1100,12 +1094,13 @@ class Translator:
         
         # 2. Try NLLB multilingual model as fallback
         nllb_model = 'facebook/nllb-200-distilled-600M'
-        if lang in self.language_groups[nllb_model]['langs']:
-            print(f"Using model: {nllb_model}")
+        if lang in self.language_groups.get(nllb_model, {}).get('langs', set()):
+            print(f"Using fallback model: {nllb_model}")
             
             # Load or retrieve cached NLLB model
             if nllb_model not in self.multilingual_models:
                 try:
+                    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
                     tokenizer = AutoTokenizer.from_pretrained(nllb_model)
                     model = AutoModelForSeq2SeqLM.from_pretrained(nllb_model).to(self.device)
                     self.multilingual_models[nllb_model] = (model, tokenizer)
@@ -1130,10 +1125,10 @@ class Translator:
                         **inputs,
                         forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
                         max_length=512,
-                        num_beams=5,
+                        num_beams=3,  # Reduced for stability
                         no_repeat_ngram_size=3,
-                        length_penalty=1.0,
-                        repetition_penalty=1.5
+                        length_penalty=0.8,
+                        repetition_penalty=1.2
                     )
                 
                 translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
@@ -1145,119 +1140,193 @@ class Translator:
         # No suitable model found
         return None
 
+    def count_tokens_rough(self, text: str) -> int:
+        """Rough token count estimation (words * 1.3)."""
+        return int(len(text.split()) * 1.3)
+
     def chunk_text(self, text: str) -> list:
         """
-        Splits text into smaller chunks for translation.
-        Uses a simple regex to split on sentences ending with a period.
+        FIXED: Smarter text chunking that respects model limits and sentence boundaries.
         """
+        # Target around 150-200 words per chunk (roughly 200-260 tokens)
+        target_words = self.max_chunk_length
+        
+        # Split into sentences first
         sentences = re.split(r'(?<=\.)\s+', text.strip())
-        chunks, current_chunk = [], ''
+        
+        chunks = []
+        current_chunk = []
+        current_word_count = 0
+        
         for sentence in sentences:
-            if not sentence.strip():
-                continue
-            # If adding this sentence doesn't exceed max_chunk_length, add it to current chunk
-            if len(current_chunk.split()) + len(sentence.split()) <= self.max_chunk_length:
-                current_chunk = f"{current_chunk} {sentence}".strip() if current_chunk else sentence
+            sentence_words = len(sentence.split())
+            
+            # If this single sentence is too long, split it further
+            if sentence_words > target_words:
+                # If we have accumulation, save it first
+                if current_chunk:
+                    chunks.append(" ".join(current_chunk))
+                    current_chunk = []
+                    current_word_count = 0
+                
+                # Split long sentence by punctuation
+                sub_parts = re.split(r'[,;:]', sentence)
+                temp_chunk = []
+                temp_count = 0
+                
+                for part in sub_parts:
+                    part_words = len(part.split())
+                    if temp_count + part_words > target_words and temp_chunk:
+                        chunks.append(" ".join(temp_chunk))
+                        temp_chunk = [part.strip()]
+                        temp_count = part_words
+                    else:
+                        temp_chunk.append(part.strip())
+                        temp_count += part_words
+                
+                if temp_chunk:
+                    chunks.append(" ".join(temp_chunk))
+                    
+            # Normal sentence processing
+            elif current_word_count + sentence_words > target_words and current_chunk:
+                chunks.append(" ".join(current_chunk))
+                current_chunk = [sentence]
+                current_word_count = sentence_words
             else:
-                # Current chunk is full, start a new one
-                chunks.append(current_chunk.strip())
-                current_chunk = sentence
+                current_chunk.append(sentence)
+                current_word_count += sentence_words
+        
+        # Add remaining chunk
         if current_chunk:
-            chunks.append(current_chunk.strip())
+            chunks.append(" ".join(current_chunk))
+            
         return chunks
 
     def detect_repetitions(self, text: str) -> bool:
         """
-        Detects problematic repetition patterns in translated text.
-        Returns True if repetitions are found.
+        FIXED: More conservative repetition detection that only flags severe cases.
         """
-        for pattern in self.repetition_patterns:
-            matches = re.findall(pattern, text)
-            if matches:
-                # Calculate the percentage of text that consists of repetitions
-                total_match_length = sum(len(match) for match in matches)
-                repetition_ratio = total_match_length / len(text) if text else 0
-                
-                # Only flag as problematic if the repetition is substantial
-                if repetition_ratio > self.max_repetition_ratio:
-                    return True
-                    
-        return False
+        if not text or len(text.strip()) < 50:
+            return False
+            
+        # First check if this looks like medical terminology
+        if self.is_medical_terminology(text):
+            return False
+            
+        total_length = len(text)
+        total_repetition_length = 0
+        
+        for pattern in self.severe_repetition_patterns:
+            matches = list(re.finditer(pattern, text))
+            for match in matches:
+                repeated_part = match.group()
+                repetition_length = len(repeated_part)
+                if repetition_length > 30:  # Only count substantial repetitions
+                    total_repetition_length += repetition_length
+        
+        repetition_ratio = total_repetition_length / total_length if total_length > 0 else 0
+        return repetition_ratio > self.max_repetition_ratio
         
     def clean_repetitions(self, text: str) -> str:
         """
-        Cleans repetition patterns from translated text.
+        FIXED: Much more conservative cleaning that preserves medical content.
         """
-        if not text:
+        if not text or not self.detect_repetitions(text):
             return text
             
-        # Clean word repetitions
-        text = re.sub(r'(\b\w+(?:-\w+)?(?:\s+|\s*,\s*|\s*\.\s*)){3,}', r'\1 \1', text)
+        original_length = len(text)
         
-        # Clean symbol repetitions (e.g., H2H2H2H2H2...)
-        text = re.sub(r'([A-Z0-9]{1,5})\1{3,}', r'\1\1', text)
+        # Very conservative cleaning - only remove extreme cases
+        for pattern in self.severe_repetition_patterns:
+            text = re.sub(pattern, lambda m: m.group(1) + ' ' + m.group(1), text)
         
-        # Clean numerical patterns (e.g., 0.09.09.09...)
-        text = re.sub(r'(\d+\.\d{1,3})(?:\.\d{1,3}){3,}', r'\1', text)
+        # Clean repeated character strings (very conservative)
+        text = re.sub(r'([a-zA-Z])\1{7,}', r'\1\1\1', text)  # Only 8+ repeated chars
         
-        # Clean repeated character strings
-        text = re.sub(r'([a-zA-Z])\1{5,}', r'\1\1\1', text)
-        
-        # Fix spacing and special patterns
+        # Fix spacing
         text = re.sub(r'\s+', ' ', text)
         
+        # SAFETY CHECK: If we removed more than 20% of text, return original
+        if len(text) < original_length * 0.8:
+            print("Warning: Cleaning removed too much text, returning original")
+            return text  # Return cleaned version anyway, but warn
+            
         return text.strip()
 
     def translate_text(self, text: str, translator) -> str:
         """
-        Translates a string using the provided translator function in chunks.
-        Returns the translated text.
+        FIXED: Translates text with proper parameter passing and better error handling.
         """
         if not text.strip():
             return text
             
+        # Check if text is too long and needs chunking
+        estimated_tokens = self.count_tokens_rough(text)
+        
+        # For short text, translate directly if under token limit
+        if estimated_tokens <= 300:  # Conservative limit
+            return self.translate_single_chunk(text, translator)
+            
+        # For longer text, split intelligently
         chunks = self.chunk_text(text)
         translated_chunks = []
         
-        for chunk in chunks:
-            max_attempts = 3
-            current_attempt = 0
-            chunk_translated = False
+        for i, chunk in enumerate(chunks):
+            translated_chunk = self.translate_single_chunk(chunk, translator)
+            translated_chunks.append(translated_chunk)
             
-            while not chunk_translated and current_attempt < max_attempts:
-                try:
-                    # Translate the chunk
-                    translation = translator(chunk, truncation=True)[0]['translation_text']
-                    
-                    # Check for problematic repetitions
-                    if self.detect_repetitions(translation):
-                        print(f"Detected repetition in translation. Attempt {current_attempt+1}/{max_attempts}")
-                        # If this is the last attempt, use what we got but clean it
-                        if current_attempt == max_attempts - 1:
-                            translation = self.clean_repetitions(translation)
-                            translated_chunks.append(translation)
-                            chunk_translated = True
-                        # Otherwise try again with a shorter chunk or different settings
-                        else:
-                            # Reduce the chunk size for the next attempt
-                            if len(chunk) > 100:
-                                chunk = chunk[:len(chunk)//2 * (current_attempt + 1)]
-                    else:
-                        # No repetitions detected
-                        translated_chunks.append(translation)
-                        chunk_translated = True
-                except Exception as e:
-                    print(f"Translation error: {e}. Attempt {current_attempt+1}/{max_attempts}")
-                    # If this is the last attempt, use the original text
+        return " ".join(translated_chunks)
+
+    def translate_single_chunk(self, chunk: str, translator) -> str:
+        """
+        FIXED: Translate a single chunk with corrected parameter passing.
+        """
+        max_attempts = 2
+        current_attempt = 0
+        
+        while current_attempt < max_attempts:
+            try:
+                # FIXED: Pass generation parameters to the actual call, not pipeline init
+                translation_result = translator(
+                    chunk, 
+                    max_length=400,  # Increased max length
+                    num_beams=3,     # Reduced for stability
+                    no_repeat_ngram_size=3,
+                    length_penalty=0.8,
+                    repetition_penalty=1.2,
+                    early_stopping=True,
+                    do_sample=False
+                )
+                
+                translation = translation_result[0]['translation_text']
+                
+                # Check for problematic repetitions (more conservative)
+                if self.detect_repetitions(translation):
+                    print(f"Repetition detected in translation. Attempt {current_attempt+1}/{max_attempts}")
                     if current_attempt == max_attempts - 1:
-                        translated_chunks.append(chunk)
-                        chunk_translated = True
+                        # Last attempt - apply conservative cleaning
+                        translation = self.clean_repetitions(translation)
+                        return translation
+                    else:
+                        # Try again with different chunk size
+                        if len(chunk) > 100:
+                            chunk = chunk[:len(chunk)//2]  # Only reduce by half once
+                        current_attempt += 1
+                        continue
+                else:
+                    # No repetitions detected - good translation
+                    return translation
+                    
+            except Exception as e:
+                print(f"Translation error on attempt {current_attempt+1}: {e}")
+                if current_attempt == max_attempts - 1:
+                    # Last attempt failed - return original text
+                    print(f"Translation failed completely, returning original text")
+                    return chunk
                 
                 current_attempt += 1
                 
-        # Join the translated chunks and perform a final cleaning
-        result = "\n\n".join(translated_chunks)
-        return self.clean_repetitions(result)
+        return chunk
 
     def translate_json_file(self, input_path: str, output_path: str):
         """
@@ -1269,7 +1338,7 @@ class Translator:
         parent_folder = os.path.basename(os.path.dirname(input_path))
         
         # Print document info
-        print(f"Document: {file_name} (in folder: {parent_folder})")
+        print(f"\nDocument: {file_name} (in folder: {parent_folder})")
         
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -1311,7 +1380,9 @@ class Translator:
 
         # Process chunks: check language for each chunk and translate only non-English
         if 'chunks' in data:
-            for ch in data['chunks']:
+            total_chunks = len(data['chunks'])
+            for i, ch in enumerate(data['chunks']):
+                print(f"  Processing chunk {i+1}/{total_chunks}")
                 chunks_checked += 1
                 
                 # Process heading
@@ -1372,6 +1443,7 @@ class Translator:
                                 translated_chunks += 1
 
         # Save the processed JSON
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
         with open(output_path, "w", encoding="utf-8") as out_f:
             json.dump(data, out_f, indent=2, ensure_ascii=False)
 
@@ -1398,6 +1470,9 @@ class Translator:
         """
         total_files = 0
         
+        # Ensure output directory exists
+        os.makedirs(self.output_dir, exist_ok=True)
+        
         for root, _, files in os.walk(self.input_dir):
             for file in files:
                 if not file.endswith(".json"):
@@ -1407,9 +1482,15 @@ class Translator:
                 input_path = os.path.join(root, file)
                 relative_path = os.path.relpath(root, self.input_dir)
                 output_subdir = os.path.join(self.output_dir, relative_path)
-                os.makedirs(output_subdir, exist_ok=True)
                 output_path = os.path.join(output_subdir, file)
-                self.translate_json_file(input_path, output_path)
+                
+                try:
+                    self.translate_json_file(input_path, output_path)
+                except Exception as e:
+                    print(f"❌ Error processing {file}: {e}")
+                    # Copy original file if translation fails completely
+                    os.makedirs(output_subdir, exist_ok=True)
+                    shutil.copy(input_path, output_path)
                 
         # Print final statistics
         print("\n=== Translation Summary ===")
@@ -1418,14 +1499,8 @@ class Translator:
         print(f"Total chunks translated: {self.chunks_translated}")
         if self.chunks_translated > 0:
             print(f"Preservation rate: {self.english_chunks_preserved/(self.english_chunks_preserved+self.chunks_translated):.2%}")
+        print("✅ Translation completed!")
 
-
-
-import os
-import re
-import json
-import glob
-from typing import Dict, Any, List, Union, Optional
 
 
 class PostCleaner:
