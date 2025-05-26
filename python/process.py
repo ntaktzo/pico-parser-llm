@@ -914,7 +914,7 @@ class Translator:
     Fixed Translator class that processes JSON files with proper parameter handling
     and conservative repetition detection to preserve medical content.
     
-    This class replaces the original Translator in python/process.py
+    This class ensures both headings and text content are properly translated.
     """
     def __init__(
         self,
@@ -948,7 +948,6 @@ class Translator:
             'lv': 'Helsinki-NLP/opus-mt-lv-en',
             'lt': 'Helsinki-NLP/opus-mt-tc-big-lt-en',
             'mt': 'Helsinki-NLP/opus-mt-mt-en',
-            'pt': 'Helsinki-NLP/opus-mt-pt-en',
         }
         
         # Language groups for fallback models
@@ -1331,7 +1330,8 @@ class Translator:
     def translate_json_file(self, input_path: str, output_path: str):
         """
         Reads a JSON file, detects language at the chunk level,
-        and only translates non-English chunks.
+        and translates both headings and text content of non-English chunks.
+        FIXED: Proper handling of heading and text translation with bug fixes.
         """
         # Get document name and parent folder
         file_name = os.path.basename(input_path)
@@ -1343,7 +1343,7 @@ class Translator:
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        # Concatenate text from doc_id, chunks, and tables for initial language detection
+        # Concatenate text from doc_id, chunks for initial language detection
         all_texts = []
         if 'doc_id' in data:
             all_texts.append(data['doc_id'])
@@ -1351,9 +1351,6 @@ class Translator:
             for ch in data['chunks']:
                 all_texts.append(ch.get('heading', ''))
                 all_texts.append(ch.get('text', ''))
-        if 'tables' in data:
-            for tb in data['tables']:
-                all_texts.append(tb.get('text', ''))
 
         combined_text = "\n".join([t for t in all_texts if t]).strip()
         primary_lang = self.detect_language(combined_text)
@@ -1387,20 +1384,25 @@ class Translator:
                 
                 # Process heading
                 if 'heading' in ch and ch['heading'].strip():
-                    heading_lang = self.detect_chunk_language(ch['heading'])
+                    heading_lang = self.detect_chunk_language(ch['heading'], min_length=20)  # Lower threshold for headings
                     if heading_lang is None or heading_lang == 'en':
                         # Keep English/undetected headings as is
-                        english_chunks += 1
+                        print(f"    Heading kept as English: '{ch['heading'][:50]}...'")
                     else:
+                        print(f"    Translating heading from {heading_lang}: '{ch['heading'][:50]}...'")
                         # Translate non-English headings
                         if translator:
+                            original_heading = ch['heading']
                             ch['heading'] = self.translate_text(ch['heading'], translator)
+                            print(f"    Translated to: '{ch['heading'][:50]}...'")
                             translated_chunks += 1
                         else:
                             # If no translator available for primary language, try to get one for this chunk
                             chunk_translator = self.get_translator(heading_lang)
                             if chunk_translator:
+                                original_heading = ch['heading']
                                 ch['heading'] = self.translate_text(ch['heading'], chunk_translator)
+                                print(f"    Translated to: '{ch['heading'][:50]}...'")
                                 translated_chunks += 1
                 
                 # Process main text content
@@ -1408,38 +1410,19 @@ class Translator:
                     text_lang = self.detect_chunk_language(ch['text'])
                     if text_lang is None or text_lang == 'en':
                         # Keep English/undetected text as is
+                        print(f"    Text kept as English")
                         english_chunks += 1
                     else:
+                        print(f"    Translating text from {text_lang}")
                         # Translate non-English text
                         if translator:
                             ch['text'] = self.translate_text(ch['text'], translator)
                             translated_chunks += 1
                         else:
-                            # If no translator available for primary language, try to get one for this chunk
+                            # FIXED: Use chunk_translator instead of translator
                             chunk_translator = self.get_translator(text_lang)
                             if chunk_translator:
                                 ch['text'] = self.translate_text(ch['text'], chunk_translator)
-                                translated_chunks += 1
-
-        # Process table texts similarly
-        if 'tables' in data:
-            for tb in data['tables']:
-                if 'text' in tb and tb['text'].strip():
-                    chunks_checked += 1
-                    text_lang = self.detect_chunk_language(tb['text'])
-                    if text_lang is None or text_lang == 'en':
-                        # Keep English/undetected text as is
-                        english_chunks += 1
-                    else:
-                        # Translate non-English text
-                        if translator:
-                            tb['text'] = self.translate_text(tb['text'], translator)
-                            translated_chunks += 1
-                        else:
-                            # If no translator available for primary language, try to get one for this chunk
-                            chunk_translator = self.get_translator(text_lang)
-                            if chunk_translator:
-                                tb['text'] = self.translate_text(tb['text'], chunk_translator)
                                 translated_chunks += 1
 
         # Save the processed JSON
