@@ -2,32 +2,39 @@ import os
 import json
 import re
 
+# ── USER-PROVIDED KEYWORD PLACEHOLDERS ──
+
+# These lists will be populated with user-provided keywords for each PICO category.
+# You can fill these lists with your own keywords as needed.
+Population_keywords_user   = []
+Intervention_keywords_user = []
+Comparator_keywords_user   = []
+Outcome_keywords_user      = []
 
 # ──  PICO categories and keywords ─────────────────────────────
-
 CATEGORIES = {
     "population": {
-        "extract_kw": ["Population", "Patients", "Adults", "Participants", "Subjects"],
-        "score_kw":    ["population", "patients", "adults", "participants", "subjects"],
+        "extract_kw": ["Population", "Patients", "Adults", "Participants", "Subjects"] + Population_keywords_user,
+        "score_kw":    ["population", "patients", "adults", "participants", "subjects"] + [kw.lower() for kw in Population_keywords_user],
         "score_phrases":[
             "population with", "patients with", "adults with",
             "participants with", "subjects with", "diagnosed with"
-        ]
+        ] + Population_keywords_user
     },
     "intervention": {
-        "extract_kw": ["Intervention", "Treatment", "Drug", "Therapy", "Dose"],
-        "score_kw":    ["intervention", "treatment", "drug", "therapy", "dose"],
-        "score_phrases":["compared to", "versus", "vs", "in combination with"]
+        "extract_kw": ["Intervention", "Treatment", "Drug", "Therapy", "Dose"] + Intervention_keywords_user,
+        "score_kw":    ["intervention", "treatment", "drug", "therapy", "dose"] + [kw.lower() for kw in Intervention_keywords_user],
+        "score_phrases":["compared to", "versus", "vs", "in combination with"] + Intervention_keywords_user
     },
     "comparator": {
-        "extract_kw": ["Comparator", "Control", "Placebo", "Standard care", "Usual care"],
-        "score_kw":    ["comparator", "control", "placebo", "standard care", "usual care"],
-        "score_phrases":[]
+        "extract_kw": ["Comparator", "Control", "Placebo", "Standard care", "Usual care"] + Comparator_keywords_user,
+        "score_kw":    ["comparator", "control", "placebo", "standard care", "usual care"] + [kw.lower() for kw in Comparator_keywords_user],
+        "score_phrases": Comparator_keywords_user
     },
     "outcome": {
-        "extract_kw": ["Outcome", "Result", "Effect", "Efficacy", "Safety"],
-        "score_kw":    ["outcome", "result", "efficacy", "response", "survival"],
-        "score_phrases":["hazard ratio", "median", "odds ratio", "risk reduction"]
+        "extract_kw": ["Outcome", "Result", "Effect", "Efficacy", "Safety"] + Outcome_keywords_user,
+        "score_kw":    ["outcome", "result", "efficacy", "response", "survival"] + [kw.lower() for kw in Outcome_keywords_user],
+        "score_phrases":["hazard ratio", "median", "odds ratio", "risk reduction"] + Outcome_keywords_user
     }
 }
 
