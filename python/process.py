@@ -943,67 +943,58 @@ from typing import Optional, List, Dict, Any
 from langdetect import detect
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
+import os
+import json
+import shutil
+import gc
+import torch
+from typing import Optional
+from langdetect import detect
+from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
+
 class Translator:
     """
-    Enhanced Translator class with improved repetition detection and conservative medical content preservation.
-    
-    This class processes JSON files with proper parameter handling and enhanced repetition detection
-    to catch translation artifacts while preserving legitimate medical terminology.
+    Simplified Translator class with robust CUDA handling.
+    Falls back to CPU if CUDA causes issues.
     """
-    def __init__(
-        self,
-        input_dir,
-        output_dir,
-        max_chunk_length=400  # Increased for better context while staying under token limits
-    ):
+
+    def __init__(self, input_dir, output_dir):
         self.input_dir = input_dir
         self.output_dir = output_dir
-        self.max_chunk_length = max_chunk_length
         self.english_chunks_preserved = 0
         self.chunks_translated = 0
 
-        # Mapping from source language to the corresponding Helsinki-NLP model
-        self.models = {
+        # Available Helsinki-NLP models (language-specific, better quality)
+        self.helsinki_models = {
             'fr': 'Helsinki-NLP/opus-mt-fr-en',
-            'de': 'DunnBC22/opus-mt-de-en-OPUS_Medical_German_to_English',
-            'pl': 'Helsinki-NLP/opus-mt-pl-en',
+            'de': 'Helsinki-NLP/opus-mt-de-en',
             'es': 'Helsinki-NLP/opus-mt-es-en',
             'it': 'Helsinki-NLP/opus-mt-it-en',
-            'nl': 'FremyCompany/opus-mt-nl-en-healthcare',
+            'nl': 'Helsinki-NLP/opus-mt-nl-en',
+            'pl': 'Helsinki-NLP/opus-mt-pl-en',
+            'pt': 'Helsinki-NLP/opus-mt-tc-big-pt-en',
+            'ru': 'Helsinki-NLP/opus-mt-ru-en',
             'da': 'Helsinki-NLP/opus-mt-da-en',
-            'fi': 'Helsinki-NLP/opus-mt-fi-en',
             'sv': 'Helsinki-NLP/opus-mt-sv-en',
+            'no': 'Helsinki-NLP/opus-mt-no-en',
+            'fi': 'Helsinki-NLP/opus-mt-fi-en',
             'cs': 'Helsinki-NLP/opus-mt-cs-en',
-            'el': 'Helsinki-NLP/opus-mt-tc-big-el-en',
             'hu': 'Helsinki-NLP/opus-mt-hu-en',
             'bg': 'Helsinki-NLP/opus-mt-bg-en',
             'sk': 'Helsinki-NLP/opus-mt-sk-en',
+            'sl': 'Helsinki-NLP/opus-mt-sl-en',
+            'hr': 'Helsinki-NLP/opus-mt-hr-en',
             'et': 'Helsinki-NLP/opus-mt-et-en',
             'lv': 'Helsinki-NLP/opus-mt-lv-en',
             'lt': 'Helsinki-NLP/opus-mt-tc-big-lt-en',
-            'mt': 'Helsinki-NLP/opus-mt-mt-en',
+            'el': 'Helsinki-NLP/opus-mt-tc-big-el-en',
+            'ro': 'Helsinki-NLP/opus-mt-ro-en',
+            'tr': 'Helsinki-NLP/opus-mt-tr-en',
         }
-        
-        # Language groups for fallback models
-        self.language_groups = {
-            'facebook/mbart-large-50-many-to-many-mmt': {
-                'model_type': 'nllb',
-                'langs': set([
-                    'af', 'am', 'ar', 'as', 'az', 'be', 'bg', 'bn', 'br', 'bs', 'ca', 'cs', 'cy', 'da', 
-                    'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'fy', 'ga', 'gd', 'gl', 'gu', 
-                    'ha', 'he', 'hi', 'hr', 'hu', 'hy', 'id', 'ig', 'is', 'it', 'ja', 'jv', 'ka', 'kk', 
-                    'km', 'kn', 'ko', 'ku', 'ky', 'lb', 'lg', 'ln', 'lo', 'lt', 'lv', 'mg', 'mk', 'ml', 
-                    'mn', 'mr', 'ms', 'mt', 'my', 'ne', 'nl', 'no', 'ns', 'ny', 'om', 'or', 'pa', 'pl', 
-                    'ps', 'pt', 'ro', 'ru', 'sd', 'si', 'sk', 'sl', 'so', 'sq', 'sr', 'ss', 'su', 'sv', 
-                    'sw', 'ta', 'te', 'th', 'tl', 'tn', 'tr', 'uk', 'ur', 'uz', 'vi', 'wo', 'xh', 'yi', 
-                    'yo', 'zh', 'zu'
-                ])
-            }
-        }
-        
-        # Map ISO language codes to NLLB format
-        self.nllb_lang_map = {
-            'en': 'eng_Latn', 'fr': 'fra_Latn', 'de': 'deu_Latn', 'es': 'spa_Latn', 
+
+        # Language mapping for Facebook NLLB model
+        self.nllb_lang_mapping = {
+            'en': 'eng_Latn', 'fr': 'fra_Latn', 'de': 'deu_Latn', 'es': 'spa_Latn',
             'it': 'ita_Latn', 'pt': 'por_Latn', 'nl': 'nld_Latn', 'pl': 'pol_Latn',
             'ru': 'rus_Cyrl', 'zh': 'zho_Hans', 'ja': 'jpn_Jpan', 'ar': 'ara_Arab',
             'hi': 'hin_Deva', 'bg': 'bul_Cyrl', 'cs': 'ces_Latn', 'da': 'dan_Latn',
@@ -1011,749 +1002,453 @@ class Translator:
             'sk': 'slk_Latn', 'sl': 'slv_Latn', 'sv': 'swe_Latn', 'uk': 'ukr_Cyrl',
             'hr': 'hrv_Latn', 'no': 'nno_Latn', 'et': 'est_Latn', 'lv': 'lav_Latn',
             'lt': 'lit_Latn', 'tr': 'tur_Latn', 'he': 'heb_Hebr', 'th': 'tha_Thai',
-            'ko': 'kor_Hang', 'vi': 'vie_Latn', 'fa': 'fas_Arab', 'sr': 'srp_Cyrl'
+            'ko': 'kor_Hang', 'vi': 'vie_Latn', 'fa': 'fas_Arab', 'sr': 'srp_Cyrl',
+            'ca': 'cat_Latn', 'mt': 'mlt_Latn', 'cy': 'cym_Latn', 'is': 'isl_Latn',
         }
-        
-        self.translators = {}
-        self.multilingual_models = {}
 
-        # Detect available hardware (CUDA, MPS, or CPU)
+        # Robust CUDA setup for Google Colab
+        self.use_cuda = False
+        self.device = "cpu"
+
         if torch.cuda.is_available():
-            self.device = torch.device("cuda")
-            print("Device set to use cuda")
-        elif torch.backends.mps.is_available():
-            self.device = torch.device("mps")
-            print("Device set to use mps")
+            try:
+                # Clear any existing CUDA context first
+                if torch.cuda.is_initialized():
+                    torch.cuda.empty_cache()
+                    gc.collect()
+
+                # Test CUDA more conservatively
+                test_tensor = torch.tensor([1.0], dtype=torch.float32)
+                test_tensor = test_tensor.to('cuda:0')
+                result = test_tensor + 1
+                test_tensor = test_tensor.cpu()
+                del test_tensor, result
+                torch.cuda.empty_cache()
+
+                self.use_cuda = True
+                self.device = "cuda:0"
+                print("✓ Using CUDA")
+            except Exception as e:
+                print(f"⚠️  CUDA initialization failed, using CPU: {str(e)[:100]}")
+                # Force cleanup and use CPU
+                try:
+                    torch.cuda.empty_cache()
+                except:
+                    pass
+                gc.collect()
+                self.device = "cpu"
         else:
-            self.device = torch.device("cpu")
-            print("Device set to use cpu")
-            
-        # Enhanced repetition detection patterns
-        self.severe_repetition_patterns = [
-            # Basic word repetitions (lowered threshold from 6+ to 3+)
-            r'(\b\w{3,}\b)(\s+\1){2,}',  # Same word repeated 3+ times
-            r'([A-Z0-9]{2,})\1{2,}',     # Symbol/code repeated 3+ times
-            r'(\d+\.\d+)(\.\d+){2,}',    # Number pattern repeated 3+ times
-        ]
-        
-        # Additional patterns for common translation artifacts
-        self.translation_artifact_patterns = [
-            # Alternating word patterns
-            r'(\b\w{4,}\b)\s+(\b\w{4,}\b)(\s+\1\s+\2){2,}',  # "word1 word2 word1 word2..."
-            
-            # Phrase repetitions
-            r'((?:\b\w+\b\s*){2,5})(?:\s*,?\s*\1){2,}',  # 2-5 word phrases repeated
-            
-            # Numerical sequences
-            r'(\d+\.?\d*)\1{3,}',  # Repeated numbers like "0.090.090.09"
-            r'(\d{1,3}\.\d{2,3})(?:\.\d{2,3}){3,}',  # Decimal patterns
-            
-            # Special punctuation patterns
-            r'([,;:])\s*\1{2,}',  # Repeated punctuation
-            r'(\w+[,;])\s*\1{2,}',  # Word with punctuation repeated
-            
-            # Row/table artifacts
-            r'(Row\s+\d+:?\s*){3,}',  # Repeated row markers
-            r'(\b\w+\b\s*\|\s*){3,}',  # Repeated table separators
-        ]
-        
-        # Medical terminology patterns to EXCLUDE from repetition detection
-        self.medical_exclusions = [
-            # Multi-prefix compounds
-            r'\b(?:pre|post|anti|non|co|sub|super|trans)-\w+-\w+-\w+\b',
-            
-            # Complex medical compounds
-            r'\b\w+(?:-dependent|-independent)(?:-\w+){2,}\b',
-            
-            # Acronym pairs that might legitimately repeat
-            r'\b(?:DNA|RNA|HIV|HCV|HCC|NSCLC)\s+(?:DNA|RNA|HIV|HCV|HCC|NSCLC)\b',
-            
-            # Drug name patterns
-            r'\b\w+(?:mab|nib|zumab|tinib|ciclib|parib|vastatin)\b(?:\s+\w+(?:mab|nib|zumab|tinib|ciclib|parib|vastatin)\b)*',
-            
-            # Medical terminology with legitimate repetition
-            r'\b(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+(?:\s+(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+)*\b',
-        ]
+            print("⚠️  CUDA not available, using CPU")
 
-        self.preserve_terms = {
-            # Drug names
-            'sorafenib', 'lenvatinib', 'sotorasib', 'atezolizumab', 
-            'bevacizumab', 'tecentriq', 'nexavar', 'lenvima', 'lumykras',
-            'imjudo', 'sandoz',
-            
-            # Medical abbreviations
-            'HCC', 'NSCLC', 'KRAS', 'G12C', 'PFS', 'OS', 'ORR', 'DCR',
-            'ECOG', 'BCLC', 'Child-Pugh', 'mRECIST', 'RECIST',
-            
-            # Clinical terms
-            'hepatocellular carcinoma', 'non-small cell lung cancer',
-            'progression-free survival', 'overall survival'
-        }
+        # Current loaded translator
+        self.current_translator = None
+        self.current_language = None
 
-        self.translation_artifact_patterns.extend([
-            # Repeated clinical terms
-            r'((?:clinical trial|study|patient|treatment)\s+){3,}',
-            
-            # Repeated statistical values
-            r'(p[<=]\d+\.\d+\s*){3,}',
-            r'(CI:\s*\d+\.\d+-\d+\.\d+\s*){3,}',
-            
-            # Repeated dosage information
-            r'(\d+\s*mg(?:/m2)?\s+){3,}',
-        ])
-
-        self.medical_exclusions.extend([
-            # Valid medical repetitions
-            r'dose-dose\s+(?:escalation|reduction)',
-            r'first-line.*second-line.*third-line',
-            r'pre-treatment.*post-treatment',
-        ])
-
-        
-        # More aggressive thresholds
-        self.max_repetition_ratio = 0.3  # Reduced from 0.6
-        self.repetition_score_threshold = 0.15  # New score-based threshold
-
-    
-    def preserve_medical_terms(self, text: str) -> tuple[str, dict]:
-        """Replace medical terms with placeholders before translation."""
-        preserved = {}
-        modified_text = text
-
-        for i, term in enumerate(self.preserve_terms):
-            if term.lower() in text.lower():
-                placeholder = f"__MEDICAL_TERM_{i}__"
-                pattern = re.compile(re.escape(term), re.IGNORECASE)
-                modified_text = pattern.sub(placeholder, modified_text)
-                preserved[placeholder] = term
-
-        return modified_text, preserved
-
-    def restore_medical_terms(self, text: str, preserved: dict) -> str:
-        """Restore medical terms after translation."""
-        for placeholder, term in preserved.items():
-            text = text.replace(placeholder, term)
-        return text
-
-    def is_table_content(self, text: str) -> bool:
-        """Detect if content is likely a table."""
-        table_indicators = [
-            r'Row \d+:',
-            r'\|.*\|.*\|',
-            r'^\s*\d+\.\d+\s+\d+\.\d+',
-            text.count('|') > 5,
-            text.count('Row') > 3
-        ]
-        return any(re.search(pattern, text) if isinstance(pattern, str) else pattern 
-                for pattern in table_indicators)
-
-    def translate_table_content(self, text: str, translator) -> str:
-        """Special handling for table content."""
-        rows = re.split(r'(Row \d+:)', text)
-        translated_rows = []
-
-        for i, row in enumerate(rows):
-            if re.match(r'Row \d+:', row):
-                translated_rows.append(row)
-            elif row.strip():
-                cells = row.split('|')
-                translated_cells = []
-
-                for cell in cells:
-                    if cell.strip() and not re.match(r'^\d+\.?\d*$', cell.strip()):
-                        preserved_input, preserved_terms = self.preserve_medical_terms(cell.strip())
-                        translated_cell = self.translate_single_chunk(preserved_input, translator)
-                        restored_cell = self.restore_medical_terms(translated_cell, preserved_terms)
-                        translated_cells.append(restored_cell)
-                    else:
-                        translated_cells.append(cell)
-
-                translated_rows.append('|'.join(translated_cells))
-
-        return ''.join(translated_rows)
-
-    def detect_language(self, text: str) -> Optional[str]:
+    def detect_document_language(self, text: str) -> Optional[str]:
         """
-        Detects the language of the input text.
-        Returns a two-letter language code if successful, otherwise None.
+        Detect the primary language of a document.
+        Returns 2-letter language code or None if detection fails.
         """
+        if not text or len(text.strip()) < 20:
+            return None
+
         try:
-            from langdetect import detect
-            lang = detect(text)
-            return lang
-        except Exception as e:
-            print(f"Language detection failed: {e}")
-            return None
-            
-    def detect_chunk_language(self, text: str, min_length: int = 40) -> str:
-        """
-        Detects the language of a text chunk with more reliability.
-        
-        Args:
-            text: The text to detect language for
-            min_length: Minimum length of text to attempt detection (shorter texts are unreliable)
-            
-        Returns:
-            Language code (e.g., 'en', 'fr') or None if detection failed or text too short
-        """
-        if not text or len(text.strip()) < min_length:
-            return None
-            
-        # Clean the text before detection
-        clean_text = re.sub(r'\d+', '', text)  # Remove numbers
-        clean_text = re.sub(r'[^\w\s]', '', clean_text)  # Remove punctuation
-        
-        if len(clean_text.strip()) < min_length:
-            return None
-        
-        try:
-            from langdetect import detect, LangDetectException
-            lang = detect(clean_text)
-            return lang
-        except:
+            # Clean text for better detection
+            clean_text = ' '.join(text.split()[:200])  # Use first 200 words
+            detected_lang = detect(clean_text)
+            print(f"    Detected language: {detected_lang}")
+            return detected_lang
+        except LangDetectError:
+            print("    Language detection failed")
             return None
 
-    def is_legitimate_medical_repetition(self, text: str) -> bool:
+    def is_english_chunk(self, text: str) -> bool:
         """
-        Check if a repetition is legitimate medical terminology.
-        More nuanced than blanket exclusions.
+        Quick check if a chunk is in English.
+        Uses simple heuristics for speed.
         """
-        for pattern in self.medical_exclusions:
-            if re.search(pattern, text, re.IGNORECASE):
-                return True
+        if not text or len(text.strip()) < 10:
+            return True  # Treat short text as English (safer)
+
+        text_lower = text.lower()
+
+        # Common English function words
+        english_words = [
+            ' the ', ' and ', ' of ', ' to ', ' a ', ' in ', ' is ', ' it ', ' you ', ' that ',
+            ' he ', ' was ', ' for ', ' on ', ' are ', ' as ', ' with ', ' his ', ' they ',
+            ' i ', ' at ', ' be ', ' this ', ' have ', ' from ', ' or ', ' one ', ' had ',
+            ' by ', ' word ', ' but ', ' not ', ' what ', ' all ', ' were ', ' we '
+        ]
+
+        # Count English words
+        english_count = sum(1 for word in english_words if word in f' {text_lower} ')
+        total_words = len(text.split())
+
+        if total_words > 5:
+            english_ratio = english_count / total_words
+            return english_ratio > 0.1  # 10% threshold
+
         return False
 
-    def calculate_repetition_score(self, text: str) -> float:
+    def load_translator_for_language(self, language: str):
         """
-        Calculate a more nuanced repetition score.
+        Load the appropriate translator for the given language.
+        Try Helsinki model first, fall back to Facebook NLLB.
+        Robust CUDA handling with CPU fallback.
         """
-        if not text or len(text) < 20:
-            return 0.0
-        
-        # Check various repetition types
-        word_repetitions = len(re.findall(r'(\b\w{3,}\b)(\s+\1){2,}', text))
-        phrase_repetitions = len(re.findall(r'((?:\b\w+\b\s*){2,5})(?:\s*,?\s*\1){2,}', text))
-        number_repetitions = len(re.findall(r'(\d+\.?\d*)\1{3,}', text))
-        artifact_repetitions = sum(len(re.findall(pattern, text)) for pattern in self.translation_artifact_patterns)
-        
-        # Calculate weighted score
-        total_words = len(text.split())
-        if total_words == 0:
-            return 0.0
-            
-        repetition_score = (
-            (word_repetitions * 3) +  # Word reps are serious
-            (phrase_repetitions * 5) +  # Phrase reps are worst
-            (number_repetitions * 2) +    # Number reps are bad
-            (artifact_repetitions * 4)    # Translation artifacts are very bad
-        ) / total_words
-        
-        return min(repetition_score, 1.0)  # Cap at 1.0
+        if self.current_language == language and self.current_translator:
+            return self.current_translator
 
-    def get_translator(self, lang: str):
-        """
-        Returns a translation function for the given language code.
-        Proper pipeline parameter handling.
-        """
-        # Return cached translator if already loaded
-        if lang in self.translators:
-            return self.translators[lang]
+        # Clear previous translator
+        self.clear_translator()
 
-        # 1. Try direct Helsinki-NLP model first (language-specific)
-        if lang in self.models:
-            model_name = self.models[lang]
-            print(f"Loading model: {model_name}")
-            
+        print(f"    Loading translator for language: {language}")
+
+        # Try Helsinki model first (higher quality)
+        if language in self.helsinki_models:
             try:
-                device_id = 0 if self.device.type == "cuda" else -1
-                translator = pipeline(
-                    "translation",
-                    model=model_name,
-                    torch_dtype=torch.float16 if self.device.type == "cuda" else torch.float32,
-                    device=device_id,
-                )
-                self.translators[lang] = translator
-                return translator
-            except Exception as e:
-                print(f"Failed to load model {model_name}: {e}")
-                # Continue to next option
-        
-        # 2. Try NLLB multilingual model as fallback
-        nllb_model = 'facebook/nllb-200-distilled-600M'
-        if lang in self.language_groups.get(nllb_model, {}).get('langs', set()):
-            print(f"Using fallback model: {nllb_model}")
-            
-            # Load or retrieve cached NLLB model
-            if nllb_model not in self.multilingual_models:
+                model_name = self.helsinki_models[language]
+                print(f"    Trying Helsinki model: {model_name}")
+
+                # Try with current device first
                 try:
-                    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-                    tokenizer = AutoTokenizer.from_pretrained(nllb_model)
-                    model = AutoModelForSeq2SeqLM.from_pretrained(nllb_model).to(self.device)
-                    self.multilingual_models[nllb_model] = (model, tokenizer)
-                except Exception as e:
-                    print(f"Failed to load multilingual model {nllb_model}: {e}")
-                    return None
-            else:
-                model, tokenizer = self.multilingual_models[nllb_model]
-            
-            # Get NLLB-formatted language codes
-            src_lang = self.nllb_lang_map.get(lang, f"{lang}_Latn")  # Fallback to Latin script
-            tgt_lang = 'eng_Latn'  # Always translate to English
-            
-            # Create translator function with repetition prevention
-            def nllb_translate(text, **kwargs):
-                tokenizer.src_lang = src_lang
-                inputs = tokenizer(text, return_tensors="pt").to(self.device)
+                    if self.device.startswith("cuda"):
+                        # Force clean CUDA state for Colab
+                        torch.cuda.empty_cache()
+                        gc.collect()
 
-                with torch.no_grad():
-                    translated_tokens = model.generate(
-                        **inputs,
-                        forced_bos_token_id=tokenizer.lang_code_to_id[tgt_lang],
-                        max_length=512,
-                        num_beams=3,  # Reduced for stability
-                        no_repeat_ngram_size=3,
-                        length_penalty=0.8,
-                        repetition_penalty=1.2
+                    translator = pipeline(
+                        "translation",
+                        model=model_name,
+                        device=self.device,
+                        torch_dtype=torch.float32,  # Use float32 for stability
+                        trust_remote_code=False,
                     )
-                
-                translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
-                return [{'translation_text': translation}]
-            
-            self.translators[lang] = nllb_translate
-            return nllb_translate
 
-        # No suitable model found
+                    # Test the translator with a simple phrase
+                    test_result = translator("Hello world", max_length=50)
+
+                    self.current_translator = translator
+                    self.current_language = language
+                    print(f"    ✓ Helsinki model loaded successfully on {self.device}")
+                    return translator
+
+                except Exception as e:
+                    if self.device.startswith("cuda"):
+                        print(f"    ⚠️  CUDA failed, trying CPU: {str(e)[:50]}")
+                        # Fallback to CPU
+                        translator = pipeline(
+                            "translation",
+                            model=model_name,
+                            device="cpu",
+                            torch_dtype=torch.float32,
+                            trust_remote_code=False,
+                        )
+
+                        # Test the translator
+                        test_result = translator("Hello world", max_length=50)
+
+                        self.current_translator = translator
+                        self.current_language = language
+                        self.device = "cpu"  # Switch to CPU for remaining files
+                        print(f"    ✓ Helsinki model loaded successfully on CPU")
+                        return translator
+                    else:
+                        raise e
+
+            except Exception as e:
+                print(f"    ✗ Helsinki model failed: {str(e)[:50]}")
+
+        # Fall back to Facebook NLLB model
+        if language in self.nllb_lang_mapping:
+            try:
+                print(f"    Trying Facebook NLLB model...")
+
+                model_name = "facebook/nllb-200-distilled-600M"
+
+                # Load with current device
+                try:
+                    if self.device.startswith("cuda"):
+                        # Clean CUDA state before loading large model
+                        torch.cuda.empty_cache()
+                        gc.collect()
+
+                    tokenizer = AutoTokenizer.from_pretrained(model_name)
+                    model = AutoModelForSeq2SeqLM.from_pretrained(
+                        model_name,
+                        torch_dtype=torch.float32,  # Use float32 for stability
+                        trust_remote_code=False,
+                    )
+
+                    if self.device.startswith("cuda"):
+                        model = model.to(self.device)
+
+                    # Create translation function
+                    def nllb_translate(text, **kwargs):
+                        try:
+                            src_lang = self.nllb_lang_mapping[language]
+                            tgt_lang = 'eng_Latn'
+
+                            # Tokenize
+                            inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=256)
+                            if self.device.startswith("cuda"):
+                                inputs = {k: v.to(self.device) for k, v in inputs.items()}
+
+                            # Generate translation
+                            with torch.no_grad():
+                                translated_tokens = model.generate(
+                                    **inputs,
+                                    forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
+                                    max_length=256,
+                                    num_beams=2,  # Reduced for stability
+                                    length_penalty=0.9,
+                                    do_sample=False,
+                                )
+
+                            # Decode
+                            translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
+                            return [{'translation_text': translation}]
+
+                        except Exception as e:
+                            print(f"      NLLB translation error: {str(e)[:50]}")
+                            return [{'translation_text': text}]  # Return original on error
+
+                    # Test the translator
+                    test_result = nllb_translate("Hello world")
+
+                    self.current_translator = nllb_translate
+                    self.current_language = language
+                    print(f"    ✓ Facebook NLLB model loaded successfully on {self.device}")
+                    return nllb_translate
+
+                except Exception as e:
+                    if self.device.startswith("cuda"):
+                        print(f"    ⚠️  CUDA failed, trying CPU: {str(e)[:50]}")
+                        # Fallback to CPU
+                        tokenizer = AutoTokenizer.from_pretrained(model_name)
+                        model = AutoModelForSeq2SeqLM.from_pretrained(
+                            model_name,
+                            torch_dtype=torch.float32,
+                            trust_remote_code=False,
+                        )
+                        # Keep model on CPU
+
+                        def nllb_translate_cpu(text, **kwargs):
+                            try:
+                                src_lang = self.nllb_lang_mapping[language]
+                                tgt_lang = 'eng_Latn'
+
+                                inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=256)
+
+                                with torch.no_grad():
+                                    translated_tokens = model.generate(
+                                        **inputs,
+                                        forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
+                                        max_length=256,
+                                        num_beams=2,
+                                        length_penalty=0.9,
+                                        do_sample=False,
+                                    )
+
+                                translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
+                                return [{'translation_text': translation}]
+
+                            except Exception as e:
+                                print(f"      NLLB CPU translation error: {str(e)[:50]}")
+                                return [{'translation_text': text}]
+
+                        # Test the translator
+                        test_result = nllb_translate_cpu("Hello world")
+
+                        self.current_translator = nllb_translate_cpu
+                        self.current_language = language
+                        self.device = "cpu"  # Switch to CPU for remaining files
+                        print(f"    ✓ Facebook NLLB model loaded successfully on CPU")
+                        return nllb_translate_cpu
+                    else:
+                        raise e
+
+            except Exception as e:
+                print(f"    ✗ Facebook NLLB model failed: {str(e)[:50]}")
+
+        print(f"    ✗ No translator available for language: {language}")
         return None
 
-    def count_tokens_rough(self, text: str) -> int:
-        """Rough token count estimation (words * 1.3)."""
-        return int(len(text.split()) * 1.3)
-
-    def chunk_text(self, text: str) -> list:
+    def translate_text(self, text: str) -> str:
         """
-        Intelligent text chunking that balances context preservation with token limits.
-        Uses adaptive chunking based on content type and length.
+        Translate text using the current translator.
         """
-        # Dynamic target based on text length and content
-        base_target = self.max_chunk_length
-        
-        # Adjust target based on content characteristics
-        if len(text.split()) > 1000:  # Very long text
-            target_words = int(base_target * 1.2)  # Larger chunks for long documents
-        elif "table" in text.lower() or "|" in text:  # Table content
-            target_words = int(base_target * 0.8)   # Smaller chunks for tables
-        else:
-            target_words = base_target
-        
-        # Split into sentences first, preserving medical terminology
-        # Enhanced sentence splitting that respects medical terms
-        sentences = re.split(r'(?<=\.)\s+(?![a-z])', text.strip())  # Don't split on abbreviations
-        
-        chunks = []
-        current_chunk = []
-        current_word_count = 0
-        
-        for sentence in sentences:
-            sentence_words = len(sentence.split())
-            
-            # Handle very long sentences (likely tables or lists)
-            if sentence_words > target_words * 1.5:
-                # Save current chunk first
-                if current_chunk:
-                    chunks.append(" ".join(current_chunk))
-                    current_chunk = []
-                    current_word_count = 0
-                
-                # Split long sentence more intelligently
-                if "|" in sentence or "Row" in sentence:
-                    # Table content - split by rows
-                    parts = re.split(r'(Row\s+\d+:)', sentence)
-                    temp_chunk = []
-                    temp_count = 0
-                    
-                    for part in parts:
-                        part_words = len(part.split())
-                        if temp_count + part_words > target_words and temp_chunk:
-                            chunks.append(" ".join(temp_chunk))
-                            temp_chunk = [part.strip()]
-                            temp_count = part_words
-                        else:
-                            temp_chunk.append(part.strip())
-                            temp_count += part_words
-                    
-                    if temp_chunk:
-                        chunks.append(" ".join(temp_chunk))
-                else:
-                    # Regular long sentence - split by punctuation
-                    sub_parts = re.split(r'[;,:](?=\s)', sentence)  # Split on punctuation with space
-                    temp_chunk = []
-                    temp_count = 0
-                    
-                    for part in sub_parts:
-                        part_words = len(part.split())
-                        if temp_count + part_words > target_words and temp_chunk:
-                            chunks.append(" ".join(temp_chunk))
-                            temp_chunk = [part.strip()]
-                            temp_count = part_words
-                        else:
-                            temp_chunk.append(part.strip())
-                            temp_count += part_words
-                    
-                    if temp_chunk:
-                        chunks.append(" ".join(temp_chunk))
-                        
-            # Normal sentence processing with better context preservation
-            elif current_word_count + sentence_words > target_words and current_chunk:
-                # Before splitting, check if we're breaking up related content
-                if (len(current_chunk) > 0 and 
-                    any(keyword in sentence.lower() for keyword in ['however', 'therefore', 'furthermore', 'moreover']) and
-                    current_word_count < target_words * 0.8):
-                    # Keep related sentences together
-                    current_chunk.append(sentence)
-                    current_word_count += sentence_words
-                else:
-                    chunks.append(" ".join(current_chunk))
-                    current_chunk = [sentence]
-                    current_word_count = sentence_words
-            else:
-                current_chunk.append(sentence)
-                current_word_count += sentence_words
-        
-        # Add remaining chunk
-        if current_chunk:
-            chunks.append(" ".join(current_chunk))
-        
-        # Post-process: merge very small chunks with adjacent ones
-        final_chunks = []
-        i = 0
-        while i < len(chunks):
-            chunk = chunks[i]
-            chunk_words = len(chunk.split())
-            
-            # If chunk is very small and we have a next chunk, try to merge
-            if (chunk_words < target_words * 0.3 and 
-                i + 1 < len(chunks) and 
-                len((chunk + " " + chunks[i + 1]).split()) <= target_words * 1.3):
-                merged_chunk = chunk + " " + chunks[i + 1]
-                final_chunks.append(merged_chunk)
-                i += 2  # Skip next chunk as it's been merged
-            else:
-                final_chunks.append(chunk)
-                i += 1
-            
-        return final_chunks
-
-    def detect_repetitions(self, text: str) -> bool:
-        """
-        Enhanced repetition detection that catches more translation artifacts.
-        """
-        if not text or len(text.strip()) < 30:
-            return False
-            
-        # First check if this looks like legitimate medical terminology
-        if self.is_legitimate_medical_repetition(text):
-            return False
-        
-        # Use both ratio-based and score-based detection
-        ratio_detection = self._detect_repetitions_by_ratio(text)
-        score_detection = self.calculate_repetition_score(text) > self.repetition_score_threshold
-        
-        return ratio_detection or score_detection
-
-    def _detect_repetitions_by_ratio(self, text: str) -> bool:
-        """
-        Original ratio-based repetition detection with enhanced patterns.
-        """
-        total_length = len(text)
-        total_repetition_length = 0
-        
-        # Check severe repetition patterns
-        for pattern in self.severe_repetition_patterns:
-            matches = list(re.finditer(pattern, text))
-            for match in matches:
-                repeated_part = match.group()
-                repetition_length = len(repeated_part)
-                if repetition_length > 20:  # Only count substantial repetitions
-                    total_repetition_length += repetition_length
-        
-        # Check translation artifact patterns
-        for pattern in self.translation_artifact_patterns:
-            matches = list(re.finditer(pattern, text))
-            for match in matches:
-                repeated_part = match.group()
-                repetition_length = len(repeated_part)
-                if repetition_length > 15:  # Slightly lower threshold for artifacts
-                    total_repetition_length += repetition_length
-        
-        repetition_ratio = total_repetition_length / total_length if total_length > 0 else 0
-        return repetition_ratio > self.max_repetition_ratio
-        
-    def clean_repetitions(self, text: str) -> str:
-        """
-        Enhanced cleaning that handles various types of repetition artifacts.
-        """
-        if not text or not self.detect_repetitions(text):
+        if not text.strip() or not self.current_translator:
             return text
-            
-        original_length = len(text)
-        cleaned_text = text
-        
-        # Apply cleaning for each pattern type
-        # 1. Basic word repetitions
-        for pattern in self.severe_repetition_patterns:
-            cleaned_text = re.sub(pattern, lambda m: m.group(1) + ' ' + m.group(1), cleaned_text)
-        
-        # 2. Translation artifact patterns
-        # Handle alternating words
-        cleaned_text = re.sub(r'(\b\w{4,}\b)\s+(\b\w{4,}\b)(\s+\1\s+\2){2,}', r'\1 \2', cleaned_text)
-        
-        # Handle phrase repetitions
-        cleaned_text = re.sub(r'((?:\b\w+\b\s*){2,5})(?:\s*,?\s*\1){2,}', r'\1', cleaned_text)
-        
-        # Handle numerical repetitions
-        cleaned_text = re.sub(r'(\d+\.?\d*)\1{3,}', r'\1', cleaned_text)
-        cleaned_text = re.sub(r'(\d{1,3}\.\d{2,3})(?:\.\d{2,3}){3,}', r'\1', cleaned_text)
-        
-        # Handle punctuation repetitions
-        cleaned_text = re.sub(r'([,;:])\s*\1{2,}', r'\1', cleaned_text)
-        cleaned_text = re.sub(r'(\w+[,;])\s*\1{2,}', r'\1', cleaned_text)
-        
-        # Handle table/row artifacts
-        cleaned_text = re.sub(r'(Row\s+\d+:?\s*){3,}', r'Row \1:', cleaned_text)
-        
-        # Clean repeated character strings (conservative)
-        cleaned_text = re.sub(r'([a-zA-Z])\1{5,}', r'\1\1\1', cleaned_text)  # Only 6+ repeated chars
-        
-        # Fix spacing
-        cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
-        
-        # Safety check: If we removed more than 30% of text, return original
-        if len(cleaned_text) < original_length * 0.7:
-            print("Warning: Cleaning removed too much text, returning original")
-            return text
-            
-        return cleaned_text.strip()
 
-    def translate_text(self, text: str, translator) -> str:
-        """
-        Translates text with proper parameter passing and enhanced error handling.
-        """
-        if not text.strip():
-            return text
-            
-        # Check if text is too long and needs chunking
-        estimated_tokens = self.count_tokens_rough(text)
-        
-        # For short text, translate directly if under token limit
-        if estimated_tokens <= 500:  # Increased from 300 for better context
-            return self.translate_single_chunk(text, translator)
-            
-        # For longer text, split intelligently
-        chunks = self.chunk_text(text)
-        translated_chunks = []
-        
-        for i, chunk in enumerate(chunks):
-            translated_chunk = self.translate_single_chunk(chunk, translator)
-            translated_chunks.append(translated_chunk)
-            
-        return " ".join(translated_chunks)
+        try:
+            # Limit text length for stability
+            words = text.split()
+            if len(words) > 150:  # Reduced for stability
+                text = ' '.join(words[:150])
 
-    def translate_single_chunk(self, chunk: str, translator) -> str:
-        """
-        Translate a single chunk with enhanced repetition detection and cleaning.
-        """
-        max_attempts = 3
-        current_attempt = 0
+            result = self.current_translator(text, max_length=300, truncation=True)
+            return result[0]['translation_text']
 
-        # Preserve medical terms
-        chunk_preserved, preserved_terms = self.preserve_medical_terms(chunk)
+        except Exception as e:
+            print(f"      Translation error: {str(e)[:50]}")
+            return text  # Return original on error
 
+    def clear_translator(self):
+        """Clear current translator and free memory."""
+        self.current_translator = None
+        self.current_language = None
 
-        while current_attempt < max_attempts:
-            try:
-                translation_result = translator(
-                    chunk_preserved,
-                    max_length=400,
-                    num_beams=3,
-                    no_repeat_ngram_size=3,
-                    length_penalty=0.8,
-                    repetition_penalty=1.2,
-                    early_stopping=True,
-                    do_sample=False
-                )
-
-                translation = translation_result[0]['translation_text']
-
-                # Restore preserved terms
-                translation = self.restore_medical_terms(translation, preserved_terms)
-
-                if self.detect_repetitions(translation):
-                    print(f"Repetition detected in translation. Attempt {current_attempt+1}/{max_attempts}")
-                    print(f"Repetition score: {self.calculate_repetition_score(translation):.3f}")
-
-                    if current_attempt == max_attempts - 1:
-                        translation = self.clean_repetitions(translation)
-                        return translation
-                    else:
-                        current_attempt += 1
-                        if len(chunk_preserved) > 100:
-                            chunk_preserved = chunk_preserved[:len(chunk_preserved)//2]
-                        continue
-                else:
-                    return translation
-
-            except Exception as e:
-                print(f"Translation error on attempt {current_attempt+1}: {e}")
-                if current_attempt == max_attempts - 1:
-                    print(f"Translation failed completely, returning original text")
-                    return chunk
-
-                current_attempt += 1
-
-        return chunk
-
-
-    def translate_json_file(self, input_path: str, output_path: str):
-        """
-        Reads a JSON file, detects language at the chunk level,
-        and translates both headings and text content of non-English chunks.
-        Enhanced handling of heading and text translation.
-        """
-        # Get document name and parent folder
-        file_name = os.path.basename(input_path)
-        parent_folder = os.path.basename(os.path.dirname(input_path))
-        
-        # Print document info
-        print(f"\nDocument: {file_name} (in folder: {parent_folder})")
-        
-        with open(input_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        # Concatenate text from doc_id, chunks for initial language detection
-        all_texts = []
-        if 'doc_id' in data:
-            all_texts.append(data['doc_id'])
-        if 'chunks' in data:
-            for ch in data['chunks']:
-                all_texts.append(ch.get('heading', ''))
-                all_texts.append(ch.get('text', ''))
-
-        combined_text = "\n".join([t for t in all_texts if t]).strip()
-        primary_lang = self.detect_language(combined_text)
-        print(f"Primary document language detected: {primary_lang}")
-
-        # If the document is primarily English, we'll still check each chunk
-        if primary_lang == 'en':
-            print("Document primarily in English, but will check each chunk individually")
-        
-        # Initialize chunk statistics
-        chunks_checked = 0
-        english_chunks = 0
-        translated_chunks = 0
-        
-        # Get translator based on the primary language (only if needed)
-        translator = None
-        if primary_lang != 'en' and primary_lang is not None:
-            translator = self.get_translator(primary_lang)
-            if not translator:
-                print(f"No translator available for {primary_lang}. Copying file unmodified.")
-                shutil.copy(input_path, output_path)
-                return
-
-        # Process chunks: check language for each chunk and translate only non-English
-        if 'chunks' in data:
-            total_chunks = len(data['chunks'])
-            for i, ch in enumerate(data['chunks']):
-                print(f"  Processing chunk {i+1}/{total_chunks}")
-                chunks_checked += 1
-                
-                # Process heading
-                if 'heading' in ch and ch['heading'].strip():
-                    heading_lang = self.detect_chunk_language(ch['heading'], min_length=20)
-                    if heading_lang is None or heading_lang == 'en':
-                        print(f"    Heading kept as English: '{ch['heading'][:50]}...'")
-                    else:
-                        print(f"    Translating heading from {heading_lang}: '{ch['heading'][:50]}...'")
-                        # Get appropriate translator
-                        heading_translator = translator if translator else self.get_translator(heading_lang)
-                        if heading_translator:
-                            original_heading = ch['heading']
-                            ch['heading'] = self.translate_text(ch['heading'], heading_translator)
-                            print(f"    Translated to: '{ch['heading'][:50]}...'")
-                            translated_chunks += 1
-                
-                # Process main text content
-                if 'text' in ch and ch['text'].strip():
-                    text_lang = self.detect_chunk_language(ch['text'])
-                    if text_lang is None or text_lang == 'en':
-                        print(f"    Text kept as English")
-                        english_chunks += 1
-                    else:
-                        print(f"    Translating text from {text_lang}")
-                        # Get appropriate translator
-                        text_translator = translator if translator else self.get_translator(text_lang)
-                        if text_translator:
-                            ch['text'] = self.translate_text(ch['text'], text_translator)
-                            translated_chunks += 1
-
-        # Save the processed JSON
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as out_f:
-            json.dump(data, out_f, indent=2, ensure_ascii=False)
-
-        # Update statistics
-        self.english_chunks_preserved += english_chunks
-        self.chunks_translated += translated_chunks
-        
-        # Print chunk statistics
-        print(f"Chunks processed: {chunks_checked}")
-        print(f"English chunks preserved: {english_chunks}")
-        print(f"Non-English chunks translated: {translated_chunks}")
-
-        # Free up GPU memory if applicable
+        # Safe memory cleanup
         gc.collect()
-        if self.device.type == "mps":
-            torch.mps.empty_cache()
-        elif self.device.type == "cuda":
-            torch.cuda.empty_cache()
+        if self.use_cuda and torch.cuda.is_available():
+            try:
+                torch.cuda.empty_cache()
+            except:
+                pass  # Ignore CUDA cleanup errors
+
+    def process_json_file(self, input_path: str, output_path: str):
+        """
+        Process a single JSON file:
+        1. Detect document language
+        2. Load appropriate translator
+        3. Process each chunk (check if English, translate if not)
+        """
+        file_name = os.path.basename(input_path)
+        print(f"\n📄 Processing: {file_name}")
+
+        # Load JSON
+        try:
+            with open(input_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"  ✗ Error loading JSON: {e}")
+            return
+
+        # Extract all text for document-level language detection
+        all_text_parts = []
+        if 'doc_id' in data:
+            all_text_parts.append(str(data['doc_id']))
+
+        if 'chunks' in data:
+            for chunk in data['chunks']:
+                if 'heading' in chunk and chunk['heading']:
+                    all_text_parts.append(chunk['heading'])
+                if 'text' in chunk and chunk['text']:
+                    all_text_parts.append(chunk['text'])
+
+        # Detect document language
+        combined_text = ' '.join(all_text_parts)
+        document_language = self.detect_document_language(combined_text)
+
+        if not document_language or document_language == 'en':
+            print(f"  📋 Document is English, copying without translation")
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            shutil.copy(input_path, output_path)
+            return
+
+        # Load translator for detected language
+        translator = self.load_translator_for_language(document_language)
+        if not translator:
+            print(f"  📋 No translator available, copying original file")
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            shutil.copy(input_path, output_path)
+            return
+
+        # Process chunks
+        if 'chunks' not in data:
+            print(f"  📋 No chunks found, copying original file")
+            os.makedirs(os.path.dirname(output_path), exist_ok=True)
+            shutil.copy(input_path, output_path)
+            return
+
+        total_chunks = len(data['chunks'])
+        translated_count = 0
+        english_count = 0
+
+        print(f"  📊 Processing {total_chunks} chunks...")
+
+        for i, chunk in enumerate(data['chunks']):
+            if i % 10 == 0 or i == total_chunks - 1:
+                print(f"    Chunk {i+1}/{total_chunks}")
+
+            # Process heading
+            if 'heading' in chunk and chunk['heading']:
+                if self.is_english_chunk(chunk['heading']):
+                    english_count += 1
+                else:
+                    chunk['heading'] = self.translate_text(chunk['heading'])
+                    translated_count += 1
+
+            # Process text
+            if 'text' in chunk and chunk['text']:
+                if self.is_english_chunk(chunk['text']):
+                    english_count += 1
+                else:
+                    chunk['text'] = self.translate_text(chunk['text'])
+                    translated_count += 1
+
+        # Save translated file
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        print(f"  ✓ Completed: {english_count} English chunks, {translated_count} translated chunks")
+
+        # Update global stats
+        self.english_chunks_preserved += english_count
+        self.chunks_translated += translated_count
+
+        # Clear translator after each file to free memory
+        self.clear_translator()
 
     def translate_documents(self):
         """
-        Translates all JSON files in the input directory and saves the translated
-        versions in the corresponding structure in the output directory.
+        Main method to translate all documents in input directory.
         """
-        total_files = 0
-        
-        # Ensure output directory exists
+        print("🚀 Starting document translation...")
+
+        # Create output directory
         os.makedirs(self.output_dir, exist_ok=True)
-        
-        for root, _, files in os.walk(self.input_dir):
+
+        # Find all JSON files
+        json_files = []
+        for root, dirs, files in os.walk(self.input_dir):
             for file in files:
-                if not file.endswith(".json"):
-                    continue
-                total_files += 1
-                    
-                input_path = os.path.join(root, file)
-                relative_path = os.path.relpath(root, self.input_dir)
-                output_subdir = os.path.join(self.output_dir, relative_path)
-                output_path = os.path.join(output_subdir, file)
-                
+                if file.endswith('.json'):
+                    input_path = os.path.join(root, file)
+                    rel_path = os.path.relpath(input_path, self.input_dir)
+                    output_path = os.path.join(self.output_dir, rel_path)
+                    json_files.append((input_path, output_path))
+
+        total_files = len(json_files)
+        print(f"📁 Found {total_files} JSON files to process")
+
+        if total_files == 0:
+            print("⚠️  No JSON files found in input directory")
+            return
+
+        # Process each file
+        for i, (input_path, output_path) in enumerate(json_files, 1):
+            print(f"\n[{i}/{total_files}]", end=" ")
+            try:
+                self.process_json_file(input_path, output_path)
+            except Exception as e:
+                print(f"  ✗ Error processing file: {str(e)[:100]}")
+                # Copy original file on error
                 try:
-                    self.translate_json_file(input_path, output_path)
-                except Exception as e:
-                    print(f"❌ Error processing {file}: {e}")
-                    # Copy original file if translation fails completely
-                    os.makedirs(output_subdir, exist_ok=True)
+                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
                     shutil.copy(input_path, output_path)
-                
-        # Print final statistics
-        print("\n=== Translation Summary ===")
-        print(f"Total files processed: {total_files}")
-        print(f"Total English chunks preserved: {self.english_chunks_preserved}")
-        print(f"Total chunks translated: {self.chunks_translated}")
-        if self.chunks_translated > 0:
-            print(f"Preservation rate: {self.english_chunks_preserved/(self.english_chunks_preserved+self.chunks_translated):.2%}")
-        print("✅ Translation completed!")
+                    print(f"  📋 Copied original file instead")
+                except Exception as copy_error:
+                    print(f"  ✗ Failed to copy original: {copy_error}")
+
+        # Final summary
+        print(f"\n🎉 Translation Complete!")
+        print(f"📊 Summary:")
+        print(f"   • Total files processed: {total_files}")
+        print(f"   • English chunks preserved: {self.english_chunks_preserved}")
+        print(f"   • Chunks translated: {self.chunks_translated}")
 
 
 
