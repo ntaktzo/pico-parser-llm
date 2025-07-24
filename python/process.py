@@ -952,10 +952,20 @@ from typing import Optional
 from langdetect import detect
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
+import os
+import re
+import json
+import shutil
+import gc
+import torch
+from typing import Optional, List, Dict, Any
+from langdetect import detect
+from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
+
 class Translator:
     """
-    Simplified Translator class with robust CUDA handling.
-    Falls back to CPU if CUDA causes issues.
+    Enhanced Translator class with robust CUDA handling, medical term preservation,
+    and specialized table handling for HTA documents.
     """
 
     def __init__(self, input_dir, output_dir):
@@ -963,6 +973,22 @@ class Translator:
         self.output_dir = output_dir
         self.english_chunks_preserved = 0
         self.chunks_translated = 0
+
+        # Medical terms that should NOT be translated
+        self.preserve_terms = {
+            # Drug names
+            'sorafenib', 'lenvatinib', 'sotorasib', 'atezolizumab', 
+            'bevacizumab', 'tecentriq', 'nexavar', 'lenvima', 'lumykras',
+            'imjudo', 'sandoz',
+            
+            # Medical abbreviations
+            'HCC', 'NSCLC', 'KRAS', 'G12C', 'PFS', 'OS', 'ORR', 'DCR',
+            'ECOG', 'BCLC', 'Child-Pugh', 'mRECIST', 'RECIST',
+            
+            # Clinical terms
+            'hepatocellular carcinoma', 'non-small cell lung cancer',
+            'progression-free survival', 'overall survival'
+        }
 
         # Available Helsinki-NLP models (language-specific, better quality)
         self.helsinki_models = {
@@ -1006,6 +1032,28 @@ class Translator:
             'ca': 'cat_Latn', 'mt': 'mlt_Latn', 'cy': 'cym_Latn', 'is': 'isl_Latn',
         }
 
+        # Translation artifact patterns for cleaning
+        self.translation_artifact_patterns = [
+            # Original patterns from the class
+            r'(\d+\.\d+\.\d+\.)+\d+',  # Repeated decimal patterns
+            r'([!?.,:;-])\1{3,}',      # Repeated punctuation
+            r'(\w+\s+)\1{3,}',         # Repeated words
+            
+            # Enhanced patterns for medical documents
+            r'((?:clinical trial|study|patient|treatment)\s+){3,}',
+            r'(p[<=]\d+\.\d+\s*){3,}',  # Repeated p-values
+            r'(CI:\s*\d+\.\d+-\d+\.\d+\s*){3,}',  # Repeated confidence intervals
+            r'(\d+\s*mg(?:/m2)?\s+){3,}',  # Repeated dosage information
+        ]
+
+        # Medical terms that should be preserved even if they appear repetitive
+        self.medical_exclusions = [
+            # Valid medical repetitions
+            r'dose-dose\s+(?:escalation|reduction)',
+            r'first-line.*second-line.*third-line',
+            r'pre-treatment.*post-treatment',
+        ]
+
         # Robust CUDA setup for Google Colab
         self.use_cuda = False
         self.device = "cpu"
@@ -1044,6 +1092,86 @@ class Translator:
         self.current_translator = None
         self.current_language = None
 
+    def preserve_medical_terms(self, text: str) -> tuple[str, dict]:
+        """Replace medical terms with placeholders before translation."""
+        preserved = {}
+        modified_text = text
+        
+        for i, term in enumerate(self.preserve_terms):
+            if term.lower() in text.lower():
+                placeholder = f"__MEDICAL_TERM_{i}__"
+                # Case-insensitive replacement
+                pattern = re.compile(re.escape(term), re.IGNORECASE)
+                modified_text = pattern.sub(placeholder, modified_text)
+                preserved[placeholder] = term
+                
+        return modified_text, preserved
+
+    def restore_medical_terms(self, text: str, preserved: dict) -> str:
+        """Restore medical terms after translation."""
+        for placeholder, term in preserved.items():
+            text = text.replace(placeholder, term)
+        return text
+
+    def is_table_content(self, text: str) -> bool:
+        """Detect if content is likely a table."""
+        table_indicators = [
+            r'Row \d+:',
+            r'\|.*\|.*\|',  # Pipe-separated content
+            r'^\s*\d+\.\d+\s+\d+\.\d+',  # Numerical data patterns
+            text.count('|') > 5,
+            text.count('Row') > 3
+        ]
+        return any(re.search(pattern, text) if isinstance(pattern, str) else pattern 
+                   for pattern in table_indicators)
+
+    def translate_table_content(self, text: str, translator) -> str:
+        """Special handling for table content."""
+        # Preserve medical terms first
+        text_with_placeholders, preserved_terms = self.preserve_medical_terms(text)
+        
+        # Split by rows
+        rows = re.split(r'(Row \d+:)', text_with_placeholders)
+        translated_rows = []
+        
+        for i, row in enumerate(rows):
+            if re.match(r'Row \d+:', row):
+                # Keep row markers as-is
+                translated_rows.append(row)
+            elif row.strip():
+                # For table cells, preserve structure
+                cells = row.split('|')
+                translated_cells = []
+                
+                for cell in cells:
+                    if cell.strip() and not re.match(r'^\d+\.?\d*$', cell.strip()):
+                        # Only translate non-numeric cells
+                        translated_cell = self.translate_single_chunk(cell.strip(), translator)
+                        translated_cells.append(translated_cell)
+                    else:
+                        translated_cells.append(cell)
+                        
+                translated_rows.append('|'.join(translated_cells))
+        
+        # Restore medical terms
+        translated_text = ''.join(translated_rows)
+        return self.restore_medical_terms(translated_text, preserved_terms)
+
+    def clean_translation_artifacts(self, text: str) -> str:
+        """Clean common translation artifacts while preserving medical terminology."""
+        # First check if this matches any medical exclusions
+        for exclusion_pattern in self.medical_exclusions:
+            if re.search(exclusion_pattern, text, re.IGNORECASE):
+                return text  # Don't clean if it's a valid medical pattern
+        
+        # Apply artifact cleaning patterns
+        cleaned_text = text
+        for pattern in self.translation_artifact_patterns:
+            # Replace repetitive patterns with single occurrence
+            cleaned_text = re.sub(pattern, r'\1', cleaned_text)
+        
+        return cleaned_text
+
     def detect_document_language(self, text: str) -> Optional[str]:
         """
         Detect the primary language of a document.
@@ -1058,7 +1186,7 @@ class Translator:
             detected_lang = detect(clean_text)
             print(f"    Detected language: {detected_lang}")
             return detected_lang
-        except LangDetectError:
+        except Exception:
             print("    Language detection failed")
             return None
 
@@ -1183,27 +1311,36 @@ class Translator:
                     if self.device.startswith("cuda"):
                         model = model.to(self.device)
 
-                    # Create translation function
-                    def nllb_translate(text, **kwargs):
+                    # Create translation function with generation parameters
+                    def nllb_translate(text, generation_params=None, **kwargs):
                         try:
                             src_lang = self.nllb_lang_mapping[language]
                             tgt_lang = 'eng_Latn'
 
                             # Tokenize
-                            inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=256)
+                            max_input_length = min(512, generation_params.get('max_length', 400) + 50) if generation_params else 256
+                            inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=max_input_length)
                             if self.device.startswith("cuda"):
                                 inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
+                            # Set up generation parameters
+                            gen_kwargs = {
+                                'forced_bos_token_id': tokenizer.convert_tokens_to_ids(tgt_lang),
+                                'max_length': generation_params.get('max_length', 256) if generation_params else 256,
+                                'num_beams': generation_params.get('num_beams', 2) if generation_params else 2,
+                                'length_penalty': generation_params.get('length_penalty', 0.9) if generation_params else 0.9,
+                                'do_sample': generation_params.get('do_sample', False) if generation_params else False,
+                                'no_repeat_ngram_size': generation_params.get('no_repeat_ngram_size', 2) if generation_params else 2,
+                                'repetition_penalty': generation_params.get('repetition_penalty', 1.1) if generation_params else 1.1,
+                            }
+                            
+                            # Add early stopping if specified
+                            if generation_params and generation_params.get('early_stopping'):
+                                gen_kwargs['early_stopping'] = True
+
                             # Generate translation
                             with torch.no_grad():
-                                translated_tokens = model.generate(
-                                    **inputs,
-                                    forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
-                                    max_length=256,
-                                    num_beams=2,  # Reduced for stability
-                                    length_penalty=0.9,
-                                    do_sample=False,
-                                )
+                                translated_tokens = model.generate(**inputs, **gen_kwargs)
 
                             # Decode
                             translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
@@ -1233,22 +1370,32 @@ class Translator:
                         )
                         # Keep model on CPU
 
-                        def nllb_translate_cpu(text, **kwargs):
+                        def nllb_translate_cpu(text, generation_params=None, **kwargs):
                             try:
                                 src_lang = self.nllb_lang_mapping[language]
                                 tgt_lang = 'eng_Latn'
 
-                                inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=256)
+                                # Tokenize with dynamic max length
+                                max_input_length = min(512, generation_params.get('max_length', 400) + 50) if generation_params else 256
+                                inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=max_input_length)
+
+                                # Set up generation parameters
+                                gen_kwargs = {
+                                    'forced_bos_token_id': tokenizer.convert_tokens_to_ids(tgt_lang),
+                                    'max_length': generation_params.get('max_length', 256) if generation_params else 256,
+                                    'num_beams': generation_params.get('num_beams', 2) if generation_params else 2,
+                                    'length_penalty': generation_params.get('length_penalty', 0.9) if generation_params else 0.9,
+                                    'do_sample': generation_params.get('do_sample', False) if generation_params else False,
+                                    'no_repeat_ngram_size': generation_params.get('no_repeat_ngram_size', 2) if generation_params else 2,
+                                    'repetition_penalty': generation_params.get('repetition_penalty', 1.1) if generation_params else 1.1,
+                                }
+                                
+                                # Add early stopping if specified
+                                if generation_params and generation_params.get('early_stopping'):
+                                    gen_kwargs['early_stopping'] = True
 
                                 with torch.no_grad():
-                                    translated_tokens = model.generate(
-                                        **inputs,
-                                        forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
-                                        max_length=256,
-                                        num_beams=2,
-                                        length_penalty=0.9,
-                                        do_sample=False,
-                                    )
+                                    translated_tokens = model.generate(**inputs, **gen_kwargs)
 
                                 translation = tokenizer.batch_decode(translated_tokens, skip_special_tokens=True)[0]
                                 return [{'translation_text': translation}]
@@ -1274,25 +1421,178 @@ class Translator:
         print(f"    ✗ No translator available for language: {language}")
         return None
 
-    def translate_text(self, text: str) -> str:
-        """
-        Translate text using the current translator.
-        """
-        if not text.strip() or not self.current_translator:
+    def split_into_sentences(self, text: str) -> List[str]:
+        """Split text into sentences for sequential translation."""
+        # Enhanced sentence splitting that handles medical abbreviations
+        # Common medical abbreviations that shouldn't trigger sentence breaks
+        medical_abbrevs = r'(?:Dr|Mr|Mrs|Ms|Prof|vs|etc|i\.e|e\.g|cf|approx|max|min|Fig|Tab|Ref|Vol|No|pg|pp|PFS|OS|ORR|DCR|CI|HR|OR|RR|AE|SAE|ECOG|BCLC|HCC|NSCLC|KRAS|G12C)'
+        
+        # Replace medical abbreviations temporarily
+        protected_text = re.sub(f'({medical_abbrevs})\\.', r'\1__PERIOD__', text, flags=re.IGNORECASE)
+        
+        # Split on sentence boundaries
+        sentences = re.split(r'[.!?]+\s+', protected_text)
+        
+        # Restore periods in abbreviations
+        sentences = [s.replace('__PERIOD__', '.') for s in sentences if s.strip()]
+        
+        return sentences
+
+    def detect_repetition(self, text: str, max_repeat_ratio: float = 0.3) -> bool:
+        """Detect if text has excessive repetition."""
+        if not text or len(text) < 20:
+            return False
+        
+        words = text.lower().split()
+        if len(words) < 10:
+            return False
+        
+        # Check for repeated n-grams
+        for n in [2, 3, 4]:  # Check 2-grams, 3-grams, 4-grams
+            ngrams = [' '.join(words[i:i+n]) for i in range(len(words)-n+1)]
+            if not ngrams:
+                continue
+                
+            # Count occurrences
+            ngram_counts = {}
+            for ngram in ngrams:
+                ngram_counts[ngram] = ngram_counts.get(ngram, 0) + 1
+            
+            # Check if any n-gram appears too frequently
+            max_count = max(ngram_counts.values())
+            repeat_ratio = max_count / len(ngrams)
+            
+            if repeat_ratio > max_repeat_ratio:
+                return True
+        
+        return False
+
+    def get_generation_params(self, attempt: int = 1) -> dict:
+        """Get generation parameters that become more conservative with retries."""
+        base_params = {
+            'max_length': 400 - (attempt * 50),  # Reduce max length on retries
+            'truncation': True,
+            'no_repeat_ngram_size': 2 + attempt,  # Increase anti-repetition
+            'repetition_penalty': 1.1 + (attempt * 0.1),  # Increase penalty
+            'do_sample': False,  # Use deterministic generation initially
+        }
+        
+        # For retries, add more conservative parameters
+        if attempt > 1:
+            base_params.update({
+                'num_beams': min(4, 2 + attempt),  # Use beam search for retries
+                'length_penalty': 1.0,
+                'early_stopping': True
+            })
+        
+        return base_params
+
+    def translate_with_retry(self, text: str, translator, max_attempts: int = 3) -> str:
+        """Translate text with retry logic for handling repetition."""
+        for attempt in range(1, max_attempts + 1):
+            try:
+                # Get generation parameters for this attempt
+                gen_params = self.get_generation_params(attempt)
+                
+                # For Helsinki models (pipeline), filter supported parameters
+                if hasattr(translator, 'model'):
+                    # This is a HuggingFace pipeline
+                    pipeline_params = {k: v for k, v in gen_params.items() 
+                                     if k in ['max_length', 'truncation', 'no_repeat_ngram_size', 
+                                             'repetition_penalty', 'do_sample', 'num_beams', 
+                                             'length_penalty', 'early_stopping']}
+                    result = translator(text, **pipeline_params)
+                else:
+                    # This is our custom NLLB function - modify to accept params
+                    result = translator(text, generation_params=gen_params)
+                
+                translated_text = result[0]['translation_text']
+                
+                # Check for repetition
+                if not self.detect_repetition(translated_text):
+                    return translated_text
+                else:
+                    print(f"      Repetition detected in attempt {attempt}, retrying...")
+                    if attempt == max_attempts:
+                        print(f"      Max attempts reached, using best available translation")
+                        return translated_text
+                    
+            except Exception as e:
+                print(f"      Translation attempt {attempt} failed: {str(e)[:50]}")
+                if attempt == max_attempts:
+                    return text  # Return original if all attempts fail
+        
+        return text
+
+    def translate_single_chunk(self, text: str, translator) -> str:
+        """Translate a single chunk of text with improved segmentation and anti-repetition."""
+        if not text.strip() or not translator:
             return text
 
         try:
-            # Limit text length for stability
-            words = text.split()
-            if len(words) > 150:  # Reduced for stability
-                text = ' '.join(words[:150])
-
-            result = self.current_translator(text, max_length=300, truncation=True)
-            return result[0]['translation_text']
+            # Preserve medical terms
+            protected_text, preserved_terms = self.preserve_medical_terms(text)
+            
+            # Instead of truncating, split into smaller segments
+            words = protected_text.split()
+            
+            if len(words) <= 50:
+                # Short text - translate directly
+                translated_text = self.translate_with_retry(protected_text, translator)
+            elif len(words) <= 150:
+                # Medium text - try sentence-by-sentence translation
+                sentences = self.split_into_sentences(protected_text)
+                
+                if len(sentences) > 1:
+                    # Translate sentence by sentence
+                    translated_sentences = []
+                    for sentence in sentences:
+                        if sentence.strip():
+                            trans_sentence = self.translate_with_retry(sentence.strip(), translator)
+                            translated_sentences.append(trans_sentence)
+                    translated_text = ' '.join(translated_sentences)
+                else:
+                    # Single long sentence - translate with retry
+                    translated_text = self.translate_with_retry(protected_text, translator)
+            else:
+                # Very long text - split into chunks and translate sequentially
+                chunk_size = 100  # words per chunk
+                translated_chunks = []
+                
+                for i in range(0, len(words), chunk_size):
+                    chunk_words = words[i:i + chunk_size]
+                    chunk_text = ' '.join(chunk_words)
+                    
+                    if chunk_text.strip():
+                        trans_chunk = self.translate_with_retry(chunk_text, translator)
+                        translated_chunks.append(trans_chunk)
+                
+                translated_text = ' '.join(translated_chunks)
+            
+            # Restore medical terms
+            final_text = self.restore_medical_terms(translated_text, preserved_terms)
+            
+            # Clean translation artifacts
+            cleaned_text = self.clean_translation_artifacts(final_text)
+            
+            return cleaned_text
 
         except Exception as e:
             print(f"      Translation error: {str(e)[:50]}")
             return text  # Return original on error
+
+    def translate_text(self, text: str) -> str:
+        """
+        Main translation method that handles both regular and table content.
+        """
+        if not text.strip() or not self.current_translator:
+            return text
+
+        # Check if this is table content
+        if self.is_table_content(text):
+            return self.translate_table_content(text, self.current_translator)
+        else:
+            return self.translate_single_chunk(text, self.current_translator)
 
     def clear_translator(self):
         """Clear current translator and free memory."""
