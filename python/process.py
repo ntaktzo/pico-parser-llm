@@ -1140,11 +1140,12 @@ class Translator:
             print(f"Loading model: {model_name}")
             
             try:
+                device_id = 0 if self.device.type == "cuda" else -1
                 translator = pipeline(
                     "translation",
                     model=model_name,
-                    torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
-                    device=self.device,
+                    torch_dtype=torch.float16 if self.device.type == "cuda" else torch.float32,
+                    device=device_id,
                 )
                 self.translators[lang] = translator
                 return translator
@@ -1176,14 +1177,13 @@ class Translator:
             
             # Create translator function with repetition prevention
             def nllb_translate(text, **kwargs):
-                # Set the source language
+                tokenizer.src_lang = src_lang
                 inputs = tokenizer(text, return_tensors="pt").to(self.device)
-                
-                # Get the tokenizer's language ID for the target language
+
                 with torch.no_grad():
                     translated_tokens = model.generate(
                         **inputs,
-                        forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
+                        forced_bos_token_id=tokenizer.lang_code_to_id[tgt_lang],
                         max_length=512,
                         num_beams=3,  # Reduced for stability
                         no_repeat_ngram_size=3,
@@ -1439,7 +1439,8 @@ class Translator:
         """
         max_attempts = 3  # Increased attempts
         current_attempt = 0
-        
+        original_chunk = chunk
+
         while current_attempt < max_attempts:
             try:
                 # Pass generation parameters to the actual call
@@ -1481,11 +1482,11 @@ class Translator:
                 if current_attempt == max_attempts - 1:
                     # Last attempt failed - return original text
                     print(f"Translation failed completely, returning original text")
-                    return chunk
-                
+                    return original_chunk
+
                 current_attempt += 1
-                
-        return chunk
+
+        return original_chunk
 
     def translate_json_file(self, input_path: str, output_path: str):
         """
