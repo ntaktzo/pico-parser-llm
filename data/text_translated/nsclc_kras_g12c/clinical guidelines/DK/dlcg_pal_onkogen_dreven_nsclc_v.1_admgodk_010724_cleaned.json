@@ -1,0 +1,446 @@
+{
+  "doc_id": "dlcg_pal_onkogen_dreven_nsclc_v.1_admgodk_010724",
+  "created_date": "2024",
+  "country": "DK",
+  "source_type": "clinical_guideline",
+  "chunks": [
+    {
+      "heading": "",
+      "text": "Clinical Pallie onko Klevelo k Directions eren anden on v. 9.1 sline nd n-d",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "Version 1.0",
+      "text": "Approved Professional approval 24 June 2024 (DLCG) Administrative approval 1 July 2024 (Secretaria Guidelines on Kraf",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "REVISION",
+      "text": "Scheduled June 1, 2025",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "INDECTION",
+      "text": "DOLG, NSCLC, Oncook Treatment DMCG KE GUIDELINES CANCER OF Lung cancer atet for Clinical FtRange) re-driven, palliative Clinical Guideline • Application",
+      "start_page": 1,
+      "end_page": 2
+    },
+    {
+      "heading": "Contents",
+      "text": "(Quick guide) ................................................................. palliating first line oncology of oncoke drive Palliating second line oncology of oncoke drive Flow chart for treatment ............................................................................ 2. Introduction ........................................................................................................................... 3. Basis ................................................................................................................................................ palliating first line oncology of oncogen drive Palliating second line oncology of oncogen drive 4. References .................................................................................................................................................................................................................................................................................................................................................................................................................................................. 7. Annex ................................................................................................................................ Annex 1 ................ Search strategy ................................................................................................................................ Annex 2 - abbreviations and explanations ................................................................................................................................................................ Annex 3 - Instructions for application for single patient use in DK) animal medicinal products which have either been rejected by e 8.",
+      "start_page": 2,
+      "end_page": 5
+    },
+    {
+      "heading": "2. Introduction",
+      "text": "The treatment of this patient group therefore requires an extremely heterogeneous and biologically unstable cancer with many different treatment options. The group of patients constitutes approximately 60 percent of all patients with pulmonary adenocarcinomas. The treatment options are complex and based on the genomic profiling of patients' tumors and/or free tumor DNA in blood (ctDNA). The understanding of the molecular biology mechanisms is developing rapidly after the introduction of next generation sequence (NGS). The development is directed towards a treatment tailored to the individual gene errors (variants); the EGFR mutation must be treated quite differently from the protein-change gene error (variant) in EGFR gene (e.g. EGFR exon 19 del versus EGFR exon 20 insertion). Because of this deeper understanding of the biology of the disease and the derived even more targeted treatment, the development of new drugs will increasingly be based on studies with fewer patient populations. Our classic assessment of the effect on the basis of large randomised phase III studies will be challenged.",
+      "start_page": 6,
+      "end_page": 7
+    },
+    {
+      "heading": "3. Basis",
+      "text": "Introduction Oncogen-driven NSCLC must be considered as a disease in constant molecular development in the individual patient. The treatment decisions should therefore reflect this development. Therefore, it is recommended that patients in progression during TKI have a new genetic profiling on progressive metastasis and that this profile should be discussed on a molecular tumor board (if available) or with colleagues in pathological ward. Generally, it is recommended to treat the individual patient for as long as possible with relevant TKIs, also described in ESMO and NCCN guidelines. The way the progression appears in patients during TKI treatment has an impact on the choice of treatment. In the case of oligoprogress, a localisation of the metastatic sites under continued TKI may be considered. In the case of asymptomatic systemic progression, consideration may be given to treatment with TKI \"beyond progression\" during closer monitoring of disease activity. In case of symptomatic systemic progression, a biopsy from a prognosing metastasis may be considered decisive for the next treatment selection.",
+      "start_page": 8,
+      "end_page": 14
+    },
+    {
+      "heading": "BRIGATINIB VERSUS ALECTINIB VERSUS LORLATINIB",
+      "text": "Brigatinib and alectinib are generally similar, but with slightly different adverse event profile and efficacy depending on variant. For EML4-ALK variant 3 ORR for brigatinib 91% versus 68% for alectinib (23)[1b]. Furthermore, in approximately 10 percent of patients with other than EML4 fusion partner (e.g. STRN, PLEKH2, KANK1), response to alectinib (28-30)[4] has only been reported. In addition, the patient's preferences should also be taken into account under alectinib variant 3. Unlike other ALK-TKIs, co-mutation in TP53 has less influence on the effect of lorlatinib (32)[1b]. In the patient group with EML4-ALK variant 3 and co-existing TP53 mutation is seen in a mPFS for masculinum.",
+      "start_page": 15,
+      "end_page": 18
+    },
+    {
+      "heading": "Ad. Recommendation 7",
+      "text": "Data for NSCLC patients with METex14 treated with chemotherapy are limited. In a retrospective study, data were available from 20 NSCLC patients who had received different types of chemotherapy and achieved a PFS of 4.0 months and an OS of 9.5 months. Twelve of the 20 patients who received Pemetrexed-based chemotherapy had an ORR of 33.3 % (43)[2b]. In another retrospective study, 3 of 11 patients with NSCLC treated with chemotherapy achieved a partial response (44)[2b]. As these data are not head-to-head comparisons, they should be interpreted with caution and can only give a weak idea of what can be achieved with chemotherapy in NSCLC patients with METex14. Tepotinib or Capmatinib (due to their intracranial effect) can be considered in the first line of patients with cerebral metastasis after the approval of regional drug committees (45-48) [2b] VISION is a phase 2 non-treatment patients, including metaranised study 56.",
+      "start_page": 18,
+      "end_page": 28
+    },
+    {
+      "heading": "SELPERCATINIB",
+      "text": "In the Phase 1/2 study LIBERTTO-001 (95) [2b], selfpercatinib was studied in the 2nd line following platinum-based chemotherapy. Here, an ORR of 64% and a median DOR of 17.5 months was found in an interim analysis of Phase 3 study LIBERTTO-431, assessed against platinum-based chemotherapy +/- pembrolizumab in the 1st line in patients with advanced RET fusion activated NSCLC (38)[1b]. The study shows PFS: 24.8 months versus 11.2 months versus selfpercatnib versus platinum-based chemotherapy +/-pembrolizumab. ORR: 84% (selpercatinib) versus 65% (chemotherapy). The intracranial ORR was 82% (selpercatinib) versus 58% (chemotherapy +/-immunotherapy).",
+      "start_page": 28,
+      "end_page": 36
+    },
+    {
+      "heading": "4. References",
+      "text": "with Alectinib: Updated Results of Lung Oncology Group in Kyushu 1401. Oncologist. 2020;25(4):306-e618. 67. Blaquier JB, Ortiz-Cuaran S, Ricciuti B, Mezquita L, Cardona AF, Recondo G. Tackling Osimertinib Resistance in EGFR-Mutant Non-Small Cell Lung Cancer. Clin Cancer Res. 2023;29(18):3579-91.",
+      "start_page": 39,
+      "end_page": 41
+    },
+    {
+      "heading": "5. Metode",
+      "text": "Literature search Literature search for this clinical guideline has been conducted 22 and 23 November 2023. Systematic searches for primary studies have been conducted in PubMed. Searching for English-language literature published from 2010 until the search itself Search protocols and search strings have been prepared in consultation with RKKP. Search protocols with detailed search strategy can be found in Annex 1. Literature review All references published by the search strings have been reviewed by the authors and sorted on abstract- the pre-defined patient group and the level of evidence. The ESMO guideline reference lists were also reviewed to ensure that this guideline containing the ESMO guideline references. Formulation of recommendations The formulation of the recommendations has been developed in a collaboration between the clinical experts in the guideline group. The guideline group has discussed the guideline at a 2-day international and efte at several virtual meetings. There have been no major disagreements within the group. The guideline describes existing consensus on treatment choices for the oncoggen drive NSCLC in Denmark.",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "heading": "6. Monitoring",
+      "text": "The development of quality in this field is supported by knowledge from the Danish Lunge Cancer Register (DLCR) under the auspices of the Regional Clinical Quality Development Programme (RKKP), as the indicators in the database illustrate the relevant clinical guidelines (insert footnote to the BEK). The management group of the clinical quality database has the mandate to decide on the database's indicator sets, including which specific processes and results are monitored in the database. Parts of the guideline recommend treatments that have not yet been assessed in MRI. It is therefore suggested that indicators be established that allow 1) monitoring of the regions' permissions for the treatment of recommendations and 2) the effectiveness of the treatments (e.g. ORR, PFS and DOR).",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "heading": "Annex 1 • Search strategy",
+      "text": "Title (on Guideline) (Palliende oncological treatment ALK-driven NSCLC)",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "DMCG",
+      "text": "DOLG Contact with methodological specialist Guideline Secretariat",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "Last Completed",
+      "text": "For example, if you are looking for an alternative treatment, you will find that you are not able to use the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment.For example, if you are looking for the same treatment, you will find that you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment as you are looking for the same treatment.",
+      "start_page": 48,
+      "end_page": 49
+    },
+    {
+      "heading": "Search Strategies (Copied In)",
+      "text": "For each database searched, the search itself shall be copid. Medline (number of hits=78) Search Add to builder Query Items found #5 Add 78 #4 Add 298.212 #3 Add 147.184 #2 Add 88 #1 Add 85557 Lent On: Thu Nov 23 04:50:11 2023 Search: ((((((Lung cancer or Thorac cancer or Lung adenocarcinoma or Non-smal cell lung cancer OR NSCLC OR Stage IV OR OR Oncogen-driven lung cancer OR Oncogen-addicked lung cancer OR Lung cancer OR Lung tum OR Metastatic OR Thoracic OR OR ALK) AND ((observearing study[Filer] OR OR OR ONCogen-driven lung lung cancer ung cancer OR OR OR Lung cancer ung cancer ung cancer ung cancer ung cancer OR OR Lung cancer ung cancer ARD cancer OR OR Lung cancer OR OR OR OR OR OR OR OR OR OR OR ON ON-add-add-aded lung cancer ung cancer ung cancer ung cancer ung cancer ung cancer ung cancer OR Lung cancer OR Lung cancer OR Lung tum OR OR OR OR Lung tum OR OR OR OR OR OR OR OR OR OR OR OR OR OR OR Meta Meta Meta",
+      "start_page": 49,
+      "end_page": 50
+    },
+    {
+      "heading": "DMCG",
+      "text": "Contact with me",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "Last Completed",
+      "text": "Inclusion and exclusion criteria Keywords English All imaginable keywords should be inserted. inje •Required line) Pallier DOLG etodespecialist Direction Deg Pallier targeter generic Audi Audi Language: e eries Publisat Population2 Lung cancer OR Thorac cancer or Lung adenocarcinoma OR Non-smal cell lung cancer OR NSCLC OR Stage IV OR Oncogen-driven lumin cancer OR Oncogen-addicted lung cancer OR Lung tumor OR Metastatic OR Thoracacic OR EGFR DDLCG-driven oncologic treatment EGFR-driven NSCLC Gsline Secretariat definition of topic end oncological treatment of EGFR-driven lung cancer OR Lung tumor OR OR Metastatic OR ThoracC OR EGFR DLCG-driven cancer OR NSCLC OR Stage IV OR Stage IV OR Oncogen-driven cancer OR Oncogen-driven lung cancer OR Oncogen-add lung cancer OR Lung tumor OR Lung tumour OR Lung cancer OR Lung cancer vs OR Lung tum or Lung tum ung tum OR OR OR Lung cancer vs OR W vs platinum based vs platinum based platinum based platinum based platinum based platinum based chem platinum or vs first choices TKI); there is different firsttions TKI; there is a difference difference difference effects difference effect effect effect effect",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "heading": "DOLG",
+      "text": "Clinical Directionli Contact with me",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "Last Completed",
+      "text": "Background Inclusion and exclusion criteria Subjects English All imaginable keywords should be inserted. Search for prime 3 See guidance for 'Comparison in je",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "heading": "Search Strategies (Copied In)",
+      "text": "PORT/StilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilStilSSStilStilStilSStilSStilStilStilSStilStilStilSSSSStilSSSStilSSSStilStilStilSSSSStilStilSStilSSSSSSSStilSSSSSSSSSSStilSSSSSSSSSSSSSSSSSS",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "DMCG",
+      "text": "DOLG Contact with method specialist Guideline Secretariat Clinical direction",
+      "start_page": 53,
+      "end_page": 54
+    },
+    {
+      "heading": "Last Completed",
+      "text": "Background Inclusion and exclusion criteria Subjects English All imaginable keywords should be inserted. Searching for prime Databases (prim PubMed Search Strategies (cop 4 See Guide for 'Comparison in je",
+      "start_page": 54,
+      "end_page": 55
+    },
+    {
+      "heading": "PubMed (number of hits=129)",
+      "text": "Items foundSTORATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATERATER RATER RATERATERATERATERATEREATERATERATER RATERATER",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "Annex 2 - Abbreviations and explanations",
+      "text": "AE. Adverse events (side effects). ALK: Receptor that activates JAK-STAT, RAS-MAPK, PI3K-mTOR and JUN signal pathways Amplification: An increase in the number of a gene, i.e. several copies of a gene relative to centromer. It can (but not always) result in an increase in the protein gene/DNA sequence codes for. BRAF: Intracellular protein in the MAPK signal path CNA: Copy number altars: Variation in the number of genes/sequences of DNA (there may be several or fewer of the same sequences/ genes). DLCG/DLCR: Danish lung cancer group (Reregister) DNA: Deoxyribonucleic acid. Our genetic mass. A macromolecule (2 meter long if we string it out), double-string chain of nuclotides. DOLG: Danish oncologic lung cancer group DOR: Duration of response (median) EBUS: Endophonicchial-ultrasabras, i.",
+      "start_page": 56,
+      "end_page": 58
+    },
+    {
+      "heading": "Guide to application for NPP/PAA/EAP",
+      "text": "Medicines that are not available in Denmark (can not be posted in ProMedicin) may in some cases be available via the pharmaceutical companies that have developed the medicine (e.g. repotrectinib) in so-called \"named patient programs (NPP) / \"early-access programs\" (EAP) / Pre-Approval Access (PAA). The programs are often open during the period from one study have shown promising results until they are marketed in each country (often in connection with approval of EMA). If the patient is included, the company often covers the cost of the patient's medicine until it is marketed. Stepwise the procedure for these applications 1. Contact to the pharmaceutical company: On the websites of the pharmaceutical companies, the pre-approval access programs (PAA) are described. Here, the application process is also described and linked to relevant contact persons. 2. Overall description of the patient (after patient acceptance) according to the study's inclusion criteria are sent to the company's contact person. 3. The company approves and initiates an application process 4. The application must be approved by your department 5.",
+      "start_page": 58,
+      "end_page": 59
+    },
+    {
+      "heading": "8. About this clinical guideline",
+      "text": "This clinical guideline has been developed in a collaboration between Danish Multidisciplinary Cancer Groups (DMCG.dk) and the Regional Clinical Quality Development Programme (RKKP). The efforts with guidelines have been reinforced in relation to the Cancer Plan IV and are aimed at supporting evidence-based high and uniform quality cancer efforts in Denmark. The academic content has been designed and approved by the DMCG relevant to the disease. The Secretariat for Clinical Guidelines in the field of Cancer has made an administrative approval of the content. Further information on clinical guidelines in the field of cancer can be found at: The guideline is targeted clinical working health professionals in the Danish healthcare system and contains systematically prepared statements that can be used as decision support for professionals and patients when deciding on appropriate and correct health care in specific clinical situations. The clinical guidelines in the field of cancer have the character of professional advice. The guidelines are not legally binding, and this will always be the professional judgement in the specific clinical situation that is available to them.",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "heading": "table under heading <5. Method> (from previous page)",
+      "text": "Row 1: The guideline will be updated once a year. The update will take place at the beginning of 2025 in collaboration between Row 2: the above members of the group.",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Title (on guideline)^Palliende oncological treatment ALK-driven NSCLC) Row 2: DMCG...DOLG Row 3: Contact with method specialist...",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Delimitation of topic • Row 2: Background • Palliating oncological treatment of ALK-driven NSCLC • Targeted treatment vs. platinum-based chemotherapy or vs. first generation TKI; there is a difference in efficacy and incidence of adverse reactions Row 3: Inclusion and exclusion criteria • Date of publication (period): 2010 to day Language: English Type of publication: Primary literature, including RCTs and cohort studies are of interest",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Row 2: Alectinib Row 3: Brigatinib Row 4: Lorlatinib Row 5: Crizotinib Row 6: Ceritinib Row 7: Row 8:",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Overall response Row 2: rate Row 3: Output Row 4: Duration of Row 5: response Row 6: Overall survival Row 7: Progression free Row 8: survival Row 9: Adversal events Row 10: Side effects Row 11: Serious adverse Row 12: events",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed> (column 1)",
+      "text": "Row 1: Title (on guideline) Row 2: DMCG Row 3: Contact with method specialist Row 4: Last completed",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed> (column 1)",
+      "text": "Row 1: Background Row 2: Inclusion and exclusion criteria",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed> (column 1)",
+      "text": "Rive right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right left left Row 3: English All sorts of keywords should be inserted.",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Last completed> (column 2)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9: Row 10: Row 11: Row 12:",
+      "start_page": 48,
+      "end_page": 48
+    },
+    {
+      "heading": "table under heading <Search strategies (copyed in)>",
+      "text": "Row 1:",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "heading": "table under heading <Search strategies (copyed in)>",
+      "text": "Row 1: Databases (primary literature) • Data for search (dd/mm/yyyy) • Reply for search (name(e)) Row 2: PubMed • 23.11.2023 • Hønn",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "heading": "table under heading <Search strategies (copyed in)>",
+      "text": "Row 1: Search •Add to builder •Query •Items found Row 2: #5 •Add •78 Row 3: #4 •Add •298.212 Row 4: #3 •Add •147.142 Row 5: #2 •Add •88 Row 6: #1 •Add •85.257",
+      "start_page": 49,
+      "end_page": 49
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Title (on guideline) •Palliende oncological treatment EGFR-driven NSCLC Row 2: DMCG •DOLG Row 3: Contact with the method specialist •Righting line secretariat Row 4: Last completed •",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Delimitation of topic • Row 2: Background • Palliating oncological treatment of EGFR-driven NSCLC • Targeted treatment vs. platinum-based chemotherapy or vs. first generation TKI; there is a difference in efficacy and incidence of adverse reactions Row 3: Inclusion and exclusion criteria • Date of publication (period): 2010 to day Language: English Type of publication: Primary literature including RCTs",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Rive right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right rightOOOOOOR-OOOOR right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Overall response Row 2: rate OR Row 3: Outcomes OR Row 4: Duration of Row 5: response OR Row 6: Overall survival Row 7: OR Row 8: Progression free Row 9: survival OR Row 10: Adversal events Row 11: OR Row 12: Side effects OR Row 13: Serious adverse Row 14: events",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "table under heading <Last completed> (column 2)",
+      "text": "Row 1: Population2°Population2 Row 2: •Lung cancer OR Row 3: •Thoracic cancer OR Row 4: •Lung Row 5: •adenocarcinoma OR Row 6: •Non-small-cell lung Row 7: •cancer OR Row 8: •NSCLC OR Row 9: •Stage IV OR Row 10: •Oncogen-driven lun Row 11: •cancer OR Row 12: •Oncogen-addicted Row 13: •lung cancer OR Row 14: •Lung tumor OR Row 15: •Metastatic OR Row 16: •Thoracic OR Row 17: •EGFR Row 18: • Row 19: • Row 19: •",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "table under heading <Last completed> (column 3)",
+      "text": "Rowway Rowway Rowway Rowway Rowway Rowway Rowway 1: •InterventionCARORSSammenal equals:Outcomes1-Outs1-Outcomes1 Row 2: hose Row2 RowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowRowR right: •RowRowRowRowRowR right: •RowRowRway  rent  rent  rent  rent  rent } : : • • • • •R rightR rightR rightR rightR rightRRRRR rightR rightR rightR rightR rightR rightRR rightR rightR rightRRR rightR",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "table under heading <Last completed> (column 4)",
+      "text": "Row 1: e Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: e Row 9: Row 10: Row 11: Row 12: Row 13: e Row 14:",
+      "start_page": 50,
+      "end_page": 50
+    },
+    {
+      "heading": "table under heading <DOLG>",
+      "text": "Row 1: Databases (primary literature) • Data for search (dd/mm/yyyy) • Reply for search (name(e)) Row 2: PubMed • 22.11.2023 • Hønn",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "heading": "table under heading <DOLG>",
+      "text": "Row 1: Search •Add to •Query •Items found Row 2: •builder • Row 3: #5 • Add •794 • Row 4: #4 • Add •298.212 • Row 5: #3 • Add •147.148 • Row 6: #2 • Add •1.238 • Row 7: #1 • Add •88.089 • Row 1: Search • Add to •Query • Items found Row 2: •builder • Row 3: • Add •794 • Row 4: • Add •288.089 • Row 6: #2 • Add •1.238 • Row 7: #1 • Add •88.089 •",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "heading": "table under heading <DOLG>",
+      "text": "Row 1: Title (on guideline) •Palliende onkologiskbehandling RET-driven NSCLC Row 2: DMCG^DOLG",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Contact with the method specialist...Row 2: Return Line Secretariat...",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Delimitation of topic • Row 2: Background • Palliating oncological treatment of RET-driven NSCLC • Targeted treatment vs. platinum-based chemotherapy or vs. first generation TKI; there is a difference in efficacy and incidence of adverse reactions Row 3: Inclusion and exclusion criteria • Date of publication (period): 2010 to day Language: English Type of publication: Primary literature, including RCTs and cohort studies are of interest",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â â",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Row 2: Selpercatinib Row 3: OR Row 4: Pralsetinib Row 5: OR Row 6: Checkpoint- Row 7: inhibitor OR Row 8: Pembrolizum Row 9: ab OR Row 10: Atezolizumab Row 11: Row 12: Row 13: Row 14: Row 15:",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Overall response Row 2: rate OR Row 3: Outcomes OR Row 4: Duration of Row 5: response OR Row 6: Overall survival Row 7: OR Row 8: Progression free Row 9: survival OR Row 10: Adversal events Row 11: OR Row 12: Side effects OR Row 13: Serious adverse Row 14: events",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <Last completed> (column 2)",
+      "text": "Row 1: Population3°Population3 Row 2: •Lung cancer OR Row 3: •Thoracic cancer OR Row 4: •Lung adenocarcinoma Row 5: •OR Row 6: •Non-small-cell lung Row 7: •cancer OR Row 8: •NSCLC OR Row 9: •Stage IV OR Row 10: •Oncogen-driven lung Row 11: •cancer OR Row 12: •Oncogen-addicted Row 13: •lung cancer OR Row 14: •Lung tumor OR Row 15: •Metastatic OR Row 16: •Thoracic OR Row 17: •RIGHT Row 18: •",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <Last completed> (column 3)",
+      "text": "Row Цед Цегенция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенцияция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенция Цегенцияция Цегенция Цегенция Цегенцияция Цегенцияция Цегенция Цеция Цегация Ци Це Це Ци Це Це Це Це Це Ци Ци Ци Ци Це Це Це Це Ц Ци Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц Ц",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <Last completed> (column 4)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9: Row 10: Row 11: Row 12: Row 13: Row 14:",
+      "start_page": 52,
+      "end_page": 52
+    },
+    {
+      "heading": "table under heading <DMCG>",
+      "text": "Row 1: Databases (primary literature) • Data for search (dd/mm/yyyy) • Reply for search (name(e)) Row 2: PubMed • 23.11.2023 • Hønn",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "table under heading <DMCG>",
+      "text": "Row 1: Search·Add to builder...Query·Items found... Row 2: #5·Add...59... Row 3: #4·Add...298.212... Row 4: #3·Add...3,306... Row 5: #2·Add...638... Row 6: #1·Add...85.89..",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "table under heading <DMCG>",
+      "text": "Row 1: Title (on guideline) •Palliende oncological treatment ROS1-driven NSCLC Row 2: DMCG. •DOLG Row 3: Contact with the methodology specialist •The justice line secretariat",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Last completed",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Delimitation of topic • Row 2: Background • Palliating oncological treatment of ROS1-driven NSCLC • Targeted treatment vs. platinum-based chemotherapy or vs. first generation TKI; there is a difference in efficacy and incidence of adverse reactions Row 3: Inclusion and exclusion criteria • Date of publication (period): 2010 to day Language: English Type of publication: Primary literature, including RCTs and cohort studies are of interest",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row2Rowway right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right right left right right right left right right right right left left right right right right right left left left left left left left OR Crizotinib OR Checkpoint inhibitor OR Checkpoint-point inhibitor OR Pembrolizum ab OR Atezolizumab Plainum-based Chemother-based Chemotherappy OR Best supportive Care Care or Crizotread-based Best supportive Care OR Crizotinib OR Lor Crizotinib or Checkpoint-based response rate OR Outcomes or Duration of response OR Outcomes OR Duration of response OR Outcome OR Duration of response OR Over all survival-based Pla based based based based based Pla Pla ORD OR Overall based based based based ORD ObservCCCCCC Cham cancer cancer cancer ORC: ChemotherCCCCCCCCother also also also: CCCCC: CCCCCCCC: CCCCCCCCCCCCCCother",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Row 2: Entrectinib Row 3: OR Row 4: Crizotinib OR Row 5: Repotrectinib Row 6: OR Row 7: Ceritinib OR Row 8: Lorlatinib OR Row 9: Checkpoint- Row 10: inhibitor OR Row 11: Pembrolizum Row 12: ab OR Row 13: Atezolizumab Row 14: Row 15: Row 16:",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Overall response Row 2: rate OR Row 3: Outcomes OR Row 4: Duration of Row 5: response OR Row 6: Overall survival Row 7: OR Row 8: Progression free Row 9: survival OR Row 10: Adversal events Row 11: OR Row 12: Side effects OR Row 13: Serious adverse Row 14: events",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed>",
+      "text": "Row 1: Databases (primary literature) • Data for search (dd/mm/yyyy) • Reply for search (name(e)) Row 2: PubMed • 23.11.2023 • Hønn",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed> (column 2)",
+      "text": "Row 1: Popularity4°Population4 Row 2: •Lung cancer OR Row 3: •Thoracic cancer OR Row 4: •Lung adenocarcinoma Row 5: •OR Row 6: •Non-small-cell lung Row 7: •cancer OR Row 8: •NSCLC OR Row 9: •Stage IV OR Row 10: •Oncogen-driven lung Row 11: •cancer OR Row 12: •Oncogen-addicted Row 13: •lung cancer OR Row 14: •Lung tumor OR Row 15: •Metastatic OR Row 16: •Thoracic OR Row 17: •ROS1 OR Row 18: •",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed> (column 3)",
+      "text": "Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Rows: Row 3:",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed> (column 3)",
+      "text": "Row 1: Dato for søgning (dd/mm/åååå)\nRow 2: 23.11.2023",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <Last completed> (column 4)",
+      "text": "Row 1: Row 2: Row 3: Row 4: Row 5: Row 6: Row 7: Row 8: Row 9: Row 10: Row 11: Row 12: Row 13: Row 14:",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "table under heading <PubMed (number of hits=129)>",
+      "text": "Row 1: Search •Add to builder •Query •Items found • Row 2: #5 •Add •129 • Row 3: #4 •Add •298.212 • Row 4: #3 •Add •3.371 • Row 5: #2 •Add •716 • Row 6: #1 •Add •85.082 • Row 1: Search •Add to builder •Query •Items found • Row 2: #5 •Add •716 • Row 6: #1 •Add •85.082 • Row 5: •Add •716 • Row 6: •Add •85.082 •",
+      "start_page": 55,
+      "end_page": 55
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import statistics
 import pdfplumber
 from collections import defaultdict
 import numpy as np  # Add this to the existing imports
+from typing import Dict, Any, Optional, Union, List
 
 
 class PDFProcessor:
@@ -899,28 +900,29 @@ class PDFProcessor:
 
 
 
+
 import os
 import re
 import json
 import shutil
 import gc
 import torch
-from typing import Optional
+from typing import Optional, List, Dict, Any
 from langdetect import detect
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
 
 class Translator:
     """
-    Fixed Translator class that processes JSON files with proper parameter handling
-    and conservative repetition detection to preserve medical content.
+    Enhanced Translator class with improved repetition detection and conservative medical content preservation.
     
-    This class ensures both headings and text content are properly translated.
+    This class processes JSON files with proper parameter handling and enhanced repetition detection
+    to catch translation artifacts while preserving legitimate medical terminology.
     """
     def __init__(
         self,
         input_dir,
         output_dir,
-        max_chunk_length=200  # Reduced from 300 to avoid token limit issues
+        max_chunk_length=400  # Increased for better context while staying under token limits
     ):
         self.input_dir = input_dir
         self.output_dir = output_dir
@@ -994,25 +996,56 @@ class Translator:
             self.device = torch.device("cpu")
             print("Device set to use cpu")
             
-        # FIXED: More conservative repetition patterns that only flag severe cases
+        # Enhanced repetition detection patterns
         self.severe_repetition_patterns = [
-            r'(\b\w{3,}\b)(\s+\1){5,}',  # Same word repeated 6+ times (increased from 3+)
-            r'([A-Z0-9]{2,})\1{5,}',     # Symbol/code repeated 6+ times
-            r'(\d+\.\d+)(\.\d+){5,}',    # Number pattern repeated 6+ times
+            # Basic word repetitions (lowered threshold from 6+ to 3+)
+            r'(\b\w{3,}\b)(\s+\1){2,}',  # Same word repeated 3+ times
+            r'([A-Z0-9]{2,})\1{2,}',     # Symbol/code repeated 3+ times
+            r'(\d+\.\d+)(\.\d+){2,}',    # Number pattern repeated 3+ times
+        ]
+        
+        # Additional patterns for common translation artifacts
+        self.translation_artifact_patterns = [
+            # Alternating word patterns
+            r'(\b\w{4,}\b)\s+(\b\w{4,}\b)(\s+\1\s+\2){2,}',  # "word1 word2 word1 word2..."
+            
+            # Phrase repetitions
+            r'((?:\b\w+\b\s*){2,5})(?:\s*,?\s*\1){2,}',  # 2-5 word phrases repeated
+            
+            # Numerical sequences
+            r'(\d+\.?\d*)\1{3,}',  # Repeated numbers like "0.090.090.09"
+            r'(\d{1,3}\.\d{2,3})(?:\.\d{2,3}){3,}',  # Decimal patterns
+            
+            # Special punctuation patterns
+            r'([,;:])\s*\1{2,}',  # Repeated punctuation
+            r'(\w+[,;])\s*\1{2,}',  # Word with punctuation repeated
+            
+            # Row/table artifacts
+            r'(Row\s+\d+:?\s*){3,}',  # Repeated row markers
+            r'(\b\w+\b\s*\|\s*){3,}',  # Repeated table separators
         ]
         
         # Medical terminology patterns to EXCLUDE from repetition detection
         self.medical_exclusions = [
-            r'\b(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+\b',
-            r'\b\w+(?:-dependent|-specific|-related|-based|-induced|-mediated|-resistant|-sensitive|-positive|-negative)\b',
-            r'\b(?:patient|dose|treatment|therapy|drug|clinical|medical|surgical|diagnostic)-\w*\b',
-            r'\b(?:meta|micro|macro|ultra|hyper|hypo|extra|intra)-\w+\b',
-            r'\b\w+(?:-ase|-itis|-osis|-emia|-uria|-pathy|-therapy|-metry|-scopy|-tomy|-ectomy)\b',
-            r'\b(?:HCC|CCA|HBV|HCV|HIV|AIDS|CT|MRI|PET|DNA|RNA|PCR)\b',  # Medical acronyms
+            # Multi-prefix compounds
+            r'\b(?:pre|post|anti|non|co|sub|super|trans)-\w+-\w+-\w+\b',
+            
+            # Complex medical compounds
+            r'\b\w+(?:-dependent|-independent)(?:-\w+){2,}\b',
+            
+            # Acronym pairs that might legitimately repeat
+            r'\b(?:DNA|RNA|HIV|HCV|HCC|NSCLC)\s+(?:DNA|RNA|HIV|HCV|HCC|NSCLC)\b',
+            
+            # Drug name patterns
+            r'\b\w+(?:mab|nib|zumab|tinib|ciclib|parib|vastatin)\b(?:\s+\w+(?:mab|nib|zumab|tinib|ciclib|parib|vastatin)\b)*',
+            
+            # Medical terminology with legitimate repetition
+            r'\b(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+(?:\s+(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+)*\b',
         ]
         
-        # FIXED: Much more conservative threshold (increased from 0.3 to 0.6)
-        self.max_repetition_ratio = 0.6
+        # More aggressive thresholds
+        self.max_repetition_ratio = 0.3  # Reduced from 0.6
+        self.repetition_score_threshold = 0.15  # New score-based threshold
 
     def detect_language(self, text: str) -> Optional[str]:
         """
@@ -1055,17 +1088,47 @@ class Translator:
         except:
             return None
 
-    def is_medical_terminology(self, text: str) -> bool:
-        """Check if text contains medical terminology that should be excluded from repetition detection."""
+    def is_legitimate_medical_repetition(self, text: str) -> bool:
+        """
+        Check if a repetition is legitimate medical terminology.
+        More nuanced than blanket exclusions.
+        """
         for pattern in self.medical_exclusions:
             if re.search(pattern, text, re.IGNORECASE):
                 return True
         return False
 
+    def calculate_repetition_score(self, text: str) -> float:
+        """
+        Calculate a more nuanced repetition score.
+        """
+        if not text or len(text) < 20:
+            return 0.0
+        
+        # Check various repetition types
+        word_repetitions = len(re.findall(r'(\b\w{3,}\b)(\s+\1){2,}', text))
+        phrase_repetitions = len(re.findall(r'((?:\b\w+\b\s*){2,5})(?:\s*,?\s*\1){2,}', text))
+        number_repetitions = len(re.findall(r'(\d+\.?\d*)\1{3,}', text))
+        artifact_repetitions = sum(len(re.findall(pattern, text)) for pattern in self.translation_artifact_patterns)
+        
+        # Calculate weighted score
+        total_words = len(text.split())
+        if total_words == 0:
+            return 0.0
+            
+        repetition_score = (
+            (word_repetitions * 3) +  # Word reps are serious
+            (phrase_repetitions * 5) +  # Phrase reps are worst
+            (number_repetitions * 2) +    # Number reps are bad
+            (artifact_repetitions * 4)    # Translation artifacts are very bad
+        ) / total_words
+        
+        return min(repetition_score, 1.0)  # Cap at 1.0
+
     def get_translator(self, lang: str):
         """
         Returns a translation function for the given language code.
-        FIXED: Proper pipeline parameter handling.
+        Proper pipeline parameter handling.
         """
         # Return cached translator if already loaded
         if lang in self.translators:
@@ -1077,13 +1140,11 @@ class Translator:
             print(f"Loading model: {model_name}")
             
             try:
-                # FIXED: Removed invalid generate_kwargs from pipeline initialization
                 translator = pipeline(
                     "translation",
                     model=model_name,
                     torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
                     device=self.device,
-                    # REMOVED: model_kwargs and generate_kwargs - these caused the error
                 )
                 self.translators[lang] = translator
                 return translator
@@ -1145,13 +1206,23 @@ class Translator:
 
     def chunk_text(self, text: str) -> list:
         """
-        FIXED: Smarter text chunking that respects model limits and sentence boundaries.
+        Intelligent text chunking that balances context preservation with token limits.
+        Uses adaptive chunking based on content type and length.
         """
-        # Target around 150-200 words per chunk (roughly 200-260 tokens)
-        target_words = self.max_chunk_length
+        # Dynamic target based on text length and content
+        base_target = self.max_chunk_length
         
-        # Split into sentences first
-        sentences = re.split(r'(?<=\.)\s+', text.strip())
+        # Adjust target based on content characteristics
+        if len(text.split()) > 1000:  # Very long text
+            target_words = int(base_target * 1.2)  # Larger chunks for long documents
+        elif "table" in text.lower() or "|" in text:  # Table content
+            target_words = int(base_target * 0.8)   # Smaller chunks for tables
+        else:
+            target_words = base_target
+        
+        # Split into sentences first, preserving medical terminology
+        # Enhanced sentence splitting that respects medical terms
+        sentences = re.split(r'(?<=\.)\s+(?![a-z])', text.strip())  # Don't split on abbreviations
         
         chunks = []
         current_chunk = []
@@ -1160,37 +1231,65 @@ class Translator:
         for sentence in sentences:
             sentence_words = len(sentence.split())
             
-            # If this single sentence is too long, split it further
-            if sentence_words > target_words:
-                # If we have accumulation, save it first
+            # Handle very long sentences (likely tables or lists)
+            if sentence_words > target_words * 1.5:
+                # Save current chunk first
                 if current_chunk:
                     chunks.append(" ".join(current_chunk))
                     current_chunk = []
                     current_word_count = 0
                 
-                # Split long sentence by punctuation
-                sub_parts = re.split(r'[,;:]', sentence)
-                temp_chunk = []
-                temp_count = 0
-                
-                for part in sub_parts:
-                    part_words = len(part.split())
-                    if temp_count + part_words > target_words and temp_chunk:
-                        chunks.append(" ".join(temp_chunk))
-                        temp_chunk = [part.strip()]
-                        temp_count = part_words
-                    else:
-                        temp_chunk.append(part.strip())
-                        temp_count += part_words
-                
-                if temp_chunk:
-                    chunks.append(" ".join(temp_chunk))
+                # Split long sentence more intelligently
+                if "|" in sentence or "Row" in sentence:
+                    # Table content - split by rows
+                    parts = re.split(r'(Row\s+\d+:)', sentence)
+                    temp_chunk = []
+                    temp_count = 0
                     
-            # Normal sentence processing
+                    for part in parts:
+                        part_words = len(part.split())
+                        if temp_count + part_words > target_words and temp_chunk:
+                            chunks.append(" ".join(temp_chunk))
+                            temp_chunk = [part.strip()]
+                            temp_count = part_words
+                        else:
+                            temp_chunk.append(part.strip())
+                            temp_count += part_words
+                    
+                    if temp_chunk:
+                        chunks.append(" ".join(temp_chunk))
+                else:
+                    # Regular long sentence - split by punctuation
+                    sub_parts = re.split(r'[;,:](?=\s)', sentence)  # Split on punctuation with space
+                    temp_chunk = []
+                    temp_count = 0
+                    
+                    for part in sub_parts:
+                        part_words = len(part.split())
+                        if temp_count + part_words > target_words and temp_chunk:
+                            chunks.append(" ".join(temp_chunk))
+                            temp_chunk = [part.strip()]
+                            temp_count = part_words
+                        else:
+                            temp_chunk.append(part.strip())
+                            temp_count += part_words
+                    
+                    if temp_chunk:
+                        chunks.append(" ".join(temp_chunk))
+                        
+            # Normal sentence processing with better context preservation
             elif current_word_count + sentence_words > target_words and current_chunk:
-                chunks.append(" ".join(current_chunk))
-                current_chunk = [sentence]
-                current_word_count = sentence_words
+                # Before splitting, check if we're breaking up related content
+                if (len(current_chunk) > 0 and 
+                    any(keyword in sentence.lower() for keyword in ['however', 'therefore', 'furthermore', 'moreover']) and
+                    current_word_count < target_words * 0.8):
+                    # Keep related sentences together
+                    current_chunk.append(sentence)
+                    current_word_count += sentence_words
+                else:
+                    chunks.append(" ".join(current_chunk))
+                    current_chunk = [sentence]
+                    current_word_count = sentence_words
             else:
                 current_chunk.append(sentence)
                 current_word_count += sentence_words
@@ -1198,29 +1297,67 @@ class Translator:
         # Add remaining chunk
         if current_chunk:
             chunks.append(" ".join(current_chunk))
+        
+        # Post-process: merge very small chunks with adjacent ones
+        final_chunks = []
+        i = 0
+        while i < len(chunks):
+            chunk = chunks[i]
+            chunk_words = len(chunk.split())
             
-        return chunks
+            # If chunk is very small and we have a next chunk, try to merge
+            if (chunk_words < target_words * 0.3 and 
+                i + 1 < len(chunks) and 
+                len((chunk + " " + chunks[i + 1]).split()) <= target_words * 1.3):
+                merged_chunk = chunk + " " + chunks[i + 1]
+                final_chunks.append(merged_chunk)
+                i += 2  # Skip next chunk as it's been merged
+            else:
+                final_chunks.append(chunk)
+                i += 1
+            
+        return final_chunks
 
     def detect_repetitions(self, text: str) -> bool:
         """
-        FIXED: More conservative repetition detection that only flags severe cases.
+        Enhanced repetition detection that catches more translation artifacts.
         """
-        if not text or len(text.strip()) < 50:
+        if not text or len(text.strip()) < 30:
             return False
             
-        # First check if this looks like medical terminology
-        if self.is_medical_terminology(text):
+        # First check if this looks like legitimate medical terminology
+        if self.is_legitimate_medical_repetition(text):
             return False
-            
+        
+        # Use both ratio-based and score-based detection
+        ratio_detection = self._detect_repetitions_by_ratio(text)
+        score_detection = self.calculate_repetition_score(text) > self.repetition_score_threshold
+        
+        return ratio_detection or score_detection
+
+    def _detect_repetitions_by_ratio(self, text: str) -> bool:
+        """
+        Original ratio-based repetition detection with enhanced patterns.
+        """
         total_length = len(text)
         total_repetition_length = 0
         
+        # Check severe repetition patterns
         for pattern in self.severe_repetition_patterns:
             matches = list(re.finditer(pattern, text))
             for match in matches:
                 repeated_part = match.group()
                 repetition_length = len(repeated_part)
-                if repetition_length > 30:  # Only count substantial repetitions
+                if repetition_length > 20:  # Only count substantial repetitions
+                    total_repetition_length += repetition_length
+        
+        # Check translation artifact patterns
+        for pattern in self.translation_artifact_patterns:
+            matches = list(re.finditer(pattern, text))
+            for match in matches:
+                repeated_part = match.group()
+                repetition_length = len(repeated_part)
+                if repetition_length > 15:  # Slightly lower threshold for artifacts
                     total_repetition_length += repetition_length
         
         repetition_ratio = total_repetition_length / total_length if total_length > 0 else 0
@@ -1228,33 +1365,53 @@ class Translator:
         
     def clean_repetitions(self, text: str) -> str:
         """
-        FIXED: Much more conservative cleaning that preserves medical content.
+        Enhanced cleaning that handles various types of repetition artifacts.
         """
         if not text or not self.detect_repetitions(text):
             return text
             
         original_length = len(text)
+        cleaned_text = text
         
-        # Very conservative cleaning - only remove extreme cases
+        # Apply cleaning for each pattern type
+        # 1. Basic word repetitions
         for pattern in self.severe_repetition_patterns:
-            text = re.sub(pattern, lambda m: m.group(1) + ' ' + m.group(1), text)
+            cleaned_text = re.sub(pattern, lambda m: m.group(1) + ' ' + m.group(1), cleaned_text)
         
-        # Clean repeated character strings (very conservative)
-        text = re.sub(r'([a-zA-Z])\1{7,}', r'\1\1\1', text)  # Only 8+ repeated chars
+        # 2. Translation artifact patterns
+        # Handle alternating words
+        cleaned_text = re.sub(r'(\b\w{4,}\b)\s+(\b\w{4,}\b)(\s+\1\s+\2){2,}', r'\1 \2', cleaned_text)
+        
+        # Handle phrase repetitions
+        cleaned_text = re.sub(r'((?:\b\w+\b\s*){2,5})(?:\s*,?\s*\1){2,}', r'\1', cleaned_text)
+        
+        # Handle numerical repetitions
+        cleaned_text = re.sub(r'(\d+\.?\d*)\1{3,}', r'\1', cleaned_text)
+        cleaned_text = re.sub(r'(\d{1,3}\.\d{2,3})(?:\.\d{2,3}){3,}', r'\1', cleaned_text)
+        
+        # Handle punctuation repetitions
+        cleaned_text = re.sub(r'([,;:])\s*\1{2,}', r'\1', cleaned_text)
+        cleaned_text = re.sub(r'(\w+[,;])\s*\1{2,}', r'\1', cleaned_text)
+        
+        # Handle table/row artifacts
+        cleaned_text = re.sub(r'(Row\s+\d+:?\s*){3,}', r'Row \1:', cleaned_text)
+        
+        # Clean repeated character strings (conservative)
+        cleaned_text = re.sub(r'([a-zA-Z])\1{5,}', r'\1\1\1', cleaned_text)  # Only 6+ repeated chars
         
         # Fix spacing
-        text = re.sub(r'\s+', ' ', text)
+        cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
         
-        # SAFETY CHECK: If we removed more than 20% of text, return original
-        if len(text) < original_length * 0.8:
+        # Safety check: If we removed more than 30% of text, return original
+        if len(cleaned_text) < original_length * 0.7:
             print("Warning: Cleaning removed too much text, returning original")
-            return text  # Return cleaned version anyway, but warn
+            return text
             
-        return text.strip()
+        return cleaned_text.strip()
 
     def translate_text(self, text: str, translator) -> str:
         """
-        FIXED: Translates text with proper parameter passing and better error handling.
+        Translates text with proper parameter passing and enhanced error handling.
         """
         if not text.strip():
             return text
@@ -1263,7 +1420,7 @@ class Translator:
         estimated_tokens = self.count_tokens_rough(text)
         
         # For short text, translate directly if under token limit
-        if estimated_tokens <= 300:  # Conservative limit
+        if estimated_tokens <= 500:  # Increased from 300 for better context
             return self.translate_single_chunk(text, translator)
             
         # For longer text, split intelligently
@@ -1278,18 +1435,18 @@ class Translator:
 
     def translate_single_chunk(self, chunk: str, translator) -> str:
         """
-        FIXED: Translate a single chunk with corrected parameter passing.
+        Translate a single chunk with enhanced repetition detection and cleaning.
         """
-        max_attempts = 2
+        max_attempts = 3  # Increased attempts
         current_attempt = 0
         
         while current_attempt < max_attempts:
             try:
-                # FIXED: Pass generation parameters to the actual call, not pipeline init
+                # Pass generation parameters to the actual call
                 translation_result = translator(
                     chunk, 
-                    max_length=400,  # Increased max length
-                    num_beams=3,     # Reduced for stability
+                    max_length=400,
+                    num_beams=3,
                     no_repeat_ngram_size=3,
                     length_penalty=0.8,
                     repetition_penalty=1.2,
@@ -1299,18 +1456,21 @@ class Translator:
                 
                 translation = translation_result[0]['translation_text']
                 
-                # Check for problematic repetitions (more conservative)
+                # Enhanced repetition checking
                 if self.detect_repetitions(translation):
                     print(f"Repetition detected in translation. Attempt {current_attempt+1}/{max_attempts}")
+                    print(f"Repetition score: {self.calculate_repetition_score(translation):.3f}")
+                    
                     if current_attempt == max_attempts - 1:
-                        # Last attempt - apply conservative cleaning
+                        # Last attempt - apply enhanced cleaning
                         translation = self.clean_repetitions(translation)
                         return translation
                     else:
-                        # Try again with different chunk size
-                        if len(chunk) > 100:
-                            chunk = chunk[:len(chunk)//2]  # Only reduce by half once
+                        # Try again with different parameters
                         current_attempt += 1
+                        # Reduce chunk size and increase repetition penalty
+                        if len(chunk) > 100:
+                            chunk = chunk[:len(chunk)//2]
                         continue
                 else:
                     # No repetitions detected - good translation
@@ -1331,7 +1491,7 @@ class Translator:
         """
         Reads a JSON file, detects language at the chunk level,
         and translates both headings and text content of non-English chunks.
-        FIXED: Proper handling of heading and text translation with bug fixes.
+        Enhanced handling of heading and text translation.
         """
         # Get document name and parent folder
         file_name = os.path.basename(input_path)
@@ -1357,7 +1517,6 @@ class Translator:
         print(f"Primary document language detected: {primary_lang}")
 
         # If the document is primarily English, we'll still check each chunk
-        # but we'll expect most to be English
         if primary_lang == 'en':
             print("Document primarily in English, but will check each chunk individually")
         
@@ -1384,46 +1543,32 @@ class Translator:
                 
                 # Process heading
                 if 'heading' in ch and ch['heading'].strip():
-                    heading_lang = self.detect_chunk_language(ch['heading'], min_length=20)  # Lower threshold for headings
+                    heading_lang = self.detect_chunk_language(ch['heading'], min_length=20)
                     if heading_lang is None or heading_lang == 'en':
-                        # Keep English/undetected headings as is
                         print(f"    Heading kept as English: '{ch['heading'][:50]}...'")
                     else:
                         print(f"    Translating heading from {heading_lang}: '{ch['heading'][:50]}...'")
-                        # Translate non-English headings
-                        if translator:
+                        # Get appropriate translator
+                        heading_translator = translator if translator else self.get_translator(heading_lang)
+                        if heading_translator:
                             original_heading = ch['heading']
-                            ch['heading'] = self.translate_text(ch['heading'], translator)
+                            ch['heading'] = self.translate_text(ch['heading'], heading_translator)
                             print(f"    Translated to: '{ch['heading'][:50]}...'")
                             translated_chunks += 1
-                        else:
-                            # If no translator available for primary language, try to get one for this chunk
-                            chunk_translator = self.get_translator(heading_lang)
-                            if chunk_translator:
-                                original_heading = ch['heading']
-                                ch['heading'] = self.translate_text(ch['heading'], chunk_translator)
-                                print(f"    Translated to: '{ch['heading'][:50]}...'")
-                                translated_chunks += 1
                 
                 # Process main text content
                 if 'text' in ch and ch['text'].strip():
                     text_lang = self.detect_chunk_language(ch['text'])
                     if text_lang is None or text_lang == 'en':
-                        # Keep English/undetected text as is
                         print(f"    Text kept as English")
                         english_chunks += 1
                     else:
                         print(f"    Translating text from {text_lang}")
-                        # Translate non-English text
-                        if translator:
-                            ch['text'] = self.translate_text(ch['text'], translator)
+                        # Get appropriate translator
+                        text_translator = translator if translator else self.get_translator(text_lang)
+                        if text_translator:
+                            ch['text'] = self.translate_text(ch['text'], text_translator)
                             translated_chunks += 1
-                        else:
-                            # FIXED: Use chunk_translator instead of translator
-                            chunk_translator = self.get_translator(text_lang)
-                            if chunk_translator:
-                                ch['text'] = self.translate_text(ch['text'], chunk_translator)
-                                translated_chunks += 1
 
         # Save the processed JSON
         os.makedirs(os.path.dirname(output_path), exist_ok=True)

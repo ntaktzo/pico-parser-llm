@@ -1,0 +1,68 @@
+{
+  "doc_id": "bes220825_lumykras_141_2022",
+  "created_date": "2022",
+  "country": "SE",
+  "source_type": "hta_submission",
+  "chunks": [
+    {
+      "heading": "Date Our designation",
+      "text": "APPLICANT Amgen AB Box 706 169 27 Solna",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "SAKEN",
+      "text": "Application for the benefits in respect of medicinal products",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "BESLUT",
+      "text": "The Dental and Pharmaceutical Benefits Agency decides that the following medicines will be included in the pharmaceutical benefits from 26 August 2022 to the prices shown in the table. The Dental and Pharmaceutical Benefits Agency sets the alternative selling price at the same amount as AIP. Name Form Strength P.AIP (SEK) AUP (SEK) Lumykras Film-coated 120 mg 240 421007 58 953.75 600.000 tablets",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "Postal address Visiting address Phone number",
+      "text": "Box 22520, 104 22 STOCKHOLM Fleminggatan 18 08-5684 20 50",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "ANSÖKAN",
+      "text": "Amgen AB (the company) has applied for the medicinal product listed in the table on page 1 to be included in the pharmaceutical benefits.",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "heading": "INVESTIGATION IN THE CASE",
+      "text": "Lumykras monotherapy is indicated for the treatment of adult patients with advanced non-small cell lung cancer (NSCLC) with KRAS G12C mutation at progression after at least one previous line of systemic therapy. In NSCLC there are several molecular changes that drive the growth of cancer cells. One of these changes is KRAS G12C mutation. Lumykras contains the active substance sotorasib. By inactivation of KRAS G12C, cell growth is selectively inhibited in tumours with KRAS G12C. Targeted treatment for patients with KRAS mutation is currently lacking. According to the Swedish National lung cancer care programme (2021-08-25) a first-line combination of immunotherapy and cytotoxicity and disease progression following this treatment regimen is recommended monotherapy with any of the docetaxel or pemetrexed chemotherapy regimen. The company argued that docetaxel alone is relevant to Lumykra's monotherapy in adult patients with advanced NSCLC with KRAS G12C mutation, in case of progression after at least one previous line of systemic treatment and justifies it as follows.",
+      "start_page": 2,
+      "end_page": 3
+    },
+    {
+      "heading": "Legal context, etc.",
+      "text": "According to §8(1) of the Act (2002:160) on pharmaceutical benefits, etc. (hereinafter ‘the Benefits Act'), the person who markets a medicinal product or a product referred to in §18 of the same Act may apply for the medicinal product or article to be included in the pharmaceutical benefits. The applicant must demonstrate that the conditions of §15 of the Benefits Act are fulfilled and submit the necessary investigation to determine the purchase price and the selling price. §15 of the Prescription Act provides that a prescriptioned medicinal product shall be covered by the pharmaceutical benefits and purchase price and the selling price shall be determined for the medicinal product provided that 1. the costs of use of the medicinal product, taking into account the provisions of Chapter 3, Section 1 of the Health Care Act (2017:30), appear to be reasonable from medical, humanitarian and socio-economic considerations, and 2. there are no other available medicinal products or treatment methods which, according to a balance between the intended effect and the adverse effects referred to in Chapter 4, Section 1, paragraph 1 of the Medicines Act (2015:315), are to be assessed as materially significant.",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "TLV makes the following assessment:",
+      "text": "TLV considers the severity of the disease to be very high when the condition is associated with progression of disease progression, lack of cure and short expected survival. TLV, like the company, considers, on the basis of the treatment recommendations and TLV's clinical expert, that docetaxel alone is a relevant comparator to Lumykras. Generally speaking, TLV considers that indirect comparisons have a lower evidence value than direct comparative studies because they are associated with greater uncertainties. Despite uncertainties associated with the indirect comparison, TLV, based on the existing evidence, assesses that sotorasib has a benefit compared to docetaxel for PFS and OS. TLV has made two changes in the company's health economic analysis and furthermore made a adopt sensitivity analysis. TLV objects to the assumed effect duration of the company. Throughout the time horizon (> 10 years) the company assumes that there is a treatment effect by assuming that the probability of dying in each cycle is lower for patients treated with Lumykras than for patients treated with docetaxel. The company does this.",
+      "start_page": 3,
+      "end_page": 5
+    },
+    {
+      "heading": "HOW TO APPROVE",
+      "text": "The appeal can be appealed to the Administrative Court in Stockholm. The appeal must be in writing and submitted to the Administrative Court, but sent to the TLV who forwards the appeal to the Administrative Court. TLV must have received the appeal within three weeks of the date on which the complainant received the decision, otherwise the appeal cannot be examined. The appeal must state which decision is being appealed and how the decision is to be amended. If TLV amends the decision appealed, the new decision will also be submitted to the Administrative Court. The appeal also includes the new decision. nt ut ut ut",
+      "start_page": 5,
+      "end_page": 5
+    },
+    {
+      "heading": "table under heading <Post address Visiting address Phone number>",
+      "text": "Row 1: Name",
+      "start_page": 1,
+      "end_page": 1
+    }
+  ]
+}
