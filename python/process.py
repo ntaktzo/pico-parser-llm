@@ -1265,11 +1265,12 @@ class Translator:
             print(f"Loading model: {model_name}")
             
             try:
+                device_id = 0 if self.device.type == "cuda" else -1
                 translator = pipeline(
                     "translation",
                     model=model_name,
-                    torch_dtype=torch.float16 if self.device.type != "cpu" else torch.float32,
-                    device=self.device,
+                    torch_dtype=torch.float16 if self.device.type == "cuda" else torch.float32,
+                    device=device_id,
                 )
                 self.translators[lang] = translator
                 return translator
@@ -1301,10 +1302,9 @@ class Translator:
             
             # Create translator function with repetition prevention
             def nllb_translate(text, **kwargs):
-                # Set the source language
+                tokenizer.src_lang = src_lang
                 inputs = tokenizer(text, return_tensors="pt").to(self.device)
-                
-                # Get the tokenizer's language ID for the target language
+
                 with torch.no_grad():
                     translated_tokens = model.generate(
                         **inputs,
@@ -1568,6 +1568,7 @@ class Translator:
         # Preserve medical terms
         chunk_preserved, preserved_terms = self.preserve_medical_terms(chunk)
 
+
         while current_attempt < max_attempts:
             try:
                 translation_result = translator(
@@ -1610,6 +1611,7 @@ class Translator:
                 current_attempt += 1
 
         return chunk
+
 
     def translate_json_file(self, input_path: str, output_path: str):
         """
