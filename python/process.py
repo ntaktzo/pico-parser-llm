@@ -40,10 +40,42 @@ class PDFProcessor:
         # Extract source type 
         self.source_type = self.extract_source_type_from_path()
 
+        # Medical terms that should NOT be translated
+        self.preserve_terms = {
+            # Drug names
+            'sorafenib', 'lenvatinib', 'sotorasib', 'atezolizumab', 
+            'bevacizumab', 'tecentriq', 'nexavar', 'lenvima', 'lumykras',
+            'imjudo', 'sandoz',
+            
+            # Medical abbreviations
+            'HCC', 'NSCLC', 'KRAS', 'G12C', 'PFS', 'OS', 'ORR', 'DCR',
+            'ECOG', 'BCLC', 'Child-Pugh', 'mRECIST', 'RECIST',
+            
+            # Clinical terms
+            'hepatocellular carcinoma', 'non-small cell lung cancer',
+            'progression-free survival', 'overall survival'
+        }
+
         print("--------------------------------------------")
         print(f"Source type for '{self.pdf_path}': {self.source_type}")
         print(f"Submission year for '{self.pdf_path}': {self.created_date}")
         print(f"Country for '{self.pdf_path}': {self.country}")
+
+
+    def preserve_medical_terms(self, text: str) -> tuple[str, dict]:
+        """Replace medical terms with placeholders before translation."""
+        preserved = {}
+        modified_text = text
+        
+        for i, term in enumerate(self.preserve_terms):
+            if term.lower() in text.lower():
+                placeholder = f"__MEDICAL_TERM_{i}__"
+                # Case-insensitive replacement
+                pattern = re.compile(re.escape(term), re.IGNORECASE)
+                modified_text = pattern.sub(placeholder, modified_text)
+                preserved[placeholder] = term
+                
+        return modified_text, preserved
 
     # Modify python/process.py - PDFProcessor class
     def extract_source_type_from_path(self):
@@ -1042,10 +1074,103 @@ class Translator:
             # Medical terminology with legitimate repetition
             r'\b(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+(?:\s+(?:anti|pre|post|non|pro|co|multi|inter|intra|sub|super|over|under|trans|semi|pseudo)-\w+)*\b',
         ]
+
+        self.preserve_terms = {
+            # Drug names
+            'sorafenib', 'lenvatinib', 'sotorasib', 'atezolizumab', 
+            'bevacizumab', 'tecentriq', 'nexavar', 'lenvima', 'lumykras',
+            'imjudo', 'sandoz',
+            
+            # Medical abbreviations
+            'HCC', 'NSCLC', 'KRAS', 'G12C', 'PFS', 'OS', 'ORR', 'DCR',
+            'ECOG', 'BCLC', 'Child-Pugh', 'mRECIST', 'RECIST',
+            
+            # Clinical terms
+            'hepatocellular carcinoma', 'non-small cell lung cancer',
+            'progression-free survival', 'overall survival'
+        }
+
+        self.translation_artifact_patterns.extend([
+            # Repeated clinical terms
+            r'((?:clinical trial|study|patient|treatment)\s+){3,}',
+            
+            # Repeated statistical values
+            r'(p[<=]\d+\.\d+\s*){3,}',
+            r'(CI:\s*\d+\.\d+-\d+\.\d+\s*){3,}',
+            
+            # Repeated dosage information
+            r'(\d+\s*mg(?:/m2)?\s+){3,}',
+        ])
+
+        self.medical_exclusions.extend([
+            # Valid medical repetitions
+            r'dose-dose\s+(?:escalation|reduction)',
+            r'first-line.*second-line.*third-line',
+            r'pre-treatment.*post-treatment',
+        ])
+
         
         # More aggressive thresholds
         self.max_repetition_ratio = 0.3  # Reduced from 0.6
         self.repetition_score_threshold = 0.15  # New score-based threshold
+
+    
+    def preserve_medical_terms(self, text: str) -> tuple[str, dict]:
+        """Replace medical terms with placeholders before translation."""
+        preserved = {}
+        modified_text = text
+
+        for i, term in enumerate(self.preserve_terms):
+            if term.lower() in text.lower():
+                placeholder = f"__MEDICAL_TERM_{i}__"
+                pattern = re.compile(re.escape(term), re.IGNORECASE)
+                modified_text = pattern.sub(placeholder, modified_text)
+                preserved[placeholder] = term
+
+        return modified_text, preserved
+
+    def restore_medical_terms(self, text: str, preserved: dict) -> str:
+        """Restore medical terms after translation."""
+        for placeholder, term in preserved.items():
+            text = text.replace(placeholder, term)
+        return text
+
+    def is_table_content(self, text: str) -> bool:
+        """Detect if content is likely a table."""
+        table_indicators = [
+            r'Row \d+:',
+            r'\|.*\|.*\|',
+            r'^\s*\d+\.\d+\s+\d+\.\d+',
+            text.count('|') > 5,
+            text.count('Row') > 3
+        ]
+        return any(re.search(pattern, text) if isinstance(pattern, str) else pattern 
+                for pattern in table_indicators)
+
+    def translate_table_content(self, text: str, translator) -> str:
+        """Special handling for table content."""
+        rows = re.split(r'(Row \d+:)', text)
+        translated_rows = []
+
+        for i, row in enumerate(rows):
+            if re.match(r'Row \d+:', row):
+                translated_rows.append(row)
+            elif row.strip():
+                cells = row.split('|')
+                translated_cells = []
+
+                for cell in cells:
+                    if cell.strip() and not re.match(r'^\d+\.?\d*$', cell.strip()):
+                        preserved_input, preserved_terms = self.preserve_medical_terms(cell.strip())
+                        translated_cell = self.translate_single_chunk(preserved_input, translator)
+                        restored_cell = self.restore_medical_terms(translated_cell, preserved_terms)
+                        translated_cells.append(restored_cell)
+                    else:
+                        translated_cells.append(cell)
+
+                translated_rows.append('|'.join(translated_cells))
+
+        return ''.join(translated_rows)
 
     def detect_language(self, text: str) -> Optional[str]:
         """
@@ -1183,7 +1308,7 @@ class Translator:
                 with torch.no_grad():
                     translated_tokens = model.generate(
                         **inputs,
-                        forced_bos_token_id=tokenizer.convert_tokens_to_ids(tgt_lang),
+                        forced_bos_token_id=tokenizer.lang_code_to_id[tgt_lang],
                         max_length=512,
                         num_beams=3,  # Reduced for stability
                         no_repeat_ngram_size=3,
@@ -1437,14 +1562,16 @@ class Translator:
         """
         Translate a single chunk with enhanced repetition detection and cleaning.
         """
-        max_attempts = 3  # Increased attempts
+        max_attempts = 3
         current_attempt = 0
-        
+
+        # Preserve medical terms
+        chunk_preserved, preserved_terms = self.preserve_medical_terms(chunk)
+
         while current_attempt < max_attempts:
             try:
-                # Pass generation parameters to the actual call
                 translation_result = translator(
-                    chunk, 
+                    chunk_preserved,
                     max_length=400,
                     num_beams=3,
                     no_repeat_ngram_size=3,
@@ -1453,38 +1580,35 @@ class Translator:
                     early_stopping=True,
                     do_sample=False
                 )
-                
+
                 translation = translation_result[0]['translation_text']
-                
-                # Enhanced repetition checking
+
+                # Restore preserved terms
+                translation = self.restore_medical_terms(translation, preserved_terms)
+
                 if self.detect_repetitions(translation):
                     print(f"Repetition detected in translation. Attempt {current_attempt+1}/{max_attempts}")
                     print(f"Repetition score: {self.calculate_repetition_score(translation):.3f}")
-                    
+
                     if current_attempt == max_attempts - 1:
-                        # Last attempt - apply enhanced cleaning
                         translation = self.clean_repetitions(translation)
                         return translation
                     else:
-                        # Try again with different parameters
                         current_attempt += 1
-                        # Reduce chunk size and increase repetition penalty
-                        if len(chunk) > 100:
-                            chunk = chunk[:len(chunk)//2]
+                        if len(chunk_preserved) > 100:
+                            chunk_preserved = chunk_preserved[:len(chunk_preserved)//2]
                         continue
                 else:
-                    # No repetitions detected - good translation
                     return translation
-                    
+
             except Exception as e:
                 print(f"Translation error on attempt {current_attempt+1}: {e}")
                 if current_attempt == max_attempts - 1:
-                    # Last attempt failed - return original text
                     print(f"Translation failed completely, returning original text")
                     return chunk
-                
+
                 current_attempt += 1
-                
+
         return chunk
 
     def translate_json_file(self, input_path: str, output_path: str):
