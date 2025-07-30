@@ -1145,12 +1145,14 @@ class PDFProcessor:
     def is_numeric(self, text: str) -> bool:
         """
         Check if a text string represents a numeric value.
-        This is a simpler version of _is_numeric_pattern for basic numeric checking.
+        Fixed version to handle None and type errors.
         """
-        if not text or not text.strip():
+        if not text or not isinstance(text, str):
             return False
         
         text = text.strip()
+        if not text:
+            return False
         
         # Remove common non-numeric characters that might appear in numbers
         cleaned = text.replace(',', '').replace(' ', '')
@@ -1159,7 +1161,7 @@ class PDFProcessor:
             # Try to convert to float
             float(cleaned)
             return True
-        except ValueError:
+        except (ValueError, TypeError):
             pass
         
         # Check for percentage
@@ -1167,17 +1169,22 @@ class PDFProcessor:
             try:
                 float(text[:-1].replace(',', '').replace(' ', ''))
                 return True
-            except ValueError:
+            except (ValueError, TypeError):
                 pass
         
-        # Check for simple patterns like "< 0.001" or "> 100"
-        import re
-        if re.match(r'^[<>=≤≥]\s*[\d.,]+, text'):
-            return True
+        # Check for simple patterns like "< 0.001" or "> 100" - FIXED
+        try:
+            if re.match(r'^[<>=≤≥]\s*[\d.,]+$', text):
+                return True
+        except (TypeError, re.error):
+            pass
         
-        # Check for ranges like "1.2-3.4"
-        if re.match(r'^\d+\.?\d*[-–]\d+\.?\d*, text'):
-            return True
+        # Check for ranges like "1.2-3.4" - FIXED
+        try:
+            if re.match(r'^\d+\.?\d*[-–]\d+\.?\d*$', text):
+                return True
+        except (TypeError, re.error):
+            pass
         
         return False
 
@@ -2569,15 +2576,29 @@ class Translator:
 
     def count_artifacts(self, text: str) -> int:
         """Count translation artifacts in text."""
-        # Check medical exclusions first
-        for exclusion_pattern in self.medical_exclusions:
-            if re.search(exclusion_pattern, text, re.IGNORECASE):
-                return 0
+        if not text or not isinstance(text, str):
+            return 0
+            
+        # Check medical exclusions first - FIXED
+        try:
+            for exclusion_pattern in self.medical_exclusions:
+                if isinstance(exclusion_pattern, str) and re.search(exclusion_pattern, text, re.IGNORECASE):
+                    return 0
+        except (TypeError, re.error, AttributeError):
+            pass
         
         artifact_count = 0
-        for pattern in self.translation_artifact_patterns:
-            matches = re.findall(pattern, text)
-            artifact_count += len(matches)
+        # FIXED - added error handling for each pattern
+        try:
+            for pattern in self.translation_artifact_patterns:
+                if isinstance(pattern, str):
+                    try:
+                        matches = re.findall(pattern, text)
+                        artifact_count += len(matches)
+                    except (TypeError, re.error):
+                        continue
+        except (AttributeError, TypeError):
+            pass
         
         return artifact_count
 
@@ -2758,19 +2779,31 @@ class Translator:
             print(f"    ✗ No translator available for language: {language}")
             return None
 
-    def preserve_medical_terms(self, text: str) -> tuple[str, dict]:
+    def preserve_medical_terms(self, text: str) -> tuple:
         """Replace medical terms with placeholders before translation."""
+        if not text or not isinstance(text, str):
+            return text, {}
+            
         preserved = {}
         modified_text = text
         
-        for i, term in enumerate(self.preserve_terms):
-            if term.lower() in text.lower():
-                placeholder = f"__MEDICAL_TERM_{i}__"
-                pattern = re.compile(re.escape(term), re.IGNORECASE)
-                modified_text = pattern.sub(placeholder, modified_text)
-                preserved[placeholder] = term
-                
-        return modified_text, preserved
+        try:
+            for i, term in enumerate(self.preserve_terms):
+                if not isinstance(term, str):
+                    continue
+                    
+                try:
+                    if term.lower() in text.lower():
+                        placeholder = f"__MEDICAL_TERM_{i}__"
+                        pattern = re.compile(re.escape(term), re.IGNORECASE)
+                        modified_text = pattern.sub(placeholder, modified_text)
+                        preserved[placeholder] = term
+                except (TypeError, re.error):
+                    continue
+                    
+            return modified_text, preserved
+        except (AttributeError, TypeError):
+            return text, {}
 
     def restore_medical_terms(self, text: str, preserved: dict) -> str:
         """Restore medical terms after translation."""
@@ -2792,13 +2825,28 @@ class Translator:
 
     def clean_translation_artifacts(self, text: str) -> str:
         """Clean common translation artifacts while preserving medical terminology."""
-        for exclusion_pattern in self.medical_exclusions:
-            if re.search(exclusion_pattern, text, re.IGNORECASE):
-                return text
+        if not text or not isinstance(text, str):
+            return text
+            
+        # Check medical exclusions first - FIXED
+        try:
+            for exclusion_pattern in self.medical_exclusions:
+                if isinstance(exclusion_pattern, str) and re.search(exclusion_pattern, text, re.IGNORECASE):
+                    return text
+        except (TypeError, re.error, AttributeError):
+            pass
         
         cleaned_text = text
-        for pattern in self.translation_artifact_patterns:
-            cleaned_text = re.sub(pattern, r'\1', cleaned_text)
+        # FIXED - added error handling for each pattern
+        try:
+            for pattern in self.translation_artifact_patterns:
+                if isinstance(pattern, str):
+                    try:
+                        cleaned_text = re.sub(pattern, r'\1', cleaned_text)
+                    except (TypeError, re.error):
+                        continue
+        except (AttributeError, TypeError):
+            pass
         
         return cleaned_text
 
@@ -2847,35 +2895,43 @@ class Translator:
         sentences = [s.replace('__PERIOD__', '.') for s in sentences if s.strip()]
         
         return sentences
-
+    
     def detect_repetition(self, text: str, max_repeat_ratio: float = 0.3) -> bool:
         """Detect if text has excessive repetition."""
-        if not text or len(text) < 20:
+        if not text or not isinstance(text, str) or len(text) < 20:
             return False
         
-        words = text.lower().split()
-        if len(words) < 10:
-            return False
-        
-        # Check for repeated n-grams
-        for n in [2, 3, 4]:  # Check 2-grams, 3-grams, 4-grams
-            ngrams = [' '.join(words[i:i+n]) for i in range(len(words)-n+1)]
-            if not ngrams:
-                continue
+        try:
+            words = text.lower().split()
+            if len(words) < 10:
+                return False
+            
+            # Check for repeated n-grams
+            for n in [2, 3, 4]:  # Check 2-grams, 3-grams, 4-grams
+                if len(words) < n:
+                    continue
+                    
+                ngrams = [' '.join(words[i:i+n]) for i in range(len(words)-n+1)]
+                if not ngrams:
+                    continue
+                    
+                # Count occurrences
+                ngram_counts = {}
+                for ngram in ngrams:
+                    ngram_counts[ngram] = ngram_counts.get(ngram, 0) + 1
                 
-            # Count occurrences
-            ngram_counts = {}
-            for ngram in ngrams:
-                ngram_counts[ngram] = ngram_counts.get(ngram, 0) + 1
+                # Check if any n-gram appears too frequently
+                if ngram_counts:  # FIXED - ensure we have counts
+                    max_count = max(ngram_counts.values())
+                    repeat_ratio = max_count / len(ngrams)
+                    
+                    if repeat_ratio > max_repeat_ratio:
+                        return True
             
-            # Check if any n-gram appears too frequently
-            max_count = max(ngram_counts.values())
-            repeat_ratio = max_count / len(ngrams)
+            return False
             
-            if repeat_ratio > max_repeat_ratio:
-                return True
-        
-        return False
+        except (TypeError, AttributeError):
+            return False
 
     def get_generation_params(self, tier: int = 1) -> dict:
         """Get generation parameters optimized for each tier."""
