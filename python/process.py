@@ -323,30 +323,35 @@ class PDFProcessor:
 
         # 2) Merge adjacent lines if same font style, etc. (multi-line headings)
         merged_lines = []
-        current_group = raw_lines[0] if raw_lines else []
+        if raw_lines:
+            current_group = raw_lines[0]
 
-        for next_line in raw_lines[1:]:
-            if not current_group:
-                current_group = next_line
-                continue
+            for next_line in raw_lines[1:]:
+                if not current_group:
+                    current_group = next_line
+                    continue
+                    
+                current_avg_size = statistics.mean([w['size'] for w in current_group if 'size' in w])
+                next_avg_size = statistics.mean([w['size'] for w in next_line if 'size' in w])
+                current_bold = all('bold' in w.get('fontname', '').lower() for w in current_group)
+                next_bold = all('bold' in w.get('fontname', '').lower() for w in next_line)
                 
-            current_avg_size = statistics.mean([w['size'] for w in current_group if 'size' in w])
-            next_avg_size = statistics.mean([w['size'] for w in next_line if 'size' in w])
-            current_bold = all('bold' in w.get('fontname', '').lower() for w in current_group)
-            next_bold = all('bold' in w.get('fontname', '').lower() for w in next_line)
-            vertical_gap = next_line[0]['top'] - current_group[-1]['bottom']
+                # Calculate vertical gap safely
+                current_bottom = max(w.get('bottom', 0) for w in current_group)
+                next_top = min(w.get('top', 0) for w in next_line)
+                vertical_gap = next_top - current_bottom
 
-            if (
-                abs(current_avg_size - next_avg_size) < 1.0 and
-                current_bold == next_bold and
-                vertical_gap <= 10
-            ):
-                current_group.extend(next_line)
-            else:
+                if (
+                    abs(current_avg_size - next_avg_size) < 1.0 and
+                    current_bold == next_bold and
+                    vertical_gap <= 10
+                ):
+                    current_group.extend(next_line)
+                else:
+                    merged_lines.append(current_group)
+                    current_group = next_line
+            if current_group:
                 merged_lines.append(current_group)
-                current_group = next_line
-        if current_group:
-            merged_lines.append(current_group)
 
         # 3) Build line_objects
         line_objects = []
@@ -360,8 +365,8 @@ class PDFProcessor:
             text = " ".join(text_parts).strip()
             sizes = [lw['size'] for lw in line_words if lw.get('size') is not None]
             avg_size = statistics.mean(sizes) if sizes else 10.0
-            top_pos = min(lw['top'] for lw in line_words)
-            bottom_pos = max(lw['bottom'] for lw in line_words)
+            top_pos = min(lw.get('top', 0) for lw in line_words)
+            bottom_pos = max(lw.get('bottom', 0) for lw in line_words)
 
             line_objects.append({
                 "text": text,
@@ -429,312 +434,170 @@ class PDFProcessor:
 
         return line_objects
 
-    def extract_table_title_from_page(self, page, table_bbox=None):
-            """
-            Extract table title by looking for text patterns above or near the table.
-            
-            Args:
-                page: pdfplumber page object
-                table_bbox: Bounding box of the table (x0, top, x1, bottom) if available
-                
-            Returns:
-                String containing the extracted table title or None if not found
-            """
-            try:
-                # Extract all text with positioning information
-                words = page.extract_words(x_tolerance=2, y_tolerance=2)
-                if not words:
-                    return None
-                
-                # If we have table bbox, focus search area above the table
-                search_area_words = []
-                if table_bbox:
-                    x0, top, x1, bottom = table_bbox
-                    # Look for titles in the area above the table (within 100 points)
-                    for word in words:
-                        word_bottom = word.get('bottom', word.get('y1', 0))
-                        word_left = word.get('x0', 0)
-                        word_right = word.get('x1', word.get('x0', 0))
-                        
-                        # Check if word is above table and horizontally aligned
-                        if (word_bottom <= top and 
-                            word_bottom >= top - 100 and  # Within 100 points above
-                            word_right >= x0 - 20 and    # Allow some horizontal tolerance
-                            word_left <= x1 + 20):
-                            search_area_words.append(word)
-                else:
-                    # Search entire page if no bbox available
-                    search_area_words = words
-                
-                # Group words into lines
-                lines = self._group_words_into_lines(search_area_words)
-                
-                # Look for table title patterns
-                for line in lines:
-                    title = self._extract_title_from_line(line)
-                    if title:
-                        return title
-                        
-                return None
-                
-            except Exception as e:
-                print(f"Error extracting table title: {e}")
-                return None
-
-    def _group_words_into_lines(self, words):
-        """Group words into lines based on vertical position."""
-        if not words:
-            return []
-            
-        # Sort words by vertical position, then horizontal
-        sorted_words = sorted(words, key=lambda w: (w.get('top', 0), w.get('x0', 0)))
-        
-        lines = []
-        current_line = []
-        current_y = None
-        y_tolerance = 5
-        
-        for word in sorted_words:
-            word_y = word.get('top', 0)
-            
-            if current_y is None or abs(word_y - current_y) <= y_tolerance:
-                current_line.append(word)
-                current_y = word_y
-            else:
-                if current_line:
-                    line_text = ' '.join(w.get('text', '') for w in current_line)
-                    lines.append(line_text.strip())
-                current_line = [word]
-                current_y = word_y
-        
-        # Add the last line
-        if current_line:
-            line_text = ' '.join(w.get('text', '') for w in current_line)
-            lines.append(line_text.strip())
-            
-        return lines
-
-    def _extract_title_from_line(self, line_text):
-        """
-        Extract table title from a line of text using pattern matching.
-        
-        Returns the cleaned title or None if no title pattern is found.
-        """
-        if not line_text or len(line_text.strip()) < 3:
-            return None
-            
-        line = line_text.strip()
-        
-        # Table title patterns (case insensitive)
-        title_patterns = [
-            # Direct table references
-            r'^Table\s+\d+[:\.\-\s]+(.+)$',
-            r'^Table\s+[A-Z]?[:\.\-\s]+(.+)$',
-            r'^Tabla\s+\d+[:\.\-\s]+(.+)$',  # Spanish
-            r'^Tableau\s+\d+[:\.\-\s]+(.+)$',  # French
-            r'^Tabelle\s+\d+[:\.\-\s]+(.+)$',  # German
-            r'^Tabela\s+\d+[:\.\-\s]+(.+)$',  # Portuguese/Polish
-            
-            # Figure references that might be tables
-            r'^Figure\s+\d+[:\.\-\s]+(.+)$',
-            r'^Fig\.?\s+\d+[:\.\-\s]+(.+)$',
-            r'^Figura\s+\d+[:\.\-\s]+(.+)$',  # Spanish/Italian
-            
-            # Appendix tables
-            r'^Appendix\s+[A-Z]?[:\.\-\s]*Table\s*\d*[:\.\-\s]+(.+)$',
-            r'^Annex\s+[A-Z]?[:\.\-\s]*Table\s*\d*[:\.\-\s]+(.+)$',
-            
-            # Summary/overview patterns
-            r'^Summary\s+of\s+(.+)$',
-            r'^Overview\s+of\s+(.+)$',
-            r'^Comparison\s+of\s+(.+)$',
-            r'^Results\s+of\s+(.+)$',
-            
-            # Clinical trial specific patterns
-            r'^Efficacy\s+(.+)$',
-            r'^Safety\s+(.+)$',
-            r'^Adverse\s+Events?\s+(.+)$',
-            r'^Patient\s+Characteristics\s+(.+)$',
-            r'^Baseline\s+Characteristics\s+(.+)$',
-            r'^Treatment\s+Outcomes?\s+(.+)$',
-            
-            # Generic patterns (more permissive)
-            r'^(.+)\s+\(Table\)$',
-            r'^(.+)\s+\(continued\)$',
-        ]
-        
-        # Try each pattern
-        for pattern in title_patterns:
-            match = re.search(pattern, line, re.IGNORECASE)
-            if match:
-                extracted_title = match.group(1).strip()
-                # Clean up the extracted title
-                cleaned_title = self._clean_table_title(extracted_title)
-                if cleaned_title and len(cleaned_title) > 2:
-                    return f"Table: {cleaned_title}"
-        
-        # Check if the entire line looks like a table title
-        if self._line_looks_like_table_title(line):
-            cleaned_title = self._clean_table_title(line)
-            if cleaned_title and len(cleaned_title) > 2:
-                return f"Table: {cleaned_title}"
-                
-        return None
-
-    def _clean_table_title(self, title):
-        """Clean and format the extracted table title."""
-        if not title:
-            return None
-            
-        # Remove common artifacts
-        cleaned = title.strip()
-        
-        # Remove trailing punctuation marks except periods
-        cleaned = re.sub(r'[,;:\-]+$', '', cleaned)
-        
-        # Remove excessive whitespace
-        cleaned = re.sub(r'\s+', ' ', cleaned)
-        
-        # Remove page numbers and references at the end
-        cleaned = re.sub(r'\s+\d+\s*$', '', cleaned)
-        
-        # Remove common prefixes that might be artifacts
-        prefixes_to_remove = [
-            r'^Table\s+\d+[\.\:\-\s]*',
-            r'^Figure\s+\d+[\.\:\-\s]*',
-            r'^Fig\.?\s+\d+[\.\:\-\s]*',
-        ]
-        
-        for prefix in prefixes_to_remove:
-            cleaned = re.sub(prefix, '', cleaned, flags=re.IGNORECASE)
-        
-        return cleaned.strip()
-
-    def _line_looks_like_table_title(self, line):
-        """
-        Determine if a line looks like it could be a table title based on content and structure.
-        """
-        if not line or len(line.strip()) < 5:
-            return False
-            
-        line = line.strip()
-        
-        # Characteristics of table titles
-        title_indicators = [
-            # Contains medical/clinical keywords
-            any(keyword in line.lower() for keyword in [
-                'efficacy', 'safety', 'adverse', 'patient', 'treatment', 'outcome', 
-                'baseline', 'characteristics', 'comparison', 'summary', 'overview',
-                'results', 'analysis', 'endpoints', 'demographics', 'response',
-                'survival', 'progression', 'toxicity', 'dose', 'study', 'trial'
-            ]),
-            
-            # Reasonable length for a title (not too short, not too long)
-            5 <= len(line.split()) <= 15,
-            
-            # Starts with capital letter
-            line[0].isupper(),
-            
-            # Contains proper nouns or medical terms (indicated by capitals)
-            sum(1 for word in line.split() if word[0].isupper()) >= 2,
-            
-            # Doesn't look like a sentence (no common sentence starters)
-            not any(line.lower().startswith(starter) for starter in [
-                'the ', 'this ', 'these ', 'those ', 'a ', 'an ', 'in ', 'at ', 
-                'on ', 'for ', 'with ', 'by ', 'from ', 'to ', 'of '
-            ])
-        ]
-        
-        # Must meet at least 2 criteria
-        return sum(title_indicators) >= 2
-
-    def get_table_bounding_box(self, table_data, page):
-        """
-        Estimate the bounding box of a table based on its content.
-        This is a rough estimation for title search purposes.
-        """
-        try:
-            if not table_data or not page:
-                return None
-                
-            # For now, return None to use page-wide search
-            # This could be enhanced with more sophisticated bbox detection
-            return None
-            
-        except Exception:
-            return None
-
-    def detect_complete_tables(self, pdf):
-        """
-        Enhanced table detection that only identifies genuine tabular data.
-        Reduces false positives by validating table characteristics.
-        """
-        tables_info = []
-        
-        for page_num, page in enumerate(pdf.pages, start=1):
-            # Step 1: Extract potential tables with stricter settings
-            page_tables = self.extract_tables_strict(page)
-            
-            if not page_tables:
-                continue
-            
-            # Step 2: Validate each potential table
-            for table_idx, table_data in enumerate(page_tables, start=1):
-                if not table_data or len(table_data) < 2:
-                    continue
-                
-                # Step 3: Apply comprehensive table validation
-                if not self.is_genuine_table(table_data, page, page_num):
-                    print(f"    Rejected table candidate on page {page_num} (not a genuine table)")
-                    continue
-                
-                # Step 4: Extract title only for validated tables
-                table_bbox = self.get_table_bounding_box(table_data, page)
-                extracted_title = self.extract_table_title_from_page(page, table_bbox)
-                
-                # Step 5: Convert validated table to narrative
-                narrative_text = self.convert_table_to_narrative(table_data)
-                
-                if narrative_text.strip():
-                    table_title = extracted_title if extracted_title else self.find_table_heading(page_num, table_idx)
-                    print(f"    ✓ Validated genuine table on page {page_num}: '{table_title}'")
-                    
-                    tables_info.append({
-                        "page": page_num,
-                        "heading": table_title,
-                        "text": narrative_text,
-                        "table_type": "validated_table"
-                    })
-        
-        return tables_info
-
     def extract_tables_strict(self, page):
         """
-        Extract tables with stricter settings to reduce false positives.
+        Extract tables with much stricter settings to reduce false positives.
+        Only detect tables with clear visual structure.
         """
         try:
-            # Use more conservative table detection settings
+            # First attempt: Very strict line-based detection
             tables = page.extract_tables(
                 table_settings={
-                    "vertical_strategy": "lines",      # Require actual lines
-                    "horizontal_strategy": "lines",    # Require actual lines
-                    "min_words_vertical": 3,           # Need multiple words per column
-                    "min_words_horizontal": 2,         # Need multiple words per row
+                    "vertical_strategy": "lines",      # Require actual vertical lines
+                    "horizontal_strategy": "lines",    # Require actual horizontal lines
+                    "min_words_vertical": 4,           # Need at least 4 words per column
+                    "min_words_horizontal": 3,         # Need at least 3 words per row
                     "keep_blank_chars": False,         # Remove blank chars
-                    "text_tolerance": 3,               # Stricter text alignment
-                    "intersection_tolerance": 3,       # Stricter intersection
+                    "text_tolerance": 2,               # Very strict text alignment
+                    "intersection_tolerance": 2,       # Very strict intersection
+                    "snap_tolerance": 2,               # Strict snapping
+                    "join_tolerance": 2,               # Strict joining
                 }
             )
-            return tables
-        except:
-            # Fallback to default if strict settings fail
-            return page.extract_tables()
+            
+            # If no tables found with strict line detection, try explicit line detection
+            if not tables:
+                # Check if page actually has table-like line structures
+                if self.has_table_visual_structure(page):
+                    # Try with explicit table detection
+                    explicit_v_lines = self.detect_vertical_table_lines(page)
+                    explicit_h_lines = self.detect_horizontal_table_lines(page)
+                    
+                    if explicit_v_lines and explicit_h_lines:
+                        tables = page.extract_tables(
+                            table_settings={
+                                "vertical_strategy": "explicit",
+                                "horizontal_strategy": "explicit",
+                                "explicit_vertical_lines": explicit_v_lines,
+                                "explicit_horizontal_lines": explicit_h_lines,
+                                "min_words_vertical": 3,
+                                "min_words_horizontal": 2,
+                            }
+                        )
+            
+            return tables if tables else []
+            
+        except Exception as e:
+            print(f"    Error in strict table extraction: {e}")
+            return []
+
+    def has_table_visual_structure(self, page) -> bool:
+        """
+        Check if page has visual elements that suggest actual table presence.
+        This is a much more restrictive check.
+        """
+        try:
+            # Get all lines on the page
+            lines = page.lines if hasattr(page, 'lines') else []
+            
+            if len(lines) < 6:  # Tables need at least 6 lines (3 horizontal, 3 vertical minimum)
+                return False
+            
+            # Separate horizontal and vertical lines
+            horizontal_lines = []
+            vertical_lines = []
+            
+            for line in lines:
+                line_width = abs(line.get('x1', 0) - line.get('x0', 0))
+                line_height = abs(line.get('y1', 0) - line.get('y0', 0))
+                
+                # Classify as horizontal or vertical based on aspect ratio
+                if line_width > line_height * 3:  # Horizontal line
+                    horizontal_lines.append(line)
+                elif line_height > line_width * 3:  # Vertical line
+                    vertical_lines.append(line)
+            
+            # Check for minimum grid structure
+            if len(horizontal_lines) < 3 or len(vertical_lines) < 2:
+                return False
+            
+            # Check if lines form a grid pattern
+            return self.lines_form_grid_pattern(horizontal_lines, vertical_lines)
+            
+        except Exception:
+            return False
+
+    def lines_form_grid_pattern(self, horizontal_lines: List[Dict], vertical_lines: List[Dict]) -> bool:
+        """
+        Check if horizontal and vertical lines form a coherent grid pattern.
+        """
+        try:
+            # Check horizontal line alignment
+            h_y_positions = [line.get('y0', 0) for line in horizontal_lines]
+            h_y_positions.sort()
+            
+            # Check for reasonably spaced horizontal lines
+            if len(h_y_positions) < 3:
+                return False
+            
+            h_gaps = [h_y_positions[i+1] - h_y_positions[i] for i in range(len(h_y_positions)-1)]
+            h_gap_std = statistics.stdev(h_gaps) if len(h_gaps) > 1 else 0
+            h_gap_mean = statistics.mean(h_gaps)
+            
+            # Lines should be reasonably evenly spaced
+            if h_gap_std > h_gap_mean * 0.5:  # Too much variation in spacing
+                return False
+            
+            # Check vertical line alignment
+            v_x_positions = [line.get('x0', 0) for line in vertical_lines]
+            v_x_positions.sort()
+            
+            if len(v_x_positions) < 2:
+                return False
+            
+            # Check if vertical lines span the horizontal lines
+            h_line_extent = max([line.get('x1', 0) for line in horizontal_lines]) - min([line.get('x0', 0) for line in horizontal_lines])
+            v_line_span = max(v_x_positions) - min(v_x_positions)
+            
+            # Vertical lines should span a significant portion of horizontal extent
+            if v_line_span < h_line_extent * 0.3:
+                return False
+            
+            return True
+            
+        except Exception:
+            return False
+
+    def detect_vertical_table_lines(self, page) -> List[float]:
+        """Detect explicit vertical lines for table detection."""
+        try:
+            lines = page.lines if hasattr(page, 'lines') else []
+            vertical_lines = []
+            
+            for line in lines:
+                line_width = abs(line.get('x1', 0) - line.get('x0', 0))
+                line_height = abs(line.get('y1', 0) - line.get('y0', 0))
+                
+                # Vertical line detection
+                if line_height > line_width * 3 and line_height > 20:  # At least 20 points tall
+                    vertical_lines.append(line.get('x0', 0))
+            
+            return sorted(set(vertical_lines))
+        except Exception:
+            return []
+
+    def detect_horizontal_table_lines(self, page) -> List[float]:
+        """Detect explicit horizontal lines for table detection."""
+        try:
+            lines = page.lines if hasattr(page, 'lines') else []
+            horizontal_lines = []
+            
+            for line in lines:
+                line_width = abs(line.get('x1', 0) - line.get('x0', 0))
+                line_height = abs(line.get('y1', 0) - line.get('y0', 0))
+                
+                # Horizontal line detection
+                if line_width > line_height * 3 and line_width > 30:  # At least 30 points wide
+                    horizontal_lines.append(line.get('y0', 0))
+            
+            return sorted(set(horizontal_lines))
+        except Exception:
+            return []
 
     def is_genuine_table(self, table_data, page, page_num):
         """
-        Comprehensive validation to determine if detected data is a genuine table.
-        
-        Returns True only if the data exhibits strong tabular characteristics.
+        Much more restrictive validation for genuine tables.
+        Significantly raises the bar for what constitutes a table.
         """
         if not table_data or len(table_data) < 3:  # Need at least header + 2 data rows
             return False
@@ -744,222 +607,342 @@ class PDFProcessor:
         if len(cleaned_table) < 3:
             return False
         
-        # Validation criteria
+        # Enhanced validation criteria - ALL must pass
         validations = {
-            'structure': self._validate_table_structure(cleaned_table),
-            'content': self._validate_table_content(cleaned_table),
-            'visual': self._validate_table_visual_cues(table_data, page),
-            'context': self._validate_table_context(cleaned_table, page_num),
-            'data_patterns': self._validate_data_patterns(cleaned_table)
+            'visual_structure': self._validate_visual_table_structure(table_data, page),
+            'content_structure': self._validate_strict_content_structure(cleaned_table),
+            'data_patterns': self._validate_strict_data_patterns(cleaned_table),
+            'size_constraints': self._validate_table_size_constraints(cleaned_table),
+            'context_validation': self._validate_table_context_strict(cleaned_table, page_num),
         }
         
-        # Score each validation (0.0 to 1.0)
-        scores = {k: v for k, v in validations.items()}
+        print(f"      Table validation scores: {validations}")
         
-        # Weighted scoring - all criteria must be reasonably satisfied
-        weights = {
-            'structure': 0.25,    # Consistent column structure
-            'content': 0.25,      # Appropriate content types
-            'visual': 0.20,       # Visual table indicators
-            'context': 0.15,      # Contextual clues
-            'data_patterns': 0.15 # Data type patterns
-        }
+        # ALL validations must pass (score >= 0.8) for a table to be considered genuine
+        minimum_score = 0.8
+        passed_validations = sum(1 for score in validations.values() if score >= minimum_score)
         
-        total_score = sum(weights[k] * scores[k] for k in weights.keys())
+        # Require at least 4 out of 5 validations to pass with high scores
+        is_genuine = passed_validations >= 4
         
-        # Debug output
-        print(f"      Table validation scores: {scores}")
-        print(f"      Total score: {total_score:.3f}")
+        print(f"      Validations passed: {passed_validations}/5, Genuine table: {is_genuine}")
         
-        # Require high confidence (0.7+) to accept as genuine table
-        return total_score >= 0.7
+        return is_genuine
 
-    def _validate_table_structure(self, cleaned_table):
-        """Validate structural consistency of the table."""
+    def _validate_visual_table_structure(self, table_data, page) -> float:
+        """
+        Check if the page has actual visual table structure (lines, borders, etc.)
+        This is the most important validation for avoiding false positives.
+        """
+        if not self.has_table_visual_structure(page):
+            return 0.0  # No visual table structure = not a table
+        
+        # Additional checks for table-specific visual elements
+        try:
+            # Check for consistent row/column structure in the extracted data
+            if not table_data or len(table_data) < 2:
+                return 0.0
+            
+            # Check column consistency across rows
+            col_counts = [len(row) for row in table_data if row]
+            if not col_counts:
+                return 0.0
+            
+            most_common_cols = max(set(col_counts), key=col_counts.count)
+            consistency_ratio = col_counts.count(most_common_cols) / len(col_counts)
+            
+            # At least 80% of rows should have consistent column count
+            if consistency_ratio < 0.8:
+                return 0.0
+            
+            # Must have at least 2 columns (single column isn't really a table)
+            if most_common_cols < 2:
+                return 0.0
+            
+            return 1.0
+            
+        except Exception:
+            return 0.0
+
+    def _validate_strict_content_structure(self, cleaned_table) -> float:
+        """
+        Validate content structure with much stricter criteria.
+        """
         if len(cleaned_table) < 3:
-            return 0.0
-        
-        # Check column consistency
-        expected_cols = len(cleaned_table[0])
-        if expected_cols < 2:  # Tables need at least 2 columns
-            return 0.0
-        
-        consistent_rows = 0
-        for row in cleaned_table:
-            if len(row) == expected_cols:
-                consistent_rows += 1
-        
-        consistency_ratio = consistent_rows / len(cleaned_table)
-        
-        # Bonus for having reasonable number of columns (2-8 is typical)
-        col_bonus = 1.0 if 2 <= expected_cols <= 8 else 0.5
-        
-        return consistency_ratio * col_bonus
-
-    def _validate_table_content(self, cleaned_table):
-        """Validate that content looks like tabular data."""
-        if len(cleaned_table) < 2:
             return 0.0
         
         header_row = cleaned_table[0]
         data_rows = cleaned_table[1:]
         
-        # Check if first row looks like headers
-        header_score = 0.0
-        if header_row:
-            header_indicators = [
-                # Short, descriptive headers
-                all(len(cell.split()) <= 5 for cell in header_row if cell.strip()),
-                # Contains typical header words
-                any(word.lower() in ' '.join(header_row).lower() 
-                    for word in ['name', 'value', 'result', 'type', 'dose', 'group', 'arm', 
-                            'endpoint', 'outcome', 'parameter', 'characteristic', 'n=', 
-                            'patient', 'treatment', 'study', 'baseline', 'safety', 'efficacy']),
-                # Headers are different from data patterns
-                not all(self.is_numeric(cell) for cell in header_row if cell.strip())
-            ]
-            header_score = sum(header_indicators) / len(header_indicators)
-        
-        # Check if data rows contain appropriate data
-        data_score = 0.0
-        if data_rows:
-            numeric_columns = 0
-            total_columns = len(header_row) if header_row else len(data_rows[0])
-            
-            for col_idx in range(total_columns):
-                column_values = [row[col_idx] if col_idx < len(row) else "" 
-                            for row in data_rows]
-                column_values = [v for v in column_values if v.strip()]
-                
-                if column_values:
-                    # Check if column contains mostly numeric data (good for tables)
-                    numeric_count = sum(1 for v in column_values if self.is_numeric(v))
-                    if numeric_count / len(column_values) > 0.5:
-                        numeric_columns += 1
-            
-            # Tables should have at least one numeric column
-            data_score = min(1.0, numeric_columns / max(total_columns, 1) + 0.3)
-        
-        return (header_score + data_score) / 2
-
-    def _validate_table_visual_cues(self, table_data, page):
-        """Look for visual cues that indicate a genuine table."""
-        try:
-            # Check for table-like visual elements in the original PDF
-            visual_score = 0.0
-            
-            # Look for lines/borders (tables often have visible structure)
-            lines = page.lines if hasattr(page, 'lines') else []
-            if lines:
-                # More lines might indicate table structure
-                line_density = len(lines) / (page.width * page.height) * 10000
-                visual_score += min(0.3, line_density / 10)
-            
-            # Look for consistent spacing patterns
-            if table_data and len(table_data) > 2:
-                # Check if rows have similar structure
-                row_lengths = [len([cell for cell in row if cell and cell.strip()]) 
-                            for row in table_data]
-                if row_lengths:
-                    length_consistency = 1.0 - (max(row_lengths) - min(row_lengths)) / max(max(row_lengths), 1)
-                    visual_score += length_consistency * 0.4
-            
-            # Check for table-related words in surrounding text
-            page_text = page.extract_text() or ""
-            table_keywords = ['table', 'tableau', 'tabelle', 'tabela', 'figura', 'fig']
-            keyword_found = any(keyword in page_text.lower() for keyword in table_keywords)
-            if keyword_found:
-                visual_score += 0.3
-            
-            return min(1.0, visual_score)
-        
-        except Exception:
-            return 0.5  # Neutral score if visual analysis fails
-
-    def _validate_table_context(self, cleaned_table, page_num):
-        """Validate contextual clues about table likelihood."""
-        context_score = 0.0
-        
-        # Check if we have a reasonable number of rows (3-50 is typical for most tables)
-        row_count = len(cleaned_table)
-        if 3 <= row_count <= 50:
-            context_score += 0.4
-        elif row_count > 50:
-            context_score += 0.1  # Very large "tables" are often misdetected text
-        
-        # Check if column headers make sense
-        if cleaned_table:
-            first_row = cleaned_table[0]
-            if any(len(cell.split()) > 10 for cell in first_row if cell.strip()):
-                # Headers shouldn't be very long sentences
-                context_score -= 0.3
-            else:
-                context_score += 0.3
-        
-        # Bonus for medical/clinical table indicators
-        all_text = ' '.join(' '.join(row) for row in cleaned_table)
-        medical_indicators = [
-            'patient', 'dose', 'mg', 'efficacy', 'safety', 'adverse', 'endpoint',
-            'baseline', 'treatment', 'placebo', 'n=', '%', 'ci', 'p-value', 'hr', 'or'
-        ]
-        
-        medical_matches = sum(1 for indicator in medical_indicators 
-                            if indicator in all_text.lower())
-        if medical_matches >= 3:
-            context_score += 0.3
-        
-        return max(0.0, min(1.0, context_score))
-
-    def _validate_data_patterns(self, cleaned_table):
-        """Validate that the data exhibits typical table patterns."""
-        if len(cleaned_table) < 2:
+        # Headers should be short and descriptive
+        if not all(len(cell.split()) <= 5 for cell in header_row if cell.strip()):
             return 0.0
         
-        pattern_score = 0.0
+        # Headers should not be mostly empty
+        non_empty_headers = [cell for cell in header_row if cell.strip()]
+        if len(non_empty_headers) < len(header_row) * 0.7:  # At least 70% non-empty
+            return 0.0
         
-        # Check for mixed data types across columns (typical of tables)
-        if len(cleaned_table[0]) >= 2:
-            col_types = []
-            for col_idx in range(len(cleaned_table[0])):
-                column_data = [row[col_idx] if col_idx < len(row) else "" 
-                            for row in cleaned_table[1:]]  # Skip header
-                column_data = [cell for cell in column_data if cell.strip()]
-                
-                if column_data:
-                    numeric_ratio = sum(1 for cell in column_data if self.is_numeric(cell)) / len(column_data)
-                    if numeric_ratio > 0.7:
-                        col_types.append('numeric')
-                    elif numeric_ratio < 0.3:
-                        col_types.append('text')
-                    else:
-                        col_types.append('mixed')
+        # Check if data rows contain appropriate tabular data
+        numeric_columns = 0
+        total_columns = len(header_row)
+        
+        for col_idx in range(total_columns):
+            column_values = [row[col_idx] if col_idx < len(row) else "" for row in data_rows]
+            column_values = [v.strip() for v in column_values if v.strip()]
             
-            # Good tables often have mix of text and numeric columns
-            if 'numeric' in col_types and 'text' in col_types:
-                pattern_score += 0.5
-            elif 'numeric' in col_types:
-                pattern_score += 0.3
+            if not column_values:
+                continue
+            
+            # Check if column contains mostly numeric/structured data
+            structured_count = sum(1 for v in column_values if self.is_structured_data(v))
+            if structured_count / len(column_values) > 0.6:  # At least 60% structured
+                numeric_columns += 1
         
-        # Check for consistent formatting patterns
-        consistent_patterns = 0
-        total_patterns = 0
+        # At least one column should contain structured data
+        if numeric_columns == 0:
+            return 0.0
         
-        for row in cleaned_table[1:]:  # Skip header
+        return min(1.0, numeric_columns / total_columns + 0.5)
+
+    def is_structured_data(self, text):
+        """
+        Enhanced detection of structured data typical in tables.
+        """
+        if not text or not text.strip():
+            return False
+        
+        text = text.strip()
+        
+        # Patterns for structured data
+        structured_patterns = [
+            r'^\d+\.?\d*$',                          # Simple numbers
+            r'^\d+\.?\d*%$',                         # Percentages
+            r'^\d+/\d+$',                            # Fractions
+            r'^[<>=≤≥]\s*\d+\.?\d*$',               # Comparisons
+            r'^\d+\.?\d*\s*\([^)]+\)$',             # With confidence intervals
+            r'^\d+\.?\d*\s*(mg|ml|cm|mm|%|kg|g|μg)$', # With units
+            r'^n\s*=\s*\d+,                       # Sample sizes
+            r'^\d+\.?\d*[-–]\d+\.?\d*,            # Ranges
+            r'^\d{1,3}(,\d{3})*(\.\d+)?,          # Comma-separated numbers
+            r'^(yes|no|positive|negative|male|female), # Binary/categorical
+            r'^[A-Z]{2,},                         # Abbreviations/codes
+            r'^\d{4}-\d{2}-\d{2},                 # Dates
+        ]
+        
+        return any(re.match(pattern, text, re.IGNORECASE) for pattern in structured_patterns)
+
+    def _validate_strict_data_patterns(self, cleaned_table) -> float:
+        """
+        Validate that data exhibits clear tabular patterns with strict criteria.
+        """
+        if len(cleaned_table) < 3:
+            return 0.0
+        
+        data_rows = cleaned_table[1:]  # Skip header
+        
+        # Check for consistent data types within columns
+        if not cleaned_table or len(cleaned_table[0]) < 2:
+            return 0.0
+        
+        column_consistency_scores = []
+        
+        for col_idx in range(len(cleaned_table[0])):
+            column_data = [row[col_idx] if col_idx < len(row) else "" for row in data_rows]
+            column_data = [cell.strip() for cell in column_data if cell.strip()]
+            
+            if len(column_data) < 2:  # Need at least 2 data points
+                continue
+            
+            # Categorize data types in this column
+            numeric_count = sum(1 for cell in column_data if self.is_structured_data(cell))
+            text_count = len(column_data) - numeric_count
+            
+            # Calculate consistency (columns should be mostly one type or the other)
+            total_count = len(column_data)
+            consistency = max(numeric_count, text_count) / total_count
+            column_consistency_scores.append(consistency)
+        
+        if not column_consistency_scores:
+            return 0.0
+        
+        avg_consistency = sum(column_consistency_scores) / len(column_consistency_scores)
+        
+        # Require high consistency (at least 70% of data in each column should be same type)
+        return 1.0 if avg_consistency >= 0.7 else 0.0
+
+    def _validate_table_size_constraints(self, cleaned_table) -> float:
+        """
+        Validate table size constraints - too small or too large indicates false positive.
+        """
+        row_count = len(cleaned_table)
+        col_count = len(cleaned_table[0]) if cleaned_table else 0
+        
+        # Size constraints for genuine tables
+        if row_count < 3 or row_count > 100:  # Too small or too large
+            return 0.0
+        
+        if col_count < 2 or col_count > 15:   # Too few or too many columns
+            return 0.0
+        
+        # Cell content length check - table cells should be reasonably short
+        total_cells = 0
+        long_cells = 0
+        
+        for row in cleaned_table:
             for cell in row:
-                if cell.strip():
-                    total_patterns += 1
-                    # Look for consistent patterns like percentages, measurements, etc.
-                    if re.match(r'^\d+\.?\d*%?$', cell.strip()) or \
-                    re.match(r'^\d+\.?\d*\s*(mg|%|ml|cm|mm)$', cell.strip().lower()) or \
-                    re.match(r'^\d+/\d+$', cell.strip()) or \
-                    re.match(r'^\d+\.?\d*\s*\(\d+\.?\d*[-–]\d+\.?\d*\)$', cell.strip()):
-                        consistent_patterns += 1
+                if cell and cell.strip():
+                    total_cells += 1
+                    # Table cells shouldn't be very long (paragraph-like)
+                    if len(cell.split()) > 20:  # More than 20 words is suspicious
+                        long_cells += 1
         
-        if total_patterns > 0:
-            pattern_consistency = consistent_patterns / total_patterns
-            pattern_score += pattern_consistency * 0.5
+        if total_cells > 0 and long_cells / total_cells > 0.2:  # More than 20% long cells
+            return 0.0
         
-        return min(1.0, pattern_score)
+        return 1.0
+
+    def _validate_table_context_strict(self, cleaned_table, page_num) -> float:
+        """
+        Strict contextual validation for table likelihood.
+        """
+        # Check if we have table-related keywords in the content
+        all_text = ' '.join(' '.join(row) for row in cleaned_table).lower()
+        
+        # Look for explicit table indicators
+        explicit_table_indicators = [
+            'table', 'tableau', 'tabelle', 'tabela', 'таблица',
+            'row', 'column', 'total', 'n=', 'mean', 'median',
+            'baseline', 'endpoint', 'adverse event', 'demographics'
+        ]
+        
+        indicator_count = sum(1 for indicator in explicit_table_indicators 
+                            if indicator in all_text)
+        
+        # Require at least 2 table indicators for high confidence
+        if indicator_count < 2:
+            return 0.0
+        
+        # Additional penalty for paragraph-like content
+        sentences_count = all_text.count('.') + all_text.count('!') + all_text.count('?')
+        words_count = len(all_text.split())
+        
+        # Tables shouldn't have many complete sentences
+        if words_count > 0 and sentences_count / words_count > 0.05:  # More than 5% sentence endings
+            return 0.0
+        
+        return 1.0
+
+    def detect_complete_tables(self, pdf):
+        """
+        Enhanced table detection with much stricter validation.
+        Only identifies genuine tabular data with visual structure.
+        """
+        tables_info = []
+        
+        print("  🔍 Scanning for genuine tables with strict validation...")
+        
+        for page_num, page in enumerate(pdf.pages, start=1):
+            # Step 1: Check if page has any visual table indicators
+            if not self.has_table_visual_structure(page):
+                continue  # Skip pages without visual table structure
+            
+            print(f"    Page {page_num}: Visual table structure detected, extracting...")
+            
+            # Step 2: Extract potential tables with strict settings
+            page_tables = self.extract_tables_strict(page)
+            
+            if not page_tables:
+                print(f"    Page {page_num}: No tables extracted despite visual structure")
+                continue
+            
+            # Step 3: Apply rigorous validation to each potential table
+            genuine_tables_found = 0
+            for table_idx, table_data in enumerate(page_tables, start=1):
+                if not table_data or len(table_data) < 3:
+                    continue
+                
+                # Step 4: Apply comprehensive table validation
+                if self.is_genuine_table(table_data, page, page_num):
+                    # Step 5: Extract title and convert to narrative
+                    table_bbox = self.get_table_bounding_box(table_data, page)
+                    extracted_title = self.extract_table_title_from_page(page, table_bbox)
+                    narrative_text = self.convert_table_to_narrative(table_data)
+                    
+                    if narrative_text.strip():
+                        table_title = extracted_title if extracted_title else f"Table {table_idx} on page {page_num}"
+                        print(f"    ✓ Genuine table found on page {page_num}: '{table_title}'")
+                        
+                        tables_info.append({
+                            "page": page_num,
+                            "heading": table_title,
+                            "text": narrative_text,
+                            "table_type": "validated_genuine_table"
+                        })
+                        genuine_tables_found += 1
+                else:
+                    print(f"    ✗ Table candidate {table_idx} on page {page_num} failed validation")
+            
+            if genuine_tables_found == 0:
+                print(f"    Page {page_num}: No genuine tables found after validation")
+        
+        print(f"  📊 Total genuine tables found: {len(tables_info)}")
+        return tables_info
+
+    def get_table_bounding_box(self, table_data, page):
+        """
+        Estimate the bounding box of a table based on its data.
+        Returns approximate coordinates for title extraction.
+        """
+        try:
+            # This is a simplified approach - in practice, you might need more sophisticated
+            # methods to determine exact table positioning
+            page_height = page.height
+            page_width = page.width
+            
+            # Return approximate bounding box (this could be improved with actual table positioning)
+            return {
+                'x0': 0,
+                'y0': 0,
+                'x1': page_width,
+                'y1': page_height
+            }
+        except Exception:
+            return None
+
+    def extract_table_title_from_page(self, page, table_bbox):
+        """
+        Extract a title for the table by looking for text near the table.
+        """
+        try:
+            # Look for lines that might be table titles
+            page_text = page.extract_text()
+            if not page_text:
+                return None
+            
+            lines = page_text.split('\n')
+            
+            # Look for lines containing "table" or similar indicators
+            table_title_patterns = [
+                r'table\s+\d+',
+                r'tableau\s+\d+',
+                r'tabelle\s+\d+',
+                r'tabel\s+\d+',
+            ]
+            
+            for line in lines:
+                line_clean = line.strip()
+                if not line_clean:
+                    continue
+                
+                for pattern in table_title_patterns:
+                    if re.search(pattern, line_clean, re.IGNORECASE):
+                        return line_clean
+            
+            return None
+            
+        except Exception:
+            return None
 
     def is_numeric(self, text):
         """Enhanced numeric detection for medical/scientific data."""
@@ -970,15 +953,15 @@ class PDFProcessor:
         
         # Common numeric patterns in medical/scientific tables
         numeric_patterns = [
-            r'^\d+\.?\d*$',                          # Simple numbers: 123, 12.5
-            r'^\d+\.?\d*%$',                         # Percentages: 45.2%
-            r'^\d+/\d+$',                            # Fractions: 15/20
-            r'^[<>=≤≥]\s*\d+\.?\d*$',               # Comparisons: <0.05, ≥50
-            r'^\d+\.?\d*\s*\([^)]+\)$',             # With confidence intervals: 1.2 (0.8-1.6)
-            r'^\d+\.?\d*\s*(mg|ml|cm|mm|%|kg)$',    # With units: 50mg, 2.5ml
-            r'^n\s*=\s*\d+$',                       # Sample sizes: n=150
-            r'^\d+\.?\d*[-–]\d+\.?\d*$',            # Ranges: 10-20, 1.5–2.8
-            r'^\d{1,3}(,\d{3})*(\.\d+)?$',          # Comma-separated: 1,234.56
+            r'^\d+\.?\d*,                          # Simple numbers: 123, 12.5
+            r'^\d+\.?\d*%,                         # Percentages: 45.2%
+            r'^\d+/\d+,                            # Fractions: 15/20
+            r'^[<>=≤≥]\s*\d+\.?\d*,               # Comparisons: <0.05, ≥50
+            r'^\d+\.?\d*\s*\([^)]+\),             # With confidence intervals: 1.2 (0.8-1.6)
+            r'^\d+\.?\d*\s*(mg|ml|cm|mm|%|kg),    # With units: 50mg, 2.5ml
+            r'^n\s*=\s*\d+,                       # Sample sizes: n=150
+            r'^\d+\.?\d*[-–]\d+\.?\d*,            # Ranges: 10-20, 1.5–2.8
+            r'^\d{1,3}(,\d{3})*(\.\d+)?,          # Comma-separated: 1,234.56
         ]
         
         return any(re.match(pattern, text, re.IGNORECASE) for pattern in numeric_patterns)
@@ -1126,24 +1109,6 @@ class PDFProcessor:
             return [cell if cell else f"Column_{i+1}" for i, cell in enumerate(first_row)]
         
         return None
-
-    def is_numeric(self, text):
-        """
-        Check if text contains numeric data (percentages, numbers, etc.)
-        """
-        if not text:
-            return False
-        
-        # Check for common numeric patterns
-        numeric_patterns = [
-            r'\d+\.?\d*%',  # Percentages
-            r'\d+\.?\d*',   # Numbers
-            r'\d+/\d+',     # Fractions
-            r'[<>=]?\s*\d+\.?\d*',  # Comparison operators with numbers
-            r'\d+\.\d+\s*\([^)]+\)',  # Numbers with confidence intervals
-        ]
-        
-        return any(re.search(pattern, text) for pattern in numeric_patterns)
 
     def create_row_description(self, headers, row, row_idx):
         """
@@ -1701,7 +1666,6 @@ class PDFProcessor:
                         print(f"Error processing {pdf_path}: {e}")
         
         print(f"Processing complete. Successfully processed {processed_files} files with {errors} errors.")
-
 
 
 
