@@ -75,31 +75,24 @@ class TableDetector:
         # Convert table to text for analysis
         table_text = self._table_to_text(cleaned_table)
         
-        print(f"      🔍 Analyzing potential table ({len(cleaned_table)} rows, ~{len(table_text)} chars)")
-        
         # Step 1: Check for strong rejection criteria (likely prose)
         prose_score = self._calculate_prose_likelihood(table_text, cleaned_table)
-        if prose_score > 0.7:
-            print(f"      ✗ Rejected: High prose likelihood ({prose_score:.3f})")
+        if prose_score > 0.85:  # Increased threshold - was 0.7
             return False
         
         # Step 2: Check for strong acceptance criteria (clear table patterns)
         table_score = self._calculate_table_likelihood(table_text, cleaned_table)
-        if table_score > 0.8:
-            print(f"      ✓ Accepted: Strong table patterns ({table_score:.3f})")
+        if table_score > 0.7:  # Lowered threshold - was 0.8
             return True
         
         # Step 3: Comprehensive validation for ambiguous cases
         validation_scores = self._comprehensive_validation(cleaned_table, page, table_text)
         
-        # Decision making: require higher confidence for ambiguous content
+        # Decision making: more lenient confidence calculation
         overall_confidence = self._calculate_overall_confidence(validation_scores, prose_score, table_score)
         
-        is_table = overall_confidence > 0.75  # Higher threshold for better precision
+        is_table = overall_confidence > 0.60  # Lowered threshold - was 0.75
         
-        print(f"      📊 Validation: prose={prose_score:.3f}, table={table_score:.3f}, overall={overall_confidence:.3f} → {'TABLE' if is_table else 'NOT TABLE'}")
-        
-        return is_table
 
     def _table_to_text(self, cleaned_table: List[List[str]]) -> str:
         """Convert table data back to text for analysis"""
@@ -467,11 +460,11 @@ class TableDetector:
         # Validation component
         validation_component = sum(weights[key] * validation_scores[key] for key in weights.keys())
         
-        # Table likelihood component (20% weight)
-        table_component = table_score * 0.20
+        # Table likelihood component (25% weight - increased from 20%)
+        table_component = table_score * 0.25
         
-        # Prose penalty (subtract prose likelihood)
-        prose_penalty = prose_score * 0.20
+        # Prose penalty (reduced and capped to prevent over-penalization)
+        prose_penalty = min(prose_score * 0.15, 0.20)  # Reduced from 0.20 weight, capped at 0.20
         
         # Final confidence calculation
         confidence = validation_component + table_component - prose_penalty
@@ -1410,18 +1403,17 @@ class PDFProcessor:
             return len(column_boundaries) - 1, column_boundaries
 
     def detect_complete_tables(self, pdf):
-        """Enhanced table detection using language-agnostic validation"""
+        """Enhanced table detection using language-agnostic validation with reduced output"""
         tables_info = []
         
-        print("  🔍 Scanning for tables with language-agnostic validation...")
+        print("  🔍 Scanning for tables...")
+        
+        tables_found_pages = []  # Track which pages have tables for summary
         
         for page_num, page in enumerate(pdf.pages, start=1):
-            print(f"    Page {page_num}: Checking for tables...")
-            
             # Try both visual and content-based detection
             page_tables_visual = []
             if self.has_explicit_table_structure(page):
-                print(f"    Page {page_num}: Visual table structure detected")
                 page_tables_visual = self.extract_tables_ultra_strict(page)
             
             # Content-based detection
@@ -1431,7 +1423,6 @@ class PDFProcessor:
             all_page_tables = page_tables_visual + page_tables_content
             
             if not all_page_tables:
-                print(f"    Page {page_num}: No tables found")
                 continue
             
             # Apply enhanced validation
@@ -1440,30 +1431,36 @@ class PDFProcessor:
                 if not table_data or len(table_data) < 3:
                     continue
                 
-                # Use the new language-agnostic validation
+                # Use the updated validation with more lenient thresholds
                 if self.table_detector.enhanced_table_validation(table_data, page, page_num):
                     narrative_text = self.convert_table_to_narrative(table_data)
                     
                     if narrative_text.strip():
                         table_title = f"Table {table_idx} on page {page_num}"
-                        print(f"    ✓ Table found on page {page_num}: '{table_title}'")
                         
                         tables_info.append({
                             "page": page_num,
                             "heading": table_title,
                             "text": narrative_text,
-                            "table_type": "language_agnostic_validated_table"
+                            "table_type": "language_agnostic_validated_table",
+                            "table_metadata": {
+                                "original_rows": len(table_data),
+                                "narrative_length": len(narrative_text),
+                                "extraction_method": "visual" if table_data in page_tables_visual else "content"
+                            }
                         })
                         genuine_tables_found += 1
-                    else:
-                        print(f"    ✗ Table candidate {table_idx} failed content conversion")
-                else:
-                    print(f"    ✗ Table candidate {table_idx} failed validation")
             
-            if genuine_tables_found == 0:
-                print(f"    Page {page_num}: No genuine tables found after validation")
+            if genuine_tables_found > 0:
+                tables_found_pages.append(f"page {page_num} ({genuine_tables_found} table{'s' if genuine_tables_found > 1 else ''})")
         
-        print(f"  📊 Total tables found with language-agnostic detection: {len(tables_info)}")
+        # Only output summary of what was found
+        if tables_info:
+            print(f"  ✅ Tables found and included: {', '.join(tables_found_pages)}")
+            print(f"  📊 Total tables included in document: {len(tables_info)}")
+        else:
+            print(f"  ❌ No tables met validation criteria")
+        
         return tables_info
 
     def extract_preliminary_chunks(self):
@@ -1649,17 +1646,47 @@ class PDFProcessor:
                         "heading": heading_for_table,
                         "text": table_text,
                         "start_page": pg,
-                        "end_page": pg
+                        "end_page": pg,
+                        "table_type": tinfo["table_type"],
+                        "table_metadata": tinfo.get("table_metadata", {})
                     })
 
-                # Return the final structure
-                return {
+                # Create final document structure with table summary
+                final_structure = {
                     "doc_id": self.doc_id,
                     "created_date": self.created_date,
                     "country": self.country,
                     "source_type": self.source_type,
                     "chunks": chunks
                 }
+                
+                # Add table summary to the end of the document
+                if tables_info:
+                    table_summary = {
+                        "total_tables_found": len(tables_info),
+                        "tables_by_page": {},
+                        "table_storage_info": "Tables are stored as individual chunks with table_type='language_agnostic_validated_table'"
+                    }
+                    
+                    for tinfo in tables_info:
+                        page_num = tinfo["page"]
+                        if page_num not in table_summary["tables_by_page"]:
+                            table_summary["tables_by_page"][page_num] = []
+                        
+                        table_summary["tables_by_page"][page_num].append({
+                            "heading": tinfo["heading"],
+                            "narrative_length": len(tinfo["text"]),
+                            "extraction_method": tinfo.get("table_metadata", {}).get("extraction_method", "unknown"),
+                            "original_rows": tinfo.get("table_metadata", {}).get("original_rows", "unknown")
+                        })
+                    
+                    final_structure["_table_detection_summary"] = table_summary
+                    
+                    # Report where tables are stored
+                    print(f"  📍 Table storage: {len(tables_info)} tables stored as individual chunks in the 'chunks' array")
+                    print(f"  📋 Table summary added to '_table_detection_summary' field at end of JSON")
+
+                return final_structure
 
         except Exception as e:
             print(f"Error reading {self.pdf_path}: {e}")
