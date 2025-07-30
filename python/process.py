@@ -429,97 +429,500 @@ class PDFProcessor:
 
         return line_objects
 
-    def extract_tables_from_pdf(self, pdf):
+    def extract_table_title_from_page(self, page, table_bbox=None):
+            """
+            Extract table title by looking for text patterns above or near the table.
+            
+            Args:
+                page: pdfplumber page object
+                table_bbox: Bounding box of the table (x0, top, x1, bottom) if available
+                
+            Returns:
+                String containing the extracted table title or None if not found
+            """
+            try:
+                # Extract all text with positioning information
+                words = page.extract_words(x_tolerance=2, y_tolerance=2)
+                if not words:
+                    return None
+                
+                # If we have table bbox, focus search area above the table
+                search_area_words = []
+                if table_bbox:
+                    x0, top, x1, bottom = table_bbox
+                    # Look for titles in the area above the table (within 100 points)
+                    for word in words:
+                        word_bottom = word.get('bottom', word.get('y1', 0))
+                        word_left = word.get('x0', 0)
+                        word_right = word.get('x1', word.get('x0', 0))
+                        
+                        # Check if word is above table and horizontally aligned
+                        if (word_bottom <= top and 
+                            word_bottom >= top - 100 and  # Within 100 points above
+                            word_right >= x0 - 20 and    # Allow some horizontal tolerance
+                            word_left <= x1 + 20):
+                            search_area_words.append(word)
+                else:
+                    # Search entire page if no bbox available
+                    search_area_words = words
+                
+                # Group words into lines
+                lines = self._group_words_into_lines(search_area_words)
+                
+                # Look for table title patterns
+                for line in lines:
+                    title = self._extract_title_from_line(line)
+                    if title:
+                        return title
+                        
+                return None
+                
+            except Exception as e:
+                print(f"Error extracting table title: {e}")
+                return None
+
+    def _group_words_into_lines(self, words):
+        """Group words into lines based on vertical position."""
+        if not words:
+            return []
+            
+        # Sort words by vertical position, then horizontal
+        sorted_words = sorted(words, key=lambda w: (w.get('top', 0), w.get('x0', 0)))
+        
+        lines = []
+        current_line = []
+        current_y = None
+        y_tolerance = 5
+        
+        for word in sorted_words:
+            word_y = word.get('top', 0)
+            
+            if current_y is None or abs(word_y - current_y) <= y_tolerance:
+                current_line.append(word)
+                current_y = word_y
+            else:
+                if current_line:
+                    line_text = ' '.join(w.get('text', '') for w in current_line)
+                    lines.append(line_text.strip())
+                current_line = [word]
+                current_y = word_y
+        
+        # Add the last line
+        if current_line:
+            line_text = ' '.join(w.get('text', '') for w in current_line)
+            lines.append(line_text.strip())
+            
+        return lines
+
+    def _extract_title_from_line(self, line_text):
         """
-        Extract tables from PDF, handling both single and multi-column layouts.
-        For each table, find an appropriate heading.
+        Extract table title from a line of text using pattern matching.
+        
+        Returns the cleaned title or None if no title pattern is found.
+        """
+        if not line_text or len(line_text.strip()) < 3:
+            return None
+            
+        line = line_text.strip()
+        
+        # Table title patterns (case insensitive)
+        title_patterns = [
+            # Direct table references
+            r'^Table\s+\d+[:\.\-\s]+(.+)$',
+            r'^Table\s+[A-Z]?[:\.\-\s]+(.+)$',
+            r'^Tabla\s+\d+[:\.\-\s]+(.+)$',  # Spanish
+            r'^Tableau\s+\d+[:\.\-\s]+(.+)$',  # French
+            r'^Tabelle\s+\d+[:\.\-\s]+(.+)$',  # German
+            r'^Tabela\s+\d+[:\.\-\s]+(.+)$',  # Portuguese/Polish
+            
+            # Figure references that might be tables
+            r'^Figure\s+\d+[:\.\-\s]+(.+)$',
+            r'^Fig\.?\s+\d+[:\.\-\s]+(.+)$',
+            r'^Figura\s+\d+[:\.\-\s]+(.+)$',  # Spanish/Italian
+            
+            # Appendix tables
+            r'^Appendix\s+[A-Z]?[:\.\-\s]*Table\s*\d*[:\.\-\s]+(.+)$',
+            r'^Annex\s+[A-Z]?[:\.\-\s]*Table\s*\d*[:\.\-\s]+(.+)$',
+            
+            # Summary/overview patterns
+            r'^Summary\s+of\s+(.+)$',
+            r'^Overview\s+of\s+(.+)$',
+            r'^Comparison\s+of\s+(.+)$',
+            r'^Results\s+of\s+(.+)$',
+            
+            # Clinical trial specific patterns
+            r'^Efficacy\s+(.+)$',
+            r'^Safety\s+(.+)$',
+            r'^Adverse\s+Events?\s+(.+)$',
+            r'^Patient\s+Characteristics\s+(.+)$',
+            r'^Baseline\s+Characteristics\s+(.+)$',
+            r'^Treatment\s+Outcomes?\s+(.+)$',
+            
+            # Generic patterns (more permissive)
+            r'^(.+)\s+\(Table\)$',
+            r'^(.+)\s+\(continued\)$',
+        ]
+        
+        # Try each pattern
+        for pattern in title_patterns:
+            match = re.search(pattern, line, re.IGNORECASE)
+            if match:
+                extracted_title = match.group(1).strip()
+                # Clean up the extracted title
+                cleaned_title = self._clean_table_title(extracted_title)
+                if cleaned_title and len(cleaned_title) > 2:
+                    return f"Table: {cleaned_title}"
+        
+        # Check if the entire line looks like a table title
+        if self._line_looks_like_table_title(line):
+            cleaned_title = self._clean_table_title(line)
+            if cleaned_title and len(cleaned_title) > 2:
+                return f"Table: {cleaned_title}"
+                
+        return None
+
+    def _clean_table_title(self, title):
+        """Clean and format the extracted table title."""
+        if not title:
+            return None
+            
+        # Remove common artifacts
+        cleaned = title.strip()
+        
+        # Remove trailing punctuation marks except periods
+        cleaned = re.sub(r'[,;:\-]+$', '', cleaned)
+        
+        # Remove excessive whitespace
+        cleaned = re.sub(r'\s+', ' ', cleaned)
+        
+        # Remove page numbers and references at the end
+        cleaned = re.sub(r'\s+\d+\s*$', '', cleaned)
+        
+        # Remove common prefixes that might be artifacts
+        prefixes_to_remove = [
+            r'^Table\s+\d+[\.\:\-\s]*',
+            r'^Figure\s+\d+[\.\:\-\s]*',
+            r'^Fig\.?\s+\d+[\.\:\-\s]*',
+        ]
+        
+        for prefix in prefixes_to_remove:
+            cleaned = re.sub(prefix, '', cleaned, flags=re.IGNORECASE)
+        
+        return cleaned.strip()
+
+    def _line_looks_like_table_title(self, line):
+        """
+        Determine if a line looks like it could be a table title based on content and structure.
+        """
+        if not line or len(line.strip()) < 5:
+            return False
+            
+        line = line.strip()
+        
+        # Characteristics of table titles
+        title_indicators = [
+            # Contains medical/clinical keywords
+            any(keyword in line.lower() for keyword in [
+                'efficacy', 'safety', 'adverse', 'patient', 'treatment', 'outcome', 
+                'baseline', 'characteristics', 'comparison', 'summary', 'overview',
+                'results', 'analysis', 'endpoints', 'demographics', 'response',
+                'survival', 'progression', 'toxicity', 'dose', 'study', 'trial'
+            ]),
+            
+            # Reasonable length for a title (not too short, not too long)
+            5 <= len(line.split()) <= 15,
+            
+            # Starts with capital letter
+            line[0].isupper(),
+            
+            # Contains proper nouns or medical terms (indicated by capitals)
+            sum(1 for word in line.split() if word[0].isupper()) >= 2,
+            
+            # Doesn't look like a sentence (no common sentence starters)
+            not any(line.lower().startswith(starter) for starter in [
+                'the ', 'this ', 'these ', 'those ', 'a ', 'an ', 'in ', 'at ', 
+                'on ', 'for ', 'with ', 'by ', 'from ', 'to ', 'of '
+            ])
+        ]
+        
+        # Must meet at least 2 criteria
+        return sum(title_indicators) >= 2
+
+    def get_table_bounding_box(self, table_data, page):
+        """
+        Estimate the bounding box of a table based on its content.
+        This is a rough estimation for title search purposes.
+        """
+        try:
+            if not table_data or not page:
+                return None
+                
+            # For now, return None to use page-wide search
+            # This could be enhanced with more sophisticated bbox detection
+            return None
+            
+        except Exception:
+            return None
+
+    def detect_complete_tables(self, pdf):
+        """
+        Enhanced table detection that groups table rows and creates single table entries.
+        Now includes table title extraction.
         """
         tables_info = []
         
         for page_num, page in enumerate(pdf.pages, start=1):
-            # Attempt to detect columns
-            num_columns, column_boundaries = self.detect_columns(page)
-            
-            # Try to extract tables from the whole page first (for tables spanning columns)
+            # Extract all tables from the page
             page_tables = page.extract_tables()
             
-            if page_tables:
-                # Process whole-page tables (might span columns)
-                for i, table_data in enumerate(page_tables, start=1):
-                    flattened = self.flatten_table(table_data)
-                    if not flattened.strip():
-                        continue
-                    
-                    # Find a suitable heading
-                    table_title = self.find_table_heading(page_num, i)
+            if not page_tables:
+                continue
+            
+            # Group nearby tables that might be parts of the same logical table
+            merged_tables = self.merge_related_tables(page_tables, page)
+            
+            for table_idx, table_data in enumerate(merged_tables, start=1):
+                if not table_data or len(table_data) < 2:  # Skip single-row tables
+                    continue
+                
+                # Get table bounding box for title search
+                table_bbox = self.get_table_bounding_box(table_data, page)
+                
+                # Try to extract table title from the page
+                extracted_title = self.extract_table_title_from_page(page, table_bbox)
+                
+                # Convert table to narrative text
+                narrative_text = self.convert_table_to_narrative(table_data)
+                
+                if narrative_text.strip():
+                    # Use extracted title if available, otherwise fall back to heading-based approach
+                    if extracted_title:
+                        table_title = extracted_title
+                        print(f"Extracted table title: '{extracted_title}' on page {page_num}")
+                    else:
+                        # Fall back to the original heading-based approach
+                        table_title = self.find_table_heading(page_num, table_idx)
+                        print(f"Using fallback heading: '{table_title}' on page {page_num}")
                     
                     tables_info.append({
                         "page": page_num,
                         "heading": table_title,
-                        "text": flattened
+                        "text": narrative_text,
+                        "table_type": "complete_table"
                     })
-            
-            # For multi-column layouts, also try finding tables in each column
-            if num_columns > 1:
-                for i in range(num_columns):
-                    left_bound = column_boundaries[i]
-                    right_bound = column_boundaries[i+1]
-                    
-                    # Extract tables only within this column's boundaries
-                    column_area = (left_bound, 0, right_bound, page.height)
-                    column = page.crop(column_area)
-                    column_tables = column.extract_tables()
-                    
-                    for j, table_data in enumerate(column_tables, start=1):
-                        # Skip if already found in whole-page extraction
-                        flattened = self.flatten_table(table_data)
-                        if not flattened.strip():
-                            continue
-                            
-                        # Check if this is a duplicate of a table we already found
-                        if any(t.get("text", "") == flattened for t in tables_info if t["page"] == page_num):
-                            continue
-                        
-                        # Find a suitable heading
-                        table_title = self.find_table_heading(page_num, i*10+j, column_index=i)
-                        
-                        tables_info.append({
-                            "page": page_num,
-                            "heading": table_title,
-                            "text": flattened
-                        })
         
         return tables_info
 
-    @staticmethod
-    def flatten_table(table):
+    def merge_related_tables(self, page_tables, page):
         """
-        Converts a table (list of lists) into lines where each row is:
-            Row X: cell1|cell2|cell3
-        with no extra padding around the '|'.
+        Merge tables that appear to be parts of the same logical table.
+        This helps when a table is split across areas or columns.
         """
-        if not table:
-            return ""
+        if len(page_tables) <= 1:
+            return page_tables
+        
+        merged = []
+        used_indices = set()
+        
+        for i, table1 in enumerate(page_tables):
+            if i in used_indices:
+                continue
+                
+            # Start with this table
+            combined_table = list(table1) if table1 else []
+            used_indices.add(i)
+            
+            # Look for tables that might be continuations
+            for j, table2 in enumerate(page_tables[i+1:], start=i+1):
+                if j in used_indices or not table2:
+                    continue
+                
+                # Check if table2 might be a continuation of table1
+                if self.tables_appear_related(table1, table2):
+                    # Merge table2 into combined_table
+                    combined_table.extend(table2)
+                    used_indices.add(j)
+            
+            if combined_table:
+                merged.append(combined_table)
+        
+        return merged
 
-        # Clean each cell in the table (remove newlines and extra spaces)
-        cleaned_table = []
-        for row in table:
+    def tables_appear_related(self, table1, table2):
+        """
+        Determine if two tables appear to be parts of the same logical table.
+        """
+        if not table1 or not table2:
+            return False
+        
+        # Check if they have similar column structures
+        if len(table1[0]) == len(table2[0]):
+            # Similar number of columns - might be continuation
+            return True
+        
+        # Check if one appears to be a header and the other data
+        if len(table1) == 1 and len(table2) > 1:
+            return True
+        
+        return False
+
+    def convert_table_to_narrative(self, table_data):
+        """
+        Convert a table into narrative text that preserves the relationships.
+        Each row becomes a descriptive sentence or bullet point.
+        """
+        if not table_data or len(table_data) == 0:
+            return ""
+        
+        # Clean and prepare the table
+        cleaned_table = self.clean_table_data(table_data)
+        
+        if len(cleaned_table) == 0:
+            return ""
+        
+        # Try to identify headers
+        headers = self.identify_table_headers(cleaned_table)
+        
+        if headers:
+            # Convert each data row to narrative
+            narrative_parts = []
+            
+            # Add header information
+            narrative_parts.append(f"Table contains the following columns: {', '.join(headers)}")
+            
+            # Process data rows
+            data_rows = cleaned_table[1:] if len(cleaned_table) > 1 else []
+            
+            for row_idx, row in enumerate(data_rows, 1):
+                row_description = self.create_row_description(headers, row, row_idx)
+                if row_description:
+                    narrative_parts.append(row_description)
+            
+            return "\n".join(narrative_parts)
+        else:
+            # No clear headers - treat as a simple data table
+            return self.convert_headerless_table(cleaned_table)
+
+    def clean_table_data(self, table_data):
+        """
+        Clean and standardize table data.
+        """
+        cleaned = []
+        
+        for row in table_data:
+            if not row:
+                continue
+            
             cleaned_row = []
             for cell in row:
                 if cell is None:
-                    cell = ""
-                # Replace any sequence of whitespace (including newlines) with a single space
-                cleaned_cell = re.sub(r'\s+', ' ', str(cell)).strip()
-                cleaned_row.append(cleaned_cell)
-            cleaned_table.append(cleaned_row)
+                    cell_text = ""
+                else:
+                    # Clean cell content
+                    cell_text = re.sub(r'\s+', ' ', str(cell)).strip()
+                    
+                cleaned_row.append(cell_text)
+            
+            # Only include rows that have some content
+            if any(cell.strip() for cell in cleaned_row):
+                cleaned.append(cleaned_row)
+        
+        return cleaned
 
-        # Build lines with a Row index
-        lines = []
-        for i, row in enumerate(cleaned_table, start=1):
-            row_str = "|".join(row)
-            lines.append(f"Row {i}: {row_str}")
+    def identify_table_headers(self, cleaned_table):
+        """
+        Try to identify table headers from the first row(s).
+        """
+        if not cleaned_table:
+            return None
+        
+        first_row = cleaned_table[0]
+        
+        # Check if first row looks like headers
+        header_indicators = [
+            # Check for typical header words
+            any(word.lower() in cell.lower() for word in ['name', 'type', 'value', 'result', 'outcome', 'dose', 'drug', 'treatment', 'group', 'arm', 'study', 'n=', 'patient', 'endpoint', 'efficacy', 'safety', 'adverse', 'event'] for cell in first_row if cell),
+            
+            # Check if cells are short (typical of headers)
+            all(len(cell.split()) <= 4 for cell in first_row if cell),
+            
+            # Check if subsequent rows have different content patterns
+            len(cleaned_table) > 1 and any(
+                self.is_numeric(cell) for cell in cleaned_table[1] if cell
+            )
+        ]
+        
+        if any(header_indicators):
+            return [cell if cell else f"Column_{i+1}" for i, cell in enumerate(first_row)]
+        
+        return None
 
-        return "\n".join(lines)
+    def is_numeric(self, text):
+        """
+        Check if text contains numeric data (percentages, numbers, etc.)
+        """
+        if not text:
+            return False
+        
+        # Check for common numeric patterns
+        numeric_patterns = [
+            r'\d+\.?\d*%',  # Percentages
+            r'\d+\.?\d*',   # Numbers
+            r'\d+/\d+',     # Fractions
+            r'[<>=]?\s*\d+\.?\d*',  # Comparison operators with numbers
+            r'\d+\.\d+\s*\([^)]+\)',  # Numbers with confidence intervals
+        ]
+        
+        return any(re.search(pattern, text) for pattern in numeric_patterns)
+
+    def create_row_description(self, headers, row, row_idx):
+        """
+        Create a descriptive sentence for a table row.
+        """
+        if not headers or not row:
+            return ""
+        
+        # Pair headers with values
+        pairs = []
+        for i, (header, value) in enumerate(zip(headers, row)):
+            if value and value.strip():
+                # Clean header and value
+                clean_header = header.strip().rstrip(':')
+                clean_value = value.strip()
+                
+                pairs.append(f"{clean_header}: {clean_value}")
+        
+        if not pairs:
+            return ""
+        
+        # Create a descriptive sentence
+        if len(pairs) == 1:
+            return f"Row {row_idx}: {pairs[0]}"
+        elif len(pairs) == 2:
+            return f"Row {row_idx}: {pairs[0]} and {pairs[1]}"
+        else:
+            # Multiple pairs - create a structured description
+            return f"Row {row_idx}: {', '.join(pairs[:-1])}, and {pairs[-1]}"
+
+    def convert_headerless_table(self, cleaned_table):
+        """
+        Convert a table without clear headers into narrative form.
+        """
+        narrative_parts = []
+        
+        for row_idx, row in enumerate(cleaned_table, 1):
+            # Filter out empty cells
+            non_empty_cells = [cell for cell in row if cell and cell.strip()]
+            
+            if non_empty_cells:
+                if len(non_empty_cells) == 1:
+                    narrative_parts.append(f"Row {row_idx}: {non_empty_cells[0]}")
+                else:
+                    # Join multiple cells with descriptive text
+                    cell_desc = ", ".join(f"'{cell}'" for cell in non_empty_cells)
+                    narrative_parts.append(f"Row {row_idx} contains: {cell_desc}")
+        
+        return "\n".join(narrative_parts)
 
     def extract_text_by_columns(self, page):
         """
@@ -645,9 +1048,9 @@ class PDFProcessor:
         Main function that:
         1. Extracts text and identifies headings from each page (skipping footnotes, boilerplate, etc.).
         2. Stores headings per page in self.page_headings_map.
-        3. Extracts tables, tries to detect table titles, and inserts them as separate chunks.
+        3. Extracts tables using enhanced table detection and narrative conversion.
         4. Returns a dictionary with enhanced text processing including hyphenation and paragraph cohesion.
-        Enhanced with better error handling for problematic PDFs.
+        Enhanced with better error handling for problematic PDFs and improved table handling.
         """
         try:
             with pdfplumber.open(self.pdf_path) as pdf:
@@ -811,8 +1214,8 @@ class PDFProcessor:
 
                 flush_buffer()
 
-                # Now extract tables with knowledge of headings
-                tables_info = self.extract_tables_from_pdf(pdf)
+                # Now extract tables with enhanced detection and narrative conversion
+                tables_info = self.detect_complete_tables(pdf)
 
                 # Insert each table as its own chunk
                 for tinfo in tables_info:
@@ -1033,13 +1436,13 @@ class PDFProcessor:
 
 
 
-
 import os
 import re
 import json
 import shutil
 import gc
 import torch
+from datetime import datetime  # ADD THIS LINE
 from typing import Optional, List, Dict, Any, Tuple
 from langdetect import detect
 from transformers import pipeline, AutoModelForSeq2SeqLM, AutoTokenizer
@@ -1048,7 +1451,7 @@ import copy
 class Translator:
     """
     Enhanced Translator class with document-level hierarchical model selection optimized for medical data,
-    robust CUDA handling, medical term preservation, and intelligent quality detection.
+    robust CUDA handling, medical term preservation, intelligent quality detection, and adaptive translation chunking.
     """
 
     def __init__(self, input_dir, output_dir):
@@ -1056,6 +1459,10 @@ class Translator:
         self.output_dir = output_dir
         self.english_chunks_preserved = 0
         self.chunks_translated = 0
+
+        self.processing_start_time = None
+        self.tier_attempts = {}  # Track tier attempts per document
+        self.translation_decisions = {}  # Track translation decisions
 
         # Medical terms that should NOT be translated
         self.preserve_terms = {
@@ -1142,6 +1549,14 @@ class Translator:
             'language_detection_threshold': 0.70,  # Must be reasonably detected as English
         }
 
+        # Translation chunking parameters
+        self.translation_chunk_params = {
+            'max_tokens': 400,  # Maximum tokens per translation chunk
+            'overlap_ratio': 0.1,  # Overlap ratio for context preservation
+            'min_chunk_size': 50,  # Minimum characters for a chunk
+            'quality_threshold': 0.7,  # Threshold for rechunking complex content
+        }
+
         # Performance tracking for adaptive model selection
         self.model_performance = {}
         
@@ -1212,6 +1627,244 @@ class Translator:
         self.current_language = None
         self.current_tier = None
         self.current_model_name = None
+
+    def count_tokens(self, text: str) -> int:
+        """
+        Estimate token count for text. Uses a simple approximation.
+        For more accuracy, could use specific tokenizer, but this is efficient.
+        """
+        # Rough estimation: ~4 characters per token for medical text
+        return len(text) // 4
+
+    def adaptive_chunk_for_translation(self, text: str, max_tokens: int = None) -> List[Dict[str, Any]]:
+        """
+        Intelligently chunk large text blocks for optimal translation.
+        Respects semantic boundaries and medical context.
+        
+        Returns list of chunk dictionaries with text and metadata.
+        """
+        if max_tokens is None:
+            max_tokens = self.translation_chunk_params['max_tokens']
+            
+        # If already small enough, return as-is
+        if self.count_tokens(text) <= max_tokens:
+            return [{'text': text, 'is_sub_chunk': False, 'chunk_index': 0}]
+        
+        print(f"      🔨 Adaptive chunking needed (estimated {self.count_tokens(text)} tokens > {max_tokens})")
+        
+        # Split on natural boundaries (ordered by preference)
+        boundaries = [
+            r'\n\n•\s+',              # Bullet points
+            r'\n\n[A-Z][^a-z]*\n',    # Section headers
+            r'\.\s+•\s+',             # Sentence + bullet
+            r'\n\n',                  # Paragraph breaks
+            r'\.\s+[A-Z]',            # Sentence boundaries
+            r'[.!?]\s+',              # Any sentence end
+            r'[;:]\s+',               # Semi-colon/colon breaks
+        ]
+        
+        chunks = self._split_by_boundaries(text, boundaries, max_tokens)
+        
+        # Add metadata to chunks
+        chunk_data = []
+        for i, chunk_text in enumerate(chunks):
+            chunk_data.append({
+                'text': chunk_text,
+                'is_sub_chunk': len(chunks) > 1,
+                'chunk_index': i,
+                'total_sub_chunks': len(chunks)
+            })
+        
+        print(f"      ✓ Created {len(chunks)} translation sub-chunks")
+        return chunk_data
+
+    def _split_by_boundaries(self, text: str, boundaries: List[str], max_tokens: int) -> List[str]:
+        """
+        Split text by boundaries while respecting token limits and preserving medical context.
+        """
+        # Try each boundary pattern in order of preference
+        for boundary_pattern in boundaries:
+            chunks = re.split(boundary_pattern, text)
+            
+            # If we got useful splits, process them
+            if len(chunks) > 1:
+                final_chunks = []
+                current_chunk = ""
+                
+                for chunk in chunks:
+                    chunk = chunk.strip()
+                    if not chunk:
+                        continue
+                    
+                    # Check if adding this chunk would exceed token limit
+                    potential_chunk = current_chunk + ("\n\n" if current_chunk else "") + chunk
+                    
+                    if self.count_tokens(potential_chunk) <= max_tokens:
+                        current_chunk = potential_chunk
+                    else:
+                        # Save current chunk if it exists
+                        if current_chunk:
+                            final_chunks.append(current_chunk)
+                        
+                        # Start new chunk
+                        if self.count_tokens(chunk) <= max_tokens:
+                            current_chunk = chunk
+                        else:
+                            # Chunk is still too large, try next boundary level recursively
+                            if boundary_pattern != boundaries[-1]:  # Not the last boundary
+                                remaining_boundaries = boundaries[boundaries.index(boundary_pattern) + 1:]
+                                sub_chunks = self._split_by_boundaries(chunk, remaining_boundaries, max_tokens)
+                                final_chunks.extend(sub_chunks)
+                                current_chunk = ""
+                            else:
+                                # Last resort: force split by characters
+                                sub_chunks = self._force_split_by_chars(chunk, max_tokens)
+                                final_chunks.extend(sub_chunks)
+                                current_chunk = ""
+                
+                # Add remaining chunk
+                if current_chunk:
+                    final_chunks.append(current_chunk)
+                
+                # If we achieved reasonable chunking, return
+                if all(self.count_tokens(chunk) <= max_tokens for chunk in final_chunks):
+                    return final_chunks
+        
+        # Fallback: force split by character count
+        return self._force_split_by_chars(text, max_tokens)
+
+    def _force_split_by_chars(self, text: str, max_tokens: int) -> List[str]:
+        """
+        Force split text by character count as last resort.
+        Tries to split at word boundaries when possible.
+        """
+        max_chars = max_tokens * 4  # Rough character estimate
+        chunks = []
+        
+        while text:
+            if len(text) <= max_chars:
+                chunks.append(text)
+                break
+            
+            # Find a good split point near the limit
+            split_point = max_chars
+            
+            # Try to split at word boundary
+            while split_point > max_chars * 0.8 and split_point < len(text):
+                if text[split_point].isspace():
+                    break
+                split_point -= 1
+            
+            # If no good word boundary found, split at sentence
+            if split_point <= max_chars * 0.8:
+                split_point = max_chars
+                while split_point > max_chars * 0.6 and split_point < len(text):
+                    if text[split_point] in '.!?':
+                        split_point += 1
+                        break
+                    split_point -= 1
+            
+            # Extract chunk
+            chunk = text[:split_point].strip()
+            if chunk:
+                chunks.append(chunk)
+            
+            text = text[split_point:].strip()
+        
+        return chunks
+
+    def preserve_medical_context(self, chunk: str) -> bool:
+        """
+        Ensure drug names and their contexts stay together.
+        """
+        drug_context_patterns = [
+            r'(osimertinib|crizotinib|alectinib).*?(?=\n\n|\.|$)',
+            r'(EGFR|ALK|ROS-1).*?mutation.*?(?=\n\n|\.|$)',
+            r'(first-line|second-line).*?treatment.*?(?=\n\n|\.|$)'
+        ]
+        return any(re.search(pattern, chunk, re.IGNORECASE) for pattern in drug_context_patterns)
+
+    def should_rechunk_for_translation(self, chunk: str, quality_threshold: float = None) -> bool:
+        """
+        Determine if a chunk is too complex for reliable translation.
+        """
+        if quality_threshold is None:
+            quality_threshold = self.translation_chunk_params['quality_threshold']
+            
+        complexity_indicators = {
+            'token_count': self.count_tokens(chunk),
+            'ocr_artifacts': len(re.findall(r'\(cid:\d+\)', chunk)),
+            'reference_density': len(re.findall(r'\[\d+(?:,\s*\d+)*\]', chunk)) / max(len(chunk.split()), 1),
+            'context_switches': len(re.findall(r'(EGFR|ALK|ROS-1|BRAF)', chunk)),
+            'formatting_changes': len(re.findall(r'\n\s*•|\n\n[A-Z]', chunk))
+        }
+        
+        complexity_score = self._calculate_complexity_score(complexity_indicators)
+        return complexity_score > quality_threshold
+
+    def _calculate_complexity_score(self, indicators: Dict[str, float]) -> float:
+        """
+        Calculate complexity score based on various indicators.
+        """
+        weights = {
+            'token_count': 0.3,
+            'ocr_artifacts': 0.25,
+            'reference_density': 0.2,
+            'context_switches': 0.15,
+            'formatting_changes': 0.1
+        }
+        
+        # Normalize indicators
+        normalized = {}
+        normalized['token_count'] = min(1.0, indicators['token_count'] / 600)  # 600 tokens = 1.0
+        normalized['ocr_artifacts'] = min(1.0, indicators['ocr_artifacts'] / 5)  # 5 artifacts = 1.0
+        normalized['reference_density'] = min(1.0, indicators['reference_density'] * 10)  # 0.1 density = 1.0
+        normalized['context_switches'] = min(1.0, indicators['context_switches'] / 3)  # 3 switches = 1.0
+        normalized['formatting_changes'] = min(1.0, indicators['formatting_changes'] / 5)  # 5 changes = 1.0
+        
+        # Calculate weighted score
+        score = sum(weights[key] * normalized[key] for key in weights.keys())
+        return score
+
+    def merge_translated_chunks(self, translated_sub_chunks: List[str], original_chunk_text: str) -> str:
+        """
+        Merge translated sub-chunks back into a coherent whole.
+        Handles overlaps and ensures medical context coherence.
+        """
+        if len(translated_sub_chunks) == 1:
+            return translated_sub_chunks[0]
+        
+        # Simple concatenation with intelligent spacing
+        merged = []
+        
+        for i, sub_chunk in enumerate(translated_sub_chunks):
+            sub_chunk = sub_chunk.strip()
+            if not sub_chunk:
+                continue
+                
+            # Add appropriate spacing between chunks
+            if merged:
+                # Check if we need paragraph break or just space
+                last_chunk = merged[-1]
+                if (last_chunk.endswith('.') or last_chunk.endswith('!') or last_chunk.endswith('?') or
+                    sub_chunk[0].isupper()):
+                    # Likely new sentence or paragraph
+                    if '\n\n' in original_chunk_text:
+                        merged.append('\n\n')
+                    else:
+                        merged.append(' ')
+                else:
+                    merged.append(' ')
+            
+            merged.append(sub_chunk)
+        
+        result = ''.join(merged)
+        
+        # Clean up any spacing issues
+        result = re.sub(r'\n\n\n+', '\n\n', result)  # Max 2 newlines
+        result = re.sub(r'  +', ' ', result)  # Max 1 space
+        
+        return result.strip()
 
     def check_model_availability(self, model_name: str) -> bool:
         """Check if a model is available and can be loaded."""
@@ -1834,32 +2487,78 @@ class Translator:
         return base_params
 
     def translate_single_chunk(self, text: str, translator, tier: int = 1) -> str:
-        """Translate a single chunk of text with tier-appropriate parameters."""
+        """
+        Translate a single chunk of text with tier-appropriate parameters and adaptive chunking.
+        This method now incorporates the translation-specific chunking strategy.
+        """
         if not text.strip() or not translator:
             return text
 
         try:
-            # Preserve medical terms
-            protected_text, preserved_terms = self.preserve_medical_terms(text)
-            
-            # Get generation parameters for this tier
-            gen_params = self.get_generation_params(tier)
-            
-            # Translate based on translator type
-            if hasattr(translator, 'model'):
-                # Helsinki pipeline
-                pipeline_params = {k: v for k, v in gen_params.items() 
-                                 if k in ['max_length', 'truncation', 'no_repeat_ngram_size', 
-                                         'repetition_penalty', 'do_sample', 'num_beams']}
-                result = translator(protected_text, **pipeline_params)
+            # First, check if the chunk needs adaptive chunking for translation
+            if self.should_rechunk_for_translation(text) or self.count_tokens(text) > self.translation_chunk_params['max_tokens']:
+                print(f"      🔨 Applying adaptive translation chunking")
+                
+                # Create translation-specific sub-chunks
+                translation_chunks = self.adaptive_chunk_for_translation(text, self.translation_chunk_params['max_tokens'])
+                
+                # Translate each sub-chunk
+                translated_sub_chunks = []
+                for chunk_data in translation_chunks:
+                    sub_chunk_text = chunk_data['text']
+                    
+                    # Preserve medical terms for this sub-chunk
+                    protected_text, preserved_terms = self.preserve_medical_terms(sub_chunk_text)
+                    
+                    # Get generation parameters for this tier
+                    gen_params = self.get_generation_params(tier)
+                    
+                    # Translate based on translator type
+                    if hasattr(translator, 'model'):
+                        # Helsinki pipeline
+                        pipeline_params = {k: v for k, v in gen_params.items() 
+                                         if k in ['max_length', 'truncation', 'no_repeat_ngram_size', 
+                                                 'repetition_penalty', 'do_sample', 'num_beams']}
+                        result = translator(protected_text, **pipeline_params)
+                    else:
+                        # NLLB custom function
+                        result = translator(protected_text, generation_params=gen_params)
+                    
+                    translated_sub_text = result[0]['translation_text']
+                    
+                    # Restore medical terms for this sub-chunk
+                    final_sub_text = self.restore_medical_terms(translated_sub_text, preserved_terms)
+                    
+                    translated_sub_chunks.append(final_sub_text)
+                
+                # Merge the translated sub-chunks back together
+                final_text = self.merge_translated_chunks(translated_sub_chunks, text)
+                
+                print(f"      ✓ Merged {len(translated_sub_chunks)} translation sub-chunks")
+                
             else:
-                # NLLB custom function
-                result = translator(protected_text, generation_params=gen_params)
-            
-            translated_text = result[0]['translation_text']
-            
-            # Restore medical terms
-            final_text = self.restore_medical_terms(translated_text, preserved_terms)
+                # Standard single-chunk translation (no adaptive chunking needed)
+                # Preserve medical terms
+                protected_text, preserved_terms = self.preserve_medical_terms(text)
+                
+                # Get generation parameters for this tier
+                gen_params = self.get_generation_params(tier)
+                
+                # Translate based on translator type
+                if hasattr(translator, 'model'):
+                    # Helsinki pipeline
+                    pipeline_params = {k: v for k, v in gen_params.items() 
+                                     if k in ['max_length', 'truncation', 'no_repeat_ngram_size', 
+                                             'repetition_penalty', 'do_sample', 'num_beams']}
+                    result = translator(protected_text, **pipeline_params)
+                else:
+                    # NLLB custom function
+                    result = translator(protected_text, generation_params=gen_params)
+                
+                translated_text = result[0]['translation_text']
+                
+                # Restore medical terms
+                final_text = self.restore_medical_terms(translated_text, preserved_terms)
             
             # Clean translation artifacts
             cleaned_text = self.clean_translation_artifacts(final_text)
@@ -1870,27 +2569,40 @@ class Translator:
             print(f"      Translation error: {str(e)[:50]}")
             return text
 
-    def translate_document_with_tier(self, data: dict, language: str, tier: int) -> Tuple[dict, Dict[str, float]]:
+    def translate_document_with_tier(self, data: dict, language: str, tier: int) -> Tuple[dict, Dict[str, float], Dict[str, Any]]:
         """
         Translate an entire document with a specific tier model.
         
         Returns:
-            Tuple of (translated_data, quality_scores)
+            Tuple of (translated_data, quality_scores, tier_metadata)
         """
         print(f"  📝 Translating document with Tier {tier}")
+        
+        tier_start_time = datetime.now()
         
         # Load translator for this tier
         translator = self.load_translator_for_language(language, tier)
         if not translator:
             print(f"    ✗ No translator available for Tier {tier}")
-            return data, {'overall': 0.0}
+            return data, {'overall': 0.0}, {
+                'tier': tier,
+                'model_loaded': False,
+                'processing_time_seconds': 0,
+                'model_name': None
+            }
         
         # Make a deep copy to avoid modifying original data
         translated_data = copy.deepcopy(data)
         
         if 'chunks' not in translated_data:
             print(f"    No chunks found in document")
-            return translated_data, {'overall': 0.0}
+            return translated_data, {'overall': 0.0}, {
+                'tier': tier,
+                'model_loaded': True,
+                'processing_time_seconds': (datetime.now() - tier_start_time).total_seconds(),
+                'model_name': self.current_model_name,
+                'chunks_found': False
+            }
         
         total_chunks = len(translated_data['chunks'])
         translated_count = 0
@@ -1922,6 +2634,8 @@ class Translator:
                     )
                     translated_count += 1
         
+        processing_time = (datetime.now() - tier_start_time).total_seconds()
+        
         print(f"    ✓ Tier {tier} translation complete: {english_count} English chunks, {translated_count} translated chunks")
         
         # Assess document quality
@@ -1933,7 +2647,20 @@ class Translator:
         print(f"      Repetition: {quality_scores.get('repetition', 0):.3f}")
         print(f"      Language: {quality_scores.get('language', 0):.3f}")
         
-        return translated_data, quality_scores
+        # Capture tier metadata
+        tier_metadata = {
+            'tier': tier,
+            'model_loaded': True,
+            'model_name': self.current_model_name,
+            'processing_time_seconds': processing_time,
+            'chunks_found': True,
+            'total_chunks': total_chunks,
+            'chunks_translated': translated_count,
+            'chunks_english': english_count,
+            'quality_scores': quality_scores
+        }
+        
+        return translated_data, quality_scores, tier_metadata
 
     def clear_translator(self):
         """Clear current translator and free memory."""
@@ -1953,9 +2680,13 @@ class Translator:
     def process_json_file(self, input_path: str, output_path: str):
         """
         Process a single JSON file with document-level hierarchical translation.
+        Enhanced with comprehensive metadata tracking.
         """
         file_name = os.path.basename(input_path)
         print(f"\n📄 Processing: {file_name}")
+        
+        # Start tracking processing time
+        self.processing_start_time = datetime.now()
 
         # Load JSON
         try:
@@ -1981,31 +2712,76 @@ class Translator:
         combined_text = ' '.join(all_text_parts)
         document_language = self.detect_document_language(combined_text)
 
+        # Initialize translation metadata
+        translation_metadata = {
+            "processing_timestamp": self.processing_start_time.isoformat(),
+            "source_file": file_name,
+            "detected_language": document_language,
+            "was_translation_needed": False,
+            "tier_attempts": [],
+            "final_tier_used": None,
+            "final_model_used": None,
+            "retranslation_occurred": False,
+            "quality_comparison": {},
+            "final_quality_scores": {},
+            "chunks_translated": 0,
+            "chunks_preserved_english": 0,
+            "total_processing_time_seconds": 0,
+            "translation_strategy": "hierarchical_document_level"
+        }
+
         if not document_language or document_language == 'en':
             print(f"  📋 Document is English, copying without translation")
+            translation_metadata.update({
+                "translation_decision": "no_translation_needed_english",
+                "total_processing_time_seconds": (datetime.now() - self.processing_start_time).total_seconds()
+            })
+            
+            # Add metadata even for English documents
+            data["_translation_metadata"] = translation_metadata
+            
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            shutil.copy(input_path, output_path)
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
             return
 
         # Check if we have translation capabilities for this language
         tier_1_available = len(self.get_available_models_for_tier(1, document_language)) > 0
         tier_2_available = len(self.get_available_models_for_tier(2, document_language)) > 0
         
+        translation_metadata.update({
+            "was_translation_needed": True,
+            "tier_1_available": tier_1_available,
+            "tier_2_available": tier_2_available
+        })
+        
         if not tier_1_available and not tier_2_available:
             print(f"  📋 No translation models available for language {document_language}, copying original file")
+            translation_metadata.update({
+                "translation_decision": "no_models_available",
+                "total_processing_time_seconds": (datetime.now() - self.processing_start_time).total_seconds()
+            })
+            
+            # Add metadata even when no translation is possible
+            data["_translation_metadata"] = translation_metadata
+            
             os.makedirs(os.path.dirname(output_path), exist_ok=True)
-            shutil.copy(input_path, output_path)
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
             return
 
         # Translate with Tier 1 (if available)
         best_translation = None
         best_quality = {'overall': 0.0}
+        tier_1_metadata = None
+        tier_2_metadata = None
         
         if tier_1_available:
             print(f"  🎯 Starting with Tier 1 translation")
-            tier_1_translation, tier_1_quality = self.translate_document_with_tier(
+            tier_1_translation, tier_1_quality, tier_1_metadata = self.translate_document_with_tier(
                 data, document_language, 1
             )
+            translation_metadata["tier_attempts"].append(tier_1_metadata)
             best_translation = tier_1_translation
             best_quality = tier_1_quality
             
@@ -2014,40 +2790,77 @@ class Translator:
                 print(f"  ✅ Tier 1 quality sufficient (overall: {tier_1_quality['overall']:.3f})")
                 final_translation = tier_1_translation
                 final_quality = tier_1_quality
+                translation_metadata.update({
+                    "translation_decision": "tier_1_sufficient",
+                    "final_tier_used": 1,
+                    "final_model_used": tier_1_metadata["model_name"],
+                    "retranslation_occurred": False
+                })
             else:
                 print(f"  📈 Tier 1 quality insufficient, trying Tier 2")
                 
                 # Try Tier 2 if available
                 if tier_2_available:
                     self.clear_translator()  # Free Tier 1 memory
-                    tier_2_translation, tier_2_quality = self.translate_document_with_tier(
+                    tier_2_translation, tier_2_quality, tier_2_metadata = self.translate_document_with_tier(
                         data, document_language, 2
                     )
+                    translation_metadata["tier_attempts"].append(tier_2_metadata)
                     
                     # Compare translations and choose the best
                     if self.compare_translation_quality(tier_2_quality, tier_1_quality) == 1:
                         print(f"  🏆 Tier 2 translation is better (overall: {tier_2_quality['overall']:.3f} vs {tier_1_quality['overall']:.3f})")
                         final_translation = tier_2_translation
                         final_quality = tier_2_quality
+                        translation_metadata.update({
+                            "translation_decision": "tier_2_better_than_tier_1",
+                            "final_tier_used": 2,
+                            "final_model_used": tier_2_metadata["model_name"],
+                            "retranslation_occurred": True,
+                            "quality_comparison": {
+                                "tier_1_overall": tier_1_quality['overall'],
+                                "tier_2_overall": tier_2_quality['overall'],
+                                "improvement": tier_2_quality['overall'] - tier_1_quality['overall']
+                            }
+                        })
                     else:
                         print(f"  🥈 Tier 1 translation is still better, keeping it")
                         final_translation = tier_1_translation
                         final_quality = tier_1_quality
+                        translation_metadata.update({
+                            "translation_decision": "tier_1_better_than_tier_2",
+                            "final_tier_used": 1,
+                            "final_model_used": tier_1_metadata["model_name"],
+                            "retranslation_occurred": True,
+                            "quality_comparison": {
+                                "tier_1_overall": tier_1_quality['overall'],
+                                "tier_2_overall": tier_2_quality['overall'],
+                                "tier_1_chosen_despite_tier_2": True
+                            }
+                        })
                 else:
                     print(f"  ⚠️  Tier 2 not available, keeping Tier 1 result")
                     final_translation = tier_1_translation
                     final_quality = tier_1_quality
+                    translation_metadata.update({
+                        "translation_decision": "tier_1_only_tier_2_unavailable",
+                        "final_tier_used": 1,
+                        "final_model_used": tier_1_metadata["model_name"],
+                        "retranslation_occurred": False
+                    })
         else:
             # No Tier 1 available, go directly to Tier 2
             print(f"  🎯 Tier 1 not available, starting with Tier 2")
-            final_translation, final_quality = self.translate_document_with_tier(
+            final_translation, final_quality, tier_2_metadata = self.translate_document_with_tier(
                 data, document_language, 2
             )
-
-        # Save the best translation
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(final_translation, f, indent=2, ensure_ascii=False)
+            translation_metadata["tier_attempts"].append(tier_2_metadata)
+            translation_metadata.update({
+                "translation_decision": "tier_2_only_tier_1_unavailable",
+                "final_tier_used": 2,
+                "final_model_used": tier_2_metadata["model_name"],
+                "retranslation_occurred": False
+            })
 
         # Count final statistics
         translated_count = 0
@@ -2067,8 +2880,27 @@ class Translator:
                     else:
                         translated_count += 1
 
+        # Complete metadata
+        total_processing_time = (datetime.now() - self.processing_start_time).total_seconds()
+        translation_metadata.update({
+            "final_quality_scores": final_quality,
+            "chunks_translated": translated_count,
+            "chunks_preserved_english": english_count,
+            "total_processing_time_seconds": total_processing_time,
+            "processing_completed_timestamp": datetime.now().isoformat()
+        })
+
+        # Add metadata to the final translation
+        final_translation["_translation_metadata"] = translation_metadata
+
+        # Save the translation with metadata
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(final_translation, f, indent=2, ensure_ascii=False)
+
         print(f"  ✓ Final result: {english_count} English chunks, {translated_count} translated chunks")
         print(f"  📊 Final quality: {final_quality['overall']:.3f}")
+        print(f"  ⏱️  Processing time: {total_processing_time:.2f}s")
 
         # Update global stats
         self.english_chunks_preserved += english_count
@@ -2079,14 +2911,17 @@ class Translator:
 
     def translate_documents(self):
         """
-        Main method to translate all documents with document-level hierarchical selection.
+        Main method to translate all documents with document-level hierarchical selection 
+        and adaptive translation chunking.
         """
-        print("🚀 Starting document translation with document-level hierarchical model selection...")
+        print("🚀 Starting document translation with enhanced adaptive chunking...")
         print("📋 Strategy:")
         print("   • Try Tier 1 first (if available) for entire document")
+        print("   • Apply adaptive chunking during translation for complex content")
         print("   • Assess document-level quality")
         print("   • If quality insufficient, try Tier 2 and compare")
         print("   • Keep the best translation")
+        print("   • Final document maintains original PDF chunk structure")
 
         # Create output directory
         os.makedirs(self.output_dir, exist_ok=True)
@@ -2129,3 +2964,5 @@ class Translator:
         print(f"   • Total files processed: {total_files}")
         print(f"   • English chunks preserved: {self.english_chunks_preserved}")
         print(f"   • Chunks translated: {self.chunks_translated}")
+        print(f"   • Adaptive chunking applied when needed for translation quality")
+        print(f"   • Original PDF document structure maintained in final output")
