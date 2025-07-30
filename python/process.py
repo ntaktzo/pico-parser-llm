@@ -31,6 +31,9 @@ class PDFProcessor:
         self.global_headings_list = []
         self.page_headings_map = defaultdict(list)
 
+        # Initialize table detection class
+        self.table_detector = TableDetector(self)
+
         # Immediately extract and store submission year upon initialization
         self.created_date = self.find_submission_year()
 
@@ -1083,40 +1086,39 @@ class PDFProcessor:
 
     def detect_complete_tables(self, pdf):
         """
-        REPLACE: More permissive table detection that doesn't require explicit visual structure.
-        Uses both visual structure and content-based detection methods.
+        Enhanced table detection using language-agnostic validation
         """
         tables_info = []
         
-        print("  🔍 Scanning for tables with relaxed validation...")
+        print("  🔍 Scanning for tables with language-agnostic validation...")
         
         for page_num, page in enumerate(pdf.pages, start=1):
             print(f"    Page {page_num}: Checking for tables...")
             
-            # Method 1: Try visual structure detection (original approach)
+            # Try both visual and content-based detection
             page_tables_visual = []
             if self.has_explicit_table_structure(page):
                 print(f"    Page {page_num}: Visual table structure detected")
                 page_tables_visual = self.extract_tables_ultra_strict(page)
             
-            # Method 2: Try content-based table detection (new permissive approach)
+            # Content-based detection
             page_tables_content = self.extract_tables_permissive(page)
             
-            # Combine results, avoiding duplicates
+            # Combine results
             all_page_tables = page_tables_visual + page_tables_content
             
             if not all_page_tables:
-                print(f"    Page {page_num}: No tables found with any method")
+                print(f"    Page {page_num}: No tables found")
                 continue
             
-            # Apply relaxed validation
+            # Apply enhanced validation
             genuine_tables_found = 0
             for table_idx, table_data in enumerate(all_page_tables, start=1):
-                if not table_data or len(table_data) < 3:  # Relaxed from 4 to 3 rows
+                if not table_data or len(table_data) < 3:
                     continue
                 
-                # Use relaxed validation
-                if self.is_genuine_table_relaxed(table_data, page, page_num):
+                # Use the new language-agnostic validation
+                if self.table_detector.enhanced_table_validation(table_data, page, page_num):
                     narrative_text = self.convert_table_to_narrative(table_data)
                     
                     if narrative_text.strip():
@@ -1127,18 +1129,18 @@ class PDFProcessor:
                             "page": page_num,
                             "heading": table_title,
                             "text": narrative_text,
-                            "table_type": "relaxed_validated_table"
+                            "table_type": "language_agnostic_validated_table"
                         })
                         genuine_tables_found += 1
                     else:
                         print(f"    ✗ Table candidate {table_idx} failed content conversion")
                 else:
-                    print(f"    ✗ Table candidate {table_idx} failed relaxed validation")
+                    print(f"    ✗ Table candidate {table_idx} failed validation")
             
             if genuine_tables_found == 0:
                 print(f"    Page {page_num}: No genuine tables found after validation")
         
-        print(f"  📊 Total tables found with relaxed detection: {len(tables_info)}")
+        print(f"  📊 Total tables found with language-agnostic detection: {len(tables_info)}")
         return tables_info
 
     def get_table_bounding_box(self, table_data, page):
@@ -1896,6 +1898,562 @@ class PDFProcessor:
                         print(f"Error processing {pdf_path}: {e}")
         
         print(f"Processing complete. Successfully processed {processed_files} files with {errors} errors.")
+
+
+
+
+
+
+import re
+import statistics
+from typing import List, Dict, Any, Tuple
+from collections import Counter
+
+class TableDetector:
+    """
+    Enhanced table detection that works across languages and document types
+    without hardcoded language-specific patterns
+    """
+    
+    def __init__(self, pdf_processor):
+        self.pdf_processor = pdf_processor
+        
+        # Universal patterns that indicate structured tabular data
+        self.strong_table_patterns = [
+            # Multiple aligned numeric values
+            r'^\s*\d+\.\d+\s+\d+\.\d+\s+\d+\.\d+',
+            r'^\s*\d+,\d+\s+\d+,\d+\s+\d+,\d+',  # European decimal format
+            
+            # Multiple percentages or statistical measures
+            r'^\s*\d+%\s+\d+%\s+\d+%',
+            r'^\s*[<>=≤≥]\s*\d+[\.,]\d+\s+[<>=≤≥]\s*\d+[\.,]\d+',
+            
+            # Multiple fractions or ratios
+            r'^\s*\d+/\d+\s+\d+/\d+\s+\d+/\d+',
+            r'^\s*\d+:\d+\s+\d+:\d+\s+\d+:\d+',
+            
+            # Clear tabular separators
+            r'\|\s*[^|]+\s*\|\s*[^|]+\s*\|',  # Pipe separators
+            r'^\s*[^\t]+\t[^\t]+\t[^\t]+',     # Tab separators
+            
+            # Generated table content (from PDF extraction)
+            r'Row\s+\d+.*:.*Row\s+\d+.*:',
+            r'Column\s+\d+.*:.*Column\s+\d+.*:',
+        ]
+        
+        # Patterns that strongly suggest prose (universal across languages)
+        self.prose_patterns = [
+            # Sentence-like structures with conjunctions/connectors
+            r'\b\w{2,}\s+(?:and|or|but|however|therefore|moreover|furthermore|nevertheless|additionally)\s+\w{2,}',
+            r'\b\w{2,}\s+(?:et|ou|mais|cependant|donc|de plus|néanmoins|également)\s+\w{2,}',  # French
+            r'\b\w{2,}\s+(?:und|oder|aber|jedoch|daher|außerdem|dennoch|zusätzlich)\s+\w{2,}',  # German
+            r'\b\w{2,}\s+(?:y|o|pero|sin embargo|por lo tanto|además|no obstante|también)\s+\w{2,}',  # Spanish
+            r'\b\w{2,}\s+(?:e|o|ma|tuttavia|pertanto|inoltre|tuttavia|anche)\s+\w{2,}',  # Italian
+            r'\b\w{2,}\s+(?:i|lub|ale|jednak|dlatego|ponadto|niemniej|również)\s+\w{2,}',  # Polish
+            
+            # Long sentences with punctuation
+            r'[.!?]\s+[A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŸ][a-zàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ]{2,}',
+            
+            # Phrases with articles and prepositions (common in prose)
+            r'\b(?:the|a|an|in|on|at|by|for|with|from|to|of|as)\s+\w{2,}\s+\w{2,}',  # English
+            r'\b(?:le|la|les|un|une|des|dans|sur|avec|pour|par|de|du|des)\s+\w{2,}\s+\w{2,}',  # French
+            r'\b(?:der|die|das|ein|eine|in|auf|mit|für|durch|von|zu|bei)\s+\w{2,}\s+\w{2,}',  # German
+            r'\b(?:el|la|los|las|un|una|en|con|por|para|de|del|desde)\s+\w{2,}\s+\w{2,}',  # Spanish
+            r'\b(?:il|la|lo|gli|le|un|una|in|con|per|da|di|del|sulla)\s+\w{2,}\s+\w{2,}',  # Italian
+        ]
+
+    def enhanced_table_validation(self, table_data, page, page_num) -> bool:
+        """
+        Language-agnostic table validation using universal patterns and statistical analysis
+        """
+        if not table_data or len(table_data) < 3:
+            return False
+        
+        cleaned_table = self.pdf_processor.clean_table_data(table_data)
+        if len(cleaned_table) < 3:
+            return False
+        
+        # Convert table to text for analysis
+        table_text = self._table_to_text(cleaned_table)
+        
+        print(f"      🔍 Analyzing potential table ({len(cleaned_table)} rows, ~{len(table_text)} chars)")
+        
+        # Step 1: Check for strong rejection criteria (likely prose)
+        prose_score = self._calculate_prose_likelihood(table_text, cleaned_table)
+        if prose_score > 0.7:
+            print(f"      ✗ Rejected: High prose likelihood ({prose_score:.3f})")
+            return False
+        
+        # Step 2: Check for strong acceptance criteria (clear table patterns)
+        table_score = self._calculate_table_likelihood(table_text, cleaned_table)
+        if table_score > 0.8:
+            print(f"      ✓ Accepted: Strong table patterns ({table_score:.3f})")
+            return True
+        
+        # Step 3: Comprehensive validation for ambiguous cases
+        validation_scores = self._comprehensive_validation(cleaned_table, page, table_text)
+        
+        # Decision making: require higher confidence for ambiguous content
+        overall_confidence = self._calculate_overall_confidence(validation_scores, prose_score, table_score)
+        
+        is_table = overall_confidence > 0.75  # Higher threshold for better precision
+        
+        print(f"      📊 Validation: prose={prose_score:.3f}, table={table_score:.3f}, overall={overall_confidence:.3f} → {'TABLE' if is_table else 'NOT TABLE'}")
+        
+        return is_table
+
+    def _table_to_text(self, cleaned_table: List[List[str]]) -> str:
+        """Convert table data back to text for analysis"""
+        text_parts = []
+        for row in cleaned_table:
+            row_text = ' '.join(cell.strip() for cell in row if cell and cell.strip())
+            if row_text:
+                text_parts.append(row_text)
+        return '\n'.join(text_parts)
+
+    def _calculate_prose_likelihood(self, text: str, cleaned_table: List[List[str]]) -> float:
+        """
+        Calculate likelihood that this content is prose text using universal patterns
+        """
+        if not text.strip():
+            return 0.0
+        
+        prose_indicators = 0
+        total_weight = 0
+        
+        # 1. Sentence structure analysis
+        sentences = re.split(r'[.!?]+\s+', text)
+        long_sentences = [s for s in sentences if len(s.split()) > 8]
+        sentence_score = len(long_sentences) / max(len(sentences), 1) if sentences else 0
+        prose_indicators += sentence_score * 2
+        total_weight += 2
+        
+        # 2. Conjunction and connector analysis
+        connector_count = 0
+        for pattern in self.prose_patterns:
+            matches = len(re.findall(pattern, text, re.IGNORECASE))
+            connector_count += matches
+        
+        words = text.split()
+        connector_ratio = connector_count / max(len(words), 1) if words else 0
+        prose_indicators += min(connector_ratio * 10, 1.0) * 3  # Cap at 1.0, weight 3
+        total_weight += 3
+        
+        # 3. Word length and complexity analysis
+        if words:
+            avg_word_length = sum(len(word.strip('.,!?;:')) for word in words) / len(words)
+            long_word_ratio = sum(1 for word in words if len(word.strip('.,!?;:')) > 6) / len(words)
+            
+            # Prose tends to have longer, more varied words
+            length_score = min(avg_word_length / 6.0, 1.0)  # Normalize around 6 chars
+            complexity_score = long_word_ratio
+            
+            prose_indicators += (length_score + complexity_score) * 1.5
+            total_weight += 1.5
+        
+        # 4. Punctuation analysis
+        punctuation_chars = sum(1 for c in text if c in '.,!?;:()[]{}')
+        punctuation_ratio = punctuation_chars / max(len(text), 1)
+        
+        # Prose has moderate punctuation density
+        if 0.02 <= punctuation_ratio <= 0.08:
+            prose_indicators += 1.0
+        total_weight += 1.0
+        
+        # 5. Table-specific structure analysis (negative indicator for prose)
+        table_structure_score = self._analyze_table_structure(cleaned_table)
+        prose_indicators -= table_structure_score * 2  # Subtract table-like structure
+        
+        return max(0.0, min(1.0, prose_indicators / max(total_weight, 1)))
+
+    def _calculate_table_likelihood(self, text: str, cleaned_table: List[List[str]]) -> float:
+        """
+        Calculate likelihood that this content is tabular using universal patterns
+        """
+        if not text.strip():
+            return 0.0
+        
+        table_indicators = 0
+        total_weight = 0
+        
+        # 1. Strong table pattern matching
+        strong_pattern_matches = 0
+        for pattern in self.strong_table_patterns:
+            if re.search(pattern, text, re.MULTILINE):
+                strong_pattern_matches += 1
+        
+        if strong_pattern_matches > 0:
+            table_indicators += min(strong_pattern_matches / 3.0, 1.0) * 4
+        total_weight += 4
+        
+        # 2. Numeric content analysis
+        numeric_score = self._analyze_numeric_content(text)
+        table_indicators += numeric_score * 3
+        total_weight += 3
+        
+        # 3. Cell structure analysis
+        structure_score = self._analyze_table_structure(cleaned_table)
+        table_indicators += structure_score * 2
+        total_weight += 2
+        
+        # 4. Content uniformity analysis
+        uniformity_score = self._analyze_content_uniformity(cleaned_table)
+        table_indicators += uniformity_score * 2
+        total_weight += 2
+        
+        # 5. Formatting indicator analysis
+        formatting_score = self._analyze_formatting_indicators(text)
+        table_indicators += formatting_score * 1
+        total_weight += 1
+        
+        return min(1.0, table_indicators / max(total_weight, 1))
+
+    def _analyze_numeric_content(self, text: str) -> float:
+        """Analyze density and patterns of numeric content"""
+        words = text.split()
+        if not words:
+            return 0.0
+        
+        numeric_count = 0
+        statistical_count = 0
+        
+        for word in words:
+            # Pure numbers
+            if re.match(r'^\d+$', word):
+                numeric_count += 1
+            # Decimals and percentages
+            elif re.match(r'^\d+[.,]\d+%?$', word):
+                numeric_count += 1
+            # Statistical indicators
+            elif re.match(r'^[<>=≤≥]\s*\d', word) or 'CI:' in word or 'HR:' in word:
+                statistical_count += 1
+        
+        numeric_ratio = numeric_count / len(words)
+        statistical_ratio = statistical_count / len(words)
+        
+        # High numeric content suggests tables
+        return min(1.0, (numeric_ratio * 2) + (statistical_ratio * 3))
+
+    def _analyze_table_structure(self, cleaned_table: List[List[str]]) -> float:
+        """Analyze structural characteristics typical of tables"""
+        if not cleaned_table:
+            return 0.0
+        
+        structure_score = 0.0
+        
+        # 1. Column consistency
+        col_counts = [len(row) for row in cleaned_table]
+        if col_counts:
+            most_common_cols = max(set(col_counts), key=col_counts.count)
+            consistency = col_counts.count(most_common_cols) / len(col_counts)
+            structure_score += consistency * 0.3
+        
+        # 2. Cell length uniformity within columns
+        if len(cleaned_table) > 1 and len(cleaned_table[0]) > 0:
+            col_uniformity_scores = []
+            
+            for col_idx in range(len(cleaned_table[0])):
+                col_lengths = []
+                for row in cleaned_table:
+                    if col_idx < len(row) and row[col_idx].strip():
+                        col_lengths.append(len(row[col_idx].strip()))
+                
+                if len(col_lengths) > 1:
+                    avg_length = sum(col_lengths) / len(col_lengths)
+                    variance = sum((l - avg_length) ** 2 for l in col_lengths) / len(col_lengths)
+                    cv = (variance ** 0.5) / max(avg_length, 1)  # Coefficient of variation
+                    uniformity = max(0, 1 - cv)  # Lower CV = higher uniformity
+                    col_uniformity_scores.append(uniformity)
+            
+            if col_uniformity_scores:
+                structure_score += (sum(col_uniformity_scores) / len(col_uniformity_scores)) * 0.3
+        
+        # 3. Content type consistency within columns
+        if len(cleaned_table) > 2:
+            type_consistency = self._analyze_column_type_consistency(cleaned_table)
+            structure_score += type_consistency * 0.4
+        
+        return min(1.0, structure_score)
+
+    def _analyze_column_type_consistency(self, cleaned_table: List[List[str]]) -> float:
+        """Analyze if columns have consistent data types"""
+        if not cleaned_table or len(cleaned_table[0]) == 0:
+            return 0.0
+        
+        consistency_scores = []
+        
+        for col_idx in range(len(cleaned_table[0])):
+            column_data = []
+            for row in cleaned_table:
+                if col_idx < len(row) and row[col_idx].strip():
+                    column_data.append(row[col_idx].strip())
+            
+            if len(column_data) < 2:
+                continue
+            
+            # Classify each cell
+            types = []
+            for cell in column_data:
+                if self.pdf_processor.is_numeric(cell):
+                    types.append('numeric')
+                elif re.match(r'^[A-Za-z\s]+$', cell) and len(cell.split()) <= 3:
+                    types.append('short_text')
+                elif len(cell.split()) > 3:
+                    types.append('long_text')
+                else:
+                    types.append('mixed')
+            
+            # Calculate type consistency
+            if types:
+                most_common_type = max(set(types), key=types.count)
+                consistency = types.count(most_common_type) / len(types)
+                consistency_scores.append(consistency)
+        
+        return sum(consistency_scores) / len(consistency_scores) if consistency_scores else 0.0
+
+    def _analyze_content_uniformity(self, cleaned_table: List[List[str]]) -> float:
+        """Analyze uniformity of content characteristics"""
+        all_cells = []
+        for row in cleaned_table:
+            for cell in row:
+                if cell and cell.strip():
+                    all_cells.append(cell.strip())
+        
+        if not all_cells:
+            return 0.0
+        
+        # Word count analysis
+        word_counts = [len(cell.split()) for cell in all_cells]
+        short_cell_ratio = sum(1 for wc in word_counts if 1 <= wc <= 4) / len(word_counts)
+        
+        # Character length analysis
+        char_lengths = [len(cell) for cell in all_cells]
+        reasonable_length_ratio = sum(1 for cl in char_lengths if 1 <= cl <= 50) / len(char_lengths)
+        
+        # Tables typically have short, uniform cells
+        return (short_cell_ratio * 0.6) + (reasonable_length_ratio * 0.4)
+
+    def _analyze_formatting_indicators(self, text: str) -> float:
+        """Analyze formatting patterns that suggest tabular data"""
+        formatting_patterns = [
+            r'%',           # Percentages
+            r'[<>=≤≥]',     # Comparison operators
+            r'\([^)]{1,20}\)',  # Short parenthetical content (CI, p-values)
+            r'[±+-]',       # Plus/minus signs
+            r'[:;]',        # Colons/semicolons (ratios, times)
+            r'/\d',         # Fractions or ratios
+            r'\d[.,]\d',    # Decimal numbers
+        ]
+        
+        words = text.split()
+        if not words:
+            return 0.0
+        
+        formatted_count = 0
+        for word in words:
+            for pattern in formatting_patterns:
+                if re.search(pattern, word):
+                    formatted_count += 1
+                    break
+        
+        return min(1.0, formatted_count / len(words) * 3)  # Scale up the ratio
+
+    def _comprehensive_validation(self, cleaned_table: List[List[str]], page, table_text: str) -> Dict[str, float]:
+        """Run comprehensive validation checks"""
+        return {
+            'visual_structure': 1.0 if self.pdf_processor.has_explicit_table_structure(page) else 0.3,
+            'dimensions': self._validate_dimensions(cleaned_table),
+            'column_consistency': self._validate_column_consistency(cleaned_table),
+            'content_density': self._validate_content_density(cleaned_table),
+            'cell_characteristics': self._validate_cell_characteristics(cleaned_table),
+            'data_patterns': self._validate_data_patterns(cleaned_table),
+        }
+
+    def _validate_dimensions(self, cleaned_table: List[List[str]]) -> float:
+        """Validate table dimensions are reasonable"""
+        row_count = len(cleaned_table)
+        col_count = len(cleaned_table[0]) if cleaned_table else 0
+        
+        # Reasonable table dimensions
+        if 3 <= row_count <= 100 and 2 <= col_count <= 15:
+            return 1.0
+        elif 2 <= row_count <= 200 and 2 <= col_count <= 20:
+            return 0.6
+        return 0.2
+
+    def _validate_column_consistency(self, cleaned_table: List[List[str]]) -> float:
+        """Validate column structure consistency"""
+        if not cleaned_table:
+            return 0.0
+        
+        col_counts = [len(row) for row in cleaned_table]
+        most_common_cols = max(set(col_counts), key=col_counts.count)
+        consistency_ratio = col_counts.count(most_common_cols) / len(col_counts)
+        
+        if consistency_ratio >= 0.9:
+            return 1.0
+        elif consistency_ratio >= 0.7:
+            return 0.7
+        return 0.3
+
+    def _validate_content_density(self, cleaned_table: List[List[str]]) -> float:
+        """Validate content density is appropriate for tables"""
+        total_cells = sum(len(row) for row in cleaned_table)
+        non_empty_cells = sum(1 for row in cleaned_table for cell in row if cell.strip())
+        
+        if total_cells == 0:
+            return 0.0
+        
+        density = non_empty_cells / total_cells
+        
+        if 0.4 <= density <= 0.95:
+            return 1.0
+        elif 0.2 <= density < 0.4:
+            return 0.5
+        return 0.2
+
+    def _validate_cell_characteristics(self, cleaned_table: List[List[str]]) -> float:
+        """Validate that cells have characteristics typical of table data"""
+        all_cells = [cell.strip() for row in cleaned_table for cell in row if cell.strip()]
+        
+        if not all_cells:
+            return 0.0
+        
+        # Tables typically have short, focused content
+        short_cells = sum(1 for cell in all_cells if 1 <= len(cell.split()) <= 5)
+        reasonable_length = sum(1 for cell in all_cells if 1 <= len(cell) <= 100)
+        
+        short_ratio = short_cells / len(all_cells)
+        length_ratio = reasonable_length / len(all_cells)
+        
+        return (short_ratio * 0.6) + (length_ratio * 0.4)
+
+    def _validate_data_patterns(self, cleaned_table: List[List[str]]) -> float:
+        """Validate presence of data patterns typical in tables"""
+        pattern_score = 0.0
+        total_cells = 0
+        
+        for row in cleaned_table:
+            for cell in row:
+                if cell and cell.strip():
+                    total_cells += 1
+                    cell_clean = cell.strip()
+                    
+                    # Award points for typical table content
+                    if self.pdf_processor.is_numeric(cell_clean):
+                        pattern_score += 2
+                    elif re.search(r'[%<>=≤≥]', cell_clean):
+                        pattern_score += 1.5
+                    elif len(cell_clean.split()) == 1 and len(cell_clean) <= 30:
+                        pattern_score += 1
+                    elif re.search(r'\d', cell_clean) and len(cell_clean.split()) <= 3:
+                        pattern_score += 0.5
+        
+        return min(1.0, pattern_score / max(total_cells, 1))
+
+    def _calculate_overall_confidence(self, validation_scores: Dict[str, float], 
+                                    prose_score: float, table_score: float) -> float:
+        """Calculate overall confidence that this is a genuine table"""
+        
+        # Weight the different aspects
+        weights = {
+            'visual_structure': 0.15,
+            'dimensions': 0.10,
+            'column_consistency': 0.15,
+            'content_density': 0.10,
+            'cell_characteristics': 0.15,
+            'data_patterns': 0.15,
+        }
+        
+        # Validation component
+        validation_component = sum(weights[key] * validation_scores[key] for key in weights.keys())
+        
+        # Table likelihood component (20% weight)
+        table_component = table_score * 0.20
+        
+        # Prose penalty (subtract prose likelihood)
+        prose_penalty = prose_score * 0.20
+        
+        # Final confidence calculation
+        confidence = validation_component + table_component - prose_penalty
+        
+        return max(0.0, min(1.0, confidence))
+
+
+# Integration function for PDFProcessor
+def integrate_language_agnostic_detection(pdf_processor_instance):
+    """
+    Function to integrate language-agnostic table detection into existing PDFProcessor
+    """
+    detection_system = LanguageAgnosticTableDetection(pdf_processor_instance)
+    
+    # Replace the existing relaxed validation method
+    original_method = pdf_processor_instance.is_genuine_table_relaxed
+    pdf_processor_instance.is_genuine_table_relaxed = detection_system.enhanced_table_validation
+    
+    # Also update the main table detection method to use the new validation
+    def enhanced_detect_complete_tables(pdf):
+        """Enhanced table detection using language-agnostic validation"""
+        tables_info = []
+        
+        print("  🔍 Scanning for tables with language-agnostic validation...")
+        
+        for page_num, page in enumerate(pdf.pages, start=1):
+            print(f"    Page {page_num}: Checking for tables...")
+            
+            # Try both visual and content-based detection
+            page_tables_visual = []
+            if pdf_processor_instance.has_explicit_table_structure(page):
+                print(f"    Page {page_num}: Visual table structure detected")
+                page_tables_visual = pdf_processor_instance.extract_tables_ultra_strict(page)
+            
+            # Content-based detection
+            page_tables_content = pdf_processor_instance.extract_tables_permissive(page)
+            
+            # Combine results
+            all_page_tables = page_tables_visual + page_tables_content
+            
+            if not all_page_tables:
+                print(f"    Page {page_num}: No tables found")
+                continue
+            
+            # Apply enhanced validation
+            genuine_tables_found = 0
+            for table_idx, table_data in enumerate(all_page_tables, start=1):
+                if not table_data or len(table_data) < 3:
+                    continue
+                
+                # Use the new language-agnostic validation
+                if detection_system.enhanced_table_validation(table_data, page, page_num):
+                    narrative_text = pdf_processor_instance.convert_table_to_narrative(table_data)
+                    
+                    if narrative_text.strip():
+                        table_title = f"Table {table_idx} on page {page_num}"
+                        print(f"    ✓ Table found on page {page_num}: '{table_title}'")
+                        
+                        tables_info.append({
+                            "page": page_num,
+                            "heading": table_title,
+                            "text": narrative_text,
+                            "table_type": "language_agnostic_validated_table"
+                        })
+                        genuine_tables_found += 1
+                    else:
+                        print(f"    ✗ Table candidate {table_idx} failed content conversion")
+                else:
+                    print(f"    ✗ Table candidate {table_idx} failed validation")
+            
+            if genuine_tables_found == 0:
+                print(f"    Page {page_num}: No genuine tables found after validation")
+        
+        print(f"  📊 Total tables found with language-agnostic detection: {len(tables_info)}")
+        return tables_info
+    
+    # Replace the table detection method
+    pdf_processor_instance.detect_complete_tables = enhanced_detect_complete_tables
+    
+    print("✓ Language-agnostic table detection integrated successfully")
+    return pdf_processor_instance
 
 
 
