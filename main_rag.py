@@ -30,6 +30,7 @@ PDFProcessor.process_pdfs(
     output_dir=CLEAN_PATH
 )
 
+
 # Step 2: Translate documents
 translator = Translator(
     input_dir=CLEAN_PATH,
