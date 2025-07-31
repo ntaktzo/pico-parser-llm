@@ -118,7 +118,7 @@ class TableDetector:
         # Core validation checks
         structure_score = self._check_table_structure(cleaned_table)
         content_score = self._check_table_content(cleaned_table)
-        visual_score = 1.0 if self.pdf_processor.has_explicit_table_structure(page) else 0.0
+        visual_score = 1.0 if self.has_explicit_table_structure(page) else 0.0
         
         # Simple weighted decision
         overall_score = (structure_score * 0.4) + (content_score * 0.4) + (visual_score * 0.2)
@@ -460,8 +460,283 @@ class TableDetector:
         # Comparison operators
         if re.match(r'^[<>=≤≥]\s*\d+([.,]\d+)?$', text):
             return True
-        
+
         return False
+
+    def has_explicit_table_structure(self, page) -> bool:
+        """Check for a clear table grid on the page."""
+        try:
+            lines = page.lines if hasattr(page, 'lines') else []
+            if len(lines) < 6:
+                return False
+
+            horizontal_lines = []
+            vertical_lines = []
+
+            for line in lines:
+                x1, y1, x2, y2 = line.get('x0', 0), line.get('y0', 0), line.get('x1', 0), line.get('y1', 0)
+                width = abs(x2 - x1)
+                height = abs(y2 - y1)
+
+                if width > 100 and height < 3:
+                    horizontal_lines.append(line)
+                elif height > 30 and width < 3:
+                    vertical_lines.append(line)
+
+            if len(horizontal_lines) >= 3 and len(vertical_lines) >= 2:
+                return self._check_line_intersections(horizontal_lines, vertical_lines)
+
+            return False
+        except Exception:
+            return False
+
+    def _check_line_intersections(self, h_lines, v_lines) -> bool:
+        """Simple intersection check for grid formation."""
+        try:
+            intersections = 0
+            tolerance = 5
+
+            for h_line in h_lines[:5]:
+                h_y = h_line.get('y0', 0)
+                h_x1, h_x2 = h_line.get('x0', 0), h_line.get('x1', 0)
+
+                for v_line in v_lines[:4]:
+                    v_x = v_line.get('x0', 0)
+                    v_y1, v_y2 = v_line.get('y0', 0), v_line.get('y1', 0)
+
+                    if (min(h_x1, h_x2) <= v_x <= max(h_x1, h_x2) and
+                            min(v_y1, v_y2) <= h_y <= max(v_y1, v_y2)):
+                        intersections += 1
+
+            expected_min = min(len(h_lines), 5) * min(len(v_lines), 4) * 0.3
+            return intersections >= expected_min
+        except Exception:
+            return False
+
+    def verify_grid_intersections(self, h_lines: List[Dict], v_lines: List[Dict]) -> bool:
+        """Verify that horizontal and vertical lines form a regular grid."""
+        try:
+            h_y_positions = sorted([line.get('y0', 0) for line in h_lines])
+            if len(h_y_positions) < 3:
+                return False
+
+            h_gaps = [h_y_positions[i+1] - h_y_positions[i] for i in range(len(h_y_positions)-1)]
+            if not h_gaps:
+                return False
+
+            h_gap_mean = sum(h_gaps) / len(h_gaps)
+            h_gap_variance = sum((gap - h_gap_mean) ** 2 for gap in h_gaps) / len(h_gaps)
+            h_gap_cv = (h_gap_variance ** 0.5) / h_gap_mean if h_gap_mean > 0 else 1.0
+            if h_gap_cv > 0.7:
+                return False
+
+            v_x_positions = sorted([line.get('x0', 0) for line in v_lines])
+            if len(v_x_positions) < 2:
+                return False
+
+            intersection_count = 0
+            tolerance = 8
+
+            for h_line in h_lines[:7]:
+                h_y = h_line.get('y0', 0)
+                h_x1, h_x2 = h_line.get('x0', 0), h_line.get('x1', 0)
+
+                for v_line in v_lines:
+                    v_x = v_line.get('x0', 0)
+                    v_y1, v_y2 = v_line.get('y0', 0), v_line.get('y1', 0)
+
+                    if (min(h_x1, h_x2) - tolerance <= v_x <= max(h_x1, h_x2) + tolerance and
+                            min(v_y1, v_y2) - tolerance <= h_y <= max(v_y1, v_y2) + tolerance):
+                        intersection_count += 1
+
+            min_expected = min(len(h_lines), 7) * min(len(v_lines), 6)
+            return intersection_count >= min_expected * 0.25
+        except Exception:
+            return False
+
+    def extract_tables_ultra_strict(self, page):
+        """Extract tables with strict visual settings."""
+        try:
+            explicit_v_lines = self.detect_vertical_table_lines_strict(page)
+            explicit_h_lines = self.detect_horizontal_table_lines_strict(page)
+
+            if explicit_v_lines and explicit_h_lines:
+                tables = page.extract_tables(
+                    table_settings={
+                        "vertical_strategy": "explicit",
+                        "horizontal_strategy": "explicit",
+                        "explicit_vertical_lines": explicit_v_lines,
+                        "explicit_horizontal_lines": explicit_h_lines,
+                        "min_words_vertical": 3,
+                        "min_words_horizontal": 2,
+                        "keep_blank_chars": False,
+                        "text_tolerance": 2,
+                        "intersection_tolerance": 2,
+                    }
+                )
+                if tables:
+                    return tables
+
+            tables = page.extract_tables(
+                table_settings={
+                    "vertical_strategy": "lines",
+                    "horizontal_strategy": "lines",
+                    "min_words_vertical": 4,
+                    "min_words_horizontal": 3,
+                    "keep_blank_chars": False,
+                    "text_tolerance": 1,
+                    "intersection_tolerance": 1,
+                }
+            )
+
+            return tables if tables else []
+        except Exception:
+            return []
+
+    def detect_vertical_table_lines_strict(self, page) -> List[float]:
+        """Detect vertical lines with relaxed criteria."""
+        try:
+            lines = page.lines if hasattr(page, 'lines') else []
+            vertical_lines = []
+
+            for line in lines:
+                x1, y1, x2, y2 = line.get('x0', 0), line.get('y0', 0), line.get('x1', 0), line.get('y1', 0)
+                line_width = abs(x2 - x1)
+                line_height = abs(y2 - y1)
+
+                if line_height > 25 and line_width < 6 and line_height > line_width * 8:
+                    vertical_lines.append(x1)
+
+            unique_lines = []
+            for x in sorted(vertical_lines):
+                if not unique_lines or abs(x - unique_lines[-1]) > 5:
+                    unique_lines.append(x)
+
+            return unique_lines
+        except Exception:
+            return []
+
+    def detect_horizontal_table_lines_strict(self, page) -> List[float]:
+        """Detect horizontal lines with relaxed criteria."""
+        try:
+            lines = page.lines if hasattr(page, 'lines') else []
+            horizontal_lines = []
+
+            for line in lines:
+                x1, y1, x2, y2 = line.get('x0', 0), line.get('y0', 0), line.get('x1', 0), line.get('y1', 0)
+                line_width = abs(x2 - x1)
+                line_height = abs(y2 - y1)
+
+                if line_width > 40 and line_height < 6 and line_width > line_height * 12:
+                    horizontal_lines.append(y1)
+
+            unique_lines = []
+            for y in sorted(horizontal_lines):
+                if not unique_lines or abs(y - unique_lines[-1]) > 3:
+                    unique_lines.append(y)
+
+            return unique_lines
+        except Exception:
+            return []
+
+    def extract_tables_permissive(self, page):
+        """Permissive table extraction using text alignment."""
+        try:
+            tables = page.extract_tables(
+                table_settings={
+                    "vertical_strategy": "text",
+                    "horizontal_strategy": "text",
+                    "min_words_vertical": 2,
+                    "min_words_horizontal": 2,
+                    "text_tolerance": 3,
+                    "intersection_tolerance": 3,
+                    "snap_tolerance": 3,
+                    "join_tolerance": 3,
+                }
+            )
+
+            if tables:
+                return tables
+
+            tables = page.extract_tables(
+                table_settings={
+                    "vertical_strategy": "text",
+                    "horizontal_strategy": "text",
+                    "min_words_vertical": 1,
+                    "min_words_horizontal": 1,
+                    "text_tolerance": 5,
+                    "intersection_tolerance": 5,
+                    "snap_tolerance": 5,
+                    "join_tolerance": 5,
+                }
+            )
+
+            if tables:
+                return tables
+
+            tables = page.extract_tables(
+                table_settings={
+                    "vertical_strategy": "lines_strict",
+                    "horizontal_strategy": "lines_strict",
+                    "min_words_vertical": 2,
+                    "min_words_horizontal": 2,
+                    "text_tolerance": 2,
+                    "intersection_tolerance": 2,
+                }
+            )
+
+            return tables if tables else []
+        except Exception:
+            return []
+
+    def detect_complete_tables(self, pdf):
+        """Run table detection on every page and return narrative tables."""
+        tables_info = []
+
+        print("  🔍 Scanning for tables with simplified detection...")
+
+        for page_num, page in enumerate(pdf.pages, start=1):
+            page_tables = []
+
+            if self.has_explicit_table_structure(page):
+                visual_tables = self.extract_tables_ultra_strict(page)
+                if visual_tables:
+                    page_tables.extend(visual_tables)
+                    print(f"      Page {page_num}: Found {len(visual_tables)} visual tables")
+
+            if not page_tables:
+                try:
+                    standard_tables = page.extract_tables()
+                    if standard_tables:
+                        page_tables.extend(standard_tables)
+                        print(f"      Page {page_num}: Found {len(standard_tables)} standard tables")
+                except Exception as e:
+                    print(f"      Page {page_num}: Standard extraction failed: {e}")
+
+            for table_idx, table_data in enumerate(page_tables, start=1):
+                if self.enhanced_table_validation(table_data, page, page_num):
+                    table_title = self.find_table_title(page)
+                    narrative_text = self.convert_table_to_narrative(table_data, table_title)
+
+                    if narrative_text.strip():
+                        heading = table_title if table_title else f"Table {table_idx} on page {page_num}"
+
+                        tables_info.append({
+                            "page": page_num,
+                            "heading": heading,
+                            "text": narrative_text,
+                            "table_type": "simplified_validated_table",
+                            "table_metadata": {
+                                "original_rows": len(table_data),
+                                "narrative_length": len(narrative_text),
+                                "extraction_method": "simplified_detection",
+                                "has_title": bool(table_title)
+                            }
+                        })
+                        print(f"      Page {page_num}: Validated table {table_idx}")
+
+        print(f"  ✅ Found {len(tables_info)} validated tables")
+        return tables_info
 
 
 class PDFProcessor:
@@ -878,323 +1153,6 @@ class PDFProcessor:
 
         return line_objects
 
-    def has_explicit_table_structure(self, page) -> bool:
-        """
-        Simplified visual table structure detection.
-        Focus on clear grid patterns only.
-        """
-        try:
-            lines = page.lines if hasattr(page, 'lines') else []
-            
-            if len(lines) < 6:  # Need minimum lines for a table
-                return False
-            
-            horizontal_lines = []
-            vertical_lines = []
-            
-            for line in lines:
-                x1, y1, x2, y2 = line.get('x0', 0), line.get('y0', 0), line.get('x1', 0), line.get('y1', 0)
-                width = abs(x2 - x1)
-                height = abs(y2 - y1)
-                
-                # Clear horizontal lines
-                if width > 100 and height < 3:
-                    horizontal_lines.append(line)
-                # Clear vertical lines  
-                elif height > 30 and width < 3:
-                    vertical_lines.append(line)
-            
-            # Need minimum grid structure
-            if len(horizontal_lines) >= 3 and len(vertical_lines) >= 2:
-                return self._check_line_intersections(horizontal_lines, vertical_lines)
-            
-            return False
-            
-        except Exception:
-            return False
-        
-    def _check_line_intersections(self, h_lines, v_lines) -> bool:
-        """Simple intersection check for grid formation."""
-        try:
-            intersections = 0
-            tolerance = 5
-            
-            for h_line in h_lines[:5]:  # Check first 5 horizontal lines
-                h_y = h_line.get('y0', 0)
-                h_x1, h_x2 = h_line.get('x0', 0), h_line.get('x1', 0)
-                
-                for v_line in v_lines[:4]:  # Check first 4 vertical lines
-                    v_x = v_line.get('x0', 0)
-                    v_y1, v_y2 = v_line.get('y0', 0), v_line.get('y1', 0)
-                    
-                    # Check if lines intersect
-                    if (min(h_x1, h_x2) <= v_x <= max(h_x1, h_x2) and
-                        min(v_y1, v_y2) <= h_y <= max(v_y1, v_y2)):
-                        intersections += 1
-            
-            # Need reasonable number of intersections
-            expected_min = min(len(h_lines), 5) * min(len(v_lines), 4) * 0.3
-            return intersections >= expected_min
-            
-        except Exception:
-            return False
-        
-    def verify_grid_intersections(self, h_lines: List[Dict], v_lines: List[Dict]) -> bool:
-        """
-        Verify that horizontal and vertical lines form a proper grid pattern.
-        MODIFIED: More lenient intersection requirements
-        """
-        try:
-            # Check horizontal line regularity
-            h_y_positions = sorted([line.get('y0', 0) for line in h_lines])
-            if len(h_y_positions) < 3:  # Reduced from 4 to 3
-                return False
-            
-            # Calculate spacing consistency for horizontal lines
-            h_gaps = [h_y_positions[i+1] - h_y_positions[i] for i in range(len(h_y_positions)-1)]
-            if not h_gaps:
-                return False
-            
-            h_gap_mean = sum(h_gaps) / len(h_gaps)
-            h_gap_variance = sum((gap - h_gap_mean)**2 for gap in h_gaps) / len(h_gaps)
-            h_gap_cv = (h_gap_variance**0.5) / h_gap_mean if h_gap_mean > 0 else 1.0
-            
-            # RELAXED: Lines should be reasonably regularly spaced (was < 0.5, now < 0.7)
-            if h_gap_cv > 0.7:
-                return False
-            
-            # Check vertical line regularity
-            v_x_positions = sorted([line.get('x0', 0) for line in v_lines])
-            if len(v_x_positions) < 2:  # Reduced from 3 to 2
-                return False
-            
-            # Count actual intersections
-            intersection_count = 0
-            tolerance = 8  # Increased tolerance from 5 to 8 pixels
-            
-            for h_line in h_lines[:7]:  # Check more lines (was 5, now 7)
-                h_y = h_line.get('y0', 0)
-                h_x1, h_x2 = h_line.get('x0', 0), h_line.get('x1', 0)
-                
-                for v_line in v_lines:
-                    v_x = v_line.get('x0', 0)
-                    v_y1, v_y2 = v_line.get('y0', 0), v_line.get('y1', 0)
-                    
-                    # Check intersection with increased tolerance
-                    if (min(h_x1, h_x2) - tolerance <= v_x <= max(h_x1, h_x2) + tolerance and 
-                        min(v_y1, v_y2) - tolerance <= h_y <= max(v_y1, v_y2) + tolerance):
-                        intersection_count += 1
-            
-            # RELAXED: Need sufficient intersections (was 40%, now 25%)
-            min_expected = min(len(h_lines), 7) * min(len(v_lines), 6)
-            return intersection_count >= min_expected * 0.25
-            
-        except Exception:
-            return False
-
-    def extract_tables_ultra_strict(self, page):
-        """
-        Extract tables with ultra-strict settings focusing on visual structure.
-        """
-        try:
-            # Try explicit line-based extraction first
-            explicit_v_lines = self.detect_vertical_table_lines_strict(page)
-            explicit_h_lines = self.detect_horizontal_table_lines_strict(page)
-            
-            if explicit_v_lines and explicit_h_lines:
-                tables = page.extract_tables(
-                    table_settings={
-                        "vertical_strategy": "explicit",
-                        "horizontal_strategy": "explicit",
-                        "explicit_vertical_lines": explicit_v_lines,
-                        "explicit_horizontal_lines": explicit_h_lines,
-                        "min_words_vertical": 3,
-                        "min_words_horizontal": 2,
-                        "keep_blank_chars": False,
-                        "text_tolerance": 2,
-                        "intersection_tolerance": 2,
-                    }
-                )
-                if tables:
-                    return tables
-            
-            # Fallback to line detection
-            tables = page.extract_tables(
-                table_settings={
-                    "vertical_strategy": "lines",
-                    "horizontal_strategy": "lines", 
-                    "min_words_vertical": 4,
-                    "min_words_horizontal": 3,
-                    "keep_blank_chars": False,
-                    "text_tolerance": 1,
-                    "intersection_tolerance": 1,
-                }
-            )
-            
-            return tables if tables else []
-            
-        except Exception:
-            return []
-        
-    def detect_vertical_table_lines_strict(self, page) -> List[float]:
-        """
-        Detect vertical lines with RELAXED criteria.
-        MODIFIED: Relaxed line detection thresholds
-        """
-        try:
-            lines = page.lines if hasattr(page, 'lines') else []
-            vertical_lines = []
-            
-            for line in lines:
-                x1, y1, x2, y2 = line.get('x0', 0), line.get('y0', 0), line.get('x1', 0), line.get('y1', 0)
-                line_width = abs(x2 - x1)
-                line_height = abs(y2 - y1)
-                
-                # RELAXED vertical line criteria (was: height>50, width<3, aspect>15:1)
-                if line_height > 25 and line_width < 6 and line_height > line_width * 8:
-                    vertical_lines.append(x1)
-            
-            # Remove duplicates with tolerance
-            unique_lines = []
-            for x in sorted(vertical_lines):
-                if not unique_lines or abs(x - unique_lines[-1]) > 5:  # Reduced tolerance from 10 to 5
-                    unique_lines.append(x)
-            
-            return unique_lines
-        except Exception:
-            return []
-
-
-    def detect_horizontal_table_lines_strict(self, page) -> List[float]:
-        """
-        Detect horizontal lines with RELAXED criteria.
-        MODIFIED: Relaxed line detection thresholds
-        """
-        try:
-            lines = page.lines if hasattr(page, 'lines') else []
-            horizontal_lines = []
-            
-            for line in lines:
-                x1, y1, x2, y2 = line.get('x0', 0), line.get('y0', 0), line.get('x1', 0), line.get('y1', 0)
-                line_width = abs(x2 - x1)
-                line_height = abs(y2 - y1)
-                
-                # RELAXED horizontal line criteria (was: width>80, height<3, aspect>25:1)
-                if line_width > 40 and line_height < 6 and line_width > line_height * 12:
-                    horizontal_lines.append(y1)
-            
-            # Remove duplicates with tolerance
-            unique_lines = []
-            for y in sorted(horizontal_lines):
-                if not unique_lines or abs(y - unique_lines[-1]) > 3:  # Reduced tolerance from 5 to 3
-                    unique_lines.append(y)
-            
-            return unique_lines
-        except Exception:
-            return []
-
-    def extract_tables_permissive(self, page):
-        """
-        NEW: New permissive table extraction method that doesn't require visual lines.
-        Uses text patterns and word alignment to detect tables.
-        """
-        try:
-            # Method 1: Try text-based table extraction
-            tables = page.extract_tables(
-                table_settings={
-                    "vertical_strategy": "text",
-                    "horizontal_strategy": "text",
-                    "min_words_vertical": 2,  # Very permissive
-                    "min_words_horizontal": 2,
-                    "text_tolerance": 3,
-                    "intersection_tolerance": 3,
-                    "snap_tolerance": 3,
-                    "join_tolerance": 3,
-                }
-            )
-            
-            if tables:
-                return tables
-            
-            # Method 2: Try with even more permissive settings
-            tables = page.extract_tables(
-                table_settings={
-                    "vertical_strategy": "text", 
-                    "horizontal_strategy": "text",
-                    "min_words_vertical": 1,
-                    "min_words_horizontal": 1,
-                    "text_tolerance": 5,
-                    "intersection_tolerance": 5,
-                    "snap_tolerance": 5,
-                    "join_tolerance": 5,
-                }
-            )
-            
-            if tables:
-                return tables
-                
-            # Method 3: Try line-based with relaxed constraints
-            tables = page.extract_tables(
-                table_settings={
-                    "vertical_strategy": "lines_strict",
-                    "horizontal_strategy": "lines_strict", 
-                    "min_words_vertical": 2,
-                    "min_words_horizontal": 2,
-                    "text_tolerance": 2,
-                    "intersection_tolerance": 2,
-                }
-            )
-            
-            return tables if tables else []
-            
-        except Exception as e:
-            return []
-
-    def is_numeric(self, text: str) -> bool:
-        """
-        Check if a text string represents a numeric value.
-        Fixed version to handle None and type errors.
-        """
-        if not text or not isinstance(text, str):
-            return False
-        
-        text = text.strip()
-        if not text:
-            return False
-        
-        # Remove common non-numeric characters that might appear in numbers
-        cleaned = text.replace(',', '').replace(' ', '')
-        
-        try:
-            # Try to convert to float
-            float(cleaned)
-            return True
-        except (ValueError, TypeError):
-            pass
-        
-        # Check for percentage
-        if text.endswith('%'):
-            try:
-                float(text[:-1].replace(',', '').replace(' ', ''))
-                return True
-            except (ValueError, TypeError):
-                pass
-        
-        # Check for simple patterns like "< 0.001" or "> 100" - FIXED
-        try:
-            if re.match(r'^[<>=≤≥]\s*[\d.,]+$', text):
-                return True
-        except (TypeError, re.error):
-            pass
-        
-        # Check for ranges like "1.2-3.4" - FIXED
-        try:
-            if re.match(r'^\d+\.?\d*[-–]\d+\.?\d*$', text):
-                return True
-        except (TypeError, re.error):
-            pass
-        
-        return False
 
     def clean_table_data(self, table_data):
         """
@@ -1304,63 +1262,6 @@ class PDFProcessor:
             column_boundaries = [0] + significant_gaps + [page.width]
             return len(column_boundaries) - 1, column_boundaries
 
-    def detect_complete_tables(self, pdf):
-        """
-        Simplified table detection focusing on visual structure and basic validation.
-        Reduced complexity to minimize false positives.
-        """
-        tables_info = []
-        
-        print("  🔍 Scanning for tables with simplified detection...")
-        
-        for page_num, page in enumerate(pdf.pages, start=1):
-            page_tables = []
-            
-            # Method 1: Visual structure detection (primary method)
-            if self.has_explicit_table_structure(page):
-                visual_tables = self.extract_tables_ultra_strict(page)
-                if visual_tables:
-                    page_tables.extend(visual_tables)
-                    print(f"      Page {page_num}: Found {len(visual_tables)} visual tables")
-            
-            # Method 2: Standard pdfplumber extraction (fallback)
-            if not page_tables:
-                try:
-                    standard_tables = page.extract_tables()
-                    if standard_tables:
-                        page_tables.extend(standard_tables)
-                        print(f"      Page {page_num}: Found {len(standard_tables)} standard tables")
-                except Exception as e:
-                    print(f"      Page {page_num}: Standard extraction failed: {e}")
-            
-            # Validate found tables with simplified validation
-            for table_idx, table_data in enumerate(page_tables, start=1):
-                if self.enhanced_table_validation(table_data, page, page_num):
-                    # Try to find table title
-                    table_title = self.find_table_title(page)
-                    
-                    # Convert to narrative
-                    narrative_text = self.convert_table_to_narrative(table_data, table_title)
-                    
-                    if narrative_text.strip():
-                        heading = table_title if table_title else f"Table {table_idx} on page {page_num}"
-                        
-                        tables_info.append({
-                            "page": page_num,
-                            "heading": heading,
-                            "text": narrative_text,
-                            "table_type": "simplified_validated_table",
-                            "table_metadata": {
-                                "original_rows": len(table_data),
-                                "narrative_length": len(narrative_text),
-                                "extraction_method": "simplified_detection",
-                                "has_title": bool(table_title)
-                            }
-                        })
-                        print(f"      Page {page_num}: Validated table {table_idx}")
-        
-        print(f"  ✅ Found {len(tables_info)} validated tables")
-        return tables_info
 
     def extract_preliminary_chunks(self):
         """
@@ -1534,7 +1435,7 @@ class PDFProcessor:
                 flush_buffer()
 
                 # Now extract tables with enhanced detection and narrative conversion
-                tables_info = self.detect_complete_tables(pdf)
+                tables_info = self.table_detector.detect_complete_tables(pdf)
 
                 # Insert each table as its own chunk
                 for tinfo in tables_info:
