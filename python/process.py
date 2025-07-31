@@ -895,6 +895,129 @@ class TableDetector:
             title_part = f"Table Title: {table_title}\n\n" if table_title else ""
             return title_part + self.convert_headerless_table(cleaned_table)
 
+    def identify_table_headers(self, cleaned_table):
+        """
+        Try to identify table headers from the first row(s).
+        """
+        if not cleaned_table:
+            return None
+        
+        first_row = cleaned_table[0]
+        
+        # Check if first row looks like headers
+        header_indicators = [
+            # Check for typical header words
+            any(word.lower() in cell.lower() for word in ['name', 'type', 'value', 'result', 'outcome', 'dose', 'drug', 'treatment', 'group', 'arm', 'study', 'n=', 'patient', 'endpoint', 'efficacy', 'safety', 'adverse', 'event'] for cell in first_row if cell),
+            
+            # Check if cells are short (typical of headers)
+            all(len(cell.split()) <= 4 for cell in first_row if cell),
+            
+            # Check if subsequent rows have different content patterns
+            len(cleaned_table) > 1 and any(
+                self.is_numeric(cell) for cell in cleaned_table[1] if cell
+            )
+        ]
+        
+        if any(header_indicators):
+            return [cell if cell else f"Column_{i+1}" for i, cell in enumerate(first_row)]
+        
+        return None
+
+    def create_row_description(self, headers, row, row_idx):
+        """
+        Create a descriptive sentence for a table row.
+        """
+        if not headers or not row:
+            return ""
+        
+        # Pair headers with values
+        pairs = []
+        for i, (header, value) in enumerate(zip(headers, row)):
+            if value and value.strip():
+                # Clean header and value
+                clean_header = header.strip().rstrip(':')
+                clean_value = value.strip()
+                
+                pairs.append(f"{clean_header}: {clean_value}")
+        
+        if not pairs:
+            return ""
+        
+        # Create a descriptive sentence
+        if len(pairs) == 1:
+            return f"Row {row_idx}: {pairs[0]}"
+        elif len(pairs) == 2:
+            return f"Row {row_idx}: {pairs[0]} and {pairs[1]}"
+        else:
+            # Multiple pairs - create a structured description
+            return f"Row {row_idx}: {', '.join(pairs[:-1])}, and {pairs[-1]}"
+
+    def convert_headerless_table(self, cleaned_table):
+        """
+        Convert a table without clear headers into narrative form.
+        """
+        narrative_parts = []
+        
+        for row_idx, row in enumerate(cleaned_table, 1):
+            # Filter out empty cells
+            non_empty_cells = [cell for cell in row if cell and cell.strip()]
+            
+            if non_empty_cells:
+                if len(non_empty_cells) == 1:
+                    narrative_parts.append(f"Row {row_idx}: {non_empty_cells[0]}")
+                else:
+                    # Join multiple cells with descriptive text
+                    cell_desc = ", ".join(f"'{cell}'" for cell in non_empty_cells)
+                    narrative_parts.append(f"Row {row_idx} contains: {cell_desc}")
+        
+        return "\n".join(narrative_parts)
+
+    def is_numeric(self, text: str) -> bool:
+        """
+        Check if a text string represents a numeric value.
+        Fixed version to handle None and type errors.
+        """
+        if not text or not isinstance(text, str):
+            return False
+        
+        text = text.strip()
+        if not text:
+            return False
+        
+        # Remove common non-numeric characters that might appear in numbers
+        cleaned = text.replace(',', '').replace(' ', '')
+        
+        try:
+            # Try to convert to float
+            float(cleaned)
+            return True
+        except (ValueError, TypeError):
+            pass
+        
+        # Check for percentage
+        if text.endswith('%'):
+            try:
+                float(text[:-1].replace(',', '').replace(' ', ''))
+                return True
+            except (ValueError, TypeError):
+                pass
+        
+        # Check for simple patterns like "< 0.001" or "> 100" - FIXED
+        try:
+            if re.match(r'^[<>=≤≥]\s*[\d.,]+$', text):
+                return True
+        except (TypeError, re.error):
+            pass
+        
+        # Check for ranges like "1.2-3.4" - FIXED
+        try:
+            if re.match(r'^\d+\.?\d*[-–]\d+\.?\d*$', text):
+                return True
+        except (TypeError, re.error):
+            pass
+        
+        return False
+
 class PDFProcessor:
     def __init__(
         self,
@@ -1631,83 +1754,6 @@ class PDFProcessor:
         
         return cleaned
 
-
-    def identify_table_headers(self, cleaned_table):
-        """
-        Try to identify table headers from the first row(s).
-        """
-        if not cleaned_table:
-            return None
-        
-        first_row = cleaned_table[0]
-        
-        # Check if first row looks like headers
-        header_indicators = [
-            # Check for typical header words
-            any(word.lower() in cell.lower() for word in ['name', 'type', 'value', 'result', 'outcome', 'dose', 'drug', 'treatment', 'group', 'arm', 'study', 'n=', 'patient', 'endpoint', 'efficacy', 'safety', 'adverse', 'event'] for cell in first_row if cell),
-            
-            # Check if cells are short (typical of headers)
-            all(len(cell.split()) <= 4 for cell in first_row if cell),
-            
-            # Check if subsequent rows have different content patterns
-            len(cleaned_table) > 1 and any(
-                self.is_numeric(cell) for cell in cleaned_table[1] if cell
-            )
-        ]
-        
-        if any(header_indicators):
-            return [cell if cell else f"Column_{i+1}" for i, cell in enumerate(first_row)]
-        
-        return None
-
-    def create_row_description(self, headers, row, row_idx):
-        """
-        Create a descriptive sentence for a table row.
-        """
-        if not headers or not row:
-            return ""
-        
-        # Pair headers with values
-        pairs = []
-        for i, (header, value) in enumerate(zip(headers, row)):
-            if value and value.strip():
-                # Clean header and value
-                clean_header = header.strip().rstrip(':')
-                clean_value = value.strip()
-                
-                pairs.append(f"{clean_header}: {clean_value}")
-        
-        if not pairs:
-            return ""
-        
-        # Create a descriptive sentence
-        if len(pairs) == 1:
-            return f"Row {row_idx}: {pairs[0]}"
-        elif len(pairs) == 2:
-            return f"Row {row_idx}: {pairs[0]} and {pairs[1]}"
-        else:
-            # Multiple pairs - create a structured description
-            return f"Row {row_idx}: {', '.join(pairs[:-1])}, and {pairs[-1]}"
-
-    def convert_headerless_table(self, cleaned_table):
-        """
-        Convert a table without clear headers into narrative form.
-        """
-        narrative_parts = []
-        
-        for row_idx, row in enumerate(cleaned_table, 1):
-            # Filter out empty cells
-            non_empty_cells = [cell for cell in row if cell and cell.strip()]
-            
-            if non_empty_cells:
-                if len(non_empty_cells) == 1:
-                    narrative_parts.append(f"Row {row_idx}: {non_empty_cells[0]}")
-                else:
-                    # Join multiple cells with descriptive text
-                    cell_desc = ", ".join(f"'{cell}'" for cell in non_empty_cells)
-                    narrative_parts.append(f"Row {row_idx} contains: {cell_desc}")
-        
-        return "\n".join(narrative_parts)
 
     def extract_text_by_columns(self, page):
         """
