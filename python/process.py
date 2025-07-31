@@ -40,6 +40,47 @@ class TableDetector:
             r'Column\s+\d+.*:.*Column\s+\d+.*:',
         ]
         
+        # Pharmaceutical domain patterns
+        self.pharmaceutical_patterns = [
+            # Currency patterns (Euro symbols)
+            r'€\s*\d+[\.,]\d+',
+            r'\d+[\.,]\d+\s*€',
+            
+            # Medical dosage patterns
+            r'\d+\s*mg(?:/m²)?(?:\s|$)',
+            r'\d+\s*μg(?:\s|$)',
+            r'\d+\s*ng(?:\s|$)',
+            r'\d+\s*pg(?:\s|$)',
+            r'\d+\s*IU(?:\s|$)',
+            
+            # Pharmaceutical abbreviations
+            r'\b(?:FCT|CIS|TAB|AMP|SC|PIS)\b',
+            r'\b(?:mg|ml|kg|mmol|μg|ng|pg|IU)\b',
+            
+            # Treatment cycle patterns
+            r'\d+\s*x\s*(?:daily|per\s+day)',
+            r'per\s+\d+-day\s+cycle',
+            r'every\s+\d+\s+days',
+            r'continuously',
+            
+            # Treatment designations
+            r'designation\s+of\s+(?:the\s+)?therapy',
+            r'treatment\s+mode',
+            r'treatment\s+costs',
+            r'appropriate\s+comparator\s+therapy',
+        ]
+        
+        # Table title patterns
+        self.table_title_patterns = [
+            r'^\s*Table\s+\d+',
+            r'^\s*Designation\s+of\s+the\s+therapy',
+            r'^\s*Treatment\s+(?:costs|mode|schedule)',
+            r'^\s*Medicinal\s+product\s+to\s+be\s+assessed',
+            r'^\s*Appropriate\s+comparator\s+therapy',
+            r'^\s*Consumption:?',
+            r'^\s*Costs:?',
+        ]
+        
         # Patterns that strongly suggest prose (universal across languages)
         self.prose_patterns = [
             # Sentence-like structures with conjunctions/connectors
@@ -64,6 +105,7 @@ class TableDetector:
     def enhanced_table_validation(self, table_data, page, page_num) -> bool:
         """
         Language-agnostic table validation using universal patterns and statistical analysis
+        MODIFIED: Relaxed thresholds for pharmaceutical documents
         """
         if not table_data or len(table_data) < 3:
             return False
@@ -75,33 +117,26 @@ class TableDetector:
         # Convert table to text for analysis
         table_text = self._table_to_text(cleaned_table)
         
-        # Step 1: Check for strong rejection criteria (likely prose)
+        # Step 1: Check for strong rejection criteria (likely prose) - RELAXED
         prose_score = self._calculate_prose_likelihood(table_text, cleaned_table)
-        if prose_score > 0.85:  # Increased threshold - was 0.7
+        if prose_score > 0.92:  # Increased threshold from 0.85 to 0.92
             return False
         
-        # Step 2: Check for strong acceptance criteria (clear table patterns)
+        # Step 2: Check for strong acceptance criteria (clear table patterns) - RELAXED
         table_score = self._calculate_table_likelihood(table_text, cleaned_table)
-        if table_score > 0.7:  # Lowered threshold - was 0.8
+        if table_score > 0.5:  # Lowered threshold from 0.7 to 0.5
             return True
         
         # Step 3: Comprehensive validation for ambiguous cases
         validation_scores = self._comprehensive_validation(cleaned_table, page, table_text)
         
-        # Decision making: more lenient confidence calculation
+        # Decision making: more lenient confidence calculation - RELAXED
         overall_confidence = self._calculate_overall_confidence(validation_scores, prose_score, table_score)
         
-        is_table = overall_confidence > 0.60  # Lowered threshold - was 0.75
+        is_table = overall_confidence > 0.45  # Lowered threshold from 0.60 to 0.45
         
+        return is_table
 
-    def _table_to_text(self, cleaned_table: List[List[str]]) -> str:
-        """Convert table data back to text for analysis"""
-        text_parts = []
-        for row in cleaned_table:
-            row_text = ' '.join(cell.strip() for cell in row if cell and cell.strip())
-            if row_text:
-                text_parts.append(row_text)
-        return '\n'.join(text_parts)
 
     def _calculate_prose_likelihood(self, text: str, cleaned_table: List[List[str]]) -> float:
         """
@@ -161,6 +196,7 @@ class TableDetector:
     def _calculate_table_likelihood(self, text: str, cleaned_table: List[List[str]]) -> float:
         """
         Calculate likelihood that this content is tabular using universal patterns
+        MODIFIED: Added pharmaceutical domain patterns
         """
         if not text.strip():
             return 0.0
@@ -178,22 +214,34 @@ class TableDetector:
             table_indicators += min(strong_pattern_matches / 3.0, 1.0) * 4
         total_weight += 4
         
-        # 2. Numeric content analysis
+        # NEW: 2. Pharmaceutical domain pattern matching (HIGH WEIGHT)
+        pharma_pattern_matches = 0
+        for pattern in self.pharmaceutical_patterns:
+            matches = len(re.findall(pattern, text, re.IGNORECASE | re.MULTILINE))
+            pharma_pattern_matches += matches
+        
+        if pharma_pattern_matches > 0:
+            # High weight for pharmaceutical patterns as they're very specific
+            pharma_score = min(pharma_pattern_matches / 5.0, 1.0) * 5  # Weight of 5
+            table_indicators += pharma_score
+        total_weight += 5
+        
+        # 3. Numeric content analysis
         numeric_score = self._analyze_numeric_content(text)
         table_indicators += numeric_score * 3
         total_weight += 3
         
-        # 3. Cell structure analysis
+        # 4. Cell structure analysis
         structure_score = self._analyze_table_structure(cleaned_table)
         table_indicators += structure_score * 2
         total_weight += 2
         
-        # 4. Content uniformity analysis
+        # 5. Content uniformity analysis
         uniformity_score = self._analyze_content_uniformity(cleaned_table)
         table_indicators += uniformity_score * 2
         total_weight += 2
         
-        # 5. Formatting indicator analysis
+        # 6. Formatting indicator analysis
         formatting_score = self._analyze_formatting_indicators(text)
         table_indicators += formatting_score * 1
         total_weight += 1
@@ -389,7 +437,10 @@ class TableDetector:
         return 0.3
 
     def _validate_content_density(self, cleaned_table: List[List[str]]) -> float:
-        """Validate content density is appropriate for tables"""
+        """
+        Validate content density is appropriate for tables
+        MODIFIED: Relaxed density thresholds
+        """
         total_cells = sum(len(row) for row in cleaned_table)
         non_empty_cells = sum(1 for row in cleaned_table for cell in row if cell.strip())
         
@@ -398,10 +449,11 @@ class TableDetector:
         
         density = non_empty_cells / total_cells
         
-        if 0.4 <= density <= 0.95:
+        # RELAXED: Changed from 0.4-0.95 to 0.3-0.95
+        if 0.3 <= density <= 0.95:
             return 1.0
-        elif 0.2 <= density < 0.4:
-            return 0.5
+        elif 0.2 <= density < 0.3:  # More lenient for sparse tables
+            return 0.7
         return 0.2
 
     def _validate_cell_characteristics(self, cleaned_table: List[List[str]]) -> float:
@@ -740,7 +792,108 @@ class TableDetector:
         # For now, return existing columns
         # This could be enhanced to adjust column boundaries based on new data
         return columns
+    
+    def find_table_title(self, page, table_region=None):
+        """
+        NEW: Find table title by looking for heading patterns above the table region
+        """
+        try:
+            # Extract words with positioning
+            words = page.extract_words(x_tolerance=3, y_tolerance=3)
+            if not words:
+                return None
+            
+            # Get lines of text
+            lines = self._group_words_into_lines(words)
+            if not lines:
+                return None
+            
+            # If we have table region info, look above it
+            search_lines = lines
+            if table_region:
+                # Look for title in lines above the table region
+                table_top = min(word.get('top', 0) for line in table_region for word in line if isinstance(word, dict))
+                search_lines = [line for line in lines if any(word.get('top', 0) < table_top - 10 for word in line)]
+            
+            # Look for table title patterns in reverse order (closest to table first)
+            for line in reversed(search_lines):
+                line_text = ' '.join([w.get('text', '') for w in line if w.get('text')])
+                
+                # Check for table title patterns
+                for pattern in self.table_title_patterns:
+                    if re.search(pattern, line_text, re.IGNORECASE):
+                        return line_text.strip()
+                
+                # Check for pharmaceutical table indicators
+                pharma_indicators = ['treatment', 'therapy', 'medicinal', 'costs', 'dosage', 'consumption']
+                if any(indicator in line_text.lower() for indicator in pharma_indicators):
+                    # Make sure it's not too long (likely not a title if > 100 chars)
+                    if len(line_text) <= 100:
+                        return line_text.strip()
+            
+            # Fallback: look for any short line with key pharmaceutical terms
+            for line in reversed(search_lines[-10:]):  # Last 10 lines before table
+                line_text = ' '.join([w.get('text', '') for w in line if w.get('text')])
+                if (len(line_text.split()) <= 10 and 
+                    any(term in line_text.lower() for term in ['table', 'designation', 'treatment', 'costs', 'therapy'])):
+                    return line_text.strip()
+            
+            return None
+            
+        except Exception as e:
+            print(f"      Error finding table title: {e}")
+            return None
 
+    def _table_to_text(self, cleaned_table: List[List[str]]) -> str:
+        """Convert table data back to text for analysis"""
+        text_parts = []
+        for row in cleaned_table:
+            row_text = ' '.join(cell.strip() for cell in row if cell and cell.strip())
+            if row_text:
+                text_parts.append(row_text)
+        return '\n'.join(text_parts)
+    
+    def convert_table_to_narrative(self, table_data, table_title=None):
+        """
+        Convert a table into narrative text that preserves the relationships.
+        MODIFIED: Include table title in output
+        """
+        if not table_data or len(table_data) == 0:
+            return ""
+        
+        # Clean and prepare the table
+        cleaned_table = self.pdf_processor.clean_table_data(table_data)
+        
+        if len(cleaned_table) == 0:
+            return ""
+        
+        narrative_parts = []
+        
+        # Add table title if found
+        if table_title:
+            narrative_parts.append(f"Table Title: {table_title}")
+            narrative_parts.append("")  # Empty line for separation
+        
+        # Try to identify headers
+        headers = self.identify_table_headers(cleaned_table)
+        
+        if headers:
+            # Add header information
+            narrative_parts.append(f"Table contains the following columns: {', '.join(headers)}")
+            
+            # Process data rows
+            data_rows = cleaned_table[1:] if len(cleaned_table) > 1 else []
+            
+            for row_idx, row in enumerate(data_rows, 1):
+                row_description = self.create_row_description(headers, row, row_idx)
+                if row_description:
+                    narrative_parts.append(row_description)
+            
+            return "\n".join(narrative_parts)
+        else:
+            # No clear headers - treat as a simple data table
+            title_part = f"Table Title: {table_title}\n\n" if table_title else ""
+            return title_part + self.convert_headerless_table(cleaned_table)
 
 class PDFProcessor:
     def __init__(
@@ -1198,12 +1351,12 @@ class PDFProcessor:
     def verify_grid_intersections(self, h_lines: List[Dict], v_lines: List[Dict]) -> bool:
         """
         Verify that horizontal and vertical lines form a proper grid pattern.
-        Uses geometric analysis only.
+        MODIFIED: More lenient intersection requirements
         """
         try:
             # Check horizontal line regularity
             h_y_positions = sorted([line.get('y0', 0) for line in h_lines])
-            if len(h_y_positions) < 4:
+            if len(h_y_positions) < 3:  # Reduced from 4 to 3
                 return False
             
             # Calculate spacing consistency for horizontal lines
@@ -1215,20 +1368,20 @@ class PDFProcessor:
             h_gap_variance = sum((gap - h_gap_mean)**2 for gap in h_gaps) / len(h_gaps)
             h_gap_cv = (h_gap_variance**0.5) / h_gap_mean if h_gap_mean > 0 else 1.0
             
-            # Lines should be reasonably regularly spaced (coefficient of variation < 0.5)
-            if h_gap_cv > 0.5:
+            # RELAXED: Lines should be reasonably regularly spaced (was < 0.5, now < 0.7)
+            if h_gap_cv > 0.7:
                 return False
             
             # Check vertical line regularity
             v_x_positions = sorted([line.get('x0', 0) for line in v_lines])
-            if len(v_x_positions) < 3:
+            if len(v_x_positions) < 2:  # Reduced from 3 to 2
                 return False
             
             # Count actual intersections
             intersection_count = 0
-            tolerance = 5  # pixels
+            tolerance = 8  # Increased tolerance from 5 to 8 pixels
             
-            for h_line in h_lines[:5]:  # Check first 5 horizontal lines
+            for h_line in h_lines[:7]:  # Check more lines (was 5, now 7)
                 h_y = h_line.get('y0', 0)
                 h_x1, h_x2 = h_line.get('x0', 0), h_line.get('x1', 0)
                 
@@ -1236,14 +1389,14 @@ class PDFProcessor:
                     v_x = v_line.get('x0', 0)
                     v_y1, v_y2 = v_line.get('y0', 0), v_line.get('y1', 0)
                     
-                    # Check intersection with tolerance
+                    # Check intersection with increased tolerance
                     if (min(h_x1, h_x2) - tolerance <= v_x <= max(h_x1, h_x2) + tolerance and 
                         min(v_y1, v_y2) - tolerance <= h_y <= max(v_y1, v_y2) + tolerance):
                         intersection_count += 1
             
-            # Need sufficient intersections
-            min_expected = min(len(h_lines), 5) * min(len(v_lines), 4)
-            return intersection_count >= min_expected * 0.4
+            # RELAXED: Need sufficient intersections (was 40%, now 25%)
+            min_expected = min(len(h_lines), 7) * min(len(v_lines), 6)
+            return intersection_count >= min_expected * 0.25
             
         except Exception:
             return False
@@ -1293,7 +1446,10 @@ class PDFProcessor:
             return []
         
     def detect_vertical_table_lines_strict(self, page) -> List[float]:
-        """Detect vertical lines with stricter criteria."""
+        """
+        Detect vertical lines with RELAXED criteria.
+        MODIFIED: Relaxed line detection thresholds
+        """
         try:
             lines = page.lines if hasattr(page, 'lines') else []
             vertical_lines = []
@@ -1303,22 +1459,26 @@ class PDFProcessor:
                 line_width = abs(x2 - x1)
                 line_height = abs(y2 - y1)
                 
-                # Stricter vertical line criteria
-                if line_height > 50 and line_width < 3 and line_height > line_width * 15:
+                # RELAXED vertical line criteria (was: height>50, width<3, aspect>15:1)
+                if line_height > 25 and line_width < 6 and line_height > line_width * 8:
                     vertical_lines.append(x1)
             
             # Remove duplicates with tolerance
             unique_lines = []
             for x in sorted(vertical_lines):
-                if not unique_lines or abs(x - unique_lines[-1]) > 10:
+                if not unique_lines or abs(x - unique_lines[-1]) > 5:  # Reduced tolerance from 10 to 5
                     unique_lines.append(x)
             
             return unique_lines
         except Exception:
             return []
 
+
     def detect_horizontal_table_lines_strict(self, page) -> List[float]:
-        """Detect horizontal lines with stricter criteria."""
+        """
+        Detect horizontal lines with RELAXED criteria.
+        MODIFIED: Relaxed line detection thresholds
+        """
         try:
             lines = page.lines if hasattr(page, 'lines') else []
             horizontal_lines = []
@@ -1328,14 +1488,14 @@ class PDFProcessor:
                 line_width = abs(x2 - x1)
                 line_height = abs(y2 - y1)
                 
-                # Stricter horizontal line criteria
-                if line_width > 80 and line_height < 3 and line_width > line_height * 25:
+                # RELAXED horizontal line criteria (was: width>80, height<3, aspect>25:1)
+                if line_width > 40 and line_height < 6 and line_width > line_height * 12:
                     horizontal_lines.append(y1)
             
             # Remove duplicates with tolerance
             unique_lines = []
             for y in sorted(horizontal_lines):
-                if not unique_lines or abs(y - unique_lines[-1]) > 5:
+                if not unique_lines or abs(y - unique_lines[-1]) > 3:  # Reduced tolerance from 5 to 3
                     unique_lines.append(y)
             
             return unique_lines
@@ -1363,7 +1523,6 @@ class PDFProcessor:
             )
             
             if tables:
-                print(f"      Found {len(tables)} tables using text-based detection")
                 return tables
             
             # Method 2: Try with even more permissive settings
@@ -1381,7 +1540,6 @@ class PDFProcessor:
             )
             
             if tables:
-                print(f"      Found {len(tables)} tables using very permissive text detection")
                 return tables
                 
             # Method 3: Try line-based with relaxed constraints
@@ -1396,13 +1554,9 @@ class PDFProcessor:
                 }
             )
             
-            if tables:
-                print(f"      Found {len(tables)} tables using relaxed line detection")
-            
             return tables if tables else []
             
         except Exception as e:
-            print(f"      Error in permissive table extraction: {e}")
             return []
 
     def is_numeric(self, text: str) -> bool:
@@ -1477,42 +1631,6 @@ class PDFProcessor:
         
         return cleaned
 
-    def convert_table_to_narrative(self, table_data):
-        """
-        Convert a table into narrative text that preserves the relationships.
-        Each row becomes a descriptive sentence or bullet point.
-        """
-        if not table_data or len(table_data) == 0:
-            return ""
-        
-        # Clean and prepare the table
-        cleaned_table = self.clean_table_data(table_data)
-        
-        if len(cleaned_table) == 0:
-            return ""
-        
-        # Try to identify headers
-        headers = self.identify_table_headers(cleaned_table)
-        
-        if headers:
-            # Convert each data row to narrative
-            narrative_parts = []
-            
-            # Add header information
-            narrative_parts.append(f"Table contains the following columns: {', '.join(headers)}")
-            
-            # Process data rows
-            data_rows = cleaned_table[1:] if len(cleaned_table) > 1 else []
-            
-            for row_idx, row in enumerate(data_rows, 1):
-                row_description = self.create_row_description(headers, row, row_idx)
-                if row_description:
-                    narrative_parts.append(row_description)
-            
-            return "\n".join(narrative_parts)
-        else:
-            # No clear headers - treat as a simple data table
-            return self.convert_headerless_table(cleaned_table)
 
     def identify_table_headers(self, cleaned_table):
         """
@@ -1675,38 +1793,57 @@ class PDFProcessor:
     def detect_complete_tables(self, pdf):
         """
         Enhanced table detection that combines visual, text-based, and pattern-based detection.
+        MODIFIED: Added table title detection and debug logging
         """
         tables_info = []
         
         print("  🔍 Scanning for tables with enhanced detection...")
         
-        tables_found_pages = []
+        total_tables_found = 0
         
         for page_num, page in enumerate(pdf.pages, start=1):
             page_tables = []
             
-            # Method 1: Try visual structure detection
+            # Debug: Check if page has any lines at all
+            lines = page.lines if hasattr(page, 'lines') else []
+            if lines:
+                print(f"      Page {page_num}: Found {len(lines)} line objects")
+            else:
+                print(f"      Page {page_num}: No line objects found")
+            
+            # Method 1: Try visual structure detection with relaxed criteria
             if self.has_explicit_table_structure(page):
+                print(f"      Page {page_num}: Visual table structure detected")
                 visual_tables = self.extract_tables_ultra_strict(page)
                 if visual_tables:
                     page_tables.extend(visual_tables)
-                    print(f"      Found {len(visual_tables)} tables using visual structure on page {page_num}")
+                    print(f"      Page {page_num}: Extracted {len(visual_tables)} visual tables")
             
             # Method 2: Try pdfplumber's built-in methods
             if not page_tables:
                 content_tables = self.extract_tables_permissive(page)
                 if content_tables:
                     page_tables.extend(content_tables)
-                    print(f"      Found {len(content_tables)} tables using permissive extraction on page {page_num}")
+                    print(f"      Page {page_num}: Extracted {len(content_tables)} permissive tables")
             
-            # Method 3: NEW - Try text pattern analysis
+            # Method 3: Try DEFAULT pdfplumber extraction (no custom parameters)
             if not page_tables:
-                pattern_tables = self.extract_tables_from_text_patterns(page)
+                try:
+                    default_tables = page.extract_tables()
+                    if default_tables:
+                        page_tables.extend(default_tables)
+                        print(f"      Page {page_num}: Extracted {len(default_tables)} default tables")
+                except Exception as e:
+                    print(f"      Page {page_num}: Default extraction failed: {e}")
+            
+            # Method 4: Try text pattern analysis
+            if not page_tables:
+                pattern_tables = self.table_detector.extract_tables_from_text_patterns(page)
                 if pattern_tables:
                     page_tables.extend(pattern_tables)
-                    print(f"      Found {len(pattern_tables)} tables using text pattern analysis on page {page_num}")
+                    print(f"      Page {page_num}: Extracted {len(pattern_tables)} pattern tables")
             
-            # Validate all found tables
+            # Validate all found tables and detect titles
             genuine_tables_found = 0
             for table_idx, table_data in enumerate(page_tables, start=1):
                 if not table_data or len(table_data) < 3:
@@ -1714,31 +1851,36 @@ class PDFProcessor:
                 
                 # Apply enhanced validation
                 if self.table_detector.enhanced_table_validation(table_data, page, page_num):
-                    narrative_text = self.convert_table_to_narrative(table_data)
+                    # Try to find table title
+                    table_title = self.table_detector.find_table_title(page)
+                    
+                    # Convert to narrative with title
+                    narrative_text = self.table_detector.convert_table_to_narrative(table_data, table_title)
                     
                     if narrative_text.strip():
-                        table_title = f"Table {table_idx} on page {page_num}"
+                        # Use found title or fallback title
+                        heading = table_title if table_title else f"Table {table_idx} on page {page_num}"
                         
                         tables_info.append({
                             "page": page_num,
-                            "heading": table_title,
+                            "heading": heading,
                             "text": narrative_text,
-                            "table_type": "enhanced_pattern_detected_table",
+                            "table_type": "enhanced_pharmaceutical_table",
                             "table_metadata": {
                                 "original_rows": len(table_data),
                                 "narrative_length": len(narrative_text),
-                                "extraction_method": "pattern_analysis" if table_data in pattern_tables else "visual_or_permissive"
+                                "extraction_method": "enhanced_detection",
+                                "has_title": bool(table_title)
                             }
                         })
                         genuine_tables_found += 1
+                        print(f"      Page {page_num}: Validated table {table_idx} with title: '{heading}'")
             
-            if genuine_tables_found > 0:
-                tables_found_pages.append(f"page {page_num} ({genuine_tables_found} table{'s' if genuine_tables_found > 1 else ''})")
+            total_tables_found += genuine_tables_found
         
         # Summary output
         if tables_info:
-            print(f"  ✅ Tables found and included: {', '.join(tables_found_pages)}")
-            print(f"  📊 Total tables included in document: {len(tables_info)}")
+            print(f"  ✅ Found and extracted {total_tables_found} tables from document")
         else:
             print(f"  ❌ No tables met validation criteria")
         
