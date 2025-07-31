@@ -214,7 +214,34 @@ class TableDetector:
         return min(score, 1.0)
 
 
-   
+    def _group_words_into_lines(self, words, y_tolerance=3):
+        """Group extracted words into lines based on their vertical position."""
+        if not words:
+            return []
+
+        sorted_words = sorted(words, key=lambda w: w.get("top", 0))
+
+        lines = []
+        current_line = []
+        current_top = None
+
+        for word in sorted_words:
+            top = word.get("top", 0)
+            if current_top is None or abs(top - current_top) <= y_tolerance:
+                current_line.append(word)
+                if current_top is None:
+                    current_top = top
+            else:
+                lines.append(sorted(current_line, key=lambda w: w.get("x0", 0)))
+                current_line = [word]
+                current_top = top
+
+        if current_line:
+            lines.append(sorted(current_line, key=lambda w: w.get("x0", 0)))
+
+        return lines
+
+
     def find_table_title(self, page, table_region=None):
         """
         NEW: Find table title by looking for heading patterns above the table region
