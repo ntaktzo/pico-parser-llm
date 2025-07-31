@@ -471,6 +471,276 @@ class TableDetector:
         
         return max(0.0, min(1.0, confidence))
 
+    def extract_tables_from_text_patterns(self, page):
+        """
+        Extract table-like content by analyzing text patterns when visual extraction fails.
+        This method identifies tabular data based on content patterns rather than visual structure.
+        """
+        try:
+            # Extract all text with word-level positioning
+            words = page.extract_words(x_tolerance=3, y_tolerance=3)
+            if not words:
+                return []
+            
+            # Group words into lines based on y-position
+            lines = self._group_words_into_lines(words)
+            if len(lines) < 3:
+                return []
+            
+            # Identify potential table regions
+            table_regions = self._identify_table_regions_from_text(lines)
+            
+            extracted_tables = []
+            for region in table_regions:
+                table_data = self._convert_text_region_to_table(region)
+                if table_data and len(table_data) >= 3:
+                    extracted_tables.append(table_data)
+            
+            print(f"      Found {len(extracted_tables)} tables using text pattern analysis")
+            return extracted_tables
+            
+        except Exception as e:
+            print(f"      Error in text pattern table extraction: {e}")
+            return []
+
+    def _group_words_into_lines(self, words):
+        """Group words into lines based on vertical position."""
+        if not words:
+            return []
+        
+        # Sort words by vertical position first, then horizontal
+        sorted_words = sorted(words, key=lambda w: (round(w.get('top', 0), 1), w.get('x0', 0)))
+        
+        lines = []
+        current_line = [sorted_words[0]]
+        current_y = round(sorted_words[0].get('top', 0), 1)
+        
+        for word in sorted_words[1:]:
+            word_y = round(word.get('top', 0), 1)
+            
+            # If word is on same line (within tolerance)
+            if abs(word_y - current_y) <= 3:
+                current_line.append(word)
+            else:
+                # New line
+                if current_line:
+                    lines.append(current_line)
+                current_line = [word]
+                current_y = word_y
+        
+        if current_line:
+            lines.append(current_line)
+        
+        return lines
+
+    def _identify_table_regions_from_text(self, lines):
+        """
+        Identify regions that likely contain tabular data based on text patterns.
+        """
+        table_regions = []
+        current_region = []
+        
+        for i, line in enumerate(lines):
+            line_text = ' '.join([w.get('text', '') for w in line])
+            
+            # Check if this line has table-like characteristics
+            is_table_like = self._is_line_table_like(line, line_text)
+            
+            if is_table_like:
+                current_region.append((i, line, line_text))
+            else:
+                # If we have accumulated table-like lines, save the region
+                if len(current_region) >= 3:
+                    table_regions.append(current_region)
+                current_region = []
+        
+        # Don't forget the last region
+        if len(current_region) >= 3:
+            table_regions.append(current_region)
+        
+        return table_regions
+
+    def _is_line_table_like(self, line_words, line_text):
+        """
+        Determine if a line has characteristics typical of table content.
+        """
+        if not line_text.strip():
+            return False
+        
+        # Count numeric content
+        words = line_text.split()
+        numeric_words = sum(1 for word in words if self.is_numeric(word.strip('()[]{}.,;:')))
+        
+        # Table indicators
+        indicators = {
+            # High numeric content
+            'numeric_ratio': numeric_words / max(len(words), 1) if words else 0,
+            
+            # Multiple aligned numeric values
+            'aligned_numbers': len(re.findall(r'\b\d+[\.,]\d+\b', line_text)),
+            
+            # Statistical patterns
+            'statistical_patterns': len(re.findall(r'[<>=≤≥]\s*\d+[\.,]?\d*|p\s*[<=]\s*\d+[\.,]\d+|CI:\s*\d+[\.,]\d+', line_text)),
+            
+            # Percentage patterns
+            'percentages': len(re.findall(r'\d+[\.,]?\d*\s*%', line_text)),
+            
+            # Medical/clinical patterns
+            'medical_patterns': len(re.findall(r'\b(?:mg|ml|kg|mmol|μg|ng|pg|IU|dose|treatment|group|arm|n\s*=\s*\d+)\b', line_text, re.IGNORECASE)),
+            
+            # Structured separators
+            'separators': len(re.findall(r'[|\t]', line_text)),
+            
+            # Short, focused content (typical of table cells)
+            'short_content': 1 if 2 <= len(words) <= 8 else 0,
+            
+            # Consistent spacing (analyze word positions)
+            'consistent_spacing': self._has_consistent_spacing(line_words)
+        }
+        
+        # Scoring system
+        score = 0
+        
+        # High weight for numeric content
+        if indicators['numeric_ratio'] > 0.3:
+            score += 3
+        elif indicators['numeric_ratio'] > 0.1:
+            score += 1
+        
+        # Statistical and medical patterns
+        score += min(indicators['statistical_patterns'] * 2, 4)
+        score += min(indicators['percentages'], 2)
+        score += min(indicators['medical_patterns'], 2)
+        score += min(indicators['aligned_numbers'], 3)
+        
+        # Structure indicators
+        if indicators['separators'] > 0:
+            score += 2
+        if indicators['consistent_spacing']:
+            score += 1
+        if indicators['short_content']:
+            score += 1
+        
+        # Threshold for considering line as table-like
+        return score >= 4
+
+    def _has_consistent_spacing(self, line_words):
+        """
+        Check if words in a line have consistent spacing (indicating columnar structure).
+        """
+        if len(line_words) < 3:
+            return False
+        
+        # Calculate gaps between words
+        gaps = []
+        for i in range(len(line_words) - 1):
+            gap = line_words[i+1].get('x0', 0) - line_words[i].get('x1', 0)
+            gaps.append(gap)
+        
+        if not gaps:
+            return False
+        
+        # Check if gaps show some regularity (not all words crammed together)
+        avg_gap = sum(gaps) / len(gaps)
+        return avg_gap > 10  # Minimum spacing indicating columnar structure
+
+    def _convert_text_region_to_table(self, region):
+        """
+        Convert a identified table region into a 2D table structure.
+        """
+        if not region:
+            return []
+        
+        table_data = []
+        
+        for line_idx, line_words, line_text in region:
+            # Try to identify column boundaries for this region
+            if not table_data:  # First row - establish column structure
+                columns = self._identify_columns_from_words(line_words)
+            else:
+                columns = self._align_words_to_columns(line_words, existing_columns)
+            
+            # Convert words to row data
+            row_data = []
+            current_col = 0
+            current_text = ""
+            
+            for word in sorted(line_words, key=lambda w: w.get('x0', 0)):
+                word_text = word.get('text', '').strip()
+                if not word_text:
+                    continue
+                
+                word_x = word.get('x0', 0)
+                
+                # Determine which column this word belongs to
+                col_idx = self._find_column_for_position(word_x, columns) if len(table_data) > 0 else current_col
+                
+                # Extend row_data if necessary
+                while len(row_data) <= col_idx:
+                    row_data.append("")
+                
+                # Add word to appropriate column
+                if row_data[col_idx]:
+                    row_data[col_idx] += " " + word_text
+                else:
+                    row_data[col_idx] = word_text
+                
+                current_col = col_idx + 1
+            
+            if row_data:
+                table_data.append(row_data)
+            
+            # Update column boundaries based on this row
+            if len(table_data) == 1:
+                existing_columns = columns
+        
+        return table_data
+
+    def _identify_columns_from_words(self, words):
+        """
+        Identify column boundaries from word positions.
+        """
+        if not words:
+            return []
+        
+        # Sort words by x position
+        sorted_words = sorted(words, key=lambda w: w.get('x0', 0))
+        
+        # Find natural breaks in x positions
+        x_positions = [w.get('x0', 0) for w in sorted_words]
+        
+        columns = []
+        if x_positions:
+            columns.append(x_positions[0])
+            
+            for i in range(1, len(x_positions)):
+                gap = x_positions[i] - x_positions[i-1]
+                if gap > 20:  # Significant gap indicates new column
+                    columns.append(x_positions[i])
+        
+        return columns
+
+    def _find_column_for_position(self, x_pos, columns):
+        """
+        Find which column a given x position belongs to.
+        """
+        if not columns:
+            return 0
+        
+        for i, col_x in enumerate(columns):
+            if x_pos < col_x + 50:  # Tolerance for column assignment
+                return max(0, i - 1) if i > 0 else 0
+        
+        return len(columns) - 1
+
+    def _align_words_to_columns(self, words, columns):
+        """
+        Align words to existing column structure.
+        """
+        # For now, return existing columns
+        # This could be enhanced to adjust column boundaries based on new data
+        return columns
+
 
 class PDFProcessor:
     def __init__(
@@ -1403,35 +1673,46 @@ class PDFProcessor:
             return len(column_boundaries) - 1, column_boundaries
 
     def detect_complete_tables(self, pdf):
-        """Enhanced table detection using language-agnostic validation with reduced output"""
+        """
+        Enhanced table detection that combines visual, text-based, and pattern-based detection.
+        """
         tables_info = []
         
-        print("  🔍 Scanning for tables...")
+        print("  🔍 Scanning for tables with enhanced detection...")
         
-        tables_found_pages = []  # Track which pages have tables for summary
+        tables_found_pages = []
         
         for page_num, page in enumerate(pdf.pages, start=1):
-            # Try both visual and content-based detection
-            page_tables_visual = []
+            page_tables = []
+            
+            # Method 1: Try visual structure detection
             if self.has_explicit_table_structure(page):
-                page_tables_visual = self.extract_tables_ultra_strict(page)
+                visual_tables = self.extract_tables_ultra_strict(page)
+                if visual_tables:
+                    page_tables.extend(visual_tables)
+                    print(f"      Found {len(visual_tables)} tables using visual structure on page {page_num}")
             
-            # Content-based detection
-            page_tables_content = self.extract_tables_permissive(page)
+            # Method 2: Try pdfplumber's built-in methods
+            if not page_tables:
+                content_tables = self.extract_tables_permissive(page)
+                if content_tables:
+                    page_tables.extend(content_tables)
+                    print(f"      Found {len(content_tables)} tables using permissive extraction on page {page_num}")
             
-            # Combine results
-            all_page_tables = page_tables_visual + page_tables_content
+            # Method 3: NEW - Try text pattern analysis
+            if not page_tables:
+                pattern_tables = self.extract_tables_from_text_patterns(page)
+                if pattern_tables:
+                    page_tables.extend(pattern_tables)
+                    print(f"      Found {len(pattern_tables)} tables using text pattern analysis on page {page_num}")
             
-            if not all_page_tables:
-                continue
-            
-            # Apply enhanced validation
+            # Validate all found tables
             genuine_tables_found = 0
-            for table_idx, table_data in enumerate(all_page_tables, start=1):
+            for table_idx, table_data in enumerate(page_tables, start=1):
                 if not table_data or len(table_data) < 3:
                     continue
                 
-                # Use the updated validation with more lenient thresholds
+                # Apply enhanced validation
                 if self.table_detector.enhanced_table_validation(table_data, page, page_num):
                     narrative_text = self.convert_table_to_narrative(table_data)
                     
@@ -1442,11 +1723,11 @@ class PDFProcessor:
                             "page": page_num,
                             "heading": table_title,
                             "text": narrative_text,
-                            "table_type": "language_agnostic_validated_table",
+                            "table_type": "enhanced_pattern_detected_table",
                             "table_metadata": {
                                 "original_rows": len(table_data),
                                 "narrative_length": len(narrative_text),
-                                "extraction_method": "visual" if table_data in page_tables_visual else "content"
+                                "extraction_method": "pattern_analysis" if table_data in pattern_tables else "visual_or_permissive"
                             }
                         })
                         genuine_tables_found += 1
@@ -1454,7 +1735,7 @@ class PDFProcessor:
             if genuine_tables_found > 0:
                 tables_found_pages.append(f"page {page_num} ({genuine_tables_found} table{'s' if genuine_tables_found > 1 else ''})")
         
-        # Only output summary of what was found
+        # Summary output
         if tables_info:
             print(f"  ✅ Tables found and included: {', '.join(tables_found_pages)}")
             print(f"  📊 Total tables included in document: {len(tables_info)}")
