@@ -15,6 +15,7 @@ class TableDetector:
     """
     
     def __init__(self, pdf_processor):
+        """Initialize the detector with a PDFProcessor instance."""
         self.pdf_processor = pdf_processor
         
         # Universal patterns that indicate structured tabular data
@@ -243,9 +244,7 @@ class TableDetector:
 
 
     def find_table_title(self, page, table_region=None):
-        """
-        NEW: Find table title by looking for heading patterns above the table region
-        """
+        """Locate a nearby heading that likely serves as the table title."""
         try:
             # Extract words with positioning
             words = page.extract_words(x_tolerance=3, y_tolerance=3)
@@ -293,20 +292,8 @@ class TableDetector:
             print(f"      Error finding table title: {e}")
             return None
 
-    def _table_to_text(self, cleaned_table: List[List[str]]) -> str:
-        """Convert table data back to text for analysis"""
-        text_parts = []
-        for row in cleaned_table:
-            row_text = ' '.join(cell.strip() for cell in row if cell and cell.strip())
-            if row_text:
-                text_parts.append(row_text)
-        return '\n'.join(text_parts)
-    
     def convert_table_to_narrative(self, table_data, table_title=None):
-        """
-        Convert a table into narrative text that preserves the relationships.
-        MODIFIED: Include table title in output
-        """
+        """Convert a table into a short descriptive paragraph."""
         if not table_data or len(table_data) == 0:
             return ""
         
@@ -422,10 +409,7 @@ class TableDetector:
         return "\n".join(narrative_parts)
 
     def is_numeric(self, text: str) -> bool:
-        """
-        Check if a text string represents a numeric value.
-        Fixed version to handle None and type errors.
-        """
+        """Check whether a text string represents a numeric value."""
         if not text or not isinstance(text, str):
             return False
         
@@ -451,14 +435,14 @@ class TableDetector:
             except (ValueError, TypeError):
                 pass
         
-        # Check for simple patterns like "< 0.001" or "> 100" - FIXED
+        # Check for simple patterns like "< 0.001" or "> 100"
         try:
             if re.match(r'^[<>=≤≥]\s*[\d.,]+$', text):
                 return True
         except (TypeError, re.error):
             pass
         
-        # Check for ranges like "1.2-3.4" - FIXED
+        # Check for ranges like "1.2-3.4"
         try:
             if re.match(r'^\d+\.?\d*[-–]\d+\.?\d*$', text):
                 return True
@@ -540,46 +524,6 @@ class TableDetector:
         except Exception:
             return False
 
-    def verify_grid_intersections(self, h_lines: List[Dict], v_lines: List[Dict]) -> bool:
-        """Verify that horizontal and vertical lines form a regular grid."""
-        try:
-            h_y_positions = sorted([line.get('y0', 0) for line in h_lines])
-            if len(h_y_positions) < 3:
-                return False
-
-            h_gaps = [h_y_positions[i+1] - h_y_positions[i] for i in range(len(h_y_positions)-1)]
-            if not h_gaps:
-                return False
-
-            h_gap_mean = sum(h_gaps) / len(h_gaps)
-            h_gap_variance = sum((gap - h_gap_mean) ** 2 for gap in h_gaps) / len(h_gaps)
-            h_gap_cv = (h_gap_variance ** 0.5) / h_gap_mean if h_gap_mean > 0 else 1.0
-            if h_gap_cv > 0.7:
-                return False
-
-            v_x_positions = sorted([line.get('x0', 0) for line in v_lines])
-            if len(v_x_positions) < 2:
-                return False
-
-            intersection_count = 0
-            tolerance = 8
-
-            for h_line in h_lines[:7]:
-                h_y = h_line.get('y0', 0)
-                h_x1, h_x2 = h_line.get('x0', 0), h_line.get('x1', 0)
-
-                for v_line in v_lines:
-                    v_x = v_line.get('x0', 0)
-                    v_y1, v_y2 = v_line.get('y0', 0), v_line.get('y1', 0)
-
-                    if (min(h_x1, h_x2) - tolerance <= v_x <= max(h_x1, h_x2) + tolerance and
-                            min(v_y1, v_y2) - tolerance <= h_y <= max(v_y1, v_y2) + tolerance):
-                        intersection_count += 1
-
-            min_expected = min(len(h_lines), 7) * min(len(v_lines), 6)
-            return intersection_count >= min_expected * 0.25
-        except Exception:
-            return False
 
     def extract_tables_ultra_strict(self, page):
         """Extract tables with strict visual settings."""
@@ -666,55 +610,6 @@ class TableDetector:
         except Exception:
             return []
 
-    def extract_tables_permissive(self, page):
-        """Permissive table extraction using text alignment."""
-        try:
-            tables = page.extract_tables(
-                table_settings={
-                    "vertical_strategy": "text",
-                    "horizontal_strategy": "text",
-                    "min_words_vertical": 2,
-                    "min_words_horizontal": 2,
-                    "text_tolerance": 3,
-                    "intersection_tolerance": 3,
-                    "snap_tolerance": 3,
-                    "join_tolerance": 3,
-                }
-            )
-
-            if tables:
-                return tables
-
-            tables = page.extract_tables(
-                table_settings={
-                    "vertical_strategy": "text",
-                    "horizontal_strategy": "text",
-                    "min_words_vertical": 1,
-                    "min_words_horizontal": 1,
-                    "text_tolerance": 5,
-                    "intersection_tolerance": 5,
-                    "snap_tolerance": 5,
-                    "join_tolerance": 5,
-                }
-            )
-
-            if tables:
-                return tables
-
-            tables = page.extract_tables(
-                table_settings={
-                    "vertical_strategy": "lines_strict",
-                    "horizontal_strategy": "lines_strict",
-                    "min_words_vertical": 2,
-                    "min_words_horizontal": 2,
-                    "text_tolerance": 2,
-                    "intersection_tolerance": 2,
-                }
-            )
-
-            return tables if tables else []
-        except Exception:
-            return []
 
     def detect_complete_tables(self, pdf):
         """Run table detection on every page and return narrative tables."""
@@ -778,6 +673,7 @@ class PDFProcessor:
         created_date="unknown_date",
         keywords=None
     ):
+        """Initialize processor and gather basic metadata."""
         self.pdf_path = pdf_path
         self.boilerplate_threshold = boilerplate_threshold
         self.doc_id = doc_id or os.path.splitext(os.path.basename(pdf_path))[0]
@@ -824,8 +720,6 @@ class PDFProcessor:
 
     def extract_source_type_from_path(self):
         """Identifies whether this is an HTA submission or clinical guideline."""
-        path_parts = self.pdf_path.lower().split(os.sep)
-        
         if "hta submission" in self.pdf_path.lower() or "hta submissions" in self.pdf_path.lower():
             return "hta_submission"
         elif "clinical guideline" in self.pdf_path.lower() or "clinical guidelines" in self.pdf_path.lower():
@@ -1254,7 +1148,6 @@ class PDFProcessor:
         Detect if a page has multiple columns by analyzing text positions.
         Returns the number of columns and their x-boundaries.
         """
-        import numpy as np
         words = page.extract_words(x_tolerance=2, y_tolerance=2)
         if not words:
             return 1, []  # Default to single column if no words
@@ -1657,6 +1550,7 @@ class PDFProcessor:
         created_date="unknown_date",
         keywords=None
     ):
+        """Process all PDFs in a folder and save extracted JSON data."""
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
