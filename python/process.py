@@ -5,7 +5,7 @@ import statistics
 import pdfplumber
 from collections import defaultdict
 import numpy as np
-from typing import Dict, Any, Optional, Union, List
+from typing import Dict, Any, Optional, List
 
 
 class TableDetector:
@@ -115,7 +115,7 @@ class TableDetector:
             return False
         
         cleaned_table = self.pdf_processor.clean_table_data(table_data)
-        if len(cleaned_table    ) < 3:
+        if len(cleaned_table) < 3:
             return False
         
         # Core validation checks
@@ -440,54 +440,8 @@ class TableDetector:
         
         narrative_text = "\n".join(narrative_parts)
         
-        # Create structured metadata
-        structured_metadata = self._extract_structured_metadata(cleaned_table, table_title, headers)
-        
-        # Combine narrative with metadata
-        hybrid_content = {
-            "narrative": narrative_text,
-            "structured_metadata": structured_metadata
-        }
-        
-        # For now, return just narrative to maintain compatibility
-        # The metadata will be added at the chunk level
         return narrative_text
 
-    def _extract_structured_metadata(self, cleaned_table, table_title, headers):
-        """Extract structured metadata from table for enhanced processing."""
-        all_text = ' '.join([' '.join(row) for row in cleaned_table if row])
-        
-        # Extract medications mentioned
-        medications = []
-        common_drugs = ['sorafenib', 'lenvatinib', 'sotorasib', 'atezolizumab', 'bevacizumab']
-        for drug in common_drugs:
-            if drug.lower() in all_text.lower():
-                medications.append(drug)
-        
-        # Extract pricing information
-        pricing_info = re.findall(r'[€$]\s*(\d+(?:[.,]\d+)?)', all_text)
-        currencies_found = list(set(re.findall(r'[€$]', all_text)))
-        
-        # Extract dosage information
-        dosages = re.findall(r'(\d+\s*(?:mg|μg|ml|g)(?:/m²)?)', all_text, re.IGNORECASE)
-        
-        metadata = {
-            "table_title": table_title,
-            "contains_pricing": bool(pricing_info) or bool(re.search(r'cost|price', all_text, re.IGNORECASE)),
-            "contains_dosage": bool(dosages),
-            "contains_comparisons": 'vs' in all_text.lower() or 'compared' in all_text.lower(),
-            "key_medications": medications,
-            "currencies_found": currencies_found,
-            "dosage_values": dosages[:5],  # Limit to first 5 to avoid bloat
-            "table_dimensions": {
-                "rows": len(cleaned_table),
-                "columns": len(headers) if headers else (len(cleaned_table[0]) if cleaned_table else 0)
-            },
-            "headers": headers if headers else [],
-            "primary_content_type": self._classify_table_content(all_text)
-        }
-        
-        return metadata
 
     def _classify_table_content(self, text):
         """Classify the primary content type of the table."""
@@ -678,7 +632,6 @@ class TableDetector:
         """Simple intersection check for grid formation."""
         try:
             intersections = 0
-            tolerance = 5
 
             for h_line in h_lines[:5]:
                 h_y = h_line.get('y0', 0)
@@ -924,21 +877,6 @@ class PDFProcessor:
         # Extract source type 
         self.source_type = self.extract_source_type_from_path()
 
-        # Medical terms that should NOT be translated
-        self.preserve_terms = {
-            # Drug names
-            'sorafenib', 'lenvatinib', 'sotorasib', 'atezolizumab', 
-            'bevacizumab', 'tecentriq', 'nexavar', 'lenvima', 'lumykras',
-            'imjudo', 'sandoz',
-            
-            # Medical abbreviations
-            'HCC', 'NSCLC', 'KRAS', 'G12C', 'PFS', 'OS', 'ORR', 'DCR',
-            'ECOG', 'BCLC', 'Child-Pugh', 'mRECIST', 'RECIST',
-            
-            # Clinical terms
-            'hepatocellular carcinoma', 'non-small cell lung cancer',
-            'progression-free survival', 'overall survival'
-        }
 
         print("--------------------------------------------")
         print(f"Source type for '{self.pdf_path}': {self.source_type}")
@@ -1445,7 +1383,7 @@ class PDFProcessor:
                         all_lines = []
                         
                         # Process each column
-                        for col_idx, column_text in enumerate(column_texts):
+                        for column_text in column_texts:
                             # Split column text into lines
                             col_lines = column_text.split('\n')
                             
@@ -2854,8 +2792,6 @@ class Translator:
                 torch_dtype=torch.float32,
                 trust_remote_code=False,
             )
-
-            test_result = translator("Hello world", max_length=50)
             
             print(f"    ✓ Helsinki model loaded successfully on {self.device}")
             return translator
@@ -2871,7 +2807,6 @@ class Translator:
                         torch_dtype=torch.float32,
                         trust_remote_code=False,
                     )
-                    test_result = translator("Hello world", max_length=50)
                     self.device = "cpu"
                     print(f"    ✓ Helsinki model loaded successfully on CPU")
                     return translator
@@ -2898,9 +2833,8 @@ class Translator:
             if self.device.startswith("cuda"):
                 model = model.to(self.device)
 
-            def nllb_translate(text, generation_params=None, **kwargs):
+            def nllb_translate(text, generation_params=None):
                 try:
-                    src_lang = self.nllb_lang_mapping[language]
                     tgt_lang = 'eng_Latn'
 
                     max_input_length = min(512, generation_params.get('max_length', 400) + 50) if generation_params else 256
@@ -2929,7 +2863,6 @@ class Translator:
                     print(f"      NLLB translation error: {str(e)[:50]}")
                     return [{'translation_text': text}]
 
-            test_result = nllb_translate("Hello world")
             print(f"    ✓ NLLB model loaded successfully on {self.device}")
             return nllb_translate
 
@@ -3615,7 +3548,7 @@ class Translator:
 
         # Find and group files
         json_files = []
-        for root, dirs, files in os.walk(self.input_dir):
+        for root, _, files in os.walk(self.input_dir):
             for file in files:
                 if file.endswith('.json'):
                     input_path = os.path.join(root, file)
