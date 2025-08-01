@@ -1862,8 +1862,8 @@ import copy
 
 class Translator:
     """
-    Enhanced Translator class with document-level hierarchical model selection optimized for medical data,
-    robust CUDA handling, dynamic term preservation, intelligent quality detection, and adaptive translation chunking.
+    Enhanced Translator class with simplified medical term preservation,
+    improved chunking strategy, and better quality assessment.
     """
 
     def __init__(self, input_dir, output_dir):
@@ -1871,90 +1871,41 @@ class Translator:
         self.output_dir = output_dir
         self.english_chunks_preserved = 0
         self.chunks_translated = 0
+        self.total_translation_start_time = None  
 
         self.processing_start_time = None
         self.tier_attempts = {}
         self.translation_decisions = {}
 
-        # Dynamic pattern-based preservation system
-        self.preservation_patterns = {
+        # Simplified medical term whitelist - only truly critical terms
+        self.critical_medical_terms = {
+            # Drug names that should never be translated
             'drug_names': [
-                r'\b[A-Z][a-z]+(?:mab|nib|rib|ib|zumab|tinib)\b',  # Common drug suffixes
-                r'\b[A-Z][a-z]*[0-9]+[A-Z]*\b',  # Alphanumeric compounds
+                'sotorasib', 'lumykras', 'pembrolizumab', 'keytruda', 'atezolizumab',
+                'nivolumab', 'durvalumab', 'ipilimumab', 'bevacizumab', 'cetuximab',
+                'panitumumab', 'trastuzumab', 'pertuzumab', 'ramucirumab',
+                'nintedanib', 'osimertinib', 'erlotinib', 'gefitinib', 'afatinib',
+                'crizotinib', 'alectinib', 'brigatinib', 'lorlatinib',
+                'pemetrexed', 'docetaxel', 'paclitaxel', 'carboplatin', 'cisplatin',
+                'gemcitabine', 'vinorelbine', 'etoposide'
             ],
-            'medical_abbreviations': [
-                r'\b[A-Z]{2,6}\b(?:\s*[G0-9][0-9A-Z]*)?',  # 2-6 letter abbreviations with optional suffixes
-                r'\bp\.[A-Z][0-9]+[A-Z]\b',  # Mutation patterns like p.G12C
+            # Medical abbreviations
+            'abbreviations': [
+                'NSCLC', 'NDRP', 'SCLC', 'EGFR', 'ALK', 'ROS1', 'KRAS', 'BRAF',
+                'PD-L1', 'TMB', 'MSI', 'MMR', 'HER2', 'MET', 'RET', 'NTRK',
+                'PFS', 'OS', 'ORR', 'DCR', 'DOR', 'TTR', 'TTP', 'QoL',
+                'ECOG', 'KPS', 'PS', 'CR', 'PR', 'SD', 'PD',
+                'AE', 'SAE', 'TEAE', 'CTCAE', 'NCI', 'WHO', 'RECIST',
+                'ITT', 'PP', 'mITT', 'FAS', 'SS'
             ],
-            'dosage_patterns': [
-                r'\d+\.?\d*\s*(?:mg|μg|ng|pg|IU|mL|L)(?:/m²|/kg|/day)?',
-                r'\d+\s*x\s*(?:daily|per\s+day|\d+\s*times)',
-                r'every\s+\d+\s+(?:days?|weeks?|hours?)',
-                r'\d+/\d+\s*days?',
-            ],
-            'statistical_measures': [
-                r'HR\s*(?:\(95%\s*CI[:\s]*\d+\.\d+[-–,;\s]*\d+\.\d+\)|\d+\.\d+)',
-                r'OR\s*(?:\(95%\s*CI[:\s]*\d+\.\d+[-–,;\s]*\d+\.\d+\)|\d+\.\d+)',
-                r'RR\s*(?:\(95%\s*CI[:\s]*\d+\.\d+[-–,;\s]*\d+\.\d+\)|\d+\.\d+)',
-                r'p\s*[<>=≤≥]\s*\d+\.\d+',
-                r'95%\s*CI[:\s]*\d+\.\d+[-–,;\s]*\d+\.\d+',
-            ],
-            'regulatory_bodies': [
-                r'\b(?:EMA|FDA|NICE|SMC|G-BA|HAS|AIFA|TGA|PMDA|CADTH)\b',
-                r'\b(?:European\s+Medicines\s+Agency|Federal\s+Joint\s+Committee)\b',
-            ],
-            'cross_references': [
-                r'(?:Section|Chapter|Table|Figure|Annex|Appendix)\s+\d+(?:\.\d+)*',
-                r'(?:resolution|decision|determination)\s+(?:of\s+)?\d{1,2}\s+\w+\s+\d{4}',
-                r'Article\s+\d+(?:\.\d+)*',
-                r'paragraph\s+\d+(?:\.\d+)*',
-            ],
-            'technical_terms': [
-                r'\b(?:RECIST|ECOG|BCLC|Child-Pugh|mRECIST)\b',
-                r'\b(?:progression-free\s+survival|overall\s+survival)\b',
-                r'\b(?:hazard\s+ratio|odds\s+ratio|relative\s+risk)\b',
+            # Regulatory/organizational terms
+            'regulatory': [
+                'FDA', 'EMA', 'NICE', 'SMC', 'G-BA', 'HAS', 'AIFA', 'TGA', 'PMDA',
+                'CADTH', 'IQWIG', 'HTA', 'QALY', 'ICER', 'ICUR'
             ]
         }
 
-        # Context patterns that indicate when medical terms should be translated
-        self.translation_context_patterns = {
-            'disease_names': [
-                r'(?:cancer|carcinoma|tumor|tumour)(?:\s+of\s+the)?',
-                r'(?:lung|liver|breast|prostate|colorectal)',
-                r'(?:hepatocellular|non-small\s+cell|small\s+cell)',
-            ],
-            'anatomical_parts': [
-                r'(?:lung|liver|kidney|brain|heart|stomach)',
-                r'(?:chest|abdomen|pelvis|thorax)',
-            ],
-            'general_medical': [
-                r'(?:treatment|therapy|medication|drug)',
-                r'(?:patient|subject|participant)',
-                r'(?:study|trial|investigation)',
-            ]
-        }
-
-        # Table structure preservation patterns
-        self.table_indicators = {
-            'strong_patterns': [
-                r'(?:Row|Column)\s+\d+[:\s]',
-                r'Table\s+(?:Title|contains|shows)',
-                r'\|\s*[^|\n]+\s*\|\s*[^|\n]+\s*\|',
-                r'^\s*\d+\.\d+\s+\d+\.\d+\s+\d+\.\d+',
-            ],
-            'cost_tables': [
-                r'€\s*\d+(?:[.,]\d+)*',
-                r'\d+(?:[.,]\d+)*\s*€',
-                r'(?:cost|price|expense)\s*[:\s]',
-            ],
-            'clinical_tables': [
-                r'(?:treatment|therapy|drug)\s+(?:arm|group)',
-                r'(?:primary|secondary)\s+endpoint',
-                r'(?:efficacy|safety)\s+(?:analysis|results)',
-            ]
-        }
-
-        # Enhanced model configuration with medical focus
+        # Model tiers - favor tier 2 for medical documents
         self.model_tiers = {
             1: {
                 'helsinki_models': {
@@ -1987,16 +1938,10 @@ class Translator:
                 'description': 'Fast Helsinki models with NLLB fallback'
             },
             2: {
-                'nllb_large': 'facebook/nllb-200-1.3B',
-                'nllb_distilled': 'facebook/nllb-200-distilled-1.3B',
-                'fallback': 'facebook/nllb-200-distilled-600M',
-                'description': 'Large NLLB models for improved quality'
-            },
-            3: {
                 'nllb_xl': 'facebook/nllb-200-3.3B',
-                'm2m100_large': 'facebook/m2m100_1.2B',
-                'fallback': 'facebook/nllb-200-1.3B',
-                'description': 'Highest quality models'
+                'nllb_large': 'facebook/nllb-200-1.3B',
+                'fallback': 'facebook/nllb-200-distilled-1.3B',
+                'description': 'Highest quality models - preferred for medical documents'
             }
         }
 
@@ -2014,53 +1959,27 @@ class Translator:
             'ca': 'cat_Latn', 'mt': 'mlt_Latn', 'cy': 'cym_Latn', 'is': 'isl_Latn',
         }
 
-        # Enhanced quality thresholds with medical focus
-        self.document_quality_thresholds = {
-            'tier_1_to_2_threshold': 0.65,
-            'minimum_acceptable_quality': 0.50,
-            'medical_preservation_threshold': 0.75,
-            'quantitative_data_threshold': 0.80,
-            'regulatory_content_threshold': 0.85,
-            'repetition_penalty_threshold': 0.80,
-            'language_detection_threshold': 0.70,
+        # Updated quality thresholds - lower threshold to prefer tier 2
+        self.quality_thresholds = {
+            'tier_1_to_2_threshold': 0.50,  # Lower threshold to prefer tier 2
+            'minimum_acceptable_quality': 0.40,
+            'medical_preservation_threshold': 0.70,  # Higher expectation for medical terms
         }
 
-        # Medical-optimized chunking parameters
-        self.translation_chunk_params = {
-            'max_tokens': 350,  # Reduced for better medical concept preservation
-            'overlap_ratio': 0.15,  # Increased for better context preservation
-            'min_chunk_size': 75,
-            'quality_threshold': 0.7,
-            'medical_concept_boundary_bonus': 50,  # Extra tokens for medical concepts
+        # Improved chunking parameters for medical documents
+        self.chunk_params = {
+            'max_chars': 2500,  # Increased for better context
+            'overlap_chars': 150,
+            'min_chunk_chars': 300,
         }
 
-        # Batch processing parameters
-        self.batch_params = {
-            'max_batch_size': 3,  # Conservative for memory management
-            'similar_language_batching': True,
-            'max_concurrent_translations': 2,
-        }
-
-        # Enhanced artifact detection patterns
-        self.translation_artifact_patterns = [
-            r'(\d+\.\d+\.\d+\.)+\d+',
-            r'(\d+\s*mg\s*){3,}',
-            r'(\d+\s*%\s*){3,}',
-            r'([!?.,:;-])\1{3,}',
-            r'(\w+\s+)\1{3,}',
-            r'((?:clinical trial|study|patient|treatment)\s+){3,}',
-            r'(p[<=]\d+\.\d+\s*){3,}',
-            r'(CI:\s*\d+\.\d+-\d+\.\d+\s*){3,}',
-        ]
-
-        # Medical exclusion patterns for artifact detection
-        self.medical_exclusions = [
-            r'dose-dose\s+(?:escalation|reduction)',
-            r'first-line.*second-line.*third-line',
-            r'pre-treatment.*post-treatment',
-            r'primary.*secondary.*tertiary',
-            r'grade\s+1.*grade\s+2.*grade\s+3',
-            r'phase\s+I.*phase\s+II.*phase\s+III',
+        # Table detection patterns
+        self.table_patterns = [
+            r'(?:Row|Column)\s+\d+[:\s]',
+            r'Table\s+(?:Title|contains|shows)',
+            r'\|\s*[^|\n]+\s*\|\s*[^|\n]+\s*\|',
+            r'€\s*\d+(?:[.,]\d+)*',
+            r'\d+(?:[.,]\d+)*\s*€',
         ]
 
         # CUDA setup
@@ -2100,625 +2019,338 @@ class Translator:
         self.current_tier = None
         self.current_model_name = None
 
-    def count_tokens(self, text: str) -> int:
-        """
-        Enhanced token counting that accounts for medical terminology density.
-        Medical terms and statistical data typically require more tokens.
-        """
+    def extract_medical_terms_database(self, text: str) -> Dict[str, str]:
+        """Simplified medical term extraction using whitelist approach."""
+        if not text:
+            return {}
+            
+        term_db = {}
+        term_counter = 0
+        
+        # Combine all critical terms
+        all_terms = []
+        for category, terms in self.critical_medical_terms.items():
+            all_terms.extend(terms)
+        
+        # Sort by length (longest first) to avoid partial matches
+        all_terms.sort(key=len, reverse=True)
+        
+        text_lower = text.lower()
+        
+        for term in all_terms:
+            term_lower = term.lower()
+            # Simple case-insensitive search
+            if term_lower in text_lower:
+                # Find actual case-sensitive matches
+                pattern = r'\b' + re.escape(term) + r'\b'
+                matches = re.findall(pattern, text, re.IGNORECASE)
+                for match in matches:
+                    if match not in term_db.values():
+                        term_id = f"MEDTERM{term_counter:03d}"
+                        term_db[term_id] = match
+                        term_counter += 1
+        
+        return term_db
+
+    def apply_medical_term_protection(self, text: str, term_db: Dict[str, str]) -> str:
+        """Apply simplified term protection."""
+        if not text or not term_db:
+            return text
+            
+        protected_text = text
+        
+        # Sort terms by length (longest first) to avoid partial replacements
+        sorted_terms = sorted(term_db.items(), key=lambda x: len(x[1]), reverse=True)
+        
+        for term_id, term in sorted_terms:
+            # Use word boundaries for better matching
+            pattern = r'\b' + re.escape(term) + r'\b'
+            protected_text = re.sub(pattern, term_id, protected_text, flags=re.IGNORECASE)
+        
+        return protected_text
+
+    def restore_medical_terms(self, text: str, term_db: Dict[str, str]) -> str:
+        """Restore terms with validation."""
+        if not text or not term_db:
+            return text
+            
+        restored_text = text
+        unreplaced_count = 0
+        
+        for term_id, term in term_db.items():
+            if term_id in restored_text:
+                restored_text = restored_text.replace(term_id, term)
+            else:
+                unreplaced_count += 1
+        
+        # Log if restoration failed
+        if unreplaced_count > 0:
+            print(f"      ⚠️  {unreplaced_count} medical terms failed to restore")
+        
+        return restored_text
+
+    def count_tokens_accurately(self, text: str) -> int:
+        """Simplified token counting."""
         if not text:
             return 0
+        
+        # Simple approximation: 4 characters per token on average
+        return len(text) // 4
+
+    def split_text_into_chunks(self, text: str) -> List[str]:
+        """Improved text splitting with better sentence boundary detection."""
+        if not text:
+            return []
             
-        # Base character-to-token ratio
-        base_tokens = len(text) // 4
+        max_chars = self.chunk_params['max_chars']
         
-        # Add complexity bonus for medical content
-        medical_density = 0
-        for pattern_group in self.preservation_patterns.values():
-            for pattern in pattern_group:
-                matches = len(re.findall(pattern, text, re.IGNORECASE))
-                medical_density += matches
+        if len(text) <= max_chars:
+            return [text]
         
-        # Adjust token count based on medical complexity
-        complexity_multiplier = 1 + (medical_density * 0.1)
-        return int(base_tokens * complexity_multiplier)
-
-    def detect_dynamic_preservation_terms(self, text: str) -> Dict[str, List[str]]:
-        """
-        Dynamically detect terms that should be preserved based on patterns.
-        Returns categorized terms found in the text.
-        """
-        found_terms = {}
+        chunks = []
+        remaining_text = text
         
-        for category, patterns in self.preservation_patterns.items():
-            found_terms[category] = []
-            for pattern in patterns:
-                try:
-                    matches = re.findall(pattern, text, re.IGNORECASE)
-                    # Flatten nested matches and remove duplicates
-                    if matches:
-                        flat_matches = []
-                        for match in matches:
-                            if isinstance(match, tuple):
-                                flat_matches.extend([m for m in match if m])
-                            else:
-                                flat_matches.append(match)
-                        found_terms[category].extend(list(set(flat_matches)))
-                except re.error:
+        while remaining_text:
+            if len(remaining_text) <= max_chars:
+                chunks.append(remaining_text)
+                break
+            
+            # Find the best split point - prioritize sentence boundaries
+            split_point = max_chars
+            
+            # Look for sentence endings first
+            for i in range(max_chars, max_chars // 2, -1):
+                if i >= len(remaining_text):
                     continue
+                    
+                char = remaining_text[i]
+                # Strong sentence boundaries
+                if char in '.!?' and i + 1 < len(remaining_text):
+                    next_char = remaining_text[i + 1]
+                    if next_char.isspace() or next_char.isupper():
+                        split_point = i + 1
+                        break
+                # Paragraph breaks
+                elif char == '\n' and remaining_text[i:i+2] == '\n\n':
+                    split_point = i + 2
+                    break
+            
+            # If no good sentence boundary found, look for word boundaries
+            if split_point == max_chars:
+                for i in range(max_chars, max_chars // 2, -1):
+                    if i >= len(remaining_text):
+                        continue
+                    if remaining_text[i].isspace():
+                        split_point = i
+                        break
+            
+            chunk = remaining_text[:split_point].strip()
+            if chunk:
+                chunks.append(chunk)
+            
+            remaining_text = remaining_text[split_point:].strip()
         
-        return found_terms
+        return [chunk for chunk in chunks if chunk.strip()]
 
-    def should_translate_medical_term(self, term: str, context: str) -> bool:
-        """
-        Determine if a medical term should be translated based on context.
-        Considers whether the term is a general medical concept vs. specific identifier.
-        """
-        term_lower = term.lower()
-        context_lower = context.lower()
+    def adaptive_chunk_for_translation(self, text: str) -> List[str]:
+        """Simplified chunking for medical documents."""
+        if not text:
+            return []
+            
+        # Check if chunking is needed
+        if self.count_tokens_accurately(text) <= 500 and len(text) <= self.chunk_params['max_chars']:
+            return [text]
         
-        # Never translate if it matches technical preservation patterns
-        for pattern_group in ['drug_names', 'medical_abbreviations', 'statistical_measures']:
-            if pattern_group in self.preservation_patterns:
-                for pattern in self.preservation_patterns[pattern_group]:
-                    if re.search(pattern, term, re.IGNORECASE):
-                        return False
+        print(f"      🔨 Chunking needed for large text ({len(text)} chars)")
         
-        # Consider translating if it's a general medical concept in translation context
-        for category, patterns in self.translation_context_patterns.items():
-            for pattern in patterns:
-                if (re.search(pattern, term_lower) and 
-                    any(re.search(ctx_pattern, context_lower) for ctx_pattern in patterns)):
-                    return True
+        chunks = self.split_text_into_chunks(text)
         
-        return False
+        print(f"      ✓ Created {len(chunks)} chunks with improved sentence boundaries")
+        return chunks
 
     def is_table_content(self, text: str) -> bool:
-        """
-        Enhanced table detection using multiple indicators.
-        """
+        """Check if text is table content."""
         if not text:
             return False
             
-        # Check for strong table indicators
-        strong_indicators = 0
-        for pattern in self.table_indicators['strong_patterns']:
+        for pattern in self.table_patterns:
             if re.search(pattern, text, re.IGNORECASE):
-                strong_indicators += 1
-        
-        if strong_indicators >= 2:
-            return True
-        
-        # Check for specialized table types
-        for table_type, patterns in self.table_indicators.items():
-            if table_type == 'strong_patterns':
-                continue
-            matches = sum(1 for pattern in patterns if re.search(pattern, text, re.IGNORECASE))
-            if matches >= 2:
                 return True
         
-        # Structural indicators
+        # Check for structural indicators
         line_count = len(text.split('\n'))
         pipe_density = text.count('|') / max(len(text), 1)
         numeric_density = len(re.findall(r'\d+(?:\.\d+)?', text)) / max(len(text.split()), 1)
         
         return (line_count >= 5 and pipe_density > 0.05) or numeric_density > 0.3
 
-    def identify_semantic_boundaries(self, text: str) -> List[int]:
-        """
-        Identify positions where text can be safely split while preserving medical concepts.
-        Returns list of character positions suitable for splitting.
-        """
-        boundaries = []
-        
-        # Medical concept boundaries (higher priority)
-        medical_boundary_patterns = [
-            r'\.\s+(?=(?:Study|Trial|Patient|Treatment|Drug|Therapy|Analysis)\s)',
-            r'\.\s+(?=\d+\.\s)',  # Numbered sections
-            r'\n\n•\s+',  # Bullet points
-            r'\.\s+(?=The\s+(?:primary|secondary|main)\s)',  # Key sections
-            r'\.\s+(?=In\s+(?:this|the)\s+(?:study|trial|analysis)\s)',
-        ]
-        
-        # Standard boundaries (lower priority)
-        standard_patterns = [
-            r'\.\s+[A-Z]',  # Sentence boundaries
-            r'\n\n',  # Paragraph breaks
-            r'[;:]\s+',  # Semi-colon/colon breaks
-        ]
-        
-        # Find medical boundaries first
-        for pattern in medical_boundary_patterns:
-            for match in re.finditer(pattern, text, re.IGNORECASE):
-                boundaries.append(match.start())
-        
-        # Add standard boundaries if not enough medical ones
-        if len(boundaries) < 3:
-            for pattern in standard_patterns:
-                for match in re.finditer(pattern, text):
-                    boundaries.append(match.start())
-        
-        return sorted(list(set(boundaries)))
-
-    def adaptive_chunk_for_translation(self, text: str, max_tokens: int = None) -> List[Dict[str, Any]]:
-        """
-        Enhanced chunking that preserves medical concepts and regulatory language.
-        """
-        if max_tokens is None:
-            max_tokens = self.translation_chunk_params['max_tokens']
-            
-        # Check for medical content and adjust token limit
-        is_medical_heavy = any(
-            len(re.findall(pattern, text, re.IGNORECASE)) > 2
-            for pattern_group in self.preservation_patterns.values()
-            for pattern in pattern_group[:2]  # Check first 2 patterns of each group
-        )
-        
-        if is_medical_heavy:
-            max_tokens += self.translation_chunk_params['medical_concept_boundary_bonus']
-            
-        if self.count_tokens(text) <= max_tokens:
-            return [{'text': text, 'is_sub_chunk': False, 'chunk_index': 0, 'is_medical_heavy': is_medical_heavy}]
-        
-        print(f"      🔨 Medical-aware chunking needed (estimated {self.count_tokens(text)} tokens > {max_tokens})")
-        
-        # Use semantic boundaries for medical content
-        boundaries = self.identify_semantic_boundaries(text)
-        chunks = self._split_by_medical_boundaries(text, boundaries, max_tokens)
-        
-        # Add metadata to chunks
-        chunk_data = []
-        for i, chunk_text in enumerate(chunks):
-            chunk_data.append({
-                'text': chunk_text,
-                'is_sub_chunk': len(chunks) > 1,
-                'chunk_index': i,
-                'total_sub_chunks': len(chunks),
-                'is_medical_heavy': is_medical_heavy,
-                'preservation_terms': self.detect_dynamic_preservation_terms(chunk_text)
-            })
-        
-        print(f"      ✓ Created {len(chunks)} medical-aware translation sub-chunks")
-        return chunk_data
-
-    def _split_by_medical_boundaries(self, text: str, boundaries: List[int], max_tokens: int) -> List[str]:
-        """
-        Split text at medical boundaries while respecting token limits.
-        """
-        if not boundaries:
-            return self._force_split_by_chars(text, max_tokens)
-        
-        chunks = []
-        current_start = 0
-        
-        for boundary in boundaries:
-            potential_chunk = text[current_start:boundary + 1].strip()
-            
-            if not potential_chunk:
-                continue
-                
-            if self.count_tokens(potential_chunk) <= max_tokens:
-                continue
-            else:
-                # Take chunk up to previous boundary or force split
-                if current_start < boundary:
-                    prev_chunk = text[current_start:boundary].strip()
-                    if prev_chunk:
-                        if self.count_tokens(prev_chunk) <= max_tokens:
-                            chunks.append(prev_chunk)
-                            current_start = boundary
-                        else:
-                            # Force split the oversized chunk
-                            force_chunks = self._force_split_by_chars(prev_chunk, max_tokens)
-                            chunks.extend(force_chunks)
-                            current_start = boundary
-        
-        # Add remaining text
-        remaining = text[current_start:].strip()
-        if remaining:
-            if self.count_tokens(remaining) <= max_tokens:
-                chunks.append(remaining)
-            else:
-                force_chunks = self._force_split_by_chars(remaining, max_tokens)
-                chunks.extend(force_chunks)
-        
-        return [chunk for chunk in chunks if chunk.strip()]
-
-    def _force_split_by_chars(self, text: str, max_tokens: int) -> List[str]:
-        """
-        Force split text by character count while trying to preserve medical terms.
-        """
-        max_chars = max_tokens * 4
-        chunks = []
-        
-        while text:
-            if len(text) <= max_chars:
-                chunks.append(text)
-                break
-            
-            # Find a safe split point that doesn't break medical terms
-            split_point = max_chars
-            
-            # Look for medical term boundaries
-            for i in range(max_chars, max(max_chars // 2, 100), -1):
-                if i >= len(text):
-                    continue
-                    
-                char = text[i]
-                if char.isspace():
-                    # Check if we're not in the middle of a medical term
-                    before_space = text[max(0, i-20):i]
-                    after_space = text[i:min(len(text), i+20)]
-                    
-                    # Simple check for medical term patterns
-                    if not (re.search(r'[A-Z]{2,}$', before_space) and 
-                           re.search(r'^[A-Z0-9]', after_space.strip())):
-                        split_point = i
-                        break
-            
-            chunk = text[:split_point].strip()
-            if chunk:
-                chunks.append(chunk)
-            
-            text = text[split_point:].strip()
-        
-        return chunks
-
-    def preserve_dynamic_terms(self, text: str) -> tuple:
-        """
-        Enhanced preservation using dynamic term detection and context analysis.
-        """
-        if not text or not isinstance(text, str):
-            return text, {}
-            
-        preserved = {}
-        modified_text = text
-        preserved_count = 0
-        
-        # Get all terms to preserve from this text
-        found_terms = self.detect_dynamic_preservation_terms(text)
-        
-        try:
-            for category, terms in found_terms.items():
-                for term in terms:
-                    if not isinstance(term, str) or not term.strip():
-                        continue
-                    
-                    # Check if this term should be preserved or translated
-                    if category in ['cross_references', 'regulatory_bodies', 'statistical_measures']:
-                        # Always preserve these categories
-                        should_preserve = True
-                    elif category in ['drug_names', 'medical_abbreviations']:
-                        # Usually preserve, but check context
-                        should_preserve = not self.should_translate_medical_term(term, text)
-                    else:
-                        # Context-dependent preservation
-                        should_preserve = not self.should_translate_medical_term(term, text)
-                    
-                    if should_preserve:
-                        placeholder = f"__PRESERVE_{category.upper()}_{preserved_count}__"
-                        try:
-                            # Use word boundaries for better matching
-                            pattern = r'\b' + re.escape(term) + r'\b'
-                            if re.search(pattern, modified_text, re.IGNORECASE):
-                                modified_text = re.sub(pattern, placeholder, modified_text, flags=re.IGNORECASE)
-                                preserved[placeholder] = term
-                                preserved_count += 1
-                        except re.error:
-                            continue
-                            
-            return modified_text, preserved
-        except (AttributeError, TypeError):
-            return text, {}
-
-    def restore_preserved_terms(self, text: str, preserved: dict) -> str:
-        """
-        Restore preserved terms after translation with additional cleanup.
-        """
-        if not preserved:
-            return text
-            
-        for placeholder, term in preserved.items():
-            text = text.replace(placeholder, term)
-        
-        # Clean up any spacing issues around restored terms
-        text = re.sub(r'\s+([.,;:])', r'\1', text)  # Remove spaces before punctuation
-        text = re.sub(r'([.,;:])\s+(\w)', r'\1 \2', text)  # Ensure space after punctuation
-        
-        return text
-
-    def assess_medical_quality(self, original_text: str, translated_text: str) -> Dict[str, float]:
-        """
-        Enhanced quality assessment with medical-specific metrics.
-        """
-        if not translated_text.strip():
-            return {
-                'quantitative_preservation': 0.0,
-                'regulatory_preservation': 0.0,
-                'medical_coherence': 0.0,
-                'cross_reference_preservation': 0.0
-            }
-        
-        scores = {}
-        
-        # Quantitative data preservation
-        orig_numbers = re.findall(r'\d+(?:\.\d+)?(?:\s*[%€$]|\s*mg|\s*CI)', original_text)
-        trans_numbers = re.findall(r'\d+(?:\.\d+)?(?:\s*[%€$]|\s*mg|\s*CI)', translated_text)
-        scores['quantitative_preservation'] = min(len(trans_numbers) / max(len(orig_numbers), 1), 1.0)
-        
-        # Regulatory language preservation
-        orig_regulatory = self.detect_dynamic_preservation_terms(original_text).get('regulatory_bodies', [])
-        trans_regulatory = self.detect_dynamic_preservation_terms(translated_text).get('regulatory_bodies', [])
-        scores['regulatory_preservation'] = min(len(trans_regulatory) / max(len(orig_regulatory), 1), 1.0)
-        
-        # Cross-reference preservation
-        orig_refs = self.detect_dynamic_preservation_terms(original_text).get('cross_references', [])
-        trans_refs = self.detect_dynamic_preservation_terms(translated_text).get('cross_references', [])
-        scores['cross_reference_preservation'] = min(len(trans_refs) / max(len(orig_refs), 1), 1.0)
-        
-        # Medical coherence assessment
-        scores['medical_coherence'] = self.assess_medical_coherence(translated_text)
-        
-        return scores
-
     def assess_translation_quality(self, original_text: str, translated_text: str, language: str) -> Dict[str, float]:
-        """
-        Enhanced quality assessment incorporating medical-specific metrics.
-        """
+        """Enhanced quality assessment with medical focus and English quality checks."""
         if not translated_text.strip():
-            return {'overall': 0.0, 'repetition': 0.0, 'coherence': 0.0, 'language': 0.0, 'medical': 0.0}
+            return {'overall': 0.0, 'english_quality': 0.0, 'medical_preservation': 0.0, 'has_placeholders': 1.0}
         
-        # Basic quality metrics
-        repetition_score = 1.0 - (1.0 if self.detect_repetition(translated_text) else 0.0)
+        # Check for unreplaced placeholders
+        placeholder_score = 1.0
+        if re.search(r'MEDTERM\d+', translated_text) or re.search(r'\[MED\d+\]', translated_text):
+            placeholder_score = 0.0
+            print(f"      ⚠️  Found unreplaced placeholders in translation")
         
-        len_ratio = len(translated_text) / max(len(original_text), 1)
-        length_score = 1.0 if 0.4 <= len_ratio <= 2.5 else 0.6 if 0.2 <= len_ratio <= 4.0 else 0.3
-        
+        # Basic English quality checks
+        english_quality = 1.0
         try:
             detected_lang = detect(translated_text)
-            language_score = 1.0 if detected_lang == 'en' else 0.2
+            if detected_lang != 'en':
+                english_quality *= 0.3
         except:
-            language_score = 0.5
+            english_quality *= 0.5
         
-        # Enhanced medical assessment
-        medical_scores = self.assess_medical_quality(original_text, translated_text)
+        # Check for basic English patterns
+        if not re.search(r'\b(?:the|and|of|to|a|in|is|it|that|for|on|with|as)\b', translated_text.lower()):
+            english_quality *= 0.5
         
-        # Table content handling
-        table_penalty = 0.0
-        if self.is_table_content(original_text):
-            # More lenient scoring for table content
-            if not self.is_table_content(translated_text):
-                table_penalty = 0.2
+        # Check for excessive repetition
+        words = translated_text.split()
+        if len(words) > 10:
+            unique_words = set(words)
+            if len(unique_words) / len(words) < 0.5:
+                english_quality *= 0.5
         
-        # Artifact detection
-        artifact_count = self.count_artifacts(translated_text)
-        word_count = len(translated_text.split())
-        artifact_score = max(0.0, 1.0 - (artifact_count / max(word_count, 1)) * 5)
+        # Length ratio check
+        len_ratio = len(translated_text) / max(len(original_text), 1)
+        length_score = 1.0 if 0.5 <= len_ratio <= 2.5 else 0.5
         
-        # Weighted scoring with medical emphasis
-        base_scores = {
-            'repetition': repetition_score,
-            'length': length_score,
-            'language': language_score,
-            'artifacts': artifact_score,
-            'coherence': medical_scores['medical_coherence']
-        }
-        
-        # Combine medical scores
-        medical_score = (
-            medical_scores['quantitative_preservation'] * 0.3 +
-            medical_scores['regulatory_preservation'] * 0.25 +
-            medical_scores['cross_reference_preservation'] * 0.25 +
-            medical_scores['medical_coherence'] * 0.2
-        ) - table_penalty
-        
-        base_scores['medical'] = max(0.0, medical_score)
+        # Medical term preservation check (simplified)
+        orig_terms = self.extract_medical_terms_database(original_text)
+        medical_preservation = 1.0
+        if orig_terms:
+            preserved_count = 0
+            for term in orig_terms.values():
+                if term.lower() in translated_text.lower():
+                    preserved_count += 1
+            medical_preservation = preserved_count / len(orig_terms)
         
         # Overall weighted score
-        weights = {
-            'repetition': 0.20,
-            'length': 0.10,
-            'language': 0.15,
-            'medical': 0.40,  # Highest weight for medical content
-            'artifacts': 0.10,
-            'coherence': 0.05
+        overall_score = (
+            placeholder_score * 0.30 +  # Critical: no unreplaced placeholders
+            english_quality * 0.35 +     # Important: good English
+            medical_preservation * 0.25 + # Important: preserve medical terms
+            length_score * 0.10           # Basic: reasonable length
+        )
+        
+        return {
+            'overall': overall_score,
+            'english_quality': english_quality,
+            'medical_preservation': medical_preservation,
+            'has_placeholders': 1.0 - placeholder_score,
+            'length_score': length_score
         }
-        
-        overall_score = sum(weights[k] * base_scores[k] for k in weights.keys())
-        base_scores['overall'] = overall_score
-        
-        return base_scores
 
     def assess_document_quality(self, translated_data: dict, original_data: dict, language: str) -> Dict[str, float]:
-        """
-        Enhanced document-level quality assessment with medical focus.
-        """
+        """Document-level quality assessment."""
         if 'chunks' not in translated_data or 'chunks' not in original_data:
             return {'overall': 0.0, 'chunk_count': 0}
         
         chunk_qualities = []
-        total_original_text = ""
-        total_translated_text = ""
-        table_chunks = 0
-        regular_chunks = 0
         
         for orig_chunk, trans_chunk in zip(original_data['chunks'], translated_data['chunks']):
-            # Track content types
-            is_table = False
-            
-            # Assess heading if present
-            if 'heading' in orig_chunk and 'heading' in trans_chunk:
-                if orig_chunk['heading'] and trans_chunk['heading']:
-                    heading_quality = self.assess_translation_quality(
-                        orig_chunk['heading'], trans_chunk['heading'], language
-                    )
-                    chunk_qualities.append(heading_quality)
-                    total_original_text += " " + orig_chunk['heading']
-                    total_translated_text += " " + trans_chunk['heading']
-            
-            # Assess text if present
             if 'text' in orig_chunk and 'text' in trans_chunk:
                 if orig_chunk['text'] and trans_chunk['text']:
-                    is_table = self.is_table_content(orig_chunk['text'])
                     text_quality = self.assess_translation_quality(
                         orig_chunk['text'], trans_chunk['text'], language
                     )
                     chunk_qualities.append(text_quality)
-                    total_original_text += " " + orig_chunk['text']
-                    total_translated_text += " " + trans_chunk['text']
-                    
-                    if is_table:
-                        table_chunks += 1
-                    else:
-                        regular_chunks += 1
         
         if not chunk_qualities:
             return {'overall': 0.0, 'chunk_count': 0}
         
-        # Calculate aggregate metrics
-        metrics = ['overall', 'repetition', 'language', 'medical', 'artifacts', 'coherence']
-        aggregate_scores = {}
+        # Calculate averages
+        metrics = ['overall', 'english_quality', 'medical_preservation', 'has_placeholders', 'length_score']
+        final_scores = {}
         
         for metric in metrics:
             scores = [quality[metric] for quality in chunk_qualities if metric in quality]
-            aggregate_scores[metric] = sum(scores) / len(scores) if scores else 0.0
+            final_scores[metric] = sum(scores) / len(scores) if scores else 0.0
         
-        # Document-level assessment
-        doc_level_quality = self.assess_translation_quality(
-            total_original_text.strip(), total_translated_text.strip(), language
-        )
-        
-        # Combine assessments with medical weighting
-        final_scores = {}
-        for metric in metrics:
-            chunk_score = aggregate_scores.get(metric, 0.0)
-            doc_score = doc_level_quality.get(metric, 0.0)
-            
-            # Weight chunk-level more heavily for medical content
-            if metric == 'medical':
-                final_scores[metric] = (chunk_score * 0.8) + (doc_score * 0.2)
-            else:
-                final_scores[metric] = (chunk_score * 0.7) + (doc_score * 0.3)
-        
-        final_scores.update({
-            'chunk_count': len(chunk_qualities),
-            'table_chunks': table_chunks,
-            'regular_chunks': regular_chunks,
-            'avg_chunk_quality': aggregate_scores.get('overall', 0.0),
-            'doc_level_quality': doc_level_quality.get('overall', 0.0)
-        })
+        final_scores['chunk_count'] = len(chunk_qualities)
         
         return final_scores
 
     def should_retranslate_with_higher_tier(self, quality_scores: Dict[str, float]) -> bool:
-        """
-        Enhanced retranslation decision with medical-specific thresholds.
-        """
+        """Updated logic to prefer tier 2 for medical documents."""
         overall_quality = quality_scores.get('overall', 0.0)
-        medical_score = quality_scores.get('medical', 0.0)
-        repetition_score = quality_scores.get('repetition', 0.0)
+        medical_score = quality_scores.get('medical_preservation', 0.0)
+        has_placeholders = quality_scores.get('has_placeholders', 0.0)
         
-        # Primary threshold check
-        if overall_quality < self.document_quality_thresholds['tier_1_to_2_threshold']:
+        # Always retranslate if placeholders weren't restored
+        if has_placeholders > 0.1:
+            print(f"    📉 Unreplaced placeholders detected - retranslating")
+            return True
+        
+        if overall_quality < self.quality_thresholds['tier_1_to_2_threshold']:
             print(f"    📉 Overall quality {overall_quality:.3f} below threshold")
             return True
         
-        # Medical-specific checks
-        if medical_score < self.document_quality_thresholds['medical_preservation_threshold']:
+        if medical_score < self.quality_thresholds['medical_preservation_threshold']:
             print(f"    🏥 Medical preservation {medical_score:.3f} below threshold")
-            return True
-            
-        if repetition_score < self.document_quality_thresholds['repetition_penalty_threshold']:
-            print(f"    🔄 Repetition issues detected")
             return True
         
         return False
 
     def compare_translation_quality(self, quality_1: Dict[str, float], quality_2: Dict[str, float]) -> int:
-        """
-        Enhanced quality comparison with medical priority.
-        """
-        # Primary: overall quality
+        """Compare two quality scores with focus on medical preservation."""
+        # Strongly penalize unreplaced placeholders
+        if quality_1.get('has_placeholders', 0) < quality_2.get('has_placeholders', 0):
+            return 1
+        elif quality_1.get('has_placeholders', 0) > quality_2.get('has_placeholders', 0):
+            return 2
+        
+        # Compare overall quality
         if abs(quality_1['overall'] - quality_2['overall']) > 0.05:
             return 1 if quality_1['overall'] > quality_2['overall'] else 2
         
-        # Secondary: medical preservation (critical)
-        med_diff = quality_1.get('medical', 0) - quality_2.get('medical', 0)
+        # Secondary: medical preservation
+        med_diff = quality_1.get('medical_preservation', 0) - quality_2.get('medical_preservation', 0)
         if abs(med_diff) > 0.08:
             return 1 if med_diff > 0 else 2
         
-        # Tertiary: repetition issues
-        rep_diff = quality_1.get('repetition', 0) - quality_2.get('repetition', 0)
-        if abs(rep_diff) > 0.1:
-            return 1 if rep_diff > 0 else 2
-        
         return 1
 
-    def assess_medical_coherence(self, text: str) -> float:
-        """
-        Enhanced medical coherence assessment.
-        """
-        if not text:
-            return 0.0
-        
-        penalties = 0
-        
-        # Check for medical nonsense patterns
-        nonsense_patterns = [
-            r'(\b(?:patient|treatment|study|drug)\b\s+){4,}',
-            r'(\d+\.\d+\s+){4,}(?!CI|HR|OR)',  # Repeated numbers not in medical context
-            r'(\b(?:mg|ml|kg)\b\s+){3,}',
-        ]
-        
-        for pattern in nonsense_patterns:
-            if re.search(pattern, text, re.IGNORECASE):
-                penalties += 1
-        
-        # Check for preserved medical structure
-        medical_structure_bonus = 0
-        structure_patterns = [
-            r'\b(?:HR|OR|RR)\s*[=:]\s*\d+\.\d+',
-            r'95%\s*CI[:\s]*\d+\.\d+[-–,;\s]*\d+\.\d+',
-            r'p\s*[<>=≤≥]\s*\d+\.\d+',
-        ]
-        
-        for pattern in structure_patterns:
-            if re.search(pattern, text):
-                medical_structure_bonus += 0.1
-        
-        base_score = max(0.0, 1.0 - (penalties * 0.25))
-        return min(1.0, base_score + medical_structure_bonus)
+    def detect_document_language(self, text: str) -> Optional[str]:
+        """Detect the primary language of a document."""
+        if not text or len(text.strip()) < 20:
+            return None
 
-    def count_artifacts(self, text: str) -> int:
-        """
-        Enhanced artifact counting with medical context awareness.
-        """
-        if not text or not isinstance(text, str):
-            return 0
-            
-        # Check medical exclusions first
         try:
-            for exclusion_pattern in self.medical_exclusions:
-                if isinstance(exclusion_pattern, str) and re.search(exclusion_pattern, text, re.IGNORECASE):
-                    return 0
-        except (TypeError, re.error, AttributeError):
-            pass
-        
-        artifact_count = 0
-        try:
-            for pattern in self.translation_artifact_patterns:
-                if isinstance(pattern, str):
-                    try:
-                        matches = re.findall(pattern, text)
-                        artifact_count += len(matches)
-                    except (TypeError, re.error):
-                        continue
-        except (AttributeError, TypeError):
-            pass
-        
-        return artifact_count
+            clean_text = ' '.join(text.split()[:200])
+            detected_lang = detect(clean_text)
+            print(f"    Detected language: {detected_lang}")
+            return detected_lang
+        except Exception:
+            print("    Language detection failed")
+            return None
+
+    def is_english_chunk(self, text: str) -> bool:
+        """Quick check if a chunk is in English."""
+        if not text or len(text.strip()) < 10:
+            return True
+
+        text_lower = text.lower()
+        english_words = [
+            ' the ', ' and ', ' of ', ' to ', ' a ', ' in ', ' is ', ' it ', ' you ', ' that ',
+            ' he ', ' was ', ' for ', ' on ', ' are ', ' as ', ' with ', ' his ', ' they '
+        ]
+
+        english_count = sum(1 for word in english_words if word in f' {text_lower} ')
+        total_words = len(text.split())
+
+        if total_words > 5:
+            english_ratio = english_count / total_words
+            return english_ratio > 0.1
+
+        return False
 
     def check_model_availability(self, model_name: str) -> bool:
-        """Check if a model is available and can be loaded."""
+        """Check if a model is available."""
         try:
             tokenizer = AutoTokenizer.from_pretrained(model_name)
             return True
@@ -2727,7 +2359,7 @@ class Translator:
             return False
 
     def get_available_models_for_tier(self, tier: int, language: str) -> List[str]:
-        """Get list of available models for a tier and language."""
+        """Get available models for a tier and language."""
         available_models = []
         
         if tier == 1:
@@ -2744,42 +2376,16 @@ class Translator:
                     
         elif tier == 2:
             if language in self.nllb_lang_mapping:
-                if 'nllb_distilled' in self.model_tiers[2]:
-                    model_name = self.model_tiers[2]['nllb_distilled']
-                    if self.check_model_availability(model_name):
-                        available_models.append(model_name)
-                
-                if 'nllb_large' in self.model_tiers[2]:
-                    model_name = self.model_tiers[2]['nllb_large']
-                    if self.check_model_availability(model_name):
-                        available_models.append(model_name)
-                
-                if 'fallback' in self.model_tiers[2]:
-                    fallback_model = self.model_tiers[2]['fallback']
-                    if self.check_model_availability(fallback_model):
-                        available_models.append(fallback_model)
-                        
-        elif tier == 3:
-            if language in self.nllb_lang_mapping:
-                if 'nllb_xl' in self.model_tiers[3]:
-                    model_name = self.model_tiers[3]['nllb_xl']
-                    if self.check_model_availability(model_name):
-                        available_models.append(model_name)
-                
-                if 'm2m100_large' in self.model_tiers[3]:
-                    model_name = self.model_tiers[3]['m2m100_large']
-                    if self.check_model_availability(model_name):
-                        available_models.append(model_name)
-                
-                if 'fallback' in self.model_tiers[3]:
-                    fallback_model = self.model_tiers[3]['fallback']
-                    if self.check_model_availability(fallback_model):
-                        available_models.append(fallback_model)
+                for model_key in ['nllb_xl', 'nllb_large', 'fallback']:
+                    if model_key in self.model_tiers[2]:
+                        model_name = self.model_tiers[2][model_key]
+                        if self.check_model_availability(model_name):
+                            available_models.append(model_name)
         
         return available_models
 
     def load_helsinki_model(self, model_name: str, language: str) -> Optional[Any]:
-        """Load Helsinki model with error handling."""
+        """Load Helsinki model."""
         try:
             if self.device.startswith("cuda"):
                 torch.cuda.empty_cache()
@@ -2817,7 +2423,7 @@ class Translator:
                 raise e
 
     def load_nllb_model(self, model_name: str, language: str) -> Optional[Any]:
-        """Load NLLB model with medical-optimized parameters."""
+        """Load NLLB model."""
         try:
             if self.device.startswith("cuda"):
                 torch.cuda.empty_cache()
@@ -2836,21 +2442,20 @@ class Translator:
             def nllb_translate(text, generation_params=None):
                 try:
                     tgt_lang = 'eng_Latn'
-
-                    max_input_length = min(512, generation_params.get('max_length', 400) + 50) if generation_params else 256
+                    max_input_length = 600  # Increased for better context
+                    
                     inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=max_input_length)
                     if self.device.startswith("cuda"):
                         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
-                    # Medical-optimized generation parameters
                     gen_kwargs = {
                         'forced_bos_token_id': tokenizer.convert_tokens_to_ids(tgt_lang),
-                        'max_length': generation_params.get('max_length', 256) if generation_params else 256,
-                        'num_beams': generation_params.get('num_beams', 3) if generation_params else 3,
-                        'length_penalty': generation_params.get('length_penalty', 1.0) if generation_params else 1.0,
-                        'do_sample': generation_params.get('do_sample', False) if generation_params else False,
-                        'no_repeat_ngram_size': generation_params.get('no_repeat_ngram_size', 3) if generation_params else 3,
-                        'repetition_penalty': generation_params.get('repetition_penalty', 1.2) if generation_params else 1.2,
+                        'max_length': 400,  # Increased for better translations
+                        'num_beams': 4,     # More beams for better quality
+                        'length_penalty': 1.0,
+                        'do_sample': False,
+                        'no_repeat_ngram_size': 3,
+                        'repetition_penalty': 1.2,
                     }
 
                     with torch.no_grad():
@@ -2871,7 +2476,7 @@ class Translator:
             return None
 
     def load_translator_for_tier(self, language: str, tier: int) -> Optional[Any]:
-        """Load the appropriate translator for the given language and tier."""
+        """Load translator for given language and tier."""
         print(f"    Loading translator for language: {language} (Tier {tier})")
         
         available_models = self.get_available_models_for_tier(tier, language)
@@ -2903,8 +2508,8 @@ class Translator:
         print(f"    ✗ No translator could be loaded for language: {language} at tier {tier}")
         return None
 
-    def load_translator_for_language(self, language: str, target_tier: int = 1):
-        """Load the appropriate translator for the given language."""
+    def load_translator_for_language(self, language: str, target_tier: int = 2):  # Changed default to tier 2
+        """Load translator for given language - now defaults to tier 2 for medical docs."""
         if self.current_language == language and self.current_tier == target_tier and self.current_translator:
             return self.current_translator
 
@@ -2921,302 +2526,86 @@ class Translator:
             print(f"    ✓ Successfully loaded translator for {language}")
             return translator
         else:
-            for fallback_tier in [1, 2, 3]:
-                if fallback_tier == target_tier:
-                    continue
-                print(f"    Trying fallback to Tier {fallback_tier}")
-                translator = self.load_translator_for_tier(language, fallback_tier)
-                if translator:
-                    self.current_translator = translator
-                    self.current_language = language
-                    self.current_tier = fallback_tier
-                    print(f"    ✓ Successfully loaded fallback translator (Tier {fallback_tier})")
-                    return translator
+            # Try other tier as fallback
+            fallback_tier = 1 if target_tier == 2 else 2
+            print(f"    Trying fallback to Tier {fallback_tier}")
+            translator = self.load_translator_for_tier(language, fallback_tier)
+            if translator:
+                self.current_translator = translator
+                self.current_language = language
+                self.current_tier = fallback_tier
+                print(f"    ✓ Successfully loaded fallback translator (Tier {fallback_tier})")
+                return translator
             
             print(f"    ✗ No translator available for language: {language}")
             return None
 
-    def clean_translation_artifacts(self, text: str) -> str:
-        """Clean translation artifacts while preserving medical terminology."""
-        if not text or not isinstance(text, str):
-            return text
-            
-        try:
-            for exclusion_pattern in self.medical_exclusions:
-                if isinstance(exclusion_pattern, str) and re.search(exclusion_pattern, text, re.IGNORECASE):
-                    return text
-        except (TypeError, re.error, AttributeError):
-            pass
-        
-        cleaned_text = text
-        try:
-            for pattern in self.translation_artifact_patterns:
-                if isinstance(pattern, str):
-                    try:
-                        cleaned_text = re.sub(pattern, r'\1', cleaned_text)
-                    except (TypeError, re.error):
-                        continue
-        except (AttributeError, TypeError):
-            pass
-        
-        return cleaned_text
-
-    def detect_document_language(self, text: str) -> Optional[str]:
-        """Detect the primary language of a document."""
-        if not text or len(text.strip()) < 20:
-            return None
-
-        try:
-            clean_text = ' '.join(text.split()[:200])
-            detected_lang = detect(clean_text)
-            print(f"    Detected language: {detected_lang}")
-            return detected_lang
-        except Exception:
-            print("    Language detection failed")
-            return None
-
-    def is_english_chunk(self, text: str) -> bool:
-        """Quick check if a chunk is in English."""
-        if not text or len(text.strip()) < 10:
-            return True
-
-        text_lower = text.lower()
-        english_words = [
-            ' the ', ' and ', ' of ', ' to ', ' a ', ' in ', ' is ', ' it ', ' you ', ' that ',
-            ' he ', ' was ', ' for ', ' on ', ' are ', ' as ', ' with ', ' his ', ' they ',
-            ' i ', ' at ', ' be ', ' this ', ' have ', ' from ', ' or ', ' one ', ' had ',
-            ' by ', ' word ', ' but ', ' not ', ' what ', ' all ', ' were ', ' we '
-        ]
-
-        english_count = sum(1 for word in english_words if word in f' {text_lower} ')
-        total_words = len(text.split())
-
-        if total_words > 5:
-            english_ratio = english_count / total_words
-            return english_ratio > 0.1
-
-        return False
-
-    def detect_repetition(self, text: str, max_repeat_ratio: float = 0.3) -> bool:
-        """Detect if text has excessive repetition."""
-        if not text or not isinstance(text, str) or len(text) < 20:
-            return False
-        
-        try:
-            words = text.lower().split()
-            if len(words) < 10:
-                return False
-            
-            for n in [2, 3, 4]:
-                if len(words) < n:
-                    continue
-                    
-                ngrams = [' '.join(words[i:i+n]) for i in range(len(words)-n+1)]
-                if not ngrams:
-                    continue
-                    
-                ngram_counts = {}
-                for ngram in ngrams:
-                    ngram_counts[ngram] = ngram_counts.get(ngram, 0) + 1
-                
-                if ngram_counts:
-                    max_count = max(ngram_counts.values())
-                    repeat_ratio = max_count / len(ngrams)
-                    
-                    if repeat_ratio > max_repeat_ratio:
-                        return True
-            
-            return False
-            
-        except (TypeError, AttributeError):
-            return False
-
-    def get_generation_params(self, tier: int = 1) -> dict:
-        """Get generation parameters optimized for each tier."""
-        base_params = {
-            'max_length': 400,
-            'truncation': True,
-            'no_repeat_ngram_size': 4,  # Increased for medical content
-            'repetition_penalty': 1.25,  # Increased for medical accuracy
-            'do_sample': False,
-            'num_beams': 3,
-        }
-        
-        if tier >= 2:
-            base_params.update({
-                'num_beams': 4,
-                'length_penalty': 1.1,
-                'repetition_penalty': 1.3,
-                'no_repeat_ngram_size': 5,
-            })
-        
-        return base_params
-
     def translate_single_chunk(self, text: str, translator, tier: int = 1) -> str:
-        """
-        Translate a single chunk with enhanced medical preservation.
-        """
+        """Translate a single chunk using simplified medical term preservation."""
         if not text.strip() or not translator:
             return text
 
         try:
-            # Enhanced chunking with medical awareness
-            if self.should_rechunk_for_translation(text) or self.count_tokens(text) > self.translation_chunk_params['max_tokens']:
-                print(f"      🔨 Medical-aware chunking needed")
-                
-                translation_chunks = self.adaptive_chunk_for_translation(text, self.translation_chunk_params['max_tokens'])
-                
-                translated_sub_chunks = []
-                for chunk_data in translation_chunks:
-                    sub_chunk_text = chunk_data['text']
-                    
-                    # Use enhanced preservation
-                    protected_text, preserved_terms = self.preserve_dynamic_terms(sub_chunk_text)
-                    
-                    gen_params = self.get_generation_params(tier)
-                    
-                    # Special handling for table content
-                    if self.is_table_content(sub_chunk_text):
-                        gen_params['repetition_penalty'] = 1.1  # More lenient for tables
-                        gen_params['length_penalty'] = 0.9
-                    
-                    if hasattr(translator, 'model'):
-                        pipeline_params = {k: v for k, v in gen_params.items() 
-                                         if k in ['max_length', 'truncation', 'no_repeat_ngram_size', 
-                                                 'repetition_penalty', 'do_sample', 'num_beams']}
-                        result = translator(protected_text, **pipeline_params)
-                    else:
-                        result = translator(protected_text, generation_params=gen_params)
-                    
-                    translated_sub_text = result[0]['translation_text']
-                    final_sub_text = self.restore_preserved_terms(translated_sub_text, preserved_terms)
-                    translated_sub_chunks.append(final_sub_text)
-                
-                final_text = self.merge_translated_chunks(translated_sub_chunks, text)
-                print(f"      ✓ Merged {len(translated_sub_chunks)} medical-aware sub-chunks")
-                
-            else:
-                # Standard single-chunk translation
-                protected_text, preserved_terms = self.preserve_dynamic_terms(text)
-                gen_params = self.get_generation_params(tier)
-                
-                if self.is_table_content(text):
-                    gen_params['repetition_penalty'] = 1.1
-                    gen_params['length_penalty'] = 0.9
+            # Extract medical terms and create simple database
+            term_db = self.extract_medical_terms_database(text)
+            
+            # Apply protection if terms found
+            protected_text = self.apply_medical_term_protection(text, term_db) if term_db else text
+            
+            # Check if chunking is needed
+            chunks = self.adaptive_chunk_for_translation(protected_text)
+            
+            if len(chunks) == 1:
+                # Single chunk translation
+                gen_params = {
+                    'max_length': 600,  # Increased for better translations
+                    'truncation': True,
+                    'no_repeat_ngram_size': 3,
+                    'repetition_penalty': 1.1,  # Reduced for more natural text
+                    'do_sample': False,
+                    'num_beams': 4,  # More beams for quality
+                }
                 
                 if hasattr(translator, 'model'):
-                    pipeline_params = {k: v for k, v in gen_params.items() 
-                                     if k in ['max_length', 'truncation', 'no_repeat_ngram_size', 
-                                             'repetition_penalty', 'do_sample', 'num_beams']}
-                    result = translator(protected_text, **pipeline_params)
+                    result = translator(protected_text, **gen_params)
                 else:
                     result = translator(protected_text, generation_params=gen_params)
                 
                 translated_text = result[0]['translation_text']
-                final_text = self.restore_preserved_terms(translated_text, preserved_terms)
+            else:
+                # Multi-chunk translation
+                translated_chunks = []
+                for chunk in chunks:
+                    gen_params = {
+                        'max_length': 500,
+                        'truncation': True,
+                        'no_repeat_ngram_size': 3,
+                        'repetition_penalty': 1.1,
+                        'do_sample': False,
+                        'num_beams': 4,
+                    }
+                    
+                    if hasattr(translator, 'model'):
+                        result = translator(chunk, **gen_params)
+                    else:
+                        result = translator(chunk, generation_params=gen_params)
+                    
+                    translated_chunks.append(result[0]['translation_text'])
+                
+                translated_text = ' '.join(translated_chunks)
+                print(f"      ✓ Merged {len(translated_chunks)} chunks")
             
-            cleaned_text = self.clean_translation_artifacts(final_text)
-            return cleaned_text
+            # Restore medical terms
+            final_text = self.restore_medical_terms(translated_text, term_db) if term_db else translated_text
+            
+            return final_text.strip()
 
         except Exception as e:
             print(f"      Translation error: {str(e)[:50]}")
             return text
 
-    def should_rechunk_for_translation(self, chunk: str, quality_threshold: float = None) -> bool:
-        """
-        Enhanced rechunking decision with medical context awareness.
-        """
-        if quality_threshold is None:
-            quality_threshold = self.translation_chunk_params['quality_threshold']
-            
-        complexity_indicators = {
-            'token_count': self.count_tokens(chunk),
-            'medical_density': sum(len(terms) for terms in self.detect_dynamic_preservation_terms(chunk).values()),
-            'table_content': 1.0 if self.is_table_content(chunk) else 0.0,
-            'cross_references': len(self.detect_dynamic_preservation_terms(chunk).get('cross_references', [])),
-            'statistical_measures': len(self.detect_dynamic_preservation_terms(chunk).get('statistical_measures', []))
-        }
-        
-        complexity_score = self._calculate_complexity_score(complexity_indicators)
-        return complexity_score > quality_threshold
-
-    def _calculate_complexity_score(self, indicators: Dict[str, float]) -> float:
-        """Calculate complexity score with medical weighting."""
-        weights = {
-            'token_count': 0.25,
-            'medical_density': 0.30,
-            'table_content': 0.20,
-            'cross_references': 0.15,
-            'statistical_measures': 0.10
-        }
-        
-        normalized = {}
-        normalized['token_count'] = min(1.0, indicators['token_count'] / 400)
-        normalized['medical_density'] = min(1.0, indicators['medical_density'] / 10)
-        normalized['table_content'] = indicators['table_content']
-        normalized['cross_references'] = min(1.0, indicators['cross_references'] / 5)
-        normalized['statistical_measures'] = min(1.0, indicators['statistical_measures'] / 5)
-        
-        score = sum(weights[key] * normalized[key] for key in weights.keys())
-        return score
-
-    def merge_translated_chunks(self, translated_sub_chunks: List[str], original_chunk_text: str) -> str:
-        """
-        Enhanced merging with medical context preservation.
-        """
-        if len(translated_sub_chunks) == 1:
-            return translated_sub_chunks[0]
-        
-        merged = []
-        
-        for i, sub_chunk in enumerate(translated_sub_chunks):
-            sub_chunk = sub_chunk.strip()
-            if not sub_chunk:
-                continue
-                
-            if merged:
-                last_chunk = merged[-1]
-                # Medical-aware spacing
-                if (re.search(r'[.!?]\s*$', last_chunk) or 
-                    re.search(r'^[A-Z]', sub_chunk) or
-                    re.search(r'^\d+\.', sub_chunk)):  # Numbered items
-                    if '\n\n' in original_chunk_text:
-                        merged.append('\n\n')
-                    else:
-                        merged.append(' ')
-                else:
-                    merged.append(' ')
-            
-            merged.append(sub_chunk)
-        
-        result = ''.join(merged)
-        result = re.sub(r'\n\n\n+', '\n\n', result)
-        result = re.sub(r'  +', ' ', result)
-        
-        return result.strip()
-
-    def process_batch_files(self, file_batch: List[Tuple[str, str]]) -> None:
-        """
-        Simple batch processing for files with similar languages.
-        """
-        print(f"  📦 Processing batch of {len(file_batch)} files")
-        
-        for input_path, output_path in file_batch:
-            try:
-                self.process_json_file(input_path, output_path)
-            except Exception as e:
-                print(f"  ✗ Batch processing error for {os.path.basename(input_path)}: {str(e)[:100]}")
-                try:
-                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-                    shutil.copy(input_path, output_path)
-                    print(f"  📋 Copied original file instead")
-                except Exception as copy_error:
-                    print(f"  ✗ Failed to copy original: {copy_error}")
-
     def translate_document_with_tier(self, data: dict, language: str, tier: int) -> Tuple[dict, Dict[str, float], Dict[str, Any]]:
-        """
-        Enhanced document translation with medical optimization.
-        """
+        """Translate document with specific tier."""
         print(f"  📝 Translating document with Tier {tier}")
         
         tier_start_time = datetime.now()
@@ -3248,7 +2637,7 @@ class Translator:
         english_count = 0
         table_count = 0
         
-        print(f"    Processing {total_chunks} chunks with enhanced medical awareness...")
+        print(f"    Processing {total_chunks} chunks with simplified medical term preservation...")
         
         for i, chunk in enumerate(translated_data['chunks']):
             if i % 20 == 0 or i == total_chunks - 1:
@@ -3264,7 +2653,7 @@ class Translator:
                     )
                     translated_count += 1
             
-            # Process text with table awareness
+            # Process text
             if 'text' in chunk and chunk['text']:
                 if self.is_english_chunk(chunk['text']):
                     english_count += 1
@@ -3284,14 +2673,14 @@ class Translator:
         print(f"      Translated chunks: {translated_count}")
         print(f"      Table chunks: {table_count}")
         
-        # Enhanced quality assessment
+        # Quality assessment
         quality_scores = self.assess_document_quality(translated_data, data, language)
         
         print(f"    📊 Tier {tier} Quality Assessment:")
         print(f"      Overall: {quality_scores['overall']:.3f}")
-        print(f"      Medical: {quality_scores.get('medical', 0):.3f}")
-        print(f"      Repetition: {quality_scores.get('repetition', 0):.3f}")
-        print(f"      Language: {quality_scores.get('language', 0):.3f}")
+        print(f"      English Quality: {quality_scores.get('english_quality', 0):.3f}")
+        print(f"      Medical Preservation: {quality_scores.get('medical_preservation', 0):.3f}")
+        print(f"      Unreplaced Placeholders: {quality_scores.get('has_placeholders', 0):.3f}")
         
         tier_metadata = {
             'tier': tier,
@@ -3323,9 +2712,7 @@ class Translator:
                 pass
 
     def process_json_file(self, input_path: str, output_path: str):
-        """
-        Enhanced JSON file processing with medical optimization.
-        """
+        """Process a single JSON file."""
         file_name = os.path.basename(input_path)
         print(f"\n📄 Processing: {file_name}")
         
@@ -3338,7 +2725,7 @@ class Translator:
             print(f"  ✗ Error loading JSON: {e}")
             return
 
-        # Enhanced text extraction for language detection
+        # Language detection
         all_text_parts = []
         if 'doc_id' in data:
             all_text_parts.append(str(data['doc_id']))
@@ -3353,7 +2740,7 @@ class Translator:
         combined_text = ' '.join(all_text_parts)
         document_language = self.detect_document_language(combined_text)
 
-        # Enhanced metadata tracking
+        # Translation metadata
         translation_metadata = {
             "processing_timestamp": self.processing_start_time.isoformat(),
             "source_file": file_name,
@@ -3369,8 +2756,8 @@ class Translator:
             "chunks_preserved_english": 0,
             "table_chunks_processed": 0,
             "total_processing_time_seconds": 0,
-            "translation_strategy": "hierarchical_medical_optimized",
-            "medical_preservation_used": "dynamic_pattern_based",
+            "translation_strategy": "simplified_medical_optimized",
+            "medical_preservation_used": "whitelist_approach",
             "table_content_detected": sum(1 for chunk in data.get('chunks', []) 
                                         if self.is_table_content(chunk.get('text', '')))
         }
@@ -3389,9 +2776,9 @@ class Translator:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             return
 
-        # Check model availability
-        tier_1_available = len(self.get_available_models_for_tier(1, document_language)) > 0
+        # Check model availability - start with tier 2 for medical documents
         tier_2_available = len(self.get_available_models_for_tier(2, document_language)) > 0
+        tier_1_available = len(self.get_available_models_for_tier(1, document_language)) > 0
         
         translation_metadata.update({
             "was_translation_needed": True,
@@ -3413,79 +2800,79 @@ class Translator:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             return
 
-        # Enhanced translation with medical optimization
-        if tier_1_available:
-            print(f"  🎯 Starting with Tier 1 translation (medical-optimized)")
-            tier_1_translation, tier_1_quality, tier_1_metadata = self.translate_document_with_tier(
-                data, document_language, 1
+        # Start with tier 2 for medical documents
+        if tier_2_available:
+            print(f"  🎯 Starting with Tier 2 translation (preferred for medical docs)")
+            tier_2_translation, tier_2_quality, tier_2_metadata = self.translate_document_with_tier(
+                data, document_language, 2
             )
-            translation_metadata["tier_attempts"].append(tier_1_metadata)
+            translation_metadata["tier_attempts"].append(tier_2_metadata)
             
-            if not self.should_retranslate_with_higher_tier(tier_1_quality):
-                print(f"  ✅ Tier 1 quality sufficient (overall: {tier_1_quality['overall']:.3f})")
-                final_translation = tier_1_translation
-                final_quality = tier_1_quality
+            if not self.should_retranslate_with_higher_tier(tier_2_quality):
+                print(f"  ✅ Tier 2 quality sufficient (overall: {tier_2_quality['overall']:.3f})")
+                final_translation = tier_2_translation
+                final_quality = tier_2_quality
                 translation_metadata.update({
-                    "translation_decision": "tier_1_sufficient",
-                    "final_tier_used": 1,
-                    "final_model_used": tier_1_metadata["model_name"],
+                    "translation_decision": "tier_2_sufficient",
+                    "final_tier_used": 2,
+                    "final_model_used": tier_2_metadata["model_name"],
                     "retranslation_occurred": False
                 })
             else:
-                print(f"  📈 Tier 1 quality insufficient, trying Tier 2")
+                print(f"  📈 Tier 2 quality insufficient, trying Tier 1 as fallback")
                 
-                if tier_2_available:
+                if tier_1_available:
                     self.clear_translator()
-                    tier_2_translation, tier_2_quality, tier_2_metadata = self.translate_document_with_tier(
-                        data, document_language, 2
+                    tier_1_translation, tier_1_quality, tier_1_metadata = self.translate_document_with_tier(
+                        data, document_language, 1
                     )
-                    translation_metadata["tier_attempts"].append(tier_2_metadata)
+                    translation_metadata["tier_attempts"].append(tier_1_metadata)
                     
-                    if self.compare_translation_quality(tier_2_quality, tier_1_quality) == 1:
-                        print(f"  🏆 Tier 2 translation is better")
-                        final_translation = tier_2_translation
-                        final_quality = tier_2_quality
-                        translation_metadata.update({
-                            "translation_decision": "tier_2_better_than_tier_1",
-                            "final_tier_used": 2,
-                            "final_model_used": tier_2_metadata["model_name"],
-                            "retranslation_occurred": True,
-                            "quality_comparison": {
-                                "tier_1_overall": tier_1_quality['overall'],
-                                "tier_2_overall": tier_2_quality['overall'],
-                                "improvement": tier_2_quality['overall'] - tier_1_quality['overall']
-                            }
-                        })
-                    else:
-                        print(f"  🥈 Tier 1 translation is still better")
+                    if self.compare_translation_quality(tier_1_quality, tier_2_quality) == 1:
+                        print(f"  🏆 Tier 1 translation is better")
                         final_translation = tier_1_translation
                         final_quality = tier_1_quality
                         translation_metadata.update({
                             "translation_decision": "tier_1_better_than_tier_2",
                             "final_tier_used": 1,
                             "final_model_used": tier_1_metadata["model_name"],
+                            "retranslation_occurred": True,
+                            "quality_comparison": {
+                                "tier_2_overall": tier_2_quality['overall'],
+                                "tier_1_overall": tier_1_quality['overall'],
+                                "improvement": tier_1_quality['overall'] - tier_2_quality['overall']
+                            }
+                        })
+                    else:
+                        print(f"  🥈 Tier 2 translation is still better")
+                        final_translation = tier_2_translation
+                        final_quality = tier_2_quality
+                        translation_metadata.update({
+                            "translation_decision": "tier_2_better_than_tier_1",
+                            "final_tier_used": 2,
+                            "final_model_used": tier_2_metadata["model_name"],
                             "retranslation_occurred": True
                         })
                 else:
-                    print(f"  ⚠️  Tier 2 not available")
-                    final_translation = tier_1_translation
-                    final_quality = tier_1_quality
+                    print(f"  ⚠️  Tier 1 not available")
+                    final_translation = tier_2_translation
+                    final_quality = tier_2_quality
                     translation_metadata.update({
-                        "translation_decision": "tier_1_only_tier_2_unavailable",
-                        "final_tier_used": 1,
-                        "final_model_used": tier_1_metadata["model_name"],
+                        "translation_decision": "tier_2_only_tier_1_unavailable",
+                        "final_tier_used": 2,
+                        "final_model_used": tier_2_metadata["model_name"],
                         "retranslation_occurred": False
                     })
         else:
-            print(f"  🎯 Tier 1 not available, using Tier 2")
-            final_translation, final_quality, tier_2_metadata = self.translate_document_with_tier(
-                data, document_language, 2
+            print(f"  🎯 Tier 2 not available, using Tier 1")
+            final_translation, final_quality, tier_1_metadata = self.translate_document_with_tier(
+                data, document_language, 1
             )
-            translation_metadata["tier_attempts"].append(tier_2_metadata)
+            translation_metadata["tier_attempts"].append(tier_1_metadata)
             translation_metadata.update({
-                "translation_decision": "tier_2_only_tier_1_unavailable",
-                "final_tier_used": 2,
-                "final_model_used": tier_2_metadata["model_name"],
+                "translation_decision": "tier_1_only_tier_2_unavailable",
+                "final_tier_used": 1,
+                "final_model_used": tier_1_metadata["model_name"],
                 "retranslation_occurred": False
             })
 
@@ -3531,22 +2918,39 @@ class Translator:
         self.chunks_translated += translated_count
         self.clear_translator()
 
+    def process_batch_files(self, file_batch: List[Tuple[str, str]]) -> None:
+        """Process a batch of files."""
+        print(f"  📦 Processing batch of {len(file_batch)} files")
+        
+        for input_path, output_path in file_batch:
+            try:
+                self.process_json_file(input_path, output_path)
+            except Exception as e:
+                print(f"  ✗ Batch processing error for {os.path.basename(input_path)}: {str(e)[:100]}")
+                try:
+                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                    shutil.copy(input_path, output_path)
+                    print(f"  📋 Copied original file instead")
+                except Exception as copy_error:
+                    print(f"  ✗ Failed to copy original: {copy_error}")
+
     def translate_documents(self):
-        """
-        Enhanced main translation method with simple batch processing.
-        """
-        print("🚀 Starting enhanced medical document translation...")
-        print("📋 Enhanced Strategy:")
-        print("   • Dynamic medical term preservation using pattern detection")
-        print("   • Medical-aware semantic chunking for complex content")
-        print("   • Enhanced table content handling")
-        print("   • Regulatory language and cross-reference preservation")
-        print("   • Medical-specific quality assessment")
-        print("   • Simple batch processing for efficiency")
+        """Main translation method with total runtime tracking."""
+        print("🚀 Starting improved medical document translation...")
+        print("📋 Improved Strategy:")
+        print("   • Simplified medical term preservation with whitelist")
+        print("   • Improved chunking with larger sizes and better boundaries")
+        print("   • Enhanced quality assessment with placeholder detection")
+        print("   • Tier 2 models preferred for medical documents")
+        print("   • Better English quality validation")
+
+        # Start total runtime tracking
+        self.total_translation_start_time = datetime.now()
+        print(f"🕐 Translation started at: {self.total_translation_start_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
         os.makedirs(self.output_dir, exist_ok=True)
 
-        # Find and group files
+        # Find files
         json_files = []
         for root, _, files in os.walk(self.input_dir):
             for file in files:
@@ -3563,49 +2967,42 @@ class Translator:
             print("⚠️  No JSON files found in input directory")
             return
 
-        # Simple batching by similarity
-        if self.batch_params['similar_language_batching'] and total_files > self.batch_params['max_batch_size']:
-            # Group files by directory (assuming similar content)
-            file_groups = {}
-            for input_path, output_path in json_files:
-                dir_key = os.path.dirname(input_path)
-                if dir_key not in file_groups:
-                    file_groups[dir_key] = []
-                file_groups[dir_key].append((input_path, output_path))
-            
-            # Process groups in batches
-            for group_dir, group_files in file_groups.items():
-                if len(group_files) <= self.batch_params['max_batch_size']:
-                    print(f"\n📦 Processing batch from {os.path.basename(group_dir)}")
-                    self.process_batch_files(group_files)
-                else:
-                    # Split large groups
-                    for i in range(0, len(group_files), self.batch_params['max_batch_size']):
-                        batch = group_files[i:i + self.batch_params['max_batch_size']]
-                        print(f"\n📦 Processing batch {i//self.batch_params['max_batch_size'] + 1} from {os.path.basename(group_dir)}")
-                        self.process_batch_files(batch)
-        else:
-            # Process files individually
-            for i, (input_path, output_path) in enumerate(json_files, 1):
-                print(f"\n[{i}/{total_files}]", end=" ")
-                try:
-                    self.process_json_file(input_path, output_path)
-                except Exception as e:
-                    print(f"  ✗ Error processing file: {str(e)[:100]}")
-                    try:
-                        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-                        shutil.copy(input_path, output_path)
-                        print(f"  📋 Copied original file instead")
-                    except Exception as copy_error:
-                        print(f"  ✗ Failed to copy original: {copy_error}")
+        # Group files by directory for batch processing
+        file_groups = {}
+        for input_path, output_path in json_files:
+            dir_key = os.path.basename(os.path.dirname(input_path))
+            if dir_key not in file_groups:
+                file_groups[dir_key] = []
+            file_groups[dir_key].append((input_path, output_path))
 
-        # Enhanced summary
-        print(f"\n🎉 Enhanced Medical Translation Complete!")
+        # Process groups
+        for group_dir, group_files in file_groups.items():
+            print(f"\n📦 Processing batch from {group_dir}")
+            self.process_batch_files(group_files)
+
+        # Calculate total runtime
+        total_translation_end_time = datetime.now()
+        total_runtime_seconds = (total_translation_end_time - self.total_translation_start_time).total_seconds()
+        total_runtime_minutes = total_runtime_seconds / 60
+        total_runtime_hours = total_runtime_minutes / 60
+
+        # Summary with runtime information
+        print(f"\n🎉 Improved Medical Translation Complete!")
         print(f"📊 Summary:")
         print(f"   • Total files processed: {total_files}")
         print(f"   • English chunks preserved: {self.english_chunks_preserved}")
         print(f"   • Chunks translated: {self.chunks_translated}")
-        print(f"   • Dynamic medical term preservation applied")
-        print(f"   • Medical-aware chunking used for complex content")
-        print(f"   • Enhanced quality assessment with medical metrics")
-        print(f"   • Table content and regulatory language specially handled")
+        print(f"   • Simplified medical term preservation used")
+        print(f"   • Improved chunking and quality assessment applied")
+        print(f"\n⏱️  Runtime Summary:")
+        print(f"   • Start time: {self.total_translation_start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"   • End time: {total_translation_end_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"   • Total runtime: {total_runtime_seconds:.2f} seconds")
+        print(f"   • Total runtime: {total_runtime_minutes:.2f} minutes")
+        if total_runtime_hours >= 1:
+            print(f"   • Total runtime: {total_runtime_hours:.2f} hours")
+        if total_files > 0:
+            avg_time_per_file = total_runtime_seconds / total_files
+            print(f"   • Average time per file: {avg_time_per_file:.2f} seconds")
+            
+
