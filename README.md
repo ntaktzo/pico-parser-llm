@@ -7,7 +7,8 @@ This repository provides a workflow for extracting information from PDF document
 ```
 application/       Application specific files
 python/            Core processing modules
-    process.py     PDF handling, table detection and translation logic
+    process.py     PDF handling and table detection
+    translation.py Translator logic
     retrieve.py    Retrieval utilities and PICO extraction
     vectorise.py   Document chunking and vector store creation
     utils.py       Helper classes
@@ -25,7 +26,7 @@ Detects tables inside PDF pages.  It analyses text patterns and the PDF layout t
 ### PDFProcessor (`python/process.py`)
 Loads a PDF file and extracts cleaned text.  The processor identifies headings, removes boilerplate and footnotes and uses `TableDetector` to locate tables.  The output is a set of chunks containing the text and any detected tables.
 
-### Translator (`python/process.py`)
+### Translator (`python/translation.py`)
 Translates extracted JSON documents to English.  It supports multiple translation models, handles GPU availability and preserves medical terminology when possible.  Translation quality is assessed before deciding whether to retry with a higher tier model.
 
 ### Chunker (`python/vectorise.py`)
