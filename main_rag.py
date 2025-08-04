@@ -99,6 +99,6 @@ for pico in extracted_picos_clinical:
     print(f"Number of PICOs: {len(pico.get('PICOs', []))}")
     print("---")
 
-#pythong version
+
 
 
