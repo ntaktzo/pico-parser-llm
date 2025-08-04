@@ -12,8 +12,8 @@ import copy
 
 class Translator:
     """
-    Streamlined Translator class for medical documents with direct translation approach,
-    Tier 1 first strategy, and balanced quality assessment.
+    Enhanced Translator class for medical documents with improved chunk management,
+    robust quality control, and content preservation focus.
     """
 
     def __init__(self, input_dir, output_dir):
@@ -49,7 +49,7 @@ class Translator:
             ]
         }
 
-        # Model tiers - Tier 1 first approach
+        # Model tiers with enhanced parameter sets
         self.model_tiers = {
             1: {
                 'helsinki_models': {
@@ -103,18 +103,49 @@ class Translator:
             'ca': 'cat_Latn', 'mt': 'mlt_Latn', 'cy': 'cym_Latn', 'is': 'isl_Latn',
         }
 
-        # Balanced quality thresholds
+        # Enhanced quality thresholds with stricter content preservation requirements
         self.quality_thresholds = {
-            'tier_1_acceptable': 0.65,  # Accept Tier 1 if above this
-            'minimum_acceptable': 0.50,  # Minimum to accept any translation
+            'tier_1_acceptable': 0.70,  # Raised threshold for accepting Tier 1
+            'minimum_acceptable': 0.60,  # Raised minimum threshold
             'excellent_quality': 0.85,   # High quality threshold
+            'content_loss_critical': 0.40,  # Critical content loss threshold
         }
 
-        # Chunking parameters
+        # Enhanced chunking parameters with adaptive sizing
         self.chunk_params = {
-            'max_chars': 2500,
-            'overlap_chars': 150,
-            'min_chunk_chars': 300,
+            'base_max_chars': 1800,  # Reduced base size for better model handling
+            'overlap_chars': 200,    # Increased overlap for context preservation
+            'min_chunk_chars': 200,  # Reduced minimum to avoid forcing large chunks
+            'sentence_boundary_window': 400,  # Window for finding sentence boundaries
+            'paragraph_priority_window': 200,  # Priority window for paragraph breaks
+        }
+
+        # Model-specific parameters for optimal translation
+        self.model_parameters = {
+            'helsinki': {
+                'max_input_length': 400,  # Conservative for Helsinki models
+                'max_output_length': 600,  # Allow longer outputs to prevent truncation
+                'generation_params': {
+                    'max_length': 600,
+                    'num_beams': 3,
+                    'length_penalty': 1.1,
+                    'do_sample': False,
+                    'no_repeat_ngram_size': 2,
+                    'repetition_penalty': 1.05,
+                }
+            },
+            'nllb': {
+                'max_input_length': 800,  # NLLB can handle longer inputs
+                'max_output_length': 1000,  # Allow even longer outputs
+                'generation_params': {
+                    'max_length': 1000,
+                    'num_beams': 4,
+                    'length_penalty': 1.0,
+                    'do_sample': False,
+                    'no_repeat_ngram_size': 3,
+                    'repetition_penalty': 1.1,
+                }
+            }
         }
 
         # Table detection patterns
@@ -162,6 +193,7 @@ class Translator:
         self.current_language = None
         self.current_tier = None
         self.current_model_name = None
+        self.current_model_type = None
 
     def get_critical_terms_from_text(self, text: str) -> List[str]:
         """Extract critical terms that should be preserved in translation."""
@@ -190,76 +222,242 @@ class Translator:
         return list(set(found_terms))  # Remove duplicates
 
     def count_tokens_accurately(self, text: str) -> int:
-        """Estimate token count for text."""
+        """Estimate token count for text with improved accuracy."""
         if not text:
             return 0
-        return len(text) // 4
+        # More accurate estimation considering medical text complexity
+        words = len(text.split())
+        chars = len(text)
+        # Medical texts tend to have longer tokens due to technical terms
+        estimated_tokens = min(words * 1.3, chars // 3.5)
+        return int(estimated_tokens)
 
-    def split_text_into_chunks(self, text: str) -> List[str]:
-        """Split text into chunks with improved sentence boundary detection."""
+    def find_optimal_split_point(self, text: str, max_pos: int) -> int:
+        """Find the optimal split point prioritizing sentence and paragraph boundaries."""
+        if max_pos >= len(text):
+            return len(text)
+        
+        sentence_window = min(self.chunk_params['sentence_boundary_window'], max_pos // 2)
+        paragraph_window = min(self.chunk_params['paragraph_priority_window'], max_pos // 3)
+        
+        # First priority: paragraph breaks
+        for i in range(max_pos, max(max_pos - paragraph_window, 0), -1):
+            if i < len(text) and text[i:i+2] == '\n\n':
+                return i + 2
+            elif i < len(text) and text[i] == '\n' and (i == 0 or text[i-1] == '\n'):
+                return i + 1
+        
+        # Second priority: sentence endings
+        for i in range(max_pos, max(max_pos - sentence_window, 0), -1):
+            if i >= len(text):
+                continue
+            char = text[i]
+            if char in '.!?' and i + 1 < len(text):
+                next_char = text[i + 1]
+                # Better sentence boundary detection
+                if next_char.isspace() and (i + 2 >= len(text) or text[i + 2].isupper() or text[i + 2].isspace()):
+                    return i + 1
+        
+        # Third priority: clause boundaries
+        clause_markers = [';', ':', ',']
+        for marker in clause_markers:
+            for i in range(max_pos, max(max_pos - sentence_window // 2, 0), -1):
+                if i < len(text) and text[i] == marker and i + 1 < len(text) and text[i + 1].isspace():
+                    return i + 1
+        
+        # Final fallback: word boundaries
+        for i in range(max_pos, max_pos // 2, -1):
+            if i < len(text) and text[i].isspace():
+                return i
+        
+        return max_pos
+
+    def split_text_into_chunks(self, text: str) -> List[Dict[str, Any]]:
+        """Enhanced text chunking with structure preservation and overlap management."""
         if not text:
             return []
 
-        max_chars = self.chunk_params['max_chars']
+        max_chars = self.chunk_params['base_max_chars']
+        overlap_chars = self.chunk_params['overlap_chars']
+        min_chunk_chars = self.chunk_params['min_chunk_chars']
 
         if len(text) <= max_chars:
-            return [text]
+            return [{'text': text, 'start_pos': 0, 'end_pos': len(text), 'overlap_start': False, 'overlap_end': False}]
 
         chunks = []
-        remaining_text = text
+        start_pos = 0
+        chunk_index = 0
 
-        while remaining_text:
+        while start_pos < len(text):
+            # Calculate end position for this chunk
+            remaining_text = text[start_pos:]
             if len(remaining_text) <= max_chars:
-                chunks.append(remaining_text)
-                break
+                # Last chunk
+                chunk_text = remaining_text
+                end_pos = len(text)
+            else:
+                # Find optimal split point
+                optimal_split = self.find_optimal_split_point(remaining_text, max_chars)
+                chunk_text = remaining_text[:optimal_split]
+                end_pos = start_pos + optimal_split
 
-            # Find the best split point - prioritize sentence boundaries
-            split_point = max_chars
+            # Skip if chunk is too small (except for last chunk)
+            if len(chunk_text.strip()) < min_chunk_chars and end_pos < len(text):
+                start_pos = end_pos
+                continue
 
-            # Look for sentence endings first
-            for i in range(max_chars, max_chars // 2, -1):
-                if i >= len(remaining_text):
-                    continue
+            # Add overlap context for better continuity (except first chunk)
+            overlap_start = chunk_index > 0
+            overlap_context_start = ""
+            if overlap_start and start_pos > 0:
+                overlap_start_pos = max(0, start_pos - overlap_chars)
+                overlap_context_start = text[overlap_start_pos:start_pos]
+                if overlap_context_start.strip():
+                    chunk_text = overlap_context_start + " " + chunk_text
 
-                char = remaining_text[i]
-                if char in '.!?' and i + 1 < len(remaining_text):
-                    next_char = remaining_text[i + 1]
-                    if next_char.isspace() or next_char.isupper():
-                        split_point = i + 1
-                        break
-                elif char == '\n' and remaining_text[i:i+2] == '\n\n':
-                    split_point = i + 2
-                    break
+            chunk_info = {
+                'text': chunk_text.strip(),
+                'start_pos': start_pos,
+                'end_pos': end_pos,
+                'overlap_start': overlap_start,
+                'overlap_end': False,
+                'chunk_index': chunk_index
+            }
 
-            # If no good sentence boundary found, look for word boundaries
-            if split_point == max_chars:
-                for i in range(max_chars, max_chars // 2, -1):
-                    if i >= len(remaining_text):
-                        continue
-                    if remaining_text[i].isspace():
-                        split_point = i
-                        break
+            chunks.append(chunk_info)
+            start_pos = end_pos
+            chunk_index += 1
 
-            chunk = remaining_text[:split_point].strip()
-            if chunk:
-                chunks.append(chunk)
+        return [chunk for chunk in chunks if chunk['text'].strip()]
 
-            remaining_text = remaining_text[split_point:].strip()
-
-        return [chunk for chunk in chunks if chunk.strip()]
-
-    def adaptive_chunk_for_translation(self, text: str) -> List[str]:
-        """Chunk text for translation if needed."""
+    def adaptive_chunk_for_translation(self, text: str) -> List[Dict[str, Any]]:
+        """Enhanced adaptive chunking with model-aware sizing."""
         if not text:
             return []
 
-        if self.count_tokens_accurately(text) <= 500 and len(text) <= self.chunk_params['max_chars']:
-            return [text]
+        # Estimate tokens and determine if chunking is needed
+        estimated_tokens = self.count_tokens_accurately(text)
+        model_type = self.current_model_type or 'helsinki'
+        max_input_tokens = self.model_parameters[model_type]['max_input_length']
 
-        print(f"      🔨 Chunking needed for large text ({len(text)} chars)")
+        if estimated_tokens <= max_input_tokens and len(text) <= self.chunk_params['base_max_chars']:
+            return [{'text': text, 'start_pos': 0, 'end_pos': len(text), 'overlap_start': False, 'overlap_end': False, 'chunk_index': 0}]
+
+        print(f"      🔨 Enhanced chunking needed ({len(text)} chars, ~{estimated_tokens} tokens)")
         chunks = self.split_text_into_chunks(text)
-        print(f"      ✓ Created {len(chunks)} chunks")
+        print(f"      ✓ Created {len(chunks)} structured chunks with overlap management")
         return chunks
+
+    def reassemble_translated_chunks(self, chunk_results: List[Dict[str, Any]]) -> str:
+        """Enhanced chunk reassembly with structure preservation and overlap handling."""
+        if not chunk_results:
+            return ""
+        
+        if len(chunk_results) == 1:
+            return chunk_results[0]['translated_text']
+        
+        assembled_parts = []
+        
+        for i, chunk_result in enumerate(chunk_results):
+            translated_text = chunk_result['translated_text']
+            
+            if i == 0:
+                # First chunk - use as is
+                assembled_parts.append(translated_text)
+            else:
+                # For subsequent chunks, handle overlap
+                prev_chunk = chunk_results[i-1]
+                
+                # If this chunk had overlap context, try to remove redundancy
+                if chunk_result.get('overlap_start', False):
+                    # Simple redundancy removal - look for repeated phrases at boundaries
+                    words_current = translated_text.split()
+                    words_prev = prev_chunk['translated_text'].split()
+                    
+                    # Find potential overlap by comparing last words of previous with first words of current
+                    max_overlap_check = min(10, len(words_prev), len(words_current))
+                    overlap_found = 0
+                    
+                    for j in range(1, max_overlap_check + 1):
+                        if words_prev[-j:] == words_current[:j]:
+                            overlap_found = j
+                    
+                    if overlap_found > 0:
+                        # Remove overlapping words from current chunk
+                        cleaned_text = ' '.join(words_current[overlap_found:])
+                        assembled_parts.append(cleaned_text)
+                    else:
+                        # No clear overlap found, add with space separation
+                        assembled_parts.append(translated_text)
+                else:
+                    # No overlap context, add with proper separation
+                    assembled_parts.append(translated_text)
+        
+        # Join with appropriate spacing, preserving paragraph structure
+        final_text = ""
+        for i, part in enumerate(assembled_parts):
+            if i == 0:
+                final_text = part
+            else:
+                # Determine appropriate separator
+                prev_ends_sentence = final_text.rstrip().endswith(('.', '!', '?', ':'))
+                current_starts_upper = part.lstrip() and part.lstrip()[0].isupper()
+                
+                if prev_ends_sentence and current_starts_upper:
+                    # Likely sentence boundary
+                    final_text += " " + part
+                elif '\n' in part[:5] or final_text.endswith('\n'):
+                    # Paragraph or line break context
+                    final_text += "\n" + part.lstrip()
+                else:
+                    # Default: space separation
+                    final_text += " " + part
+        
+        return final_text.strip()
+
+    def validate_translation_completeness(self, original_text: str, translated_text: str) -> Dict[str, Any]:
+        """Validate that translation preserves essential content without critical loss."""
+        validation_results = {
+            'is_complete': True,
+            'issues_found': [],
+            'content_loss_ratio': 0.0,
+            'critical_elements_preserved': True
+        }
+        
+        if not original_text or not translated_text:
+            validation_results['is_complete'] = False
+            validation_results['issues_found'].append('Empty translation result')
+            return validation_results
+        
+        # Check for severe length discrepancy
+        length_ratio = len(translated_text) / len(original_text)
+        validation_results['content_loss_ratio'] = max(0, 1 - length_ratio)
+        
+        if length_ratio < self.quality_thresholds['content_loss_critical']:
+            validation_results['is_complete'] = False
+            validation_results['issues_found'].append(f'Severe content loss: {length_ratio:.2f} length ratio')
+        
+        # Check for preserved critical elements
+        original_numbers = re.findall(r'\d+(?:\.\d+)?%?', original_text)
+        translated_numbers = re.findall(r'\d+(?:\.\d+)?%?', translated_text)
+        
+        if original_numbers and len(translated_numbers) < len(original_numbers) * 0.7:
+            validation_results['critical_elements_preserved'] = False
+            validation_results['issues_found'].append('Numerical data loss detected')
+        
+        # Check for repetitive patterns (sign of model errors)
+        words = translated_text.split()
+        if len(words) > 10:
+            word_freq = {}
+            for word in words:
+                word_freq[word] = word_freq.get(word, 0) + 1
+            
+            max_freq = max(word_freq.values())
+            if max_freq > len(words) * 0.15:  # Single word appears >15% of the time
+                validation_results['is_complete'] = False
+                validation_results['issues_found'].append('Repetitive translation pattern detected')
+        
+        return validation_results
 
     def is_table_content(self, text: str) -> bool:
         """Check if text contains table content."""
@@ -278,40 +476,44 @@ class Translator:
 
     def assess_translation_quality(self, original_text: str, translated_text: str, language: str) -> Dict[str, float]:
         """
-        Balanced quality assessment with three main components:
-        1. English Language Quality (40%)
-        2. Medical Term Preservation (35%)
-        3. Length and Information Preservation (25%)
+        Enhanced quality assessment with stricter content preservation requirements.
+        Components: English Quality (35%), Medical Preservation (30%), Length Appropriateness (25%), Content Completeness (10%)
         """
         if not translated_text.strip():
             return {
                 'overall': 0.0,
                 'english_quality': 0.0,
                 'medical_preservation': 0.0,
-                'length_appropriateness': 0.0
+                'length_appropriateness': 0.0,
+                'content_completeness': 0.0
             }
 
-        # 1. English Language Quality Assessment (40%)
+        # 1. English Language Quality Assessment (35%)
         english_quality = self.assess_english_quality(translated_text)
 
-        # 2. Medical Term Preservation Assessment (35%)
+        # 2. Medical Term Preservation Assessment (30%)
         medical_preservation = self.assess_medical_preservation(original_text, translated_text)
 
         # 3. Length and Information Preservation (25%)
         length_appropriateness = self.assess_length_appropriateness(original_text, translated_text)
 
+        # 4. Content Completeness Assessment (10%)
+        content_completeness = self.assess_content_completeness(original_text, translated_text)
+
         # Calculate weighted overall score
         overall_score = (
-            english_quality * 0.40 +
-            medical_preservation * 0.35 +
-            length_appropriateness * 0.25
+            english_quality * 0.35 +
+            medical_preservation * 0.30 +
+            length_appropriateness * 0.25 +
+            content_completeness * 0.10
         )
 
         return {
             'overall': overall_score,
             'english_quality': english_quality,
             'medical_preservation': medical_preservation,
-            'length_appropriateness': length_appropriateness
+            'length_appropriateness': length_appropriateness,
+            'content_completeness': content_completeness
         }
 
     def assess_english_quality(self, text: str) -> float:
@@ -344,7 +546,7 @@ class Translator:
         # Check for sentence completeness (no abrupt endings)
         sentences = re.split(r'[.!?]+', text)
         complete_sentences = [s for s in sentences if len(s.strip()) > 5]
-        if len(complete_sentences) > 0:
+        if len(sentences) > 0:
             completion_ratio = len(complete_sentences) / len(sentences)
             score *= completion_ratio
 
@@ -396,7 +598,7 @@ class Translator:
         return combined_score
 
     def assess_length_appropriateness(self, original_text: str, translated_text: str) -> float:
-        """Assess if translation length is appropriate."""
+        """Enhanced length assessment with stricter content loss penalties."""
         if not original_text or not translated_text:
             return 0.0
 
@@ -408,15 +610,17 @@ class Translator:
 
         length_ratio = translated_len / original_len
 
-        # Ideal range is 0.7 to 1.5
-        if 0.7 <= length_ratio <= 1.5:
+        # More stringent length requirements
+        if 0.75 <= length_ratio <= 1.4:
             score = 1.0
-        elif 0.5 <= length_ratio < 0.7 or 1.5 < length_ratio <= 2.0:
+        elif 0.6 <= length_ratio < 0.75 or 1.4 < length_ratio <= 1.8:
             score = 0.8
-        elif 0.3 <= length_ratio < 0.5 or 2.0 < length_ratio <= 3.0:
-            score = 0.6
+        elif 0.45 <= length_ratio < 0.6 or 1.8 < length_ratio <= 2.2:
+            score = 0.5
+        elif 0.3 <= length_ratio < 0.45:
+            score = 0.2  # Severe penalty for major content loss
         else:
-            score = 0.3
+            score = 0.1  # Critical content loss
 
         # Check for information preservation (numbers, percentages)
         original_numbers = re.findall(r'\d+(?:\.\d+)?%?', original_text)
@@ -428,8 +632,46 @@ class Translator:
 
         return score
 
+    def assess_content_completeness(self, original_text: str, translated_text: str) -> float:
+        """Assess overall content completeness and coherence."""
+        if not original_text or not translated_text:
+            return 0.0
+        
+        validation_results = self.validate_translation_completeness(original_text, translated_text)
+        
+        if not validation_results['is_complete']:
+            return 0.3  # Major penalty for incomplete translations
+        
+        # Check content diversity preservation
+        original_words = set(original_text.lower().split())
+        translated_words = set(translated_text.lower().split())
+        
+        if len(original_words) > 0:
+            # We can't expect word-for-word mapping, but diversity should be preserved
+            orig_diversity = len(original_words) / len(original_text.split())
+            trans_diversity = len(translated_words) / len(translated_text.split())
+            
+            diversity_preservation = min(1.0, trans_diversity / orig_diversity) if orig_diversity > 0 else 1.0
+        else:
+            diversity_preservation = 1.0
+        
+        # Content structure preservation (sentences, paragraphs)
+        orig_sentences = len(re.split(r'[.!?]+', original_text))
+        trans_sentences = len(re.split(r'[.!?]+', translated_text))
+        
+        sentence_preservation = min(1.0, trans_sentences / orig_sentences) if orig_sentences > 0 else 1.0
+        
+        # Combine metrics
+        completeness_score = (
+            0.4 * (1.0 - validation_results['content_loss_ratio']) +
+            0.3 * diversity_preservation +
+            0.3 * sentence_preservation
+        )
+        
+        return max(0.0, min(1.0, completeness_score))
+
     def assess_document_quality(self, translated_data: dict, original_data: dict, language: str) -> Dict[str, float]:
-        """Document-level quality assessment using balanced approach."""
+        """Document-level quality assessment using enhanced approach."""
         if 'chunks' not in translated_data or 'chunks' not in original_data:
             return {'overall': 0.0, 'chunk_count': 0}
 
@@ -447,7 +689,7 @@ class Translator:
             return {'overall': 0.0, 'chunk_count': 0}
 
         # Calculate averages
-        metrics = ['overall', 'english_quality', 'medical_preservation', 'length_appropriateness']
+        metrics = ['overall', 'english_quality', 'medical_preservation', 'length_appropriateness', 'content_completeness']
         final_scores = {}
 
         for metric in metrics:
@@ -467,9 +709,16 @@ class Translator:
             print(f"    📉 Overall quality {overall_quality:.3f} below threshold {self.quality_thresholds['tier_1_acceptable']}")
             return True
 
+        # Check for critical content loss
+        content_completeness = quality_scores.get('content_completeness', 0.0)
+        if content_completeness < 0.5:
+            print(f"    ⚠️ Critical content loss detected {content_completeness:.3f} - escalating")
+            return True
+
         # Secondary checks for specific quality issues
         english_quality = quality_scores.get('english_quality', 0.0)
         medical_preservation = quality_scores.get('medical_preservation', 0.0)
+        length_appropriateness = quality_scores.get('length_appropriateness', 0.0)
 
         # Escalate if English quality is very poor
         if english_quality < 0.5:
@@ -479,6 +728,11 @@ class Translator:
         # Escalate if medical preservation is very poor
         if medical_preservation < 0.4:
             print(f"    🏥 Poor medical preservation {medical_preservation:.3f} - escalating")
+            return True
+
+        # Escalate if length indicates severe content loss
+        if length_appropriateness < 0.4:
+            print(f"    📏 Poor length preservation {length_appropriateness:.3f} - escalating")
             return True
 
         return False
@@ -491,12 +745,17 @@ class Translator:
         if abs(diff) > 0.05:  # Significant difference
             return 1 if diff > 0 else 2
 
-        # Secondary comparison: English quality
+        # Secondary comparison: content completeness (critical for medical documents)
+        completeness_diff = quality_1.get('content_completeness', 0) - quality_2.get('content_completeness', 0)
+        if abs(completeness_diff) > 0.1:
+            return 1 if completeness_diff > 0 else 2
+
+        # Tertiary comparison: English quality
         english_diff = quality_1.get('english_quality', 0) - quality_2.get('english_quality', 0)
         if abs(english_diff) > 0.08:
             return 1 if english_diff > 0 else 2
 
-        # Tertiary comparison: medical preservation
+        # Final comparison: medical preservation
         medical_diff = quality_1.get('medical_preservation', 0) - quality_2.get('medical_preservation', 0)
         if abs(medical_diff) > 0.08:
             return 1 if medical_diff > 0 else 2
@@ -587,6 +846,7 @@ class Translator:
                 trust_remote_code=False,
             )
 
+            self.current_model_type = 'helsinki'
             print(f"    ✓ Helsinki model loaded successfully on {self.device}")
             return translator
 
@@ -602,6 +862,7 @@ class Translator:
                         trust_remote_code=False,
                     )
                     self.device = "cpu"
+                    self.current_model_type = 'helsinki'
                     print(f"    ✓ Helsinki model loaded successfully on CPU")
                     return translator
                 except Exception as cpu_error:
@@ -630,21 +891,14 @@ class Translator:
             def nllb_translate(text, generation_params=None):
                 try:
                     tgt_lang = 'eng_Latn'
-                    max_input_length = 600
+                    max_input_length = self.model_parameters['nllb']['max_input_length']
 
                     inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=max_input_length)
                     if self.device.startswith("cuda"):
                         inputs = {k: v.to(self.device) for k, v in inputs.items()}
 
-                    gen_kwargs = {
-                        'forced_bos_token_id': tokenizer.convert_tokens_to_ids(tgt_lang),
-                        'max_length': 400,
-                        'num_beams': 4,
-                        'length_penalty': 1.0,
-                        'do_sample': False,
-                        'no_repeat_ngram_size': 3,
-                        'repetition_penalty': 1.2,
-                    }
+                    gen_kwargs = self.model_parameters['nllb']['generation_params'].copy()
+                    gen_kwargs['forced_bos_token_id'] = tokenizer.convert_tokens_to_ids(tgt_lang)
 
                     with torch.no_grad():
                         translated_tokens = model.generate(**inputs, **gen_kwargs)
@@ -656,6 +910,7 @@ class Translator:
                     print(f"      NLLB translation error: {str(e)[:50]}")
                     return [{'translation_text': text}]
 
+            self.current_model_type = 'nllb'
             print(f"    ✓ NLLB model loaded successfully on {self.device}")
             return nllb_translate
 
@@ -729,24 +984,18 @@ class Translator:
             return None
 
     def translate_single_chunk(self, text: str, translator) -> str:
-        """Translate a single chunk using direct translation approach."""
+        """Enhanced single chunk translation with completeness validation."""
         if not text.strip() or not translator:
             return text
 
         try:
-            # Check if chunking is needed
-            chunks = self.adaptive_chunk_for_translation(text)
+            # Adaptive chunking based on current model capabilities
+            chunk_info_list = self.adaptive_chunk_for_translation(text)
 
-            if len(chunks) == 1:
+            if len(chunk_info_list) == 1:
                 # Single chunk translation
-                gen_params = {
-                    'max_length': 600,
-                    'truncation': True,
-                    'no_repeat_ngram_size': 3,
-                    'repetition_penalty': 1.1,
-                    'do_sample': False,
-                    'num_beams': 4,
-                }
+                model_type = self.current_model_type or 'helsinki'
+                gen_params = self.model_parameters[model_type]['generation_params'].copy()
 
                 if hasattr(translator, 'model'):
                     result = translator(text, **gen_params)
@@ -754,28 +1003,44 @@ class Translator:
                     result = translator(text, generation_params=gen_params)
 
                 translated_text = result[0]['translation_text']
+                
+                # Validate translation completeness
+                validation = self.validate_translation_completeness(text, translated_text)
+                if not validation['is_complete']:
+                    print(f"      ⚠️ Translation completeness issues: {', '.join(validation['issues_found'])}")
+                
             else:
-                # Multi-chunk translation
-                translated_chunks = []
-                for chunk in chunks:
-                    gen_params = {
-                        'max_length': 500,
-                        'truncation': True,
-                        'no_repeat_ngram_size': 3,
-                        'repetition_penalty': 1.1,
-                        'do_sample': False,
-                        'num_beams': 4,
-                    }
-
+                # Multi-chunk translation with enhanced reassembly
+                chunk_results = []
+                model_type = self.current_model_type or 'helsinki'
+                
+                for i, chunk_info in enumerate(chunk_info_list):
+                    chunk_text = chunk_info['text']
+                    
+                    # Adjust parameters for chunk translation
+                    gen_params = self.model_parameters[model_type]['generation_params'].copy()
+                    # Slightly reduce max_length for chunks to prevent cutoff
+                    gen_params['max_length'] = int(gen_params['max_length'] * 0.8)
+                    
                     if hasattr(translator, 'model'):
-                        result = translator(chunk, **gen_params)
+                        result = translator(chunk_text, **gen_params)
                     else:
-                        result = translator(chunk, generation_params=gen_params)
+                        result = translator(chunk_text, generation_params=gen_params)
 
-                    translated_chunks.append(result[0]['translation_text'])
+                    chunk_result = {
+                        'translated_text': result[0]['translation_text'],
+                        'original_info': chunk_info
+                    }
+                    chunk_results.append(chunk_result)
 
-                translated_text = ' '.join(translated_chunks)
-                print(f"      ✓ Merged {len(translated_chunks)} chunks")
+                # Enhanced reassembly
+                translated_text = self.reassemble_translated_chunks(chunk_results)
+                print(f"      ✓ Reassembled {len(chunk_results)} chunks with enhanced structure preservation")
+                
+                # Validate overall translation completeness
+                validation = self.validate_translation_completeness(text, translated_text)
+                if not validation['is_complete']:
+                    print(f"      ⚠️ Multi-chunk translation issues: {', '.join(validation['issues_found'])}")
 
             return translated_text.strip()
 
@@ -784,8 +1049,8 @@ class Translator:
             return text
 
     def translate_document_with_tier(self, data: dict, language: str, tier: int) -> Tuple[dict, Dict[str, float], Dict[str, Any]]:
-        """Translate document with specific tier."""
-        print(f"  📝 Translating document with Tier {tier}")
+        """Translate document with specific tier using enhanced processing."""
+        print(f"  📝 Translating document with enhanced Tier {tier}")
 
         tier_start_time = datetime.now()
 
@@ -816,8 +1081,9 @@ class Translator:
         translated_count = 0
         english_count = 0
         table_count = 0
+        completeness_issues = 0
 
-        print(f"    Processing {total_chunks} chunks with direct translation...")
+        print(f"    Processing {total_chunks} chunks with enhanced translation...")
 
         for i, chunk in enumerate(translated_data['chunks']):
             if i % 20 == 0 or i == total_chunks - 1:
@@ -828,9 +1094,13 @@ class Translator:
                 if self.is_english_chunk(chunk['heading']):
                     english_count += 1
                 else:
+                    original_heading = chunk['heading']
                     chunk['heading'] = self.translate_single_chunk(
                         chunk['heading'], translator
                     )
+                    # Quick completeness check
+                    if len(chunk['heading']) < len(original_heading) * 0.3:
+                        completeness_issues += 1
                     translated_count += 1
 
             # Process text
@@ -841,37 +1111,46 @@ class Translator:
                     if self.is_table_content(chunk['text']):
                         table_count += 1
 
+                    original_text = chunk['text']
                     chunk['text'] = self.translate_single_chunk(
                         chunk['text'], translator
                     )
+                    # Quick completeness check
+                    if len(chunk['text']) < len(original_text) * 0.3:
+                        completeness_issues += 1
                     translated_count += 1
 
         processing_time = (datetime.now() - tier_start_time).total_seconds()
 
-        print(f"    ✓ Tier {actual_tier} translation complete:")
+        print(f"    ✓ Enhanced Tier {actual_tier} translation complete:")
         print(f"      English chunks: {english_count}")
         print(f"      Translated chunks: {translated_count}")
         print(f"      Table chunks: {table_count}")
+        if completeness_issues > 0:
+            print(f"      ⚠️ Potential completeness issues: {completeness_issues}")
 
-        # Quality assessment using balanced approach
+        # Enhanced quality assessment
         quality_scores = self.assess_document_quality(translated_data, data, language)
 
-        print(f"    📊 Tier {actual_tier} Quality Assessment:")
+        print(f"    📊 Enhanced Tier {actual_tier} Quality Assessment:")
         print(f"      Overall: {quality_scores['overall']:.3f}")
         print(f"      English Quality: {quality_scores.get('english_quality', 0):.3f}")
         print(f"      Medical Preservation: {quality_scores.get('medical_preservation', 0):.3f}")
         print(f"      Length Appropriateness: {quality_scores.get('length_appropriateness', 0):.3f}")
+        print(f"      Content Completeness: {quality_scores.get('content_completeness', 0):.3f}")
 
         tier_metadata = {
             'tier': actual_tier,
             'model_loaded': True,
             'model_name': self.current_model_name,
+            'model_type': self.current_model_type,
             'processing_time_seconds': processing_time,
             'chunks_found': True,
             'total_chunks': total_chunks,
             'chunks_translated': translated_count,
             'chunks_english': english_count,
             'table_chunks_processed': table_count,
+            'completeness_issues_detected': completeness_issues,
             'quality_scores': quality_scores
         }
 
@@ -883,6 +1162,7 @@ class Translator:
         self.current_language = None
         self.current_tier = None
         self.current_model_name = None
+        self.current_model_type = None
 
         gc.collect()
         if self.use_cuda and torch.cuda.is_available():
@@ -892,7 +1172,7 @@ class Translator:
                 pass
 
     def process_json_file(self, input_path: str, output_path: str):
-        """Process a single JSON file with Tier 1 first approach."""
+        """Process a single JSON file with enhanced approach."""
         file_name = os.path.basename(input_path)
         print(f"\n📄 Processing: {file_name}")
 
@@ -920,7 +1200,7 @@ class Translator:
         combined_text = ' '.join(all_text_parts)
         document_language = self.detect_document_language(combined_text)
 
-        # Translation metadata
+        # Enhanced translation metadata
         translation_metadata = {
             "processing_timestamp": self.processing_start_time.isoformat(),
             "source_file": file_name,
@@ -929,15 +1209,18 @@ class Translator:
             "tier_attempts": [],
             "final_tier_used": None,
             "final_model_used": None,
+            "final_model_type": None,
             "escalation_occurred": False,
             "quality_comparison": {},
             "final_quality_scores": {},
             "chunks_translated": 0,
             "chunks_preserved_english": 0,
             "table_chunks_processed": 0,
+            "completeness_issues_detected": 0,
             "total_processing_time_seconds": 0,
-            "translation_strategy": "tier_1_first_direct_translation",
-            "quality_assessment": "balanced_weighted_approach",
+            "translation_strategy": "enhanced_tier_1_first_with_content_preservation",
+            "quality_assessment": "enhanced_weighted_approach_with_completeness",
+            "chunking_strategy": "adaptive_structure_preserving_with_overlap",
             "table_content_detected": sum(1 for chunk in data.get('chunks', [])
                                         if self.is_table_content(chunk.get('text', '')))
         }
@@ -956,7 +1239,7 @@ class Translator:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             return
 
-        # Check model availability - Tier 1 first approach
+        # Check model availability - Enhanced Tier 1 first approach
         tier_1_available = len(self.get_available_models_for_tier(1, document_language)) > 0
         tier_2_available = len(self.get_available_models_for_tier(2, document_language)) > 0
 
@@ -980,29 +1263,31 @@ class Translator:
                 json.dump(data, f, indent=2, ensure_ascii=False)
             return
 
-        # Start with Tier 1 (fast models first)
+        # Enhanced processing: Start with Tier 1
         final_translation = None
         final_quality = None
 
         if tier_1_available:
-            print(f"  🎯 Starting with Tier 1 translation (fast models first)")
+            print(f"  🎯 Starting with enhanced Tier 1 translation")
             tier_1_translation, tier_1_quality, tier_1_metadata = self.translate_document_with_tier(
                 data, document_language, 1
             )
             translation_metadata["tier_attempts"].append(tier_1_metadata)
 
             if not self.should_escalate_to_tier_2(tier_1_quality):
-                print(f"  ✅ Tier 1 quality sufficient (overall: {tier_1_quality['overall']:.3f})")
+                print(f"  ✅ Enhanced Tier 1 quality sufficient (overall: {tier_1_quality['overall']:.3f})")
                 final_translation = tier_1_translation
                 final_quality = tier_1_quality
                 translation_metadata.update({
-                    "translation_decision": "tier_1_sufficient",
+                    "translation_decision": "enhanced_tier_1_sufficient",
                     "final_tier_used": 1,
                     "final_model_used": tier_1_metadata["model_name"],
-                    "escalation_occurred": False
+                    "final_model_type": tier_1_metadata["model_type"],
+                    "escalation_occurred": False,
+                    "completeness_issues_detected": tier_1_metadata.get("completeness_issues_detected", 0)
                 })
             else:
-                print(f"  📈 Tier 1 quality insufficient, escalating to Tier 2")
+                print(f"  📈 Enhanced Tier 1 quality insufficient, escalating to Tier 2")
 
                 if tier_2_available:
                     self.clear_translator()
@@ -1012,14 +1297,16 @@ class Translator:
                     translation_metadata["tier_attempts"].append(tier_2_metadata)
 
                     if self.compare_translation_quality(tier_2_quality, tier_1_quality) == 1:
-                        print(f"  🏆 Tier 2 translation is better")
+                        print(f"  🏆 Enhanced Tier 2 translation is better")
                         final_translation = tier_2_translation
                         final_quality = tier_2_quality
                         translation_metadata.update({
-                            "translation_decision": "tier_2_better_than_tier_1",
+                            "translation_decision": "enhanced_tier_2_better_than_tier_1",
                             "final_tier_used": 2,
                             "final_model_used": tier_2_metadata["model_name"],
+                            "final_model_type": tier_2_metadata["model_type"],
                             "escalation_occurred": True,
+                            "completeness_issues_detected": tier_2_metadata.get("completeness_issues_detected", 0),
                             "quality_comparison": {
                                 "tier_1_overall": tier_1_quality['overall'],
                                 "tier_2_overall": tier_2_quality['overall'],
@@ -1027,39 +1314,45 @@ class Translator:
                             }
                         })
                     else:
-                        print(f"  🥈 Tier 1 translation is still better, keeping it")
+                        print(f"  🥈 Enhanced Tier 1 translation is still better, keeping it")
                         final_translation = tier_1_translation
                         final_quality = tier_1_quality
                         translation_metadata.update({
-                            "translation_decision": "tier_1_better_than_tier_2",
+                            "translation_decision": "enhanced_tier_1_better_than_tier_2",
                             "final_tier_used": 1,
                             "final_model_used": tier_1_metadata["model_name"],
-                            "escalation_occurred": True
+                            "final_model_type": tier_1_metadata["model_type"],
+                            "escalation_occurred": True,
+                            "completeness_issues_detected": tier_1_metadata.get("completeness_issues_detected", 0)
                         })
                 else:
-                    print(f"  ⚠️  Tier 2 not available, accepting Tier 1 result")
+                    print(f"  ⚠️  Tier 2 not available, accepting enhanced Tier 1 result")
                     final_translation = tier_1_translation
                     final_quality = tier_1_quality
                     translation_metadata.update({
-                        "translation_decision": "tier_1_only_tier_2_unavailable",
+                        "translation_decision": "enhanced_tier_1_only_tier_2_unavailable",
                         "final_tier_used": 1,
                         "final_model_used": tier_1_metadata["model_name"],
-                        "escalation_occurred": False
+                        "final_model_type": tier_1_metadata["model_type"],
+                        "escalation_occurred": False,
+                        "completeness_issues_detected": tier_1_metadata.get("completeness_issues_detected", 0)
                     })
         else:
-            print(f"  🎯 Tier 1 not available, using Tier 2")
+            print(f"  🎯 Tier 1 not available, using enhanced Tier 2")
             final_translation, final_quality, tier_2_metadata = self.translate_document_with_tier(
                 data, document_language, 2
             )
             translation_metadata["tier_attempts"].append(tier_2_metadata)
             translation_metadata.update({
-                "translation_decision": "tier_2_only_tier_1_unavailable",
+                "translation_decision": "enhanced_tier_2_only_tier_1_unavailable",
                 "final_tier_used": 2,
                 "final_model_used": tier_2_metadata["model_name"],
-                "escalation_occurred": False
+                "final_model_type": tier_2_metadata["model_type"],
+                "escalation_occurred": False,
+                "completeness_issues_detected": tier_2_metadata.get("completeness_issues_detected", 0)
             })
 
-        # Final statistics
+        # Final statistics with enhanced metrics
         translated_count = 0
         english_count = 0
         table_count = 0
@@ -1093,8 +1386,9 @@ class Translator:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(final_translation, f, indent=2, ensure_ascii=False)
 
-        print(f"  ✓ Final result: {english_count} English, {translated_count} translated, {table_count} table chunks")
-        print(f"  📊 Final quality: {final_quality['overall']:.3f}")
+        print(f"  ✓ Enhanced result: {english_count} English, {translated_count} translated, {table_count} table chunks")
+        print(f"  📊 Enhanced quality: {final_quality['overall']:.3f}")
+        print(f"  🎯 Content completeness: {final_quality.get('content_completeness', 0):.3f}")
         print(f"  ⏱️  Processing time: {total_processing_time:.2f}s")
 
         self.english_chunks_preserved += english_count
@@ -1102,14 +1396,14 @@ class Translator:
         self.clear_translator()
 
     def process_batch_files(self, file_batch: List[Tuple[str, str]]) -> None:
-        """Process a batch of files."""
-        print(f"  📦 Processing batch of {len(file_batch)} files")
+        """Process a batch of files with enhanced handling."""
+        print(f"  📦 Processing enhanced batch of {len(file_batch)} files")
 
         for input_path, output_path in file_batch:
             try:
                 self.process_json_file(input_path, output_path)
             except Exception as e:
-                print(f"  ✗ Batch processing error for {os.path.basename(input_path)}: {str(e)[:100]}")
+                print(f"  ✗ Enhanced batch processing error for {os.path.basename(input_path)}: {str(e)[:100]}")
                 try:
                     os.makedirs(os.path.dirname(output_path), exist_ok=True)
                     shutil.copy(input_path, output_path)
@@ -1118,17 +1412,19 @@ class Translator:
                     print(f"  ✗ Failed to copy original: {copy_error}")
 
     def translate_documents(self):
-        """Main translation method with Tier 1 first approach."""
-        print("🚀 Starting streamlined medical document translation...")
-        print("📋 Strategy:")
-        print("   • Direct translation without medical term placeholders")
-        print("   • Tier 1 models first for efficiency")
-        print("   • Smart escalation to Tier 2 based on quality assessment")
-        print("   • Balanced quality scoring (English 40%, Medical 35%, Length 25%)")
+        """Main translation method with enhanced processing."""
+        print("🚀 Starting enhanced medical document translation...")
+        print("📋 Enhanced Strategy:")
+        print("   • Enhanced chunk management with structure preservation")
+        print("   • Intelligent boundary detection and overlap handling")
+        print("   • Robust quality control with content completeness validation")
+        print("   • Model-specific parameter optimization")
+        print("   • Tier 1 models first with smart escalation")
+        print("   • Comprehensive quality scoring (English 35%, Medical 30%, Length 25%, Completeness 10%)")
 
         # Start total runtime tracking
         self.total_translation_start_time = datetime.now()
-        print(f"🕐 Translation started at: {self.total_translation_start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"🕐 Enhanced translation started at: {self.total_translation_start_time.strftime('%Y-%m-%d %H:%M:%S')}")
 
         os.makedirs(self.output_dir, exist_ok=True)
 
@@ -1143,7 +1439,7 @@ class Translator:
                     json_files.append((input_path, output_path))
 
         total_files = len(json_files)
-        print(f"📁 Found {total_files} JSON files to process")
+        print(f"📁 Found {total_files} JSON files for enhanced processing")
 
         if total_files == 0:
             print("⚠️  No JSON files found in input directory")
@@ -1157,9 +1453,9 @@ class Translator:
                 file_groups[dir_key] = []
             file_groups[dir_key].append((input_path, output_path))
 
-        # Process groups
+        # Process groups with enhanced handling
         for group_dir, group_files in file_groups.items():
-            print(f"\n📦 Processing batch from {group_dir}")
+            print(f"\n📦 Processing enhanced batch from {group_dir}")
             self.process_batch_files(group_files)
 
         # Calculate total runtime
@@ -1168,14 +1464,16 @@ class Translator:
         total_runtime_minutes = total_runtime_seconds / 60
         total_runtime_hours = total_runtime_minutes / 60
 
-        # Summary with runtime information
-        print(f"\n🎉 Streamlined Medical Translation Complete!")
-        print(f"📊 Summary:")
+        # Enhanced summary with runtime information
+        print(f"\n🎉 Enhanced Medical Translation Complete!")
+        print(f"📊 Enhanced Summary:")
         print(f"   • Total files processed: {total_files}")
         print(f"   • English chunks preserved: {self.english_chunks_preserved}")
         print(f"   • Chunks translated: {self.chunks_translated}")
-        print(f"   • Direct translation approach used")
-        print(f"   • Tier 1 first strategy with smart escalation")
+        print(f"   • Enhanced translation with content preservation")
+        print(f"   • Structure-aware chunking with overlap management")
+        print(f"   • Robust quality control with completeness validation")
+        print(f"   • Tier 1 first strategy with intelligent escalation")
         print(f"\n⏱️  Runtime Summary:")
         print(f"   • Start time: {self.total_translation_start_time.strftime('%Y-%m-%d %H:%M:%S')}")
         print(f"   • End time: {total_translation_end_time.strftime('%Y-%m-%d %H:%M:%S')}")
@@ -1186,4 +1484,3 @@ class Translator:
         if total_files > 0:
             avg_time_per_file = total_runtime_seconds / total_files
             print(f"   • Average time per file: {avg_time_per_file:.2f} seconds")
-
