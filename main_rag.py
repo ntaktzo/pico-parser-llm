@@ -1,6 +1,7 @@
 # Local imports
 from python.utils import FolderTree
-from python.process import PDFProcessor, Translator, PostCleaner
+from python.process import PDFProcessor
+from python.translation import Translator
 from python.vectorise import Chunker, Vectoriser
 from python.run import RagHTASubmission
 from python.open_ai import validate_api_key
@@ -108,5 +109,7 @@ print("Cleaned:", count_files(CLEAN_PATH))
 print("Translated:", count_files(TRANSLATED_PATH))
 print("Post-cleaned:", count_files(POST_CLEANED_PATH))
 print("Chunked:", count_files(CHUNKED_PATH))
+
+
 
 
