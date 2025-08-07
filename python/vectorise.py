@@ -5,18 +5,11 @@ import shutil
 from typing import List
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.docstore.document import Document
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_experimental.text_splitter import SemanticChunker
 
-import os
-import json
-import glob
-import shutil
-import numpy as np
-from typing import List
-from langchain.docstore.document import Document
-from langchain.vectorstores import Chroma
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from sklearn.manifold import TSNE
 import plotly.graph_objs as go
 import plotly.express as px

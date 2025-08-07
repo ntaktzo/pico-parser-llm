@@ -3,7 +3,7 @@ import json
 import re
 import tiktoken
 from typing import List, Dict, Any, Optional, Union
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage, BaseMessage
 import pandas as pd
 from IPython.display import display, HTML

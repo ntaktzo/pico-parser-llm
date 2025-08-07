@@ -1,0 +1,20 @@
+{
+  "doc_id": "SORAFENIB-SANDOZ-ROZHODNUTI-SSET-243488-24_NPM",
+  "created_date": "2024",
+  "country": "CZ",
+  "source_type": "hta_submission",
+  "chunks": [
+    {
+      "heading": "",
+      "text": "PRO KONTROLU LÉČIV 100 41 Praha 10 Fax: +420 271 732 377 Web:",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading none",
+      "text": "Row 1:\nKód SÚKL|Název LP|Doplněk názvu|Registrační čísloRow 2:\n0027193|NEXAVAR|200MG TBL FLM 112(4X28)|EU/1/06/342/001Row 3:\n0271463|SORAFENIB ACCORD|200MG TBL FLM 112X1|EU/1/22/1696/001Row 4:\n0239073|SORAFENIB STADA|200MG TBL FLM 112|44/175/19-CRow 5:\n0252492|SORAFENIB TEVA|200MG TBL FLM 112X1 I|44/492/17-CRow 6:\n0246730|SORAFENIB ZENTIVA|200MG TBL FLM 112X1|44/449/19-CRow 7:\n0248844|WELDININ|200MG TBL FLM 112|44/205/20-C",
+      "start_page": 2,
+      "end_page": 2
+    }
+  ]
+}

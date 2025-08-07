@@ -1,0 +1,1274 @@
+{
+  "doc_id": "lungenkarzinom-nicht-kleinzellig-nsclc",
+  "created_date": "unknown_year",
+  "country": "AT",
+  "source_type": "clinical_guideline",
+  "chunks": [
+    {
+      "heading": "",
+      "text": "Lu (karzi karzi C) kun kun - Therapie Therapie en",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "Released for consultation",
+      "text": "Executive Executive Chairman: Prof. Dr. Telefon: +49 (0)89 89 - 0 info@dgho. de",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "heading": "Contact points",
+      "text": "Medical Medical Director",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "heading": "Source",
+      "text": "be be re-examined!",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "heading": "1 Zusa",
+      "text": "2 Grun",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "2.1 Defin",
+      "text": "3 3 Vorb",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "3.1 Vorb",
+      "text": "2 2 Diag",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "1 1 Erstd",
+      "text": "5.3 Class",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "3 3 Stad",
+      "text": "3 3 Imm",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "1 1 Opera",
+      "text": "6 6 Allge",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "1 1 Klinis",
+      "text": "6 6 Ther",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "1 1 Neoa",
+      "text": "Immenfassung... . emiology. emiology... .hogenous... cofactors... diagnosis. diagnosis... recognition... ... ic image... . . gnostic... ... genetics... diagnostic... sification... . . . M and IASLC/ UICC8... M and ICLC/ uICC9... Robinson. Robinson... . stages. stages... dium IV... . .assessment. assessment...",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "N0, N0, T4N1",
+      "text": "Therapeutic... . .. . . .Pancoa Pancoa .Stadui Stadui .MEDTERM34__-Tra MEDTERM34__-Tra .4 HER2- .6 6 c_medTERM32_- .MED_MED_EMD_QS_EN_COM_C_V_F_R___Q__f__0__. MED_MED_EMD_QS_EN_COM_C_V_F_R___Q__f__0__... .06.3 MB_P__Med__md__MM_MID_MD__ME_MMT_MG_MQ_MM_Mg_MK_MB_MW_MH_ME_MY_MT_MX_MZ_MJ_M4_MI_M_MED_M000_Mq_M2_Mk_Mj_M5_Mx_M+_M6_M%_M8_M=_M7_MGR_M1_M*_MMS_MMe_M@MMMQ _MQM_AM_MDM_M",
+      "start_page": 3,
+      "end_page": 6
+    },
+    {
+      "heading": "14 Link",
+      "text": "habilitation. habilitation...",
+      "start_page": 6,
+      "end_page": 6
+    },
+    {
+      "heading": "cell cell (NSCLC)",
+      "text": "ICD-10: C34.-",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "heading": "the the guideline:",
+      "text": "report report Authors: Previous Previous author(s): Martin Martin Wolf",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "heading": "Product Product Characteristics",
+      "text": "computer computer tomogra- oncology. oncology.",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "heading": "basic basic information",
+      "text": "primary primary non- __MEDTERM0_. __MEDTERM0_.",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "heading": "2.2 Epidemiology",
+      "text": "Data Data [111]. approximately approximately 78% pathologies. pathologies.",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "heading": "carcinomas (27%) Carcinoids/ neuroendocrines Carcinomas (6%)",
+      "text": "Approximately 8% carcinomas. carcinomas.",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "heading": "women women (62%) men men (50%), women women (54%).",
+      "text": "for for 33% vs 20%.",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "heading": "year. year.",
+      "text": "approximately approximately 11% cancer cancer (DCO) minimum. minimum.",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "heading": "about about 2% years. years.",
+      "text": "States. States.",
+      "start_page": 8,
+      "end_page": 8
+    },
+    {
+      "heading": "age. age.",
+      "text": "gender gender (Germany, 20-2022) In 52% 2. 2.",
+      "start_page": 8,
+      "end_page": 10
+    },
+    {
+      "heading": "31. 31.8% vs 23.3%.",
+      "text": "Figure 3: Relative survival* analysis. analysis.Legative: *cancers. cancers.",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "people people (000 000 women) time. time.",
+      "text": "incidence incidence of",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "is stable [88, 89].",
+      "text": "years. years.",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "32% and 48% years. years.",
+      "text": "2021. 2021.",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "2.3 Pathogenesis",
+      "text": "subgroups. subgroups.",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "Risk Risk factors",
+      "text": "following following factors: vapors vapors (‘vaping) radiation radiation (radiation radiation exposure) factor. factor.",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "3.1 Prevention",
+      "text": "private private lifestyle: measure measure (Cancer Cancer Control) [117, 142]. substances substances [135]. recommended. recommended.",
+      "start_page": 11,
+      "end_page": 12
+    },
+    {
+      "heading": "Early Early detection",
+      "text": "in in [diagnosis].",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "heading": "[109]. paper, paper, the",
+      "text": "Medicine Medicine (DGP) Surgery Surgery (DGT) CT CT [11].",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "heading": "4 Clinical picture",
+      "text": "stages. stages.",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Cause Symptom",
+      "text": "Diarrhoea * Steadyness Steadyness (Vena-cava-superior Syndrome) Hotness Hotness (N. N. recurrence) Arm Deficiency (Plexus Plexus Bruchialis) Horner Syndrosis (Ganglion Ganglion stellatum) swelling swelling (supraclavicular) Paraneoplastic Paraneoplastic syndromes* Autoimmune (collagenoses) SIADH SIADH (Swedz-Bartter syndrome) hyponathromymia. hyponathromymia.",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Initial Initial diagnosis",
+      "text": "confirm confirm clinical/ e e om) ellig (progressive progressive SCLC), diagnosis, diagnosis, see",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "Evaluation Recommendations",
+      "text": "CT1 CT1 Thorax/ or or FDG-Thorax Thorax / of of Dia- gnosis Metabolism: 1 CT – computed tomography; in in Austria; 3 MRI – magnetic resonance imaging; space space demands: a. a.; diagnosis diagnosis (staging) cancers. cancers.",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "heading": "Investigation Note",
+      "text": "Vomiting_Methods_MD4_Meditration_Sonography OBJECTIVES_MED4_EMD2_MG4_TMD4",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "1 1 Stages",
+      "text": "2. 2.",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "and and IASLC/ UICC8",
+      "text": "of of IASLC/ 5. 5.",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "ra [136],",
+      "text": "Diarrhoea Diarrhoea (Tymp M (Meta 4: Besc rie r) phknode astase) T3 T3 T4en) diameter diameter ≤diameter diameter ≤1 and ≤T T (Tumo N (Lymp M (Meta Legend: * light blue 6: Besc t) phknote phknote astase) e: T4 T4 en) N0 N1",
+      "start_page": 16,
+      "end_page": 18
+    },
+    {
+      "heading": "N2*",
+      "text": "M1a M1a M1b* Project Project (diameter diameter ≤diameter diameter < and and ≤diameter diameter >2 and ≤3cm diameter >3 and ≤diameter diameter > 3 and ≤diameter diameter >lobe lobe (Tima Tima TIA)Table Table 8: stages stages T3/ Robinson Robinson [114]",
+      "start_page": 18,
+      "end_page": 20
+    },
+    {
+      "heading": "Stage Description",
+      "text": "nodes nodes (intraoperatially rapid cut) resection resection IIIA3*, sites sites (PET, medi- astinoscopic, biopsy), further further (bulky) stops stops (node node > 2 - 3 cm) with extracapsular infiltration; non-resectable: * unilevel unilevel (U) and multilevel (M) HFS1. HFS1.",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "heading": "2 2 Histology",
+      "text": "to to WHO/ 9. 9.",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "heading": "Classification Differentiation Characterisation/criteria",
+      "text": "verhornend verhornend (p40+, TTF1) (p 40+, tTF1) Basaloid p40+/ TTF1- adenocarcinoma Preinvasive < 3cm with < solid solid variants",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "heading": "Large cell carcinoma",
+      "text": "carcinol carcinol (SCLC) carcinoma carcinoma (LCNEC) Tumour Tumour (NET) carcinomas carcinomas (< Medterm 0__).",
+      "start_page": 20,
+      "end_page": 21
+    },
+    {
+      "heading": "genetic genetic alterations",
+      "text": "of of pre- refractoryness. refractoryness.",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Operable Operable stages",
+      "text": "required, required, including: ALK ALK Translocation",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "and and L858R",
+      "text": "peri-operative peri-operative immuno-, immuno-chemo- or target- ted therapy.",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Stage Stage IV",
+      "text": "recommended. recommended.",
+      "start_page": 21,
+      "end_page": 22
+    },
+    {
+      "heading": "and and comorbidity",
+      "text": "palliative. palliative.",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "functional functional operability",
+      "text": "function function (see Table 10) risk risk (See Table 11).",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "Investigation Note",
+      "text": "Spirometry: FEV1 FEV1 and/ capacity capacity (TLCO), diseases. diseases.",
+      "start_page": 22,
+      "end_page": 23
+    },
+    {
+      "heading": "Risk Parameter",
+      "text": "angina angina (or or 4) pectoris pectoris (or or 2) age age (> 70 years) abnormal ECG (action action (eg. atrial fibrillation) Z. Z.",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "Geriatric Geriatric Assessment",
+      "text": "treatment. treatment.",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "Nutritional Nutritional status",
+      "text": "Approximately 35% (one third) malnourished malnourished [75]. tool tool [63]. provided. provided.",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "Therapeutic Therapeutic structure",
+      "text": "response response (pCR) expression expression < 1%, published. published.",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "heading": "Stage Stage IA",
+      "text": "are are 80-93% [44, 83, 149] the the post- therapy therapy (SABR or SBRT) survival survival [50].",
+      "start_page": 24,
+      "end_page": 25
+    },
+    {
+      "heading": "Stage Stage IB",
+      "text": "are are 73% [44, 83, 149] tumours tumours > 3. 3.",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "and and IIB",
+      "text": "to to 65% and and 56% [44, 83, 149]. performed. performed.",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "Therapy Therapy (Induction Therapy)",
+      "text": "Inclusion Inclusion (in Excipients) II II (N2 stage) emissions emissions (4. 4.3%, p< 0.001) survival survival (HR 0.68; p=0.004) [54].",
+      "start_page": 25,
+      "end_page": 26
+    },
+    {
+      "heading": "systemic systemic therapy",
+      "text": "11. 11.6% of of cisplatin/ mutations mutations (19, L85R) expression expression ≥50%, period. period.",
+      "start_page": 26,
+      "end_page": 28
+    },
+    {
+      "heading": "Adjuvant Adjuvant radiotherapy",
+      "text": "possible. possible.",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "heading": "III III – Overview",
+      "text": "to to 40%, to to 30% IIIB IIIB (N2) to to 10% IV IV [44, 83, 149]. relevant. relevant.",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "heading": "T4 T4 N1",
+      "text": "3. 3.",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "heading": "Stage Stage III",
+      "text": "3. 3., the the neoad- emissions emissions (37 vs 7%, p=0.02), PFÜ PFÜ (HR 0.47; 25-0. 25-0.88) and ÜLZ (HR 1.43; 19-0. 19-0.98) [104].",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "heading": "Stage Stage III",
+      "text": "therapy therapy (thoracic thoracic surgery). with with < chemotherapy chemotherapy with< with with < IIIB IIIB (N2 stage) chemotherapy chemotherapy [38] PFÜ PFÜ (HR 0.51; p< 0.001) ÜLZ ÜLZ (HR 0.68; p=0025)). expression expression ≥1%, Mutation Mutation (del19, L85R), discontinued. discontinued.",
+      "start_page": 29,
+      "end_page": 31
+    },
+    {
+      "heading": "Stage Stage IIIC",
+      "text": "4. 4.",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "heading": "Pancoast Pancoast tumour",
+      "text": "3. 3.",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "heading": "Stage Stage IV",
+      "text": "More than 50% curative curative [44, 83, 149]. considered. considered.",
+      "start_page": 32,
+      "end_page": 33
+    },
+    {
+      "heading": "oligometastatic oligometastatic disease",
+      "text": "disease disease (OMD) attacks attacks (and and meninges). therapy. therapy.",
+      "start_page": 33,
+      "end_page": 34
+    },
+    {
+      "heading": "multiple multiple metastases",
+      "text": "curative curative [82, 82, 117]. 7. 7.",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "Figure 6: stratified stratified therapy",
+      "text": "Brigatinib_PRO__INVENTED_INJECTIVE_IN_INVIVENT_INII_INIVIT_INMI_INWI_INTI_INFIX_INFID_INFER_INFRI_ING_INfa_INFA_INfID_InfID=_INPRI_INfra_INFU_INCOMM_INQ_INGR_INK_INW_INH_IN4_INDE_INPRI_EN_IND_IN%_INGER_INCLOS_INDM_IN Gen: gemcitabine, pemetrexed, vinorelbin; cell cell carcinoma; carcinoma carcinoma only; 9 PD-1/PD-L1 inhibitor: __medterm17__ (regardless of PD- L1 expression), __ MEDTERM18__(rerespective of PD–L1 expression); __ Medterm19__ [TPS TPS ≥1%); immunocheckpoint immunocheckpoint inhibitor; aberrate aberrate (molecular-stratified therapy) cells. cells.",
+      "start_page": 35,
+      "end_page": 36
+    },
+    {
+      "heading": "ALK ALK Translocation",
+      "text": "in in 44% indication indication [133]. Lor- switching switching (crossover) Alectinib_. Alectinib_.",
+      "start_page": 37,
+      "end_page": 38
+    },
+    {
+      "heading": "BRAF BRAF mutations",
+      "text": "mutations. mutations.",
+      "start_page": 38,
+      "end_page": 39
+    },
+    {
+      "heading": "EGFR EGFR Mutations",
+      "text": "to to 44% approved approved [_MEDTERM54_ TKIs]. TCIs. TCIs.",
+      "start_page": 39,
+      "end_page": 41
+    },
+    {
+      "heading": "mutation mutation (UC II)",
+      "text": "monotherapy monotherapy [92]. for for _< MEDTERM 2_ are: First line therapy: carboplatin carboplatin + pemetrexed + to to 73% PFÜ PFÜ (HR 0.4; p< 0.001) rare rare mutations: board. board.",
+      "start_page": 41,
+      "end_page": 43
+    },
+    {
+      "heading": "and and mutations",
+      "text": "HER2 (Receptor Receptor 2) in in 1-4% in in 30%. subgroup subgroup [118]. study. study.",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "heading": "KRAS KRAS mutations",
+      "text": "increased. increased.",
+      "start_page": 43,
+      "end_page": 43
+    },
+    {
+      "heading": "c-_MEDTERM0__ c-_MEDTERM0__ Alterations",
+      "text": "treatment, treatment, 68%, months. months.",
+      "start_page": 43,
+      "end_page": 44
+    },
+    {
+      "heading": "7 7 __MEDTERM0_-Translocation",
+      "text": "NTRK-genes NTRK-genes (__medterm7_1, __medterm7_2___2, __mediarm7_3) 0. 0.1% to 0.3% products products are: _medterM1__ _medterM1__ . Phase Phase I/ bts. bts. [29]. available. available.",
+      "start_page": 44,
+      "end_page": 44
+    },
+    {
+      "heading": "8 8 __MEDTERM0_-Translocation",
+      "text": "mutations. mutations.",
+      "start_page": 44,
+      "end_page": 45
+    },
+    {
+      "heading": "study, study, selpercati-",
+      "text": "phase phase 1/ in in 72% and and 61% months. months.",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "heading": "__medterM1__. __medterM1__.",
+      "text": "__medterM1__ __medterM1__ , _< MedTERM2 > recommended. recommended.",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "heading": "impairment. impairment.",
+      "text": "MEDTERM2_ MEDTERM2_ [157].",
+      "start_page": 45,
+      "end_page": 45
+    },
+    {
+      "heading": "9 9 __MEDTERM0_-Translocation",
+      "text": "In 1-42% disease, disease, 1-44% Phase Phase I/was was 79% was was 38%; in [33] addressed. addressed.",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "heading": "stratified stratified therapy",
+      "text": "comprises comprises 70-80% __medterm0__. __medterm0__.",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "heading": "line line therapy",
+      "text": "are are immuno-, immuno-chemo- chemotherapy chemotherapy [47].",
+      "start_page": 46,
+      "end_page": 46
+    },
+    {
+      "heading": "PD-L1 PD-L1 ≥50%",
+      "text": "increased increased (HR 0.76; with with anti-PD-L1 antibodies Cemi-__MEDTERM1_]. decisions. decisions.",
+      "start_page": 46,
+      "end_page": 47
+    },
+    {
+      "heading": "platinum-based platinum-based therapy",
+      "text": "of of PD- conditions. conditions.",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "heading": "cell cell carcinoma",
+      "text": "with with [PhMP1_injection_inhibitor_inventor_initial_inmittal_indimethotrexate]. follow-up. follow-up.",
+      "start_page": 47,
+      "end_page": 50
+    },
+    {
+      "heading": "cell cell carcinoma",
+      "text": "expression expression < 1%. 64 64 [97] prolonged prolonged (HR 0.87; 2 2 months) [67].",
+      "start_page": 50,
+      "end_page": 51
+    },
+    {
+      "heading": "carcinoma carcinoma [49]",
+      "text": "Docetaxel [107] Best Supportive Care: symptom-oriented. symptom-oriented.",
+      "start_page": 51,
+      "end_page": 51
+    },
+    {
+      "heading": "line line therapy",
+      "text": "the the following: and and PD-L1; Che-motherapy Che-motherapy + CPI; as as follows: time time (0. 0.82; 1 1 months) grade grade ≥3/ 4 tra- rash rash (rash) CPI CPI (_medtersm20_, _medtersm20_,",
+      "start_page": 51,
+      "end_page": 52
+    },
+    {
+      "heading": "Primary Primary tumour",
+      "text": "dose. dose.",
+      "start_page": 52,
+      "end_page": 53
+    },
+    {
+      "heading": "Lymph Lymph nodes",
+      "text": "stage stage (N-status) it it differs: node node detection: compartments compartments (and and mediastinal), node. node. [117] node node sampling: removed. removed.",
+      "start_page": 53,
+      "end_page": 53
+    },
+    {
+      "heading": "Radiotherapy Radiotherapy alone",
+      "text": "indicated. indicated.",
+      "start_page": 53,
+      "end_page": 54
+    },
+    {
+      "heading": "Combined Combined radiochemotherapy",
+      "text": "patients patients [20, 85, 103]. radiochemotherapy radiochemotherapy are: cisplatin/ etoposide cisplatin/ patients patients Carboplatine/ paclitaxel cisplin/ multilevel multilevel (IIIA), protocols. protocols.",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "Drug Drug therapy",
+      "text": "status. status.",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "1 1 Cytostatics",
+      "text": "Guideline Guideline - fertility. fertility.",
+      "start_page": 54,
+      "end_page": 54
+    },
+    {
+      "heading": "1 1 Carboplatin",
+      "text": "toxicity toxicity (thrombocytopenia, anaemia, neutropenia), comorbidities. comorbidities.",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "2 2 Cisplatin",
+      "text": "primary primary (neoad- vuant), 15 15 – 30% 3 3 – reactions reactions (grade 3-4) diarrhea. diarrhea.",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "3 3 Docetaxel",
+      "text": "primary primary (neoadjvuant), reactions reactions (CTCAE grade 3/ 4) occurred with cisplatin/ docetaxel: neutropenia (69%), febrile neutropaenia (11%), anaemia (15%), thrombocytopenia (3%), vomiting (21%), diarrhoea (10%), nephrotoxicity (3%) and neuropathy (5%) and fatigue (16%). reactions. reactions.",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "4 4 Gemcitabine",
+      "text": "primary primary (neoadjvuant), in in non-four four platinum- reactions reactions (grade 3/ 4) occurred with cispla-tin/ gemcitabine: neutropenia (63%), febrile neutropaenia (4%), anaemia (28%), thrombocy topenia (50%, vomiting (35%), nephrotoxicity (9%), neuropathy (9%) and fatigue (17%).",
+      "start_page": 55,
+      "end_page": 55
+    },
+    {
+      "heading": "5 5 Paclitaxel/ nabPacliaxel",
+      "text": "reactions reactions (Grade 3/ 4) occurred in cisplatin/ paclitaxel: neutropenia (65%), febrile neutropaenia (16%), anaemia (13%), thrombocytopenia (6%), vomiting (24%), diarrhoea (7%), nephrotoxicity (3%), neuropathy (5%) and fatigue (14%).",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "heading": "6 6 Pemetrexed",
+      "text": "pemetrexide pemetrexide [Frost 2020]. alternating alternating (witch maintenance) maintenance maintenance (continuous maintenance) time. time.",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "heading": "7 7 Vinorelbin/ vinca alkaloids",
+      "text": "vinblastine. vinblastine.",
+      "start_page": 56,
+      "end_page": 56
+    },
+    {
+      "heading": "1 1 Atezolizumab",
+      "text": "monoclonal monoclonal anti-carcinoma carcinoma (HCC), cancer. cancer.",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "heading": "2 2 Durvalumab",
+      "text": "monoclonal monoclonal anti-carcinoma carcinoma (HCC). of of < with with Tremelimu- reactions reactions (irAE) organs. organs.",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "heading": "3 3 Ipilimumab",
+      "text": "monoclonal monoclonal anti-combination combination with< Medterm2__ > effects effects (irAE) organs. organs.",
+      "start_page": 57,
+      "end_page": 57
+    },
+    {
+      "heading": "4 4 Nivolumab",
+      "text": "monoclonal monoclonal anti-CPI. CPI.",
+      "start_page": 57,
+      "end_page": 58
+    },
+    {
+      "heading": "5 5 Pembrolizumab",
+      "text": "monoclonal monoclonal anti-CPI. CPI.",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "heading": "6 6 Tislelizumab",
+      "text": "monoclonal monoclonal anti-CPI. CPI.",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "heading": "7 7 Tremelimumab",
+      "text": "monoclonal monoclonal anti-class. class.",
+      "start_page": 58,
+      "end_page": 58
+    },
+    {
+      "heading": "1 1 Adagrasib",
+      "text": "diarrhoea diarrhoea (53%), flare (35%) and nausea (34%), transaminases transaminases (30%) increase increase (20%). avoided. avoided.",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "heading": "2 2 Afatinib",
+      "text": "mutations. mutations.",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "heading": "3 3 Alectinib",
+      "text": "M4_ M4_ positive__< MedTERM9__ > recurrence. recurrence.",
+      "start_page": 59,
+      "end_page": 59
+    },
+    {
+      "heading": "4 4 Amivantamab",
+      "text": "with with __METERM9/__ mutation del19/ for for non-pre-treatment Pat., with with carboplatin/ Pat. Pat.",
+      "start_page": 59,
+      "end_page": 60
+    },
+    {
+      "heading": "5 5 Brigatinib",
+      "text": "MedTERM5_-inhibitors. MedTERM5_-inhibitors.",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "heading": "6 6 Cabmatinib",
+      "text": "2023. 2023.",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "heading": "7 7 Ceritinib",
+      "text": "indication. indication.",
+      "start_page": 60,
+      "end_page": 60
+    },
+    {
+      "heading": "8 8 Crizotinib",
+      "text": "indication. indication.",
+      "start_page": 60,
+      "end_page": 61
+    },
+    {
+      "heading": "9 9 Dabrafenib",
+      "text": "pathway. pathway.",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "heading": "10 10 Dacomitinib",
+      "text": "of of acti- grade grade 3/ in in 53% than than 5% acne acne (14%), diarrhoea (8%) and paronychia (7%) reduction. reduction.",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "heading": "11 11 Entrectinib",
+      "text": "kinases kinases (NTRK) Kinase Kinase (_< Medterm4_] malignancies. malignancies.",
+      "start_page": 61,
+      "end_page": 61
+    },
+    {
+      "heading": "12 12 Erlotinib",
+      "text": "receptor receptor (__medterm5__). metastated metastated _< MedTERM8. > chemotherapy. chemotherapy.",
+      "start_page": 61,
+      "end_page": 62
+    },
+    {
+      "heading": "rash rash (rash) occurring in 60% of patients.",
+      "text": "reactions reactions (Grade 3/ 4) diarrhoea diarrhoea (4%), anorexia (1-9%) and fatigue (10.0% vs.",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "heading": "13 13 Gefitinib",
+      "text": "receptor receptor (__medterm2__). mutations. mutations.",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "heading": "14 14 Larotrectinib",
+      "text": "Larot- kinase kinase (_medterm4_) gene fusion.",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "heading": "15 15 Lorlatinib",
+      "text": "barrier. barrier.",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "heading": "daemia (60%), gain gain (not water retention), peripheral neuropathy,",
+      "text": "avoided. avoided.",
+      "start_page": 62,
+      "end_page": 62
+    },
+    {
+      "heading": "16 16 Osimertinib",
+      "text": "monotherapy. monotherapy.",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "17 17 Pralsetinib",
+      "text": "with with rearran- ed-d-during-transfaction (__ MEDTERM4_) anti-medeterm4_ anti-medeterm4_ . neutropenia neutropenia (42% grades, grades, 20% grade grade >3), anaemia (38/ 13 %), hypertension (25/ 12%). were were 15% dysgeusia (grade 1.2), mouth mouth (15% grade 1⁄2). market. market.",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "18 18 Selpercatinib",
+      "text": "with with rear-ranged-during transfusion (__ MEDTERM3_) chemotherapy chemotherapy and/ or immunotherapy. _< Medterm0 > hypertension hypertension (14%), transaminases transaminases (13%), hyponatria (6%), and lymphocytopenia (6%). in in 30% of patients.",
+      "start_page": 63,
+      "end_page": 63
+    },
+    {
+      "heading": "19 19 Sotorasib",
+      "text": "pharmacodynamics. pharmacodynamics.",
+      "start_page": 63,
+      "end_page": 64
+    },
+    {
+      "heading": "20 20 Tepotinib",
+      "text": "chemotherapy chemotherapy and/ occurring occurring 63%, grade 1-2 56%, grade 37%.",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "21 21 Trametinib",
+      "text": "Trametinib. Trametinib.",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "Deruxtecan Deruxtecan (T-DXd)",
+      "text": "__medterm0_ __medterm0_ = HER2 HER2 (ERBB2) for for HER2+ HER2 HER2 + anaemia. anaemia.",
+      "start_page": 64,
+      "end_page": 64
+    },
+    {
+      "heading": "1 1 Bevacizumab",
+      "text": "histology. histology.",
+      "start_page": 64,
+      "end_page": 65
+    },
+    {
+      "heading": "2 2 Nintedanib",
+      "text": "grade grade 3/ diarrhoea diarrhoea (6.6%) transaminases transaminases (7.8%), than than 5% combined combined with< Medterm0 >.",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "3 3 Ramucirumab",
+      "text": "receptor-2 receptor-2 (V_ MEDTERM6__2) bin- det.",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "tracheal tracheal stenosis",
+      "text": "dyspnoea dyspnoea and/ prosthetic prosthetic (endoluminal stents) relapse. relapse.",
+      "start_page": 65,
+      "end_page": 65
+    },
+    {
+      "heading": "pleural pleural effusion",
+      "text": "standard standard [127]. relief. relief.",
+      "start_page": 65,
+      "end_page": 66
+    },
+    {
+      "heading": "Bone Bone metastases",
+      "text": "agents agents (bisphosphonates, RANKL antibodies). tumours. tumours.",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "heading": "Brain Brain metastases",
+      "text": "radiation radiation (sterotactic sterotactic radiation) is recommended.",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "heading": "liver liver metastases",
+      "text": "patients. patients.",
+      "start_page": 66,
+      "end_page": 66
+    },
+    {
+      "heading": "adrenal adrenal metastases",
+      "text": "1. 1.",
+      "start_page": 66,
+      "end_page": 67
+    },
+    {
+      "heading": "lung lung carcinomas",
+      "text": "reduced. reduced.",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "heading": "7 Rehabilitating",
+      "text": "sectors. sectors.",
+      "start_page": 67,
+      "end_page": 67
+    },
+    {
+      "heading": "Kurative Kurative therapy",
+      "text": "time time / potential. potential.",
+      "start_page": 67,
+      "end_page": 68
+    },
+    {
+      "heading": "CT Thorax X* X*",
+      "text": "X X (X) (X)(X) Legend: *after radiotherapy; pneumonitis pneumonitis [121]. metastasis metastasis (tumour tumour histologies) intervals intervals (6-9 months), therapy. therapy.",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "heading": "intended intended therapy",
+      "text": "shorter shorter 6- 8-week intervals [117] weekly weekly web- standardised standardised 3- control. control.",
+      "start_page": 68,
+      "end_page": 68
+    },
+    {
+      "heading": "9 Literature",
+      "text": "16. 16.",
+      "start_page": 69,
+      "end_page": 79
+    },
+    {
+      "heading": "Study results",
+      "text": "Pulmonary Carcinoma - Study Results (Studies, Studies, Metaanalyses)",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "heading": "13 Authorisation status",
+      "text": "Lung carcinomas - medicinal medicinal products",
+      "start_page": 79,
+      "end_page": 79
+    },
+    {
+      "heading": "14 Left",
+      "text": "gudrun. gudrun. absenger@medu Unive.-Onkologie, Onkologie, Albert-annalen. annalen. bleckmann@Wilfried. Wilfried.Eberhardt@martin. martin. eichhorn@med.un.",
+      "start_page": 79,
+      "end_page": 80
+    },
+    {
+      "heading": "Nikolaj Nikolaj Frost",
+      "text": "nikolaj. nikolaj. frost@charite. de",
+      "start_page": 80,
+      "end_page": 80
+    },
+    {
+      "heading": "Martin Martin Früh",
+      "text": "Fachbereich Fachbereich Onkologie/ martin. martin. frueh@med. med.",
+      "start_page": 80,
+      "end_page": 81
+    },
+    {
+      "heading": "Dr Sylvia Gütz",
+      "text": "E-mail: e-mail@int int http: / /Großh Großh @Münch Münch uth@ r-Sterrankf r-Sterrankf an@Berlin Berlin l@ahlenth ahlenth etgen@ er er Schw",
+      "start_page": 81,
+      "end_page": 82
+    },
+    {
+      "heading": "m 80",
+      "text": "rxt. rxt.",
+      "start_page": 82,
+      "end_page": 83
+    },
+    {
+      "heading": "heading heading none",
+      "text": "Row 1:",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "heading heading  Initial Initial diagnosis",
+      "text": "Row 1:\nRowRow 2:\ninflux influx (Vena cava-superior syndrome) hoarseness hoarseness (N. N. recurrens) Arm weakness (plexus plexus brachialis) Horner Syndrome (ganglion ganglion stellatum)Row 3:\nswelling swelling (supraclavicular) IctterusRow 4:\nParaneoplastic Paraneoplastic syndrome* Autoimmune (collagenosis) z. z.",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "heading heading  Initial Initial diagnosis (column 1)",
+      "text": "Row 1:\nRowRow 2:\ninflux influx (Vena cava-superior syndrome) hoarseness hoarseness (N. N. recurrens) Arm weakness (plexus plexus brachialis) Horner Syndrome (gabrion gabrion stellatum)Row 3:\nswelling swelling (supraclavicular) IctterusRow 4:\nParaneoplastic Paraneoplastic syndrome* Autoimmune (collagenosis) z. z.",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "heading heading  Initial Initial diagnosis (column 2)",
+      "text": "Row 1:\n Row 2:\n⋅Row 3:\neRow 4:\nom)",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "heading heading  Initial Initial diagnosis (column 3)",
+      "text": "Row 1:\n Row 2:\n↔Row 3:\n⋅",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "heading heading Inspection recommendation",
+      "text": "Row 1:\nRowRow 2:\nRowRow 3:\nCT1 chest / or or FDG-RowRow 4:\nMRI3 chest / RowRow 5:\nRowRow 6:\nof of diagnosus",
+      "start_page": 14,
+      "end_page": 14
+    },
+    {
+      "heading": "heading heading  en [136],",
+      "text": "14 MG_MG_EMG_PROG_INVENT_COMG_ENVANT_REGION_Studies_BG_PG_FG_RG_EG_TG_CG_QG_NG_DG_fG_ERG_AG_GG_WG_XG_IG_KG_Bg_Rg_Mg_F_G_Lg_G2_G4_G5_G8_G7_G6_G1_G12_G10_G3_G9_G13_G14_G11_G06_G05_G07_G15_G17_G19_G09_G20_G16_G18_G24_G25_G23_G08_G01_G04_G22_G02_G26_G21_G03_G31_G28_G32_G34_G37_G36_G27_G41_G29_G42_G30_G40_G47_G55_G45_G46_G89_G64_G56_G62_G76_G",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "heading heading  en [136], (column 1)",
+      "text": "MRI -RowRow 8:\nRowRow 9:\nCT5 Abdomen (and and pelvic)",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "heading heading en [136], (column 2)",
+      "text": "Row 1:\n Row 2:\n↔Row 3:\n⋅Row 4:\n\"Row 5:\nRowRow 6:\nastasenRow 7:\n\"Row 8:\n'Row 9:\n\"Row 10:\nertRow 11:\n̊Row 12:\n0M",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "heading heading en [136], (column 3)",
+      "text": "Row 1:\n Row 2:\n↔Row 3:\n⋅Row 4:\n\"Row 5:\ngene erfol-Row 6:\n Row 7:\nBow 8: ↔row 9: \"Row 10:\n̊Row 11:\nύRow 12:\nΥ",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "heading heading en [136], (from previous page)",
+      "text": "table table below: pneumonia. pneumonia.",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading en [136]. (column column 1)",
+      "text": "Row 1:\nCategorisationRow 2:\nT (TumorRow 3:\nN (LympRow 4:\nM (Meta",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading en [136]. (column column 2)",
+      "text": "Row 1:\nrieRow 2:\nr)Row 3:\nphknoteRow 4:\nastase)",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading en [136]. (column column 3)",
+      "text": "Row 1:\nstadiumRow 2:\nTisRow 3:\nT1Row 4:\n⋅T1a (mi)Row 5:\nt1aRow 6:\n↔t1bRow 7:\nt1cRow 8:\nύt2Row 9:\n̊t2a Arrow 10: Υt2brow 11: ⋅t3Row 12:\n∆t4Row 13:\nen)N0Row 14:\n↔n1Row 15:\nΆn2 Cow 16: Еn3 Bow 17: Дm0",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading en [136]. (column column 4)",
+      "text": "Row 1:\n Row 2:\n)Row 3:\n\"Row 4:\n'Row 5:\n\"Row 6:\n'Row 7:\n⋅Row 8:\n‘Row 9:\nύRow 10:\n↔ τ\"Row 11:\n̊Row 12:\nΥRow 13:\nRowRow 14:\n∆ έRow 15:\nЕRow 16:\nДRow 17:\nГ ⋅ row 18: Л .\"Row 19:\nώRow 20:\n‰Row 21:\nФ",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading en [136]. (column column 5)",
+      "text": "Diphthromycin Diphthromycin (sulcus sulcus superior), Parietal Parietal pericardial",
+      "start_page": 16,
+      "end_page": 16
+    },
+    {
+      "heading": "heading heading en [136], (from previous page)",
+      "text": "Row 1:\nRowRow 2:\n0TisN0M0Row 3:\nIA1T1a(mi) T1a⋅RowRow 4:\nIA2′T1bN0%Row 5:\nIABt1cN0/M0Row 6:\nIBT2aN020Row 7:\nIIAt2bn0 'M0row 8: T2b T2b T3'N1N1 N0",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136]. (column column 1)",
+      "text": "Row 1:\nStadiumRow 2:\n0Row 3:\nIA1Row 4:\nIA2Row 5:\nIA3Row 6:\nIBRow 7:\nIIARow 8:\nIIBRow 9:\nIIIARow 10:\nIIIB\"Row 11:\nIIICRow 12:\nIVARow 13:\nIVB",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136]. (column column 2)",
+      "text": "Row 1:\nRowRow 2:\nTisRow 3:\nT1a(mi) T1aRow 4:\n⋅T1bRow 5:\n↔T1cRow 6:\n\"T2a\"Row 7:\n̊T2b Bow 8: RowRow 9:\nT4 T4 T4\"Row 10:\nT2 T2 a- RowRow 11:\nRowRow 12:\n↔RowRow 13:\n⋅every T' Any T",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136]. (column column 3)",
+      "text": "Row 1:\n Row 2:\n\"Row 3:\n'Row 4:\n\"Row 5:\n'Row 6:\n‘Row 7:\n.Row 8:\n⋅ ROW 9: ↔Row 10:\nύ τ\"Row 11:\nΥRow 12:\n̊Row 13:\nЕ",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136]. (column column 4)",
+      "text": "Row 1:\nRowRow 2:\n'N0Row 3:\n'N0 N0′Row 4:\nN0⋅Row 5:\nN0Row 6:\n\"N0\"Row 7:\n0Row 8:\n↔ 1 1 N0}Row 9:\nN1 N1 'Row 10:\nN2 N2 'Row 11:\n̊ N3 - N3Row 12:\nRowRow 13:\nД Any N",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136]. (column column 7)",
+      "text": "Row 1:\nFernmRow 2:\n\"M0Row 3:\nM0 M0",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136]. (column column 8)",
+      "text": "Row 1:\nmetastRow 2:\nrow 3: arrow 4: row 5: arrow 6:Row 7:\nraow 8: ↔Row 9:\n⋅Row 10:\n̊Row 11:\nύRow 12:\nΥRow 13:\n∆",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136]. (column column 9)",
+      "text": "Row 1:\ntasenRow 2:\nrow 3:Row 4:\nrow 5: raow 6: roow 7: row 8: ↔Row 9:\n⋅Row 10:\n̊Row 11:\nύRow 12:\nΥRow 13:\n∆",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading en [136], (column column 10)",
+      "text": "Row 1:\n Row 2:\n↔Row 3:\n⋅Row 4:\n\"Row 5:\n\"Row 6:\n\"Row 7:\n\"Row 8:\n'Row 9:\n'Row 10:\n\"Row 11:\n̊Row 12:\n.\"",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "heading heading  N2*",
+      "text": "Package Package Leaflet:",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "heading heading  N2* (column 1)",
+      "text": "Row 1:\nKategoRow 2:\nT (TumoRow 3:\nN (LympRow 4:\nM (Meta",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "heading heading  N2* (column 2)",
+      "text": "Row 1:\norieRow 2:\nor)Row 3:\nphknoteRow 4:\nastase)",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "heading heading  N2* (column 3)",
+      "text": "Row 1:\nstadiumRow 2:\nTisRow 3:\nT1Row 4:\n⋅T2Row 5:\nt2aRow 6:\nt2bRow 7:\nT3Row 8:\n↔T4Row 9:\nen)N0Row 10:\nΥN1 Arrow 11: ⋅N2*Row 12:\n̊N2a'Row 13:\nύN2b\"Row 14:\nЕN3 Bow 15: ∆M0row 16: ДM1aRow 17:\nГM1b*Row 18:\nέM1 b*Row 19:\nΆM1c1",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "heading heading  N2* (column 4)",
+      "text": "Row 1:\n Row 2:\n\"Row 3:\n'Row 4:\n\"Row 5:\n‘Row 6:\n'Row 7:\n↔Row 8:\ńRow 9:\n⋅ .\"Row 10:\nύ τ\"Row 11:\nΥRow 12:\n∆Row 13:\n̊ ΛRow 14:\nГRow 15:\nЕ RRow 16:\n: RowRow 17:\nRowRow 18:\nώ arrow 19: ‰Row 20:\nЛ",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "heading heading  N2* (column 5)",
+      "text": "Row 1:\nRowRow 2:\ndiameter diameter ≤diameter diameter ≤1 cm > 1 and ≤diameter diameter >2 and ≤3cm diameter >3 and ≤diameter diameter >3, and ≤diameter diameter >4 and <diameter diameter >5 but ≤wall wall (sulcus sulcus superior), tube. tube.",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "heading heading  N2* (column 5)",
+      "text": "Row 1:\n Row 2:\nmediastinal mediastinal and/ RowRow 3:\nMetastases Metastases (ipsilateral mediastinal and/or subcarinal",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "heading heading  N2* (from previous page)",
+      "text": "The following IIB* 'T2bN0M0R 12: RowRow 6:\nIB T2a00Row 7:\nIBAT2ab 'T1b 'N0'M0 M0Rway 7: t2a'N0 'M0 'Row7: 0Row 0Row 8:\nIIB*: n2a, 10: ⋅T2a. Í0 '0 'P0 '",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 1)",
+      "text": "Row 1:\nStadiumRow 2:\n0Row 3:\nIA1Row 4:\nIA2Row 5:\nIA3Row 6:\nIBRow 7:\nIIARow 8:\nIIB*:Row 9:\nIIIA*:Row 10:\nIIIB*:Row 11:\nIIICRow 12:\nIVARow 13:\nIVB*",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 2)",
+      "text": "Row 1:\n Row 2:\n↔Row 3:\n⋅Row 4:\n\"Row 5:\n\"Row 6:\n\"Row 7:\n\"Row 8:\n'Row 9:\n'Row 10:\n\"Row 11:\n̊Row 12:\n.\"",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 3)",
+      "text": "27 Tow: 25 tow:",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 4)",
+      "text": "Row 1:\n Row 2:\n\"Row 3:\n'Row 4:\n\"Row 5:\n'Row 6:\n‘Row 7:\n.Row 8:\n⋅ ROW 9: ↔Row 10:\nύ τ\"Row 11:\nΥRow 12:\n̊Row 13:\nЕ",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 5)",
+      "text": "Row 1:\nLymphknoteRow 2:\n⋅N0Row 3:\n\"N0\"Row 8:\n\"N1Row 14:\nN2aRow 15:\n̊N1'Row 16:\n↔N2A",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 6)",
+      "text": "Row 1:\nenRow 2:\n Row 3:\n\"Row 4:\n\"Row 5:\n'Row 6:\n↔Row 7:\n''Row 8:\n⋅Row 9:\nΥ .\"Row 10:\n̊Row 11:\nύRow 12:\nΆ ∆Row 13:\nДRow 14:\nЕRow 15:\nГ ↔Row 16:\n↔",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 6)",
+      "text": "",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 7)",
+      "text": "Row 1:\n Row 2:\n\"Row 3:\n'Row 4:\n⋅Row 5:\n\"Row 6:\n'Row 7:\n↔Row 8:\n‘Row 9:\nύ .\"Row 10:\nΆRow 11:\n̊Row 12:\nΥRow 13:\nЕRow 14:\nГRow 15:\n∆ 'Roow 16: Д",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 9)",
+      "text": "Row 1:\nM0Row 6:\n‘M0'Row 7:\n\"M0\"Row 8:\n⋅ 'M0 'Row 9:\nM0Row 10:\n↔ M0Row 17:\nΥ M0",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 10)",
+      "text": "Row 1:\netastasRow 2:\n↔Row 3:\n Row 4:\n Row 5:\n⋅Row 6:\nrow 7: row 8: ∆Row 9:\nύRow 10:\n̊Row 11:\nΆRow 12:\nΥRow 13:\nЕRow 14:\n↔",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 11)",
+      "text": "Row 1:\nsenRow 2:\n Row 3:\nrow 4: arrow 5: low 6:Row 7:\nrow 8: ⋅Row 9:\n↔Row 10:\n̊Row 11:\nύRow 12:\n∆Row 13:\nΆRow 14:\nΥ",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "heading heading  N2* (column column 12)",
+      "text": "Row 1:\n Row 2:\n↔Row 3:\n⋅Row 4:\n\"Row 5:\n\"Row 6:\n\"Row 7:\n\"Row 8:\n'Row 9:\n'Row 10:\n\"Row 11:\n̊Row 12:\n.\"Row 13:\n Row 14:\n\"",
+      "start_page": 19,
+      "end_page": 19
+    },
+    {
+      "heading": "Table under heading Large Cell Carcinoma",
+      "text": "Row 1:\nRowRow 2:\nRowRow 3:\nstation station (intra-operatial rapid cut) RowRow 4:\nIIIA3*locations locations (PET, medi- astinoscopy, biopsy), RowRow 5:\nIIIA4Extended (bulky) nodes nodes (node node > 2 – 3 cm) with extracapsular infiltration; non-resectable",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "heading": "Table under heading Large Cell Carcinoma",
+      "text": "Row 1:\nClassificationDifference Characterization Characterisation/ CriteriaRow 2:\nRowRow 3:\nnon-horned (p40+, TTF1-) (p 40+, tTF1)Row 4:\nBasaloid p40+/ TTF 1-Row 5:\nadenocarcinomas Preinvasive<3cm with < RowRow 6:\nRowRow 7:\nRowRow 8:\nVariantsRow 9:\nRowRow 10:\natypical atypical \"Row 11:\n\" Carcinoid Carcinoid (SCLC_)",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "heading": "Table under headingInspection Note",
+      "text": "Row 1:\nRowRow 2:\nSpirometry: RowRow 3:\nRowRow 4:\nRowRow 5:\nFEV1 FEV1 and/ capacity capacity (TLCO), conjunctive conjunctive diseases",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "heading heading  Therapeutic Therapeutic structure",
+      "text": "Row 1:\nRowRow 2:\nangina angina (or or 4) RowRow 3:\npectoris pectoris (or or 2) RowRow 4:\nage age (> 70 years) abnormal ECG (artery artery hypertension).",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "heading heading Figure 6: stratified stratified therapy",
+      "text": "",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "heading heading  9 Literature",
+      "text": "Row 1:\nRowRow 2:\nexaminationXXύX examinationXXύX XX'XxXRow 3:\nCT ThoraxX*X*:XX′XRow 4:\nPulmonary functionX⋅X(X)(X)",
+      "start_page": 68,
+      "end_page": 68
+    }
+  ]
+}

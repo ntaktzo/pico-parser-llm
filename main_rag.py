@@ -4,6 +4,8 @@ from python.process import PDFProcessor, Translator, PostCleaner
 from python.vectorise import Chunker, Vectoriser
 from python.run import RagHTASubmission
 from python.open_ai import validate_api_key
+import glob
+import os
 
 # Define paths
 PDF_PATH = "data/PDF"
@@ -20,7 +22,7 @@ COUNTRIES = ["ALL"]
 validate_api_key()
 
 # Show folder structure
-tree = FolderTree(root_path=".")
+tree = FolderTree(root_path="data")
 tree.generate()
 
 # Step 1: Process PDFs
@@ -97,5 +99,14 @@ for pico in extracted_picos_clinical:
     print(f"Country: {pico['Country']}")
     print(f"Number of PICOs: {len(pico.get('PICOs', []))}")
     print("---")
+
+def count_files(folder, ext="*.json"):
+    return len(glob.glob(os.path.join(folder, "**", ext), recursive=True))
+
+print("PDFs:", count_files(PDF_PATH, "*.pdf"))
+print("Cleaned:", count_files(CLEAN_PATH))
+print("Translated:", count_files(TRANSLATED_PATH))
+print("Post-cleaned:", count_files(POST_CLEANED_PATH))
+print("Chunked:", count_files(CHUNKED_PATH))
 
 

@@ -1,0 +1,878 @@
+{
+  "doc_id": "RECOTESTMOLPOUM25_CBNPC_tests_moléculaires",
+  "created_date": "2023",
+  "country": "FR",
+  "source_type": "clinical_guideline",
+  "chunks": [
+    {
+      "heading": "SLEITNERÉFÉR",
+      "text": "TE",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "SNOITADNAMMOCER",
+      "text": "JANVIE ACTUA",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "ER 2023",
+      "text": "ALISATION 2024",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "/ Réfé",
+      "text": "PA D’U",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "BR",
+      "text": "NO CE / Ind en vu de p ére AT ’U",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "RO",
+      "text": "O EL dic ue pré entie TIE UN ON ON LL catio e de écisi el de bonne ENTS N CAN NCH N À PE LULES ons des tes e la prescri ion es prat S AT NC HIQ ETI S ests m iption tiques ATTEINTS",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "CER",
+      "text": "QUE ITES moléculaires n de traitements PATIENTS ATTEINTS D’UN CANCER BRONCHIQUE NON À PETITES CELLULES INDICATIONS DES TESTS MOLÉCULAIRES EN VUE DE LA PRESCRIPTION DE TRAITEMENTS DE PRÉCISION L’Institut national du cancer (INCa) est l’agence d’expertise sanitaire et scientifique en cancérologie chargée de coordonner la lutte contre les cancers en France. Le présent document constitue un référentiel de bonnes pratiques et de prise en charge en cancérologie pris en application du 2° de l’article L.1415-2 du code de la santé publique et a été soumis aux commissions des expertises de l’Institut national du cancer du 05/12/2022 et du 11/02/2025 (mise à jour). Cette expertise sanitaire a été adoptée par décisions du Président de l’Institut N° 2025-05 en date du 19/03/2025 et publiée au Registre des actes administratifs de l’Institut1.",
+      "start_page": 1,
+      "end_page": 2
+    },
+    {
+      "heading": "Coordination Institut national du cancer",
+      "text": "Aurélie KROL, PhD, Département Biologie, Transfert et Innovations, Pôle Recherche et Innovation Sophie LE RICOUSSE, PhD, Département Biologie, Transfert et Innovations, Pôle Recherche et Innovation",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "heading": "NOTE AUX LECTEURS",
+      "text": "Afin de prendre en considération les évolutions rapides du domaine, le document a été actualisé en 2024. Dans les conclusions, les modifications apportées par rapport à la version d’origine sont surlignées en turquoise (août 2024). Ce document doit être cité comme suit : © Patients atteints d’un cancer bronchique non à petites cellules / Indications des tests moléculaires en vue de la prescription de traitements de précision / Référentiel de bonnes pratiques, collection « Recommandations et référentiels », Institut national du cancer, ac- tualisation 2024 du document de janvier 2023. Ce document est publié par l’Institut national du cancer qui en détient les droits. Les informations figurant dans ce document peuvent être réutilisées dès lors que 1) leur réutilisation entre dans le champ d’application de la loi N° 78-753 du 17 juillet 1978, 2) ces informations ne sont pas altérées et leur sens dénaturé et 3) leur source et la date de leur dernière mise à jour sont mentionnées. Ce document est téléchargeable sur cancer.fr",
+      "start_page": 2,
+      "end_page": 2
+    },
+    {
+      "heading": "SOMMAIRE",
+      "text": "ABRÉVIATIONS ... CONTEXTE ... LES THÉRAPIES CIBLÉES GUIDÉES PAR LES BIOMARQUEURS DANS LE CANCER BRON À PETITES CELLULES ... LES TESTS MOLÉCULAIRES POUR LA MISE EN ÉVIDENCE DE BIOMARQUEURS ... MISE À JOUR AOÛT 2024 ... ARBRE DÉCISIONNEL : BIOMARQUEURS NÉCESSAIRES AU TRAITEMENT DES PATIENT DE CBNPC ... BIOMARQUEURS NÉCESSAIRES AU TRAITEMENT DES PATIENTS ATTEINTS DE CBNPC AAP ET AAC ... A. AU STADE PRÉCOCE, TUMEURS RÉSÉCABLES (STADES IB À III) ... 1. Pour un traitement néoadjuvant ... 2. Pour un traitement adjuvant ... B. AU STADE LOCALEMENT AVANCÉ, TUMEURS NON RÉSÉCABLES (STADE III) ... 1. PD-L1 ... 2. EGFR ... C. AU STADE MÉTASTATIQUE (STADE IV) ... 1. PD-L1 ... 2. EGFR ... 3. ALK, ROS1 et RET ... 4. Tests multiplexés ... 5. Suivi ... D. EN RECHUTE/RÉFRACTAIRE ... 1. Progression après une thérapie ciblée ... 2. À partir de la 2e ligne de traitement ... ÉLABORATION ... MÉTHODOLOGIE ... LES PARTICIPANTS ... ANNEXES ... ANNEXE 1. BIOMARQUEURS FIGURANT DANS LES RECOMMANDATIONS INTERNATI CLINIQUE POUR LE CBNPC (22 AVRIL 2024) ... ANNEXE 2. AMM, AAC ET AAP DES MOLÉCULES POUR LESQUELLES LA PRESCRIPTION PAR LE STATUT D’UN BIOMARQUEUR ... ANNEXE 3. LIBELLÉ DES AMM, AUTORISATION D’ACCÈS PRÉCOCES ET COMPASSION POUR LESQUELLES LA PRESCRIPTION EST GUIDÉE PAR LE STATUT D’UN BIOMARQU (AVRIL 2024) ... ANNEXE 4. ESSAIS CLINIQUES DE PHASE PRÉCOCE ... ANNEXE 5. RECHERCHE BIBLIOGRAPHIQUE (DÉC. 2023) ... ANNEXE 6. LISTE DES TITULAIRES D’AMM ET DES FABRICANTS DE DISPOSITIFS MÉDI EN RELATION AVEC CETTE EXPERTISE ... NCHIQUE NON TS ATTEINTS SELON LES AMM IONALES DE PRAT N EST GUIDÉE NNELS DES MOLÉC UEUR DANS LE CBN ICAUX (DM) M, TIQUE CULES NPC",
+      "start_page": 3,
+      "end_page": 3
+    },
+    {
+      "heading": "ABRÉVIATIONS",
+      "text": "AAC : autorisation d’accès compassionnel AAP : autorisation d’accès précoce ADN : acide désoxyribonucléique ADNtc : ADN tumoral circulant ALK : Anaplastic Lymphoma Kinase (tyrosine kinase) AMM : autorisation de mise sur le marché ANSM : Agence nationale de sécurité du médicament et des produits de santé ARN : acide ribonucléique BRAF : B-Raf Proto-Oncogene (sérine/thréonine kinase) BRCA1/2 : BRCA1/2 DNA repair associated CAP : College of American Pathologists CBNPC : cancer bronchique non à petites cellules CHMP : Committee for Medicinal Products for Human Use (Comité des médicaments à usage humain) CNAM : caisse nationale de l’Assurance malad CPC : cadre de prescription compassionnel EGFR : Epidermal Growth Factor Receptor EMA : Agence européenne du médicament ESCAT : ESMO Scale for Clinical Actionability o molecular Targets ESMO : European Society for Medical Oncolog FISH : hybridation fluorescente in situ HAS : Haute Autorité de santé Patients atteints d’un cancer bronchique non à petites cellu HER2/ERBB2 : Erb-B2 Receptor Tyrosine Kinase 2 IFCT : Intergroupe francophone de cancérologie thoracique IHC : Immunohistochimie ITK : inhibiteur de tyrosine kinase KRAS : KRAS Proto-Oncogene, GTPase MET : MET Proto-Oncogene, Receptor Tyr Kinase NCCN : National Comprehensive Cancer Network (US) NGS : séquençage de nouvelle génération NICE : National Institute for Health and Ca excellence (UK) NRG1 : Neuregulin 1 NTRK : Neurotrophic Tyrosine Receptor Ki r PD-L1 : Programmed Death Ligand 1 e PIK3CA : Phosphatidylinositol-4,5-Bisphos 3-Kinase Catalytic Subunit Alpha die RCP : réunion de concertation pluridiscipli RET : Ret Proto-Oncogene RNAseq : NGS sur de l’ARN ROS1 : Proto-Oncogene 1, Receptor Tyrosi of Kinase TPS : Tumor Proportion Score (pourcentag gy cellules tumorales exprimant PD-L1 par ra au nombre total de cellules tumorales viab ules : indications des tests moléculaires rosine n are inase sphate inaire ine ge de apport bles)",
+      "start_page": 4,
+      "end_page": 4
+    },
+    {
+      "heading": "CONTEXTE",
+      "text": "La mise en évidence d’altérahons moléculaires dans les cellules cancéreuses a permis non seulement de mieux comprendre les mécanismes ayant parhcipé au développement de la maladie, mais aussi de développer des thérapies ciblant ces anomalies moléculaires. La caractérisahon moléculaire de la tumeur est devenue ainsi un critère déterminant dans le choix de la stratégie thérapeuhque. Elle permet de restreindre la prescriphon d’un certain nombre de traitements aux seuls pahents suscephbles d’en bénéficier et ainsi de réduire le nombre de traitements inuhles, toxiques et coûteux. Les thérapies ciblées guidées par les biomarqueurs dans le cancer bronchique non à petites cellules Dans le cancer bronchique non à pehtes cellules (CBNPC), les inhibiteurs de tyrosine kinase (ITK) conshtuent une arme thérapeuhque majeure dans les stades métastahques. Depuis 2009, le gefihnib dispose d’une autorisahon de mise sur le marché (AMM) pour les pahents dont la tumeur porte une mutahon achvatrice de l’EGFR. Depuis, l’erlohnib, l’afahnib, l’osimerhnib et le dacomihnib ont également reçu une AMM dans ceke indicahon. De plus, l’osimerhnib peut maintenant être prescrit en adjuvant après résechon tumorale complète pour les pahents avec une mutahon achvatrice de l’EGFR de stade IB à IIIA, après chimiothérapie adjuvante lorsque celle-ci est indiquée. D’autres types de biomarqueurs prédichfs de la réponse à des thérapies ciblées sont également entrés en prahque clinique dans le CBNPC pour la prescriphon de thérapies ciblées, comme les fusions impliquant les gènes ALK et ROS1. L’arrivée de traitements de deuxième ou de troisième générahons, efficaces contre certaines mutahons de résistance aux thérapies ciblées, ouvre de nouvelles perspechves pour les pahents devenus résistants à un de ces traitements. On peut citer en parhculier l’osimerhnib qui a obtenu une AMM dans le CBNPC pour les pahents dont la tumeur porte la mutahon de résistance T790M aux inhibiteurs de Tyrosine Kinase (ITK) de l’EGFR de première et deuxième générahons. De plus, après des décennies de résultats décevants, les résultats promekeurs obtenus avec des inhibiteurs de point de contrôle du système immunitaire pour le traitement des mélanomes métastahques ont reposihonné l’immunothérapie comme une alternahve majeure dans le traitement des cancers. Dans les CBNPC, des inhibiteurs de points de contrôle du système immunitaire ont obtenu des AMM, dont certaines sont condihonnées par le niveau d’expression de PD-L1 (atezolizumab, pembrolizumab, cemiplimab, durvalumab), rendant ainsi nécessaire la recherche de ce biomarqueur en rouhne clinique. Par ailleurs, des thérapies ciblant de nouvelles altérahons permekent d’élargir les cas où la prescriphon de thérapies ciblées est possible : • la mutahon G12C de KRAS permet la prescriphon d’adagrasib dans le cadre d’une autorisahon d’accès compassionnel (AAC) (le remboursement du sotorasib a été refusé) ; • plusieurs traitements existent pour les pahents avec des mutahons entraînant un saut de l’exon 14 de MET (crizohnib : AAC ; tepohnib : AMM, remboursement en France en cours d’évaluahon ; capmahnib : avis posihf du Comité des médicaments à usage humain [CHMP] de l’Agence européenne du médicament [EMA] en avril 2022) ; • la mutahon V600 de BRAF permet maintenant un traitement par dabrafenib et tramehnib en associahon dans le cadre d’une AMM en deuxième ligne ; • la fusion de RET permet la prescriphon du selpercahnib en première et deuxième ligne de traitement pour un CBNPC métastahque. Remarque : les AMM sont délivrées par l’EMA, mais la France décide ensuite du remboursement ou non des médicaments. Le fait qu’un médicament ait une AMM ne signifie pas qu’il soit disponible et remboursé en France. La Haute Autorité de santé (HAS) donne un avis sur le remboursement et ensuite la caisse nahonale de l’Assurance maladie (CNAM) décide du remboursement. En cas de remboursement, le prix est ensuite négocié avec l’industriel. Ce processus peut être long. Avant l’AMM ou entre l’AMM et la décision de remboursement prise par la CNAM, il existe dans certains cas des disposihfs d’accès précoces, délivrés par l’Agence nahonale de sécurité du médicament et des produits de santé (ANSM) : autorisahon d’accès compassionnel (AAC) ou précoce (AAP) et autorisahons d’accès précoce post-AMM.",
+      "start_page": 5,
+      "end_page": 6
+    },
+    {
+      "heading": "Les tests moléculaires pour la mise en évidence de biomarqueurs",
+      "text": "Le déploiement du séquençage de nouvelle génération (NGS) a permis l’analyse des multiples altérations moléculaires constituant des cibles thérapeutiques potentielles. Dans le cas de l’analyse des tumeurs solides, une liste minimale de 16 gènes a été publiée par l’INCa2 pour une utilisation en routine. Le NGS sur ADN (DNAseq) n’est pas toujours suffisant pour analyser tous les biomarqueurs requis, et des techniques complémentaires sont déployées en prahque clinique, comme l’immunohistochimie (IHC) pour l’étude de l’expression de protéines comme PD-L1 et ALK, ou le séquençage NGS sur ARN (RNAseq) pour la recherche de transcrits de fusion. Par ailleurs, alors que la recherche de ces anomalies moléculaires reste classiquement effectuée sur le tissu tumoral fixé au formol et inclus en paraffine, une source biologique alternative, appelée génériquement « biopsie liquide » est de plus en plus utilisée. Ce terme réfère à l’isolement de matériel biologique libéré par la tumeur dans les fluides corporels, le plus souvent le sang, mais aussi le liquide céphalorachidien en cas de métastases cérébrales et le liquide pleural en cas de pleurésie métastatique. L’analyse de ce matériel biologique permet donc, avec quelques limitations techniques, un accès moins invasif et généralement avec un délai de rendu de résultats plus courts à certaines anomalies moléculaires tumorales. Cette analyse peut être répétée au cours des traitements du patient. Ainsi, la stratégie de réalisation des tests moléculaires se complexifie avec : • la nécessité de rechercher des biomarqueurs de nature différente pour un même patient et de recourir à plusieurs techniques en parallèle ; • la possibilité de recourir à des techniques multiplexées, permettant la recherche de plusieurs anomalies moléculaires simultanément ; • la possibilité grandissante d’accéder à des traitements expérimentaux basés sur la présence de nouvelles cibles. 2 Listes de gènes minimales à analyser dans le cadre d'un usage à visée diagnostique du NGS (février 2016), disponible au téléchargement sur cancer.fr C’est pourquoi le choix de la stratégie des tests à effectuer doit prendre en compte les enjeux suivants : • rechercher l’ensemble des biomarqueurs permettant aux patients d’avoir accès aux traitements dont ils pourraient bénéficier, y compris dans le cadre d’essais cliniques, afin de ne pas entraîner de perte de chance ; • gérer la quantité de tissu tumoral existante pour pouvoir effectuer l’ensemble des tests nécessaires à la décision thérapeutique et/ou prévoir des biopsies liquides ; • veiller à ce que l’ensemble des tests moléculaires nécessaires soient effectués dans des délais compatibles avec le démarrage des traitements des patients ; • veiller à la qualité des tests moléculaires effectués en tenant compte de la performance des techniques utilisées. Ce document présente les conclusions du groupe d’experts sur la stratégie de tests à mettre en place chez les patients atteints de CBNPC pour une stratégie de soin optimale à tous les stades de la maladie (considérant les données disponibles au jour de la rédaction du document). Il s’adresse à tous les prescripteurs de tests moléculaires pour guider le choix des tests à réaliser pour leurs patients (ex. : oncologue, pneumologue ou autre clinicien) et aux praticiens qui réalisent ces tests (anatomopathologistes et biologistes). Attention, le but de ce document est de recommander les tests à réaliser et non pas les traitements à administrer. Des traitements sont évoqués pour expliquer l’intérêt des tests, mais la liste des choix thérapeutiques pour les patients n’est pas exhaustive. De plus, les accès aux molécules évoluent très rapidement et nécessitent un suivi en temps réel par le praticien impliqué. Ce document ne contient pas non plus de recommandations sur la façon de réaliser les tests, mais uniquement les techniques à utiliser quand il en existe plusieurs pour un même biomarqueur. Les tests doivent être réalisés selon les bonnes pratiques d’anatomopathologie et de biologie moléculaire. Ces recommandations de tests à réaliser sont à discuter en réunion de concertation pluridisciplinaire (RCP) et/ou en staff moléculaire, suivant l’organisation locale, en fonction notamment de l’accès possible à des essais cliniques. La réalisation de tests pour permettre d’inclure les patients dans des essais cliniques est recommandée. Sauf mention contraire, ces recommandations de tests concernent les patients atteints de CBNPC, en dehors des carcinomes épidermoïdes du patient fumeur.",
+      "start_page": 6,
+      "end_page": 7
+    },
+    {
+      "heading": "Mise à jour août 2024",
+      "text": "Afin de prendre en considération les évolutions rapides du domaine, des mises à jour ont été faites en 2024. Ainsi il a été ajouté ou modifié dans le document les éléments listés ci-dessous : • la recherche des statuts PD-L1, ALK et EGFR sur la biopsie préopératoire pour un éventuel traitement néoadjuvant par immunothérapie des CBNPC non métastatiques de stade IIA à IIIB d’emblée résécables (nouvelle AMM et AAP nivolumab + chimiothérapie) (voir le paragraphe A.1.) ; • la recherche de fusions de RET rendue obligatoire avant de débuter la première ligne de traitement au stade métastatique (nouvelle AMM selpercatinib) (voir le paragraphe C.3.) ; • la recherche de surexpression de c-MET en IHC et de l’amplification de MET en biologie moléculaire pour les CBNPC non épidermoïdes avancés/métastatiques en rechute en l’absence de mutation EGFR à partir de la 2e ligne de traitement (AAC du telisotuzumab vedotin) (voir le paragraphe D.2.) ; • des mises à jour mineures du texte n’entraînant pas de modifications des recommandations : o stades IB à III (voir le paragraphe A.2.b.) : § recherche des statuts PD-L1 et ALK non indispensable (si pas déjà recherchés au stade néoadjuvant) : - avis défavorable au remboursement de l’atezolizumab en adjuvant (statut PD-L1, EGFR et ALK), - à surveiller : résultats intermédiaires de l’essai ALINA présentés à l’ESMO 2023 : la recherche du statut ALK pourrait devenir nécessaire pour envisager un traitement adjuvant par alectinib (demande d’AMM à l’EMA en cours). Cette recherche est effectuée dans le cadre des traitements néoadjuvants comme mentionné ci-dessus, o stades IV, tests multiplexés (voir le paragraphe C.4.) : § mutations EGFR insertion exon 20 : - le mobocertinib et le poziotinib ne sont pas remboursés pour cette indication, - essai de phase III PAPILLON positif : amivantamab + chimiothérapie en adjuvant (AAP en cours et demande d’AMM à l’EMA en cours), § mutations KRAS G12C : - le sotorasib n’est plus pris en charge, - AAC pour l’adagrasib, § mutations d’HER2/ERBB2 : nouvelle AMM du trastuzumab deruxtecan (non remboursé) (recherche déjà recommandée), § saut de l’exon 14 de MET : capmatinib et tepotinib non remboursés, § fusions ROS1 ou NTRK1/2/3 : nouvelle AMM et AAC repotrectinib. Remarque : Cette actualisation n’a pas pris en considération les modalités de remboursement des tests de détection des mutations génétiques de tumeurs malignes de l’appareil respiratoire pour la thérapie ciblée (test compagnon) définies dans la décision en date du 24 janvier 2024 par la CCAM (classification commune des actes médicaux) et la NABM (nomenclature des actes de biologie médicale)3 ni de l’analyse par séquençage haut débit ciblé d’un panel de gènes dans la prise en charge médicale du cancer du poumon (publication HAS, 23 mai 2024). Seules ont été considérées les pratiques pour la meilleure prise en charge en termes de soins (en dehors des modalités de remboursement selon la technique utilisée) ; les différentes modalités de remboursement seront considérées dans la prochaine version des recommandations. Dans les conclusions, les modifications apportées par rapport à la version d’origine sont surlignées en turquoise (août 2024). ARBRE DÉCISIONNEL : BIOMARQUEURS NÉCESSAIRES AU TRAI ITEME ENT DES PATIEN NTS ATTEIN NTS DE CBNPC BIOMARQUEURS NÉCESSAIRES AU TRAITEMENT DES PATIENTS ATTEINTS DE CBNPC SELON LES AMM, AAP ET AAC",
+      "start_page": 7,
+      "end_page": 10
+    },
+    {
+      "heading": "1. Pour un traitement néoadjuvant",
+      "text": "Pour un CBNPC non métastatique d’emblée résécable (stades IIA ≥ 4 cm à IIIB — 8e TNM), exprimant PD-L1 au seuil ≥ 1 % et en l’absence de mutation activatrice de l’EGFR et de fusion d’ALK, il est possible de traiter le patient en néoadjuvant avec du nivolumab en association avec une chimiothérapie à base de sels de platine (AMM, AAP). Il faut donc rechercher ces biomarqueurs dès la biopsie préopératoire.",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "2. Pour un traitement adjuvant",
+      "text": "Si les statuts PD-L1, EGFR et ALK n’ont pas déjà été déterminés sur la biopsie préopératoire pour la prescription du traitement néoadjuvant, il faudra réaliser les recherches suivantes : a. EGFR Pour les patients de stades IB à IIIA avec une tumeur complètement réséquée, la présence d’une mutation L858R ou d’une délétion de l’exon 19 d’EGFR permet un traitement adjuvant avec de l’osimertinib durant trois ans (AMM ; test recommandé par l’ESMO et le NCCN) après chimiothérapie adjuvante lorsque celle-ci est indiquée4. La recherche de mutations peut être réalisée indifféremment sur des biopsies préopératoires ou des pièces opératoires. b. PD-L1 et ALK La recherche du statut PD-L1 n’est pas indispensable. En effet, une AMM a été octroyée à l’atézolizumab en adjuvant, après résection complète et chimiothérapie à base de platine, pour les patients avec un risque élevé de récidive et une tumeur avec un TPS (tumor proportion score : pourcentage de cellules tumorales exprimant PD-L1 par rapport au nombre total de cellules tumorales viables) supérieur ou égal à 50 % dont le cancer n’est pas EGFR+ ou ALK+. Cette molécule n’est pas remboursée dans cette indication.",
+      "start_page": 10,
+      "end_page": 10
+    },
+    {
+      "heading": "À surveiller :",
+      "text": "La recherche du statut ALK pourrait devenir nécessaire pour envisager un traitement adjuvant par alectinib pour les patients de stade II à IIIA (résultats intermédiaires de l’essai ALINA présentés à l’ESMO 20235). Une demande d’AMM a été déposée à l’EMA. 4 Les données de survie globale de l’étude princeps ADAURA: Adjuvant Osimertinib for Resected EGFR-Mutated Stage IB- IIIA Non-Small-Cell Lung Cancer: Updated Results From the Phase III Randomized ADAURA Trial. Herbst RS, et al,. J Clin Oncol. 2023 Apr 1;41(10):1830-1840. doi: 10.1200/JCO.22.02186. Epub 2023 Jan 31. PMID: 36720083 t Pour un traitement néoadjuvant : Il faut rechercher les biomarqueurs PD-L1, ALK et EGFR dès la biopsie préopératoire. Pour un traitement adjuvant : Pour les patients de stades IB à III avec une tumeur complètement réséquée, une recherche des mutations activatrices fréquentes d’EGFR est indispensable (L858R et délétions de l’exon 19). Une recherche des statuts PD-L1 et ALK pourrait être indispensable dans le futur. Les résultats de ces analyses doivent être disponibles avant la fin de la chimiothérapie adjuvante ou 4 à 8 semaines après la chirurgie s’il n’y a pas de chimiothérapie adjuvante.",
+      "start_page": 10,
+      "end_page": 11
+    },
+    {
+      "heading": "1. PD-L1",
+      "text": "Au stade localement avancé, quelle que soit l’histologie (épidermoïde ou non épidermoïde), il faut évaluer le niveau d’expression de PD-L1 par les cellules tumorales (test recommandé par l’ESMO et le NCCN). En effet : • pour les patients non opérables, dont le TPS est supérieur ou égal à 1 % et dont la maladie n’a pas progressé après une chimioradiothérapie, le durvalumab est une option (AMM) ; • pour les patients adultes atteints d’un CBNPC localement avancé non opérable et dont la maladie n’a pas progressé après une chimioradiothérapie à base de platine, si le TPS est inférieur à 1 % ou si ce statut est recherché, mais que le résultat de ce marqueur n’est pas exploitable, le durvalumab est également une option (AAC) ; • pour les patients avec un TPS supérieur ou égal à 1 % et ayant reçu au moins une chimiothérapie antérieure, le pembrolizumab est une option (AMM). Ces recherches doivent être faites par IHC. Les IHC doivent être réalisées selon les recommandations de la discipline anatomopathologique.",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "2. EGFR",
+      "text": "La décision de traitement de consolidation par immunothérapie après chimioradiothérapie en cas d’addiction oncogénique, particulièrement de mutation de l’EGFR est discutée, sachant que la majorité des données ne montrent pas de bénéfice avec le durvalumab. Il est recommandé de rechercher les mutations, y compris rares, d’EGFR (exons 18, 19, 20 et 21) chez tous les patients afin d’éviter de prescrire une immunothérapie non efficace, longue et coûteuse (test recommandé par l’ESMO et le NCCN). Cette recherche peut être réalisée préférentiellement par NGS ou par test ciblé, suivant l’organisation locale. Les résultats de ces analyses doivent être disponibles avant la fin de la chimiothérapie adjuvante.",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "Conclusion",
+      "text": "Au stade localement avancé non résécable de CBNPC, il est indispensable d’évaluer le niveau d’expression de PD-L1 (cancers épidermoïdes et non épidermoïdes) au sein de la tumeur et il est recommandé de rechercher les mutahons d’EGFR (exons 18 à 21). Les résultats de ces analyses doivent être disponibles avant la fin de la chimiothérapie adjuvante.",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "C. Au stade métastatique (stade IV)",
+      "text": "Au stade métastatique, avant de débuter la première ligne de traitement, il est nécessaire de rechercher le statut PD-L1, les mutations d’EGFR et les fusions d’ALK, ROS1 et de RET. Afin de mettre en place le traitement dans un délai raisonnable, compte tenu de l’agressivité de certains CBNPC métastatiques, la recherche de ces biomarqueurs doit être faite rapidement. Le délai idéal recommandé à partir du diagnostic d’anatomopathologie est de 7 jours calendaires, avec un maximum de 14 jours. En cas d’urgence, l’identification des principales mutations addictives (mutation L858R et délétion de l’exon 19) doit pouvoir être réalisée dans un circuit très rapide. De plus, la quantité de tissu tumoral disponible pouvant être limitée, il faut privilégier une gestion économe du tissu tumoral pour pouvoir faire tous les examens immunohistochimiques et de biologie moléculaire requis. Des tests ciblés de biologie moléculaire rapides ne recherchant qu’un nombre limité d’altérations existent, mais en cas de résultat négatif, ils doivent être complétés par un NGS pour identifier d’éventuelles anomalies non recherchées. Une stratégie en deux temps (test rapide puis NGS) induit le risque d’allonger le délai global de rendu du résultat et de consommer davantage de matériel tumoral. En prenant en compte ces arguments, il est recommandé, si l’organisation locale permet un résultat dans les délais, de rechercher directement les altérations d’EGFR, ALK, ROS1 et RET par NGS. Toutefois, une stratégie rapide doit être accessible en cas d’urgence.",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "heading": "1. PD-L1",
+      "text": "Le statut PD-L1 est à évaluer par IHC (test recommandé par l’ESMO, le NCCN et le NICE). Les IHC doivent être réalisées selon les recommandations de la discipline anatomopathologique. Cette recherche doit être faite pour tous les types histologiques (épidermoïdes et non épidermoïdes). Pour les patients dont le TPS est supérieur ou égal à 50 %, et en cas d’absence de mutation d’EGFR et de fusion impliquant le gène ALK, un traitement par pembrolizumab, atezolizumab ou cemiplimab (non remboursé) est possible en monothérapie (AMM). Le pembrolizumab est également accessible aux patients dont les tumeurs expriment PD-L1 avec un TPS supérieur ou égal à 1 %, et ayant reçu au moins une chimiothérapie antérieure (AMM).",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "heading": "2. EGFR",
+      "text": "La recherche de variants du gène EGFR permet d’envisager des traitements par ITK anti-EGFR en première ligne en monothérapie pour les patients atteints de CBNPC avec mutations activatrices de l’EGFR. La prescription d’osimertinib est également possible en cas de mutation T790M de l’EGFR (AMM ; test recommandé par l’ESMO, le NCCN, CAP et NICE). Afin d’optimiser les délais, en cas de CBNPC métastatique de type non épidermoïde, l’organisation du circuit local entre les cliniciens et les services d’anatomopathologie doit permettre la prescription réflexe de ce biomarqueur, dès le diagnostic. En cas d’identification d’une mutation addictive de l’EGFR, il n’est pas utile de rechercher d’autres altérations addictives avant le traitement de première ligne, car ces anomalies sont très majoritairement mutuellement exclusives.",
+      "start_page": 12,
+      "end_page": 12
+    },
+    {
+      "heading": "3. ALK, ROS1 et RET",
+      "text": "La recherche de fusions impliquant ALK, ROS1 (tests recommandés par L’ESMO, le NCCN, CAP et NICE) et RET (tests recommandés par l’ESMO, le NCCN) doit être réalisée. La présence d’une fusion impliquant ROS1 permet la prescription de crizotinib pour les patients adultes ayant un CBNPC avancé (AMM) (remboursement en France à partir de la deuxième ligne de traitement). La présence d’une fusion impliquant RET permet un traitement par selpercatinib dès la première ligne de traitement (AMM avec avis favorable de la HAS pour le remboursement). Le pralsetinib a également une AMM, mais pas encore de remboursement en France. Les fusions d’ALK et ROS1 peuvent être recherchées en première intention par IHC ou directement par RNAseq, si le délai de rendu des résultats le permet. L’IHC ALK avec une intensité de marquage 1+ ou 2+ doit être confirmée par technique moléculaire (RNAseq, FISH ou autre). L’IHC ROS1 positive, quelle que soit l’intensité du marquage (1+, 2+ ou 3+) doit être confirmée par technique moléculaire. La recherche de fusions de RET doit être réalisée par technique moléculaire (RNAseq, RT-PCR ou FISH) ; l’IHC n’étant pas cliniquement validée.",
+      "start_page": 13,
+      "end_page": 13
+    },
+    {
+      "heading": "4. Tests multiplexés",
+      "text": "Si un panel NGS n’a pas été réalisé en première intention et pour le traitement de deuxième ligne, il est indispensable de compléter la recherche rapide de mutations d’EGFR par une analyse multiplexée de type NGS, analysant de manière exhaustive les mutations (dont les insertions de l’exon 20) et les fusions. Cette recherche peut être faite en un ou deux panels ADN et/ou ARN, et de façon concomitante ou séquentielle si le délai global de rendu des résultats est respecté (si l’analyse NGS est réalisée sur ADN et qu’il n’est trouvé aucune anomalie addictive ciblable, la recherche de fusions pourra être faite par NGS sur ARN). Pour que le traitement du patient puisse démarrer dans les meilleurs délais, le délai de rendu du test NGS (ADN et/ou ARN) ne doit pas dépasser les 3 semaines calendaires. En cas d’identification de mutation oncogénique addictive, il n’est pas utile de rechercher d’autres altérations addictives avant le traitement de première ligne, car ces anomalies sont très majoritairement mutuellement exclusives. Le ou les panels utilisés doivent rechercher au minimum les altérations décrites ci-après. Mutations d’EGFR (AMM, test recommandé par l’ESMO, le NCCN, le CAP et le NICE, ESCAT : IA) : il faut tester les exons 18 à 21 codant le domaine tyrosine kinase. L’identification de mutations activatrices de l’EGFR sur les exons 18, 19 et 21 permet de prescrire des ITK anti-EGFR dans le cadre des AMM. Pour les insertions dans l’exon 20, l’association amivantamab-chimiothérapie a obtenu une AAP pour les patients non opérables et devrait obtenir prochainement une AMM (essai de phase III PAPILLON6). 6 Amivantamab plus Chemotherapy in NSCLC with EGFR Exon 20 Insertions N Engl J Med. 2023 Nov 30;389(22):2039- Mutation d’EGFR (exons 18 à 21) Mutations de BRAF Mutations de KRAS Mutationsd’HER2/ERBB2 NGS ADN Amplification de MET Altérations Mutations conférant un saut de l’exon 14 à rechercher de MET Fusions impliquant ALK Fusions impliquant ROS1 Fusions impliquant RET NGS ARN Saut de l’exon 14 de MET Fusions impliquant NTRK1/2 Fusions impliquant NRG1 Amplification de HER2/ERBB2 Altérations NGS ADN émergentes Mutations de TP53, STK11 et KEAP1 à discuter Fusions de NRG1 NGS ARN En 2024, il n’est pas recommandé de déterminer la charge mutationnelle pour les patients atteints de CBNPC. Elle semble avoir une valeur prédictive et pronostique, mais sa connaissance ne changera pas le traitement du patient et la technique pour la mesurer ne fait pas encore consensus. Si la biopsie n’est pas possible, si le contenu en cellules tumorales est faible, et lorsque l’analyse moléculaire est revenue non contributive ou encore en situation d’urgence thérapeutique, une recherche d’anomalies moléculaires sur biopsie liquide doit être réalisée. Aucun biomarqueur n’est recommandé durant le suivi des patients métastatiques, hors progression tumorale.",
+      "start_page": 13,
+      "end_page": 16
+    },
+    {
+      "heading": "1. Progression après une thérapie ciblée",
+      "text": "En cas de progression de la maladie sous ITK, il faut rechercher les anomalies de résistance aux ITK pour pouvoir prescrire d’autres ITK de génération ultérieure ou des associations d’ITK. En fonction du médicament pour lequel il y a une résistance, il peut s’agir de rechercher notamment des mutations d’EGFR, ALK, ROS1, KRAS, BRAF, ERBB2, des fusions de RET, des amplifications de MET (en particulier en cas de mutation d’EGFR) et ERBB2, car elles peuvent être impliquées dans les mécanismes de résistance (EGFR : tests recommandés par NCCN, ESMO Precision Medicine Working Group, ESMO ; panel génomique large recommandé par NCCN). Ces anomalies moléculaires sont à rechercher par NGS (ADN et/ou ARN), sur un prélèvement tissulaire de lésion en progression. Ce nouveau prélèvement permettra en outre de mettre en évidence une éventuelle transformation histologique, qui fait partie des mécanismes de résistance identifiés. Dans les cas où une biopsie n’est pas possible, la recherche peut être réalisée sur biopsie liquide. La réalisation d’analyses multigéniques par grands panels NGS ou pangénomiques par séquençage complet du génome pour rechercher des altérations émergentes peut être discutée en RCP et/ou staff moléculaire, suivant l’organisation locale. Remarque : début 2024, l’accès au séquençage du génome complet par le Plan France Médecine Génomique 202510 (plateformes SeqOIA11 et AURAGEN12) est disponible pour les patients avec un cancer avancé en échec thérapeutique de première ligne13, mais les critères suivants s’appliquent : • un patient avec un cancer avancé et avec matériel disponible (biopsie récente ou matériel congelé disponible dans un premier temps) ; • une espérance de vie d’au moins 6 mois (2 mois de délai entre la réunion de concertation pluridisciplinaire d’amont FMG2025 et la réunion de concertation pluridisciplinaire FMG2025 d’aval) ; • un patient en échec thérapeutique du traitement de première ligne ou des lignes de traitements suivantes ; • et avec un résultat de panel NGS recommandé dans le type tumoral n’ayant montré aucune altération ciblable ou absence de recommandation pour un panel NGS. 2. À partir de la 2e ligne de traitement Pour les CBNPC non épidermoïdes avancés/métastatiques en situation d’impasse thérapeutique après 2 lignes de traitement, avec une amplification de MET ou une surexpression de c-MET et en l’absence de mutation d’EGFR, un traitement par telisotuzumab vedotin est disponible grâce à une AAC. Il faut donc rechercher la surexpression de c-MET par IHC et l’amplification de MET à partir de la 2e ligne de traitement, si cela n’a pas été fait auparavant.",
+      "start_page": 16,
+      "end_page": 17
+    },
+    {
+      "heading": "Conclusions",
+      "text": "Au stade métastatique, avant la première ligne de traitement, il est indispensable de rechercher le statut PD-L1 (y compris pour les CBNPC épidermoïdes), les mutations d’EGFR et les fusions d’ALK, ROS1 et RET. Délais et gestion du tissu tumoral : • le délai de rendu des résultats idéal recommandé est de 7 jours à partir du diagnostic anatomopathologique, avec un maximum de 14 jours ; • en cas d’urgence, l’identification des principales mutations addictives (mutation L858R et délétions de l’exon 19) doit pouvoir être réalisée dans un circuit très rapide ; • en cas de CBNPC non épidermoïde, l’organisation du circuit local entre les cliniciens et les services d’anatomopathologie doit permettre la prescription réflexe de ces biomarqueurs, dès le diagnostic ; • une gestion économe du tissu tumoral doit être privilégiée, afin de pouvoir faire tous les examens immunohistochimiques et de biologie moléculaire requis. Techniques à utiliser : • la recherche du statut PD-L1 (TPS) doit être faite par IHC ; • il est recommandé, si l’organisation locale permet un résultat dans les délais, de rechercher directement les altérations d’EGFR, ALK, ROS1 et RET par NGS. Toutefois, une stratégie rapide doit être accessible en cas d’urgence ; • la recherche des mutations d’EGFR doit être faite de préférence par NGS, mais en cas d’urgence et s’il est impossible de respecter les délais impartis, un test ciblé rapide peut être réalisé. En cas de résultat négatif, il devra être complété par un NGS pour identifier toutes les mutations d’EGFR ; • la recherche des fusions d’ALK peut se faire par IHC, FISH ou RNAseq. L’IHC ALK avec une intensité de marquage 1+ ou 2+ doit être confirmée par technique moléculaire (RNAseq, FISH ou autre) ; • la recherche des fusions de ROS1 peut se faire par IHC en première intention, mais un résultat positif doit être confirmé par FISH ou RNAseq ; • la recherche des fusions de RET doit être faite par technique moléculaire (RT-PCR, RNAseq ou FISH). Si un panel NGS n’a pas été réalisé en première intention et en prévision du traitement de deuxième ligne, il est indispensable de compléter le test rapide par une analyse multiplexée de type NGS recherchant les mutations et les fusions. Les panels NGS utilisés doivent permettre de rechercher, au minimum : • les mutations dans les gènes suivants : o EGFR : recherche des altérations dans les exons 18 à 21 (dont les insertions de l’exon 20), o KRAS : recherche de mutations dans l’exon 2 (en particulier la mutation G12C), o BRAF : recherche d’une mutation V600 de BRAF, o HER2/ERRB2 : recherche de mutations dans l’exon 20, o MET : recherche d’altérations entraînant un saut de l’exon 14 ; • les fusions impliquant les gènes suivants : ALK, ROS1, RET, NTRK1/2/3 ; • l’amplification de MET. Le délai de rendu du résultat de ces tests multiplexés ne doit pas excéder 3 semaines calendaires. La recherche peut être faite en un ou deux panels de façon parallèle ou séquentielle. En cas de progression : • après une thérapie ciblée : En cas de progression de la maladie, il est recommandé de rechercher les mécanismes de résistance moléculaire (NGS ADN et/ou ARN). Ces tests doivent être réalisés sur un prélèvement de lésion en progression. Dans les cas où une biopsie est impossible, la recherche peut être réalisée sur biopsie liquide. La recherche d’autres altérations moléculaires émergentes par larges panels de gènes ou séquençage dans le cadre du plan France Médecine Génomique peut être discutée en RCP et/ou staff moléculaire, suivant l’organisation locale/nationale. • à partir de la deuxième ligne de traitement : Pour les CBNPC non épidermoïdes avancés/métastatiques en l’absence de mutation EGFR, il faut rechercher la surexpression de c-MET par IHC et l’amplification de MET si cela n’a pas été fait auparavant.",
+      "start_page": 17,
+      "end_page": 18
+    },
+    {
+      "heading": "Méthodologie",
+      "text": "Données considérées pour la définition des indications Ces travaux sont un avis d’experts basé sur les recommandations internationales existantes, l’octroi des AMM, AAP et AAC, ainsi que sur les essais cliniques ouverts en France. Ils se sont appuyés sur : • les recommandations de pratique clinique publiées le plus récemment par les grands émetteurs internationaux : ESMO, NCCN, NICE et ASCO (analyse en Annexe 1) : o Non-oncogene-addicted metastatic non-small-cell lung cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up – Ann Oncol (2023) volume 34, April 2023, pp358-376, o Oncogene-addicted metastatic non-small-cell lung cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up – Ann Oncol (2023) volume 34, April 2023, pp339-357, o Early and locally advanced non-small-cell lung cancer (NSCLC): ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up, published in 2017 – Ann Oncol (2017) 28: iv1-iv21, updated in September 2021, o NCCN Clinical Practice Guidelines in Oncology Non-Small Cell Lung Cancer Version 5.2023 —August 11th, 2023, o Recommendations for the use of next-generation sequencing (NGS) for patients with metastatic cancers: a report from the ESMO Precision Medicine Working Group – Ann Oncol 2020 Nov;31(11):1491-1505. doi: 10.1016/j.annonc.2020.07.014. Epub 2020 Aug 24, o NICE guideline [NG122] Lung cancer: diagnosis and management Published date: March o Systemic Therapy for Stage IV Non–Small-Cell Lung Cancer: American Society of Clinical Oncology Clinical Practice Guideline Update Nasser Hanna et al. Journal of Clinical Oncology 2017 35:30, 3484-3515 • Les recommandations du College of American Pathologists (CAP) concernant les tests moléculaires devant être effectués pour les patients atteints de CBNPC : Kalemkerian GP et al. Molecular Testing Guideline for the Selection of Patients With Lung Cancer for Treatment With Targeted Tyrosine Kinase Inhibitors: American Society of Clinical Oncology Endorsement of the College of American Pathologists/International Association for the Study of Lung Cancer/Association for Molecular Pathology Clinical Practice Guideline Update. 2018 ; • les recommandations nationales ou guides régionaux suivants ont également été consultés : o Cancer bronchique non à petites cellules, Référentiels Auvergne-Rhône-Alpes en oncologie thoracique 16e édition (mise à jour 2022), o Cancer bronchique non à petites cellules, Référentiels Grand Est, Bourgogne-Franche- Comté, Île-de-France (mise à jour 2021), o Cancer bronchique non à petites cellules, référentiel national de RCP, Institut national du cancer, mars 2015 ; • l’octroi de nouvelles AMM, AAP, AAC (liste des autorisations guidées par un biomarqueur en Annexe 2 et libellé des AMM en Annexe 3) ; • l’analyse des essais cliniques ouverts en France évaluant des traitements de précision contre de nouvelles cibles thérapeutiques, et notamment les essais précoces ouverts dans les centres labellisés de phase précoce (CLIP²) pour lesquels le statut d’un biomarqueur constitue un critère d’inclusion (disponible au travers de l’enquête trimestrielle menée par l’INCa14), (voir Annexe 4) ; • l’analyse critique des données scientifiques publiées postérieurement aux recommandations de pratique clinique disponibles (voir Annexe 5) ; • ainsi que sur l’avis argumenté du groupe d’experts. Élaboration de la version de 2022 Le groupe de rédacteurs s’est réuni à quatre reprises (en novembre 2019, juillet 2020, février 2021 et en juillet 2022) pour établir la liste des biomarqueurs indispensables ou émergents dans le cadre du traitement du CBNPC et définir la stratégie de réalisation des tests moléculaires permettant un traitement optimal des patients. Le document produit a été soumis à une relecture nationale (voir le paragraphe suivant). Une cinquième réunion, en octobre 2022 a permis la prise en considération des retours de la relecture nationale et l’actualisation des données.",
+      "start_page": 19,
+      "end_page": 20
+    },
+    {
+      "heading": "Relecture nationale en 2022",
+      "text": "Le document élaboré par le groupe d’experts a été soumis à une relecture nationale. La relecture a eu lieu du 4 août au 18 septembre 2022. Les professionnels du groupe de relecteurs ont effectué une cotation de chaque conclusion (questionnaire en ligne SPHINX, préparé par l’INCa). Les questions suivantes étaient posées : • Êtes-vous concernés par la recommandation ? Réponse : OUI/NON • Êtes-vous d’accord avec la recommandation ? Réponse sur une échelle de 1 à 9 (1 étant « pas du tout d’accord » et 9 « tout à fait d’accord ») • Trouvez-vous la recommandation applicable ? Réponse : OUI/NON • Le questionnaire se terminait par une question sur l’utilité du document et sur sa clarté Réponse sur une échelle de 1 à 9 (1 étant « pas du tout d’accord » et 9 « tout à fait d’accord ») Les relecteurs ont tous répondu à toutes les questions. Les réponses des relecteurs sont résumées dans le tableau ci-après.",
+      "start_page": 20,
+      "end_page": 20
+    },
+    {
+      "heading": "Stade précoce",
+      "text": "Recherche du statut EGFR (L858R et del19)",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Stade localement avancé",
+      "text": "Recherche PD-L1 et EGFR (exons 18 à 21)",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Stade métastatique",
+      "text": "Recherche statut PD-L1 Recherche EGFR Délai de rendu EGFR Prescription réflexe EGFR pour CBNPC non épidermoïde Recherche ALK et ROS1 Panel NGS ADN et/ou ARN Choix des mutations à rechercher Choix des fusions à rechercher Délai de rendu des panels",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Progression après thérapie ciblée",
+      "text": "Recherche des anomalies de résistance par NGS Recherche d’autres anomalies émergentes peut être discutée en RCP Recherche possible sur biopsie liquide",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Qualité du document",
+      "text": "Arbre décisionnel clair Arbre décisionnel complet Document utile Document clair",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Actualisation 2024",
+      "text": "Les annexes ont été mises à jour en décembre 2023 (ta recommandations internationales). Une réunion avec visioconférence en janvier 2024 afin de décider des sui étaient à modifier, les membres du groupe de rédacte avancées du domaine ont été discutées et les recomman en suivant jusqu’en août 2024 ont permis de valider le modifications du texte sont listées à la fin de l’introducti a pas eu lieu de refaire une relecture nationale. Patients atteints d’un cancer bronchique non à petites cellules : indicati",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Moyenne % de réponses ≥7",
+      "text": "P 8,37 91,8 ableaux des AMM, AAC et AAP, et bilan des c le groupe de rédacteurs a eu lieu en ites à mener. Comme certaines conclusions eurs ont mis à jour leur DPI. Les nouvelles ndations mises à jour. Des échanges de mails es différentes modifications proposées. Les ion. Ces modifications étant mineures, il n’y ions des tests moléculaires",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "Les participants",
+      "text": "Groupe d’experts constituant le groupe des rédacteurs Les membres du groupe sont des professionnels concernés dans leur pratique par la problé et souhaitant contribuer à cette expertise. Les responsables des plateformes de g moléculaire des cancers, la Société de pneumologie de langue française, l’IFCT et la Société d’oncologie médicale ont été sollicités pour proposer des experts. Le groupe des experts est composé d’anatomopathologistes, de biologistes molécu d’oncologues spécialistes des cancers bronchiques.",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "Biologistes moléculaires et pathologistes",
+      "text": "Pr Michèle BEAU-FALLER*, CHRU de Strasbourg Pr Marie BREVET, CHU de Lyon Dr Anne CAYRE*, Centre Jean Perrin, Clermont-Ferrand Dr Véronique DALSTEIN*, CHU de Reims Pr Marc DENIS*, CHU de Nantes Pr Lucie KARAYAN-TAPON, CHU de Poitiers Dr Jacqueline LEHMANN-CHE*, APHP Saint-Louis, Paris Pr Antoinette LEMOINE*, APHP Paul-Brousse, Villejuif Dr Alexandra LESPAGNOL*, CHU de Rennes Dr Audrey MANSUET-LUPO*, APHP Cochin, Paris Dr Anne MC LEER*, CHU de Grenoble Pr Alain MOREL*, ICO Paul Papin, Angers Pr Jean-Christophe SABOURIN*, CHU de Rouen",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "Cliniciens",
+      "text": "Pr Nicolas GIRARD*, Institut Curie, Paris Pr Marie WISLEZ*, APHP Cochin, Paris Pr Gérard ZALCMAN*, APHP Bichat, Paris",
+      "start_page": 22,
+      "end_page": 22
+    },
+    {
+      "heading": "*Expert ayant participé à l’actualisation",
+      "text": "Chaque expert a participé intuitu personae et ne représentait pas son organisme d’apparte L’Institut a sélectionné les experts en s’appuyant notamment sur l’analyse de leurs curricul de leurs productions scientifiques, de leurs déclarations d’intérêts (DPI) et, le cas éché informations les concernant disponibles dans la base Transparence — Santé15. Des experts ont déclaré des liens d’intérêts avec une ou plusieurs des 9 industries de santé m fondateurs de l’association FIAC16. Au regard des points traités dans l’expertise, pour chaque membre du groupe de préalablement à leur nomination et tout au long des travaux, l’Institut a considéré que 15 La base de données publique Transparence - Santé rend accessible les informations concernant les conventi rémunérations et les avantages liant les entreprises et les acteurs du secteur de la santé : émat génét franç ulaire enanc lum v éant, mem e tra e les l ions, le -la-san tique tique çaise es et ce. vitae, des mbres avail, liens es nte d’intérêts déclarés et les informations de la base Transparence — Santé ne faisai sa participation aux travaux de la présente expertise. Les DPI des membres du groupe de travail sont consultables sur le site unique DPI",
+      "start_page": 22,
+      "end_page": 23
+    },
+    {
+      "heading": "Groupe des relecteurs en 2022",
+      "text": "Les membres du groupe sont des professionnels concernés dans leur pratique par et souhaitant contribuer à cette expertise. Les responsables des plateform moléculaire des cancers, la Société française de pathologie, le Groupement cytogénomique oncologique, la Société de pneumologie de langue frança francophone de cancérologie thoracique et la Société française d’oncologie sollicités pour proposer des membres. Le groupe de relecteurs est composé de 51 praticiens, anatomopatholog moléculaires, pneumologues et oncologues spécialistes des cancers bronchiques.",
+      "start_page": 23,
+      "end_page": 23
+    },
+    {
+      "heading": "Liste des relecteurs",
+      "text": "Dr ANCEL Julien, pneumologue, CHU Reims Dr AUDIGIER VALETTE Clarisse, pneumo-oncologue, CHITS Sainte Musse, Toulon Dr AUGER Nathalie, cytogénétique, Gustave Roussy, Villejuif Dr BELMONT Laure, pneumologue, Centre Hospitalier Victor Dupouy, Argenteuil Pr BENNOUNA Jaafar, oncologue médical, Hôpital Foch, Suresnes Pr CADRANEL Jacques, pneumologie, compétence cancérologie, AP-HP, Hôpital Te Pr CHENARD Marie-Pierre, anatomie pathologique, Hôpital de Hautepierre, CHU d Pr CLAVEL CRAVOISIER Christine, pathologie, génétique, CHU de REIMS Pr COPIN Marie-Christine, anatomie pathologique, CHU d’Angers Dr CORRE Romain, pneumo-oncologue, Centre Hospitalier de Cornouaille, Quimpe Pr CORTOT Alexis, pneumologue, CHU de Lille Pr COURAUD Sébastien, pneumologue, Hospices Civils de Lyon — Hôpital Lyon Sud Dr DE FRAIPONT Florence, biochimie, CHU Grenoble Alpes Dr DEWOLF Maxime, pneumologue, CHU de Reims Dr DREMAUX Julien, génétique somatique, CHU d’Amiens Dr DURLACH Anne, pathologie, CHU de Reims Pr DURUISSEAUX Michael, pneumologue/oncologue, Hôpital Louis Pradel, Hospice Dr ESCANDE Fabienne, biochimie et biologie moléculaire, CHU Lille Pr FOREST Fabien, anatomie et cytologie pathologiques, CHU de Saint-Étienne — H Pr GALIBERT Marie-Dominique, génétique moléculaire et génomique, CHU de Ren Pr GIROUX LEPRIEUR Étienne, pneumologie, AP-HP, Hôpital Ambroise Paré, Boulog Dr GOUNANT Valérie, pneumologie, Hôpital Bichat, Paris Dr GUERIN Eric, biologie moléculaire, Hôpitaux Universitaires de Strasbourg Pr HOFMAN Paul, pathologiste, CHU de Nice Dr LACROIX Ludovic, biologie médicale, Institut Gustave Roussy, Villejuif Pr LANTUEJOUL Sylvie, thoracique, Centre Léon Bérard, Lyon Pr LEROY Karen, cancérologie biologique, AP-HP, Hôpital européen Georges Pomp ient pas ob I-SANTE17. r la problé mes de gé t francoph aise, l’Inte médicale gistes, bio enon, Paris de Strasbo er d es Civils de Hôpital No nnes gne Billanc pidou, Paris bstacl ématiq énétiq hone ergrou ont ologis s ourg e Lyon ord court s le à que que de upe été stes n t Dr LIN Mme, Pr MA Dr MA Pr MA Dr ME Dr MIR Pr OUA Pr OUD Dr PER Dr PITO Dr PLA Dr PON Dr POT Pr PRE Dr PUJ Dr RAI Pr SCH Dr SEL Dr TAL Dr TAV Dr WA 2 relec 24 | RÉF Pati en v NDNER Véronique, anatomopathologiste, Hôpitaux Universitaires de S MAGNIN Sandrine, oncobiologie, CHU de Besançon ASCAUX Céline, oncologie thoracique, Hôpitaux universitaires de Stras ASSIANI Marie-Ange, oncologue thoracique, Institut Curie, Saint-Clou AZIERES Julien, pneumologue, CHU de Toulouse ELAABI Samia, génétique tumorale, Institut Curie, Paris RANDA Liliane, anatomopathologie, CERBAPATH, Paris AFIK L’Houssine, biologie, APHM, Marseille DART Jean-Baptiste, biochimie, biologie moléculaire, CHU de Reims ROL Maurice, pneumologie, Centre Léon Bérard, Lyon TON Nicolas, anatomie et cytologie pathologique, CHU de Rouen ANCHARD David, oncologie thoracique, Gustave Roussy, Villejuif NS -TOSTIVINT Elvire, oncologie médicale, CHU de Nantes TE Nicolas, anatomopathologiste, Hôpital Bichat, Paris ETET Jean-Luc, biologie cellulaire, UBFC — CHU de Besançon JALS Anaïs, oncologie moléculaire, CHU Henri Mondor, Créteil IMBOURG Judith, oncologie médicale, Institut de Cancérologie de l’O HICHMANOFF Olivier, oncogénétique somatique, AP-HP, CHU Paris-Se LMANI Zohair, biologie médicale, CHU de Besançon LLET Anne, génétique moléculaire somatique, CHRU de Tours VERNIER Jean-Yves, pneumologue, centre hospitalier de DOUAI ATKIN Emmanuel, anatomie et cytologie pathologique, Cabinet CYPAT cteurs n’ont pas souhaité être cités. FÉRENTIEL DE BONNES PRATIQUES ients atteints d’un cancer bronchique non à petites cellules : indications des tests moléculaire vue de la prescription de traitements de précision Stras sbou d Ouest eine- TH, V es sbourg urg t, Saint-Herblain -Saint-Denis Villeurbanne",
+      "start_page": 23,
+      "end_page": 24
+    },
+    {
+      "heading": "ANNEXES",
+      "text": "Annexe 1. Biomar de pratique cliniq Indication CBNPC au stade précoce CBNPC au stade métastatiq 25 | RÉFÉRENTIEL DE BONNE Patients atteints d’un can en vue de la prescription rqueur que po Biom Mut exon Mut Fusi Expr Mut Fusi Fusi que Mut Mut Expr Fusi Fusi ES PRATIQ ncer bronch de traitem rs figurant dans les recom our le CBNPC (22 avril 202 marqueurs indispensables tation EGFR (délétion exon 19 ou mutati n 21) tation EGFR ion impliquant ALK ression de PD-L1 (tumeurs non résécabl tation EGFR ion impliquant ALK ions impliquant ROS1 tation BRAF V600 tation KRAS G12C ression PD-L1 ion impliquant NTRK1/2/3 ion impliquant RET QUES hique non à petites cellules : indications des ents de précision mma ion L8 les) s tests and 858R s molé dations internationales Recommandations ESMO 2021 NCCN 2024 NCCN 2024 ESMO 2021",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN 2024 CAP 2018",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN 2024 CAP 2018",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN 2024 CAP 2018",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN 2024 NCCN 2024",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN 2024",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN 2024 NCCN 2024",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "éculaires Mut CBNPC au stade métastatique Amp Mut Mut CBNPC après progression d’un traitement par thérapie ciblée Pan Indication Biom Fusi CBNPC au stade précoce Expr Amp CBNPC au stade métastatique Alté 26 | RÉFÉRENTIEL DE BONNES PRATIQ Patients atteints d’un cancer bronch en vue de la prescription de traitem tation MET ex 14 skip plification de MET/surexpressi tation HER2 (ERBB2) tation EGFR T790 M nel génomique large marqueurs optionnels ion impliquant ALK ression de PD-L1 (tumeurs com plification de MET de haut nive érations de FGFR QUES hique non à petites cellules : indic ents de précision ion de c-M mplètemen eau cations des MET nt réséqué s tests molé NCCN 2024",
+      "start_page": 25,
+      "end_page": 26
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN2024",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "ESMO 2023",
+      "text": "NCCN 2024 CAP 2018 NICE 2019 NCCN 2024 Recommandations ESMO 2021 ées) ESMO 2021 NCCN 2024 NCCN 2024 éculaires Annexe 2. AMM, AAC et AAP des m est guidée par le statut d’un bioma (à jour le 22 avril 2024, attention, les autoris Biomarqueurs Molécules atezolizumab, pembrolizumab, cemiplimab, durvaluma Expression PD-L1 nivolumab, tislelizumab erlotinib, gefitinib, afatinib, osimertinib Mutation activatrice d’EGFR dacomitinib ramucirumab3 Mobocertinib4, poziotin Mutation d’EGFR exon 20 amivantamab crizotinib, ceritinib, Fusion impliquant ALK alectinib, brigatinib, lorlatinib crizotinib Fusion impliquant ROS1 entrectinib repotrectinib larotrectinib Fusion impliquant NTRK1/2/3 repotrectinib selpercatinib Fusion impliquant RET pralsetinib association dabrafenib Mutation V600 de BRAF trametinib sotorasib Mutation G12C de KRAS adagrasib Mutation activatrice trastuzumab déruxtéca de HER2 Patients atteints d’un cancer bronchique non à petites c molécules pour les arqueur sations évoluent très rap Types d’autorisatio ab2, AMM, (nivolumab et durvalumab : AAP) AMM AMM AMM nib AAC arrêtées AMM, AAP AMM AMM AMM AMM, AAC AMM AMM, AAC AMM AMM et AMM AMM AAC an AMM cellules : indications des tests m squelles la prescrip pidement) Accès en Fran on pour le CBNP Oui, sauf l’atezolizum et le tislelizumab Oui Non Non Non Oui Oui Oui, remboursement de la 2e ligne de trait Non Oui Non Oui Oui Non Oui Non Oui Non moléculaires ption nce PC1 mab t à partir tement crizotinib Mutation entraînant un saut capmatinib de l’exon 14 de c-MET tepotinib Amplification ou telisotuzumab vedotin surexpression de c-MET 1 Dans la pratique décrite par les experts, les mol disponibles en France. 2 Le durvalumab dispose également d’une autoris est inconnu ou <1 %. 3 Le ramucirumab est un anticorps monoclonal sp conditionnée à l’existence d’une mutation activat 4 La demande d’AMM du mobocertinib a été retir renouvellements de traitement. Patients atteints d’un cancer bronchique non à petites c AAC Oui AMM Non AMM Non AAC Oui lécules pour lesquelles un « non » est présent ne sont pas sation d’accès compassionnel dans le cas où le statut PDL1 pécifique du récepteur VEGF-2, mais son AMM est trice d’EGFR. rée par Takeda, l’AAC est arrêtée sauf pour les cellules : indications des tests moléculaires Annex des m bioma Molécu Mutatio afatinib erlotini Gefitini osimert dacomi 29 | RÉFÉ Patien en vu xe 3. Libellé des AMM, autorisation d’accès précoces et compassionnels molécules pour lesquelles la prescription est guidée par le statut d’un arqueur dans le CBNPC (avril 2024) ules Libellé AMM ons d’EGFR Est indiqué en monothérapie dans les traitements suivants : - patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou b métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ; - patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou métastatique, progressant sous ou après chimiothérapie à base de platine. Est indiqué en : - première ligne de traitement des formes localement avancées ou métastatiques du CBNPC chez les patients présentant des mutations activatrices de l’EGFR ; - traitement de switch maintenance des formes localement avancées ou métastatiques du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une maladie stable après une première ligne de chimiothérapie ; - traitement des formes localement avancées ou métastatiques du CBNPC après échec d’au moins une ligne de chimiothérapie. Chez les patients avec des tumeurs sans ib mutations activatrices de l’EGFR, il est indiqué lorsque les autres options de traitement ne sont pas considérées appropriées. Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris en considération. Aucun bénéfice en survie ou autres effets cliniquement significatifs du traitement n’a été démontré chez les patients dont l’expression de l’EGFR de la tumeur (déterminée par IHC) était négative. Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement ib avancé ou métastatique avec mutations activatrices de l’EGFR-TK. Est indiqué en monothérapie dans : - le traitement adjuvant après résection tumorale complète des patients adultes atteints d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de l’exon 19 ou substitution de l’exon 21 (L858R) ; tinib - le traitement de première ligne des patients adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations activatrices de l’EGFR ; - le traitement des patients adultes atteints d’un CBNPC localement avancé ou métastatique, avec mutation EGFR T790M. Est indiqué en monothérapie pour le traitement de première intention des patients itinib adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations activatrices d’EGFR. RENTIEL DE BONNES PRATIQUES nts atteints d’un cancer bronchique non à petites cellules : indications des tests moléculaires ue de la prescription de traitements de précision ramucir amivan Fusion i crizotin ceritinib alectini brigatin lorlatin 30 | RÉFÉ Patien en vu rumab ntama impliq nib b ib nib nib RENTIE nts atte ue de la Est indiqué : - en association avec l’erlotinib, dans le traitement de première ligne des patients adultes atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations b activatrices de l’EGFR ; - en association avec le docétaxel, dans le traitement des patients adultes atteints d’un cancer bronchique non à petites cellules localement avancé ou métastatique dont la maladie a progressé après une chimiothérapie à base de sels de platine. Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC ab avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec d’un traitement à base de sels de platine. quant ALK Est indiqué en monothérapie : - en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et avancé ; - dans le traitement des patients adultes ayant reçu au moins un traitement antérieur pour un CBNPC ALK-positif et avancé. Est indiqué en monothérapie : - en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK- positif chez les patients adultes ; - dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez les patients adultes préalablement traités par crizotinib. Est indiqué en monothérapie : - en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un réarrangement du gène ALK-positif ; - dans le traitement du CBNPC avancé ALK-positif chez les patients adultes préalablement traités par crizotinib. Est indiqué en monothérapie : - pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur de tyrosine kinase ciblant la mutation ALK+ ; - pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et prétraités par crizotinib. Est indiqué en monothérapie : - dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non préalablement traité par un inhibiteur de l’ALK ; - dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la maladie a progressé après : • alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosine kinase (ITK) ALK ; ou • crizotinib et au moins un autre ITK ALK. EL DE BONNES PRATIQUES eints d’un cancer bronchique non à petites cellules : indications des tests moléculaires a prescription de traitements de précision",
+      "start_page": 26,
+      "end_page": 30
+    },
+    {
+      "heading": "Fusion impliquant ROS1",
+      "text": "Est indiqué en monothérapie dans le traitement des patients adultes ayant un CBNPC crizotinib ROS1- positif et avancé. Est indiqué en monothérapie chez les patients adultes atteints de formes avancées de entrectinib CBNPC positif pour ROS1 (ROS1+), non précédemment traités par des inhibiteurs de ROS1. Validation de la demande d’AMM pour repotrectinib dans le traitement du cancer du poumon non à petites cellules localement avancé ou métastatique Ros1-Positif et des Repotrectinib tumeurs solides Ntrk-Positives (dépêche du 02/01/2024, en attente de la publication par l’EMA).",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "Fusion impliquant RET",
+      "text": "Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC selpercatinib avancé présentant une fusion du gène RET non précédemment traités par un inhibiteur de RET Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC pralsetinib avancé présentant une fusion positive de RET non précédemment traités par un inhibiteur de RET.",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "Mutation V600E de BRAF",
+      "text": "trametinib Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC et dabrafenib avancé porteur d’une mutation BRAF V600E.",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "Mutation G12C de KRAS",
+      "text": "Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC sotorasib avancé, présentant la mutation KRAS G12C, dont la maladie a progressé après au moins une ligne de traitement systémique antérieur. Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer adagrasib bronchique non à petites cellules avancé (CBNPC) avec mutation KRAS G12C, dont la maladie a progressé après au moins un traitement systémique antérieur.",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "Expression de PD-L1 (TPS)",
+      "text": "Est indiqué en monothérapie dans le traitement adjuvant des patients adultes atteints d’un CBNPC à haut risque de récidive après résection complète et une chimiothérapie à base de sels de platine Est indiqué en monothérapie dans le traitement de première ligne des patients adultes pembrolizumab atteints d’un CBNPC métastatique dont les tumeurs expriment PD-L1 avec un score de proportion tumorale (TPS) ³50 %, sans mutations tumorales de l’EGFR ou d’ALK. Est indiqué en association à une chimiothérapie pemetrexed et sel de platine, dans le traitement de première ligne des patients adultes atteints de CBNPC métastatique non épidermoïde dont les tumeurs ne présentent pas de mutations d’EGFR ou d’ALK. durvalu atezoliz 32 | RÉFÉR Patien en vu Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dans le traitement de première ligne des patients adultes atteints de CBNPC métastatique épidermoïde Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPC localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %, et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant des mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçu une thérapie ciblée avant de recevoir du pembrolizumab. Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC localement avancé, non opérable, dont les tumeurs expriment PD-L1 ≥ 1 % des cellules tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base de umab platine. Est indiqué en association avec le trémélimumab et une chimiothérapie à base de platine, dans le traitement de première ligne des patients adultes atteints d’un CBNPC métastatique en l’absence de mutation activatrice de l’EGFR ou de ALK Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligne de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique. Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine, seulement après échec des thérapies ciblées appropriées. Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sans EGFR muté ou réarrangement du gène ALK (ALK-positif) Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultes atteints d’un CBNPC métastatique dont les tumeurs présentent une expression de PD-L1 ≥ 50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant la zumab tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif). Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPC localement avancé ou métastatique après une chimiothérapie antérieure. Les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doivent également avoir reçu des thérapies ciblées avant de recevoir Tecentriq. Est indiqué pour le traitement adjuvant, après une résection complète et une chimiothérapie à base de platine, chez les adultes atteints d’un CBNPC présentant un risque élevé de récidive, dont les tumeurs présentent une expression de PD-L1 sur la moitié des cellules tumorales ou plus (PD-L1≥50 %), et dont le cancer n’a pas les mutations EGFR ou ALK+ RENTIEL DE BONNES PRATIQUES nts atteints d’un cancer bronchique non à petites cellules : indications des tests moléculaires ue de la prescription de traitements de précision cemipli nivolum tislelizu Fusion i larotrec Repotre 33 | RÉFÉR Patien en vu imab mab umab impliq ctinib ectinib RENTIE nts atte ue de la Est indiqué en monothérapie pour le traitement de première ligne de patients adultes atteints d’un CBNPC exprimant PD-L1 (dans ≥ 50 % des cellules tumorales) sans altérations du gène EGFR, ALK ou ROS1, qui ont : - un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou - un CBNPC métastatique. Est indiqué en association à une chimiothérapie à base de sels de platine pour le traitement de première ligne de patients adultes atteints d’un cancer bronchopulmonaire non à petites cellules (CBNPC) exprimant PD-L1 (dans ≥ 1 % des cellules tumorales) sans altérations du gène EGFR, ALK ou ROS1, et qui ont : - un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou - un CBNPC métastatique. Est indiqué en association à une chimiothérapie à base de sels de platine dans le traitement néoadjuvant des patients adultes, atteints d’un cancer bronchique non à petites cellules résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de translocation ALK connue L’indication en combinaison concerne l’association au pemetrexed et une chimiothérapie contenant du platine, dans le traitement de première ligne des patients adultes atteints d’un cancer du poumon NAPC non épidermoïde dont les tumeurs présentent une expression de PD-L1 ≥50 % des cellules tumorales, sans mutation positive EGFR ou ALK, et qui présentent : - un cancer du poumon NAPC localement avancé et qui ne sont pas candidats à une résection chirurgicale ou à une chimioradiothérapie à base de platine ; ou - un cancer du poumon NAPC métastatique. En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un cancer du poumon NAPC localement avancé ou métastatique après un traitement antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant de recevoir le tislélizumab. (Avis du CHMP 23/02/2024, en attente de la publication par l’EMA) quant NTRK1/2/3 Est indiqué en monothérapie pour le traitement des patients adultes et pédiatriques atteints d’une tumeur solide présentant une fusion d’un des gènes NTRK1/2/3. - ayant une maladie au stade localement avancé ou métastatique, ou pour laquelle une résection chirurgicale risquerait d’entraîner une morbidité sévère ; et - lorsqu’il n’existe aucune option thérapeutique satisfaisante Validation de la demande d’AMM pour repotrectinib dans le traitement du cancer du poumon non à petites cellules localement avancé ou métastatique Ros1-Positif et des b tumeurs solides Ntrk-Positives (dépêche du 2/01/2024, en attente de la publication par l’EMA) EL DE BONNES PRATIQUES eints d’un cancer bronchique non à petites cellules : indications des tests moléculaires a prescription de traitements de précision Mutatio capmat tepotin Mutatio trastuzu déruxté Molécu Express durvalu nivolum Mutatio moboce 34 | RÉFÉR Patien en vu on saut d’exon 14 c-MET Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne tinib le saut de l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale (METex14), qui nécessitent un traitement systémique après un traitement antérieur par immunothérapie et/ou chimiothérapie à base de platine. Est indiqué en monothérapie pour le traitement des patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne le nib saut de l’exon 14 au niveau du gène du facteur de transition épithélio-mésenchymateuse (METex14), qui nécessitent un traitement systémique après un traitement antérieur par immunothérapie et/ou chimiothérapie à base de platine. on activatrice de HER2 (ERBB2) Est indiqué en monothérapie dans le traitement des patients adultes présentant un CBNPC umab avec mutation activatrice du gène HER2 (ERBB2) nécessitant un traitement systémique après écan une chimiothérapie à base de platine associée ou non à une immunothérapie. ules Libellé Autorisations d’accès précoces et compassionnels sion de PD-L1 (TPS) Traitement des patients adultes atteints d’un CBNPC localement avancé non opérable et dont la maladie n’a pas progressé après une chimioradiothérapie à base de platine, en cas umab d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le résultat de ce marqueur n’est pas exploitable (statut inconnu). En association à une chimiothérapie à base de sels de platine dans le traitement néoadjuvant des patients adultes, atteints d’un cancer bronchique non à petites cellules mab résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de translocation ALK connue. on d’EGFR exon 20 Patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) EGFR muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de sels de platine : - préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du ertinib traitement permettent de justifier sa poursuite ; ou - chez les patients ne pouvant bénéficier du Rybrevant. Information importante du 23/11/2023 : Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que pour les patients déjà en cours de traitement. RENTIEL DE BONNES PRATIQUES nts atteints d’un cancer bronchique non à petites cellules : indications des tests moléculaires ue de la prescription de traitements de précision En association au carboplatine et au pemetrexed en première ligne de traitement des patients adultes atteints d’un cancer bronchique non à petites cellules avancé avec amivantamab mutations activatrices du récepteur du facteur de croissance épidermique (EGFR) par insertion dans l’exon 20, pour les patients non opérables",
+      "start_page": 31,
+      "end_page": 35
+    },
+    {
+      "heading": "Mutation KRAS G12C",
+      "text": "Cancer bronchique non à petites cellules avancé ou métastatique : en présence d’une mutation de KRAS p.G12C, ayant échappé à une seconde ligne de traitement par",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "adagrasib (AAC)",
+      "text": "docetaxel ou non éligible à un traitement par docetaxel. (Attention, risque potentiel d’effets indésirables cutanés sévères)",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "Mutation avec saut de l’exon 14 MET",
+      "text": "Traitement des patients adultes atteints d’un CBNPC localement avancé ou métastatique crizotinib présentant une mutation du site d’épissage de l’exon 14 de c-MET, après au moins une ligne de traitement à base de doublet de platine associé ou non à une immunothérapie",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "Amplification de MET ou surexpression de c-MET",
+      "text": "CBNPC non squameux avancé/métastatique en rechute/réfractaire : telisotuzumab - en situation d’impasse thérapeutique après 2 lignes de traitement ;",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "vedotin (AAC) - amplification c-MET ou surexpression c-MET caractérisée par IHC ;",
+      "text": "- absence de mutation EGFR.",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "Fusion de ROS1",
+      "text": "repotrectinib Cancer bronchique non à petites cellules avancé ou métastatique ROS1-positif, chez des",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "Fusion de NTRK1/2/3",
+      "text": "Tumeurs solides exprimant une fusion du gène NTRK1/2/3, non résécables métastatiques repotrectinib ou localement avancées, chez des patients ayant déjà reçu une première ligne de",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "(AAC)",
+      "text": "traitement.",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "Fusion de RET",
+      "text": "En monothérapie dans le traitement des patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) avancé présentant une fusion du gène RET non selpercatinib précédemment traités par un inhibiteur de RET uniquement en première ligne de traitement.",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "Annexe 4. Essais cliniques de phase précoce",
+      "text": "La liste des essais cliniques de phase précoce ouverts aux inclusions au sein des établissements abritant un centre labellisé de phase précoce (CLIP² 2024-2029) est maintenue à jour sur la page suivante : La liste des essais nécessitant la recherche d’un biomarqueur pour l’inclusion des patients pour les cancers de l’appareil respiratoire, les tumeurs solides et multilocalisations y est disponible.",
+      "start_page": 36,
+      "end_page": 36
+    },
+    {
+      "heading": "Au stade précoce",
+      "text": "CBNPC de stade IB à IIIA EGFR Recherche complémentaire après la publication des recommandations internationales. Search: ((NSCLC) AND ((stage I) OR (stage II) OR (stage III)) AND EGFR mutation) NOT (metastatic) Filters: Clinical Trial, Humans, English, French, from 2023 8 articles obtenus : trois articles n’ont pas été sélectionnés, car le stade investigué était IIIB-IV 5 articles sélectionnés et 1 article ajouté par les experts : pas de résultat de nature à faire évoluer les recommandations internationales 1. PMID: 37236398 Three-Year Safety, Tolerability, and Health-Related Quality of Life Outcomes of Adjuvant Osimertinib in Patients With Resected Stage IB to IIIA EGFR-Mutated NSCLC: Updated Analysis From the Phase 3 ADAURA Trial. John T, Grohé C, Goldman JW, Shepherd FA, de Marinis F, Kato T, Wang Q, Su WC, Choi JH, Sriuranpong V, Melotti B, Fidler MJ, Chen J, Albayaty M, Stachowiak M, Taggart S, Wu YL, Tsuboi M, Herbst RS, Majem M. J Thorac Oncol. 2023 Sep;18(9):1209-1221. doi: 10.1016/j.jtho.2023.05.015. Epub 2023 May 24. PMID: 37236398 Free article. Clinical Trial. 2. PMID: 36863124 Osimertinib as neoadjuvant therapy in patients with EGFR-mutant resectable stage II-IIIB lung adenocarcinoma (NEOS): A multicenter, single-arm, open-label phase 2b trial. Lv C, Fang W, Wu N, Jiao W, Xu S, Ma H, Wang J, Wang R, Ji C, Li S, Wang Y, Yan S, Lu F, Pei Y, Liu Y, Yang Y. Lung Cancer. 2023 Apr;178:151-156. doi: 10.1016/j.lungcan.2023.02.011. Epub 2023 Feb 17. PMID: 36863124 Free article. Clinical Trial. 3. PMID: 36823150 Erlotinib versus gemcitabine plus cisplatin as neoadjuvant treatment of stage IIIA-N2 EGFR-mutant non-small-cell lung cancer: final overall survival analysis of the EMERGING-CTONG 1103 randomised phase II trial. Zhong WZ, Yan HH, Chen KN, Chen C, Gu CD, Wang J, Yang XN, Mao WM, Wang Q, Qiao GB, Cheng Y, Xu L, Wang CL, Chen MW, Kang XZ, Yan WP, Liao RQ, Yang JJ, Zhang XC, Liu SY, Zhou Q, Wu YL. Signal Transduct Target Ther. 2023 Feb 24;8(1):76. doi: 10.1038/s41392-022-01286-3. PMID: 36823150 Free PMC article. Clinical Trial. 4. PMID: 36369159 Surgical results of the Lung Cancer Mutation Consortium 3 trial: A phase II multicenter single-arm study to investigate the efficacy and safety of atezolizumab as neoadjuvant therapy in patients with stages IB-select IIIB resectable non-small cell lung cancer. Rusch VW, Nicholas A, Patterson GA, Waqar SN, Toloza EM, Haura EB, Raz DJ, Reckamp KL, Merritt RE, Owen DH, Finley DJ, McNamee CJ, Blasberg JD, Garon EB, Mitchell JD, Doebele RC, Baciewicz F, Nagasaka M, Pass HI, Schulze K, Johnson A, Bunn PA, Johnson BE, Kris MG, Kwiatkowski DJ, Wistuba II, Chaft JE, Carbone DP, Lee JM. J Thorac Cardiovasc Surg. 2023 Mar;165(3):828-839.e5. doi: 10.1016/j.jtcvs.2022.10.007. EPub 2022 Oct 8. PMID: 36369159 Free PMC article. Clinical Trial. 5. PMID: 36355317 Icotinib, an EGFR tyrosine kinase inhibitor, as adjuvant therapy for patients with stage IIA-IIIA EGFR- mutant non-small-cell lung adenocarcinoma: a multicenter, open-label, single-arm, phase II study (ICAPE). Qian K, Chen QR, He M, Wang ZT, Liu Y, Liang HG, Su ZY, Cui YS, Liu LJ, Zhang Y. Invest New Drugs. Recherche du statut PD-L1 pour immunothérapie Recherche complémentaire après la publication des recommandations internationales. ((NSCLC) AND (stage III) AND (PD-L1) AND (immunotherapy)) NOT (metastatic) Filters: Clinical Trial, Humans, English, French, from 2023 1 article obtenu 1 article sélectionné : pas de résultat de nature à faire évoluer les recommandations internationales Perioperative Durvalumab for Resectable Non-Small-Cell Lung Cancer. Heymach JV, Harpole D, Mitsudomi T, Taube JM, Galffy G, Hochmair M, Winder T, Zukov R, Garbaos G, Gao S, Kuroda H, Ostoros G, Tran TV, You J, Lee KY, Antonuzzo L, Papai-Szekely Z, Akamatsu H, Biswas B, Spira A, Crawford J, Le HT, Aperghis M, Doherty GJ, Mann H, Fouad TM, Reck M; AEGEAN Investigators. N Engl J Med. 2023 Nov 2;389(18):1672-1684. doi: 10.1056/NEJMoa2304875. EPub 2023 Oct 23. PMID: 37870974 Clinical Trial. Recherche d’EGFR pour adaptation immunothérapie Recherche complémentaire après la publication des recommandations internationales. Search: ((NSCLC) AND (stage III) AND EGFR mutation AND immunotherapy) NOT Filter: (metastatic) Filters: Clinical Trial, Humans, English, French, from 2023 - 2023 1 article obtenu 1 article sélectionné : pas de résultat de nature à faire évoluer les recommandations internationales Brief Report: Durvalumab After Chemoradiotherapy in Unresectable Stage III EGFR-Mutant NSCLC: A Post Hoc Subgroup Analysis From PACIFIC. Naidoo J, Antonia S, Wu YL, Cho BC, Thiyagarajah P, Mann H, Newton M, Faivre-Finn C. J Thorac Oncol. Recherche du statut PD-L1 Recherche complémentaire après la publication des recommandations internationales. Search: ((NSCLC) AND ((stage III) OR (stage IV)) AND ((PD-L1) OR (PDL1)) ) AND (metastatic) Filters: Clinical Trial, Humans, English, French, from 2023 – 2023 15 articles obtenus : 9 articles n’ont pas été sélectionnés, car les essais ne sont pas basés sur le statut PD-L1, 6 articles sélectionnés : pas de résultat de nature à faire évoluer les recommandations internationales 1. PMID: 37467930 Overall survival with adjuvant atezolizumab after chemotherapy in resected stage II-IIIA non-small- cell lung cancer (IMpower010): a randomised, multicentre, open-label, phase III trial. Felip E, Altorki N, Zhou C, Vallières E, Martínez-Martí A, Rittmeyer A, Chella A, Reck M, Goloborodko O, Huang M, Belleli R, McNally V, Srivastava MK, Bennett E, Gitlitz BJ, Wakelee HA. Ann Oncol. 2023 Oct;34(10):907-919. doi: 10.1016/j.annonc.2023.07.001. Epub 2023 Jul 17. PMID: 37467930 Free article. Clinical Trial. 2. PMID: 37146754 Systemic and Intracranial Outcomes With First-Line Nivolumab Plus Ipilimumab in Patients With Metastatic NSCLC and Baseline Brain Metastases From CheckMate 227 Part 1. Reck M, Ciuleanu TE, Lee JS, Schenker M, Zurawski B, Kim SW, Mahave M, Alexandru A, Peters S, Pluzanski A, Caro RB, Linardou H, Burgers JA, Nishio M, Martinez-Marti A, Azuma K, Axelrod R, Paz- Ares LG, Ramalingam SS, Borghaei H, O'Byrne KJ, Li L, Bushong J, Gupta RG, Grootendorst DJ, Eccles LJ, Brahmer JR. J Thorac Oncol. 2023 Aug;18(8):1055-1069. doi: 10.1016/j.jtho.2023.04.021. Epub 2023 May 3. PMID: 37146754 Free article. Clinical Trial. 3. PMID: 37169628 Rationale and Design of the Phase II ANTELOPE Study of Atezolizumab, Carboplatin and nab- Paclitaxel vs. Pembrolizumab, Platinum and Pemetrexed in TTF-1 Negative, Metastatic Lung Adenocarcinoma (AIO-TRK-0122). Frost N, Bleckmann A, Griesinger F, Grohé C, Janning M, Kollmeier J, Reinmuth N, Sebastian M, Thomas M, Reck M. Clin Lung Cancer. 2023 Sep;24(6):568-572. doi: 10.1016/j.cllc.2023.04.009. EPub 2023 Apr 23. PMID: 37169628 Clinical Trial. 4. PMID: 37676681 Durvalumab Plus Concurrent Radiotherapy for Treatment of Locally Advanced Non-Small Cell Lung Cancer: The DOLPHIN Phase 2 Nonrandomized Controlled Trial. Tachihara M, Tsujino K, Ishihara T, Hayashi H, Sato Y, Kurata T, Sugawara S, Shiraishi Y, Teraoka S, Azuma K, Daga H, Yamaguchi M, Kodaira T, Satouchi M, Shimokawa M, Yamamoto N, Nakagawa K; West Japan Oncology Group (WJOG). JAMA Oncol. 2023 Nov 1;9(11):1505-1513. doi: 10.1001/jamaoncol.2023.3309. PMID: 37676681 Clinical Trial. 5. PMID: 37548831 First-line nivolumab plus ipilimumab in metastatic non-small cell lung cancer: 5-year outcomes in Japanese patients from CheckMate 227 Part 1. Nishio M, Ohe Y, Ikeda S, Yokoyama T, Hayashi H, Fukuhara T, Sato Y, Tanaka H, Hotta K, Sugawara S, Daga H, Okamoto I, Kasahara K, Naito T, Li L, Gupta RG, Bushong J, Mizutani H. Int J Clin Oncol. 2023 Oct;28(10):1354-1368. doi: 10.1007/s10147-023-02390-2. Epub 2023 Aug 7. PMID: 37548831 Free PMC article. Clinical Trial. 6. PMID: 37557022 Pembrolizumab as first-line treatment for advanced NSCLC in older adults: A phase II clinical trial evaluating geriatric and quality-of-life outcomes. Blanco R, Dómine M, González JL, Loutfi S, Alfaro J, Saldaña J, Rubio J, Campos B, Hidalgo J, Barba A, Márquez D, Martin M, Olaverri A, Nadal E. Lung Cancer. 2023 Sep;183:107318. doi: 10.1016/j.lungcan.2023.107318. EPub 2023 Aug 2. PMID: 37557022 Free article. Clinical Trial. Recherche du statut EGFR Recherche complémentaire après la publication des recommandations internationales. Search: ((NSCLC) AND ((stage III) OR (Stage IV)) AND (EGFR) ) AND (metastatic) Filters: Clinical Trial, Humans, English, French, from 2023 – 2023 18 articles obtenus : 7 articles non sélectionnés (essai non basé sur le statut EGFR) 11 articles sélectionnés et 1 ajout des experts : pas de résultat de nature à faire évoluer les recommandations internationales. 1.PMID: 36720083 Adjuvant Osimertinib for Resected EGFR-Mutated Stage IB-IIIA Non-Small-Cell Lung Cancer: Updated Results From the Phase III Randomized ADAURA Trial. Herbst RS, Wu YL, John T, Grohe C, Majem M, Wang J, Kato T, Goldman JW, Laktionov K, Kim SW, Yu CJ, Vu HV, Lu S, Lee KY, Mukhametshina G, Akewanlop C, de Marinis F, Bonanno L, Domine M, Shepherd FA, Urban D, Huang X, Bolanos A, Stachowiak M, Tsuboi M. J Clin Oncol. 2023 Apr Abbvie : telisotuzumab vedotin Amgen : sotorasib Astrazeneca : durvalumab, osimertinib Bayer : larotrectinib Boehringer : afatinib Bristol Myers Squibb pharma EEIG : nivolumab BMS France : repotrectinib Daiichi Sankyo Europe Gmbh : trastuzumab deruxtecan Janssen : amivantamab Lilly : ramucirumab, selpercatinib Merck : pembrolizumab, tepotinib Novartis : ceritinib, capmatinib Pfizer : dacomitinb, crizotinib, lorlatinib Regeneron : cemiplimab Roche : atezolizumab, alectinib, entrectinib, pralsetinib Spectrum pharmaceutical : poziotinib Takeda : brigatinib, mobocertinib",
+      "start_page": 37,
+      "end_page": 45
+    },
+    {
+      "heading": "Principaux fabricants de DM",
+      "text": "FISH, IHC : Abcam, Cell Signaling Technology, Cliniscience, Bioc Biotechnology, Leica, Ménarini, Novocastra, Quartett Biochem Mutations, fusions, NGS : Agilent, Amoy Diagnostics, Amplite Biotech, Blue DNA Companion, Cliniscience, Entrogen, Fluid Illumina, Invitae, Launch Diagnostics, Qiagen, Roche Diagnost Thermofisher, Pentabase, Precigenome, Sophia Genetic, Twist Patients atteints d’un cancer bronchique non à petites cellules : indications des ricants d care, Diag micals, Roc ech, Bioca digm3B, G tics, Sigma t Bioscienc s tests molécu de d gnost che, V artis, Gene a Ald ce… ulaires dispo tic Bio Venta Biora eri Bio drich, s ositi osyst ana… ad, B otech , Stilla ifs tems, Genemed Bioron, BlackBio h, Id solutions, a Technologies, PATIE INDIC DE TR ENTS ATTEIN CATIONS DE RAITEMENT NTS D’U ES TEST TS DE PR UN CAN TS MOLÉ RÉCISION NCER BRONCHIQUE NON À PETITES CELLULES ÉCULAIRES EN VUE DE LA PRESCRIPTION N Édité par l’Institut national du cancer Tous droits réservés - Siren 185 512 777 Conception : INCa ISBN : 978-2-38559-126-7 ISBN net : 978-2-38559-127-4",
+      "start_page": 45,
+      "end_page": 46
+    },
+    {
+      "heading": "DÉPÔT LÉGAL MARS 2025",
+      "text": "52MUOPLOMTSETOCER Pour plus d’informations",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "heading": "cancer.fr",
+      "text": "Institut national du cancer 52, avenue André Morizet 92100 Boulogne-Billancourt France Tél. : +33 (1) 41 10 50 00",
+      "start_page": 47,
+      "end_page": 47
+    },
+    {
+      "heading": "table under heading CER (column 1)",
+      "text": "Row 1:\nJANVI ACTUARow 2:\nSLEITNERÉFÉR TE SNOITADNAMMOCER",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading CER (column 2)",
+      "text": "Row 2:\nER 2023 ALISATION 2024 / Réfé PA D’U BR NO CE / Ind en vu de p",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading CER (column 3)",
+      "text": "Row 2:\nére AT ’U RO O EL dic ue pré",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading CER (column 4)",
+      "text": "Row 2:\nentie TIE UN ON ON LL catio e de écisi",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading CER (column 5)",
+      "text": "Row 2:\nel de bonne ENTS N CAN NCH N À PE LULES ons des tes e la prescri ion",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading CER (column 6)",
+      "text": "Row 2:\nes prat S AT NC HIQ ETI S ests m iption",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading CER (column 7)",
+      "text": "Row 2:\ntiques ATTEINTS CER QUE ITES moléculaires n de traitements",
+      "start_page": 1,
+      "end_page": 1
+    },
+    {
+      "heading": "table under heading Mise à jour août 2024",
+      "text": "Row 1:\n|Ce document présente les conclusions du groupe d’experts sur la stratégie de tests à mettre en|Row 2:\n|place chez les patients atteints de CBNPC pour une stratégie de soin optimale à tous les stades de|Row 3:\n|la maladie (considérant les données disponibles au jour de la rédaction du document). Il s’adresse|Row 4:\n|à tous les prescripteurs de tests moléculaires pour guider le choix des tests à réaliser pour leurs|Row 5:\n|patients (ex. : oncologue, pneumologue ou autre clinicien) et aux praticiens qui réalisent ces tests|Row 6:\n|(anatomopathologistes et biologistes).|Row 7:\n|Attention, le but de ce document est de recommander les tests à réaliser et non pas les traitements|Row 8:\n|à administrer. Des traitements sont évoqués pour expliquer l’intérêt des tests, mais la liste des|Row 9:\n|choix thérapeutiques pour les patients n’est pas exhaustive. De plus, les accès aux molécules|Row 10:\n|évoluent très rapidement et nécessitent un suivi en temps réel par le praticien impliqué.|Row 11:\n|Ce document ne contient pas non plus de recommandations sur la façon de réaliser les tests, mais|Row 12:\n|uniquement les techniques à utiliser quand il en existe plusieurs pour un même biomarqueur. Les|Row 13:\n|tests doivent être réalisés selon les bonnes pratiques d’anatomopathologie et de biologie|Row 14:\n|moléculaire.|Row 15:\n|Ces recommandations de tests à réaliser sont à discuter en réunion de concertation|Row 16:\n|pluridisciplinaire (RCP) et/ou en staff moléculaire, suivant l’organisation locale, en fonction|Row 17:\n|notamment de l’accès possible à des essais cliniques. La réalisation de tests pour permettre|Row 18:\n|d’inclure les patients dans des essais cliniques est recommandée.|Row 19:\n|Sauf mention contraire, ces recommandations de tests concernent les patients atteints de CBNPC,|Row 20:\n|en dehors des carcinomes épidermoïdes du patient fumeur.|",
+      "start_page": 7,
+      "end_page": 7
+    },
+    {
+      "heading": "table under heading Conclusion",
+      "text": "Row 1:\n|Conclusions|Row 2:\n|Pour un traitement néoadjuvant :|Row 3:\n|Il faut rechercher les biomarqueurs PD-L1, ALK et EGFR dès la biopsie préopératoire|Row 4:\n|Pour un traitement adjuvant :|Row 5:\n|Pour les patients de stades IB à III avec une tumeur complètement réséquée, une recherche des|Row 6:\n|mutations activatrices fréquentes d’EGFR est indispensable (L858R et délétions de l’exon 19). Une|Row 7:\n|recherche des statuts PD-L1 et ALK pourrait être indispensable dans le futur. Les résultats de ces|Row 8:\n|analyses doivent être disponibles avant la fin de la chimiothérapie adjuvante ou 4 à 8 semaines|Row 9:\n|après la chirurgie s’il n’y a pas de chimiothérapie adjuvante.|",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "table under heading Conclusion",
+      "text": "Row 1:\n|Conclusion|Row 2:\n|Au stade localement avancé non résécable de CBNPC, il est indispensable d’évaluer le niveau|Row 3:\n|d’expression de PD-L1 (cancers épidermoïdes et non épidermoïdes) au sein de la tumeur et il est|Row 4:\n|recommandé de rechercher les mutahons d’EGFR (exons 18 à 21).|Row 5:\n|Les résultats de ces analyses doivent être disponibles avant la fin de la chimiothérapie adjuvante.|",
+      "start_page": 11,
+      "end_page": 11
+    },
+    {
+      "heading": "table under heading 4. Tests multiplexés (from previous page)",
+      "text": "Row 1:\n|Anomalies recherchées|TechniqueRow 2:\nAltérations à rechercher|Mutation d’EGFR (exons 18 à 21) Mutations de BRAF Mutations de KRAS Mutationsd’HER2/ERBB2 Amplification de MET Mutations conférant un saut de l’exon 14 de MET|NGS ADNRow 3:\n|Fusions impliquant ALK Fusions impliquant ROS1 Fusions impliquant RET Saut de l’exon 14 de MET Fusions impliquant NTRK1/2 Fusions impliquant NRG1|NGS ARNRow 4:\nAltérations émergentes à discuter|Amplification de HER2/ERBB2|NGS ADNRow 5:\n|Mutations de TP53, STK11 et KEAP1|Row 6:\n|Fusions de NRG1|NGS ARN",
+      "start_page": 15,
+      "end_page": 15
+    },
+    {
+      "heading": "table under heading Conclusions",
+      "text": "Row 1:\n|Conclusions|Row 2:\n|Au stade métastatique, avant la première ligne de traitement, il est indispensable de rechercher|Row 3:\n|le statut PD-L1 (y compris pour les CBNPC épidermoïdes), les mutations d’EGFR et les fusions|Row 4:\n|d’ALK, ROS1 et|||RET|.|Row 5:\n|-|Row 6:\n|Délais et gestion du tissu tumoral :|Row 7:\n|• le délai de rendu des résultats idéal recommandé est de 7 jours à partir du diagnostic|Row 8:\n|anatomopathologique, avec un maximum de 14 jours ;|Row 9:\n|• en cas d’urgence, l’identification des principales mutations addictives (mutation L858R et|Row 10:\n|délétions de l’exon 19) doit pouvoir être réalisée dans un circuit très rapide ;|Row 11:\n|• en cas de CBNPC non épidermoïde, l’organisation du circuit local entre les cliniciens et les|Row 12:\n|services d’anatomopathologie doit permettre la prescription réflexe de ces biomarqueurs,|Row 13:\n|dès le diagnostic ;|Row 14:\n|• une gestion économe du tissu tumoral doit être privilégiée, afin de pouvoir faire tous les|Row 15:\n|examens immunohistochimiques et de biologie moléculaire requis.|Row 16:\n|-|Row 17:\n|Techniques à utiliser :|Row 18:\n|• la recherche du statut PD-L1 (TPS) doit être faite par IHC ;|Row 19:\n|• il est recommandé, si l’organisation locale permet un résultat dans les délais, de rechercher|Row 20:\n|directement les altérations d’EGFR, ALK, ROS1 et|RET|par NGS. Toutefois, une stratégie|||Row 21:\n|rapide doit être accessible en cas d’urgence ;|Row 22:\n|• la recherche des mutations d’EGFR doit être faite de préférence par NGS, mais en cas|Row 23:\n|d’urgence et s’il est impossible de respecter les délais impartis, un test ciblé rapide peut|Row 24:\n|être réalisé. En cas de résultat négatif, il devra être complété par un NGS pour identifier|Row 25:\n|toutes les mutations d’EGFR ;|Row 26:\n|• la recherche des fusions d’ALK peut se faire par IHC, FISH ou RNAseq. L’IHC ALK avec une|Row 27:\n|intensité de marquage 1+ ou 2+ doit être confirmée par technique moléculaire (RNAseq,|Row 28:\n|FISH ou autre) ;|Row 29:\n|• la recherche des fusions de ROS1 peut se faire par IHC en première intention, mais un|Row 30:\n|résultat positif doit être confirmé par FISH ou RNAseq ;|Row 31:\n|• la recherche des fusions de RET doit être faite par technique moléculaire (|RT-PCR|, RNAseq|Row 32:\n|ou|FISH|).|Row 33:\n|",
+      "start_page": 17,
+      "end_page": 17
+    },
+    {
+      "heading": "table under heading Conclusions (from previous page)",
+      "text": "Row 1:\n|Si un panel NGS n’a pas été réalisé en première intention et en prévision du traitement de||Row 2:\n|deuxième ligne, il est indispensable de compléter le test rapide par une analyse multiplexée de||Row 3:\n|type NGS recherchant les mutations et les fusions.||Row 4:\n|-||Row 5:\n|Les panels NGS utilisés doivent permettre de rechercher, au minimum :||Row 6:\n|• les mutations dans les gènes suivants :||Row 7:\n|o EGFR : recherche des altérations dans les exons 18 à 21 (dont les insertions de||Row 8:\n|l’exon 20),||Row 9:\n|o KRAS : recherche de mutations dans l’exon 2 (en particulier la mutation G12C),||Row 10:\n|o BRAF : recherche d’une mutation V600 de BRAF,||Row 11:\n|o HER2/ERRB2 : recherche de mutations dans l’exon 20,||Row 12:\n|o MET : recherche d’altérations entraînant un saut de l’exon 14 ;||Row 13:\n|• les fusions impliquant les gènes suivants : ALK, ROS1, RET, NTRK1/2/3 ;||Row 14:\n|• l’amplification de MET.||Row 15:\n|Le délai de rendu du résultat de ces tests multiplexés ne doit pas excéder 3 semaines calendaires.||Row 16:\n|La recherche peut être faite en un ou deux panels de façon parallèle ou séquentielle.||Row 17:\n|-||Row 18:\n|En cas de progression :||Row 19:\n|• après une thérapie ciblée :||Row 20:\n|En cas de progression de la maladie, il est recommandé de rechercher les mécanismes de||Row 21:\n|résistance moléculaire (NGS ADN et/ou ARN).||Row 22:\n|Ces tests doivent être réalisés sur un prélèvement de lésion en progression. Dans les cas où||Row 23:\n|une biopsie est impossible, la recherche peut être réalisée sur biopsie liquide.||Row 24:\n|La recherche d’autres altérations moléculaires émergentes par larges panels de gènes ou||Row 25:\n|séquençage dans le cadre du plan France Médecine Génomique peut être discutée en RCP||Row 26:\n|et/ou staff moléculaire, suivant l’organisation locale/nationale.||Row 27:\n|• à partir de la deuxième ligne de traitement :||Row 28:\n||Pour les CBNPC non épidermoïdes avancés/métastatiques en l’absence de mutation EGFR,|Row 29:\n||il faut rechercher la surexpression de c-MET par IHC et l’amplification de MET si cela n’a pas|Row 30:\n|été fait auparavant.|été fait auparavant.|",
+      "start_page": 18,
+      "end_page": 18
+    },
+    {
+      "heading": "table under heading Moyenne % de réponses ≥7",
+      "text": "Row 1:\n||Accord avec la recommandation|||Row 2:\n||Moyenne||% de réponses ≥7|Row 3:\n|Stade précoce|Row 4:\nRecherche du statut EGFR (L858R et del19)||8,57||94,1|Row 5:\n|Stade localement avancé|Row 6:\nRecherche PD-L1 et EGFR (exons 18 à 21)||8,35||94,1|Row 7:\n|Stade métastatique|Row 8:\nRecherche statut PD-L1||8,9||100|Row 9:\nRecherche EGFR||8,88||98|Row 10:\nDélai de rendu EGFR||7,28||72|Row 11:\nPrescription réflexe EGFR pour CBNPC non épidermoïde||8,51||94,1|Row 12:\nRecherche ALK et ROS1||8,67||98|Row 13:\nPanel NGS ADN et/ou ARN||8,82||98|Row 14:\nChoix des mutations à rechercher||8,66||100|Row 15:\nChoix des fusions à rechercher||8,6||96|Row 16:\nDélai de rendu des panels||7,84||84|Row 17:\n|Progression après thérapie ciblée|Row 18:\nRecherche des anomalies de résistance par NGS||8,8||100|Row 19:\nRecherche d’autres anomalies émergentes peut être discutée en RCP||8,37||91,8|Row 20:\nRecherche possible sur biopsie liquide||8,43||92,2|Row 21:\n|Qualité du document|Row 22:\nArbre décisionnel clair||7,41||75,5|Row 23:\nArbre décisionnel complet||7,47||73,5|Row 24:\nDocument utile||8,47||96,1|Row 25:\nDocument clair||7,73||82,4|",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "table under heading Moyenne % de réponses ≥7 (column 1)",
+      "text": "Row 1:\n|Stade précoce",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "table under heading Moyenne % de réponses ≥7 (column 1)",
+      "text": "Row 1:\n|Stade localement avancé",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "table under heading Moyenne % de réponses ≥7 (column 1)",
+      "text": "Row 1:\n|Stade métastatique",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "table under heading Moyenne % de réponses ≥7 (column 1)",
+      "text": "Row 1:\n|Progression après thérapie ciblée",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "table under heading Moyenne % de réponses ≥7 (column 1)",
+      "text": "Row 1:\n|Qualité du document",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "table under heading Moyenne % de réponses ≥7 (column 2)",
+      "text": "Row 1:\n|Accord avec la recommandation|||Row 2:\n|Moyenne||% de réponses ≥7|Row 3:\n|Row 4:\n|8,57||94,1|Row 5:\n|Row 6:\n|8,35||94,1|Row 7:\n|Row 8:\n|8,9||100|Row 9:\n|8,88||98|Row 10:\n|7,28||72|Row 11:\n|8,51||94,1|Row 12:\n|8,67||98|Row 13:\n|8,82||98|Row 14:\n|8,66||100|Row 15:\n|8,6||96|Row 16:\n|7,84||84|Row 17:\n|Row 18:\n|8,8||100|Row 19:\n|8,37||91,8|Row 20:\n|8,43||92,2|Row 21:\n|Row 22:\n|7,41||75,5|Row 23:\n|7,47||73,5|Row 24:\n|8,47||96,1|Row 25:\n|7,73||82,4|",
+      "start_page": 21,
+      "end_page": 21
+    },
+    {
+      "heading": "table under heading ESMO 2023",
+      "text": "Row 1:\n|Indication|||Biomarqueurs indispensables|||Recommandations|Row 2:\nCBNPC au stade précoce|||Mutation EGFR (délétion exon 19 ou mutation L858R exon 21)|||ESMO 2021||Row 3:\n|||Mutation EGFR|||NCCN 2024||Row 4:\n|||Fusion impliquant ALK|||NCCN 2024||Row 5:\n|||Expression de PD-L1 (tumeurs non résécables)|||ESMO 2021||Row 6:\nCBNPC au stade métastatique|||Mutation EGFR|||ESMO 2023||Row 7:\n|NCCN 2024||Row 8:\n|CAP 2018||Row 9:\n|NICE 2019||Row 10:\n|||Fusion impliquant ALK|||ESMO 2023||Row 11:\n|NCCN 2024||Row 12:\n|CAP 2018||Row 13:\n|NICE 2019||Row 14:\n|||Fusions impliquant ROS1|||ESMO 2023||Row 15:\n|NCCN 2024||Row 16:\n|CAP 2018||Row 17:\n|NICE 2019||Row 18:\n|||Mutation BRAF V600|||ESMO 2023 NCCN 2024||Row 19:\n|||Mutation KRAS G12C|||NCCN 2024 ESMO 2023||Row 20:\n|||Expression PD-L1|||ESMO 2023||Row 21:\n|NCCN 2024||Row 22:\n|NICE 2019||Row 23:\n|||Fusion impliquant NTRK1/2/3|||ESMO 2023||Row 24:\n|NCCN 2024||Row 25:\n|||Fusion impliquant RET|||NCCN 2024 ESMO 2023||",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "table under heading ESMO 2023 (column 1)",
+      "text": "Row 1:\n|Indication",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "table under heading ESMO 2023 (column 2)",
+      "text": "Row 1:\n|||Biom",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "table under heading ESMO 2023 (column 6)",
+      "text": "Row 1:\n|||Recommandations|Row 2:\n||ESMO 2021||Row 3:\n||NCCN 2024||Row 4:\n||NCCN 2024||Row 5:\n||ESMO 2021||Row 6:\n||ESMO 2023||Row 7:\n||NCCN 2024||Row 8:\n||CAP 2018||Row 9:\n||NICE 2019||Row 10:\n||ESMO 2023||Row 11:\n||NCCN 2024||Row 12:\n||CAP 2018||Row 13:\n||NICE 2019||Row 14:\n||ESMO 2023||Row 15:\n||NCCN 2024||Row 16:\n||CAP 2018||Row 17:\n||NICE 2019||Row 18:\n||ESMO 2023 NCCN 2024||Row 19:\n||NCCN 2024 ESMO 2023||Row 20:\n||ESMO 2023||Row 21:\n||NCCN 2024||Row 22:\n||NICE 2019||Row 23:\n||ESMO 2023||Row 24:\n||NCCN 2024||Row 25:\n||NCCN 2024 ESMO 2023||",
+      "start_page": 25,
+      "end_page": 25
+    },
+    {
+      "heading": "table under heading ESMO 2023",
+      "text": "Row 1:\nCBNPC au stade métastatique|Mutation MET ex 14 skip|NCCN 2024 ESMO 2023Row 2:\n|Amplification de MET/surexpression de c-MET|ESMO 2023Row 3:\n|Mutation HER2 (ERBB2)|ESMO 2023 NCCN2024Row 4:\nCBNPC après progression d’un traitement par thérapie ciblée|Mutation EGFR T790 M|ESMO 2023Row 5:\n||NCCN 2024Row 6:\n||CAP 2018Row 7:\n||NICE 2019Row 8:\n|Panel génomique large|NCCN 2024",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "table under heading ESMO 2023",
+      "text": "Row 1:\n|Indication|||Biomarqueurs optionnels|||Recommandations|Row 2:\nCBNPC au stade précoce|||Fusion impliquant ALK|||ESMO 2021||Row 3:\n|||Expression de PD-L1 (tumeurs complètement réséquées)|||ESMO 2021||Row 4:\nCBNPC au stade métastatique|||Amplification de MET de haut niveau|||NCCN 2024||Row 5:\n|||Altérations de FGFR|||NCCN 2024||",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "table under heading ESMO 2023 (column 1)",
+      "text": "Row 1:\nCBNPC au stade métastatiqueRow 2:\nCBNPC après progression d’un traitement par thérapie ciblée",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "table under heading ESMO 2023 (column 1)",
+      "text": "Row 1:\n|Indication|||BiomRow 2:\nCBNPC au stade précoce|Row 3:\nCBNPC au stade métastatique|",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "table under heading ESMO 2023 (column 5)",
+      "text": "Row 1:\nNCCN 2024 ESMO 2023Row 2:\nESMO 2023Row 3:\nESMO 2023 NCCN2024Row 4:\nESMO 2023Row 5:\nNCCN 2024Row 6:\nCAP 2018Row 7:\nNICE 2019Row 8:\nNCCN 2024",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "table under heading ESMO 2023 (column 5)",
+      "text": "Row 1:\n|||Recommandations|Row 2:\n||ESMO 2021||Row 3:\n||ESMO 2021||Row 4:\n||NCCN 2024||Row 5:\n||NCCN 2024||",
+      "start_page": 26,
+      "end_page": 26
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page)",
+      "text": "Row 1:\nBiomarqueurs|Molécules|||Types d’autorisation|Accès en France|Row 2:\n|pour le CBNPC1|Row 3:\nExpression PD-L1|atezolizumab, pembrolizumab, cemiplimab, durvalumab2, nivolumab, tislelizumab|||AMM, (nivolumab et durvalumab : AAP)|||Oui, sauf l’atezolizumab et le tislelizumab||Row 4:\nMutation activatrice d’EGFR|erlotinib, gefitinib, afatinib, osimertinib|||AMM|||Oui||Row 5:\n||dacomitinib|||AMM|||Non|Row 6:\n||ramucirumab3|||AMM|||Non|Row 7:\nMutation d’EGFR exon 20|Mobocertinib4, poziotinib|||AAC arrêtées|||Non||Row 8:\n|amivantamab|||AMM, AAP|||Oui||Row 9:\nFusion impliquant ALK|crizotinib, ceritinib, alectinib, brigatinib, lorlatinib|||AMM|||Oui||Row 10:\nFusion impliquant ROS1|crizotinib|||AMM|||Oui, remboursement à partir de la 2e ligne de traitement||Row 11:\n||entrectinib|||AMM|||Non|Row 12:\n|repotrectinib|||AMM, AAC|||Oui||Row 13:\nFusion impliquant NTRK1/2/3||larotrectinib|||AMM|||Non|Row 14:\n|repotrectinib|||AMM, AAC|||Oui||Row 15:\nFusion impliquant RET|selpercatinib|||AMM|||Oui||Row 16:\n||pralsetinib|||AMM|||Non|Row 17:\nMutation V600 de BRAF|association dabrafenib et trametinib|||AMM|||Oui||Row 18:\nMutation G12C de KRAS||sotorasib|||AMM|||Non|Row 19:\n|adagrasib|||AAC|||Oui||Row 20:\nMutation activatrice de HER2|trastuzumab déruxtécan|||AMM|||Non||",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 1)",
+      "text": "Row 1:\nBiomarqueurs|Molécules|Row 2:\nExpression PD-L1||Row 3:\nMutation activatrice d’EGFR||Row 4:\n||dacomitinibRow 5:\n||ramucirumab3Row 6:\nMutation d’EGFR exon 20|Mobocertinib4, poziotin|Row 7:\nFusion impliquant ALK||Row 8:\nFusion impliquant ROS1||Row 9:\nFusion impliquant NTRK1/2/3||larotrectinibRow 10:\nFusion impliquant RET||Row 11:\n||pralsetinibRow 12:\nMutation V600 de BRAF||Row 13:\nMutation G12C de KRAS||sotorasibRow 14:\nMutation activatrice de HER2|trastuzumab déruxtéca|",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 1)",
+      "text": "Row 1:\n|entrectinib",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 2)",
+      "text": "Row 1:\n|Types d’autorisatio",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 2)",
+      "text": "Row 1:\n|||AMMRow 2:\n|||AMMRow 3:\nnib||AAC arrêtées|",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 2)",
+      "text": "Row 1:\n|||AMM",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 2)",
+      "text": "Row 1:\nan|AMM",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 3)",
+      "text": "Row 1:\non||Accès en FranRow 2:\n||pour le CBNP",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 3)",
+      "text": "Row 1:\n|||NonRow 2:\n|||NonRow 3:\n||Non|",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 3)",
+      "text": "Row 1:\n|||Non",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 3)",
+      "text": "Row 1:\n|Non",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 4)",
+      "text": "Row 1:\nnce|Row 2:\nPC1|",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 4)",
+      "text": "Row 1:\n|Row 2:\n|Row 3:\n|",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 4)",
+      "text": "Row 1:\n|",
+      "start_page": 27,
+      "end_page": 27
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page)",
+      "text": "Row 1:\nMutation entraînant un saut de l’exon 14 de c-MET|crizotinib|||AAC|||Oui||Row 2:\n||capmatinib|||AMM|||Non|Row 3:\n||tepotinib|||AMM|||Non|Row 4:\nAmplification ou surexpression de c-MET|telisotuzumab vedotin|||AAC|||Oui||",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 1)",
+      "text": "Row 1:\nMutation entraînant un saut de l’exon 14 de c-MET||Row 2:\n||capmatinibRow 3:\n||tepotinibRow 4:\nAmplification ou surexpression de c-MET||",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 2)",
+      "text": "Row 1:\n||AAC|||Oui||Row 2:\n|||AMM|||Non|Row 3:\n|||AMM|||Non|Row 4:\n||AAC|||Oui||",
+      "start_page": 28,
+      "end_page": 28
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page)",
+      "text": "Row 1:\nMolécules|||Row 2:\n||Libellé AMM|Row 3:\n|||Row 4:\n|Mutations d’EGFR||Row 5:\nafatinib||Est indiqué en monothérapie dans les traitements suivants :|Row 6:\n||- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou|Row 7:\n||métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;|Row 8:\n||- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou|Row 9:\n||métastatique, progressant sous ou après chimiothérapie à base de platine.|Row 10:\nerlotinib||Est indiqué en :|Row 11:\n||- première ligne de traitement des formes localement avancées ou métastatiques du|Row 12:\n||CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;|Row 13:\n||- traitement de switch maintenance des formes localement avancées ou métastatiques|Row 14:\n||du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une|Row 15:\n||maladie stable après une première ligne de chimiothérapie ;|Row 16:\n||- traitement des formes localement avancées ou métastatiques du CBNPC après échec|Row 17:\n||d’au moins une ligne de chimiothérapie. Chez les patients avec des tumeurs sans|Row 18:\n||mutations activatrices de l’EGFR, il est indiqué lorsque les autres options de traitement|Row 19:\n||ne sont pas considérées appropriées.|Row 20:\n||Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris|Row 21:\n||en considération.|Row 22:\n||Aucun bénéfice en survie ou autres effets cliniquement significatifs du traitement n’a été|Row 23:\n||démontré chez les patients dont l’expression de l’EGFR de la tumeur (déterminée par IHC)|Row 24:\n||était négative.|Row 25:\nGefitinib||Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement|Row 26:\n||avancé ou métastatique avec mutations activatrices de l’EGFR-TK.|Row 27:\nosimertinib||Est indiqué en monothérapie dans :|Row 28:\n||- le traitement adjuvant après résection tumorale complète des patients adultes atteints|Row 29:\n||d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de|Row 30:\n||l’exon 19 ou substitution de l’exon 21 (L858R) ;|Row 31:\n||- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|Row 32:\n||avancé ou métastatique avec mutations activatrices de l’EGFR ;|Row 33:\n||- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|Row 34:\n||métastatique, avec mutation EGFR T790M.|Row 35:\ndacomitinib||Est indiqué en monothérapie pour le traitement de première intention des patients|Row 36:\n||adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations|Row 37:\n||activatrices d’EGFR.|",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 1)",
+      "text": "Row 1:\nMolécu|Row 2:\n|MutatioRow 3:\nafatinib|Row 4:\nerlotini|Row 5:\nGefitini|Row 6:\nosimert|Row 7:\ndacomi|",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 2)",
+      "text": "Row 1:\nules||Row 2:\n|Libellé AMM|Row 3:\n||Row 4:\nons d’EGFR||Row 5:\nb|Est indiqué en monothérapie dans les traitements suivants :|Row 6:\n|- patients adultes naïfs de ITK anti-EGFR atteints d’un CBNPC localement avancé ou|Row 7:\n|métastatique qui présente une (des) mutation(s) activatrice(s) de l’EGFR ;|Row 8:\n|- patients adultes ayant un CBNPC de type épidermoïde, localement avancé ou|Row 9:\n|métastatique, progressant sous ou après chimiothérapie à base de platine.|Row 10:\nib|Est indiqué en :|Row 11:\n|- première ligne de traitement des formes localement avancées ou métastatiques du|Row 12:\n|CBNPC chez les patients présentant des mutations activatrices de l’EGFR ;|Row 13:\n|- traitement de switch maintenance des formes localement avancées ou métastatiques|Row 14:\n|du CBNPC chez les patients avec mutations activatrices de l’EGFR et présentant une|Row 15:\n|maladie stable après une première ligne de chimiothérapie ;|Row 16:\n|- traitement des formes localement avancées ou métastatiques du CBNPC après échec|Row 17:\n|d’au moins une ligne de chimiothérapie. Chez les patients avec des tumeurs sans|Row 18:\n|mutations activatrices de l’EGFR, il est indiqué lorsque les autres options de traitement|Row 19:\n|ne sont pas considérées appropriées.|Row 20:\n|Lors de sa prescription, les facteurs associés à une survie prolongée doivent être pris|Row 21:\n|en considération.|Row 22:\n|Aucun bénéfice en survie ou autres effets cliniquement significatifs du traitement n’a été|Row 23:\n|démontré chez les patients dont l’expression de l’EGFR de la tumeur (déterminée par IHC)|Row 24:\n|était négative.|Row 25:\nib|Est indiqué en monothérapie chez les adultes dans le traitement du CBNPC localement|Row 26:\n|avancé ou métastatique avec mutations activatrices de l’EGFR-TK.|Row 27:\ntinib|Est indiqué en monothérapie dans :|Row 28:\n|- le traitement adjuvant après résection tumorale complète des patients adultes atteints|Row 29:\n|d’un CBNPC de stade IB — IIIA avec mutations activatrices de l’EGFR par délétion de|Row 30:\n|l’exon 19 ou substitution de l’exon 21 (L858R) ;|Row 31:\n|- le traitement de première ligne des patients adultes atteints d’un CBNPC localement|Row 32:\n|avancé ou métastatique avec mutations activatrices de l’EGFR ;|Row 33:\n|- le traitement des patients adultes atteints d’un CBNPC localement avancé ou|Row 34:\n|métastatique, avec mutation EGFR T790M.|Row 35:\nitinib|Est indiqué en monothérapie pour le traitement de première intention des patients|Row 36:\n|adultes atteints d’un CBNPC localement avancé ou métastatique avec mutations|Row 37:\n|activatrices d’EGFR.|",
+      "start_page": 29,
+      "end_page": 29
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page)",
+      "text": "Row 1:\nramucirumab||Est indiqué :|Row 2:\n||- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes|Row 3:\n||atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations|Row 4:\n||activatrices de l’EGFR ;|Row 5:\n||- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un|Row 6:\n||cancer bronchique non à petites cellules localement avancé ou métastatique dont la|Row 7:\n||maladie a progressé après une chimiothérapie à base de sels de platine.|Row 8:\namivantamab||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|Row 9:\n||avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec|Row 10:\n||d’un traitement à base de sels de platine.|Row 11:\n|Fusion impliquant ALK||Row 12:\ncrizotinib||Est indiqué en monothérapie :|Row 13:\n||- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et|Row 14:\n||avancé ;|Row 15:\n||- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur|Row 16:\n||pour un CBNPC ALK-positif et avancé.|Row 17:\nceritinib||Est indiqué en monothérapie :|Row 18:\n||- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|Row 19:\n||positif chez les patients adultes ;|Row 20:\n||- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|Row 21:\n||les patients adultes préalablement traités par crizotinib.|Row 22:\nalectinib||Est indiqué en monothérapie :|Row 23:\n||- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|Row 24:\n||réarrangement du gène ALK-positif ;|Row 25:\n||- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|Row 26:\n||préalablement traités par crizotinib.|Row 27:\nbrigatinib||Est indiqué en monothérapie :|Row 28:\n||- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|Row 29:\n||réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|Row 30:\n||de tyrosine kinase ciblant la mutation ALK+ ;|Row 31:\n||- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|Row 32:\n||prétraités par crizotinib.|Row 33:\nlorlatinib||Est indiqué en monothérapie :|Row 34:\n||- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|Row 35:\n||préalablement traité par un inhibiteur de l’ALK ;|Row 36:\n||- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la|Row 37:\n||maladie a progressé après :|Row 38:\n||• alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosine|Row 39:\n||kinase (ITK) ALK ; ou|Row 40:\n||• crizotinib et au moins un autre ITK ALK.|",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 1)",
+      "text": "Row 1:\nramucir|Row 2:\namivan|Row 3:\n|Fusion iRow 4:\ncrizotin|Row 5:\nceritinib|Row 6:\nalectini|Row 7:\nbrigatin|Row 8:\nlorlatin|",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 2)",
+      "text": "Row 2:\nrumabRow 5:\nntamaRow 7:\nimpliqRow 9:\nnibRow 12:\nbRow 15:\nibRow 18:\nnibRow 21:\nnib",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "table under heading ESMO 2023 (from previous page, column 3)",
+      "text": "Row 1:\nb|Est indiqué :|Row 2:\n|- en association avec l’erlotinib, dans le traitement de première ligne des patients adultes|Row 3:\n|atteints d’un cancer bronchique non à petites cellules métastatiques avec mutations|Row 4:\n|activatrices de l’EGFR ;|Row 5:\n|- en association avec le docétaxel, dans le traitement des patients adultes atteints d’un|Row 6:\n|cancer bronchique non à petites cellules localement avancé ou métastatique dont la|Row 7:\n|maladie a progressé après une chimiothérapie à base de sels de platine.|Row 8:\nab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|Row 9:\n|avancé avec mutations activatrices de l’EGFR par insertion dans l’exon 20, après échec|Row 10:\n|d’un traitement à base de sels de platine.|Row 11:\nquant ALK||Row 12:\n|Est indiqué en monothérapie :|Row 13:\n|- en première ligne de traitement des patients adultes ayant un CBNPC ALK-positif et|Row 14:\n|avancé ;|Row 15:\n|- dans le traitement des patients adultes ayant reçu au moins un traitement antérieur|Row 16:\n|pour un CBNPC ALK-positif et avancé.|Row 17:\n|Est indiqué en monothérapie :|Row 18:\n|- en première ligne de traitement du CBNPC avancé avec réarrangement du gène ALK-|Row 19:\n|positif chez les patients adultes ;|Row 20:\n|- dans le traitement du CBNPC avancé avec réarrangement du gène ALK-positif chez|Row 21:\n|les patients adultes préalablement traités par crizotinib.|Row 22:\n|Est indiqué en monothérapie :|Row 23:\n|- en première ligne de traitement des patients adultes ayant un CBNPC avancé avec un|Row 24:\n|réarrangement du gène ALK-positif ;|Row 25:\n|- dans le traitement du CBNPC avancé ALK-positif chez les patients adultes|Row 26:\n|préalablement traités par crizotinib.|Row 27:\n|Est indiqué en monothérapie :|Row 28:\n|- pour le traitement des patients adultes atteints d’un CBNPC avancé présentant un|Row 29:\n|réarrangement du gène ALK (ALK-positif) non précédemment traités par un inhibiteur|Row 30:\n|de tyrosine kinase ciblant la mutation ALK+ ;|Row 31:\n|- pour le traitement des patients adultes atteints de CBNPC avancé ALK-positif et|Row 32:\n|prétraités par crizotinib.|Row 33:\n|Est indiqué en monothérapie :|Row 34:\n|- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé non|Row 35:\n|préalablement traité par un inhibiteur de l’ALK ;|Row 36:\n|- dans le traitement des patients adultes atteints d’un CBNPC ALK-positif avancé dont la|Row 37:\n|maladie a progressé après :|Row 38:\n|• alectinib ou ceritinib comme premier traitement par un inhibiteur de la tyrosine|Row 39:\n|kinase (ITK) ALK ; ou|Row 40:\n|• crizotinib et au moins un autre ITK ALK.|",
+      "start_page": 30,
+      "end_page": 30
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS)",
+      "text": "Row 1:\n|Fusion impliquant ROS1|||Row 2:\ncrizotinib|||Est indiqué en monothérapie dans le traitement des patients adultes ayant un CBNPC|Row 3:\n|||ROS1- positif et avancé.|Row 4:\nentrectinib|||Est indiqué en monothérapie chez les patients adultes atteints de formes avancées de|Row 5:\n|||CBNPC positif pour ROS1 (ROS1+), non précédemment traités par des inhibiteurs de ROS1.|Row 6:\nRepotrectinib|||Validation de la demande d’AMM pour repotrectinib dans le traitement du cancer du|Row 7:\n|||poumon non à petites cellules localement avancé ou métastatique Ros1-Positif et des|Row 8:\n|||tumeurs solides Ntrk-Positives (dépêche du 02/01/2024, en attente de la publication par|Row 9:\n|||l’EMA).|Row 10:\n|Fusion impliquant RET|||Row 11:\nselpercatinib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|Row 12:\n|||avancé présentant une fusion du gène RET non précédemment traités par un inhibiteur|Row 13:\n|||de RET|Row 14:\npralsetinib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|Row 15:\n|||avancé présentant une fusion positive de RET non précédemment traités par un inhibiteur|Row 16:\n|||de RET.|Row 17:\n|Mutation V600E de BRAF|||Row 18:\n|trametinib||Sont indiqués en association dans le traitement des patients adultes atteints d’un CBNPC|Row 19:\n|et dabrafenib||avancé porteur d’une mutation BRAF V600E.|Row 20:\n|Mutation G12C de KRAS|||Row 21:\nsotorasib|||Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPC|Row 22:\n|||avancé, présentant la mutation KRAS G12C, dont la maladie a progressé après au moins|Row 23:\n|||une ligne de traitement systémique antérieur.|Row 24:\nadagrasib|||Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer|Row 25:\n|||bronchique non à petites cellules avancé (CBNPC) avec mutation KRAS G12C, dont la|Row 26:\n|||maladie a progressé après au moins un traitement systémique antérieur.|Row 27:\n|Expression de PD-L1 (TPS)|||Row 28:\npembrolizumab|||Est indiqué en monothérapie dans le traitement adjuvant des patients adultes atteints|Row 29:\n|||d’un CBNPC à haut risque de récidive après résection complète et une chimiothérapie|Row 30:\n|||à base de sels de platine|Row 31:\n|||Est indiqué en monothérapie dans le traitement de première ligne des patients adultes|Row 32:\n|||atteints d’un CBNPC métastatique dont les tumeurs expriment PD-L1 avec un score de|Row 33:\n|||proportion tumorale (TPS) ³50 %, sans mutations tumorales de l’EGFR ou d’ALK.|Row 34:\n|||Est indiqué en association à une chimiothérapie pemetrexed et sel de platine, dans le|Row 35:\n|||traitement de première ligne des patients adultes atteints de CBNPC métastatique|Row 36:\n|||non épidermoïde dont les tumeurs ne présentent pas de mutations d’EGFR ou d’ALK.|",
+      "start_page": 31,
+      "end_page": 31
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page)",
+      "text": "Row 1:\n|Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dansRow 2:\n|le traitement de première ligne des patients adultes atteints de CBNPC métastatiqueRow 3:\n|épidermoïdeRow 4:\n|Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPCRow 5:\n|localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,Row 6:\n|et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant desRow 7:\n|mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçuRow 8:\n|une thérapie ciblée avant de recevoir du pembrolizumab.Row 9:\ndurvalumab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPCRow 10:\n|localement avancé, non opérable, dont les tumeurs expriment PD-L1 ≥ 1 % des cellulesRow 11:\n|tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base deRow 12:\n|platine.Row 13:\n|Est indiqué en association avec le trémélimumab et une chimiothérapie à base de platine,Row 14:\n|dans le traitement de première ligne des patients adultes atteints d’un CBNPCRow 15:\n|métastatique en l’absence de mutation activatrice de l’EGFR ou de ALKRow 16:\natezolizumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligneRow 17:\n|de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.Row 18:\n|Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALKRow 19:\n|(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,Row 20:\n|seulement après échec des thérapies ciblées appropriées.Row 21:\n|Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne deRow 22:\n|traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sansRow 23:\n|EGFR muté ou réarrangement du gène ALK (ALK-positif)Row 24:\n|Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultesRow 25:\n|atteints d’un CBNPC métastatique dont les tumeurs présentent une expression de PD-L1 ≥Row 26:\n|50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant laRow 27:\n|tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement duRow 28:\n|gène ALK (ALK-positif).Row 29:\n|Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPCRow 30:\n|localement avancé ou métastatique après une chimiothérapie antérieure. Les patientsRow 31:\n|atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doiventRow 32:\n|également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.Row 33:\n|Est indiqué pour le traitement adjuvant, après une résection complète et uneRow 34:\n|chimiothérapie à base de platine, chez les adultes atteints d’un CBNPC présentant unRow 35:\n|risque élevé de récidive, dont les tumeurs présentent une expression de PD-L1 sur laRow 36:\n|moitié des cellules tumorales ou plus (PD-L1≥50 %), et dont le cancer n’a pas lesRow 37:\n|mutations EGFR ou ALK+",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 1)",
+      "text": "Row 2:\ndurvaluRow 3:\natezoliz",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 2)",
+      "text": "Row 1:\n|Est indiqué en association au carboplatine et au paclitaxel ou au nab-paclitaxel, dansRow 2:\n|le traitement de première ligne des patients adultes atteints de CBNPC métastatiqueRow 3:\n|épidermoïdeRow 4:\n|Est indiqué en monothérapie dans le traitement des patients adultes atteints de CBNPCRow 5:\n|localement avancé ou métastatique dont les tumeurs expriment PD-L1 avec un TPS³1 %,Row 6:\n|et ayant reçu au moins une chimiothérapie antérieure. Les patients présentant desRow 7:\n|mutations tumorales de sensibilité de l’EGFR ou d’ALK doivent également avoir reçuRow 8:\n|une thérapie ciblée avant de recevoir du pembrolizumab.Row 9:\numab|Est indiqué en monothérapie dans le traitement des patients adultes atteints d’un CBNPCRow 10:\n|localement avancé, non opérable, dont les tumeurs expriment PD-L1 ≥ 1 % des cellulesRow 11:\n|tumorales et dont la maladie n’a pas progressé après une chimioradiothérapie à base deRow 12:\n|platine.Row 13:\n|Est indiqué en association avec le trémélimumab et une chimiothérapie à base de platine,Row 14:\n|dans le traitement de première ligne des patients adultes atteints d’un CBNPCRow 15:\n|métastatique en l’absence de mutation activatrice de l’EGFR ou de ALKRow 16:\nzumab|Est indiqué, en association au bevacizumab, paclitaxel et carboplatine, en première ligneRow 17:\n|de traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique.Row 18:\n|Chez les patients atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALKRow 19:\n|(ALK-positif), est indiqué, en association au bevacizumab, paclitaxel et carboplatine,Row 20:\n|seulement après échec des thérapies ciblées appropriées.Row 21:\n|Est indiqué, en association au nab-paclitaxel et carboplatine, en première ligne deRow 22:\n|traitement des patients adultes atteints d’un CBNPC non épidermoïde métastatique sansRow 23:\n|EGFR muté ou réarrangement du gène ALK (ALK-positif)Row 24:\n|Est indiqué, en monothérapie, dans le traitement de première ligne des patients adultesRow 25:\n|atteints d’un CBNPC métastatique dont les tumeurs présentent une expression de PD-L1 ≥Row 26:\n|50 % sur les cellules tumorales (TC) ou ≥ 10 % sur les cellules immunitaires infiltrant laRow 27:\n|tumeur (IC) et qui ne sont pas atteints d’un CBNPC avec EGFR muté ou réarrangement duRow 28:\n|gène ALK (ALK-positif).Row 29:\n|Est indiqué, en monothérapie, dans le traitement des patients adultes atteints d’un CBNPCRow 30:\n|localement avancé ou métastatique après une chimiothérapie antérieure. Les patientsRow 31:\n|atteints d’un CBNPC avec EGFR muté ou réarrangement du gène ALK (ALK-positif) doiventRow 32:\n|également avoir reçu des thérapies ciblées avant de recevoir Tecentriq.Row 33:\n|Est indiqué pour le traitement adjuvant, après une résection complète et uneRow 34:\n|chimiothérapie à base de platine, chez les adultes atteints d’un CBNPC présentant unRow 35:\n|risque élevé de récidive, dont les tumeurs présentent une expression de PD-L1 sur laRow 36:\n|moitié des cellules tumorales ou plus (PD-L1≥50 %), et dont le cancer n’a pas lesRow 37:\n|mutations EGFR ou ALK+",
+      "start_page": 32,
+      "end_page": 32
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page)",
+      "text": "Row 1:\ncemiplimab||Est indiqué en monothérapie pour le traitement de première ligne de patients adultes|Row 2:\n||atteints d’un CBNPC exprimant PD-L1 (dans ≥ 50 % des cellules tumorales) sans altérations|Row 3:\n||du gène EGFR, ALK ou ROS1, qui ont :|Row 4:\n||- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou|Row 5:\n||- un CBNPC métastatique.|Row 6:\n||Est indiqué en association à une chimiothérapie à base de sels de platine pour le|Row 7:\n||traitement de première ligne de patients adultes atteints d’un cancer bronchopulmonaire|Row 8:\n||non à petites cellules (CBNPC) exprimant PD-L1 (dans ≥ 1 % des cellules tumorales) sans|Row 9:\n||altérations du gène EGFR, ALK ou ROS1, et qui ont :|Row 10:\n||- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou|Row 11:\n||- un CBNPC métastatique.|Row 12:\nnivolumab||Est indiqué en association à une chimiothérapie à base de sels de platine dans le|Row 13:\n||traitement néoadjuvant des patients adultes, atteints d’un cancer bronchique non à|Row 14:\n||petites cellules résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au|Row 15:\n||seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR|Row 16:\n||connue, ni de translocation ALK connue|Row 17:\ntislelizumab||L’indication en combinaison concerne l’association au pemetrexed et une chimiothérapie|Row 18:\n||contenant du platine, dans le traitement de première ligne des patients adultes atteints|Row 19:\n||d’un cancer du poumon NAPC non épidermoïde dont les tumeurs présentent une|Row 20:\n||expression de PD-L1 ≥50 % des cellules tumorales, sans mutation positive EGFR ou ALK, et|Row 21:\n||qui présentent :|Row 22:\n||- un cancer du poumon NAPC localement avancé et qui ne sont pas candidats à une|Row 23:\n||résection chirurgicale ou à une chimioradiothérapie à base de platine ; ou|Row 24:\n||- un cancer du poumon NAPC métastatique.|Row 25:\n||En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un|Row 26:\n||cancer du poumon NAPC localement avancé ou métastatique après un traitement|Row 27:\n||antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec|Row 28:\n||mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|Row 29:\n||de recevoir le tislélizumab.|Row 30:\n||(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)|Row 31:\n|Fusion impliquant NTRK1/2/3||Row 32:\nlarotrectinib||Est indiqué en monothérapie pour le traitement des patients adultes et pédiatriques|Row 33:\n||atteints d’une tumeur solide présentant une fusion d’un des gènes NTRK1/2/3.|Row 34:\n||- ayant une maladie au stade localement avancé ou métastatique, ou pour laquelle une|Row 35:\n||résection chirurgicale risquerait d’entraîner une morbidité sévère ; et|Row 36:\n||- lorsqu’il n’existe aucune option thérapeutique satisfaisante|Row 37:\nRepotrectinib||Validation de la demande d’AMM pour repotrectinib dans le traitement du cancer du|Row 38:\n||poumon non à petites cellules localement avancé ou métastatique Ros1-Positif et des|Row 39:\n||tumeurs solides Ntrk-Positives (dépêche du 2/01/2024, en attente de la publication|Row 40:\n||par l’EMA)|",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 1)",
+      "text": "Row 1:\ncemipli|Row 2:\nnivolum|Row 3:\ntislelizu|Row 4:\n|Fusion iRow 5:\nlarotrec|Row 6:\nRepotre|",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 2)",
+      "text": "Row 2:\nimabRow 5:\nmabRow 8:\numabRow 10:\nimpliqRow 12:\nctinibRow 15:\nectinib",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 3)",
+      "text": "Row 1:\n|Est indiqué en monothérapie pour le traitement de première ligne de patients adultes|Row 2:\n|atteints d’un CBNPC exprimant PD-L1 (dans ≥ 50 % des cellules tumorales) sans altérations|Row 3:\n|du gène EGFR, ALK ou ROS1, qui ont :|Row 4:\n|- un CBNPC localement avancé et ne sont pas candidats à une radio-chimiothérapie ; ou|Row 5:\n|- un CBNPC métastatique.|Row 6:\n|Est indiqué en association à une chimiothérapie à base de sels de platine pour le|Row 7:\n|traitement de première ligne de patients adultes atteints d’un cancer bronchopulmonaire|Row 8:\n|non à petites cellules (CBNPC) exprimant PD-L1 (dans ≥ 1 % des cellules tumorales) sans|Row 9:\n|altérations du gène EGFR, ALK ou ROS1, et qui ont :|Row 10:\n|- un CBNPC localement avancé et ne sont pas candidats à une radiochimiothérapie ; ou|Row 11:\n|- un CBNPC métastatique.|Row 12:\n|Est indiqué en association à une chimiothérapie à base de sels de platine dans le|Row 13:\n|traitement néoadjuvant des patients adultes, atteints d’un cancer bronchique non à|Row 14:\n|petites cellules résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au|Row 15:\n|seuil ≥ 1 % et dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR|Row 16:\n|connue, ni de translocation ALK connue|Row 17:\n|L’indication en combinaison concerne l’association au pemetrexed et une chimiothérapie|Row 18:\n|contenant du platine, dans le traitement de première ligne des patients adultes atteints|Row 19:\n|d’un cancer du poumon NAPC non épidermoïde dont les tumeurs présentent une|Row 20:\n|expression de PD-L1 ≥50 % des cellules tumorales, sans mutation positive EGFR ou ALK, et|Row 21:\n|qui présentent :|Row 22:\n|- un cancer du poumon NAPC localement avancé et qui ne sont pas candidats à une|Row 23:\n|résection chirurgicale ou à une chimioradiothérapie à base de platine ; ou|Row 24:\n|- un cancer du poumon NAPC métastatique.|Row 25:\n|En monothérapie, l’indication porte sur le traitement des patients adultes atteints d’un|Row 26:\n|cancer du poumon NAPC localement avancé ou métastatique après un traitement|Row 27:\n|antérieur à base de platine. Les patients atteints de cancer du poumon NAPC avec|Row 28:\n|mutation EGFR ou ALK+ doivent également avoir reçu des thérapies ciblées avant|Row 29:\n|de recevoir le tislélizumab.|Row 30:\n|(Avis du CHMP 23/02/2024, en attente de la publication par l’EMA)|Row 31:\nquant NTRK1/2/3||Row 32:\n|Est indiqué en monothérapie pour le traitement des patients adultes et pédiatriques|Row 33:\n|atteints d’une tumeur solide présentant une fusion d’un des gènes NTRK1/2/3.|Row 34:\n|- ayant une maladie au stade localement avancé ou métastatique, ou pour laquelle une|Row 35:\n|résection chirurgicale risquerait d’entraîner une morbidité sévère ; et|Row 36:\n|- lorsqu’il n’existe aucune option thérapeutique satisfaisante|Row 37:\nb|Validation de la demande d’AMM pour repotrectinib dans le traitement du cancer du|Row 38:\n|poumon non à petites cellules localement avancé ou métastatique Ros1-Positif et des|Row 39:\n|tumeurs solides Ntrk-Positives (dépêche du 2/01/2024, en attente de la publication|Row 40:\n|par l’EMA)|",
+      "start_page": 33,
+      "end_page": 33
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page)",
+      "text": "Row 1:\n|Mutation saut d’exon 14 c-MET||Row 2:\ncapmatinib||Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer|Row 3:\n||bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne|Row 4:\n||le saut de l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale|Row 5:\n||(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|Row 6:\n||immunothérapie et/ou chimiothérapie à base de platine.|Row 7:\ntepotinib||Est indiqué en monothérapie pour le traitement des patients adultes atteints d’un cancer|Row 8:\n||bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne le|Row 9:\n||saut de l’exon 14 au niveau du gène du facteur de transition épithélio-mésenchymateuse|Row 10:\n||(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|Row 11:\n||immunothérapie et/ou chimiothérapie à base de platine.|Row 12:\n|Mutation activatrice de HER2 (ERBB2)||Row 13:\ntrastuzumab déruxtécan||Est indiqué en monothérapie dans le traitement des patients adultes présentant un CBNPC|Row 14:\n||avec mutation activatrice du gène HER2 (ERBB2) nécessitant un traitement systémique après|Row 15:\n||une chimiothérapie à base de platine associée ou non à une immunothérapie.|",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page)",
+      "text": "Row 1:\ntrastuzumabRow 2:\ndéruxtécan",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page)",
+      "text": "Row 1:\nMolécules|||Row 2:\n||Libellé Autorisations d’accès précoces et compassionnels|Row 3:\n|||Row 4:\n|Expression de PD-L1 (TPS)||Row 5:\ndurvalumab||Traitement des patients adultes atteints d’un CBNPC localement avancé non opérable et|Row 6:\n||dont la maladie n’a pas progressé après une chimioradiothérapie à base de platine, en cas|Row 7:\n||d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le|Row 8:\n||résultat de ce marqueur n’est pas exploitable (statut inconnu).|Row 9:\nnivolumab||En association à une chimiothérapie à base de sels de platine dans le traitement|Row 10:\n||néoadjuvant des patients adultes, atteints d’un cancer bronchique non à petites cellules|Row 11:\n||résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et|Row 12:\n||dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de|Row 13:\n||translocation ALK connue.|Row 14:\n|Mutation d’EGFR exon 20||Row 15:\nmobocertinib||Patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) EGFR|Row 16:\n||muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de|Row 17:\n||sels de platine :|Row 18:\n||- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du|Row 19:\n||traitement permettent de justifier sa poursuite ; ou|Row 20:\n||- chez les patients ne pouvant bénéficier du Rybrevant.|Row 21:\n||Information importante du 23/11/2023 :|Row 22:\n||Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que|Row 23:\n||pour les patients déjà en cours de traitement.|",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 1)",
+      "text": "Row 1:\n|MutatioRow 2:\ncapmat|Row 3:\ntepotin|Row 4:\n|MutatioRow 5:\ntrastuzu déruxté|",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 1)",
+      "text": "Row 1:\ntrastuzuRow 2:\ndéruxté",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 1)",
+      "text": "Row 1:\nMolécu|Row 2:\n|ExpressRow 3:\ndurvalu|Row 4:\nnivolum|Row 5:\n|MutatioRow 6:\nmoboce|",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 2)",
+      "text": "Row 1:\non saut d’exon 14 c-MET||Row 2:\ntinib|Est indiqué en monothérapie pour le traitement de patients adultes atteints d’un cancer|Row 3:\n|bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne|Row 4:\n|le saut de l’exon 14 au niveau du gène du facteur de transition mésenchymato-épithéliale|Row 5:\n|(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|Row 6:\n|immunothérapie et/ou chimiothérapie à base de platine.|Row 7:\nnib|Est indiqué en monothérapie pour le traitement des patients adultes atteints d’un cancer|Row 8:\n|bronchique non à petites cellules (CBNPC) avancé présentant une mutation qui entraîne le|Row 9:\n|saut de l’exon 14 au niveau du gène du facteur de transition épithélio-mésenchymateuse|Row 10:\n|(METex14), qui nécessitent un traitement systémique après un traitement antérieur par|Row 11:\n|immunothérapie et/ou chimiothérapie à base de platine.|Row 12:\non activatrice de HER2 (ERBB2)||Row 13:\numab écan|Est indiqué en monothérapie dans le traitement des patients adultes présentant un CBNPC|Row 14:\n|avec mutation activatrice du gène HER2 (ERBB2) nécessitant un traitement systémique après|Row 15:\n|une chimiothérapie à base de platine associée ou non à une immunothérapie.|",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 2)",
+      "text": "Row 1:\numabRow 2:\nécan",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Expression de PD-L1 (TPS) (from previous page, column 2)",
+      "text": "Row 1:\nules||Row 2:\n|Libellé Autorisations d’accès précoces et compassionnels|Row 3:\n||Row 4:\nsion de PD-L1 (TPS)||Row 5:\numab|Traitement des patients adultes atteints d’un CBNPC localement avancé non opérable et|Row 6:\n|dont la maladie n’a pas progressé après une chimioradiothérapie à base de platine, en cas|Row 7:\n|d’expression tumorale de PD-L1 < 1 % ou dans le cas où ce statut est recherché, mais le|Row 8:\n|résultat de ce marqueur n’est pas exploitable (statut inconnu).|Row 9:\nmab|En association à une chimiothérapie à base de sels de platine dans le traitement|Row 10:\n|néoadjuvant des patients adultes, atteints d’un cancer bronchique non à petites cellules|Row 11:\n|résécable à haut risque de récidive, dont les tumeurs expriment PD-L1 au seuil ≥ 1 % et|Row 12:\n|dont les tumeurs ne présentent pas de mutation sensibilisante de l’EGFR connue, ni de|Row 13:\n|translocation ALK connue.|Row 14:\non d’EGFR exon 20||Row 15:\nertinib|Patients adultes atteints d’un cancer bronchique non à petites cellules (CBNPC) EGFR|Row 16:\n|muté exon 20, stade métastatique et ayant préalablement reçu un traitement à base de|Row 17:\n|sels de platine :|Row 18:\n|- préalablement traités par Mobocertinib et pour lesquels l’efficacité et la sécurité du|Row 19:\n|traitement permettent de justifier sa poursuite ; ou|Row 20:\n|- chez les patients ne pouvant bénéficier du Rybrevant.|Row 21:\n|Information importante du 23/11/2023 :|Row 22:\n|Les initiations de traitement sont arrêtées. Les renouvellements ne sont assurés que|Row 23:\n|pour les patients déjà en cours de traitement.|",
+      "start_page": 34,
+      "end_page": 34
+    },
+    {
+      "heading": "table under heading Fusion de RET",
+      "text": "Row 1:\namivantamab|||En association au carboplatine et au pemetrexed en première ligne de traitement des|Row 2:\n|||patients adultes atteints d’un cancer bronchique non à petites cellules avancé avec|Row 3:\n|||mutations activatrices du récepteur du facteur de croissance épidermique (EGFR) par|Row 4:\n|||insertion dans l’exon 20, pour les patients non opérables|Row 5:\n|Mutation KRAS G12C|||Row 6:\nadagrasib (AAC)|||Cancer bronchique non à petites cellules avancé ou métastatique : en présence d’une|Row 7:\n|||mutation de KRAS p.G12C, ayant échappé à une seconde ligne de traitement par|Row 8:\n|||docetaxel ou non éligible à un traitement par docetaxel.|Row 9:\n|||(Attention, risque potentiel d’effets indésirables cutanés sévères)|Row 10:\n|Mutation avec saut de l’exon 14 MET|||Row 11:\ncrizotinib|||Traitement des patients adultes atteints d’un CBNPC localement avancé ou métastatique|Row 12:\n|||présentant une mutation du site d’épissage de l’exon 14 de c-MET, après au moins une|Row 13:\n|||ligne de traitement à base de doublet de platine associé ou non à une immunothérapie|Row 14:\n|Amplification de MET ou surexpression de c-MET|||Row 15:\ntelisotuzumab vedotin (AAC)|||CBNPC non squameux avancé/métastatique en rechute/réfractaire :|Row 16:\n|||- en situation d’impasse thérapeutique après 2 lignes de traitement ;|Row 17:\n|||- amplification c-MET ou surexpression c-MET caractérisée par IHC ;|Row 18:\n|||- absence de mutation EGFR.|Row 19:\n|Fusion de ROS1|||Row 20:\n|repotrectinib||Cancer bronchique non à petites cellules avancé ou métastatique ROS1-positif, chez des|Row 21:\n|(AAC)||patients adultes ayant déjà reçu une première ligne de traitement par Crizotinib|Row 22:\n|Fusion de NTRK1/2/3|||Row 23:\nrepotrectinib (AAC)|||Tumeurs solides exprimant une fusion du gène NTRK1/2/3, non résécables métastatiques|Row 24:\n|||ou localement avancées, chez des patients ayant déjà reçu une première ligne de|Row 25:\n|||traitement.|Row 26:\n|Fusion de RET|||Row 27:\nselpercatinib|||En monothérapie dans le traitement des patients adultes atteints d’un cancer bronchique|Row 28:\n|||non à petites cellules (CBNPC) avancé présentant une fusion du gène RET non|Row 29:\n|||précédemment traités par un inhibiteur de RET uniquement en première ligne de|Row 30:\n|||traitement.|",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "table under heading Fusion de RET",
+      "text": "Row 1:\ntelisotuzumabRow 2:\nvedotin (AAC)",
+      "start_page": 35,
+      "end_page": 35
+    },
+    {
+      "heading": "table under heading Fusion de RET",
+      "text": "Row 1:\nrepotrectinibRow 2:\n(AAC)",
+      "start_page": 35,
+      "end_page": 35
+    }
+  ]
+}

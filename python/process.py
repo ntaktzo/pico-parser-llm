@@ -1,3 +1,7 @@
+import warnings
+warnings.filterwarnings("ignore", message="`torch.utils._pytree._register_pytree_node` is deprecated")
+
+import glob
 import os
 import re
 import json
@@ -5,6 +9,8 @@ import statistics
 import pdfplumber
 from collections import defaultdict
 import numpy as np  # Add this to the existing imports
+from typing import Dict, Any, List  # Add List if you use it in any methods
+
 
 
 class PDFProcessor:
@@ -371,35 +377,39 @@ class PDFProcessor:
         
         return tables_info
 
+
+
     @staticmethod
     def flatten_table(table):
         """
-        Converts a table (list of lists) into lines where each row is:
-            Row X: cell1|cell2|cell3
-        with no extra padding around the '|'.
+        Like the original, but
+        • runs through pandas to drop empty cols/rows
+        • keeps header row
+        • still emits plain-text “Row X: col1|col2|…”
         """
-        if not table:
+        if not table or len(table) < 2:
             return ""
 
-        # Clean each cell in the table (remove newlines and extra spaces)
-        cleaned_table = []
-        for row in table:
-            cleaned_row = []
-            for cell in row:
-                if cell is None:
-                    cell = ""
-                # Replace any sequence of whitespace (including newlines) with a single space
-                cleaned_cell = re.sub(r'\s+', ' ', str(cell)).strip()
-                cleaned_row.append(cleaned_cell)
-            cleaned_table.append(cleaned_row)
+        # Build DataFrame
+        df = pd.DataFrame(table[1:], columns=table[0])
 
-        # Build lines with a Row index
-        lines = []
-        for i, row in enumerate(cleaned_table, start=1):
-            row_str = "|".join(row)
-            lines.append(f"Row {i}: {row_str}")
+        # Drop completely-empty rows / cols
+        df = df.dropna(axis=0, how="all").dropna(axis=1, how="all")
+        if df.empty:
+            return ""
 
-        return "\n".join(lines)
+        # Clean cells (collapse whitespace, remove line breaks)
+        df = df.applymap(lambda x: re.sub(r'\s+', ' ', str(x).strip()) if pd.notnull(x) else "")
+
+        # Header
+        header = "|".join(df.columns)
+
+        # Rows
+        lines = [f"Row {i+1}: " + "|".join(str(v) for v in row)
+                for i, row in df.iterrows()]
+
+        return f"HEADER: {header}\n" + "\n".join(lines)
+
 
     def extract_preliminary_chunks(self):
         """
